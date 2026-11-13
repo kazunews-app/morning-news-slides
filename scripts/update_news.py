@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-1時間ごとにトレンドニュースを複数ソース（Google News / はてなブックマークIT / Zenn）から収集し、
-OGP画像抽出および Gemini API 要約（GEMINI_API_KEY 設定時）を行って data/news.js を更新します。
+1時間ごとにトレンドニュースを複数ソース（Yahoo!ニュース / はてなブックマーク / Zenn）から収集し、
+引用元サイトの関連画像（OGP画像・サムネイル）および Gemini API 要約を行って data/news.js を更新します。
 Python 標準ライブラリのみで動作します。
 """
 
@@ -14,6 +14,7 @@ import html
 import json
 import os
 import re
+import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
 from pathlib import Path
@@ -23,7 +24,10 @@ PROJECT_ROOT = Path(__file__).resolve().parent.parent
 DATA_JS_PATH = PROJECT_ROOT / "data" / "news.js"
 
 DOW_JP = ["月", "火", "水", "木", "金", "土", "日"]
-USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+USER_AGENT = (
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+    "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+)
 
 FALLBACK_IMAGES = {
     "domestic": ["assets/images/news-1.jpg", "assets/images/news-2.jpg"],
@@ -57,6 +61,16 @@ def find_child_text(elem: ET.Element, name: str) -> str:
     return ""
 
 
+def domain_label(url: str, fallback: str) -> str:
+    try:
+        host = urllib.parse.urlparse(url).netloc.lower()
+        if host.startswith("www."):
+            host = host[4:]
+        return host or fallback
+    except Exception:
+        return fallback
+
+
 def parse_datetime_ts(date_str: str) -> tuple[int, str]:
     now = datetime.datetime.now(JST)
     if not date_str:
@@ -79,63 +93,155 @@ def parse_datetime_ts(date_str: str) -> tuple[int, str]:
         return int(now.timestamp()), now.strftime("%Y-%m-%d %H:%M")
 
 
-def fetch_url_bytes(url: str, timeout: int = 15) -> bytes:
-    req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+def fetch_url_bytes(url: str, timeout: int = 12) -> bytes:
+    req = urllib.request.Request(
+        url,
+        headers={
+            "User-Agent": USER_AGENT,
+            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+            "Accept-Language": "ja,en-US;q=0.9,en;q=0.8",
+        },
+    )
     with urllib.request.urlopen(req, timeout=timeout) as resp:
         return resp.read()
 
 
-def fetch_google_news(url: str, category: str, limit: int) -> list[dict]:
+def is_generic_logo_image(img_url: str) -> bool:
+    lowered = img_url.lower()
+    bad_tokens = [
+        "ogp_default",
+        "default_ogp",
+        "s.yimg.jp/images/news/ogp",
+        "s.yimg.jp/images/jpnews/cre/common",
+        "nosImage",
+        "noimage",
+        "spacer.gif",
+    ]
+    return any(tok.lower() in lowered for tok in bad_tokens)
+
+
+def normalize_image_url(base_url: str, raw_img: str) -> str | None:
+    if not raw_img:
+        return None
+    img = html.unescape(raw_img.strip())
+    if img.startswith("//"):
+        img = "https:" + img
+    elif img.startswith("/"):
+        img = urllib.parse.urljoin(base_url, img)
+    elif img.startswith("http://"):
+        img = "https://" + img[len("http://") :]
+    if not img.startswith("https://"):
+        return None
+    if is_generic_logo_image(img):
+        return None
+    return img
+
+
+def extract_meta_from_html(page_url: str, html_text: str) -> tuple[str | None, str | None]:
+    """HTMLから (og:image URL, og:description) を抽出する"""
+    img_patterns = [
+        r'<meta[^>]+property=["\']og:image["\'][^>]+content=["\']([^"\']+)["\']',
+        r'<meta[^>]+content=["\']([^"\']+)["\'][^>]+property=["\']og:image["\']',
+        r'<meta[^>]+name=["\']twitter:image(?::src)?["\'][^>]+content=["\']([^"\']+)["\']',
+        r'<meta[^>]+content=["\']([^"\']+)["\'][^>]+name=["\']twitter:image(?::src)?["\']',
+    ]
+    found_img: str | None = None
+    for pat in img_patterns:
+        for m in re.finditer(pat, html_text, re.IGNORECASE):
+            cand = normalize_image_url(page_url, m.group(1))
+            if cand:
+                found_img = cand
+                break
+        if found_img:
+            break
+
+    # Yahooニュース等の記事画像URLが本文内にある場合の補助抽出
+    if not found_img and "yahoo.co.jp" in page_url:
+        m_y = re.search(r'(https://newsatcl-pctr\.c\.yimg\.jp/[^\s"\'<>]+)', html_text)
+        if m_y:
+            found_img = normalize_image_url(page_url, m_y.group(1))
+
+    desc_patterns = [
+        r'<meta[^>]+property=["\']og:description["\'][^>]+content=["\']([^"\']+)["\']',
+        r'<meta[^>]+content=["\']([^"\']+)["\'][^>]+property=["\']og:description["\']',
+        r'<meta[^>]+name=["\']description["\'][^>]+content=["\']([^"\']+)["\']',
+    ]
+    found_desc: str | None = None
+    for pat in desc_patterns:
+        m = re.search(pat, html_text, re.IGNORECASE)
+        if m:
+            d = clean_html(m.group(1))
+            if len(d) >= 20:
+                found_desc = d
+                break
+
+    return found_img, found_desc
+
+
+def fetch_page_og_meta(url: str) -> tuple[str | None, str | None]:
+    if not url:
+        return None, None
+    try:
+        req = urllib.request.Request(
+            url,
+            headers={
+                "User-Agent": USER_AGENT,
+                "Accept": "text/html,application/xhtml+xml",
+                "Accept-Language": "ja,en-US;q=0.9",
+            },
+        )
+        with urllib.request.urlopen(req, timeout=5) as resp:
+            final_url = resp.geturl() or url
+            ctype = resp.headers.get("Content-Type", "")
+            if "html" not in ctype.lower():
+                return None, None
+            chunk = resp.read(131072).decode("utf-8", errors="ignore")
+        img, desc = extract_meta_from_html(final_url, chunk)
+
+        # Yahoo! pickup ページで画像がロゴだった場合、元記事(articles/...)リンクを辿る
+        if not img and "news.yahoo.co.jp/pickup/" in final_url:
+            m_art = re.search(r'(https://news\.yahoo\.co\.jp/articles/[a-zA-Z0-9]+)', chunk)
+            if m_art:
+                return fetch_page_og_meta(m_art.group(1))
+
+        return img, desc
+    except Exception:
+        return None, None
+
+
+def fetch_yahoo_topics(rss_url: str, category: str, limit: int) -> list[dict]:
     items: list[dict] = []
     try:
-        root = ET.fromstring(fetch_url_bytes(url))
+        root = ET.fromstring(fetch_url_bytes(rss_url))
     except Exception as exc:
-        print(f"[WARN] Google News fetch failed ({category}): {exc}")
+        print(f"[WARN] Yahoo RSS fetch failed ({category}): {exc}")
         return items
 
     for idx, node in enumerate(root.findall("./channel/item")[:limit]):
-        raw_title = (node.findtext("title") or "").strip()
-        source_el = node.find("source")
-        source_name = (
-            source_el.text.strip()
-            if source_el is not None and source_el.text
-            else CATEGORY_LABELS[category]
-        )
-
-        title = raw_title
-        m = re.match(r"^(.*)\s+-\s+([^-]+)$", raw_title)
-        if m:
-            title = m.group(1).strip()
-            if not source_name:
-                source_name = m.group(2).strip()
-
-        desc = clean_html(node.findtext("description"))
-        if len(desc) < 15:
-            desc = f"{title} に関する最新ニュースです。"
-        elif len(desc) > 150:
-            desc = desc[:147] + "..."
-
-        ts, pub_str = parse_datetime_ts(node.findtext("pubDate") or "")
+        title = (node.findtext("title") or "").strip()
         link = (node.findtext("link") or "").strip()
+        ts, pub_str = parse_datetime_ts(node.findtext("pubDate") or "")
+        rss_img = normalize_image_url(link, node.findtext("image") or "")
         fb_list = FALLBACK_IMAGES[category]
 
         items.append(
             {
                 "category": category,
                 "title": title,
-                "source": source_name,
+                "source": "Yahoo!ニュース",
                 "publishedAt": pub_str,
                 "publishedTs": ts,
-                "image": fb_list[idx % len(fb_list)],
-                "hasRealImage": False,
-                "summary": desc,
+                "image": rss_img or fb_list[idx % len(fb_list)],
+                "fallbackHatenaImg": rss_img,
+                "hasRealImage": bool(rss_img),
+                "summary": f"「{title}」に関する注目ニュースです。",
                 "points": [
-                    f"カテゴリ: {CATEGORY_LABELS[category]}の主要トピック",
-                    f"配信元: {source_name}（{pub_str}）",
+                    f"カテゴリ: {CATEGORY_LABELS[category]}の注目トピック",
+                    f"配信: Yahoo!ニュース トピックス（{pub_str}）",
                     "「元記事を読む」から詳細を確認できます",
                 ],
-                "impact": f"{CATEGORY_LABELS[category]}分野で注目を集めている最新トピックです。",
-                "tags": [CATEGORY_LABELS[category], source_name],
+                "impact": f"{CATEGORY_LABELS[category]}分野で関心を集めている最新ニュースです。",
+                "tags": [CATEGORY_LABELS[category], "Yahoo!ニュース"],
                 "url": link,
                 "isAiEnriched": False,
             }
@@ -143,13 +249,12 @@ def fetch_google_news(url: str, category: str, limit: int) -> list[dict]:
     return items
 
 
-def fetch_hatena_tech(limit: int = 3) -> list[dict]:
-    url = "https://b.hatena.ne.jp/hotentry/it.rss"
+def fetch_hatena_rss(rss_url: str, category: str, limit: int) -> list[dict]:
     items: list[dict] = []
     try:
-        root = ET.fromstring(fetch_url_bytes(url))
+        root = ET.fromstring(fetch_url_bytes(rss_url))
     except Exception as exc:
-        print(f"[WARN] Hatena IT fetch failed: {exc}")
+        print(f"[WARN] Hatena RSS fetch failed ({category}): {exc}")
         return items
 
     rdf_items = [el for el in root if local_name(el.tag) == "item"]
@@ -158,34 +263,35 @@ def fetch_hatena_tech(limit: int = 3) -> list[dict]:
         link = find_child_text(node, "link")
         desc = clean_html(find_child_text(node, "description"))
         if len(desc) < 15:
-            desc = f"はてなブックマーク ITカテゴリで話題の記事「{title}」です。"
-        elif len(desc) > 150:
-            desc = desc[:147] + "..."
+            desc = f"「{title}」に関する注目記事です。"
+        elif len(desc) > 160:
+            desc = desc[:157] + "..."
 
         date_raw = find_child_text(node, "date")
         ts, pub_str = parse_datetime_ts(date_raw)
 
-        img_url = find_child_text(node, "imageurl")
-        has_real = bool(img_url.startswith("https://"))
-        fb_list = FALLBACK_IMAGES["tech"]
+        hatena_img = normalize_image_url(link, find_child_text(node, "imageurl"))
+        fb_list = FALLBACK_IMAGES[category]
+        src_domain = domain_label(link, "はてなブックマーク")
 
         items.append(
             {
-                "category": "tech",
+                "category": category,
                 "title": title,
-                "source": "はてブIT",
+                "source": src_domain,
                 "publishedAt": pub_str,
                 "publishedTs": ts,
-                "image": img_url if has_real else fb_list[idx % len(fb_list)],
-                "hasRealImage": has_real,
+                "image": hatena_img or fb_list[idx % len(fb_list)],
+                "fallbackHatenaImg": hatena_img,
+                "hasRealImage": False,  # フル解像度OGPの取得も試みるためFalseにしておく
                 "summary": desc,
                 "points": [
-                    "エンジニア・テック界隈で注目を集めている人気記事",
-                    f"配信: はてなブックマーク テクノロジー（{pub_str}）",
+                    f"カテゴリ: {CATEGORY_LABELS[category]}で話題の記事",
+                    f"引用元: {src_domain}（{pub_str}）",
                     "「元記事を読む」から本文を確認できます",
                 ],
-                "impact": "技術トレンドや開発ノウハウとしてSNS・コミュニティで広く共有されています。",
-                "tags": ["テックトレンド", "はてブIT"],
+                "impact": f"{CATEGORY_LABELS[category]}分野で多くの読者に共有されている注目記事です。",
+                "tags": [CATEGORY_LABELS[category], src_domain],
                 "url": link,
                 "isAiEnriched": False,
             }
@@ -196,7 +302,9 @@ def fetch_hatena_tech(limit: int = 3) -> list[dict]:
 def fetch_zenn_tech(limit: int = 2) -> list[dict]:
     items: list[dict] = []
     try:
-        data = json.loads(fetch_url_bytes("https://zenn.dev/api/articles?order=trend&count=5").decode("utf-8"))
+        data = json.loads(
+            fetch_url_bytes("https://zenn.dev/api/articles?order=trend&count=5").decode("utf-8")
+        )
         for idx, art in enumerate(data.get("articles", [])[:limit]):
             title = art.get("title", "").strip()
             path = art.get("path", "")
@@ -210,10 +318,11 @@ def fetch_zenn_tech(limit: int = 2) -> list[dict]:
                 {
                     "category": "tech",
                     "title": title,
-                    "source": f"Zenn ({user_name})",
+                    "source": f"zenn.dev ({user_name})",
                     "publishedAt": pub_str,
                     "publishedTs": ts,
                     "image": fb_list[idx % len(fb_list)],
+                    "fallbackHatenaImg": None,
                     "hasRealImage": False,
                     "summary": f"Zennでトレンド入りしている技術記事（いいね {likes}件）。実務に役立つ開発知見が解説されています。",
                     "points": [
@@ -232,46 +341,32 @@ def fetch_zenn_tech(limit: int = 2) -> list[dict]:
     return items
 
 
-def extract_og_image(url: str) -> str | None:
-    if not url or "news.google.com" in url:
-        return None
-    try:
-        req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
-        with urllib.request.urlopen(req, timeout=3) as resp:
-            ctype = resp.headers.get("Content-Type", "")
-            if "html" not in ctype.lower():
-                return None
-            chunk = resp.read(65536).decode("utf-8", errors="ignore")
-        patterns = [
-            r'<meta[^>]+property=["\']og:image["\'][^>]+content=["\']([^"\']+)["\']',
-            r'<meta[^>]+content=["\']([^"\']+)["\'][^>]+property=["\']og:image["\']',
-        ]
-        for pat in patterns:
-            m = re.search(pat, chunk, re.IGNORECASE)
-            if m:
-                img = html.unescape(m.group(1).strip())
-                if img.startswith("https://"):
-                    return img
-    except Exception:
-        return None
-    return None
-
-
-def enrich_images_parallel(items: list[dict]) -> None:
-    targets = [it for it in items if not it.get("hasRealImage") and it.get("url") and "news.google.com" not in it["url"]]
+def enrich_og_metadata_parallel(items: list[dict]) -> None:
+    targets = [it for it in items if not it.get("hasRealImage") and it.get("url")]
     if not targets:
         return
-    with concurrent.futures.ThreadPoolExecutor(max_workers=5) as pool:
-        future_map = {pool.submit(extract_og_image, it["url"]): it for it in targets}
+    with concurrent.futures.ThreadPoolExecutor(max_workers=8) as pool:
+        future_map = {pool.submit(fetch_page_og_meta, it["url"]): it for it in targets}
         for future in concurrent.futures.as_completed(future_map):
             it = future_map[future]
             try:
-                og_img = future.result()
+                og_img, og_desc = future.result()
                 if og_img:
                     it["image"] = og_img
                     it["hasRealImage"] = True
+                elif it.get("fallbackHatenaImg"):
+                    it["image"] = it["fallbackHatenaImg"]
+                    it["hasRealImage"] = True
+
+                if og_desc and (
+                    "に関する注目ニュースです" in it.get("summary", "")
+                    or len(it.get("summary", "")) < 35
+                ):
+                    it["summary"] = og_desc[:155] + ("..." if len(og_desc) > 155 else "")
             except Exception:
-                pass
+                if it.get("fallbackHatenaImg"):
+                    it["image"] = it["fallbackHatenaImg"]
+                    it["hasRealImage"] = True
 
 
 def load_cached_items() -> dict[str, dict]:
@@ -289,8 +384,6 @@ def load_cached_items() -> dict[str, dict]:
         for it in data.get("items", []):
             if it.get("url"):
                 cache[it["url"]] = it
-            if it.get("title"):
-                cache[it["title"]] = it
         return cache
     except Exception:
         return {}
@@ -375,7 +468,6 @@ def enrich_with_gemini(items: list[dict], api_key: str) -> list[str] | None:
 
 
 def interleave_top_items(domestic: list[dict], tech: list[dict], business: list[dict]) -> list[dict]:
-    """トップページで各カテゴリがバランス良く並ぶように先頭を構成し、残りを時刻順にする"""
     ordered: list[dict] = []
     buckets = [list(domestic), list(tech), list(business)]
     while any(buckets):
@@ -388,24 +480,26 @@ def interleave_top_items(domestic: list[dict], tech: list[dict], business: list[
 def main() -> None:
     now = datetime.datetime.now(JST)
 
-    domestic = fetch_google_news(
-        "https://news.google.com/rss?hl=ja&gl=JP&ceid=JP:ja",
-        "domestic",
-        limit=5,
+    domestic = fetch_yahoo_topics(
+        "https://news.yahoo.co.jp/rss/topics/domestic.xml", "domestic", limit=3
+    ) + fetch_hatena_rss(
+        "https://b.hatena.ne.jp/hotentry/social.rss", "domestic", limit=3
     )
+
     tech = (
-        fetch_google_news(
-            "https://news.google.com/rss/headlines/section/topic/TECHNOLOGY?hl=ja&gl=JP&ceid=JP:ja",
-            "tech",
-            limit=3,
+        fetch_yahoo_topics(
+            "https://news.yahoo.co.jp/rss/topics/it.xml", "tech", limit=2
         )
-        + fetch_hatena_tech(limit=3)
+        + fetch_hatena_rss(
+            "https://b.hatena.ne.jp/hotentry/it.rss", "tech", limit=3
+        )
         + fetch_zenn_tech(limit=2)
     )
-    business = fetch_google_news(
-        "https://news.google.com/rss/headlines/section/topic/BUSINESS?hl=ja&gl=JP&ceid=JP:ja",
-        "business",
-        limit=5,
+
+    business = fetch_yahoo_topics(
+        "https://news.yahoo.co.jp/rss/topics/business.xml", "business", limit=3
+    ) + fetch_hatena_rss(
+        "https://b.hatena.ne.jp/hotentry/economics.rss", "business", limit=3
     )
 
     items = interleave_top_items(domestic, tech, business)
@@ -422,10 +516,10 @@ def main() -> None:
             unique_items.append(it)
     items = unique_items
 
-    # 既存キャッシュからAI要約済み・OGP画像済みを引き継ぐ
+    # 既存キャッシュからAI要約・実画像を引き継ぐ
     cache = load_cached_items()
     for it in items:
-        cached = cache.get(it.get("url", "")) or cache.get(it.get("title", ""))
+        cached = cache.get(it.get("url", ""))
         if cached:
             if cached.get("isAiEnriched"):
                 it["title"] = cached.get("title", it["title"])
@@ -434,11 +528,13 @@ def main() -> None:
                 it["impact"] = cached.get("impact", it["impact"])
                 it["tags"] = cached.get("tags", it["tags"])
                 it["isAiEnriched"] = True
-            if cached.get("image", "").startswith("https://"):
-                it["image"] = cached["image"]
+            cached_img = cached.get("image", "")
+            if cached_img.startswith("https://") and not is_generic_logo_image(cached_img):
+                it["image"] = cached_img
                 it["hasRealImage"] = True
 
-    enrich_images_parallel(items)
+    # 引用元ページからOGP画像＆概要を並列取得
+    enrich_og_metadata_parallel(items)
 
     keywords: list[str] = []
     api_key = os.environ.get("GEMINI_API_KEY", "").strip()
@@ -448,15 +544,9 @@ def main() -> None:
             keywords = ai_keywords
 
     if not keywords:
-        # タグや見出しから注目キーワードを作成
-        tag_candidates: list[str] = []
-        for it in items:
-            for t in it.get("tags", []):
-                if t not in CATEGORY_LABELS.values() and t not in tag_candidates:
-                    tag_candidates.append(t)
-        keywords = tag_candidates[:6] or [
-            (it["title"][:14] + "…") if len(it["title"]) > 14 else it["title"]
-            for it in items[:5]
+        keywords = [
+            (it["title"][:13] + "…") if len(it["title"]) > 13 else it["title"]
+            for it in items[:6]
         ]
 
     clean_items = []
@@ -490,7 +580,10 @@ def main() -> None:
     DATA_JS_PATH.parent.mkdir(parents=True, exist_ok=True)
     js_content = f"window.NEWS_DATA = {json.dumps(payload, ensure_ascii=False, indent=2)};\n"
     DATA_JS_PATH.write_text(js_content, encoding="utf-8")
-    print(f"Updated {len(clean_items)} news items -> {DATA_JS_PATH}")
+    real_img_count = sum(1 for it in clean_items if it["image"].startswith("https://"))
+    print(
+        f"Updated {len(clean_items)} news items ({real_img_count} with source images) -> {DATA_JS_PATH}"
+    )
 
 
 if __name__ == "__main__":

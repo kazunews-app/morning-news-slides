@@ -133,7 +133,7 @@
     elHeroLead.innerHTML = `
       <article class="hero-card" data-article-idx="${lead._idx}">
         <div class="hero-image-wrap">
-          <img src="${escapeHtml(leadImg)}" alt="${escapeHtml(lead.title)}" onerror="this.onerror=null;this.src='${escapeHtml(leadFallback)}'" />
+          <img src="${escapeHtml(leadImg)}" alt="${escapeHtml(lead.title)}" referrerpolicy="no-referrer" onerror="this.onerror=null;this.src='${escapeHtml(leadFallback)}'" />
           <span class="hero-top-badge">TOP PICKUP</span>
         </div>
         <div class="hero-body">
@@ -156,7 +156,7 @@
         const fb = getFallbackImage(item, i + 1);
         return `
           <button type="button" class="side-item" data-article-idx="${item._idx}">
-            <img class="side-thumb" src="${escapeHtml(img)}" alt="" loading="lazy" onerror="this.onerror=null;this.src='${escapeHtml(fb)}'" />
+            <img class="side-thumb" src="${escapeHtml(img)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.onerror=null;this.src='${escapeHtml(fb)}'" />
             <div class="side-item-body">
               <div class="meta-row">
                 <span class="cat-pill ${escapeHtml(item.category)}">${meta.icon} ${escapeHtml(meta.label)}</span>
@@ -235,7 +235,7 @@
           return `
             <article class="news-card" data-article-idx="${item._idx}">
               <div class="card-thumb-wrap">
-                <img src="${escapeHtml(img)}" alt="${escapeHtml(item.title)}" loading="lazy" onerror="this.onerror=null;this.src='${escapeHtml(fb)}'" />
+                <img src="${escapeHtml(img)}" alt="${escapeHtml(item.title)}" loading="lazy" referrerpolicy="no-referrer" onerror="this.onerror=null;this.src='${escapeHtml(fb)}'" />
               </div>
               <div class="card-body">
                 <div class="meta-row">
@@ -278,7 +278,7 @@
       .join("");
 
     elModalContent.innerHTML = `
-      <img class="modal-hero-img" src="${escapeHtml(img)}" alt="${escapeHtml(item.title)}" onerror="this.onerror=null;this.src='${escapeHtml(fb)}'" />
+      <img class="modal-hero-img" src="${escapeHtml(img)}" alt="${escapeHtml(item.title)}" referrerpolicy="no-referrer" onerror="this.onerror=null;this.src='${escapeHtml(fb)}'" />
       <div class="modal-body">
         <div class="meta-row">
           <span class="cat-pill ${escapeHtml(item.category)}">${meta.icon} ${escapeHtml(meta.label)}</span>
@@ -289,31 +289,28 @@
         <h2 class="modal-title" id="modal-title">${escapeHtml(item.title)}</h2>
         <p class="modal-lead">${escapeHtml(item.summary)}</p>
 
-        ${
-          pointsHtml
-            ? `<div class="modal-box">
+        ${pointsHtml
+        ? `<div class="modal-box">
                 <h3>📌 3つの要点</h3>
                 <ul class="modal-points">${pointsHtml}</ul>
               </div>`
-            : ""
-        }
+        : ""
+      }
 
-        ${
-          item.impact
-            ? `<div class="modal-box">
+        ${item.impact
+        ? `<div class="modal-box">
                 <h3>💡 注目ポイント・影響</h3>
                 <p class="modal-impact">${escapeHtml(item.impact)}</p>
               </div>`
-            : ""
-        }
+        : ""
+      }
 
         <div class="modal-actions">
           <div style="display:flex;gap:6px;flex-wrap:wrap;">${tagsHtml}</div>
-          ${
-            item.url
-              ? `<a class="read-original-btn" href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">元記事を読む ↗</a>`
-              : ""
-          }
+          ${item.url
+        ? `<a class="read-original-btn" href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">元記事を読む ↗</a>`
+        : ""
+      }
         </div>
       </div>
     `;

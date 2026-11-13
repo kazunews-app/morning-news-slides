@@ -5,6 +5,12 @@ on:
     # 1時間ごとに自動更新（毎時05分）
     - cron: '5 * * * *'
   workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - 'scripts/update_news.py'
+      - '.github/workflows/update-news.yml'
 
 permissions:
   contents: write
@@ -21,7 +27,7 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Fetch and summarize news
+      - name: Fetch and summarize news with source images
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python3 scripts/update_news.py
@@ -34,6 +40,7 @@ jobs:
           if git diff --staged --quiet; then
             echo "No changes to commit."
           else
-            git commit -m "chore: update trend news"
+            git commit -m "chore: update trend news with source images"
+            git pull --rebase origin main
             git push
           fi
