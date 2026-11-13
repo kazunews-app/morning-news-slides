@@ -1,6 +1,6 @@
 window.NEWS_DATA = {
   "date": "2026年11月14日 (土)",
-  "updatedAt": "2026-11-14 06:17",
+  "updatedAt": "2026-11-14 07:05",
   "title": "TREND NEWS",
   "keywords": [
     "自衛官の給与引き上げ法が成…",
@@ -412,23 +412,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "Microsoft 365の障害で上司が事業部の部長から「こうなる事を予想して事前に対処しておくのがシステム部だろうが！」と言われ、反抗して早退…連絡の受け手は必然的に私に",
-      "source": "togetter.com",
-      "publishedAt": "2026-11-13 18:58",
-      "publishedTs": 1794563897,
-      "image": "https://s.tgstc.com/ogp3/cbbc0911cdba7f189ff20584eb240cd1-1200x630.jpeg",
-      "summary": "まあゆ @ma_yu_69 上司が事業部の部長に「こうなる事（M365の障害）を予想して事前に対処しておくのがシステム部だろうが！！」って言われて「（システムを）分かんねぇくせに口出すな知ったかぶりが！！」って応酬して、そのまま早退してしまった午前11時47分 2026-11-13 12:20:34 まあゆ…",
+      "title": "マネックス証券、不正アクセスでメールアドレス最大113万件と本人確認書類1600件弱が漏洩のおそれ",
+      "source": "k-tai.watch.impress.co.jp",
+      "publishedAt": "2026-11-13 21:34",
+      "publishedTs": 1794573249,
+      "image": "https://k-tai.watch.impress.co.jp/img/ktw/list/2156/449/01.jpg",
+      "summary": "「マネックス証券、不正アクセスでメールアドレス最大113万件と本人確認書類1600件弱が漏洩のおそれ」に関する注目記事です。",
       "points": [
         "カテゴリ: テクノロジー・AIで話題の記事",
-        "引用元: togetter.com（2026-11-13 18:58）",
+        "引用元: k-tai.watch.impress.co.jp（2026-11-13 21:34）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "テクノロジー・AI分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "テクノロジー・AI",
-        "togetter.com"
+        "k-tai.watch.impress.co.jp"
       ],
-      "url": "https://togetter.com/li/2770045",
+      "url": "https://k-tai.watch.impress.co.jp/docs/news/2156449.html",
       "isAiEnriched": false
     },
     {
@@ -475,23 +475,86 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "マネックス証券、不正アクセスでメールアドレス最大113万件と本人確認書類1600件弱が漏洩のおそれ",
-      "source": "k-tai.watch.impress.co.jp",
-      "publishedAt": "2026-11-13 21:34",
-      "publishedTs": 1794573249,
-      "image": "https://k-tai.watch.impress.co.jp/img/ktw/list/2156/449/01.jpg",
-      "summary": "「マネックス証券、不正アクセスでメールアドレス最大113万件と本人確認書類1600件弱が漏洩のおそれ」に関する注目記事です。",
+      "title": "Microsoft 365の障害で上司が事業部の部長から「こうなる事を予想して事前に対処しておくのがシステム部だろうが！」と言われ、反抗して早退…連絡の受け手は必然的に私に",
+      "source": "togetter.com",
+      "publishedAt": "2026-11-13 18:58",
+      "publishedTs": 1794563897,
+      "image": "https://s.tgstc.com/ogp3/cbbc0911cdba7f189ff20584eb240cd1-1200x630.jpeg",
+      "summary": "まあゆ @ma_yu_69 上司が事業部の部長に「こうなる事（M365の障害）を予想して事前に対処しておくのがシステム部だろうが！！」って言われて「（システムを）分かんねぇくせに口出すな知ったかぶりが！！」って応酬して、そのまま早退してしまった午前11時47分 2026-11-13 12:20:34 まあゆ…",
       "points": [
         "カテゴリ: テクノロジー・AIで話題の記事",
-        "引用元: k-tai.watch.impress.co.jp（2026-11-13 21:34）",
+        "引用元: togetter.com（2026-11-13 18:58）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "テクノロジー・AI分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "テクノロジー・AI",
-        "k-tai.watch.impress.co.jp"
+        "togetter.com"
       ],
-      "url": "https://k-tai.watch.impress.co.jp/docs/news/2156449.html",
+      "url": "https://togetter.com/li/2770045",
+      "isAiEnriched": false
+    },
+    {
+      "category": "business",
+      "title": "「高市憎しの勢力がどんどんトンチキな方向に進んでいく」高市首相はある能力において、故安倍元首相を超えたのではないか？という指摘がX上で続々と集まる",
+      "source": "togetter.com",
+      "publishedAt": "2026-11-14 04:46",
+      "publishedTs": 1794599203,
+      "image": "https://s.tgstc.com/ogp3/47fbe1869359fc6f93b65ea3a0c4f4fd-1200x630.jpeg",
+      "summary": "なま卯 @e_the_dethroner 神戸大学勤務の先生が、「高市総理、神大の夜間部だったのではないかという話が出ているのか。それなら色々と納得が行く。神大卒は嘘ではない。ただ早慶合格は怪しい。」と仰っている。私にはこれは高市総理云々よりも、夜間部を揶揄しているように見えるのだが、大学の先生がそういう態…",
+      "points": [
+        "カテゴリ: ビジネス・経済で話題の記事",
+        "引用元: togetter.com（2026-11-14 04:46）",
+        "「元記事を読む」から本文を確認できます"
+      ],
+      "impact": "ビジネス・経済分野で多くの読者に共有されている注目記事です。",
+      "tags": [
+        "ビジネス・経済",
+        "togetter.com"
+      ],
+      "url": "https://togetter.com/li/2770188",
+      "isAiEnriched": false
+    },
+    {
+      "category": "domestic",
+      "title": "米全土の空港で航空機の運航を停止 「通信の問題」米運輸長官 | NHKニュース",
+      "source": "news.web.nhk",
+      "publishedAt": "2026-11-14 06:49",
+      "publishedTs": 1794606572,
+      "image": "https://imgu.web.nhk/news/u/news/nd/kiji/20261114de75764/20261114de75764_E0000174813_1_l.jpg",
+      "summary": "アメリカのダフィー運輸長官は13日、SNSへの投稿で「FAA＝アメリカ連邦航空局は管制センターに影響を及ぼす通信問題を受けて全米で航空機の運航停止を発令した。連邦航空局の技術者が調査を行っている」と明…",
+      "points": [
+        "カテゴリ: 国内・総合で話題の記事",
+        "引用元: news.web.nhk（2026-11-14 06:49）",
+        "「元記事を読む」から本文を確認できます"
+      ],
+      "impact": "国内・総合分野で多くの読者に共有されている注目記事です。",
+      "tags": [
+        "国内・総合",
+        "news.web.nhk"
+      ],
+      "url": "https://news.web.nhk/newsweb/na/nd-20261114de75764",
+      "isAiEnriched": false
+    },
+    {
+      "category": "tech",
+      "title": "Fable 5.2は物理モデリング音源の実装も作曲もすごい - きしだのHatena",
+      "source": "nowokay.hatenablog.com",
+      "publishedAt": "2026-11-13 23:22",
+      "publishedTs": 1794579772,
+      "image": "https://cdn.image.st-hatena.com/image/scale/124dd98915ea1ae722f6a171ed5ad3c4f387690a/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fn%2Fnowokay%2F20261113%2F20261113100710.png",
+      "summary": "Fable 5.2が出て今週いっぱいくらいPlusでも使えるのだけど、Fableじゃないとダメなことってなんだろなと思いつつ、楽器の物理シミュレーションがOpusはまだあまりうまくなかったなと、Fableさんに物理モデリング音源を作ってもらって曲もつくってもらったら、物理モデリングも結構できていたのだけど…",
+      "points": [
+        "カテゴリ: テクノロジー・AIで話題の記事",
+        "引用元: nowokay.hatenablog.com（2026-11-13 23:22）",
+        "「元記事を読む」から本文を確認できます"
+      ],
+      "impact": "テクノロジー・AI分野で多くの読者に共有されている注目記事です。",
+      "tags": [
+        "テクノロジー・AI",
+        "nowokay.hatenablog.com"
+      ],
+      "url": "https://nowokay.hatenablog.com/entry/2026/11/13/101644",
       "isAiEnriched": false
     },
     {
@@ -517,23 +580,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "陸自情報部隊が市民の思想傾向から性的嗜好・借金まで情報収集――この問題をうやむやにしてはならない理由（布施祐仁） - エキスパート - Yahoo!ニュース",
-      "source": "news.yahoo.co.jp",
-      "publishedAt": "2026-11-13 15:36",
-      "publishedTs": 1794551794,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/iwiz-yn/creators/10025129/02765117/title-1794548364246.jpeg?exp=10800",
-      "summary": "陸上自衛隊の情報部隊「現地情報隊」が市民らの極めてプライベートな個人情報を同意なく収集していた問題が発覚してから、3カ月以上が経過した。 7月23日に熊本日日新聞がスクープし、その後、Tansa、しんぶん赤旗、沖縄タイムス、朝日新聞、毎日新聞、共同通信が相次いで報じた。 私もこのたび、現地情報隊の内部文書を…",
+      "title": "多文化共生「重要だと思わない」７倍に　岐阜県がアンケート：中日新聞Web",
+      "source": "chunichi.co.jp",
+      "publishedAt": "2026-11-13 18:53",
+      "publishedTs": 1794563623,
+      "image": "https://static.chunichi.co.jp/image/article/size1/d/8/1/a/d81a8773f37bf0bd2cb6a3cd5868cdb1_1.jpg",
+      "summary": "岐阜県は12日、外国人に関連する施策を話し合う本部員会議を県庁で開き、多文化共生について県民らから募ったアンケート結果を公表した。「多文化共生社会を目指すことについてどう思うか」という質問には、「重要だと思わない」という答えが前回アンケートから約7倍に増えた。",
       "points": [
         "カテゴリ: 国内・総合で話題の記事",
-        "引用元: news.yahoo.co.jp（2026-11-13 15:36）",
+        "引用元: chunichi.co.jp（2026-11-13 18:53）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "国内・総合分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "国内・総合",
-        "news.yahoo.co.jp"
+        "chunichi.co.jp"
       ],
-      "url": "https://news.yahoo.co.jp/expert/articles/22288f9c3235b599aafa56145434028503ed9e04",
+      "url": "https://www.chunichi.co.jp/article/1338916",
       "isAiEnriched": false
     },
     {
@@ -576,69 +639,6 @@ window.NEWS_DATA = {
         "asahi.com"
       ],
       "url": "https://www.asahi.com/articles/ASVCD30WNVCDUTIL024M.html",
-      "isAiEnriched": false
-    },
-    {
-      "category": "domestic",
-      "title": "「みんな戦争には反対してる」はたぶん間違い",
-      "source": "anond.hatelabo.jp",
-      "publishedAt": "2026-11-13 09:20",
-      "publishedTs": 1794529249,
-      "image": "https://anond.hatelabo.jp/assets/images/og-image-1500.gif",
-      "summary": "反戦活動への揶揄で「反戦なんて誰でもそうですが？」みたいに言う人がいるが、たぶんそれは間違いだ。 そりゃ自分の頭に爆弾が落ちてくるのは誰でも嫌だ。でも戦争自体についてはそうじゃない。 アメリカやイスラエルやロシアの所業も「良くはないけど～」みたいに保留つけてぼんやり容認してる人いくらでもいるだろ。 ...",
-      "points": [
-        "カテゴリ: 国内・総合で話題の記事",
-        "引用元: anond.hatelabo.jp（2026-11-13 09:20）",
-        "「元記事を読む」から本文を確認できます"
-      ],
-      "impact": "国内・総合分野で多くの読者に共有されている注目記事です。",
-      "tags": [
-        "国内・総合",
-        "anond.hatelabo.jp"
-      ],
-      "url": "https://anond.hatelabo.jp/20261113092029",
-      "isAiEnriched": false
-    },
-    {
-      "category": "tech",
-      "title": "ぼくのClaude Codeの使い方",
-      "source": "speakerdeck.com",
-      "publishedAt": "2026-11-13 00:11",
-      "publishedTs": 1794496312,
-      "image": "https://files.speakerdeck.com/presentations/9c2451b8b99f4a269ce6f420bc0480ae/slide_0.jpg?41338374",
-      "summary": "Sapporo Claude Code Meetup LT, 2026/11/12…",
-      "points": [
-        "カテゴリ: テクノロジー・AIで話題の記事",
-        "引用元: speakerdeck.com（2026-11-13 00:11）",
-        "「元記事を読む」から本文を確認できます"
-      ],
-      "impact": "テクノロジー・AI分野で多くの読者に共有されている注目記事です。",
-      "tags": [
-        "テクノロジー・AI",
-        "speakerdeck.com"
-      ],
-      "url": "https://speakerdeck.com/falken/boku-no-claude-code-no-tsukaikata",
-      "isAiEnriched": false
-    },
-    {
-      "category": "business",
-      "title": "裁量はある、必要なのは覚悟 - そーだいなるらくがき帳",
-      "source": "soudai.hatenablog.com",
-      "publishedAt": "2026-11-12 23:50",
-      "publishedTs": 1794495023,
-      "image": "https://ogimage.blog.st-hatena.com/10328749687203430916/14729835035337520892/1794494986",
-      "summary": "note.com 飲み友達のkawamuraさんがめちゃ良いことを言ってた。 そこで自分の大事にしていることをメモとして残す。 最後までやりきる覚悟があれば事は為せる 裁量はある。みんな言ってるけど「やります。」という覚悟さえあれば良い。 権限が足りない、はありえる。けどそれは「やりたいので権限をください」…",
-      "points": [
-        "カテゴリ: ビジネス・経済で話題の記事",
-        "引用元: soudai.hatenablog.com（2026-11-12 23:50）",
-        "「元記事を読む」から本文を確認できます"
-      ],
-      "impact": "ビジネス・経済分野で多くの読者に共有されている注目記事です。",
-      "tags": [
-        "ビジネス・経済",
-        "soudai.hatenablog.com"
-      ],
-      "url": "https://soudai.hatenablog.com/entry/2026/11/12/234905",
       "isAiEnriched": false
     }
   ]
