@@ -1,6 +1,6 @@
 window.NEWS_DATA = {
   "date": "2026年11月14日 (土)",
-  "updatedAt": "2026-11-14 02:28",
+  "updatedAt": "2026-11-14 03:22",
   "title": "TREND NEWS",
   "keywords": [
     "自衛官の給与引き上げ法が成…",
@@ -559,23 +559,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "裁量はある、必要なのは覚悟 - そーだいなるらくがき帳",
-      "source": "soudai.hatenablog.com",
-      "publishedAt": "2026-11-12 23:50",
-      "publishedTs": 1794495023,
-      "image": "https://ogimage.blog.st-hatena.com/10328749687203430916/14729835035337520892/1794494986",
-      "summary": "note.com 飲み友達のkawamuraさんがめちゃ良いことを言ってた。 そこで自分の大事にしていることをメモとして残す。 最後までやりきる覚悟があれば事は為せる 裁量はある。みんな言ってるけど「やります。」という覚悟さえあれば良い。 権限が足りない、はありえる。けどそれは「やりたいので権限をください」…",
+      "title": "中国首相、ＡＳＥＡＮの場で日本回避の公算…高市首相が出席する可能性ある会議への参加見送りか",
+      "source": "yomiuri.co.jp",
+      "publishedAt": "2026-11-13 16:52",
+      "publishedTs": 1794556356,
+      "image": "https://www.yomiuri.co.jp/media/2026/11/20261113-GYT1I00150-1.jpg?type=ogp",
+      "summary": "【読売新聞】 【北京＝吉永亜希子】中国の 李強 （ リーチャン ） 首相は１５～１６日、フィリピンの首都マニラを訪問し、中国と東南アジア諸国連合（ＡＳＥＡＮ）の首脳会議に出席する。 中国外務省の１１日の発表では、いずれも１７日に行わ…",
       "points": [
         "カテゴリ: ビジネス・経済で話題の記事",
-        "引用元: soudai.hatenablog.com（2026-11-12 23:50）",
+        "引用元: yomiuri.co.jp（2026-11-13 16:52）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "ビジネス・経済分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "ビジネス・経済",
-        "soudai.hatenablog.com"
+        "yomiuri.co.jp"
       ],
-      "url": "https://soudai.hatenablog.com/entry/2026/11/12/234905",
+      "url": "https://www.yomiuri.co.jp/world/20261113-GYT1T00148/",
       "isAiEnriched": false
     },
     {
@@ -622,23 +622,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "中国首相、ＡＳＥＡＮの場で日本回避の公算…高市首相が出席する可能性ある会議への参加見送りか",
-      "source": "yomiuri.co.jp",
-      "publishedAt": "2026-11-13 16:52",
-      "publishedTs": 1794556356,
-      "image": "https://www.yomiuri.co.jp/media/2026/11/20261113-GYT1I00150-1.jpg?type=ogp",
-      "summary": "【読売新聞】 【北京＝吉永亜希子】中国の 李強 （ リーチャン ） 首相は１５～１６日、フィリピンの首都マニラを訪問し、中国と東南アジア諸国連合（ＡＳＥＡＮ）の首脳会議に出席する。 中国外務省の１１日の発表では、いずれも１７日に行わ…",
+      "title": "裁量はある、必要なのは覚悟 - そーだいなるらくがき帳",
+      "source": "soudai.hatenablog.com",
+      "publishedAt": "2026-11-12 23:50",
+      "publishedTs": 1794495023,
+      "image": "https://ogimage.blog.st-hatena.com/10328749687203430916/14729835035337520892/1794494986",
+      "summary": "note.com 飲み友達のkawamuraさんがめちゃ良いことを言ってた。 そこで自分の大事にしていることをメモとして残す。 最後までやりきる覚悟があれば事は為せる 裁量はある。みんな言ってるけど「やります。」という覚悟さえあれば良い。 権限が足りない、はありえる。けどそれは「やりたいので権限をください」…",
       "points": [
         "カテゴリ: ビジネス・経済で話題の記事",
-        "引用元: yomiuri.co.jp（2026-11-13 16:52）",
+        "引用元: soudai.hatenablog.com（2026-11-12 23:50）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "ビジネス・経済分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "ビジネス・経済",
-        "yomiuri.co.jp"
+        "soudai.hatenablog.com"
       ],
-      "url": "https://www.yomiuri.co.jp/world/20261113-GYT1T00148/",
+      "url": "https://soudai.hatenablog.com/entry/2026/11/12/234905",
       "isAiEnriched": false
     }
   ]
