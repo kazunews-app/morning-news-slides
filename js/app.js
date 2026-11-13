@@ -340,23 +340,41 @@
     renderFeed();
   }
 
-  function reloadNewsData() {
+  function parseNewsJsText(text) {
+    const prefix = "window.NEWS_DATA =";
+    const idx = text.indexOf(prefix);
+    if (idx === -1) return null;
+    const jsonPart = text.slice(idx + prefix.length).trim().replace(/;\s*$/, "");
+    return JSON.parse(jsonPart);
+  }
+
+  async function reloadNewsData() {
     elBtnRefresh.classList.add("spinning");
-    const script = document.createElement("script");
-    script.src = `data/news.js?t=${Date.now()}`;
-    script.onload = () => {
-      elBtnRefresh.classList.remove("spinning");
-      if (window.NEWS_DATA) {
-        state.data = window.NEWS_DATA;
-        renderAll();
+    const ts = Date.now();
+    const urls = [
+      `https://raw.githubusercontent.com/sjhkazu1011-ctrl/morning-news-slides/main/data/news.js?t=${ts}`,
+      `data/news.js?t=${ts}`,
+    ];
+
+    for (const url of urls) {
+      try {
+        const res = await fetch(url, { cache: "no-store" });
+        if (!res.ok) continue;
+        const text = await res.text();
+        const parsed = parseNewsJsText(text);
+        if (parsed && Array.isArray(parsed.items) && parsed.items.length > 0) {
+          if (!state.data.updatedAt || parsed.updatedAt >= state.data.updatedAt || url.startsWith("https://")) {
+            window.NEWS_DATA = parsed;
+            state.data = parsed;
+            renderAll();
+          }
+          break;
+        }
+      } catch (_err) {
+        // Fallback to next URL
       }
-      script.remove();
-    };
-    script.onerror = () => {
-      elBtnRefresh.classList.remove("spinning");
-      script.remove();
-    };
-    document.body.appendChild(script);
+    }
+    elBtnRefresh.classList.remove("spinning");
   }
 
   // Theme
@@ -421,4 +439,5 @@
   // Init
   initTheme();
   renderAll();
+  reloadNewsData();
 })();
