@@ -1,6 +1,6 @@
 window.NEWS_DATA = {
   "date": "2026年11月14日 (土)",
-  "updatedAt": "2026-11-14 04:25",
+  "updatedAt": "2026-11-14 05:23",
   "title": "TREND NEWS",
   "keywords": [
     "自衛官の給与引き上げ法が成…",
@@ -391,23 +391,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "「みんな戦争には反対してる」はたぶん間違い",
-      "source": "anond.hatelabo.jp",
-      "publishedAt": "2026-11-13 09:20",
-      "publishedTs": 1794529249,
-      "image": "https://anond.hatelabo.jp/assets/images/og-image-1500.gif",
-      "summary": "反戦活動への揶揄で「反戦なんて誰でもそうですが？」みたいに言う人がいるが、たぶんそれは間違いだ。 そりゃ自分の頭に爆弾が落ちてくるのは誰でも嫌だ。でも戦争自体についてはそうじゃない。 アメリカやイスラエルやロシアの所業も「良くはないけど～」みたいに保留つけてぼんやり容認してる人いくらでもいるだろ。 ...",
+      "title": "「なんで死刑じゃないんだよ」閉廷直後叫ぶ　娘殺害の車いすユーチューバーに拘禁8年判決",
+      "source": "sankei.com",
+      "publishedAt": "2026-11-13 18:56",
+      "publishedTs": 1794563800,
+      "image": "https://www.sankei.com/resizer/v2/T722NTZIORMHHKTLTK3JNEM3NY.jpg?auth=780d0e0335f4e7aea992612141be180a134321516ba3877f5ffa5911c1fc2a5f&quality=50&focal=1292%2C1354&width=1200&height=675",
+      "summary": "生後3カ月の娘を包丁で切り付けて殺害したとして、殺人の罪に問われた無職、内藤沙月被告（29）の裁判員裁判の判決公判が13日、東京地裁で開かれ、宮田祥次裁判長は拘禁刑8年（求刑拘禁刑10年）を言い渡した。 内藤被告は、生まれつき骨がもろく折れやすい難病で、幼少期から車いすを使用。事件前は「ユーチューバー」と.…",
       "points": [
         "カテゴリ: 国内・総合で話題の記事",
-        "引用元: anond.hatelabo.jp（2026-11-13 09:20）",
+        "引用元: sankei.com（2026-11-13 18:56）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "国内・総合分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "国内・総合",
-        "anond.hatelabo.jp"
+        "sankei.com"
       ],
-      "url": "https://anond.hatelabo.jp/20261113092029",
+      "url": "https://www.sankei.com/article/20261113-DZUMP32T5BPP7BYQFH7WBUFNAM/",
       "isAiEnriched": false
     },
     {
@@ -454,44 +454,44 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "「なんで死刑じゃないんだよ」閉廷直後叫ぶ　娘殺害の車いすユーチューバーに拘禁8年判決",
-      "source": "sankei.com",
-      "publishedAt": "2026-11-13 18:56",
-      "publishedTs": 1794563800,
-      "image": "https://www.sankei.com/resizer/v2/T722NTZIORMHHKTLTK3JNEM3NY.jpg?auth=780d0e0335f4e7aea992612141be180a134321516ba3877f5ffa5911c1fc2a5f&quality=50&focal=1292%2C1354&width=1200&height=675",
-      "summary": "生後3カ月の娘を包丁で切り付けて殺害したとして、殺人の罪に問われた無職、内藤沙月被告（29）の裁判員裁判の判決公判が13日、東京地裁で開かれ、宮田祥次裁判長は拘禁刑8年（求刑拘禁刑10年）を言い渡した。 内藤被告は、生まれつき骨がもろく折れやすい難病で、幼少期から車いすを使用。事件前は「ユーチューバー」と.…",
+      "title": "「みんな戦争には反対してる」はたぶん間違い",
+      "source": "anond.hatelabo.jp",
+      "publishedAt": "2026-11-13 09:20",
+      "publishedTs": 1794529249,
+      "image": "https://anond.hatelabo.jp/assets/images/og-image-1500.gif",
+      "summary": "反戦活動への揶揄で「反戦なんて誰でもそうですが？」みたいに言う人がいるが、たぶんそれは間違いだ。 そりゃ自分の頭に爆弾が落ちてくるのは誰でも嫌だ。でも戦争自体についてはそうじゃない。 アメリカやイスラエルやロシアの所業も「良くはないけど～」みたいに保留つけてぼんやり容認してる人いくらでもいるだろ。 ...",
       "points": [
         "カテゴリ: 国内・総合で話題の記事",
-        "引用元: sankei.com（2026-11-13 18:56）",
+        "引用元: anond.hatelabo.jp（2026-11-13 09:20）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "国内・総合分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "国内・総合",
-        "sankei.com"
+        "anond.hatelabo.jp"
       ],
-      "url": "https://www.sankei.com/article/20261113-DZUMP32T5BPP7BYQFH7WBUFNAM/",
+      "url": "https://anond.hatelabo.jp/20261113092029",
       "isAiEnriched": false
     },
     {
       "category": "tech",
-      "title": "総務省が新しい無料オンライン講座「統計解析プログラミング」を1月に開講　Pythonでのデータ分析が4週間で学べる",
-      "source": "atmarkit.itmedia.co.jp",
-      "publishedAt": "2026-11-13 09:15",
-      "publishedTs": 1794528926,
-      "image": "https://image.itmedia.co.jp/ait/articles/2611/13/cover_news013.jpg",
-      "summary": "連載目次 総務省は2026年11月10日、データサイエンス・オンライン講座の新講座「“わかる・使える”統計解析プログラミング」の受講者募集を開始した。開講は2027年1月12日（火）で、3月16日（火）まで。オンライン学習サービス「gacco（ガッコ）」で受講登録でき、登録料・受講料は無料だ。受講登録の期限…",
+      "title": "マネックス証券、不正アクセスでメールアドレス最大113万件と本人確認書類1600件弱が漏洩のおそれ",
+      "source": "k-tai.watch.impress.co.jp",
+      "publishedAt": "2026-11-13 21:34",
+      "publishedTs": 1794573249,
+      "image": "https://k-tai.watch.impress.co.jp/img/ktw/list/2156/449/01.jpg",
+      "summary": "「マネックス証券、不正アクセスでメールアドレス最大113万件と本人確認書類1600件弱が漏洩のおそれ」に関する注目記事です。",
       "points": [
         "カテゴリ: テクノロジー・AIで話題の記事",
-        "引用元: atmarkit.itmedia.co.jp（2026-11-13 09:15）",
+        "引用元: k-tai.watch.impress.co.jp（2026-11-13 21:34）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "テクノロジー・AI分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "テクノロジー・AI",
-        "atmarkit.itmedia.co.jp"
+        "k-tai.watch.impress.co.jp"
       ],
-      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2611/13/news013.html",
+      "url": "https://k-tai.watch.impress.co.jp/docs/news/2156449.html",
       "isAiEnriched": false
     },
     {
@@ -538,23 +538,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "マネックス証券、不正アクセスでメールアドレス最大113万件と本人確認書類1600件弱が漏洩のおそれ",
-      "source": "k-tai.watch.impress.co.jp",
-      "publishedAt": "2026-11-13 21:34",
-      "publishedTs": 1794573249,
-      "image": "https://k-tai.watch.impress.co.jp/img/ktw/list/2156/449/01.jpg",
-      "summary": "「マネックス証券、不正アクセスでメールアドレス最大113万件と本人確認書類1600件弱が漏洩のおそれ」に関する注目記事です。",
+      "title": "総務省が新しい無料オンライン講座「統計解析プログラミング」を1月に開講　Pythonでのデータ分析が4週間で学べる",
+      "source": "atmarkit.itmedia.co.jp",
+      "publishedAt": "2026-11-13 09:15",
+      "publishedTs": 1794528926,
+      "image": "https://image.itmedia.co.jp/ait/articles/2611/13/cover_news013.jpg",
+      "summary": "連載目次 総務省は2026年11月10日、データサイエンス・オンライン講座の新講座「“わかる・使える”統計解析プログラミング」の受講者募集を開始した。開講は2027年1月12日（火）で、3月16日（火）まで。オンライン学習サービス「gacco（ガッコ）」で受講登録でき、登録料・受講料は無料だ。受講登録の期限…",
       "points": [
         "カテゴリ: テクノロジー・AIで話題の記事",
-        "引用元: k-tai.watch.impress.co.jp（2026-11-13 21:34）",
+        "引用元: atmarkit.itmedia.co.jp（2026-11-13 09:15）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "テクノロジー・AI分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "テクノロジー・AI",
-        "k-tai.watch.impress.co.jp"
+        "atmarkit.itmedia.co.jp"
       ],
-      "url": "https://k-tai.watch.impress.co.jp/docs/news/2156449.html",
+      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2611/13/news013.html",
       "isAiEnriched": false
     },
     {
