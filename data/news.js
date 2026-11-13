@@ -1,6 +1,6 @@
 window.NEWS_DATA = {
   "date": "2026年11月14日 (土)",
-  "updatedAt": "2026-11-14 00:59",
+  "updatedAt": "2026-11-14 01:11",
   "title": "TREND NEWS",
   "keywords": [
     "自衛官の給与引き上げ法が成…",
@@ -622,23 +622,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "ヘグセス国防長官、自身を叱責した衛兵に勲章授与「よくやった。続けてくれ」",
-      "source": "afpbb.com",
-      "publishedAt": "2026-11-13 08:19",
-      "publishedTs": 1794525573,
-      "image": "https://afpbb.ismcdn.jp/mwimgs/3/7/1000x/img_37789d5ec82fc7bf03062098ba20bbfa103314.jpg",
-      "summary": "【11月13日 AFP】ピート・ヘグセス米国防長官は12日、「退役軍人の日」の11日に首都ワシントン近郊のアーリントン国立墓地にある無名戦士の墓の近くで笑い声を上げた自身らを叱責した衛兵に勲章を授与した。 国防総省当局者は、ヘグセス氏が「2026年11月11日に無名戦士の墓で職務を遂行したトーマス・イグレシ…",
+      "title": "中国首相、ＡＳＥＡＮの場で日本回避の公算…高市首相が出席する可能性ある会議への参加見送りか",
+      "source": "yomiuri.co.jp",
+      "publishedAt": "2026-11-13 16:52",
+      "publishedTs": 1794556356,
+      "image": "https://www.yomiuri.co.jp/media/2026/11/20261113-GYT1I00150-1.jpg?type=ogp",
+      "summary": "【読売新聞】 【北京＝吉永亜希子】中国の 李強 （ リーチャン ） 首相は１５～１６日、フィリピンの首都マニラを訪問し、中国と東南アジア諸国連合（ＡＳＥＡＮ）の首脳会議に出席する。 中国外務省の１１日の発表では、いずれも１７日に行わ…",
       "points": [
         "カテゴリ: ビジネス・経済で話題の記事",
-        "引用元: afpbb.com（2026-11-13 08:19）",
+        "引用元: yomiuri.co.jp（2026-11-13 16:52）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "ビジネス・経済分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "ビジネス・経済",
-        "afpbb.com"
+        "yomiuri.co.jp"
       ],
-      "url": "https://www.afpbb.com/articles/-/3662180",
+      "url": "https://www.yomiuri.co.jp/world/20261113-GYT1T00148/",
       "isAiEnriched": false
     }
   ]
