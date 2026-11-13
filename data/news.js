@@ -1,6 +1,6 @@
 window.NEWS_DATA = {
   "date": "2026年11月14日 (土)",
-  "updatedAt": "2026-11-14 01:11",
+  "updatedAt": "2026-11-14 01:32",
   "title": "TREND NEWS",
   "keywords": [
     "自衛官の給与引き上げ法が成…",
