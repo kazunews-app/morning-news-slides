@@ -4,7 +4,7 @@ window.NEWS_DATA = {
   "title": "今日のトレンドニュース ブリーフィング",
   "keywords": [
     "支援金、勤労者５割対象 高市首相…",
-    "3歳娘に暴行死、殺人容疑で父親を…",
+    "神奈川・海老名でトラックがひき逃…",
     "【情報まとめ】マイクロソフトで大…",
     "「磁気テープ」再注目 生成AIの…",
     "マイクロソフト障害に復旧の兆し、…"
@@ -31,22 +31,22 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "3歳娘に暴行死、殺人容疑で父親を逮捕 病院から「全身あざだらけ」と通報",
-      "source": "産経ニュース",
-      "publishedAt": "2026-11-13 18:36",
+      "title": "神奈川・海老名でトラックがひき逃げ、高齢女性２人死亡…相模原市でトラック発見・運転手から話聞く",
+      "source": "読売新聞",
+      "publishedAt": "2026-11-13 18:55",
       "image": "assets/images/news-2.jpg",
-      "summary": "3歳娘に暴行死、殺人容疑で父親を逮捕 病院から「全身あざだらけ」と通報 産経ニュース 枚方署に入る金尾健太郎容疑者（時事通信） Yahoo!ニュース 「恥ずかしがり屋」3歳暴行死 異変は夏？ 「幸せ家族」に何が 毎日新聞 死亡の3歳女児、暴行で食道が破裂し息ができなくなったか 殺人容疑で父親を逮捕 産経ニュース ...",
+      "summary": "神奈川・海老名でトラックがひき逃げ、高齢女性２人死亡…相模原市でトラック発見・運転手から話聞く 読売新聞 神奈川・海老名市で高齢女性2人死亡ひき逃げ事件 逃走したとみられるトラック発見 警察が関係者から話聴く Yahoo!ニュース 海老名市でトラックと歩行者2人が交通事故 歩行者2人は死亡 トラックは現場から逃走...",
       "points": [
         "カテゴリ: 国内・総合 の注目ニュース",
-        "報道元: 産経ニュース (2026-11-13 18:36)",
+        "報道元: 読売新聞 (2026-11-13 18:55)",
         "詳細は下部のリンクから元記事を確認できます"
       ],
       "impact": "国内・総合分野での重要トピックとして注目されています。",
       "tags": [
         "国内・総合",
-        "産経ニュース"
+        "読売新聞"
       ],
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE00eXBPaTJRakJCMTlCVU9XY1IwcC1SSnhNSjVHdm10T2lWSTZuV1QxSmJMa0JIeThmZmdEXzdXTnpRb1g2aEFMdnpGSGNOZ0hEeUlXODdzXzdoc3EwX09uR3RDWGQzRHQ4V19icE4yZWp4Y2FuQUE?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFAxV1Z0a1ZnVWI3NE1GMWNtWFl5aXV0SjdfYWpiaEZEZDBCSkphNDA3YktoLUdYUDNYaEJFMXVvemJ0bGZPUi0zUnhER3ROb1EtbDJmTmxSSk93YV80NU1VaTZqYXpVdw?oc=5"
     },
     {
       "category": "tech",
