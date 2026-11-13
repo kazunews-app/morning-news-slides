@@ -434,13 +434,50 @@
     }
   }
 
+  async function searchCityCoords(cityName) {
+    const q = cityName.trim();
+    if (!q) return null;
+    try {
+      const url = `https://geocoding-api.open-meteo.com/v1/search?name=${encodeURIComponent(q)}&count=1&language=ja&format=json`;
+      const res = await fetch(url);
+      if (!res.ok) return null;
+      const data = await res.json();
+      const first = data.results?.[0];
+      if (!first) return null;
+      return {
+        lat: Number(first.latitude.toFixed(4)),
+        lon: Number(first.longitude.toFixed(4)),
+        locName: first.name || q,
+      };
+    } catch (_e) {
+      return null;
+    }
+  }
+
+  async function promptManualCity() {
+    const input = window.prompt(
+      "iPhoneの位置情報サービスがオフか拒否されています。\n天気を表示したい市区町村名（例: 横浜市、大阪市、札幌市、新宿区）を入力してください:",
+      ""
+    );
+    if (!input) return;
+    elWeatherSub.textContent = "地域を検索中...";
+    const found = await searchCityCoords(input);
+    if (found) {
+      localStorage.setItem("trend-news-geo", JSON.stringify(found));
+      await fetchAndRenderWeather(found.lat, found.lon, found.locName);
+    } else {
+      elWeatherSub.textContent = "地域が見つかりませんでした(タップで再試行)";
+    }
+  }
+
   function requestGeolocationWeather(isUserTap = false) {
     if (!navigator.geolocation) {
-      elWeatherSub.textContent = "位置情報非対応";
+      if (isUserTap) promptManualCity();
       return;
     }
     if (isUserTap) {
-      elWeatherSub.textContent = "現在地を取得中...";
+      elWeatherLoc.textContent = "📍 測位中...";
+      elWeatherSub.textContent = "現在地を取得しています...";
     }
     navigator.geolocation.getCurrentPosition(
       async (pos) => {
@@ -450,13 +487,14 @@
         localStorage.setItem("trend-news-geo", JSON.stringify({ lat, lon, locName }));
         await fetchAndRenderWeather(lat, lon, locName);
       },
-      (_err) => {
+      async (_err) => {
         if (isUserTap) {
-          elWeatherSub.textContent = "位置情報の許可が必要です(東京を表示)";
+          await promptManualCity();
+        } else {
+          await fetchAndRenderWeather(35.6812, 139.7671, "東京(タップで現在地へ)");
         }
-        fetchAndRenderWeather(35.6812, 139.7671, "東京");
       },
-      { enableHighAccuracy: false, timeout: 10000, maximumAge: 600000 }
+      { enableHighAccuracy: false, timeout: 12000, maximumAge: 300000 }
     );
   }
 
@@ -468,12 +506,11 @@
       const saved = JSON.parse(localStorage.getItem("trend-news-geo") || "null");
       if (saved && saved.lat && saved.lon) {
         fetchAndRenderWeather(saved.lat, saved.lon, saved.locName || "現在地");
-        requestGeolocationWeather(false);
         return;
       }
     } catch (_e) {}
     // 初回は仮で東京を表示しつつ現在地をリクエスト
-    fetchAndRenderWeather(35.6812, 139.7671, "東京");
+    fetchAndRenderWeather(35.6812, 139.7671, "東京(タップで現在地へ)");
     requestGeolocationWeather(false);
   }
 

@@ -242,7 +242,7 @@ html, body {
   font-size: 0.76rem;
   font-weight: 700;
   color: var(--text-primary);
-  max-width: 110px;
+  max-width: 150px;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -947,7 +947,7 @@ html, body {
     font-size: 1.15rem;
   }
   .weather-loc {
-    max-width: 82px;
+    max-width: 110px;
     font-size: 0.72rem;
   }
   .weather-temp {
