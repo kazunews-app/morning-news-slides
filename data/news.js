@@ -1,110 +1,128 @@
 window.NEWS_DATA = {
-  date: "2026年11月13日 (金)",
-  updatedAt: "2026-11-13 23:24",
-  title: "今日のトレンドニュース ブリーフィング",
-  keywords: [
-    "Microsoft 365 大規模障害",
-    "円安160円台の攻防",
-    "AIエージェント実務定着",
-    "宇宙インフラ協業",
-    "暗号資産ETF"
+  "date": "2026年11月13日 (金)",
+  "updatedAt": "2026-11-13 23:53",
+  "title": "今日のトレンドニュース ブリーフィング",
+  "keywords": [
+    "支援金、勤労者５割対象 高市首相…",
+    "3歳娘に暴行死、殺人容疑で父親を…",
+    "【情報まとめ】マイクロソフトで大…",
+    "「磁気テープ」再注目 生成AIの…",
+    "マイクロソフト障害に復旧の兆し、…"
   ],
-  items: [
+  "items": [
     {
-      category: "domestic",
-      title: "Microsoft 365で世界規模の大規模障害、国内府省庁や企業にも影響",
-      source: "国内・経済ニュース",
-      publishedAt: "2026-11-13",
-      image: "assets/images/news-1.jpg",
-      summary: "11月13日未明からMicrosoft 365で広範囲なシステム障害が発生。OutlookやTeamsなどが利用しづらくなり、経済産業省などの府省庁や国内企業の業務に影響が及んだ。",
-      points: [
-        "13日未明よりOutlookやTeamsなど主要クラウドサービスで接続障害が発生",
-        "国内の府省庁・自治体・企業で電話対応への切り替えなど業務影響が拡大",
-        "マイクロソフト社が順次復旧作業を進めており、現在は改善傾向と発表"
+      "category": "domestic",
+      "title": "支援金、勤労者５割対象 高市首相表明、子２人世帯で最大６万円―消費減税法案、参院委で審議",
+      "source": "時事ドットコム",
+      "publishedAt": "2026-11-13 18:16",
+      "image": "assets/images/news-1.jpg",
+      "summary": "支援金、勤労者５割対象 高市首相表明、子２人世帯で最大６万円―消費減税法案、参院委で審議 時事ドットコム 高市総理が答弁→国会ストップ→代打・片山大臣でも国会ストップ…消費減税めぐり大荒れ 共産・小池議員「1億人大増税約束法案だ」（ABEMA TIMES） Yahoo!ニュース 高市首相、支援金の対象「就業者の５...",
+      "points": [
+        "カテゴリ: 国内・総合 の注目ニュース",
+        "報道元: 時事ドットコム (2026-11-13 18:16)",
+        "詳細は下部のリンクから元記事を確認できます"
       ],
-      impact: "クラウドサービスへの単一依存リスクと、障害発生時のBCP（事業継続計画）・代替連絡手段の重要性が改めて浮き彫りになっています。",
-      tags: ["ITインフラ", "Microsoft 365", "BCP"],
-      url: "https://news.google.com/search?q=Microsoft+365+%E9%9A%9C%E5%AE%B3"
+      "impact": "国内・総合分野での重要トピックとして注目されています。",
+      "tags": [
+        "国内・総合",
+        "時事ドットコム"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5pajFrcjZwTUV5UEJWcFl4QjlWUXFLWDdBSnZ4aFR4WnhQNE1uZnV0OUxfNEsyOUNkSTZXOXpRV2cyVXFIVl9VTWlfaE42OHhNeE1odGlxbnZkQUQ0eDdYM19kQQ?oc=5"
     },
     {
-      category: "domestic",
-      title: "ドル円相場が一時160円台前半へ、政府・日銀の防衛ラインに注目",
-      source: "金融・為替市場",
-      publishedAt: "2026-11-13",
-      image: "assets/images/news-2.jpg",
-      summary: "外国為替市場で円安が進行し、一時1ドル＝160円台前半をつける展開に。実務的・心理的な防衛ライン付近での推移を受け、当局の牽制や為替介入への警戒感が高まっている。",
-      points: [
-        "ドル円相場が一時160円台前半まで円安が進行",
-        "市場では160円台が「防衛ライン」として意識され緊張感が高まる",
-        "政府・日銀による口先介入や実弾介入の有無に注視が集まる"
+      "category": "domestic",
+      "title": "3歳娘に暴行死、殺人容疑で父親を逮捕 病院から「全身あざだらけ」と通報",
+      "source": "産経ニュース",
+      "publishedAt": "2026-11-13 18:36",
+      "image": "assets/images/news-2.jpg",
+      "summary": "3歳娘に暴行死、殺人容疑で父親を逮捕 病院から「全身あざだらけ」と通報 産経ニュース 枚方署に入る金尾健太郎容疑者（時事通信） Yahoo!ニュース 「恥ずかしがり屋」3歳暴行死 異変は夏？ 「幸せ家族」に何が 毎日新聞 死亡の3歳女児、暴行で食道が破裂し息ができなくなったか 殺人容疑で父親を逮捕 産経ニュース ...",
+      "points": [
+        "カテゴリ: 国内・総合 の注目ニュース",
+        "報道元: 産経ニュース (2026-11-13 18:36)",
+        "詳細は下部のリンクから元記事を確認できます"
       ],
-      impact: "輸入コストやエネルギー・食料品価格への波及に加え、日本株や海外ハイテク株投資のパフォーマンスにも直結する重要指標となっています。",
-      tags: ["為替", "円安", "日銀"],
-      url: "https://news.google.com/search?q=%E3%83%89%E3%83%AB%E5%86%86+160%E5%86%86"
+      "impact": "国内・総合分野での重要トピックとして注目されています。",
+      "tags": [
+        "国内・総合",
+        "産経ニュース"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE00eXBPaTJRakJCMTlCVU9XY1IwcC1SSnhNSjVHdm10T2lWSTZuV1QxSmJMa0JIeThmZmdEXzdXTnpRb1g2aEFMdnpGSGNOZ0hEeUlXODdzXzdoc3EwX09uR3RDWGQzRHQ4V19icE4yZWp4Y2FuQUE?oc=5"
     },
     {
-      category: "tech",
-      title: "「生成するAI」から「自律実行するAIエージェント」へ本格シフト",
-      source: "AIテクノロジートレンド",
-      publishedAt: "2026-11-13",
-      image: "assets/images/news-3.jpg",
-      summary: "国内の生成AI利用率が過半数を超える中、単なる文章生成から、AIが自らタスクを分解しツールを操作して業務を完結させる「AIエージェント」の本番導入が急増している。",
-      points: [
-        "PoC（実証実験）フェーズが終わり、実業務プロセスを再設計する段階へ",
-        "カスタマー対応、自動テスト、データ集計など「ハイブリッド労働力」として定着",
-        "モデル選定基準も「最高性能」から「コスパ・用途への最適解」重視へ移行"
+      "category": "tech",
+      "title": "【情報まとめ】マイクロソフトで大規模通信障害 「徐々に改善し始めた」と発表 完全復旧はまだ",
+      "source": "テレ朝NEWS",
+      "publishedAt": "2026-11-13 19:00",
+      "image": "assets/images/news-3.jpg",
+      "summary": "【情報まとめ】マイクロソフトで大規模通信障害 「徐々に改善し始めた」と発表 完全復旧はまだ テレ朝NEWS",
+      "points": [
+        "カテゴリ: テクノロジー・AI の注目ニュース",
+        "報道元: テレ朝NEWS (2026-11-13 19:00)",
+        "詳細は下部のリンクから元記事を確認できます"
       ],
-      impact: "開発者やDX担当者の役割も、コードを書く作業から「AIエージェントの設計・オーケストレーション・監視」へと大きく変化しています。",
-      tags: ["AIエージェント", "DX", "生成AI"],
-      url: "https://news.google.com/search?q=AI%E3%82%A8%E3%83%BC%E3%82%B8%E3%82%A7%E3%83%B3%E3%83%88+%E3%83%88%E3%83%AC%E3%83%B3%E3%83%89"
+      "impact": "テクノロジー・AI分野での重要トピックとして注目されています。",
+      "tags": [
+        "テクノロジー・AI",
+        "テレ朝NEWS"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1YaWNWd05rUWhPekRqTGtPZ3JFa3VFQlJmWEg5MW9vYklPcVhtLWJ2QkVLVkp1WURXWTYwRGJpalJjNHRwUW1hbWU5aEVqMFJtNHNPcWdZaHVaZm51c1UxUm1BZ25nc2hzSjlmbDNzZGdsak12ZjB1N2xn?oc=5"
     },
     {
-      category: "tech",
-      title: "MCPなど外部連携規格の普及と、AIセキュリティ・ガバナンス強化",
-      source: "テック・セキュリティ",
-      publishedAt: "2026-11-13",
-      image: "assets/images/news-4.jpg",
-      summary: "AIと社内システムやDBを標準規格でつなぐMCP（Model Context Protocol）が浸透する一方、AIを悪用したサイバー攻撃の高度化を受け、権限管理とガバナンス構築が急務となっている。",
-      points: [
-        "「AIのためのUSBポート」とも呼ばれるMCPなどの標準連携プロトコルが普及",
-        "社内システムやメール・カレンダーとAIを安全に接続する構成が一般化",
-        "AI悪用型の不正アクセス増加に伴い、厳格なアクセス制御とログ監査が必須に"
+      "category": "tech",
+      "title": "「磁気テープ」再注目 生成AIの普及でデータ量莫大に 情報流出リスク低く需要高まる",
+      "source": "Yahoo!ニュース",
+      "publishedAt": "2026-11-13 12:32",
+      "image": "assets/images/news-4.jpg",
+      "summary": "「磁気テープ」再注目 生成AIの普及でデータ量莫大に 情報流出リスク低く需要高まる Yahoo!ニュース",
+      "points": [
+        "カテゴリ: テクノロジー・AI の注目ニュース",
+        "報道元: Yahoo!ニュース (2026-11-13 12:32)",
+        "詳細は下部のリンクから元記事を確認できます"
       ],
-      impact: "便利さと安全性を両立するため、AIにどこまでの権限を与えるかという設計思想とセキュリティ統制が競争力を左右します。",
-      tags: ["MCP", "セキュリティ", "ガバナンス"],
-      url: "https://news.google.com/search?q=MCP+AI+%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3"
+      "impact": "テクノロジー・AI分野での重要トピックとして注目されています。",
+      "tags": [
+        "テクノロジー・AI",
+        "Yahoo!ニュース"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1ZMlZNd24yaFVrZ000Zi1ZSE1GcWcwWGRoMHB0cjVEcVRWcVpRYWdDbGx6WGhKc08xRUdPSVNFR2JzUWhmT1VTWTRDRWdJVmFD?oc=5"
     },
     {
-      category: "business",
-      title: "NTT・三菱電機・MUFGなど5社、衛星通信網と宇宙データセンターで協業",
-      source: "産業・ビジネス",
-      publishedAt: "2026-11-13",
-      image: "assets/images/news-5.jpg",
-      summary: "NTTドコモビジネス、三菱電機、NTT、三菱UFJ銀行、日本政策投資銀行の5社が、衛星「メガコンステレーション」や宇宙データセンターの事業化に向けた包括協業覚書を締結。",
-      points: [
-        "通信・電機・メガバンク・政策金融の異業種5社による大型インフラ連合",
-        "広域をカバーする低軌道衛星通信網の構築・運用を目指す",
-        "宇宙空間を活用した次世代データセンターなどの事業化も視野に"
+      "category": "business",
+      "title": "マイクロソフト障害に復旧の兆し、部分的にメール届き始める 「完全な復旧を目指し対応を広げている」メドは明らかにせず",
+      "source": "Yahoo!ニュース",
+      "publishedAt": "2026-11-13 18:32",
+      "image": "assets/images/news-5.jpg",
+      "summary": "マイクロソフト障害に復旧の兆し、部分的にメール届き始める 「完全な復旧を目指し対応を広げている」メドは明らかにせず Yahoo!ニュース 「アウトルック」「チームズ」などマイクロソフトの大規模障害、日米含む７４か国・地域に…復旧めど立たず 読売新聞 MS障害 日本は比較的安定状態 Yahoo!ニュース Micro...",
+      "points": [
+        "カテゴリ: ビジネス・経済 の注目ニュース",
+        "報道元: Yahoo!ニュース (2026-11-13 18:32)",
+        "詳細は下部のリンクから元記事を確認できます"
       ],
-      impact: "地上インフラの災害リスク分散やAI計算需要の増大を見据えた、日本発の次世代宇宙インフラ投資が本格始動しています。",
-      tags: ["宇宙ビジネス", "インフラ", "NTT"],
-      url: "https://news.google.com/search?q=%E3%83%A1%E3%82%AC%E3%82%B3%E3%83%B3%E3%82%B9%E3%83%86%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3+NTT"
+      "impact": "ビジネス・経済分野での重要トピックとして注目されています。",
+      "tags": [
+        "ビジネス・経済",
+        "Yahoo!ニュース"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE03dTFmR2RyTmZ5V2FwSG5rZGcxSDk5TWVxY0hVVDB1Rk96MWpNYWVBTUlIZTUtYmR2b0JTWHRGWWJsQk5Ea2FRVkVNUDgzUHlmNXZKZkh6WUxNeHRFT0pmOUtNWFBpOWhuWEtYY1NCZjVyZnVMalU4RDhjZkFEUXc?oc=5"
     },
     {
-      category: "business",
-      title: "国内で暗号資産ETFの実務課題やデジタル資産市場の議論が本格化",
-      source: "金融・デジタル資産",
-      publishedAt: "2026-11-13",
-      image: "assets/images/news-6.jpg",
-      summary: "金融庁や日本経済新聞社などが関与するカンファレンスを控え、国内での暗号資産ETF商品化やセキュリティ・トークン（ST）の流通インフラ整備、2040年資本市場ビジョンに注目が集まる。",
-      points: [
-        "国内における暗号資産ETFの商品化に向けた制度・実務課題の議論が前進",
-        "不動産などを裏付けとしたセキュリティ・トークン（ST）の決済基盤整備",
-        "日本証券業協会が2040年を見据えた直接金融・中間層投資拡大の中間報告を公表"
+      "category": "business",
+      "title": "アングル：協調介入の米関与は限定的の受け止め、円再び160円台に 安値試しも",
+      "source": "Reuters",
+      "publishedAt": "2026-11-13 18:39",
+      "image": "assets/images/news-6.jpg",
+      "summary": "アングル：協調介入の米関与は限定的の受け止め、円再び160円台に 安値試しも Reuters ＮＹ円、１５９円台後半 沖縄タイムス社 【為替】米ドル／円相場、米国の利上げへの転換は想定外だった マネクリ 円に再び介入警戒感 160円台に下落、薄れぬ「夏の記憶」 日本経済新聞 【速報】ドル・円159.86円、ドルも...",
+      "points": [
+        "カテゴリ: ビジネス・経済 の注目ニュース",
+        "報道元: Reuters (2026-11-13 18:39)",
+        "詳細は下部のリンクから元記事を確認できます"
       ],
-      impact: "「貯蓄から投資へ」の次のフェーズとして、デジタル資産や社債市場を含めた日本の資本市場のアップデートが進んでいます。",
-      tags: ["暗号資産ETF", "金融庁", "資本市場"],
-      url: "https://news.google.com/search?q=%E6%9A%97%E5%8F%B7%E8%B3%87%E7%94%A3ETF+%E6%97%A5%E6%9C%AC"
+      "impact": "ビジネス・経済分野での重要トピックとして注目されています。",
+      "tags": [
+        "ビジネス・経済",
+        "Reuters"
+      ],
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBCcVlGSG5pUDRJMW5iZXUwNGFwbGFwT3h5cnE0ME9DUGJsVTRfVHVhN2VZX0JUR1FhV0R3eHFybUQ4bHJ4SnBFUjlEbzUtRDNWcnVWdVcya1hvcjJlRXc1RHYzOVQ5d1JlamMyTFdSR215S3BCa2NYbHFmUXY1Zw?oc=5"
     }
   ]
 };
