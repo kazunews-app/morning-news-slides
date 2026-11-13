@@ -365,6 +365,31 @@
     return JSON.parse(jsonPart);
   }
 
+  function parseUpdatedAtMs(updatedAtStr) {
+    if (!updatedAtStr || typeof updatedAtStr !== "string") return 0;
+    const normalized = updatedAtStr.trim().replace(/\//g, "-").replace(" ", "T");
+    if (!/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}/.test(normalized)) return 0;
+    const iso = normalized.length === 16 ? `${normalized}:00+09:00` : `${normalized}+09:00`;
+    const ms = Date.parse(iso);
+    return Number.isFinite(ms) ? ms : 0;
+  }
+
+  function formatNowJst() {
+    const now = new Date();
+    const jstMs = now.getTime() + (now.getTimezoneOffset() + 540) * 60000;
+    const jst = new Date(jstMs);
+    const y = jst.getFullYear();
+    const m = jst.getMonth() + 1;
+    const d = jst.getDate();
+    const hh = String(jst.getHours()).padStart(2, "0");
+    const mm = String(jst.getMinutes()).padStart(2, "0");
+    const dow = ["日", "月", "火", "水", "木", "金", "土"][jst.getDay()];
+    return {
+      date: `${y}年${m}月${d}日 (${dow})`,
+      updatedAt: `${y}-${String(m).padStart(2, "0")}-${String(d).padStart(2, "0")} ${hh}:${mm}`,
+    };
+  }
+
   function computeDataSignature(data) {
     if (!data || !Array.isArray(data.items)) return "";
     const firstTitle = data.items[0]?.title || "";
@@ -372,36 +397,306 @@
     return `${data.updatedAt || ""}|${data.items.length}|${firstTitle}|${firstImg}`;
   }
 
-  async function reloadNewsData(forceRender = false) {
+  function applyNewsDataIfNewer(candidate, forceApply = false) {
+    if (!candidate || !Array.isArray(candidate.items) || candidate.items.length === 0) return false;
+    const currentMs = parseUpdatedAtMs(state.data?.updatedAt);
+    const candidateMs = parseUpdatedAtMs(candidate.updatedAt);
+    if (!forceApply && currentMs > 0 && candidateMs > 0 && candidateMs < currentMs) {
+      return false;
+    }
+    const sig = computeDataSignature(candidate);
+    if (forceApply || sig !== state.lastDataSignature) {
+      window.NEWS_DATA = candidate;
+      state.data = candidate;
+      state.lastDataSignature = sig;
+      try {
+        localStorage.setItem("trend-news-live-cache", JSON.stringify(candidate));
+      } catch (_e) {}
+      renderAll();
+      return true;
+    }
+    return false;
+  }
+
+  function restoreCachedNewsOnStartup() {
+    try {
+      const raw = localStorage.getItem("trend-news-live-cache");
+      if (!raw) return;
+      const cached = JSON.parse(raw);
+      applyNewsDataIfNewer(cached, false);
+    } catch (_e) {}
+  }
+
+  async function fetchGithubNewsData() {
+    const ts = Date.now();
+    // 1. GitHub Contents API (Fastly CDNの5分キャッシュを回避して最新コミットを即時取得)
+    try {
+      const apiUrl = `https://api.github.com/repos/sjhkazu1011-ctrl/morning-news-slides/contents/data/news.js?ref=main&_=${ts}`;
+      const res = await fetchWithTimeout(apiUrl, { cache: "no-store" }, 7000);
+      if (res.ok) {
+        const meta = await res.json();
+        if (meta && typeof meta.content === "string") {
+          const binStr = atob(meta.content.replace(/\s/g, ""));
+          const bytes = Uint8Array.from(binStr, (c) => c.charCodeAt(0));
+          const text = new TextDecoder("utf-8").decode(bytes);
+          const parsed = parseNewsJsText(text);
+          if (parsed && Array.isArray(parsed.items) && parsed.items.length > 0) {
+            return parsed;
+          }
+        }
+      }
+    } catch (_e) {}
+
+    // 2. Fallback: raw.githubusercontent.com & local data/news.js
+    const fallbackUrls = [
+      `https://raw.githubusercontent.com/sjhkazu1011-ctrl/morning-news-slides/main/data/news.js?t=${ts}`,
+      `data/news.js?t=${ts}`,
+    ];
+    for (const url of fallbackUrls) {
+      try {
+        const res = await fetchWithTimeout(url, { cache: "no-store" }, 7000);
+        if (!res.ok) continue;
+        const text = await res.text();
+        const parsed = parseNewsJsText(text);
+        if (parsed && Array.isArray(parsed.items) && parsed.items.length > 0) {
+          return parsed;
+        }
+      } catch (_e) {}
+    }
+    return null;
+  }
+
+  async function fetchRssItemsViaProxy(rssUrl, category, sourceFallback, limit) {
+    const ts = Date.now();
+    // Try rss2json first, then allorigins XML
+    try {
+      const r2jUrl = `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(rssUrl)}&_=${ts}`;
+      const res = await fetchWithTimeout(r2jUrl, { cache: "no-store" }, 6500);
+      if (res.ok) {
+        const data = await res.json();
+        if (data && Array.isArray(data.items) && data.items.length > 0) {
+          return data.items.slice(0, limit).map((it, idx) => {
+            const title = (it.title || "").trim();
+            const link = (it.link || "").trim();
+            const pubMs = it.pubDate ? Date.parse(it.pubDate.replace(" ", "T") + "Z") : Date.now();
+            const publishedTs = Number.isFinite(pubMs) ? Math.floor(pubMs / 1000) : Math.floor(Date.now() / 1000);
+            const thumb = it.thumbnail || it.enclosure?.link || it.enclosure?.thumbnail || "";
+            return {
+              category,
+              title,
+              url: link,
+              source: sourceFallback,
+              publishedTs,
+              publishedAt: it.pubDate ? it.pubDate.slice(0, 16) : formatNowJst().updatedAt,
+              rawThumb: thumb.startsWith("https://") ? thumb : "",
+              rawDesc: it.description || "",
+              idx,
+            };
+          });
+        }
+      }
+    } catch (_e) {}
+
+    try {
+      const proxyUrl = `https://api.allorigins.win/raw?url=${encodeURIComponent(rssUrl)}&_=${ts}`;
+      const res = await fetchWithTimeout(proxyUrl, { cache: "no-store" }, 7000);
+      if (res.ok) {
+        const xmlText = await res.text();
+        const doc = new DOMParser().parseFromString(xmlText, "text/xml");
+        const nodes = Array.from(doc.querySelectorAll("item")).slice(0, limit);
+        return nodes.map((node, idx) => {
+          const title = (node.querySelector("title")?.textContent || "").trim();
+          const link = (node.querySelector("link")?.textContent || "").trim();
+          const pubRaw =
+            node.querySelector("pubDate")?.textContent ||
+            node.getElementsByTagName("dc:date")?.[0]?.textContent ||
+            "";
+          const pubMs = pubRaw ? Date.parse(pubRaw) : Date.now();
+          const publishedTs = Number.isFinite(pubMs) ? Math.floor(pubMs / 1000) : Math.floor(Date.now() / 1000);
+          const hatenaImg = node.getElementsByTagName("hatena:imageurl")?.[0]?.textContent || "";
+          const desc = node.querySelector("description")?.textContent || "";
+          return {
+            category,
+            title,
+            url: link,
+            source: sourceFallback,
+            publishedTs,
+            publishedAt: formatNowJst().updatedAt,
+            rawThumb: hatenaImg.startsWith("https://") ? hatenaImg : "",
+            rawDesc: desc,
+            idx,
+          };
+        });
+      }
+    } catch (_e) {}
+    return [];
+  }
+
+  async function fetchLiveOgForUrl(url) {
+    try {
+      const proxyUrl = `https://api.allorigins.win/raw?url=${encodeURIComponent(url)}`;
+      const res = await fetchWithTimeout(proxyUrl, {}, 5000);
+      if (!res.ok) return {};
+      const html = await res.text();
+      const doc = new DOMParser().parseFromString(html, "text/html");
+      const ogImg =
+        doc.querySelector('meta[property="og:image"]')?.getAttribute("content") ||
+        doc.querySelector('meta[name="twitter:image"]')?.getAttribute("content") ||
+        "";
+      const ogDesc =
+        doc.querySelector('meta[property="og:description"]')?.getAttribute("content") ||
+        doc.querySelector('meta[name="description"]')?.getAttribute("content") ||
+        "";
+      return {
+        image: ogImg.startsWith("https://") && !ogImg.includes("ogp_default") ? ogImg : "",
+        summary: ogDesc ? ogDesc.trim() : "",
+      };
+    } catch (_e) {
+      return {};
+    }
+  }
+
+  async function fetchLiveBrowserNews(baseData) {
+    const existingByUrl = new Map();
+    const existingByTitle = new Map();
+    (baseData?.items || []).forEach((it) => {
+      if (it?.url) existingByUrl.set(it.url, it);
+      if (it?.title) existingByTitle.set(it.title, it);
+    });
+
+    const [domYahoo, domHatena, techYahoo, techHatena, bizYahoo, bizHatena] = await Promise.all([
+      fetchRssItemsViaProxy("https://news.yahoo.co.jp/rss/topics/domestic.xml", "domestic", "Yahoo!ニュース", 7),
+      fetchRssItemsViaProxy("https://b.hatena.ne.jp/hotentry/social.rss", "domestic", "はてなブックマーク", 6),
+      fetchRssItemsViaProxy("https://news.yahoo.co.jp/rss/topics/it.xml", "tech", "Yahoo!ニュース", 7),
+      fetchRssItemsViaProxy("https://b.hatena.ne.jp/hotentry/it.rss", "tech", "はてなブックマーク", 6),
+      fetchRssItemsViaProxy("https://news.yahoo.co.jp/rss/topics/business.xml", "business", "Yahoo!ニュース", 7),
+      fetchRssItemsViaProxy("https://b.hatena.ne.jp/hotentry/economics.rss", "business", "はてなブックマーク", 6),
+    ]);
+
+    const totalFetched =
+      domYahoo.length + domHatena.length + techYahoo.length + techHatena.length + bizYahoo.length + bizHatena.length;
+    if (totalFetched === 0) return null;
+
+    const seen = new Set();
+    async function buildCategoryList(rawCandidates, existingCatItems, catKey) {
+      const catMeta = getCategoryMeta(catKey);
+      const list = [];
+      for (const raw of rawCandidates) {
+        if (!raw.title || !raw.url) continue;
+        if (seen.has(raw.url) || seen.has(raw.title)) continue;
+        seen.add(raw.url);
+        seen.add(raw.title);
+
+        const cached = existingByUrl.get(raw.url) || existingByTitle.get(raw.title);
+        if (cached) {
+          list.push({ ...cached, category: catKey });
+        } else {
+          let img = raw.rawThumb || getFallbackImage({ category: catKey }, list.length);
+          let summary = raw.rawDesc
+            ? raw.rawDesc.replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim()
+            : `「${raw.title}」に関する注目ニュースです。詳細は元記事から確認できます。`;
+          if (summary.length > 150) summary = summary.slice(0, 149) + "…";
+
+          if (!raw.rawThumb && raw.url.includes("news.yahoo.co.jp")) {
+            const og = await fetchLiveOgForUrl(raw.url);
+            if (og.image) img = og.image;
+            if (og.summary && og.summary.length >= 20) {
+              summary = og.summary.endsWith("。") ? og.summary : og.summary + "…";
+            }
+          }
+
+          list.push({
+            category: catKey,
+            title: raw.title,
+            source: raw.source,
+            publishedAt: raw.publishedAt,
+            publishedTs: raw.publishedTs,
+            image: img,
+            summary,
+            points: [
+              `カテゴリ: ${catMeta.label}の最新トピック`,
+              `配信: ${raw.source}（${raw.publishedAt}）`,
+              "「元記事を読む」から詳細を確認できます",
+            ],
+            impact: `${catMeta.label}分野で関心を集めている最新ニュースです。`,
+            tags: [catMeta.label, raw.source],
+            url: raw.url,
+            isAiEnriched: false,
+          });
+        }
+        if (list.length >= 10) break;
+      }
+
+      // 10件に満たない場合は既存キャッシュ記事で補完
+      for (const oldIt of existingCatItems) {
+        if (list.length >= 10) break;
+        if (!seen.has(oldIt.url) && !seen.has(oldIt.title)) {
+          seen.add(oldIt.url);
+          seen.add(oldIt.title);
+          list.push(oldIt);
+        }
+      }
+      return list;
+    }
+
+    const oldDom = (baseData?.items || []).filter((i) => i.category === "domestic");
+    const oldTech = (baseData?.items || []).filter((i) => i.category === "tech");
+    const oldBiz = (baseData?.items || []).filter((i) => i.category === "business");
+
+    const [domList, techList, bizList] = await Promise.all([
+      buildCategoryList([...domYahoo, ...domHatena], oldDom, "domestic"),
+      buildCategoryList([...techYahoo, ...techHatena], oldTech, "tech"),
+      buildCategoryList([...bizYahoo, ...bizHatena], oldBiz, "business"),
+    ]);
+
+    const interleaved = [];
+    const buckets = [domList, techList, bizList];
+    while (buckets.some((b) => b.length > 0)) {
+      for (const b of buckets) {
+        if (b.length > 0) interleaved.push(b.shift());
+      }
+    }
+
+    if (interleaved.length === 0) return null;
+
+    const nowJst = formatNowJst();
+    const keywords = interleaved.slice(0, 6).map((it) =>
+      it.title.length > 13 ? it.title.slice(0, 13) + "…" : it.title
+    );
+
+    return {
+      date: nowJst.date,
+      updatedAt: nowJst.updatedAt,
+      title: "TREND NEWS",
+      keywords,
+      items: interleaved,
+    };
+  }
+
+  async function reloadNewsData(isManual = false) {
     if (state.isReloading) return;
     state.isReloading = true;
     elBtnRefresh.classList.add("spinning");
 
-    const ts = Date.now();
-    const urls = [
-      `https://raw.githubusercontent.com/sjhkazu1011-ctrl/morning-news-slides/main/data/news.js?t=${ts}`,
-      `data/news.js?t=${ts}`,
-    ];
-
     try {
-      for (const url of urls) {
-        try {
-          const res = await fetchWithTimeout(url, { cache: "no-store" }, 8000);
-          if (!res.ok) continue;
-          const text = await res.text();
-          const parsed = parseNewsJsText(text);
-          if (parsed && Array.isArray(parsed.items) && parsed.items.length > 0) {
-            const sig = computeDataSignature(parsed);
-            if (forceRender || sig !== state.lastDataSignature) {
-              window.NEWS_DATA = parsed;
-              state.data = parsed;
-              state.lastDataSignature = sig;
-              renderAll();
-            }
-            break;
-          }
-        } catch (_err) {
-          // Try next fallback URL
+      // Step 1: GitHub APIから最新コミットの data/news.js をキャッシュなしで取得
+      const ghData = await fetchGithubNewsData();
+      if (ghData) {
+        applyNewsDataIfNewer(ghData, isManual);
+      }
+
+      // Step 2: GitHub Actionsの定期実行が5分以上遅延している場合、または手動更新ボタン押下時は
+      // ブラウザから直接Yahoo!ニュース/はてなRSSを取得してリアルタイム更新する
+      const ageMs = Date.now() - parseUpdatedAtMs(state.data?.updatedAt);
+      if (isManual || ageMs >= 5 * 60 * 1000) {
+        const liveData = await fetchLiveBrowserNews(state.data);
+        if (liveData) {
+          applyNewsDataIfNewer(liveData, true);
+        } else if (isManual) {
+          // 通信制限等で外部RSSプロキシが応答しない場合でも現在時刻で再描画
+          const nowJst = formatNowJst();
+          state.data.updatedAt = nowJst.updatedAt;
+          renderAll();
         }
       }
     } finally {
@@ -616,6 +911,7 @@
   initTheme();
   initWeather();
   state.lastDataSignature = computeDataSignature(state.data);
+  restoreCachedNewsOnStartup();
   renderAll();
   reloadNewsData(false);
   setInterval(() => reloadNewsData(false), 5 * 60 * 1000);
