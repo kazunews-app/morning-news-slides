@@ -1,6 +1,6 @@
 window.NEWS_DATA = {
   "date": "2026年11月14日 (土)",
-  "updatedAt": "2026-11-14 05:23",
+  "updatedAt": "2026-11-14 06:17",
   "title": "TREND NEWS",
   "keywords": [
     "自衛官の給与引き上げ法が成…",
@@ -454,23 +454,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "「みんな戦争には反対してる」はたぶん間違い",
-      "source": "anond.hatelabo.jp",
-      "publishedAt": "2026-11-13 09:20",
-      "publishedTs": 1794529249,
-      "image": "https://anond.hatelabo.jp/assets/images/og-image-1500.gif",
-      "summary": "反戦活動への揶揄で「反戦なんて誰でもそうですが？」みたいに言う人がいるが、たぶんそれは間違いだ。 そりゃ自分の頭に爆弾が落ちてくるのは誰でも嫌だ。でも戦争自体についてはそうじゃない。 アメリカやイスラエルやロシアの所業も「良くはないけど～」みたいに保留つけてぼんやり容認してる人いくらでもいるだろ。 ...",
+      "title": "日本、出産は50万円引き、来年からは無料です、子供は18歳まで医療費無料です、幼小中高の学費実質無料です、児童手当が15,000円/月もらえます これで少子化になるのおかしい→「夫婦が子供を持つ率は昔からあんま変わってないので未婚化がエグいって研究してる人が言ってましたね」",
+      "source": "posfie.com",
+      "publishedAt": "2026-11-13 19:14",
+      "publishedTs": 1794564880,
+      "image": "https://s.tgstc.com/ogp3/888d1aceee35ee275affa490d6e7300b-1200x630.jpeg",
+      "summary": "ジロー @JiRo_ym 日本 ・出産は50万円引き、来年からは無料です ・子供は18歳まで医療費無料です ・幼小中高の学費実質無料です ・児童手当が15,000円/月もらえます これで少子化になるのおかしい 2026-11-12 16:50:16…",
       "points": [
         "カテゴリ: 国内・総合で話題の記事",
-        "引用元: anond.hatelabo.jp（2026-11-13 09:20）",
+        "引用元: posfie.com（2026-11-13 19:14）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "国内・総合分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "国内・総合",
-        "anond.hatelabo.jp"
+        "posfie.com"
       ],
-      "url": "https://anond.hatelabo.jp/20261113092029",
+      "url": "https://posfie.com/@kalofollow/p/RzCY6cB",
       "isAiEnriched": false
     },
     {
@@ -580,23 +580,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "日本、出産は50万円引き、来年からは無料です、子供は18歳まで医療費無料です、幼小中高の学費実質無料です、児童手当が15,000円/月もらえます これで少子化になるのおかしい→「夫婦が子供を持つ率は昔からあんま変わってないので未婚化がエグいって研究してる人が言ってましたね」",
-      "source": "posfie.com",
-      "publishedAt": "2026-11-13 19:14",
-      "publishedTs": 1794564880,
-      "image": "https://s.tgstc.com/ogp3/888d1aceee35ee275affa490d6e7300b-1200x630.jpeg",
-      "summary": "ジロー @JiRo_ym 日本 ・出産は50万円引き、来年からは無料です ・子供は18歳まで医療費無料です ・幼小中高の学費実質無料です ・児童手当が15,000円/月もらえます これで少子化になるのおかしい 2026-11-12 16:50:16…",
+      "title": "「みんな戦争には反対してる」はたぶん間違い",
+      "source": "anond.hatelabo.jp",
+      "publishedAt": "2026-11-13 09:20",
+      "publishedTs": 1794529249,
+      "image": "https://anond.hatelabo.jp/assets/images/og-image-1500.gif",
+      "summary": "反戦活動への揶揄で「反戦なんて誰でもそうですが？」みたいに言う人がいるが、たぶんそれは間違いだ。 そりゃ自分の頭に爆弾が落ちてくるのは誰でも嫌だ。でも戦争自体についてはそうじゃない。 アメリカやイスラエルやロシアの所業も「良くはないけど～」みたいに保留つけてぼんやり容認してる人いくらでもいるだろ。 ...",
       "points": [
         "カテゴリ: 国内・総合で話題の記事",
-        "引用元: posfie.com（2026-11-13 19:14）",
+        "引用元: anond.hatelabo.jp（2026-11-13 09:20）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "国内・総合分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "国内・総合",
-        "posfie.com"
+        "anond.hatelabo.jp"
       ],
-      "url": "https://posfie.com/@kalofollow/p/RzCY6cB",
+      "url": "https://anond.hatelabo.jp/20261113092029",
       "isAiEnriched": false
     },
     {
