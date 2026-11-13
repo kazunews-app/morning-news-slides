@@ -1,6 +1,6 @@
 window.NEWS_DATA = {
   "date": "2026年11月14日 (土)",
-  "updatedAt": "2026-11-14 03:22",
+  "updatedAt": "2026-11-14 04:25",
   "title": "TREND NEWS",
   "keywords": [
     "自衛官の給与引き上げ法が成…",
@@ -496,23 +496,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "報告書を「公文書扱いせず」、部隊内で複数回問題視　陸自の情報収集：朝日新聞",
-      "source": "asahi.com",
-      "publishedAt": "2026-11-13 14:48",
-      "publishedTs": 1794548910,
-      "image": "https://imgopt.asahi.com/ogp/AS20261112003146_comm.jpg",
-      "summary": "陸上自衛隊の「現地情報隊」が民間人らの思想信条などの情報を組織的に収集し、報告書にまとめていたとされる問題で、報告書を公文書として扱っていない運用が部隊内で問題視されていたことがわかった。部隊の元幹…",
+      "title": "中国首相、ＡＳＥＡＮの場で日本回避の公算…高市首相が出席する可能性ある会議への参加見送りか",
+      "source": "yomiuri.co.jp",
+      "publishedAt": "2026-11-13 16:52",
+      "publishedTs": 1794556356,
+      "image": "https://www.yomiuri.co.jp/media/2026/11/20261113-GYT1I00150-1.jpg?type=ogp",
+      "summary": "【読売新聞】 【北京＝吉永亜希子】中国の 李強 （ リーチャン ） 首相は１５～１６日、フィリピンの首都マニラを訪問し、中国と東南アジア諸国連合（ＡＳＥＡＮ）の首脳会議に出席する。 中国外務省の１１日の発表では、いずれも１７日に行わ…",
       "points": [
         "カテゴリ: ビジネス・経済で話題の記事",
-        "引用元: asahi.com（2026-11-13 14:48）",
+        "引用元: yomiuri.co.jp（2026-11-13 16:52）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "ビジネス・経済分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "ビジネス・経済",
-        "asahi.com"
+        "yomiuri.co.jp"
       ],
-      "url": "https://www.asahi.com/articles/ASVCD30WNVCDUTIL024M.html",
+      "url": "https://www.yomiuri.co.jp/world/20261113-GYT1T00148/",
       "isAiEnriched": false
     },
     {
@@ -538,44 +538,44 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "ぼくのClaude Codeの使い方",
-      "source": "speakerdeck.com",
-      "publishedAt": "2026-11-13 00:11",
-      "publishedTs": 1794496312,
-      "image": "https://files.speakerdeck.com/presentations/9c2451b8b99f4a269ce6f420bc0480ae/slide_0.jpg?41338374",
-      "summary": "Sapporo Claude Code Meetup LT, 2026/11/12…",
+      "title": "マネックス証券、不正アクセスでメールアドレス最大113万件と本人確認書類1600件弱が漏洩のおそれ",
+      "source": "k-tai.watch.impress.co.jp",
+      "publishedAt": "2026-11-13 21:34",
+      "publishedTs": 1794573249,
+      "image": "https://k-tai.watch.impress.co.jp/img/ktw/list/2156/449/01.jpg",
+      "summary": "「マネックス証券、不正アクセスでメールアドレス最大113万件と本人確認書類1600件弱が漏洩のおそれ」に関する注目記事です。",
       "points": [
         "カテゴリ: テクノロジー・AIで話題の記事",
-        "引用元: speakerdeck.com（2026-11-13 00:11）",
+        "引用元: k-tai.watch.impress.co.jp（2026-11-13 21:34）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "テクノロジー・AI分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "テクノロジー・AI",
-        "speakerdeck.com"
+        "k-tai.watch.impress.co.jp"
       ],
-      "url": "https://speakerdeck.com/falken/boku-no-claude-code-no-tsukaikata",
+      "url": "https://k-tai.watch.impress.co.jp/docs/news/2156449.html",
       "isAiEnriched": false
     },
     {
       "category": "business",
-      "title": "中国首相、ＡＳＥＡＮの場で日本回避の公算…高市首相が出席する可能性ある会議への参加見送りか",
-      "source": "yomiuri.co.jp",
-      "publishedAt": "2026-11-13 16:52",
-      "publishedTs": 1794556356,
-      "image": "https://www.yomiuri.co.jp/media/2026/11/20261113-GYT1I00150-1.jpg?type=ogp",
-      "summary": "【読売新聞】 【北京＝吉永亜希子】中国の 李強 （ リーチャン ） 首相は１５～１６日、フィリピンの首都マニラを訪問し、中国と東南アジア諸国連合（ＡＳＥＡＮ）の首脳会議に出席する。 中国外務省の１１日の発表では、いずれも１７日に行わ…",
+      "title": "報告書を「公文書扱いせず」、部隊内で複数回問題視　陸自の情報収集：朝日新聞",
+      "source": "asahi.com",
+      "publishedAt": "2026-11-13 14:48",
+      "publishedTs": 1794548910,
+      "image": "https://imgopt.asahi.com/ogp/AS20261112003146_comm.jpg",
+      "summary": "陸上自衛隊の「現地情報隊」が民間人らの思想信条などの情報を組織的に収集し、報告書にまとめていたとされる問題で、報告書を公文書として扱っていない運用が部隊内で問題視されていたことがわかった。部隊の元幹…",
       "points": [
         "カテゴリ: ビジネス・経済で話題の記事",
-        "引用元: yomiuri.co.jp（2026-11-13 16:52）",
+        "引用元: asahi.com（2026-11-13 14:48）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "ビジネス・経済分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "ビジネス・経済",
-        "yomiuri.co.jp"
+        "asahi.com"
       ],
-      "url": "https://www.yomiuri.co.jp/world/20261113-GYT1T00148/",
+      "url": "https://www.asahi.com/articles/ASVCD30WNVCDUTIL024M.html",
       "isAiEnriched": false
     },
     {
@@ -601,23 +601,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "マネックス証券、不正アクセスでメールアドレス最大113万件と本人確認書類1600件弱が漏洩のおそれ",
-      "source": "k-tai.watch.impress.co.jp",
-      "publishedAt": "2026-11-13 21:34",
-      "publishedTs": 1794573249,
-      "image": "https://k-tai.watch.impress.co.jp/img/ktw/list/2156/449/01.jpg",
-      "summary": "「マネックス証券、不正アクセスでメールアドレス最大113万件と本人確認書類1600件弱が漏洩のおそれ」に関する注目記事です。",
+      "title": "ぼくのClaude Codeの使い方",
+      "source": "speakerdeck.com",
+      "publishedAt": "2026-11-13 00:11",
+      "publishedTs": 1794496312,
+      "image": "https://files.speakerdeck.com/presentations/9c2451b8b99f4a269ce6f420bc0480ae/slide_0.jpg?41338374",
+      "summary": "Sapporo Claude Code Meetup LT, 2026/11/12…",
       "points": [
         "カテゴリ: テクノロジー・AIで話題の記事",
-        "引用元: k-tai.watch.impress.co.jp（2026-11-13 21:34）",
+        "引用元: speakerdeck.com（2026-11-13 00:11）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "テクノロジー・AI分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "テクノロジー・AI",
-        "k-tai.watch.impress.co.jp"
+        "speakerdeck.com"
       ],
-      "url": "https://k-tai.watch.impress.co.jp/docs/news/2156449.html",
+      "url": "https://speakerdeck.com/falken/boku-no-claude-code-no-tsukaikata",
       "isAiEnriched": false
     },
     {
