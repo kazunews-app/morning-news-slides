@@ -2,8 +2,8 @@ name: Update Trend News
 
 on:
   schedule:
-    # 1時間ごとに自動更新（毎時05分）
-    - cron: '5 * * * *'
+    # 5分ごとに自動更新
+    - cron: '*/5 * * * *'
   workflow_dispatch:
   push:
     branches:

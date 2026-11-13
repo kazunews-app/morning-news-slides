@@ -377,6 +377,106 @@
     elBtnRefresh.classList.remove("spinning");
   }
 
+  // Weather (Geolocation + Open-Meteo + Reverse Geocoding)
+  const elWeatherWidget = document.getElementById("weather-widget");
+  const elWeatherIcon = document.getElementById("weather-icon");
+  const elWeatherLoc = document.getElementById("weather-loc");
+  const elWeatherTemp = document.getElementById("weather-temp");
+  const elWeatherSub = document.getElementById("weather-sub");
+
+  function getWeatherMeta(code) {
+    if (code === 0) return { icon: "☀️", label: "快晴" };
+    if (code === 1 || code === 2) return { icon: "🌤️", label: "晴れ" };
+    if (code === 3) return { icon: "☁️", label: "くもり" };
+    if (code === 45 || code === 48) return { icon: "🌫️", label: "霧" };
+    if (code >= 51 && code <= 67) return { icon: "🌧️", label: "雨" };
+    if (code >= 71 && code <= 77) return { icon: "❄️", label: "雪" };
+    if (code >= 80 && code <= 82) return { icon: "🌦️", label: "にわか雨" };
+    if (code >= 85 && code <= 86) return { icon: "🌨️", label: "吹雪" };
+    if (code >= 95) return { icon: "⛈️", label: "雷雨" };
+    return { icon: "⛅", label: "天気" };
+  }
+
+  async function resolveLocationName(lat, lon) {
+    try {
+      const url = `https://api.bigdatacloud.net/data/reverse-geocode-client?latitude=${lat}&longitude=${lon}&localityLanguage=ja`;
+      const res = await fetch(url);
+      if (!res.ok) return "現在地";
+      const data = await res.json();
+      const city = data.city || data.locality || data.principalSubdivision || "現在地";
+      return city.replace(/^(東京都|大阪府|京都府|北海道)/, "$1 ");
+    } catch (_e) {
+      return "現在地";
+    }
+  }
+
+  async function fetchAndRenderWeather(lat, lon, locName) {
+    try {
+      const url = `https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}&current=temperature_2m,weather_code&daily=weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max&timezone=Asia%2FTokyo&forecast_days=1`;
+      const res = await fetch(url);
+      if (!res.ok) throw new Error("Weather fetch failed");
+      const data = await res.json();
+
+      const currentTemp = Math.round(data.current?.temperature_2m ?? 0);
+      const code = data.current?.weather_code ?? 0;
+      const meta = getWeatherMeta(code);
+
+      const maxTemp = Math.round(data.daily?.temperature_2m_max?.[0] ?? currentTemp);
+      const minTemp = Math.round(data.daily?.temperature_2m_min?.[0] ?? currentTemp);
+      const pop = data.daily?.precipitation_probability_max?.[0] ?? 0;
+
+      elWeatherIcon.textContent = meta.icon;
+      elWeatherLoc.textContent = `📍 ${locName}`;
+      elWeatherTemp.textContent = `${currentTemp}°C`;
+      elWeatherSub.textContent = `${meta.label} H:${maxTemp}° L:${minTemp}° ☔${pop}%`;
+    } catch (_err) {
+      elWeatherSub.textContent = "天気を取得できませんでした";
+    }
+  }
+
+  function requestGeolocationWeather(isUserTap = false) {
+    if (!navigator.geolocation) {
+      elWeatherSub.textContent = "位置情報非対応";
+      return;
+    }
+    if (isUserTap) {
+      elWeatherSub.textContent = "現在地を取得中...";
+    }
+    navigator.geolocation.getCurrentPosition(
+      async (pos) => {
+        const lat = Number(pos.coords.latitude.toFixed(4));
+        const lon = Number(pos.coords.longitude.toFixed(4));
+        const locName = await resolveLocationName(lat, lon);
+        localStorage.setItem("trend-news-geo", JSON.stringify({ lat, lon, locName }));
+        await fetchAndRenderWeather(lat, lon, locName);
+      },
+      (_err) => {
+        if (isUserTap) {
+          elWeatherSub.textContent = "位置情報の許可が必要です(東京を表示)";
+        }
+        fetchAndRenderWeather(35.6812, 139.7671, "東京");
+      },
+      { enableHighAccuracy: false, timeout: 10000, maximumAge: 600000 }
+    );
+  }
+
+  function initWeather() {
+    if (elWeatherWidget) {
+      elWeatherWidget.addEventListener("click", () => requestGeolocationWeather(true));
+    }
+    try {
+      const saved = JSON.parse(localStorage.getItem("trend-news-geo") || "null");
+      if (saved && saved.lat && saved.lon) {
+        fetchAndRenderWeather(saved.lat, saved.lon, saved.locName || "現在地");
+        requestGeolocationWeather(false);
+        return;
+      }
+    } catch (_e) {}
+    // 初回は仮で東京を表示しつつ現在地をリクエスト
+    fetchAndRenderWeather(35.6812, 139.7671, "東京");
+    requestGeolocationWeather(false);
+  }
+
   // Theme
   function initTheme() {
     const saved = localStorage.getItem("trend-news-theme") || localStorage.getItem("morning-news-theme");
@@ -438,6 +538,8 @@
 
   // Init
   initTheme();
+  initWeather();
   renderAll();
   reloadNewsData();
+  setInterval(reloadNewsData, 5 * 60 * 1000);
 })();

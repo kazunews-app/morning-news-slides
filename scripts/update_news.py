@@ -299,11 +299,11 @@ def fetch_hatena_rss(rss_url: str, category: str, limit: int) -> list[dict]:
     return items
 
 
-def fetch_zenn_tech(limit: int = 2) -> list[dict]:
+def fetch_zenn_tech(limit: int = 4) -> list[dict]:
     items: list[dict] = []
     try:
         data = json.loads(
-            fetch_url_bytes("https://zenn.dev/api/articles?order=trend&count=5").decode("utf-8")
+            fetch_url_bytes("https://zenn.dev/api/articles?order=trend&count=10").decode("utf-8")
         )
         for idx, art in enumerate(data.get("articles", [])[:limit]):
             title = art.get("title", "").strip()
@@ -477,44 +477,50 @@ def interleave_top_items(domestic: list[dict], tech: list[dict], business: list[
     return ordered
 
 
+def pick_unique_category_items(candidates: list[dict], seen: set[str], target_count: int = 10) -> list[dict]:
+    picked: list[dict] = []
+    for it in candidates:
+        key_url = it.get("url", "").strip()
+        key_title = it.get("title", "").strip()
+        if not key_title or key_url in seen or key_title in seen:
+            continue
+        if key_url:
+            seen.add(key_url)
+        seen.add(key_title)
+        picked.append(it)
+        if len(picked) >= target_count:
+            break
+    return picked
+
+
 def main() -> None:
     now = datetime.datetime.now(JST)
 
-    domestic = fetch_yahoo_topics(
-        "https://news.yahoo.co.jp/rss/topics/domestic.xml", "domestic", limit=3
-    ) + fetch_hatena_rss(
-        "https://b.hatena.ne.jp/hotentry/social.rss", "domestic", limit=3
+    domestic_candidates = (
+        fetch_yahoo_topics("https://news.yahoo.co.jp/rss/topics/domestic.xml", "domestic", limit=6)
+        + fetch_hatena_rss("https://b.hatena.ne.jp/hotentry/social.rss", "domestic", limit=8)
+        + fetch_yahoo_topics("https://news.yahoo.co.jp/rss/topics/top-picks.xml", "domestic", limit=4)
     )
 
-    tech = (
-        fetch_yahoo_topics(
-            "https://news.yahoo.co.jp/rss/topics/it.xml", "tech", limit=2
-        )
-        + fetch_hatena_rss(
-            "https://b.hatena.ne.jp/hotentry/it.rss", "tech", limit=3
-        )
-        + fetch_zenn_tech(limit=2)
+    tech_candidates = (
+        fetch_yahoo_topics("https://news.yahoo.co.jp/rss/topics/it.xml", "tech", limit=5)
+        + fetch_hatena_rss("https://b.hatena.ne.jp/hotentry/it.rss", "tech", limit=7)
+        + fetch_zenn_tech(limit=4)
     )
 
-    business = fetch_yahoo_topics(
-        "https://news.yahoo.co.jp/rss/topics/business.xml", "business", limit=3
-    ) + fetch_hatena_rss(
-        "https://b.hatena.ne.jp/hotentry/economics.rss", "business", limit=3
+    business_candidates = (
+        fetch_yahoo_topics("https://news.yahoo.co.jp/rss/topics/business.xml", "business", limit=6)
+        + fetch_hatena_rss("https://b.hatena.ne.jp/hotentry/economics.rss", "business", limit=8)
     )
+
+    seen_global: set[str] = set()
+    domestic = pick_unique_category_items(domestic_candidates, seen_global, target_count=10)
+    tech = pick_unique_category_items(tech_candidates, seen_global, target_count=10)
+    business = pick_unique_category_items(business_candidates, seen_global, target_count=10)
 
     items = interleave_top_items(domestic, tech, business)
     if not items:
         raise RuntimeError("ニュースを1件も取得できませんでした。")
-
-    # 重複URL・タイトル除去
-    seen: set[str] = set()
-    unique_items: list[dict] = []
-    for it in items:
-        key = it.get("url") or it.get("title")
-        if key and key not in seen:
-            seen.add(key)
-            unique_items.append(it)
-    items = unique_items
 
     # 既存キャッシュからAI要約・実画像を引き継ぐ
     cache = load_cached_items()

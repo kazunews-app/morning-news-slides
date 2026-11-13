@@ -1,416 +1,159 @@
 window.NEWS_DATA = {
   "date": "2026年11月14日 (土)",
-  "updatedAt": "2026-11-14 00:15",
+  "updatedAt": "2026-11-14 00:07",
   "title": "TREND NEWS",
   "keywords": [
-    "自衛官の給与引き上げ法が成…",
-    "MS障害 日本は比較的安定…",
-    "「週明け怖い」MS障害の影…",
-    "政府 ロシアに首脳会談を打…",
-    "GMO攻撃 被害申告は29…",
-    "ワタミがMBO実施へ 32…"
+    "Microsoft 365",
+    "円安160円台",
+    "AIエージェント",
+    "MCP",
+    "宇宙データセンター",
+    "暗号資産ETF"
   ],
   "items": [
     {
       "category": "domestic",
-      "title": "自衛官の給与引き上げ法が成立",
-      "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-13 23:48",
-      "publishedTs": 1794581283,
-      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/13/07e0f2dc16f154bbe95f39f28cfe2bbef850b3ae620c234f149ef5f95fa05dfe.jpg",
-      "summary": "全ての年代の自衛官の基本給を引き上げることなどを盛り込んだ「防衛省の職員の給与等に関する法律の改正法」が、13日の参議院本会議で可決・成立しました。",
+      "title": "Microsoft 365で世界規模の大規模障害、国内府省庁や企業にも影響",
+      "source": "国内・経済ニュース",
+      "publishedAt": "2026-11-13 22:30",
+      "image": "assets/images/news-1.jpg",
+      "summary": "Microsoft 365で広範囲なシステム障害が発生。OutlookやTeamsなどが利用しづらくなり、経済産業省などの府省庁や国内企業の業務に影響が及んだ。",
       "points": [
-        "カテゴリ: 国内・総合の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-13 23:48）",
-        "「元記事を読む」から詳細を確認できます"
+        "OutlookやTeamsなど主要クラウドサービスで接続障害が発生",
+        "国内の府省庁・自治体・企業で電話対応への切り替えなど業務影響が拡大",
+        "マイクロソフト社が順次復旧作業を進めており改善傾向と発表"
       ],
-      "impact": "国内・総合分野で関心を集めている最新ニュースです。",
-      "tags": [
-        "国内・総合",
-        "Yahoo!ニュース"
-      ],
-      "url": "https://news.yahoo.co.jp/pickup/6602480?source=rss",
-      "isAiEnriched": false
+      "impact": "クラウドサービスへの単一依存リスクと、障害発生時のBCP（事業継続計画）・代替連絡手段の重要性が改めて浮き彫りになっています。",
+      "tags": ["ITインフラ", "Microsoft 365", "BCP"],
+      "url": "https://news.google.com/search?q=Microsoft+365+%E9%9A%9C%E5%AE%B3"
     },
     {
       "category": "tech",
-      "title": "MS障害 日本は比較的安定状態",
-      "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-13 23:16",
-      "publishedTs": 1794579372,
-      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/13/853dac30e12c3e31c0979168b606e281279f33a2c275cc98f2d5afb7b3830468.jpg",
-      "summary": "米マイクロソフトは12日（日本時間13日）、企業向けクラウドサービス「マイクロソフト365」で大規模な障害が起きていると発表した。世界中で電子メールが送信できないなどの不具合が続いていた。日本時間1",
+      "title": "「生成するAI」から「自律実行するAIエージェント」へ本格シフト",
+      "source": "AIテクノロジートレンド",
+      "publishedAt": "2026-11-13 21:45",
+      "image": "assets/images/news-3.jpg",
+      "summary": "国内の生成AI利用率が過半数を超える中、単なる文章生成から、AIが自らタスクを分解しツールを操作して業務を完結させる「AIエージェント」の本番導入が急増している。",
       "points": [
-        "カテゴリ: テクノロジー・AIの注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-13 23:16）",
-        "「元記事を読む」から詳細を確認できます"
+        "PoC（実証実験）フェーズが終わり、実業務プロセスを再設計する段階へ",
+        "カスタマー対応、自動テスト、データ集計など「ハイブリッド労働力」として定着",
+        "モデル選定基準も「最高性能」から「コスパ・用途への最適解」重視へ移行"
       ],
-      "impact": "テクノロジー・AI分野で関心を集めている最新ニュースです。",
-      "tags": [
-        "テクノロジー・AI",
-        "Yahoo!ニュース"
-      ],
-      "url": "https://news.yahoo.co.jp/pickup/6602477?source=rss",
-      "isAiEnriched": false
+      "impact": "開発者やDX担当者の役割も、コードを書く作業から「AIエージェントの設計・オーケストレーション・監視」へと大きく変化しています。",
+      "tags": ["AIエージェント", "DX", "生成AI"],
+      "url": "https://news.google.com/search?q=AI%E3%82%A8%E3%83%BC%E3%82%B8%E3%82%A7%E3%83%B3%E3%83%88+%E3%83%88%E3%83%AC%E3%83%B3%E3%83%89"
     },
     {
       "category": "business",
-      "title": "「週明け怖い」MS障害の影響広く",
-      "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-13 22:14",
-      "publishedTs": 1794575691,
-      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/13/e523b2dde72c952e4b3db31555b89df2512938c1f84d78d8b9f1acdc11c8bc3b.jpg",
-      "summary": "米IT大手マイクロソフト（MS）のメールや業務ソフトなどで起きた世界的なシステム障害は、国内でも影響が広がった。「仕事にならない」「週明けが怖い」。多くの業界で連絡手段を電話に切り替えるなどして対応",
+      "title": "NTT・三菱電機・MUFGなど5社、衛星通信網と宇宙データセンターで協業",
+      "source": "産業・ビジネス",
+      "publishedAt": "2026-11-13 20:15",
+      "image": "assets/images/news-5.jpg",
+      "summary": "NTTドコモビジネス、三菱電機、NTT、三菱UFJ銀行、日本政策投資銀行の5社が、衛星「メガコンステレーション」や宇宙データセンターの事業化に向けた包括協業覚書を締結。",
       "points": [
-        "カテゴリ: ビジネス・経済の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-13 22:14）",
-        "「元記事を読む」から詳細を確認できます"
+        "通信・電機・メガバンク・政策金融の異業種5社による大型インフラ連合",
+        "広域をカバーする低軌道衛星通信網の構築・運用を目指す",
+        "宇宙空間を活用した次世代データセンターなどの事業化も視野に"
       ],
-      "impact": "ビジネス・経済分野で関心を集めている最新ニュースです。",
-      "tags": [
-        "ビジネス・経済",
-        "Yahoo!ニュース"
-      ],
-      "url": "https://news.yahoo.co.jp/pickup/6602468?source=rss",
-      "isAiEnriched": false
+      "impact": "地上インフラの災害リスク分散やAI計算需要の増大を見据えた、日本発の次世代宇宙インフラ投資が本格始動しています。",
+      "tags": ["宇宙ビジネス", "インフラ", "NTT"],
+      "url": "https://news.google.com/search?q=%E3%83%A1%E3%82%AC%E3%82%B3%E3%83%B3%E3%82%B9%E3%83%86%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3+NTT"
     },
     {
       "category": "domestic",
-      "title": "政府 ロシアに首脳会談を打診",
-      "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-13 14:37",
-      "publishedTs": 1794548223,
-      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/13/0154923b3a63539fcbe21374bba254e8ba0488e9453707e6ad6c5c90217605de.jpg",
-      "summary": "政府が来週、中国で開かれる国際会議に合わせて、高市総理大臣とプーチン大統領による会談の開催をロシア側に打診したことがわかりました。",
+      "title": "ドル円相場が一時160円台前半へ、政府・日銀の防衛ラインに注目",
+      "source": "金融・為替市場",
+      "publishedAt": "2026-11-13 19:30",
+      "image": "assets/images/news-2.jpg",
+      "summary": "外国為替市場で円安が進行し、一時1ドル＝160円台前半をつける展開に。実務的・心理的な防衛ライン付近での推移を受け、当局の牽制や為替介入への警戒感が高まっている。",
       "points": [
-        "カテゴリ: 国内・総合の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-13 14:37）",
-        "「元記事を読む」から詳細を確認できます"
+        "ドル円相場が一時160円台前半まで円安が進行",
+        "市場では160円台が「防衛ライン」として意識され緊張感が高まる",
+        "政府・日銀による口先介入や実弾介入の有無に注視が集まる"
       ],
-      "impact": "国内・総合分野で関心を集めている最新ニュースです。",
-      "tags": [
-        "国内・総合",
-        "Yahoo!ニュース"
-      ],
-      "url": "https://news.yahoo.co.jp/pickup/6602418?source=rss",
-      "isAiEnriched": false
+      "impact": "輸入コストやエネルギー・食料品価格への波及に加え、日本株や海外ハイテク株投資のパフォーマンスにも直結する重要指標となっています。",
+      "tags": ["為替", "円安", "日銀"],
+      "url": "https://news.google.com/search?q=%E3%83%89%E3%83%AB%E5%86%86+160%E5%86%86"
     },
     {
       "category": "tech",
-      "title": "GMO攻撃 被害申告は29.9億円に",
-      "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-13 16:52",
-      "publishedTs": 1794556328,
-      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/13/e7bf11e96352a191d069fceda7a3136b155246ae4388c4d9507f28379abfc554.jpg",
-      "summary": "ＧＭＯインターネットのＦＸ（外国為替証拠金）取引用クラウドサービスが不正アクセスを受けた問題で、親会社のＧＭＯインターネットグループは１３日、利用者からの被害申告が１２日までに計２９４３口座、約２９",
+      "title": "MCPなど外部連携規格の普及と、AIセキュリティ・ガバナンス強化",
+      "source": "テック・セキュリティ",
+      "publishedAt": "2026-11-13 18:10",
+      "image": "assets/images/news-4.jpg",
+      "summary": "AIと社内システムやDBを標準規格でつなぐMCP（Model Context Protocol）が浸透する一方、AIを悪用したサイバー攻撃の高度化を受け、権限管理とガバナンス構築が急務となっている。",
       "points": [
-        "カテゴリ: テクノロジー・AIの注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-13 16:52）",
-        "「元記事を読む」から詳細を確認できます"
+        "「AIのためのUSBポート」とも呼ばれるMCPなどの標準連携プロトコルが普及",
+        "社内システムやメール・カレンダーとAIを安全に接続する構成が一般化",
+        "AI悪用型の不正アクセス増加に伴い、厳格なアクセス制御とログ監査が必須に"
       ],
-      "impact": "テクノロジー・AI分野で関心を集めている最新ニュースです。",
-      "tags": [
-        "テクノロジー・AI",
-        "Yahoo!ニュース"
-      ],
-      "url": "https://news.yahoo.co.jp/pickup/6602430?source=rss",
-      "isAiEnriched": false
+      "impact": "便利さと安全性を両立するため、AIにどこまでの権限を与えるかという設計思想とセキュリティ統制が競争力を左右します。",
+      "tags": ["MCP", "セキュリティ", "ガバナンス"],
+      "url": "https://news.google.com/search?q=MCP+AI+%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3"
     },
     {
       "category": "business",
-      "title": "ワタミがMBO実施へ 320億円程度",
-      "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-13 22:18",
-      "publishedTs": 1794575918,
-      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/13/4cb8aff8f8fffe58c9490c624a123932cea7c56c89961b152ab720985185a842.jpg",
-      "summary": "居酒屋大手のワタミは13日、経営陣による自社買収（MBO）を実施すると発表した。創業者の渡辺美樹会長兼社長の資産管理会社が株式公開買い付け（TOB）をし、全株取得を目指す。買い付け総額は320億円程",
+      "title": "国内で暗号資産ETFの実務課題やデジタル資産市場の議論が本格化",
+      "source": "金融・デジタル資産",
+      "publishedAt": "2026-11-13 17:20",
+      "image": "assets/images/news-6.jpg",
+      "summary": "金融庁や日本経済新聞社などが関与するカンファレンスを控え、国内での暗号資産ETF商品化やセキュリティ・トークン（ST）の流通インフラ整備、2040年資本市場ビジョンに注目が集まる。",
       "points": [
-        "カテゴリ: ビジネス・経済の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-13 22:18）",
-        "「元記事を読む」から詳細を確認できます"
+        "国内における暗号資産ETFの商品化に向けた制度・実務課題の議論が前進",
+        "不動産などを裏付けとしたセキュリティ・トークン（ST）の決済基盤整備",
+        "日本証券業協会が2040年を見据えた直接金融・中間層投資拡大の中間報告を公表"
       ],
-      "impact": "ビジネス・経済分野で関心を集めている最新ニュースです。",
-      "tags": [
-        "ビジネス・経済",
-        "Yahoo!ニュース"
+      "impact": "「貯蓄から投資へ」の次のフェーズとして、デジタル資産や社債市場を含めた日本の資本市場のアップデートが進んでいます。",
+      "tags": ["暗号資産ETF", "金融庁", "資本市場"],
+      "url": "https://news.google.com/search?q=%E6%9A%97%E5%8F%B7%E8%B3%87%E7%94%A3ETF+%E6%97%A5%E6%9C%AC"
+    },
+    {
+      "category": "business",
+      "title": "主要企業の決算一巡、半導体株や為替動向を背景に活発な売買続く",
+      "source": "株式・マーケット",
+      "publishedAt": "2026-11-13 16:00",
+      "image": "assets/images/news-5.jpg",
+      "summary": "国内株式市場では主要企業の四半期決算発表が一巡し、半導体関連株や個別企業の業績サプライズに連動した売買が継続。米ハイテク株や為替推移が相場を左右している。",
+      "points": [
+        "11月中旬にかけて国内主要企業の四半期決算発表が一巡",
+        "好決算・下方修正など個別業績サプライズを材料にした物色が活発",
+        "日経平均は海外ハイテク株やドル円相場（160円台）の動向を注視"
       ],
-      "url": "https://news.yahoo.co.jp/pickup/6602467?source=rss",
-      "isAiEnriched": false
+      "impact": "決算シーズン明けの銘柄選別と年末相場に向けた資金流入の行方が注目されています。",
+      "tags": ["日経平均", "半導体", "企業決算"],
+      "url": "https://news.google.com/search?q=%E6%97%A5%E7%B5%8C%E5%B9%B3%E5%9D%87+%E6%B1%BA%E7%AE%97+%E5%8D%8A%E5%B0%8E%E4%BD%93"
     },
     {
       "category": "domestic",
-      "title": "支援金 勤労者全体の5割以上検討",
-      "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-13 17:08",
-      "publishedTs": 1794557294,
-      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/13/59ae1e21dc2c9fbd9820e03eefa540a4bc0aafaed7788998f3893b09dcc90aa5.jpg",
-      "summary": "今国会で最大の焦点となっている消費税減税法案をめぐり、高市総理大臣は、支援金の対象について「勤労者全体の5割以上となるよう所得上限の引き上げを検討する」と表明しました。",
+      "title": "防衛費の規模・財源を巡る政府与党の調整が本格化、5年間で50〜60兆円台へ",
+      "source": "政治・財政",
+      "publishedAt": "2026-11-13 15:10",
+      "image": "assets/images/news-2.jpg",
+      "summary": "政府・与党内で今後5年間の防衛費の総額規模や財源確保を巡る議論が活発化。増税の是非や金利・為替・景気への波及効果について慎重な調整が続いている。",
       "points": [
-        "カテゴリ: 国内・総合の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-13 17:08）",
-        "「元記事を読む」から詳細を確認できます"
+        "今後5年間の防衛費総額を50兆円台後半〜60兆円前後で調整",
+        "安定財源の確保手段として増税の是非や歳出改革が議論の焦点",
+        "国債金利や為替、国内景気への影響を慎重に見極める姿勢"
       ],
-      "impact": "国内・総合分野で関心を集めている最新ニュースです。",
-      "tags": [
-        "国内・総合",
-        "Yahoo!ニュース"
-      ],
-      "url": "https://news.yahoo.co.jp/pickup/6602431?source=rss",
-      "isAiEnriched": false
-    },
-    {
-      "category": "tech",
-      "title": "Claude Codeのおすすめ環境を全体図で解説。ハーネス・スキル・MCPの仕組みと実例",
-      "source": "ktlog.net",
-      "publishedAt": "2026-11-13 14:21",
-      "publishedTs": 1794547318,
-      "image": "https://ktlog.net/_emdash/api/media/file/01M6WX9NHRH5N9QRFZYP0DTKWK.webp",
-      "summary": "公開 2026.11.08 Claude Codeのおすすめ環境を全体図で解説。ハーネス・スキル・MCPの仕組みと実例 Claude Codeのおすすめ環境は、入口をClaude Code 1つにまとめ、判断AIや権限ルールなどのハーネスを通してから、ほかのAI・スキル・MCP・外部APIへ仕事を振り分ける形です...",
-      "points": [
-        "カテゴリ: テクノロジー・AIで話題の記事",
-        "引用元: ktlog.net（2026-11-13 14:21）",
-        "「元記事を読む」から本文を確認できます"
-      ],
-      "impact": "テクノロジー・AI分野で多くの読者に共有されている注目記事です。",
-      "tags": [
-        "テクノロジー・AI",
-        "ktlog.net"
-      ],
-      "url": "https://ktlog.net/posts/claude-code-ai-ecosystem",
-      "isAiEnriched": false
-    },
-    {
-      "category": "business",
-      "title": "個人向け国債NISA化 見送りで調整",
-      "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-13 19:47",
-      "publishedTs": 1794566860,
-      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/13/661a1ea54ad28979d2fad2f61b0af9412ca0a0b6fdd63164a7332494c5856014.jpg",
-      "summary": "政府・与党は、個人向け国債をNISAに組み入れて税制優遇することを検討していましたが、来年度の税制改正を見送る方向で調整しています。",
-      "points": [
-        "カテゴリ: ビジネス・経済の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-13 19:47）",
-        "「元記事を読む」から詳細を確認できます"
-      ],
-      "impact": "ビジネス・経済分野で関心を集めている最新ニュースです。",
-      "tags": [
-        "ビジネス・経済",
-        "Yahoo!ニュース"
-      ],
-      "url": "https://news.yahoo.co.jp/pickup/6602452?source=rss",
-      "isAiEnriched": false
+      "impact": "来年度予算編成や税制改正大綱に直結するため、家計や企業の税負担・国債市場の動向にも大きく関わります。",
+      "tags": ["防衛費", "財源", "経済政策"],
+      "url": "https://news.google.com/search?q=%E9%98%B2%E8%A1%9B%E8%B2%BB+%E8%B2%A1%E6%BA%90"
     },
     {
       "category": "domestic",
-      "title": "「みんな戦争には反対してる」はたぶん間違い",
-      "source": "anond.hatelabo.jp",
-      "publishedAt": "2026-11-13 09:20",
-      "publishedTs": 1794529249,
-      "image": "https://anond.hatelabo.jp/assets/images/og-image-1500.gif",
-      "summary": "反戦活動への揶揄で「反戦なんて誰でもそうですが？」みたいに言う人がいるが、たぶんそれは間違いだ。 そりゃ自分の頭に爆弾が落ちてくるのは誰でも嫌だ。でも戦争自体についてはそうじゃない。 アメリカやイスラエルやロシアの所業も「良くはないけど～」みたいに保留つけてぼんやり容認してる人いくらでもいるだろ。 ...",
+      "title": "京都・高瀬川の屋外美術作品が損壊、管理やマナーを巡り波紋",
+      "source": "社会・カルチャー",
+      "publishedAt": "2026-11-13 14:00",
+      "image": "assets/images/news-1.jpg",
+      "summary": "京都市の繁華街を流れる高瀬川に展示されていた美術作品が真っ二つに折られているのが見つかり、警察が故意による損壊の可能性も含めて捜査を進めている。",
       "points": [
-        "カテゴリ: 国内・総合で話題の記事",
-        "引用元: anond.hatelabo.jp（2026-11-13 09:20）",
-        "「元記事を読む」から本文を確認できます"
+        "京都・高瀬川に設置されていたアート作品が折損しているのを発見",
+        "警察や関係者は器物損壊などの可能性も視野に状況を調査中",
+        "街なか展示・パブリックアートの防犯や鑑賞マナーを巡り議論が拡大"
       ],
-      "impact": "国内・総合分野で多くの読者に共有されている注目記事です。",
-      "tags": [
-        "国内・総合",
-        "anond.hatelabo.jp"
-      ],
-      "url": "https://anond.hatelabo.jp/20261113092029",
-      "isAiEnriched": false
-    },
-    {
-      "category": "tech",
-      "title": "Microsoft 365の障害で上司が事業部の部長から「こうなる事を予想して事前に対処しておくのがシステム部だろうが！」と言われ、反抗して早退…連絡の受け手は必然的に私に",
-      "source": "togetter.com",
-      "publishedAt": "2026-11-13 18:58",
-      "publishedTs": 1794563897,
-      "image": "https://s.tgstc.com/ogp3/cbbc0911cdba7f189ff20584eb240cd1-1200x630.jpeg",
-      "summary": "まあゆ @ma_yu_69 上司が事業部の部長に「こうなる事（M365の障害）を予想して事前に対処しておくのがシステム部だろうが！！」って言われて「（システムを）分かんねぇくせに口出すな知ったかぶりが！！」って応酬して、そのまま早退してしまった午前11時47分 2026-11-13 12:20:34 まあゆ @m...",
-      "points": [
-        "カテゴリ: テクノロジー・AIで話題の記事",
-        "引用元: togetter.com（2026-11-13 18:58）",
-        "「元記事を読む」から本文を確認できます"
-      ],
-      "impact": "テクノロジー・AI分野で多くの読者に共有されている注目記事です。",
-      "tags": [
-        "テクノロジー・AI",
-        "togetter.com"
-      ],
-      "url": "https://togetter.com/li/2770045",
-      "isAiEnriched": false
-    },
-    {
-      "category": "business",
-      "title": "高市総理が答弁→国会ストップ→代打・片山大臣でも国会ストップ…消費減税めぐり大荒れ 共産・小池議員「1億人大増税約束法案だ」 | 政治 | ABEMA TIMES | アベマタイムズ",
-      "source": "times.abema.tv",
-      "publishedAt": "2026-11-13 21:06",
-      "publishedTs": 1794571571,
-      "image": "https://times-abema.ismcdn.jp/mwimgs/4/0/1200w/img_40a73a23af1a72fc7812f407e6468620548539.jpg",
-      "summary": "「めちゃくちゃお話が弾んでおられる」愛子さまと信子さまが武道大会で楽しそうに談笑…お二人の“自然体なやりとり”がSNSで大反響「さすが我らの姫様」",
-      "points": [
-        "カテゴリ: ビジネス・経済で話題の記事",
-        "引用元: times.abema.tv（2026-11-13 21:06）",
-        "「元記事を読む」から本文を確認できます"
-      ],
-      "impact": "ビジネス・経済分野で多くの読者に共有されている注目記事です。",
-      "tags": [
-        "ビジネス・経済",
-        "times.abema.tv"
-      ],
-      "url": "https://times.abema.tv/articles/-/10288829",
-      "isAiEnriched": false
-    },
-    {
-      "category": "domestic",
-      "title": "陸自情報部隊が市民の思想傾向から性的嗜好・借金まで情報収集――この問題をうやむやにしてはならない理由（布施祐仁） - エキスパート - Yahoo!ニュース",
-      "source": "news.yahoo.co.jp",
-      "publishedAt": "2026-11-13 15:36",
-      "publishedTs": 1794551794,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/iwiz-yn/creators/10025129/02765117/title-1794548364246.jpeg?exp=10800",
-      "summary": "陸上自衛隊の情報部隊「現地情報隊」が市民らの極めてプライベートな個人情報を同意なく収集していた問題が発覚してから、3カ月以上が経過した。 7月23日に熊本日日新聞がスクープし、その後、Tansa、しんぶん赤旗、沖縄タイムス、朝日新聞、毎日新聞、共同通信が相次いで報じた。 私もこのたび、現地情報隊の内部文書を...",
-      "points": [
-        "カテゴリ: 国内・総合で話題の記事",
-        "引用元: news.yahoo.co.jp（2026-11-13 15:36）",
-        "「元記事を読む」から本文を確認できます"
-      ],
-      "impact": "国内・総合分野で多くの読者に共有されている注目記事です。",
-      "tags": [
-        "国内・総合",
-        "news.yahoo.co.jp"
-      ],
-      "url": "https://news.yahoo.co.jp/expert/articles/22288f9c3235b599aafa56145434028503ed9e04",
-      "isAiEnriched": false
-    },
-    {
-      "category": "tech",
-      "title": "ぼくのClaude Codeの使い方",
-      "source": "speakerdeck.com",
-      "publishedAt": "2026-11-13 00:11",
-      "publishedTs": 1794496312,
-      "image": "https://files.speakerdeck.com/presentations/9c2451b8b99f4a269ce6f420bc0480ae/slide_0.jpg?41338374",
-      "summary": "Sapporo Claude Code Meetup LT, 2026/11/12",
-      "points": [
-        "カテゴリ: テクノロジー・AIで話題の記事",
-        "引用元: speakerdeck.com（2026-11-13 00:11）",
-        "「元記事を読む」から本文を確認できます"
-      ],
-      "impact": "テクノロジー・AI分野で多くの読者に共有されている注目記事です。",
-      "tags": [
-        "テクノロジー・AI",
-        "speakerdeck.com"
-      ],
-      "url": "https://speakerdeck.com/falken/boku-no-claude-code-no-tsukaikata",
-      "isAiEnriched": false
-    },
-    {
-      "category": "business",
-      "title": "裁量はある、必要なのは覚悟 - そーだいなるらくがき帳",
-      "source": "soudai.hatenablog.com",
-      "publishedAt": "2026-11-12 23:50",
-      "publishedTs": 1794495023,
-      "image": "https://ogimage.blog.st-hatena.com/10328749687203430916/14729835035337520892/1794494986",
-      "summary": "note.com 飲み友達のkawamuraさんがめちゃ良いことを言ってた。 そこで自分の大事にしていることをメモとして残す。 最後までやりきる覚悟があれば事は為せる 裁量はある。みんな言ってるけど「やります。」という覚悟さえあれば良い。 権限が足りない、はありえる。けどそれは「やりたいので権限をください」「やり...",
-      "points": [
-        "カテゴリ: ビジネス・経済で話題の記事",
-        "引用元: soudai.hatenablog.com（2026-11-12 23:50）",
-        "「元記事を読む」から本文を確認できます"
-      ],
-      "impact": "ビジネス・経済分野で多くの読者に共有されている注目記事です。",
-      "tags": [
-        "ビジネス・経済",
-        "soudai.hatenablog.com"
-      ],
-      "url": "https://soudai.hatenablog.com/entry/2026/11/12/234905",
-      "isAiEnriched": false
-    },
-    {
-      "category": "domestic",
-      "title": "「なんで死刑じゃないんだよ」閉廷直後叫ぶ　娘殺害の車いすユーチューバーに拘禁8年判決",
-      "source": "sankei.com",
-      "publishedAt": "2026-11-13 18:56",
-      "publishedTs": 1794563800,
-      "image": "https://www.sankei.com/resizer/v2/T722NTZIORMHHKTLTK3JNEM3NY.jpg?auth=780d0e0335f4e7aea992612141be180a134321516ba3877f5ffa5911c1fc2a5f&quality=50&focal=1292%2C1354&width=1200&height=675",
-      "summary": "生後3カ月の娘を包丁で切り付けて殺害したとして、殺人の罪に問われた無職、内藤沙月被告（29）の裁判員裁判の判決公判が13日、東京地裁で開かれ、宮田祥次裁判長は拘禁刑8年（求刑拘禁刑10年）を言い渡した。 内藤被告は、生まれつき骨がもろく折れやすい難病で、幼少期から車いすを使用。事件前は「ユーチューバー」と...",
-      "points": [
-        "カテゴリ: 国内・総合で話題の記事",
-        "引用元: sankei.com（2026-11-13 18:56）",
-        "「元記事を読む」から本文を確認できます"
-      ],
-      "impact": "国内・総合分野で多くの読者に共有されている注目記事です。",
-      "tags": [
-        "国内・総合",
-        "sankei.com"
-      ],
-      "url": "https://www.sankei.com/article/20261113-DZUMP32T5BPP7BYQFH7WBUFNAM/",
-      "isAiEnriched": false
-    },
-    {
-      "category": "tech",
-      "title": "ISUCON2026 で優勝しました（準備編）",
-      "source": "zenn.dev (Yoshinori Kawasaki)",
-      "publishedAt": "2026-11-11 14:05",
-      "publishedTs": 1794373546,
-      "image": "https://res.cloudinary.com/zenn/image/upload/s--FlBezkdp--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:ISUCON2026%2520%25E3%2581%25A7%25E5%2584%25AA%25E5%258B%259D%25E3%2581%2597%25E3%2581%25BE%25E3%2581%2597%25E3%2581%259F%25EF%25BC%2588%25E6%25BA%2596%25E5%2582%2599%25E7%25B7%25A8%25EF%25BC%2589%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:Yoshinori%2520Kawasaki%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jTEpMVlQ2WjlNQlhlcndlbDZoY1JYUDVLSjAxYWNITUdNcmUwVThZTG5EaDY4PXM5Ni1j%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-      "summary": "Zennでトレンド入りしている技術記事（いいね 396件）。実務に役立つ開発知見が解説されています。",
-      "points": [
-        "Zenn トレンド記事（いいね 396件）",
-        "著者: Yoshinori Kawasaki（2026-11-11 14:05）",
-        "「元記事を読む」からコード例や解説を確認できます"
-      ],
-      "impact": "国内のエンジニアコミュニティで話題になっている実践的なテック記事です。",
-      "tags": [
-        "Zenn",
-        "エンジニア",
-        "トレンド"
-      ],
-      "url": "https://zenn.dev/luvtechno/articles/isucon2026-preparation",
-      "isAiEnriched": false
-    },
-    {
-      "category": "business",
-      "title": "ヘグセス国防長官、自身を叱責した衛兵に勲章授与「よくやった。続けてくれ」",
-      "source": "afpbb.com",
-      "publishedAt": "2026-11-13 08:19",
-      "publishedTs": 1794525573,
-      "image": "https://afpbb.ismcdn.jp/mwimgs/3/7/1000x/img_37789d5ec82fc7bf03062098ba20bbfa103314.jpg",
-      "summary": "【11月13日 AFP】ピート・ヘグセス米国防長官は12日、「退役軍人の日」の11日に首都ワシントン近郊のアーリントン国立墓地にある無名戦士の墓の近くで笑い声を上げた自身らを叱責した衛兵に勲章を授与した。 国防総省当局者は、ヘグセス氏が「2026年11月11日に無名戦士の墓で職務を遂行したトーマス・イグレシアス特...",
-      "points": [
-        "カテゴリ: ビジネス・経済で話題の記事",
-        "引用元: afpbb.com（2026-11-13 08:19）",
-        "「元記事を読む」から本文を確認できます"
-      ],
-      "impact": "ビジネス・経済分野で多くの読者に共有されている注目記事です。",
-      "tags": [
-        "ビジネス・経済",
-        "afpbb.com"
-      ],
-      "url": "https://www.afpbb.com/articles/-/3662180",
-      "isAiEnriched": false
-    },
-    {
-      "category": "tech",
-      "title": "Software Factoryの先へ：全社の仕事をAI-NativeにするUbieの内製クラウドエージェント基盤",
-      "source": "zenn.dev (Yuku Kotani)",
-      "publishedAt": "2026-11-12 09:44",
-      "publishedTs": 1794444292,
-      "image": "https://res.cloudinary.com/zenn/image/upload/s--ZTNzeUs4--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Software%2520Factory%25E3%2581%25AE%25E5%2585%2588%25E3%2581%25B8%25EF%25BC%259A%25E5%2585%25A8%25E7%25A4%25BE%25E3%2581%25AE%25E4%25BB%2595%25E4%25BA%258B%25E3%2582%2592AI-Native%25E3%2581%25AB%25E3%2581%2599%25E3%2582%258BUbie%25E3%2581%25AE%25E5%2586%2585%25E8%25A3%25BD%25E3%2582%25AF%25E3%2583%25A9%25E3%2582%25A6%25E3%2583%2589%25E3%2582%25A8%25E3%2583%25BC%25E3%2582%25B8%25E3%2582%25A7%25E3%2583%25B3%25E3%2583%2588%25E5%259F%25BA%25E7%259B%25A4%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:Yuku%2520Kotani%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2VlOWMzMWRhODMuanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:Ubie%2520%25E3%2583%2586%25E3%2583%2583%25E3%2582%25AF%25E3%2583%2596%25E3%2583%25AD%25E3%2582%25B0%2Cx_220%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2Y3MDA4NDZkNjYuanBlZw==%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE",
-      "summary": "Zennでトレンド入りしている技術記事（いいね 145件）。実務に役立つ開発知見が解説されています。",
-      "points": [
-        "Zenn トレンド記事（いいね 145件）",
-        "著者: Yuku Kotani（2026-11-12 09:44）",
-        "「元記事を読む」からコード例や解説を確認できます"
-      ],
-      "impact": "国内のエンジニアコミュニティで話題になっている実践的なテック記事です。",
-      "tags": [
-        "Zenn",
-        "エンジニア",
-        "トレンド"
-      ],
-      "url": "https://zenn.dev/ubie_dev/articles/45501469c9c044",
-      "isAiEnriched": false
+      "impact": "観光地や都市空間におけるパブリックアートの持続的な展示・管理体制のあり方が問われています。",
+      "tags": ["京都", "社会", "アート"],
+      "url": "https://news.google.com/search?q=%E4%BA%AC%E9%83%BD+%E9%AB%98%E7%80%AC%E5%B7%9D+%E7%BE%8E%E8%A1%93%E4%BD%9C%E5%93%81"
     }
   ]
 };
