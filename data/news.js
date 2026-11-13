@@ -1,6 +1,6 @@
 window.NEWS_DATA = {
   "date": "2026年11月14日 (土)",
-  "updatedAt": "2026-11-14 07:50",
+  "updatedAt": "2026-11-14 08:29",
   "title": "TREND NEWS",
   "keywords": [
     "自衛官の給与引き上げ法が成…",
@@ -8,7 +8,7 @@ window.NEWS_DATA = {
     "「週明け怖い」MS障害の影…",
     "政府 ロシアに首脳会談を打…",
     "マネックス証券 免許証画像…",
-    "ワタミがMBO実施へ 32…"
+    "「人生初FAX」MS障害で…"
   ],
   "items": [
     {
@@ -118,15 +118,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "ワタミがMBO実施へ 320億円程度",
+      "title": "「人生初FAX」MS障害で代替手段",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-13 22:18",
-      "publishedTs": 1794575918,
-      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/13/4cb8aff8f8fffe58c9490c624a123932cea7c56c89961b152ab720985185a842.jpg",
-      "summary": "居酒屋大手のワタミは13日、経営陣による自社買収（MBO）を実施すると発表した。創業者の渡辺美樹会長兼社長の資産管理会社が株式公開買い付け（TOB）をし、全株取得を目指す。買い付け総額は320億円程…",
+      "publishedAt": "2026-11-14 08:03",
+      "publishedTs": 1794611011,
+      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/14/aba4b656d05acebe41f3e9fd416548918af0e1dcb3d56b1a9b4d0c1b196dd1d1.jpg",
+      "summary": "米マイクロソフトのメールサービス「アウトルック」などで日本時間の１３日未明に明らかになった大規模なシステム障害は、多くの企業や官公庁、大学などに影響を与えた。慣れ親しんだサービスが突如として使えなく…",
       "points": [
         "カテゴリ: ビジネス・経済の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-13 22:18）",
+        "配信: Yahoo!ニュース トピックス（2026-11-14 08:03）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "ビジネス・経済分野で関心を集めている最新ニュースです。",
@@ -134,7 +134,7 @@ window.NEWS_DATA = {
         "ビジネス・経済",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/pickup/6602467?source=rss",
+      "url": "https://news.yahoo.co.jp/pickup/6602497?source=rss",
       "isAiEnriched": false
     },
     {
@@ -181,6 +181,69 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
+      "title": "ワタミがMBO実施へ 320億円程度",
+      "source": "Yahoo!ニュース",
+      "publishedAt": "2026-11-13 22:18",
+      "publishedTs": 1794575918,
+      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/13/4cb8aff8f8fffe58c9490c624a123932cea7c56c89961b152ab720985185a842.jpg",
+      "summary": "居酒屋大手のワタミは13日、経営陣による自社買収（MBO）を実施すると発表した。創業者の渡辺美樹会長兼社長の資産管理会社が株式公開買い付け（TOB）をし、全株取得を目指す。買い付け総額は320億円程…",
+      "points": [
+        "カテゴリ: ビジネス・経済の注目トピック",
+        "配信: Yahoo!ニュース トピックス（2026-11-13 22:18）",
+        "「元記事を読む」から詳細を確認できます"
+      ],
+      "impact": "ビジネス・経済分野で関心を集めている最新ニュースです。",
+      "tags": [
+        "ビジネス・経済",
+        "Yahoo!ニュース"
+      ],
+      "url": "https://news.yahoo.co.jp/pickup/6602467?source=rss",
+      "isAiEnriched": false
+    },
+    {
+      "category": "domestic",
+      "title": "声や肖像 AIの無断利用に規制案",
+      "source": "Yahoo!ニュース",
+      "publishedAt": "2026-11-14 07:55",
+      "publishedTs": 1794610556,
+      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/14/70caae19a8283fd383492ce3b613b1fef723c62d9ef9bd04641b4dad78ef4ac6.jpg",
+      "summary": "経済産業省は１３日、生成ＡＩ（人工知能）による声や肖像の無断使用などを防ぐため、不正競争防止法で新たに規制する行為の具体案を有識者会議に示した。肖像や声が持つ魅力を商品や広告に無断利用する行為を対象…",
+      "points": [
+        "カテゴリ: 国内・総合の注目トピック",
+        "配信: Yahoo!ニュース トピックス（2026-11-14 07:55）",
+        "「元記事を読む」から詳細を確認できます"
+      ],
+      "impact": "国内・総合分野で関心を集めている最新ニュースです。",
+      "tags": [
+        "国内・総合",
+        "Yahoo!ニュース"
+      ],
+      "url": "https://news.yahoo.co.jp/pickup/6602494?source=rss",
+      "isAiEnriched": false
+    },
+    {
+      "category": "tech",
+      "title": "Google 韓国地図サービス強化へ",
+      "source": "Yahoo!ニュース",
+      "publishedAt": "2026-11-13 16:16",
+      "publishedTs": 1794554186,
+      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/13/b6549e1a7a12acbb5869ad229a769592b76b82fd52fa4ff0de2346f45857e9de.jpg",
+      "summary": "【ソウル聯合ニュース】米グーグルが韓国の高精度地図データの国外持ち出しに必要なセキュリティー面の条件を満たし、早ければ来年初めから韓国における地図サービスの強化に乗り出す見通しであることが、13日分…",
+      "points": [
+        "カテゴリ: テクノロジー・AIの注目トピック",
+        "配信: Yahoo!ニュース トピックス（2026-11-13 16:16）",
+        "「元記事を読む」から詳細を確認できます"
+      ],
+      "impact": "テクノロジー・AI分野で関心を集めている最新ニュースです。",
+      "tags": [
+        "テクノロジー・AI",
+        "Yahoo!ニュース"
+      ],
+      "url": "https://news.yahoo.co.jp/pickup/6602427?source=rss",
+      "isAiEnriched": false
+    },
+    {
+      "category": "business",
       "title": "個人向け国債NISA化 見送りで調整",
       "source": "Yahoo!ニュース",
       "publishedAt": "2026-11-13 19:47",
@@ -223,15 +286,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "Google 韓国地図サービス強化へ",
+      "title": "メール障害で納期遅延 法的扱いは",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-13 16:16",
-      "publishedTs": 1794554186,
-      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/13/b6549e1a7a12acbb5869ad229a769592b76b82fd52fa4ff0de2346f45857e9de.jpg",
-      "summary": "【ソウル聯合ニュース】米グーグルが韓国の高精度地図データの国外持ち出しに必要なセキュリティー面の条件を満たし、早ければ来年初めから韓国における地図サービスの強化に乗り出す見通しであることが、13日分…",
+      "publishedAt": "2026-11-13 15:48",
+      "publishedTs": 1794552520,
+      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/13/9b77459d491590701790dbdcb2bdea82cbdffd10b1517dd6abc71603692f9fa4.jpg",
+      "summary": "取引先からの返信期限が今日に迫っているのに、メールソフトの「Outlook」が使えない——。",
       "points": [
         "カテゴリ: テクノロジー・AIの注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-13 16:16）",
+        "配信: Yahoo!ニュース トピックス（2026-11-13 15:48）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "テクノロジー・AI分野で関心を集めている最新ニュースです。",
@@ -239,7 +302,7 @@ window.NEWS_DATA = {
         "テクノロジー・AI",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/pickup/6602427?source=rss",
+      "url": "https://news.yahoo.co.jp/pickup/6602424?source=rss",
       "isAiEnriched": false
     },
     {
@@ -286,69 +349,6 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "メール障害で納期遅延 法的扱いは",
-      "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-13 15:48",
-      "publishedTs": 1794552520,
-      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/13/9b77459d491590701790dbdcb2bdea82cbdffd10b1517dd6abc71603692f9fa4.jpg",
-      "summary": "取引先からの返信期限が今日に迫っているのに、メールソフトの「Outlook」が使えない——。",
-      "points": [
-        "カテゴリ: テクノロジー・AIの注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-13 15:48）",
-        "「元記事を読む」から詳細を確認できます"
-      ],
-      "impact": "テクノロジー・AI分野で関心を集めている最新ニュースです。",
-      "tags": [
-        "テクノロジー・AI",
-        "Yahoo!ニュース"
-      ],
-      "url": "https://news.yahoo.co.jp/pickup/6602424?source=rss",
-      "isAiEnriched": false
-    },
-    {
-      "category": "business",
-      "title": "ニデック 年内の臨時株主総会断念",
-      "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-13 19:00",
-      "publishedTs": 1794564014,
-      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/13/d91698689e57e21530975e3347707d2b29437a91226e0f7bbdd6320521295cf7.jpg",
-      "summary": "ニデックは13日、年内に予定していた臨時株主総会の開催時期を見直すと発表した。会計不正問題を巡る監査手続きが長期化し、2026年3月期の決算関係書類などの準備が整わず、年内の開催は困難と判断した。議…",
-      "points": [
-        "カテゴリ: ビジネス・経済の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-13 19:00）",
-        "「元記事を読む」から詳細を確認できます"
-      ],
-      "impact": "ビジネス・経済分野で関心を集めている最新ニュースです。",
-      "tags": [
-        "ビジネス・経済",
-        "Yahoo!ニュース"
-      ],
-      "url": "https://news.yahoo.co.jp/pickup/6602448?source=rss",
-      "isAiEnriched": false
-    },
-    {
-      "category": "domestic",
-      "title": "首相 防衛費巡る「大幅増税」慎重",
-      "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-13 07:59",
-      "publishedTs": 1794524370,
-      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/13/1afe8937e243ee4cdeea786df1a87f58a3c871ade22301e65f5ba2fd0dde45ea.jpg",
-      "summary": "政府が年内に改定予定の安保関連3文書に盛り込む防衛費の規模を巡り、高市早苗首相が周辺に「大幅増税」への慎重な考えを示していることが判明した。複数の政府関係者が12日、明らかにした。安保3文書の一つ「…",
-      "points": [
-        "カテゴリ: 国内・総合の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-13 07:59）",
-        "「元記事を読む」から詳細を確認できます"
-      ],
-      "impact": "国内・総合分野で関心を集めている最新ニュースです。",
-      "tags": [
-        "国内・総合",
-        "Yahoo!ニュース"
-      ],
-      "url": "https://news.yahoo.co.jp/pickup/6602369?source=rss",
-      "isAiEnriched": false
-    },
-    {
-      "category": "tech",
       "title": "Fable 5.2は物理モデリング音源の実装も作曲もすごい - きしだのHatena",
       "source": "nowokay.hatenablog.com",
       "publishedAt": "2026-11-13 23:22",
@@ -370,15 +370,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "冬の電気・ガスなど支援 6500億円",
+      "title": "ニデック 年内の臨時株主総会断念",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-13 11:50",
-      "publishedTs": 1794538229,
-      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/13/e12aadde476dc21e337a7c0959781538d2a32277c43c7dd9f7fbd64d11e5b21c.jpg",
-      "summary": "政府は13日、中東情勢の混迷によるエネルギー価格の上昇を受け、電気・都市ガスなどの料金を支援するため、2026年度の予備費から計約6500億円の支出を閣議決定した。気温低下で使用量が増える冬場の家計…",
+      "publishedAt": "2026-11-13 19:00",
+      "publishedTs": 1794564014,
+      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/13/d91698689e57e21530975e3347707d2b29437a91226e0f7bbdd6320521295cf7.jpg",
+      "summary": "ニデックは13日、年内に予定していた臨時株主総会の開催時期を見直すと発表した。会計不正問題を巡る監査手続きが長期化し、2026年3月期の決算関係書類などの準備が整わず、年内の開催は困難と判断した。議…",
       "points": [
         "カテゴリ: ビジネス・経済の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-13 11:50）",
+        "配信: Yahoo!ニュース トピックス（2026-11-13 19:00）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "ビジネス・経済分野で関心を集めている最新ニュースです。",
@@ -386,7 +386,7 @@ window.NEWS_DATA = {
         "ビジネス・経済",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/pickup/6602397?source=rss",
+      "url": "https://news.yahoo.co.jp/pickup/6602448?source=rss",
       "isAiEnriched": false
     },
     {
@@ -538,23 +538,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "マネックス証券、不正アクセスでメールアドレス最大113万件と本人確認書類1600件弱が漏洩のおそれ",
-      "source": "k-tai.watch.impress.co.jp",
-      "publishedAt": "2026-11-13 21:34",
-      "publishedTs": 1794573249,
-      "image": "https://k-tai.watch.impress.co.jp/img/ktw/list/2156/449/01.jpg",
-      "summary": "「マネックス証券、不正アクセスでメールアドレス最大113万件と本人確認書類1600件弱が漏洩のおそれ」に関する注目記事です。",
+      "title": "『検索システム』『推薦システム』とLLM時代の検索推薦 - ｼﾞｮｲｼﾞｮｲｼﾞｮｲ",
+      "source": "joisino.hatenablog.com",
+      "publishedAt": "2026-11-13 19:50",
+      "publishedTs": 1794567054,
+      "image": "https://cdn.image.st-hatena.com/image/scale/d5c90eb051b7f12f50fe0e47e38459f3884c8866/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fj%2Fjoisino%2F20261111%2F20261111174347.png",
+      "summary": "拙著『検索システム』『推薦システム』が発売されました。 ▲カバーイラストがおしゃれで嬉しい これらはその名の通り検索システムと推薦システムの教科書です。LLM 時代の新基準になることを目指して執筆しました。すべてのログデータをプロンプトに入れて「これを前提に何を推薦すればいいか」と LLM に訊くという投げ…",
       "points": [
         "カテゴリ: テクノロジー・AIで話題の記事",
-        "引用元: k-tai.watch.impress.co.jp（2026-11-13 21:34）",
+        "引用元: joisino.hatenablog.com（2026-11-13 19:50）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "テクノロジー・AI分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "テクノロジー・AI",
-        "k-tai.watch.impress.co.jp"
+        "joisino.hatenablog.com"
       ],
-      "url": "https://k-tai.watch.impress.co.jp/docs/news/2156449.html",
+      "url": "https://joisino.hatenablog.com/entry/searchrecbook",
       "isAiEnriched": false
     },
     {
@@ -601,23 +601,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "『検索システム』『推薦システム』とLLM時代の検索推薦 - ｼﾞｮｲｼﾞｮｲｼﾞｮｲ",
-      "source": "joisino.hatenablog.com",
-      "publishedAt": "2026-11-13 19:50",
-      "publishedTs": 1794567054,
-      "image": "https://cdn.image.st-hatena.com/image/scale/d5c90eb051b7f12f50fe0e47e38459f3884c8866/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fj%2Fjoisino%2F20261111%2F20261111174347.png",
-      "summary": "拙著『検索システム』『推薦システム』が発売されました。 ▲カバーイラストがおしゃれで嬉しい これらはその名の通り検索システムと推薦システムの教科書です。LLM 時代の新基準になることを目指して執筆しました。すべてのログデータをプロンプトに入れて「これを前提に何を推薦すればいいか」と LLM に訊くという投げ…",
+      "title": "マネックス証券、不正アクセスでメールアドレス最大113万件と本人確認書類1600件弱が漏洩のおそれ",
+      "source": "k-tai.watch.impress.co.jp",
+      "publishedAt": "2026-11-13 21:34",
+      "publishedTs": 1794573249,
+      "image": "https://k-tai.watch.impress.co.jp/img/ktw/list/2156/449/01.jpg",
+      "summary": "「マネックス証券、不正アクセスでメールアドレス最大113万件と本人確認書類1600件弱が漏洩のおそれ」に関する注目記事です。",
       "points": [
         "カテゴリ: テクノロジー・AIで話題の記事",
-        "引用元: joisino.hatenablog.com（2026-11-13 19:50）",
+        "引用元: k-tai.watch.impress.co.jp（2026-11-13 21:34）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "テクノロジー・AI分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "テクノロジー・AI",
-        "joisino.hatenablog.com"
+        "k-tai.watch.impress.co.jp"
       ],
-      "url": "https://joisino.hatenablog.com/entry/searchrecbook",
+      "url": "https://k-tai.watch.impress.co.jp/docs/news/2156449.html",
       "isAiEnriched": false
     },
     {
