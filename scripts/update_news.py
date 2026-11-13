@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-1時間ごとにトレンドニュースを複数ソース（Yahoo!ニュース / はてなブックマーク / Zenn）から収集し、
+5分ごとにトレンドニュースを複数ソース（Yahoo!ニュース / はてなブックマーク / Zenn）から収集し、
 引用元サイトの関連画像（OGP画像・サムネイル）および Gemini API 要約を行って data/news.js を更新します。
 Python 標準ライブラリのみで動作します。
 """
@@ -11,6 +11,7 @@ import concurrent.futures
 import datetime
 import email.utils
 import html
+import html.parser
 import json
 import os
 import re
@@ -42,12 +43,74 @@ CATEGORY_LABELS = {
 }
 
 
+class MetaTagParser(html.parser.HTMLParser):
+    """HTMLの<head>内からOGP画像とdescriptionを正確に抽出するパーサー"""
+
+    def __init__(self) -> None:
+        super().__init__()
+        self.og_images: list[str] = []
+        self.descriptions: list[str] = []
+        self.in_body = False
+
+    def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
+        if self.in_body:
+            return
+        t = tag.lower()
+        if t == "body":
+            self.in_body = True
+            return
+        if t != "meta":
+            return
+
+        attr_map = {k.lower(): (v or "").strip() for k, v in attrs if k}
+        content = attr_map.get("content", "")
+        if not content:
+            return
+
+        prop = attr_map.get("property", "").lower()
+        name = attr_map.get("name", "").lower()
+
+        if prop in ("og:image", "og:image:url", "og:image:secure_url") or name in (
+            "og:image",
+            "twitter:image",
+            "twitter:image:src",
+        ):
+            self.og_images.append(content)
+        elif prop == "og:description" or name in ("og:description", "description", "twitter:description"):
+            self.descriptions.append(content)
+
+
 def clean_html(raw: str | None) -> str:
     if not raw:
         return ""
     text = html.unescape(raw)
     text = re.sub(r"<[^>]+>", " ", text)
     return re.sub(r"\s+", " ", text).strip()
+
+
+def format_summary_text(text: str, title: str, max_len: int = 155) -> str:
+    """途中切れの要約文や不自然な要約文を綺麗に整形する"""
+    cleaned = clean_html(text)
+    if not cleaned or len(cleaned) < 15:
+        return f"「{title}」に関する注目ニュースです。詳細は元記事から確認できます。"
+
+    if len(cleaned) > max_len:
+        cleaned = cleaned[: max_len - 1].rstrip(" 、。・") + "…"
+    else:
+        # Yahoo!ニュース等で文の途中（数字や助詞、漢字）で切れている場合に三点リーダーを補完
+        if not cleaned.endswith(("。", "！", "？", "!", "?", "）", ")", "」", "』", "…", ".")):
+            cleaned = cleaned + "…"
+
+    return cleaned
+
+
+def sanitize_http_url(raw_url: str | None) -> str:
+    if not raw_url:
+        return ""
+    u = raw_url.strip()
+    if u.startswith(("https://", "http://")):
+        return u
+    return ""
 
 
 def local_name(tag: str) -> str:
@@ -93,6 +156,28 @@ def parse_datetime_ts(date_str: str) -> tuple[int, str]:
         return int(now.timestamp()), now.strftime("%Y-%m-%d %H:%M")
 
 
+def decode_html_bytes(raw_bytes: bytes, content_type_header: str = "") -> str:
+    """Content-Typeやmeta charsetを考慮して文字化けなくデコードする"""
+    encodings: list[str] = []
+    m_ct = re.search(r"charset=([a-zA-Z0-9_\-]+)", content_type_header, re.IGNORECASE)
+    if m_ct:
+        encodings.append(m_ct.group(1).strip())
+
+    head_ascii = raw_bytes[:4096].decode("ascii", errors="ignore")
+    m_meta = re.search(r"charset=[\"']?([a-zA-Z0-9_\-]+)", head_ascii, re.IGNORECASE)
+    if m_meta:
+        encodings.append(m_meta.group(1).strip())
+
+    encodings.extend(["utf-8", "cp932", "euc_jp"])
+    for enc in encodings:
+        try:
+            norm_enc = "cp932" if enc.lower() in ("shift_jis", "shift-jis", "sjis", "windows-31j") else enc
+            return raw_bytes.decode(norm_enc)
+        except Exception:
+            continue
+    return raw_bytes.decode("utf-8", errors="ignore")
+
+
 def fetch_url_bytes(url: str, timeout: int = 12) -> bytes:
     req = urllib.request.Request(
         url,
@@ -113,11 +198,11 @@ def is_generic_logo_image(img_url: str) -> bool:
         "default_ogp",
         "s.yimg.jp/images/news/ogp",
         "s.yimg.jp/images/jpnews/cre/common",
-        "nosImage",
+        "nosimage",
         "noimage",
         "spacer.gif",
     ]
-    return any(tok.lower() in lowered for tok in bad_tokens)
+    return any(tok in lowered for tok in bad_tokens)
 
 
 def normalize_image_url(base_url: str, raw_img: str) -> str | None:
@@ -138,48 +223,36 @@ def normalize_image_url(base_url: str, raw_img: str) -> str | None:
 
 
 def extract_meta_from_html(page_url: str, html_text: str) -> tuple[str | None, str | None]:
-    """HTMLから (og:image URL, og:description) を抽出する"""
-    img_patterns = [
-        r'<meta[^>]+property=["\']og:image["\'][^>]+content=["\']([^"\']+)["\']',
-        r'<meta[^>]+content=["\']([^"\']+)["\'][^>]+property=["\']og:image["\']',
-        r'<meta[^>]+name=["\']twitter:image(?::src)?["\'][^>]+content=["\']([^"\']+)["\']',
-        r'<meta[^>]+content=["\']([^"\']+)["\'][^>]+name=["\']twitter:image(?::src)?["\']',
-    ]
+    parser = MetaTagParser()
+    try:
+        parser.feed(html_text)
+    except Exception:
+        pass
+
     found_img: str | None = None
-    for pat in img_patterns:
-        for m in re.finditer(pat, html_text, re.IGNORECASE):
-            cand = normalize_image_url(page_url, m.group(1))
-            if cand:
-                found_img = cand
-                break
-        if found_img:
+    for cand_raw in parser.og_images:
+        cand = normalize_image_url(page_url, cand_raw)
+        if cand:
+            found_img = cand
             break
 
-    # Yahooニュース等の記事画像URLが本文内にある場合の補助抽出
     if not found_img and "yahoo.co.jp" in page_url:
         m_y = re.search(r'(https://newsatcl-pctr\.c\.yimg\.jp/[^\s"\'<>]+)', html_text)
         if m_y:
             found_img = normalize_image_url(page_url, m_y.group(1))
 
-    desc_patterns = [
-        r'<meta[^>]+property=["\']og:description["\'][^>]+content=["\']([^"\']+)["\']',
-        r'<meta[^>]+content=["\']([^"\']+)["\'][^>]+property=["\']og:description["\']',
-        r'<meta[^>]+name=["\']description["\'][^>]+content=["\']([^"\']+)["\']',
-    ]
     found_desc: str | None = None
-    for pat in desc_patterns:
-        m = re.search(pat, html_text, re.IGNORECASE)
-        if m:
-            d = clean_html(m.group(1))
-            if len(d) >= 20:
-                found_desc = d
-                break
+    for d_raw in parser.descriptions:
+        d = clean_html(d_raw)
+        if len(d) >= 20:
+            found_desc = d
+            break
 
     return found_img, found_desc
 
 
-def fetch_page_og_meta(url: str) -> tuple[str | None, str | None]:
-    if not url:
+def fetch_page_og_meta(url: str, depth: int = 0) -> tuple[str | None, str | None]:
+    if not url or depth > 1:
         return None, None
     try:
         req = urllib.request.Request(
@@ -195,14 +268,14 @@ def fetch_page_og_meta(url: str) -> tuple[str | None, str | None]:
             ctype = resp.headers.get("Content-Type", "")
             if "html" not in ctype.lower():
                 return None, None
-            chunk = resp.read(131072).decode("utf-8", errors="ignore")
+            raw_chunk = resp.read(131072)
+        chunk = decode_html_bytes(raw_chunk, ctype)
         img, desc = extract_meta_from_html(final_url, chunk)
 
-        # Yahoo! pickup ページで画像がロゴだった場合、元記事(articles/...)リンクを辿る
-        if not img and "news.yahoo.co.jp/pickup/" in final_url:
+        if not img and "news.yahoo.co.jp/pickup/" in final_url and depth == 0:
             m_art = re.search(r'(https://news\.yahoo\.co\.jp/articles/[a-zA-Z0-9]+)', chunk)
             if m_art:
-                return fetch_page_og_meta(m_art.group(1))
+                return fetch_page_og_meta(m_art.group(1), depth=depth + 1)
 
         return img, desc
     except Exception:
@@ -219,7 +292,9 @@ def fetch_yahoo_topics(rss_url: str, category: str, limit: int) -> list[dict]:
 
     for idx, node in enumerate(root.findall("./channel/item")[:limit]):
         title = (node.findtext("title") or "").strip()
-        link = (node.findtext("link") or "").strip()
+        link = sanitize_http_url(node.findtext("link"))
+        if not title or not link:
+            continue
         ts, pub_str = parse_datetime_ts(node.findtext("pubDate") or "")
         rss_img = normalize_image_url(link, node.findtext("image") or "")
         fb_list = FALLBACK_IMAGES[category]
@@ -234,7 +309,7 @@ def fetch_yahoo_topics(rss_url: str, category: str, limit: int) -> list[dict]:
                 "image": rss_img or fb_list[idx % len(fb_list)],
                 "fallbackHatenaImg": rss_img,
                 "hasRealImage": bool(rss_img),
-                "summary": f"「{title}」に関する注目ニュースです。",
+                "summary": f"「{title}」に関する注目ニュースです。詳細は元記事から確認できます。",
                 "points": [
                     f"カテゴリ: {CATEGORY_LABELS[category]}の注目トピック",
                     f"配信: Yahoo!ニュース トピックス（{pub_str}）",
@@ -260,12 +335,10 @@ def fetch_hatena_rss(rss_url: str, category: str, limit: int) -> list[dict]:
     rdf_items = [el for el in root if local_name(el.tag) == "item"]
     for idx, node in enumerate(rdf_items[:limit]):
         title = find_child_text(node, "title")
-        link = find_child_text(node, "link")
-        desc = clean_html(find_child_text(node, "description"))
-        if len(desc) < 15:
-            desc = f"「{title}」に関する注目記事です。"
-        elif len(desc) > 160:
-            desc = desc[:157] + "..."
+        link = sanitize_http_url(find_child_text(node, "link"))
+        if not title or not link:
+            continue
+        desc = format_summary_text(find_child_text(node, "description"), title)
 
         date_raw = find_child_text(node, "date")
         ts, pub_str = parse_datetime_ts(date_raw)
@@ -283,7 +356,7 @@ def fetch_hatena_rss(rss_url: str, category: str, limit: int) -> list[dict]:
                 "publishedTs": ts,
                 "image": hatena_img or fb_list[idx % len(fb_list)],
                 "fallbackHatenaImg": hatena_img,
-                "hasRealImage": False,  # フル解像度OGPの取得も試みるためFalseにしておく
+                "hasRealImage": False,
                 "summary": desc,
                 "points": [
                     f"カテゴリ: {CATEGORY_LABELS[category]}で話題の記事",
@@ -306,9 +379,11 @@ def fetch_zenn_tech(limit: int = 4) -> list[dict]:
             fetch_url_bytes("https://zenn.dev/api/articles?order=trend&count=10").decode("utf-8")
         )
         for idx, art in enumerate(data.get("articles", [])[:limit]):
-            title = art.get("title", "").strip()
-            path = art.get("path", "")
+            title = (art.get("title") or "").strip()
+            path = art.get("path") or ""
             link = f"https://zenn.dev{path}" if path.startswith("/") else "https://zenn.dev"
+            if not title:
+                continue
             ts, pub_str = parse_datetime_ts(art.get("published_at") or "")
             likes = art.get("liked_count", 0)
             user_name = (art.get("user") or {}).get("name") or "Zenn"
@@ -358,35 +433,34 @@ def enrich_og_metadata_parallel(items: list[dict]) -> None:
                     it["image"] = it["fallbackHatenaImg"]
                     it["hasRealImage"] = True
 
-                if og_desc and (
-                    "に関する注目ニュースです" in it.get("summary", "")
-                    or len(it.get("summary", "")) < 35
-                ):
-                    it["summary"] = og_desc[:155] + ("..." if len(og_desc) > 155 else "")
+                # 初期プレースホルダー文のときのみページ側のog:descriptionを採用
+                if og_desc and "に関する注目ニュースです" in it.get("summary", ""):
+                    it["summary"] = format_summary_text(og_desc, it["title"])
             except Exception:
                 if it.get("fallbackHatenaImg"):
                     it["image"] = it["fallbackHatenaImg"]
                     it["hasRealImage"] = True
 
 
-def load_cached_items() -> dict[str, dict]:
+def load_cached_data() -> tuple[dict[str, dict], list[str]]:
     if not DATA_JS_PATH.exists():
-        return {}
+        return {}, []
     try:
         raw = DATA_JS_PATH.read_text(encoding="utf-8")
         prefix = "window.NEWS_DATA ="
         idx = raw.find(prefix)
         if idx == -1:
-            return {}
+            return {}, []
         json_part = raw[idx + len(prefix) :].strip().rstrip(";")
         data = json.loads(json_part)
         cache: dict[str, dict] = {}
         for it in data.get("items", []):
             if it.get("url"):
                 cache[it["url"]] = it
-        return cache
+        cached_kw = [str(k) for k in data.get("keywords", []) if str(k).strip()]
+        return cache, cached_kw
     except Exception:
-        return {}
+        return {}, []
 
 
 def enrich_with_gemini(items: list[dict], api_key: str) -> list[str] | None:
@@ -415,7 +489,7 @@ def enrich_with_gemini(items: list[dict], api_key: str) -> list[str] | None:
         "    {\n"
         '      "index": 0,\n'
         '      "title": "元の意味を保ちつつ読みやすく整えた見出し（38文字以内）",\n'
-        '      "summary": "記事の概要を伝える簡潔なリード文（90文字前後）",\n'
+        '      "summary": "記事の概要を伝える完結したリード文（90文字前後）",\n'
         '      "points": ["要点1", "要点2", "要点3"],\n'
         '      "impact": "生活・仕事・市場への注目ポイント（70文字前後）",\n'
         '      "tags": ["タグ1", "タグ2", "タグ3"]\n'
@@ -477,12 +551,14 @@ def interleave_top_items(domestic: list[dict], tech: list[dict], business: list[
     return ordered
 
 
-def pick_unique_category_items(candidates: list[dict], seen: set[str], target_count: int = 10) -> list[dict]:
+def pick_unique_category_items(
+    candidates: list[dict], seen: set[str], target_count: int = 10
+) -> list[dict]:
     picked: list[dict] = []
     for it in candidates:
         key_url = it.get("url", "").strip()
         key_title = it.get("title", "").strip()
-        if not key_title or key_url in seen or key_title in seen:
+        if not key_title or (key_url and key_url in seen) or key_title in seen:
             continue
         if key_url:
             seen.add(key_url)
@@ -499,12 +575,12 @@ def main() -> None:
     domestic_candidates = (
         fetch_yahoo_topics("https://news.yahoo.co.jp/rss/topics/domestic.xml", "domestic", limit=6)
         + fetch_hatena_rss("https://b.hatena.ne.jp/hotentry/social.rss", "domestic", limit=8)
-        + fetch_yahoo_topics("https://news.yahoo.co.jp/rss/topics/top-picks.xml", "domestic", limit=4)
+        + fetch_yahoo_topics("https://news.yahoo.co.jp/rss/topics/top-picks.xml", "domestic", limit=5)
     )
 
     tech_candidates = (
         fetch_yahoo_topics("https://news.yahoo.co.jp/rss/topics/it.xml", "tech", limit=5)
-        + fetch_hatena_rss("https://b.hatena.ne.jp/hotentry/it.rss", "tech", limit=7)
+        + fetch_hatena_rss("https://b.hatena.ne.jp/hotentry/it.rss", "tech", limit=8)
         + fetch_zenn_tech(limit=4)
     )
 
@@ -523,17 +599,20 @@ def main() -> None:
         raise RuntimeError("ニュースを1件も取得できませんでした。")
 
     # 既存キャッシュからAI要約・実画像を引き継ぐ
-    cache = load_cached_items()
+    cache, cached_keywords = load_cached_data()
     for it in items:
         cached = cache.get(it.get("url", ""))
         if cached:
             if cached.get("isAiEnriched"):
                 it["title"] = cached.get("title", it["title"])
-                it["summary"] = cached.get("summary", it["summary"])
+                it["summary"] = format_summary_text(cached.get("summary", it["summary"]), it["title"])
                 it["points"] = cached.get("points", it["points"])
                 it["impact"] = cached.get("impact", it["impact"])
                 it["tags"] = cached.get("tags", it["tags"])
                 it["isAiEnriched"] = True
+            elif cached.get("summary") and "に関する注目ニュースです" not in cached.get("summary", ""):
+                it["summary"] = format_summary_text(cached["summary"], it["title"])
+
             cached_img = cached.get("image", "")
             if cached_img.startswith("https://") and not is_generic_logo_image(cached_img):
                 it["image"] = cached_img
@@ -548,6 +627,8 @@ def main() -> None:
         ai_keywords = enrich_with_gemini(items, api_key)
         if ai_keywords:
             keywords = ai_keywords
+        elif cached_keywords:
+            keywords = cached_keywords
 
     if not keywords:
         keywords = [
@@ -565,11 +646,11 @@ def main() -> None:
                 "publishedAt": it["publishedAt"],
                 "publishedTs": it["publishedTs"],
                 "image": it["image"],
-                "summary": it["summary"],
+                "summary": format_summary_text(it["summary"], it["title"]),
                 "points": it["points"],
                 "impact": it["impact"],
                 "tags": it["tags"],
-                "url": it["url"],
+                "url": sanitize_http_url(it["url"]),
                 "isAiEnriched": bool(it.get("isAiEnriched", False)),
             }
         )

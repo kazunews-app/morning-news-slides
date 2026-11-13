@@ -12,12 +12,17 @@ on:
       - 'scripts/update_news.py'
       - '.github/workflows/update-news.yml'
 
+concurrency:
+  group: update-trend-news
+  cancel-in-progress: true
+
 permissions:
   contents: write
 
 jobs:
   update-news:
     runs-on: ubuntu-latest
+    timeout-minutes: 5
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -39,8 +44,12 @@ jobs:
           git add data/news.js
           if git diff --staged --quiet; then
             echo "No changes to commit."
-          else
-            git commit -m "chore: update trend news with source images"
-            git pull --rebase origin main
-            git push
+            exit 0
           fi
+          git commit -m "chore: update trend news with source images"
+          for i in 1 2 3; do
+            git fetch origin main
+            git rebase -X theirs origin/main && git push origin HEAD:main && break
+            echo "Push retry $i..."
+            sleep 2
+          done

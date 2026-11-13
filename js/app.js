@@ -9,6 +9,8 @@
     data: window.NEWS_DATA || { date: "--", updatedAt: "--", keywords: [], items: [] },
     category: "all",
     query: "",
+    isReloading: false,
+    lastDataSignature: "",
   };
 
   // DOM
@@ -29,6 +31,7 @@
   const elFeedCount = document.getElementById("feed-count");
   const elNewsGrid = document.getElementById("news-grid");
   const elModal = document.getElementById("article-modal");
+  const elModalDialog = elModal ? elModal.querySelector(".modal-dialog") : null;
   const elModalBackdrop = document.getElementById("modal-backdrop");
   const elModalClose = document.getElementById("modal-close");
   const elModalContent = document.getElementById("modal-content");
@@ -43,36 +46,64 @@
       .replace(/'/g, "&#39;");
   }
 
+  function isSafeHttpUrl(url) {
+    if (typeof url !== "string") return false;
+    const trimmed = url.trim();
+    return trimmed.startsWith("https://") || trimmed.startsWith("http://");
+  }
+
   function getCategoryMeta(cat) {
     return CATEGORY_META[cat] || { label: "ニュース", icon: "📰", fallbackImg: "assets/images/news-1.jpg" };
   }
 
   function getFallbackImage(item, index = 0) {
-    if (item.category === "domestic") {
+    if (item?.category === "domestic") {
       return index % 2 === 0 ? "assets/images/news-1.jpg" : "assets/images/news-2.jpg";
     }
-    if (item.category === "tech") {
+    if (item?.category === "tech") {
       return index % 2 === 0 ? "assets/images/news-3.jpg" : "assets/images/news-4.jpg";
     }
     return index % 2 === 0 ? "assets/images/news-5.jpg" : "assets/images/news-6.jpg";
   }
 
+  function getSafeImageUrl(item, index = 0) {
+    const raw = typeof item?.image === "string" ? item.image.trim() : "";
+    if (raw.startsWith("https://") || raw.startsWith("http://") || raw.startsWith("assets/")) {
+      return raw;
+    }
+    return getFallbackImage(item, index);
+  }
+
+  async function fetchWithTimeout(url, options = {}, timeoutMs = 8000) {
+    const controller = new AbortController();
+    const timer = setTimeout(() => controller.abort(), timeoutMs);
+    try {
+      return await fetch(url, { ...options, signal: controller.signal });
+    } finally {
+      clearTimeout(timer);
+    }
+  }
+
   function formatRelativeTime(item) {
-    if (item.publishedTs) {
+    if (Number.isFinite(item?.publishedTs) && item.publishedTs > 0) {
       const diffSec = Math.max(0, Math.floor(Date.now() / 1000) - item.publishedTs);
       if (diffSec < 60) return "たった今";
       if (diffSec < 3600) return `${Math.floor(diffSec / 60)}分前`;
       if (diffSec < 86400) return `${Math.floor(diffSec / 3600)}時間前`;
       return `${Math.floor(diffSec / 86400)}日前`;
     }
-    return item.publishedAt || "";
+    return item?.publishedAt || "";
+  }
+
+  function normalizeKeywordQuery(kw) {
+    return String(kw ?? "").replace(/[…\.]+$/g, "").trim();
   }
 
   function updateCounts() {
-    const items = state.data.items || [];
+    const items = Array.isArray(state.data.items) ? state.data.items : [];
     const counts = { all: items.length, domestic: 0, tech: 0, business: 0 };
     items.forEach((it) => {
-      if (counts[it.category] !== undefined) counts[it.category] += 1;
+      if (it && counts[it.category] !== undefined) counts[it.category] += 1;
     });
     document.getElementById("count-all").textContent = counts.all;
     document.getElementById("count-domestic").textContent = counts.domestic;
@@ -81,18 +112,20 @@
   }
 
   function renderTrending() {
-    const keywords = state.data.keywords || [];
+    const keywords = Array.isArray(state.data.keywords) ? state.data.keywords : [];
+    const currentQ = state.query.trim().toLowerCase();
     elTrendingTags.innerHTML = keywords
       .map((kw) => {
-        const active = state.query.toLowerCase() === kw.toLowerCase() ? "active" : "";
-        return `<button type="button" class="trending-chip ${active}" data-kw="${escapeHtml(kw)}"># ${escapeHtml(kw)}</button>`;
+        const searchVal = normalizeKeywordQuery(kw);
+        const active = currentQ && currentQ === searchVal.toLowerCase() ? "active" : "";
+        return `<button type="button" class="trending-chip ${active}" data-kw="${escapeHtml(searchVal)}"># ${escapeHtml(kw)}</button>`;
       })
       .join("");
 
     elTrendingTags.querySelectorAll(".trending-chip").forEach((btn) => {
       btn.addEventListener("click", () => {
-        const kw = btn.getAttribute("data-kw");
-        if (state.query === kw) {
+        const kw = btn.getAttribute("data-kw") || "";
+        if (state.query.trim().toLowerCase() === kw.toLowerCase()) {
           setQuery("");
         } else {
           setQuery(kw);
@@ -101,33 +134,11 @@
     });
   }
 
-  function getFilteredItems() {
-    const items = state.data.items || [];
-    const q = state.query.trim().toLowerCase();
-    return items.filter((item) => {
-      if (state.category !== "all" && item.category !== state.category) {
-        return false;
-      }
-      if (!q) return true;
-      const haystack = [
-        item.title,
-        item.summary,
-        item.source,
-        item.impact,
-        ...(item.tags || []),
-        ...(item.points || []),
-      ]
-        .join(" ")
-        .toLowerCase();
-      return haystack.includes(q);
-    });
-  }
-
   function renderHero(items) {
     const lead = items[0];
     const sideItems = items.slice(1, 5);
     const leadMeta = getCategoryMeta(lead.category);
-    const leadImg = lead.image || getFallbackImage(lead, 0);
+    const leadImg = getSafeImageUrl(lead, 0);
     const leadFallback = getFallbackImage(lead, 0);
 
     elHeroLead.innerHTML = `
@@ -152,7 +163,7 @@
     elHeroSideList.innerHTML = sideItems
       .map((item, i) => {
         const meta = getCategoryMeta(item.category);
-        const img = item.image || getFallbackImage(item, i + 1);
+        const img = getSafeImageUrl(item, i + 1);
         const fb = getFallbackImage(item, i + 1);
         return `
           <button type="button" class="side-item" data-article-idx="${item._idx}">
@@ -171,7 +182,8 @@
   }
 
   function renderFeed() {
-    const allWithIdx = (state.data.items || []).map((item, idx) => ({ ...item, _idx: idx }));
+    const rawItems = Array.isArray(state.data.items) ? state.data.items : [];
+    const allWithIdx = rawItems.map((item, idx) => ({ ...item, _idx: idx }));
     const q = state.query.trim();
 
     if (q) {
@@ -190,8 +202,8 @@
         item.summary,
         item.source,
         item.impact,
-        ...(item.tags || []),
-        ...(item.points || []),
+        ...(Array.isArray(item.tags) ? item.tags : []),
+        ...(Array.isArray(item.points) ? item.points : []),
       ]
         .join(" ")
         .toLowerCase();
@@ -225,9 +237,9 @@
       elNewsGrid.innerHTML = gridItems
         .map((item, i) => {
           const meta = getCategoryMeta(item.category);
-          const img = item.image || getFallbackImage(item, i);
+          const img = getSafeImageUrl(item, i);
           const fb = getFallbackImage(item, i);
-          const tagsHtml = (item.tags || [])
+          const tagsHtml = (Array.isArray(item.tags) ? item.tags : [])
             .slice(0, 3)
             .map((t) => `<span class="tag-chip">#${escapeHtml(t)}</span>`)
             .join("");
@@ -254,7 +266,6 @@
         .join("");
     }
 
-    // Bind click handlers for articles
     document.querySelectorAll("[data-article-idx]").forEach((el) => {
       el.addEventListener("click", () => {
         const idx = Number(el.getAttribute("data-article-idx"));
@@ -264,18 +275,20 @@
   }
 
   function openArticleModal(idx) {
-    const item = (state.data.items || [])[idx];
+    const items = Array.isArray(state.data.items) ? state.data.items : [];
+    const item = items[idx];
     if (!item) return;
 
     const meta = getCategoryMeta(item.category);
-    const img = item.image || getFallbackImage(item, idx);
+    const img = getSafeImageUrl(item, idx);
     const fb = getFallbackImage(item, idx);
-    const pointsHtml = (item.points || [])
+    const pointsHtml = (Array.isArray(item.points) ? item.points : [])
       .map((pt) => `<li>${escapeHtml(pt)}</li>`)
       .join("");
-    const tagsHtml = (item.tags || [])
+    const tagsHtml = (Array.isArray(item.tags) ? item.tags : [])
       .map((t) => `<span class="tag-chip">#${escapeHtml(t)}</span>`)
       .join("");
+    const safeUrl = isSafeHttpUrl(item.url) ? item.url.trim() : "";
 
     elModalContent.innerHTML = `
       <img class="modal-hero-img" src="${escapeHtml(img)}" alt="${escapeHtml(item.title)}" referrerpolicy="no-referrer" onerror="this.onerror=null;this.src='${escapeHtml(fb)}'" />
@@ -289,33 +302,37 @@
         <h2 class="modal-title" id="modal-title">${escapeHtml(item.title)}</h2>
         <p class="modal-lead">${escapeHtml(item.summary)}</p>
 
-        ${pointsHtml
-        ? `<div class="modal-box">
+        ${
+          pointsHtml
+            ? `<div class="modal-box">
                 <h3>📌 3つの要点</h3>
                 <ul class="modal-points">${pointsHtml}</ul>
               </div>`
-        : ""
-      }
+            : ""
+        }
 
-        ${item.impact
-        ? `<div class="modal-box">
+        ${
+          item.impact
+            ? `<div class="modal-box">
                 <h3>💡 注目ポイント・影響</h3>
                 <p class="modal-impact">${escapeHtml(item.impact)}</p>
               </div>`
-        : ""
-      }
+            : ""
+        }
 
         <div class="modal-actions">
           <div style="display:flex;gap:6px;flex-wrap:wrap;">${tagsHtml}</div>
-          ${item.url
-        ? `<a class="read-original-btn" href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">元記事を読む ↗</a>`
-        : ""
-      }
+          ${
+            safeUrl
+              ? `<a class="read-original-btn" href="${escapeHtml(safeUrl)}" target="_blank" rel="noopener noreferrer">元記事を読む ↗</a>`
+              : ""
+          }
         </div>
       </div>
     `;
 
     elModal.hidden = false;
+    if (elModalDialog) elModalDialog.scrollTop = 0;
     document.body.style.overflow = "hidden";
   }
 
@@ -348,33 +365,49 @@
     return JSON.parse(jsonPart);
   }
 
-  async function reloadNewsData() {
+  function computeDataSignature(data) {
+    if (!data || !Array.isArray(data.items)) return "";
+    const firstTitle = data.items[0]?.title || "";
+    const firstImg = data.items[0]?.image || "";
+    return `${data.updatedAt || ""}|${data.items.length}|${firstTitle}|${firstImg}`;
+  }
+
+  async function reloadNewsData(forceRender = false) {
+    if (state.isReloading) return;
+    state.isReloading = true;
     elBtnRefresh.classList.add("spinning");
+
     const ts = Date.now();
     const urls = [
       `https://raw.githubusercontent.com/sjhkazu1011-ctrl/morning-news-slides/main/data/news.js?t=${ts}`,
       `data/news.js?t=${ts}`,
     ];
 
-    for (const url of urls) {
-      try {
-        const res = await fetch(url, { cache: "no-store" });
-        if (!res.ok) continue;
-        const text = await res.text();
-        const parsed = parseNewsJsText(text);
-        if (parsed && Array.isArray(parsed.items) && parsed.items.length > 0) {
-          if (!state.data.updatedAt || parsed.updatedAt >= state.data.updatedAt || url.startsWith("https://")) {
-            window.NEWS_DATA = parsed;
-            state.data = parsed;
-            renderAll();
+    try {
+      for (const url of urls) {
+        try {
+          const res = await fetchWithTimeout(url, { cache: "no-store" }, 8000);
+          if (!res.ok) continue;
+          const text = await res.text();
+          const parsed = parseNewsJsText(text);
+          if (parsed && Array.isArray(parsed.items) && parsed.items.length > 0) {
+            const sig = computeDataSignature(parsed);
+            if (forceRender || sig !== state.lastDataSignature) {
+              window.NEWS_DATA = parsed;
+              state.data = parsed;
+              state.lastDataSignature = sig;
+              renderAll();
+            }
+            break;
           }
-          break;
+        } catch (_err) {
+          // Try next fallback URL
         }
-      } catch (_err) {
-        // Fallback to next URL
       }
+    } finally {
+      elBtnRefresh.classList.remove("spinning");
+      state.isReloading = false;
     }
-    elBtnRefresh.classList.remove("spinning");
   }
 
   // Weather (Geolocation + Open-Meteo + Reverse Geocoding)
@@ -400,7 +433,7 @@
   async function resolveLocationName(lat, lon) {
     try {
       const url = `https://api.bigdatacloud.net/data/reverse-geocode-client?latitude=${lat}&longitude=${lon}&localityLanguage=ja`;
-      const res = await fetch(url);
+      const res = await fetchWithTimeout(url, {}, 6000);
       if (!res.ok) return "現在地";
       const data = await res.json();
       const city = data.city || data.locality || data.principalSubdivision || "現在地";
@@ -413,7 +446,7 @@
   async function fetchAndRenderWeather(lat, lon, locName) {
     try {
       const url = `https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}&current=temperature_2m,weather_code&daily=weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max&timezone=Asia%2FTokyo&forecast_days=1`;
-      const res = await fetch(url);
+      const res = await fetchWithTimeout(url, {}, 8000);
       if (!res.ok) throw new Error("Weather fetch failed");
       const data = await res.json();
 
@@ -439,7 +472,7 @@
     if (!q) return null;
     try {
       const url = `https://geocoding-api.open-meteo.com/v1/search?name=${encodeURIComponent(q)}&count=1&language=ja&format=json`;
-      const res = await fetch(url);
+      const res = await fetchWithTimeout(url, {}, 6000);
       if (!res.ok) return null;
       const data = await res.json();
       const first = data.results?.[0];
@@ -498,18 +531,24 @@
     );
   }
 
+  function refreshSavedWeather() {
+    try {
+      const saved = JSON.parse(localStorage.getItem("trend-news-geo") || "null");
+      if (saved && Number.isFinite(saved.lat) && Number.isFinite(saved.lon)) {
+        fetchAndRenderWeather(saved.lat, saved.lon, saved.locName || "現在地");
+        return true;
+      }
+    } catch (_e) {}
+    return false;
+  }
+
   function initWeather() {
     if (elWeatherWidget) {
       elWeatherWidget.addEventListener("click", () => requestGeolocationWeather(true));
     }
-    try {
-      const saved = JSON.parse(localStorage.getItem("trend-news-geo") || "null");
-      if (saved && saved.lat && saved.lon) {
-        fetchAndRenderWeather(saved.lat, saved.lon, saved.locName || "現在地");
-        return;
-      }
-    } catch (_e) {}
-    // 初回は仮で東京を表示しつつ現在地をリクエスト
+    if (refreshSavedWeather()) {
+      return;
+    }
     fetchAndRenderWeather(35.6812, 139.7671, "東京(タップで現在地へ)");
     requestGeolocationWeather(false);
   }
@@ -565,7 +604,7 @@
     window.scrollTo({ top: 0, behavior: "smooth" });
   });
 
-  elBtnRefresh.addEventListener("click", reloadNewsData);
+  elBtnRefresh.addEventListener("click", () => reloadNewsData(true));
   elBtnTheme.addEventListener("click", toggleTheme);
   elModalClose.addEventListener("click", closeModal);
   elModalBackdrop.addEventListener("click", closeModal);
@@ -576,7 +615,9 @@
   // Init
   initTheme();
   initWeather();
+  state.lastDataSignature = computeDataSignature(state.data);
   renderAll();
-  reloadNewsData();
-  setInterval(reloadNewsData, 5 * 60 * 1000);
+  reloadNewsData(false);
+  setInterval(() => reloadNewsData(false), 5 * 60 * 1000);
+  setInterval(refreshSavedWeather, 30 * 60 * 1000);
 })();
