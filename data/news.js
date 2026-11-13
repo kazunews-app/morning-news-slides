@@ -1,13 +1,13 @@
 window.NEWS_DATA = {
   "date": "2026年11月14日 (土)",
-  "updatedAt": "2026-11-14 07:05",
+  "updatedAt": "2026-11-14 07:50",
   "title": "TREND NEWS",
   "keywords": [
     "自衛官の給与引き上げ法が成…",
-    "MS障害 日本は比較的安定…",
+    "MS「復旧が進み、安定した…",
     "「週明け怖い」MS障害の影…",
     "政府 ロシアに首脳会談を打…",
-    "GMO攻撃 被害申告は29…",
+    "マネックス証券 免許証画像…",
     "ワタミがMBO実施へ 32…"
   ],
   "items": [
@@ -34,15 +34,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "MS障害 日本は比較的安定状態",
+      "title": "MS「復旧が進み、安定した状態」",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-13 23:16",
-      "publishedTs": 1794579372,
-      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/13/853dac30e12c3e31c0979168b606e281279f33a2c275cc98f2d5afb7b3830468.jpg",
-      "summary": "米マイクロソフトは12日（日本時間13日）、企業向けクラウドサービス「マイクロソフト365」で大規模な障害が起きていると発表した。世界中で電子メールが送信できないなどの不具合が続いていた。日本時間1…",
+      "publishedAt": "2026-11-14 07:37",
+      "publishedTs": 1794609435,
+      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/14/bb24e80d4dce19ff68e3507d93c75ac6543b028c8d1271920d1b2213737de4c4.jpg",
+      "summary": "アメリカのIT大手マイクロソフトは、自社のサービスで発生している世界規模の接続障害について、「サービス全体で復旧が進んでいる」と明らかにしました。",
       "points": [
         "カテゴリ: テクノロジー・AIの注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-13 23:16）",
+        "配信: Yahoo!ニュース トピックス（2026-11-14 07:37）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "テクノロジー・AI分野で関心を集めている最新ニュースです。",
@@ -50,7 +50,7 @@ window.NEWS_DATA = {
         "テクノロジー・AI",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/pickup/6602477?source=rss",
+      "url": "https://news.yahoo.co.jp/pickup/6602492?source=rss",
       "isAiEnriched": false
     },
     {
@@ -97,15 +97,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "GMO攻撃 被害申告は29.9億円に",
+      "title": "マネックス証券 免許証画像流出か",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-13 16:52",
-      "publishedTs": 1794556328,
-      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/13/e7bf11e96352a191d069fceda7a3136b155246ae4388c4d9507f28379abfc554.jpg",
-      "summary": "ＧＭＯインターネットのＦＸ（外国為替証拠金）取引用クラウドサービスが不正アクセスを受けた問題で、親会社のＧＭＯインターネットグループは１３日、利用者からの被害申告が１２日までに計２９４３口座、約２９…",
+      "publishedAt": "2026-11-14 07:28",
+      "publishedTs": 1794608898,
+      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/14/2ce069a4082622f7ee5ddab2ffc78b855e538e795c01793f62e70223b341dbf6.jpg",
+      "summary": "インターネット証券大手のマネックス証券は10月に公表した不正アクセスで、運転免許証などの画像およそ1600件に流出の恐れがあると発表しました。",
       "points": [
         "カテゴリ: テクノロジー・AIの注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-13 16:52）",
+        "配信: Yahoo!ニュース トピックス（2026-11-14 07:28）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "テクノロジー・AI分野で関心を集めている最新ニュースです。",
@@ -113,7 +113,7 @@ window.NEWS_DATA = {
         "テクノロジー・AI",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/pickup/6602430?source=rss",
+      "url": "https://news.yahoo.co.jp/pickup/6602486?source=rss",
       "isAiEnriched": false
     },
     {
@@ -160,15 +160,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "Google 韓国地図サービス強化へ",
+      "title": "GMO攻撃 被害申告は29.9億円に",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-13 16:16",
-      "publishedTs": 1794554186,
-      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/13/b6549e1a7a12acbb5869ad229a769592b76b82fd52fa4ff0de2346f45857e9de.jpg",
-      "summary": "【ソウル聯合ニュース】米グーグルが韓国の高精度地図データの国外持ち出しに必要なセキュリティー面の条件を満たし、早ければ来年初めから韓国における地図サービスの強化に乗り出す見通しであることが、13日分…",
+      "publishedAt": "2026-11-13 16:52",
+      "publishedTs": 1794556328,
+      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/13/e7bf11e96352a191d069fceda7a3136b155246ae4388c4d9507f28379abfc554.jpg",
+      "summary": "ＧＭＯインターネットのＦＸ（外国為替証拠金）取引用クラウドサービスが不正アクセスを受けた問題で、親会社のＧＭＯインターネットグループは１３日、利用者からの被害申告が１２日までに計２９４３口座、約２９…",
       "points": [
         "カテゴリ: テクノロジー・AIの注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-13 16:16）",
+        "配信: Yahoo!ニュース トピックス（2026-11-13 16:52）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "テクノロジー・AI分野で関心を集めている最新ニュースです。",
@@ -176,7 +176,7 @@ window.NEWS_DATA = {
         "テクノロジー・AI",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/pickup/6602427?source=rss",
+      "url": "https://news.yahoo.co.jp/pickup/6602430?source=rss",
       "isAiEnriched": false
     },
     {
@@ -223,15 +223,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "メール障害で納期遅延 法的扱いは",
+      "title": "Google 韓国地図サービス強化へ",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-13 15:48",
-      "publishedTs": 1794552520,
-      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/13/9b77459d491590701790dbdcb2bdea82cbdffd10b1517dd6abc71603692f9fa4.jpg",
-      "summary": "取引先からの返信期限が今日に迫っているのに、メールソフトの「Outlook」が使えない——。",
+      "publishedAt": "2026-11-13 16:16",
+      "publishedTs": 1794554186,
+      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/13/b6549e1a7a12acbb5869ad229a769592b76b82fd52fa4ff0de2346f45857e9de.jpg",
+      "summary": "【ソウル聯合ニュース】米グーグルが韓国の高精度地図データの国外持ち出しに必要なセキュリティー面の条件を満たし、早ければ来年初めから韓国における地図サービスの強化に乗り出す見通しであることが、13日分…",
       "points": [
         "カテゴリ: テクノロジー・AIの注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-13 15:48）",
+        "配信: Yahoo!ニュース トピックス（2026-11-13 16:16）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "テクノロジー・AI分野で関心を集めている最新ニュースです。",
@@ -239,7 +239,7 @@ window.NEWS_DATA = {
         "テクノロジー・AI",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/pickup/6602424?source=rss",
+      "url": "https://news.yahoo.co.jp/pickup/6602427?source=rss",
       "isAiEnriched": false
     },
     {
@@ -286,15 +286,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "恋活婚活「リアル回帰」の訳 解説",
+      "title": "メール障害で納期遅延 法的扱いは",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-13 09:23",
-      "publishedTs": 1794529428,
-      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/13/6d2a1555ca6fbc35ccd7f0dc765ecd951325b269a94bec4ef166539aad7e84b5.jpg",
-      "summary": "マッチングアプリ一強だった恋活、婚活市場。だが今、その風潮が変わりつつある。",
+      "publishedAt": "2026-11-13 15:48",
+      "publishedTs": 1794552520,
+      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/13/9b77459d491590701790dbdcb2bdea82cbdffd10b1517dd6abc71603692f9fa4.jpg",
+      "summary": "取引先からの返信期限が今日に迫っているのに、メールソフトの「Outlook」が使えない——。",
       "points": [
         "カテゴリ: テクノロジー・AIの注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-13 09:23）",
+        "配信: Yahoo!ニュース トピックス（2026-11-13 15:48）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "テクノロジー・AI分野で関心を集めている最新ニュースです。",
@@ -302,7 +302,7 @@ window.NEWS_DATA = {
         "テクノロジー・AI",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/pickup/6602378?source=rss",
+      "url": "https://news.yahoo.co.jp/pickup/6602424?source=rss",
       "isAiEnriched": false
     },
     {
@@ -349,23 +349,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "Claude Codeのおすすめ環境を全体図で解説。ハーネス・スキル・MCPの仕組みと実例",
-      "source": "ktlog.net",
-      "publishedAt": "2026-11-13 14:21",
-      "publishedTs": 1794547318,
-      "image": "https://ktlog.net/_emdash/api/media/file/01M6WX9NHRH5N9QRFZYP0DTKWK.webp",
-      "summary": "公開 2026.11.08 Claude Codeのおすすめ環境を全体図で解説。ハーネス・スキル・MCPの仕組みと実例 Claude Codeのおすすめ環境は、入口をClaude Code 1つにまとめ、判断AIや権限ルールなどのハーネスを通してから、ほかのAI・スキル・MCP・外部APIへ仕事を振り分ける…",
+      "title": "Fable 5.2は物理モデリング音源の実装も作曲もすごい - きしだのHatena",
+      "source": "nowokay.hatenablog.com",
+      "publishedAt": "2026-11-13 23:22",
+      "publishedTs": 1794579772,
+      "image": "https://cdn.image.st-hatena.com/image/scale/124dd98915ea1ae722f6a171ed5ad3c4f387690a/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fn%2Fnowokay%2F20261113%2F20261113100710.png",
+      "summary": "Fable 5.2が出て今週いっぱいくらいPlusでも使えるのだけど、Fableじゃないとダメなことってなんだろなと思いつつ、楽器の物理シミュレーションがOpusはまだあまりうまくなかったなと、Fableさんに物理モデリング音源を作ってもらって曲もつくってもらったら、物理モデリングも結構できていたのだけど…",
       "points": [
         "カテゴリ: テクノロジー・AIで話題の記事",
-        "引用元: ktlog.net（2026-11-13 14:21）",
+        "引用元: nowokay.hatenablog.com（2026-11-13 23:22）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "テクノロジー・AI分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "テクノロジー・AI",
-        "ktlog.net"
+        "nowokay.hatenablog.com"
       ],
-      "url": "https://ktlog.net/posts/claude-code-ai-ecosystem",
+      "url": "https://nowokay.hatenablog.com/entry/2026/11/13/101644",
       "isAiEnriched": false
     },
     {
@@ -387,6 +387,132 @@ window.NEWS_DATA = {
         "Yahoo!ニュース"
       ],
       "url": "https://news.yahoo.co.jp/pickup/6602397?source=rss",
+      "isAiEnriched": false
+    },
+    {
+      "category": "domestic",
+      "title": "米全土の空港で航空機の運航を停止 「通信の問題」米運輸長官 | NHKニュース",
+      "source": "news.web.nhk",
+      "publishedAt": "2026-11-14 06:49",
+      "publishedTs": 1794606572,
+      "image": "https://imgu.web.nhk/news/u/news/nd/kiji/20261114de75764/20261114de75764_E0000174813_1_l.jpg",
+      "summary": "アメリカのダフィー運輸長官は13日、SNSへの投稿で「FAA＝アメリカ連邦航空局は管制センターに影響を及ぼす通信問題を受けて全米で航空機の運航停止を発令した。連邦航空局の技術者が調査を行っている」と明…",
+      "points": [
+        "カテゴリ: 国内・総合で話題の記事",
+        "引用元: news.web.nhk（2026-11-14 06:49）",
+        "「元記事を読む」から本文を確認できます"
+      ],
+      "impact": "国内・総合分野で多くの読者に共有されている注目記事です。",
+      "tags": [
+        "国内・総合",
+        "news.web.nhk"
+      ],
+      "url": "https://news.web.nhk/newsweb/na/nd-20261114de75764",
+      "isAiEnriched": false
+    },
+    {
+      "category": "tech",
+      "title": "Claude Codeのおすすめ環境を全体図で解説。ハーネス・スキル・MCPの仕組みと実例",
+      "source": "ktlog.net",
+      "publishedAt": "2026-11-13 14:21",
+      "publishedTs": 1794547318,
+      "image": "https://ktlog.net/_emdash/api/media/file/01M6WX9NHRH5N9QRFZYP0DTKWK.webp",
+      "summary": "公開 2026.11.08 Claude Codeのおすすめ環境を全体図で解説。ハーネス・スキル・MCPの仕組みと実例 Claude Codeのおすすめ環境は、入口をClaude Code 1つにまとめ、判断AIや権限ルールなどのハーネスを通してから、ほかのAI・スキル・MCP・外部APIへ仕事を振り分ける…",
+      "points": [
+        "カテゴリ: テクノロジー・AIで話題の記事",
+        "引用元: ktlog.net（2026-11-13 14:21）",
+        "「元記事を読む」から本文を確認できます"
+      ],
+      "impact": "テクノロジー・AI分野で多くの読者に共有されている注目記事です。",
+      "tags": [
+        "テクノロジー・AI",
+        "ktlog.net"
+      ],
+      "url": "https://ktlog.net/posts/claude-code-ai-ecosystem",
+      "isAiEnriched": false
+    },
+    {
+      "category": "business",
+      "title": "「高市憎しの勢力がどんどんトンチキな方向に進んでいく」高市首相はある能力において、故安倍元首相を超えたのではないか？という指摘がX上で続々と集まる",
+      "source": "togetter.com",
+      "publishedAt": "2026-11-14 04:46",
+      "publishedTs": 1794599203,
+      "image": "https://s.tgstc.com/ogp3/47fbe1869359fc6f93b65ea3a0c4f4fd-1200x630.jpeg",
+      "summary": "なま卯 @e_the_dethroner 神戸大学勤務の先生が、「高市総理、神大の夜間部だったのではないかという話が出ているのか。それなら色々と納得が行く。神大卒は嘘ではない。ただ早慶合格は怪しい。」と仰っている。私にはこれは高市総理云々よりも、夜間部を揶揄しているように見えるのだが、大学の先生がそういう態…",
+      "points": [
+        "カテゴリ: ビジネス・経済で話題の記事",
+        "引用元: togetter.com（2026-11-14 04:46）",
+        "「元記事を読む」から本文を確認できます"
+      ],
+      "impact": "ビジネス・経済分野で多くの読者に共有されている注目記事です。",
+      "tags": [
+        "ビジネス・経済",
+        "togetter.com"
+      ],
+      "url": "https://togetter.com/li/2770188",
+      "isAiEnriched": false
+    },
+    {
+      "category": "domestic",
+      "title": "多文化共生「重要だと思わない」７倍に　岐阜県がアンケート：中日新聞Web",
+      "source": "chunichi.co.jp",
+      "publishedAt": "2026-11-13 18:53",
+      "publishedTs": 1794563623,
+      "image": "https://static.chunichi.co.jp/image/article/size1/d/8/1/a/d81a8773f37bf0bd2cb6a3cd5868cdb1_1.jpg",
+      "summary": "岐阜県は12日、外国人に関連する施策を話し合う本部員会議を県庁で開き、多文化共生について県民らから募ったアンケート結果を公表した。「多文化共生社会を目指すことについてどう思うか」という質問には、「重要だと思わない」という答えが前回アンケートから約7倍に増えた。",
+      "points": [
+        "カテゴリ: 国内・総合で話題の記事",
+        "引用元: chunichi.co.jp（2026-11-13 18:53）",
+        "「元記事を読む」から本文を確認できます"
+      ],
+      "impact": "国内・総合分野で多くの読者に共有されている注目記事です。",
+      "tags": [
+        "国内・総合",
+        "chunichi.co.jp"
+      ],
+      "url": "https://www.chunichi.co.jp/article/1338916",
+      "isAiEnriched": false
+    },
+    {
+      "category": "tech",
+      "title": "学生が発表で使ったスライドがAIを使っていたので使用ソフトを尋ねたら「全部AIです」と言われた、Figmaとかだと思ったらツールごと全部AIとHTMLで作ってた",
+      "source": "togetter.com",
+      "publishedAt": "2026-11-13 22:27",
+      "publishedTs": 1794576428,
+      "image": "https://s.tgstc.com/ogp3/a16bc210d41b3d32d2a7f99b927c9bc4-1200x630.jpeg",
+      "summary": "渡邊 恵太 @100kw 今日は衝撃でした。 私「このスライドはAI使ってますよね？ソフトはなんですか？」 学生「全部AIです」 私「？Figmaですか？」 学生「スライドもAIでHTMLで作らせましたが、スライドソフト自体もAIでHTML製です。文字の位置調整とかできます」 私「🫨」 x.com/100k…",
+      "points": [
+        "カテゴリ: テクノロジー・AIで話題の記事",
+        "引用元: togetter.com（2026-11-13 22:27）",
+        "「元記事を読む」から本文を確認できます"
+      ],
+      "impact": "テクノロジー・AI分野で多くの読者に共有されている注目記事です。",
+      "tags": [
+        "テクノロジー・AI",
+        "togetter.com"
+      ],
+      "url": "https://togetter.com/li/2770106",
+      "isAiEnriched": false
+    },
+    {
+      "category": "business",
+      "title": "高市総理が答弁→国会ストップ→代打・片山大臣でも国会ストップ…消費減税めぐり大荒れ 共産・小池議員「1億人大増税約束法案だ」 | 政治 | ABEMA TIMES | アベマタイムズ",
+      "source": "times.abema.tv",
+      "publishedAt": "2026-11-13 21:06",
+      "publishedTs": 1794571571,
+      "image": "https://times-abema.ismcdn.jp/mwimgs/4/0/1200w/img_40a73a23af1a72fc7812f407e6468620548539.jpg",
+      "summary": "「めちゃくちゃお話が弾んでおられる」愛子さまと信子さまが武道大会で楽しそうに談笑…お二人の“自然体なやりとり”がSNSで大反響「さすが我らの姫様」",
+      "points": [
+        "カテゴリ: ビジネス・経済で話題の記事",
+        "引用元: times.abema.tv（2026-11-13 21:06）",
+        "「元記事を読む」から本文を確認できます"
+      ],
+      "impact": "ビジネス・経済分野で多くの読者に共有されている注目記事です。",
+      "tags": [
+        "ビジネス・経済",
+        "times.abema.tv"
+      ],
+      "url": "https://times.abema.tv/articles/-/10288829",
       "isAiEnriched": false
     },
     {
@@ -433,23 +559,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "高市総理が答弁→国会ストップ→代打・片山大臣でも国会ストップ…消費減税めぐり大荒れ 共産・小池議員「1億人大増税約束法案だ」 | 政治 | ABEMA TIMES | アベマタイムズ",
-      "source": "times.abema.tv",
-      "publishedAt": "2026-11-13 21:06",
-      "publishedTs": 1794571571,
-      "image": "https://times-abema.ismcdn.jp/mwimgs/4/0/1200w/img_40a73a23af1a72fc7812f407e6468620548539.jpg",
-      "summary": "「めちゃくちゃお話が弾んでおられる」愛子さまと信子さまが武道大会で楽しそうに談笑…お二人の“自然体なやりとり”がSNSで大反響「さすが我らの姫様」",
+      "title": "中国首相、ＡＳＥＡＮの場で日本回避の公算…高市首相が出席する可能性ある会議への参加見送りか",
+      "source": "yomiuri.co.jp",
+      "publishedAt": "2026-11-13 16:52",
+      "publishedTs": 1794556356,
+      "image": "https://www.yomiuri.co.jp/media/2026/11/20261113-GYT1I00150-1.jpg?type=ogp",
+      "summary": "【読売新聞】 【北京＝吉永亜希子】中国の 李強 （ リーチャン ） 首相は１５～１６日、フィリピンの首都マニラを訪問し、中国と東南アジア諸国連合（ＡＳＥＡＮ）の首脳会議に出席する。 中国外務省の１１日の発表では、いずれも１７日に行わ…",
       "points": [
         "カテゴリ: ビジネス・経済で話題の記事",
-        "引用元: times.abema.tv（2026-11-13 21:06）",
+        "引用元: yomiuri.co.jp（2026-11-13 16:52）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "ビジネス・経済分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "ビジネス・経済",
-        "times.abema.tv"
+        "yomiuri.co.jp"
       ],
-      "url": "https://times.abema.tv/articles/-/10288829",
+      "url": "https://www.yomiuri.co.jp/world/20261113-GYT1T00148/",
       "isAiEnriched": false
     },
     {
@@ -475,149 +601,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "Microsoft 365の障害で上司が事業部の部長から「こうなる事を予想して事前に対処しておくのがシステム部だろうが！」と言われ、反抗して早退…連絡の受け手は必然的に私に",
-      "source": "togetter.com",
-      "publishedAt": "2026-11-13 18:58",
-      "publishedTs": 1794563897,
-      "image": "https://s.tgstc.com/ogp3/cbbc0911cdba7f189ff20584eb240cd1-1200x630.jpeg",
-      "summary": "まあゆ @ma_yu_69 上司が事業部の部長に「こうなる事（M365の障害）を予想して事前に対処しておくのがシステム部だろうが！！」って言われて「（システムを）分かんねぇくせに口出すな知ったかぶりが！！」って応酬して、そのまま早退してしまった午前11時47分 2026-11-13 12:20:34 まあゆ…",
+      "title": "『検索システム』『推薦システム』とLLM時代の検索推薦 - ｼﾞｮｲｼﾞｮｲｼﾞｮｲ",
+      "source": "joisino.hatenablog.com",
+      "publishedAt": "2026-11-13 19:50",
+      "publishedTs": 1794567054,
+      "image": "https://cdn.image.st-hatena.com/image/scale/d5c90eb051b7f12f50fe0e47e38459f3884c8866/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fj%2Fjoisino%2F20261111%2F20261111174347.png",
+      "summary": "拙著『検索システム』『推薦システム』が発売されました。 ▲カバーイラストがおしゃれで嬉しい これらはその名の通り検索システムと推薦システムの教科書です。LLM 時代の新基準になることを目指して執筆しました。すべてのログデータをプロンプトに入れて「これを前提に何を推薦すればいいか」と LLM に訊くという投げ…",
       "points": [
         "カテゴリ: テクノロジー・AIで話題の記事",
-        "引用元: togetter.com（2026-11-13 18:58）",
+        "引用元: joisino.hatenablog.com（2026-11-13 19:50）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "テクノロジー・AI分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "テクノロジー・AI",
-        "togetter.com"
+        "joisino.hatenablog.com"
       ],
-      "url": "https://togetter.com/li/2770045",
-      "isAiEnriched": false
-    },
-    {
-      "category": "business",
-      "title": "「高市憎しの勢力がどんどんトンチキな方向に進んでいく」高市首相はある能力において、故安倍元首相を超えたのではないか？という指摘がX上で続々と集まる",
-      "source": "togetter.com",
-      "publishedAt": "2026-11-14 04:46",
-      "publishedTs": 1794599203,
-      "image": "https://s.tgstc.com/ogp3/47fbe1869359fc6f93b65ea3a0c4f4fd-1200x630.jpeg",
-      "summary": "なま卯 @e_the_dethroner 神戸大学勤務の先生が、「高市総理、神大の夜間部だったのではないかという話が出ているのか。それなら色々と納得が行く。神大卒は嘘ではない。ただ早慶合格は怪しい。」と仰っている。私にはこれは高市総理云々よりも、夜間部を揶揄しているように見えるのだが、大学の先生がそういう態…",
-      "points": [
-        "カテゴリ: ビジネス・経済で話題の記事",
-        "引用元: togetter.com（2026-11-14 04:46）",
-        "「元記事を読む」から本文を確認できます"
-      ],
-      "impact": "ビジネス・経済分野で多くの読者に共有されている注目記事です。",
-      "tags": [
-        "ビジネス・経済",
-        "togetter.com"
-      ],
-      "url": "https://togetter.com/li/2770188",
-      "isAiEnriched": false
-    },
-    {
-      "category": "domestic",
-      "title": "米全土の空港で航空機の運航を停止 「通信の問題」米運輸長官 | NHKニュース",
-      "source": "news.web.nhk",
-      "publishedAt": "2026-11-14 06:49",
-      "publishedTs": 1794606572,
-      "image": "https://imgu.web.nhk/news/u/news/nd/kiji/20261114de75764/20261114de75764_E0000174813_1_l.jpg",
-      "summary": "アメリカのダフィー運輸長官は13日、SNSへの投稿で「FAA＝アメリカ連邦航空局は管制センターに影響を及ぼす通信問題を受けて全米で航空機の運航停止を発令した。連邦航空局の技術者が調査を行っている」と明…",
-      "points": [
-        "カテゴリ: 国内・総合で話題の記事",
-        "引用元: news.web.nhk（2026-11-14 06:49）",
-        "「元記事を読む」から本文を確認できます"
-      ],
-      "impact": "国内・総合分野で多くの読者に共有されている注目記事です。",
-      "tags": [
-        "国内・総合",
-        "news.web.nhk"
-      ],
-      "url": "https://news.web.nhk/newsweb/na/nd-20261114de75764",
-      "isAiEnriched": false
-    },
-    {
-      "category": "tech",
-      "title": "Fable 5.2は物理モデリング音源の実装も作曲もすごい - きしだのHatena",
-      "source": "nowokay.hatenablog.com",
-      "publishedAt": "2026-11-13 23:22",
-      "publishedTs": 1794579772,
-      "image": "https://cdn.image.st-hatena.com/image/scale/124dd98915ea1ae722f6a171ed5ad3c4f387690a/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fn%2Fnowokay%2F20261113%2F20261113100710.png",
-      "summary": "Fable 5.2が出て今週いっぱいくらいPlusでも使えるのだけど、Fableじゃないとダメなことってなんだろなと思いつつ、楽器の物理シミュレーションがOpusはまだあまりうまくなかったなと、Fableさんに物理モデリング音源を作ってもらって曲もつくってもらったら、物理モデリングも結構できていたのだけど…",
-      "points": [
-        "カテゴリ: テクノロジー・AIで話題の記事",
-        "引用元: nowokay.hatenablog.com（2026-11-13 23:22）",
-        "「元記事を読む」から本文を確認できます"
-      ],
-      "impact": "テクノロジー・AI分野で多くの読者に共有されている注目記事です。",
-      "tags": [
-        "テクノロジー・AI",
-        "nowokay.hatenablog.com"
-      ],
-      "url": "https://nowokay.hatenablog.com/entry/2026/11/13/101644",
-      "isAiEnriched": false
-    },
-    {
-      "category": "business",
-      "title": "中国首相、ＡＳＥＡＮの場で日本回避の公算…高市首相が出席する可能性ある会議への参加見送りか",
-      "source": "yomiuri.co.jp",
-      "publishedAt": "2026-11-13 16:52",
-      "publishedTs": 1794556356,
-      "image": "https://www.yomiuri.co.jp/media/2026/11/20261113-GYT1I00150-1.jpg?type=ogp",
-      "summary": "【読売新聞】 【北京＝吉永亜希子】中国の 李強 （ リーチャン ） 首相は１５～１６日、フィリピンの首都マニラを訪問し、中国と東南アジア諸国連合（ＡＳＥＡＮ）の首脳会議に出席する。 中国外務省の１１日の発表では、いずれも１７日に行わ…",
-      "points": [
-        "カテゴリ: ビジネス・経済で話題の記事",
-        "引用元: yomiuri.co.jp（2026-11-13 16:52）",
-        "「元記事を読む」から本文を確認できます"
-      ],
-      "impact": "ビジネス・経済分野で多くの読者に共有されている注目記事です。",
-      "tags": [
-        "ビジネス・経済",
-        "yomiuri.co.jp"
-      ],
-      "url": "https://www.yomiuri.co.jp/world/20261113-GYT1T00148/",
-      "isAiEnriched": false
-    },
-    {
-      "category": "domestic",
-      "title": "多文化共生「重要だと思わない」７倍に　岐阜県がアンケート：中日新聞Web",
-      "source": "chunichi.co.jp",
-      "publishedAt": "2026-11-13 18:53",
-      "publishedTs": 1794563623,
-      "image": "https://static.chunichi.co.jp/image/article/size1/d/8/1/a/d81a8773f37bf0bd2cb6a3cd5868cdb1_1.jpg",
-      "summary": "岐阜県は12日、外国人に関連する施策を話し合う本部員会議を県庁で開き、多文化共生について県民らから募ったアンケート結果を公表した。「多文化共生社会を目指すことについてどう思うか」という質問には、「重要だと思わない」という答えが前回アンケートから約7倍に増えた。",
-      "points": [
-        "カテゴリ: 国内・総合で話題の記事",
-        "引用元: chunichi.co.jp（2026-11-13 18:53）",
-        "「元記事を読む」から本文を確認できます"
-      ],
-      "impact": "国内・総合分野で多くの読者に共有されている注目記事です。",
-      "tags": [
-        "国内・総合",
-        "chunichi.co.jp"
-      ],
-      "url": "https://www.chunichi.co.jp/article/1338916",
-      "isAiEnriched": false
-    },
-    {
-      "category": "tech",
-      "title": "総務省が新しい無料オンライン講座「統計解析プログラミング」を1月に開講　Pythonでのデータ分析が4週間で学べる",
-      "source": "atmarkit.itmedia.co.jp",
-      "publishedAt": "2026-11-13 09:15",
-      "publishedTs": 1794528926,
-      "image": "https://image.itmedia.co.jp/ait/articles/2611/13/cover_news013.jpg",
-      "summary": "連載目次 総務省は2026年11月10日、データサイエンス・オンライン講座の新講座「“わかる・使える”統計解析プログラミング」の受講者募集を開始した。開講は2027年1月12日（火）で、3月16日（火）まで。オンライン学習サービス「gacco（ガッコ）」で受講登録でき、登録料・受講料は無料だ。受講登録の期限…",
-      "points": [
-        "カテゴリ: テクノロジー・AIで話題の記事",
-        "引用元: atmarkit.itmedia.co.jp（2026-11-13 09:15）",
-        "「元記事を読む」から本文を確認できます"
-      ],
-      "impact": "テクノロジー・AI分野で多くの読者に共有されている注目記事です。",
-      "tags": [
-        "テクノロジー・AI",
-        "atmarkit.itmedia.co.jp"
-      ],
-      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2611/13/news013.html",
+      "url": "https://joisino.hatenablog.com/entry/searchrecbook",
       "isAiEnriched": false
     },
     {
