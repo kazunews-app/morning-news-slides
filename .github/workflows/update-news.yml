@@ -1,9 +1,9 @@
-name: Update Morning News Slides
+name: Update Trend News
 
 on:
   schedule:
-    # 毎日 朝 6:00 JST (UTC 21:00)
-    - cron: '0 21 * * *'
+    # 1時間ごとに自動更新（毎時05分）
+    - cron: '5 * * * *'
   workflow_dispatch:
 
 permissions:
@@ -34,6 +34,6 @@ jobs:
           if git diff --staged --quiet; then
             echo "No changes to commit."
           else
-            git commit -m "chore: update morning news slides"
+            git commit -m "chore: update trend news"
             git push
           fi

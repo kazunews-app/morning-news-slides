@@ -1,43 +1,38 @@
 (() => {
-  const AUTOPLAY_INTERVAL_MS = 8000;
-
   const CATEGORY_META = {
-    domestic: { label: "国内・総合", icon: "🇯🇵" },
-    tech: { label: "テクノロジー・AI", icon: "🤖" },
-    business: { label: "ビジネス・経済", icon: "📈" },
+    domestic: { label: "国内・総合", icon: "🇯🇵", fallbackImg: "assets/images/news-1.jpg" },
+    tech: { label: "テクノロジー・AI", icon: "🤖", fallbackImg: "assets/images/news-3.jpg" },
+    business: { label: "ビジネス・経済", icon: "📈", fallbackImg: "assets/images/news-5.jpg" },
   };
 
   const state = {
-    rawData: window.NEWS_DATA || { date: "--", updatedAt: "--", items: [] },
+    data: window.NEWS_DATA || { date: "--", updatedAt: "--", keywords: [], items: [] },
     category: "all",
-    slides: [],
-    currentIndex: 0,
-    isAutoplaying: false,
-    autoplayTimer: null,
-    autoplayStart: 0,
-    autoplayRaf: null,
+    query: "",
   };
 
-  // DOM Elements
-  const elHeaderDate = document.getElementById("header-date");
-  const elSlideContainer = document.getElementById("slide-container");
-  const elProgressFill = document.getElementById("progress-fill");
-  const elAutoplayTrack = document.getElementById("autoplay-track");
-  const elAutoplayFill = document.getElementById("autoplay-fill");
-  const elCurrentIndex = document.getElementById("current-index");
-  const elTotalSlides = document.getElementById("total-slides");
-  const elBtnPrev = document.getElementById("btn-prev");
-  const elBtnNext = document.getElementById("btn-next");
-  const elBtnAutoplay = document.getElementById("btn-autoplay");
-  const elAutoplayLabel = document.getElementById("autoplay-label");
+  // DOM
+  const elHeaderUpdated = document.getElementById("header-updated");
+  const elSearchInput = document.getElementById("search-input");
+  const elSearchClear = document.getElementById("search-clear");
+  const elBtnRefresh = document.getElementById("btn-refresh");
   const elBtnTheme = document.getElementById("btn-theme");
-  const elBtnFullscreen = document.getElementById("btn-fullscreen");
-  const elBtnOverview = document.getElementById("btn-overview");
-  const elOverviewModal = document.getElementById("overview-modal");
-  const elOverviewBackdrop = document.getElementById("overview-backdrop");
-  const elBtnCloseOverview = document.getElementById("btn-close-overview");
-  const elOverviewGrid = document.getElementById("overview-grid");
-  const filterButtons = document.querySelectorAll(".filter-btn");
+  const elBrandReset = document.getElementById("brand-reset");
+  const elTrendingTags = document.getElementById("trending-tags");
+  const elFilterStatus = document.getElementById("filter-status");
+  const elFilterStatusText = document.getElementById("filter-status-text");
+  const elBtnClearFilter = document.getElementById("btn-clear-filter");
+  const elHeroSection = document.getElementById("hero-section");
+  const elHeroLead = document.getElementById("hero-lead");
+  const elHeroSideList = document.getElementById("hero-side-list");
+  const elFeedHeading = document.getElementById("feed-heading");
+  const elFeedCount = document.getElementById("feed-count");
+  const elNewsGrid = document.getElementById("news-grid");
+  const elModal = document.getElementById("article-modal");
+  const elModalBackdrop = document.getElementById("modal-backdrop");
+  const elModalClose = document.getElementById("modal-close");
+  const elModalContent = document.getElementById("modal-content");
+  const navTabs = document.querySelectorAll(".nav-tab");
 
   function escapeHtml(str) {
     return String(str ?? "")
@@ -48,310 +43,328 @@
       .replace(/'/g, "&#39;");
   }
 
-  function buildSlides() {
-    const items = state.rawData.items || [];
-    const filtered =
-      state.category === "all"
-        ? items
-        : items.filter((item) => item.category === state.category);
-
-    const slides = [];
-
-    // 1. Cover Slide
-    slides.push({
-      type: "cover",
-      title: state.rawData.title || "今日のトレンドニュース",
-      date: state.rawData.date || "--",
-      updatedAt: state.rawData.updatedAt || "--",
-      count: filtered.length,
-      keywords: state.rawData.keywords || [],
-    });
-
-    // 2. News Slides
-    filtered.forEach((item) => {
-      slides.push({
-        type: "news",
-        ...item,
-      });
-    });
-
-    // 3. Summary Slide
-    slides.push({
-      type: "summary",
-      items: filtered,
-    });
-
-    state.slides = slides;
-    if (state.currentIndex >= slides.length) {
-      state.currentIndex = 0;
-    }
+  function getCategoryMeta(cat) {
+    return CATEGORY_META[cat] || { label: "ニュース", icon: "📰", fallbackImg: "assets/images/news-1.jpg" };
   }
 
-  function renderSlide() {
-    const slide = state.slides[state.currentIndex];
-    const total = state.slides.length;
-
-    elCurrentIndex.textContent = state.currentIndex + 1;
-    elTotalSlides.textContent = total;
-    elProgressFill.style.width = `${((state.currentIndex + 1) / total) * 100}%`;
-
-    elBtnPrev.disabled = state.currentIndex === 0;
-    elBtnNext.disabled = state.currentIndex === total - 1;
-
-    if (!slide) {
-      elSlideContainer.innerHTML = `<div class="slide-card"><p>ニュースデータが見つかりません。</p></div>`;
-      return;
+  function getFallbackImage(item, index = 0) {
+    if (item.category === "domestic") {
+      return index % 2 === 0 ? "assets/images/news-1.jpg" : "assets/images/news-2.jpg";
     }
-
-    if (slide.type === "cover") {
-      const tagsHtml = (slide.keywords || [])
-        .map((kw) => `<span class="cover-tag"># ${escapeHtml(kw)}</span>`)
-        .join("");
-
-      elSlideContainer.innerHTML = `
-        <section class="slide-card slide-cover">
-          <div class="cover-greeting">☀️ おはようございます ・ ${escapeHtml(slide.date)}</div>
-          <h1 class="cover-title">${escapeHtml(slide.title)}</h1>
-          <p class="cover-subtitle">
-            今朝押さえておきたい重要トピック <strong>${slide.count}件</strong> をスライド形式でまとめました。
-            （最終更新: ${escapeHtml(slide.updatedAt)}）
-          </p>
-          ${tagsHtml ? `<div class="cover-tags">${tagsHtml}</div>` : ""}
-          <button class="cover-cta" id="cover-start-btn">
-            <span>スライドを始める</span>
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-              <line x1="5" y1="12" x2="19" y2="12"></line>
-              <polyline points="12 5 19 12 12 19"></polyline>
-            </svg>
-          </button>
-        </section>
-      `;
-
-      const startBtn = document.getElementById("cover-start-btn");
-      if (startBtn) {
-        startBtn.addEventListener("click", () => goToSlide(1));
-      }
-      return;
+    if (item.category === "tech") {
+      return index % 2 === 0 ? "assets/images/news-3.jpg" : "assets/images/news-4.jpg";
     }
+    return index % 2 === 0 ? "assets/images/news-5.jpg" : "assets/images/news-6.jpg";
+  }
 
-    if (slide.type === "summary") {
-      const itemsHtml = slide.items
-        .map((item, idx) => {
-          const meta = CATEGORY_META[item.category] || { label: "ニュース", icon: "📰" };
-          return `
-            <button class="summary-item" data-target-index="${idx + 1}">
-              <div class="summary-item-cat">${meta.icon} ${escapeHtml(meta.label)}</div>
-              <div class="summary-item-title">${escapeHtml(item.title)}</div>
-            </button>
-          `;
-        })
-        .join("");
+  function formatRelativeTime(item) {
+    if (item.publishedTs) {
+      const diffSec = Math.max(0, Math.floor(Date.now() / 1000) - item.publishedTs);
+      if (diffSec < 60) return "たった今";
+      if (diffSec < 3600) return `${Math.floor(diffSec / 60)}分前`;
+      if (diffSec < 86400) return `${Math.floor(diffSec / 3600)}時間前`;
+      return `${Math.floor(diffSec / 86400)}日前`;
+    }
+    return item.publishedAt || "";
+  }
 
-      elSlideContainer.innerHTML = `
-        <section class="slide-card">
-          <div>
-            <div class="slide-meta">
-              <span class="category-badge tech">✨ 本日のまとめ</span>
-              <span class="slide-number-pill">${state.currentIndex + 1} / ${total}</span>
-            </div>
-            <h2 class="news-title" style="margin-top: 16px;">今朝のトピック振り返り</h2>
-            <p class="news-lead" style="margin-top: 8px;">気になるニュースをクリックすると該当スライドへ戻れます。</p>
-          </div>
-          <div class="summary-list">
-            ${itemsHtml || "<p>該当するニュースはありません。</p>"}
-          </div>
-          <div class="slide-footer">
-            <span class="slide-source">今日も良い一日をお過ごしください！</span>
-            <button class="nav-btn" id="summary-restart-btn">最初から見直す ↺</button>
-          </div>
-        </section>
-      `;
+  function updateCounts() {
+    const items = state.data.items || [];
+    const counts = { all: items.length, domestic: 0, tech: 0, business: 0 };
+    items.forEach((it) => {
+      if (counts[it.category] !== undefined) counts[it.category] += 1;
+    });
+    document.getElementById("count-all").textContent = counts.all;
+    document.getElementById("count-domestic").textContent = counts.domestic;
+    document.getElementById("count-tech").textContent = counts.tech;
+    document.getElementById("count-business").textContent = counts.business;
+  }
 
-      document.querySelectorAll(".summary-item").forEach((btn) => {
-        btn.addEventListener("click", () => {
-          const idx = Number(btn.getAttribute("data-target-index"));
-          goToSlide(idx);
-        });
+  function renderTrending() {
+    const keywords = state.data.keywords || [];
+    elTrendingTags.innerHTML = keywords
+      .map((kw) => {
+        const active = state.query.toLowerCase() === kw.toLowerCase() ? "active" : "";
+        return `<button type="button" class="trending-chip ${active}" data-kw="${escapeHtml(kw)}"># ${escapeHtml(kw)}</button>`;
+      })
+      .join("");
+
+    elTrendingTags.querySelectorAll(".trending-chip").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        const kw = btn.getAttribute("data-kw");
+        if (state.query === kw) {
+          setQuery("");
+        } else {
+          setQuery(kw);
+        }
       });
-      const restartBtn = document.getElementById("summary-restart-btn");
-      if (restartBtn) {
-        restartBtn.addEventListener("click", () => goToSlide(0));
+    });
+  }
+
+  function getFilteredItems() {
+    const items = state.data.items || [];
+    const q = state.query.trim().toLowerCase();
+    return items.filter((item) => {
+      if (state.category !== "all" && item.category !== state.category) {
+        return false;
       }
-      return;
-    }
+      if (!q) return true;
+      const haystack = [
+        item.title,
+        item.summary,
+        item.source,
+        item.impact,
+        ...(item.tags || []),
+        ...(item.points || []),
+      ]
+        .join(" ")
+        .toLowerCase();
+      return haystack.includes(q);
+    });
+  }
 
-    // News Slide
-    const meta = CATEGORY_META[slide.category] || { label: "ニュース", icon: "📰" };
-    const pointsHtml = (slide.points || [])
-      .map((pt) => `<li>${escapeHtml(pt)}</li>`)
-      .join("");
-    const tagsHtml = (slide.tags || [])
-      .map((tag) => `<span class="slide-tag">#${escapeHtml(tag)}</span>`)
-      .join("");
-    const linkHtml = slide.url
-      ? `<a class="source-link" href="${escapeHtml(slide.url)}" target="_blank" rel="noopener noreferrer">元記事・詳細を読む ↗</a>`
-      : `<span class="slide-source">出典: ${escapeHtml(slide.source || "ニュースまとめ")}</span>`;
+  function renderHero(items) {
+    const lead = items[0];
+    const sideItems = items.slice(1, 5);
+    const leadMeta = getCategoryMeta(lead.category);
+    const leadImg = lead.image || getFallbackImage(lead, 0);
+    const leadFallback = getFallbackImage(lead, 0);
 
-    const fallbackImageByCat = {
-      domestic: "assets/images/news-1.jpg",
-      tech: "assets/images/news-3.jpg",
-      business: "assets/images/news-5.jpg",
-    };
-    const imageSrc = slide.image || fallbackImageByCat[slide.category] || "";
-    const mediaHtml = imageSrc
-      ? `<div class="news-media"><img src="${escapeHtml(imageSrc)}" alt="${escapeHtml(slide.title)}" loading="lazy" onerror="this.parentElement.style.display='none'" /></div>`
-      : "";
-
-    elSlideContainer.innerHTML = `
-      <article class="slide-card">
-        <div class="slide-meta">
-          <div class="meta-left">
-            <span class="category-badge ${escapeHtml(slide.category)}">${meta.icon} ${escapeHtml(meta.label)}</span>
-            <span class="slide-source">${escapeHtml(slide.source || "")}${slide.publishedAt ? ` ・ ${escapeHtml(slide.publishedAt)}` : ""}</span>
-          </div>
-          <span class="slide-number-pill">${state.currentIndex + 1} / ${total}</span>
+    elHeroLead.innerHTML = `
+      <article class="hero-card" data-article-idx="${lead._idx}">
+        <div class="hero-image-wrap">
+          <img src="${escapeHtml(leadImg)}" alt="${escapeHtml(lead.title)}" onerror="this.onerror=null;this.src='${escapeHtml(leadFallback)}'" />
+          <span class="hero-top-badge">TOP PICKUP</span>
         </div>
-
-        <div class="slide-body">
-          <div class="news-hero">
-            <div class="news-hero-text">
-              <h2 class="news-title">${escapeHtml(slide.title)}</h2>
-              <p class="news-lead">${escapeHtml(slide.summary)}</p>
-            </div>
-            ${mediaHtml}
+        <div class="hero-body">
+          <div class="meta-row">
+            <span class="cat-pill ${escapeHtml(lead.category)}">${leadMeta.icon} ${escapeHtml(leadMeta.label)}</span>
+            <span>${escapeHtml(lead.source || "")}</span>
+            <span>•</span>
+            <span>${escapeHtml(formatRelativeTime(lead))}</span>
           </div>
-
-          <div class="points-grid">
-            <div class="points-box">
-              <div class="box-heading">📌 3つのポイント</div>
-              <ul class="points-list">${pointsHtml}</ul>
-            </div>
-            <div class="impact-box">
-              <div class="box-heading">💡 ここが注目・影響</div>
-              <p class="impact-text">${escapeHtml(slide.impact || "今後の動向に注目が集まっています。")}</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="slide-footer">
-          ${linkHtml}
-          <div class="slide-tags">${tagsHtml}</div>
+          <h1 class="hero-title">${escapeHtml(lead.title)}</h1>
+          <p class="hero-summary">${escapeHtml(lead.summary)}</p>
         </div>
       </article>
     `;
-  }
 
-  function goToSlide(index) {
-    const max = state.slides.length - 1;
-    state.currentIndex = Math.max(0, Math.min(index, max));
-    renderSlide();
-    if (state.isAutoplaying) {
-      resetAutoplayCycle();
-    }
-  }
-
-  function nextSlide() {
-    if (state.currentIndex < state.slides.length - 1) {
-      goToSlide(state.currentIndex + 1);
-    } else if (state.isAutoplaying) {
-      goToSlide(0);
-    }
-  }
-
-  function prevSlide() {
-    if (state.currentIndex > 0) {
-      goToSlide(state.currentIndex - 1);
-    }
-  }
-
-  // Autoplay
-  function startAutoplay() {
-    state.isAutoplaying = true;
-    elBtnAutoplay.classList.add("playing");
-    elAutoplayLabel.textContent = "再生中";
-    elAutoplayTrack.classList.add("active");
-    resetAutoplayCycle();
-  }
-
-  function stopAutoplay() {
-    state.isAutoplaying = false;
-    elBtnAutoplay.classList.remove("playing");
-    elAutoplayLabel.textContent = "自動再生";
-    elAutoplayTrack.classList.remove("active");
-    elAutoplayFill.style.width = "0%";
-    clearTimeout(state.autoplayTimer);
-    cancelAnimationFrame(state.autoplayRaf);
-  }
-
-  function resetAutoplayCycle() {
-    clearTimeout(state.autoplayTimer);
-    cancelAnimationFrame(state.autoplayRaf);
-    state.autoplayStart = performance.now();
-
-    const tick = (now) => {
-      if (!state.isAutoplaying) return;
-      const elapsed = now - state.autoplayStart;
-      const pct = Math.min(100, (elapsed / AUTOPLAY_INTERVAL_MS) * 100);
-      elAutoplayFill.style.width = `${pct}%`;
-      if (elapsed < AUTOPLAY_INTERVAL_MS) {
-        state.autoplayRaf = requestAnimationFrame(tick);
-      }
-    };
-    state.autoplayRaf = requestAnimationFrame(tick);
-
-    state.autoplayTimer = setTimeout(() => {
-      nextSlide();
-    }, AUTOPLAY_INTERVAL_MS);
-  }
-
-  function toggleAutoplay() {
-    if (state.isAutoplaying) {
-      stopAutoplay();
-    } else {
-      startAutoplay();
-    }
-  }
-
-  // Overview Modal
-  function openOverview() {
-    elOverviewGrid.innerHTML = state.slides
-      .map((s, idx) => {
-        let label = "表紙";
-        let title = s.title || "Morning Briefing";
-        if (s.type === "news") {
-          const meta = CATEGORY_META[s.category] || { label: "ニュース", icon: "📰" };
-          label = `${meta.icon} ${meta.label}`;
-        } else if (s.type === "summary") {
-          label = "✨ まとめ";
-          title = "今朝のトピック振り返り";
-        }
+    elHeroSideList.innerHTML = sideItems
+      .map((item, i) => {
+        const meta = getCategoryMeta(item.category);
+        const img = item.image || getFallbackImage(item, i + 1);
+        const fb = getFallbackImage(item, i + 1);
         return `
-          <button class="overview-card ${idx === state.currentIndex ? "current" : ""}" data-idx="${idx}">
-            <span class="overview-card-num">Slide ${idx + 1} ・ ${escapeHtml(label)}</span>
-            <span class="overview-card-title">${escapeHtml(title)}</span>
+          <button type="button" class="side-item" data-article-idx="${item._idx}">
+            <img class="side-thumb" src="${escapeHtml(img)}" alt="" loading="lazy" onerror="this.onerror=null;this.src='${escapeHtml(fb)}'" />
+            <div class="side-item-body">
+              <div class="meta-row">
+                <span class="cat-pill ${escapeHtml(item.category)}">${meta.icon} ${escapeHtml(meta.label)}</span>
+                <span>${escapeHtml(formatRelativeTime(item))}</span>
+              </div>
+              <div class="side-item-title">${escapeHtml(item.title)}</div>
+            </div>
           </button>
         `;
       })
       .join("");
-
-    elOverviewGrid.querySelectorAll(".overview-card").forEach((card) => {
-      card.addEventListener("click", () => {
-        const idx = Number(card.getAttribute("data-idx"));
-        closeOverview();
-        goToSlide(idx);
-      });
-    });
-
-    elOverviewModal.hidden = false;
   }
 
-  function closeOverview() {
-    elOverviewModal.hidden = true;
+  function renderFeed() {
+    const allWithIdx = (state.data.items || []).map((item, idx) => ({ ...item, _idx: idx }));
+    const q = state.query.trim();
+
+    if (q) {
+      elFilterStatus.hidden = false;
+      elFilterStatusText.textContent = `「${q}」の検索結果`;
+    } else {
+      elFilterStatus.hidden = true;
+    }
+
+    const filtered = allWithIdx.filter((item) => {
+      if (state.category !== "all" && item.category !== state.category) return false;
+      if (!q) return true;
+      const qLower = q.toLowerCase();
+      const haystack = [
+        item.title,
+        item.summary,
+        item.source,
+        item.impact,
+        ...(item.tags || []),
+        ...(item.points || []),
+      ]
+        .join(" ")
+        .toLowerCase();
+      return haystack.includes(qLower);
+    });
+
+    const isTopOverview = state.category === "all" && !q && filtered.length >= 5;
+    let gridItems = filtered;
+
+    if (isTopOverview) {
+      elHeroSection.hidden = false;
+      renderHero(filtered);
+      gridItems = filtered.slice(5);
+      elFeedHeading.textContent = "最新ニュース一覧";
+    } else {
+      elHeroSection.hidden = true;
+      const meta = getCategoryMeta(state.category);
+      elFeedHeading.textContent =
+        state.category === "all" ? "検索結果" : `${meta.icon} ${meta.label}のニュース`;
+    }
+
+    elFeedCount.textContent = `${filtered.length}件の記事`;
+
+    if (gridItems.length === 0 && !isTopOverview) {
+      elNewsGrid.innerHTML = `
+        <div class="empty-state">
+          <p>条件に一致するニュースが見つかりませんでした。</p>
+        </div>
+      `;
+    } else {
+      elNewsGrid.innerHTML = gridItems
+        .map((item, i) => {
+          const meta = getCategoryMeta(item.category);
+          const img = item.image || getFallbackImage(item, i);
+          const fb = getFallbackImage(item, i);
+          const tagsHtml = (item.tags || [])
+            .slice(0, 3)
+            .map((t) => `<span class="tag-chip">#${escapeHtml(t)}</span>`)
+            .join("");
+
+          return `
+            <article class="news-card" data-article-idx="${item._idx}">
+              <div class="card-thumb-wrap">
+                <img src="${escapeHtml(img)}" alt="${escapeHtml(item.title)}" loading="lazy" onerror="this.onerror=null;this.src='${escapeHtml(fb)}'" />
+              </div>
+              <div class="card-body">
+                <div class="meta-row">
+                  <span class="cat-pill ${escapeHtml(item.category)}">${meta.icon} ${escapeHtml(meta.label)}</span>
+                  <span>${escapeHtml(item.source || "")}</span>
+                  <span>•</span>
+                  <span>${escapeHtml(formatRelativeTime(item))}</span>
+                </div>
+                <h3 class="card-title">${escapeHtml(item.title)}</h3>
+                <p class="card-summary">${escapeHtml(item.summary)}</p>
+                <div class="card-tags">${tagsHtml}</div>
+              </div>
+            </article>
+          `;
+        })
+        .join("");
+    }
+
+    // Bind click handlers for articles
+    document.querySelectorAll("[data-article-idx]").forEach((el) => {
+      el.addEventListener("click", () => {
+        const idx = Number(el.getAttribute("data-article-idx"));
+        openArticleModal(idx);
+      });
+    });
+  }
+
+  function openArticleModal(idx) {
+    const item = (state.data.items || [])[idx];
+    if (!item) return;
+
+    const meta = getCategoryMeta(item.category);
+    const img = item.image || getFallbackImage(item, idx);
+    const fb = getFallbackImage(item, idx);
+    const pointsHtml = (item.points || [])
+      .map((pt) => `<li>${escapeHtml(pt)}</li>`)
+      .join("");
+    const tagsHtml = (item.tags || [])
+      .map((t) => `<span class="tag-chip">#${escapeHtml(t)}</span>`)
+      .join("");
+
+    elModalContent.innerHTML = `
+      <img class="modal-hero-img" src="${escapeHtml(img)}" alt="${escapeHtml(item.title)}" onerror="this.onerror=null;this.src='${escapeHtml(fb)}'" />
+      <div class="modal-body">
+        <div class="meta-row">
+          <span class="cat-pill ${escapeHtml(item.category)}">${meta.icon} ${escapeHtml(meta.label)}</span>
+          <span>${escapeHtml(item.source || "")}</span>
+          <span>•</span>
+          <span>${escapeHtml(item.publishedAt || formatRelativeTime(item))}</span>
+        </div>
+        <h2 class="modal-title" id="modal-title">${escapeHtml(item.title)}</h2>
+        <p class="modal-lead">${escapeHtml(item.summary)}</p>
+
+        ${
+          pointsHtml
+            ? `<div class="modal-box">
+                <h3>📌 3つの要点</h3>
+                <ul class="modal-points">${pointsHtml}</ul>
+              </div>`
+            : ""
+        }
+
+        ${
+          item.impact
+            ? `<div class="modal-box">
+                <h3>💡 注目ポイント・影響</h3>
+                <p class="modal-impact">${escapeHtml(item.impact)}</p>
+              </div>`
+            : ""
+        }
+
+        <div class="modal-actions">
+          <div style="display:flex;gap:6px;flex-wrap:wrap;">${tagsHtml}</div>
+          ${
+            item.url
+              ? `<a class="read-original-btn" href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">元記事を読む ↗</a>`
+              : ""
+          }
+        </div>
+      </div>
+    `;
+
+    elModal.hidden = false;
+    document.body.style.overflow = "hidden";
+  }
+
+  function closeModal() {
+    elModal.hidden = true;
+    document.body.style.overflow = "";
+  }
+
+  function setQuery(q) {
+    state.query = q;
+    elSearchInput.value = q;
+    elSearchClear.hidden = !q;
+    renderTrending();
+    renderFeed();
+  }
+
+  function setCategory(cat) {
+    state.category = cat;
+    navTabs.forEach((tab) => {
+      tab.classList.toggle("active", tab.getAttribute("data-category") === cat);
+    });
+    renderFeed();
+  }
+
+  function reloadNewsData() {
+    elBtnRefresh.classList.add("spinning");
+    const script = document.createElement("script");
+    script.src = `data/news.js?t=${Date.now()}`;
+    script.onload = () => {
+      elBtnRefresh.classList.remove("spinning");
+      if (window.NEWS_DATA) {
+        state.data = window.NEWS_DATA;
+        renderAll();
+      }
+      script.remove();
+    };
+    script.onerror = () => {
+      elBtnRefresh.classList.remove("spinning");
+      script.remove();
+    };
+    document.body.appendChild(script);
   }
 
   // Theme
   function initTheme() {
-    const saved = localStorage.getItem("morning-news-theme");
+    const saved = localStorage.getItem("trend-news-theme") || localStorage.getItem("morning-news-theme");
     if (saved === "dark" || saved === "light") {
       document.documentElement.setAttribute("data-theme", saved);
     } else if (window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches) {
@@ -363,83 +376,52 @@
     const current = document.documentElement.getAttribute("data-theme") || "light";
     const next = current === "light" ? "dark" : "light";
     document.documentElement.setAttribute("data-theme", next);
-    localStorage.setItem("morning-news-theme", next);
+    localStorage.setItem("trend-news-theme", next);
   }
 
-  function toggleFullscreen() {
-    if (!document.fullscreenElement) {
-      document.documentElement.requestFullscreen?.();
-    } else {
-      document.exitFullscreen?.();
-    }
+  function renderAll() {
+    elHeaderUpdated.textContent = `更新: ${state.data.updatedAt || state.data.date || "--"}`;
+    updateCounts();
+    renderTrending();
+    renderFeed();
   }
 
   // Events
-  elBtnPrev.addEventListener("click", prevSlide);
-  elBtnNext.addEventListener("click", nextSlide);
-  elBtnAutoplay.addEventListener("click", toggleAutoplay);
-  elBtnTheme.addEventListener("click", toggleTheme);
-  elBtnFullscreen.addEventListener("click", toggleFullscreen);
-  elBtnOverview.addEventListener("click", openOverview);
-  elBtnCloseOverview.addEventListener("click", closeOverview);
-  elOverviewBackdrop.addEventListener("click", closeOverview);
-
-  filterButtons.forEach((btn) => {
-    btn.addEventListener("click", () => {
-      filterButtons.forEach((b) => b.classList.remove("active"));
-      btn.classList.add("active");
-      state.category = btn.getAttribute("data-category");
-      state.currentIndex = 0;
-      buildSlides();
-      renderSlide();
-      if (state.isAutoplaying) resetAutoplayCycle();
+  navTabs.forEach((tab) => {
+    tab.addEventListener("click", () => {
+      setCategory(tab.getAttribute("data-category"));
+      window.scrollTo({ top: 0, behavior: "smooth" });
     });
   });
 
-  document.addEventListener("keydown", (e) => {
-    if (!elOverviewModal.hidden) {
-      if (e.key === "Escape") closeOverview();
-      return;
-    }
-    if (e.key === "ArrowRight" || e.key === " ") {
-      e.preventDefault();
-      nextSlide();
-    } else if (e.key === "ArrowLeft") {
-      e.preventDefault();
-      prevSlide();
-    } else if (e.key.toLowerCase() === "p") {
-      toggleAutoplay();
-    } else if (e.key.toLowerCase() === "o") {
-      openOverview();
-    } else if (e.key.toLowerCase() === "f") {
-      toggleFullscreen();
-    }
+  elSearchInput.addEventListener("input", (e) => {
+    state.query = e.target.value;
+    elSearchClear.hidden = !state.query;
+    renderTrending();
+    renderFeed();
   });
 
-  // Touch Swipe
-  let touchStartX = 0;
-  elSlideContainer.addEventListener(
-    "touchstart",
-    (e) => {
-      touchStartX = e.changedTouches[0].screenX;
-    },
-    { passive: true }
-  );
-  elSlideContainer.addEventListener(
-    "touchend",
-    (e) => {
-      const diff = e.changedTouches[0].screenX - touchStartX;
-      if (Math.abs(diff) > 50) {
-        if (diff < 0) nextSlide();
-        else prevSlide();
-      }
-    },
-    { passive: true }
-  );
+  elSearchClear.addEventListener("click", () => setQuery(""));
+  elBtnClearFilter.addEventListener("click", () => {
+    setCategory("all");
+    setQuery("");
+  });
+  elBrandReset.addEventListener("click", (e) => {
+    e.preventDefault();
+    setCategory("all");
+    setQuery("");
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
+
+  elBtnRefresh.addEventListener("click", reloadNewsData);
+  elBtnTheme.addEventListener("click", toggleTheme);
+  elModalClose.addEventListener("click", closeModal);
+  elModalBackdrop.addEventListener("click", closeModal);
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape" && !elModal.hidden) closeModal();
+  });
 
   // Init
   initTheme();
-  elHeaderDate.textContent = state.rawData.date || "--";
-  buildSlides();
-  renderSlide();
+  renderAll();
 })();
