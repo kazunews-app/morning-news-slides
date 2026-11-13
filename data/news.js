@@ -1,6 +1,6 @@
 window.NEWS_DATA = {
   "date": "2026年11月14日 (土)",
-  "updatedAt": "2026-11-14 01:32",
+  "updatedAt": "2026-11-14 02:28",
   "title": "TREND NEWS",
   "keywords": [
     "自衛官の給与引き上げ法が成…",
@@ -454,69 +454,6 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "陸自情報部隊が市民の思想傾向から性的嗜好・借金まで情報収集――この問題をうやむやにしてはならない理由（布施祐仁） - エキスパート - Yahoo!ニュース",
-      "source": "news.yahoo.co.jp",
-      "publishedAt": "2026-11-13 15:36",
-      "publishedTs": 1794551794,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/iwiz-yn/creators/10025129/02765117/title-1794548364246.jpeg?exp=10800",
-      "summary": "陸上自衛隊の情報部隊「現地情報隊」が市民らの極めてプライベートな個人情報を同意なく収集していた問題が発覚してから、3カ月以上が経過した。 7月23日に熊本日日新聞がスクープし、その後、Tansa、しんぶん赤旗、沖縄タイムス、朝日新聞、毎日新聞、共同通信が相次いで報じた。 私もこのたび、現地情報隊の内部文書を…",
-      "points": [
-        "カテゴリ: 国内・総合で話題の記事",
-        "引用元: news.yahoo.co.jp（2026-11-13 15:36）",
-        "「元記事を読む」から本文を確認できます"
-      ],
-      "impact": "国内・総合分野で多くの読者に共有されている注目記事です。",
-      "tags": [
-        "国内・総合",
-        "news.yahoo.co.jp"
-      ],
-      "url": "https://news.yahoo.co.jp/expert/articles/22288f9c3235b599aafa56145434028503ed9e04",
-      "isAiEnriched": false
-    },
-    {
-      "category": "tech",
-      "title": "ぼくのClaude Codeの使い方",
-      "source": "speakerdeck.com",
-      "publishedAt": "2026-11-13 00:11",
-      "publishedTs": 1794496312,
-      "image": "https://files.speakerdeck.com/presentations/9c2451b8b99f4a269ce6f420bc0480ae/slide_0.jpg?41338374",
-      "summary": "Sapporo Claude Code Meetup LT, 2026/11/12…",
-      "points": [
-        "カテゴリ: テクノロジー・AIで話題の記事",
-        "引用元: speakerdeck.com（2026-11-13 00:11）",
-        "「元記事を読む」から本文を確認できます"
-      ],
-      "impact": "テクノロジー・AI分野で多くの読者に共有されている注目記事です。",
-      "tags": [
-        "テクノロジー・AI",
-        "speakerdeck.com"
-      ],
-      "url": "https://speakerdeck.com/falken/boku-no-claude-code-no-tsukaikata",
-      "isAiEnriched": false
-    },
-    {
-      "category": "business",
-      "title": "裁量はある、必要なのは覚悟 - そーだいなるらくがき帳",
-      "source": "soudai.hatenablog.com",
-      "publishedAt": "2026-11-12 23:50",
-      "publishedTs": 1794495023,
-      "image": "https://ogimage.blog.st-hatena.com/10328749687203430916/14729835035337520892/1794494986",
-      "summary": "note.com 飲み友達のkawamuraさんがめちゃ良いことを言ってた。 そこで自分の大事にしていることをメモとして残す。 最後までやりきる覚悟があれば事は為せる 裁量はある。みんな言ってるけど「やります。」という覚悟さえあれば良い。 権限が足りない、はありえる。けどそれは「やりたいので権限をください」…",
-      "points": [
-        "カテゴリ: ビジネス・経済で話題の記事",
-        "引用元: soudai.hatenablog.com（2026-11-12 23:50）",
-        "「元記事を読む」から本文を確認できます"
-      ],
-      "impact": "ビジネス・経済分野で多くの読者に共有されている注目記事です。",
-      "tags": [
-        "ビジネス・経済",
-        "soudai.hatenablog.com"
-      ],
-      "url": "https://soudai.hatenablog.com/entry/2026/11/12/234905",
-      "isAiEnriched": false
-    },
-    {
-      "category": "domestic",
       "title": "「なんで死刑じゃないんだよ」閉廷直後叫ぶ　娘殺害の車いすユーチューバーに拘禁8年判決",
       "source": "sankei.com",
       "publishedAt": "2026-11-13 18:56",
@@ -576,6 +513,69 @@ window.NEWS_DATA = {
         "asahi.com"
       ],
       "url": "https://www.asahi.com/articles/ASVCD30WNVCDUTIL024M.html",
+      "isAiEnriched": false
+    },
+    {
+      "category": "domestic",
+      "title": "陸自情報部隊が市民の思想傾向から性的嗜好・借金まで情報収集――この問題をうやむやにしてはならない理由（布施祐仁） - エキスパート - Yahoo!ニュース",
+      "source": "news.yahoo.co.jp",
+      "publishedAt": "2026-11-13 15:36",
+      "publishedTs": 1794551794,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/iwiz-yn/creators/10025129/02765117/title-1794548364246.jpeg?exp=10800",
+      "summary": "陸上自衛隊の情報部隊「現地情報隊」が市民らの極めてプライベートな個人情報を同意なく収集していた問題が発覚してから、3カ月以上が経過した。 7月23日に熊本日日新聞がスクープし、その後、Tansa、しんぶん赤旗、沖縄タイムス、朝日新聞、毎日新聞、共同通信が相次いで報じた。 私もこのたび、現地情報隊の内部文書を…",
+      "points": [
+        "カテゴリ: 国内・総合で話題の記事",
+        "引用元: news.yahoo.co.jp（2026-11-13 15:36）",
+        "「元記事を読む」から本文を確認できます"
+      ],
+      "impact": "国内・総合分野で多くの読者に共有されている注目記事です。",
+      "tags": [
+        "国内・総合",
+        "news.yahoo.co.jp"
+      ],
+      "url": "https://news.yahoo.co.jp/expert/articles/22288f9c3235b599aafa56145434028503ed9e04",
+      "isAiEnriched": false
+    },
+    {
+      "category": "tech",
+      "title": "ぼくのClaude Codeの使い方",
+      "source": "speakerdeck.com",
+      "publishedAt": "2026-11-13 00:11",
+      "publishedTs": 1794496312,
+      "image": "https://files.speakerdeck.com/presentations/9c2451b8b99f4a269ce6f420bc0480ae/slide_0.jpg?41338374",
+      "summary": "Sapporo Claude Code Meetup LT, 2026/11/12…",
+      "points": [
+        "カテゴリ: テクノロジー・AIで話題の記事",
+        "引用元: speakerdeck.com（2026-11-13 00:11）",
+        "「元記事を読む」から本文を確認できます"
+      ],
+      "impact": "テクノロジー・AI分野で多くの読者に共有されている注目記事です。",
+      "tags": [
+        "テクノロジー・AI",
+        "speakerdeck.com"
+      ],
+      "url": "https://speakerdeck.com/falken/boku-no-claude-code-no-tsukaikata",
+      "isAiEnriched": false
+    },
+    {
+      "category": "business",
+      "title": "裁量はある、必要なのは覚悟 - そーだいなるらくがき帳",
+      "source": "soudai.hatenablog.com",
+      "publishedAt": "2026-11-12 23:50",
+      "publishedTs": 1794495023,
+      "image": "https://ogimage.blog.st-hatena.com/10328749687203430916/14729835035337520892/1794494986",
+      "summary": "note.com 飲み友達のkawamuraさんがめちゃ良いことを言ってた。 そこで自分の大事にしていることをメモとして残す。 最後までやりきる覚悟があれば事は為せる 裁量はある。みんな言ってるけど「やります。」という覚悟さえあれば良い。 権限が足りない、はありえる。けどそれは「やりたいので権限をください」…",
+      "points": [
+        "カテゴリ: ビジネス・経済で話題の記事",
+        "引用元: soudai.hatenablog.com（2026-11-12 23:50）",
+        "「元記事を読む」から本文を確認できます"
+      ],
+      "impact": "ビジネス・経済分野で多くの読者に共有されている注目記事です。",
+      "tags": [
+        "ビジネス・経済",
+        "soudai.hatenablog.com"
+      ],
+      "url": "https://soudai.hatenablog.com/entry/2026/11/12/234905",
       "isAiEnriched": false
     },
     {
