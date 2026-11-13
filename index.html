@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ja" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <meta name="apple-mobile-web-app-title" content="朝のニュース" />
+  <link rel="apple-touch-icon" href="assets/images/news-3.jpg" />
+  <title>Morning Briefing — 毎朝のトレンドニューススライド</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <!-- ヘッダー -->
+    <header class="top-bar">
+      <div class="brand">
+        <span class="brand-icon" aria-hidden="true">☀️</span>
+        <div class="brand-text">
+          <span class="brand-title">Morning Briefing</span>
+          <span class="brand-date" id="header-date">--</span>
+        </div>
+      </div>
+
+      <!-- カテゴリフィルター -->
+      <nav class="category-filter" aria-label="カテゴリフィルター">
+        <button class="filter-btn active" data-category="all">すべて</button>
+        <button class="filter-btn" data-category="domestic">国内・総合</button>
+        <button class="filter-btn" data-category="tech">テクノロジー・AI</button>
+        <button class="filter-btn" data-category="business">ビジネス・経済</button>
+      </nav>
+
+      <!-- 右側アクション -->
+      <div class="top-actions">
+        <button class="icon-btn" id="btn-overview" title="目次一覧 (O)" aria-label="目次一覧">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="3" y="3" width="7" height="7" rx="1"></rect>
+            <rect x="14" y="3" width="7" height="7" rx="1"></rect>
+            <rect x="14" y="14" width="7" height="7" rx="1"></rect>
+            <rect x="3" y="14" width="7" height="7" rx="1"></rect>
+          </svg>
+        </button>
+        <button class="icon-btn" id="btn-theme" title="テーマ切替" aria-label="テーマ切替">
+          <svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+          <svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+        </button>
+        <button class="icon-btn" id="btn-fullscreen" title="フルスクリーン (F)" aria-label="フルスクリーン">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="15 3 21 3 21 9"></polyline>
+            <polyline points="9 21 3 21 3 15"></polyline>
+            <line x1="21" y1="3" x2="14" y2="10"></line>
+            <line x1="3" y1="21" x2="10" y2="14"></line>
+          </svg>
+        </button>
+      </div>
+    </header>
+
+    <!-- メインスライドステージ -->
+    <main class="stage" id="stage" aria-live="polite">
+      <div class="slide-container" id="slide-container">
+        <!-- JSでスライドを描画 -->
+      </div>
+    </main>
+
+    <!-- 下部コントロールバー -->
+    <footer class="control-bar">
+      <div class="progress-wrapper">
+        <div class="progress-track">
+          <div class="progress-fill" id="progress-fill"></div>
+        </div>
+        <div class="autoplay-track" id="autoplay-track">
+          <div class="autoplay-fill" id="autoplay-fill"></div>
+        </div>
+      </div>
+
+      <div class="controls-row">
+        <div class="slide-counter">
+          <span id="current-index">1</span> / <span id="total-slides">1</span>
+        </div>
+
+        <div class="nav-buttons">
+          <button class="nav-btn" id="btn-prev" title="前のスライド (←)" aria-label="前のスライド">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="15 18 9 12 15 6"></polyline>
+            </svg>
+            <span>前へ</span>
+          </button>
+
+          <button class="autoplay-btn" id="btn-autoplay" title="自動再生の切替 (P)" aria-label="自動再生">
+            <svg class="icon-play" width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+              <polygon points="5 3 19 12 5 21 5 3"></polygon>
+            </svg>
+            <svg class="icon-pause" width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+              <rect x="6" y="4" width="4" height="16"></rect>
+              <rect x="14" y="4" width="4" height="16"></rect>
+            </svg>
+            <span id="autoplay-label">自動再生</span>
+          </button>
+
+          <button class="nav-btn primary" id="btn-next" title="次のスライド (→ / Space)" aria-label="次のスライド">
+            <span>次へ</span>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+          </button>
+        </div>
+
+        <div class="keyboard-hints">
+          <span><kbd>←</kbd><kbd>→</kbd> 移動</span>
+          <span><kbd>P</kbd> 自動再生</span>
+          <span><kbd>O</kbd> 一覧</span>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <!-- 目次オーバーレイモーダル -->
+  <div class="overview-modal" id="overview-modal" hidden>
+    <div class="overview-backdrop" id="overview-backdrop"></div>
+    <div class="overview-panel" role="dialog" aria-modal="true" aria-label="スライド一覧">
+      <div class="overview-header">
+        <h2>本日のニュース一覧</h2>
+        <button class="icon-btn" id="btn-close-overview" aria-label="閉じる">✕</button>
+      </div>
+      <div class="overview-grid" id="overview-grid"></div>
+    </div>
+  </div>
+
+  <script src="data/news.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
