@@ -1,6 +1,6 @@
 window.NEWS_DATA = {
   "date": "2026年11月14日 (土)",
-  "updatedAt": "2026-11-14 17:03",
+  "updatedAt": "2026-11-14 17:54",
   "title": "TREND NEWS",
   "keywords": [
     "関東15日は気温急降下 師…",
@@ -307,15 +307,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "ニデック半期報告書 提出延期検討",
+      "title": "職場で電話苦手30代最多? 克服法",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-14 11:03",
-      "publishedTs": 1794621817,
-      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/14/a455f130e2a6b7e127032f5792c6a2275c8cb7663f70c0df938790c1b8cc3b32.jpg",
-      "summary": "不正会計があったモーター大手のニデック（旧日本電産）は14日、2026年4～9月の半期報告書について金融庁への提出の延期を検討していると発表した。会計処理の作業に時間がかかっているためで、法定提出期…",
+      "publishedAt": "2026-11-14 17:23",
+      "publishedTs": 1794644638,
+      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/14/38e31e454426b25144fdc7c8508b78d00c9403226bd7ce9084b0580d92ce609d.jpg",
+      "summary": "職場での電話対応に緊張してしまう、自分からかけるのも躊躇してしまう──。そうした電話に対する苦手意識を抱く人は少なくない。実際にある調査でも、多くの人が電話業務を苦手と感じている実態や、世代ごとの傾…",
       "points": [
         "カテゴリ: ビジネス・経済の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-14 11:03）",
+        "配信: Yahoo!ニュース トピックス（2026-11-14 17:23）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "ビジネス・経済分野で関心を集めている最新ニュースです。",
@@ -323,7 +323,7 @@ window.NEWS_DATA = {
         "ビジネス・経済",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/pickup/6602523?source=rss",
+      "url": "https://news.yahoo.co.jp/pickup/6602565?source=rss",
       "isAiEnriched": false
     },
     {
@@ -370,15 +370,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "「人生初FAX」MS障害で代替手段",
+      "title": "「銀だこ」曲がり角 赤字転落なぜ",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-14 08:03",
-      "publishedTs": 1794611011,
-      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/14/aba4b656d05acebe41f3e9fd416548918af0e1dcb3d56b1a9b4d0c1b196dd1d1.jpg",
-      "summary": "米マイクロソフトのメールサービス「アウトルック」などで日本時間の１３日未明に明らかになった大規模なシステム障害は、多くの企業や官公庁、大学などに影響を与えた。慣れ親しんだサービスが突如として使えなく…",
+      "publishedAt": "2026-11-14 10:28",
+      "publishedTs": 1794619704,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/iwiz-yn/rpr/miwadaisuke/02765414/title-1794581047685.jpeg?exp=10800",
+      "summary": "たこ焼きチェーン「築地銀だこ」を展開するホットランドホールディングスが、赤字に転落しました。11月13日に発表した2026年12月期第3四半期決算は、売上高408億5600万円、営業利益12億1400…",
       "points": [
         "カテゴリ: ビジネス・経済の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-14 08:03）",
+        "配信: Yahoo!ニュース トピックス（2026-11-14 10:28）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "ビジネス・経済分野で関心を集めている最新ニュースです。",
@@ -386,7 +386,7 @@ window.NEWS_DATA = {
         "ビジネス・経済",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/pickup/6602497?source=rss",
+      "url": "https://news.yahoo.co.jp/pickup/6602520?source=rss",
       "isAiEnriched": false
     },
     {
@@ -559,44 +559,44 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "米中ロが史上初の3首脳会談へ　米側が発表　中国深圳で19日開催：朝日新聞",
-      "source": "asahi.com",
-      "publishedAt": "2026-11-14 09:10",
-      "publishedTs": 1794615024,
-      "image": "https://imgopt.asahi.com/ogp/AS20261114000885_comm.jpg",
-      "summary": "米ホワイトハウスは13日、トランプ大統領が中国の習近平（シーチンピン）国家主席、ロシアのプーチン大統領と19日に3首脳で会談すると発表した。米中ロ3カ国による正式な首脳会談は史上初めてとみられる。 …",
+      "title": "高市首相「会議に出たくない」ムーブ被害者たちの困惑国際。国際会議を欠席しまくる総理の言い逃れ乱舞、実は昔から？...（週プレNEWS） - Yahoo!ニュース",
+      "source": "news.yahoo.co.jp",
+      "publishedAt": "2026-11-14 12:44",
+      "publishedTs": 1794627898,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261114-01335390-playboyz-000-1-view.jpg?exp=10800",
+      "summary": "米中露のトップが参加するAPEC（アジア太平洋経済協力会議）首脳会議が11月18日から開催されるが、永田町ではひそかに「首相のドタキャン」が心配されているらしい。【写真】トランプ大統領の前で全力の笑…",
       "points": [
         "カテゴリ: ビジネス・経済で話題の記事",
-        "引用元: asahi.com（2026-11-14 09:10）",
+        "引用元: news.yahoo.co.jp（2026-11-14 12:44）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "ビジネス・経済分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "ビジネス・経済",
-        "asahi.com"
+        "news.yahoo.co.jp"
       ],
-      "url": "https://www.asahi.com/articles/ASVCF7VTGVCFUHBI00PM.html",
+      "url": "https://news.yahoo.co.jp/articles/7244d0a7f5aebc73fd103ca25c98787fb7e35313",
       "isAiEnriched": false
     },
     {
       "category": "domestic",
-      "title": "アメリカ全土の航空機の運航停止を解除 米航空当局 | NHKニュース",
-      "source": "news.web.nhk",
-      "publishedAt": "2026-11-14 06:49",
-      "publishedTs": 1794606572,
-      "image": "https://imgu.web.nhk/news/u/news/nd/kiji/20261114de75764/20261114de75764_E0000174813_1_l.jpg",
-      "summary": "アメリカのダフィー運輸長官は13日、SNSへの投稿で「FAA＝アメリカ連邦航空局は管制センターに影響を及ぼす通信問題を受けて全米で航空機の運航停止を発令した。連邦航空局の技術者が調査を行っている」と明…",
+      "title": "【小泉今日子、山に木を植える】クマ被害きっかけに“どんぐりの木”3000本植樹へ「口で言うだけではダメ」“豊かな森”目指すプロジェクトに密着【news23】 | TBS NEWS DIG",
+      "source": "newsdig.tbs.co.jp",
+      "publishedAt": "2026-11-14 08:22",
+      "publishedTs": 1794612143,
+      "image": "https://newsdig.ismcdn.jp/mwimgs/1/c/1200w/img_1c2150c2a71e46260125d1a5dd7d7c7b1256923.jpg",
+      "summary": "【小泉今日子、山に木を植える】クマ被害きっかけに“どんぐりの木”3000本植樹へ「口で言うだけではダメ」“豊かな森”目指すプロジェクトに密着【news23】…",
       "points": [
         "カテゴリ: 国内・総合で話題の記事",
-        "引用元: news.web.nhk（2026-11-14 06:49）",
+        "引用元: newsdig.tbs.co.jp（2026-11-14 08:22）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "国内・総合分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "国内・総合",
-        "news.web.nhk"
+        "newsdig.tbs.co.jp"
       ],
-      "url": "https://news.web.nhk/newsweb/na/nd-20261114de75764",
+      "url": "https://newsdig.tbs.co.jp/articles/-/3085720",
       "isAiEnriched": false
     },
     {
@@ -622,23 +622,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "高市首相「会議に出たくない」ムーブ被害者たちの困惑国際。国際会議を欠席しまくる総理の言い逃れ乱舞、実は昔から？...（週プレNEWS） - Yahoo!ニュース",
-      "source": "news.yahoo.co.jp",
-      "publishedAt": "2026-11-14 12:44",
-      "publishedTs": 1794627898,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261114-01335390-playboyz-000-1-view.jpg?exp=10800",
-      "summary": "米中露のトップが参加するAPEC（アジア太平洋経済協力会議）首脳会議が11月18日から開催されるが、永田町ではひそかに「首相のドタキャン」が心配されているらしい。【写真】トランプ大統領の前で全力の笑…",
+      "title": "米中ロが史上初の3首脳会談へ　米側が発表　中国深圳で19日開催：朝日新聞",
+      "source": "asahi.com",
+      "publishedAt": "2026-11-14 09:10",
+      "publishedTs": 1794615024,
+      "image": "https://imgopt.asahi.com/ogp/AS20261114000885_comm.jpg",
+      "summary": "米ホワイトハウスは13日、トランプ大統領が中国の習近平（シーチンピン）国家主席、ロシアのプーチン大統領と19日に3首脳で会談すると発表した。米中ロ3カ国による正式な首脳会談は史上初めてとみられる。 …",
       "points": [
         "カテゴリ: ビジネス・経済で話題の記事",
-        "引用元: news.yahoo.co.jp（2026-11-14 12:44）",
+        "引用元: asahi.com（2026-11-14 09:10）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "ビジネス・経済分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "ビジネス・経済",
-        "news.yahoo.co.jp"
+        "asahi.com"
       ],
-      "url": "https://news.yahoo.co.jp/articles/7244d0a7f5aebc73fd103ca25c98787fb7e35313",
+      "url": "https://www.asahi.com/articles/ASVCF7VTGVCFUHBI00PM.html",
       "isAiEnriched": false
     }
   ]
