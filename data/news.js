@@ -1,6 +1,6 @@
 window.NEWS_DATA = {
   "date": "2026年11月14日 (土)",
-  "updatedAt": "2026-11-14 17:54",
+  "updatedAt": "2026-11-14 18:39",
   "title": "TREND NEWS",
   "keywords": [
     "関東15日は気温急降下 師…",
