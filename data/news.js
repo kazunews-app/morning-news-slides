@@ -1,16 +1,79 @@
 window.NEWS_DATA = {
   "date": "2026年11月14日 (土)",
-  "updatedAt": "2026-11-14 08:29",
+  "updatedAt": "2026-11-14 09:11",
   "title": "TREND NEWS",
   "keywords": [
+    "防衛費5年で60兆円規模 …",
+    "マイクロソフト 大規模障害…",
+    "「週明け怖い」MS障害の影…",
     "自衛官の給与引き上げ法が成…",
     "MS「復旧が進み、安定した…",
-    "「週明け怖い」MS障害の影…",
-    "政府 ロシアに首脳会談を打…",
-    "マネックス証券 免許証画像…",
     "「人生初FAX」MS障害で…"
   ],
   "items": [
+    {
+      "category": "domestic",
+      "title": "防衛費5年で60兆円規模 政府調整",
+      "source": "Yahoo!ニュース",
+      "publishedAt": "2026-11-14 08:38",
+      "publishedTs": 1794613106,
+      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/14/9ce51eceb54a820abd29aa892e5e29e5f9344d31d906d638911c7be63386a7a2.jpg",
+      "summary": "政府は、年末の安全保障関連3文書改定に合わせて定める2027～31年度の5年間の防衛費総額について、60兆円規模を視野に調整に入った。防衛費をさらに増額すれば、財源確保のため大幅増税が必要になるとの…",
+      "points": [
+        "カテゴリ: 国内・総合の注目トピック",
+        "配信: Yahoo!ニュース トピックス（2026-11-14 08:38）",
+        "「元記事を読む」から詳細を確認できます"
+      ],
+      "impact": "国内・総合分野で関心を集めている最新ニュースです。",
+      "tags": [
+        "国内・総合",
+        "Yahoo!ニュース"
+      ],
+      "url": "https://news.yahoo.co.jp/pickup/6602504?source=rss",
+      "isAiEnriched": false
+    },
+    {
+      "category": "tech",
+      "title": "マイクロソフト 大規模障害を謝罪",
+      "source": "Yahoo!ニュース",
+      "publishedAt": "2026-11-14 08:55",
+      "publishedTs": 1794614142,
+      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/14/e6b36b62472fc53436734b6d37af39eceb49fdc81da63c16d7316ae834f4c830.jpg",
+      "summary": "【AFP＝時事】米マイクロソフトは13日、世界各地の公共サービスや企業に支障を及ぼした大規模障害について謝罪した。メールサービス「アウトルック」などが「広範に復旧した」と述べ、全面復旧に向けた作業を…",
+      "points": [
+        "カテゴリ: テクノロジー・AIの注目トピック",
+        "配信: Yahoo!ニュース トピックス（2026-11-14 08:55）",
+        "「元記事を読む」から詳細を確認できます"
+      ],
+      "impact": "テクノロジー・AI分野で関心を集めている最新ニュースです。",
+      "tags": [
+        "テクノロジー・AI",
+        "Yahoo!ニュース"
+      ],
+      "url": "https://news.yahoo.co.jp/pickup/6602508?source=rss",
+      "isAiEnriched": false
+    },
+    {
+      "category": "business",
+      "title": "「週明け怖い」MS障害の影響広く",
+      "source": "Yahoo!ニュース",
+      "publishedAt": "2026-11-13 22:14",
+      "publishedTs": 1794575691,
+      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/13/e523b2dde72c952e4b3db31555b89df2512938c1f84d78d8b9f1acdc11c8bc3b.jpg",
+      "summary": "米IT大手マイクロソフト（MS）のメールや業務ソフトなどで起きた世界的なシステム障害は、国内でも影響が広がった。「仕事にならない」「週明けが怖い」。多くの業界で連絡手段を電話に切り替えるなどして対応…",
+      "points": [
+        "カテゴリ: ビジネス・経済の注目トピック",
+        "配信: Yahoo!ニュース トピックス（2026-11-13 22:14）",
+        "「元記事を読む」から詳細を確認できます"
+      ],
+      "impact": "ビジネス・経済分野で関心を集めている最新ニュースです。",
+      "tags": [
+        "ビジネス・経済",
+        "Yahoo!ニュース"
+      ],
+      "url": "https://news.yahoo.co.jp/pickup/6602468?source=rss",
+      "isAiEnriched": false
+    },
     {
       "category": "domestic",
       "title": "自衛官の給与引き上げ法が成立",
@@ -55,15 +118,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "「週明け怖い」MS障害の影響広く",
+      "title": "「人生初FAX」MS障害で代替手段",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-13 22:14",
-      "publishedTs": 1794575691,
-      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/13/e523b2dde72c952e4b3db31555b89df2512938c1f84d78d8b9f1acdc11c8bc3b.jpg",
-      "summary": "米IT大手マイクロソフト（MS）のメールや業務ソフトなどで起きた世界的なシステム障害は、国内でも影響が広がった。「仕事にならない」「週明けが怖い」。多くの業界で連絡手段を電話に切り替えるなどして対応…",
+      "publishedAt": "2026-11-14 08:03",
+      "publishedTs": 1794611011,
+      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/14/aba4b656d05acebe41f3e9fd416548918af0e1dcb3d56b1a9b4d0c1b196dd1d1.jpg",
+      "summary": "米マイクロソフトのメールサービス「アウトルック」などで日本時間の１３日未明に明らかになった大規模なシステム障害は、多くの企業や官公庁、大学などに影響を与えた。慣れ親しんだサービスが突如として使えなく…",
       "points": [
         "カテゴリ: ビジネス・経済の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-13 22:14）",
+        "配信: Yahoo!ニュース トピックス（2026-11-14 08:03）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "ビジネス・経済分野で関心を集めている最新ニュースです。",
@@ -71,7 +134,7 @@ window.NEWS_DATA = {
         "ビジネス・経済",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/pickup/6602468?source=rss",
+      "url": "https://news.yahoo.co.jp/pickup/6602497?source=rss",
       "isAiEnriched": false
     },
     {
@@ -118,15 +181,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "「人生初FAX」MS障害で代替手段",
+      "title": "ワタミがMBO実施へ 320億円程度",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-14 08:03",
-      "publishedTs": 1794611011,
-      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/14/aba4b656d05acebe41f3e9fd416548918af0e1dcb3d56b1a9b4d0c1b196dd1d1.jpg",
-      "summary": "米マイクロソフトのメールサービス「アウトルック」などで日本時間の１３日未明に明らかになった大規模なシステム障害は、多くの企業や官公庁、大学などに影響を与えた。慣れ親しんだサービスが突如として使えなく…",
+      "publishedAt": "2026-11-13 22:18",
+      "publishedTs": 1794575918,
+      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/13/4cb8aff8f8fffe58c9490c624a123932cea7c56c89961b152ab720985185a842.jpg",
+      "summary": "居酒屋大手のワタミは13日、経営陣による自社買収（MBO）を実施すると発表した。創業者の渡辺美樹会長兼社長の資産管理会社が株式公開買い付け（TOB）をし、全株取得を目指す。買い付け総額は320億円程…",
       "points": [
         "カテゴリ: ビジネス・経済の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-14 08:03）",
+        "配信: Yahoo!ニュース トピックス（2026-11-13 22:18）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "ビジネス・経済分野で関心を集めている最新ニュースです。",
@@ -134,7 +197,7 @@ window.NEWS_DATA = {
         "ビジネス・経済",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/pickup/6602497?source=rss",
+      "url": "https://news.yahoo.co.jp/pickup/6602467?source=rss",
       "isAiEnriched": false
     },
     {
@@ -181,15 +244,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "ワタミがMBO実施へ 320億円程度",
+      "title": "個人向け国債NISA化 見送りで調整",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-13 22:18",
-      "publishedTs": 1794575918,
-      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/13/4cb8aff8f8fffe58c9490c624a123932cea7c56c89961b152ab720985185a842.jpg",
-      "summary": "居酒屋大手のワタミは13日、経営陣による自社買収（MBO）を実施すると発表した。創業者の渡辺美樹会長兼社長の資産管理会社が株式公開買い付け（TOB）をし、全株取得を目指す。買い付け総額は320億円程…",
+      "publishedAt": "2026-11-13 19:47",
+      "publishedTs": 1794566860,
+      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/13/661a1ea54ad28979d2fad2f61b0af9412ca0a0b6fdd63164a7332494c5856014.jpg",
+      "summary": "政府・与党は、個人向け国債をNISAに組み入れて税制優遇することを検討していましたが、来年度の税制改正を見送る方向で調整しています。",
       "points": [
         "カテゴリ: ビジネス・経済の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-13 22:18）",
+        "配信: Yahoo!ニュース トピックス（2026-11-13 19:47）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "ビジネス・経済分野で関心を集めている最新ニュースです。",
@@ -197,7 +260,7 @@ window.NEWS_DATA = {
         "ビジネス・経済",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/pickup/6602467?source=rss",
+      "url": "https://news.yahoo.co.jp/pickup/6602452?source=rss",
       "isAiEnriched": false
     },
     {
@@ -244,69 +307,6 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "個人向け国債NISA化 見送りで調整",
-      "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-13 19:47",
-      "publishedTs": 1794566860,
-      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/13/661a1ea54ad28979d2fad2f61b0af9412ca0a0b6fdd63164a7332494c5856014.jpg",
-      "summary": "政府・与党は、個人向け国債をNISAに組み入れて税制優遇することを検討していましたが、来年度の税制改正を見送る方向で調整しています。",
-      "points": [
-        "カテゴリ: ビジネス・経済の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-13 19:47）",
-        "「元記事を読む」から詳細を確認できます"
-      ],
-      "impact": "ビジネス・経済分野で関心を集めている最新ニュースです。",
-      "tags": [
-        "ビジネス・経済",
-        "Yahoo!ニュース"
-      ],
-      "url": "https://news.yahoo.co.jp/pickup/6602452?source=rss",
-      "isAiEnriched": false
-    },
-    {
-      "category": "domestic",
-      "title": "参議院議員の山崎正昭氏が死去",
-      "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-13 10:00",
-      "publishedTs": 1794531612,
-      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/13/9cd73f299702348b7851597f4b14be9daf475683010a9b29a963c1d9cc84211f.jpg",
-      "summary": "福井県大野市出身の参議院議員山崎正昭氏が13日未明、亡くなりました。現職の参議院議員では最高齢の84歳でした。",
-      "points": [
-        "カテゴリ: 国内・総合の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-13 10:00）",
-        "「元記事を読む」から詳細を確認できます"
-      ],
-      "impact": "国内・総合分野で関心を集めている最新ニュースです。",
-      "tags": [
-        "国内・総合",
-        "Yahoo!ニュース"
-      ],
-      "url": "https://news.yahoo.co.jp/pickup/6602385?source=rss",
-      "isAiEnriched": false
-    },
-    {
-      "category": "tech",
-      "title": "メール障害で納期遅延 法的扱いは",
-      "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-13 15:48",
-      "publishedTs": 1794552520,
-      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/13/9b77459d491590701790dbdcb2bdea82cbdffd10b1517dd6abc71603692f9fa4.jpg",
-      "summary": "取引先からの返信期限が今日に迫っているのに、メールソフトの「Outlook」が使えない——。",
-      "points": [
-        "カテゴリ: テクノロジー・AIの注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-13 15:48）",
-        "「元記事を読む」から詳細を確認できます"
-      ],
-      "impact": "テクノロジー・AI分野で関心を集めている最新ニュースです。",
-      "tags": [
-        "テクノロジー・AI",
-        "Yahoo!ニュース"
-      ],
-      "url": "https://news.yahoo.co.jp/pickup/6602424?source=rss",
-      "isAiEnriched": false
-    },
-    {
-      "category": "business",
       "title": "損保3社タマホーム保険販売停止へ",
       "source": "Yahoo!ニュース",
       "publishedAt": "2026-11-13 18:19",
@@ -328,15 +328,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "思いやり予算 5年3兆円超を米要求",
+      "title": "参議院議員の山崎正昭氏が死去",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-13 09:02",
-      "publishedTs": 1794528120,
-      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/13/a3bd940485ea82c99dc575d438b8b9c2dd6b528f2530d920b0bf555b2c1a4421.jpg",
-      "summary": "2027年度から5年間の在日米軍駐留経費負担（思いやり予算）を巡り、トランプ米政権が現行の3倍程度となる3兆円超を日本政府に要求したことが分かった。日本側は要求通りには応じないものの、現行水準から大…",
+      "publishedAt": "2026-11-13 10:00",
+      "publishedTs": 1794531612,
+      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/13/9cd73f299702348b7851597f4b14be9daf475683010a9b29a963c1d9cc84211f.jpg",
+      "summary": "福井県大野市出身の参議院議員山崎正昭氏が13日未明、亡くなりました。現職の参議院議員では最高齢の84歳でした。",
       "points": [
         "カテゴリ: 国内・総合の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-13 09:02）",
+        "配信: Yahoo!ニュース トピックス（2026-11-13 10:00）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "国内・総合分野で関心を集めている最新ニュースです。",
@@ -344,7 +344,7 @@ window.NEWS_DATA = {
         "国内・総合",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/pickup/6602377?source=rss",
+      "url": "https://news.yahoo.co.jp/pickup/6602385?source=rss",
       "isAiEnriched": false
     },
     {
@@ -412,23 +412,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "Claude Codeのおすすめ環境を全体図で解説。ハーネス・スキル・MCPの仕組みと実例",
-      "source": "ktlog.net",
-      "publishedAt": "2026-11-13 14:21",
-      "publishedTs": 1794547318,
-      "image": "https://ktlog.net/_emdash/api/media/file/01M6WX9NHRH5N9QRFZYP0DTKWK.webp",
-      "summary": "公開 2026.11.08 Claude Codeのおすすめ環境を全体図で解説。ハーネス・スキル・MCPの仕組みと実例 Claude Codeのおすすめ環境は、入口をClaude Code 1つにまとめ、判断AIや権限ルールなどのハーネスを通してから、ほかのAI・スキル・MCP・外部APIへ仕事を振り分ける…",
+      "title": "『検索システム』『推薦システム』とLLM時代の検索推薦 - ｼﾞｮｲｼﾞｮｲｼﾞｮｲ",
+      "source": "joisino.hatenablog.com",
+      "publishedAt": "2026-11-13 19:50",
+      "publishedTs": 1794567054,
+      "image": "https://cdn.image.st-hatena.com/image/scale/d5c90eb051b7f12f50fe0e47e38459f3884c8866/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fj%2Fjoisino%2F20261111%2F20261111174347.png",
+      "summary": "拙著『検索システム』『推薦システム』が発売されました。 ▲カバーイラストがおしゃれで嬉しい これらはその名の通り検索システムと推薦システムの教科書です。LLM 時代の新基準になることを目指して執筆しました。すべてのログデータをプロンプトに入れて「これを前提に何を推薦すればいいか」と LLM に訊くという投げ…",
       "points": [
         "カテゴリ: テクノロジー・AIで話題の記事",
-        "引用元: ktlog.net（2026-11-13 14:21）",
+        "引用元: joisino.hatenablog.com（2026-11-13 19:50）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "テクノロジー・AI分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "テクノロジー・AI",
-        "ktlog.net"
+        "joisino.hatenablog.com"
       ],
-      "url": "https://ktlog.net/posts/claude-code-ai-ecosystem",
+      "url": "https://joisino.hatenablog.com/entry/searchrecbook",
       "isAiEnriched": false
     },
     {
@@ -538,23 +538,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "『検索システム』『推薦システム』とLLM時代の検索推薦 - ｼﾞｮｲｼﾞｮｲｼﾞｮｲ",
-      "source": "joisino.hatenablog.com",
-      "publishedAt": "2026-11-13 19:50",
-      "publishedTs": 1794567054,
-      "image": "https://cdn.image.st-hatena.com/image/scale/d5c90eb051b7f12f50fe0e47e38459f3884c8866/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fj%2Fjoisino%2F20261111%2F20261111174347.png",
-      "summary": "拙著『検索システム』『推薦システム』が発売されました。 ▲カバーイラストがおしゃれで嬉しい これらはその名の通り検索システムと推薦システムの教科書です。LLM 時代の新基準になることを目指して執筆しました。すべてのログデータをプロンプトに入れて「これを前提に何を推薦すればいいか」と LLM に訊くという投げ…",
+      "title": "Claude Codeのおすすめ環境を全体図で解説。ハーネス・スキル・MCPの仕組みと実例",
+      "source": "ktlog.net",
+      "publishedAt": "2026-11-13 14:21",
+      "publishedTs": 1794547318,
+      "image": "https://ktlog.net/_emdash/api/media/file/01M6WX9NHRH5N9QRFZYP0DTKWK.webp",
+      "summary": "公開 2026.11.08 Claude Codeのおすすめ環境を全体図で解説。ハーネス・スキル・MCPの仕組みと実例 Claude Codeのおすすめ環境は、入口をClaude Code 1つにまとめ、判断AIや権限ルールなどのハーネスを通してから、ほかのAI・スキル・MCP・外部APIへ仕事を振り分ける…",
       "points": [
         "カテゴリ: テクノロジー・AIで話題の記事",
-        "引用元: joisino.hatenablog.com（2026-11-13 19:50）",
+        "引用元: ktlog.net（2026-11-13 14:21）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "テクノロジー・AI分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "テクノロジー・AI",
-        "joisino.hatenablog.com"
+        "ktlog.net"
       ],
-      "url": "https://joisino.hatenablog.com/entry/searchrecbook",
+      "url": "https://ktlog.net/posts/claude-code-ai-ecosystem",
       "isAiEnriched": false
     },
     {
@@ -601,23 +601,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "マネックス証券、不正アクセスでメールアドレス最大113万件と本人確認書類1600件弱が漏洩のおそれ",
-      "source": "k-tai.watch.impress.co.jp",
-      "publishedAt": "2026-11-13 21:34",
-      "publishedTs": 1794573249,
-      "image": "https://k-tai.watch.impress.co.jp/img/ktw/list/2156/449/01.jpg",
-      "summary": "「マネックス証券、不正アクセスでメールアドレス最大113万件と本人確認書類1600件弱が漏洩のおそれ」に関する注目記事です。",
+      "title": "Firefoxの内蔵VPNを無料＆データ通信量無制限で全ユーザーに提供するとMozillaが発表、2027年1月31日まで",
+      "source": "gigazine.net",
+      "publishedAt": "2026-11-13 18:17",
+      "publishedTs": 1794561479,
+      "image": "https://i.gzn.jp/img/2026/11/13/firefox-vpn/00.png",
+      "summary": "Firefoxブラウザには無料のVPNが内蔵されており、ウェブサイトがIPアドレスを使ってユーザーの所在地を特定したり、ウェブ上のアクセス履歴を追跡したりすることを制限することができます。通常は内蔵VPNを利用するにはサインインした上で月間50GBのデータ制限がありますが、2026年11月10日から2027…",
       "points": [
         "カテゴリ: テクノロジー・AIで話題の記事",
-        "引用元: k-tai.watch.impress.co.jp（2026-11-13 21:34）",
+        "引用元: gigazine.net（2026-11-13 18:17）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "テクノロジー・AI分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "テクノロジー・AI",
-        "k-tai.watch.impress.co.jp"
+        "gigazine.net"
       ],
-      "url": "https://k-tai.watch.impress.co.jp/docs/news/2156449.html",
+      "url": "https://gigazine.net/news/20261113-firefox-vpn/",
       "isAiEnriched": false
     },
     {
