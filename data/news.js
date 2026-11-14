@@ -1,16 +1,79 @@
 window.NEWS_DATA = {
   "date": "2026年11月14日 (土)",
-  "updatedAt": "2026-11-14 15:03",
+  "updatedAt": "2026-11-14 16:02",
   "title": "TREND NEWS",
   "keywords": [
+    "関東15日は気温急降下 師…",
+    "マイクロソフトの障害 全面…",
+    "エヌビディアCEO 後任選…",
     "防衛費5年で60兆円規模 …",
     "マイクロソフト 大規模障害…",
-    "タマホーム 保険代理業を廃…",
-    "自衛官の給与引き上げ法が成…",
-    "MS 個人向けサービスが完…",
-    "3メガバンク中間決算 最高…"
+    "タマホーム 保険代理業を廃…"
   ],
   "items": [
+    {
+      "category": "domestic",
+      "title": "関東15日は気温急降下 師走並みか",
+      "source": "Yahoo!ニュース",
+      "publishedAt": "2026-11-14 15:06",
+      "publishedTs": 1794636419,
+      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/14/67a4720168e8c401284c176c89102dcb3dbcebef562e00a05c8d15ff3a148585.jpg",
+      "summary": "15日(日)の関東は朝から夜にかけて雨が降り、最高気温は前日より大幅に低くなる予想です。東京都心と前橋は14℃、さいたまは13℃など師走並みの寒さになる所もあるでしょう。15日(日)は昼間も厚手の上…",
+      "points": [
+        "カテゴリ: 国内・総合の注目トピック",
+        "配信: Yahoo!ニュース トピックス（2026-11-14 15:06）",
+        "「元記事を読む」から詳細を確認できます"
+      ],
+      "impact": "国内・総合分野で関心を集めている最新ニュースです。",
+      "tags": [
+        "国内・総合",
+        "Yahoo!ニュース"
+      ],
+      "url": "https://news.yahoo.co.jp/pickup/6602551?source=rss",
+      "isAiEnriched": false
+    },
+    {
+      "category": "tech",
+      "title": "マイクロソフトの障害 全面復旧",
+      "source": "Yahoo!ニュース",
+      "publishedAt": "2026-11-14 15:27",
+      "publishedTs": 1794637645,
+      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/14/7839b54a28bb0eaf8f488c04bd0a7573ed3d1d7428e94b1741c9c033bca79467.jpg",
+      "summary": "アメリカのIT大手マイクロソフトは世界規模で発生した接続障害について、サービスが全面復旧したと発表しました。",
+      "points": [
+        "カテゴリ: テクノロジー・AIの注目トピック",
+        "配信: Yahoo!ニュース トピックス（2026-11-14 15:27）",
+        "「元記事を読む」から詳細を確認できます"
+      ],
+      "impact": "テクノロジー・AI分野で関心を集めている最新ニュースです。",
+      "tags": [
+        "テクノロジー・AI",
+        "Yahoo!ニュース"
+      ],
+      "url": "https://news.yahoo.co.jp/pickup/6602556?source=rss",
+      "isAiEnriched": false
+    },
+    {
+      "category": "business",
+      "title": "エヌビディアCEO 後任選定難航か",
+      "source": "Yahoo!ニュース",
+      "publishedAt": "2026-11-14 15:24",
+      "publishedTs": 1794637471,
+      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/14/acb13343d754433282c9db080fca24bd53a5547b47066db1e7e5a80f1a57e7ff.jpg",
+      "summary": "【ニューヨーク共同】米半導体大手エヌビディアの取締役会は13日、不倫騒動で辞任したジェンスン・フアン前最高経営責任者（CEO）の後任選びを本格化した。世界の人工知能（AI）ブームを新たにけん引する役…",
+      "points": [
+        "カテゴリ: ビジネス・経済の注目トピック",
+        "配信: Yahoo!ニュース トピックス（2026-11-14 15:24）",
+        "「元記事を読む」から詳細を確認できます"
+      ],
+      "impact": "ビジネス・経済分野で関心を集めている最新ニュースです。",
+      "tags": [
+        "ビジネス・経済",
+        "Yahoo!ニュース"
+      ],
+      "url": "https://news.yahoo.co.jp/pickup/6602554?source=rss",
+      "isAiEnriched": false
+    },
     {
       "category": "domestic",
       "title": "防衛費5年で60兆円規模 政府調整",
@@ -97,69 +160,6 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "MS 個人向けサービスが完全復旧",
-      "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-14 14:27",
-      "publishedTs": 1794634057,
-      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/14/51447b3eb776377402fe5da92c0bf95d61f5d3cecf505bba6432b325788d820c.jpg",
-      "summary": "【ニューヨーク共同】米IT大手マイクロソフト（MS）は13日、業務ソフト「マイクロソフト365」などで12日に発生した大規模な接続障害について、個人向けサービスは13日午前11時10分（日本時間14…",
-      "points": [
-        "カテゴリ: テクノロジー・AIの注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-14 14:27）",
-        "「元記事を読む」から詳細を確認できます"
-      ],
-      "impact": "テクノロジー・AI分野で関心を集めている最新ニュースです。",
-      "tags": [
-        "テクノロジー・AI",
-        "Yahoo!ニュース"
-      ],
-      "url": "https://news.yahoo.co.jp/pickup/6602546?source=rss",
-      "isAiEnriched": false
-    },
-    {
-      "category": "business",
-      "title": "3メガバンク中間決算 最高益更新",
-      "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-14 09:45",
-      "publishedTs": 1794617145,
-      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/14/5c8940ccb312dcf301e0b33c3aa76e246bae4af2b74c0946ec30369adf4dff22.jpg",
-      "summary": "三菱ＵＦＪなど３メガバンクグループは１３日、２０２６年９月中間連結決算を発表した。金利上昇や企業の旺盛な資金需要を背景に最終利益はそろって最高を更新し、３メガ合計で前年同期比２１・１％増の３兆５３０…",
-      "points": [
-        "カテゴリ: ビジネス・経済の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-14 09:45）",
-        "「元記事を読む」から詳細を確認できます"
-      ],
-      "impact": "ビジネス・経済分野で関心を集めている最新ニュースです。",
-      "tags": [
-        "ビジネス・経済",
-        "Yahoo!ニュース"
-      ],
-      "url": "https://news.yahoo.co.jp/pickup/6602512?source=rss",
-      "isAiEnriched": false
-    },
-    {
-      "category": "domestic",
-      "title": "政府 ロシアに首脳会談を打診",
-      "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-13 14:37",
-      "publishedTs": 1794548223,
-      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/13/0154923b3a63539fcbe21374bba254e8ba0488e9453707e6ad6c5c90217605de.jpg",
-      "summary": "政府が来週、中国で開かれる国際会議に合わせて、高市総理大臣とプーチン大統領による会談の開催をロシア側に打診したことがわかりました。",
-      "points": [
-        "カテゴリ: 国内・総合の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-13 14:37）",
-        "「元記事を読む」から詳細を確認できます"
-      ],
-      "impact": "国内・総合分野で関心を集めている最新ニュースです。",
-      "tags": [
-        "国内・総合",
-        "Yahoo!ニュース"
-      ],
-      "url": "https://news.yahoo.co.jp/pickup/6602418?source=rss",
-      "isAiEnriched": false
-    },
-    {
-      "category": "tech",
       "title": "マネックス証券 免許証画像流出か",
       "source": "Yahoo!ニュース",
       "publishedAt": "2026-11-14 07:28",
@@ -181,15 +181,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "FRB 市場の最大脅威は「AI関連」",
+      "title": "3メガバンク中間決算 最高益更新",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-14 09:53",
-      "publishedTs": 1794617589,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800",
-      "summary": "【ワシントン共同】米連邦準備制度理事会（FRB）が13日公表した金融安定報告書で、市場関係者が人工知能（AI）を使ったサイバー攻撃を含めたAI関連の問題を金融安定にとっての最大の脅威と受け止めている…",
+      "publishedAt": "2026-11-14 09:45",
+      "publishedTs": 1794617145,
+      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/14/5c8940ccb312dcf301e0b33c3aa76e246bae4af2b74c0946ec30369adf4dff22.jpg",
+      "summary": "三菱ＵＦＪなど３メガバンクグループは１３日、２０２６年９月中間連結決算を発表した。金利上昇や企業の旺盛な資金需要を背景に最終利益はそろって最高を更新し、３メガ合計で前年同期比２１・１％増の３兆５３０…",
       "points": [
         "カテゴリ: ビジネス・経済の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-14 09:53）",
+        "配信: Yahoo!ニュース トピックス（2026-11-14 09:45）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "ビジネス・経済分野で関心を集めている最新ニュースです。",
@@ -197,7 +197,7 @@ window.NEWS_DATA = {
         "ビジネス・経済",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/pickup/6602514?source=rss",
+      "url": "https://news.yahoo.co.jp/pickup/6602512?source=rss",
       "isAiEnriched": false
     },
     {
@@ -244,15 +244,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "ニデック半期報告書 提出延期検討",
+      "title": "FRB 市場の最大脅威は「AI関連」",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-14 11:03",
-      "publishedTs": 1794621817,
-      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/14/a455f130e2a6b7e127032f5792c6a2275c8cb7663f70c0df938790c1b8cc3b32.jpg",
-      "summary": "不正会計があったモーター大手のニデック（旧日本電産）は14日、2026年4～9月の半期報告書について金融庁への提出の延期を検討していると発表した。会計処理の作業に時間がかかっているためで、法定提出期…",
+      "publishedAt": "2026-11-14 09:53",
+      "publishedTs": 1794617589,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800",
+      "summary": "【ワシントン共同】米連邦準備制度理事会（FRB）が13日公表した金融安定報告書で、市場関係者が人工知能（AI）を使ったサイバー攻撃を含めたAI関連の問題を金融安定にとっての最大の脅威と受け止めている…",
       "points": [
         "カテゴリ: ビジネス・経済の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-14 11:03）",
+        "配信: Yahoo!ニュース トピックス（2026-11-14 09:53）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "ビジネス・経済分野で関心を集めている最新ニュースです。",
@@ -260,7 +260,7 @@ window.NEWS_DATA = {
         "ビジネス・経済",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/pickup/6602523?source=rss",
+      "url": "https://news.yahoo.co.jp/pickup/6602514?source=rss",
       "isAiEnriched": false
     },
     {
@@ -307,15 +307,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "「週明け怖い」MS障害の影響広く",
+      "title": "ニデック半期報告書 提出延期検討",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-13 22:14",
-      "publishedTs": 1794575691,
-      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/13/e523b2dde72c952e4b3db31555b89df2512938c1f84d78d8b9f1acdc11c8bc3b.jpg",
-      "summary": "米IT大手マイクロソフト（MS）のメールや業務ソフトなどで起きた世界的なシステム障害は、国内でも影響が広がった。「仕事にならない」「週明けが怖い」。多くの業界で連絡手段を電話に切り替えるなどして対応…",
+      "publishedAt": "2026-11-14 11:03",
+      "publishedTs": 1794621817,
+      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/14/a455f130e2a6b7e127032f5792c6a2275c8cb7663f70c0df938790c1b8cc3b32.jpg",
+      "summary": "不正会計があったモーター大手のニデック（旧日本電産）は14日、2026年4～9月の半期報告書について金融庁への提出の延期を検討していると発表した。会計処理の作業に時間がかかっているためで、法定提出期…",
       "points": [
         "カテゴリ: ビジネス・経済の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-13 22:14）",
+        "配信: Yahoo!ニュース トピックス（2026-11-14 11:03）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "ビジネス・経済分野で関心を集めている最新ニュースです。",
@@ -323,7 +323,7 @@ window.NEWS_DATA = {
         "ビジネス・経済",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/pickup/6602468?source=rss",
+      "url": "https://news.yahoo.co.jp/pickup/6602523?source=rss",
       "isAiEnriched": false
     },
     {
@@ -454,86 +454,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "やまやで15回おかわりしたら出禁宣告された人が謝罪…しかしやまや系列で働く人から「おかわりする人を大事にって教育された」の声、サポセンの回答も「配慮の必要なし」",
-      "source": "togetter.com",
-      "publishedAt": "2026-11-14 06:31",
-      "publishedTs": 1794605510,
-      "image": "https://s.tgstc.com/ogp3/43ce538702ae4508fc757c059321f059-1200x630.jpeg",
-      "summary": "あー(っ'-')╮=͟͟͞♡ @tuuhuusuien 別にね、やまやさんを否定したり悪く言いたいわけじゃないのよ？ 明太子も高菜も本当に美味しすぎて、ご飯が進むし、時間を空けて2つずつ提供される天麩羅のお気遣いが(どれも熱々で食べられるように)素晴らしいって言ってるの。 やまやさんを批判するのも、コメント…",
+      "title": "「女だけどフェミニズム好きじゃない」といった女子大生を、フェミニストが取り囲んで「大学やめろ」「レイプされても文句言うな」と脅迫をおこなう事案が発生【黒い羊効果】",
+      "source": "posfie.com",
+      "publishedAt": "2026-11-14 13:06",
+      "publishedTs": 1794629168,
+      "image": "https://s.tgstc.com/ogp3/39ef3a663ff8045ff394bc77bfbd2994-1200x630.jpeg",
+      "summary": "「黒い羊効果」とは？職場でターゲットにされない5つの方法 - STUDY HACKER（スタディーハッカー）｜社会人の勉強法＆英語学習 心理学における「黒い羊効果」を、どこよりもわかりやすく解説します。 8 users 3217 STUDY HACKER（スタディーハッカー）｜社会人の勉強法＆英語学習 「黒…",
       "points": [
         "カテゴリ: 国内・総合で話題の記事",
-        "引用元: togetter.com（2026-11-14 06:31）",
+        "引用元: posfie.com（2026-11-14 13:06）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "国内・総合分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "国内・総合",
-        "togetter.com"
+        "posfie.com"
       ],
-      "url": "https://togetter.com/li/2770203",
-      "isAiEnriched": false
-    },
-    {
-      "category": "tech",
-      "title": "Fable 5.2は物理モデリング音源の実装も作曲もすごい - きしだのHatena",
-      "source": "nowokay.hatenablog.com",
-      "publishedAt": "2026-11-13 23:22",
-      "publishedTs": 1794579772,
-      "image": "https://cdn.image.st-hatena.com/image/scale/124dd98915ea1ae722f6a171ed5ad3c4f387690a/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fn%2Fnowokay%2F20261113%2F20261113100710.png",
-      "summary": "Fable 5.2が出て今週いっぱいくらいPlusでも使えるのだけど、Fableじゃないとダメなことってなんだろなと思いつつ、楽器の物理シミュレーションがOpusはまだあまりうまくなかったなと、Fableさんに物理モデリング音源を作ってもらって曲もつくってもらったら、物理モデリングも結構できていたのだけど…",
-      "points": [
-        "カテゴリ: テクノロジー・AIで話題の記事",
-        "引用元: nowokay.hatenablog.com（2026-11-13 23:22）",
-        "「元記事を読む」から本文を確認できます"
-      ],
-      "impact": "テクノロジー・AI分野で多くの読者に共有されている注目記事です。",
-      "tags": [
-        "テクノロジー・AI",
-        "nowokay.hatenablog.com"
-      ],
-      "url": "https://nowokay.hatenablog.com/entry/2026/11/13/101644",
-      "isAiEnriched": false
-    },
-    {
-      "category": "business",
-      "title": "米国務長官、ICCに警告「剣を帯びる者に法律を説くのはやめろ」",
-      "source": "afpbb.com",
-      "publishedAt": "2026-11-14 09:39",
-      "publishedTs": 1794616795,
-      "image": "https://afpbb.ismcdn.jp/mwimgs/9/3/1000x/img_93d74da810771456230942dc3857fd8f70358.jpg",
-      "summary": "【11月14日 AFP】マルコ・ルビオ米国務長官は13日、国際法が「武器化」され、エリート層の道具になっていると批判するとともに、国際刑事裁判所（ICC）に強い警告を発した。 ルビオ氏は、オランダ・ハーグに本部を置くICCが米国の認めていない規則を強制しようとしていると非難し、「剣を帯びる者に法律を説く」こ…",
-      "points": [
-        "カテゴリ: ビジネス・経済で話題の記事",
-        "引用元: afpbb.com（2026-11-14 09:39）",
-        "「元記事を読む」から本文を確認できます"
-      ],
-      "impact": "ビジネス・経済分野で多くの読者に共有されている注目記事です。",
-      "tags": [
-        "ビジネス・経済",
-        "afpbb.com"
-      ],
-      "url": "https://www.afpbb.com/articles/-/3662364",
-      "isAiEnriched": false
-    },
-    {
-      "category": "domestic",
-      "title": "アメリカ全土の航空機の運航停止を解除 米航空当局 | NHKニュース",
-      "source": "news.web.nhk",
-      "publishedAt": "2026-11-14 06:49",
-      "publishedTs": 1794606572,
-      "image": "https://imgu.web.nhk/news/u/news/nd/kiji/20261114de75764/20261114de75764_E0000174813_1_l.jpg",
-      "summary": "アメリカのダフィー運輸長官は13日、SNSへの投稿で「FAA＝アメリカ連邦航空局は管制センターに影響を及ぼす通信問題を受けて全米で航空機の運航停止を発令した。連邦航空局の技術者が調査を行っている」と明…",
-      "points": [
-        "カテゴリ: 国内・総合で話題の記事",
-        "引用元: news.web.nhk（2026-11-14 06:49）",
-        "「元記事を読む」から本文を確認できます"
-      ],
-      "impact": "国内・総合分野で多くの読者に共有されている注目記事です。",
-      "tags": [
-        "国内・総合",
-        "news.web.nhk"
-      ],
-      "url": "https://news.web.nhk/newsweb/na/nd-20261114de75764",
+      "url": "https://posfie.com/@golden_haniwa/p/30HIdHZ",
       "isAiEnriched": false
     },
     {
@@ -559,44 +496,44 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "米中ロが史上初の3首脳会談へ　米側が発表　中国深圳で19日開催：朝日新聞",
-      "source": "asahi.com",
-      "publishedAt": "2026-11-14 09:10",
-      "publishedTs": 1794615024,
-      "image": "https://imgopt.asahi.com/ogp/AS20261114000885_comm.jpg",
-      "summary": "米ホワイトハウスは13日、トランプ大統領が中国の習近平（シーチンピン）国家主席、ロシアのプーチン大統領と19日に3首脳で会談すると発表した。米中ロ3カ国による正式な首脳会談は史上初めてとみられる。 …",
+      "title": "米国務長官、ICCに警告「剣を帯びる者に法律を説くのはやめろ」",
+      "source": "afpbb.com",
+      "publishedAt": "2026-11-14 09:39",
+      "publishedTs": 1794616795,
+      "image": "https://afpbb.ismcdn.jp/mwimgs/9/3/1000x/img_93d74da810771456230942dc3857fd8f70358.jpg",
+      "summary": "【11月14日 AFP】マルコ・ルビオ米国務長官は13日、国際法が「武器化」され、エリート層の道具になっていると批判するとともに、国際刑事裁判所（ICC）に強い警告を発した。 ルビオ氏は、オランダ・ハーグに本部を置くICCが米国の認めていない規則を強制しようとしていると非難し、「剣を帯びる者に法律を説く」こ…",
       "points": [
         "カテゴリ: ビジネス・経済で話題の記事",
-        "引用元: asahi.com（2026-11-14 09:10）",
+        "引用元: afpbb.com（2026-11-14 09:39）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "ビジネス・経済分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "ビジネス・経済",
-        "asahi.com"
+        "afpbb.com"
       ],
-      "url": "https://www.asahi.com/articles/ASVCF7VTGVCFUHBI00PM.html",
+      "url": "https://www.afpbb.com/articles/-/3662364",
       "isAiEnriched": false
     },
     {
       "category": "domestic",
-      "title": "「女だけどフェミニズム好きじゃない」といった女子大生を、フェミニストが取り囲んで「大学やめろ」「レイプされても文句言うな」と脅迫をおこなう事案が発生【黒い羊効果】",
-      "source": "posfie.com",
-      "publishedAt": "2026-11-14 13:06",
-      "publishedTs": 1794629168,
-      "image": "https://s.tgstc.com/ogp3/39ef3a663ff8045ff394bc77bfbd2994-1200x630.jpeg",
-      "summary": "「黒い羊効果」とは？職場でターゲットにされない5つの方法 - STUDY HACKER（スタディーハッカー）｜社会人の勉強法＆英語学習 心理学における「黒い羊効果」を、どこよりもわかりやすく解説します。 8 users 3217 STUDY HACKER（スタディーハッカー）｜社会人の勉強法＆英語学習 「黒…",
+      "title": "やまやで15回おかわりしたら出禁宣告された人が謝罪…しかしやまや系列で働く人から「おかわりする人を大事にって教育された」の声、サポセンの回答も「配慮の必要なし」",
+      "source": "togetter.com",
+      "publishedAt": "2026-11-14 06:31",
+      "publishedTs": 1794605510,
+      "image": "https://s.tgstc.com/ogp3/43ce538702ae4508fc757c059321f059-1200x630.jpeg",
+      "summary": "あー(っ'-')╮=͟͟͞♡ @tuuhuusuien 別にね、やまやさんを否定したり悪く言いたいわけじゃないのよ？ 明太子も高菜も本当に美味しすぎて、ご飯が進むし、時間を空けて2つずつ提供される天麩羅のお気遣いが(どれも熱々で食べられるように)素晴らしいって言ってるの。 やまやさんを批判するのも、コメント…",
       "points": [
         "カテゴリ: 国内・総合で話題の記事",
-        "引用元: posfie.com（2026-11-14 13:06）",
+        "引用元: togetter.com（2026-11-14 06:31）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "国内・総合分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "国内・総合",
-        "posfie.com"
+        "togetter.com"
       ],
-      "url": "https://posfie.com/@golden_haniwa/p/30HIdHZ",
+      "url": "https://togetter.com/li/2770203",
       "isAiEnriched": false
     },
     {
@@ -622,23 +559,86 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "APECで日本だけ首脳会談なしの屈辱…政府は高市首相の冷遇回避を求め「恥の上塗り」要請｜日刊ゲンダイDIGITAL",
-      "source": "nikkan-gendai.com",
-      "publishedAt": "2026-11-14 08:22",
-      "publishedTs": 1794612155,
-      "image": "https://jmqvqzo7.user.webaccel.jp/img/article/000/395/570/d2530422e58f87aa023f690aff08546120261113133632403.jpg",
-      "summary": "「無能な働き者は周囲に害を与える」「バカな大将、敵より怖い」「やる気のある無能は組織を亡ぼす」……軍隊や企業組織で広く使われ、周知されてきた言葉だ。 18世紀後半のフランス革命後の混乱を収拾し、初代皇帝となったナポレオンも同類の発言をしていたというから、おそらく感覚的に当… この記事は有料会員限定です。...",
+      "title": "米中ロが史上初の3首脳会談へ　米側が発表　中国深圳で19日開催：朝日新聞",
+      "source": "asahi.com",
+      "publishedAt": "2026-11-14 09:10",
+      "publishedTs": 1794615024,
+      "image": "https://imgopt.asahi.com/ogp/AS20261114000885_comm.jpg",
+      "summary": "米ホワイトハウスは13日、トランプ大統領が中国の習近平（シーチンピン）国家主席、ロシアのプーチン大統領と19日に3首脳で会談すると発表した。米中ロ3カ国による正式な首脳会談は史上初めてとみられる。 …",
       "points": [
         "カテゴリ: ビジネス・経済で話題の記事",
-        "引用元: nikkan-gendai.com（2026-11-14 08:22）",
+        "引用元: asahi.com（2026-11-14 09:10）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "ビジネス・経済分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "ビジネス・経済",
-        "nikkan-gendai.com"
+        "asahi.com"
       ],
-      "url": "https://www.nikkan-gendai.com/articles/view/news/395570",
+      "url": "https://www.asahi.com/articles/ASVCF7VTGVCFUHBI00PM.html",
+      "isAiEnriched": false
+    },
+    {
+      "category": "domestic",
+      "title": "アメリカ全土の航空機の運航停止を解除 米航空当局 | NHKニュース",
+      "source": "news.web.nhk",
+      "publishedAt": "2026-11-14 06:49",
+      "publishedTs": 1794606572,
+      "image": "https://imgu.web.nhk/news/u/news/nd/kiji/20261114de75764/20261114de75764_E0000174813_1_l.jpg",
+      "summary": "アメリカのダフィー運輸長官は13日、SNSへの投稿で「FAA＝アメリカ連邦航空局は管制センターに影響を及ぼす通信問題を受けて全米で航空機の運航停止を発令した。連邦航空局の技術者が調査を行っている」と明…",
+      "points": [
+        "カテゴリ: 国内・総合で話題の記事",
+        "引用元: news.web.nhk（2026-11-14 06:49）",
+        "「元記事を読む」から本文を確認できます"
+      ],
+      "impact": "国内・総合分野で多くの読者に共有されている注目記事です。",
+      "tags": [
+        "国内・総合",
+        "news.web.nhk"
+      ],
+      "url": "https://news.web.nhk/newsweb/na/nd-20261114de75764",
+      "isAiEnriched": false
+    },
+    {
+      "category": "tech",
+      "title": "Fable 5.2は物理モデリング音源の実装も作曲もすごい - きしだのHatena",
+      "source": "nowokay.hatenablog.com",
+      "publishedAt": "2026-11-13 23:22",
+      "publishedTs": 1794579772,
+      "image": "https://cdn.image.st-hatena.com/image/scale/124dd98915ea1ae722f6a171ed5ad3c4f387690a/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fn%2Fnowokay%2F20261113%2F20261113100710.png",
+      "summary": "Fable 5.2が出て今週いっぱいくらいPlusでも使えるのだけど、Fableじゃないとダメなことってなんだろなと思いつつ、楽器の物理シミュレーションがOpusはまだあまりうまくなかったなと、Fableさんに物理モデリング音源を作ってもらって曲もつくってもらったら、物理モデリングも結構できていたのだけど…",
+      "points": [
+        "カテゴリ: テクノロジー・AIで話題の記事",
+        "引用元: nowokay.hatenablog.com（2026-11-13 23:22）",
+        "「元記事を読む」から本文を確認できます"
+      ],
+      "impact": "テクノロジー・AI分野で多くの読者に共有されている注目記事です。",
+      "tags": [
+        "テクノロジー・AI",
+        "nowokay.hatenablog.com"
+      ],
+      "url": "https://nowokay.hatenablog.com/entry/2026/11/13/101644",
+      "isAiEnriched": false
+    },
+    {
+      "category": "business",
+      "title": "高市首相「会議に出たくない」ムーブ被害者たちの困惑国際。国際会議を欠席しまくる総理の言い逃れ乱舞、実は昔から？...（週プレNEWS） - Yahoo!ニュース",
+      "source": "news.yahoo.co.jp",
+      "publishedAt": "2026-11-14 12:44",
+      "publishedTs": 1794627898,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261114-01335390-playboyz-000-1-view.jpg?exp=10800",
+      "summary": "米中露のトップが参加するAPEC（アジア太平洋経済協力会議）首脳会議が11月18日から開催されるが、永田町ではひそかに「首相のドタキャン」が心配されているらしい。【写真】トランプ大統領の前で全力の笑…",
+      "points": [
+        "カテゴリ: ビジネス・経済で話題の記事",
+        "引用元: news.yahoo.co.jp（2026-11-14 12:44）",
+        "「元記事を読む」から本文を確認できます"
+      ],
+      "impact": "ビジネス・経済分野で多くの読者に共有されている注目記事です。",
+      "tags": [
+        "ビジネス・経済",
+        "news.yahoo.co.jp"
+      ],
+      "url": "https://news.yahoo.co.jp/articles/7244d0a7f5aebc73fd103ca25c98787fb7e35313",
       "isAiEnriched": false
     }
   ]
