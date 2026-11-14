@@ -1,6 +1,6 @@
 window.NEWS_DATA = {
   "date": "2026年11月14日 (土)",
-  "updatedAt": "2026-11-14 10:22",
+  "updatedAt": "2026-11-14 11:20",
   "title": "TREND NEWS",
   "keywords": [
     "防衛費5年で60兆円規模 …",
@@ -244,15 +244,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "「週明け怖い」MS障害の影響広く",
+      "title": "ニデック半期報告書 提出延期検討",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-13 22:14",
-      "publishedTs": 1794575691,
-      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/13/e523b2dde72c952e4b3db31555b89df2512938c1f84d78d8b9f1acdc11c8bc3b.jpg",
-      "summary": "米IT大手マイクロソフト（MS）のメールや業務ソフトなどで起きた世界的なシステム障害は、国内でも影響が広がった。「仕事にならない」「週明けが怖い」。多くの業界で連絡手段を電話に切り替えるなどして対応…",
+      "publishedAt": "2026-11-14 11:03",
+      "publishedTs": 1794621817,
+      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/14/a455f130e2a6b7e127032f5792c6a2275c8cb7663f70c0df938790c1b8cc3b32.jpg",
+      "summary": "不正会計があったモーター大手のニデック（旧日本電産）は14日、2026年4～9月の半期報告書について金融庁への提出の延期を検討していると発表した。会計処理の作業に時間がかかっているためで、法定提出期…",
       "points": [
         "カテゴリ: ビジネス・経済の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-13 22:14）",
+        "配信: Yahoo!ニュース トピックス（2026-11-14 11:03）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "ビジネス・経済分野で関心を集めている最新ニュースです。",
@@ -260,7 +260,7 @@ window.NEWS_DATA = {
         "ビジネス・経済",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/pickup/6602468?source=rss",
+      "url": "https://news.yahoo.co.jp/pickup/6602523?source=rss",
       "isAiEnriched": false
     },
     {
@@ -307,15 +307,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "「人生初FAX」MS障害で代替手段",
+      "title": "「週明け怖い」MS障害の影響広く",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-14 08:03",
-      "publishedTs": 1794611011,
-      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/14/aba4b656d05acebe41f3e9fd416548918af0e1dcb3d56b1a9b4d0c1b196dd1d1.jpg",
-      "summary": "米マイクロソフトのメールサービス「アウトルック」などで日本時間の１３日未明に明らかになった大規模なシステム障害は、多くの企業や官公庁、大学などに影響を与えた。慣れ親しんだサービスが突如として使えなく…",
+      "publishedAt": "2026-11-13 22:14",
+      "publishedTs": 1794575691,
+      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/13/e523b2dde72c952e4b3db31555b89df2512938c1f84d78d8b9f1acdc11c8bc3b.jpg",
+      "summary": "米IT大手マイクロソフト（MS）のメールや業務ソフトなどで起きた世界的なシステム障害は、国内でも影響が広がった。「仕事にならない」「週明けが怖い」。多くの業界で連絡手段を電話に切り替えるなどして対応…",
       "points": [
         "カテゴリ: ビジネス・経済の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-14 08:03）",
+        "配信: Yahoo!ニュース トピックス（2026-11-13 22:14）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "ビジネス・経済分野で関心を集めている最新ニュースです。",
@@ -323,7 +323,7 @@ window.NEWS_DATA = {
         "ビジネス・経済",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/pickup/6602497?source=rss",
+      "url": "https://news.yahoo.co.jp/pickup/6602468?source=rss",
       "isAiEnriched": false
     },
     {
@@ -370,15 +370,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "ワタミがMBO実施へ 320億円程度",
+      "title": "「人生初FAX」MS障害で代替手段",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-13 22:18",
-      "publishedTs": 1794575918,
-      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/13/4cb8aff8f8fffe58c9490c624a123932cea7c56c89961b152ab720985185a842.jpg",
-      "summary": "居酒屋大手のワタミは13日、経営陣による自社買収（MBO）を実施すると発表した。創業者の渡辺美樹会長兼社長の資産管理会社が株式公開買い付け（TOB）をし、全株取得を目指す。買い付け総額は320億円程…",
+      "publishedAt": "2026-11-14 08:03",
+      "publishedTs": 1794611011,
+      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/14/aba4b656d05acebe41f3e9fd416548918af0e1dcb3d56b1a9b4d0c1b196dd1d1.jpg",
+      "summary": "米マイクロソフトのメールサービス「アウトルック」などで日本時間の１３日未明に明らかになった大規模なシステム障害は、多くの企業や官公庁、大学などに影響を与えた。慣れ親しんだサービスが突如として使えなく…",
       "points": [
         "カテゴリ: ビジネス・経済の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-13 22:18）",
+        "配信: Yahoo!ニュース トピックス（2026-11-14 08:03）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "ビジネス・経済分野で関心を集めている最新ニュースです。",
@@ -386,12 +386,12 @@ window.NEWS_DATA = {
         "ビジネス・経済",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/pickup/6602467?source=rss",
+      "url": "https://news.yahoo.co.jp/pickup/6602497?source=rss",
       "isAiEnriched": false
     },
     {
       "category": "domestic",
-      "title": "米全土の空港 航空機運航停止 国土安全保障省“テロではない” | NHKニュース",
+      "title": "アメリカ全土の航空機の運航停止を解除 米航空当局 | NHKニュース",
       "source": "news.web.nhk",
       "publishedAt": "2026-11-14 06:49",
       "publishedTs": 1794606572,
@@ -412,23 +412,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "『検索システム』『推薦システム』とLLM時代の検索推薦 - ｼﾞｮｲｼﾞｮｲｼﾞｮｲ",
-      "source": "joisino.hatenablog.com",
-      "publishedAt": "2026-11-13 19:50",
-      "publishedTs": 1794567054,
-      "image": "https://cdn.image.st-hatena.com/image/scale/d5c90eb051b7f12f50fe0e47e38459f3884c8866/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fj%2Fjoisino%2F20261111%2F20261111174347.png",
-      "summary": "拙著『検索システム』『推薦システム』が発売されました。 ▲カバーイラストがおしゃれで嬉しい これらはその名の通り検索システムと推薦システムの教科書です。LLM 時代の新基準になることを目指して執筆しました。すべてのログデータをプロンプトに入れて「これを前提に何を推薦すればいいか」と LLM に訊くという投げ…",
+      "title": "データセンターの排熱でエビ養殖、NTT系が実験　育ったら食べられる？　担当者に聞いてみた",
+      "source": "itmedia.co.jp",
+      "publishedAt": "2026-11-13 20:33",
+      "publishedTs": 1794569588,
+      "image": "https://www.itmedia.co.jp/news/article/ogp/2611/13/2000003200/10012155/2048",
+      "summary": "NTTドコモビジネスなど4社は11月13日、データセンターの排熱を活用してエビを養殖する実証実験を発表した。2026年度中に養殖に適した排熱の回収方法を模索し、2027年度には回収した熱を使ってクルマエビ科の一種「バナメイエビ」を育てる計画だ。なぜエビの養殖を選んだのか、育てたエビはどうするのか。担当者に話…",
       "points": [
         "カテゴリ: テクノロジー・AIで話題の記事",
-        "引用元: joisino.hatenablog.com（2026-11-13 19:50）",
+        "引用元: itmedia.co.jp（2026-11-13 20:33）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "テクノロジー・AI分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "テクノロジー・AI",
-        "joisino.hatenablog.com"
+        "itmedia.co.jp"
       ],
-      "url": "https://joisino.hatenablog.com/entry/searchrecbook",
+      "url": "https://www.itmedia.co.jp/news/article/2611/13/2000003200/",
       "isAiEnriched": false
     },
     {
@@ -475,86 +475,86 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "学生が発表で使ったスライドがAIを使っていたので使用ソフトを尋ねたら「全部AIです」と言われた、Figmaとかだと思ったらツールごと全部AIとHTMLで作ってた",
-      "source": "togetter.com",
-      "publishedAt": "2026-11-13 22:27",
-      "publishedTs": 1794576428,
-      "image": "https://s.tgstc.com/ogp3/a16bc210d41b3d32d2a7f99b927c9bc4-1200x630.jpeg",
-      "summary": "渡邊 恵太 @100kw 今日は衝撃でした。 私「このスライドはAI使ってますよね？ソフトはなんですか？」 学生「全部AIです」 私「？Figmaですか？」 学生「スライドもAIでHTMLで作らせましたが、スライドソフト自体もAIでHTML製です。文字の位置調整とかできます」 私「🫨」 x.com/100k…",
+      "title": "『検索システム』『推薦システム』とLLM時代の検索推薦 - ｼﾞｮｲｼﾞｮｲｼﾞｮｲ",
+      "source": "joisino.hatenablog.com",
+      "publishedAt": "2026-11-13 19:50",
+      "publishedTs": 1794567054,
+      "image": "https://cdn.image.st-hatena.com/image/scale/d5c90eb051b7f12f50fe0e47e38459f3884c8866/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fj%2Fjoisino%2F20261111%2F20261111174347.png",
+      "summary": "拙著『検索システム』『推薦システム』が発売されました。 ▲カバーイラストがおしゃれで嬉しい これらはその名の通り検索システムと推薦システムの教科書です。LLM 時代の新基準になることを目指して執筆しました。すべてのログデータをプロンプトに入れて「これを前提に何を推薦すればいいか」と LLM に訊くという投げ…",
       "points": [
         "カテゴリ: テクノロジー・AIで話題の記事",
-        "引用元: togetter.com（2026-11-13 22:27）",
+        "引用元: joisino.hatenablog.com（2026-11-13 19:50）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "テクノロジー・AI分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "テクノロジー・AI",
-        "togetter.com"
+        "joisino.hatenablog.com"
       ],
-      "url": "https://togetter.com/li/2770106",
+      "url": "https://joisino.hatenablog.com/entry/searchrecbook",
       "isAiEnriched": false
     },
     {
       "category": "business",
-      "title": "高市総理が答弁→国会ストップ→代打・片山大臣でも国会ストップ…消費減税めぐり大荒れ 共産・小池議員「1億人大増税約束法案だ」 | 政治 | ABEMA TIMES | アベマタイムズ",
-      "source": "times.abema.tv",
-      "publishedAt": "2026-11-13 21:06",
-      "publishedTs": 1794571571,
-      "image": "https://times-abema.ismcdn.jp/mwimgs/4/0/1200w/img_40a73a23af1a72fc7812f407e6468620548539.jpg",
-      "summary": "「めちゃくちゃお話が弾んでおられる」愛子さまと信子さまが武道大会で楽しそうに談笑…お二人の“自然体なやりとり”がSNSで大反響「さすが我らの姫様」",
+      "title": "米中ロが史上初の3首脳会談へ　米側が発表　中国深圳で19日開催：朝日新聞",
+      "source": "asahi.com",
+      "publishedAt": "2026-11-14 09:10",
+      "publishedTs": 1794615024,
+      "image": "https://imgopt.asahi.com/ogp/AS20261114000885_comm.jpg",
+      "summary": "米ホワイトハウスは13日、トランプ大統領が中国の習近平（シーチンピン）国家主席、ロシアのプーチン大統領と19日に3首脳で会談すると発表した。米中ロ3カ国による正式な首脳会談は史上初めてとみられる。 …",
       "points": [
         "カテゴリ: ビジネス・経済で話題の記事",
-        "引用元: times.abema.tv（2026-11-13 21:06）",
+        "引用元: asahi.com（2026-11-14 09:10）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "ビジネス・経済分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "ビジネス・経済",
-        "times.abema.tv"
+        "asahi.com"
       ],
-      "url": "https://times.abema.tv/articles/-/10288829",
+      "url": "https://www.asahi.com/articles/ASVCF7VTGVCFUHBI00PM.html",
       "isAiEnriched": false
     },
     {
       "category": "domestic",
-      "title": "日本、出産は50万円引き、来年からは無料です、子供は18歳まで医療費無料です、幼小中高の学費実質無料です、児童手当が15,000円/月もらえます これで少子化になるのおかしい→「夫婦が子供を持つ率は昔からあんま変わってないので未婚化がエグいって研究してる人が言ってましたね」",
-      "source": "posfie.com",
-      "publishedAt": "2026-11-13 19:14",
-      "publishedTs": 1794564880,
-      "image": "https://s.tgstc.com/ogp3/888d1aceee35ee275affa490d6e7300b-1200x630.jpeg",
-      "summary": "ジロー @JiRo_ym 日本 ・出産は50万円引き、来年からは無料です ・子供は18歳まで医療費無料です ・幼小中高の学費実質無料です ・児童手当が15,000円/月もらえます これで少子化になるのおかしい 2026-11-12 16:50:16…",
+      "title": "やまやで15回おかわりしたら出禁宣告された人が謝罪…しかしやまや系列で働く人から「おかわりする人を大事にって教育された」の声、サポセンの回答も「配慮の必要なし」",
+      "source": "togetter.com",
+      "publishedAt": "2026-11-14 06:31",
+      "publishedTs": 1794605510,
+      "image": "https://s.tgstc.com/ogp3/43ce538702ae4508fc757c059321f059-1200x630.jpeg",
+      "summary": "あー(っ'-')╮=͟͟͞♡ @tuuhuusuien 別にね、やまやさんを否定したり悪く言いたいわけじゃないのよ？ 明太子も高菜も本当に美味しすぎて、ご飯が進むし、時間を空けて2つずつ提供される天麩羅のお気遣いが(どれも熱々で食べられるように)素晴らしいって言ってるの。 やまやさんを批判するのも、コメント…",
       "points": [
         "カテゴリ: 国内・総合で話題の記事",
-        "引用元: posfie.com（2026-11-13 19:14）",
+        "引用元: togetter.com（2026-11-14 06:31）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "国内・総合分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "国内・総合",
-        "posfie.com"
+        "togetter.com"
       ],
-      "url": "https://posfie.com/@kalofollow/p/RzCY6cB",
+      "url": "https://togetter.com/li/2770203",
       "isAiEnriched": false
     },
     {
       "category": "tech",
-      "title": "データセンターの排熱でエビ養殖、NTT系が実験　育ったら食べられる？　担当者に聞いてみた",
-      "source": "itmedia.co.jp",
-      "publishedAt": "2026-11-13 20:33",
-      "publishedTs": 1794569588,
-      "image": "https://www.itmedia.co.jp/news/article/ogp/2611/13/2000003200/10012155/2048",
-      "summary": "NTTドコモビジネスなど4社は11月13日、データセンターの排熱を活用してエビを養殖する実証実験を発表した。2026年度中に養殖に適した排熱の回収方法を模索し、2027年度には回収した熱を使ってクルマエビ科の一種「バナメイエビ」を育てる計画だ。なぜエビの養殖を選んだのか、育てたエビはどうするのか。担当者に話…",
+      "title": "【速報】マネックス証券、マイナカード画像漏えいか",
+      "source": "47news.jp",
+      "publishedAt": "2026-11-14 00:36",
+      "publishedTs": 1794584170,
+      "image": "https://img.cf.47news.jp/static/renewal/common/img/thumb_large.png",
+      "summary": "マネックス証券は13日、委託先が運営・管理する口座開設システムが不正アクセスを受け、運転免許証やマイナンバーカードといった本人確認書類の画像1592件と、最大113万件のメールアドレスが漏えいした恐れがあると発表した。",
       "points": [
         "カテゴリ: テクノロジー・AIで話題の記事",
-        "引用元: itmedia.co.jp（2026-11-13 20:33）",
+        "引用元: 47news.jp（2026-11-14 00:36）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "テクノロジー・AI分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "テクノロジー・AI",
-        "itmedia.co.jp"
+        "47news.jp"
       ],
-      "url": "https://www.itmedia.co.jp/news/article/2611/13/2000003200/",
+      "url": "https://www.47news.jp/15227159.html",
       "isAiEnriched": false
     },
     {
@@ -601,44 +601,44 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "Firefoxの内蔵VPNを無料＆データ通信量無制限で全ユーザーに提供するとMozillaが発表、2027年1月31日まで",
-      "source": "gigazine.net",
-      "publishedAt": "2026-11-13 18:17",
-      "publishedTs": 1794561479,
-      "image": "https://i.gzn.jp/img/2026/11/13/firefox-vpn/00.png",
-      "summary": "Firefoxブラウザには無料のVPNが内蔵されており、ウェブサイトがIPアドレスを使ってユーザーの所在地を特定したり、ウェブ上のアクセス履歴を追跡したりすることを制限することができます。通常は内蔵VPNを利用するにはサインインした上で月間50GBのデータ制限がありますが、2026年11月10日から2027…",
+      "title": "人間＋AIを「チーム」としてプロセスを再設計する",
+      "source": "speakerdeck.com",
+      "publishedAt": "2026-11-13 23:24",
+      "publishedTs": 1794579894,
+      "image": "https://files.speakerdeck.com/presentations/8308bf272fb54c05ab73e2a607c5e037/slide_0.jpg?41350552",
+      "summary": "「AI駆動経営」勉強会 #4（2026/11/12）での登壇資料です。 https://aid.connpass.com/event/409635/ AIで何もかもが変わっていくように見えますが、仕事は「一人とAI」では閉じません。 組織開発のフレームワーク GRPI（Goals / Role…",
       "points": [
         "カテゴリ: テクノロジー・AIで話題の記事",
-        "引用元: gigazine.net（2026-11-13 18:17）",
+        "引用元: speakerdeck.com（2026-11-13 23:24）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "テクノロジー・AI分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "テクノロジー・AI",
-        "gigazine.net"
+        "speakerdeck.com"
       ],
-      "url": "https://gigazine.net/news/20261113-firefox-vpn/",
+      "url": "https://speakerdeck.com/littlehands/ai-kudou-keiei-suraido-20261112-0eeda77b-3c60-4af9-b059-2eb1ff3ef2c1",
       "isAiEnriched": false
     },
     {
       "category": "business",
-      "title": "中国首相、ＡＳＥＡＮの場で日本回避の公算…高市首相が出席する可能性ある会議への参加見送りか",
-      "source": "yomiuri.co.jp",
-      "publishedAt": "2026-11-13 16:52",
-      "publishedTs": 1794556356,
-      "image": "https://www.yomiuri.co.jp/media/2026/11/20261113-GYT1I00150-1.jpg?type=ogp",
-      "summary": "【読売新聞】 【北京＝吉永亜希子】中国の 李強 （ リーチャン ） 首相は１５～１６日、フィリピンの首都マニラを訪問し、中国と東南アジア諸国連合（ＡＳＥＡＮ）の首脳会議に出席する。 中国外務省の１１日の発表では、いずれも１７日に行わ…",
+      "title": "高市総理が答弁→国会ストップ→代打・片山大臣でも国会ストップ…消費減税めぐり大荒れ 共産・小池議員「1億人大増税約束法案だ」 | 政治 | ABEMA TIMES | アベマタイムズ",
+      "source": "times.abema.tv",
+      "publishedAt": "2026-11-13 21:06",
+      "publishedTs": 1794571571,
+      "image": "https://times-abema.ismcdn.jp/mwimgs/4/0/1200w/img_40a73a23af1a72fc7812f407e6468620548539.jpg",
+      "summary": "「めちゃくちゃお話が弾んでおられる」愛子さまと信子さまが武道大会で楽しそうに談笑…お二人の“自然体なやりとり”がSNSで大反響「さすが我らの姫様」",
       "points": [
         "カテゴリ: ビジネス・経済で話題の記事",
-        "引用元: yomiuri.co.jp（2026-11-13 16:52）",
+        "引用元: times.abema.tv（2026-11-13 21:06）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "ビジネス・経済分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "ビジネス・経済",
-        "yomiuri.co.jp"
+        "times.abema.tv"
       ],
-      "url": "https://www.yomiuri.co.jp/world/20261113-GYT1T00148/",
+      "url": "https://times.abema.tv/articles/-/10288829",
       "isAiEnriched": false
     }
   ]
