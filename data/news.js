@@ -1,27 +1,27 @@
 window.NEWS_DATA = {
   "date": "2026年11月15日 (日)",
-  "updatedAt": "2026-11-15 07:37",
+  "updatedAt": "2026-11-15 08:15",
   "title": "TREND NEWS",
   "keywords": [
-    "米中露の接近 日本政府は危…",
-    "AI悪用攻撃拠点か 世界で…",
+    "きょう近畿や東海で激しい雨…",
+    "Netflixが値上げ 最…",
     "エヌビディアCEO 後任選…",
-    "関東15日は気温急降下 師…",
-    "マイクロソフトの障害 全面…",
-    "タマホーム 保険代理業を廃…"
+    "首相 「アジア版IEA」創…",
+    "AI悪用攻撃拠点か 世界で…",
+    "売れ残りを寄付 広がる一方…"
   ],
   "items": [
     {
       "category": "domestic",
-      "title": "米中露の接近 日本政府は危機感",
+      "title": "きょう近畿や東海で激しい雨 注意",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-14 20:17",
-      "publishedTs": 1794655024,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800",
-      "summary": "政府は、トランプ米政権に懸念を伝えていたにもかかわらず、米国、中国、ロシアの首脳会談が開かれることとなり3カ国の接近に危機感を強めている。「わが国と築き上げてきた安全保障秩序を毀損しないよう米側に注…",
+      "publishedAt": "2026-11-15 08:07",
+      "publishedTs": 1794697647,
+      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/15/e29e16dffd2bc8327543e7cd3ea56f2f8aed8ec20a2ceb337f37a850bd9b4a5d.jpg",
+      "summary": "今日15日(日)は太平洋側を中心に発達した雨雲や雷雲がかかるでしょう。九州や四国は昼前にかけて、近畿は昼過ぎにかけて激しい雨や雷雨になる所がありそうです。東海は昼前から夕方にかけて局地的に激しい雨が…",
       "points": [
         "カテゴリ: 国内・総合の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-14 20:17）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 08:07）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "国内・総合分野で関心を集めている最新ニュースです。",
@@ -29,20 +29,20 @@ window.NEWS_DATA = {
         "国内・総合",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/pickup/6602584?source=rss",
+      "url": "https://news.yahoo.co.jp/pickup/6602621?source=rss",
       "isAiEnriched": false
     },
     {
       "category": "tech",
-      "title": "AI悪用攻撃拠点か 世界で千台発見",
+      "title": "Netflixが値上げ 最安は990円に",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-14 22:45",
-      "publishedTs": 1794663944,
-      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/eternal/2023/10/2/9846172226b1f454b7799140cec36c5e0725fae7f6dd816b7a80e5ee21bfb0b0.jpg",
-      "summary": "高性能な人工知能（AI）を悪用したサイバー攻撃の拠点と疑われるサーバーが10月以降、世界のインターネット上に少なくとも千台前後存在していることが14日、分かった。日本の情報セキュリティー専門機関が海…",
+      "publishedAt": "2026-11-15 07:58",
+      "publishedTs": 1794697128,
+      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/15/295dc8a23f1198e652299ef3c5722a35de55a468d02ace0b2893973dc305822a.jpg",
+      "summary": "Netflixは、日本における各プランの月額料金を値上げした。4K/HDR視聴に対応する「プレミアム」は300円値上げの月額2,590円、最安の「広告つきスタンダード」は100円値上げの月額990円…",
       "points": [
         "カテゴリ: テクノロジー・AIの注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-14 22:45）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 07:58）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "テクノロジー・AI分野で関心を集めている最新ニュースです。",
@@ -50,7 +50,7 @@ window.NEWS_DATA = {
         "テクノロジー・AI",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/pickup/6602602?source=rss",
+      "url": "https://news.yahoo.co.jp/pickup/6602619?source=rss",
       "isAiEnriched": false
     },
     {
@@ -76,15 +76,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "関東15日は気温急降下 師走並みか",
+      "title": "首相 「アジア版IEA」創設提唱へ",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-14 15:06",
-      "publishedTs": 1794636419,
-      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/14/67a4720168e8c401284c176c89102dcb3dbcebef562e00a05c8d15ff3a148585.jpg",
-      "summary": "15日(日)の関東は朝から夜にかけて雨が降り、最高気温は前日より大幅に低くなる予想です。東京都心と前橋は14℃、さいたまは13℃など師走並みの寒さになる所もあるでしょう。15日(日)は昼間も厚手の上…",
+      "publishedAt": "2026-11-15 07:36",
+      "publishedTs": 1794695801,
+      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/15/9034e7f07cf3146767f55c395f8a76903fa458e0e3f4e32ce5d9922be02604a9.jpg",
+      "summary": "高市首相は、１７日にフィリピン・マニラで開かれるアジア・ゼロエミッション共同体（ＡＺＥＣ）の首脳会合で、危機時の石油調達で連携する枠組みとして「アジア版ＩＥＡ（国際エネルギー機関）」の創設を提唱する…",
       "points": [
         "カテゴリ: 国内・総合の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-14 15:06）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 07:36）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "国内・総合分野で関心を集めている最新ニュースです。",
@@ -92,20 +92,20 @@ window.NEWS_DATA = {
         "国内・総合",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/pickup/6602551?source=rss",
+      "url": "https://news.yahoo.co.jp/pickup/6602615?source=rss",
       "isAiEnriched": false
     },
     {
       "category": "tech",
-      "title": "マイクロソフトの障害 全面復旧",
+      "title": "AI悪用攻撃拠点か 世界で千台発見",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-14 15:27",
-      "publishedTs": 1794637645,
-      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/14/7839b54a28bb0eaf8f488c04bd0a7573ed3d1d7428e94b1741c9c033bca79467.jpg",
-      "summary": "アメリカのIT大手マイクロソフトは世界規模で発生した接続障害について、サービスが全面復旧したと発表しました。",
+      "publishedAt": "2026-11-14 22:45",
+      "publishedTs": 1794663944,
+      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/eternal/2023/10/2/9846172226b1f454b7799140cec36c5e0725fae7f6dd816b7a80e5ee21bfb0b0.jpg",
+      "summary": "高性能な人工知能（AI）を悪用したサイバー攻撃の拠点と疑われるサーバーが10月以降、世界のインターネット上に少なくとも千台前後存在していることが14日、分かった。日本の情報セキュリティー専門機関が海…",
       "points": [
         "カテゴリ: テクノロジー・AIの注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-14 15:27）",
+        "配信: Yahoo!ニュース トピックス（2026-11-14 22:45）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "テクノロジー・AI分野で関心を集めている最新ニュースです。",
@@ -113,70 +113,7 @@ window.NEWS_DATA = {
         "テクノロジー・AI",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/pickup/6602556?source=rss",
-      "isAiEnriched": false
-    },
-    {
-      "category": "business",
-      "title": "タマホーム 保険代理業を廃業へ",
-      "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-14 10:20",
-      "publishedTs": 1794619208,
-      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/14/8eb1820216563d10363c2ff98718033fb45616d7655363cc39fe6dfffe5f1636.jpg",
-      "summary": "住宅メーカーのタマホームの社員が火災保険の保険金の不正請求をしていた問題で、同社は14日、保険代理業の廃業に向けて、損害保険会社に申し入れをしたと発表した。これまでの社内調査と並行して、外部の専門家…",
-      "points": [
-        "カテゴリ: ビジネス・経済の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-14 10:20）",
-        "「元記事を読む」から詳細を確認できます"
-      ],
-      "impact": "ビジネス・経済分野で関心を集めている最新ニュースです。",
-      "tags": [
-        "ビジネス・経済",
-        "Yahoo!ニュース"
-      ],
-      "url": "https://news.yahoo.co.jp/pickup/6602519?source=rss",
-      "isAiEnriched": false
-    },
-    {
-      "category": "domestic",
-      "title": "防衛費5年で60兆円規模 政府調整",
-      "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-14 08:38",
-      "publishedTs": 1794613106,
-      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/14/9ce51eceb54a820abd29aa892e5e29e5f9344d31d906d638911c7be63386a7a2.jpg",
-      "summary": "政府は、年末の安全保障関連3文書改定に合わせて定める2027～31年度の5年間の防衛費総額について、60兆円規模を視野に調整に入った。防衛費をさらに増額すれば、財源確保のため大幅増税が必要になるとの…",
-      "points": [
-        "カテゴリ: 国内・総合の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-14 08:38）",
-        "「元記事を読む」から詳細を確認できます"
-      ],
-      "impact": "国内・総合分野で関心を集めている最新ニュースです。",
-      "tags": [
-        "国内・総合",
-        "Yahoo!ニュース"
-      ],
-      "url": "https://news.yahoo.co.jp/pickup/6602504?source=rss",
-      "isAiEnriched": false
-    },
-    {
-      "category": "tech",
-      "title": "MS 障害原因は過去の増強作業",
-      "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-14 23:42",
-      "publishedTs": 1794667326,
-      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/14/e058d3503fab7b659e391884f55f2d7474968c3d8b7af6b7f960cc5fadb11a63.jpg",
-      "summary": "【ニューヨーク＝木瀬武】米マイクロソフトは１４日未明（日本時間１４日午後）、メールソフト「アウトルック」など複数のサービスで発生した大規模なシステム障害が全面復旧したと発表した。日本を含む世界各地で…",
-      "points": [
-        "カテゴリ: テクノロジー・AIの注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-14 23:42）",
-        "「元記事を読む」から詳細を確認できます"
-      ],
-      "impact": "テクノロジー・AI分野で関心を集めている最新ニュースです。",
-      "tags": [
-        "テクノロジー・AI",
-        "Yahoo!ニュース"
-      ],
-      "url": "https://news.yahoo.co.jp/pickup/6602606?source=rss",
+      "url": "https://news.yahoo.co.jp/pickup/6602602?source=rss",
       "isAiEnriched": false
     },
     {
@@ -202,15 +139,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "自衛官の給与引き上げ法が成立",
+      "title": "米中露の接近 日本政府は危機感",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-13 23:48",
-      "publishedTs": 1794581283,
-      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/13/07e0f2dc16f154bbe95f39f28cfe2bbef850b3ae620c234f149ef5f95fa05dfe.jpg",
-      "summary": "全ての年代の自衛官の基本給を引き上げることなどを盛り込んだ「防衛省の職員の給与等に関する法律の改正法」が、13日の参議院本会議で可決・成立しました。",
+      "publishedAt": "2026-11-14 20:17",
+      "publishedTs": 1794655024,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800",
+      "summary": "政府は、トランプ米政権に懸念を伝えていたにもかかわらず、米国、中国、ロシアの首脳会談が開かれることとなり3カ国の接近に危機感を強めている。「わが国と築き上げてきた安全保障秩序を毀損しないよう米側に注…",
       "points": [
         "カテゴリ: 国内・総合の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-13 23:48）",
+        "配信: Yahoo!ニュース トピックス（2026-11-14 20:17）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "国内・総合分野で関心を集めている最新ニュースです。",
@@ -218,20 +155,20 @@ window.NEWS_DATA = {
         "国内・総合",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/pickup/6602480?source=rss",
+      "url": "https://news.yahoo.co.jp/pickup/6602584?source=rss",
       "isAiEnriched": false
     },
     {
       "category": "tech",
-      "title": "マイクロソフト 大規模障害を謝罪",
+      "title": "マイクロソフトの障害 全面復旧",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-14 08:55",
-      "publishedTs": 1794614142,
-      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/14/e6b36b62472fc53436734b6d37af39eceb49fdc81da63c16d7316ae834f4c830.jpg",
-      "summary": "【AFP＝時事】米マイクロソフトは13日、世界各地の公共サービスや企業に支障を及ぼした大規模障害について謝罪した。メールサービス「アウトルック」などが「広範に復旧した」と述べ、全面復旧に向けた作業を…",
+      "publishedAt": "2026-11-14 15:27",
+      "publishedTs": 1794637645,
+      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/14/7839b54a28bb0eaf8f488c04bd0a7573ed3d1d7428e94b1741c9c033bca79467.jpg",
+      "summary": "アメリカのIT大手マイクロソフトは世界規模で発生した接続障害について、サービスが全面復旧したと発表しました。",
       "points": [
         "カテゴリ: テクノロジー・AIの注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-14 08:55）",
+        "配信: Yahoo!ニュース トピックス（2026-11-14 15:27）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "テクノロジー・AI分野で関心を集めている最新ニュースです。",
@@ -239,7 +176,7 @@ window.NEWS_DATA = {
         "テクノロジー・AI",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/pickup/6602508?source=rss",
+      "url": "https://news.yahoo.co.jp/pickup/6602556?source=rss",
       "isAiEnriched": false
     },
     {
@@ -265,15 +202,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "声や肖像 AIの無断利用に規制案",
+      "title": "横田さん拉致49年 母が思い吐露",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-14 07:55",
-      "publishedTs": 1794610556,
-      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/14/70caae19a8283fd383492ce3b613b1fef723c62d9ef9bd04641b4dad78ef4ac6.jpg",
-      "summary": "経済産業省は１３日、生成ＡＩ（人工知能）による声や肖像の無断使用などを防ぐため、不正競争防止法で新たに規制する行為の具体案を有識者会議に示した。肖像や声が持つ魅力を商品や広告に無断利用する行為を対象…",
+      "publishedAt": "2026-11-15 08:10",
+      "publishedTs": 1794697836,
+      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/15/988c416b8d7760fd4297eef6382084d721af90c1fc6d3e320226553b4c8135bc.jpg",
+      "summary": "新潟市の中学1年生だった横田めぐみさんが北朝鮮に拉致されて、2026年11月15日で49年となる。母・早紀江さん（90）は「一回でもいいから会いたい」とめぐみさんへの思いを吐露した。",
       "points": [
         "カテゴリ: 国内・総合の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-14 07:55）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 08:10）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "国内・総合分野で関心を集めている最新ニュースです。",
@@ -281,20 +218,20 @@ window.NEWS_DATA = {
         "国内・総合",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/pickup/6602494?source=rss",
+      "url": "https://news.yahoo.co.jp/pickup/6602620?source=rss",
       "isAiEnriched": false
     },
     {
       "category": "tech",
-      "title": "マネックス証券 免許証画像流出か",
+      "title": "MS 障害原因は過去の増強作業",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-14 07:28",
-      "publishedTs": 1794608898,
-      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/14/2ce069a4082622f7ee5ddab2ffc78b855e538e795c01793f62e70223b341dbf6.jpg",
-      "summary": "インターネット証券大手のマネックス証券は10月に公表した不正アクセスで、運転免許証などの画像およそ1600件に流出の恐れがあると発表しました。",
+      "publishedAt": "2026-11-14 23:42",
+      "publishedTs": 1794667326,
+      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/14/e058d3503fab7b659e391884f55f2d7474968c3d8b7af6b7f960cc5fadb11a63.jpg",
+      "summary": "【ニューヨーク＝木瀬武】米マイクロソフトは１４日未明（日本時間１４日午後）、メールソフト「アウトルック」など複数のサービスで発生した大規模なシステム障害が全面復旧したと発表した。日本を含む世界各地で…",
       "points": [
         "カテゴリ: テクノロジー・AIの注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-14 07:28）",
+        "配信: Yahoo!ニュース トピックス（2026-11-14 23:42）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "テクノロジー・AI分野で関心を集めている最新ニュースです。",
@@ -302,7 +239,7 @@ window.NEWS_DATA = {
         "テクノロジー・AI",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/pickup/6602486?source=rss",
+      "url": "https://news.yahoo.co.jp/pickup/6602606?source=rss",
       "isAiEnriched": false
     },
     {
@@ -328,15 +265,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "日本兵の墓が無縁化 解消に法の壁",
+      "title": "関東15日は気温急降下 師走並みか",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-14 21:32",
-      "publishedTs": 1794659573,
-      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/14/942fb40e42c832cabe66aad9ae36be189d3bf1b25305e8e44e6b6b8c98ae4e16.jpg",
-      "summary": "全国で相続や墓じまいの問題が語られるなか、福井県越前市にある寺の住職は、戦後80年以上が経過した今も「戦没者の墓」のゆくえに頭を悩ませている。",
+      "publishedAt": "2026-11-14 15:06",
+      "publishedTs": 1794636419,
+      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/14/67a4720168e8c401284c176c89102dcb3dbcebef562e00a05c8d15ff3a148585.jpg",
+      "summary": "15日(日)の関東は朝から夜にかけて雨が降り、最高気温は前日より大幅に低くなる予想です。東京都心と前橋は14℃、さいたまは13℃など師走並みの寒さになる所もあるでしょう。15日(日)は昼間も厚手の上…",
       "points": [
         "カテゴリ: 国内・総合の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-14 21:32）",
+        "配信: Yahoo!ニュース トピックス（2026-11-14 15:06）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "国内・総合分野で関心を集めている最新ニュースです。",
@@ -344,28 +281,28 @@ window.NEWS_DATA = {
         "国内・総合",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/pickup/6602590?source=rss",
+      "url": "https://news.yahoo.co.jp/pickup/6602551?source=rss",
       "isAiEnriched": false
     },
     {
       "category": "tech",
-      "title": "Building always-on agents",
-      "source": "claude.com",
-      "publishedAt": "2026-11-14 09:52",
-      "publishedTs": 1794617562,
-      "image": "https://claude.com/ja/resources/articles/building-always-on-agents/opengraph-image/og",
-      "summary": "Always-on agents run indefinitely, deciding how and when to act across many sessions. This guide walks through their core primitives and how they fit toge…",
+      "title": "マイクロソフト 大規模障害を謝罪",
+      "source": "Yahoo!ニュース",
+      "publishedAt": "2026-11-14 08:55",
+      "publishedTs": 1794614142,
+      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/14/e6b36b62472fc53436734b6d37af39eceb49fdc81da63c16d7316ae834f4c830.jpg",
+      "summary": "【AFP＝時事】米マイクロソフトは13日、世界各地の公共サービスや企業に支障を及ぼした大規模障害について謝罪した。メールサービス「アウトルック」などが「広範に復旧した」と述べ、全面復旧に向けた作業を…",
       "points": [
-        "カテゴリ: テクノロジー・AIで話題の記事",
-        "引用元: claude.com（2026-11-14 09:52）",
-        "「元記事を読む」から本文を確認できます"
+        "カテゴリ: テクノロジー・AIの注目トピック",
+        "配信: Yahoo!ニュース トピックス（2026-11-14 08:55）",
+        "「元記事を読む」から詳細を確認できます"
       ],
-      "impact": "テクノロジー・AI分野で多くの読者に共有されている注目記事です。",
+      "impact": "テクノロジー・AI分野で関心を集めている最新ニュースです。",
       "tags": [
         "テクノロジー・AI",
-        "claude.com"
+        "Yahoo!ニュース"
       ],
-      "url": "https://claude.com/resources/articles/building-always-on-agents",
+      "url": "https://news.yahoo.co.jp/pickup/6602508?source=rss",
       "isAiEnriched": false
     },
     {
@@ -391,23 +328,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "バカの家計管理してる",
-      "source": "anond.hatelabo.jp",
-      "publishedAt": "2026-11-14 10:18",
-      "publishedTs": 1794619138,
-      "image": "https://anond.hatelabo.jp/assets/images/og-image-1500.gif",
-      "summary": "無駄遣いがひどくて毎月予算に収まらず、ボーナスが補填にまわるみたいになっててよくないなーと思っていた。無駄遣いの内容は、でっかい買い物するとか旅行とか毎晩飲みに行ってるとかじゃなくて、ガチャとか電子書籍とかコンビニとかまあ、なんか気付いたら、みたいなことが多くて、家計簿つけたりしてもなんかうまく...",
+      "title": "日本兵の墓が無縁化 解消に法の壁",
+      "source": "Yahoo!ニュース",
+      "publishedAt": "2026-11-14 21:32",
+      "publishedTs": 1794659573,
+      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/14/942fb40e42c832cabe66aad9ae36be189d3bf1b25305e8e44e6b6b8c98ae4e16.jpg",
+      "summary": "全国で相続や墓じまいの問題が語られるなか、福井県越前市にある寺の住職は、戦後80年以上が経過した今も「戦没者の墓」のゆくえに頭を悩ませている。",
       "points": [
-        "カテゴリ: 国内・総合で話題の記事",
-        "引用元: anond.hatelabo.jp（2026-11-14 10:18）",
-        "「元記事を読む」から本文を確認できます"
+        "カテゴリ: 国内・総合の注目トピック",
+        "配信: Yahoo!ニュース トピックス（2026-11-14 21:32）",
+        "「元記事を読む」から詳細を確認できます"
       ],
-      "impact": "国内・総合分野で多くの読者に共有されている注目記事です。",
+      "impact": "国内・総合分野で関心を集めている最新ニュースです。",
       "tags": [
         "国内・総合",
-        "anond.hatelabo.jp"
+        "Yahoo!ニュース"
       ],
-      "url": "https://anond.hatelabo.jp/20261114101649",
+      "url": "https://news.yahoo.co.jp/pickup/6602590?source=rss",
       "isAiEnriched": false
     },
     {
@@ -433,6 +370,69 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
+      "title": "菓子屋の倒産最多へ 老舗でも低迷",
+      "source": "Yahoo!ニュース",
+      "publishedAt": "2026-11-14 17:46",
+      "publishedTs": 1794645988,
+      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/14/4c7c22638f841b5dabd360a4e400b63a1a9a54a999073629174fc8a582dd5acf.jpg",
+      "summary": "「お菓子屋さん」の倒産が増加している。2026年1-10月の倒産は、1989年以降で最多だった2005年（1-12月）の13件に並んだ。過去最多の更新が確実になった。",
+      "points": [
+        "カテゴリ: ビジネス・経済の注目トピック",
+        "配信: Yahoo!ニュース トピックス（2026-11-14 17:46）",
+        "「元記事を読む」から詳細を確認できます"
+      ],
+      "impact": "ビジネス・経済分野で関心を集めている最新ニュースです。",
+      "tags": [
+        "ビジネス・経済",
+        "Yahoo!ニュース"
+      ],
+      "url": "https://news.yahoo.co.jp/pickup/6602566?source=rss",
+      "isAiEnriched": false
+    },
+    {
+      "category": "domestic",
+      "title": "バカの家計管理してる",
+      "source": "anond.hatelabo.jp",
+      "publishedAt": "2026-11-14 10:18",
+      "publishedTs": 1794619138,
+      "image": "https://anond.hatelabo.jp/assets/images/og-image-1500.gif",
+      "summary": "無駄遣いがひどくて毎月予算に収まらず、ボーナスが補填にまわるみたいになっててよくないなーと思っていた。無駄遣いの内容は、でっかい買い物するとか旅行とか毎晩飲みに行ってるとかじゃなくて、ガチャとか電子書籍とかコンビニとかまあ、なんか気付いたら、みたいなことが多くて、家計簿つけたりしてもなんかうまく...",
+      "points": [
+        "カテゴリ: 国内・総合で話題の記事",
+        "引用元: anond.hatelabo.jp（2026-11-14 10:18）",
+        "「元記事を読む」から本文を確認できます"
+      ],
+      "impact": "国内・総合分野で多くの読者に共有されている注目記事です。",
+      "tags": [
+        "国内・総合",
+        "anond.hatelabo.jp"
+      ],
+      "url": "https://anond.hatelabo.jp/20261114101649",
+      "isAiEnriched": false
+    },
+    {
+      "category": "tech",
+      "title": "Building always-on agents",
+      "source": "claude.com",
+      "publishedAt": "2026-11-14 09:52",
+      "publishedTs": 1794617562,
+      "image": "https://claude.com/ja/resources/articles/building-always-on-agents/opengraph-image/og",
+      "summary": "Always-on agents run indefinitely, deciding how and when to act across many sessions. This guide walks through their core primitives and how they fit toge…",
+      "points": [
+        "カテゴリ: テクノロジー・AIで話題の記事",
+        "引用元: claude.com（2026-11-14 09:52）",
+        "「元記事を読む」から本文を確認できます"
+      ],
+      "impact": "テクノロジー・AI分野で多くの読者に共有されている注目記事です。",
+      "tags": [
+        "テクノロジー・AI",
+        "claude.com"
+      ],
+      "url": "https://claude.com/resources/articles/building-always-on-agents",
+      "isAiEnriched": false
+    },
+    {
+      "category": "business",
       "title": "沖縄知事選の関連動画、兵庫知事選でも発信のアカウントが推計収益の6割独占　宮城でも活動",
       "source": "kobe-np.co.jp",
       "publishedAt": "2026-11-14 23:59",
@@ -454,23 +454,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "大川原冤罪で長期拘束認めた裁判所、避ける検証　訴訟で責任問う遺族：朝日新聞",
-      "source": "asahi.com",
-      "publishedAt": "2026-11-14 19:12",
-      "publishedTs": 1794651128,
-      "image": "https://imgopt.asahi.com/ogp/AS20261107000396_comm.jpg",
-      "summary": "■記者解説 社会部・米田優人、黒田早織 「違法な捜査が進んでいたのであれば、なぜ裁判所は止めることができなかったのか」。東京地裁で10月30日、裁判官の責任を問う訴訟でこう証言したのは、機械メーカー…",
+      "title": "フェミニズムが社会に浸透した結果",
+      "source": "anond.hatelabo.jp",
+      "publishedAt": "2026-11-14 23:14",
+      "publishedTs": 1794665691,
+      "image": "https://anond.hatelabo.jp/assets/images/og-image-1500.gif",
+      "summary": "男は女を養わなくなった。 男も女に経済力や甲斐性を要求して当たり前、女も働いて当たり前の価値観になった。 何だ、フェミニズムって男にとっても素晴らしいことではないか。",
       "points": [
         "カテゴリ: 国内・総合で話題の記事",
-        "引用元: asahi.com（2026-11-14 19:12）",
+        "引用元: anond.hatelabo.jp（2026-11-14 23:14）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "国内・総合分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "国内・総合",
-        "asahi.com"
+        "anond.hatelabo.jp"
       ],
-      "url": "https://www.asahi.com/articles/ASVC662TDVC6UPQJ00WM.html",
+      "url": "https://anond.hatelabo.jp/20261114231126",
       "isAiEnriched": false
     },
     {
@@ -517,23 +517,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "昔、肝癌で終末期入院中の母に「退院するときの服」を買ってくるように頼まれ、婦人服売り場でぼんやりと服を選んでいるときに声をかけてくれた店員さんに救われた",
-      "source": "togetter.com",
-      "publishedAt": "2026-11-14 18:23",
-      "publishedTs": 1794648200,
-      "image": "https://s.tgstc.com/ogp3/24c22d084c64d272ed9f66aacbc1c22e-1200x630.jpeg",
-      "summary": "せき @sekisyko ひと昔以上前、母親の肝癌終末期入院中(本人告知なし、そのまま看取りになる予定)の付き添いしていた時に本人から「退院するときの服が無いからなんかええやつ買うてきてんか」と頼まれ70代からぐらいの婦人服を売ってるお店で茫漠と服を選んでいた。すると私をじっと見ていた店員のお姉さんが→ 2…",
+      "title": "大川原冤罪で長期拘束認めた裁判所、避ける検証　訴訟で責任問う遺族：朝日新聞",
+      "source": "asahi.com",
+      "publishedAt": "2026-11-14 19:12",
+      "publishedTs": 1794651128,
+      "image": "https://imgopt.asahi.com/ogp/AS20261107000396_comm.jpg",
+      "summary": "■記者解説 社会部・米田優人、黒田早織 「違法な捜査が進んでいたのであれば、なぜ裁判所は止めることができなかったのか」。東京地裁で10月30日、裁判官の責任を問う訴訟でこう証言したのは、機械メーカー…",
       "points": [
         "カテゴリ: 国内・総合で話題の記事",
-        "引用元: togetter.com（2026-11-14 18:23）",
+        "引用元: asahi.com（2026-11-14 19:12）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "国内・総合分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "国内・総合",
-        "togetter.com"
+        "asahi.com"
       ],
-      "url": "https://togetter.com/li/2770389",
+      "url": "https://www.asahi.com/articles/ASVC662TDVC6UPQJ00WM.html",
       "isAiEnriched": false
     },
     {
@@ -580,44 +580,44 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "フェミニズムが社会に浸透した結果",
-      "source": "anond.hatelabo.jp",
-      "publishedAt": "2026-11-14 23:14",
-      "publishedTs": 1794665691,
-      "image": "https://anond.hatelabo.jp/assets/images/og-image-1500.gif",
-      "summary": "男は女を養わなくなった。 男も女に経済力や甲斐性を要求して当たり前、女も働いて当たり前の価値観になった。 何だ、フェミニズムって男にとっても素晴らしいことではないか。",
+      "title": "昔、肝癌で終末期入院中の母に「退院するときの服」を買ってくるように頼まれ、婦人服売り場でぼんやりと服を選んでいるときに声をかけてくれた店員さんに救われた",
+      "source": "togetter.com",
+      "publishedAt": "2026-11-14 18:23",
+      "publishedTs": 1794648200,
+      "image": "https://s.tgstc.com/ogp3/24c22d084c64d272ed9f66aacbc1c22e-1200x630.jpeg",
+      "summary": "せき @sekisyko ひと昔以上前、母親の肝癌終末期入院中(本人告知なし、そのまま看取りになる予定)の付き添いしていた時に本人から「退院するときの服が無いからなんかええやつ買うてきてんか」と頼まれ70代からぐらいの婦人服を売ってるお店で茫漠と服を選んでいた。すると私をじっと見ていた店員のお姉さんが→ 2…",
       "points": [
         "カテゴリ: 国内・総合で話題の記事",
-        "引用元: anond.hatelabo.jp（2026-11-14 23:14）",
+        "引用元: togetter.com（2026-11-14 18:23）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "国内・総合分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "国内・総合",
-        "anond.hatelabo.jp"
+        "togetter.com"
       ],
-      "url": "https://anond.hatelabo.jp/20261114231126",
+      "url": "https://togetter.com/li/2770389",
       "isAiEnriched": false
     },
     {
       "category": "tech",
-      "title": "マネジメントされる側の仕事は「文句」を言うこと",
-      "source": "speakerdeck.com",
-      "publishedAt": "2026-11-13 22:23",
-      "publishedTs": 1794576236,
-      "image": "https://files.speakerdeck.com/presentations/77ebd1aff03e4bd0a221a311ea2e231d/slide_0.jpg?41354216",
-      "summary": "このスライドはSlidevで作られており、以下のレポジトリで公開しています https://github.com/riya-amemiya/amemiya_riya_slide_data/tree/main/complaining_is_your_job Webバージョンはこちらから http…",
+      "title": "「すげぇ！教科書とかで見たフロッピーや！！これで容量どれくらいあるんですか？」若者のほのぼのとした感想がぶっ刺さるネット民",
+      "source": "togetter.com",
+      "publishedAt": "2026-11-14 21:54",
+      "publishedTs": 1794660853,
+      "image": "https://s.tgstc.com/ogp3/54892bba0fd3c6ad84afa397226a52c4-1200x630.jpeg",
+      "summary": "しー@園芸博NEXT！ @Sh_i0916 すげぇ！！！ フロッピーや！！ フロッピーや！！！ 教科書とかで見たフロッピーや！！ 初めて触ったかも！！ うっす！！！！ かるっ！！！！！ すげぇ！！ これで容量どれくらいあるんですか？ #フロッピー #富士通 pic.x.com/Ofx3uVhKaf 2026…",
       "points": [
         "カテゴリ: テクノロジー・AIで話題の記事",
-        "引用元: speakerdeck.com（2026-11-13 22:23）",
+        "引用元: togetter.com（2026-11-14 21:54）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "テクノロジー・AI分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "テクノロジー・AI",
-        "speakerdeck.com"
+        "togetter.com"
       ],
-      "url": "https://speakerdeck.com/riyaamemiya/slides-export-013b776f-8661-4e92-bac0-1ac4285999f9",
+      "url": "https://togetter.com/li/2770437",
       "isAiEnriched": false
     },
     {
