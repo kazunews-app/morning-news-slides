@@ -1,6 +1,6 @@
 window.NEWS_DATA = {
   "date": "2026年11月15日 (日)",
-  "updatedAt": "2026-11-15 01:26",
+  "updatedAt": "2026-11-15 02:12",
   "title": "TREND NEWS",
   "keywords": [
     "米中露の接近 日本政府は危…",
@@ -538,23 +538,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "Cognitoの自己サインアップが有効だと、誰でもAWSの一時認証情報を取得できる：AI攻撃ツールARTEXの事例と確認したい設定3点 | DevelopersIO",
-      "source": "dev.classmethod.jp",
-      "publishedAt": "2026-11-14 21:48",
-      "publishedTs": 1794660505,
-      "image": "https://devio2024-media.developers.io/image/upload/f_auto,q_auto/v1790871156/eyecatch/wagokraibjktomkouqin.png",
-      "summary": "どうも！オペ部の西村祐二です！ S3 にフロントエンドを置き、Amazon Cognito のユーザープールでログインさせ、ID プールで AWS の一時認証情報を渡す。AWS で SPA を作るときによく見る構成です。この構成が攻撃用の AI エージェントにどう使われたかを、Datadog Securit…",
+      "title": "AIについての追記",
+      "source": "ms.u-tokyo.ac.jp",
+      "publishedAt": "2026-11-14 19:13",
+      "publishedTs": 1794651219,
+      "image": "assets/images/news-4.jpg",
+      "summary": "Associate Professor, Graduate School of Mathematical Sciences 私のところで大学院入学を希望する方へ―AIについての追記 この文章は2026年11月に書いています．この年は，AIが数学にもたらした影響がある閾値を超えた年として記憶されるでしょう．大…",
       "points": [
         "カテゴリ: テクノロジー・AIで話題の記事",
-        "引用元: dev.classmethod.jp（2026-11-14 21:48）",
+        "引用元: ms.u-tokyo.ac.jp（2026-11-14 19:13）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "テクノロジー・AI分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "テクノロジー・AI",
-        "dev.classmethod.jp"
+        "ms.u-tokyo.ac.jp"
       ],
-      "url": "https://dev.classmethod.jp/articles/cognito-self-signup-agentic-attack/",
+      "url": "https://www.ms.u-tokyo.ac.jp/~konno/grad_ai.html",
       "isAiEnriched": false
     },
     {
@@ -601,44 +601,44 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "AIについての追記",
-      "source": "ms.u-tokyo.ac.jp",
-      "publishedAt": "2026-11-14 19:13",
-      "publishedTs": 1794651219,
-      "image": "assets/images/news-3.jpg",
-      "summary": "Associate Professor, Graduate School of Mathematical Sciences 私のところで大学院入学を希望する方へ―AIについての追記 この文章は2026年11月に書いています．この年は，AIが数学にもたらした影響がある閾値を超えた年として記憶されるでしょう．大…",
+      "title": "Cognitoの自己サインアップが有効だと、誰でもAWSの一時認証情報を取得できる：AI攻撃ツールARTEXの事例と確認したい設定3点 | DevelopersIO",
+      "source": "dev.classmethod.jp",
+      "publishedAt": "2026-11-14 21:48",
+      "publishedTs": 1794660505,
+      "image": "https://devio2024-media.developers.io/image/upload/f_auto,q_auto/v1790871156/eyecatch/wagokraibjktomkouqin.png",
+      "summary": "どうも！オペ部の西村祐二です！ S3 にフロントエンドを置き、Amazon Cognito のユーザープールでログインさせ、ID プールで AWS の一時認証情報を渡す。AWS で SPA を作るときによく見る構成です。この構成が攻撃用の AI エージェントにどう使われたかを、Datadog Securit…",
       "points": [
         "カテゴリ: テクノロジー・AIで話題の記事",
-        "引用元: ms.u-tokyo.ac.jp（2026-11-14 19:13）",
+        "引用元: dev.classmethod.jp（2026-11-14 21:48）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "テクノロジー・AI分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "テクノロジー・AI",
-        "ms.u-tokyo.ac.jp"
+        "dev.classmethod.jp"
       ],
-      "url": "https://www.ms.u-tokyo.ac.jp/~konno/grad_ai.html",
+      "url": "https://dev.classmethod.jp/articles/cognito-self-signup-agentic-attack/",
       "isAiEnriched": false
     },
     {
       "category": "business",
-      "title": "高市首相「会議に出たくない」ムーブ被害者たちの困惑国際。国際会議を欠席しまくる総理の言い逃れ乱舞、実は昔から？...",
-      "source": "wpb.shueisha.co.jp",
-      "publishedAt": "2026-11-14 09:05",
-      "publishedTs": 1794614757,
-      "image": "https://wpb.shueisha.co.jp/news/politics/2026/images/Takaichisanae01.jpg",
-      "summary": "週プレNEWS TOP新着ニュース政治・国際ニュース高市首相「会議に出たくない」ムーブ被害者たちの困惑国際。国際会議を欠席しまくる総理の言い逃れ乱舞、実は昔から？... ドタキャンを繰り返してきた高市早苗首相 米中露のトップが参加するAPEC（アジア太平洋経済協力会議）首脳会議が11月18日から開催されるが…",
+      "title": "戦争に疲れても…トランプ氏の「停戦」に反発　ウクライナ人の心の内：朝日新聞",
+      "source": "digital.asahi.com",
+      "publishedAt": "2026-11-14 17:50",
+      "publishedTs": 1794646220,
+      "image": "https://imgopt.asahi.com/ogp/AS20261110003379_comm.jpg",
+      "summary": "みなさん、こんにちは。ニュースレターや記者アカウントにお寄せいただく感想や応援のメッセージに、いつも大変力づけられています。 その中に、こんな質問がありました（文章は少し手直ししています）。 「ウクライナの人々は、ゼレンスキー大統領に何を思っているのでしょうか」 「ウクライナの人たちは、終わらない戦...",
       "points": [
         "カテゴリ: ビジネス・経済で話題の記事",
-        "引用元: wpb.shueisha.co.jp（2026-11-14 09:05）",
+        "引用元: digital.asahi.com（2026-11-14 17:50）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "ビジネス・経済分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "ビジネス・経済",
-        "wpb.shueisha.co.jp"
+        "digital.asahi.com"
       ],
-      "url": "https://wpb.shueisha.co.jp/news/politics/20261114-133539/",
+      "url": "https://digital.asahi.com/sp/articles/ASVCB33QHVCBUHBI00BM.html?ptoken=01M7CESWQ2280FMGXFQHVAK603",
       "isAiEnriched": false
     }
   ]
