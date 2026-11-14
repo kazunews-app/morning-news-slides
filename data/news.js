@@ -1,6 +1,6 @@
 window.NEWS_DATA = {
-  "date": "2026年11月14日 (土)",
-  "updatedAt": "2026-11-14 23:22",
+  "date": "2026年11月15日 (日)",
+  "updatedAt": "2026-11-15 00:09",
   "title": "TREND NEWS",
   "keywords": [
     "米中露の接近 日本政府は危…",
@@ -160,15 +160,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "マイクロソフト 大規模障害を謝罪",
+      "title": "MS 障害原因は過去の増強作業",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-14 08:55",
-      "publishedTs": 1794614142,
-      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/14/e6b36b62472fc53436734b6d37af39eceb49fdc81da63c16d7316ae834f4c830.jpg",
-      "summary": "【AFP＝時事】米マイクロソフトは13日、世界各地の公共サービスや企業に支障を及ぼした大規模障害について謝罪した。メールサービス「アウトルック」などが「広範に復旧した」と述べ、全面復旧に向けた作業を…",
+      "publishedAt": "2026-11-14 23:42",
+      "publishedTs": 1794667326,
+      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/14/e058d3503fab7b659e391884f55f2d7474968c3d8b7af6b7f960cc5fadb11a63.jpg",
+      "summary": "【ニューヨーク＝木瀬武】米マイクロソフトは１４日未明（日本時間１４日午後）、メールソフト「アウトルック」など複数のサービスで発生した大規模なシステム障害が全面復旧したと発表した。日本を含む世界各地で…",
       "points": [
         "カテゴリ: テクノロジー・AIの注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-14 08:55）",
+        "配信: Yahoo!ニュース トピックス（2026-11-14 23:42）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "テクノロジー・AI分野で関心を集めている最新ニュースです。",
@@ -176,7 +176,7 @@ window.NEWS_DATA = {
         "テクノロジー・AI",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/pickup/6602508?source=rss",
+      "url": "https://news.yahoo.co.jp/pickup/6602606?source=rss",
       "isAiEnriched": false
     },
     {
@@ -223,15 +223,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "マネックス証券 免許証画像流出か",
+      "title": "マイクロソフト 大規模障害を謝罪",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-14 07:28",
-      "publishedTs": 1794608898,
-      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/14/2ce069a4082622f7ee5ddab2ffc78b855e538e795c01793f62e70223b341dbf6.jpg",
-      "summary": "インターネット証券大手のマネックス証券は10月に公表した不正アクセスで、運転免許証などの画像およそ1600件に流出の恐れがあると発表しました。",
+      "publishedAt": "2026-11-14 08:55",
+      "publishedTs": 1794614142,
+      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/14/e6b36b62472fc53436734b6d37af39eceb49fdc81da63c16d7316ae834f4c830.jpg",
+      "summary": "【AFP＝時事】米マイクロソフトは13日、世界各地の公共サービスや企業に支障を及ぼした大規模障害について謝罪した。メールサービス「アウトルック」などが「広範に復旧した」と述べ、全面復旧に向けた作業を…",
       "points": [
         "カテゴリ: テクノロジー・AIの注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-14 07:28）",
+        "配信: Yahoo!ニュース トピックス（2026-11-14 08:55）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "テクノロジー・AI分野で関心を集めている最新ニュースです。",
@@ -239,7 +239,7 @@ window.NEWS_DATA = {
         "テクノロジー・AI",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/pickup/6602486?source=rss",
+      "url": "https://news.yahoo.co.jp/pickup/6602508?source=rss",
       "isAiEnriched": false
     },
     {
@@ -286,15 +286,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "GMO攻撃 被害申告は29.9億円に",
+      "title": "マネックス証券 免許証画像流出か",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-13 16:52",
-      "publishedTs": 1794556328,
-      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/13/e7bf11e96352a191d069fceda7a3136b155246ae4388c4d9507f28379abfc554.jpg",
-      "summary": "ＧＭＯインターネットのＦＸ（外国為替証拠金）取引用クラウドサービスが不正アクセスを受けた問題で、親会社のＧＭＯインターネットグループは１３日、利用者からの被害申告が１２日までに計２９４３口座、約２９…",
+      "publishedAt": "2026-11-14 07:28",
+      "publishedTs": 1794608898,
+      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/14/2ce069a4082622f7ee5ddab2ffc78b855e538e795c01793f62e70223b341dbf6.jpg",
+      "summary": "インターネット証券大手のマネックス証券は10月に公表した不正アクセスで、運転免許証などの画像およそ1600件に流出の恐れがあると発表しました。",
       "points": [
         "カテゴリ: テクノロジー・AIの注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-13 16:52）",
+        "配信: Yahoo!ニュース トピックス（2026-11-14 07:28）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "テクノロジー・AI分野で関心を集めている最新ニュースです。",
@@ -302,7 +302,7 @@ window.NEWS_DATA = {
         "テクノロジー・AI",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/pickup/6602430?source=rss",
+      "url": "https://news.yahoo.co.jp/pickup/6602486?source=rss",
       "isAiEnriched": false
     },
     {
@@ -412,23 +412,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "【速報】マネックス証券、マイナカード画像漏えいか",
-      "source": "47news.jp",
-      "publishedAt": "2026-11-14 00:36",
-      "publishedTs": 1794584170,
-      "image": "https://img.cf.47news.jp/static/renewal/common/img/thumb_large.png",
-      "summary": "マネックス証券は13日、委託先が運営・管理する口座開設システムが不正アクセスを受け、運転免許証やマイナンバーカードといった本人確認書類の画像1592件と、最大113万件のメールアドレスが漏えいした恐れがあると発表した。",
+      "title": "マネジメントされる側の仕事は「文句」を言うこと",
+      "source": "speakerdeck.com",
+      "publishedAt": "2026-11-13 22:23",
+      "publishedTs": 1794576236,
+      "image": "https://files.speakerdeck.com/presentations/77ebd1aff03e4bd0a221a311ea2e231d/slide_0.jpg?41354216",
+      "summary": "このスライドはSlidevで作られており、以下のレポジトリで公開しています https://github.com/riya-amemiya/amemiya_riya_slide_data/tree/main/complaining_is_your_job Webバージョンはこちらから http…",
       "points": [
         "カテゴリ: テクノロジー・AIで話題の記事",
-        "引用元: 47news.jp（2026-11-14 00:36）",
+        "引用元: speakerdeck.com（2026-11-13 22:23）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "テクノロジー・AI分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "テクノロジー・AI",
-        "47news.jp"
+        "speakerdeck.com"
       ],
-      "url": "https://www.47news.jp/15227159.html",
+      "url": "https://speakerdeck.com/riyaamemiya/slides-export-013b776f-8661-4e92-bac0-1ac4285999f9",
       "isAiEnriched": false
     },
     {
@@ -475,23 +475,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "マネジメントされる側の仕事は「文句」を言うこと",
-      "source": "speakerdeck.com",
-      "publishedAt": "2026-11-13 22:23",
-      "publishedTs": 1794576236,
-      "image": "https://files.speakerdeck.com/presentations/77ebd1aff03e4bd0a221a311ea2e231d/slide_0.jpg?41354216",
-      "summary": "このスライドはSlidevで作られており、以下のレポジトリで公開しています https://github.com/riya-amemiya/amemiya_riya_slide_data/tree/main/complaining_is_your_job Webバージョンはこちらから http…",
+      "title": "相次ぐ情報漏えいでアナログ回帰？　ダイソー「パスワード管理ノート」が品薄に　一方でリスクも──IPAに聞いた",
+      "source": "itmedia.co.jp",
+      "publishedAt": "2026-11-14 08:23",
+      "publishedTs": 1794612209,
+      "image": "https://www.itmedia.co.jp/news/article/ogp/2611/14/2000003193/10012123/2048",
+      "summary": "不正アクセスによる情報漏えいが相次ぐなか、パスワードを紙に書いて管理するアナログな方法を見直す動きがある。100円ショップ「ダイソー」では、紙の「パスワード管理ノート」が品薄になっている。運営する大創産業（広島県東広島市、以下ダイソー）はITmedia NEWSの取材に対し、ネットワークにつながっていない紙…",
       "points": [
         "カテゴリ: テクノロジー・AIで話題の記事",
-        "引用元: speakerdeck.com（2026-11-13 22:23）",
+        "引用元: itmedia.co.jp（2026-11-14 08:23）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "テクノロジー・AI分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "テクノロジー・AI",
-        "speakerdeck.com"
+        "itmedia.co.jp"
       ],
-      "url": "https://speakerdeck.com/riyaamemiya/slides-export-013b776f-8661-4e92-bac0-1ac4285999f9",
+      "url": "https://www.itmedia.co.jp/news/article/2611/14/2000003193/",
       "isAiEnriched": false
     },
     {
@@ -538,23 +538,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "相次ぐ情報漏えいでアナログ回帰？　ダイソー「パスワード管理ノート」が品薄に　一方でリスクも──IPAに聞いた",
-      "source": "itmedia.co.jp",
-      "publishedAt": "2026-11-14 08:23",
-      "publishedTs": 1794612209,
-      "image": "https://www.itmedia.co.jp/news/article/ogp/2611/14/2000003193/10012123/2048",
-      "summary": "不正アクセスによる情報漏えいが相次ぐなか、パスワードを紙に書いて管理するアナログな方法を見直す動きがある。100円ショップ「ダイソー」では、紙の「パスワード管理ノート」が品薄になっている。運営する大創産業（広島県東広島市、以下ダイソー）はITmedia NEWSの取材に対し、ネットワークにつながっていない紙…",
+      "title": "幻覚がひどいAIでも言葉遣いが洗練されていれば人を簡単に騙せることが判明",
+      "source": "gigazine.net",
+      "publishedAt": "2026-11-14 08:05",
+      "publishedTs": 1794611157,
+      "image": "https://i.gzn.jp/img/2026/11/14/llm-fluency-credible/00.jpg",
+      "summary": "ChatGPTなどに代表される大規模言語モデルは、その根本的な仕組みとして、モデル自身は自分の回答が合っているか間違っているかを判断できません。そのためこの手のAIには事実ではないことをまるで事実かのように話してしまう「幻覚(ハルシネーション)」の問題が常につきまといます。新たな研究では、AIの回答に幻覚が…",
       "points": [
         "カテゴリ: テクノロジー・AIで話題の記事",
-        "引用元: itmedia.co.jp（2026-11-14 08:23）",
+        "引用元: gigazine.net（2026-11-14 08:05）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "テクノロジー・AI分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "テクノロジー・AI",
-        "itmedia.co.jp"
+        "gigazine.net"
       ],
-      "url": "https://www.itmedia.co.jp/news/article/2611/14/2000003193/",
+      "url": "https://gigazine.net/news/20261114-llm-fluency-credible/",
       "isAiEnriched": false
     },
     {
@@ -580,65 +580,65 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "戦争に疲れても…トランプ氏の「停戦」に反発　ウクライナ人の心の内：朝日新聞",
-      "source": "asahi.com",
-      "publishedAt": "2026-11-14 16:30",
-      "publishedTs": 1794641441,
-      "image": "https://imgopt.asahi.com/ogp/AS20261110003379_comm.jpg",
-      "summary": "みなさん、こんにちは。ニュースレターや記者アカウントにお寄せいただく感想や応援のメッセージに、いつも大変力づけられています。 その中に、こんな質問がありました（文章は少し手直ししています）。 「ウク…",
+      "title": "政府の安保広報にSNS反発拡大　「軍拡プロパガンダ」野党疑問視",
+      "source": "47news.jp",
+      "publishedAt": "2026-11-14 18:13",
+      "publishedTs": 1794647623,
+      "image": "https://img.cf.47news.jp/public/photo/28ad7be17b39e1a7f5f233e546cdb1a0/photo.jpg",
+      "summary": "安全保障の重要性を訴える政府の広報に「軍拡プロパガンダ」といった反発が交流サイト（SNS）上で拡大している。夫婦漫才の広報キャラクターをもじった「反戦たみよ」のハッシュタグ（検索目印）を付けた投稿が拡散。野党は、発信のために漫才を採用した手法などを疑問視する。 政府は10月26日に施策をまとめたウェブサ...",
       "points": [
         "カテゴリ: 国内・総合で話題の記事",
-        "引用元: asahi.com（2026-11-14 16:30）",
+        "引用元: 47news.jp（2026-11-14 18:13）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "国内・総合分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "国内・総合",
-        "asahi.com"
+        "47news.jp"
       ],
-      "url": "https://www.asahi.com/articles/ASVCB33QHVCBUHBI00BM.html",
+      "url": "https://www.47news.jp/15230325.html",
       "isAiEnriched": false
     },
     {
       "category": "tech",
-      "title": "幻覚がひどいAIでも言葉遣いが洗練されていれば人を簡単に騙せることが判明",
-      "source": "gigazine.net",
-      "publishedAt": "2026-11-14 08:05",
-      "publishedTs": 1794611157,
-      "image": "https://i.gzn.jp/img/2026/11/14/llm-fluency-credible/00.jpg",
-      "summary": "ChatGPTなどに代表される大規模言語モデルは、その根本的な仕組みとして、モデル自身は自分の回答が合っているか間違っているかを判断できません。そのためこの手のAIには事実ではないことをまるで事実かのように話してしまう「幻覚(ハルシネーション)」の問題が常につきまといます。新たな研究では、AIの回答に幻覚が…",
+      "title": "【速報】マネックス証券、マイナカード画像漏えいか",
+      "source": "47news.jp",
+      "publishedAt": "2026-11-14 00:36",
+      "publishedTs": 1794584170,
+      "image": "https://img.cf.47news.jp/static/renewal/common/img/thumb_large.png",
+      "summary": "マネックス証券は13日、委託先が運営・管理する口座開設システムが不正アクセスを受け、運転免許証やマイナンバーカードといった本人確認書類の画像1592件と、最大113万件のメールアドレスが漏えいした恐れがあると発表した。",
       "points": [
         "カテゴリ: テクノロジー・AIで話題の記事",
-        "引用元: gigazine.net（2026-11-14 08:05）",
+        "引用元: 47news.jp（2026-11-14 00:36）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "テクノロジー・AI分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "テクノロジー・AI",
-        "gigazine.net"
+        "47news.jp"
       ],
-      "url": "https://gigazine.net/news/20261114-llm-fluency-credible/",
+      "url": "https://www.47news.jp/15227159.html",
       "isAiEnriched": false
     },
     {
       "category": "business",
-      "title": "米中ロが史上初の3首脳会談へ　米側が発表　中国深圳で19日開催：朝日新聞",
-      "source": "asahi.com",
-      "publishedAt": "2026-11-14 09:10",
-      "publishedTs": 1794615024,
-      "image": "https://imgopt.asahi.com/ogp/AS20261114000885_comm.jpg",
-      "summary": "米ホワイトハウスは13日、トランプ大統領が中国の習近平（シーチンピン）国家主席、ロシアのプーチン大統領と19日に3首脳で会談すると発表した。米中ロ3カ国による正式な首脳会談は史上初めてとみられる。 …",
+      "title": "高市首相「会議に出たくない」ムーブ被害者たちの困惑国際。国際会議を欠席しまくる総理の言い逃れ乱舞、実は昔から？...",
+      "source": "wpb.shueisha.co.jp",
+      "publishedAt": "2026-11-14 09:05",
+      "publishedTs": 1794614757,
+      "image": "https://wpb.shueisha.co.jp/news/politics/2026/images/Takaichisanae01.jpg",
+      "summary": "週プレNEWS TOP新着ニュース政治・国際ニュース高市首相「会議に出たくない」ムーブ被害者たちの困惑国際。国際会議を欠席しまくる総理の言い逃れ乱舞、実は昔から？... ドタキャンを繰り返してきた高市早苗首相 米中露のトップが参加するAPEC（アジア太平洋経済協力会議）首脳会議が11月18日から開催されるが…",
       "points": [
         "カテゴリ: ビジネス・経済で話題の記事",
-        "引用元: asahi.com（2026-11-14 09:10）",
+        "引用元: wpb.shueisha.co.jp（2026-11-14 09:05）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "ビジネス・経済分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "ビジネス・経済",
-        "asahi.com"
+        "wpb.shueisha.co.jp"
       ],
-      "url": "https://www.asahi.com/articles/ASVCF7VTGVCFUHBI00PM.html",
+      "url": "https://wpb.shueisha.co.jp/news/politics/20261114-133539/",
       "isAiEnriched": false
     }
   ]
