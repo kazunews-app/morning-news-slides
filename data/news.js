@@ -1,13 +1,13 @@
 window.NEWS_DATA = {
   "date": "2026年11月14日 (土)",
-  "updatedAt": "2026-11-14 22:33",
+  "updatedAt": "2026-11-14 23:22",
   "title": "TREND NEWS",
   "keywords": [
     "米中露の接近 日本政府は危…",
-    "マイクロソフトの障害 全面…",
+    "AI悪用攻撃拠点か 世界で…",
     "エヌビディアCEO 後任選…",
     "関東15日は気温急降下 師…",
-    "マイクロソフト 大規模障害…",
+    "マイクロソフトの障害 全面…",
     "タマホーム 保険代理業を廃…"
   ],
   "items": [
@@ -34,15 +34,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "マイクロソフトの障害 全面復旧",
+      "title": "AI悪用攻撃拠点か 世界で千台発見",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-14 15:27",
-      "publishedTs": 1794637645,
-      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/14/7839b54a28bb0eaf8f488c04bd0a7573ed3d1d7428e94b1741c9c033bca79467.jpg",
-      "summary": "アメリカのIT大手マイクロソフトは世界規模で発生した接続障害について、サービスが全面復旧したと発表しました。",
+      "publishedAt": "2026-11-14 22:45",
+      "publishedTs": 1794663944,
+      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/eternal/2023/10/2/9846172226b1f454b7799140cec36c5e0725fae7f6dd816b7a80e5ee21bfb0b0.jpg",
+      "summary": "高性能な人工知能（AI）を悪用したサイバー攻撃の拠点と疑われるサーバーが10月以降、世界のインターネット上に少なくとも千台前後存在していることが14日、分かった。日本の情報セキュリティー専門機関が海…",
       "points": [
         "カテゴリ: テクノロジー・AIの注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-14 15:27）",
+        "配信: Yahoo!ニュース トピックス（2026-11-14 22:45）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "テクノロジー・AI分野で関心を集めている最新ニュースです。",
@@ -50,7 +50,7 @@ window.NEWS_DATA = {
         "テクノロジー・AI",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/pickup/6602556?source=rss",
+      "url": "https://news.yahoo.co.jp/pickup/6602602?source=rss",
       "isAiEnriched": false
     },
     {
@@ -97,15 +97,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "マイクロソフト 大規模障害を謝罪",
+      "title": "マイクロソフトの障害 全面復旧",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-14 08:55",
-      "publishedTs": 1794614142,
-      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/14/e6b36b62472fc53436734b6d37af39eceb49fdc81da63c16d7316ae834f4c830.jpg",
-      "summary": "【AFP＝時事】米マイクロソフトは13日、世界各地の公共サービスや企業に支障を及ぼした大規模障害について謝罪した。メールサービス「アウトルック」などが「広範に復旧した」と述べ、全面復旧に向けた作業を…",
+      "publishedAt": "2026-11-14 15:27",
+      "publishedTs": 1794637645,
+      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/14/7839b54a28bb0eaf8f488c04bd0a7573ed3d1d7428e94b1741c9c033bca79467.jpg",
+      "summary": "アメリカのIT大手マイクロソフトは世界規模で発生した接続障害について、サービスが全面復旧したと発表しました。",
       "points": [
         "カテゴリ: テクノロジー・AIの注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-14 08:55）",
+        "配信: Yahoo!ニュース トピックス（2026-11-14 15:27）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "テクノロジー・AI分野で関心を集めている最新ニュースです。",
@@ -113,7 +113,7 @@ window.NEWS_DATA = {
         "テクノロジー・AI",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/pickup/6602508?source=rss",
+      "url": "https://news.yahoo.co.jp/pickup/6602556?source=rss",
       "isAiEnriched": false
     },
     {
@@ -160,15 +160,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "マネックス証券 免許証画像流出か",
+      "title": "マイクロソフト 大規模障害を謝罪",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-14 07:28",
-      "publishedTs": 1794608898,
-      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/14/2ce069a4082622f7ee5ddab2ffc78b855e538e795c01793f62e70223b341dbf6.jpg",
-      "summary": "インターネット証券大手のマネックス証券は10月に公表した不正アクセスで、運転免許証などの画像およそ1600件に流出の恐れがあると発表しました。",
+      "publishedAt": "2026-11-14 08:55",
+      "publishedTs": 1794614142,
+      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/14/e6b36b62472fc53436734b6d37af39eceb49fdc81da63c16d7316ae834f4c830.jpg",
+      "summary": "【AFP＝時事】米マイクロソフトは13日、世界各地の公共サービスや企業に支障を及ぼした大規模障害について謝罪した。メールサービス「アウトルック」などが「広範に復旧した」と述べ、全面復旧に向けた作業を…",
       "points": [
         "カテゴリ: テクノロジー・AIの注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-14 07:28）",
+        "配信: Yahoo!ニュース トピックス（2026-11-14 08:55）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "テクノロジー・AI分野で関心を集めている最新ニュースです。",
@@ -176,7 +176,7 @@ window.NEWS_DATA = {
         "テクノロジー・AI",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/pickup/6602486?source=rss",
+      "url": "https://news.yahoo.co.jp/pickup/6602508?source=rss",
       "isAiEnriched": false
     },
     {
@@ -223,15 +223,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "GMO攻撃 被害申告は29.9億円に",
+      "title": "マネックス証券 免許証画像流出か",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-13 16:52",
-      "publishedTs": 1794556328,
-      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/13/e7bf11e96352a191d069fceda7a3136b155246ae4388c4d9507f28379abfc554.jpg",
-      "summary": "ＧＭＯインターネットのＦＸ（外国為替証拠金）取引用クラウドサービスが不正アクセスを受けた問題で、親会社のＧＭＯインターネットグループは１３日、利用者からの被害申告が１２日までに計２９４３口座、約２９…",
+      "publishedAt": "2026-11-14 07:28",
+      "publishedTs": 1794608898,
+      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/14/2ce069a4082622f7ee5ddab2ffc78b855e538e795c01793f62e70223b341dbf6.jpg",
+      "summary": "インターネット証券大手のマネックス証券は10月に公表した不正アクセスで、運転免許証などの画像およそ1600件に流出の恐れがあると発表しました。",
       "points": [
         "カテゴリ: テクノロジー・AIの注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-13 16:52）",
+        "配信: Yahoo!ニュース トピックス（2026-11-14 07:28）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "テクノロジー・AI分野で関心を集めている最新ニュースです。",
@@ -239,7 +239,7 @@ window.NEWS_DATA = {
         "テクノロジー・AI",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/pickup/6602430?source=rss",
+      "url": "https://news.yahoo.co.jp/pickup/6602486?source=rss",
       "isAiEnriched": false
     },
     {
@@ -286,15 +286,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "Google 韓国地図サービス強化へ",
+      "title": "GMO攻撃 被害申告は29.9億円に",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-13 16:16",
-      "publishedTs": 1794554186,
-      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/13/b6549e1a7a12acbb5869ad229a769592b76b82fd52fa4ff0de2346f45857e9de.jpg",
-      "summary": "【ソウル聯合ニュース】米グーグルが韓国の高精度地図データの国外持ち出しに必要なセキュリティー面の条件を満たし、早ければ来年初めから韓国における地図サービスの強化に乗り出す見通しであることが、13日分…",
+      "publishedAt": "2026-11-13 16:52",
+      "publishedTs": 1794556328,
+      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/13/e7bf11e96352a191d069fceda7a3136b155246ae4388c4d9507f28379abfc554.jpg",
+      "summary": "ＧＭＯインターネットのＦＸ（外国為替証拠金）取引用クラウドサービスが不正アクセスを受けた問題で、親会社のＧＭＯインターネットグループは１３日、利用者からの被害申告が１２日までに計２９４３口座、約２９…",
       "points": [
         "カテゴリ: テクノロジー・AIの注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-13 16:16）",
+        "配信: Yahoo!ニュース トピックス（2026-11-13 16:52）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "テクノロジー・AI分野で関心を集めている最新ニュースです。",
@@ -302,7 +302,7 @@ window.NEWS_DATA = {
         "テクノロジー・AI",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/pickup/6602427?source=rss",
+      "url": "https://news.yahoo.co.jp/pickup/6602430?source=rss",
       "isAiEnriched": false
     },
     {
@@ -475,23 +475,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "幻覚がひどいAIでも言葉遣いが洗練されていれば人を簡単に騙せることが判明",
-      "source": "gigazine.net",
-      "publishedAt": "2026-11-14 08:05",
-      "publishedTs": 1794611157,
-      "image": "https://i.gzn.jp/img/2026/11/14/llm-fluency-credible/00.jpg",
-      "summary": "ChatGPTなどに代表される大規模言語モデルは、その根本的な仕組みとして、モデル自身は自分の回答が合っているか間違っているかを判断できません。そのためこの手のAIには事実ではないことをまるで事実かのように話してしまう「幻覚(ハルシネーション)」の問題が常につきまといます。新たな研究では、AIの回答に幻覚が…",
+      "title": "マネジメントされる側の仕事は「文句」を言うこと",
+      "source": "speakerdeck.com",
+      "publishedAt": "2026-11-13 22:23",
+      "publishedTs": 1794576236,
+      "image": "https://files.speakerdeck.com/presentations/77ebd1aff03e4bd0a221a311ea2e231d/slide_0.jpg?41354216",
+      "summary": "このスライドはSlidevで作られており、以下のレポジトリで公開しています https://github.com/riya-amemiya/amemiya_riya_slide_data/tree/main/complaining_is_your_job Webバージョンはこちらから http…",
       "points": [
         "カテゴリ: テクノロジー・AIで話題の記事",
-        "引用元: gigazine.net（2026-11-14 08:05）",
+        "引用元: speakerdeck.com（2026-11-13 22:23）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "テクノロジー・AI分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "テクノロジー・AI",
-        "gigazine.net"
+        "speakerdeck.com"
       ],
-      "url": "https://gigazine.net/news/20261114-llm-fluency-credible/",
+      "url": "https://speakerdeck.com/riyaamemiya/slides-export-013b776f-8661-4e92-bac0-1ac4285999f9",
       "isAiEnriched": false
     },
     {
@@ -517,44 +517,44 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "戦争に疲れても…トランプ氏の「停戦」に反発　ウクライナ人の心の内：朝日新聞",
-      "source": "asahi.com",
-      "publishedAt": "2026-11-14 16:30",
-      "publishedTs": 1794641441,
-      "image": "https://imgopt.asahi.com/ogp/AS20261110003379_comm.jpg",
-      "summary": "みなさん、こんにちは。ニュースレターや記者アカウントにお寄せいただく感想や応援のメッセージに、いつも大変力づけられています。 その中に、こんな質問がありました（文章は少し手直ししています）。 「ウク…",
+      "title": "昔、肝癌で終末期入院中の母に「退院するときの服」を買ってくるように頼まれ、婦人服売り場でぼんやりと服を選んでいるときに声をかけてくれた店員さんに救われた",
+      "source": "togetter.com",
+      "publishedAt": "2026-11-14 18:23",
+      "publishedTs": 1794648200,
+      "image": "https://s.tgstc.com/ogp3/24c22d084c64d272ed9f66aacbc1c22e-1200x630.jpeg",
+      "summary": "せき @sekisyko ひと昔以上前、母親の肝癌終末期入院中(本人告知なし、そのまま看取りになる予定)の付き添いしていた時に本人から「退院するときの服が無いからなんかええやつ買うてきてんか」と頼まれ70代からぐらいの婦人服を売ってるお店で茫漠と服を選んでいた。すると私をじっと見ていた店員のお姉さんが→ 2…",
       "points": [
         "カテゴリ: 国内・総合で話題の記事",
-        "引用元: asahi.com（2026-11-14 16:30）",
+        "引用元: togetter.com（2026-11-14 18:23）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "国内・総合分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "国内・総合",
-        "asahi.com"
+        "togetter.com"
       ],
-      "url": "https://www.asahi.com/articles/ASVCB33QHVCBUHBI00BM.html",
+      "url": "https://togetter.com/li/2770389",
       "isAiEnriched": false
     },
     {
       "category": "tech",
-      "title": "Google、高速・高効率な「Gemini 4 Hydrogen」を発表 ～「Claude Sonnet 5.5」「GPT-6.1 Terra」のライバル／前世代「3.8 Flash」の2.5倍の速さでタスクを完了",
-      "source": "forest.watch.impress.co.jp",
-      "publishedAt": "2026-11-13 11:57",
-      "publishedTs": 1794538637,
-      "image": "https://forest.watch.impress.co.jp/img/wf/list/2156/117/image1.png",
-      "summary": "米Googleは11月12日（現地時間）、「Gemini 4 Hydrogen」を発表した。日常的なコーディングやエージェント型のワークフローを、高速かつ効率的にこなすことを目指したモデルで、同日より開発者、企業、一般ユーザーに提供される。",
+      "title": "相次ぐ情報漏えいでアナログ回帰？　ダイソー「パスワード管理ノート」が品薄に　一方でリスクも──IPAに聞いた",
+      "source": "itmedia.co.jp",
+      "publishedAt": "2026-11-14 08:23",
+      "publishedTs": 1794612209,
+      "image": "https://www.itmedia.co.jp/news/article/ogp/2611/14/2000003193/10012123/2048",
+      "summary": "不正アクセスによる情報漏えいが相次ぐなか、パスワードを紙に書いて管理するアナログな方法を見直す動きがある。100円ショップ「ダイソー」では、紙の「パスワード管理ノート」が品薄になっている。運営する大創産業（広島県東広島市、以下ダイソー）はITmedia NEWSの取材に対し、ネットワークにつながっていない紙…",
       "points": [
         "カテゴリ: テクノロジー・AIで話題の記事",
-        "引用元: forest.watch.impress.co.jp（2026-11-13 11:57）",
+        "引用元: itmedia.co.jp（2026-11-14 08:23）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "テクノロジー・AI分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "テクノロジー・AI",
-        "forest.watch.impress.co.jp"
+        "itmedia.co.jp"
       ],
-      "url": "https://forest.watch.impress.co.jp/docs/news/2156117.html",
+      "url": "https://www.itmedia.co.jp/news/article/2611/14/2000003193/",
       "isAiEnriched": false
     },
     {
@@ -580,44 +580,44 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "【重要】開発用ステージング環境における個人情報漏えいのおそれに関するご報告とお詫び | ニュース | paiza株式会社",
-      "source": "paiza.co.jp",
-      "publishedAt": "2026-11-14 00:59",
-      "publishedTs": 1794585581,
-      "image": "https://www.paiza.co.jp/common/images/img-ogimage.png",
-      "summary": "お客様各位 平素は弊社サービスをご利用いただき、誠にありがとうございます。 このたび、弊社が管理する開発用ステージング環境（以下、「動作検証環境」といいます。）において、アクセス管理の不備により、従前アクセス権限を有していた退職者等の第三者からアクセスされ得る状態となり、個人データの漏えいのおそれ...",
+      "title": "戦争に疲れても…トランプ氏の「停戦」に反発　ウクライナ人の心の内：朝日新聞",
+      "source": "asahi.com",
+      "publishedAt": "2026-11-14 16:30",
+      "publishedTs": 1794641441,
+      "image": "https://imgopt.asahi.com/ogp/AS20261110003379_comm.jpg",
+      "summary": "みなさん、こんにちは。ニュースレターや記者アカウントにお寄せいただく感想や応援のメッセージに、いつも大変力づけられています。 その中に、こんな質問がありました（文章は少し手直ししています）。 「ウク…",
       "points": [
         "カテゴリ: 国内・総合で話題の記事",
-        "引用元: paiza.co.jp（2026-11-14 00:59）",
+        "引用元: asahi.com（2026-11-14 16:30）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "国内・総合分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "国内・総合",
-        "paiza.co.jp"
+        "asahi.com"
       ],
-      "url": "https://www.paiza.co.jp/news/20261113/access-management-notice/",
+      "url": "https://www.asahi.com/articles/ASVCB33QHVCBUHBI00BM.html",
       "isAiEnriched": false
     },
     {
       "category": "tech",
-      "title": "かつて、noteのようなブログもTwitterのような短文投稿もDiscordのようなコミュニティ運営もすべてまとめてできる、夢のようなサービスがあったのじゃ",
-      "source": "togetter.com",
-      "publishedAt": "2026-11-14 10:06",
-      "publishedTs": 1794618379,
-      "image": "https://s.tgstc.com/ogp3/a5d01b29a38b44dd977315f5842d3c69-1200x630.jpeg",
-      "summary": "HPPS＠平和荘 @HPPS_HEIWASOU 若い人には想像できんかもしれんが、その昔、 noteのようなブログも、 Twitterのような短文投稿も、 Discordのようなコミュニティ運営も、 ジョルテのようなカレンダー共有も、 TwiPlaのようなイベント参加者管理も、 すべてまとめてできる、夢のよ…",
+      "title": "幻覚がひどいAIでも言葉遣いが洗練されていれば人を簡単に騙せることが判明",
+      "source": "gigazine.net",
+      "publishedAt": "2026-11-14 08:05",
+      "publishedTs": 1794611157,
+      "image": "https://i.gzn.jp/img/2026/11/14/llm-fluency-credible/00.jpg",
+      "summary": "ChatGPTなどに代表される大規模言語モデルは、その根本的な仕組みとして、モデル自身は自分の回答が合っているか間違っているかを判断できません。そのためこの手のAIには事実ではないことをまるで事実かのように話してしまう「幻覚(ハルシネーション)」の問題が常につきまといます。新たな研究では、AIの回答に幻覚が…",
       "points": [
         "カテゴリ: テクノロジー・AIで話題の記事",
-        "引用元: togetter.com（2026-11-14 10:06）",
+        "引用元: gigazine.net（2026-11-14 08:05）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "テクノロジー・AI分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "テクノロジー・AI",
-        "togetter.com"
+        "gigazine.net"
       ],
-      "url": "https://togetter.com/li/2770247",
+      "url": "https://gigazine.net/news/20261114-llm-fluency-credible/",
       "isAiEnriched": false
     },
     {
