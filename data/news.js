@@ -1,13 +1,13 @@
 window.NEWS_DATA = {
   "date": "2026年11月14日 (土)",
-  "updatedAt": "2026-11-14 14:12",
+  "updatedAt": "2026-11-14 15:03",
   "title": "TREND NEWS",
   "keywords": [
     "防衛費5年で60兆円規模 …",
     "マイクロソフト 大規模障害…",
     "タマホーム 保険代理業を廃…",
     "自衛官の給与引き上げ法が成…",
-    "MS「復旧が進み、安定した…",
+    "MS 個人向けサービスが完…",
     "3メガバンク中間決算 最高…"
   ],
   "items": [
@@ -97,15 +97,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "MS「復旧が進み、安定した状態」",
+      "title": "MS 個人向けサービスが完全復旧",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-14 07:37",
-      "publishedTs": 1794609435,
-      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/14/bb24e80d4dce19ff68e3507d93c75ac6543b028c8d1271920d1b2213737de4c4.jpg",
-      "summary": "アメリカのIT大手マイクロソフトは、自社のサービスで発生している世界規模の接続障害について、「サービス全体で復旧が進んでいる」と明らかにしました。",
+      "publishedAt": "2026-11-14 14:27",
+      "publishedTs": 1794634057,
+      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/14/51447b3eb776377402fe5da92c0bf95d61f5d3cecf505bba6432b325788d820c.jpg",
+      "summary": "【ニューヨーク共同】米IT大手マイクロソフト（MS）は13日、業務ソフト「マイクロソフト365」などで12日に発生した大規模な接続障害について、個人向けサービスは13日午前11時10分（日本時間14…",
       "points": [
         "カテゴリ: テクノロジー・AIの注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-14 07:37）",
+        "配信: Yahoo!ニュース トピックス（2026-11-14 14:27）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "テクノロジー・AI分野で関心を集めている最新ニュースです。",
@@ -113,7 +113,7 @@ window.NEWS_DATA = {
         "テクノロジー・AI",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/pickup/6602492?source=rss",
+      "url": "https://news.yahoo.co.jp/pickup/6602546?source=rss",
       "isAiEnriched": false
     },
     {
@@ -328,15 +328,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "土木職員 今春45都道府県定員割れ",
+      "title": "クレカ不正利用 新たな手口に注意",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-13 11:42",
-      "publishedTs": 1794537749,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261113-00000038-yom-000-18-view.jpg?exp=10800",
-      "summary": "公共インフラの維持・管理などを行う都道府県の土木職員の採用を巡り、４５都道府県で今春の入庁者が採用予定数を満たさなかったことが、読売新聞のアンケート調査でわかった。２７道府県は充足率が５０％を割り込…",
+      "publishedAt": "2026-11-13 14:43",
+      "publishedTs": 1794548627,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/iwiz-yn/rpr/tadafumiaki/02764805/title-1794531172278.jpeg?exp=10800",
+      "summary": "温浴施設のロッカーから、金品が盗まれる事件が相次いでいます。合鍵を使う用意周到な手口ですので、犯行マニュアルを駆使した組織的グループが背後にあることが見えてきます。見逃してはいけない犯行の特徴が2つあ…",
       "points": [
         "カテゴリ: 国内・総合の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-13 11:42）",
+        "配信: Yahoo!ニュース トピックス（2026-11-13 14:43）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "国内・総合分野で関心を集めている最新ニュースです。",
@@ -344,7 +344,7 @@ window.NEWS_DATA = {
         "国内・総合",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/pickup/6602395?source=rss",
+      "url": "https://news.yahoo.co.jp/pickup/6602420?source=rss",
       "isAiEnriched": false
     },
     {
@@ -412,23 +412,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "Fable 5.2は物理モデリング音源の実装も作曲もすごい - きしだのHatena",
-      "source": "nowokay.hatenablog.com",
-      "publishedAt": "2026-11-13 23:22",
-      "publishedTs": 1794579772,
-      "image": "https://cdn.image.st-hatena.com/image/scale/124dd98915ea1ae722f6a171ed5ad3c4f387690a/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fn%2Fnowokay%2F20261113%2F20261113100710.png",
-      "summary": "Fable 5.2が出て今週いっぱいくらいPlusでも使えるのだけど、Fableじゃないとダメなことってなんだろなと思いつつ、楽器の物理シミュレーションがOpusはまだあまりうまくなかったなと、Fableさんに物理モデリング音源を作ってもらって曲もつくってもらったら、物理モデリングも結構できていたのだけど…",
+      "title": "かつて、noteのようなブログもTwitterのような短文投稿もDiscordのようなコミュニティ運営もすべてまとめてできる、夢のようなサービスがあったのじゃ",
+      "source": "togetter.com",
+      "publishedAt": "2026-11-14 10:06",
+      "publishedTs": 1794618379,
+      "image": "https://s.tgstc.com/ogp3/a5d01b29a38b44dd977315f5842d3c69-1200x630.jpeg",
+      "summary": "HPPS＠平和荘 @HPPS_HEIWASOU 若い人には想像できんかもしれんが、その昔、 noteのようなブログも、 Twitterのような短文投稿も、 Discordのようなコミュニティ運営も、 ジョルテのようなカレンダー共有も、 TwiPlaのようなイベント参加者管理も、 すべてまとめてできる、夢のよ…",
       "points": [
         "カテゴリ: テクノロジー・AIで話題の記事",
-        "引用元: nowokay.hatenablog.com（2026-11-13 23:22）",
+        "引用元: togetter.com（2026-11-14 10:06）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "テクノロジー・AI分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "テクノロジー・AI",
-        "nowokay.hatenablog.com"
+        "togetter.com"
       ],
-      "url": "https://nowokay.hatenablog.com/entry/2026/11/13/101644",
+      "url": "https://togetter.com/li/2770247",
       "isAiEnriched": false
     },
     {
@@ -454,69 +454,6 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "アメリカ全土の航空機の運航停止を解除 米航空当局 | NHKニュース",
-      "source": "news.web.nhk",
-      "publishedAt": "2026-11-14 06:49",
-      "publishedTs": 1794606572,
-      "image": "https://imgu.web.nhk/news/u/news/nd/kiji/20261114de75764/20261114de75764_E0000174813_1_l.jpg",
-      "summary": "アメリカのダフィー運輸長官は13日、SNSへの投稿で「FAA＝アメリカ連邦航空局は管制センターに影響を及ぼす通信問題を受けて全米で航空機の運航停止を発令した。連邦航空局の技術者が調査を行っている」と明…",
-      "points": [
-        "カテゴリ: 国内・総合で話題の記事",
-        "引用元: news.web.nhk（2026-11-14 06:49）",
-        "「元記事を読む」から本文を確認できます"
-      ],
-      "impact": "国内・総合分野で多くの読者に共有されている注目記事です。",
-      "tags": [
-        "国内・総合",
-        "news.web.nhk"
-      ],
-      "url": "https://news.web.nhk/newsweb/na/nd-20261114de75764",
-      "isAiEnriched": false
-    },
-    {
-      "category": "tech",
-      "title": "かつて、noteのようなブログもTwitterのような短文投稿もDiscordのようなコミュニティ運営もすべてまとめてできる、夢のようなサービスがあったのじゃ",
-      "source": "togetter.com",
-      "publishedAt": "2026-11-14 10:06",
-      "publishedTs": 1794618379,
-      "image": "https://s.tgstc.com/ogp3/a5d01b29a38b44dd977315f5842d3c69-1200x630.jpeg",
-      "summary": "HPPS＠平和荘 @HPPS_HEIWASOU 若い人には想像できんかもしれんが、その昔、 noteのようなブログも、 Twitterのような短文投稿も、 Discordのようなコミュニティ運営も、 ジョルテのようなカレンダー共有も、 TwiPlaのようなイベント参加者管理も、 すべてまとめてできる、夢のよ…",
-      "points": [
-        "カテゴリ: テクノロジー・AIで話題の記事",
-        "引用元: togetter.com（2026-11-14 10:06）",
-        "「元記事を読む」から本文を確認できます"
-      ],
-      "impact": "テクノロジー・AI分野で多くの読者に共有されている注目記事です。",
-      "tags": [
-        "テクノロジー・AI",
-        "togetter.com"
-      ],
-      "url": "https://togetter.com/li/2770247",
-      "isAiEnriched": false
-    },
-    {
-      "category": "business",
-      "title": "米中ロが史上初の3首脳会談へ　米側が発表　中国深圳で19日開催：朝日新聞",
-      "source": "asahi.com",
-      "publishedAt": "2026-11-14 09:10",
-      "publishedTs": 1794615024,
-      "image": "https://imgopt.asahi.com/ogp/AS20261114000885_comm.jpg",
-      "summary": "米ホワイトハウスは13日、トランプ大統領が中国の習近平（シーチンピン）国家主席、ロシアのプーチン大統領と19日に3首脳で会談すると発表した。米中ロ3カ国による正式な首脳会談は史上初めてとみられる。 …",
-      "points": [
-        "カテゴリ: ビジネス・経済で話題の記事",
-        "引用元: asahi.com（2026-11-14 09:10）",
-        "「元記事を読む」から本文を確認できます"
-      ],
-      "impact": "ビジネス・経済分野で多くの読者に共有されている注目記事です。",
-      "tags": [
-        "ビジネス・経済",
-        "asahi.com"
-      ],
-      "url": "https://www.asahi.com/articles/ASVCF7VTGVCFUHBI00PM.html",
-      "isAiEnriched": false
-    },
-    {
-      "category": "domestic",
       "title": "やまやで15回おかわりしたら出禁宣告された人が謝罪…しかしやまや系列で働く人から「おかわりする人を大事にって教育された」の声、サポセンの回答も「配慮の必要なし」",
       "source": "togetter.com",
       "publishedAt": "2026-11-14 06:31",
@@ -538,23 +475,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "データセンターの排熱でエビ養殖、NTT系が実験　育ったら食べられる？　担当者に聞いてみた",
-      "source": "itmedia.co.jp",
-      "publishedAt": "2026-11-13 20:33",
-      "publishedTs": 1794569588,
-      "image": "https://www.itmedia.co.jp/news/article/ogp/2611/13/2000003200/10012155/2048",
-      "summary": "NTTドコモビジネスなど4社は11月13日、データセンターの排熱を活用してエビを養殖する実証実験を発表した。2026年度中に養殖に適した排熱の回収方法を模索し、2027年度には回収した熱を使ってクルマエビ科の一種「バナメイエビ」を育てる計画だ。なぜエビの養殖を選んだのか、育てたエビはどうするのか。担当者に話…",
+      "title": "Fable 5.2は物理モデリング音源の実装も作曲もすごい - きしだのHatena",
+      "source": "nowokay.hatenablog.com",
+      "publishedAt": "2026-11-13 23:22",
+      "publishedTs": 1794579772,
+      "image": "https://cdn.image.st-hatena.com/image/scale/124dd98915ea1ae722f6a171ed5ad3c4f387690a/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fn%2Fnowokay%2F20261113%2F20261113100710.png",
+      "summary": "Fable 5.2が出て今週いっぱいくらいPlusでも使えるのだけど、Fableじゃないとダメなことってなんだろなと思いつつ、楽器の物理シミュレーションがOpusはまだあまりうまくなかったなと、Fableさんに物理モデリング音源を作ってもらって曲もつくってもらったら、物理モデリングも結構できていたのだけど…",
       "points": [
         "カテゴリ: テクノロジー・AIで話題の記事",
-        "引用元: itmedia.co.jp（2026-11-13 20:33）",
+        "引用元: nowokay.hatenablog.com（2026-11-13 23:22）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "テクノロジー・AI分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "テクノロジー・AI",
-        "itmedia.co.jp"
+        "nowokay.hatenablog.com"
       ],
-      "url": "https://www.itmedia.co.jp/news/article/2611/13/2000003200/",
+      "url": "https://nowokay.hatenablog.com/entry/2026/11/13/101644",
       "isAiEnriched": false
     },
     {
@@ -580,23 +517,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "陸自の情報収集文書、確認拒む小泉防衛相　背景に過去の問題との指摘：朝日新聞",
-      "source": "asahi.com",
-      "publishedAt": "2026-11-14 07:43",
-      "publishedTs": 1794609823,
-      "image": "https://imgopt.asahi.com/ogp/AS20261112003133_comm.jpg",
-      "summary": "陸上自衛隊の現地情報隊が、民間人らの思想情報をまとめた「個人BSD報告書」を作っていたとされる問題で、小泉進次郎防衛相が文書の確認自体を拒み続けている。文書の存在を認めれば、公文書扱いしなかった運用…",
+      "title": "アメリカ全土の航空機の運航停止を解除 米航空当局 | NHKニュース",
+      "source": "news.web.nhk",
+      "publishedAt": "2026-11-14 06:49",
+      "publishedTs": 1794606572,
+      "image": "https://imgu.web.nhk/news/u/news/nd/kiji/20261114de75764/20261114de75764_E0000174813_1_l.jpg",
+      "summary": "アメリカのダフィー運輸長官は13日、SNSへの投稿で「FAA＝アメリカ連邦航空局は管制センターに影響を及ぼす通信問題を受けて全米で航空機の運航停止を発令した。連邦航空局の技術者が調査を行っている」と明…",
       "points": [
         "カテゴリ: 国内・総合で話題の記事",
-        "引用元: asahi.com（2026-11-14 07:43）",
+        "引用元: news.web.nhk（2026-11-14 06:49）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "国内・総合分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "国内・総合",
-        "asahi.com"
+        "news.web.nhk"
       ],
-      "url": "https://www.asahi.com/articles/ASVCD2RPBVCDUTIL00FM.html",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261114de75764",
       "isAiEnriched": false
     },
     {
@@ -622,23 +559,86 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "関文科相　議員会館パーティー/講師は厚労省課長/バイオ医薬品企業が参加費/実態は企業献金か　規正法違反の疑いも | しんぶん赤旗｜日本共産党",
-      "source": "jcp.or.jp",
-      "publishedAt": "2026-11-13 15:44",
-      "publishedTs": 1794552299,
-      "image": "https://www.jcp.or.jp/akahata/aik26/2026-11-13/img_3.jpg",
-      "summary": "関芳弘文部科学相が代表の自民党支部が２０２４年に議員会館で開いた政治資金パーティーで、医薬品などの研究、開発を所管する厚生労働省の担当課長が「講師」を務め、バイオ医薬品企業の社長らが参加していたことが１２日、日本共産党の吉良よし子参院議員と本紙の調べで分かりました。厚労省と利害関係がある企業から...",
+      "title": "米中ロが史上初の3首脳会談へ　米側が発表　中国深圳で19日開催：朝日新聞",
+      "source": "asahi.com",
+      "publishedAt": "2026-11-14 09:10",
+      "publishedTs": 1794615024,
+      "image": "https://imgopt.asahi.com/ogp/AS20261114000885_comm.jpg",
+      "summary": "米ホワイトハウスは13日、トランプ大統領が中国の習近平（シーチンピン）国家主席、ロシアのプーチン大統領と19日に3首脳で会談すると発表した。米中ロ3カ国による正式な首脳会談は史上初めてとみられる。 …",
       "points": [
         "カテゴリ: ビジネス・経済で話題の記事",
-        "引用元: jcp.or.jp（2026-11-13 15:44）",
+        "引用元: asahi.com（2026-11-14 09:10）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "ビジネス・経済分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "ビジネス・経済",
-        "jcp.or.jp"
+        "asahi.com"
       ],
-      "url": "https://www.jcp.or.jp/akahata/aik26/2026-11-13/2026111301_02_0.php",
+      "url": "https://www.asahi.com/articles/ASVCF7VTGVCFUHBI00PM.html",
+      "isAiEnriched": false
+    },
+    {
+      "category": "domestic",
+      "title": "「女だけどフェミニズム好きじゃない」といった女子大生を、フェミニストが取り囲んで「大学やめろ」「レイプされても文句言うな」と脅迫をおこなう事案が発生【黒い羊効果】",
+      "source": "posfie.com",
+      "publishedAt": "2026-11-14 13:06",
+      "publishedTs": 1794629168,
+      "image": "https://s.tgstc.com/ogp3/39ef3a663ff8045ff394bc77bfbd2994-1200x630.jpeg",
+      "summary": "「黒い羊効果」とは？職場でターゲットにされない5つの方法 - STUDY HACKER（スタディーハッカー）｜社会人の勉強法＆英語学習 心理学における「黒い羊効果」を、どこよりもわかりやすく解説します。 8 users 3217 STUDY HACKER（スタディーハッカー）｜社会人の勉強法＆英語学習 「黒…",
+      "points": [
+        "カテゴリ: 国内・総合で話題の記事",
+        "引用元: posfie.com（2026-11-14 13:06）",
+        "「元記事を読む」から本文を確認できます"
+      ],
+      "impact": "国内・総合分野で多くの読者に共有されている注目記事です。",
+      "tags": [
+        "国内・総合",
+        "posfie.com"
+      ],
+      "url": "https://posfie.com/@golden_haniwa/p/30HIdHZ",
+      "isAiEnriched": false
+    },
+    {
+      "category": "tech",
+      "title": "データセンターの排熱でエビ養殖、NTT系が実験　育ったら食べられる？　担当者に聞いてみた",
+      "source": "itmedia.co.jp",
+      "publishedAt": "2026-11-13 20:33",
+      "publishedTs": 1794569588,
+      "image": "https://www.itmedia.co.jp/news/article/ogp/2611/13/2000003200/10012155/2048",
+      "summary": "NTTドコモビジネスなど4社は11月13日、データセンターの排熱を活用してエビを養殖する実証実験を発表した。2026年度中に養殖に適した排熱の回収方法を模索し、2027年度には回収した熱を使ってクルマエビ科の一種「バナメイエビ」を育てる計画だ。なぜエビの養殖を選んだのか、育てたエビはどうするのか。担当者に話…",
+      "points": [
+        "カテゴリ: テクノロジー・AIで話題の記事",
+        "引用元: itmedia.co.jp（2026-11-13 20:33）",
+        "「元記事を読む」から本文を確認できます"
+      ],
+      "impact": "テクノロジー・AI分野で多くの読者に共有されている注目記事です。",
+      "tags": [
+        "テクノロジー・AI",
+        "itmedia.co.jp"
+      ],
+      "url": "https://www.itmedia.co.jp/news/article/2611/13/2000003200/",
+      "isAiEnriched": false
+    },
+    {
+      "category": "business",
+      "title": "APECで日本だけ首脳会談なしの屈辱…政府は高市首相の冷遇回避を求め「恥の上塗り」要請｜日刊ゲンダイDIGITAL",
+      "source": "nikkan-gendai.com",
+      "publishedAt": "2026-11-14 08:22",
+      "publishedTs": 1794612155,
+      "image": "https://jmqvqzo7.user.webaccel.jp/img/article/000/395/570/d2530422e58f87aa023f690aff08546120261113133632403.jpg",
+      "summary": "「無能な働き者は周囲に害を与える」「バカな大将、敵より怖い」「やる気のある無能は組織を亡ぼす」……軍隊や企業組織で広く使われ、周知されてきた言葉だ。 18世紀後半のフランス革命後の混乱を収拾し、初代皇帝となったナポレオンも同類の発言をしていたというから、おそらく感覚的に当… この記事は有料会員限定です。...",
+      "points": [
+        "カテゴリ: ビジネス・経済で話題の記事",
+        "引用元: nikkan-gendai.com（2026-11-14 08:22）",
+        "「元記事を読む」から本文を確認できます"
+      ],
+      "impact": "ビジネス・経済分野で多くの読者に共有されている注目記事です。",
+      "tags": [
+        "ビジネス・経済",
+        "nikkan-gendai.com"
+      ],
+      "url": "https://www.nikkan-gendai.com/articles/view/news/395570",
       "isAiEnriched": false
     }
   ]
