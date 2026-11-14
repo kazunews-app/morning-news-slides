@@ -1,6 +1,6 @@
 window.NEWS_DATA = {
   "date": "2026年11月15日 (日)",
-  "updatedAt": "2026-11-15 02:12",
+  "updatedAt": "2026-11-15 02:51",
   "title": "TREND NEWS",
   "keywords": [
     "米中露の接近 日本政府は危…",
@@ -475,23 +475,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "相次ぐ情報漏えいでアナログ回帰？　ダイソー「パスワード管理ノート」が品薄に　一方でリスクも──IPAに聞いた",
-      "source": "itmedia.co.jp",
-      "publishedAt": "2026-11-14 08:23",
-      "publishedTs": 1794612209,
-      "image": "https://www.itmedia.co.jp/news/article/ogp/2611/14/2000003193/10012123/2048",
-      "summary": "不正アクセスによる情報漏えいが相次ぐなか、パスワードを紙に書いて管理するアナログな方法を見直す動きがある。100円ショップ「ダイソー」では、紙の「パスワード管理ノート」が品薄になっている。運営する大創産業（広島県東広島市、以下ダイソー）はITmedia NEWSの取材に対し、ネットワークにつながっていない紙…",
+      "title": "AIについての追記",
+      "source": "ms.u-tokyo.ac.jp",
+      "publishedAt": "2026-11-14 19:13",
+      "publishedTs": 1794651219,
+      "image": "assets/images/news-3.jpg",
+      "summary": "Associate Professor, Graduate School of Mathematical Sciences 私のところで大学院入学を希望する方へ―AIについての追記 この文章は2026年11月に書いています．この年は，AIが数学にもたらした影響がある閾値を超えた年として記憶されるでしょう．大…",
       "points": [
         "カテゴリ: テクノロジー・AIで話題の記事",
-        "引用元: itmedia.co.jp（2026-11-14 08:23）",
+        "引用元: ms.u-tokyo.ac.jp（2026-11-14 19:13）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "テクノロジー・AI分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "テクノロジー・AI",
-        "itmedia.co.jp"
+        "ms.u-tokyo.ac.jp"
       ],
-      "url": "https://www.itmedia.co.jp/news/article/2611/14/2000003193/",
+      "url": "https://www.ms.u-tokyo.ac.jp/~konno/grad_ai.html",
       "isAiEnriched": false
     },
     {
@@ -538,23 +538,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "AIについての追記",
-      "source": "ms.u-tokyo.ac.jp",
-      "publishedAt": "2026-11-14 19:13",
-      "publishedTs": 1794651219,
-      "image": "assets/images/news-4.jpg",
-      "summary": "Associate Professor, Graduate School of Mathematical Sciences 私のところで大学院入学を希望する方へ―AIについての追記 この文章は2026年11月に書いています．この年は，AIが数学にもたらした影響がある閾値を超えた年として記憶されるでしょう．大…",
+      "title": "相次ぐ情報漏えいでアナログ回帰？　ダイソー「パスワード管理ノート」が品薄に　一方でリスクも──IPAに聞いた",
+      "source": "itmedia.co.jp",
+      "publishedAt": "2026-11-14 08:23",
+      "publishedTs": 1794612209,
+      "image": "https://www.itmedia.co.jp/news/article/ogp/2611/14/2000003193/10012123/2048",
+      "summary": "不正アクセスによる情報漏えいが相次ぐなか、パスワードを紙に書いて管理するアナログな方法を見直す動きがある。100円ショップ「ダイソー」では、紙の「パスワード管理ノート」が品薄になっている。運営する大創産業（広島県東広島市、以下ダイソー）はITmedia NEWSの取材に対し、ネットワークにつながっていない紙…",
       "points": [
         "カテゴリ: テクノロジー・AIで話題の記事",
-        "引用元: ms.u-tokyo.ac.jp（2026-11-14 19:13）",
+        "引用元: itmedia.co.jp（2026-11-14 08:23）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "テクノロジー・AI分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "テクノロジー・AI",
-        "ms.u-tokyo.ac.jp"
+        "itmedia.co.jp"
       ],
-      "url": "https://www.ms.u-tokyo.ac.jp/~konno/grad_ai.html",
+      "url": "https://www.itmedia.co.jp/news/article/2611/14/2000003193/",
       "isAiEnriched": false
     },
     {
