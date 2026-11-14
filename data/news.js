@@ -1,6 +1,6 @@
 window.NEWS_DATA = {
   "date": "2026年11月15日 (日)",
-  "updatedAt": "2026-11-15 06:57",
+  "updatedAt": "2026-11-15 07:37",
   "title": "TREND NEWS",
   "keywords": [
     "米中露の接近 日本政府は危…",
@@ -349,23 +349,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "AIチームを率いるとは、どういうこと？ with プログラマー・起業家 amachang Part1 | The Update",
-      "source": "theupdate.coffee",
-      "publishedAt": "2026-11-14 16:45",
-      "publishedTs": 1794642330,
-      "image": "https://i.scdn.co/image/ab6765630000ba8aa73d8865f4e71fabfa514528",
-      "summary": "2026年11月14日|21分 AIチームを率いるとは、どういうこと？ with プログラマー・起業家 amachang Part1 ゲスト: 天野仁史（多摩川機構エンジニアリング株式会社 代表） 一人の会社に、開発チームがいくつもある。 コードを書くAI、デザインするAI、それらを束ねるAI。スマートニュ…",
+      "title": "Building always-on agents",
+      "source": "claude.com",
+      "publishedAt": "2026-11-14 09:52",
+      "publishedTs": 1794617562,
+      "image": "https://claude.com/ja/resources/articles/building-always-on-agents/opengraph-image/og",
+      "summary": "Always-on agents run indefinitely, deciding how and when to act across many sessions. This guide walks through their core primitives and how they fit toge…",
       "points": [
         "カテゴリ: テクノロジー・AIで話題の記事",
-        "引用元: theupdate.coffee（2026-11-14 16:45）",
+        "引用元: claude.com（2026-11-14 09:52）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "テクノロジー・AI分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "テクノロジー・AI",
-        "theupdate.coffee"
+        "claude.com"
       ],
-      "url": "https://theupdate.coffee/episodes/0J7UP7922ZXV6NBTt7w9Jl/",
+      "url": "https://claude.com/resources/articles/building-always-on-agents",
       "isAiEnriched": false
     },
     {
@@ -412,15 +412,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "マネジメントされる側の仕事は「文句」を言うこと",
+      "title": "常時稼働エージェントの作り方（Claude公式ブログを資料化）",
       "source": "speakerdeck.com",
-      "publishedAt": "2026-11-13 22:23",
-      "publishedTs": 1794576236,
-      "image": "https://files.speakerdeck.com/presentations/77ebd1aff03e4bd0a221a311ea2e231d/slide_0.jpg?41354216",
-      "summary": "このスライドはSlidevで作られており、以下のレポジトリで公開しています https://github.com/riya-amemiya/amemiya_riya_slide_data/tree/main/complaining_is_your_job Webバージョンはこちらから http…",
+      "publishedAt": "2026-11-15 01:06",
+      "publishedTs": 1794672377,
+      "image": "https://files.speakerdeck.com/presentations/35d0e47593c74ea99eb61eb523e3f757/slide_0.jpg?41374920",
+      "summary": "以下のURLを私のClaude Codeに渡して、スライドをポン出しする実験です。 https://claude.com/ja/resources/articles/building-always-on-agents…",
       "points": [
         "カテゴリ: テクノロジー・AIで話題の記事",
-        "引用元: speakerdeck.com（2026-11-13 22:23）",
+        "引用元: speakerdeck.com（2026-11-15 01:06）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "テクノロジー・AI分野で多くの読者に共有されている注目記事です。",
@@ -428,7 +428,7 @@ window.NEWS_DATA = {
         "テクノロジー・AI",
         "speakerdeck.com"
       ],
-      "url": "https://speakerdeck.com/riyaamemiya/slides-export-013b776f-8661-4e92-bac0-1ac4285999f9",
+      "url": "https://speakerdeck.com/minorun365/jouji-kadou-ejento-no-tsukurikata",
       "isAiEnriched": false
     },
     {
@@ -450,132 +450,6 @@ window.NEWS_DATA = {
         "kobe-np.co.jp"
       ],
       "url": "https://www.kobe-np.co.jp/news/society/202611/0021030732.shtml",
-      "isAiEnriched": false
-    },
-    {
-      "category": "domestic",
-      "title": "昔、肝癌で終末期入院中の母に「退院するときの服」を買ってくるように頼まれ、婦人服売り場でぼんやりと服を選んでいるときに声をかけてくれた店員さんに救われた",
-      "source": "togetter.com",
-      "publishedAt": "2026-11-14 18:23",
-      "publishedTs": 1794648200,
-      "image": "https://s.tgstc.com/ogp3/24c22d084c64d272ed9f66aacbc1c22e-1200x630.jpeg",
-      "summary": "せき @sekisyko ひと昔以上前、母親の肝癌終末期入院中(本人告知なし、そのまま看取りになる予定)の付き添いしていた時に本人から「退院するときの服が無いからなんかええやつ買うてきてんか」と頼まれ70代からぐらいの婦人服を売ってるお店で茫漠と服を選んでいた。すると私をじっと見ていた店員のお姉さんが→ 2…",
-      "points": [
-        "カテゴリ: 国内・総合で話題の記事",
-        "引用元: togetter.com（2026-11-14 18:23）",
-        "「元記事を読む」から本文を確認できます"
-      ],
-      "impact": "国内・総合分野で多くの読者に共有されている注目記事です。",
-      "tags": [
-        "国内・総合",
-        "togetter.com"
-      ],
-      "url": "https://togetter.com/li/2770389",
-      "isAiEnriched": false
-    },
-    {
-      "category": "tech",
-      "title": "AIについての追記",
-      "source": "ms.u-tokyo.ac.jp",
-      "publishedAt": "2026-11-14 19:13",
-      "publishedTs": 1794651219,
-      "image": "assets/images/news-3.jpg",
-      "summary": "Associate Professor, Graduate School of Mathematical Sciences 私のところで大学院入学を希望する方へ―AIについての追記 この文章は2026年11月に書いています．この年は，AIが数学にもたらした影響がある閾値を超えた年として記憶されるでしょう．大…",
-      "points": [
-        "カテゴリ: テクノロジー・AIで話題の記事",
-        "引用元: ms.u-tokyo.ac.jp（2026-11-14 19:13）",
-        "「元記事を読む」から本文を確認できます"
-      ],
-      "impact": "テクノロジー・AI分野で多くの読者に共有されている注目記事です。",
-      "tags": [
-        "テクノロジー・AI",
-        "ms.u-tokyo.ac.jp"
-      ],
-      "url": "https://www.ms.u-tokyo.ac.jp/~konno/grad_ai.html",
-      "isAiEnriched": false
-    },
-    {
-      "category": "business",
-      "title": "日本のAppleことバルミューダ社、高級家電が売れず売上高89億円、最終赤字10億5千万円に下方修正",
-      "source": "gadget2ch.com",
-      "publishedAt": "2026-11-14 07:40",
-      "publishedTs": 1794609629,
-      "image": "https://www.gadget2ch.com/wp-content/uploads/2026/11/78459c3dc69db92f5d9860af3194166a.w960.h960-1-1.jpg-1-1-1-1.webp",
-      "summary": "高級家電ブランド「バルミューダ（BALMUDA）」を展開するバルミューダは11月13日、2026年12月期の通期業績予想を下方修正した。売上高は従来予想の105億円から89億円へと16億円引き下げ、前期比3.8％増の増収予想から一転、同12.0％減の減収となる見通しだ。 利益面も大幅に悪化する。営業損益は従…",
-      "points": [
-        "カテゴリ: ビジネス・経済で話題の記事",
-        "引用元: gadget2ch.com（2026-11-14 07:40）",
-        "「元記事を読む」から本文を確認できます"
-      ],
-      "impact": "ビジネス・経済分野で多くの読者に共有されている注目記事です。",
-      "tags": [
-        "ビジネス・経済",
-        "gadget2ch.com"
-      ],
-      "url": "https://www.gadget2ch.com/archives/post-282583.html",
-      "isAiEnriched": false
-    },
-    {
-      "category": "domestic",
-      "title": "フェミニズムが社会に浸透した結果",
-      "source": "anond.hatelabo.jp",
-      "publishedAt": "2026-11-14 23:14",
-      "publishedTs": 1794665691,
-      "image": "https://anond.hatelabo.jp/assets/images/og-image-1500.gif",
-      "summary": "男は女を養わなくなった。 男も女に経済力や甲斐性を要求して当たり前、女も働いて当たり前の価値観になった。 何だ、フェミニズムって男にとっても素晴らしいことではないか。",
-      "points": [
-        "カテゴリ: 国内・総合で話題の記事",
-        "引用元: anond.hatelabo.jp（2026-11-14 23:14）",
-        "「元記事を読む」から本文を確認できます"
-      ],
-      "impact": "国内・総合分野で多くの読者に共有されている注目記事です。",
-      "tags": [
-        "国内・総合",
-        "anond.hatelabo.jp"
-      ],
-      "url": "https://anond.hatelabo.jp/20261114231126",
-      "isAiEnriched": false
-    },
-    {
-      "category": "tech",
-      "title": "「すげぇ！教科書とかで見たフロッピーや！！これで容量どれくらいあるんですか？」若者のほのぼのとした感想がぶっ刺さるネット民",
-      "source": "togetter.com",
-      "publishedAt": "2026-11-14 21:54",
-      "publishedTs": 1794660853,
-      "image": "https://s.tgstc.com/ogp3/54892bba0fd3c6ad84afa397226a52c4-1200x630.jpeg",
-      "summary": "しー@園芸博NEXT！ @Sh_i0916 すげぇ！！！ フロッピーや！！ フロッピーや！！！ 教科書とかで見たフロッピーや！！ 初めて触ったかも！！ うっす！！！！ かるっ！！！！！ すげぇ！！ これで容量どれくらいあるんですか？ #フロッピー #富士通 pic.x.com/Ofx3uVhKaf 2026…",
-      "points": [
-        "カテゴリ: テクノロジー・AIで話題の記事",
-        "引用元: togetter.com（2026-11-14 21:54）",
-        "「元記事を読む」から本文を確認できます"
-      ],
-      "impact": "テクノロジー・AI分野で多くの読者に共有されている注目記事です。",
-      "tags": [
-        "テクノロジー・AI",
-        "togetter.com"
-      ],
-      "url": "https://togetter.com/li/2770437",
-      "isAiEnriched": false
-    },
-    {
-      "category": "business",
-      "title": "戦争反対界隈、「先制攻撃を始める前提に自衛隊は成り立ってる」という小泉防衛相の発言捏造を始める。",
-      "source": "posfie.com",
-      "publishedAt": "2026-11-14 17:36",
-      "publishedTs": 1794645388,
-      "image": "https://s.tgstc.com/ogp3/5e5d7dbfda9c2dda6c34f27eece61689-1200x630.jpeg",
-      "summary": "緒方恵美 @Megumi_Ogata 「小泉大臣は先制攻撃とは言ってない」 と仰る方へ。 「米国とイスラエルが先制攻撃を始めなければ(戦争はなかった)」 という言葉を受けて、 「始めないという前提で自衛隊はない」 と答えている段階で、文脈的に仰っているのと同義です。 憲法違反でなく言うとしたら、 「始められ…",
-      "points": [
-        "カテゴリ: ビジネス・経済で話題の記事",
-        "引用元: posfie.com（2026-11-14 17:36）",
-        "「元記事を読む」から本文を確認できます"
-      ],
-      "impact": "ビジネス・経済分野で多くの読者に共有されている注目記事です。",
-      "tags": [
-        "ビジネス・経済",
-        "posfie.com"
-      ],
-      "url": "https://posfie.com/@any_k_tg/p/f0gZrzm",
       "isAiEnriched": false
     },
     {
@@ -639,6 +513,132 @@ window.NEWS_DATA = {
         "president.jp"
       ],
       "url": "https://president.jp/articles/-/122183",
+      "isAiEnriched": false
+    },
+    {
+      "category": "domestic",
+      "title": "昔、肝癌で終末期入院中の母に「退院するときの服」を買ってくるように頼まれ、婦人服売り場でぼんやりと服を選んでいるときに声をかけてくれた店員さんに救われた",
+      "source": "togetter.com",
+      "publishedAt": "2026-11-14 18:23",
+      "publishedTs": 1794648200,
+      "image": "https://s.tgstc.com/ogp3/24c22d084c64d272ed9f66aacbc1c22e-1200x630.jpeg",
+      "summary": "せき @sekisyko ひと昔以上前、母親の肝癌終末期入院中(本人告知なし、そのまま看取りになる予定)の付き添いしていた時に本人から「退院するときの服が無いからなんかええやつ買うてきてんか」と頼まれ70代からぐらいの婦人服を売ってるお店で茫漠と服を選んでいた。すると私をじっと見ていた店員のお姉さんが→ 2…",
+      "points": [
+        "カテゴリ: 国内・総合で話題の記事",
+        "引用元: togetter.com（2026-11-14 18:23）",
+        "「元記事を読む」から本文を確認できます"
+      ],
+      "impact": "国内・総合分野で多くの読者に共有されている注目記事です。",
+      "tags": [
+        "国内・総合",
+        "togetter.com"
+      ],
+      "url": "https://togetter.com/li/2770389",
+      "isAiEnriched": false
+    },
+    {
+      "category": "tech",
+      "title": "AIチームを率いるとは、どういうこと？ with プログラマー・起業家 amachang Part1 | The Update",
+      "source": "theupdate.coffee",
+      "publishedAt": "2026-11-14 16:45",
+      "publishedTs": 1794642330,
+      "image": "https://i.scdn.co/image/ab6765630000ba8aa73d8865f4e71fabfa514528",
+      "summary": "2026年11月14日|21分 AIチームを率いるとは、どういうこと？ with プログラマー・起業家 amachang Part1 ゲスト: 天野仁史（多摩川機構エンジニアリング株式会社 代表） 一人の会社に、開発チームがいくつもある。 コードを書くAI、デザインするAI、それらを束ねるAI。スマートニュ…",
+      "points": [
+        "カテゴリ: テクノロジー・AIで話題の記事",
+        "引用元: theupdate.coffee（2026-11-14 16:45）",
+        "「元記事を読む」から本文を確認できます"
+      ],
+      "impact": "テクノロジー・AI分野で多くの読者に共有されている注目記事です。",
+      "tags": [
+        "テクノロジー・AI",
+        "theupdate.coffee"
+      ],
+      "url": "https://theupdate.coffee/episodes/0J7UP7922ZXV6NBTt7w9Jl/",
+      "isAiEnriched": false
+    },
+    {
+      "category": "business",
+      "title": "戦争反対界隈、「先制攻撃を始める前提に自衛隊は成り立ってる」という小泉防衛相の発言捏造を始める。",
+      "source": "posfie.com",
+      "publishedAt": "2026-11-14 17:36",
+      "publishedTs": 1794645388,
+      "image": "https://s.tgstc.com/ogp3/5e5d7dbfda9c2dda6c34f27eece61689-1200x630.jpeg",
+      "summary": "緒方恵美 @Megumi_Ogata 「小泉大臣は先制攻撃とは言ってない」 と仰る方へ。 「米国とイスラエルが先制攻撃を始めなければ(戦争はなかった)」 という言葉を受けて、 「始めないという前提で自衛隊はない」 と答えている段階で、文脈的に仰っているのと同義です。 憲法違反でなく言うとしたら、 「始められ…",
+      "points": [
+        "カテゴリ: ビジネス・経済で話題の記事",
+        "引用元: posfie.com（2026-11-14 17:36）",
+        "「元記事を読む」から本文を確認できます"
+      ],
+      "impact": "ビジネス・経済分野で多くの読者に共有されている注目記事です。",
+      "tags": [
+        "ビジネス・経済",
+        "posfie.com"
+      ],
+      "url": "https://posfie.com/@any_k_tg/p/f0gZrzm",
+      "isAiEnriched": false
+    },
+    {
+      "category": "domestic",
+      "title": "フェミニズムが社会に浸透した結果",
+      "source": "anond.hatelabo.jp",
+      "publishedAt": "2026-11-14 23:14",
+      "publishedTs": 1794665691,
+      "image": "https://anond.hatelabo.jp/assets/images/og-image-1500.gif",
+      "summary": "男は女を養わなくなった。 男も女に経済力や甲斐性を要求して当たり前、女も働いて当たり前の価値観になった。 何だ、フェミニズムって男にとっても素晴らしいことではないか。",
+      "points": [
+        "カテゴリ: 国内・総合で話題の記事",
+        "引用元: anond.hatelabo.jp（2026-11-14 23:14）",
+        "「元記事を読む」から本文を確認できます"
+      ],
+      "impact": "国内・総合分野で多くの読者に共有されている注目記事です。",
+      "tags": [
+        "国内・総合",
+        "anond.hatelabo.jp"
+      ],
+      "url": "https://anond.hatelabo.jp/20261114231126",
+      "isAiEnriched": false
+    },
+    {
+      "category": "tech",
+      "title": "マネジメントされる側の仕事は「文句」を言うこと",
+      "source": "speakerdeck.com",
+      "publishedAt": "2026-11-13 22:23",
+      "publishedTs": 1794576236,
+      "image": "https://files.speakerdeck.com/presentations/77ebd1aff03e4bd0a221a311ea2e231d/slide_0.jpg?41354216",
+      "summary": "このスライドはSlidevで作られており、以下のレポジトリで公開しています https://github.com/riya-amemiya/amemiya_riya_slide_data/tree/main/complaining_is_your_job Webバージョンはこちらから http…",
+      "points": [
+        "カテゴリ: テクノロジー・AIで話題の記事",
+        "引用元: speakerdeck.com（2026-11-13 22:23）",
+        "「元記事を読む」から本文を確認できます"
+      ],
+      "impact": "テクノロジー・AI分野で多くの読者に共有されている注目記事です。",
+      "tags": [
+        "テクノロジー・AI",
+        "speakerdeck.com"
+      ],
+      "url": "https://speakerdeck.com/riyaamemiya/slides-export-013b776f-8661-4e92-bac0-1ac4285999f9",
+      "isAiEnriched": false
+    },
+    {
+      "category": "business",
+      "title": "2028アメリカ大統領選挙：ろくな候補者がいないんだが……｜女子大生起業家",
+      "source": "note.com",
+      "publishedAt": "2026-11-10 16:49",
+      "publishedTs": 1794296984,
+      "image": "https://assets.st-note.com/production/uploads/images/334405492/rectangle_large_type_2_d0108f86bab27526d4735f52cbd1c9dc.png?fit=bounds&quality=85&width=1280",
+      "summary": "中間選挙について何か書いてくれと言われたのだが、ご存じの通り私はウクライナ応援団なので、10月に入ってロシア宥和的な動きをしていたトランプ政権に対して「普通に負けると思うし、負けろ」というスタンスでやっていて、実際その通りに負けたという印象である。 トランプが輸入を言い出した後「保守派アメリカ人にと...",
+      "points": [
+        "カテゴリ: ビジネス・経済で話題の記事",
+        "引用元: note.com（2026-11-10 16:49）",
+        "「元記事を読む」から本文を確認できます"
+      ],
+      "impact": "ビジネス・経済分野で多くの読者に共有されている注目記事です。",
+      "tags": [
+        "ビジネス・経済",
+        "note.com"
+      ],
+      "url": "https://note.com/seanky/n/n931f0f83030e",
       "isAiEnriched": false
     }
   ]
