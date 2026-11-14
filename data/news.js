@@ -1,6 +1,6 @@
 window.NEWS_DATA = {
   "date": "2026年11月15日 (日)",
-  "updatedAt": "2026-11-15 00:09",
+  "updatedAt": "2026-11-15 00:50",
   "title": "TREND NEWS",
   "keywords": [
     "米中露の接近 日本政府は危…",
@@ -454,23 +454,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "【小泉今日子、山に木を植える】クマ被害きっかけに“どんぐりの木”3000本植樹へ「口で言うだけではダメ」“豊かな森”目指すプロジェクトに密着【news23】 | TBS NEWS DIG",
-      "source": "newsdig.tbs.co.jp",
-      "publishedAt": "2026-11-14 08:22",
-      "publishedTs": 1794612143,
-      "image": "https://newsdig.ismcdn.jp/mwimgs/1/c/1200w/img_1c2150c2a71e46260125d1a5dd7d7c7b1256923.jpg",
-      "summary": "【小泉今日子、山に木を植える】クマ被害きっかけに“どんぐりの木”3000本植樹へ「口で言うだけではダメ」“豊かな森”目指すプロジェクトに密着【news23】…",
+      "title": "昔、肝癌で終末期入院中の母に「退院するときの服」を買ってくるように頼まれ、婦人服売り場でぼんやりと服を選んでいるときに声をかけてくれた店員さんに救われた",
+      "source": "togetter.com",
+      "publishedAt": "2026-11-14 18:23",
+      "publishedTs": 1794648200,
+      "image": "https://s.tgstc.com/ogp3/24c22d084c64d272ed9f66aacbc1c22e-1200x630.jpeg",
+      "summary": "せき @sekisyko ひと昔以上前、母親の肝癌終末期入院中(本人告知なし、そのまま看取りになる予定)の付き添いしていた時に本人から「退院するときの服が無いからなんかええやつ買うてきてんか」と頼まれ70代からぐらいの婦人服を売ってるお店で茫漠と服を選んでいた。すると私をじっと見ていた店員のお姉さんが→ 2…",
       "points": [
         "カテゴリ: 国内・総合で話題の記事",
-        "引用元: newsdig.tbs.co.jp（2026-11-14 08:22）",
+        "引用元: togetter.com（2026-11-14 18:23）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "国内・総合分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "国内・総合",
-        "newsdig.tbs.co.jp"
+        "togetter.com"
       ],
-      "url": "https://newsdig.tbs.co.jp/articles/-/3085720",
+      "url": "https://togetter.com/li/2770389",
       "isAiEnriched": false
     },
     {
@@ -517,44 +517,44 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "昔、肝癌で終末期入院中の母に「退院するときの服」を買ってくるように頼まれ、婦人服売り場でぼんやりと服を選んでいるときに声をかけてくれた店員さんに救われた",
-      "source": "togetter.com",
-      "publishedAt": "2026-11-14 18:23",
-      "publishedTs": 1794648200,
-      "image": "https://s.tgstc.com/ogp3/24c22d084c64d272ed9f66aacbc1c22e-1200x630.jpeg",
-      "summary": "せき @sekisyko ひと昔以上前、母親の肝癌終末期入院中(本人告知なし、そのまま看取りになる予定)の付き添いしていた時に本人から「退院するときの服が無いからなんかええやつ買うてきてんか」と頼まれ70代からぐらいの婦人服を売ってるお店で茫漠と服を選んでいた。すると私をじっと見ていた店員のお姉さんが→ 2…",
+      "title": "【小泉今日子、山に木を植える】クマ被害きっかけに“どんぐりの木”3000本植樹へ「口で言うだけではダメ」“豊かな森”目指すプロジェクトに密着【news23】 | TBS NEWS DIG",
+      "source": "newsdig.tbs.co.jp",
+      "publishedAt": "2026-11-14 08:22",
+      "publishedTs": 1794612143,
+      "image": "https://newsdig.ismcdn.jp/mwimgs/1/c/1200w/img_1c2150c2a71e46260125d1a5dd7d7c7b1256923.jpg",
+      "summary": "【小泉今日子、山に木を植える】クマ被害きっかけに“どんぐりの木”3000本植樹へ「口で言うだけではダメ」“豊かな森”目指すプロジェクトに密着【news23】…",
       "points": [
         "カテゴリ: 国内・総合で話題の記事",
-        "引用元: togetter.com（2026-11-14 18:23）",
+        "引用元: newsdig.tbs.co.jp（2026-11-14 08:22）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "国内・総合分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "国内・総合",
-        "togetter.com"
+        "newsdig.tbs.co.jp"
       ],
-      "url": "https://togetter.com/li/2770389",
+      "url": "https://newsdig.tbs.co.jp/articles/-/3085720",
       "isAiEnriched": false
     },
     {
       "category": "tech",
-      "title": "幻覚がひどいAIでも言葉遣いが洗練されていれば人を簡単に騙せることが判明",
-      "source": "gigazine.net",
-      "publishedAt": "2026-11-14 08:05",
-      "publishedTs": 1794611157,
-      "image": "https://i.gzn.jp/img/2026/11/14/llm-fluency-credible/00.jpg",
-      "summary": "ChatGPTなどに代表される大規模言語モデルは、その根本的な仕組みとして、モデル自身は自分の回答が合っているか間違っているかを判断できません。そのためこの手のAIには事実ではないことをまるで事実かのように話してしまう「幻覚(ハルシネーション)」の問題が常につきまといます。新たな研究では、AIの回答に幻覚が…",
+      "title": "Cognitoの自己サインアップが有効だと、誰でもAWSの一時認証情報を取得できる：AI攻撃ツールARTEXの事例と確認したい設定3点 | DevelopersIO",
+      "source": "dev.classmethod.jp",
+      "publishedAt": "2026-11-14 21:48",
+      "publishedTs": 1794660505,
+      "image": "https://devio2024-media.developers.io/image/upload/f_auto,q_auto/v1790871156/eyecatch/wagokraibjktomkouqin.png",
+      "summary": "どうも！オペ部の西村祐二です！ S3 にフロントエンドを置き、Amazon Cognito のユーザープールでログインさせ、ID プールで AWS の一時認証情報を渡す。AWS で SPA を作るときによく見る構成です。この構成が攻撃用の AI エージェントにどう使われたかを、Datadog Securit…",
       "points": [
         "カテゴリ: テクノロジー・AIで話題の記事",
-        "引用元: gigazine.net（2026-11-14 08:05）",
+        "引用元: dev.classmethod.jp（2026-11-14 21:48）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "テクノロジー・AI分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "テクノロジー・AI",
-        "gigazine.net"
+        "dev.classmethod.jp"
       ],
-      "url": "https://gigazine.net/news/20261114-llm-fluency-credible/",
+      "url": "https://dev.classmethod.jp/articles/cognito-self-signup-agentic-attack/",
       "isAiEnriched": false
     },
     {
@@ -601,23 +601,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "【速報】マネックス証券、マイナカード画像漏えいか",
-      "source": "47news.jp",
-      "publishedAt": "2026-11-14 00:36",
-      "publishedTs": 1794584170,
-      "image": "https://img.cf.47news.jp/static/renewal/common/img/thumb_large.png",
-      "summary": "マネックス証券は13日、委託先が運営・管理する口座開設システムが不正アクセスを受け、運転免許証やマイナンバーカードといった本人確認書類の画像1592件と、最大113万件のメールアドレスが漏えいした恐れがあると発表した。",
+      "title": "幻覚がひどいAIでも言葉遣いが洗練されていれば人を簡単に騙せることが判明",
+      "source": "gigazine.net",
+      "publishedAt": "2026-11-14 08:05",
+      "publishedTs": 1794611157,
+      "image": "https://i.gzn.jp/img/2026/11/14/llm-fluency-credible/00.jpg",
+      "summary": "ChatGPTなどに代表される大規模言語モデルは、その根本的な仕組みとして、モデル自身は自分の回答が合っているか間違っているかを判断できません。そのためこの手のAIには事実ではないことをまるで事実かのように話してしまう「幻覚(ハルシネーション)」の問題が常につきまといます。新たな研究では、AIの回答に幻覚が…",
       "points": [
         "カテゴリ: テクノロジー・AIで話題の記事",
-        "引用元: 47news.jp（2026-11-14 00:36）",
+        "引用元: gigazine.net（2026-11-14 08:05）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "テクノロジー・AI分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "テクノロジー・AI",
-        "47news.jp"
+        "gigazine.net"
       ],
-      "url": "https://www.47news.jp/15227159.html",
+      "url": "https://gigazine.net/news/20261114-llm-fluency-credible/",
       "isAiEnriched": false
     },
     {
