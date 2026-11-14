@@ -1,6 +1,6 @@
 window.NEWS_DATA = {
   "date": "2026年11月14日 (土)",
-  "updatedAt": "2026-11-14 11:20",
+  "updatedAt": "2026-11-14 12:14",
   "title": "TREND NEWS",
   "keywords": [
     "防衛費5年で60兆円規模 …",
@@ -391,6 +391,69 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
+      "title": "多文化共生「重要だと思わない」７倍に　岐阜県がアンケート：中日新聞Web",
+      "source": "chunichi.co.jp",
+      "publishedAt": "2026-11-13 18:53",
+      "publishedTs": 1794563623,
+      "image": "https://static.chunichi.co.jp/image/article/size1/d/8/1/a/d81a8773f37bf0bd2cb6a3cd5868cdb1_1.jpg",
+      "summary": "岐阜県は12日、外国人に関連する施策を話し合う本部員会議を県庁で開き、多文化共生について県民らから募ったアンケート結果を公表した。「多文化共生社会を目指すことについてどう思うか」という質問には、「重要だと思わない」という答えが前回アンケートから約7倍に増えた。",
+      "points": [
+        "カテゴリ: 国内・総合で話題の記事",
+        "引用元: chunichi.co.jp（2026-11-13 18:53）",
+        "「元記事を読む」から本文を確認できます"
+      ],
+      "impact": "国内・総合分野で多くの読者に共有されている注目記事です。",
+      "tags": [
+        "国内・総合",
+        "chunichi.co.jp"
+      ],
+      "url": "https://www.chunichi.co.jp/article/1338916",
+      "isAiEnriched": false
+    },
+    {
+      "category": "tech",
+      "title": "【速報】マネックス証券、マイナカード画像漏えいか",
+      "source": "47news.jp",
+      "publishedAt": "2026-11-14 00:36",
+      "publishedTs": 1794584170,
+      "image": "https://img.cf.47news.jp/static/renewal/common/img/thumb_large.png",
+      "summary": "マネックス証券は13日、委託先が運営・管理する口座開設システムが不正アクセスを受け、運転免許証やマイナンバーカードといった本人確認書類の画像1592件と、最大113万件のメールアドレスが漏えいした恐れがあると発表した。",
+      "points": [
+        "カテゴリ: テクノロジー・AIで話題の記事",
+        "引用元: 47news.jp（2026-11-14 00:36）",
+        "「元記事を読む」から本文を確認できます"
+      ],
+      "impact": "テクノロジー・AI分野で多くの読者に共有されている注目記事です。",
+      "tags": [
+        "テクノロジー・AI",
+        "47news.jp"
+      ],
+      "url": "https://www.47news.jp/15227159.html",
+      "isAiEnriched": false
+    },
+    {
+      "category": "business",
+      "title": "「何もしていないのに壊れた」高市首相はある能力において、故安倍元首相を超えたのではないか？という指摘がX上で続々と集まる",
+      "source": "togetter.com",
+      "publishedAt": "2026-11-14 04:46",
+      "publishedTs": 1794599203,
+      "image": "https://s.tgstc.com/ogp3/47fbe1869359fc6f93b65ea3a0c4f4fd-1200x630.jpeg",
+      "summary": "なま卯 @e_the_dethroner 神戸大学勤務の先生が、「高市総理、神大の夜間部だったのではないかという話が出ているのか。それなら色々と納得が行く。神大卒は嘘ではない。ただ早慶合格は怪しい。」と仰っている。私にはこれは高市総理云々よりも、夜間部を揶揄しているように見えるのだが、大学の先生がそういう態…",
+      "points": [
+        "カテゴリ: ビジネス・経済で話題の記事",
+        "引用元: togetter.com（2026-11-14 04:46）",
+        "「元記事を読む」から本文を確認できます"
+      ],
+      "impact": "ビジネス・経済分野で多くの読者に共有されている注目記事です。",
+      "tags": [
+        "ビジネス・経済",
+        "togetter.com"
+      ],
+      "url": "https://togetter.com/li/2770188",
+      "isAiEnriched": false
+    },
+    {
+      "category": "domestic",
       "title": "アメリカ全土の航空機の運航停止を解除 米航空当局 | NHKニュース",
       "source": "news.web.nhk",
       "publishedAt": "2026-11-14 06:49",
@@ -429,69 +492,6 @@ window.NEWS_DATA = {
         "itmedia.co.jp"
       ],
       "url": "https://www.itmedia.co.jp/news/article/2611/13/2000003200/",
-      "isAiEnriched": false
-    },
-    {
-      "category": "business",
-      "title": "「何もしていないのに壊れた」高市首相はある能力において、故安倍元首相を超えたのではないか？という指摘がX上で続々と集まる",
-      "source": "togetter.com",
-      "publishedAt": "2026-11-14 04:46",
-      "publishedTs": 1794599203,
-      "image": "https://s.tgstc.com/ogp3/47fbe1869359fc6f93b65ea3a0c4f4fd-1200x630.jpeg",
-      "summary": "なま卯 @e_the_dethroner 神戸大学勤務の先生が、「高市総理、神大の夜間部だったのではないかという話が出ているのか。それなら色々と納得が行く。神大卒は嘘ではない。ただ早慶合格は怪しい。」と仰っている。私にはこれは高市総理云々よりも、夜間部を揶揄しているように見えるのだが、大学の先生がそういう態…",
-      "points": [
-        "カテゴリ: ビジネス・経済で話題の記事",
-        "引用元: togetter.com（2026-11-14 04:46）",
-        "「元記事を読む」から本文を確認できます"
-      ],
-      "impact": "ビジネス・経済分野で多くの読者に共有されている注目記事です。",
-      "tags": [
-        "ビジネス・経済",
-        "togetter.com"
-      ],
-      "url": "https://togetter.com/li/2770188",
-      "isAiEnriched": false
-    },
-    {
-      "category": "domestic",
-      "title": "多文化共生「重要だと思わない」７倍に　岐阜県がアンケート：中日新聞Web",
-      "source": "chunichi.co.jp",
-      "publishedAt": "2026-11-13 18:53",
-      "publishedTs": 1794563623,
-      "image": "https://static.chunichi.co.jp/image/article/size1/d/8/1/a/d81a8773f37bf0bd2cb6a3cd5868cdb1_1.jpg",
-      "summary": "岐阜県は12日、外国人に関連する施策を話し合う本部員会議を県庁で開き、多文化共生について県民らから募ったアンケート結果を公表した。「多文化共生社会を目指すことについてどう思うか」という質問には、「重要だと思わない」という答えが前回アンケートから約7倍に増えた。",
-      "points": [
-        "カテゴリ: 国内・総合で話題の記事",
-        "引用元: chunichi.co.jp（2026-11-13 18:53）",
-        "「元記事を読む」から本文を確認できます"
-      ],
-      "impact": "国内・総合分野で多くの読者に共有されている注目記事です。",
-      "tags": [
-        "国内・総合",
-        "chunichi.co.jp"
-      ],
-      "url": "https://www.chunichi.co.jp/article/1338916",
-      "isAiEnriched": false
-    },
-    {
-      "category": "tech",
-      "title": "『検索システム』『推薦システム』とLLM時代の検索推薦 - ｼﾞｮｲｼﾞｮｲｼﾞｮｲ",
-      "source": "joisino.hatenablog.com",
-      "publishedAt": "2026-11-13 19:50",
-      "publishedTs": 1794567054,
-      "image": "https://cdn.image.st-hatena.com/image/scale/d5c90eb051b7f12f50fe0e47e38459f3884c8866/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fj%2Fjoisino%2F20261111%2F20261111174347.png",
-      "summary": "拙著『検索システム』『推薦システム』が発売されました。 ▲カバーイラストがおしゃれで嬉しい これらはその名の通り検索システムと推薦システムの教科書です。LLM 時代の新基準になることを目指して執筆しました。すべてのログデータをプロンプトに入れて「これを前提に何を推薦すればいいか」と LLM に訊くという投げ…",
-      "points": [
-        "カテゴリ: テクノロジー・AIで話題の記事",
-        "引用元: joisino.hatenablog.com（2026-11-13 19:50）",
-        "「元記事を読む」から本文を確認できます"
-      ],
-      "impact": "テクノロジー・AI分野で多くの読者に共有されている注目記事です。",
-      "tags": [
-        "テクノロジー・AI",
-        "joisino.hatenablog.com"
-      ],
-      "url": "https://joisino.hatenablog.com/entry/searchrecbook",
       "isAiEnriched": false
     },
     {
@@ -538,23 +538,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "【速報】マネックス証券、マイナカード画像漏えいか",
-      "source": "47news.jp",
-      "publishedAt": "2026-11-14 00:36",
-      "publishedTs": 1794584170,
-      "image": "https://img.cf.47news.jp/static/renewal/common/img/thumb_large.png",
-      "summary": "マネックス証券は13日、委託先が運営・管理する口座開設システムが不正アクセスを受け、運転免許証やマイナンバーカードといった本人確認書類の画像1592件と、最大113万件のメールアドレスが漏えいした恐れがあると発表した。",
+      "title": "『検索システム』『推薦システム』とLLM時代の検索推薦 - ｼﾞｮｲｼﾞｮｲｼﾞｮｲ",
+      "source": "joisino.hatenablog.com",
+      "publishedAt": "2026-11-13 19:50",
+      "publishedTs": 1794567054,
+      "image": "https://cdn.image.st-hatena.com/image/scale/d5c90eb051b7f12f50fe0e47e38459f3884c8866/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fj%2Fjoisino%2F20261111%2F20261111174347.png",
+      "summary": "拙著『検索システム』『推薦システム』が発売されました。 ▲カバーイラストがおしゃれで嬉しい これらはその名の通り検索システムと推薦システムの教科書です。LLM 時代の新基準になることを目指して執筆しました。すべてのログデータをプロンプトに入れて「これを前提に何を推薦すればいいか」と LLM に訊くという投げ…",
       "points": [
         "カテゴリ: テクノロジー・AIで話題の記事",
-        "引用元: 47news.jp（2026-11-14 00:36）",
+        "引用元: joisino.hatenablog.com（2026-11-13 19:50）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "テクノロジー・AI分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "テクノロジー・AI",
-        "47news.jp"
+        "joisino.hatenablog.com"
       ],
-      "url": "https://www.47news.jp/15227159.html",
+      "url": "https://joisino.hatenablog.com/entry/searchrecbook",
       "isAiEnriched": false
     },
     {
