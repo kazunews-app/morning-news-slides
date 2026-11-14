@@ -1,14 +1,14 @@
 window.NEWS_DATA = {
   "date": "2026年11月14日 (土)",
-  "updatedAt": "2026-11-14 09:11",
+  "updatedAt": "2026-11-14 10:22",
   "title": "TREND NEWS",
   "keywords": [
     "防衛費5年で60兆円規模 …",
     "マイクロソフト 大規模障害…",
-    "「週明け怖い」MS障害の影…",
+    "タマホーム 保険代理業を廃…",
     "自衛官の給与引き上げ法が成…",
     "MS「復旧が進み、安定した…",
-    "「人生初FAX」MS障害で…"
+    "3メガバンク中間決算 最高…"
   ],
   "items": [
     {
@@ -55,15 +55,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "「週明け怖い」MS障害の影響広く",
+      "title": "タマホーム 保険代理業を廃業へ",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-13 22:14",
-      "publishedTs": 1794575691,
-      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/13/e523b2dde72c952e4b3db31555b89df2512938c1f84d78d8b9f1acdc11c8bc3b.jpg",
-      "summary": "米IT大手マイクロソフト（MS）のメールや業務ソフトなどで起きた世界的なシステム障害は、国内でも影響が広がった。「仕事にならない」「週明けが怖い」。多くの業界で連絡手段を電話に切り替えるなどして対応…",
+      "publishedAt": "2026-11-14 10:20",
+      "publishedTs": 1794619208,
+      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/14/8eb1820216563d10363c2ff98718033fb45616d7655363cc39fe6dfffe5f1636.jpg",
+      "summary": "住宅メーカーのタマホームの社員が火災保険の保険金の不正請求をしていた問題で、同社は14日、保険代理業の廃業に向けて、損害保険会社に申し入れをしたと発表した。これまでの社内調査と並行して、外部の専門家…",
       "points": [
         "カテゴリ: ビジネス・経済の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-13 22:14）",
+        "配信: Yahoo!ニュース トピックス（2026-11-14 10:20）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "ビジネス・経済分野で関心を集めている最新ニュースです。",
@@ -71,7 +71,7 @@ window.NEWS_DATA = {
         "ビジネス・経済",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/pickup/6602468?source=rss",
+      "url": "https://news.yahoo.co.jp/pickup/6602519?source=rss",
       "isAiEnriched": false
     },
     {
@@ -118,15 +118,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "「人生初FAX」MS障害で代替手段",
+      "title": "3メガバンク中間決算 最高益更新",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-14 08:03",
-      "publishedTs": 1794611011,
-      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/14/aba4b656d05acebe41f3e9fd416548918af0e1dcb3d56b1a9b4d0c1b196dd1d1.jpg",
-      "summary": "米マイクロソフトのメールサービス「アウトルック」などで日本時間の１３日未明に明らかになった大規模なシステム障害は、多くの企業や官公庁、大学などに影響を与えた。慣れ親しんだサービスが突如として使えなく…",
+      "publishedAt": "2026-11-14 09:45",
+      "publishedTs": 1794617145,
+      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/14/5c8940ccb312dcf301e0b33c3aa76e246bae4af2b74c0946ec30369adf4dff22.jpg",
+      "summary": "三菱ＵＦＪなど３メガバンクグループは１３日、２０２６年９月中間連結決算を発表した。金利上昇や企業の旺盛な資金需要を背景に最終利益はそろって最高を更新し、３メガ合計で前年同期比２１・１％増の３兆５３０…",
       "points": [
         "カテゴリ: ビジネス・経済の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-14 08:03）",
+        "配信: Yahoo!ニュース トピックス（2026-11-14 09:45）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "ビジネス・経済分野で関心を集めている最新ニュースです。",
@@ -134,7 +134,7 @@ window.NEWS_DATA = {
         "ビジネス・経済",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/pickup/6602497?source=rss",
+      "url": "https://news.yahoo.co.jp/pickup/6602512?source=rss",
       "isAiEnriched": false
     },
     {
@@ -181,15 +181,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "ワタミがMBO実施へ 320億円程度",
+      "title": "FRB 市場の最大脅威は「AI関連」",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-13 22:18",
-      "publishedTs": 1794575918,
-      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/13/4cb8aff8f8fffe58c9490c624a123932cea7c56c89961b152ab720985185a842.jpg",
-      "summary": "居酒屋大手のワタミは13日、経営陣による自社買収（MBO）を実施すると発表した。創業者の渡辺美樹会長兼社長の資産管理会社が株式公開買い付け（TOB）をし、全株取得を目指す。買い付け総額は320億円程…",
+      "publishedAt": "2026-11-14 09:53",
+      "publishedTs": 1794617589,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800",
+      "summary": "【ワシントン共同】米連邦準備制度理事会（FRB）が13日公表した金融安定報告書で、市場関係者が人工知能（AI）を使ったサイバー攻撃を含めたAI関連の問題を金融安定にとっての最大の脅威と受け止めている…",
       "points": [
         "カテゴリ: ビジネス・経済の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-13 22:18）",
+        "配信: Yahoo!ニュース トピックス（2026-11-14 09:53）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "ビジネス・経済分野で関心を集めている最新ニュースです。",
@@ -197,7 +197,7 @@ window.NEWS_DATA = {
         "ビジネス・経済",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/pickup/6602467?source=rss",
+      "url": "https://news.yahoo.co.jp/pickup/6602514?source=rss",
       "isAiEnriched": false
     },
     {
@@ -244,15 +244,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "個人向け国債NISA化 見送りで調整",
+      "title": "「週明け怖い」MS障害の影響広く",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-13 19:47",
-      "publishedTs": 1794566860,
-      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/13/661a1ea54ad28979d2fad2f61b0af9412ca0a0b6fdd63164a7332494c5856014.jpg",
-      "summary": "政府・与党は、個人向け国債をNISAに組み入れて税制優遇することを検討していましたが、来年度の税制改正を見送る方向で調整しています。",
+      "publishedAt": "2026-11-13 22:14",
+      "publishedTs": 1794575691,
+      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/13/e523b2dde72c952e4b3db31555b89df2512938c1f84d78d8b9f1acdc11c8bc3b.jpg",
+      "summary": "米IT大手マイクロソフト（MS）のメールや業務ソフトなどで起きた世界的なシステム障害は、国内でも影響が広がった。「仕事にならない」「週明けが怖い」。多くの業界で連絡手段を電話に切り替えるなどして対応…",
       "points": [
         "カテゴリ: ビジネス・経済の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-13 19:47）",
+        "配信: Yahoo!ニュース トピックス（2026-11-13 22:14）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "ビジネス・経済分野で関心を集めている最新ニュースです。",
@@ -260,7 +260,7 @@ window.NEWS_DATA = {
         "ビジネス・経済",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/pickup/6602452?source=rss",
+      "url": "https://news.yahoo.co.jp/pickup/6602468?source=rss",
       "isAiEnriched": false
     },
     {
@@ -307,15 +307,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "損保3社タマホーム保険販売停止へ",
+      "title": "「人生初FAX」MS障害で代替手段",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-13 18:19",
-      "publishedTs": 1794561593,
-      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/13/7b1d26b837752abe23fa6445d64cb6f8917b4f2552c1543276ef53faf306f426.jpg",
-      "summary": "注文住宅大手のタマホームが保険金を不正に請求していた問題で、取引する損害保険ジャパン、三井住友海上火災保険、東京海上日動火災保険の3社は、タマホームによる火災保険の新規販売(募集)を停止させる方向で…",
+      "publishedAt": "2026-11-14 08:03",
+      "publishedTs": 1794611011,
+      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/14/aba4b656d05acebe41f3e9fd416548918af0e1dcb3d56b1a9b4d0c1b196dd1d1.jpg",
+      "summary": "米マイクロソフトのメールサービス「アウトルック」などで日本時間の１３日未明に明らかになった大規模なシステム障害は、多くの企業や官公庁、大学などに影響を与えた。慣れ親しんだサービスが突如として使えなく…",
       "points": [
         "カテゴリ: ビジネス・経済の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-13 18:19）",
+        "配信: Yahoo!ニュース トピックス（2026-11-14 08:03）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "ビジネス・経済分野で関心を集めている最新ニュースです。",
@@ -323,20 +323,20 @@ window.NEWS_DATA = {
         "ビジネス・経済",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/pickup/6602444?source=rss",
+      "url": "https://news.yahoo.co.jp/pickup/6602497?source=rss",
       "isAiEnriched": false
     },
     {
       "category": "domestic",
-      "title": "参議院議員の山崎正昭氏が死去",
+      "title": "土木職員 今春45都道府県定員割れ",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-13 10:00",
-      "publishedTs": 1794531612,
-      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/13/9cd73f299702348b7851597f4b14be9daf475683010a9b29a963c1d9cc84211f.jpg",
-      "summary": "福井県大野市出身の参議院議員山崎正昭氏が13日未明、亡くなりました。現職の参議院議員では最高齢の84歳でした。",
+      "publishedAt": "2026-11-13 11:42",
+      "publishedTs": 1794537749,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261113-00000038-yom-000-18-view.jpg?exp=10800",
+      "summary": "公共インフラの維持・管理などを行う都道府県の土木職員の採用を巡り、４５都道府県で今春の入庁者が採用予定数を満たさなかったことが、読売新聞のアンケート調査でわかった。２７道府県は充足率が５０％を割り込…",
       "points": [
         "カテゴリ: 国内・総合の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-13 10:00）",
+        "配信: Yahoo!ニュース トピックス（2026-11-13 11:42）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "国内・総合分野で関心を集めている最新ニュースです。",
@@ -344,7 +344,7 @@ window.NEWS_DATA = {
         "国内・総合",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/pickup/6602385?source=rss",
+      "url": "https://news.yahoo.co.jp/pickup/6602395?source=rss",
       "isAiEnriched": false
     },
     {
@@ -370,15 +370,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "ニデック 年内の臨時株主総会断念",
+      "title": "ワタミがMBO実施へ 320億円程度",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-13 19:00",
-      "publishedTs": 1794564014,
-      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/13/d91698689e57e21530975e3347707d2b29437a91226e0f7bbdd6320521295cf7.jpg",
-      "summary": "ニデックは13日、年内に予定していた臨時株主総会の開催時期を見直すと発表した。会計不正問題を巡る監査手続きが長期化し、2026年3月期の決算関係書類などの準備が整わず、年内の開催は困難と判断した。議…",
+      "publishedAt": "2026-11-13 22:18",
+      "publishedTs": 1794575918,
+      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/13/4cb8aff8f8fffe58c9490c624a123932cea7c56c89961b152ab720985185a842.jpg",
+      "summary": "居酒屋大手のワタミは13日、経営陣による自社買収（MBO）を実施すると発表した。創業者の渡辺美樹会長兼社長の資産管理会社が株式公開買い付け（TOB）をし、全株取得を目指す。買い付け総額は320億円程…",
       "points": [
         "カテゴリ: ビジネス・経済の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-13 19:00）",
+        "配信: Yahoo!ニュース トピックス（2026-11-13 22:18）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "ビジネス・経済分野で関心を集めている最新ニュースです。",
@@ -386,12 +386,12 @@ window.NEWS_DATA = {
         "ビジネス・経済",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/pickup/6602448?source=rss",
+      "url": "https://news.yahoo.co.jp/pickup/6602467?source=rss",
       "isAiEnriched": false
     },
     {
       "category": "domestic",
-      "title": "米全土の空港で航空機の運航を停止 「通信の問題」米運輸長官 | NHKニュース",
+      "title": "米全土の空港 航空機運航停止 国土安全保障省“テロではない” | NHKニュース",
       "source": "news.web.nhk",
       "publishedAt": "2026-11-14 06:49",
       "publishedTs": 1794606572,
@@ -433,7 +433,7 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "「高市憎しの勢力がどんどんトンチキな方向に進んでいく」高市首相はある能力において、故安倍元首相を超えたのではないか？という指摘がX上で続々と集まる",
+      "title": "「何もしていないのに壊れた」高市首相はある能力において、故安倍元首相を超えたのではないか？という指摘がX上で続々と集まる",
       "source": "togetter.com",
       "publishedAt": "2026-11-14 04:46",
       "publishedTs": 1794599203,
@@ -517,69 +517,6 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "「なんで死刑じゃないんだよ」閉廷直後叫ぶ　娘殺害の車いすユーチューバーに拘禁8年判決",
-      "source": "sankei.com",
-      "publishedAt": "2026-11-13 18:56",
-      "publishedTs": 1794563800,
-      "image": "https://www.sankei.com/resizer/v2/T722NTZIORMHHKTLTK3JNEM3NY.jpg?auth=780d0e0335f4e7aea992612141be180a134321516ba3877f5ffa5911c1fc2a5f&quality=50&focal=1292%2C1354&width=1200&height=675",
-      "summary": "生後3カ月の娘を包丁で切り付けて殺害したとして、殺人の罪に問われた無職、内藤沙月被告（29）の裁判員裁判の判決公判が13日、東京地裁で開かれ、宮田祥次裁判長は拘禁刑8年（求刑拘禁刑10年）を言い渡した。 内藤被告は、生まれつき骨がもろく折れやすい難病で、幼少期から車いすを使用。事件前は「ユーチューバー」と.…",
-      "points": [
-        "カテゴリ: 国内・総合で話題の記事",
-        "引用元: sankei.com（2026-11-13 18:56）",
-        "「元記事を読む」から本文を確認できます"
-      ],
-      "impact": "国内・総合分野で多くの読者に共有されている注目記事です。",
-      "tags": [
-        "国内・総合",
-        "sankei.com"
-      ],
-      "url": "https://www.sankei.com/article/20261113-DZUMP32T5BPP7BYQFH7WBUFNAM/",
-      "isAiEnriched": false
-    },
-    {
-      "category": "tech",
-      "title": "Claude Codeのおすすめ環境を全体図で解説。ハーネス・スキル・MCPの仕組みと実例",
-      "source": "ktlog.net",
-      "publishedAt": "2026-11-13 14:21",
-      "publishedTs": 1794547318,
-      "image": "https://ktlog.net/_emdash/api/media/file/01M6WX9NHRH5N9QRFZYP0DTKWK.webp",
-      "summary": "公開 2026.11.08 Claude Codeのおすすめ環境を全体図で解説。ハーネス・スキル・MCPの仕組みと実例 Claude Codeのおすすめ環境は、入口をClaude Code 1つにまとめ、判断AIや権限ルールなどのハーネスを通してから、ほかのAI・スキル・MCP・外部APIへ仕事を振り分ける…",
-      "points": [
-        "カテゴリ: テクノロジー・AIで話題の記事",
-        "引用元: ktlog.net（2026-11-13 14:21）",
-        "「元記事を読む」から本文を確認できます"
-      ],
-      "impact": "テクノロジー・AI分野で多くの読者に共有されている注目記事です。",
-      "tags": [
-        "テクノロジー・AI",
-        "ktlog.net"
-      ],
-      "url": "https://ktlog.net/posts/claude-code-ai-ecosystem",
-      "isAiEnriched": false
-    },
-    {
-      "category": "business",
-      "title": "中国首相、ＡＳＥＡＮの場で日本回避の公算…高市首相が出席する可能性ある会議への参加見送りか",
-      "source": "yomiuri.co.jp",
-      "publishedAt": "2026-11-13 16:52",
-      "publishedTs": 1794556356,
-      "image": "https://www.yomiuri.co.jp/media/2026/11/20261113-GYT1I00150-1.jpg?type=ogp",
-      "summary": "【読売新聞】 【北京＝吉永亜希子】中国の 李強 （ リーチャン ） 首相は１５～１６日、フィリピンの首都マニラを訪問し、中国と東南アジア諸国連合（ＡＳＥＡＮ）の首脳会議に出席する。 中国外務省の１１日の発表では、いずれも１７日に行わ…",
-      "points": [
-        "カテゴリ: ビジネス・経済で話題の記事",
-        "引用元: yomiuri.co.jp（2026-11-13 16:52）",
-        "「元記事を読む」から本文を確認できます"
-      ],
-      "impact": "ビジネス・経済分野で多くの読者に共有されている注目記事です。",
-      "tags": [
-        "ビジネス・経済",
-        "yomiuri.co.jp"
-      ],
-      "url": "https://www.yomiuri.co.jp/world/20261113-GYT1T00148/",
-      "isAiEnriched": false
-    },
-    {
-      "category": "domestic",
       "title": "日本、出産は50万円引き、来年からは無料です、子供は18歳まで医療費無料です、幼小中高の学費実質無料です、児童手当が15,000円/月もらえます これで少子化になるのおかしい→「夫婦が子供を持つ率は昔からあんま変わってないので未婚化がエグいって研究してる人が言ってましたね」",
       "source": "posfie.com",
       "publishedAt": "2026-11-13 19:14",
@@ -597,6 +534,69 @@ window.NEWS_DATA = {
         "posfie.com"
       ],
       "url": "https://posfie.com/@kalofollow/p/RzCY6cB",
+      "isAiEnriched": false
+    },
+    {
+      "category": "tech",
+      "title": "データセンターの排熱でエビ養殖、NTT系が実験　育ったら食べられる？　担当者に聞いてみた",
+      "source": "itmedia.co.jp",
+      "publishedAt": "2026-11-13 20:33",
+      "publishedTs": 1794569588,
+      "image": "https://www.itmedia.co.jp/news/article/ogp/2611/13/2000003200/10012155/2048",
+      "summary": "NTTドコモビジネスなど4社は11月13日、データセンターの排熱を活用してエビを養殖する実証実験を発表した。2026年度中に養殖に適した排熱の回収方法を模索し、2027年度には回収した熱を使ってクルマエビ科の一種「バナメイエビ」を育てる計画だ。なぜエビの養殖を選んだのか、育てたエビはどうするのか。担当者に話…",
+      "points": [
+        "カテゴリ: テクノロジー・AIで話題の記事",
+        "引用元: itmedia.co.jp（2026-11-13 20:33）",
+        "「元記事を読む」から本文を確認できます"
+      ],
+      "impact": "テクノロジー・AI分野で多くの読者に共有されている注目記事です。",
+      "tags": [
+        "テクノロジー・AI",
+        "itmedia.co.jp"
+      ],
+      "url": "https://www.itmedia.co.jp/news/article/2611/13/2000003200/",
+      "isAiEnriched": false
+    },
+    {
+      "category": "business",
+      "title": "関文科相　議員会館パーティー/講師は厚労省課長/バイオ医薬品企業が参加費/実態は企業献金か　規正法違反の疑いも | しんぶん赤旗｜日本共産党",
+      "source": "jcp.or.jp",
+      "publishedAt": "2026-11-13 15:44",
+      "publishedTs": 1794552299,
+      "image": "https://www.jcp.or.jp/akahata/aik26/2026-11-13/img_3.jpg",
+      "summary": "関芳弘文部科学相が代表の自民党支部が２０２４年に議員会館で開いた政治資金パーティーで、医薬品などの研究、開発を所管する厚生労働省の担当課長が「講師」を務め、バイオ医薬品企業の社長らが参加していたことが１２日、日本共産党の吉良よし子参院議員と本紙の調べで分かりました。厚労省と利害関係がある企業から...",
+      "points": [
+        "カテゴリ: ビジネス・経済で話題の記事",
+        "引用元: jcp.or.jp（2026-11-13 15:44）",
+        "「元記事を読む」から本文を確認できます"
+      ],
+      "impact": "ビジネス・経済分野で多くの読者に共有されている注目記事です。",
+      "tags": [
+        "ビジネス・経済",
+        "jcp.or.jp"
+      ],
+      "url": "https://www.jcp.or.jp/akahata/aik26/2026-11-13/2026111301_02_0.php",
+      "isAiEnriched": false
+    },
+    {
+      "category": "domestic",
+      "title": "【速報】首相のフィリピン、中国訪問を発表",
+      "source": "47news.jp",
+      "publishedAt": "2026-11-13 17:30",
+      "publishedTs": 1794558655,
+      "image": "https://img.cf.47news.jp/static/renewal/common/img/thumb_large.png",
+      "summary": "尾崎正直官房副長官は13日の記者会見で、高市早苗首相が16～19日の日程でフィリピンと中国を訪問すると発表した。東南アジア諸国連合（ASEAN）関連首脳会議と、アジア太平洋経済協力会議（APEC）首脳会議に出席する。",
+      "points": [
+        "カテゴリ: 国内・総合で話題の記事",
+        "引用元: 47news.jp（2026-11-13 17:30）",
+        "「元記事を読む」から本文を確認できます"
+      ],
+      "impact": "国内・総合分野で多くの読者に共有されている注目記事です。",
+      "tags": [
+        "国内・総合",
+        "47news.jp"
+      ],
+      "url": "https://www.47news.jp/15223107.html",
       "isAiEnriched": false
     },
     {
@@ -622,23 +622,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "報告書を「公文書扱いせず」、部隊内で複数回問題視　陸自の情報収集：朝日新聞",
-      "source": "asahi.com",
-      "publishedAt": "2026-11-13 14:48",
-      "publishedTs": 1794548910,
-      "image": "https://imgopt.asahi.com/ogp/AS20261112003146_comm.jpg",
-      "summary": "陸上自衛隊の「現地情報隊」が民間人らの思想信条などの情報を組織的に収集し、報告書にまとめていたとされる問題で、報告書を公文書として扱っていない運用が部隊内で問題視されていたことがわかった。部隊の元幹…",
+      "title": "中国首相、ＡＳＥＡＮの場で日本回避の公算…高市首相が出席する可能性ある会議への参加見送りか",
+      "source": "yomiuri.co.jp",
+      "publishedAt": "2026-11-13 16:52",
+      "publishedTs": 1794556356,
+      "image": "https://www.yomiuri.co.jp/media/2026/11/20261113-GYT1I00150-1.jpg?type=ogp",
+      "summary": "【読売新聞】 【北京＝吉永亜希子】中国の 李強 （ リーチャン ） 首相は１５～１６日、フィリピンの首都マニラを訪問し、中国と東南アジア諸国連合（ＡＳＥＡＮ）の首脳会議に出席する。 中国外務省の１１日の発表では、いずれも１７日に行わ…",
       "points": [
         "カテゴリ: ビジネス・経済で話題の記事",
-        "引用元: asahi.com（2026-11-13 14:48）",
+        "引用元: yomiuri.co.jp（2026-11-13 16:52）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "ビジネス・経済分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "ビジネス・経済",
-        "asahi.com"
+        "yomiuri.co.jp"
       ],
-      "url": "https://www.asahi.com/articles/ASVCD30WNVCDUTIL024M.html",
+      "url": "https://www.yomiuri.co.jp/world/20261113-GYT1T00148/",
       "isAiEnriched": false
     }
   ]
