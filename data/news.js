@@ -1,27 +1,27 @@
 window.NEWS_DATA = {
   "date": "2026年11月14日 (土)",
-  "updatedAt": "2026-11-14 20:52",
+  "updatedAt": "2026-11-14 21:35",
   "title": "TREND NEWS",
   "keywords": [
-    "関東15日は気温急降下 師…",
+    "米中露の接近 日本政府は危…",
     "マイクロソフトの障害 全面…",
     "エヌビディアCEO 後任選…",
-    "防衛費5年で60兆円規模 …",
+    "関東15日は気温急降下 師…",
     "マイクロソフト 大規模障害…",
     "タマホーム 保険代理業を廃…"
   ],
   "items": [
     {
       "category": "domestic",
-      "title": "関東15日は気温急降下 師走並みか",
+      "title": "米中露の接近 日本政府は危機感",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-14 15:06",
-      "publishedTs": 1794636419,
-      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/14/67a4720168e8c401284c176c89102dcb3dbcebef562e00a05c8d15ff3a148585.jpg",
-      "summary": "15日(日)の関東は朝から夜にかけて雨が降り、最高気温は前日より大幅に低くなる予想です。東京都心と前橋は14℃、さいたまは13℃など師走並みの寒さになる所もあるでしょう。15日(日)は昼間も厚手の上…",
+      "publishedAt": "2026-11-14 20:17",
+      "publishedTs": 1794655024,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800",
+      "summary": "政府は、トランプ米政権に懸念を伝えていたにもかかわらず、米国、中国、ロシアの首脳会談が開かれることとなり3カ国の接近に危機感を強めている。「わが国と築き上げてきた安全保障秩序を毀損しないよう米側に注…",
       "points": [
         "カテゴリ: 国内・総合の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-14 15:06）",
+        "配信: Yahoo!ニュース トピックス（2026-11-14 20:17）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "国内・総合分野で関心を集めている最新ニュースです。",
@@ -29,7 +29,7 @@ window.NEWS_DATA = {
         "国内・総合",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/pickup/6602551?source=rss",
+      "url": "https://news.yahoo.co.jp/pickup/6602584?source=rss",
       "isAiEnriched": false
     },
     {
@@ -76,15 +76,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "防衛費5年で60兆円規模 政府調整",
+      "title": "関東15日は気温急降下 師走並みか",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-14 08:38",
-      "publishedTs": 1794613106,
-      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/14/9ce51eceb54a820abd29aa892e5e29e5f9344d31d906d638911c7be63386a7a2.jpg",
-      "summary": "政府は、年末の安全保障関連3文書改定に合わせて定める2027～31年度の5年間の防衛費総額について、60兆円規模を視野に調整に入った。防衛費をさらに増額すれば、財源確保のため大幅増税が必要になるとの…",
+      "publishedAt": "2026-11-14 15:06",
+      "publishedTs": 1794636419,
+      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/14/67a4720168e8c401284c176c89102dcb3dbcebef562e00a05c8d15ff3a148585.jpg",
+      "summary": "15日(日)の関東は朝から夜にかけて雨が降り、最高気温は前日より大幅に低くなる予想です。東京都心と前橋は14℃、さいたまは13℃など師走並みの寒さになる所もあるでしょう。15日(日)は昼間も厚手の上…",
       "points": [
         "カテゴリ: 国内・総合の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-14 08:38）",
+        "配信: Yahoo!ニュース トピックス（2026-11-14 15:06）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "国内・総合分野で関心を集めている最新ニュースです。",
@@ -92,7 +92,7 @@ window.NEWS_DATA = {
         "国内・総合",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/pickup/6602504?source=rss",
+      "url": "https://news.yahoo.co.jp/pickup/6602551?source=rss",
       "isAiEnriched": false
     },
     {
@@ -139,15 +139,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "米中露の接近 日本政府は危機感",
+      "title": "防衛費5年で60兆円規模 政府調整",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-14 20:17",
-      "publishedTs": 1794655024,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800",
-      "summary": "政府は、トランプ米政権に懸念を伝えていたにもかかわらず、米国、中国、ロシアの首脳会談が開かれることとなり3カ国の接近に危機感を強めている。「わが国と築き上げてきた安全保障秩序を毀損しないよう米側に注…",
+      "publishedAt": "2026-11-14 08:38",
+      "publishedTs": 1794613106,
+      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/14/9ce51eceb54a820abd29aa892e5e29e5f9344d31d906d638911c7be63386a7a2.jpg",
+      "summary": "政府は、年末の安全保障関連3文書改定に合わせて定める2027～31年度の5年間の防衛費総額について、60兆円規模を視野に調整に入った。防衛費をさらに増額すれば、財源確保のため大幅増税が必要になるとの…",
       "points": [
         "カテゴリ: 国内・総合の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-14 20:17）",
+        "配信: Yahoo!ニュース トピックス（2026-11-14 08:38）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "国内・総合分野で関心を集めている最新ニュースです。",
@@ -155,7 +155,7 @@ window.NEWS_DATA = {
         "国内・総合",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/pickup/6602584?source=rss",
+      "url": "https://news.yahoo.co.jp/pickup/6602504?source=rss",
       "isAiEnriched": false
     },
     {
@@ -265,15 +265,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "支援金 勤労者全体の5割以上検討",
+      "title": "声や肖像 AIの無断利用に規制案",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-13 17:08",
-      "publishedTs": 1794557294,
-      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/13/59ae1e21dc2c9fbd9820e03eefa540a4bc0aafaed7788998f3893b09dcc90aa5.jpg",
-      "summary": "今国会で最大の焦点となっている消費税減税法案をめぐり、高市総理大臣は、支援金の対象について「勤労者全体の5割以上となるよう所得上限の引き上げを検討する」と表明しました。",
+      "publishedAt": "2026-11-14 07:55",
+      "publishedTs": 1794610556,
+      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/14/70caae19a8283fd383492ce3b613b1fef723c62d9ef9bd04641b4dad78ef4ac6.jpg",
+      "summary": "経済産業省は１３日、生成ＡＩ（人工知能）による声や肖像の無断使用などを防ぐため、不正競争防止法で新たに規制する行為の具体案を有識者会議に示した。肖像や声が持つ魅力を商品や広告に無断利用する行為を対象…",
       "points": [
         "カテゴリ: 国内・総合の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-13 17:08）",
+        "配信: Yahoo!ニュース トピックス（2026-11-14 07:55）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "国内・総合分野で関心を集めている最新ニュースです。",
@@ -281,7 +281,7 @@ window.NEWS_DATA = {
         "国内・総合",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/pickup/6602431?source=rss",
+      "url": "https://news.yahoo.co.jp/pickup/6602494?source=rss",
       "isAiEnriched": false
     },
     {
@@ -328,15 +328,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "声や肖像 AIの無断利用に規制案",
+      "title": "日本兵の墓が無縁化 解消に法の壁",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-14 07:55",
-      "publishedTs": 1794610556,
-      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/14/70caae19a8283fd383492ce3b613b1fef723c62d9ef9bd04641b4dad78ef4ac6.jpg",
-      "summary": "経済産業省は１３日、生成ＡＩ（人工知能）による声や肖像の無断使用などを防ぐため、不正競争防止法で新たに規制する行為の具体案を有識者会議に示した。肖像や声が持つ魅力を商品や広告に無断利用する行為を対象…",
+      "publishedAt": "2026-11-14 21:32",
+      "publishedTs": 1794659573,
+      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/14/942fb40e42c832cabe66aad9ae36be189d3bf1b25305e8e44e6b6b8c98ae4e16.jpg",
+      "summary": "全国で相続や墓じまいの問題が語られるなか、福井県越前市にある寺の住職は、戦後80年以上が経過した今も「戦没者の墓」のゆくえに頭を悩ませている。",
       "points": [
         "カテゴリ: 国内・総合の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-14 07:55）",
+        "配信: Yahoo!ニュース トピックス（2026-11-14 21:32）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "国内・総合分野で関心を集めている最新ニュースです。",
@@ -344,7 +344,7 @@ window.NEWS_DATA = {
         "国内・総合",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/pickup/6602494?source=rss",
+      "url": "https://news.yahoo.co.jp/pickup/6602590?source=rss",
       "isAiEnriched": false
     },
     {
@@ -475,23 +475,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "人間＋AIを「チーム」としてプロセスを再設計する",
-      "source": "speakerdeck.com",
-      "publishedAt": "2026-11-13 23:24",
-      "publishedTs": 1794579894,
-      "image": "https://files.speakerdeck.com/presentations/8308bf272fb54c05ab73e2a607c5e037/slide_0.jpg?41350552",
-      "summary": "「AI駆動経営」勉強会 #4（2026/11/12）での登壇資料です。 https://aid.connpass.com/event/409635/ AIで何もかもが変わっていくように見えますが、仕事は「一人とAI」では閉じません。 組織開発のフレームワーク GRPI（Goals / Role…",
+      "title": "幻覚がひどいAIでも言葉遣いが洗練されていれば人を簡単に騙せることが判明",
+      "source": "gigazine.net",
+      "publishedAt": "2026-11-14 08:05",
+      "publishedTs": 1794611157,
+      "image": "https://i.gzn.jp/img/2026/11/14/llm-fluency-credible/00.jpg",
+      "summary": "ChatGPTなどに代表される大規模言語モデルは、その根本的な仕組みとして、モデル自身は自分の回答が合っているか間違っているかを判断できません。そのためこの手のAIには事実ではないことをまるで事実かのように話してしまう「幻覚(ハルシネーション)」の問題が常につきまといます。新たな研究では、AIの回答に幻覚が…",
       "points": [
         "カテゴリ: テクノロジー・AIで話題の記事",
-        "引用元: speakerdeck.com（2026-11-13 23:24）",
+        "引用元: gigazine.net（2026-11-14 08:05）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "テクノロジー・AI分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "テクノロジー・AI",
-        "speakerdeck.com"
+        "gigazine.net"
       ],
-      "url": "https://speakerdeck.com/littlehands/ai-kudou-keiei-suraido-20261112-0eeda77b-3c60-4af9-b059-2eb1ff3ef2c1",
+      "url": "https://gigazine.net/news/20261114-llm-fluency-credible/",
       "isAiEnriched": false
     },
     {
@@ -517,44 +517,44 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "やまやで15回おかわりしたら出禁宣告された人が謝罪…しかしやまや系列で働く人から「おかわりする人を大事にって教育された」の声、サポセンの回答も「配慮の必要なし」",
-      "source": "togetter.com",
-      "publishedAt": "2026-11-14 06:31",
-      "publishedTs": 1794605510,
-      "image": "https://s.tgstc.com/ogp3/43ce538702ae4508fc757c059321f059-1200x630.jpeg",
-      "summary": "あー(っ'-')╮=͟͟͞♡ @tuuhuusuien 別にね、やまやさんを否定したり悪く言いたいわけじゃないのよ？ 明太子も高菜も本当に美味しすぎて、ご飯が進むし、時間を空けて2つずつ提供される天麩羅のお気遣いが(どれも熱々で食べられるように)素晴らしいって言ってるの。 やまやさんを批判するのも、コメント…",
+      "title": "戦争に疲れても…トランプ氏の「停戦」に反発　ウクライナ人の心の内：朝日新聞",
+      "source": "asahi.com",
+      "publishedAt": "2026-11-14 16:30",
+      "publishedTs": 1794641441,
+      "image": "https://imgopt.asahi.com/ogp/AS20261110003379_comm.jpg",
+      "summary": "みなさん、こんにちは。ニュースレターや記者アカウントにお寄せいただく感想や応援のメッセージに、いつも大変力づけられています。 その中に、こんな質問がありました（文章は少し手直ししています）。 「ウク…",
       "points": [
         "カテゴリ: 国内・総合で話題の記事",
-        "引用元: togetter.com（2026-11-14 06:31）",
+        "引用元: asahi.com（2026-11-14 16:30）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "国内・総合分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "国内・総合",
-        "togetter.com"
+        "asahi.com"
       ],
-      "url": "https://togetter.com/li/2770203",
+      "url": "https://www.asahi.com/articles/ASVCB33QHVCBUHBI00BM.html",
       "isAiEnriched": false
     },
     {
       "category": "tech",
-      "title": "幻覚がひどいAIでも言葉遣いが洗練されていれば人を簡単に騙せることが判明",
-      "source": "gigazine.net",
-      "publishedAt": "2026-11-14 08:05",
-      "publishedTs": 1794611157,
-      "image": "https://i.gzn.jp/img/2026/11/14/llm-fluency-credible/00.jpg",
-      "summary": "ChatGPTなどに代表される大規模言語モデルは、その根本的な仕組みとして、モデル自身は自分の回答が合っているか間違っているかを判断できません。そのためこの手のAIには事実ではないことをまるで事実かのように話してしまう「幻覚(ハルシネーション)」の問題が常につきまといます。新たな研究では、AIの回答に幻覚が…",
+      "title": "Google、高速・高効率な「Gemini 4 Hydrogen」を発表 ～「Claude Sonnet 5.5」「GPT-6.1 Terra」のライバル／前世代「3.8 Flash」の2.5倍の速さでタスクを完了",
+      "source": "forest.watch.impress.co.jp",
+      "publishedAt": "2026-11-13 11:57",
+      "publishedTs": 1794538637,
+      "image": "https://forest.watch.impress.co.jp/img/wf/list/2156/117/image1.png",
+      "summary": "米Googleは11月12日（現地時間）、「Gemini 4 Hydrogen」を発表した。日常的なコーディングやエージェント型のワークフローを、高速かつ効率的にこなすことを目指したモデルで、同日より開発者、企業、一般ユーザーに提供される。",
       "points": [
         "カテゴリ: テクノロジー・AIで話題の記事",
-        "引用元: gigazine.net（2026-11-14 08:05）",
+        "引用元: forest.watch.impress.co.jp（2026-11-13 11:57）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "テクノロジー・AI分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "テクノロジー・AI",
-        "gigazine.net"
+        "forest.watch.impress.co.jp"
       ],
-      "url": "https://gigazine.net/news/20261114-llm-fluency-credible/",
+      "url": "https://forest.watch.impress.co.jp/docs/news/2156117.html",
       "isAiEnriched": false
     },
     {
@@ -580,44 +580,44 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "戦争に疲れても…トランプ氏の「停戦」に反発　ウクライナ人の心の内：朝日新聞",
-      "source": "asahi.com",
-      "publishedAt": "2026-11-14 16:30",
-      "publishedTs": 1794641441,
-      "image": "https://imgopt.asahi.com/ogp/AS20261110003379_comm.jpg",
-      "summary": "みなさん、こんにちは。ニュースレターや記者アカウントにお寄せいただく感想や応援のメッセージに、いつも大変力づけられています。 その中に、こんな質問がありました（文章は少し手直ししています）。 「ウク…",
+      "title": "やまやで15回おかわりしたら出禁宣告された人が謝罪…しかしやまや系列で働く人から「おかわりする人を大事にって教育された」の声、サポセンの回答も「配慮の必要なし」",
+      "source": "togetter.com",
+      "publishedAt": "2026-11-14 06:31",
+      "publishedTs": 1794605510,
+      "image": "https://s.tgstc.com/ogp3/43ce538702ae4508fc757c059321f059-1200x630.jpeg",
+      "summary": "あー(っ'-')╮=͟͟͞♡ @tuuhuusuien 別にね、やまやさんを否定したり悪く言いたいわけじゃないのよ？ 明太子も高菜も本当に美味しすぎて、ご飯が進むし、時間を空けて2つずつ提供される天麩羅のお気遣いが(どれも熱々で食べられるように)素晴らしいって言ってるの。 やまやさんを批判するのも、コメント…",
       "points": [
         "カテゴリ: 国内・総合で話題の記事",
-        "引用元: asahi.com（2026-11-14 16:30）",
+        "引用元: togetter.com（2026-11-14 06:31）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "国内・総合分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "国内・総合",
-        "asahi.com"
+        "togetter.com"
       ],
-      "url": "https://www.asahi.com/articles/ASVCB33QHVCBUHBI00BM.html",
+      "url": "https://togetter.com/li/2770203",
       "isAiEnriched": false
     },
     {
       "category": "tech",
-      "title": "ゲーム開発者の40％が生成AIを使用しているもののそれ以上に多くの人が生成AIは有害だと考えている",
-      "source": "gigazine.net",
-      "publishedAt": "2026-11-14 13:02",
-      "publishedTs": 1794628966,
-      "image": "https://i.gzn.jp/img/2026/11/14/developers-games-industry-using-generative-ai/00_m.jpg",
-      "summary": "ゲーム開発にAIを活用することに対しては賛否両論ありますが、世界最大級のゲーム開発者会議であるGDCの最新レポートから、業界で活躍する開発者の40％が生成AIを利用していることが明らかになりました。 A new report reckons 40% of developers in the video ga…",
+      "title": "AWSでゼロトラスト構成を作る手順を5つのパートに分けて整理してみた - Qiita",
+      "source": "qiita.com",
+      "publishedAt": "2026-11-14 07:56",
+      "publishedTs": 1794610599,
+      "image": "https://qiita-user-contents.imgix.net/https%3A%2F%2Fqiita-user-contents.imgix.net%2Fhttps%253A%252F%252Fcdn.qiita.com%252Fassets%252Fpublic%252Farticle-ogp-background-afbab5eb44e0b055cce1258705637a91.png%3Fixlib%3Drb-4.1.1%26w%3D1200%26blend64%3DaHR0cHM6Ly9xaWl0YS11c2VyLXByb2ZpbGUtaW1hZ2VzLmltZ2l4Lm5ldC9odHRwcyUzQSUyRiUyRnMzLWFwLW5vcnRoZWFzdC0xLmFtYXpvbmF3cy5jb20lMkZxaWl0YS1pbWFnZS1zdG9yZSUyRjAlMkY0MjIzMDgxJTJGMTMzNzY2ZmYxODUyYmNiOGU0YWUwN2Y1Njg5MThmY2IzNzhjZmE4OCUyRmxhcmdlLnBuZyUzRjE3ODU4MDcyNzQ_aXhsaWI9cmItNC4xLjEmYXI9MSUzQTEmZml0PWNyb3AmbWFzaz1lbGxpcHNlJmJnPUZGRkZGRiZmbT1wbmczMiZzPTE5NTQ2MTQyMjBmYzgxMzViYTA3YmZhNmJlNmZmODMz%26blend-x%3D120%26blend-y%3D467%26blend-w%3D82%26blend-h%3D82%26blend-mode%3Dnormal%26s%3D5a2370e4cc373f21bbd2357e730d4278?ixlib=rb-4.1.1&w=1200&fm=jpg&mark64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjEuMSZ3PTk2MCZoPTMyNCZ0eHQ9QVdTJUUzJTgxJUE3JUUzJTgyJUJDJUUzJTgzJUFEJUUzJTgzJTg4JUUzJTgzJUE5JUUzJTgyJUI5JUUzJTgzJTg4JUU2JUE3JThCJUU2JTg4JTkwJUUzJTgyJTkyJUU0JUJEJTlDJUUzJTgyJThCJUU2JTg5JThCJUU5JUEwJTg2JUUzJTgyJTkyNSVFMyU4MSVBNCVFMyU4MSVBRSVFMyU4MyU5MSVFMyU4MyVCQyVFMyU4MyU4OCVFMyU4MSVBQiVFNSU4OCU4NiVFMyU4MSU5MSVFMyU4MSVBNiVFNiU5NSVCNCVFNyU5MCU4NiVFMyU4MSU5NyVFMyU4MSVBNiVFMyU4MSVCRiVFMyU4MSU5RiZ0eHQtYWxpZ249bGVmdCUyQ3RvcCZ0eHQtY29sb3I9JTIzMUUyMTIxJnR4dC1mb250PUhpcmFnaW5vJTIwU2FucyUyMFc2JnR4dC1zaXplPTU2JnR4dC1wYWQ9MCZzPWU1YjE4OGVlNGYzOWZmYzQwMTJiMjQxMzRkNTViMTk3&mark-x=120&mark-y=112&blend64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjEuMSZ3PTgzOCZoPTU4JnR4dD0lNDB5YW1hMzEzMyZ0eHQtY29sb3I9JTIzMUUyMTIxJnR4dC1mb250PUhpcmFnaW5vJTIwU2FucyUyMFc2JnR4dC1zaXplPTM2JnR4dC1wYWQ9MCZzPTU1NmYyMjEwMWE0ZGNlZDA1MWU2YjZhNGVhMGRjOWZi&blend-x=242&blend-y=480&blend-w=838&blend-h=46&blend-fit=crop&blend-crop=left%2Cbottom&blend-mode=normal&s=25506b0a720de9cc5f0015ea00c2fa66",
+      "summary": "はじめに ゼロトラストは「社内ネットワークの中にいるから信頼する」という前提を置かず、アクセスのたびに身元と権限を確認する考え方です。 この記事では、AWSでどのサービスのどのリソースを作れば形になるのかに絞って整理します。構成を5つのパートに分け、それぞれで作るリソースとAWS CLIのコマンドを順に並べ…",
       "points": [
         "カテゴリ: テクノロジー・AIで話題の記事",
-        "引用元: gigazine.net（2026-11-14 13:02）",
+        "引用元: qiita.com（2026-11-14 07:56）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "テクノロジー・AI分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "テクノロジー・AI",
-        "gigazine.net"
+        "qiita.com"
       ],
-      "url": "https://gigazine.net/news/20261114-developers-games-industry-using-generative-ai/",
+      "url": "https://qiita.com/yama3133/items/11a360fc97ed3ec09742",
       "isAiEnriched": false
     },
     {
