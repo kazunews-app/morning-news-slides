@@ -1,6 +1,6 @@
 window.NEWS_DATA = {
   "date": "2026年11月15日 (日)",
-  "updatedAt": "2026-11-15 02:51",
+  "updatedAt": "2026-11-15 03:27",
   "title": "TREND NEWS",
   "keywords": [
     "米中露の接近 日本政府は危…",
@@ -622,23 +622,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "戦争に疲れても…トランプ氏の「停戦」に反発　ウクライナ人の心の内：朝日新聞",
-      "source": "digital.asahi.com",
-      "publishedAt": "2026-11-14 17:50",
-      "publishedTs": 1794646220,
-      "image": "https://imgopt.asahi.com/ogp/AS20261110003379_comm.jpg",
-      "summary": "みなさん、こんにちは。ニュースレターや記者アカウントにお寄せいただく感想や応援のメッセージに、いつも大変力づけられています。 その中に、こんな質問がありました（文章は少し手直ししています）。 「ウクライナの人々は、ゼレンスキー大統領に何を思っているのでしょうか」 「ウクライナの人たちは、終わらない戦...",
+      "title": "戦争反対界隈、「先制攻撃を始める前提に自衛隊は成り立ってる」という小泉防衛相の発言捏造を始める。",
+      "source": "posfie.com",
+      "publishedAt": "2026-11-14 17:36",
+      "publishedTs": 1794645388,
+      "image": "https://s.tgstc.com/ogp3/5e5d7dbfda9c2dda6c34f27eece61689-1200x630.jpeg",
+      "summary": "緒方恵美 @Megumi_Ogata 「小泉大臣は先制攻撃とは言ってない」 と仰る方へ。 「米国とイスラエルが先制攻撃を始めなければ(戦争はなかった)」 という言葉を受けて、 「始めないという前提で自衛隊はない」 と答えている段階で、文脈的に仰っているのと同義です。 憲法違反でなく言うとしたら、 「始められ…",
       "points": [
         "カテゴリ: ビジネス・経済で話題の記事",
-        "引用元: digital.asahi.com（2026-11-14 17:50）",
+        "引用元: posfie.com（2026-11-14 17:36）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "ビジネス・経済分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "ビジネス・経済",
-        "digital.asahi.com"
+        "posfie.com"
       ],
-      "url": "https://digital.asahi.com/sp/articles/ASVCB33QHVCBUHBI00BM.html?ptoken=01M7CESWQ2280FMGXFQHVAK603",
+      "url": "https://posfie.com/@any_k_tg/p/f0gZrzm",
       "isAiEnriched": false
     }
   ]
