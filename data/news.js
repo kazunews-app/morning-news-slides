@@ -1,6 +1,6 @@
 window.NEWS_DATA = {
   "date": "2026年11月15日 (日)",
-  "updatedAt": "2026-11-15 04:20",
+  "updatedAt": "2026-11-15 05:00",
   "title": "TREND NEWS",
   "keywords": [
     "米中露の接近 日本政府は危…",
@@ -454,23 +454,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "「女だけどフェミニズム好きじゃない」といった女子大生を、フェミニストが取り囲んで「大学やめろ」「レイプされても文句言うな」と脅迫をおこなう事案が発生【黒い羊効果】",
-      "source": "posfie.com",
-      "publishedAt": "2026-11-14 13:06",
-      "publishedTs": 1794629168,
-      "image": "https://s.tgstc.com/ogp3/39ef3a663ff8045ff394bc77bfbd2994-1200x630.jpeg",
-      "summary": "「黒い羊効果」とは？職場でターゲットにされない5つの方法 - STUDY HACKER（スタディーハッカー）｜社会人の勉強法＆英語学習 心理学における「黒い羊効果」を、どこよりもわかりやすく解説します。 8 users 3217 STUDY HACKER（スタディーハッカー）｜社会人の勉強法＆英語学習 「黒…",
+      "title": "政府の安保広報にSNS反発拡大　「軍拡プロパガンダ」野党疑問視",
+      "source": "47news.jp",
+      "publishedAt": "2026-11-14 18:13",
+      "publishedTs": 1794647623,
+      "image": "https://img.cf.47news.jp/public/photo/28ad7be17b39e1a7f5f233e546cdb1a0/photo.jpg",
+      "summary": "安全保障の重要性を訴える政府の広報に「軍拡プロパガンダ」といった反発が交流サイト（SNS）上で拡大している。夫婦漫才の広報キャラクターをもじった「反戦たみよ」のハッシュタグ（検索目印）を付けた投稿が拡散。野党は、発信のために漫才を採用した手法などを疑問視する。 政府は10月26日に施策をまとめたウェブサ...",
       "points": [
         "カテゴリ: 国内・総合で話題の記事",
-        "引用元: posfie.com（2026-11-14 13:06）",
+        "引用元: 47news.jp（2026-11-14 18:13）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "国内・総合分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "国内・総合",
-        "posfie.com"
+        "47news.jp"
       ],
-      "url": "https://posfie.com/@golden_haniwa/p/30HIdHZ",
+      "url": "https://www.47news.jp/15230325.html",
       "isAiEnriched": false
     },
     {
@@ -517,23 +517,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "【小泉今日子、山に木を植える】クマ被害きっかけに“どんぐりの木”3000本植樹へ「口で言うだけではダメ」“豊かな森”目指すプロジェクトに密着【news23】 | TBS NEWS DIG",
-      "source": "newsdig.tbs.co.jp",
-      "publishedAt": "2026-11-14 08:22",
-      "publishedTs": 1794612143,
-      "image": "https://newsdig.ismcdn.jp/mwimgs/1/c/1200w/img_1c2150c2a71e46260125d1a5dd7d7c7b1256923.jpg",
-      "summary": "【小泉今日子、山に木を植える】クマ被害きっかけに“どんぐりの木”3000本植樹へ「口で言うだけではダメ」“豊かな森”目指すプロジェクトに密着【news23】…",
+      "title": "「女だけどフェミニズム好きじゃない」といった女子大生を、フェミニストが取り囲んで「大学やめろ」「レイプされても文句言うな」と脅迫をおこなう事案が発生【黒い羊効果】",
+      "source": "posfie.com",
+      "publishedAt": "2026-11-14 13:06",
+      "publishedTs": 1794629168,
+      "image": "https://s.tgstc.com/ogp3/39ef3a663ff8045ff394bc77bfbd2994-1200x630.jpeg",
+      "summary": "「黒い羊効果」とは？職場でターゲットにされない5つの方法 - STUDY HACKER（スタディーハッカー）｜社会人の勉強法＆英語学習 心理学における「黒い羊効果」を、どこよりもわかりやすく解説します。 8 users 3217 STUDY HACKER（スタディーハッカー）｜社会人の勉強法＆英語学習 「黒…",
       "points": [
         "カテゴリ: 国内・総合で話題の記事",
-        "引用元: newsdig.tbs.co.jp（2026-11-14 08:22）",
+        "引用元: posfie.com（2026-11-14 13:06）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "国内・総合分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "国内・総合",
-        "newsdig.tbs.co.jp"
+        "posfie.com"
       ],
-      "url": "https://newsdig.tbs.co.jp/articles/-/3085720",
+      "url": "https://posfie.com/@golden_haniwa/p/30HIdHZ",
       "isAiEnriched": false
     },
     {
@@ -580,23 +580,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "政府の安保広報にSNS反発拡大　「軍拡プロパガンダ」野党疑問視",
-      "source": "47news.jp",
-      "publishedAt": "2026-11-14 18:13",
-      "publishedTs": 1794647623,
-      "image": "https://img.cf.47news.jp/public/photo/28ad7be17b39e1a7f5f233e546cdb1a0/photo.jpg",
-      "summary": "安全保障の重要性を訴える政府の広報に「軍拡プロパガンダ」といった反発が交流サイト（SNS）上で拡大している。夫婦漫才の広報キャラクターをもじった「反戦たみよ」のハッシュタグ（検索目印）を付けた投稿が拡散。野党は、発信のために漫才を採用した手法などを疑問視する。 政府は10月26日に施策をまとめたウェブサ...",
+      "title": "【小泉今日子、山に木を植える】クマ被害きっかけに“どんぐりの木”3000本植樹へ「口で言うだけではダメ」“豊かな森”目指すプロジェクトに密着【news23】 | TBS NEWS DIG",
+      "source": "newsdig.tbs.co.jp",
+      "publishedAt": "2026-11-14 08:22",
+      "publishedTs": 1794612143,
+      "image": "https://newsdig.ismcdn.jp/mwimgs/1/c/1200w/img_1c2150c2a71e46260125d1a5dd7d7c7b1256923.jpg",
+      "summary": "【小泉今日子、山に木を植える】クマ被害きっかけに“どんぐりの木”3000本植樹へ「口で言うだけではダメ」“豊かな森”目指すプロジェクトに密着【news23】…",
       "points": [
         "カテゴリ: 国内・総合で話題の記事",
-        "引用元: 47news.jp（2026-11-14 18:13）",
+        "引用元: newsdig.tbs.co.jp（2026-11-14 08:22）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "国内・総合分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "国内・総合",
-        "47news.jp"
+        "newsdig.tbs.co.jp"
       ],
-      "url": "https://www.47news.jp/15230325.html",
+      "url": "https://newsdig.tbs.co.jp/articles/-/3085720",
       "isAiEnriched": false
     },
     {
