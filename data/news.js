@@ -1,6 +1,6 @@
 window.NEWS_DATA = {
   "date": "2026年11月15日 (日)",
-  "updatedAt": "2026-11-15 08:15",
+  "updatedAt": "2026-11-15 08:53",
   "title": "TREND NEWS",
   "keywords": [
     "きょう近畿や東海で激しい雨…",
@@ -433,23 +433,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "沖縄知事選の関連動画、兵庫知事選でも発信のアカウントが推計収益の6割独占　宮城でも活動",
-      "source": "kobe-np.co.jp",
-      "publishedAt": "2026-11-14 23:59",
-      "publishedTs": 1794668343,
-      "image": "https://i.kobe-np.co.jp/news/society/202611/img/a_21030734.jpg",
-      "summary": "９月の沖縄県知事選の関連動画で、ユーチューブの再生回数が上位に入った５０アカウントのうち、１１アカウントは２０２４年の兵庫県知事選でも選挙期間中に関連動画を発信していた。この１１アカウントは、沖縄県知事選での収益を試算した動画３３０本のうち、約３割の９８本を配信。再生回数に応じた収益は推計で最大...",
+      "title": "わずか4人の造反に自民党内がピリピリ…石破茂と小渕優子があぶり出した｢高市1強｣のほころび",
+      "source": "president.jp",
+      "publishedAt": "2026-11-14 20:36",
+      "publishedTs": 1794656165,
+      "image": "https://president.ismcdn.jp/mwimgs/8/5/1200wm/img_85dec2f841712411312c77aac2d27db81098454.jpg",
+      "summary": "造反した4人への共感 「自民党は1年前まで『財源なき消費減税はあってはならない』と言い続けてきた。1年でくるくる変わるような税制は、慎まなければならない。高市早苗首相は『12月までにはちゃんとする』『心配には及ばない』というが、財源がなかったらどうするのか。どんなことがあっても揺れないのが財政規律だと...",
       "points": [
         "カテゴリ: ビジネス・経済で話題の記事",
-        "引用元: kobe-np.co.jp（2026-11-14 23:59）",
+        "引用元: president.jp（2026-11-14 20:36）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "ビジネス・経済分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "ビジネス・経済",
-        "kobe-np.co.jp"
+        "president.jp"
       ],
-      "url": "https://www.kobe-np.co.jp/news/society/202611/0021030732.shtml",
+      "url": "https://president.jp/articles/-/122183",
       "isAiEnriched": false
     },
     {
@@ -496,23 +496,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "わずか4人の造反に自民党内がピリピリ…石破茂と小渕優子があぶり出した｢高市1強｣のほころび",
-      "source": "president.jp",
-      "publishedAt": "2026-11-14 20:36",
-      "publishedTs": 1794656165,
-      "image": "https://president.ismcdn.jp/mwimgs/8/5/1200wm/img_85dec2f841712411312c77aac2d27db81098454.jpg",
-      "summary": "造反した4人への共感 「自民党は1年前まで『財源なき消費減税はあってはならない』と言い続けてきた。1年でくるくる変わるような税制は、慎まなければならない。高市早苗首相は『12月までにはちゃんとする』『心配には及ばない』というが、財源がなかったらどうするのか。どんなことがあっても揺れないのが財政規律だと...",
+      "title": "沖縄知事選の関連動画、兵庫知事選でも発信のアカウントが推計収益の6割独占　宮城でも活動",
+      "source": "kobe-np.co.jp",
+      "publishedAt": "2026-11-14 23:59",
+      "publishedTs": 1794668343,
+      "image": "https://i.kobe-np.co.jp/news/society/202611/img/a_21030734.jpg",
+      "summary": "９月の沖縄県知事選の関連動画で、ユーチューブの再生回数が上位に入った５０アカウントのうち、１１アカウントは２０２４年の兵庫県知事選でも選挙期間中に関連動画を発信していた。この１１アカウントは、沖縄県知事選での収益を試算した動画３３０本のうち、約３割の９８本を配信。再生回数に応じた収益は推計で最大...",
       "points": [
         "カテゴリ: ビジネス・経済で話題の記事",
-        "引用元: president.jp（2026-11-14 20:36）",
+        "引用元: kobe-np.co.jp（2026-11-14 23:59）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "ビジネス・経済分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "ビジネス・経済",
-        "president.jp"
+        "kobe-np.co.jp"
       ],
-      "url": "https://president.jp/articles/-/122183",
+      "url": "https://www.kobe-np.co.jp/news/society/202611/0021030732.shtml",
       "isAiEnriched": false
     },
     {
@@ -538,23 +538,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "AIチームを率いるとは、どういうこと？ with プログラマー・起業家 amachang Part1 | The Update",
-      "source": "theupdate.coffee",
-      "publishedAt": "2026-11-14 16:45",
-      "publishedTs": 1794642330,
-      "image": "https://i.scdn.co/image/ab6765630000ba8aa73d8865f4e71fabfa514528",
-      "summary": "2026年11月14日|21分 AIチームを率いるとは、どういうこと？ with プログラマー・起業家 amachang Part1 ゲスト: 天野仁史（多摩川機構エンジニアリング株式会社 代表） 一人の会社に、開発チームがいくつもある。 コードを書くAI、デザインするAI、それらを束ねるAI。スマートニュ…",
+      "title": "「すげぇ！教科書とかで見たフロッピーや！！これで容量どれくらいあるんですか？」若者のほのぼのとした感想がぶっ刺さるネット民",
+      "source": "togetter.com",
+      "publishedAt": "2026-11-14 21:54",
+      "publishedTs": 1794660853,
+      "image": "https://s.tgstc.com/ogp3/54892bba0fd3c6ad84afa397226a52c4-1200x630.jpeg",
+      "summary": "しー@園芸博NEXT！ @Sh_i0916 すげぇ！！！ フロッピーや！！ フロッピーや！！！ 教科書とかで見たフロッピーや！！ 初めて触ったかも！！ うっす！！！！ かるっ！！！！！ すげぇ！！ これで容量どれくらいあるんですか？ #フロッピー #富士通 pic.x.com/Ofx3uVhKaf 2026…",
       "points": [
         "カテゴリ: テクノロジー・AIで話題の記事",
-        "引用元: theupdate.coffee（2026-11-14 16:45）",
+        "引用元: togetter.com（2026-11-14 21:54）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "テクノロジー・AI分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "テクノロジー・AI",
-        "theupdate.coffee"
+        "togetter.com"
       ],
-      "url": "https://theupdate.coffee/episodes/0J7UP7922ZXV6NBTt7w9Jl/",
+      "url": "https://togetter.com/li/2770437",
       "isAiEnriched": false
     },
     {
@@ -601,44 +601,44 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "「すげぇ！教科書とかで見たフロッピーや！！これで容量どれくらいあるんですか？」若者のほのぼのとした感想がぶっ刺さるネット民",
-      "source": "togetter.com",
-      "publishedAt": "2026-11-14 21:54",
-      "publishedTs": 1794660853,
-      "image": "https://s.tgstc.com/ogp3/54892bba0fd3c6ad84afa397226a52c4-1200x630.jpeg",
-      "summary": "しー@園芸博NEXT！ @Sh_i0916 すげぇ！！！ フロッピーや！！ フロッピーや！！！ 教科書とかで見たフロッピーや！！ 初めて触ったかも！！ うっす！！！！ かるっ！！！！！ すげぇ！！ これで容量どれくらいあるんですか？ #フロッピー #富士通 pic.x.com/Ofx3uVhKaf 2026…",
+      "title": "AIチームを率いるとは、どういうこと？ with プログラマー・起業家 amachang Part1 | The Update",
+      "source": "theupdate.coffee",
+      "publishedAt": "2026-11-14 16:45",
+      "publishedTs": 1794642330,
+      "image": "https://i.scdn.co/image/ab6765630000ba8aa73d8865f4e71fabfa514528",
+      "summary": "2026年11月14日|21分 AIチームを率いるとは、どういうこと？ with プログラマー・起業家 amachang Part1 ゲスト: 天野仁史（多摩川機構エンジニアリング株式会社 代表） 一人の会社に、開発チームがいくつもある。 コードを書くAI、デザインするAI、それらを束ねるAI。スマートニュ…",
       "points": [
         "カテゴリ: テクノロジー・AIで話題の記事",
-        "引用元: togetter.com（2026-11-14 21:54）",
+        "引用元: theupdate.coffee（2026-11-14 16:45）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "テクノロジー・AI分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "テクノロジー・AI",
-        "togetter.com"
+        "theupdate.coffee"
       ],
-      "url": "https://togetter.com/li/2770437",
+      "url": "https://theupdate.coffee/episodes/0J7UP7922ZXV6NBTt7w9Jl/",
       "isAiEnriched": false
     },
     {
       "category": "business",
-      "title": "2028アメリカ大統領選挙：ろくな候補者がいないんだが……｜女子大生起業家",
-      "source": "note.com",
-      "publishedAt": "2026-11-10 16:49",
-      "publishedTs": 1794296984,
-      "image": "https://assets.st-note.com/production/uploads/images/334405492/rectangle_large_type_2_d0108f86bab27526d4735f52cbd1c9dc.png?fit=bounds&quality=85&width=1280",
-      "summary": "中間選挙について何か書いてくれと言われたのだが、ご存じの通り私はウクライナ応援団なので、10月に入ってロシア宥和的な動きをしていたトランプ政権に対して「普通に負けると思うし、負けろ」というスタンスでやっていて、実際その通りに負けたという印象である。 トランプが輸入を言い出した後「保守派アメリカ人にと...",
+      "title": "@RyuichiYoneyama のポスト on Xアメリカ中間選挙の民主党の勝利が敵失なのはその通りでしょうが、今迄嬉々として「リベラルは何故嫌われるか」を語っていた「識者」の方々は、流石に「保守は何故負けたのか」ー例えば①何でもリベラル・外国人のせいで悪口ばかり②経済政策がご都合主義的で相当に不合理ーを語るべきじゃないですかね",
+      "source": "x.com",
+      "publishedAt": "2026-11-14 16:55",
+      "publishedTs": 1794642916,
+      "image": "https://pbs.twimg.com/profile_images/1376328098967216129/lgmlngyB_400x400.jpg",
+      "summary": "アメリカ中間選挙の民主党の勝利が敵失なのはその通りでしょうが、今迄嬉々として「リベラルは何故嫌われるか」を語っていた「識者」の方々は、流石に「保守は何故負けたのか」ー例えば①何でもリベラル・外国人のせいで悪口ばかり②経済政策がご都合主義的で相当に不合理ーを語るべきじゃないですかね…",
       "points": [
         "カテゴリ: ビジネス・経済で話題の記事",
-        "引用元: note.com（2026-11-10 16:49）",
+        "引用元: x.com（2026-11-14 16:55）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "ビジネス・経済分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "ビジネス・経済",
-        "note.com"
+        "x.com"
       ],
-      "url": "https://note.com/seanky/n/n931f0f83030e",
+      "url": "https://x.com/RyuichiYoneyama/status/2118146813412966555",
       "isAiEnriched": false
     }
   ]
