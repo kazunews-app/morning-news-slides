@@ -1,6 +1,6 @@
 window.NEWS_DATA = {
   "date": "2026年11月14日 (土)",
-  "updatedAt": "2026-11-14 19:23",
+  "updatedAt": "2026-11-14 20:10",
   "title": "TREND NEWS",
   "keywords": [
     "関東15日は気温急降下 師…",
@@ -517,69 +517,6 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "多文化共生「重要だと思わない」７倍に　岐阜県がアンケート：中日新聞Web",
-      "source": "chunichi.co.jp",
-      "publishedAt": "2026-11-13 18:53",
-      "publishedTs": 1794563623,
-      "image": "https://static.chunichi.co.jp/image/article/size1/d/8/1/a/d81a8773f37bf0bd2cb6a3cd5868cdb1_1.jpg",
-      "summary": "岐阜県は12日、外国人に関連する施策を話し合う本部員会議を県庁で開き、多文化共生について県民らから募ったアンケート結果を公表した。「多文化共生社会を目指すことについてどう思うか」という質問には、「重要だと思わない」という答えが前回アンケートから約7倍に増えた。",
-      "points": [
-        "カテゴリ: 国内・総合で話題の記事",
-        "引用元: chunichi.co.jp（2026-11-13 18:53）",
-        "「元記事を読む」から本文を確認できます"
-      ],
-      "impact": "国内・総合分野で多くの読者に共有されている注目記事です。",
-      "tags": [
-        "国内・総合",
-        "chunichi.co.jp"
-      ],
-      "url": "https://www.chunichi.co.jp/article/1338916",
-      "isAiEnriched": false
-    },
-    {
-      "category": "tech",
-      "title": "データセンターの排熱でエビ養殖、NTT系が実験　育ったら食べられる？　担当者に聞いてみた",
-      "source": "itmedia.co.jp",
-      "publishedAt": "2026-11-13 20:33",
-      "publishedTs": 1794569588,
-      "image": "https://www.itmedia.co.jp/news/article/ogp/2611/13/2000003200/10012155/2048",
-      "summary": "NTTドコモビジネスなど4社は11月13日、データセンターの排熱を活用してエビを養殖する実証実験を発表した。2026年度中に養殖に適した排熱の回収方法を模索し、2027年度には回収した熱を使ってクルマエビ科の一種「バナメイエビ」を育てる計画だ。なぜエビの養殖を選んだのか、育てたエビはどうするのか。担当者に話…",
-      "points": [
-        "カテゴリ: テクノロジー・AIで話題の記事",
-        "引用元: itmedia.co.jp（2026-11-13 20:33）",
-        "「元記事を読む」から本文を確認できます"
-      ],
-      "impact": "テクノロジー・AI分野で多くの読者に共有されている注目記事です。",
-      "tags": [
-        "テクノロジー・AI",
-        "itmedia.co.jp"
-      ],
-      "url": "https://www.itmedia.co.jp/news/article/2611/13/2000003200/",
-      "isAiEnriched": false
-    },
-    {
-      "category": "business",
-      "title": "「何もしていないのに壊れた」高市首相はある能力において、故安倍元首相を超えたのではないか？という指摘がX上で続々と集まる",
-      "source": "togetter.com",
-      "publishedAt": "2026-11-14 04:46",
-      "publishedTs": 1794599203,
-      "image": "https://s.tgstc.com/ogp3/47fbe1869359fc6f93b65ea3a0c4f4fd-1200x630.jpeg",
-      "summary": "なま卯 @e_the_dethroner 神戸大学勤務の先生が、「高市総理、神大の夜間部だったのではないかという話が出ているのか。それなら色々と納得が行く。神大卒は嘘ではない。ただ早慶合格は怪しい。」と仰っている。私にはこれは高市総理云々よりも、夜間部を揶揄しているように見えるのだが、大学の先生がそういう態…",
-      "points": [
-        "カテゴリ: ビジネス・経済で話題の記事",
-        "引用元: togetter.com（2026-11-14 04:46）",
-        "「元記事を読む」から本文を確認できます"
-      ],
-      "impact": "ビジネス・経済分野で多くの読者に共有されている注目記事です。",
-      "tags": [
-        "ビジネス・経済",
-        "togetter.com"
-      ],
-      "url": "https://togetter.com/li/2770188",
-      "isAiEnriched": false
-    },
-    {
-      "category": "domestic",
       "title": "やまやで15回おかわりしたら出禁宣告された人が謝罪…しかしやまや系列で働く人から「おかわりする人を大事にって教育された」の声、サポセンの回答も「配慮の必要なし」",
       "source": "togetter.com",
       "publishedAt": "2026-11-14 06:31",
@@ -639,6 +576,69 @@ window.NEWS_DATA = {
         "asahi.com"
       ],
       "url": "https://www.asahi.com/articles/ASVCF7VTGVCFUHBI00PM.html",
+      "isAiEnriched": false
+    },
+    {
+      "category": "domestic",
+      "title": "多文化共生「重要だと思わない」７倍に　岐阜県がアンケート：中日新聞Web",
+      "source": "chunichi.co.jp",
+      "publishedAt": "2026-11-13 18:53",
+      "publishedTs": 1794563623,
+      "image": "https://static.chunichi.co.jp/image/article/size1/d/8/1/a/d81a8773f37bf0bd2cb6a3cd5868cdb1_1.jpg",
+      "summary": "岐阜県は12日、外国人に関連する施策を話し合う本部員会議を県庁で開き、多文化共生について県民らから募ったアンケート結果を公表した。「多文化共生社会を目指すことについてどう思うか」という質問には、「重要だと思わない」という答えが前回アンケートから約7倍に増えた。",
+      "points": [
+        "カテゴリ: 国内・総合で話題の記事",
+        "引用元: chunichi.co.jp（2026-11-13 18:53）",
+        "「元記事を読む」から本文を確認できます"
+      ],
+      "impact": "国内・総合分野で多くの読者に共有されている注目記事です。",
+      "tags": [
+        "国内・総合",
+        "chunichi.co.jp"
+      ],
+      "url": "https://www.chunichi.co.jp/article/1338916",
+      "isAiEnriched": false
+    },
+    {
+      "category": "tech",
+      "title": "データセンターの排熱でエビ養殖、NTT系が実験　育ったら食べられる？　担当者に聞いてみた",
+      "source": "itmedia.co.jp",
+      "publishedAt": "2026-11-13 20:33",
+      "publishedTs": 1794569588,
+      "image": "https://www.itmedia.co.jp/news/article/ogp/2611/13/2000003200/10012155/2048",
+      "summary": "NTTドコモビジネスなど4社は11月13日、データセンターの排熱を活用してエビを養殖する実証実験を発表した。2026年度中に養殖に適した排熱の回収方法を模索し、2027年度には回収した熱を使ってクルマエビ科の一種「バナメイエビ」を育てる計画だ。なぜエビの養殖を選んだのか、育てたエビはどうするのか。担当者に話…",
+      "points": [
+        "カテゴリ: テクノロジー・AIで話題の記事",
+        "引用元: itmedia.co.jp（2026-11-13 20:33）",
+        "「元記事を読む」から本文を確認できます"
+      ],
+      "impact": "テクノロジー・AI分野で多くの読者に共有されている注目記事です。",
+      "tags": [
+        "テクノロジー・AI",
+        "itmedia.co.jp"
+      ],
+      "url": "https://www.itmedia.co.jp/news/article/2611/13/2000003200/",
+      "isAiEnriched": false
+    },
+    {
+      "category": "business",
+      "title": "「何もしていないのに壊れた」高市首相はある能力において、故安倍元首相を超えたのではないか？という指摘がX上で続々と集まる",
+      "source": "togetter.com",
+      "publishedAt": "2026-11-14 04:46",
+      "publishedTs": 1794599203,
+      "image": "https://s.tgstc.com/ogp3/47fbe1869359fc6f93b65ea3a0c4f4fd-1200x630.jpeg",
+      "summary": "なま卯 @e_the_dethroner 神戸大学勤務の先生が、「高市総理、神大の夜間部だったのではないかという話が出ているのか。それなら色々と納得が行く。神大卒は嘘ではない。ただ早慶合格は怪しい。」と仰っている。私にはこれは高市総理云々よりも、夜間部を揶揄しているように見えるのだが、大学の先生がそういう態…",
+      "points": [
+        "カテゴリ: ビジネス・経済で話題の記事",
+        "引用元: togetter.com（2026-11-14 04:46）",
+        "「元記事を読む」から本文を確認できます"
+      ],
+      "impact": "ビジネス・経済分野で多くの読者に共有されている注目記事です。",
+      "tags": [
+        "ビジネス・経済",
+        "togetter.com"
+      ],
+      "url": "https://togetter.com/li/2770188",
       "isAiEnriched": false
     }
   ]
