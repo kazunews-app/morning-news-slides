@@ -1,6 +1,6 @@
 window.NEWS_DATA = {
   "date": "2026年11月14日 (土)",
-  "updatedAt": "2026-11-14 16:02",
+  "updatedAt": "2026-11-14 17:03",
   "title": "TREND NEWS",
   "keywords": [
     "関東15日は気温急降下 師…",
@@ -391,23 +391,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "多文化共生「重要だと思わない」７倍に　岐阜県がアンケート：中日新聞Web",
-      "source": "chunichi.co.jp",
-      "publishedAt": "2026-11-13 18:53",
-      "publishedTs": 1794563623,
-      "image": "https://static.chunichi.co.jp/image/article/size1/d/8/1/a/d81a8773f37bf0bd2cb6a3cd5868cdb1_1.jpg",
-      "summary": "岐阜県は12日、外国人に関連する施策を話し合う本部員会議を県庁で開き、多文化共生について県民らから募ったアンケート結果を公表した。「多文化共生社会を目指すことについてどう思うか」という質問には、「重要だと思わない」という答えが前回アンケートから約7倍に増えた。",
+      "title": "「女だけどフェミニズム好きじゃない」といった女子大生を、フェミニストが取り囲んで「大学やめろ」「レイプされても文句言うな」と脅迫をおこなう事案が発生【黒い羊効果】",
+      "source": "posfie.com",
+      "publishedAt": "2026-11-14 13:06",
+      "publishedTs": 1794629168,
+      "image": "https://s.tgstc.com/ogp3/39ef3a663ff8045ff394bc77bfbd2994-1200x630.jpeg",
+      "summary": "「黒い羊効果」とは？職場でターゲットにされない5つの方法 - STUDY HACKER（スタディーハッカー）｜社会人の勉強法＆英語学習 心理学における「黒い羊効果」を、どこよりもわかりやすく解説します。 8 users 3217 STUDY HACKER（スタディーハッカー）｜社会人の勉強法＆英語学習 「黒…",
       "points": [
         "カテゴリ: 国内・総合で話題の記事",
-        "引用元: chunichi.co.jp（2026-11-13 18:53）",
+        "引用元: posfie.com（2026-11-14 13:06）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "国内・総合分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "国内・総合",
-        "chunichi.co.jp"
+        "posfie.com"
       ],
-      "url": "https://www.chunichi.co.jp/article/1338916",
+      "url": "https://posfie.com/@golden_haniwa/p/30HIdHZ",
       "isAiEnriched": false
     },
     {
@@ -433,44 +433,44 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "「何もしていないのに壊れた」高市首相はある能力において、故安倍元首相を超えたのではないか？という指摘がX上で続々と集まる",
-      "source": "togetter.com",
-      "publishedAt": "2026-11-14 04:46",
-      "publishedTs": 1794599203,
-      "image": "https://s.tgstc.com/ogp3/47fbe1869359fc6f93b65ea3a0c4f4fd-1200x630.jpeg",
-      "summary": "なま卯 @e_the_dethroner 神戸大学勤務の先生が、「高市総理、神大の夜間部だったのではないかという話が出ているのか。それなら色々と納得が行く。神大卒は嘘ではない。ただ早慶合格は怪しい。」と仰っている。私にはこれは高市総理云々よりも、夜間部を揶揄しているように見えるのだが、大学の先生がそういう態…",
+      "title": "米国務長官、ICCに警告「剣を帯びる者に法律を説くのはやめろ」",
+      "source": "afpbb.com",
+      "publishedAt": "2026-11-14 09:39",
+      "publishedTs": 1794616795,
+      "image": "https://afpbb.ismcdn.jp/mwimgs/9/3/1000x/img_93d74da810771456230942dc3857fd8f70358.jpg",
+      "summary": "【11月14日 AFP】マルコ・ルビオ米国務長官は13日、国際法が「武器化」され、エリート層の道具になっていると批判するとともに、国際刑事裁判所（ICC）に強い警告を発した。 ルビオ氏は、オランダ・ハーグに本部を置くICCが米国の認めていない規則を強制しようとしていると非難し、「剣を帯びる者に法律を説く」こ…",
       "points": [
         "カテゴリ: ビジネス・経済で話題の記事",
-        "引用元: togetter.com（2026-11-14 04:46）",
+        "引用元: afpbb.com（2026-11-14 09:39）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "ビジネス・経済分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "ビジネス・経済",
-        "togetter.com"
+        "afpbb.com"
       ],
-      "url": "https://togetter.com/li/2770188",
+      "url": "https://www.afpbb.com/articles/-/3662364",
       "isAiEnriched": false
     },
     {
       "category": "domestic",
-      "title": "「女だけどフェミニズム好きじゃない」といった女子大生を、フェミニストが取り囲んで「大学やめろ」「レイプされても文句言うな」と脅迫をおこなう事案が発生【黒い羊効果】",
-      "source": "posfie.com",
-      "publishedAt": "2026-11-14 13:06",
-      "publishedTs": 1794629168,
-      "image": "https://s.tgstc.com/ogp3/39ef3a663ff8045ff394bc77bfbd2994-1200x630.jpeg",
-      "summary": "「黒い羊効果」とは？職場でターゲットにされない5つの方法 - STUDY HACKER（スタディーハッカー）｜社会人の勉強法＆英語学習 心理学における「黒い羊効果」を、どこよりもわかりやすく解説します。 8 users 3217 STUDY HACKER（スタディーハッカー）｜社会人の勉強法＆英語学習 「黒…",
+      "title": "多文化共生「重要だと思わない」７倍に　岐阜県がアンケート：中日新聞Web",
+      "source": "chunichi.co.jp",
+      "publishedAt": "2026-11-13 18:53",
+      "publishedTs": 1794563623,
+      "image": "https://static.chunichi.co.jp/image/article/size1/d/8/1/a/d81a8773f37bf0bd2cb6a3cd5868cdb1_1.jpg",
+      "summary": "岐阜県は12日、外国人に関連する施策を話し合う本部員会議を県庁で開き、多文化共生について県民らから募ったアンケート結果を公表した。「多文化共生社会を目指すことについてどう思うか」という質問には、「重要だと思わない」という答えが前回アンケートから約7倍に増えた。",
       "points": [
         "カテゴリ: 国内・総合で話題の記事",
-        "引用元: posfie.com（2026-11-14 13:06）",
+        "引用元: chunichi.co.jp（2026-11-13 18:53）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "国内・総合分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "国内・総合",
-        "posfie.com"
+        "chunichi.co.jp"
       ],
-      "url": "https://posfie.com/@golden_haniwa/p/30HIdHZ",
+      "url": "https://www.chunichi.co.jp/article/1338916",
       "isAiEnriched": false
     },
     {
@@ -496,23 +496,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "米国務長官、ICCに警告「剣を帯びる者に法律を説くのはやめろ」",
-      "source": "afpbb.com",
-      "publishedAt": "2026-11-14 09:39",
-      "publishedTs": 1794616795,
-      "image": "https://afpbb.ismcdn.jp/mwimgs/9/3/1000x/img_93d74da810771456230942dc3857fd8f70358.jpg",
-      "summary": "【11月14日 AFP】マルコ・ルビオ米国務長官は13日、国際法が「武器化」され、エリート層の道具になっていると批判するとともに、国際刑事裁判所（ICC）に強い警告を発した。 ルビオ氏は、オランダ・ハーグに本部を置くICCが米国の認めていない規則を強制しようとしていると非難し、「剣を帯びる者に法律を説く」こ…",
+      "title": "「何もしていないのに壊れた」高市首相はある能力において、故安倍元首相を超えたのではないか？という指摘がX上で続々と集まる",
+      "source": "togetter.com",
+      "publishedAt": "2026-11-14 04:46",
+      "publishedTs": 1794599203,
+      "image": "https://s.tgstc.com/ogp3/47fbe1869359fc6f93b65ea3a0c4f4fd-1200x630.jpeg",
+      "summary": "なま卯 @e_the_dethroner 神戸大学勤務の先生が、「高市総理、神大の夜間部だったのではないかという話が出ているのか。それなら色々と納得が行く。神大卒は嘘ではない。ただ早慶合格は怪しい。」と仰っている。私にはこれは高市総理云々よりも、夜間部を揶揄しているように見えるのだが、大学の先生がそういう態…",
       "points": [
         "カテゴリ: ビジネス・経済で話題の記事",
-        "引用元: afpbb.com（2026-11-14 09:39）",
+        "引用元: togetter.com（2026-11-14 04:46）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "ビジネス・経済分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "ビジネス・経済",
-        "afpbb.com"
+        "togetter.com"
       ],
-      "url": "https://www.afpbb.com/articles/-/3662364",
+      "url": "https://togetter.com/li/2770188",
       "isAiEnriched": false
     },
     {
