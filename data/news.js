@@ -1,6 +1,6 @@
 window.NEWS_DATA = {
   "date": "2026年11月14日 (土)",
-  "updatedAt": "2026-11-14 20:10",
+  "updatedAt": "2026-11-14 20:52",
   "title": "TREND NEWS",
   "keywords": [
     "関東15日は気温急降下 師…",
@@ -139,15 +139,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "自衛官の給与引き上げ法が成立",
+      "title": "米中露の接近 日本政府は危機感",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-13 23:48",
-      "publishedTs": 1794581283,
-      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/13/07e0f2dc16f154bbe95f39f28cfe2bbef850b3ae620c234f149ef5f95fa05dfe.jpg",
-      "summary": "全ての年代の自衛官の基本給を引き上げることなどを盛り込んだ「防衛省の職員の給与等に関する法律の改正法」が、13日の参議院本会議で可決・成立しました。",
+      "publishedAt": "2026-11-14 20:17",
+      "publishedTs": 1794655024,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800",
+      "summary": "政府は、トランプ米政権に懸念を伝えていたにもかかわらず、米国、中国、ロシアの首脳会談が開かれることとなり3カ国の接近に危機感を強めている。「わが国と築き上げてきた安全保障秩序を毀損しないよう米側に注…",
       "points": [
         "カテゴリ: 国内・総合の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-13 23:48）",
+        "配信: Yahoo!ニュース トピックス（2026-11-14 20:17）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "国内・総合分野で関心を集めている最新ニュースです。",
@@ -155,7 +155,7 @@ window.NEWS_DATA = {
         "国内・総合",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/pickup/6602480?source=rss",
+      "url": "https://news.yahoo.co.jp/pickup/6602584?source=rss",
       "isAiEnriched": false
     },
     {
@@ -202,15 +202,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "支援金 勤労者全体の5割以上検討",
+      "title": "自衛官の給与引き上げ法が成立",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-13 17:08",
-      "publishedTs": 1794557294,
-      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/13/59ae1e21dc2c9fbd9820e03eefa540a4bc0aafaed7788998f3893b09dcc90aa5.jpg",
-      "summary": "今国会で最大の焦点となっている消費税減税法案をめぐり、高市総理大臣は、支援金の対象について「勤労者全体の5割以上となるよう所得上限の引き上げを検討する」と表明しました。",
+      "publishedAt": "2026-11-13 23:48",
+      "publishedTs": 1794581283,
+      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/13/07e0f2dc16f154bbe95f39f28cfe2bbef850b3ae620c234f149ef5f95fa05dfe.jpg",
+      "summary": "全ての年代の自衛官の基本給を引き上げることなどを盛り込んだ「防衛省の職員の給与等に関する法律の改正法」が、13日の参議院本会議で可決・成立しました。",
       "points": [
         "カテゴリ: 国内・総合の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-13 17:08）",
+        "配信: Yahoo!ニュース トピックス（2026-11-13 23:48）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "国内・総合分野で関心を集めている最新ニュースです。",
@@ -218,7 +218,7 @@ window.NEWS_DATA = {
         "国内・総合",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/pickup/6602431?source=rss",
+      "url": "https://news.yahoo.co.jp/pickup/6602480?source=rss",
       "isAiEnriched": false
     },
     {
@@ -265,15 +265,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "声や肖像 AIの無断利用に規制案",
+      "title": "支援金 勤労者全体の5割以上検討",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-14 07:55",
-      "publishedTs": 1794610556,
-      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/14/70caae19a8283fd383492ce3b613b1fef723c62d9ef9bd04641b4dad78ef4ac6.jpg",
-      "summary": "経済産業省は１３日、生成ＡＩ（人工知能）による声や肖像の無断使用などを防ぐため、不正競争防止法で新たに規制する行為の具体案を有識者会議に示した。肖像や声が持つ魅力を商品や広告に無断利用する行為を対象…",
+      "publishedAt": "2026-11-13 17:08",
+      "publishedTs": 1794557294,
+      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/13/59ae1e21dc2c9fbd9820e03eefa540a4bc0aafaed7788998f3893b09dcc90aa5.jpg",
+      "summary": "今国会で最大の焦点となっている消費税減税法案をめぐり、高市総理大臣は、支援金の対象について「勤労者全体の5割以上となるよう所得上限の引き上げを検討する」と表明しました。",
       "points": [
         "カテゴリ: 国内・総合の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-14 07:55）",
+        "配信: Yahoo!ニュース トピックス（2026-11-13 17:08）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "国内・総合分野で関心を集めている最新ニュースです。",
@@ -281,7 +281,7 @@ window.NEWS_DATA = {
         "国内・総合",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/pickup/6602494?source=rss",
+      "url": "https://news.yahoo.co.jp/pickup/6602431?source=rss",
       "isAiEnriched": false
     },
     {
@@ -328,15 +328,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "クレカ不正利用 新たな手口に注意",
+      "title": "声や肖像 AIの無断利用に規制案",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-13 14:43",
-      "publishedTs": 1794548627,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/iwiz-yn/rpr/tadafumiaki/02764805/title-1794531172278.jpeg?exp=10800",
-      "summary": "温浴施設のロッカーから、金品が盗まれる事件が相次いでいます。合鍵を使う用意周到な手口ですので、犯行マニュアルを駆使した組織的グループが背後にあることが見えてきます。見逃してはいけない犯行の特徴が2つあ…",
+      "publishedAt": "2026-11-14 07:55",
+      "publishedTs": 1794610556,
+      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/14/70caae19a8283fd383492ce3b613b1fef723c62d9ef9bd04641b4dad78ef4ac6.jpg",
+      "summary": "経済産業省は１３日、生成ＡＩ（人工知能）による声や肖像の無断使用などを防ぐため、不正競争防止法で新たに規制する行為の具体案を有識者会議に示した。肖像や声が持つ魅力を商品や広告に無断利用する行為を対象…",
       "points": [
         "カテゴリ: 国内・総合の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-13 14:43）",
+        "配信: Yahoo!ニュース トピックス（2026-11-14 07:55）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "国内・総合分野で関心を集めている最新ニュースです。",
@@ -344,7 +344,7 @@ window.NEWS_DATA = {
         "国内・総合",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/pickup/6602420?source=rss",
+      "url": "https://news.yahoo.co.jp/pickup/6602494?source=rss",
       "isAiEnriched": false
     },
     {
@@ -559,6 +559,69 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
+      "title": "日本のAppleことバルミューダ社、高級家電が売れず売上高89億円、最終赤字10億5千万円に下方修正",
+      "source": "gadget2ch.com",
+      "publishedAt": "2026-11-14 07:40",
+      "publishedTs": 1794609629,
+      "image": "https://www.gadget2ch.com/wp-content/uploads/2026/11/78459c3dc69db92f5d9860af3194166a.w960.h960-1-1.jpg-1-1-1-1.webp",
+      "summary": "高級家電ブランド「バルミューダ（BALMUDA）」を展開するバルミューダは11月13日、2026年12月期の通期業績予想を下方修正した。売上高は従来予想の105億円から89億円へと16億円引き下げ、前期比3.8％増の増収予想から一転、同12.0％減の減収となる見通しだ。 利益面も大幅に悪化する。営業損益は従…",
+      "points": [
+        "カテゴリ: ビジネス・経済で話題の記事",
+        "引用元: gadget2ch.com（2026-11-14 07:40）",
+        "「元記事を読む」から本文を確認できます"
+      ],
+      "impact": "ビジネス・経済分野で多くの読者に共有されている注目記事です。",
+      "tags": [
+        "ビジネス・経済",
+        "gadget2ch.com"
+      ],
+      "url": "https://www.gadget2ch.com/archives/post-282583.html",
+      "isAiEnriched": false
+    },
+    {
+      "category": "domestic",
+      "title": "戦争に疲れても…トランプ氏の「停戦」に反発　ウクライナ人の心の内：朝日新聞",
+      "source": "asahi.com",
+      "publishedAt": "2026-11-14 16:30",
+      "publishedTs": 1794641441,
+      "image": "https://imgopt.asahi.com/ogp/AS20261110003379_comm.jpg",
+      "summary": "みなさん、こんにちは。ニュースレターや記者アカウントにお寄せいただく感想や応援のメッセージに、いつも大変力づけられています。 その中に、こんな質問がありました（文章は少し手直ししています）。 「ウク…",
+      "points": [
+        "カテゴリ: 国内・総合で話題の記事",
+        "引用元: asahi.com（2026-11-14 16:30）",
+        "「元記事を読む」から本文を確認できます"
+      ],
+      "impact": "国内・総合分野で多くの読者に共有されている注目記事です。",
+      "tags": [
+        "国内・総合",
+        "asahi.com"
+      ],
+      "url": "https://www.asahi.com/articles/ASVCB33QHVCBUHBI00BM.html",
+      "isAiEnriched": false
+    },
+    {
+      "category": "tech",
+      "title": "ゲーム開発者の40％が生成AIを使用しているもののそれ以上に多くの人が生成AIは有害だと考えている",
+      "source": "gigazine.net",
+      "publishedAt": "2026-11-14 13:02",
+      "publishedTs": 1794628966,
+      "image": "https://i.gzn.jp/img/2026/11/14/developers-games-industry-using-generative-ai/00_m.jpg",
+      "summary": "ゲーム開発にAIを活用することに対しては賛否両論ありますが、世界最大級のゲーム開発者会議であるGDCの最新レポートから、業界で活躍する開発者の40％が生成AIを利用していることが明らかになりました。 A new report reckons 40% of developers in the video ga…",
+      "points": [
+        "カテゴリ: テクノロジー・AIで話題の記事",
+        "引用元: gigazine.net（2026-11-14 13:02）",
+        "「元記事を読む」から本文を確認できます"
+      ],
+      "impact": "テクノロジー・AI分野で多くの読者に共有されている注目記事です。",
+      "tags": [
+        "テクノロジー・AI",
+        "gigazine.net"
+      ],
+      "url": "https://gigazine.net/news/20261114-developers-games-industry-using-generative-ai/",
+      "isAiEnriched": false
+    },
+    {
+      "category": "business",
       "title": "米中ロが史上初の3首脳会談へ　米側が発表　中国深圳で19日開催：朝日新聞",
       "source": "asahi.com",
       "publishedAt": "2026-11-14 09:10",
@@ -576,69 +639,6 @@ window.NEWS_DATA = {
         "asahi.com"
       ],
       "url": "https://www.asahi.com/articles/ASVCF7VTGVCFUHBI00PM.html",
-      "isAiEnriched": false
-    },
-    {
-      "category": "domestic",
-      "title": "多文化共生「重要だと思わない」７倍に　岐阜県がアンケート：中日新聞Web",
-      "source": "chunichi.co.jp",
-      "publishedAt": "2026-11-13 18:53",
-      "publishedTs": 1794563623,
-      "image": "https://static.chunichi.co.jp/image/article/size1/d/8/1/a/d81a8773f37bf0bd2cb6a3cd5868cdb1_1.jpg",
-      "summary": "岐阜県は12日、外国人に関連する施策を話し合う本部員会議を県庁で開き、多文化共生について県民らから募ったアンケート結果を公表した。「多文化共生社会を目指すことについてどう思うか」という質問には、「重要だと思わない」という答えが前回アンケートから約7倍に増えた。",
-      "points": [
-        "カテゴリ: 国内・総合で話題の記事",
-        "引用元: chunichi.co.jp（2026-11-13 18:53）",
-        "「元記事を読む」から本文を確認できます"
-      ],
-      "impact": "国内・総合分野で多くの読者に共有されている注目記事です。",
-      "tags": [
-        "国内・総合",
-        "chunichi.co.jp"
-      ],
-      "url": "https://www.chunichi.co.jp/article/1338916",
-      "isAiEnriched": false
-    },
-    {
-      "category": "tech",
-      "title": "データセンターの排熱でエビ養殖、NTT系が実験　育ったら食べられる？　担当者に聞いてみた",
-      "source": "itmedia.co.jp",
-      "publishedAt": "2026-11-13 20:33",
-      "publishedTs": 1794569588,
-      "image": "https://www.itmedia.co.jp/news/article/ogp/2611/13/2000003200/10012155/2048",
-      "summary": "NTTドコモビジネスなど4社は11月13日、データセンターの排熱を活用してエビを養殖する実証実験を発表した。2026年度中に養殖に適した排熱の回収方法を模索し、2027年度には回収した熱を使ってクルマエビ科の一種「バナメイエビ」を育てる計画だ。なぜエビの養殖を選んだのか、育てたエビはどうするのか。担当者に話…",
-      "points": [
-        "カテゴリ: テクノロジー・AIで話題の記事",
-        "引用元: itmedia.co.jp（2026-11-13 20:33）",
-        "「元記事を読む」から本文を確認できます"
-      ],
-      "impact": "テクノロジー・AI分野で多くの読者に共有されている注目記事です。",
-      "tags": [
-        "テクノロジー・AI",
-        "itmedia.co.jp"
-      ],
-      "url": "https://www.itmedia.co.jp/news/article/2611/13/2000003200/",
-      "isAiEnriched": false
-    },
-    {
-      "category": "business",
-      "title": "「何もしていないのに壊れた」高市首相はある能力において、故安倍元首相を超えたのではないか？という指摘がX上で続々と集まる",
-      "source": "togetter.com",
-      "publishedAt": "2026-11-14 04:46",
-      "publishedTs": 1794599203,
-      "image": "https://s.tgstc.com/ogp3/47fbe1869359fc6f93b65ea3a0c4f4fd-1200x630.jpeg",
-      "summary": "なま卯 @e_the_dethroner 神戸大学勤務の先生が、「高市総理、神大の夜間部だったのではないかという話が出ているのか。それなら色々と納得が行く。神大卒は嘘ではない。ただ早慶合格は怪しい。」と仰っている。私にはこれは高市総理云々よりも、夜間部を揶揄しているように見えるのだが、大学の先生がそういう態…",
-      "points": [
-        "カテゴリ: ビジネス・経済で話題の記事",
-        "引用元: togetter.com（2026-11-14 04:46）",
-        "「元記事を読む」から本文を確認できます"
-      ],
-      "impact": "ビジネス・経済分野で多くの読者に共有されている注目記事です。",
-      "tags": [
-        "ビジネス・経済",
-        "togetter.com"
-      ],
-      "url": "https://togetter.com/li/2770188",
       "isAiEnriched": false
     }
   ]
