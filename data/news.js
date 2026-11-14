@@ -1,6 +1,6 @@
 window.NEWS_DATA = {
   "date": "2026年11月14日 (土)",
-  "updatedAt": "2026-11-14 21:35",
+  "updatedAt": "2026-11-14 22:33",
   "title": "TREND NEWS",
   "keywords": [
     "米中露の接近 日本政府は危…",
@@ -307,15 +307,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "職場で電話苦手30代最多? 克服法",
+      "title": "縦型ショートドラマ トラブル急増",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-14 17:23",
-      "publishedTs": 1794644638,
-      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/14/38e31e454426b25144fdc7c8508b78d00c9403226bd7ce9084b0580d92ce609d.jpg",
-      "summary": "職場での電話対応に緊張してしまう、自分からかけるのも躊躇してしまう──。そうした電話に対する苦手意識を抱く人は少なくない。実際にある調査でも、多くの人が電話業務を苦手と感じている実態や、世代ごとの傾…",
+      "publishedAt": "2026-11-14 21:56",
+      "publishedTs": 1794661002,
+      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/eternal/2022/1/21/a1e83497e6ae7c4773b9d74bb91b357c6f183c9c1f6da1f8c664c1112bbe60ae.jpg",
+      "summary": "スマートフォンで手軽に視聴でき、幅広い世代に人気が広がる1話1～2分程度の「縦型ショートドラマ」を巡り、サブスクリプション（定額課金）契約を解約できないなどのトラブルが急増していることが14日、共同…",
       "points": [
         "カテゴリ: ビジネス・経済の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-14 17:23）",
+        "配信: Yahoo!ニュース トピックス（2026-11-14 21:56）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "ビジネス・経済分野で関心を集めている最新ニュースです。",
@@ -323,7 +323,7 @@ window.NEWS_DATA = {
         "ビジネス・経済",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/pickup/6602565?source=rss",
+      "url": "https://news.yahoo.co.jp/pickup/6602597?source=rss",
       "isAiEnriched": false
     },
     {
@@ -349,23 +349,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "【速報】マネックス証券、マイナカード画像漏えいか",
-      "source": "47news.jp",
-      "publishedAt": "2026-11-14 00:36",
-      "publishedTs": 1794584170,
-      "image": "https://img.cf.47news.jp/static/renewal/common/img/thumb_large.png",
-      "summary": "マネックス証券は13日、委託先が運営・管理する口座開設システムが不正アクセスを受け、運転免許証やマイナンバーカードといった本人確認書類の画像1592件と、最大113万件のメールアドレスが漏えいした恐れがあると発表した。",
+      "title": "AIチームを率いるとは、どういうこと？ with プログラマー・起業家 amachang Part1 | The Update",
+      "source": "theupdate.coffee",
+      "publishedAt": "2026-11-14 16:45",
+      "publishedTs": 1794642330,
+      "image": "https://i.scdn.co/image/ab6765630000ba8aa73d8865f4e71fabfa514528",
+      "summary": "2026年11月14日|21分 AIチームを率いるとは、どういうこと？ with プログラマー・起業家 amachang Part1 ゲスト: 天野仁史（多摩川機構エンジニアリング株式会社 代表） 一人の会社に、開発チームがいくつもある。 コードを書くAI、デザインするAI、それらを束ねるAI。スマートニュ…",
       "points": [
         "カテゴリ: テクノロジー・AIで話題の記事",
-        "引用元: 47news.jp（2026-11-14 00:36）",
+        "引用元: theupdate.coffee（2026-11-14 16:45）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "テクノロジー・AI分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "テクノロジー・AI",
-        "47news.jp"
+        "theupdate.coffee"
       ],
-      "url": "https://www.47news.jp/15227159.html",
+      "url": "https://theupdate.coffee/episodes/0J7UP7922ZXV6NBTt7w9Jl/",
       "isAiEnriched": false
     },
     {
@@ -412,23 +412,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "かつて、noteのようなブログもTwitterのような短文投稿もDiscordのようなコミュニティ運営もすべてまとめてできる、夢のようなサービスがあったのじゃ",
-      "source": "togetter.com",
-      "publishedAt": "2026-11-14 10:06",
-      "publishedTs": 1794618379,
-      "image": "https://s.tgstc.com/ogp3/a5d01b29a38b44dd977315f5842d3c69-1200x630.jpeg",
-      "summary": "HPPS＠平和荘 @HPPS_HEIWASOU 若い人には想像できんかもしれんが、その昔、 noteのようなブログも、 Twitterのような短文投稿も、 Discordのようなコミュニティ運営も、 ジョルテのようなカレンダー共有も、 TwiPlaのようなイベント参加者管理も、 すべてまとめてできる、夢のよ…",
+      "title": "【速報】マネックス証券、マイナカード画像漏えいか",
+      "source": "47news.jp",
+      "publishedAt": "2026-11-14 00:36",
+      "publishedTs": 1794584170,
+      "image": "https://img.cf.47news.jp/static/renewal/common/img/thumb_large.png",
+      "summary": "マネックス証券は13日、委託先が運営・管理する口座開設システムが不正アクセスを受け、運転免許証やマイナンバーカードといった本人確認書類の画像1592件と、最大113万件のメールアドレスが漏えいした恐れがあると発表した。",
       "points": [
         "カテゴリ: テクノロジー・AIで話題の記事",
-        "引用元: togetter.com（2026-11-14 10:06）",
+        "引用元: 47news.jp（2026-11-14 00:36）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "テクノロジー・AI分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "テクノロジー・AI",
-        "togetter.com"
+        "47news.jp"
       ],
-      "url": "https://togetter.com/li/2770247",
+      "url": "https://www.47news.jp/15227159.html",
       "isAiEnriched": false
     },
     {
@@ -580,44 +580,44 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "やまやで15回おかわりしたら出禁宣告された人が謝罪…しかしやまや系列で働く人から「おかわりする人を大事にって教育された」の声、サポセンの回答も「配慮の必要なし」",
-      "source": "togetter.com",
-      "publishedAt": "2026-11-14 06:31",
-      "publishedTs": 1794605510,
-      "image": "https://s.tgstc.com/ogp3/43ce538702ae4508fc757c059321f059-1200x630.jpeg",
-      "summary": "あー(っ'-')╮=͟͟͞♡ @tuuhuusuien 別にね、やまやさんを否定したり悪く言いたいわけじゃないのよ？ 明太子も高菜も本当に美味しすぎて、ご飯が進むし、時間を空けて2つずつ提供される天麩羅のお気遣いが(どれも熱々で食べられるように)素晴らしいって言ってるの。 やまやさんを批判するのも、コメント…",
+      "title": "【重要】開発用ステージング環境における個人情報漏えいのおそれに関するご報告とお詫び | ニュース | paiza株式会社",
+      "source": "paiza.co.jp",
+      "publishedAt": "2026-11-14 00:59",
+      "publishedTs": 1794585581,
+      "image": "https://www.paiza.co.jp/common/images/img-ogimage.png",
+      "summary": "お客様各位 平素は弊社サービスをご利用いただき、誠にありがとうございます。 このたび、弊社が管理する開発用ステージング環境（以下、「動作検証環境」といいます。）において、アクセス管理の不備により、従前アクセス権限を有していた退職者等の第三者からアクセスされ得る状態となり、個人データの漏えいのおそれ...",
       "points": [
         "カテゴリ: 国内・総合で話題の記事",
-        "引用元: togetter.com（2026-11-14 06:31）",
+        "引用元: paiza.co.jp（2026-11-14 00:59）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "国内・総合分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "国内・総合",
-        "togetter.com"
+        "paiza.co.jp"
       ],
-      "url": "https://togetter.com/li/2770203",
+      "url": "https://www.paiza.co.jp/news/20261113/access-management-notice/",
       "isAiEnriched": false
     },
     {
       "category": "tech",
-      "title": "AWSでゼロトラスト構成を作る手順を5つのパートに分けて整理してみた - Qiita",
-      "source": "qiita.com",
-      "publishedAt": "2026-11-14 07:56",
-      "publishedTs": 1794610599,
-      "image": "https://qiita-user-contents.imgix.net/https%3A%2F%2Fqiita-user-contents.imgix.net%2Fhttps%253A%252F%252Fcdn.qiita.com%252Fassets%252Fpublic%252Farticle-ogp-background-afbab5eb44e0b055cce1258705637a91.png%3Fixlib%3Drb-4.1.1%26w%3D1200%26blend64%3DaHR0cHM6Ly9xaWl0YS11c2VyLXByb2ZpbGUtaW1hZ2VzLmltZ2l4Lm5ldC9odHRwcyUzQSUyRiUyRnMzLWFwLW5vcnRoZWFzdC0xLmFtYXpvbmF3cy5jb20lMkZxaWl0YS1pbWFnZS1zdG9yZSUyRjAlMkY0MjIzMDgxJTJGMTMzNzY2ZmYxODUyYmNiOGU0YWUwN2Y1Njg5MThmY2IzNzhjZmE4OCUyRmxhcmdlLnBuZyUzRjE3ODU4MDcyNzQ_aXhsaWI9cmItNC4xLjEmYXI9MSUzQTEmZml0PWNyb3AmbWFzaz1lbGxpcHNlJmJnPUZGRkZGRiZmbT1wbmczMiZzPTE5NTQ2MTQyMjBmYzgxMzViYTA3YmZhNmJlNmZmODMz%26blend-x%3D120%26blend-y%3D467%26blend-w%3D82%26blend-h%3D82%26blend-mode%3Dnormal%26s%3D5a2370e4cc373f21bbd2357e730d4278?ixlib=rb-4.1.1&w=1200&fm=jpg&mark64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjEuMSZ3PTk2MCZoPTMyNCZ0eHQ9QVdTJUUzJTgxJUE3JUUzJTgyJUJDJUUzJTgzJUFEJUUzJTgzJTg4JUUzJTgzJUE5JUUzJTgyJUI5JUUzJTgzJTg4JUU2JUE3JThCJUU2JTg4JTkwJUUzJTgyJTkyJUU0JUJEJTlDJUUzJTgyJThCJUU2JTg5JThCJUU5JUEwJTg2JUUzJTgyJTkyNSVFMyU4MSVBNCVFMyU4MSVBRSVFMyU4MyU5MSVFMyU4MyVCQyVFMyU4MyU4OCVFMyU4MSVBQiVFNSU4OCU4NiVFMyU4MSU5MSVFMyU4MSVBNiVFNiU5NSVCNCVFNyU5MCU4NiVFMyU4MSU5NyVFMyU4MSVBNiVFMyU4MSVCRiVFMyU4MSU5RiZ0eHQtYWxpZ249bGVmdCUyQ3RvcCZ0eHQtY29sb3I9JTIzMUUyMTIxJnR4dC1mb250PUhpcmFnaW5vJTIwU2FucyUyMFc2JnR4dC1zaXplPTU2JnR4dC1wYWQ9MCZzPWU1YjE4OGVlNGYzOWZmYzQwMTJiMjQxMzRkNTViMTk3&mark-x=120&mark-y=112&blend64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjEuMSZ3PTgzOCZoPTU4JnR4dD0lNDB5YW1hMzEzMyZ0eHQtY29sb3I9JTIzMUUyMTIxJnR4dC1mb250PUhpcmFnaW5vJTIwU2FucyUyMFc2JnR4dC1zaXplPTM2JnR4dC1wYWQ9MCZzPTU1NmYyMjEwMWE0ZGNlZDA1MWU2YjZhNGVhMGRjOWZi&blend-x=242&blend-y=480&blend-w=838&blend-h=46&blend-fit=crop&blend-crop=left%2Cbottom&blend-mode=normal&s=25506b0a720de9cc5f0015ea00c2fa66",
-      "summary": "はじめに ゼロトラストは「社内ネットワークの中にいるから信頼する」という前提を置かず、アクセスのたびに身元と権限を確認する考え方です。 この記事では、AWSでどのサービスのどのリソースを作れば形になるのかに絞って整理します。構成を5つのパートに分け、それぞれで作るリソースとAWS CLIのコマンドを順に並べ…",
+      "title": "かつて、noteのようなブログもTwitterのような短文投稿もDiscordのようなコミュニティ運営もすべてまとめてできる、夢のようなサービスがあったのじゃ",
+      "source": "togetter.com",
+      "publishedAt": "2026-11-14 10:06",
+      "publishedTs": 1794618379,
+      "image": "https://s.tgstc.com/ogp3/a5d01b29a38b44dd977315f5842d3c69-1200x630.jpeg",
+      "summary": "HPPS＠平和荘 @HPPS_HEIWASOU 若い人には想像できんかもしれんが、その昔、 noteのようなブログも、 Twitterのような短文投稿も、 Discordのようなコミュニティ運営も、 ジョルテのようなカレンダー共有も、 TwiPlaのようなイベント参加者管理も、 すべてまとめてできる、夢のよ…",
       "points": [
         "カテゴリ: テクノロジー・AIで話題の記事",
-        "引用元: qiita.com（2026-11-14 07:56）",
+        "引用元: togetter.com（2026-11-14 10:06）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "テクノロジー・AI分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "テクノロジー・AI",
-        "qiita.com"
+        "togetter.com"
       ],
-      "url": "https://qiita.com/yama3133/items/11a360fc97ed3ec09742",
+      "url": "https://togetter.com/li/2770247",
       "isAiEnriched": false
     },
     {
