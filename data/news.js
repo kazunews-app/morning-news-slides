@@ -1,6 +1,6 @@
 window.NEWS_DATA = {
   "date": "2026年11月15日 (日)",
-  "updatedAt": "2026-11-15 03:27",
+  "updatedAt": "2026-11-15 04:20",
   "title": "TREND NEWS",
   "keywords": [
     "米中露の接近 日本政府は危…",
@@ -538,23 +538,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "相次ぐ情報漏えいでアナログ回帰？　ダイソー「パスワード管理ノート」が品薄に　一方でリスクも──IPAに聞いた",
-      "source": "itmedia.co.jp",
-      "publishedAt": "2026-11-14 08:23",
-      "publishedTs": 1794612209,
-      "image": "https://www.itmedia.co.jp/news/article/ogp/2611/14/2000003193/10012123/2048",
-      "summary": "不正アクセスによる情報漏えいが相次ぐなか、パスワードを紙に書いて管理するアナログな方法を見直す動きがある。100円ショップ「ダイソー」では、紙の「パスワード管理ノート」が品薄になっている。運営する大創産業（広島県東広島市、以下ダイソー）はITmedia NEWSの取材に対し、ネットワークにつながっていない紙…",
+      "title": "Cognitoの自己サインアップが有効だと、誰でもAWSの一時認証情報を取得できる：AI攻撃ツールARTEXの事例と確認したい設定3点 | DevelopersIO",
+      "source": "dev.classmethod.jp",
+      "publishedAt": "2026-11-14 21:48",
+      "publishedTs": 1794660505,
+      "image": "https://devio2024-media.developers.io/image/upload/f_auto,q_auto/v1790871156/eyecatch/wagokraibjktomkouqin.png",
+      "summary": "どうも！オペ部の西村祐二です！ S3 にフロントエンドを置き、Amazon Cognito のユーザープールでログインさせ、ID プールで AWS の一時認証情報を渡す。AWS で SPA を作るときによく見る構成です。この構成が攻撃用の AI エージェントにどう使われたかを、Datadog Securit…",
       "points": [
         "カテゴリ: テクノロジー・AIで話題の記事",
-        "引用元: itmedia.co.jp（2026-11-14 08:23）",
+        "引用元: dev.classmethod.jp（2026-11-14 21:48）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "テクノロジー・AI分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "テクノロジー・AI",
-        "itmedia.co.jp"
+        "dev.classmethod.jp"
       ],
-      "url": "https://www.itmedia.co.jp/news/article/2611/14/2000003193/",
+      "url": "https://dev.classmethod.jp/articles/cognito-self-signup-agentic-attack/",
       "isAiEnriched": false
     },
     {
@@ -601,23 +601,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "Cognitoの自己サインアップが有効だと、誰でもAWSの一時認証情報を取得できる：AI攻撃ツールARTEXの事例と確認したい設定3点 | DevelopersIO",
-      "source": "dev.classmethod.jp",
-      "publishedAt": "2026-11-14 21:48",
-      "publishedTs": 1794660505,
-      "image": "https://devio2024-media.developers.io/image/upload/f_auto,q_auto/v1790871156/eyecatch/wagokraibjktomkouqin.png",
-      "summary": "どうも！オペ部の西村祐二です！ S3 にフロントエンドを置き、Amazon Cognito のユーザープールでログインさせ、ID プールで AWS の一時認証情報を渡す。AWS で SPA を作るときによく見る構成です。この構成が攻撃用の AI エージェントにどう使われたかを、Datadog Securit…",
+      "title": "相次ぐ情報漏えいでアナログ回帰？　ダイソー「パスワード管理ノート」が品薄に　一方でリスクも──IPAに聞いた",
+      "source": "itmedia.co.jp",
+      "publishedAt": "2026-11-14 08:23",
+      "publishedTs": 1794612209,
+      "image": "https://www.itmedia.co.jp/news/article/ogp/2611/14/2000003193/10012123/2048",
+      "summary": "不正アクセスによる情報漏えいが相次ぐなか、パスワードを紙に書いて管理するアナログな方法を見直す動きがある。100円ショップ「ダイソー」では、紙の「パスワード管理ノート」が品薄になっている。運営する大創産業（広島県東広島市、以下ダイソー）はITmedia NEWSの取材に対し、ネットワークにつながっていない紙…",
       "points": [
         "カテゴリ: テクノロジー・AIで話題の記事",
-        "引用元: dev.classmethod.jp（2026-11-14 21:48）",
+        "引用元: itmedia.co.jp（2026-11-14 08:23）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "テクノロジー・AI分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "テクノロジー・AI",
-        "dev.classmethod.jp"
+        "itmedia.co.jp"
       ],
-      "url": "https://dev.classmethod.jp/articles/cognito-self-signup-agentic-attack/",
+      "url": "https://www.itmedia.co.jp/news/article/2611/14/2000003193/",
       "isAiEnriched": false
     },
     {
