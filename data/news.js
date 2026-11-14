@@ -1,6 +1,6 @@
 window.NEWS_DATA = {
   "date": "2026年11月15日 (日)",
-  "updatedAt": "2026-11-15 00:50",
+  "updatedAt": "2026-11-15 01:26",
   "title": "TREND NEWS",
   "keywords": [
     "米中露の接近 日本政府は危…",
@@ -391,23 +391,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "「女だけどフェミニズム好きじゃない」といった女子大生を、フェミニストが取り囲んで「大学やめろ」「レイプされても文句言うな」と脅迫をおこなう事案が発生【黒い羊効果】",
-      "source": "posfie.com",
-      "publishedAt": "2026-11-14 13:06",
-      "publishedTs": 1794629168,
-      "image": "https://s.tgstc.com/ogp3/39ef3a663ff8045ff394bc77bfbd2994-1200x630.jpeg",
-      "summary": "「黒い羊効果」とは？職場でターゲットにされない5つの方法 - STUDY HACKER（スタディーハッカー）｜社会人の勉強法＆英語学習 心理学における「黒い羊効果」を、どこよりもわかりやすく解説します。 8 users 3217 STUDY HACKER（スタディーハッカー）｜社会人の勉強法＆英語学習 「黒…",
+      "title": "昔、肝癌で終末期入院中の母に「退院するときの服」を買ってくるように頼まれ、婦人服売り場でぼんやりと服を選んでいるときに声をかけてくれた店員さんに救われた",
+      "source": "togetter.com",
+      "publishedAt": "2026-11-14 18:23",
+      "publishedTs": 1794648200,
+      "image": "https://s.tgstc.com/ogp3/24c22d084c64d272ed9f66aacbc1c22e-1200x630.jpeg",
+      "summary": "せき @sekisyko ひと昔以上前、母親の肝癌終末期入院中(本人告知なし、そのまま看取りになる予定)の付き添いしていた時に本人から「退院するときの服が無いからなんかええやつ買うてきてんか」と頼まれ70代からぐらいの婦人服を売ってるお店で茫漠と服を選んでいた。すると私をじっと見ていた店員のお姉さんが→ 2…",
       "points": [
         "カテゴリ: 国内・総合で話題の記事",
-        "引用元: posfie.com（2026-11-14 13:06）",
+        "引用元: togetter.com（2026-11-14 18:23）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "国内・総合分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "国内・総合",
-        "posfie.com"
+        "togetter.com"
       ],
-      "url": "https://posfie.com/@golden_haniwa/p/30HIdHZ",
+      "url": "https://togetter.com/li/2770389",
       "isAiEnriched": false
     },
     {
@@ -454,23 +454,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "昔、肝癌で終末期入院中の母に「退院するときの服」を買ってくるように頼まれ、婦人服売り場でぼんやりと服を選んでいるときに声をかけてくれた店員さんに救われた",
-      "source": "togetter.com",
-      "publishedAt": "2026-11-14 18:23",
-      "publishedTs": 1794648200,
-      "image": "https://s.tgstc.com/ogp3/24c22d084c64d272ed9f66aacbc1c22e-1200x630.jpeg",
-      "summary": "せき @sekisyko ひと昔以上前、母親の肝癌終末期入院中(本人告知なし、そのまま看取りになる予定)の付き添いしていた時に本人から「退院するときの服が無いからなんかええやつ買うてきてんか」と頼まれ70代からぐらいの婦人服を売ってるお店で茫漠と服を選んでいた。すると私をじっと見ていた店員のお姉さんが→ 2…",
+      "title": "「女だけどフェミニズム好きじゃない」といった女子大生を、フェミニストが取り囲んで「大学やめろ」「レイプされても文句言うな」と脅迫をおこなう事案が発生【黒い羊効果】",
+      "source": "posfie.com",
+      "publishedAt": "2026-11-14 13:06",
+      "publishedTs": 1794629168,
+      "image": "https://s.tgstc.com/ogp3/39ef3a663ff8045ff394bc77bfbd2994-1200x630.jpeg",
+      "summary": "「黒い羊効果」とは？職場でターゲットにされない5つの方法 - STUDY HACKER（スタディーハッカー）｜社会人の勉強法＆英語学習 心理学における「黒い羊効果」を、どこよりもわかりやすく解説します。 8 users 3217 STUDY HACKER（スタディーハッカー）｜社会人の勉強法＆英語学習 「黒…",
       "points": [
         "カテゴリ: 国内・総合で話題の記事",
-        "引用元: togetter.com（2026-11-14 18:23）",
+        "引用元: posfie.com（2026-11-14 13:06）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "国内・総合分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "国内・総合",
-        "togetter.com"
+        "posfie.com"
       ],
-      "url": "https://togetter.com/li/2770389",
+      "url": "https://posfie.com/@golden_haniwa/p/30HIdHZ",
       "isAiEnriched": false
     },
     {
@@ -601,23 +601,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "幻覚がひどいAIでも言葉遣いが洗練されていれば人を簡単に騙せることが判明",
-      "source": "gigazine.net",
-      "publishedAt": "2026-11-14 08:05",
-      "publishedTs": 1794611157,
-      "image": "https://i.gzn.jp/img/2026/11/14/llm-fluency-credible/00.jpg",
-      "summary": "ChatGPTなどに代表される大規模言語モデルは、その根本的な仕組みとして、モデル自身は自分の回答が合っているか間違っているかを判断できません。そのためこの手のAIには事実ではないことをまるで事実かのように話してしまう「幻覚(ハルシネーション)」の問題が常につきまといます。新たな研究では、AIの回答に幻覚が…",
+      "title": "AIについての追記",
+      "source": "ms.u-tokyo.ac.jp",
+      "publishedAt": "2026-11-14 19:13",
+      "publishedTs": 1794651219,
+      "image": "assets/images/news-3.jpg",
+      "summary": "Associate Professor, Graduate School of Mathematical Sciences 私のところで大学院入学を希望する方へ―AIについての追記 この文章は2026年11月に書いています．この年は，AIが数学にもたらした影響がある閾値を超えた年として記憶されるでしょう．大…",
       "points": [
         "カテゴリ: テクノロジー・AIで話題の記事",
-        "引用元: gigazine.net（2026-11-14 08:05）",
+        "引用元: ms.u-tokyo.ac.jp（2026-11-14 19:13）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "テクノロジー・AI分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "テクノロジー・AI",
-        "gigazine.net"
+        "ms.u-tokyo.ac.jp"
       ],
-      "url": "https://gigazine.net/news/20261114-llm-fluency-credible/",
+      "url": "https://www.ms.u-tokyo.ac.jp/~konno/grad_ai.html",
       "isAiEnriched": false
     },
     {
