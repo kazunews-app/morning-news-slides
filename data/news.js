@@ -1,6 +1,6 @@
 window.NEWS_DATA = {
   "date": "2026年11月14日 (土)",
-  "updatedAt": "2026-11-14 12:14",
+  "updatedAt": "2026-11-14 13:14",
   "title": "TREND NEWS",
   "keywords": [
     "防衛費5年で60兆円規模 …",
@@ -349,23 +349,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "Fable 5.2は物理モデリング音源の実装も作曲もすごい - きしだのHatena",
-      "source": "nowokay.hatenablog.com",
-      "publishedAt": "2026-11-13 23:22",
-      "publishedTs": 1794579772,
-      "image": "https://cdn.image.st-hatena.com/image/scale/124dd98915ea1ae722f6a171ed5ad3c4f387690a/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fn%2Fnowokay%2F20261113%2F20261113100710.png",
-      "summary": "Fable 5.2が出て今週いっぱいくらいPlusでも使えるのだけど、Fableじゃないとダメなことってなんだろなと思いつつ、楽器の物理シミュレーションがOpusはまだあまりうまくなかったなと、Fableさんに物理モデリング音源を作ってもらって曲もつくってもらったら、物理モデリングも結構できていたのだけど…",
+      "title": "【速報】マネックス証券、マイナカード画像漏えいか",
+      "source": "47news.jp",
+      "publishedAt": "2026-11-14 00:36",
+      "publishedTs": 1794584170,
+      "image": "https://img.cf.47news.jp/static/renewal/common/img/thumb_large.png",
+      "summary": "マネックス証券は13日、委託先が運営・管理する口座開設システムが不正アクセスを受け、運転免許証やマイナンバーカードといった本人確認書類の画像1592件と、最大113万件のメールアドレスが漏えいした恐れがあると発表した。",
       "points": [
         "カテゴリ: テクノロジー・AIで話題の記事",
-        "引用元: nowokay.hatenablog.com（2026-11-13 23:22）",
+        "引用元: 47news.jp（2026-11-14 00:36）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "テクノロジー・AI分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "テクノロジー・AI",
-        "nowokay.hatenablog.com"
+        "47news.jp"
       ],
-      "url": "https://nowokay.hatenablog.com/entry/2026/11/13/101644",
+      "url": "https://www.47news.jp/15227159.html",
       "isAiEnriched": false
     },
     {
@@ -412,23 +412,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "【速報】マネックス証券、マイナカード画像漏えいか",
-      "source": "47news.jp",
-      "publishedAt": "2026-11-14 00:36",
-      "publishedTs": 1794584170,
-      "image": "https://img.cf.47news.jp/static/renewal/common/img/thumb_large.png",
-      "summary": "マネックス証券は13日、委託先が運営・管理する口座開設システムが不正アクセスを受け、運転免許証やマイナンバーカードといった本人確認書類の画像1592件と、最大113万件のメールアドレスが漏えいした恐れがあると発表した。",
+      "title": "Fable 5.2は物理モデリング音源の実装も作曲もすごい - きしだのHatena",
+      "source": "nowokay.hatenablog.com",
+      "publishedAt": "2026-11-13 23:22",
+      "publishedTs": 1794579772,
+      "image": "https://cdn.image.st-hatena.com/image/scale/124dd98915ea1ae722f6a171ed5ad3c4f387690a/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fn%2Fnowokay%2F20261113%2F20261113100710.png",
+      "summary": "Fable 5.2が出て今週いっぱいくらいPlusでも使えるのだけど、Fableじゃないとダメなことってなんだろなと思いつつ、楽器の物理シミュレーションがOpusはまだあまりうまくなかったなと、Fableさんに物理モデリング音源を作ってもらって曲もつくってもらったら、物理モデリングも結構できていたのだけど…",
       "points": [
         "カテゴリ: テクノロジー・AIで話題の記事",
-        "引用元: 47news.jp（2026-11-14 00:36）",
+        "引用元: nowokay.hatenablog.com（2026-11-13 23:22）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "テクノロジー・AI分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "テクノロジー・AI",
-        "47news.jp"
+        "nowokay.hatenablog.com"
       ],
-      "url": "https://www.47news.jp/15227159.html",
+      "url": "https://nowokay.hatenablog.com/entry/2026/11/13/101644",
       "isAiEnriched": false
     },
     {
@@ -538,65 +538,65 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "『検索システム』『推薦システム』とLLM時代の検索推薦 - ｼﾞｮｲｼﾞｮｲｼﾞｮｲ",
-      "source": "joisino.hatenablog.com",
-      "publishedAt": "2026-11-13 19:50",
-      "publishedTs": 1794567054,
-      "image": "https://cdn.image.st-hatena.com/image/scale/d5c90eb051b7f12f50fe0e47e38459f3884c8866/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fj%2Fjoisino%2F20261111%2F20261111174347.png",
-      "summary": "拙著『検索システム』『推薦システム』が発売されました。 ▲カバーイラストがおしゃれで嬉しい これらはその名の通り検索システムと推薦システムの教科書です。LLM 時代の新基準になることを目指して執筆しました。すべてのログデータをプロンプトに入れて「これを前提に何を推薦すればいいか」と LLM に訊くという投げ…",
+      "title": "かつて、noteのようなブログもTwitterのような短文投稿もDiscordのようなコミュニティ運営もすべてまとめてできる、夢のようなサービスがあったのじゃ",
+      "source": "togetter.com",
+      "publishedAt": "2026-11-14 10:06",
+      "publishedTs": 1794618379,
+      "image": "https://s.tgstc.com/ogp3/a5d01b29a38b44dd977315f5842d3c69-1200x630.jpeg",
+      "summary": "HPPS＠平和荘 @HPPS_HEIWASOU 若い人には想像できんかもしれんが、その昔、 noteのようなブログも、 Twitterのような短文投稿も、 Discordのようなコミュニティ運営も、 ジョルテのようなカレンダー共有も、 TwiPlaのようなイベント参加者管理も、 すべてまとめてできる、夢のよ…",
       "points": [
         "カテゴリ: テクノロジー・AIで話題の記事",
-        "引用元: joisino.hatenablog.com（2026-11-13 19:50）",
+        "引用元: togetter.com（2026-11-14 10:06）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "テクノロジー・AI分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "テクノロジー・AI",
-        "joisino.hatenablog.com"
+        "togetter.com"
       ],
-      "url": "https://joisino.hatenablog.com/entry/searchrecbook",
+      "url": "https://togetter.com/li/2770247",
       "isAiEnriched": false
     },
     {
       "category": "business",
-      "title": "関文科相　議員会館パーティー/講師は厚労省課長/バイオ医薬品企業が参加費/実態は企業献金か　規正法違反の疑いも | しんぶん赤旗｜日本共産党",
-      "source": "jcp.or.jp",
-      "publishedAt": "2026-11-13 15:44",
-      "publishedTs": 1794552299,
-      "image": "https://www.jcp.or.jp/akahata/aik26/2026-11-13/img_3.jpg",
-      "summary": "関芳弘文部科学相が代表の自民党支部が２０２４年に議員会館で開いた政治資金パーティーで、医薬品などの研究、開発を所管する厚生労働省の担当課長が「講師」を務め、バイオ医薬品企業の社長らが参加していたことが１２日、日本共産党の吉良よし子参院議員と本紙の調べで分かりました。厚労省と利害関係がある企業から...",
+      "title": "米国務長官、ICCに警告「剣を帯びる者に法律を説くのはやめろ」",
+      "source": "afpbb.com",
+      "publishedAt": "2026-11-14 09:39",
+      "publishedTs": 1794616795,
+      "image": "https://afpbb.ismcdn.jp/mwimgs/9/3/1000x/img_93d74da810771456230942dc3857fd8f70358.jpg",
+      "summary": "【11月14日 AFP】マルコ・ルビオ米国務長官は13日、国際法が「武器化」され、エリート層の道具になっていると批判するとともに、国際刑事裁判所（ICC）に強い警告を発した。 ルビオ氏は、オランダ・ハーグに本部を置くICCが米国の認めていない規則を強制しようとしていると非難し、「剣を帯びる者に法律を説く」こ…",
       "points": [
         "カテゴリ: ビジネス・経済で話題の記事",
-        "引用元: jcp.or.jp（2026-11-13 15:44）",
+        "引用元: afpbb.com（2026-11-14 09:39）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "ビジネス・経済分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "ビジネス・経済",
-        "jcp.or.jp"
+        "afpbb.com"
       ],
-      "url": "https://www.jcp.or.jp/akahata/aik26/2026-11-13/2026111301_02_0.php",
+      "url": "https://www.afpbb.com/articles/-/3662364",
       "isAiEnriched": false
     },
     {
       "category": "domestic",
-      "title": "【速報】首相のフィリピン、中国訪問を発表",
-      "source": "47news.jp",
-      "publishedAt": "2026-11-13 17:30",
-      "publishedTs": 1794558655,
-      "image": "https://img.cf.47news.jp/static/renewal/common/img/thumb_large.png",
-      "summary": "尾崎正直官房副長官は13日の記者会見で、高市早苗首相が16～19日の日程でフィリピンと中国を訪問すると発表した。東南アジア諸国連合（ASEAN）関連首脳会議と、アジア太平洋経済協力会議（APEC）首脳会議に出席する。",
+      "title": "陸自の情報収集文書、確認拒む小泉防衛相　背景に過去の問題との指摘：朝日新聞",
+      "source": "asahi.com",
+      "publishedAt": "2026-11-14 07:43",
+      "publishedTs": 1794609823,
+      "image": "https://imgopt.asahi.com/ogp/AS20261112003133_comm.jpg",
+      "summary": "陸上自衛隊の現地情報隊が、民間人らの思想情報をまとめた「個人BSD報告書」を作っていたとされる問題で、小泉進次郎防衛相が文書の確認自体を拒み続けている。文書の存在を認めれば、公文書扱いしなかった運用…",
       "points": [
         "カテゴリ: 国内・総合で話題の記事",
-        "引用元: 47news.jp（2026-11-13 17:30）",
+        "引用元: asahi.com（2026-11-14 07:43）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "国内・総合分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "国内・総合",
-        "47news.jp"
+        "asahi.com"
       ],
-      "url": "https://www.47news.jp/15223107.html",
+      "url": "https://www.asahi.com/articles/ASVCD2RPBVCDUTIL00FM.html",
       "isAiEnriched": false
     },
     {
@@ -622,23 +622,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "高市総理が答弁→国会ストップ→代打・片山大臣でも国会ストップ…消費減税めぐり大荒れ 共産・小池議員「1億人大増税約束法案だ」 | 政治 | ABEMA TIMES | アベマタイムズ",
-      "source": "times.abema.tv",
-      "publishedAt": "2026-11-13 21:06",
-      "publishedTs": 1794571571,
-      "image": "https://times-abema.ismcdn.jp/mwimgs/4/0/1200w/img_40a73a23af1a72fc7812f407e6468620548539.jpg",
-      "summary": "「めちゃくちゃお話が弾んでおられる」愛子さまと信子さまが武道大会で楽しそうに談笑…お二人の“自然体なやりとり”がSNSで大反響「さすが我らの姫様」",
+      "title": "関文科相　議員会館パーティー/講師は厚労省課長/バイオ医薬品企業が参加費/実態は企業献金か　規正法違反の疑いも | しんぶん赤旗｜日本共産党",
+      "source": "jcp.or.jp",
+      "publishedAt": "2026-11-13 15:44",
+      "publishedTs": 1794552299,
+      "image": "https://www.jcp.or.jp/akahata/aik26/2026-11-13/img_3.jpg",
+      "summary": "関芳弘文部科学相が代表の自民党支部が２０２４年に議員会館で開いた政治資金パーティーで、医薬品などの研究、開発を所管する厚生労働省の担当課長が「講師」を務め、バイオ医薬品企業の社長らが参加していたことが１２日、日本共産党の吉良よし子参院議員と本紙の調べで分かりました。厚労省と利害関係がある企業から...",
       "points": [
         "カテゴリ: ビジネス・経済で話題の記事",
-        "引用元: times.abema.tv（2026-11-13 21:06）",
+        "引用元: jcp.or.jp（2026-11-13 15:44）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "ビジネス・経済分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "ビジネス・経済",
-        "times.abema.tv"
+        "jcp.or.jp"
       ],
-      "url": "https://times.abema.tv/articles/-/10288829",
+      "url": "https://www.jcp.or.jp/akahata/aik26/2026-11-13/2026111301_02_0.php",
       "isAiEnriched": false
     }
   ]
