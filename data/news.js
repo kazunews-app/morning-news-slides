@@ -1,6 +1,6 @@
 window.NEWS_DATA = {
   "date": "2026年11月15日 (日)",
-  "updatedAt": "2026-11-15 06:18",
+  "updatedAt": "2026-11-15 06:57",
   "title": "TREND NEWS",
   "keywords": [
     "米中露の接近 日本政府は危…",
@@ -391,23 +391,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "昔、肝癌で終末期入院中の母に「退院するときの服」を買ってくるように頼まれ、婦人服売り場でぼんやりと服を選んでいるときに声をかけてくれた店員さんに救われた",
-      "source": "togetter.com",
-      "publishedAt": "2026-11-14 18:23",
-      "publishedTs": 1794648200,
-      "image": "https://s.tgstc.com/ogp3/24c22d084c64d272ed9f66aacbc1c22e-1200x630.jpeg",
-      "summary": "せき @sekisyko ひと昔以上前、母親の肝癌終末期入院中(本人告知なし、そのまま看取りになる予定)の付き添いしていた時に本人から「退院するときの服が無いからなんかええやつ買うてきてんか」と頼まれ70代からぐらいの婦人服を売ってるお店で茫漠と服を選んでいた。すると私をじっと見ていた店員のお姉さんが→ 2…",
+      "title": "バカの家計管理してる",
+      "source": "anond.hatelabo.jp",
+      "publishedAt": "2026-11-14 10:18",
+      "publishedTs": 1794619138,
+      "image": "https://anond.hatelabo.jp/assets/images/og-image-1500.gif",
+      "summary": "無駄遣いがひどくて毎月予算に収まらず、ボーナスが補填にまわるみたいになっててよくないなーと思っていた。無駄遣いの内容は、でっかい買い物するとか旅行とか毎晩飲みに行ってるとかじゃなくて、ガチャとか電子書籍とかコンビニとかまあ、なんか気付いたら、みたいなことが多くて、家計簿つけたりしてもなんかうまく...",
       "points": [
         "カテゴリ: 国内・総合で話題の記事",
-        "引用元: togetter.com（2026-11-14 18:23）",
+        "引用元: anond.hatelabo.jp（2026-11-14 10:18）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "国内・総合分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "国内・総合",
-        "togetter.com"
+        "anond.hatelabo.jp"
       ],
-      "url": "https://togetter.com/li/2770389",
+      "url": "https://anond.hatelabo.jp/20261114101649",
       "isAiEnriched": false
     },
     {
@@ -433,44 +433,44 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "日本のAppleことバルミューダ社、高級家電が売れず売上高89億円、最終赤字10億5千万円に下方修正",
-      "source": "gadget2ch.com",
-      "publishedAt": "2026-11-14 07:40",
-      "publishedTs": 1794609629,
-      "image": "https://www.gadget2ch.com/wp-content/uploads/2026/11/78459c3dc69db92f5d9860af3194166a.w960.h960-1-1.jpg-1-1-1-1.webp",
-      "summary": "高級家電ブランド「バルミューダ（BALMUDA）」を展開するバルミューダは11月13日、2026年12月期の通期業績予想を下方修正した。売上高は従来予想の105億円から89億円へと16億円引き下げ、前期比3.8％増の増収予想から一転、同12.0％減の減収となる見通しだ。 利益面も大幅に悪化する。営業損益は従…",
+      "title": "沖縄知事選の関連動画、兵庫知事選でも発信のアカウントが推計収益の6割独占　宮城でも活動",
+      "source": "kobe-np.co.jp",
+      "publishedAt": "2026-11-14 23:59",
+      "publishedTs": 1794668343,
+      "image": "https://i.kobe-np.co.jp/news/society/202611/img/a_21030734.jpg",
+      "summary": "９月の沖縄県知事選の関連動画で、ユーチューブの再生回数が上位に入った５０アカウントのうち、１１アカウントは２０２４年の兵庫県知事選でも選挙期間中に関連動画を発信していた。この１１アカウントは、沖縄県知事選での収益を試算した動画３３０本のうち、約３割の９８本を配信。再生回数に応じた収益は推計で最大...",
       "points": [
         "カテゴリ: ビジネス・経済で話題の記事",
-        "引用元: gadget2ch.com（2026-11-14 07:40）",
+        "引用元: kobe-np.co.jp（2026-11-14 23:59）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "ビジネス・経済分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "ビジネス・経済",
-        "gadget2ch.com"
+        "kobe-np.co.jp"
       ],
-      "url": "https://www.gadget2ch.com/archives/post-282583.html",
+      "url": "https://www.kobe-np.co.jp/news/society/202611/0021030732.shtml",
       "isAiEnriched": false
     },
     {
       "category": "domestic",
-      "title": "バカの家計管理してる",
-      "source": "anond.hatelabo.jp",
-      "publishedAt": "2026-11-14 10:18",
-      "publishedTs": 1794619138,
-      "image": "https://anond.hatelabo.jp/assets/images/og-image-1500.gif",
-      "summary": "無駄遣いがひどくて毎月予算に収まらず、ボーナスが補填にまわるみたいになっててよくないなーと思っていた。無駄遣いの内容は、でっかい買い物するとか旅行とか毎晩飲みに行ってるとかじゃなくて、ガチャとか電子書籍とかコンビニとかまあ、なんか気付いたら、みたいなことが多くて、家計簿つけたりしてもなんかうまく...",
+      "title": "昔、肝癌で終末期入院中の母に「退院するときの服」を買ってくるように頼まれ、婦人服売り場でぼんやりと服を選んでいるときに声をかけてくれた店員さんに救われた",
+      "source": "togetter.com",
+      "publishedAt": "2026-11-14 18:23",
+      "publishedTs": 1794648200,
+      "image": "https://s.tgstc.com/ogp3/24c22d084c64d272ed9f66aacbc1c22e-1200x630.jpeg",
+      "summary": "せき @sekisyko ひと昔以上前、母親の肝癌終末期入院中(本人告知なし、そのまま看取りになる予定)の付き添いしていた時に本人から「退院するときの服が無いからなんかええやつ買うてきてんか」と頼まれ70代からぐらいの婦人服を売ってるお店で茫漠と服を選んでいた。すると私をじっと見ていた店員のお姉さんが→ 2…",
       "points": [
         "カテゴリ: 国内・総合で話題の記事",
-        "引用元: anond.hatelabo.jp（2026-11-14 10:18）",
+        "引用元: togetter.com（2026-11-14 18:23）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "国内・総合分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "国内・総合",
-        "anond.hatelabo.jp"
+        "togetter.com"
       ],
-      "url": "https://anond.hatelabo.jp/20261114101649",
+      "url": "https://togetter.com/li/2770389",
       "isAiEnriched": false
     },
     {
@@ -496,86 +496,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "沖縄知事選の関連動画、兵庫知事選でも発信のアカウントが推計収益の6割独占　宮城でも活動",
-      "source": "kobe-np.co.jp",
-      "publishedAt": "2026-11-14 23:59",
-      "publishedTs": 1794668343,
-      "image": "https://i.kobe-np.co.jp/news/society/202611/img/a_21030734.jpg",
-      "summary": "９月の沖縄県知事選の関連動画で、ユーチューブの再生回数が上位に入った５０アカウントのうち、１１アカウントは２０２４年の兵庫県知事選でも選挙期間中に関連動画を発信していた。この１１アカウントは、沖縄県知事選での収益を試算した動画３３０本のうち、約３割の９８本を配信。再生回数に応じた収益は推計で最大...",
+      "title": "日本のAppleことバルミューダ社、高級家電が売れず売上高89億円、最終赤字10億5千万円に下方修正",
+      "source": "gadget2ch.com",
+      "publishedAt": "2026-11-14 07:40",
+      "publishedTs": 1794609629,
+      "image": "https://www.gadget2ch.com/wp-content/uploads/2026/11/78459c3dc69db92f5d9860af3194166a.w960.h960-1-1.jpg-1-1-1-1.webp",
+      "summary": "高級家電ブランド「バルミューダ（BALMUDA）」を展開するバルミューダは11月13日、2026年12月期の通期業績予想を下方修正した。売上高は従来予想の105億円から89億円へと16億円引き下げ、前期比3.8％増の増収予想から一転、同12.0％減の減収となる見通しだ。 利益面も大幅に悪化する。営業損益は従…",
       "points": [
         "カテゴリ: ビジネス・経済で話題の記事",
-        "引用元: kobe-np.co.jp（2026-11-14 23:59）",
+        "引用元: gadget2ch.com（2026-11-14 07:40）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "ビジネス・経済分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "ビジネス・経済",
-        "kobe-np.co.jp"
+        "gadget2ch.com"
       ],
-      "url": "https://www.kobe-np.co.jp/news/society/202611/0021030732.shtml",
-      "isAiEnriched": false
-    },
-    {
-      "category": "domestic",
-      "title": "政府の安保広報にSNS反発拡大　「軍拡プロパガンダ」野党疑問視",
-      "source": "47news.jp",
-      "publishedAt": "2026-11-14 18:13",
-      "publishedTs": 1794647623,
-      "image": "https://img.cf.47news.jp/public/photo/28ad7be17b39e1a7f5f233e546cdb1a0/photo.jpg",
-      "summary": "安全保障の重要性を訴える政府の広報に「軍拡プロパガンダ」といった反発が交流サイト（SNS）上で拡大している。夫婦漫才の広報キャラクターをもじった「反戦たみよ」のハッシュタグ（検索目印）を付けた投稿が拡散。野党は、発信のために漫才を採用した手法などを疑問視する。 政府は10月26日に施策をまとめたウェブサ...",
-      "points": [
-        "カテゴリ: 国内・総合で話題の記事",
-        "引用元: 47news.jp（2026-11-14 18:13）",
-        "「元記事を読む」から本文を確認できます"
-      ],
-      "impact": "国内・総合分野で多くの読者に共有されている注目記事です。",
-      "tags": [
-        "国内・総合",
-        "47news.jp"
-      ],
-      "url": "https://www.47news.jp/15230325.html",
-      "isAiEnriched": false
-    },
-    {
-      "category": "tech",
-      "title": "「すげぇ！教科書とかで見たフロッピーや！！これで容量どれくらいあるんですか？」若者のほのぼのとした感想がぶっ刺さるネット民",
-      "source": "togetter.com",
-      "publishedAt": "2026-11-14 21:54",
-      "publishedTs": 1794660853,
-      "image": "https://s.tgstc.com/ogp3/54892bba0fd3c6ad84afa397226a52c4-1200x630.jpeg",
-      "summary": "しー@園芸博NEXT！ @Sh_i0916 すげぇ！！！ フロッピーや！！ フロッピーや！！！ 教科書とかで見たフロッピーや！！ 初めて触ったかも！！ うっす！！！！ かるっ！！！！！ すげぇ！！ これで容量どれくらいあるんですか？ #フロッピー #富士通 pic.x.com/Ofx3uVhKaf 2026…",
-      "points": [
-        "カテゴリ: テクノロジー・AIで話題の記事",
-        "引用元: togetter.com（2026-11-14 21:54）",
-        "「元記事を読む」から本文を確認できます"
-      ],
-      "impact": "テクノロジー・AI分野で多くの読者に共有されている注目記事です。",
-      "tags": [
-        "テクノロジー・AI",
-        "togetter.com"
-      ],
-      "url": "https://togetter.com/li/2770437",
-      "isAiEnriched": false
-    },
-    {
-      "category": "business",
-      "title": "高市首相「会議に出たくない」ムーブ被害者たちの困惑国際。国際会議を欠席しまくる総理の言い逃れ乱舞、実は昔から？...（週プレNEWS） - Yahoo!ニュース",
-      "source": "news.yahoo.co.jp",
-      "publishedAt": "2026-11-14 12:44",
-      "publishedTs": 1794627898,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261114-01335390-playboyz-000-1-view.jpg?exp=10800",
-      "summary": "米中露のトップが参加するAPEC（アジア太平洋経済協力会議）首脳会議が11月18日から開催されるが、永田町ではひそかに「首相のドタキャン」が心配されているらしい。【写真】トランプ大統領の前で全力の笑…",
-      "points": [
-        "カテゴリ: ビジネス・経済で話題の記事",
-        "引用元: news.yahoo.co.jp（2026-11-14 12:44）",
-        "「元記事を読む」から本文を確認できます"
-      ],
-      "impact": "ビジネス・経済分野で多くの読者に共有されている注目記事です。",
-      "tags": [
-        "ビジネス・経済",
-        "news.yahoo.co.jp"
-      ],
-      "url": "https://news.yahoo.co.jp/articles/7244d0a7f5aebc73fd103ca25c98787fb7e35313",
+      "url": "https://www.gadget2ch.com/archives/post-282583.html",
       "isAiEnriched": false
     },
     {
@@ -601,44 +538,107 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "Cognitoの自己サインアップが有効だと、誰でもAWSの一時認証情報を取得できる：AI攻撃ツールARTEXの事例と確認したい設定3点 | DevelopersIO",
-      "source": "dev.classmethod.jp",
-      "publishedAt": "2026-11-14 21:48",
-      "publishedTs": 1794660505,
-      "image": "https://devio2024-media.developers.io/image/upload/f_auto,q_auto/v1790871156/eyecatch/wagokraibjktomkouqin.png",
-      "summary": "どうも！オペ部の西村祐二です！ S3 にフロントエンドを置き、Amazon Cognito のユーザープールでログインさせ、ID プールで AWS の一時認証情報を渡す。AWS で SPA を作るときによく見る構成です。この構成が攻撃用の AI エージェントにどう使われたかを、Datadog Securit…",
+      "title": "「すげぇ！教科書とかで見たフロッピーや！！これで容量どれくらいあるんですか？」若者のほのぼのとした感想がぶっ刺さるネット民",
+      "source": "togetter.com",
+      "publishedAt": "2026-11-14 21:54",
+      "publishedTs": 1794660853,
+      "image": "https://s.tgstc.com/ogp3/54892bba0fd3c6ad84afa397226a52c4-1200x630.jpeg",
+      "summary": "しー@園芸博NEXT！ @Sh_i0916 すげぇ！！！ フロッピーや！！ フロッピーや！！！ 教科書とかで見たフロッピーや！！ 初めて触ったかも！！ うっす！！！！ かるっ！！！！！ すげぇ！！ これで容量どれくらいあるんですか？ #フロッピー #富士通 pic.x.com/Ofx3uVhKaf 2026…",
       "points": [
         "カテゴリ: テクノロジー・AIで話題の記事",
-        "引用元: dev.classmethod.jp（2026-11-14 21:48）",
+        "引用元: togetter.com（2026-11-14 21:54）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "テクノロジー・AI分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "テクノロジー・AI",
-        "dev.classmethod.jp"
+        "togetter.com"
       ],
-      "url": "https://dev.classmethod.jp/articles/cognito-self-signup-agentic-attack/",
+      "url": "https://togetter.com/li/2770437",
       "isAiEnriched": false
     },
     {
       "category": "business",
-      "title": "米国務長官、ICCに警告「剣を帯びる者に法律を説くのはやめろ」",
-      "source": "afpbb.com",
-      "publishedAt": "2026-11-14 09:39",
-      "publishedTs": 1794616795,
-      "image": "https://afpbb.ismcdn.jp/mwimgs/9/3/1000x/img_93d74da810771456230942dc3857fd8f70358.jpg",
-      "summary": "【11月14日 AFP】マルコ・ルビオ米国務長官は13日、国際法が「武器化」され、エリート層の道具になっていると批判するとともに、国際刑事裁判所（ICC）に強い警告を発した。 ルビオ氏は、オランダ・ハーグに本部を置くICCが米国の認めていない規則を強制しようとしていると非難し、「剣を帯びる者に法律を説く」こ…",
+      "title": "戦争反対界隈、「先制攻撃を始める前提に自衛隊は成り立ってる」という小泉防衛相の発言捏造を始める。",
+      "source": "posfie.com",
+      "publishedAt": "2026-11-14 17:36",
+      "publishedTs": 1794645388,
+      "image": "https://s.tgstc.com/ogp3/5e5d7dbfda9c2dda6c34f27eece61689-1200x630.jpeg",
+      "summary": "緒方恵美 @Megumi_Ogata 「小泉大臣は先制攻撃とは言ってない」 と仰る方へ。 「米国とイスラエルが先制攻撃を始めなければ(戦争はなかった)」 という言葉を受けて、 「始めないという前提で自衛隊はない」 と答えている段階で、文脈的に仰っているのと同義です。 憲法違反でなく言うとしたら、 「始められ…",
       "points": [
         "カテゴリ: ビジネス・経済で話題の記事",
-        "引用元: afpbb.com（2026-11-14 09:39）",
+        "引用元: posfie.com（2026-11-14 17:36）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "ビジネス・経済分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "ビジネス・経済",
-        "afpbb.com"
+        "posfie.com"
       ],
-      "url": "https://www.afpbb.com/articles/-/3662364",
+      "url": "https://posfie.com/@any_k_tg/p/f0gZrzm",
+      "isAiEnriched": false
+    },
+    {
+      "category": "domestic",
+      "title": "大川原冤罪で長期拘束認めた裁判所、避ける検証　訴訟で責任問う遺族：朝日新聞",
+      "source": "asahi.com",
+      "publishedAt": "2026-11-14 19:12",
+      "publishedTs": 1794651128,
+      "image": "https://imgopt.asahi.com/ogp/AS20261107000396_comm.jpg",
+      "summary": "■記者解説 社会部・米田優人、黒田早織 「違法な捜査が進んでいたのであれば、なぜ裁判所は止めることができなかったのか」。東京地裁で10月30日、裁判官の責任を問う訴訟でこう証言したのは、機械メーカー…",
+      "points": [
+        "カテゴリ: 国内・総合で話題の記事",
+        "引用元: asahi.com（2026-11-14 19:12）",
+        "「元記事を読む」から本文を確認できます"
+      ],
+      "impact": "国内・総合分野で多くの読者に共有されている注目記事です。",
+      "tags": [
+        "国内・総合",
+        "asahi.com"
+      ],
+      "url": "https://www.asahi.com/articles/ASVC662TDVC6UPQJ00WM.html",
+      "isAiEnriched": false
+    },
+    {
+      "category": "tech",
+      "title": "AI悪用の攻撃拠点、千台発見　サイトの弱点探索、不正侵入疑い",
+      "source": "47news.jp",
+      "publishedAt": "2026-11-14 23:55",
+      "publishedTs": 1794668147,
+      "image": "https://img.cf.47news.jp/public/photo/9ef83e68fcd797b3c447d8ad2edc6cd0/photo.jpg",
+      "summary": "高性能な人工知能（AI）を悪用したサイバー攻撃の拠点と疑われるサーバーが10月以降、世界のインターネット上に少なくとも千台前後存在していることが14日、分かった。日本の情報セキュリティー専門機関が海外企業と連携した国際的調査で判明した。国内外のウェブサイトを標的としてAIを使って弱点を探索し、不正侵入を...",
+      "points": [
+        "カテゴリ: テクノロジー・AIで話題の記事",
+        "引用元: 47news.jp（2026-11-14 23:55）",
+        "「元記事を読む」から本文を確認できます"
+      ],
+      "impact": "テクノロジー・AI分野で多くの読者に共有されている注目記事です。",
+      "tags": [
+        "テクノロジー・AI",
+        "47news.jp"
+      ],
+      "url": "https://www.47news.jp/15231027.html",
+      "isAiEnriched": false
+    },
+    {
+      "category": "business",
+      "title": "わずか4人の造反に自民党内がピリピリ…石破茂と小渕優子があぶり出した｢高市1強｣のほころび",
+      "source": "president.jp",
+      "publishedAt": "2026-11-14 20:36",
+      "publishedTs": 1794656165,
+      "image": "https://president.ismcdn.jp/mwimgs/8/5/1200wm/img_85dec2f841712411312c77aac2d27db81098454.jpg",
+      "summary": "造反した4人への共感 「自民党は1年前まで『財源なき消費減税はあってはならない』と言い続けてきた。1年でくるくる変わるような税制は、慎まなければならない。高市早苗首相は『12月までにはちゃんとする』『心配には及ばない』というが、財源がなかったらどうするのか。どんなことがあっても揺れないのが財政規律だと...",
+      "points": [
+        "カテゴリ: ビジネス・経済で話題の記事",
+        "引用元: president.jp（2026-11-14 20:36）",
+        "「元記事を読む」から本文を確認できます"
+      ],
+      "impact": "ビジネス・経済分野で多くの読者に共有されている注目記事です。",
+      "tags": [
+        "ビジネス・経済",
+        "president.jp"
+      ],
+      "url": "https://president.jp/articles/-/122183",
       "isAiEnriched": false
     }
   ]
