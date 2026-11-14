@@ -1,6 +1,6 @@
 window.NEWS_DATA = {
   "date": "2026年11月14日 (土)",
-  "updatedAt": "2026-11-14 13:14",
+  "updatedAt": "2026-11-14 14:12",
   "title": "TREND NEWS",
   "keywords": [
     "防衛費5年で60兆円規模 …",
@@ -475,23 +475,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "データセンターの排熱でエビ養殖、NTT系が実験　育ったら食べられる？　担当者に聞いてみた",
-      "source": "itmedia.co.jp",
-      "publishedAt": "2026-11-13 20:33",
-      "publishedTs": 1794569588,
-      "image": "https://www.itmedia.co.jp/news/article/ogp/2611/13/2000003200/10012155/2048",
-      "summary": "NTTドコモビジネスなど4社は11月13日、データセンターの排熱を活用してエビを養殖する実証実験を発表した。2026年度中に養殖に適した排熱の回収方法を模索し、2027年度には回収した熱を使ってクルマエビ科の一種「バナメイエビ」を育てる計画だ。なぜエビの養殖を選んだのか、育てたエビはどうするのか。担当者に話…",
+      "title": "かつて、noteのようなブログもTwitterのような短文投稿もDiscordのようなコミュニティ運営もすべてまとめてできる、夢のようなサービスがあったのじゃ",
+      "source": "togetter.com",
+      "publishedAt": "2026-11-14 10:06",
+      "publishedTs": 1794618379,
+      "image": "https://s.tgstc.com/ogp3/a5d01b29a38b44dd977315f5842d3c69-1200x630.jpeg",
+      "summary": "HPPS＠平和荘 @HPPS_HEIWASOU 若い人には想像できんかもしれんが、その昔、 noteのようなブログも、 Twitterのような短文投稿も、 Discordのようなコミュニティ運営も、 ジョルテのようなカレンダー共有も、 TwiPlaのようなイベント参加者管理も、 すべてまとめてできる、夢のよ…",
       "points": [
         "カテゴリ: テクノロジー・AIで話題の記事",
-        "引用元: itmedia.co.jp（2026-11-13 20:33）",
+        "引用元: togetter.com（2026-11-14 10:06）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "テクノロジー・AI分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "テクノロジー・AI",
-        "itmedia.co.jp"
+        "togetter.com"
       ],
-      "url": "https://www.itmedia.co.jp/news/article/2611/13/2000003200/",
+      "url": "https://togetter.com/li/2770247",
       "isAiEnriched": false
     },
     {
@@ -538,23 +538,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "かつて、noteのようなブログもTwitterのような短文投稿もDiscordのようなコミュニティ運営もすべてまとめてできる、夢のようなサービスがあったのじゃ",
-      "source": "togetter.com",
-      "publishedAt": "2026-11-14 10:06",
-      "publishedTs": 1794618379,
-      "image": "https://s.tgstc.com/ogp3/a5d01b29a38b44dd977315f5842d3c69-1200x630.jpeg",
-      "summary": "HPPS＠平和荘 @HPPS_HEIWASOU 若い人には想像できんかもしれんが、その昔、 noteのようなブログも、 Twitterのような短文投稿も、 Discordのようなコミュニティ運営も、 ジョルテのようなカレンダー共有も、 TwiPlaのようなイベント参加者管理も、 すべてまとめてできる、夢のよ…",
+      "title": "データセンターの排熱でエビ養殖、NTT系が実験　育ったら食べられる？　担当者に聞いてみた",
+      "source": "itmedia.co.jp",
+      "publishedAt": "2026-11-13 20:33",
+      "publishedTs": 1794569588,
+      "image": "https://www.itmedia.co.jp/news/article/ogp/2611/13/2000003200/10012155/2048",
+      "summary": "NTTドコモビジネスなど4社は11月13日、データセンターの排熱を活用してエビを養殖する実証実験を発表した。2026年度中に養殖に適した排熱の回収方法を模索し、2027年度には回収した熱を使ってクルマエビ科の一種「バナメイエビ」を育てる計画だ。なぜエビの養殖を選んだのか、育てたエビはどうするのか。担当者に話…",
       "points": [
         "カテゴリ: テクノロジー・AIで話題の記事",
-        "引用元: togetter.com（2026-11-14 10:06）",
+        "引用元: itmedia.co.jp（2026-11-13 20:33）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "テクノロジー・AI分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "テクノロジー・AI",
-        "togetter.com"
+        "itmedia.co.jp"
       ],
-      "url": "https://togetter.com/li/2770247",
+      "url": "https://www.itmedia.co.jp/news/article/2611/13/2000003200/",
       "isAiEnriched": false
     },
     {
