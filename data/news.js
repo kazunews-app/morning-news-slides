@@ -1,6 +1,6 @@
 window.NEWS_DATA = {
   "date": "2026年11月14日 (土)",
-  "updatedAt": "2026-11-14 18:39",
+  "updatedAt": "2026-11-14 19:23",
   "title": "TREND NEWS",
   "keywords": [
     "関東15日は気温急降下 師…",
@@ -181,15 +181,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "3メガバンク中間決算 最高益更新",
+      "title": "売れ残りを寄付 広がる一方問題も",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-14 09:45",
-      "publishedTs": 1794617145,
-      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/14/5c8940ccb312dcf301e0b33c3aa76e246bae4af2b74c0946ec30369adf4dff22.jpg",
-      "summary": "三菱ＵＦＪなど３メガバンクグループは１３日、２０２６年９月中間連結決算を発表した。金利上昇や企業の旺盛な資金需要を背景に最終利益はそろって最高を更新し、３メガ合計で前年同期比２１・１％増の３兆５３０…",
+      "publishedAt": "2026-11-14 18:42",
+      "publishedTs": 1794649373,
+      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/14/03efb125752606456a6e65030d056987e911b41854bd605c13c7da98bd805791.jpg",
+      "summary": "“売れ残ったパン”を中心に販売しているサイトを見つけた。その日、残ってしまったパンを冷凍し、一定量が溜まったら購入者に宅配で届ける形で、全国1500店以上のパン屋が参加している。",
       "points": [
         "カテゴリ: ビジネス・経済の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-14 09:45）",
+        "配信: Yahoo!ニュース トピックス（2026-11-14 18:42）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "ビジネス・経済分野で関心を集めている最新ニュースです。",
@@ -197,7 +197,7 @@ window.NEWS_DATA = {
         "ビジネス・経済",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/pickup/6602512?source=rss",
+      "url": "https://news.yahoo.co.jp/pickup/6602572?source=rss",
       "isAiEnriched": false
     },
     {
@@ -244,15 +244,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "FRB 市場の最大脅威は「AI関連」",
+      "title": "スバルWRXのMT車復活 要望受け",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-14 09:53",
-      "publishedTs": 1794617589,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800",
-      "summary": "【ワシントン共同】米連邦準備制度理事会（FRB）が13日公表した金融安定報告書で、市場関係者が人工知能（AI）を使ったサイバー攻撃を含めたAI関連の問題を金融安定にとっての最大の脅威と受け止めている…",
+      "publishedAt": "2026-11-14 18:51",
+      "publishedTs": 1794649897,
+      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/14/805dda9cf5a2532d079ecaad096334db8da53292e8ae551f180f66bfe8bb0e3e.jpg",
+      "summary": "SUBARU（スバル）は14日、国内向けにスポーツセダン「WRX」のマニュアル車を発売すると発表した。顧客からの要望を受け、2019年に生産終了した先代モデル以来、7年ぶりに復活させた。スポーティー…",
       "points": [
         "カテゴリ: ビジネス・経済の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-14 09:53）",
+        "配信: Yahoo!ニュース トピックス（2026-11-14 18:51）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "ビジネス・経済分野で関心を集めている最新ニュースです。",
@@ -260,7 +260,7 @@ window.NEWS_DATA = {
         "ビジネス・経済",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/pickup/6602514?source=rss",
+      "url": "https://news.yahoo.co.jp/pickup/6602575?source=rss",
       "isAiEnriched": false
     },
     {
@@ -454,23 +454,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "多文化共生「重要だと思わない」７倍に　岐阜県がアンケート：中日新聞Web",
-      "source": "chunichi.co.jp",
-      "publishedAt": "2026-11-13 18:53",
-      "publishedTs": 1794563623,
-      "image": "https://static.chunichi.co.jp/image/article/size1/d/8/1/a/d81a8773f37bf0bd2cb6a3cd5868cdb1_1.jpg",
-      "summary": "岐阜県は12日、外国人に関連する施策を話し合う本部員会議を県庁で開き、多文化共生について県民らから募ったアンケート結果を公表した。「多文化共生社会を目指すことについてどう思うか」という質問には、「重要だと思わない」という答えが前回アンケートから約7倍に増えた。",
+      "title": "【小泉今日子、山に木を植える】クマ被害きっかけに“どんぐりの木”3000本植樹へ「口で言うだけではダメ」“豊かな森”目指すプロジェクトに密着【news23】 | TBS NEWS DIG",
+      "source": "newsdig.tbs.co.jp",
+      "publishedAt": "2026-11-14 08:22",
+      "publishedTs": 1794612143,
+      "image": "https://newsdig.ismcdn.jp/mwimgs/1/c/1200w/img_1c2150c2a71e46260125d1a5dd7d7c7b1256923.jpg",
+      "summary": "【小泉今日子、山に木を植える】クマ被害きっかけに“どんぐりの木”3000本植樹へ「口で言うだけではダメ」“豊かな森”目指すプロジェクトに密着【news23】…",
       "points": [
         "カテゴリ: 国内・総合で話題の記事",
-        "引用元: chunichi.co.jp（2026-11-13 18:53）",
+        "引用元: newsdig.tbs.co.jp（2026-11-14 08:22）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "国内・総合分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "国内・総合",
-        "chunichi.co.jp"
+        "newsdig.tbs.co.jp"
       ],
-      "url": "https://www.chunichi.co.jp/article/1338916",
+      "url": "https://newsdig.tbs.co.jp/articles/-/3085720",
       "isAiEnriched": false
     },
     {
@@ -492,6 +492,69 @@ window.NEWS_DATA = {
         "speakerdeck.com"
       ],
       "url": "https://speakerdeck.com/littlehands/ai-kudou-keiei-suraido-20261112-0eeda77b-3c60-4af9-b059-2eb1ff3ef2c1",
+      "isAiEnriched": false
+    },
+    {
+      "category": "business",
+      "title": "高市首相「会議に出たくない」ムーブ被害者たちの困惑国際。国際会議を欠席しまくる総理の言い逃れ乱舞、実は昔から？...（週プレNEWS） - Yahoo!ニュース",
+      "source": "news.yahoo.co.jp",
+      "publishedAt": "2026-11-14 12:44",
+      "publishedTs": 1794627898,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261114-01335390-playboyz-000-1-view.jpg?exp=10800",
+      "summary": "米中露のトップが参加するAPEC（アジア太平洋経済協力会議）首脳会議が11月18日から開催されるが、永田町ではひそかに「首相のドタキャン」が心配されているらしい。【写真】トランプ大統領の前で全力の笑…",
+      "points": [
+        "カテゴリ: ビジネス・経済で話題の記事",
+        "引用元: news.yahoo.co.jp（2026-11-14 12:44）",
+        "「元記事を読む」から本文を確認できます"
+      ],
+      "impact": "ビジネス・経済分野で多くの読者に共有されている注目記事です。",
+      "tags": [
+        "ビジネス・経済",
+        "news.yahoo.co.jp"
+      ],
+      "url": "https://news.yahoo.co.jp/articles/7244d0a7f5aebc73fd103ca25c98787fb7e35313",
+      "isAiEnriched": false
+    },
+    {
+      "category": "domestic",
+      "title": "多文化共生「重要だと思わない」７倍に　岐阜県がアンケート：中日新聞Web",
+      "source": "chunichi.co.jp",
+      "publishedAt": "2026-11-13 18:53",
+      "publishedTs": 1794563623,
+      "image": "https://static.chunichi.co.jp/image/article/size1/d/8/1/a/d81a8773f37bf0bd2cb6a3cd5868cdb1_1.jpg",
+      "summary": "岐阜県は12日、外国人に関連する施策を話し合う本部員会議を県庁で開き、多文化共生について県民らから募ったアンケート結果を公表した。「多文化共生社会を目指すことについてどう思うか」という質問には、「重要だと思わない」という答えが前回アンケートから約7倍に増えた。",
+      "points": [
+        "カテゴリ: 国内・総合で話題の記事",
+        "引用元: chunichi.co.jp（2026-11-13 18:53）",
+        "「元記事を読む」から本文を確認できます"
+      ],
+      "impact": "国内・総合分野で多くの読者に共有されている注目記事です。",
+      "tags": [
+        "国内・総合",
+        "chunichi.co.jp"
+      ],
+      "url": "https://www.chunichi.co.jp/article/1338916",
+      "isAiEnriched": false
+    },
+    {
+      "category": "tech",
+      "title": "データセンターの排熱でエビ養殖、NTT系が実験　育ったら食べられる？　担当者に聞いてみた",
+      "source": "itmedia.co.jp",
+      "publishedAt": "2026-11-13 20:33",
+      "publishedTs": 1794569588,
+      "image": "https://www.itmedia.co.jp/news/article/ogp/2611/13/2000003200/10012155/2048",
+      "summary": "NTTドコモビジネスなど4社は11月13日、データセンターの排熱を活用してエビを養殖する実証実験を発表した。2026年度中に養殖に適した排熱の回収方法を模索し、2027年度には回収した熱を使ってクルマエビ科の一種「バナメイエビ」を育てる計画だ。なぜエビの養殖を選んだのか、育てたエビはどうするのか。担当者に話…",
+      "points": [
+        "カテゴリ: テクノロジー・AIで話題の記事",
+        "引用元: itmedia.co.jp（2026-11-13 20:33）",
+        "「元記事を読む」から本文を確認できます"
+      ],
+      "impact": "テクノロジー・AI分野で多くの読者に共有されている注目記事です。",
+      "tags": [
+        "テクノロジー・AI",
+        "itmedia.co.jp"
+      ],
+      "url": "https://www.itmedia.co.jp/news/article/2611/13/2000003200/",
       "isAiEnriched": false
     },
     {
@@ -538,86 +601,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "データセンターの排熱でエビ養殖、NTT系が実験　育ったら食べられる？　担当者に聞いてみた",
-      "source": "itmedia.co.jp",
-      "publishedAt": "2026-11-13 20:33",
-      "publishedTs": 1794569588,
-      "image": "https://www.itmedia.co.jp/news/article/ogp/2611/13/2000003200/10012155/2048",
-      "summary": "NTTドコモビジネスなど4社は11月13日、データセンターの排熱を活用してエビを養殖する実証実験を発表した。2026年度中に養殖に適した排熱の回収方法を模索し、2027年度には回収した熱を使ってクルマエビ科の一種「バナメイエビ」を育てる計画だ。なぜエビの養殖を選んだのか、育てたエビはどうするのか。担当者に話…",
+      "title": "幻覚がひどいAIでも言葉遣いが洗練されていれば人を簡単に騙せることが判明",
+      "source": "gigazine.net",
+      "publishedAt": "2026-11-14 08:05",
+      "publishedTs": 1794611157,
+      "image": "https://i.gzn.jp/img/2026/11/14/llm-fluency-credible/00.jpg",
+      "summary": "ChatGPTなどに代表される大規模言語モデルは、その根本的な仕組みとして、モデル自身は自分の回答が合っているか間違っているかを判断できません。そのためこの手のAIには事実ではないことをまるで事実かのように話してしまう「幻覚(ハルシネーション)」の問題が常につきまといます。新たな研究では、AIの回答に幻覚が…",
       "points": [
         "カテゴリ: テクノロジー・AIで話題の記事",
-        "引用元: itmedia.co.jp（2026-11-13 20:33）",
+        "引用元: gigazine.net（2026-11-14 08:05）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "テクノロジー・AI分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "テクノロジー・AI",
-        "itmedia.co.jp"
+        "gigazine.net"
       ],
-      "url": "https://www.itmedia.co.jp/news/article/2611/13/2000003200/",
-      "isAiEnriched": false
-    },
-    {
-      "category": "business",
-      "title": "高市首相「会議に出たくない」ムーブ被害者たちの困惑国際。国際会議を欠席しまくる総理の言い逃れ乱舞、実は昔から？...（週プレNEWS） - Yahoo!ニュース",
-      "source": "news.yahoo.co.jp",
-      "publishedAt": "2026-11-14 12:44",
-      "publishedTs": 1794627898,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261114-01335390-playboyz-000-1-view.jpg?exp=10800",
-      "summary": "米中露のトップが参加するAPEC（アジア太平洋経済協力会議）首脳会議が11月18日から開催されるが、永田町ではひそかに「首相のドタキャン」が心配されているらしい。【写真】トランプ大統領の前で全力の笑…",
-      "points": [
-        "カテゴリ: ビジネス・経済で話題の記事",
-        "引用元: news.yahoo.co.jp（2026-11-14 12:44）",
-        "「元記事を読む」から本文を確認できます"
-      ],
-      "impact": "ビジネス・経済分野で多くの読者に共有されている注目記事です。",
-      "tags": [
-        "ビジネス・経済",
-        "news.yahoo.co.jp"
-      ],
-      "url": "https://news.yahoo.co.jp/articles/7244d0a7f5aebc73fd103ca25c98787fb7e35313",
-      "isAiEnriched": false
-    },
-    {
-      "category": "domestic",
-      "title": "【小泉今日子、山に木を植える】クマ被害きっかけに“どんぐりの木”3000本植樹へ「口で言うだけではダメ」“豊かな森”目指すプロジェクトに密着【news23】 | TBS NEWS DIG",
-      "source": "newsdig.tbs.co.jp",
-      "publishedAt": "2026-11-14 08:22",
-      "publishedTs": 1794612143,
-      "image": "https://newsdig.ismcdn.jp/mwimgs/1/c/1200w/img_1c2150c2a71e46260125d1a5dd7d7c7b1256923.jpg",
-      "summary": "【小泉今日子、山に木を植える】クマ被害きっかけに“どんぐりの木”3000本植樹へ「口で言うだけではダメ」“豊かな森”目指すプロジェクトに密着【news23】…",
-      "points": [
-        "カテゴリ: 国内・総合で話題の記事",
-        "引用元: newsdig.tbs.co.jp（2026-11-14 08:22）",
-        "「元記事を読む」から本文を確認できます"
-      ],
-      "impact": "国内・総合分野で多くの読者に共有されている注目記事です。",
-      "tags": [
-        "国内・総合",
-        "newsdig.tbs.co.jp"
-      ],
-      "url": "https://newsdig.tbs.co.jp/articles/-/3085720",
-      "isAiEnriched": false
-    },
-    {
-      "category": "tech",
-      "title": "Fable 5.2は物理モデリング音源の実装も作曲もすごい - きしだのHatena",
-      "source": "nowokay.hatenablog.com",
-      "publishedAt": "2026-11-13 23:22",
-      "publishedTs": 1794579772,
-      "image": "https://cdn.image.st-hatena.com/image/scale/124dd98915ea1ae722f6a171ed5ad3c4f387690a/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fn%2Fnowokay%2F20261113%2F20261113100710.png",
-      "summary": "Fable 5.2が出て今週いっぱいくらいPlusでも使えるのだけど、Fableじゃないとダメなことってなんだろなと思いつつ、楽器の物理シミュレーションがOpusはまだあまりうまくなかったなと、Fableさんに物理モデリング音源を作ってもらって曲もつくってもらったら、物理モデリングも結構できていたのだけど…",
-      "points": [
-        "カテゴリ: テクノロジー・AIで話題の記事",
-        "引用元: nowokay.hatenablog.com（2026-11-13 23:22）",
-        "「元記事を読む」から本文を確認できます"
-      ],
-      "impact": "テクノロジー・AI分野で多くの読者に共有されている注目記事です。",
-      "tags": [
-        "テクノロジー・AI",
-        "nowokay.hatenablog.com"
-      ],
-      "url": "https://nowokay.hatenablog.com/entry/2026/11/13/101644",
+      "url": "https://gigazine.net/news/20261114-llm-fluency-credible/",
       "isAiEnriched": false
     },
     {
