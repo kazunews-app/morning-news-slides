@@ -1,14 +1,126 @@
 window.NEWS_DATA = {
   "date": "2026年11月15日 (日)",
-  "updatedAt": "2026-11-15 15:00",
+  "updatedAt": "2026-11-15 15:07",
   "title": "TREND NEWS",
   "keywords": [
     "きょう近畿や東海で激しい雨…",
     "検事の取り調べ AIでチェ…",
     "月収2万円と年金5万円 7…",
     "元≠ME菅波 事務所所属で…",
-    "“ドラクエ新作”スマホ向け…",
+    "悪意が渦巻くネットの向こう…",
     "定数削減巡り国民と維新に温…"
+  ],
+  "weatherCities": [
+    {
+      "name": "札幌",
+      "region": "北海道",
+      "temp": 6,
+      "code": 53,
+      "wind": 3,
+      "maxTemp": 8,
+      "minTemp": 1,
+      "pop": 85
+    },
+    {
+      "name": "仙台",
+      "region": "東北",
+      "temp": 12,
+      "code": 61,
+      "wind": 5,
+      "maxTemp": 12,
+      "minTemp": 11,
+      "pop": 100
+    },
+    {
+      "name": "新潟",
+      "region": "北陸",
+      "temp": 14,
+      "code": 61,
+      "wind": 8,
+      "maxTemp": 16,
+      "minTemp": 14,
+      "pop": 100
+    },
+    {
+      "name": "金沢",
+      "region": "北陸",
+      "temp": 17,
+      "code": 61,
+      "wind": 4,
+      "maxTemp": 17,
+      "minTemp": 14,
+      "pop": 100
+    },
+    {
+      "name": "東京",
+      "region": "関東",
+      "temp": 11,
+      "code": 53,
+      "wind": 4,
+      "maxTemp": 14,
+      "minTemp": 11,
+      "pop": 100
+    },
+    {
+      "name": "名古屋",
+      "region": "東海",
+      "temp": 14,
+      "code": 55,
+      "wind": 3,
+      "maxTemp": 15,
+      "minTemp": 13,
+      "pop": 100
+    },
+    {
+      "name": "大阪",
+      "region": "近畿",
+      "temp": 16,
+      "code": 53,
+      "wind": 2,
+      "maxTemp": 16,
+      "minTemp": 14,
+      "pop": 100
+    },
+    {
+      "name": "広島",
+      "region": "中国",
+      "temp": 20,
+      "code": 1,
+      "wind": 5,
+      "maxTemp": 20,
+      "minTemp": 15,
+      "pop": 100
+    },
+    {
+      "name": "高知",
+      "region": "四国",
+      "temp": 20,
+      "code": 2,
+      "wind": 4,
+      "maxTemp": 20,
+      "minTemp": 16,
+      "pop": 100
+    },
+    {
+      "name": "福岡",
+      "region": "九州",
+      "temp": 20,
+      "code": 3,
+      "wind": 20,
+      "maxTemp": 20,
+      "minTemp": 17,
+      "pop": 100
+    },
+    {
+      "name": "那覇",
+      "region": "沖縄",
+      "temp": 25,
+      "code": 1,
+      "wind": 18,
+      "maxTemp": 26,
+      "minTemp": 22,
+      "pop": 100
+    }
   ],
   "items": [
     {
@@ -97,15 +209,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "subculture",
-      "title": "“ドラクエ新作”スマホ向けゲーム『ドラゴンクエストRPG　魔界樹と導かれし島』発表。『メダロット』初期8作品入りコレクションがSteam向けに発表。今週の見逃せないゲーム記事7選",
+      "title": "悪意が渦巻くネットの向こうに、善性を見つけられるか。SNSのリアルな人間模様を描く推理ADV『ミカクテイ事件の観測者-Demons’Timeline-』をもう遊んだか",
       "source": "AUTOMATON",
-      "publishedAt": "2026-11-15 13:31",
-      "publishedTs": 1794717112,
-      "image": "https://automaton-media.com/wp-content/uploads/2026/11/20261115-479303-header.jpg",
-      "summary": "今週のAUTOMATONにて反響の大きかったゲーム紹介系記事を中心に、7本の記事をピックアップ。今週は『ドラゴンクエストRPG 魔界樹と導かれし島』のほか、『Wolfenstein 3』や『NIGHTMARE OPERATOR』などが話題となった。",
+      "publishedAt": "2026-11-15 15:02",
+      "publishedTs": 1794722573,
+      "image": "https://automaton-media.com/wp-content/uploads/2026/11/20261115-479344-image3.jpg",
+      "summary": "『ミカクテイ事件の観測者』では、インターネットの醜さに直面することになるが、そこではときに善意も生まれうる。",
       "points": [
         "カテゴリ: サブカルチャーの注目ニュース",
-        "配信: AUTOMATON（2026-11-15 13:31）",
+        "配信: AUTOMATON（2026-11-15 15:02）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "サブカルチャー分野で注目を集めている最新記事です。",
@@ -114,7 +226,7 @@ window.NEWS_DATA = {
         "ゲーム",
         "AUTOMATON"
       ],
-      "url": "https://automaton-media.com/articles/newsjp/20261115-479303/",
+      "url": "https://automaton-media.com/articles/special-column/20261115-479344/",
       "isAiEnriched": false
     },
     {
@@ -309,23 +421,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "subculture",
-      "title": "BLのセックスシーンは尊いだけで卑猥ではないんだよね",
-      "source": "anond.hatelabo.jp",
-      "publishedAt": "2026-11-14 23:59",
-      "publishedTs": 1794668379,
-      "image": "https://anond.hatelabo.jp/assets/images/og-image-1500.gif",
-      "summary": "これわかってない男多いのだけれど女性は性欲でBLを見てないってことをいい加減理解した方がいいよ？",
+      "title": "刀剣乱舞界隈の腐女子、ついに「政治や反戦に声をあげない人間は独裁政権と統一教会支持者」という声明を発表。「これが反戦サッカー部でやりたかったことか」「たかがゲームで統一教会ｗｗｗ」",
+      "source": "posfie.com",
+      "publishedAt": "2026-11-15 09:58",
+      "publishedTs": 1794704330,
+      "image": "https://s.tgstc.com/ogp3/9271bd03e0a0e28291e3c61e7d00ffd9-1200x630.jpeg",
+      "summary": "すじこ @sujiko88k あえて言葉強く言います。刀ミュファンでまだ「反戦とか･･･」「政治と離して」とか思ってる人は自身が呑気な独裁支持者で統一教会側だと自覚してください。 博物館の予算減らされてます、大学の人文系を「縮小」と現政権は言ってます、チケ代上がってますね、俳優さん全員徴兵される世代です→…",
       "points": [
         "カテゴリ: サブカルチャーで話題の記事",
-        "引用元: anond.hatelabo.jp（2026-11-14 23:59）",
+        "引用元: posfie.com（2026-11-15 09:58）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "サブカルチャー分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "サブカルチャー",
-        "anond.hatelabo.jp"
+        "posfie.com"
       ],
-      "url": "https://anond.hatelabo.jp/20261114235117",
+      "url": "https://posfie.com/@Acg3C2/p/ioy1XNT",
       "isAiEnriched": false
     },
     {
@@ -414,15 +526,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "subculture",
-      "title": "20年越しに“幻のポケモン釣りゲーム”が見つかるも、その「保存方法」で大議論巻き起こる。プレイ不可の“カプセル化”に、コミュニティから非難の嵐も",
+      "title": "“ドラクエ新作”スマホ向けゲーム『ドラゴンクエストRPG　魔界樹と導かれし島』発表。『メダロット』初期8作品入りコレクションがSteam向けに発表。今週の見逃せないゲーム記事7選",
       "source": "AUTOMATON",
-      "publishedAt": "2026-11-15 12:06",
-      "publishedTs": 1794712000,
-      "image": "https://automaton-media.com/wp-content/uploads/2026/11/20261115-479333-header.jpg",
-      "summary": "“失われたゲーム”と目されていた『ポケモン釣り大会DS』を所持しているというユーザーが現れた。しかし、そのゲームソフトの「保存方法」が物議を呼んでいるようだ。",
+      "publishedAt": "2026-11-15 13:31",
+      "publishedTs": 1794717112,
+      "image": "https://automaton-media.com/wp-content/uploads/2026/11/20261115-479303-header.jpg",
+      "summary": "今週のAUTOMATONにて反響の大きかったゲーム紹介系記事を中心に、7本の記事をピックアップ。今週は『ドラゴンクエストRPG 魔界樹と導かれし島』のほか、『Wolfenstein 3』や『NIGHTMARE OPERATOR』などが話題となった。",
       "points": [
         "カテゴリ: サブカルチャーの注目ニュース",
-        "配信: AUTOMATON（2026-11-15 12:06）",
+        "配信: AUTOMATON（2026-11-15 13:31）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "サブカルチャー分野で注目を集めている最新記事です。",
@@ -431,7 +543,7 @@ window.NEWS_DATA = {
         "ゲーム",
         "AUTOMATON"
       ],
-      "url": "https://automaton-media.com/articles/newsjp/20261115-479333/",
+      "url": "https://automaton-media.com/articles/newsjp/20261115-479303/",
       "isAiEnriched": false
     },
     {
@@ -626,23 +738,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "subculture",
-      "title": "刀剣乱舞界隈の腐女子、ついに「政治や反戦に声をあげない人間は独裁政権と統一教会支持者」という声明を発表。「これが反戦サッカー部でやりたかったことか」「たかがゲームで統一教会ｗｗｗ」",
-      "source": "posfie.com",
-      "publishedAt": "2026-11-15 09:58",
-      "publishedTs": 1794704330,
-      "image": "https://s.tgstc.com/ogp3/9271bd03e0a0e28291e3c61e7d00ffd9-1200x630.jpeg",
-      "summary": "すじこ @sujiko88k あえて言葉強く言います。刀ミュファンでまだ「反戦とか･･･」「政治と離して」とか思ってる人は自身が呑気な独裁支持者で統一教会側だと自覚してください。 博物館の予算減らされてます、大学の人文系を「縮小」と現政権は言ってます、チケ代上がってますね、俳優さん全員徴兵される世代です→…",
+      "title": "BLのセックスシーンは尊いだけで卑猥ではないんだよね",
+      "source": "anond.hatelabo.jp",
+      "publishedAt": "2026-11-14 23:59",
+      "publishedTs": 1794668379,
+      "image": "https://anond.hatelabo.jp/assets/images/og-image-1500.gif",
+      "summary": "これわかってない男多いのだけれど女性は性欲でBLを見てないってことをいい加減理解した方がいいよ？",
       "points": [
         "カテゴリ: サブカルチャーで話題の記事",
-        "引用元: posfie.com（2026-11-15 09:58）",
+        "引用元: anond.hatelabo.jp（2026-11-14 23:59）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "サブカルチャー分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "サブカルチャー",
-        "posfie.com"
+        "anond.hatelabo.jp"
       ],
-      "url": "https://posfie.com/@Acg3C2/p/ioy1XNT",
+      "url": "https://anond.hatelabo.jp/20261114235117",
       "isAiEnriched": false
     },
     {
@@ -731,15 +843,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "subculture",
-      "title": "不正アクセスを受けたセガのアーケード向けネットワークサービス「ALL․Net」一部復旧。『オンゲキ』『セガNET麻雀 MJ Arcade』など、一部タイトルが稼働再開",
+      "title": "20年越しに“幻のポケモン釣りゲーム”が見つかるも、その「保存方法」で大議論巻き起こる。プレイ不可の“カプセル化”に、コミュニティから非難の嵐も",
       "source": "AUTOMATON",
-      "publishedAt": "2026-11-15 10:31",
-      "publishedTs": 1794706276,
-      "image": "https://automaton-media.com/wp-content/uploads/2026/11/20261115-479328-header.jpg",
-      "summary": "セガ フェイブは11月15日、「ALL․Net」および「Aime」の各種サービスについて、一部機能が復旧したと発表した。『オンゲキ』『カードメイカー』などをはじめとした一部タイトルが稼働再開している。",
+      "publishedAt": "2026-11-15 12:06",
+      "publishedTs": 1794712000,
+      "image": "https://automaton-media.com/wp-content/uploads/2026/11/20261115-479333-header.jpg",
+      "summary": "“失われたゲーム”と目されていた『ポケモン釣り大会DS』を所持しているというユーザーが現れた。しかし、そのゲームソフトの「保存方法」が物議を呼んでいるようだ。",
       "points": [
         "カテゴリ: サブカルチャーの注目ニュース",
-        "配信: AUTOMATON（2026-11-15 10:31）",
+        "配信: AUTOMATON（2026-11-15 12:06）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "サブカルチャー分野で注目を集めている最新記事です。",
@@ -748,7 +860,7 @@ window.NEWS_DATA = {
         "ゲーム",
         "AUTOMATON"
       ],
-      "url": "https://automaton-media.com/articles/newsjp/20261115-479328/",
+      "url": "https://automaton-media.com/articles/newsjp/20261115-479333/",
       "isAiEnriched": false
     },
     {
@@ -1048,15 +1160,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "subculture",
-      "title": "『マインクラフト』に新武器“投擲ディスク”追加へ。統合版には「オフハンド」完全実装、来年最初のアプデが早くもお披露目",
+      "title": "不正アクセスを受けたセガのアーケード向けネットワークサービス「ALL․Net」一部復旧。『オンゲキ』『セガNET麻雀 MJ Arcade』など、一部タイトルが稼働再開",
       "source": "AUTOMATON",
-      "publishedAt": "2026-11-15 09:07",
-      "publishedTs": 1794701237,
-      "image": "https://automaton-media.com/wp-content/uploads/2026/11/20261115-479322-header.jpg",
-      "summary": "Mojang Studiosは11月15日、2027年の最初のゲームドロップを公開した。新武器の実装や、Bedrock版へのオフハンド完全実装が明かされた。",
+      "publishedAt": "2026-11-15 10:31",
+      "publishedTs": 1794706276,
+      "image": "https://automaton-media.com/wp-content/uploads/2026/11/20261115-479328-header.jpg",
+      "summary": "セガ フェイブは11月15日、「ALL․Net」および「Aime」の各種サービスについて、一部機能が復旧したと発表した。『オンゲキ』『カードメイカー』などをはじめとした一部タイトルが稼働再開している。",
       "points": [
         "カテゴリ: サブカルチャーの注目ニュース",
-        "配信: AUTOMATON（2026-11-15 09:07）",
+        "配信: AUTOMATON（2026-11-15 10:31）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "サブカルチャー分野で注目を集めている最新記事です。",
@@ -1065,7 +1177,7 @@ window.NEWS_DATA = {
         "ゲーム",
         "AUTOMATON"
       ],
-      "url": "https://automaton-media.com/articles/newsjp/20261115-479322/",
+      "url": "https://automaton-media.com/articles/newsjp/20261115-479328/",
       "isAiEnriched": false
     },
     {
@@ -1091,23 +1203,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "NVIDIAフアン前CEOの復帰求める署名が11万人超　マスク氏らも賛同、米議会は追及継続",
-      "source": "itmedia.co.jp",
-      "publishedAt": "2026-11-15 08:39",
-      "publishedTs": 1794699550,
-      "image": "https://www.itmedia.co.jp/news/article/ogp/2611/15/2000003207/10012162/2048",
-      "summary": "フアン氏は、中国の情報機関との関係が疑われる女性との交際が報じられたことを受け、11月12日にCEO、社長、取締役を退任した。NVIDIAは最高財務責任者（CFO）のコレット・クレス氏を暫定CEOに任命し、社内外から後任を探している。 署名運動の主催者は、フアン氏が十分な弁明の機会を与えられずに退任に追い込…",
+      "title": "独プールで15人体調不良　マイクロソフト障害影響 | NEWSjp",
+      "source": "news.jp",
+      "publishedAt": "2026-11-15 11:57",
+      "publishedTs": 1794711436,
+      "image": "https://img.jp.ekkowassets.com/c_limit,w_200,h_200,f_auto,q_auto:eco/ch/units/39166665832988672/profile_7.png",
+      "summary": "【ベルリン共同】ドイツ公共放送WDRは14日、米IT大手マイクロソフトの主力業務ソフトの大規模障害による影響で、西部ブリュールのテーマパーク内にあるプールの利用者15人が体調不良を訴えたと報じた。障害により安全管理システムの警報メールが担当者に届かず、塩素を注入する装置の不具合に気付かず水中塩素濃度が著し.…",
       "points": [
         "カテゴリ: テクノロジー・AIで話題の記事",
-        "引用元: itmedia.co.jp（2026-11-15 08:39）",
+        "引用元: news.jp（2026-11-15 11:57）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "テクノロジー・AI分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "テクノロジー・AI",
-        "itmedia.co.jp"
+        "news.jp"
       ],
-      "url": "https://www.itmedia.co.jp/news/article/2611/15/2000003207/",
+      "url": "https://news.jp/i/1494496378441958289",
       "isAiEnriched": false
     },
     {
@@ -1197,23 +1309,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "独プールで15人体調不良　マイクロソフト障害影響 | NEWSjp",
-      "source": "news.jp",
-      "publishedAt": "2026-11-15 11:57",
-      "publishedTs": 1794711436,
-      "image": "https://img.jp.ekkowassets.com/c_limit,w_200,h_200,f_auto,q_auto:eco/ch/units/39166665832988672/profile_7.png",
-      "summary": "【ベルリン共同】ドイツ公共放送WDRは14日、米IT大手マイクロソフトの主力業務ソフトの大規模障害による影響で、西部ブリュールのテーマパーク内にあるプールの利用者15人が体調不良を訴えたと報じた。障害により安全管理システムの警報メールが担当者に届かず、塩素を注入する装置の不具合に気付かず水中塩素濃度が著し.…",
+      "title": "NVIDIAフアン前CEOの復帰求める署名が11万人超　マスク氏らも賛同、米議会は追及継続",
+      "source": "itmedia.co.jp",
+      "publishedAt": "2026-11-15 08:39",
+      "publishedTs": 1794699550,
+      "image": "https://www.itmedia.co.jp/news/article/ogp/2611/15/2000003207/10012162/2048",
+      "summary": "フアン氏は、中国の情報機関との関係が疑われる女性との交際が報じられたことを受け、11月12日にCEO、社長、取締役を退任した。NVIDIAは最高財務責任者（CFO）のコレット・クレス氏を暫定CEOに任命し、社内外から後任を探している。 署名運動の主催者は、フアン氏が十分な弁明の機会を与えられずに退任に追い込…",
       "points": [
         "カテゴリ: テクノロジー・AIで話題の記事",
-        "引用元: news.jp（2026-11-15 11:57）",
+        "引用元: itmedia.co.jp（2026-11-15 08:39）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "テクノロジー・AI分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "テクノロジー・AI",
-        "news.jp"
+        "itmedia.co.jp"
       ],
-      "url": "https://news.jp/i/1494496378441958289",
+      "url": "https://www.itmedia.co.jp/news/article/2611/15/2000003207/",
       "isAiEnriched": false
     },
     {
@@ -1365,15 +1477,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "subculture",
-      "title": "『League of Legends』大規模アップデートの内容チラ見せ。ビジュアル大刷新&ゲームプレイ変更いろいろありそう",
+      "title": "『マインクラフト』に新武器“投擲ディスク”追加へ。統合版には「オフハンド」完全実装、来年最初のアプデが早くもお披露目",
       "source": "AUTOMATON",
-      "publishedAt": "2026-11-15 07:24",
-      "publishedTs": 1794695055,
-      "image": "assets/images/news-4.jpg",
-      "summary": "Riot Gamesは11月15日、『League of Legends』向けの大型アップデート「New Dawn」の内容をお披露目した。ビジュアル刷新のほか、ゲームプレイにも変更が加えられそうだ。",
+      "publishedAt": "2026-11-15 09:07",
+      "publishedTs": 1794701237,
+      "image": "https://automaton-media.com/wp-content/uploads/2026/11/20261115-479322-header.jpg",
+      "summary": "Mojang Studiosは11月15日、2027年の最初のゲームドロップを公開した。新武器の実装や、Bedrock版へのオフハンド完全実装が明かされた。",
       "points": [
         "カテゴリ: サブカルチャーの注目ニュース",
-        "配信: AUTOMATON（2026-11-15 07:24）",
+        "配信: AUTOMATON（2026-11-15 09:07）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "サブカルチャー分野で注目を集めている最新記事です。",
@@ -1382,7 +1494,7 @@ window.NEWS_DATA = {
         "ゲーム",
         "AUTOMATON"
       ],
-      "url": "https://automaton-media.com/articles/newsjp/league-of-legends-20261115-479316/",
+      "url": "https://automaton-media.com/articles/newsjp/20261115-479322/",
       "isAiEnriched": false
     },
     {
@@ -1682,15 +1794,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "subculture",
-      "title": "『スター・ウォーズ：ギャラクティック・レーサー』、「ポッドレーサー」の最高速度は“1000km/h”に迫る。速すぎる機体を「エアブレーキ」でねじ曲げる新映像公開",
+      "title": "『League of Legends』大規模アップデートの内容チラ見せ。ビジュアル大刷新&ゲームプレイ変更いろいろありそう",
       "source": "AUTOMATON",
-      "publishedAt": "2026-11-14 18:01",
-      "publishedTs": 1794646890,
+      "publishedAt": "2026-11-15 07:24",
+      "publishedTs": 1794695055,
       "image": "assets/images/news-3.jpg",
-      "summary": "パブリッシャーのSecret Modeは9月30日、Lucasfilm Gamesとの協力のもと、Fuse Gamesが手がける『スター・ウォーズ：ギャラクティック・レーサー』の新映像「Under the Hood with Hibi - Episode 4: Podracers」を公開した。",
+      "summary": "Riot Gamesは11月15日、『League of Legends』向けの大型アップデート「New Dawn」の内容をお披露目した。ビジュアル刷新のほか、ゲームプレイにも変更が加えられそうだ。",
       "points": [
         "カテゴリ: サブカルチャーの注目ニュース",
-        "配信: AUTOMATON（2026-11-14 18:01）",
+        "配信: AUTOMATON（2026-11-15 07:24）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "サブカルチャー分野で注目を集めている最新記事です。",
@@ -1699,7 +1811,7 @@ window.NEWS_DATA = {
         "ゲーム",
         "AUTOMATON"
       ],
-      "url": "https://automaton-media.com/articles/newsjp/star-wars-galactic-racer-20261114-479191/",
+      "url": "https://automaton-media.com/articles/newsjp/league-of-legends-20261115-479316/",
       "isAiEnriched": false
     },
     {
@@ -1936,23 +2048,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "AWS セキュリティサービスでアクセスキーの漏えいリスクを最小限に抑える実践的な手順 | Amazon Web Services",
-      "source": "aws.amazon.com",
-      "publishedAt": "2026-11-15 00:38",
-      "publishedTs": 1794670724,
-      "image": "https://d2908q01vomqb2.cloudfront.net/b3f0c7f6bb763af1be91d9e74eabfeb199dc1f1f/2026/10/17/flyd-C5pXRFEjq3w-unsplash.jpg",
-      "summary": "AWS は世界でも極めて包括的なクラウドであり、組織はこれを利用することで、イノベーションを加速し、コストを削減して、より効率的にスケールできます…",
+      "title": "55歳でグーグル本社をクビになった私が、4つのバイトのかけもち生活を通して思い出した「肉体労働の価値」とは",
+      "source": "crea.bunshun.jp",
+      "publishedAt": "2026-11-14 17:01",
+      "publishedTs": 1794643306,
+      "image": "https://crea.ismcdn.jp/mwimgs/2/6/1200wm/img_26e7a268236162c5590aa4c2f3ec356574001.jpg",
+      "summary": "パソコンがなくても働ける生き方 前の職場の同僚たちに私がギャップイヤーの間にしている仕事について話したことがある。 日々体を使う仕事をしていて、自分自身がプロダクトでありサービスなんだと思うと、仕事へのやる気もやりがいも感じると私は言った。 それに耳を傾けていた同僚はこんなことを口にした。 「自分自...",
       "points": [
         "カテゴリ: テクノロジー・AIで話題の記事",
-        "引用元: aws.amazon.com（2026-11-15 00:38）",
+        "引用元: crea.bunshun.jp（2026-11-14 17:01）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "テクノロジー・AI分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "テクノロジー・AI",
-        "aws.amazon.com"
+        "crea.bunshun.jp"
       ],
-      "url": "https://aws.amazon.com/jp/blogs/news/practical-steps-to-minimize-key-exposure-using-aws-security-services/",
+      "url": "https://crea.bunshun.jp/articles/-/60719",
       "isAiEnriched": false
     },
     {
@@ -1999,15 +2111,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "subculture",
-      "title": "Paradox Interactive「CEO交代」で新体制へ、来年1月から。『Vic2』『Stellaris』『HoI4』などに携わった副CEOが昇進",
+      "title": "『スター・ウォーズ：ギャラクティック・レーサー』、「ポッドレーサー」の最高速度は“1000km/h”に迫る。速すぎる機体を「エアブレーキ」でねじ曲げる新映像公開",
       "source": "AUTOMATON",
-      "publishedAt": "2026-11-14 17:38",
-      "publishedTs": 1794645532,
+      "publishedAt": "2026-11-14 18:01",
+      "publishedTs": 1794646890,
       "image": "assets/images/news-4.jpg",
-      "summary": "Paradox Interactiveは11月11日、CEOをFredrik Wester氏からMattias Lilja氏に交代すると発表した。Lilja氏は『Victoria II』や『Stellaris』、『Hearts of Iron IV』などのタイトルに携わった人物で、2027年1月4日から新C…",
+      "summary": "パブリッシャーのSecret Modeは9月30日、Lucasfilm Gamesとの協力のもと、Fuse Gamesが手がける『スター・ウォーズ：ギャラクティック・レーサー』の新映像「Under the Hood with Hibi - Episode 4: Podracers」を公開した。",
       "points": [
         "カテゴリ: サブカルチャーの注目ニュース",
-        "配信: AUTOMATON（2026-11-14 17:38）",
+        "配信: AUTOMATON（2026-11-14 18:01）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "サブカルチャー分野で注目を集めている最新記事です。",
@@ -2016,7 +2128,7 @@ window.NEWS_DATA = {
         "ゲーム",
         "AUTOMATON"
       ],
-      "url": "https://automaton-media.com/articles/newsjp/paradox-20261114-479296/",
+      "url": "https://automaton-media.com/articles/newsjp/star-wars-galactic-racer-20261114-479191/",
       "isAiEnriched": false
     },
     {
@@ -2042,23 +2154,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "55歳でグーグル本社をクビになった私が、4つのバイトのかけもち生活を通して思い出した「肉体労働の価値」とは",
-      "source": "crea.bunshun.jp",
-      "publishedAt": "2026-11-14 17:01",
-      "publishedTs": 1794643306,
-      "image": "https://crea.ismcdn.jp/mwimgs/2/6/1200wm/img_26e7a268236162c5590aa4c2f3ec356574001.jpg",
-      "summary": "パソコンがなくても働ける生き方 前の職場の同僚たちに私がギャップイヤーの間にしている仕事について話したことがある。 日々体を使う仕事をしていて、自分自身がプロダクトでありサービスなんだと思うと、仕事へのやる気もやりがいも感じると私は言った。 それに耳を傾けていた同僚はこんなことを口にした。 「自分自...",
+      "title": "AWS セキュリティサービスでアクセスキーの漏えいリスクを最小限に抑える実践的な手順 | Amazon Web Services",
+      "source": "aws.amazon.com",
+      "publishedAt": "2026-11-15 00:38",
+      "publishedTs": 1794670724,
+      "image": "https://d2908q01vomqb2.cloudfront.net/b3f0c7f6bb763af1be91d9e74eabfeb199dc1f1f/2026/10/17/flyd-C5pXRFEjq3w-unsplash.jpg",
+      "summary": "AWS は世界でも極めて包括的なクラウドであり、組織はこれを利用することで、イノベーションを加速し、コストを削減して、より効率的にスケールできます…",
       "points": [
         "カテゴリ: テクノロジー・AIで話題の記事",
-        "引用元: crea.bunshun.jp（2026-11-14 17:01）",
+        "引用元: aws.amazon.com（2026-11-15 00:38）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "テクノロジー・AI分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "テクノロジー・AI",
-        "crea.bunshun.jp"
+        "aws.amazon.com"
       ],
-      "url": "https://crea.bunshun.jp/articles/-/60719",
+      "url": "https://aws.amazon.com/jp/blogs/news/practical-steps-to-minimize-key-exposure-using-aws-security-services/",
       "isAiEnriched": false
     },
     {
@@ -2316,15 +2428,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "subculture",
-      "title": "『Factorio』に“Mod不要”の「音楽プレーヤー」を建設した謎の技術者あらわる。約2000個以上のスピーカーで大合奏の「超巨大音楽再生工場」",
+      "title": "Paradox Interactive「CEO交代」で新体制へ、来年1月から。『Vic2』『Stellaris』『HoI4』などに携わった副CEOが昇進",
       "source": "AUTOMATON",
-      "publishedAt": "2026-11-14 16:48",
-      "publishedTs": 1794642537,
+      "publishedAt": "2026-11-14 17:38",
+      "publishedTs": 1794645532,
       "image": "assets/images/news-3.jpg",
-      "summary": "『Factorio』にて、Modを使わずにゲーム内で“音楽”を奏でられるようにしたユーザーがあらわれ、話題となっている。",
+      "summary": "Paradox Interactiveは11月11日、CEOをFredrik Wester氏からMattias Lilja氏に交代すると発表した。Lilja氏は『Victoria II』や『Stellaris』、『Hearts of Iron IV』などのタイトルに携わった人物で、2027年1月4日から新C…",
       "points": [
         "カテゴリ: サブカルチャーの注目ニュース",
-        "配信: AUTOMATON（2026-11-14 16:48）",
+        "配信: AUTOMATON（2026-11-14 17:38）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "サブカルチャー分野で注目を集めている最新記事です。",
@@ -2333,28 +2445,28 @@ window.NEWS_DATA = {
         "ゲーム",
         "AUTOMATON"
       ],
-      "url": "https://automaton-media.com/articles/newsjp/20261114-479284/",
+      "url": "https://automaton-media.com/articles/newsjp/paradox-20261114-479296/",
       "isAiEnriched": false
     },
     {
       "category": "domestic",
-      "title": "フェミニズムが社会に浸透した結果",
-      "source": "anond.hatelabo.jp",
-      "publishedAt": "2026-11-14 23:14",
-      "publishedTs": 1794665691,
-      "image": "https://anond.hatelabo.jp/assets/images/og-image-1500.gif",
-      "summary": "男は女を養わなくなった。 男も女に経済力や甲斐性を要求して当たり前、女も働いて当たり前の価値観になった。 何だ、フェミニズムって男にとっても素晴らしいことではないか。",
+      "title": "【オルグ済】「フェミニズム好きじゃない」と言った女子大生に対し、刀剣乱舞ユーザー（山姥切国広推し）の女が「フェミニズムを否定するなら学校辞めて子供産んで飯炊き女やれ！参政権も放棄して夫の言いなりになって、歳老いたら家督を継いだ息子に従え！」と暴言を吐き炎上",
+      "source": "posfie.com",
+      "publishedAt": "2026-11-14 22:05",
+      "publishedTs": 1794661518,
+      "image": "https://s.tgstc.com/ogp3/2cba88056e6f2049903bd6901d7f7dd0-1200x630.jpeg",
+      "summary": "まとめ 「女だけどフェミニズム好きじゃない」といった女子大生を、フェミニストが取り囲んで「大学やめろ」「レイプされても文句言うな」と脅迫をおこなう事案が発生【黒い羊効果】 「誰が飯を食わせてやってると思ってるんだ」オヤジ概念を40年遅れでやっているのがミソジニーフェミニスト もっともアップデートされて...",
       "points": [
         "カテゴリ: 国内・総合で話題の記事",
-        "引用元: anond.hatelabo.jp（2026-11-14 23:14）",
+        "引用元: posfie.com（2026-11-14 22:05）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "国内・総合分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "国内・総合",
-        "anond.hatelabo.jp"
+        "posfie.com"
       ],
-      "url": "https://anond.hatelabo.jp/20261114231126",
+      "url": "https://posfie.com/@Acg3C2/p/j5GZC7a",
       "isAiEnriched": false
     },
     {
@@ -2444,23 +2556,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "【オルグ済】「フェミニズム好きじゃない」と言った女子大生に対し、刀剣乱舞ユーザー（山姥切国広推し）の女が「フェミニズムを否定するなら学校辞めて子供産んで飯炊き女やれ！参政権も放棄して夫の言いなりになって、歳老いたら家督を継いだ息子に従え！」と暴言を吐き炎上",
-      "source": "posfie.com",
-      "publishedAt": "2026-11-14 22:05",
-      "publishedTs": 1794661518,
-      "image": "https://s.tgstc.com/ogp3/2cba88056e6f2049903bd6901d7f7dd0-1200x630.jpeg",
-      "summary": "まとめ 「女だけどフェミニズム好きじゃない」といった女子大生を、フェミニストが取り囲んで「大学やめろ」「レイプされても文句言うな」と脅迫をおこなう事案が発生【黒い羊効果】 「誰が飯を食わせてやってると思ってるんだ」オヤジ概念を40年遅れでやっているのがミソジニーフェミニスト もっともアップデートされて...",
+      "title": "フェミニズムが社会に浸透した結果",
+      "source": "anond.hatelabo.jp",
+      "publishedAt": "2026-11-14 23:14",
+      "publishedTs": 1794665691,
+      "image": "https://anond.hatelabo.jp/assets/images/og-image-1500.gif",
+      "summary": "男は女を養わなくなった。 男も女に経済力や甲斐性を要求して当たり前、女も働いて当たり前の価値観になった。 何だ、フェミニズムって男にとっても素晴らしいことではないか。",
       "points": [
         "カテゴリ: 国内・総合で話題の記事",
-        "引用元: posfie.com（2026-11-14 22:05）",
+        "引用元: anond.hatelabo.jp（2026-11-14 23:14）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "国内・総合分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "国内・総合",
-        "posfie.com"
+        "anond.hatelabo.jp"
       ],
-      "url": "https://posfie.com/@Acg3C2/p/j5GZC7a",
+      "url": "https://anond.hatelabo.jp/20261114231126",
       "isAiEnriched": false
     },
     {
@@ -2759,23 +2871,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "［社説］女性へのあらゆる暴力根絶を - 日本経済新聞",
-      "source": "nikkei.com",
-      "publishedAt": "2026-11-15 00:21",
-      "publishedTs": 1794669678,
-      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3874963013112026000000-2.jpg?auto=compress&bg=FFFF&crop=focalpoint&fit=crop&fm=jpg&h=630&w=1200&s=23f00abd65440470f41a9704179e913f",
-      "summary": "今月25日は国連が定める「女性に対する暴力撤廃の国際デー」だ。日本でも12日から2週間、ポスターや動画を通じて相談窓口の利用を呼びかけている。性犯罪や性暴力、DV（配偶者などからの暴力）は被害者の尊厳を著しく傷つけ、心身だけでなく社会的・経済的に長期にわたり支障をきたす。断じて許されない。被害者が勇気を...",
+      "title": "人気店の居酒屋にインフルエンサーから「食事提供と報酬12000円でSNSにPRとして投稿する」という依頼が来たことが議論に「お客様に失礼」「ただの営業なので嫌なら断れば」",
+      "source": "togetter.com",
+      "publishedAt": "2026-11-15 11:54",
+      "publishedTs": 1794711259,
+      "image": "https://s.tgstc.com/ogp3/bbbe865c2e0bc8eb84ded53bbd38cf11-1200x630.jpeg",
+      "summary": "はまむらみつや @kitashinci 二人でご飯食べさせて、SNSに投稿したるから12000円払えってか？？ 今までインスタグラマーの人が、居酒屋 浜村にお越しになって頂いてて、SNSとかに投稿して頂いてるけど、皆様自分でご予約下さって、気づいたら投稿して頂いてた方ばっかりで。 この人載せてる店全部信用出…",
       "points": [
         "カテゴリ: 国内・総合で話題の記事",
-        "引用元: nikkei.com（2026-11-15 00:21）",
+        "引用元: togetter.com（2026-11-15 11:54）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "国内・総合分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "国内・総合",
-        "nikkei.com"
+        "togetter.com"
       ],
-      "url": "https://www.nikkei.com/article/DGXZQODK1341M0T11C26A1000000/",
+      "url": "https://togetter.com/li/2770611",
       "isAiEnriched": false
     },
     {
@@ -2864,23 +2976,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "「二度と造れない車両」　新観光列車「赤い星」公開、ラウンジや畳敷き茶室も　JR北海道",
-      "source": "sankei.com",
-      "publishedAt": "2026-11-15 00:41",
-      "publishedTs": 1794670913,
-      "image": "https://www.sankei.com/resizer/v2/BTD3EUDKBZJMXGJJDHQJ6IK7CY.jpg?auth=62ea80c6aa68a7acb1132b34f3c2cc7b4f24bd978af527454adf1c23defa7b09&quality=50&focal=1064%2C1052&width=1200&height=675",
-      "summary": "ただいまメンテナンス中です メンテナンスのため、会員のログイン機能を一時停止しております。メンテナンス終了までメールマガジンの配信も停止します。 ユーザーの皆様にはご迷惑をおかけいたしますが、何卒ご理解のほどよろしくお願いいたします。",
+      "title": "［社説］女性へのあらゆる暴力根絶を - 日本経済新聞",
+      "source": "nikkei.com",
+      "publishedAt": "2026-11-15 00:21",
+      "publishedTs": 1794669678,
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3874963013112026000000-2.jpg?auto=compress&bg=FFFF&crop=focalpoint&fit=crop&fm=jpg&h=630&w=1200&s=23f00abd65440470f41a9704179e913f",
+      "summary": "今月25日は国連が定める「女性に対する暴力撤廃の国際デー」だ。日本でも12日から2週間、ポスターや動画を通じて相談窓口の利用を呼びかけている。性犯罪や性暴力、DV（配偶者などからの暴力）は被害者の尊厳を著しく傷つけ、心身だけでなく社会的・経済的に長期にわたり支障をきたす。断じて許されない。被害者が勇気を...",
       "points": [
         "カテゴリ: 国内・総合で話題の記事",
-        "引用元: sankei.com（2026-11-15 00:41）",
+        "引用元: nikkei.com（2026-11-15 00:21）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "国内・総合分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "国内・総合",
-        "sankei.com"
+        "nikkei.com"
       ],
-      "url": "https://www.sankei.com/article/20261114-MBDYXQK3QZK5BPHZTMY6R75TGE/",
+      "url": "https://www.nikkei.com/article/DGXZQODK1341M0T11C26A1000000/",
       "isAiEnriched": false
     },
     {
@@ -2969,23 +3081,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "人気店の居酒屋にインフルエンサーから「食事提供と報酬12000円でSNSにPRとして投稿する」という依頼が来たことが議論に「お客様に失礼」「ただの営業なので嫌なら断れば」",
-      "source": "togetter.com",
-      "publishedAt": "2026-11-15 11:54",
-      "publishedTs": 1794711259,
-      "image": "https://s.tgstc.com/ogp3/bbbe865c2e0bc8eb84ded53bbd38cf11-1200x630.jpeg",
-      "summary": "はまむらみつや @kitashinci 二人でご飯食べさせて、SNSに投稿したるから12000円払えってか？？ 今までインスタグラマーの人が、居酒屋 浜村にお越しになって頂いてて、SNSとかに投稿して頂いてるけど、皆様自分でご予約下さって、気づいたら投稿して頂いてた方ばっかりで。 この人載せてる店全部信用出…",
+      "title": "「二度と造れない車両」　新観光列車「赤い星」公開、ラウンジや畳敷き茶室も　JR北海道",
+      "source": "sankei.com",
+      "publishedAt": "2026-11-15 00:41",
+      "publishedTs": 1794670913,
+      "image": "https://www.sankei.com/resizer/v2/BTD3EUDKBZJMXGJJDHQJ6IK7CY.jpg?auth=62ea80c6aa68a7acb1132b34f3c2cc7b4f24bd978af527454adf1c23defa7b09&quality=50&focal=1064%2C1052&width=1200&height=675",
+      "summary": "ただいまメンテナンス中です メンテナンスのため、会員のログイン機能を一時停止しております。メンテナンス終了までメールマガジンの配信も停止します。 ユーザーの皆様にはご迷惑をおかけいたしますが、何卒ご理解のほどよろしくお願いいたします。",
       "points": [
         "カテゴリ: 国内・総合で話題の記事",
-        "引用元: togetter.com（2026-11-15 11:54）",
+        "引用元: sankei.com（2026-11-15 00:41）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "国内・総合分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "国内・総合",
-        "togetter.com"
+        "sankei.com"
       ],
-      "url": "https://togetter.com/li/2770611",
+      "url": "https://www.sankei.com/article/20261114-MBDYXQK3QZK5BPHZTMY6R75TGE/",
       "isAiEnriched": false
     },
     {
@@ -3095,7 +3207,7 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "GitHub - libracoder/kiri: A small, fast container runtime for macOS, Windows and Linux",
+      "title": "GitHub - libracoder/kiri: A small, fast container runtime for macOS, Windows and Linux with free Ngrok alternative",
       "source": "github.com",
       "publishedAt": "2026-11-08 22:13",
       "publishedTs": 1794143632,
