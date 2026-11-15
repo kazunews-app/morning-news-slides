@@ -115,7 +115,7 @@ html, body {
   text-decoration: none;
   color: inherit;
   min-width: 0;
-  flex-shrink: 0;
+  flex-shrink: 1;
 }
 
 .brand-text {
@@ -600,8 +600,10 @@ html, body {
 /* News Grid */
 .section-header {
   display: flex;
-  align-items: baseline;
+  align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px;
   margin-bottom: 14px;
 }
 
@@ -897,29 +899,55 @@ html, body {
 
 @media (max-width: 640px) {
   .header-inner {
-    padding: 10px 14px 0;
-    gap: 8px;
+    padding: 8px 12px 0;
+    gap: 6px;
   }
   .header-top {
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 6px;
   }
   .header-left {
-    gap: 10px;
-    flex: 1;
+    gap: 6px;
+    flex: 1 1 auto;
     min-width: 0;
+    overflow: hidden;
+  }
+  .brand {
+    min-width: 0;
+    flex-shrink: 1;
   }
   .brand-title {
-    font-size: 1.05rem;
+    font-size: 15px;
+    white-space: nowrap;
   }
   .brand-meta {
-    font-size: 0.68rem;
+    font-size: 10px;
     overflow: hidden;
     text-overflow: ellipsis;
   }
   .header-weather-btn {
-    padding: 5px 10px;
-    font-size: 0.78rem;
+    padding: 4px 8px;
+    font-size: 11.5px;
+    gap: 3px;
+  }
+  .header-weather-icon {
+    font-size: 13px;
+  }
+  .header-actions {
+    gap: 4px;
+    flex-shrink: 0;
+  }
+  .header-actions .icon-btn {
+    width: 32px;
+    height: 32px;
+    border-radius: 8px;
+  }
+  .header-actions .icon-btn svg {
+    width: 15px;
+    height: 15px;
+  }
+  .font-size-btn .font-size-icon {
+    font-size: 11px;
   }
   .search-box {
     order: 3;
@@ -1516,6 +1544,8 @@ html[data-font-size="xlarge"] {
   display: flex;
   align-items: center;
   gap: 10px;
+  flex-shrink: 0;
+  margin-left: auto;
 }
 
 .unread-filter-btn {
@@ -1805,6 +1835,10 @@ html[data-font-size="xlarge"] {
 
 .settings-body {
   padding-top: 20px;
+}
+
+.settings-body #settings-title {
+  padding-right: 40px;
 }
 
 .settings-section {
