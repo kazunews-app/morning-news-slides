@@ -546,15 +546,15 @@ def enrich_og_metadata_parallel(items: list[dict]) -> None:
                     it["hasRealImage"] = True
 
 
-def load_cached_data() -> tuple[dict[str, dict], list[str]]:
+def load_cached_data() -> tuple[dict[str, dict], list[str], dict[str, dict]]:
     if not DATA_JS_PATH.exists():
-        return {}, []
+        return {}, [], {}
     try:
         raw = DATA_JS_PATH.read_text(encoding="utf-8")
         prefix = "window.NEWS_DATA ="
         idx = raw.find(prefix)
         if idx == -1:
-            return {}, []
+            return {}, [], {}
         json_part = raw[idx + len(prefix) :].strip().rstrip(";")
         data = json.loads(json_part)
         cache: dict[str, dict] = {}
@@ -562,9 +562,73 @@ def load_cached_data() -> tuple[dict[str, dict], list[str]]:
             if it.get("url"):
                 cache[it["url"]] = it
         cached_kw = [str(k) for k in data.get("keywords", []) if str(k).strip()]
-        return cache, cached_kw
+        cached_weather: dict[str, dict] = {}
+        for wc in data.get("weatherCities", []):
+            if isinstance(wc, dict) and wc.get("name"):
+                cached_weather[wc["name"]] = wc
+        return cache, cached_kw, cached_weather
     except Exception:
-        return {}, []
+        return {}, [], {}
+
+
+MAJOR_JP_CITIES = [
+    {"name": "札幌", "region": "北海道", "lat": 43.0618, "lon": 141.3545},
+    {"name": "仙台", "region": "東北", "lat": 38.2682, "lon": 140.8694},
+    {"name": "新潟", "region": "北陸", "lat": 37.9161, "lon": 139.0364},
+    {"name": "金沢", "region": "北陸", "lat": 36.5613, "lon": 136.6562},
+    {"name": "東京", "region": "関東", "lat": 35.6812, "lon": 139.7671},
+    {"name": "名古屋", "region": "東海", "lat": 35.1815, "lon": 136.9066},
+    {"name": "大阪", "region": "近畿", "lat": 34.6937, "lon": 135.5023},
+    {"name": "広島", "region": "中国", "lat": 34.3853, "lon": 132.4553},
+    {"name": "高知", "region": "四国", "lat": 33.5597, "lon": 133.5311},
+    {"name": "福岡", "region": "九州", "lat": 33.5902, "lon": 130.4017},
+    {"name": "那覇", "region": "沖縄", "lat": 26.2124, "lon": 127.6809},
+]
+
+
+def fetch_city_weather_one(city: dict) -> dict | None:
+    url = (
+        f"https://api.open-meteo.com/v1/forecast?latitude={city['lat']}&longitude={city['lon']}"
+        "&current=temperature_2m,weather_code,wind_speed_10m"
+        "&daily=temperature_2m_max,temperature_2m_min,precipitation_probability_max"
+        "&timezone=Asia%2FTokyo&forecast_days=1"
+    )
+    try:
+        raw = fetch_url_bytes(url, timeout=10)
+        data = json.loads(raw.decode("utf-8"))
+        cur = data.get("current") or {}
+        daily = data.get("daily") or {}
+        temp = round(float(cur.get("temperature_2m", 0)))
+        return {
+            "name": city["name"],
+            "region": city["region"],
+            "temp": temp,
+            "code": int(cur.get("weather_code", 0)),
+            "wind": round(float(cur.get("wind_speed_10m", 0))),
+            "maxTemp": round(float((daily.get("temperature_2m_max") or [temp])[0])),
+            "minTemp": round(float((daily.get("temperature_2m_min") or [temp])[0])),
+            "pop": int((daily.get("precipitation_probability_max") or [0])[0] or 0),
+        }
+    except Exception:
+        return None
+
+
+def fetch_major_cities_weather(cached_weather: dict[str, dict]) -> list[dict]:
+    results: list[dict] = []
+    with concurrent.futures.ThreadPoolExecutor(max_workers=6) as pool:
+        future_map = {pool.submit(fetch_city_weather_one, c): c for c in MAJOR_JP_CITIES}
+        fetched_by_name: dict[str, dict] = {}
+        for fut in concurrent.futures.as_completed(future_map):
+            c = future_map[fut]
+            res = fut.result()
+            if res:
+                fetched_by_name[c["name"]] = res
+
+    for c in MAJOR_JP_CITIES:
+        item = fetched_by_name.get(c["name"]) or cached_weather.get(c["name"])
+        if item:
+            results.append(item)
+    return results
 
 
 def enrich_with_gemini(items: list[dict], api_key: str) -> list[str] | None:
@@ -715,8 +779,8 @@ def main() -> None:
     if not items:
         raise RuntimeError("ニュースを1件も取得できませんでした。")
 
-    # 既存キャッシュからAI要約・実画像を引き継ぐ
-    cache, cached_keywords = load_cached_data()
+    # 既存キャッシュからAI要約・実画像・天気を引き継ぐ
+    cache, cached_keywords, cached_weather = load_cached_data()
     for it in items:
         cached = cache.get(it.get("url", ""))
         if cached:
@@ -738,6 +802,7 @@ def main() -> None:
     # 上位10記事（各ジャンル10位以内＋トップ上位10件）のみ引用元ページからOGP画像を並列取得
     image_targets = domestic[:10] + tech[:10] + business[:10] + entertainment[:10] + subculture[:10]
     enrich_og_metadata_parallel(image_targets)
+    weather_cities = fetch_major_cities_weather(cached_weather)
 
     keywords: list[str] = []
     api_key = os.environ.get("GEMINI_API_KEY", "").strip()
@@ -779,6 +844,7 @@ def main() -> None:
         "updatedAt": now.strftime("%Y-%m-%d %H:%M"),
         "title": "TREND NEWS",
         "keywords": keywords,
+        "weatherCities": weather_cities,
         "items": clean_items,
     }
 

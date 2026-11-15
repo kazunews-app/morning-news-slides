@@ -1121,12 +1121,39 @@
     }
   }
 
+  function buildPreloadedCityResults() {
+    const preloaded = Array.isArray(state.data?.weatherCities) ? state.data.weatherCities : [];
+    if (preloaded.length === 0) return [];
+    const byName = new Map(preloaded.map((c) => [c.name, c]));
+    return MAJOR_JP_CITIES.map((city) => {
+      const p = byName.get(city.name);
+      if (!p) return null;
+      return {
+        city,
+        w: {
+          temp: p.temp,
+          wind: p.wind ?? 0,
+          meta: getWeatherMeta(p.code ?? 0),
+          maxTemp: p.maxTemp ?? p.temp,
+          minTemp: p.minTemp ?? p.temp,
+          pop: p.pop ?? 0,
+        },
+      };
+    }).filter(Boolean);
+  }
+
   async function fetchSingleLocationWeather(lat, lon) {
     const url = `https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}&current=temperature_2m,weather_code,wind_speed_10m&daily=temperature_2m_max,temperature_2m_min,precipitation_probability_max&timezone=Asia%2FTokyo&forecast_days=1`;
-    const res = await fetchWithTimeout(url, {}, 10000);
-    if (!res.ok) throw new Error(`Weather HTTP ${res.status}`);
-    const data = await res.json();
-    return parseWeatherItem(data);
+    for (let attempt = 0; attempt < 2; attempt++) {
+      try {
+        const res = await fetchWithTimeout(url, {}, 12000);
+        if (!res.ok) throw new Error(`Weather HTTP ${res.status}`);
+        const data = await res.json();
+        return parseWeatherItem(data);
+      } catch (err) {
+        if (attempt === 1) throw err;
+      }
+    }
   }
 
   async function fetchAndRenderAllWeather(forceRefresh = false) {
@@ -1135,42 +1162,60 @@
       return;
     }
     weatherState.isFetching = true;
-    if (elWeatherUpdatedLabel) elWeatherUpdatedLabel.textContent = "最新の天気を取得中...";
 
     try {
       const loc = weatherState.currentLoc || getSavedLocation();
       weatherState.currentLoc = loc;
 
-      // 現在地と主要12都市を個別に並列取得（1本にまとめるとAPI側がタイムアウトするため）
-      const currentPromise = fetchSingleLocationWeather(loc.lat, loc.lon);
-      const cityPromises = MAJOR_JP_CITIES.map((city) =>
-        fetchSingleLocationWeather(city.lat, city.lon).then((w) => ({ city, w }))
-      );
-
-      const currentSettled = await currentPromise.then(
-        (w) => ({ ok: true, w }),
-        () => ({ ok: false })
-      );
-      if (currentSettled.ok) {
-        renderCurrentWeatherCard(loc, currentSettled.w);
-      }
-
-      const citySettledList = await Promise.allSettled(cityPromises);
-      const cityResults = citySettledList
-        .filter((r) => r.status === "fulfilled")
-        .map((r) => r.value);
-
-      if (cityResults.length > 0) {
-        renderCityWeatherMap(cityResults);
-        weatherState.lastFetchAt = Date.now();
+      // Step 1: data/news.js に事前取得済みの主要11都市データを0秒で即描画
+      const preloadedResults = buildPreloadedCityResults();
+      if (preloadedResults.length > 0) {
+        renderCityWeatherMap(preloadedResults);
         if (elWeatherUpdatedLabel) {
-          elWeatherUpdatedLabel.textContent = `更新: ${formatNowJst().updatedAt}`;
+          elWeatherUpdatedLabel.textContent = `更新: ${state.data?.updatedAt || formatNowJst().updatedAt}`;
         }
-      } else if (!currentSettled.ok) {
-        if (elWeatherUpdatedLabel) elWeatherUpdatedLabel.textContent = "天気の取得に失敗しました（再試行してください）";
+      } else if (elWeatherUpdatedLabel) {
+        elWeatherUpdatedLabel.textContent = "最新の天気を取得中...";
       }
-    } catch (_err) {
-      if (elWeatherUpdatedLabel) elWeatherUpdatedLabel.textContent = "天気の取得に失敗しました";
+
+      // Step 2: 現在地の天気（1本だけ）を取得して表示
+      let currentOk = false;
+      try {
+        const currentWeather = await fetchSingleLocationWeather(loc.lat, loc.lon);
+        renderCurrentWeatherCard(loc, currentWeather);
+        currentOk = true;
+      } catch (_e) {
+        // 現在地取得に失敗した場合は東京の事前データで代替表示
+        const fallbackTokyo = preloadedResults.find((r) => r.city.name === "東京");
+        if (fallbackTokyo) {
+          renderCurrentWeatherCard(loc, fallbackTokyo.w);
+        }
+      }
+
+      // Step 3: 事前データがなかった場合、または手動更新時のみ、3都市ずつ小分けでブラウザから更新
+      if (preloadedResults.length === 0 || forceRefresh) {
+        const merged = new Map(preloadedResults.map((r) => [r.city.name, r]));
+        for (let i = 0; i < MAJOR_JP_CITIES.length; i += 3) {
+          const chunk = MAJOR_JP_CITIES.slice(i, i + 3);
+          const settled = await Promise.allSettled(
+            chunk.map((city) => fetchSingleLocationWeather(city.lat, city.lon).then((w) => ({ city, w })))
+          );
+          settled.forEach((r) => {
+            if (r.status === "fulfilled") merged.set(r.value.city.name, r.value);
+          });
+        }
+        const cityResults = MAJOR_JP_CITIES.map((c) => merged.get(c.name)).filter(Boolean);
+        if (cityResults.length > 0) {
+          renderCityWeatherMap(cityResults);
+          if (elWeatherUpdatedLabel) {
+            elWeatherUpdatedLabel.textContent = `更新: ${formatNowJst().updatedAt}`;
+          }
+        } else if (!currentOk && elWeatherUpdatedLabel) {
+          elWeatherUpdatedLabel.textContent = "天気の取得に失敗しました（再試行してください）";
+        }
+      }
+
+      weatherState.lastFetchAt = Date.now();
     } finally {
       weatherState.isFetching = false;
     }
