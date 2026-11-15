@@ -1,6 +1,6 @@
 window.NEWS_DATA = {
   "date": "2026年11月15日 (日)",
-  "updatedAt": "2026-11-15 17:23",
+  "updatedAt": "2026-11-15 17:32",
   "title": "TREND NEWS",
   "keywords": [
     "週後半 日本海側で暴風・大…",
@@ -14,472 +14,472 @@ window.NEWS_DATA = {
     {
       "name": "札幌",
       "region": "北海道",
-      "temp": 5,
-      "code": 53,
-      "wind": 2,
-      "maxTemp": 6,
+      "temp": 3,
+      "code": 61,
+      "wind": 4,
+      "maxTemp": 7,
       "minTemp": 1,
-      "pop": 85,
+      "pop": 80,
       "hourly": [
         {
-          "time": "17:00",
-          "code": 53,
+          "time": "15:00",
+          "code": 61,
+          "temp": 6,
+          "pop": 80
+        },
+        {
+          "time": "18:00",
+          "code": 61,
           "temp": 5,
-          "pop": 45
+          "pop": 80
         },
         {
-          "time": "20:00",
-          "code": 53,
-          "temp": 4,
-          "pop": 63
-        },
-        {
-          "time": "23:00",
+          "time": "21:00",
           "code": 61,
           "temp": 4,
-          "pop": 85
+          "pop": 80
         },
         {
-          "time": "02:00",
-          "code": 55,
-          "temp": 4,
-          "pop": 98
+          "time": "00:00",
+          "code": 61,
+          "temp": 1,
+          "pop": 80
         },
         {
-          "time": "05:00",
-          "code": 53,
+          "time": "03:00",
+          "code": 61,
+          "temp": 2,
+          "pop": 80
+        },
+        {
+          "time": "06:00",
+          "code": 61,
           "temp": 3,
-          "pop": 91
+          "pop": 80
         },
         {
-          "time": "08:00",
-          "code": 1,
+          "time": "09:00",
+          "code": 61,
+          "temp": 4,
+          "pop": 80
+        },
+        {
+          "time": "12:00",
+          "code": 61,
           "temp": 6,
-          "pop": 41
-        },
-        {
-          "time": "11:00",
-          "code": 51,
-          "temp": 6,
-          "pop": 28
-        },
-        {
-          "time": "14:00",
-          "code": 51,
-          "temp": 5,
-          "pop": 50
+          "pop": 80
         }
       ],
       "daily": [
         {
-          "date": "11/15",
-          "dow": "今日",
-          "code": 61,
-          "maxTemp": 6,
-          "minTemp": 1,
-          "pop": 85
-        },
-        {
           "date": "11/16",
-          "dow": "明日",
-          "code": 85,
-          "maxTemp": 6,
-          "minTemp": 2,
-          "pop": 98
+          "dow": "今日",
+          "code": 3,
+          "maxTemp": 7,
+          "minTemp": 1,
+          "pop": 80
         },
         {
           "date": "11/17",
-          "dow": "火",
-          "code": 85,
-          "maxTemp": 4,
-          "minTemp": 0,
-          "pop": 40
+          "dow": "明日",
+          "code": 3,
+          "maxTemp": 5,
+          "minTemp": 1,
+          "pop": 20
         },
         {
           "date": "11/18",
           "dow": "水",
-          "code": 81,
-          "maxTemp": 10,
-          "minTemp": 0,
-          "pop": 91
+          "code": 3,
+          "maxTemp": 9,
+          "minTemp": 1,
+          "pop": 60
         },
         {
           "date": "11/19",
           "dow": "木",
-          "code": 51,
-          "maxTemp": 8,
-          "minTemp": -1,
-          "pop": 88
+          "code": 3,
+          "maxTemp": 9,
+          "minTemp": 1,
+          "pop": 70
         },
         {
           "date": "11/20",
           "dow": "金",
-          "code": 71,
-          "maxTemp": 3,
-          "minTemp": -2,
-          "pop": 94
+          "code": 3,
+          "maxTemp": 4,
+          "minTemp": 0,
+          "pop": 70
         },
         {
           "date": "11/21",
           "dow": "土",
-          "code": 85,
-          "maxTemp": 2,
-          "minTemp": -2,
-          "pop": 47
+          "code": 3,
+          "maxTemp": 3,
+          "minTemp": -1,
+          "pop": 70
+        },
+        {
+          "date": "11/22",
+          "dow": "日",
+          "code": 3,
+          "maxTemp": 4,
+          "minTemp": -1,
+          "pop": 60
         }
       ]
     },
     {
       "name": "仙台",
       "region": "東北",
-      "temp": 12,
-      "code": 53,
-      "wind": 5,
-      "maxTemp": 12,
-      "minTemp": 11,
-      "pop": 100,
+      "temp": 11,
+      "code": 61,
+      "wind": 4,
+      "maxTemp": 14,
+      "minTemp": 5,
+      "pop": 50,
       "hourly": [
         {
-          "time": "17:00",
+          "time": "15:00",
+          "code": 61,
+          "temp": 13,
+          "pop": 50
+        },
+        {
+          "time": "18:00",
+          "code": 61,
+          "temp": 11,
+          "pop": 50
+        },
+        {
+          "time": "21:00",
+          "code": 61,
+          "temp": 9,
+          "pop": 50
+        },
+        {
+          "time": "00:00",
+          "code": 61,
+          "temp": 5,
+          "pop": 50
+        },
+        {
+          "time": "03:00",
+          "code": 61,
+          "temp": 6,
+          "pop": 50
+        },
+        {
+          "time": "06:00",
+          "code": 61,
+          "temp": 8,
+          "pop": 50
+        },
+        {
+          "time": "09:00",
+          "code": 61,
+          "temp": 10,
+          "pop": 50
+        },
+        {
+          "time": "12:00",
           "code": 61,
           "temp": 12,
-          "pop": 97
-        },
-        {
-          "time": "20:00",
-          "code": 3,
-          "temp": 11,
-          "pop": 68
-        },
-        {
-          "time": "23:00",
-          "code": 3,
-          "temp": 11,
-          "pop": 30
-        },
-        {
-          "time": "02:00",
-          "code": 0,
-          "temp": 11,
-          "pop": 5
-        },
-        {
-          "time": "05:00",
-          "code": 0,
-          "temp": 12,
-          "pop": 7
-        },
-        {
-          "time": "08:00",
-          "code": 0,
-          "temp": 12,
-          "pop": 6
-        },
-        {
-          "time": "11:00",
-          "code": 1,
-          "temp": 13,
-          "pop": 7
-        },
-        {
-          "time": "14:00",
-          "code": 1,
-          "temp": 12,
-          "pop": 3
+          "pop": 50
         }
       ],
       "daily": [
         {
-          "date": "11/15",
-          "dow": "今日",
-          "code": 61,
-          "maxTemp": 12,
-          "minTemp": 11,
-          "pop": 100
-        },
-        {
           "date": "11/16",
-          "dow": "明日",
-          "code": 2,
-          "maxTemp": 13,
-          "minTemp": 7,
-          "pop": 20
+          "dow": "今日",
+          "code": 1,
+          "maxTemp": 14,
+          "minTemp": 5,
+          "pop": 50
         },
         {
           "date": "11/17",
-          "dow": "火",
-          "code": 53,
-          "maxTemp": 10,
-          "minTemp": 4,
-          "pop": 6
+          "dow": "明日",
+          "code": 3,
+          "maxTemp": 11,
+          "minTemp": 5,
+          "pop": 30
         },
         {
           "date": "11/18",
           "dow": "水",
-          "code": 63,
-          "maxTemp": 17,
+          "code": 3,
+          "maxTemp": 14,
           "minTemp": 7,
-          "pop": 92
+          "pop": 70
         },
         {
           "date": "11/19",
           "dow": "木",
-          "code": 51,
-          "maxTemp": 13,
+          "code": 3,
+          "maxTemp": 14,
           "minTemp": 5,
-          "pop": 90
+          "pop": 30
         },
         {
           "date": "11/20",
           "dow": "金",
-          "code": 51,
+          "code": 3,
           "maxTemp": 8,
-          "minTemp": 4,
-          "pop": 94
+          "minTemp": 2,
+          "pop": 40
         },
         {
           "date": "11/21",
           "dow": "土",
-          "code": 85,
+          "code": 3,
           "maxTemp": 8,
-          "minTemp": -2,
-          "pop": 72
+          "minTemp": 2,
+          "pop": 30
+        },
+        {
+          "date": "11/22",
+          "dow": "日",
+          "code": 1,
+          "maxTemp": 11,
+          "minTemp": 3,
+          "pop": 20
         }
       ]
     },
     {
       "name": "新潟",
       "region": "北陸",
-      "temp": 14,
-      "code": 51,
-      "wind": 8,
-      "maxTemp": 16,
-      "minTemp": 14,
-      "pop": 100,
+      "temp": 11,
+      "code": 61,
+      "wind": 4,
+      "maxTemp": 15,
+      "minTemp": 7,
+      "pop": 70,
       "hourly": [
         {
-          "time": "17:00",
-          "code": 53,
+          "time": "15:00",
+          "code": 61,
           "temp": 14,
-          "pop": 98
+          "pop": 70
         },
         {
-          "time": "20:00",
-          "code": 3,
+          "time": "18:00",
+          "code": 61,
+          "temp": 12,
+          "pop": 70
+        },
+        {
+          "time": "21:00",
+          "code": 61,
+          "temp": 10,
+          "pop": 70
+        },
+        {
+          "time": "00:00",
+          "code": 61,
+          "temp": 7,
+          "pop": 70
+        },
+        {
+          "time": "03:00",
+          "code": 61,
+          "temp": 8,
+          "pop": 70
+        },
+        {
+          "time": "06:00",
+          "code": 61,
+          "temp": 10,
+          "pop": 70
+        },
+        {
+          "time": "09:00",
+          "code": 61,
+          "temp": 12,
+          "pop": 70
+        },
+        {
+          "time": "12:00",
+          "code": 61,
           "temp": 14,
-          "pop": 75
-        },
-        {
-          "time": "23:00",
-          "code": 2,
-          "temp": 16,
-          "pop": 63
-        },
-        {
-          "time": "02:00",
-          "code": 1,
-          "temp": 15,
-          "pop": 66
-        },
-        {
-          "time": "05:00",
-          "code": 2,
-          "temp": 14,
-          "pop": 30
-        },
-        {
-          "time": "08:00",
-          "code": 2,
-          "temp": 13,
-          "pop": 11
-        },
-        {
-          "time": "11:00",
-          "code": 3,
-          "temp": 13,
-          "pop": 4
-        },
-        {
-          "time": "14:00",
-          "code": 2,
-          "temp": 13,
-          "pop": 0
+          "pop": 70
         }
       ],
       "daily": [
         {
-          "date": "11/15",
-          "dow": "今日",
-          "code": 63,
-          "maxTemp": 16,
-          "minTemp": 14,
-          "pop": 100
-        },
-        {
           "date": "11/16",
-          "dow": "明日",
+          "dow": "今日",
           "code": 3,
           "maxTemp": 15,
-          "minTemp": 12,
-          "pop": 66
+          "minTemp": 7,
+          "pop": 70
         },
         {
           "date": "11/17",
-          "dow": "火",
-          "code": 55,
-          "maxTemp": 12,
-          "minTemp": 10,
-          "pop": 12
+          "dow": "明日",
+          "code": 3,
+          "maxTemp": 15,
+          "minTemp": 7,
+          "pop": 40
         },
         {
           "date": "11/18",
           "dow": "水",
-          "code": 81,
-          "maxTemp": 19,
-          "minTemp": 10,
-          "pop": 94
+          "code": 3,
+          "maxTemp": 16,
+          "minTemp": 8,
+          "pop": 70
         },
         {
           "date": "11/19",
           "dow": "木",
-          "code": 95,
-          "maxTemp": 13,
-          "minTemp": 6,
-          "pop": 100
+          "code": 3,
+          "maxTemp": 15,
+          "minTemp": 4,
+          "pop": 70
         },
         {
           "date": "11/20",
           "dow": "金",
-          "code": 85,
+          "code": 3,
           "maxTemp": 7,
-          "minTemp": 4,
-          "pop": 100
+          "minTemp": 3,
+          "pop": 70
         },
         {
           "date": "11/21",
           "dow": "土",
-          "code": 80,
-          "maxTemp": 7,
+          "code": 3,
+          "maxTemp": 8,
+          "minTemp": 3,
+          "pop": 70
+        },
+        {
+          "date": "11/22",
+          "dow": "日",
+          "code": 3,
+          "maxTemp": 11,
           "minTemp": 4,
-          "pop": 100
+          "pop": 60
         }
       ]
     },
     {
       "name": "金沢",
       "region": "北陸",
-      "temp": 16,
+      "temp": 12,
       "code": 61,
       "wind": 4,
-      "maxTemp": 17,
-      "minTemp": 14,
-      "pop": 100,
+      "maxTemp": 16,
+      "minTemp": 9,
+      "pop": 60,
       "hourly": [
         {
-          "time": "17:00",
+          "time": "15:00",
           "code": 61,
-          "temp": 16,
-          "pop": 89
-        },
-        {
-          "time": "20:00",
-          "code": 3,
-          "temp": 16,
-          "pop": 82
-        },
-        {
-          "time": "23:00",
-          "code": 51,
           "temp": 15,
-          "pop": 96
+          "pop": 60
         },
         {
-          "time": "02:00",
-          "code": 2,
-          "temp": 15,
-          "pop": 82
-        },
-        {
-          "time": "05:00",
-          "code": 2,
+          "time": "18:00",
+          "code": 61,
           "temp": 14,
-          "pop": 43
+          "pop": 60
         },
         {
-          "time": "08:00",
-          "code": 3,
+          "time": "21:00",
+          "code": 61,
+          "temp": 12,
+          "pop": 60
+        },
+        {
+          "time": "00:00",
+          "code": 61,
+          "temp": 9,
+          "pop": 60
+        },
+        {
+          "time": "03:00",
+          "code": 61,
+          "temp": 10,
+          "pop": 60
+        },
+        {
+          "time": "06:00",
+          "code": 61,
+          "temp": 11,
+          "pop": 60
+        },
+        {
+          "time": "09:00",
+          "code": 61,
           "temp": 13,
-          "pop": 13
+          "pop": 60
         },
         {
-          "time": "11:00",
-          "code": 3,
-          "temp": 14,
-          "pop": 23
-        },
-        {
-          "time": "14:00",
-          "code": 2,
-          "temp": 14,
-          "pop": 15
+          "time": "12:00",
+          "code": 61,
+          "temp": 15,
+          "pop": 60
         }
       ],
       "daily": [
         {
-          "date": "11/15",
-          "dow": "今日",
-          "code": 61,
-          "maxTemp": 17,
-          "minTemp": 14,
-          "pop": 100
-        },
-        {
           "date": "11/16",
-          "dow": "明日",
+          "dow": "今日",
           "code": 3,
           "maxTemp": 16,
-          "minTemp": 10,
-          "pop": 98
+          "minTemp": 9,
+          "pop": 60
         },
         {
           "date": "11/17",
-          "dow": "火",
-          "code": 51,
-          "maxTemp": 15,
+          "dow": "明日",
+          "code": 3,
+          "maxTemp": 16,
           "minTemp": 9,
-          "pop": 17
+          "pop": 40
         },
         {
           "date": "11/18",
           "dow": "水",
-          "code": 81,
-          "maxTemp": 18,
+          "code": 3,
+          "maxTemp": 17,
           "minTemp": 12,
-          "pop": 98
+          "pop": 70
         },
         {
           "date": "11/19",
           "dow": "木",
-          "code": 85,
-          "maxTemp": 13,
+          "code": 3,
+          "maxTemp": 14,
           "minTemp": 6,
-          "pop": 100
+          "pop": 70
         },
         {
           "date": "11/20",
           "dow": "金",
-          "code": 85,
-          "maxTemp": 8,
-          "minTemp": 4,
-          "pop": 100
+          "code": 3,
+          "maxTemp": 7,
+          "minTemp": 5,
+          "pop": 70
         },
         {
           "date": "11/21",
           "dow": "土",
-          "code": 80,
+          "code": 3,
           "maxTemp": 8,
-          "minTemp": 3,
-          "pop": 100
+          "minTemp": 4,
+          "pop": 70
+        },
+        {
+          "date": "11/22",
+          "dow": "日",
+          "code": 3,
+          "maxTemp": 13,
+          "minTemp": 6,
+          "pop": 60
         }
       ]
     },
@@ -487,825 +487,825 @@ window.NEWS_DATA = {
       "name": "東京",
       "region": "関東",
       "temp": 11,
-      "code": 53,
-      "wind": 6,
-      "maxTemp": 14,
-      "minTemp": 11,
-      "pop": 100,
+      "code": 61,
+      "wind": 4,
+      "maxTemp": 19,
+      "minTemp": 10,
+      "pop": 50,
       "hourly": [
         {
-          "time": "17:00",
-          "code": 53,
-          "temp": 11,
-          "pop": 100
-        },
-        {
-          "time": "20:00",
+          "time": "15:00",
           "code": 61,
-          "temp": 12,
-          "pop": 99
-        },
-        {
-          "time": "23:00",
-          "code": 2,
-          "temp": 12,
-          "pop": 63
-        },
-        {
-          "time": "02:00",
-          "code": 0,
-          "temp": 15,
-          "pop": 21
-        },
-        {
-          "time": "05:00",
-          "code": 0,
-          "temp": 15,
-          "pop": 5
-        },
-        {
-          "time": "08:00",
-          "code": 0,
-          "temp": 15,
-          "pop": 1
-        },
-        {
-          "time": "11:00",
-          "code": 0,
           "temp": 18,
-          "pop": 0
+          "pop": 50
         },
         {
-          "time": "14:00",
-          "code": 0,
+          "time": "18:00",
+          "code": 61,
+          "temp": 16,
+          "pop": 50
+        },
+        {
+          "time": "21:00",
+          "code": 61,
+          "temp": 14,
+          "pop": 50
+        },
+        {
+          "time": "00:00",
+          "code": 61,
+          "temp": 10,
+          "pop": 50
+        },
+        {
+          "time": "03:00",
+          "code": 61,
+          "temp": 11,
+          "pop": 50
+        },
+        {
+          "time": "06:00",
+          "code": 61,
+          "temp": 13,
+          "pop": 50
+        },
+        {
+          "time": "09:00",
+          "code": 61,
+          "temp": 15,
+          "pop": 50
+        },
+        {
+          "time": "12:00",
+          "code": 61,
           "temp": 18,
-          "pop": 0
+          "pop": 50
         }
       ],
       "daily": [
         {
-          "date": "11/15",
-          "dow": "今日",
-          "code": 63,
-          "maxTemp": 14,
-          "minTemp": 11,
-          "pop": 100
-        },
-        {
           "date": "11/16",
-          "dow": "明日",
-          "code": 3,
-          "maxTemp": 18,
-          "minTemp": 12,
-          "pop": 47
+          "dow": "今日",
+          "code": 1,
+          "maxTemp": 19,
+          "minTemp": 10,
+          "pop": 50
         },
         {
           "date": "11/17",
-          "dow": "火",
-          "code": 63,
-          "maxTemp": 12,
+          "dow": "明日",
+          "code": 3,
+          "maxTemp": 14,
           "minTemp": 10,
-          "pop": 65
+          "pop": 60
         },
         {
           "date": "11/18",
           "dow": "水",
-          "code": 65,
+          "code": 3,
           "maxTemp": 17,
-          "minTemp": 10,
-          "pop": 84
+          "minTemp": 9,
+          "pop": 70
         },
         {
           "date": "11/19",
           "dow": "木",
           "code": 1,
-          "maxTemp": 18,
-          "minTemp": 10,
-          "pop": 12
+          "maxTemp": 19,
+          "minTemp": 8,
+          "pop": 20
         },
         {
           "date": "11/20",
           "dow": "金",
-          "code": 0,
-          "maxTemp": 13,
-          "minTemp": 7,
-          "pop": 1
+          "code": 1,
+          "maxTemp": 15,
+          "minTemp": 6,
+          "pop": 20
         },
         {
           "date": "11/21",
           "dow": "土",
-          "code": 0,
+          "code": 1,
           "maxTemp": 14,
           "minTemp": 5,
-          "pop": 0
+          "pop": 20
+        },
+        {
+          "date": "11/22",
+          "dow": "日",
+          "code": 1,
+          "maxTemp": 15,
+          "minTemp": 5,
+          "pop": 20
         }
       ]
     },
     {
       "name": "名古屋",
       "region": "東海",
-      "temp": 14,
-      "code": 51,
+      "temp": 13,
+      "code": 95,
       "wind": 4,
-      "maxTemp": 15,
-      "minTemp": 13,
-      "pop": 100,
+      "maxTemp": 20,
+      "minTemp": 11,
+      "pop": 20,
       "hourly": [
         {
-          "time": "17:00",
-          "code": 61,
-          "temp": 14,
-          "pop": 100
+          "time": "15:00",
+          "code": 95,
+          "temp": 19,
+          "pop": 20
         },
         {
-          "time": "20:00",
-          "code": 2,
-          "temp": 14,
-          "pop": 61
+          "time": "18:00",
+          "code": 95,
+          "temp": 17,
+          "pop": 20
         },
         {
-          "time": "23:00",
-          "code": 0,
+          "time": "21:00",
+          "code": 95,
           "temp": 15,
-          "pop": 17
+          "pop": 20
         },
         {
-          "time": "02:00",
-          "code": 0,
-          "temp": 15,
-          "pop": 1
+          "time": "00:00",
+          "code": 95,
+          "temp": 11,
+          "pop": 20
         },
         {
-          "time": "05:00",
-          "code": 0,
+          "time": "03:00",
+          "code": 95,
+          "temp": 12,
+          "pop": 20
+        },
+        {
+          "time": "06:00",
+          "code": 95,
           "temp": 14,
-          "pop": 0
+          "pop": 20
         },
         {
-          "time": "08:00",
-          "code": 0,
-          "temp": 14,
-          "pop": 0
+          "time": "09:00",
+          "code": 95,
+          "temp": 16,
+          "pop": 20
         },
         {
-          "time": "11:00",
-          "code": 2,
+          "time": "12:00",
+          "code": 95,
           "temp": 18,
-          "pop": 0
-        },
-        {
-          "time": "14:00",
-          "code": 2,
-          "temp": 18,
-          "pop": 0
+          "pop": 20
         }
       ],
       "daily": [
         {
-          "date": "11/15",
-          "dow": "今日",
-          "code": 63,
-          "maxTemp": 15,
-          "minTemp": 13,
-          "pop": 100
-        },
-        {
           "date": "11/16",
-          "dow": "明日",
-          "code": 2,
-          "maxTemp": 19,
-          "minTemp": 12,
-          "pop": 8
+          "dow": "今日",
+          "code": 0,
+          "maxTemp": 20,
+          "minTemp": 11,
+          "pop": 20
         },
         {
           "date": "11/17",
-          "dow": "火",
+          "dow": "明日",
           "code": 3,
-          "maxTemp": 18,
+          "maxTemp": 16,
           "minTemp": 11,
-          "pop": 62
+          "pop": 70
         },
         {
           "date": "11/18",
           "dow": "水",
-          "code": 80,
-          "maxTemp": 21,
+          "code": 3,
+          "maxTemp": 18,
           "minTemp": 13,
-          "pop": 81
+          "pop": 70
         },
         {
           "date": "11/19",
           "dow": "木",
           "code": 1,
-          "maxTemp": 14,
-          "minTemp": 6,
-          "pop": 65
+          "maxTemp": 15,
+          "minTemp": 8,
+          "pop": 30
         },
         {
           "date": "11/20",
           "dow": "金",
           "code": 1,
-          "maxTemp": 12,
+          "maxTemp": 10,
           "minTemp": 5,
-          "pop": 14
+          "pop": 20
         },
         {
           "date": "11/21",
           "dow": "土",
-          "code": 3,
-          "maxTemp": 12,
-          "minTemp": 3,
-          "pop": 8
+          "code": 1,
+          "maxTemp": 11,
+          "minTemp": 5,
+          "pop": 20
+        },
+        {
+          "date": "11/22",
+          "dow": "日",
+          "code": 1,
+          "maxTemp": 13,
+          "minTemp": 5,
+          "pop": 20
         }
       ]
     },
     {
       "name": "大阪",
       "region": "近畿",
-      "temp": 15,
-      "code": 2,
-      "wind": 2,
-      "maxTemp": 16,
-      "minTemp": 14,
-      "pop": 100,
+      "temp": 14,
+      "code": 80,
+      "wind": 4,
+      "maxTemp": 18,
+      "minTemp": 10,
+      "pop": 30,
       "hourly": [
         {
-          "time": "17:00",
-          "code": 51,
-          "temp": 15,
-          "pop": 87
+          "time": "15:00",
+          "code": 80,
+          "temp": 17,
+          "pop": 30
         },
         {
-          "time": "20:00",
-          "code": 1,
+          "time": "18:00",
+          "code": 80,
           "temp": 15,
           "pop": 30
         },
         {
-          "time": "23:00",
-          "code": 1,
+          "time": "21:00",
+          "code": 80,
+          "temp": 13,
+          "pop": 30
+        },
+        {
+          "time": "00:00",
+          "code": 80,
+          "temp": 10,
+          "pop": 30
+        },
+        {
+          "time": "03:00",
+          "code": 80,
+          "temp": 11,
+          "pop": 30
+        },
+        {
+          "time": "06:00",
+          "code": 80,
+          "temp": 13,
+          "pop": 30
+        },
+        {
+          "time": "09:00",
+          "code": 80,
           "temp": 15,
-          "pop": 3
+          "pop": 30
         },
         {
-          "time": "02:00",
-          "code": 0,
-          "temp": 14,
-          "pop": 0
-        },
-        {
-          "time": "05:00",
-          "code": 0,
-          "temp": 14,
-          "pop": 0
-        },
-        {
-          "time": "08:00",
-          "code": 0,
-          "temp": 14,
-          "pop": 0
-        },
-        {
-          "time": "11:00",
-          "code": 2,
-          "temp": 18,
-          "pop": 0
-        },
-        {
-          "time": "14:00",
-          "code": 2,
-          "temp": 18,
-          "pop": 0
+          "time": "12:00",
+          "code": 80,
+          "temp": 17,
+          "pop": 30
         }
       ],
       "daily": [
         {
-          "date": "11/15",
-          "dow": "今日",
-          "code": 65,
-          "maxTemp": 16,
-          "minTemp": 14,
-          "pop": 100
-        },
-        {
           "date": "11/16",
-          "dow": "明日",
+          "dow": "今日",
           "code": 3,
           "maxTemp": 18,
-          "minTemp": 11,
-          "pop": 2
+          "minTemp": 10,
+          "pop": 30
         },
         {
           "date": "11/17",
-          "dow": "火",
-          "code": 51,
+          "dow": "明日",
+          "code": 1,
           "maxTemp": 17,
-          "minTemp": 9,
-          "pop": 42
+          "minTemp": 10,
+          "pop": 30
         },
         {
           "date": "11/18",
           "dow": "水",
-          "code": 53,
-          "maxTemp": 19,
-          "minTemp": 13,
-          "pop": 71
+          "code": 3,
+          "maxTemp": 20,
+          "minTemp": 15,
+          "pop": 60
         },
         {
           "date": "11/19",
           "dow": "木",
-          "code": 1,
-          "maxTemp": 14,
-          "minTemp": 9,
-          "pop": 33
+          "code": 3,
+          "maxTemp": 17,
+          "minTemp": 10,
+          "pop": 30
         },
         {
           "date": "11/20",
           "dow": "金",
-          "code": 1,
+          "code": 3,
           "maxTemp": 11,
-          "minTemp": 7,
-          "pop": 5
+          "minTemp": 8,
+          "pop": 30
         },
         {
           "date": "11/21",
           "dow": "土",
-          "code": 1,
+          "code": 3,
           "maxTemp": 12,
-          "minTemp": 4,
-          "pop": 6
+          "minTemp": 7,
+          "pop": 30
+        },
+        {
+          "date": "11/22",
+          "dow": "日",
+          "code": 1,
+          "maxTemp": 14,
+          "minTemp": 7,
+          "pop": 20
         }
       ]
     },
     {
       "name": "広島",
       "region": "中国",
-      "temp": 17,
-      "code": 1,
-      "wind": 7,
-      "maxTemp": 18,
-      "minTemp": 14,
-      "pop": 100,
+      "temp": 13,
+      "code": 3,
+      "wind": 4,
+      "maxTemp": 20,
+      "minTemp": 10,
+      "pop": 10,
       "hourly": [
         {
-          "time": "17:00",
-          "code": 1,
-          "temp": 17,
-          "pop": 9
-        },
-        {
-          "time": "20:00",
-          "code": 1,
-          "temp": 16,
-          "pop": 1
-        },
-        {
-          "time": "23:00",
-          "code": 0,
-          "temp": 15,
-          "pop": 1
-        },
-        {
-          "time": "02:00",
-          "code": 1,
-          "temp": 14,
-          "pop": 0
-        },
-        {
-          "time": "05:00",
-          "code": 1,
-          "temp": 14,
-          "pop": 0
-        },
-        {
-          "time": "08:00",
-          "code": 1,
-          "temp": 13,
-          "pop": 0
-        },
-        {
-          "time": "11:00",
-          "code": 2,
-          "temp": 18,
-          "pop": 0
-        },
-        {
-          "time": "14:00",
-          "code": 2,
+          "time": "15:00",
+          "code": 3,
           "temp": 19,
-          "pop": 0
+          "pop": 10
+        },
+        {
+          "time": "18:00",
+          "code": 3,
+          "temp": 17,
+          "pop": 10
+        },
+        {
+          "time": "21:00",
+          "code": 3,
+          "temp": 14,
+          "pop": 10
+        },
+        {
+          "time": "00:00",
+          "code": 3,
+          "temp": 10,
+          "pop": 10
+        },
+        {
+          "time": "03:00",
+          "code": 3,
+          "temp": 11,
+          "pop": 10
+        },
+        {
+          "time": "06:00",
+          "code": 3,
+          "temp": 13,
+          "pop": 10
+        },
+        {
+          "time": "09:00",
+          "code": 3,
+          "temp": 16,
+          "pop": 10
+        },
+        {
+          "time": "12:00",
+          "code": 3,
+          "temp": 18,
+          "pop": 10
         }
       ],
       "daily": [
         {
-          "date": "11/15",
-          "dow": "今日",
-          "code": 63,
-          "maxTemp": 18,
-          "minTemp": 14,
-          "pop": 100
-        },
-        {
           "date": "11/16",
-          "dow": "明日",
-          "code": 2,
-          "maxTemp": 19,
-          "minTemp": 12,
-          "pop": 0
+          "dow": "今日",
+          "code": 1,
+          "maxTemp": 20,
+          "minTemp": 10,
+          "pop": 10
         },
         {
           "date": "11/17",
-          "dow": "火",
+          "dow": "明日",
           "code": 3,
-          "maxTemp": 17,
-          "minTemp": 12,
-          "pop": 35
+          "maxTemp": 19,
+          "minTemp": 10,
+          "pop": 50
         },
         {
           "date": "11/18",
           "dow": "水",
-          "code": 53,
+          "code": 3,
           "maxTemp": 18,
-          "minTemp": 11,
-          "pop": 65
+          "minTemp": 12,
+          "pop": 60
         },
         {
           "date": "11/19",
           "dow": "木",
-          "code": 51,
-          "maxTemp": 12,
+          "code": 3,
+          "maxTemp": 15,
           "minTemp": 7,
-          "pop": 40
+          "pop": 30
         },
         {
           "date": "11/20",
           "dow": "金",
-          "code": 51,
-          "maxTemp": 9,
-          "minTemp": 6,
-          "pop": 25
+          "code": 3,
+          "maxTemp": 10,
+          "minTemp": 5,
+          "pop": 30
         },
         {
           "date": "11/21",
           "dow": "土",
-          "code": 51,
-          "maxTemp": 10,
-          "minTemp": 2,
-          "pop": 9
+          "code": 3,
+          "maxTemp": 11,
+          "minTemp": 5,
+          "pop": 30
+        },
+        {
+          "date": "11/22",
+          "dow": "日",
+          "code": 1,
+          "maxTemp": 14,
+          "minTemp": 6,
+          "pop": 20
         }
       ]
     },
     {
       "name": "高知",
       "region": "四国",
-      "temp": 19,
-      "code": 2,
+      "temp": 14,
+      "code": 80,
       "wind": 4,
-      "maxTemp": 20,
-      "minTemp": 15,
-      "pop": 100,
+      "maxTemp": 22,
+      "minTemp": 11,
+      "pop": 10,
       "hourly": [
         {
-          "time": "17:00",
-          "code": 2,
-          "temp": 19,
-          "pop": 42
-        },
-        {
-          "time": "20:00",
-          "code": 0,
-          "temp": 17,
-          "pop": 7
-        },
-        {
-          "time": "23:00",
-          "code": 0,
-          "temp": 16,
-          "pop": 0
-        },
-        {
-          "time": "02:00",
-          "code": 0,
-          "temp": 15,
-          "pop": 0
-        },
-        {
-          "time": "05:00",
-          "code": 0,
-          "temp": 14,
-          "pop": 0
-        },
-        {
-          "time": "08:00",
-          "code": 1,
-          "temp": 15,
-          "pop": 0
-        },
-        {
-          "time": "11:00",
-          "code": 2,
-          "temp": 20,
-          "pop": 0
-        },
-        {
-          "time": "14:00",
-          "code": 2,
+          "time": "15:00",
+          "code": 80,
           "temp": 21,
-          "pop": 0
+          "pop": 10
+        },
+        {
+          "time": "18:00",
+          "code": 80,
+          "temp": 18,
+          "pop": 10
+        },
+        {
+          "time": "21:00",
+          "code": 80,
+          "temp": 16,
+          "pop": 10
+        },
+        {
+          "time": "00:00",
+          "code": 80,
+          "temp": 11,
+          "pop": 10
+        },
+        {
+          "time": "03:00",
+          "code": 80,
+          "temp": 12,
+          "pop": 10
+        },
+        {
+          "time": "06:00",
+          "code": 80,
+          "temp": 15,
+          "pop": 10
+        },
+        {
+          "time": "09:00",
+          "code": 80,
+          "temp": 17,
+          "pop": 10
+        },
+        {
+          "time": "12:00",
+          "code": 80,
+          "temp": 20,
+          "pop": 10
         }
       ],
       "daily": [
         {
-          "date": "11/15",
-          "dow": "今日",
-          "code": 63,
-          "maxTemp": 20,
-          "minTemp": 15,
-          "pop": 100
-        },
-        {
           "date": "11/16",
-          "dow": "明日",
-          "code": 3,
-          "maxTemp": 21,
-          "minTemp": 14,
-          "pop": 2
+          "dow": "今日",
+          "code": 1,
+          "maxTemp": 22,
+          "minTemp": 11,
+          "pop": 10
         },
         {
           "date": "11/17",
-          "dow": "火",
-          "code": 55,
-          "maxTemp": 19,
-          "minTemp": 13,
-          "pop": 46
+          "dow": "明日",
+          "code": 3,
+          "maxTemp": 20,
+          "minTemp": 11,
+          "pop": 50
         },
         {
           "date": "11/18",
           "dow": "水",
-          "code": 51,
-          "maxTemp": 22,
+          "code": 3,
+          "maxTemp": 21,
           "minTemp": 12,
-          "pop": 51
+          "pop": 60
         },
         {
           "date": "11/19",
           "dow": "木",
-          "code": 51,
-          "maxTemp": 14,
-          "minTemp": 9,
-          "pop": 14
+          "code": 3,
+          "maxTemp": 17,
+          "minTemp": 8,
+          "pop": 30
         },
         {
           "date": "11/20",
           "dow": "金",
-          "code": 51,
+          "code": 3,
           "maxTemp": 12,
           "minTemp": 6,
-          "pop": 6
+          "pop": 30
         },
         {
           "date": "11/21",
           "dow": "土",
-          "code": 45,
-          "maxTemp": 14,
-          "minTemp": 3,
-          "pop": 2
+          "code": 3,
+          "maxTemp": 13,
+          "minTemp": 5,
+          "pop": 30
+        },
+        {
+          "date": "11/22",
+          "dow": "日",
+          "code": 1,
+          "maxTemp": 16,
+          "minTemp": 5,
+          "pop": 20
         }
       ]
     },
     {
       "name": "福岡",
       "region": "九州",
-      "temp": 19,
-      "code": 2,
-      "wind": 18,
-      "maxTemp": 19,
-      "minTemp": 17,
-      "pop": 100,
+      "temp": 15,
+      "code": 80,
+      "wind": 4,
+      "maxTemp": 21,
+      "minTemp": 14,
+      "pop": 10,
       "hourly": [
         {
-          "time": "17:00",
-          "code": 2,
-          "temp": 19,
-          "pop": 67
-        },
-        {
-          "time": "20:00",
-          "code": 1,
-          "temp": 19,
-          "pop": 41
-        },
-        {
-          "time": "23:00",
-          "code": 2,
-          "temp": 19,
-          "pop": 13
-        },
-        {
-          "time": "02:00",
-          "code": 2,
-          "temp": 19,
-          "pop": 1
-        },
-        {
-          "time": "05:00",
-          "code": 1,
-          "temp": 16,
-          "pop": 2
-        },
-        {
-          "time": "08:00",
-          "code": 1,
-          "temp": 16,
-          "pop": 1
-        },
-        {
-          "time": "11:00",
-          "code": 2,
-          "temp": 19,
-          "pop": 0
-        },
-        {
-          "time": "14:00",
-          "code": 3,
+          "time": "15:00",
+          "code": 80,
           "temp": 20,
-          "pop": 0
+          "pop": 10
+        },
+        {
+          "time": "18:00",
+          "code": 80,
+          "temp": 19,
+          "pop": 10
+        },
+        {
+          "time": "21:00",
+          "code": 80,
+          "temp": 17,
+          "pop": 10
+        },
+        {
+          "time": "00:00",
+          "code": 80,
+          "temp": 14,
+          "pop": 10
+        },
+        {
+          "time": "03:00",
+          "code": 80,
+          "temp": 15,
+          "pop": 10
+        },
+        {
+          "time": "06:00",
+          "code": 80,
+          "temp": 16,
+          "pop": 10
+        },
+        {
+          "time": "09:00",
+          "code": 80,
+          "temp": 18,
+          "pop": 10
+        },
+        {
+          "time": "12:00",
+          "code": 80,
+          "temp": 20,
+          "pop": 10
         }
       ],
       "daily": [
         {
-          "date": "11/15",
-          "dow": "今日",
-          "code": 65,
-          "maxTemp": 19,
-          "minTemp": 17,
-          "pop": 100
-        },
-        {
           "date": "11/16",
-          "dow": "明日",
+          "dow": "今日",
           "code": 3,
-          "maxTemp": 20,
-          "minTemp": 16,
-          "pop": 4
+          "maxTemp": 21,
+          "minTemp": 14,
+          "pop": 10
         },
         {
           "date": "11/17",
-          "dow": "火",
+          "dow": "明日",
           "code": 3,
-          "maxTemp": 20,
-          "minTemp": 16,
-          "pop": 39
+          "maxTemp": 18,
+          "minTemp": 14,
+          "pop": 50
         },
         {
           "date": "11/18",
           "dow": "水",
-          "code": 61,
-          "maxTemp": 18,
-          "minTemp": 11,
-          "pop": 78
+          "code": 3,
+          "maxTemp": 19,
+          "minTemp": 12,
+          "pop": 70
         },
         {
           "date": "11/19",
           "dow": "木",
-          "code": 53,
-          "maxTemp": 12,
-          "minTemp": 8,
-          "pop": 73
+          "code": 3,
+          "maxTemp": 15,
+          "minTemp": 9,
+          "pop": 50
         },
         {
           "date": "11/20",
           "dow": "金",
-          "code": 51,
-          "maxTemp": 10,
+          "code": 3,
+          "maxTemp": 11,
           "minTemp": 7,
-          "pop": 76
+          "pop": 50
         },
         {
           "date": "11/21",
           "dow": "土",
-          "code": 53,
-          "maxTemp": 11,
-          "minTemp": 6,
-          "pop": 54
+          "code": 3,
+          "maxTemp": 12,
+          "minTemp": 7,
+          "pop": 40
+        },
+        {
+          "date": "11/22",
+          "dow": "日",
+          "code": 3,
+          "maxTemp": 16,
+          "minTemp": 8,
+          "pop": 30
         }
       ]
     },
     {
       "name": "那覇",
       "region": "沖縄",
-      "temp": 24,
-      "code": 1,
-      "wind": 14,
+      "temp": 21,
+      "code": 80,
+      "wind": 4,
       "maxTemp": 26,
-      "minTemp": 22,
-      "pop": 100,
+      "minTemp": 21,
+      "pop": 10,
       "hourly": [
         {
-          "time": "17:00",
-          "code": 1,
-          "temp": 24,
-          "pop": 5
-        },
-        {
-          "time": "20:00",
-          "code": 0,
-          "temp": 23,
-          "pop": 0
-        },
-        {
-          "time": "23:00",
-          "code": 1,
-          "temp": 22,
-          "pop": 0
-        },
-        {
-          "time": "02:00",
-          "code": 0,
-          "temp": 22,
-          "pop": 0
-        },
-        {
-          "time": "05:00",
-          "code": 0,
-          "temp": 21,
-          "pop": 2
-        },
-        {
-          "time": "08:00",
-          "code": 0,
-          "temp": 22,
-          "pop": 0
-        },
-        {
-          "time": "11:00",
-          "code": 0,
-          "temp": 25,
-          "pop": 17
-        },
-        {
-          "time": "14:00",
-          "code": 0,
+          "time": "15:00",
+          "code": 80,
           "temp": 26,
-          "pop": 34
+          "pop": 10
+        },
+        {
+          "time": "18:00",
+          "code": 80,
+          "temp": 24,
+          "pop": 10
+        },
+        {
+          "time": "21:00",
+          "code": 80,
+          "temp": 23,
+          "pop": 10
+        },
+        {
+          "time": "00:00",
+          "code": 80,
+          "temp": 21,
+          "pop": 10
+        },
+        {
+          "time": "03:00",
+          "code": 80,
+          "temp": 21,
+          "pop": 10
+        },
+        {
+          "time": "06:00",
+          "code": 80,
+          "temp": 23,
+          "pop": 10
+        },
+        {
+          "time": "09:00",
+          "code": 80,
+          "temp": 24,
+          "pop": 10
+        },
+        {
+          "time": "12:00",
+          "code": 80,
+          "temp": 25,
+          "pop": 10
         }
       ],
       "daily": [
         {
-          "date": "11/15",
-          "dow": "今日",
-          "code": 95,
-          "maxTemp": 26,
-          "minTemp": 22,
-          "pop": 100
-        },
-        {
           "date": "11/16",
-          "dow": "明日",
-          "code": 51,
+          "dow": "今日",
+          "code": 3,
           "maxTemp": 26,
           "minTemp": 21,
-          "pop": 35
+          "pop": 10
         },
         {
           "date": "11/17",
-          "dow": "火",
-          "code": 81,
+          "dow": "明日",
+          "code": 3,
           "maxTemp": 26,
-          "minTemp": 20,
-          "pop": 57
+          "minTemp": 21,
+          "pop": 40
         },
         {
           "date": "11/18",
           "dow": "水",
-          "code": 51,
-          "maxTemp": 24,
+          "code": 3,
+          "maxTemp": 25,
           "minTemp": 21,
-          "pop": 62
+          "pop": 40
         },
         {
           "date": "11/19",
           "dow": "木",
-          "code": 55,
-          "maxTemp": 21,
+          "code": 3,
+          "maxTemp": 23,
           "minTemp": 18,
-          "pop": 67
+          "pop": 40
         },
         {
           "date": "11/20",
           "dow": "金",
-          "code": 3,
-          "maxTemp": 20,
+          "code": 1,
+          "maxTemp": 21,
           "minTemp": 17,
-          "pop": 10
+          "pop": 20
         },
         {
           "date": "11/21",
           "dow": "土",
           "code": 3,
-          "maxTemp": 20,
+          "maxTemp": 22,
           "minTemp": 17,
-          "pop": 10
+          "pop": 30
+        },
+        {
+          "date": "11/22",
+          "dow": "日",
+          "code": 3,
+          "maxTemp": 24,
+          "minTemp": 17,
+          "pop": 30
         }
       ]
     }
@@ -1482,15 +1482,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "entertainment",
-      "title": "松丸亮吾チーム脱出ゲーム世界3位",
+      "title": "ジョイマン高木 20分間ラップ連発",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 16:29",
-      "publishedTs": 1794727770,
-      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/15/56f242f27b2ce20d4c1cdb035d5181a87fce32e33369446f70ceecd9f121124a.jpg",
-      "summary": "謎解きクリエーターとして活躍中のタレント・松丸亮吾（30）が15日、自身のXを更新。脱出ゲーム世界大会で、自身が所属するチームが3位に入ったことを報告した。",
+      "publishedAt": "2026-11-15 17:10",
+      "publishedTs": 1794730257,
+      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/15/ac31a3987efe94d2a02ae0d3b5a572ce6f6652b837581819269d844ecf7e3862.jpg",
+      "summary": "お笑いコンビ・ジョイマン（池谷和志さん、高木晋哉さん）がファミリーマート「親子おむすび教室」戦略発表会に登壇しました。",
       "points": [
         "カテゴリ: 芸能・エンタメの注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 16:29）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 17:10）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "芸能・エンタメ分野で関心を集めている最新ニュースです。",
@@ -1498,7 +1498,7 @@ window.NEWS_DATA = {
         "芸能・エンタメ",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/pickup/6602682?source=rss",
+      "url": "https://news.yahoo.co.jp/pickup/6602692?source=rss",
       "isAiEnriched": false
     },
     {
@@ -1588,15 +1588,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "entertainment",
-      "title": "元≠ME菅波 事務所所属で再始動",
+      "title": "松丸亮吾チーム脱出ゲーム世界3位",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 14:27",
-      "publishedTs": 1794720446,
-      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/15/4ff1cf6f4f9b415a92b2f5dfa7da78c0b8654cb08648f679c4d4f0956d7cf724.jpg",
-      "summary": "【モデルプレス＝2026/11/15】元≠MEの菅波美玲（すがなみ・みれい）が2026年11月15日付で株式会社NEXT LEAPに所属したことがわかった。",
+      "publishedAt": "2026-11-15 16:29",
+      "publishedTs": 1794727770,
+      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/15/56f242f27b2ce20d4c1cdb035d5181a87fce32e33369446f70ceecd9f121124a.jpg",
+      "summary": "謎解きクリエーターとして活躍中のタレント・松丸亮吾（30）が15日、自身のXを更新。脱出ゲーム世界大会で、自身が所属するチームが3位に入ったことを報告した。",
       "points": [
         "カテゴリ: 芸能・エンタメの注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 14:27）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 16:29）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "芸能・エンタメ分野で関心を集めている最新ニュースです。",
@@ -1604,7 +1604,7 @@ window.NEWS_DATA = {
         "芸能・エンタメ",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/pickup/6602666?source=rss",
+      "url": "https://news.yahoo.co.jp/pickup/6602682?source=rss",
       "isAiEnriched": false
     },
     {
@@ -1862,15 +1862,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "【ハイエンドオーディオ＆アクセサリーショウ2026】オーディオ銘機賞受賞モデルが聴ける！山之内 正氏＆小原由夫氏による講演予定(PHILE WEB)",
+      "title": "Netflix、日本で値上げ　広告つき990円、Standardは1790円に(CNET Japan)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 17:16",
-      "publishedTs": 1794730606,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00131718-phileweb-000-1-view.jpg?exp=10800",
-      "summary": "小社主催によるオーディオの祭典「ハイエンドオーディオ＆アクセサリーショウ2026」が、11月21日（土）と22日（日）に、浅草橋のヒューリックホールにて開催されます。速報にてお知らせいたしました今年…",
+      "publishedAt": "2026-11-15 17:30",
+      "publishedTs": 1794731400,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-35254907-cnetj-000-1-view.jpg?exp=10800",
+      "summary": "Netflixは、日本で新規加入できる全3プランの月額料金を引き上げた。最も安い「広告つきスタンダード」は890円から990円に、「スタンダード」は1590円から1790円に、「プレミアム」は229…",
       "points": [
         "カテゴリ: テクノロジー・AIの注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 17:16）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 17:30）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "テクノロジー・AI分野で関心を集めている最新ニュースです。",
@@ -1878,7 +1878,7 @@ window.NEWS_DATA = {
         "テクノロジー・AI",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/c7e7911bb9365676b6140a048159ec567a2234f9?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/0686fadccd891a9a9a2d4c294edbeefa57a0dfbe?source=rss",
       "isAiEnriched": false
     },
     {
@@ -1968,15 +1968,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "ガソリン車より150万円高価なディーゼル版「ランクル250 ZX」。一生モノとして推せる理由と悩ましい弱点(アスキー)",
+      "title": "【ハイエンドオーディオ＆アクセサリーショウ2026】オーディオ銘機賞受賞モデルが聴ける！山之内 正氏＆小原由夫氏による講演予定(PHILE WEB)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 17:15",
-      "publishedTs": 1794730500,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00000004-ascii-000-1-view.jpg?exp=10800",
-      "summary": "「ランドクルーザープラド」の事実上の後継モデルとして、2024年4月に登場したトヨタ「ランドクルーザー250」。人気が高く、発売直後から手に入りにくい状態が続いています。2.8Lディーゼル車は現在受…",
+      "publishedAt": "2026-11-15 17:16",
+      "publishedTs": 1794730606,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00131718-phileweb-000-1-view.jpg?exp=10800",
+      "summary": "小社主催によるオーディオの祭典「ハイエンドオーディオ＆アクセサリーショウ2026」が、11月21日（土）と22日（日）に、浅草橋のヒューリックホールにて開催されます。速報にてお知らせいたしました今年…",
       "points": [
         "カテゴリ: テクノロジー・AIの注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 17:15）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 17:16）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "テクノロジー・AI分野で関心を集めている最新ニュースです。",
@@ -1984,7 +1984,7 @@ window.NEWS_DATA = {
         "テクノロジー・AI",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/e6e8e319adf96e7debf478a87c7d9f614604cfe1?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/c7e7911bb9365676b6140a048159ec567a2234f9?source=rss",
       "isAiEnriched": false
     },
     {
@@ -2073,15 +2073,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "SpaceX、スターシップ上段の「箸キャッチ」に初成功、機体完全再使用へ前進(ビジネス＋IT)",
+      "title": "ガソリン車より150万円高価なディーゼル版「ランクル250 ZX」。一生モノとして推せる理由と悩ましい弱点(アスキー)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 17:05",
-      "publishedTs": 1794729913,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00188421-biz_plus-000-1-view.jpg?exp=10800",
-      "summary": "米SpaceXは2026年11月14日、次世代大型ロケット「スターシップ」の第15回飛行試験において、地球周回軌道から帰還した上段宇宙船を発射塔のアームで直接受け止めることに初めて成功した。軌道速度…",
+      "publishedAt": "2026-11-15 17:15",
+      "publishedTs": 1794730500,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00000004-ascii-000-1-view.jpg?exp=10800",
+      "summary": "「ランドクルーザープラド」の事実上の後継モデルとして、2024年4月に登場したトヨタ「ランドクルーザー250」。人気が高く、発売直後から手に入りにくい状態が続いています。2.8Lディーゼル車は現在受…",
       "points": [
         "カテゴリ: テクノロジー・AIの注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 17:05）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 17:15）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "テクノロジー・AI分野で関心を集めている最新ニュースです。",
@@ -2089,20 +2089,20 @@ window.NEWS_DATA = {
         "テクノロジー・AI",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/57183faf2bf4471fbbda630b42d0d3fcdd450710?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/e6e8e319adf96e7debf478a87c7d9f614604cfe1?source=rss",
       "isAiEnriched": false
     },
     {
       "category": "business",
-      "title": "仕事をやめた65歳以上の世帯、毎月の不足の平均は「65～69歳の約5.1万円」と「75歳以上の約2.7万円」でこんなに違う？家計調査をもとに90歳までの合計を試算(LIMO)",
+      "title": "米政府がヘリウムを特定重要物質に指定 AIと半導体生産の生命線(Forbes JAPAN)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 17:21",
-      "publishedTs": 1794730880,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00146821-toushin-000-1-view.jpg?exp=10800",
-      "summary": "仕事をやめた後の家計は、毎月いくら足りなくなり、手元資金で何歳までまかなえるのでしょうか。仕事をやめた後の家計の不足は、ずっと同じ額が続くとは限らず、年齢によって手元資金の減り方も変わります。◆【画…",
+      "publishedAt": "2026-11-15 17:30",
+      "publishedTs": 1794731400,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00108142-forbes-000-1-view.jpg?exp=10800",
+      "summary": "米政府がヘリウムガスをAIおよびデータセンターにとって不可欠な「特定重要物質（クリティカル・マテリアル）」に新たに指定したことで、カンザス州、オクラホマ州、テキサス州における採掘プロジェクトが活発化…",
       "points": [
         "カテゴリ: ビジネス・経済の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 17:21）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 17:30）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "ビジネス・経済分野で関心を集めている最新ニュースです。",
@@ -2110,20 +2110,20 @@ window.NEWS_DATA = {
         "ビジネス・経済",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/228b9d87c89059b635c0cbc1a1dd35b1a6db6e9b?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/4c49568e07685f5785a641b9dd6dcd2cc3ef2a76?source=rss",
       "isAiEnriched": false
     },
     {
       "category": "entertainment",
-      "title": "久下真以子アナ、出産を報告「金メダルベビー2号爆誕」(テレビ朝日系（ANN）)",
+      "title": "春風亭一之輔、「マッチ売りの少女」が「ドバイチョコ」を売っていたら、なぜそんなに悲しくならないのか　「少女が抱えたカゴの中には…」(AERA DIGITAL)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 17:21",
-      "publishedTs": 1794730877,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-90204363-ann-000-1-view.jpg?exp=10800",
-      "summary": "フリーアナウンサーの久下真以子（41）が14日、インスタグラムで、第2子となる男児の出産を報告した。久下は2021年9月に、車いすラグビーの羽賀理之選手（42）との結婚を発表し、24年11月に第1子…",
+      "publishedAt": "2026-11-15 17:30",
+      "publishedTs": 1794731436,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00297627-sasahi-000-1-view.jpg?exp=10800",
+      "summary": "落語家・春風亭一之輔さんが連載中のコラム「ああ、それ私よく知ってます。」。今回のお題は「ドバイチョコ」。【写真】対談で爆笑する一之輔師匠はこちら！ この年齢になると葬儀に参列することが年々多くなる。",
       "points": [
         "カテゴリ: 芸能・エンタメの注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 17:21）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 17:30）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "芸能・エンタメ分野で関心を集めている最新ニュースです。",
@@ -2131,7 +2131,7 @@ window.NEWS_DATA = {
         "芸能・エンタメ",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/21c5e7900f557655ae675d169ac1df0c4d904fa2?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/90e697d7dbdb0ef8cb9537dc24b620e27e72b42b?source=rss",
       "isAiEnriched": false
     },
     {
@@ -2178,15 +2178,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "AIモデル構築を外注する時代へ 米Hedraが提唱するモデル工場の全貌(Forbes JAPAN)",
+      "title": "SpaceX、スターシップ上段の「箸キャッチ」に初成功、機体完全再使用へ前進(ビジネス＋IT)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 17:00",
-      "publishedTs": 1794729600,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00108141-forbes-000-1-view.jpg?exp=10800",
-      "summary": "高度に特化した業務をこなす大規模言語モデル（LLM）の構築に技術的課題が伴うなか、企業はいかにしてAI革命の恩恵をフルに享受するのだろうか。米カリフォルニア州を拠点とするスタートアップのHedraは…",
+      "publishedAt": "2026-11-15 17:05",
+      "publishedTs": 1794729913,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00188421-biz_plus-000-1-view.jpg?exp=10800",
+      "summary": "米SpaceXは2026年11月14日、次世代大型ロケット「スターシップ」の第15回飛行試験において、地球周回軌道から帰還した上段宇宙船を発射塔のアームで直接受け止めることに初めて成功した。軌道速度…",
       "points": [
         "カテゴリ: テクノロジー・AIの注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 17:00）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 17:05）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "テクノロジー・AI分野で関心を集めている最新ニュースです。",
@@ -2194,20 +2194,20 @@ window.NEWS_DATA = {
         "テクノロジー・AI",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/bdd4fe0b7938241550a1110873e1f4d64c3e1919?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/57183faf2bf4471fbbda630b42d0d3fcdd450710?source=rss",
       "isAiEnriched": false
     },
     {
       "category": "business",
-      "title": "NSXとスカイラインGT-Rに搭載された伝説の280馬力エンジン！　「RB26」と「C30A」はどちらが上か徹底比較(WEB CARTOP)",
+      "title": "仕事をやめた65歳以上の世帯、毎月の不足の平均は「65～69歳の約5.1万円」と「75歳以上の約2.7万円」でこんなに違う？家計調査をもとに90歳までの合計を試算(LIMO)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 17:20",
-      "publishedTs": 1794730802,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00010006-wcartop-000-1-view.jpg?exp=10800",
-      "summary": "その昔（1989年から2004年まで）、国産のクルマには280馬力自主規制という愚にもつかない制度があったために、平成初期の国内各メーカーのフラッグシップモデルは、一律280馬力だった。【画像】NS…",
+      "publishedAt": "2026-11-15 17:21",
+      "publishedTs": 1794730880,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00146821-toushin-000-1-view.jpg?exp=10800",
+      "summary": "仕事をやめた後の家計は、毎月いくら足りなくなり、手元資金で何歳までまかなえるのでしょうか。仕事をやめた後の家計の不足は、ずっと同じ額が続くとは限らず、年齢によって手元資金の減り方も変わります。◆【画…",
       "points": [
         "カテゴリ: ビジネス・経済の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 17:20）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 17:21）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "ビジネス・経済分野で関心を集めている最新ニュースです。",
@@ -2215,20 +2215,20 @@ window.NEWS_DATA = {
         "ビジネス・経済",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/60d23d7e3245a220c66da315d8f299f7a4f606db?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/228b9d87c89059b635c0cbc1a1dd35b1a6db6e9b?source=rss",
       "isAiEnriched": false
     },
     {
       "category": "entertainment",
-      "title": "ラフターラインズがGI制覇→“命名者”にX騒然「この人マジで凄い」「豪運」「馬の見方教えて欲しい」(ENCOUNT)",
+      "title": "知られざる結末が存在…!? 歴代『ドラクエ』予想外の展開に驚いた「記憶に残る“特殊なボス戦”」(ふたまん＋)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 17:20",
-      "publishedTs": 1794730836,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-01098900-encount-000-1-view.jpg?exp=10800",
-      "summary": "中央競馬のGI・エリザベス女王杯（京都競馬場・芝2200メートル）が行われ、武豊の騎乗したラフターラインズ（牝3、小笠）が豪快に差し切り、初のGI勝利を収めた。レース後、ラフターラインズの“命名者”…",
+      "publishedAt": "2026-11-15 17:30",
+      "publishedTs": 1794731433,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00132757-futaman-000-1-view.jpg?exp=10800",
+      "summary": "近年、リメイクや新作の発表が相次いでいる『ドラゴンクエスト』（以下、ドラクエ）シリーズ。2026年12月3日にはスピンオフ作品である『ドラゴンクエストモンスターズ4 枯れ木の国のビアンカ・フローラ』",
       "points": [
         "カテゴリ: 芸能・エンタメの注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 17:20）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 17:30）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "芸能・エンタメ分野で関心を集めている最新ニュースです。",
@@ -2236,7 +2236,7 @@ window.NEWS_DATA = {
         "芸能・エンタメ",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/344ce6a9cad2e9903e084749f58cf280a4df9276?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/bdadd6adeb667fde7928c161db343419bba0a491?source=rss",
       "isAiEnriched": false
     },
     {
@@ -2284,12 +2284,12 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "【超希少】4万円台の全部入りアンドロイド！ 大画面でも軽量で頑丈。日本メーカーのスマホはやっぱり安心！(アスキー)",
+      "title": "AIモデル構築を外注する時代へ 米Hedraが提唱するモデル工場の全貌(Forbes JAPAN)",
       "source": "Yahoo!ニュース",
       "publishedAt": "2026-11-15 17:00",
       "publishedTs": 1794729600,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00000003-ascii-000-1-view.jpg?exp=10800",
-      "summary": "スマホの値上がりが続く中、おサイフケータイ（FeliCa）や防水など、日本で使うのに便利な機能をひととおり備えながら、4万円台で買える機種は超希少になりました。そんなレアなスマホがシャープの「AQU…",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00108141-forbes-000-1-view.jpg?exp=10800",
+      "summary": "高度に特化した業務をこなす大規模言語モデル（LLM）の構築に技術的課題が伴うなか、企業はいかにしてAI革命の恩恵をフルに享受するのだろうか。米カリフォルニア州を拠点とするスタートアップのHedraは…",
       "points": [
         "カテゴリ: テクノロジー・AIの注目トピック",
         "配信: Yahoo!ニュース トピックス（2026-11-15 17:00）",
@@ -2300,20 +2300,20 @@ window.NEWS_DATA = {
         "テクノロジー・AI",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/eebc0024ff5674dd496ad7e0a7972d396e26e926?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/bdd4fe0b7938241550a1110873e1f4d64c3e1919?source=rss",
       "isAiEnriched": false
     },
     {
       "category": "business",
-      "title": "世界遺産の名城は駅の目の前！ 実は線路の真下が「お堀」だった？ 空から見た歴史の痕跡(乗りものニュース)",
+      "title": "NSXとスカイラインGT-Rに搭載された伝説の280馬力エンジン！　「RB26」と「C30A」はどちらが上か徹底比較(WEB CARTOP)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 17:12",
-      "publishedTs": 1794730320,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00715101-norimono-000-1-view.jpg?exp=10800",
-      "summary": "城と鉄道は隣接していることがあります。今まで空撮してきた中から、城跡に接する鉄道を紹介します。場所は山陽本線姫路駅と姫路城です。【まばゆい白漆喰】駅の真正面にそびえる姫路城大天守を見る（空中写真）",
+      "publishedAt": "2026-11-15 17:20",
+      "publishedTs": 1794730802,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00010006-wcartop-000-1-view.jpg?exp=10800",
+      "summary": "その昔（1989年から2004年まで）、国産のクルマには280馬力自主規制という愚にもつかない制度があったために、平成初期の国内各メーカーのフラッグシップモデルは、一律280馬力だった。【画像】NS…",
       "points": [
         "カテゴリ: ビジネス・経済の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 17:12）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 17:20）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "ビジネス・経済分野で関心を集めている最新ニュースです。",
@@ -2321,20 +2321,20 @@ window.NEWS_DATA = {
         "ビジネス・経済",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/7c20def670d5f774f89b60f46d817d1cf5b2ff9c?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/60d23d7e3245a220c66da315d8f299f7a4f606db?source=rss",
       "isAiEnriched": false
     },
     {
       "category": "entertainment",
-      "title": "プロ雀士になった３２歳女優「小悪魔」「かわいすぎて」佐野ひなこにくぎ付け…美人雀士と“９４年組”ショット公開(スポーツ報知)",
+      "title": "【日本一のイケメン中学生候補】西日本代表：中村友哉＜男子中学生ミスターコン2026 ファイナリスト連載＞(モデルプレス)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 17:20",
-      "publishedTs": 1794730802,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-11151094-sph-000-1-view.jpg?exp=10800",
-      "summary": "モデルで女優の佐野ひなこ（３２）が１５日までに自身のインスタグラムを更新し、女流プロ雀士でモデルの岡田紗佳との２ショットを公開し、ファンから反響が寄せられてる。【写真】超絶ボディー全開！ウエスト５１…",
+      "publishedAt": "2026-11-15 17:30",
+      "publishedTs": 1794731404,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-04874699-mdpr-000-1-view.jpg?exp=10800",
+      "summary": "【モデルプレス＝2026/11/15】“日本一のイケメン中学生”を決める「男子中学生ミスターコン2026」。モデルプレスは今回、ファイナリストに勝ち残った15人を1人ずつ紹介する連載を開始。第4回は…",
       "points": [
         "カテゴリ: 芸能・エンタメの注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 17:20）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 17:30）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "芸能・エンタメ分野で関心を集めている最新ニュースです。",
@@ -2342,7 +2342,7 @@ window.NEWS_DATA = {
         "芸能・エンタメ",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/56f1b1f3c88e6810fa7eee10200b1cf16f72daee?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/29cb8e1973d30f34aa677afbe2885d824b704840?source=rss",
       "isAiEnriched": false
     },
     {
@@ -2390,15 +2390,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "NVIDIAフアン前CEOの復帰求める署名が11万人超、マスク氏らも賛同(ビジネス＋IT)",
+      "title": "【超希少】4万円台の全部入りアンドロイド！ 大画面でも軽量で頑丈。日本メーカーのスマホはやっぱり安心！(アスキー)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 16:55",
-      "publishedTs": 1794729306,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00188420-biz_plus-000-1-view.jpg?exp=10800",
-      "summary": "NVIDIAのジェンスン・フアン前CEOが辞任したことを受け、同氏の復帰を求めるオンライン署名が急速に広がり、賛同者は11万人を超えた。イーロン・マスク氏などの著名な経営者も支持を表明し、シリコンバ…",
+      "publishedAt": "2026-11-15 17:00",
+      "publishedTs": 1794729600,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00000003-ascii-000-1-view.jpg?exp=10800",
+      "summary": "スマホの値上がりが続く中、おサイフケータイ（FeliCa）や防水など、日本で使うのに便利な機能をひととおり備えながら、4万円台で買える機種は超希少になりました。そんなレアなスマホがシャープの「AQU…",
       "points": [
         "カテゴリ: テクノロジー・AIの注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 16:55）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 17:00）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "テクノロジー・AI分野で関心を集めている最新ニュースです。",
@@ -2406,20 +2406,20 @@ window.NEWS_DATA = {
         "テクノロジー・AI",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/1ca3876f076f397e731543b9b5dbb076237da9c7?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/eebc0024ff5674dd496ad7e0a7972d396e26e926?source=rss",
       "isAiEnriched": false
     },
     {
       "category": "business",
-      "title": "【試乗】大げさじゃなく「50年に一度の大変革」。トヨタが作った激安カート「GR KART」に賞賛しかない！(WEB CARTOP)",
+      "title": "世界遺産の名城は駅の目の前！ 実は線路の真下が「お堀」だった？ 空から見た歴史の痕跡(乗りものニュース)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 17:10",
-      "publishedTs": 1794730209,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00010005-wcartop-000-1-view.jpg?exp=10800",
-      "summary": "地上4cmと低い位置のバケットシートに座り、遊びのないダイレクトなステアリングと、左足はブレーキペダル、右足はアクセルで操作は至ってシンプル。スピードを出すほどに狭まる視界と走行風をモロに受けた未知…",
+      "publishedAt": "2026-11-15 17:12",
+      "publishedTs": 1794730320,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00715101-norimono-000-1-view.jpg?exp=10800",
+      "summary": "城と鉄道は隣接していることがあります。今まで空撮してきた中から、城跡に接する鉄道を紹介します。場所は山陽本線姫路駅と姫路城です。【まばゆい白漆喰】駅の真正面にそびえる姫路城大天守を見る（空中写真）",
       "points": [
         "カテゴリ: ビジネス・経済の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 17:10）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 17:12）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "ビジネス・経済分野で関心を集めている最新ニュースです。",
@@ -2427,20 +2427,20 @@ window.NEWS_DATA = {
         "ビジネス・経済",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/d42c5ba6ad58153a99af3532651fa8663c5bef74?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/7c20def670d5f774f89b60f46d817d1cf5b2ff9c?source=rss",
       "isAiEnriched": false
     },
     {
       "category": "entertainment",
-      "title": "【あすから】ソンジュン＆パク・ヒョンシク、異なる魅力を持つ男性を熱演　韓国ドラマ『上流社会』放送スタート＜キャスト・あらすじ＞(オリコン)",
+      "title": "「進撃の巨人」調査兵団がモチーフ！“心臓を捧げよ”の英字刻印に注目☆ジーンズ＆ジャケット登場(アニメ！アニメ！)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 17:20",
-      "publishedTs": 1794730800,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00000306-oric-000-1-view.jpg?exp=10800",
-      "summary": "俳優のソンジュン、パク・ヒョンシクらが出演する韓国ドラマ『上流社会』（全16話／2015年）が、あす16日より「アジアドラマチックTV（アジドラ）」で放送される。（毎週月～水曜 24：00～）【場面…",
+      "publishedAt": "2026-11-15 17:30",
+      "publishedTs": 1794731403,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00000018-anmanmv-000-1-view.jpg?exp=10800",
+      "summary": "TVアニメ『進撃の巨人』より、調査兵団をモチーフにした新作アパレルとして「ストレートジーンズ」と「ファティーグジャケット」が登場。公式キャラコスチュームやアパレル・グッズの企画、開発、製造を手掛ける…",
       "points": [
         "カテゴリ: 芸能・エンタメの注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 17:20）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 17:30）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "芸能・エンタメ分野で関心を集めている最新ニュースです。",
@@ -2448,7 +2448,7 @@ window.NEWS_DATA = {
         "芸能・エンタメ",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/fb5be35b6b9183e07c1d7490b4d898521e7b88b3?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/5859e8442041d4d56682fbbc0528b9a525f3fcb1?source=rss",
       "isAiEnriched": false
     },
     {
@@ -2495,15 +2495,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "「ふくアプリ」全面停止、決済基盤のPokepayにも不正アクセス　再開目標は2度延期(ビジネス＋IT)",
+      "title": "NVIDIAフアン前CEOの復帰求める署名が11万人超、マスク氏らも賛同(ビジネス＋IT)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 16:45",
-      "publishedTs": 1794728706,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00188422-biz_plus-000-1-view.jpg?exp=10800",
-      "summary": "ふくいのデジタルは11月15日、運営するアプリ「ふくアプリ」の全サービス停止について、再開目標を15日18時までに延期すると発表した。14日20時から全機能を止めており、決済サービス「ふくいはぴコイ…",
+      "publishedAt": "2026-11-15 16:55",
+      "publishedTs": 1794729306,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00188420-biz_plus-000-1-view.jpg?exp=10800",
+      "summary": "NVIDIAのジェンスン・フアン前CEOが辞任したことを受け、同氏の復帰を求めるオンライン署名が急速に広がり、賛同者は11万人を超えた。イーロン・マスク氏などの著名な経営者も支持を表明し、シリコンバ…",
       "points": [
         "カテゴリ: テクノロジー・AIの注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 16:45）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 16:55）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "テクノロジー・AI分野で関心を集めている最新ニュースです。",
@@ -2511,17 +2511,17 @@ window.NEWS_DATA = {
         "テクノロジー・AI",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/43122d1bbcbcfbff1f1c5b84070551b555ed2fee?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/1ca3876f076f397e731543b9b5dbb076237da9c7?source=rss",
       "isAiEnriched": false
     },
     {
       "category": "business",
-      "title": "日産「セレナ マルチボックス」改良モデル発売　安全装備の充実＆内外装の意匠変更で進化(くるまのニュース)",
+      "title": "【試乗】大げさじゃなく「50年に一度の大変革」。トヨタが作った激安カート「GR KART」に賞賛しかない！(WEB CARTOP)",
       "source": "Yahoo!ニュース",
       "publishedAt": "2026-11-15 17:10",
-      "publishedTs": 1794730200,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-01138609-kurumans-000-1-view.jpg?exp=10800",
-      "summary": "家族とのドライブやアウトドアを楽しむなら、荷物をどれだけ効率よく積めるかもクルマ選びの重要なポイントの1つです。【画像】これが日産の最新「セレナ マルチボックス」です！ 画像を見る！（30枚以上）",
+      "publishedTs": 1794730209,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00010005-wcartop-000-1-view.jpg?exp=10800",
+      "summary": "地上4cmと低い位置のバケットシートに座り、遊びのないダイレクトなステアリングと、左足はブレーキペダル、右足はアクセルで操作は至ってシンプル。スピードを出すほどに狭まる視界と走行風をモロに受けた未知…",
       "points": [
         "カテゴリ: ビジネス・経済の注目トピック",
         "配信: Yahoo!ニュース トピックス（2026-11-15 17:10）",
@@ -2532,20 +2532,20 @@ window.NEWS_DATA = {
         "ビジネス・経済",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/9ccbe4b4cd9ed550414e590018f7ec8395a5d4cd?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/d42c5ba6ad58153a99af3532651fa8663c5bef74?source=rss",
       "isAiEnriched": false
     },
     {
       "category": "entertainment",
-      "title": "朝井リョウ＆加藤千恵の「オールナイトニッポン0(ZERO)」が5年連続で復活！11・21に放送(サンケイスポーツ)",
+      "title": "「スヌーピー」の新作UTがユニクロから12月中旬に発売！仲間たちとの心温まるシーンをデザインした全6種(インサイド)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 17:19",
-      "publishedTs": 1794730773,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00000107-sanspo-000-1-view.jpg?exp=10800",
-      "summary": "小説家、朝井リョウ氏と小説家、加藤千恵氏がが21日27時から放送のニッポン放送「朝井リョウと加藤千恵のオールナイトニッポン0(ZERO)」でパーソナリティを務めることが15日、分かった。2015年4…",
+      "publishedAt": "2026-11-15 17:30",
+      "publishedTs": 1794731403,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00000031-isd-000-1-view.jpg?exp=10800",
+      "summary": "ユニクロは、「スヌーピー（PEANUTS）」の新作UTコレクションを12月中旬に発売します。【画像】心温まるシーンをデザインした「スヌーピー」新作UT全6種！◆人気の「スヌーピー」にレディース向け新…",
       "points": [
         "カテゴリ: 芸能・エンタメの注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 17:19）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 17:30）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "芸能・エンタメ分野で関心を集めている最新ニュースです。",
@@ -2553,7 +2553,7 @@ window.NEWS_DATA = {
         "芸能・エンタメ",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/555635da4c2cffdc2f648693912b1a97f80b72ef?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/dbfb1e39dda850112c0422ddb42fd87671551932?source=rss",
       "isAiEnriched": false
     },
     {
@@ -2601,15 +2601,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "防衛省、AIを活用した新防衛戦略「Defense AI Vision」発表へ(ビジネス＋IT)",
+      "title": "「ふくアプリ」全面停止、決済基盤のPokepayにも不正アクセス　再開目標は2度延期(ビジネス＋IT)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 16:05",
-      "publishedTs": 1794726308,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00151600-otakulab-000-864-view.jpg?exp=10800",
-      "summary": "ICT調査会社のＭＭ総研が10日に発表した2026年度上期の国内携帯電話端末の出荷台数調査によると、スマートフォンの出荷台数は1252.2万台で前年同期比9.6％減となった。メモリ価格の高騰や端末価…",
+      "publishedAt": "2026-11-15 16:45",
+      "publishedTs": 1794728706,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00188422-biz_plus-000-1-view.jpg?exp=10800",
+      "summary": "ふくいのデジタルは11月15日、運営するアプリ「ふくアプリ」の全サービス停止について、再開目標を15日18時までに延期すると発表した。14日20時から全機能を止めており、決済サービス「ふくいはぴコイ…",
       "points": [
         "カテゴリ: テクノロジー・AIの注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 16:05）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 16:45）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "テクノロジー・AI分野で関心を集めている最新ニュースです。",
@@ -2617,17 +2617,17 @@ window.NEWS_DATA = {
         "テクノロジー・AI",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/2bccab833408eea81e30886603c9ae76279ce249?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/43122d1bbcbcfbff1f1c5b84070551b555ed2fee?source=rss",
       "isAiEnriched": false
     },
     {
       "category": "business",
-      "title": "大阪・奈良・京都の「三都」を結ぶ豪華な観光列車 休日は予約困難 だけど一度は乗ってみたい「近鉄特急」とは(VAGUE)",
+      "title": "日産「セレナ マルチボックス」改良モデル発売　安全装備の充実＆内外装の意匠変更で進化(くるまのニュース)",
       "source": "Yahoo!ニュース",
       "publishedAt": "2026-11-15 17:10",
       "publishedTs": 1794730200,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-10475326-vague-000-1-view.jpg?exp=10800",
-      "summary": "京都、奈良、大阪という関西を代表する三都を結ぶ近畿日本鉄道の観光特急が「あをによし」です。【画像】豪華な近鉄特急「あをによし」の車内を写真で見る（27枚） 2022年4月の運行開始から人気を集め、い…",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-01138609-kurumans-000-1-view.jpg?exp=10800",
+      "summary": "家族とのドライブやアウトドアを楽しむなら、荷物をどれだけ効率よく積めるかもクルマ選びの重要なポイントの1つです。【画像】これが日産の最新「セレナ マルチボックス」です！ 画像を見る！（30枚以上）",
       "points": [
         "カテゴリ: ビジネス・経済の注目トピック",
         "配信: Yahoo!ニュース トピックス（2026-11-15 17:10）",
@@ -2638,20 +2638,20 @@ window.NEWS_DATA = {
         "ビジネス・経済",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/5001c3d82adcbfd3cb84b8a304305a470ee38103?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/9ccbe4b4cd9ed550414e590018f7ec8395a5d4cd?source=rss",
       "isAiEnriched": false
     },
     {
       "category": "entertainment",
-      "title": "小松彩夏　息子との秋の2ショット公開　リアルな子育てエピ披露で「男の子ママってみんなこんな感じ？」(スポニチアネックス)",
+      "title": "ソン・ヘギョの美談はバンコクまで…食堂店主「温かいハグ…感動的」(朝鮮日報日本語版)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 17:18",
-      "publishedTs": 1794730728,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00000286-spnannex-000-2-view.jpg?exp=10800",
-      "summary": "結婚を機に仙台に移住した女優の小松彩夏（40）が15日、自身のインスタグラムを更新。息子との2ショットを投稿した。 「息子の体力が無限すぎて毎日公園で何キロ走っているかわかりません笑」とコメントし、…",
+      "publishedAt": "2026-11-15 17:30",
+      "publishedTs": 1794731400,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00080020-chosun-000-11-view.jpg?exp=10800",
+      "summary": "【Pickcon】俳優ソン・ヘギョがタイの街角にある食堂で、店主のジェイ・ファイ（Jay Fai）さんと交流した。【写真】 未公開グラビアカット大放出…ソン・ヘギョ 「言葉はいらない」レジェンド級の…",
       "points": [
         "カテゴリ: 芸能・エンタメの注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 17:18）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 17:30）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "芸能・エンタメ分野で関心を集めている最新ニュースです。",
@@ -2659,7 +2659,7 @@ window.NEWS_DATA = {
         "芸能・エンタメ",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/0f408a80906ae42f2c86ab89e18f2da80eceac75?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/448b3e50e7c3c8522da1480fa5138f6feed9f88e?source=rss",
       "isAiEnriched": false
     },
     {
@@ -2707,6 +2707,111 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
+      "title": "防衛省、AIを活用した新防衛戦略「Defense AI Vision」発表へ(ビジネス＋IT)",
+      "source": "Yahoo!ニュース",
+      "publishedAt": "2026-11-15 16:05",
+      "publishedTs": 1794726308,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00151600-otakulab-000-864-view.jpg?exp=10800",
+      "summary": "ICT調査会社のＭＭ総研が10日に発表した2026年度上期の国内携帯電話端末の出荷台数調査によると、スマートフォンの出荷台数は1252.2万台で前年同期比9.6％減となった。メモリ価格の高騰や端末価…",
+      "points": [
+        "カテゴリ: テクノロジー・AIの注目トピック",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 16:05）",
+        "「元記事を読む」から詳細を確認できます"
+      ],
+      "impact": "テクノロジー・AI分野で関心を集めている最新ニュースです。",
+      "tags": [
+        "テクノロジー・AI",
+        "Yahoo!ニュース"
+      ],
+      "url": "https://news.yahoo.co.jp/articles/2bccab833408eea81e30886603c9ae76279ce249?source=rss",
+      "isAiEnriched": false
+    },
+    {
+      "category": "business",
+      "title": "大阪・奈良・京都の「三都」を結ぶ豪華な観光列車 休日は予約困難 だけど一度は乗ってみたい「近鉄特急」とは(VAGUE)",
+      "source": "Yahoo!ニュース",
+      "publishedAt": "2026-11-15 17:10",
+      "publishedTs": 1794730200,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-10475326-vague-000-1-view.jpg?exp=10800",
+      "summary": "京都、奈良、大阪という関西を代表する三都を結ぶ近畿日本鉄道の観光特急が「あをによし」です。【画像】豪華な近鉄特急「あをによし」の車内を写真で見る（27枚） 2022年4月の運行開始から人気を集め、い…",
+      "points": [
+        "カテゴリ: ビジネス・経済の注目トピック",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 17:10）",
+        "「元記事を読む」から詳細を確認できます"
+      ],
+      "impact": "ビジネス・経済分野で関心を集めている最新ニュースです。",
+      "tags": [
+        "ビジネス・経済",
+        "Yahoo!ニュース"
+      ],
+      "url": "https://news.yahoo.co.jp/articles/5001c3d82adcbfd3cb84b8a304305a470ee38103?source=rss",
+      "isAiEnriched": false
+    },
+    {
+      "category": "entertainment",
+      "title": "ビートたけし、自分の「なりすまし動画」に苦言「40本くらい探した。人生相談しているんだよ」(日刊スポーツ)",
+      "source": "Yahoo!ニュース",
+      "publishedAt": "2026-11-15 17:27",
+      "publishedTs": 1794731238,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-41151135-nksports-000-1-view.jpg?exp=10800",
+      "summary": "ビートたけし（79）は15日に放送されたテレビ朝日系「ビートたけしのTVタックル」（日曜正午）に出演。生成AIで作成された自身の「なりすまし動画」が数多く存在しているとして、苦言を呈した。 この日の…",
+      "points": [
+        "カテゴリ: 芸能・エンタメの注目トピック",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 17:27）",
+        "「元記事を読む」から詳細を確認できます"
+      ],
+      "impact": "芸能・エンタメ分野で関心を集めている最新ニュースです。",
+      "tags": [
+        "芸能・エンタメ",
+        "Yahoo!ニュース"
+      ],
+      "url": "https://news.yahoo.co.jp/articles/dca9f1ec7d48dd3705c4e22e0a9a5fe616d5f24d?source=rss",
+      "isAiEnriched": false
+    },
+    {
+      "category": "subculture",
+      "title": "AMD公式「どん底のときに誰がそばにいたか忘れないで」―ゲーマーにアピールするも、CEOの「データセンター・ファースト」発言に対するツッコミ相次ぐ | Game*Spark - 国内・海外ゲーム情報サイト",
+      "source": "gamespark.jp",
+      "publishedAt": "2026-11-14 22:24",
+      "publishedTs": 1794662649,
+      "image": "https://www.gamespark.jp/imgs/ogp_f/1219541.png",
+      "summary": "AMDのゲーミング部門公式Xアカウント「AMD Gaming」は、2026年11月13日、「どん底のときに誰がそばにいてくれたか、決して忘れないで」という一文の入った画像を、「君はいつでもそばにいてくれるって分かってる」という本文に添えて投稿しました。 フアン氏辞任の数時間後にゲーマーに対してアピール、リプ…",
+      "points": [
+        "カテゴリ: サブカルチャーで話題の記事",
+        "引用元: gamespark.jp（2026-11-14 22:24）",
+        "「元記事を読む」から本文を確認できます"
+      ],
+      "impact": "サブカルチャー分野で多くの読者に共有されている注目記事です。",
+      "tags": [
+        "サブカルチャー",
+        "gamespark.jp"
+      ],
+      "url": "https://www.gamespark.jp/article/2026/11/14/174876.html",
+      "isAiEnriched": false
+    },
+    {
+      "category": "domestic",
+      "title": "元≠ME菅波 事務所所属で再始動",
+      "source": "Yahoo!ニュース",
+      "publishedAt": "2026-11-15 14:27",
+      "publishedTs": 1794720446,
+      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/15/4ff1cf6f4f9b415a92b2f5dfa7da78c0b8654cb08648f679c4d4f0956d7cf724.jpg",
+      "summary": "【モデルプレス＝2026/11/15】元≠MEの菅波美玲（すがなみ・みれい）が2026年11月15日付で株式会社NEXT LEAPに所属したことがわかった。",
+      "points": [
+        "カテゴリ: 国内・総合の注目トピック",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 14:27）",
+        "「元記事を読む」から詳細を確認できます"
+      ],
+      "impact": "国内・総合分野で関心を集めている最新ニュースです。",
+      "tags": [
+        "国内・総合",
+        "Yahoo!ニュース"
+      ],
+      "url": "https://news.yahoo.co.jp/pickup/6602666?source=rss",
+      "isAiEnriched": false
+    },
+    {
+      "category": "tech",
       "title": "上半期スマホ出荷台数が9.6％減…物価高騰、メモリ逼迫、1円販売急減で買い替えに打撃　アップルはシェア減退(オタク総研)",
       "source": "Yahoo!ニュース",
       "publishedAt": "2026-11-15 15:16",
@@ -2749,15 +2854,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "entertainment",
-      "title": "“飲酒運転で清掃車に衝突”コ・ギョンピョ、運転手の60代職員が負傷(Kstyle)",
+      "title": "黒田驚がく！元M-1王者の意外な経歴　中学時代に相撲大会決勝で、後の「千代大海」と対戦していた(スポニチアネックス)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 17:18",
-      "publishedTs": 1794730698,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00000108-kstylens-000-1-view.jpg?exp=10800",
-      "summary": "俳優コ・ギョンピョが泥酔状態で運転し、清掃車に衝突する事故を起こした中、60代の清掃業者の職員が痛みを訴えていることが分かった。“飲酒運転で衝突事故”コ・ギョンピョの出演映画「元祖×トック屋」配給会…",
+      "publishedAt": "2026-11-15 17:26",
+      "publishedTs": 1794731160,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00000288-spnannex-000-2-view.jpg?exp=10800",
+      "summary": "お笑いコンビ「メッセンジャー」黒田有（56）が自身のYouTubeチャンネル「くろだ煮」を更新。元M-1グランプリ王者の意外すぎる経歴に大笑いした。 この回は「M-1グランプリ2009」を制したパン…",
       "points": [
         "カテゴリ: 芸能・エンタメの注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 17:18）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 17:26）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "芸能・エンタメ分野で関心を集めている最新ニュースです。",
@@ -2765,112 +2870,7 @@ window.NEWS_DATA = {
         "芸能・エンタメ",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/6f7ab3a5d646551251bdd4a8ccaa498516b97d4d?source=rss",
-      "isAiEnriched": false
-    },
-    {
-      "category": "subculture",
-      "title": "AMD公式「どん底のときに誰がそばにいたか忘れないで」―ゲーマーにアピールするも、CEOの「データセンター・ファースト」発言に対するツッコミ相次ぐ | Game*Spark - 国内・海外ゲーム情報サイト",
-      "source": "gamespark.jp",
-      "publishedAt": "2026-11-14 22:24",
-      "publishedTs": 1794662649,
-      "image": "https://www.gamespark.jp/imgs/ogp_f/1219541.png",
-      "summary": "AMDのゲーミング部門公式Xアカウント「AMD Gaming」は、2026年11月13日、「どん底のときに誰がそばにいてくれたか、決して忘れないで」という一文の入った画像を、「君はいつでもそばにいてくれるって分かってる」という本文に添えて投稿しました。 フアン氏辞任の数時間後にゲーマーに対してアピール、リプ…",
-      "points": [
-        "カテゴリ: サブカルチャーで話題の記事",
-        "引用元: gamespark.jp（2026-11-14 22:24）",
-        "「元記事を読む」から本文を確認できます"
-      ],
-      "impact": "サブカルチャー分野で多くの読者に共有されている注目記事です。",
-      "tags": [
-        "サブカルチャー",
-        "gamespark.jp"
-      ],
-      "url": "https://www.gamespark.jp/article/2026/11/14/174876.html",
-      "isAiEnriched": false
-    },
-    {
-      "category": "domestic",
-      "title": "ジョイマン高木 20分間ラップ連発",
-      "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 17:10",
-      "publishedTs": 1794730257,
-      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/15/ac31a3987efe94d2a02ae0d3b5a572ce6f6652b837581819269d844ecf7e3862.jpg",
-      "summary": "お笑いコンビ・ジョイマン（池谷和志さん、高木晋哉さん）がファミリーマート「親子おむすび教室」戦略発表会に登壇しました。",
-      "points": [
-        "カテゴリ: 国内・総合の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 17:10）",
-        "「元記事を読む」から詳細を確認できます"
-      ],
-      "impact": "国内・総合分野で関心を集めている最新ニュースです。",
-      "tags": [
-        "国内・総合",
-        "Yahoo!ニュース"
-      ],
-      "url": "https://news.yahoo.co.jp/pickup/6602692?source=rss",
-      "isAiEnriched": false
-    },
-    {
-      "category": "tech",
-      "title": "なぜアメリカは民主党を選んだのか、ビットコイン急落の背景にある米国経済の現実【サンフランシスコレポート】(NADA NEWS)",
-      "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 14:35",
-      "publishedTs": 1794720900,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00411460-coindesk-000-1-view.jpg?exp=10800",
-      "summary": "エックスウィン アメリカマーケットリサーチアナリストのデリア・ロホです。サンフランシスコから、今回は11月3日に行われた米国中間選挙の結果と、その後のアメリカ社会、そしてビットコイン市場への影響につ…",
-      "points": [
-        "カテゴリ: テクノロジー・AIの注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 14:35）",
-        "「元記事を読む」から詳細を確認できます"
-      ],
-      "impact": "テクノロジー・AI分野で関心を集めている最新ニュースです。",
-      "tags": [
-        "テクノロジー・AI",
-        "Yahoo!ニュース"
-      ],
-      "url": "https://news.yahoo.co.jp/articles/46bd0d87b2521dc4682c6a0b2bf461141236459c?source=rss",
-      "isAiEnriched": false
-    },
-    {
-      "category": "business",
-      "title": "トヨタの若者向けブランド「サイオン」第一弾として登場した『xA』＝『イスト』【懐かしのカーカタログ】(レスポンス)",
-      "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 17:00",
-      "publishedTs": 1794729603,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00000013-rps-000-1-view.jpg?exp=10800",
-      "summary": "2003年、北米、カナダ市場のジェネレーションYと呼ばれる若年層向けにトヨタが展開を始めたブランドがSCION（サイオン）。その最初のモデルとして投入されたのが『xA』だった。【画像】トヨタ・イスト…",
-      "points": [
-        "カテゴリ: ビジネス・経済の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 17:00）",
-        "「元記事を読む」から詳細を確認できます"
-      ],
-      "impact": "ビジネス・経済分野で関心を集めている最新ニュースです。",
-      "tags": [
-        "ビジネス・経済",
-        "Yahoo!ニュース"
-      ],
-      "url": "https://news.yahoo.co.jp/articles/7277bbbc926711a9faebade35350a2beea020792?source=rss",
-      "isAiEnriched": false
-    },
-    {
-      "category": "entertainment",
-      "title": "田中遊「ライトスタッフ」を踊場海月が上演、演劇と人生の創造を描く(ステージナタリー)",
-      "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 17:17",
-      "publishedTs": 1794730630,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00000041-natalies-000-1-view.jpg?exp=10800",
-      "summary": "踊場海月 第3回公演「ライトスタッフ」が来年1月21日から24日まで東京・インディペンデントシアターOjiにて上演される。【画像】踊場海月第3回公演「ライトスタッフ」チラシ裏（他1件）見立てや身体表…",
-      "points": [
-        "カテゴリ: 芸能・エンタメの注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 17:17）",
-        "「元記事を読む」から詳細を確認できます"
-      ],
-      "impact": "芸能・エンタメ分野で関心を集めている最新ニュースです。",
-      "tags": [
-        "芸能・エンタメ",
-        "Yahoo!ニュース"
-      ],
-      "url": "https://news.yahoo.co.jp/articles/ee985c90d0911984b07aa2dde1c3f08e9af6b60f?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/fac7f4fe4172e162df4585b675b4303167181fa9?source=rss",
       "isAiEnriched": false
     },
     {
@@ -2917,15 +2917,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "チェック・ポイントのFWにゼロデイ、約2ダースの顧客で悪用　root奪取からESXi消去へ(ビジネス＋IT)",
+      "title": "なぜアメリカは民主党を選んだのか、ビットコイン急落の背景にある米国経済の現実【サンフランシスコレポート】(NADA NEWS)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 13:45",
-      "publishedTs": 1794717911,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00000004-giz-000-1-view.jpg?exp=10800",
-      "summary": "今年6月に発売されたMarshallの新型スピーカーMarshall Stockwell III。【全画像をみる】マーシャルのコンパクトスピーカー「Stockwell III」使ってみた。このサイズ…",
+      "publishedAt": "2026-11-15 14:35",
+      "publishedTs": 1794720900,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00411460-coindesk-000-1-view.jpg?exp=10800",
+      "summary": "エックスウィン アメリカマーケットリサーチアナリストのデリア・ロホです。サンフランシスコから、今回は11月3日に行われた米国中間選挙の結果と、その後のアメリカ社会、そしてビットコイン市場への影響につ…",
       "points": [
         "カテゴリ: テクノロジー・AIの注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 13:45）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 14:35）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "テクノロジー・AI分野で関心を集めている最新ニュースです。",
@@ -2933,17 +2933,17 @@ window.NEWS_DATA = {
         "テクノロジー・AI",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/ba0de767fc74f7eb1611249bf09712310de40afb?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/46bd0d87b2521dc4682c6a0b2bf461141236459c?source=rss",
       "isAiEnriched": false
     },
     {
       "category": "business",
-      "title": "「音で威嚇するだけじゃ守れない！」窃盗犯から第二世代GT-Rを守るための最新セキュリティ事情に迫る(MotorFan)",
+      "title": "トヨタの若者向けブランド「サイオン」第一弾として登場した『xA』＝『イスト』【懐かしのカーカタログ】(レスポンス)",
       "source": "Yahoo!ニュース",
       "publishedAt": "2026-11-15 17:00",
-      "publishedTs": 1794729600,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-01583812-motorfan-000-1-view.jpg?exp=10800",
-      "summary": "高騰するスポーツカーや人気車種を狙った車両盗難は、年々深刻さを増している。そんな状況の中、カーセキュリティも「音で威嚇する」だけでなく、「エンジンを始動させない」ことを重視したシステムへと進化。豊富…",
+      "publishedTs": 1794729603,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00000013-rps-000-1-view.jpg?exp=10800",
+      "summary": "2003年、北米、カナダ市場のジェネレーションYと呼ばれる若年層向けにトヨタが展開を始めたブランドがSCION（サイオン）。その最初のモデルとして投入されたのが『xA』だった。【画像】トヨタ・イスト…",
       "points": [
         "カテゴリ: ビジネス・経済の注目トピック",
         "配信: Yahoo!ニュース トピックス（2026-11-15 17:00）",
@@ -2954,20 +2954,20 @@ window.NEWS_DATA = {
         "ビジネス・経済",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/e0f07c9eee41233237746b6f7452e510d2417ecf?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/7277bbbc926711a9faebade35350a2beea020792?source=rss",
       "isAiEnriched": false
     },
     {
       "category": "entertainment",
-      "title": "【ＮＨＫ朝ドラ『ブラッサム』１６日は】珠（石橋静河）は親孝行ができた喜びを味わう(中日スポーツ)",
+      "title": "「完ぺき！」『ガンダム』ラクス・クラインの美女コスプレイヤーに「超キュート」「最高」「すばらしい」(マグミクス)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 17:15",
-      "publishedTs": 1794730553,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00000082-chuspo-000-1-view.jpg?exp=10800",
-      "summary": "＜１１月１６日（月） 第３６回 ＮＨＫ総合 午前８時ほか＞ 故郷・岩国へ帰った珠（石橋静河）は、母のリョウ（国仲涼子）や弟の守（日向亘）・英男（石坂大志）、妹の俊子（伊東蒼）たちとの再会を果たす。か…",
+      "publishedAt": "2026-11-15 17:25",
+      "publishedTs": 1794731100,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00384805-magmix-000-1-view.jpg?exp=10800",
+      "summary": "台湾コスプレイヤーの「佞佞Ning」さんが『機動戦士ガンダムSEED』シリーズの「ラクス・クライン」に扮したコスプレ写真をInstagramに投稿し、反響を呼びました。【画像】え…っ！「完ぺき！」こ…",
       "points": [
         "カテゴリ: 芸能・エンタメの注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 17:15）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 17:25）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "芸能・エンタメ分野で関心を集めている最新ニュースです。",
@@ -2975,7 +2975,7 @@ window.NEWS_DATA = {
         "芸能・エンタメ",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/94c331744cda883c1501094d49b7fdc03f1f8c94?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/b188952b53615a62ce1f92110f5999de615b6031?source=rss",
       "isAiEnriched": false
     },
     {
@@ -3023,12 +3023,12 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "中国製AIサイバー攻撃ツール世界へ拡散、サイバー攻撃拠点を世界で約1000台確認(ビジネス＋IT)",
+      "title": "チェック・ポイントのFWにゼロデイ、約2ダースの顧客で悪用　root奪取からESXi消去へ(ビジネス＋IT)",
       "source": "Yahoo!ニュース",
       "publishedAt": "2026-11-15 13:45",
-      "publishedTs": 1794717906,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00677539-bcn-000-5-view.jpg?exp=10800",
-      "summary": "「BCNランキング」2026年11月2日～8日の日次集計データによると、BS・CS 4Kチューナー搭載テレビ（4Kテレビ）の実売台数ランキングは以下の通りとなった。【写真ギャラリー】1位 REGZA…",
+      "publishedTs": 1794717911,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00000004-giz-000-1-view.jpg?exp=10800",
+      "summary": "今年6月に発売されたMarshallの新型スピーカーMarshall Stockwell III。【全画像をみる】マーシャルのコンパクトスピーカー「Stockwell III」使ってみた。このサイズ…",
       "points": [
         "カテゴリ: テクノロジー・AIの注目トピック",
         "配信: Yahoo!ニュース トピックス（2026-11-15 13:45）",
@@ -3039,17 +3039,17 @@ window.NEWS_DATA = {
         "テクノロジー・AI",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/59bd2ded6cfe82734efa51371959b2af8dbd543b?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/ba0de767fc74f7eb1611249bf09712310de40afb?source=rss",
       "isAiEnriched": false
     },
     {
       "category": "business",
-      "title": "東急百貨店が「ベルサイユのばら」とコラボ　顔タイプ診断やトレンドメイク提案などコスメ体験を提供(WWDJAPAN.com)",
+      "title": "「音で威嚇するだけじゃ守れない！」窃盗犯から第二世代GT-Rを守るための最新セキュリティ事情に迫る(MotorFan)",
       "source": "Yahoo!ニュース",
       "publishedAt": "2026-11-15 17:00",
       "publishedTs": 1794729600,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-02551655-wwdjapan-000-1-view.jpg?exp=10800",
-      "summary": "東急百貨店は11月26日〜12月9日、美容・コスメの楽しみ方を店頭で体験できる“シブヤ ビューティ ジャム ザ ウィークス〜好奇心を刺激する2週間〜”を開催する。同イベントでは、「ベルサイユのばら」",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-01583812-motorfan-000-1-view.jpg?exp=10800",
+      "summary": "高騰するスポーツカーや人気車種を狙った車両盗難は、年々深刻さを増している。そんな状況の中、カーセキュリティも「音で威嚇する」だけでなく、「エンジンを始動させない」ことを重視したシステムへと進化。豊富…",
       "points": [
         "カテゴリ: ビジネス・経済の注目トピック",
         "配信: Yahoo!ニュース トピックス（2026-11-15 17:00）",
@@ -3060,20 +3060,20 @@ window.NEWS_DATA = {
         "ビジネス・経済",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/5ed6af693eb92f9f4a77813de0e1628c79688c7f?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/e0f07c9eee41233237746b6f7452e510d2417ecf?source=rss",
       "isAiEnriched": false
     },
     {
       "category": "entertainment",
-      "title": "春木開氏　逮捕のあっすんを今後も応援「上手くいってる時だけ近くにいるのが仲間じゃない」(東スポWEB)",
+      "title": "＜アオアシ Season2＞紅白戦再び、アシトたちサブ組が練習の成果を発揮する…第7話あらすじ＆先行カット公開(WEBザテレビジョン)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 17:15",
-      "publishedTs": 1794730531,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00409980-tospoweb-000-1-view.jpg?exp=10800",
-      "summary": "実業家の春木開氏が15日、自身の「X」を更新。YouTubeチャンネル「LAST CALL（ラストコール）」やNetflixの「ラヴ上等2」に出演していたあっすんこと小栗彩朱佳容疑者が風営法違反（無…",
+      "publishedAt": "2026-11-15 17:25",
+      "publishedTs": 1794731100,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-01457293-the_tv-000-1-view.jpg?exp=10800",
+      "summary": "アニメ「アオアシ Season2」(毎週日曜夕方5:00-5:30、NHK Eテレ／Hulu・Netflix・U-NEXTほかにて配信)の第8話「高みを目指す」が11月22日(日)に放送される。放送…",
       "points": [
         "カテゴリ: 芸能・エンタメの注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 17:15）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 17:25）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "芸能・エンタメ分野で関心を集めている最新ニュースです。",
@@ -3081,7 +3081,7 @@ window.NEWS_DATA = {
         "芸能・エンタメ",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/1cd28d194a8de7bddc3c23355de79ba649d35ce6?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/f0fcff4c29ea0d962481182ea673671743968b17?source=rss",
       "isAiEnriched": false
     },
     {
@@ -3129,15 +3129,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "「フェーダー」の“裏ワザ”公開！ 上手く使うと“低音増強”が可能に！［入門者のためのサウンドチューニング講座］第2回(レスポンス)",
+      "title": "中国製AIサイバー攻撃ツール世界へ拡散、サイバー攻撃拠点を世界で約1000台確認(ビジネス＋IT)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 13:30",
-      "publishedTs": 1794717003,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00000009-rps-000-1-view.jpg?exp=10800",
-      "summary": "カーオーディオを趣味として嗜んでいるドライバーの多くは、サウンドチューニングも自ら行い楽しんでいる。本命の設定はプロに任せた方が良いのだが、自分でもやってみるとカーオーディオライフを一層充実させられ…",
+      "publishedAt": "2026-11-15 13:45",
+      "publishedTs": 1794717906,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00677539-bcn-000-5-view.jpg?exp=10800",
+      "summary": "「BCNランキング」2026年11月2日～8日の日次集計データによると、BS・CS 4Kチューナー搭載テレビ（4Kテレビ）の実売台数ランキングは以下の通りとなった。【写真ギャラリー】1位 REGZA…",
       "points": [
         "カテゴリ: テクノロジー・AIの注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 13:30）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 13:45）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "テクノロジー・AI分野で関心を集めている最新ニュースです。",
@@ -3145,20 +3145,20 @@ window.NEWS_DATA = {
         "テクノロジー・AI",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/72f28b9f05313d0efd8db418b01d9928f23276df?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/59bd2ded6cfe82734efa51371959b2af8dbd543b?source=rss",
       "isAiEnriched": false
     },
     {
       "category": "business",
-      "title": "【ICE搭載】人気Dセグサルーンの最新モデル「BMW3シリーズ」対「メルセデス・ベンツCクラス」の初期モデル比較(MotorFan)",
+      "title": "東急百貨店が「ベルサイユのばら」とコラボ　顔タイプ診断やトレンドメイク提案などコスメ体験を提供(WWDJAPAN.com)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 16:45",
-      "publishedTs": 1794728700,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-01674068-motorfan-000-1-view.jpg?exp=10800",
-      "summary": "長年のライバル関係にある「BMW 3シリーズ」と「メルセデス・ベンツCクラス」が、2026年にモデルチェンジを実施。内燃機関（ICE）とフル電動モデル（BEV）で別ボディが与えられた2台から、今回は…",
+      "publishedAt": "2026-11-15 17:00",
+      "publishedTs": 1794729600,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-02551655-wwdjapan-000-1-view.jpg?exp=10800",
+      "summary": "東急百貨店は11月26日〜12月9日、美容・コスメの楽しみ方を店頭で体験できる“シブヤ ビューティ ジャム ザ ウィークス〜好奇心を刺激する2週間〜”を開催する。同イベントでは、「ベルサイユのばら」",
       "points": [
         "カテゴリ: ビジネス・経済の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 16:45）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 17:00）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "ビジネス・経済分野で関心を集めている最新ニュースです。",
@@ -3166,20 +3166,20 @@ window.NEWS_DATA = {
         "ビジネス・経済",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/e76c92d72759f769756a2a6bf2b182b2f7a738f8?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/5ed6af693eb92f9f4a77813de0e1628c79688c7f?source=rss",
       "isAiEnriched": false
     },
     {
       "category": "entertainment",
-      "title": "“お前も鬼にならないか？” 「鬼滅の刃」煉獄と猗窩座の壮絶バトルに胸アツ！「来てしまった…」「煉獄さんがかっこ良すぎる」無限列車編 再放送第六話【ネタバレあり反応まとめ】(アニメ！アニメ！)",
+      "title": "【アオアシ Season2】第8話「⾼みを⽬指す」あらすじ＆先行カット公開！(アニメージュプラス)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 17:15",
-      "publishedTs": 1794730502,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00000017-anmanmv-000-1-view.jpg?exp=10800",
-      "summary": "アニメ『鬼滅の刃』シリーズの全編再放送は、2026年11月15日に無限列車編・第六話「猗窩座（あかざ）」を放送。「来てしまうのか…『彼』が…」「とうとう奴が来るのか…」視聴者たちにも、彼の登場に戦慄…",
+      "publishedAt": "2026-11-15 17:25",
+      "publishedTs": 1794731100,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00068243-animage-000-1-view.jpg?exp=10800",
+      "summary": "2026年10月4日（日）より毎週日曜日午後5時より放送予定のTVアニメ『アオアシ Season2』、第8話のあらすじと先行カットが公開された。【関連画像】第8話先行カットをすべてチェックする！（写…",
       "points": [
         "カテゴリ: 芸能・エンタメの注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 17:15）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 17:25）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "芸能・エンタメ分野で関心を集めている最新ニュースです。",
@@ -3187,7 +3187,7 @@ window.NEWS_DATA = {
         "芸能・エンタメ",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/3b4fb707155fcf4f727023b21d3f5cd6b09ddf3d?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/5d2cbbd4d7f2ad0f390382aaa32329616bf3ecf9?source=rss",
       "isAiEnriched": false
     },
     {
@@ -3234,15 +3234,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "マーシャルのコンパクトスピーカー「Stockwell III」使ってみた。このサイズで低音とバッテリーがバリ強い(ギズモード・ジャパン)",
+      "title": "「フェーダー」の“裏ワザ”公開！ 上手く使うと“低音増強”が可能に！［入門者のためのサウンドチューニング講座］第2回(レスポンス)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 12:30",
-      "publishedTs": 1794713401,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00000004-giz-000-1-view.jpg?exp=10800",
-      "summary": "今年6月に発売されたMarshallの新型スピーカーMarshall Stockwell III。【全画像をみる】マーシャルのコンパクトスピーカー「Stockwell III」使ってみた。このサイズ…",
+      "publishedAt": "2026-11-15 13:30",
+      "publishedTs": 1794717003,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00000009-rps-000-1-view.jpg?exp=10800",
+      "summary": "カーオーディオを趣味として嗜んでいるドライバーの多くは、サウンドチューニングも自ら行い楽しんでいる。本命の設定はプロに任せた方が良いのだが、自分でもやってみるとカーオーディオライフを一層充実させられ…",
       "points": [
         "カテゴリ: テクノロジー・AIの注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 12:30）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 13:30）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "テクノロジー・AI分野で関心を集めている最新ニュースです。",
@@ -3250,20 +3250,20 @@ window.NEWS_DATA = {
         "テクノロジー・AI",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/b45bc52557e082417b38da619e4768861666b52a?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/72f28b9f05313d0efd8db418b01d9928f23276df?source=rss",
       "isAiEnriched": false
     },
     {
       "category": "business",
-      "title": "電気自動車なのに新開発のエンジン音が鳴る！ 8速MT感覚で操るレクサス「RZ」(Auto Messe Web)",
+      "title": "【ICE搭載】人気Dセグサルーンの最新モデル「BMW3シリーズ」対「メルセデス・ベンツCクラス」の初期モデル比較(MotorFan)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 16:40",
-      "publishedTs": 1794728401,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00010007-amweb-000-1-view.jpg?exp=10800",
-      "summary": "レクサスは2026年11月12日、BEV専用モデルのレクサス「RZ」を一部改良し、全国のレクサス店を通じて発売した。変更の柱は、RZ550eが積むインタラクティブマニュアルドライブ（擬似的に手動変速…",
+      "publishedAt": "2026-11-15 16:45",
+      "publishedTs": 1794728700,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-01674068-motorfan-000-1-view.jpg?exp=10800",
+      "summary": "長年のライバル関係にある「BMW 3シリーズ」と「メルセデス・ベンツCクラス」が、2026年にモデルチェンジを実施。内燃機関（ICE）とフル電動モデル（BEV）で別ボディが与えられた2台から、今回は…",
       "points": [
         "カテゴリ: ビジネス・経済の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 16:40）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 16:45）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "ビジネス・経済分野で関心を集めている最新ニュースです。",
@@ -3271,20 +3271,20 @@ window.NEWS_DATA = {
         "ビジネス・経済",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/affc5203d9747a87c61a05e7dbf70854430bcffb?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/e76c92d72759f769756a2a6bf2b182b2f7a738f8?source=rss",
       "isAiEnriched": false
     },
     {
       "category": "entertainment",
-      "title": "1万人が選んだ 《歴代俳優ランキング》！　ムロツヨシ、鈴木亮平…　1位は、演技力もビジュアルも「完璧」(LASISA)",
+      "title": "脱出ゲーム世界大会、日本チーム優勝　松丸亮吾チームは3位「やった〜!!!」(オリコン)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 17:15",
-      "publishedTs": 1794730500,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-10169610-lasisa-000-1-view.jpg?exp=10800",
-      "summary": "テレビや映画、CMなどのメディアで目にしない日はない俳優たち。インフォニア（東京都港区）が運営するユーザー参加型のランキングサイト「みんなのランキング」では、「人気俳優」ランキングを投票で募っていま…",
+      "publishedAt": "2026-11-15 17:24",
+      "publishedTs": 1794731064,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00000398-oric-000-1-view.jpg?exp=10800",
+      "summary": "謎解きクリエイターの松丸亮吾が15日、自身のXを更新し、「脱出ゲーム世界大会'26 決勝戦 in ヨーロッパ」でメダルを獲得したと報告した。【画像】脱出ゲーム世界大会結果（一覧）／優勝・3位チームビ…",
       "points": [
         "カテゴリ: 芸能・エンタメの注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 17:15）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 17:24）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "芸能・エンタメ分野で関心を集めている最新ニュースです。",
@@ -3292,7 +3292,7 @@ window.NEWS_DATA = {
         "芸能・エンタメ",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/604f021ef5e57d5721d1b7d3177f38c25fac2eee?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/3dac0a1a8de58556fd4c36ae45e49e5feece91bd?source=rss",
       "isAiEnriched": false
     },
     {
@@ -3340,12 +3340,12 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "生成AIの新手法「次概念モデリング」──文章の骨格を先に作り高速化を狙う(Forbes JAPAN)",
+      "title": "マーシャルのコンパクトスピーカー「Stockwell III」使ってみた。このサイズで低音とバッテリーがバリ強い(ギズモード・ジャパン)",
       "source": "Yahoo!ニュース",
       "publishedAt": "2026-11-15 12:30",
-      "publishedTs": 1794713400,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00106986-forbes-000-1-view.jpg?exp=10800",
-      "summary": "ChatGPT、GPT-5、Claude、Grok、Gemini、Copilotなどの生成AIは、一般に「トークン」と呼ばれる単位を順番に予測し、回答を組み立てる。大規模言語モデル（LLM）で広く使…",
+      "publishedTs": 1794713401,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00000004-giz-000-1-view.jpg?exp=10800",
+      "summary": "今年6月に発売されたMarshallの新型スピーカーMarshall Stockwell III。【全画像をみる】マーシャルのコンパクトスピーカー「Stockwell III」使ってみた。このサイズ…",
       "points": [
         "カテゴリ: テクノロジー・AIの注目トピック",
         "配信: Yahoo!ニュース トピックス（2026-11-15 12:30）",
@@ -3356,20 +3356,20 @@ window.NEWS_DATA = {
         "テクノロジー・AI",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/b3bcfe8ca595a66fdb60016a4cd258df0853c779?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/b45bc52557e082417b38da619e4768861666b52a?source=rss",
       "isAiEnriched": false
     },
     {
       "category": "business",
-      "title": "2024年度に結婚した20〜40歳代で披露宴をしたのは43.1%　結婚式を挙げない友人への結婚祝いはどう決める？ご祝儀の平均と披露宴の費用から考える(LIMO)",
+      "title": "電気自動車なのに新開発のエンジン音が鳴る！ 8速MT感覚で操るレクサス「RZ」(Auto Messe Web)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 16:25",
-      "publishedTs": 1794727556,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00146486-toushin-000-1-view.jpg?exp=10800",
-      "summary": "厚生労働省「令和7 年 人口動態統計月報年計（概数）の概況」によると、2025年の日本における日本人の婚姻件数は48万9119組（概数）で、前年より4027組増えました。一方で、結婚し…",
+      "publishedAt": "2026-11-15 16:40",
+      "publishedTs": 1794728401,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00010007-amweb-000-1-view.jpg?exp=10800",
+      "summary": "レクサスは2026年11月12日、BEV専用モデルのレクサス「RZ」を一部改良し、全国のレクサス店を通じて発売した。変更の柱は、RZ550eが積むインタラクティブマニュアルドライブ（擬似的に手動変速…",
       "points": [
         "カテゴリ: ビジネス・経済の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 16:25）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 16:40）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "ビジネス・経済分野で関心を集めている最新ニュースです。",
@@ -3377,20 +3377,20 @@ window.NEWS_DATA = {
         "ビジネス・経済",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/833b7703f38b6875b1c77ca199f56a4683bba700?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/affc5203d9747a87c61a05e7dbf70854430bcffb?source=rss",
       "isAiEnriched": false
     },
     {
       "category": "entertainment",
-      "title": "古田愛理主演『カナミと三つの恋の味』FOD SHORTで配信　井内悠陽「本当に兄弟が増えたみたいで楽しかった」(WEBザテレビジョン)",
+      "title": "武田真治＆静まなみ夫妻、3年前の早産を回顧 32週で破水・緊急入院→34週・1787gで出産「罪悪感もあってすごく複雑な心境」(モデルプレス)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 17:11",
-      "publishedTs": 1794730293,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-01457579-the_tv-000-1-view.jpg?exp=10800",
-      "summary": "古田愛理が主演を務めるショートドラマ「カナミと三つの恋の味」が、11月6日よりFOD SHORTにて独占配信を開始した。【写真】透明感がすごい…主演を務める古田愛理■老舗和菓子店で出会う3人のきょう…",
+      "publishedAt": "2026-11-15 17:24",
+      "publishedTs": 1794731045,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-04877163-mdpr-000-1-view.jpg?exp=10800",
+      "summary": "【モデルプレス＝2026/11/15】俳優の武田真治とモデル・歯科衛生士の静まなみの夫妻が15日、都内で開催された「世界早産児デー2026 in TOKYO」トークセッションに出席。3年前の出産時に…",
       "points": [
         "カテゴリ: 芸能・エンタメの注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 17:11）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 17:24）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "芸能・エンタメ分野で関心を集めている最新ニュースです。",
@@ -3398,7 +3398,7 @@ window.NEWS_DATA = {
         "芸能・エンタメ",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/3386d028c68f932921c17fa50149095495b94f0b?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/3880614c7c8a6addf11e958b8f0415502ca2994b?source=rss",
       "isAiEnriched": false
     },
     {
@@ -3446,15 +3446,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "REGZA「43Z770S」が首位を獲得　4Kテレビ人気ランキングTOP10　2026/11/15(BCN)",
+      "title": "生成AIの新手法「次概念モデリング」──文章の骨格を先に作り高速化を狙う(Forbes JAPAN)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 12:00",
-      "publishedTs": 1794711600,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00677539-bcn-000-5-view.jpg?exp=10800",
-      "summary": "「BCNランキング」2026年11月2日～8日の日次集計データによると、BS・CS 4Kチューナー搭載テレビ（4Kテレビ）の実売台数ランキングは以下の通りとなった。【写真ギャラリー】1位 REGZA…",
+      "publishedAt": "2026-11-15 12:30",
+      "publishedTs": 1794713400,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00106986-forbes-000-1-view.jpg?exp=10800",
+      "summary": "ChatGPT、GPT-5、Claude、Grok、Gemini、Copilotなどの生成AIは、一般に「トークン」と呼ばれる単位を順番に予測し、回答を組み立てる。大規模言語モデル（LLM）で広く使…",
       "points": [
         "カテゴリ: テクノロジー・AIの注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 12:00）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 12:30）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "テクノロジー・AI分野で関心を集めている最新ニュースです。",
@@ -3462,20 +3462,20 @@ window.NEWS_DATA = {
         "テクノロジー・AI",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/87a4de5583c435ed8dc361cb75c3bc8414e4804e?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/b3bcfe8ca595a66fdb60016a4cd258df0853c779?source=rss",
       "isAiEnriched": false
     },
     {
       "category": "business",
-      "title": "管理職の年収「課長級と部長級の差は約148万円」。管理職の40.9％が「部下との対話に悩む…」40代で最も多く(LIMO)",
+      "title": "2024年度に結婚した20〜40歳代で披露宴をしたのは43.1%　結婚式を挙げない友人への結婚祝いはどう決める？ご祝儀の平均と披露宴の費用から考える(LIMO)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 16:21",
-      "publishedTs": 1794727273,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00146914-toushin-000-1-view.jpg?exp=10800",
-      "summary": "部下を持つようになると、自分の仕事の成果だけでなく、部下とどう関わるかに頭を悩ませる場面も増えてきます。役職が上がって年収が増える一方で、その役割の重さを感じている人もいます。◆【画像】役職別の月給…",
+      "publishedAt": "2026-11-15 16:25",
+      "publishedTs": 1794727556,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00146486-toushin-000-1-view.jpg?exp=10800",
+      "summary": "厚生労働省「令和7 年 人口動態統計月報年計（概数）の概況」によると、2025年の日本における日本人の婚姻件数は48万9119組（概数）で、前年より4027組増えました。一方で、結婚し…",
       "points": [
         "カテゴリ: ビジネス・経済の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 16:21）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 16:25）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "ビジネス・経済分野で関心を集めている最新ニュースです。",
@@ -3483,20 +3483,20 @@ window.NEWS_DATA = {
         "ビジネス・経済",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/34775dd03476f071d562eadb535a393dd6bab305?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/833b7703f38b6875b1c77ca199f56a4683bba700?source=rss",
       "isAiEnriched": false
     },
     {
       "category": "entertainment",
-      "title": "上沼恵美子　宮崎謙介氏に不倫疑惑ぶつける「奥さんは別に好きな男性がいるんじゃないですか？」(東スポWEB)",
+      "title": "武田真治、早産で生まれた娘の入院中にオムツの替え方など学び「練習期間がいっぱい取れた。娘は親孝行」とポジティブ思考　夫妻で「世界早産児デー」イベント出席(中日スポーツ)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 17:10",
-      "publishedTs": 1794730225,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00409979-tospoweb-000-1-view.jpg?exp=10800",
-      "summary": "タレントの上沼恵美子が15日放送の読売テレビ「上沼・高田のクギズケ！」に出演。宮崎謙介氏の〝夫婦仲〟に疑いの目を向けた。 この日は、米半導体大手エヌビディアの最高経営責任者だったジェンスン・フアン氏…",
+      "publishedAt": "2026-11-15 17:23",
+      "publishedTs": 1794731032,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00000085-chuspo-000-1-view.jpg?exp=10800",
+      "summary": "俳優の武田真治（53）、モデルの静まなみ（32）夫妻が15日、東京都内で行われた「世界早産児デー2026 in TOKYO」のトークイベントに出席した。 武田と静は2020年7月に結婚し、23年6月…",
       "points": [
         "カテゴリ: 芸能・エンタメの注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 17:10）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 17:23）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "芸能・エンタメ分野で関心を集めている最新ニュースです。",
@@ -3504,7 +3504,7 @@ window.NEWS_DATA = {
         "芸能・エンタメ",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/93299656756d72ab8b79d30248716485706db5ea?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/68338c3cf03fa8c25f7ffab01db506237b44e60a?source=rss",
       "isAiEnriched": false
     },
     {
@@ -3552,12 +3552,12 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "インテルがPC出荷の2年連続減を予測──買い替え需要を左右するAIの実用性(Forbes JAPAN)",
+      "title": "REGZA「43Z770S」が首位を獲得　4Kテレビ人気ランキングTOP10　2026/11/15(BCN)",
       "source": "Yahoo!ニュース",
       "publishedAt": "2026-11-15 12:00",
       "publishedTs": 1794711600,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00107886-forbes-000-1-view.jpg?exp=10800",
-      "summary": "私は、文字で命令を入力するDOSの時代から、図やアイコンを使う画面操作、ノートPC、外出先での利用まで、パソコン（PC）が変化する様子を見てきた。転換のたびに、PC業界が次の時代へ進むまでの厳しい時…",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00677539-bcn-000-5-view.jpg?exp=10800",
+      "summary": "「BCNランキング」2026年11月2日～8日の日次集計データによると、BS・CS 4Kチューナー搭載テレビ（4Kテレビ）の実売台数ランキングは以下の通りとなった。【写真ギャラリー】1位 REGZA…",
       "points": [
         "カテゴリ: テクノロジー・AIの注目トピック",
         "配信: Yahoo!ニュース トピックス（2026-11-15 12:00）",
@@ -3568,20 +3568,20 @@ window.NEWS_DATA = {
         "テクノロジー・AI",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/51a2466dcb61e2cba388068c1aacae725de5656a?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/87a4de5583c435ed8dc361cb75c3bc8414e4804e?source=rss",
       "isAiEnriched": false
     },
     {
       "category": "business",
-      "title": "「出玉システムの知識がないと損をする？」パチンコ新機能「通常時フラグ」搭載機はユーザーに受け入れられるのか　『海物語3R3SP』では“ハマりの救済”も(マネーポストWEB)",
+      "title": "管理職の年収「課長級と部長級の差は約148万円」。管理職の40.9％が「部下との対話に悩む…」40代で最も多く(LIMO)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 16:15",
-      "publishedTs": 1794726900,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00000004-moneypost-000-1-view.jpg?exp=10800",
-      "summary": "パチンコのゲーム性を大幅に拡張する「通常時フラグ」と呼ばれる機能を搭載した、新基準対応のパチンコ機が今年12月から登場する。すでにいくつかの機種のスペックも明らかになっているが、ユーザーからは不安の…",
+      "publishedAt": "2026-11-15 16:21",
+      "publishedTs": 1794727273,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00146914-toushin-000-1-view.jpg?exp=10800",
+      "summary": "部下を持つようになると、自分の仕事の成果だけでなく、部下とどう関わるかに頭を悩ませる場面も増えてきます。役職が上がって年収が増える一方で、その役割の重さを感じている人もいます。◆【画像】役職別の月給…",
       "points": [
         "カテゴリ: ビジネス・経済の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 16:15）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 16:21）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "ビジネス・経済分野で関心を集めている最新ニュースです。",
@@ -3589,20 +3589,20 @@ window.NEWS_DATA = {
         "ビジネス・経済",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/94d1a595852ed128cd6444e2f79550fde27aeb4c?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/34775dd03476f071d562eadb535a393dd6bab305?source=rss",
       "isAiEnriched": false
     },
     {
       "category": "entertainment",
-      "title": "ディーン・フジオカ〝中学の先輩〟明かす「ＺＯＺＯの前澤友作さん、ＤＪ　ＫＯＯさんがいる」(東スポWEB)",
+      "title": "2児の父・パックン 寝起き姿で長女への手作り弁当披露!彩り豊かで栄養満点な仕上がりに「娘さんがうらやましい」「食べたい!」(めざましmedia)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 17:10",
-      "publishedTs": 1794730225,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00409978-tospoweb-000-1-view.jpg?exp=10800",
-      "summary": "俳優のディーン・フジオカが、15日放送の「メシドラ～兼近＆真之介のグルメドライブ～」（日本テレビ系）に出演。地元について語った。 この日のロケは、千葉県の鎌ヶ谷市。ディーンのふるさとは2つあるという…",
+      "publishedAt": "2026-11-15 17:23",
+      "publishedTs": 1794730998,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00374012-fujitv-000-1-view.jpg?exp=10800",
+      "summary": "お笑いタレントやコメンテーターとして活躍する、パックンさんが2026年11月11日までに自身のインスタグラムを更新。愛情たっぷりの手作り弁当を公開し、「美味しそう!食べたい!」「娘さんがうらやましい…",
       "points": [
         "カテゴリ: 芸能・エンタメの注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 17:10）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 17:23）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "芸能・エンタメ分野で関心を集めている最新ニュースです。",
@@ -3610,7 +3610,7 @@ window.NEWS_DATA = {
         "芸能・エンタメ",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/da7b23533a708bd7fd27f4e1a76abb5e0db9b928?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/a30c1eeb580cd8fdb6ffd07d175ae55f458a9cc1?source=rss",
       "isAiEnriched": false
     },
     {
@@ -3657,12 +3657,12 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "新車の軽が高価な今こそ中古の日産「モコ」を。リクライニング可能な後席から車中泊までイケる万能性をチェック(アスキー)",
+      "title": "インテルがPC出荷の2年連続減を予測──買い替え需要を左右するAIの実用性(Forbes JAPAN)",
       "source": "Yahoo!ニュース",
       "publishedAt": "2026-11-15 12:00",
       "publishedTs": 1794711600,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00000002-ascii-000-1-view.jpg?exp=10800",
-      "summary": "軽スーパーハイトワゴンは高すぎると思っている人にオススメしたい、日産の3代目「モコ」を紹介します。2016年に生産を終了しているため、現在は中古でしか手に入りませんが、軽スーパーハイトワゴンに近い使…",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00107886-forbes-000-1-view.jpg?exp=10800",
+      "summary": "私は、文字で命令を入力するDOSの時代から、図やアイコンを使う画面操作、ノートPC、外出先での利用まで、パソコン（PC）が変化する様子を見てきた。転換のたびに、PC業界が次の時代へ進むまでの厳しい時…",
       "points": [
         "カテゴリ: テクノロジー・AIの注目トピック",
         "配信: Yahoo!ニュース トピックス（2026-11-15 12:00）",
@@ -3673,20 +3673,20 @@ window.NEWS_DATA = {
         "テクノロジー・AI",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/70b7ab5a5988aac336ca7c4dd7598d4519f06abb?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/51a2466dcb61e2cba388068c1aacae725de5656a?source=rss",
       "isAiEnriched": false
     },
     {
       "category": "business",
-      "title": "静岡県警が名指しで警告！ 伊豆縦貫道に潜む「ワナ区間」その内容とは？ 右車線ガラ空きじゃん！の先に(乗りものニュース)",
+      "title": "「出玉システムの知識がないと損をする？」パチンコ新機能「通常時フラグ」搭載機はユーザーに受け入れられるのか　『海物語3R3SP』では“ハマりの救済”も(マネーポストWEB)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 16:12",
-      "publishedTs": 1794726720,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00727680-norimono-000-1-view.jpg?exp=10800",
-      "summary": "静岡県警察本部交通部高速道路交通警察隊の公式SNSアカウントは、伊豆縦貫自動車道（東駿河湾環状道路)の沼津方向、大場函南ICから三島玉沢ICまでの間を走行するにあたり、注意を要する区間があることを紹…",
+      "publishedAt": "2026-11-15 16:15",
+      "publishedTs": 1794726900,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00000004-moneypost-000-1-view.jpg?exp=10800",
+      "summary": "パチンコのゲーム性を大幅に拡張する「通常時フラグ」と呼ばれる機能を搭載した、新基準対応のパチンコ機が今年12月から登場する。すでにいくつかの機種のスペックも明らかになっているが、ユーザーからは不安の…",
       "points": [
         "カテゴリ: ビジネス・経済の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 16:12）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 16:15）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "ビジネス・経済分野で関心を集めている最新ニュースです。",
@@ -3694,20 +3694,20 @@ window.NEWS_DATA = {
         "ビジネス・経済",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/8552bbf9fd20d71db9c976b698d5a1df7edee065?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/94d1a595852ed128cd6444e2f79550fde27aeb4c?source=rss",
       "isAiEnriched": false
     },
     {
       "category": "entertainment",
-      "title": "「ちいかわクリニック」入店予約に“顔認証”導入へ　ネット反応さまざま「めちゃ転売ヤー対策してるやん!!!」「ありがたい」「このご時世に少し抵抗」(オリコン)",
+      "title": "久下真以子アナ、出産を報告「金メダルベビー2号爆誕」(テレビ朝日系（ANN）)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 17:10",
-      "publishedTs": 1794730200,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00000370-oric-000-1-view.jpg?exp=10800",
-      "summary": "グレイ・パーカー・サービスは、イラストレーター・ナガノ氏が描く「ちいかわ」のグッズシリーズ「ちいかわクリニック」第1弾アイテムを、27日よりちいかわ公式WEB SHOP「ちいかわマーケット」、ちいか…",
+      "publishedAt": "2026-11-15 17:21",
+      "publishedTs": 1794730877,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-90204363-ann-000-1-view.jpg?exp=10800",
+      "summary": "フリーアナウンサーの久下真以子（41）が14日、インスタグラムで、第2子となる男児の出産を報告した。久下は2021年9月に、車いすラグビーの羽賀理之選手（42）との結婚を発表し、24年11月に第1子…",
       "points": [
         "カテゴリ: 芸能・エンタメの注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 17:10）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 17:21）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "芸能・エンタメ分野で関心を集めている最新ニュースです。",
@@ -3715,7 +3715,7 @@ window.NEWS_DATA = {
         "芸能・エンタメ",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/f5363115fdd0acc135155c0a1b319a8125e64c5d?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/21c5e7900f557655ae675d169ac1df0c4d904fa2?source=rss",
       "isAiEnriched": false
     },
     {
@@ -3763,12 +3763,12 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "2年落ちの全部入りAndroidスマホ「OPPO Reno 11A」は安く買えてスペック十分！ でも今から買っても大丈夫!?(アスキー)",
+      "title": "新車の軽が高価な今こそ中古の日産「モコ」を。リクライニング可能な後席から車中泊までイケる万能性をチェック(アスキー)",
       "source": "Yahoo!ニュース",
       "publishedAt": "2026-11-15 12:00",
       "publishedTs": 1794711600,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00000001-ascii-000-1-view.jpg?exp=10800",
-      "summary": "昨今のスマートフォンの高騰で、コスパに優れた選択肢が少なくなっているのが現状だ。そんな中、記事執筆時点で、MNPでの乗り換えをともなう購入では1万円以下となり、現在必要十分なスペックを備えているのが…",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00000002-ascii-000-1-view.jpg?exp=10800",
+      "summary": "軽スーパーハイトワゴンは高すぎると思っている人にオススメしたい、日産の3代目「モコ」を紹介します。2016年に生産を終了しているため、現在は中古でしか手に入りませんが、軽スーパーハイトワゴンに近い使…",
       "points": [
         "カテゴリ: テクノロジー・AIの注目トピック",
         "配信: Yahoo!ニュース トピックス（2026-11-15 12:00）",
@@ -3779,20 +3779,20 @@ window.NEWS_DATA = {
         "テクノロジー・AI",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/af4e3f9a0f48add6be5f7bc0fe7d934bf8aca600?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/70b7ab5a5988aac336ca7c4dd7598d4519f06abb?source=rss",
       "isAiEnriched": false
     },
     {
       "category": "business",
-      "title": "八代工場生産再開断念…日本製紙、拠点再生の行方(ニュースイッチ)",
+      "title": "静岡県警が名指しで警告！ 伊豆縦貫道に潜む「ワナ区間」その内容とは？ 右車線ガラ空きじゃん！の先に(乗りものニュース)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 16:10",
-      "publishedTs": 1794726601,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00010003-newswitch-000-1-view.jpg?exp=10800",
-      "summary": "日本製紙は7月の熊本地震で被災した八代工場（熊本県八代市）で印刷用紙と木質繊維（パルプ）の生産再開を断念した。設備の補修などに概算で3―4年の工期と多額の費用を要するため、復旧は極めて困難なことが決…",
+      "publishedAt": "2026-11-15 16:12",
+      "publishedTs": 1794726720,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00727680-norimono-000-1-view.jpg?exp=10800",
+      "summary": "静岡県警察本部交通部高速道路交通警察隊の公式SNSアカウントは、伊豆縦貫自動車道（東駿河湾環状道路)の沼津方向、大場函南ICから三島玉沢ICまでの間を走行するにあたり、注意を要する区間があることを紹…",
       "points": [
         "カテゴリ: ビジネス・経済の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 16:10）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 16:12）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "ビジネス・経済分野で関心を集めている最新ニュースです。",
@@ -3800,20 +3800,20 @@ window.NEWS_DATA = {
         "ビジネス・経済",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/37a38eaa22ed7a73e30a9bc21dd9347ea34ce3d9?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/8552bbf9fd20d71db9c976b698d5a1df7edee065?source=rss",
       "isAiEnriched": false
     },
     {
       "category": "entertainment",
-      "title": "村上隆氏　５０年のアニメ愛、自身を「おたく第一世代」　出崎統監督に敬意、庵野秀明監督に衝撃(東スポWEB)",
+      "title": "ラフターラインズがGI制覇→“命名者”にX騒然「この人マジで凄い」「豪運」「馬の見方教えて欲しい」(ENCOUNT)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 17:05",
-      "publishedTs": 1794729923,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00409976-tospoweb-000-1-view.jpg?exp=10800",
-      "summary": "世界的現代アーティストの村上隆氏（64）は、本物の「アニメおたく」だった。15日、名古屋市内で開催されている「あいち・なごやインターナショナル・アニメーション・フィルム・フェスティバル（ANIAFF…",
+      "publishedAt": "2026-11-15 17:20",
+      "publishedTs": 1794730836,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-01098900-encount-000-1-view.jpg?exp=10800",
+      "summary": "中央競馬のGI・エリザベス女王杯（京都競馬場・芝2200メートル）が行われ、武豊の騎乗したラフターラインズ（牝3、小笠）が豪快に差し切り、初のGI勝利を収めた。レース後、ラフターラインズの“命名者”…",
       "points": [
         "カテゴリ: 芸能・エンタメの注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 17:05）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 17:20）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "芸能・エンタメ分野で関心を集めている最新ニュースです。",
@@ -3821,7 +3821,7 @@ window.NEWS_DATA = {
         "芸能・エンタメ",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/7bd9041837d342ce3b46c67fd1a6c4b8d3c3c721?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/344ce6a9cad2e9903e084749f58cf280a4df9276?source=rss",
       "isAiEnriched": false
     },
     {
@@ -3868,15 +3868,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "史上最大の「宇宙の3D地図」作成へ、10億天体超のデータ公開--欧州宇宙機関(CNET Japan)",
+      "title": "2年落ちの全部入りAndroidスマホ「OPPO Reno 11A」は安く買えてスペック十分！ でも今から買っても大丈夫!?(アスキー)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 11:40",
-      "publishedTs": 1794710400,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-35254891-cnetj-000-1-view.jpg?exp=10800",
-      "summary": "欧州宇宙機関（ESA）は11月12日、宇宙望遠鏡「ユークリッド」が観測した10億天体超のデータを公開した。約13カ月分の観測成果をまとめた初の大規模公開で、宇宙の3次元地図づくりや、暗黒物質（ダーク…",
+      "publishedAt": "2026-11-15 12:00",
+      "publishedTs": 1794711600,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00000001-ascii-000-1-view.jpg?exp=10800",
+      "summary": "昨今のスマートフォンの高騰で、コスパに優れた選択肢が少なくなっているのが現状だ。そんな中、記事執筆時点で、MNPでの乗り換えをともなう購入では1万円以下となり、現在必要十分なスペックを備えているのが…",
       "points": [
         "カテゴリ: テクノロジー・AIの注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 11:40）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 12:00）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "テクノロジー・AI分野で関心を集めている最新ニュースです。",
@@ -3884,17 +3884,17 @@ window.NEWS_DATA = {
         "テクノロジー・AI",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/000e5f124ee44a2970a86823a299d77f28f8331f?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/af4e3f9a0f48add6be5f7bc0fe7d934bf8aca600?source=rss",
       "isAiEnriched": false
     },
     {
       "category": "business",
-      "title": "ホンダ「ヴェゼル」マイナーチェンジモデル発売 「ボディ同色化」には賛否の声も 販売店に寄せられた反響は？(くるまのニュース)",
+      "title": "八代工場生産再開断念…日本製紙、拠点再生の行方(ニュースイッチ)",
       "source": "Yahoo!ニュース",
       "publishedAt": "2026-11-15 16:10",
-      "publishedTs": 1794726600,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-01139322-kurumans-000-1-view.jpg?exp=10800",
-      "summary": "2026年10月22日、ホンダはコンパクトSUV「ヴェゼル」のマイナーチェンジを発表し、翌23日に発売しました。 その後の反響について、ホンダディーラーに聞きました。【画像】これが「ヴェゼル」マイチ…",
+      "publishedTs": 1794726601,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00010003-newswitch-000-1-view.jpg?exp=10800",
+      "summary": "日本製紙は7月の熊本地震で被災した八代工場（熊本県八代市）で印刷用紙と木質繊維（パルプ）の生産再開を断念した。設備の補修などに概算で3―4年の工期と多額の費用を要するため、復旧は極めて困難なことが決…",
       "points": [
         "カテゴリ: ビジネス・経済の注目トピック",
         "配信: Yahoo!ニュース トピックス（2026-11-15 16:10）",
@@ -3905,20 +3905,20 @@ window.NEWS_DATA = {
         "ビジネス・経済",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/377442c254797abf0d5eb8cd8edc9b88002ca193?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/37a38eaa22ed7a73e30a9bc21dd9347ea34ce3d9?source=rss",
       "isAiEnriched": false
     },
     {
       "category": "entertainment",
-      "title": "芦田愛菜主演の『南田南弁護士』日本オリジナルキャラがいた　公式が紹介＆“祝福”…今後の活躍に期待の声(オリコン)",
+      "title": "プロ雀士になった３２歳女優「小悪魔」「かわいすぎて」佐野ひなこにくぎ付け…美人雀士と“９４年組”ショット公開(スポーツ報知)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 17:05",
-      "publishedTs": 1794729904,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00000397-oric-000-1-view.jpg?exp=10800",
-      "summary": "俳優・芦田愛菜が主演を務めるカンテレ・フジテレビ系ドラマ『南田南弁護士は天才肌』（毎週月曜 後10：00）の公式Xが15日までに更新され、キャスト・竹内櫻の誕生日を祝福した。【写真】『南田南弁護士』",
+      "publishedAt": "2026-11-15 17:20",
+      "publishedTs": 1794730802,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-11151094-sph-000-1-view.jpg?exp=10800",
+      "summary": "モデルで女優の佐野ひなこ（３２）が１５日までに自身のインスタグラムを更新し、女流プロ雀士でモデルの岡田紗佳との２ショットを公開し、ファンから反響が寄せられてる。【写真】超絶ボディー全開！ウエスト５１…",
       "points": [
         "カテゴリ: 芸能・エンタメの注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 17:05）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 17:20）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "芸能・エンタメ分野で関心を集めている最新ニュースです。",
@@ -3926,7 +3926,7 @@ window.NEWS_DATA = {
         "芸能・エンタメ",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/81fcb57849175a31cfb93df3d4247d6e27d9e203?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/56f1b1f3c88e6810fa7eee10200b1cf16f72daee?source=rss",
       "isAiEnriched": false
     },
     {
@@ -3973,15 +3973,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "Ankerの新イヤホン、着けたの忘れるレベルで軽快でした。AIボイスレコーダー搭載モデルも登場(ギズモード・ジャパン)",
+      "title": "史上最大の「宇宙の3D地図」作成へ、10億天体超のデータ公開--欧州宇宙機関(CNET Japan)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 11:30",
-      "publishedTs": 1794709801,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00000003-giz-000-1-view.jpg?exp=10800",
-      "summary": "こりゃあいいわ、耳が喜んでる。イヤホンはカナル式一強、ノイキャンこそがパワー！…みたいに思っていた時期が僕にもありました。でもさぁ、最近耳もなんだかお疲れなんですよね。【全画像をみる】Ankerの新…",
+      "publishedAt": "2026-11-15 11:40",
+      "publishedTs": 1794710400,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-35254891-cnetj-000-1-view.jpg?exp=10800",
+      "summary": "欧州宇宙機関（ESA）は11月12日、宇宙望遠鏡「ユークリッド」が観測した10億天体超のデータを公開した。約13カ月分の観測成果をまとめた初の大規模公開で、宇宙の3次元地図づくりや、暗黒物質（ダーク…",
       "points": [
         "カテゴリ: テクノロジー・AIの注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 11:30）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 11:40）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "テクノロジー・AI分野で関心を集めている最新ニュースです。",
@@ -3989,17 +3989,17 @@ window.NEWS_DATA = {
         "テクノロジー・AI",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/336353d55e7d649e2181c20d15bc09beb620bc7c?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/000e5f124ee44a2970a86823a299d77f28f8331f?source=rss",
       "isAiEnriched": false
     },
     {
       "category": "business",
-      "title": "1894年の“銀行営業室”でランチを！ 丸の内「Café1894」、天井約8mの空間で味わう2800円のパレットプレート(VAGUE)",
+      "title": "ホンダ「ヴェゼル」マイナーチェンジモデル発売 「ボディ同色化」には賛否の声も 販売店に寄せられた反響は？(くるまのニュース)",
       "source": "Yahoo!ニュース",
       "publishedAt": "2026-11-15 16:10",
       "publishedTs": 1794726600,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-10475719-vague-000-1-view.jpg?exp=10800",
-      "summary": "JR東京駅から徒歩約5分、高層ビルが並ぶエリアにある、赤レンガの建物が「三菱一号館美術館」。日本初の近代オフィスビル街として成長すべく、1894（明治27）年に創設された、丸の内初の近代オフィスビル…",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-01139322-kurumans-000-1-view.jpg?exp=10800",
+      "summary": "2026年10月22日、ホンダはコンパクトSUV「ヴェゼル」のマイナーチェンジを発表し、翌23日に発売しました。 その後の反響について、ホンダディーラーに聞きました。【画像】これが「ヴェゼル」マイチ…",
       "points": [
         "カテゴリ: ビジネス・経済の注目トピック",
         "配信: Yahoo!ニュース トピックス（2026-11-15 16:10）",
@@ -4010,20 +4010,20 @@ window.NEWS_DATA = {
         "ビジネス・経済",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/2ebc7afce1eb2fe2d7d90511828d241c418d2422?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/377442c254797abf0d5eb8cd8edc9b88002ca193?source=rss",
       "isAiEnriched": false
     },
     {
       "category": "entertainment",
-      "title": "零（川村壱馬）、2027年2月に1stアルバムリリース決定(Billboard JAPAN)",
+      "title": "【あすから】ソンジュン＆パク・ヒョンシク、異なる魅力を持つ男性を熱演　韓国ドラマ『上流社会』放送スタート＜キャスト・あらすじ＞(オリコン)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 17:05",
-      "publishedTs": 1794729903,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00167441-exp-000-1-view.jpg?exp=10800",
-      "summary": "零が、2027年2月24日に1stアルバムをリリースすることが、決定した。 THE RAMPAGEのボーカル・川村壱馬によるソロプロジェクト零。本作は、これまでのヒップホップを核としながら、J-PO…",
+      "publishedAt": "2026-11-15 17:20",
+      "publishedTs": 1794730800,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00000306-oric-000-1-view.jpg?exp=10800",
+      "summary": "俳優のソンジュン、パク・ヒョンシクらが出演する韓国ドラマ『上流社会』（全16話／2015年）が、あす16日より「アジアドラマチックTV（アジドラ）」で放送される。（毎週月～水曜 24：00～）【場面…",
       "points": [
         "カテゴリ: 芸能・エンタメの注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 17:05）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 17:20）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "芸能・エンタメ分野で関心を集めている最新ニュースです。",
@@ -4031,7 +4031,7 @@ window.NEWS_DATA = {
         "芸能・エンタメ",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/de7e9ee15763c13dc8ae7be602bd8ef1b6e452bc?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/fb5be35b6b9183e07c1d7490b4d898521e7b88b3?source=rss",
       "isAiEnriched": false
     },
     {
@@ -4078,12 +4078,12 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "コードはすべてAI--非プログラマーの筆者がiPhoneアプリをApp Storeで公開するまでの13日間(CNET Japan)",
+      "title": "Ankerの新イヤホン、着けたの忘れるレベルで軽快でした。AIボイスレコーダー搭載モデルも登場(ギズモード・ジャパン)",
       "source": "Yahoo!ニュース",
       "publishedAt": "2026-11-15 11:30",
-      "publishedTs": 1794709800,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-35254571-cnetj-000-1-view.jpg?exp=10800",
-      "summary": "iPhone Duo向けのカレンダーアプリ「つらなりカレンダー」を個人で開発し、App Storeで公開した。コードはすべて、米AnthropicのAI開発ツール「Claude Code」が書いた。",
+      "publishedTs": 1794709801,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00000003-giz-000-1-view.jpg?exp=10800",
+      "summary": "こりゃあいいわ、耳が喜んでる。イヤホンはカナル式一強、ノイキャンこそがパワー！…みたいに思っていた時期が僕にもありました。でもさぁ、最近耳もなんだかお疲れなんですよね。【全画像をみる】Ankerの新…",
       "points": [
         "カテゴリ: テクノロジー・AIの注目トピック",
         "配信: Yahoo!ニュース トピックス（2026-11-15 11:30）",
@@ -4094,20 +4094,20 @@ window.NEWS_DATA = {
         "テクノロジー・AI",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/7840471f1a3560288daef986ec9834ac4cfd8e2a?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/336353d55e7d649e2181c20d15bc09beb620bc7c?source=rss",
       "isAiEnriched": false
     },
     {
       "category": "business",
-      "title": "【青色申告の控除額】2027年分から最大75万円へ！個人事業主やフリーランスなど確定申告前に確認したい「青色・白色」の帳簿ルール(LIMO)",
+      "title": "1894年の“銀行営業室”でランチを！ 丸の内「Café1894」、天井約8mの空間で味わう2800円のパレットプレート(VAGUE)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 16:05",
-      "publishedTs": 1794726357,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00146779-toushin-000-1-view.jpg?exp=10800",
-      "summary": "街路樹の葉が色づき、今年も残り1か月半ほどになりました。フリーランスや個人事業主の方のなかには、年末に向けてお仕事の締めくくりとともに、年明けの確定申告のことが気になり始めた方もいらっしゃるのではな…",
+      "publishedAt": "2026-11-15 16:10",
+      "publishedTs": 1794726600,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-10475719-vague-000-1-view.jpg?exp=10800",
+      "summary": "JR東京駅から徒歩約5分、高層ビルが並ぶエリアにある、赤レンガの建物が「三菱一号館美術館」。日本初の近代オフィスビル街として成長すべく、1894（明治27）年に創設された、丸の内初の近代オフィスビル…",
       "points": [
         "カテゴリ: ビジネス・経済の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 16:05）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 16:10）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "ビジネス・経済分野で関心を集めている最新ニュースです。",
@@ -4115,20 +4115,20 @@ window.NEWS_DATA = {
         "ビジネス・経済",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/1296cfec88e1b39a2b69e44f92fd63825f3ced6b?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/2ebc7afce1eb2fe2d7d90511828d241c418d2422?source=rss",
       "isAiEnriched": false
     },
     {
       "category": "entertainment",
-      "title": "「あなたと一緒で幸せです」アンドレ・アガシさん、妻シュテフィ・グラフさんをバックハグ！…現役時代はロン毛がトレードマーク(スポーツ報知)",
+      "title": "朝井リョウ＆加藤千恵の「オールナイトニッポン0(ZERO)」が5年連続で復活！11・21に放送(サンケイスポーツ)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 17:05",
-      "publishedTs": 1794729901,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-11151185-sph-000-1-view.jpg?exp=10800",
-      "summary": "元テニスのスター選手アンドレ・アガシさん（５６）が１５日までに自身のインスタグラムを更新。妻で元女子テニスの女王シュテフィ・グラフさん（５７）との夫婦ショットを公開した。【写真】ロン毛だった現役時代…",
+      "publishedAt": "2026-11-15 17:19",
+      "publishedTs": 1794730773,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00000107-sanspo-000-1-view.jpg?exp=10800",
+      "summary": "小説家、朝井リョウ氏と小説家、加藤千恵氏がが21日27時から放送のニッポン放送「朝井リョウと加藤千恵のオールナイトニッポン0(ZERO)」でパーソナリティを務めることが15日、分かった。2015年4…",
       "points": [
         "カテゴリ: 芸能・エンタメの注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 17:05）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 17:19）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "芸能・エンタメ分野で関心を集めている最新ニュースです。",
@@ -4136,7 +4136,7 @@ window.NEWS_DATA = {
         "芸能・エンタメ",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/4d9efb7ef54ed9082b9886f2606ec234b4d276d1?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/555635da4c2cffdc2f648693912b1a97f80b72ef?source=rss",
       "isAiEnriched": false
     },
     {
@@ -4183,15 +4183,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "日本企業エイシアンスター、上場企業でBNB株主優待を導入(NADA NEWS)",
+      "title": "コードはすべてAI--非プログラマーの筆者がiPhoneアプリをApp Storeで公開するまでの13日間(CNET Japan)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 11:00",
-      "publishedTs": 1794708000,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00411443-coindesk-000-1-view.jpg?exp=10800",
-      "summary": "東証スタンダード上場で不動産事業を手がけるASIAN STAR（エイシアンスター）は11月13日、暗号資産（仮想通貨）のビーエヌビー（BNB）を贈る株主優待制度の導入を決議した。同社によると、上場企…",
+      "publishedAt": "2026-11-15 11:30",
+      "publishedTs": 1794709800,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-35254571-cnetj-000-1-view.jpg?exp=10800",
+      "summary": "iPhone Duo向けのカレンダーアプリ「つらなりカレンダー」を個人で開発し、App Storeで公開した。コードはすべて、米AnthropicのAI開発ツール「Claude Code」が書いた。",
       "points": [
         "カテゴリ: テクノロジー・AIの注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 11:00）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 11:30）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "テクノロジー・AI分野で関心を集めている最新ニュースです。",
@@ -4199,17 +4199,17 @@ window.NEWS_DATA = {
         "テクノロジー・AI",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/d6ae484bb0ced845f0ee0de00b3552b27b2317c2?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/7840471f1a3560288daef986ec9834ac4cfd8e2a?source=rss",
       "isAiEnriched": false
     },
     {
       "category": "business",
-      "title": "「ロボタクシー」事故の責任はメーカーか乗客か？　法整備と自動車保険のいま(ベストカーWeb)",
+      "title": "【青色申告の控除額】2027年分から最大75万円へ！個人事業主やフリーランスなど確定申告前に確認したい「青色・白色」の帳簿ルール(LIMO)",
       "source": "Yahoo!ニュース",
       "publishedAt": "2026-11-15 16:05",
-      "publishedTs": 1794726350,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00000007-bestcar-000-1-view.jpg?exp=10800",
-      "summary": "運転手のいないタクシーが、いよいよ東京を走ろうとしている。2026年9月、配車アプリのGO、米グーグル系のウェイモ、タクシー大手の日本交通の3社は、2027年中に東京で完全無人の自動運転タクシーを始…",
+      "publishedTs": 1794726357,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00146779-toushin-000-1-view.jpg?exp=10800",
+      "summary": "街路樹の葉が色づき、今年も残り1か月半ほどになりました。フリーランスや個人事業主の方のなかには、年末に向けてお仕事の締めくくりとともに、年明けの確定申告のことが気になり始めた方もいらっしゃるのではな…",
       "points": [
         "カテゴリ: ビジネス・経済の注目トピック",
         "配信: Yahoo!ニュース トピックス（2026-11-15 16:05）",
@@ -4220,20 +4220,20 @@ window.NEWS_DATA = {
         "ビジネス・経済",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/dc03ebc537578d857592439bc4373ac21e001711?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/1296cfec88e1b39a2b69e44f92fd63825f3ced6b?source=rss",
       "isAiEnriched": false
     },
     {
       "category": "entertainment",
-      "title": "「病気の子どもたちを笑顔に！」⼤⿊摩季、はるな愛、マーク・パンサーらがサンタ姿で登場(TOKYO HEADLINE WEB)",
+      "title": "小松彩夏　息子との秋の2ショット公開　リアルな子育てエピ披露で「男の子ママってみんなこんな感じ？」(スポニチアネックス)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 17:04",
-      "publishedTs": 1794729893,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00010005-theadline-000-1-view.jpg?exp=10800",
-      "summary": "チャリティーイベント「サンタパレード東京」が11⽉15⽇、渋谷にて行われ、くスペシャルアンバサダーを務める⼤⿊摩季、はるな愛らが登壇。参加者や病気の子どもたちにエールを贈った。【写真】アンバサダーの…",
+      "publishedAt": "2026-11-15 17:18",
+      "publishedTs": 1794730728,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00000286-spnannex-000-2-view.jpg?exp=10800",
+      "summary": "結婚を機に仙台に移住した女優の小松彩夏（40）が15日、自身のインスタグラムを更新。息子との2ショットを投稿した。 「息子の体力が無限すぎて毎日公園で何キロ走っているかわかりません笑」とコメントし、…",
       "points": [
         "カテゴリ: 芸能・エンタメの注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 17:04）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 17:18）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "芸能・エンタメ分野で関心を集めている最新ニュースです。",
@@ -4241,7 +4241,7 @@ window.NEWS_DATA = {
         "芸能・エンタメ",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/8179056d23277574a187e8bbddb5ac93d038149e?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/0f408a80906ae42f2c86ab89e18f2da80eceac75?source=rss",
       "isAiEnriched": false
     },
     {
@@ -4288,15 +4288,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "宇宙でロボットが骨組みを自動組み立て--Caltechが初実証、数km級の巨大構造物に道(CNET Japan)",
+      "title": "日本企業エイシアンスター、上場企業でBNB株主優待を導入(NADA NEWS)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 10:45",
-      "publishedTs": 1794707100,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-35254895-cnetj-000-1-view.jpg?exp=10800",
-      "summary": "米カリフォルニア工科大学（Caltech）は11月5日、ロボットを使って宇宙空間で構造物を自動的に組み立てる実証に成功したと発表した。地上から指示を送り、ロボットが部材をつなぎ合わせて骨組みの1区画…",
+      "publishedAt": "2026-11-15 11:00",
+      "publishedTs": 1794708000,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00411443-coindesk-000-1-view.jpg?exp=10800",
+      "summary": "東証スタンダード上場で不動産事業を手がけるASIAN STAR（エイシアンスター）は11月13日、暗号資産（仮想通貨）のビーエヌビー（BNB）を贈る株主優待制度の導入を決議した。同社によると、上場企…",
       "points": [
         "カテゴリ: テクノロジー・AIの注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 10:45）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 11:00）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "テクノロジー・AI分野で関心を集めている最新ニュースです。",
@@ -4304,20 +4304,20 @@ window.NEWS_DATA = {
         "テクノロジー・AI",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/ca517dde77aa214457141ac24e6ea5d2f1d86fcd?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/d6ae484bb0ced845f0ee0de00b3552b27b2317c2?source=rss",
       "isAiEnriched": false
     },
     {
       "category": "business",
-      "title": "個人向け国債を1年で換金すると利子はほぼ0円、2年後なら8万6458円。500万円を5年定期の解約と比べる(LIMO)",
+      "title": "「ロボタクシー」事故の責任はメーカーか乗客か？　法整備と自動車保険のいま(ベストカーWeb)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 16:01",
-      "publishedTs": 1794726073,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00146679-toushin-000-1-view.jpg?exp=10800",
-      "summary": "財務省が6日に公表した個人向け国債の11月募集分は、11月30日まで申し込めます。固定5年の利率は年2.17％で、メガバンクの5年定期（年1.1％）のおよそ2倍です。◆この記事の写真を見る冬のボーナ…",
+      "publishedAt": "2026-11-15 16:05",
+      "publishedTs": 1794726350,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00000007-bestcar-000-1-view.jpg?exp=10800",
+      "summary": "運転手のいないタクシーが、いよいよ東京を走ろうとしている。2026年9月、配車アプリのGO、米グーグル系のウェイモ、タクシー大手の日本交通の3社は、2027年中に東京で完全無人の自動運転タクシーを始…",
       "points": [
         "カテゴリ: ビジネス・経済の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 16:01）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 16:05）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "ビジネス・経済分野で関心を集めている最新ニュースです。",
@@ -4325,20 +4325,20 @@ window.NEWS_DATA = {
         "ビジネス・経済",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/217842ffa451bf4e6d905b9f3f7bbaba3518ae8e?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/dc03ebc537578d857592439bc4373ac21e001711?source=rss",
       "isAiEnriched": false
     },
     {
       "category": "entertainment",
-      "title": "サンシャイン池崎、誕生日に“盲目の保護猫“を初抱っこ⇒預かりから半年でついに…「目頭が熱くなった」の声(ハフポスト日本版)",
+      "title": "“飲酒運転で清掃車に衝突”コ・ギョンピョ、運転手の60代職員が負傷(Kstyle)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 17:02",
-      "publishedTs": 1794729737,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00010028-huffpost-000-1-view.jpg?exp=10800",
-      "summary": "日本テレビ系バラエティ番組『嗚呼!!みんなの動物園』が11月13日、公式YouTubeチャンネルを更新。池崎さんが預かっている盲目の保護猫「らぶちゃん」を、譲渡会を前に初めて抱っこする様子を公開しま…",
+      "publishedAt": "2026-11-15 17:18",
+      "publishedTs": 1794730698,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00000108-kstylens-000-1-view.jpg?exp=10800",
+      "summary": "俳優コ・ギョンピョが泥酔状態で運転し、清掃車に衝突する事故を起こした中、60代の清掃業者の職員が痛みを訴えていることが分かった。“飲酒運転で衝突事故”コ・ギョンピョの出演映画「元祖×トック屋」配給会…",
       "points": [
         "カテゴリ: 芸能・エンタメの注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 17:02）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 17:18）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "芸能・エンタメ分野で関心を集めている最新ニュースです。",
@@ -4346,7 +4346,7 @@ window.NEWS_DATA = {
         "芸能・エンタメ",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/dcef9371a74aadfc8340d603e5f81a511885a390?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/6f7ab3a5d646551251bdd4a8ccaa498516b97d4d?source=rss",
       "isAiEnriched": false
     },
     {
@@ -4393,15 +4393,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "「足どうなってるんだ...？」ネコの変な座り方に驚きの声「初めて見ました」「お手手4本あるみたい」(BuzzFeed Japan)",
+      "title": "宇宙でロボットが骨組みを自動組み立て--Caltechが初実証、数km級の巨大構造物に道(CNET Japan)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 10:35",
-      "publishedTs": 1794706501,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-10061939-bfj-000-1-view.jpg?exp=10800",
-      "summary": "なんだそのクセ強ポーズは！？ ネコちゃんのちょっぴり変な座り方がXで話題です。【実際の画像】クセが強い！ ネコちゃんの変わった座り方「初めて見ました」「足どうなってるんだ...？」",
+      "publishedAt": "2026-11-15 10:45",
+      "publishedTs": 1794707100,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-35254895-cnetj-000-1-view.jpg?exp=10800",
+      "summary": "米カリフォルニア工科大学（Caltech）は11月5日、ロボットを使って宇宙空間で構造物を自動的に組み立てる実証に成功したと発表した。地上から指示を送り、ロボットが部材をつなぎ合わせて骨組みの1区画…",
       "points": [
         "カテゴリ: テクノロジー・AIの注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 10:35）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 10:45）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "テクノロジー・AI分野で関心を集めている最新ニュースです。",
@@ -4409,17 +4409,17 @@ window.NEWS_DATA = {
         "テクノロジー・AI",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/a7f7da375efdcdbad37a26408c77435ed1190df4?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/ca517dde77aa214457141ac24e6ea5d2f1d86fcd?source=rss",
       "isAiEnriched": false
     },
     {
       "category": "business",
-      "title": "Googleって、そんなことまで記録してるの？ 一度見直したい10のプライバシー設定(ライフハッカー・ジャパン)",
+      "title": "個人向け国債を1年で換金すると利子はほぼ0円、2年後なら8万6458円。500万円を5年定期の解約と比べる(LIMO)",
       "source": "Yahoo!ニュース",
       "publishedAt": "2026-11-15 16:01",
-      "publishedTs": 1794726061,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00000005-biz_lifeh-000-1-view.jpg?exp=10800",
-      "summary": "Gmailの受信トレイの管理から、Androidスマートフォンへのアプリのダウンロードまでほぼあらゆる場面でGoogleが関わっています。これは、広告ビジネスを通じて収益を得ている企業が、私たちの膨…",
+      "publishedTs": 1794726073,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00146679-toushin-000-1-view.jpg?exp=10800",
+      "summary": "財務省が6日に公表した個人向け国債の11月募集分は、11月30日まで申し込めます。固定5年の利率は年2.17％で、メガバンクの5年定期（年1.1％）のおよそ2倍です。◆この記事の写真を見る冬のボーナ…",
       "points": [
         "カテゴリ: ビジネス・経済の注目トピック",
         "配信: Yahoo!ニュース トピックス（2026-11-15 16:01）",
@@ -4430,20 +4430,20 @@ window.NEWS_DATA = {
         "ビジネス・経済",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/235e3d5dd22ed3ec9974bb2289fb7356c798d5ea?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/217842ffa451bf4e6d905b9f3f7bbaba3518ae8e?source=rss",
       "isAiEnriched": false
     },
     {
       "category": "entertainment",
-      "title": "【豊臣兄弟　大河絵（豊臣兄弟絵）】第43話　秀吉憎し…成政“怒りの血管”秀長ばかり…秀次“歪む眉間”(スポニチアネックス)",
+      "title": "田中遊「ライトスタッフ」を踊場海月が上演、演劇と人生の創造を描く(ステージナタリー)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 17:01",
-      "publishedTs": 1794729660,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00000112-spnannex-000-6-view.jpg?exp=10800",
-      "summary": "俳優の仲野太賀（33）が主演を務めるNHK大河ドラマ「豊臣兄弟！」（日曜後8・00）は15日、第44話「ある家臣の死」が放送される。佐々成政（白洲迅）の衝撃の最期、刀狩りによる秀長（仲野太賀）と秀次…",
+      "publishedAt": "2026-11-15 17:17",
+      "publishedTs": 1794730630,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00000041-natalies-000-1-view.jpg?exp=10800",
+      "summary": "踊場海月 第3回公演「ライトスタッフ」が来年1月21日から24日まで東京・インディペンデントシアターOjiにて上演される。【画像】踊場海月第3回公演「ライトスタッフ」チラシ裏（他1件）見立てや身体表…",
       "points": [
         "カテゴリ: 芸能・エンタメの注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 17:01）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 17:17）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "芸能・エンタメ分野で関心を集めている最新ニュースです。",
@@ -4451,7 +4451,7 @@ window.NEWS_DATA = {
         "芸能・エンタメ",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/94d75b6862d9d7b688cbc915fca03e8c509c568c?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/ee985c90d0911984b07aa2dde1c3f08e9af6b60f?source=rss",
       "isAiEnriched": false
     },
     {
