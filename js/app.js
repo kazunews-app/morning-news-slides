@@ -417,12 +417,28 @@
     renderFeed();
   }
 
-  function setCategory(cat) {
+  const elMainContainer = document.querySelector(".main-container");
+
+  function playSwipeAnimation(swipeDir) {
+    if (!elMainContainer || !swipeDir) return;
+    elMainContainer.classList.remove("swipe-in-right", "swipe-in-left");
+    void elMainContainer.offsetWidth; // reflow
+    elMainContainer.classList.add(swipeDir > 0 ? "swipe-in-right" : "swipe-in-left");
+  }
+
+  function setCategory(cat, swipeDir = 0) {
     state.category = cat;
+    let activeTabEl = null;
     navTabs.forEach((tab) => {
-      tab.classList.toggle("active", tab.getAttribute("data-category") === cat);
+      const isMatch = tab.getAttribute("data-category") === cat;
+      tab.classList.toggle("active", isMatch);
+      if (isMatch) activeTabEl = tab;
     });
+    if (activeTabEl && typeof activeTabEl.scrollIntoView === "function") {
+      activeTabEl.scrollIntoView({ behavior: "smooth", inline: "center", block: "nearest" });
+    }
     renderFeed();
+    playSwipeAnimation(swipeDir);
   }
 
   function parseNewsJsText(text) {
@@ -1290,8 +1306,88 @@
     if (e.key === "Escape" && !elModal.hidden) closeModal();
   });
 
+  function setupMobileSwipeNavigation() {
+    const categoryOrder = Array.from(navTabs)
+      .map((t) => t.getAttribute("data-category"))
+      .filter(Boolean);
+    if (categoryOrder.length === 0) return;
+
+    let startX = 0;
+    let startY = 0;
+    let startTime = 0;
+    let tracking = false;
+
+    document.addEventListener(
+      "touchstart",
+      (e) => {
+        if (!e.touches || e.touches.length !== 1) {
+          tracking = false;
+          return;
+        }
+        if (elModal && !elModal.hidden) {
+          tracking = false;
+          return;
+        }
+        const target = e.target;
+        if (target && target.closest(".category-nav, .trending-inner, input, textarea, select")) {
+          tracking = false;
+          return;
+        }
+        const t = e.touches[0];
+        // iOS Safariの画面端「戻る/進む」ジェスチャーと競合しないよう端24pxは除外
+        if (t.clientX < 24 || t.clientX > window.innerWidth - 24) {
+          tracking = false;
+          return;
+        }
+        startX = t.clientX;
+        startY = t.clientY;
+        startTime = Date.now();
+        tracking = true;
+      },
+      { passive: true }
+    );
+
+    document.addEventListener(
+      "touchcancel",
+      () => {
+        tracking = false;
+      },
+      { passive: true }
+    );
+
+    document.addEventListener(
+      "touchend",
+      (e) => {
+        if (!tracking || !e.changedTouches || e.changedTouches.length === 0) return;
+        tracking = false;
+
+        const t = e.changedTouches[0];
+        const dx = t.clientX - startX;
+        const dy = t.clientY - startY;
+        const dt = Date.now() - startTime;
+
+        if (dt > 650) return;
+        if (Math.abs(dx) < 60 || Math.abs(dy) > 80) return;
+        if (Math.abs(dx) < Math.abs(dy) * 1.4) return;
+
+        const currentIdx = categoryOrder.indexOf(state.category);
+        if (currentIdx === -1) return;
+
+        // 左へスワイプ (dx < 0) -> 次のジャンル、右へスワイプ (dx > 0) -> 前のジャンル
+        const dir = dx < 0 ? 1 : -1;
+        const nextIdx = currentIdx + dir;
+        if (nextIdx < 0 || nextIdx >= categoryOrder.length) return;
+
+        setCategory(categoryOrder[nextIdx], dir);
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      },
+      { passive: true }
+    );
+  }
+
   // Init
   initTheme();
+  setupMobileSwipeNavigation();
   state.lastDataSignature = computeDataSignature(state.data);
   restoreCachedNewsOnStartup();
   renderAll();

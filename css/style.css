@@ -68,6 +68,7 @@
 
 html, body {
   min-height: 100%;
+  overflow-x: clip;
   font-family: var(--font-sans);
   background-color: var(--bg);
   color: var(--text-primary);
@@ -1507,5 +1508,40 @@ html, body {
   }
   .weather-map-pin .pin-weather {
     font-size: 0.63rem;
+  }
+}
+
+/* Swipe Category Transition */
+.main-container {
+  touch-action: pan-y;
+}
+
+.main-container.swipe-in-right {
+  animation: swipeSlideRight 0.22s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.main-container.swipe-in-left {
+  animation: swipeSlideLeft 0.22s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+@keyframes swipeSlideRight {
+  from {
+    opacity: 0.45;
+    transform: translateX(26px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes swipeSlideLeft {
+  from {
+    opacity: 0.45;
+    transform: translateX(-26px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
   }
 }
