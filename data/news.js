@@ -1,14 +1,14 @@
 window.NEWS_DATA = {
   "date": "2026年11月15日 (日)",
-  "updatedAt": "2026-11-15 14:30",
+  "updatedAt": "2026-11-15 14:35",
   "title": "TREND NEWS",
   "keywords": [
     "きょう近畿や東海で激しい雨…",
     "検事の取り調べ AIでチェ…",
     "月収2万円と年金5万円 7…",
-    "定数削減巡り国民と維新に温…",
-    "AIエージェント普及 問わ…",
-    "スバルWRXのMT車復活 …"
+    "元≠ME菅波 事務所所属で…",
+    "“ドラクエ新作”スマホ向け…",
+    "定数削減巡り国民と維新に温…"
   ],
   "items": [
     {
@@ -75,6 +75,49 @@ window.NEWS_DATA = {
       "isAiEnriched": false
     },
     {
+      "category": "entertainment",
+      "title": "元≠ME菅波 事務所所属で再始動",
+      "source": "Yahoo!ニュース",
+      "publishedAt": "2026-11-15 14:27",
+      "publishedTs": 1794720446,
+      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/15/4ff1cf6f4f9b415a92b2f5dfa7da78c0b8654cb08648f679c4d4f0956d7cf724.jpg",
+      "summary": "【モデルプレス＝2026/11/15】元≠MEの菅波美玲（すがなみ・みれい）が2026年11月15日付で株式会社NEXT LEAPに所属したことがわかった。",
+      "points": [
+        "カテゴリ: 芸能・エンタメの注目トピック",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 14:27）",
+        "「元記事を読む」から詳細を確認できます"
+      ],
+      "impact": "芸能・エンタメ分野で関心を集めている最新ニュースです。",
+      "tags": [
+        "芸能・エンタメ",
+        "Yahoo!ニュース"
+      ],
+      "url": "https://news.yahoo.co.jp/pickup/6602666?source=rss",
+      "isAiEnriched": false
+    },
+    {
+      "category": "subculture",
+      "title": "“ドラクエ新作”スマホ向けゲーム『ドラゴンクエストRPG　魔界樹と導かれし島』発表。『メダロット』初期8作品入りコレクションがSteam向けに発表。今週の見逃せないゲーム記事7選",
+      "source": "AUTOMATON",
+      "publishedAt": "2026-11-15 13:31",
+      "publishedTs": 1794717112,
+      "image": "https://automaton-media.com/wp-content/uploads/2026/11/20261115-479303-header.jpg",
+      "summary": "今週のAUTOMATONにて反響の大きかったゲーム紹介系記事を中心に、7本の記事をピックアップ。今週は『ドラゴンクエストRPG 魔界樹と導かれし島』のほか、『Wolfenstein 3』や『NIGHTMARE OPERATOR』などが話題となった。",
+      "points": [
+        "カテゴリ: サブカルチャーの注目ニュース",
+        "配信: AUTOMATON（2026-11-15 13:31）",
+        "「元記事を読む」から詳細を確認できます"
+      ],
+      "impact": "サブカルチャー分野で注目を集めている最新記事です。",
+      "tags": [
+        "サブカルチャー",
+        "ゲーム",
+        "AUTOMATON"
+      ],
+      "url": "https://automaton-media.com/articles/newsjp/20261115-479303/",
+      "isAiEnriched": false
+    },
+    {
       "category": "domestic",
       "title": "定数削減巡り国民と維新に温度差",
       "source": "Yahoo!ニュース",
@@ -135,6 +178,49 @@ window.NEWS_DATA = {
         "Yahoo!ニュース"
       ],
       "url": "https://news.yahoo.co.jp/pickup/6602575?source=rss",
+      "isAiEnriched": false
+    },
+    {
+      "category": "entertainment",
+      "title": "紅白 返り咲き組が定番になった訳",
+      "source": "Yahoo!ニュース",
+      "publishedAt": "2026-11-15 13:06",
+      "publishedTs": 1794715573,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/iwiz-yn/rpr/nakanishimasao/02766362/title-1794709407148.jpeg?exp=10800",
+      "summary": "大みそかの「第77回NHK紅白歌合戦」の出場者が13日に発表されました。「モナキ」「＝LOVE」ら初出場組も存在感を見せる中、目を引いたのが返り咲き組。42年ぶり８回目の出場となる高田みづえさんをはじ…",
+      "points": [
+        "カテゴリ: 芸能・エンタメの注目トピック",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 13:06）",
+        "「元記事を読む」から詳細を確認できます"
+      ],
+      "impact": "芸能・エンタメ分野で関心を集めている最新ニュースです。",
+      "tags": [
+        "芸能・エンタメ",
+        "Yahoo!ニュース"
+      ],
+      "url": "https://news.yahoo.co.jp/pickup/6602658?source=rss",
+      "isAiEnriched": false
+    },
+    {
+      "category": "subculture",
+      "title": "Shiftall、VRヘッドセット「MeganeX 8K Mark II」に外装を透明素材にしたクリアとクリアブラックの2色を追加",
+      "source": "PANORA",
+      "publishedAt": "2026-11-15 14:06",
+      "publishedTs": 1794719186,
+      "image": "https://asset.panora.tokyo/wp-content/uploads/2026/11/15135558/6af6cc6b51c709d62b0071bf_a3e8d249.png",
+      "summary": "Shiftallは13日、VRヘッドセット「MeganeX 8K Mark II」に、カラーバリエーションとして外装を透明素材にしたクリアとクリアブラックの2色を追加し、予約販売を開始した（製品ページ）。価格は通常モデル The post Shiftall、VRヘッドセット「MeganeX 8K Mark…",
+      "points": [
+        "カテゴリ: サブカルチャーの注目ニュース",
+        "配信: PANORA（2026-11-15 14:06）",
+        "「元記事を読む」から詳細を確認できます"
+      ],
+      "impact": "サブカルチャー分野で注目を集めている最新記事です。",
+      "tags": [
+        "サブカルチャー",
+        "Vtuber",
+        "PANORA"
+      ],
+      "url": "https://panora.tokyo/archives/163152",
       "isAiEnriched": false
     },
     {
@@ -201,6 +287,48 @@ window.NEWS_DATA = {
       "isAiEnriched": false
     },
     {
+      "category": "entertainment",
+      "title": "ROLLY語る「3歳で女装」の原体験",
+      "source": "Yahoo!ニュース",
+      "publishedAt": "2026-11-15 11:55",
+      "publishedTs": 1794711322,
+      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/15/5cbad61b92d4d0374721de283d79eb65360576b70343e13cb533a295a1c76622.jpg",
+      "summary": "バンド「すかんち」のリーダーとして活躍し、音楽活動のほか、俳優などとしても幅広く活動するROLLY（63）。その目を引く出で立ちでも知られるが、原点は3歳の頃にあったという。",
+      "points": [
+        "カテゴリ: 芸能・エンタメの注目トピック",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 11:55）",
+        "「元記事を読む」から詳細を確認できます"
+      ],
+      "impact": "芸能・エンタメ分野で関心を集めている最新ニュースです。",
+      "tags": [
+        "芸能・エンタメ",
+        "Yahoo!ニュース"
+      ],
+      "url": "https://news.yahoo.co.jp/pickup/6602651?source=rss",
+      "isAiEnriched": false
+    },
+    {
+      "category": "subculture",
+      "title": "BLのセックスシーンは尊いだけで卑猥ではないんだよね",
+      "source": "anond.hatelabo.jp",
+      "publishedAt": "2026-11-14 23:59",
+      "publishedTs": 1794668379,
+      "image": "https://anond.hatelabo.jp/assets/images/og-image-1500.gif",
+      "summary": "これわかってない男多いのだけれど女性は性欲でBLを見てないってことをいい加減理解した方がいいよ？",
+      "points": [
+        "カテゴリ: サブカルチャーで話題の記事",
+        "引用元: anond.hatelabo.jp（2026-11-14 23:59）",
+        "「元記事を読む」から本文を確認できます"
+      ],
+      "impact": "サブカルチャー分野で多くの読者に共有されている注目記事です。",
+      "tags": [
+        "サブカルチャー",
+        "anond.hatelabo.jp"
+      ],
+      "url": "https://anond.hatelabo.jp/20261114235117",
+      "isAiEnriched": false
+    },
+    {
       "category": "domestic",
       "title": "米中露の接近 日本政府は危機感",
       "source": "Yahoo!ニュース",
@@ -261,6 +389,49 @@ window.NEWS_DATA = {
         "Yahoo!ニュース"
       ],
       "url": "https://news.yahoo.co.jp/pickup/6602655?source=rss",
+      "isAiEnriched": false
+    },
+    {
+      "category": "entertainment",
+      "title": "やす子 子ども食堂運営にやりがい",
+      "source": "Yahoo!ニュース",
+      "publishedAt": "2026-11-15 11:19",
+      "publishedTs": 1794709187,
+      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/15/ed2a6b91632d714d1c121205faf552775f0ad05dd56c5d428c816bc0d79dfb91.jpg",
+      "summary": "お笑い芸人のやす子（２８）は、９月から東京・葛飾区で子ども食堂「やすまったり」を運営している。週１日のペースで地域の子どもたちを受け入れ、食事を提供。芸人業の傍ら、試行錯誤を重ねながら運営を続けてい…",
+      "points": [
+        "カテゴリ: 芸能・エンタメの注目トピック",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 11:19）",
+        "「元記事を読む」から詳細を確認できます"
+      ],
+      "impact": "芸能・エンタメ分野で関心を集めている最新ニュースです。",
+      "tags": [
+        "芸能・エンタメ",
+        "Yahoo!ニュース"
+      ],
+      "url": "https://news.yahoo.co.jp/pickup/6602646?source=rss",
+      "isAiEnriched": false
+    },
+    {
+      "category": "subculture",
+      "title": "20年越しに“幻のポケモン釣りゲーム”が見つかるも、その「保存方法」で大議論巻き起こる。プレイ不可の“カプセル化”に、コミュニティから非難の嵐も",
+      "source": "AUTOMATON",
+      "publishedAt": "2026-11-15 12:06",
+      "publishedTs": 1794712000,
+      "image": "https://automaton-media.com/wp-content/uploads/2026/11/20261115-479333-header.jpg",
+      "summary": "“失われたゲーム”と目されていた『ポケモン釣り大会DS』を所持しているというユーザーが現れた。しかし、そのゲームソフトの「保存方法」が物議を呼んでいるようだ。",
+      "points": [
+        "カテゴリ: サブカルチャーの注目ニュース",
+        "配信: AUTOMATON（2026-11-15 12:06）",
+        "「元記事を読む」から詳細を確認できます"
+      ],
+      "impact": "サブカルチャー分野で注目を集めている最新記事です。",
+      "tags": [
+        "サブカルチャー",
+        "ゲーム",
+        "AUTOMATON"
+      ],
+      "url": "https://automaton-media.com/articles/newsjp/20261115-479333/",
       "isAiEnriched": false
     },
     {
@@ -327,6 +498,49 @@ window.NEWS_DATA = {
       "isAiEnriched": false
     },
     {
+      "category": "entertainment",
+      "title": "瀬戸康史 帰宅早い理由は「家族」",
+      "source": "Yahoo!ニュース",
+      "publishedAt": "2026-11-15 10:05",
+      "publishedTs": 1794704712,
+      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/15/5f2fd896a04104bfe0de79b25363946ba12443f21b66e29c003a4a696c7754f6.jpg",
+      "summary": "田中哲司の素朴な疑問に即答 有村架純「めっちゃ爆速で帰ってます」 俳優の瀬戸康史が14日、東京芸術劇場プレイハウスで行われた舞台『キュー』の公開ゲネプロ前囲み取材に出席。稽古終了後すぐに帰る理由を問…",
+      "points": [
+        "カテゴリ: 芸能・エンタメの注目トピック",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 10:05）",
+        "「元記事を読む」から詳細を確認できます"
+      ],
+      "impact": "芸能・エンタメ分野で関心を集めている最新ニュースです。",
+      "tags": [
+        "芸能・エンタメ",
+        "Yahoo!ニュース"
+      ],
+      "url": "https://news.yahoo.co.jp/pickup/6602638?source=rss",
+      "isAiEnriched": false
+    },
+    {
+      "category": "subculture",
+      "title": "Shiftfall、スマートネームプレート「オフ会タグ」を発表　バーチャルの姿と名前を現実世界へ召喚",
+      "source": "PANORA",
+      "publishedAt": "2026-11-15 13:52",
+      "publishedTs": 1794718341,
+      "image": "https://asset.panora.tokyo/wp-content/uploads/2026/11/15133818/6af713c3c4b6d7490619e8e4_3be66866.png",
+      "summary": "Shiftfallは13日、ソーシャルVRアプリケーションやオンラインゲームなどにおいてアバターの頭上に表示される「ネームプレート」を現実世界に持ち込み、オフ会などでのコミュニケーションを円滑にするためのスマートネームプ The post Shiftfall、スマートネームプレート「オフ会タグ」を発表 バー…",
+      "points": [
+        "カテゴリ: サブカルチャーの注目ニュース",
+        "配信: PANORA（2026-11-15 13:52）",
+        "「元記事を読む」から詳細を確認できます"
+      ],
+      "impact": "サブカルチャー分野で注目を集めている最新記事です。",
+      "tags": [
+        "サブカルチャー",
+        "Vtuber",
+        "PANORA"
+      ],
+      "url": "https://panora.tokyo/archives/163141",
+      "isAiEnriched": false
+    },
+    {
       "category": "domestic",
       "title": "政府広報の夫婦漫才に疑問の声",
       "source": "Yahoo!ニュース",
@@ -387,6 +601,48 @@ window.NEWS_DATA = {
         "Yahoo!ニュース"
       ],
       "url": "https://news.yahoo.co.jp/pickup/6602649?source=rss",
+      "isAiEnriched": false
+    },
+    {
+      "category": "entertainment",
+      "title": "VIVANTドラム編 地上波初放送へ",
+      "source": "Yahoo!ニュース",
+      "publishedAt": "2026-11-15 08:37",
+      "publishedTs": 1794699450,
+      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/15/f92d57627ebad93ce872d01da8c34afb92c96a048f1126d9b6b9d8cd7016ae7b.jpg",
+      "summary": "TBSは15日までに、今月22日午後9時の日曜劇場枠の時間帯に、「『VIVANT－THE ORIGIN STORY－』ドラム編」を地上波初放送することを、番組表などで告知した。",
+      "points": [
+        "カテゴリ: 芸能・エンタメの注目トピック",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 08:37）",
+        "「元記事を読む」から詳細を確認できます"
+      ],
+      "impact": "芸能・エンタメ分野で関心を集めている最新ニュースです。",
+      "tags": [
+        "芸能・エンタメ",
+        "Yahoo!ニュース"
+      ],
+      "url": "https://news.yahoo.co.jp/pickup/6602625?source=rss",
+      "isAiEnriched": false
+    },
+    {
+      "category": "subculture",
+      "title": "刀剣乱舞界隈の腐女子、ついに「政治や反戦に声をあげない人間は独裁政権と統一教会支持者」という声明を発表。「これが反戦サッカー部でやりたかったことか」「たかがゲームで統一教会ｗｗｗ」",
+      "source": "posfie.com",
+      "publishedAt": "2026-11-15 09:58",
+      "publishedTs": 1794704330,
+      "image": "https://s.tgstc.com/ogp3/9271bd03e0a0e28291e3c61e7d00ffd9-1200x630.jpeg",
+      "summary": "すじこ @sujiko88k あえて言葉強く言います。刀ミュファンでまだ「反戦とか･･･」「政治と離して」とか思ってる人は自身が呑気な独裁支持者で統一教会側だと自覚してください。 博物館の予算減らされてます、大学の人文系を「縮小」と現政権は言ってます、チケ代上がってますね、俳優さん全員徴兵される世代です→…",
+      "points": [
+        "カテゴリ: サブカルチャーで話題の記事",
+        "引用元: posfie.com（2026-11-15 09:58）",
+        "「元記事を読む」から本文を確認できます"
+      ],
+      "impact": "サブカルチャー分野で多くの読者に共有されている注目記事です。",
+      "tags": [
+        "サブカルチャー",
+        "posfie.com"
+      ],
+      "url": "https://posfie.com/@Acg3C2/p/ioy1XNT",
       "isAiEnriched": false
     },
     {
@@ -453,6 +709,49 @@ window.NEWS_DATA = {
       "isAiEnriched": false
     },
     {
+      "category": "entertainment",
+      "title": "【国際親善試合】日本がブラジルにW杯のリベンジ達成！2点差を追いつかれるも後半ATに坂元が値千金の勝ち越し弾 - ドメサカブログ",
+      "source": "blog.domesoccer.jp",
+      "publishedAt": "2026-11-15 06:00",
+      "publishedTs": 1794690053,
+      "image": "https://blog.domesoccer.jp/app/wp-content/uploads/2026/11/031-1.jpg?v=1794659558",
+      "summary": "J1 (22,728) 鹿島 (1,560) 水戸 (950) 浦和 (2,034) 千葉 (1,186) 柏 (1,451) F東京 (1,823) 東京V (1,213) 町田 (839) 川崎F (1,529) 横浜FM (1,743) 清水 (1,384) 名古屋 (1,530) 京都 (1,121…",
+      "points": [
+        "カテゴリ: 芸能・エンタメで話題の記事",
+        "引用元: blog.domesoccer.jp（2026-11-15 06:00）",
+        "「元記事を読む」から本文を確認できます"
+      ],
+      "impact": "芸能・エンタメ分野で多くの読者に共有されている注目記事です。",
+      "tags": [
+        "芸能・エンタメ",
+        "blog.domesoccer.jp"
+      ],
+      "url": "https://blog.domesoccer.jp/archives/60255528.html",
+      "isAiEnriched": false
+    },
+    {
+      "category": "subculture",
+      "title": "不正アクセスを受けたセガのアーケード向けネットワークサービス「ALL․Net」一部復旧。『オンゲキ』『セガNET麻雀 MJ Arcade』など、一部タイトルが稼働再開",
+      "source": "AUTOMATON",
+      "publishedAt": "2026-11-15 10:31",
+      "publishedTs": 1794706276,
+      "image": "https://automaton-media.com/wp-content/uploads/2026/11/20261115-479328-header.jpg",
+      "summary": "セガ フェイブは11月15日、「ALL․Net」および「Aime」の各種サービスについて、一部機能が復旧したと発表した。『オンゲキ』『カードメイカー』などをはじめとした一部タイトルが稼働再開している。",
+      "points": [
+        "カテゴリ: サブカルチャーの注目ニュース",
+        "配信: AUTOMATON（2026-11-15 10:31）",
+        "「元記事を読む」から詳細を確認できます"
+      ],
+      "impact": "サブカルチャー分野で注目を集めている最新記事です。",
+      "tags": [
+        "サブカルチャー",
+        "ゲーム",
+        "AUTOMATON"
+      ],
+      "url": "https://automaton-media.com/articles/newsjp/20261115-479328/",
+      "isAiEnriched": false
+    },
+    {
       "category": "domestic",
       "title": "「ラヴ上等」出演の「あっすん」を逮捕　無許可風俗営業容疑　名古屋：朝日新聞",
       "source": "asahi.com",
@@ -513,6 +812,49 @@ window.NEWS_DATA = {
         "yomiuri.co.jp"
       ],
       "url": "https://www.yomiuri.co.jp/world/20261114-GYT1T00254/",
+      "isAiEnriched": false
+    },
+    {
+      "category": "entertainment",
+      "title": "【Official Music Video】世点彩 / MyGO!!!!!【オリジナル楽曲】",
+      "source": "youtube.com",
+      "publishedAt": "2026-11-14 20:19",
+      "publishedTs": 1794655194,
+      "image": "https://i.ytimg.com/vi/EyowWigzhIY/hqdefault.jpg",
+      "summary": "「世点彩」 作詞：藤原優樹(SUPA LOVE) 作曲・編曲：トミタカズキ(SUPA LOVE) 歌：MyGO!!!!! ＜MV＞ 監督 / CG / 撮影 / 編集：西久保 直哉（SIGNIF） 作画監督：4O（SIGNIF） キャラクターデザイン / イラストレーション：ナナカワ https://twi…",
+      "points": [
+        "カテゴリ: 芸能・エンタメで話題の記事",
+        "引用元: youtube.com（2026-11-14 20:19）",
+        "「元記事を読む」から本文を確認できます"
+      ],
+      "impact": "芸能・エンタメ分野で多くの読者に共有されている注目記事です。",
+      "tags": [
+        "芸能・エンタメ",
+        "youtube.com"
+      ],
+      "url": "https://www.youtube.com/watch?v=EyowWigzhIY",
+      "isAiEnriched": false
+    },
+    {
+      "category": "subculture",
+      "title": "Pimax、COO来日に伴い日本のVRユーザーとの「特別1on1対話会」を11/24・25に東京・新宿で開催",
+      "source": "PANORA",
+      "publishedAt": "2026-11-15 12:26",
+      "publishedTs": 1794713174,
+      "image": "https://asset.panora.tokyo/wp-content/uploads/2026/11/15122600/191510-9-5e3c1b02b4ae344dc1e69ae427361bda-2048x1536-1.webp",
+      "summary": "Pimax Technology (Hangzhou) Co., Ltd. ハイエンドPC VRヘッドセットを手がけるPimax（パイマックス）は、当社COO（最高執行責任者）の来日（東京出張）を記念し、2026年11月 The post Pimax、COO来日に伴い日本のVRユーザーとの「特別1on1対話…",
+      "points": [
+        "カテゴリ: サブカルチャーの注目ニュース",
+        "配信: PANORA（2026-11-15 12:26）",
+        "「元記事を読む」から詳細を確認できます"
+      ],
+      "impact": "サブカルチャー分野で注目を集めている最新記事です。",
+      "tags": [
+        "サブカルチャー",
+        "Vtuber",
+        "PANORA"
+      ],
+      "url": "https://panora.tokyo/archives/163131",
       "isAiEnriched": false
     },
     {
@@ -579,6 +921,48 @@ window.NEWS_DATA = {
       "isAiEnriched": false
     },
     {
+      "category": "entertainment",
+      "title": "第77回紅白歌合戦の出場歌手のこと - WASTE OF POPS 80s-90s",
+      "source": "wasteofpops.com",
+      "publishedAt": "2026-11-15 00:23",
+      "publishedTs": 1794669798,
+      "image": "https://ogimage.blog.st-hatena.com/8599973812320169335/14729835035338472431/1794713547",
+      "summary": "紅白の出演者、出ました。 毎年言っていることですが、元々紅白は「その年の代表的ヒット曲が年末に一堂に会する場」だったわけですが、もはや「老若男女みんなが知っているヒット曲」などどこにもなく、それでもその「体」を守るために様々なジャンル・年代から引っ張ってきて、全体として少しでも「老若男女が納得する...",
+      "points": [
+        "カテゴリ: 芸能・エンタメで話題の記事",
+        "引用元: wasteofpops.com（2026-11-15 00:23）",
+        "「元記事を読む」から本文を確認できます"
+      ],
+      "impact": "芸能・エンタメ分野で多くの読者に共有されている注目記事です。",
+      "tags": [
+        "芸能・エンタメ",
+        "wasteofpops.com"
+      ],
+      "url": "https://www.wasteofpops.com/entry/2026/11/14/000000",
+      "isAiEnriched": false
+    },
+    {
+      "category": "subculture",
+      "title": "AMD公式「どん底のときに誰がそばにいたか忘れないで」―ゲーマーにアピールするも、CEOの「データセンター・ファースト」発言に対するツッコミ相次ぐ | Game*Spark - 国内・海外ゲーム情報サイト",
+      "source": "gamespark.jp",
+      "publishedAt": "2026-11-14 22:24",
+      "publishedTs": 1794662649,
+      "image": "https://www.gamespark.jp/imgs/ogp_f/1219541.png",
+      "summary": "AMDのゲーミング部門公式Xアカウント「AMD Gaming」は、2026年11月13日、「どん底のときに誰がそばにいてくれたか、決して忘れないで」という一文の入った画像を、「君はいつでもそばにいてくれるって分かってる」という本文に添えて投稿しました。 フアン氏辞任の数時間後にゲーマーに対してアピール、リプ…",
+      "points": [
+        "カテゴリ: サブカルチャーで話題の記事",
+        "引用元: gamespark.jp（2026-11-14 22:24）",
+        "「元記事を読む」から本文を確認できます"
+      ],
+      "impact": "サブカルチャー分野で多くの読者に共有されている注目記事です。",
+      "tags": [
+        "サブカルチャー",
+        "gamespark.jp"
+      ],
+      "url": "https://www.gamespark.jp/article/2026/11/14/174876.html",
+      "isAiEnriched": false
+    },
+    {
       "category": "domestic",
       "title": "バカの家計管理してる",
       "source": "anond.hatelabo.jp",
@@ -639,6 +1023,48 @@ window.NEWS_DATA = {
         "president.jp"
       ],
       "url": "https://president.jp/articles/-/122183",
+      "isAiEnriched": false
+    },
+    {
+      "category": "entertainment",
+      "title": "Netflixが値上げ、国内2年ぶり　広告付きプランは11%高の990円 - 日本経済新聞",
+      "source": "nikkei.com",
+      "publishedAt": "2026-11-14 20:31",
+      "publishedTs": 1794655890,
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3878606013112026000000-2.jpg?auto=compress&bg=FFFF&crop=focalpoint&fit=crop&fm=jpg&h=630&w=1200&s=635c9076876658eff6997cd19ae75569",
+      "summary": "米動画配信大手ネットフリックスは14日、日本での料金プランを値上げすると会員に通知した。広告付きの最安プランは11%値上げして月額990円となる。新規会員の獲得が難しくなるなか、単価を上げてコンテンツ制作力を高める。ネットフリックスが日本で値上げするのは2024年以来。広告なしで2台同時に視聴できるスタンダ…",
+      "points": [
+        "カテゴリ: 芸能・エンタメで話題の記事",
+        "引用元: nikkei.com（2026-11-14 20:31）",
+        "「元記事を読む」から本文を確認できます"
+      ],
+      "impact": "芸能・エンタメ分野で多くの読者に共有されている注目記事です。",
+      "tags": [
+        "芸能・エンタメ",
+        "nikkei.com"
+      ],
+      "url": "https://www.nikkei.com/article/DGXZQOUC13CL30T11C26A1000000/",
+      "isAiEnriched": false
+    },
+    {
+      "category": "subculture",
+      "title": "ブルーアーカイブ ゲーム開発部だいぼうけん! 43話(原作／ブルーアーカイブ　漫画／水あさと) | ガンガンONLINE",
+      "source": "ganganonline.com",
+      "publishedAt": "2026-11-15 00:51",
+      "publishedTs": 1794671481,
+      "image": "assets/images/news-3.jpg",
+      "summary": "購読無料・登録不要のwebマンガ雑誌! 「わたしの幸せな結婚」「私がモテないのはどう考えてもお前らが悪い!」「月刊少女野崎くん」「アホリズム」「転生賢者の異世界ライフ～第二の職業を得て、世界最強になりました～」など続々掲載…",
+      "points": [
+        "カテゴリ: サブカルチャーで話題の記事",
+        "引用元: ganganonline.com（2026-11-15 00:51）",
+        "「元記事を読む」から本文を確認できます"
+      ],
+      "impact": "サブカルチャー分野で多くの読者に共有されている注目記事です。",
+      "tags": [
+        "サブカルチャー",
+        "ganganonline.com"
+      ],
+      "url": "https://www.ganganonline.com/title/1851/chapter/134537",
       "isAiEnriched": false
     }
   ]
