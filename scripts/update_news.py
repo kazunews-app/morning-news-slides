@@ -1096,6 +1096,30 @@ def fetch_major_cities_weather(cached_weather: dict[str, dict]) -> list[dict]:
     return results
 
 
+def _discover_gemini_flash_models(api_key: str) -> list[str]:
+    """利用可能なFlash系モデル一覧をAPIから取得する"""
+    url = "https://generativelanguage.googleapis.com/v1beta/models"
+    req = urllib.request.Request(
+        url,
+        headers={"X-Goog-Api-Key": api_key},
+        method="GET",
+    )
+    try:
+        with urllib.request.urlopen(req, timeout=15) as resp:
+            data = json.loads(resp.read().decode("utf-8"))
+        models: list[str] = []
+        for m in data.get("models", []):
+            name = str(m.get("name", ""))
+            methods = m.get("supportedGenerationMethods") or []
+            if name.startswith("models/") and "generateContent" in methods:
+                short = name[len("models/") :]
+                if "flash" in short.lower():
+                    models.append(short)
+        return models
+    except Exception:
+        return []
+
+
 def enrich_with_gemini(items: list[dict], api_key: str) -> list[str] | None:
     targets = [(i, it) for i, it in enumerate(items) if not it.get("isAiEnriched")]
     if not targets:
@@ -1132,28 +1156,62 @@ def enrich_with_gemini(items: list[dict], api_key: str) -> list[str] | None:
         f"入力ニュース:\n{json.dumps(prompt_articles, ensure_ascii=False, indent=2)}"
     )
 
-    url = (
-        "https://generativelanguage.googleapis.com/v1beta/models/"
-        f"gemini-2.5-flash:generateContent?key={api_key}"
-    )
-    body = {
-        "contents": [{"parts": [{"text": prompt}]}],
-        "generationConfig": {"responseMimeType": "application/json"},
-    }
-    req = urllib.request.Request(
-        url,
-        data=json.dumps(body).encode("utf-8"),
-        headers={"Content-Type": "application/json"},
-        method="POST",
-    )
+    body_bytes = json.dumps(
+        {
+            "contents": [{"parts": [{"text": prompt}]}],
+            "generationConfig": {"responseMimeType": "application/json"},
+        }
+    ).encode("utf-8")
 
-    try:
-        with urllib.request.urlopen(req, timeout=50) as resp:
-            res_json = json.loads(resp.read().decode("utf-8"))
-        text = res_json["candidates"][0]["content"]["parts"][0]["text"]
-        parsed = json.loads(text)
-    except Exception as exc:
-        print(f"[WARN] Gemini enrichment failed, keeping fallback: {exc}")
+    preferred_models = [
+        "gemini-3.5-flash-lite",
+        "gemini-3.6-flash",
+        "gemini-3.8-flash",
+        "gemini-flash-latest",
+        "gemini-2.5-flash",
+    ]
+    parsed = None
+    used_model = ""
+    last_exc: Exception | None = None
+
+    def _try_model(model_name: str) -> dict | None:
+        nonlocal last_exc
+        url = f"https://generativelanguage.googleapis.com/v1beta/models/{model_name}:generateContent"
+        req = urllib.request.Request(
+            url,
+            data=body_bytes,
+            headers={
+                "Content-Type": "application/json",
+                "X-Goog-Api-Key": api_key,
+            },
+            method="POST",
+        )
+        try:
+            with urllib.request.urlopen(req, timeout=50) as resp:
+                res_json = json.loads(resp.read().decode("utf-8"))
+            text = res_json["candidates"][0]["content"]["parts"][0]["text"]
+            return json.loads(text)
+        except Exception as exc:
+            last_exc = exc
+            return None
+
+    for model_name in preferred_models:
+        parsed = _try_model(model_name)
+        if parsed:
+            used_model = model_name
+            break
+
+    if not parsed:
+        for model_name in _discover_gemini_flash_models(api_key):
+            if model_name in preferred_models:
+                continue
+            parsed = _try_model(model_name)
+            if parsed:
+                used_model = model_name
+                break
+
+    if not parsed:
+        print(f"[WARN] Gemini enrichment failed, keeping fallback: {last_exc}")
         return None
 
     ai_map = {a.get("index"): a for a in parsed.get("articles", []) if isinstance(a, dict)}
@@ -1171,6 +1229,7 @@ def enrich_with_gemini(items: list[dict], api_key: str) -> list[str] | None:
         item["isAiEnriched"] = True
 
     keywords = [str(k) for k in parsed.get("keywords", [])[:6] if str(k).strip()]
+    print(f"[INFO] Gemini enrichment succeeded ({used_model}): {len(targets)} target articles")
     return keywords or None
 
 
