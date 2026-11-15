@@ -376,11 +376,11 @@ def fetch_hatena_rss(rss_url: str, category: str, limit: int) -> list[dict]:
     return items
 
 
-def fetch_zenn_tech(limit: int = 4) -> list[dict]:
+def fetch_zenn_tech(limit: int = 10) -> list[dict]:
     items: list[dict] = []
     try:
         data = json.loads(
-            fetch_url_bytes("https://zenn.dev/api/articles?order=trend&count=10").decode("utf-8")
+            fetch_url_bytes("https://zenn.dev/api/articles?order=trend&count=20").decode("utf-8")
         )
         for idx, art in enumerate(data.get("articles", [])[:limit]):
             title = (art.get("title") or "").strip()
@@ -676,27 +676,27 @@ def pick_unique_category_items(
 def main() -> None:
     now = datetime.datetime.now(JST)
 
-    with concurrent.futures.ThreadPoolExecutor(max_workers=10) as pool:
-        f_dom_y = pool.submit(fetch_yahoo_topics, "https://news.yahoo.co.jp/rss/topics/domestic.xml", "domestic", 6)
-        f_dom_h = pool.submit(fetch_hatena_rss, "https://b.hatena.ne.jp/hotentry/social.rss", "domestic", 8)
-        f_dom_t = pool.submit(fetch_yahoo_topics, "https://news.yahoo.co.jp/rss/topics/top-picks.xml", "domestic", 5)
+    with concurrent.futures.ThreadPoolExecutor(max_workers=14) as pool:
+        f_dom_y = pool.submit(fetch_yahoo_topics, "https://news.yahoo.co.jp/rss/topics/domestic.xml", "domestic", 10)
+        f_dom_t = pool.submit(fetch_yahoo_topics, "https://news.yahoo.co.jp/rss/topics/top-picks.xml", "domestic", 10)
+        f_dom_h = pool.submit(fetch_hatena_rss, "https://b.hatena.ne.jp/hotentry/social.rss", "domestic", 25)
 
-        f_tech_y = pool.submit(fetch_yahoo_topics, "https://news.yahoo.co.jp/rss/topics/it.xml", "tech", 5)
-        f_tech_h = pool.submit(fetch_hatena_rss, "https://b.hatena.ne.jp/hotentry/it.rss", "tech", 8)
-        f_tech_z = pool.submit(fetch_zenn_tech, 4)
+        f_tech_y = pool.submit(fetch_yahoo_topics, "https://news.yahoo.co.jp/rss/topics/it.xml", "tech", 10)
+        f_tech_h = pool.submit(fetch_hatena_rss, "https://b.hatena.ne.jp/hotentry/it.rss", "tech", 25)
+        f_tech_z = pool.submit(fetch_zenn_tech, 10)
 
-        f_biz_y = pool.submit(fetch_yahoo_topics, "https://news.yahoo.co.jp/rss/topics/business.xml", "business", 6)
-        f_biz_h = pool.submit(fetch_hatena_rss, "https://b.hatena.ne.jp/hotentry/economics.rss", "business", 8)
+        f_biz_y = pool.submit(fetch_yahoo_topics, "https://news.yahoo.co.jp/rss/topics/business.xml", "business", 10)
+        f_biz_h = pool.submit(fetch_hatena_rss, "https://b.hatena.ne.jp/hotentry/economics.rss", "business", 25)
 
-        f_ent_y = pool.submit(fetch_yahoo_topics, "https://news.yahoo.co.jp/rss/topics/entertainment.xml", "entertainment", 6)
-        f_ent_h = pool.submit(fetch_hatena_rss, "https://b.hatena.ne.jp/hotentry/entertainment.rss", "entertainment", 8)
+        f_ent_y = pool.submit(fetch_yahoo_topics, "https://news.yahoo.co.jp/rss/topics/entertainment.xml", "entertainment", 10)
+        f_ent_h = pool.submit(fetch_hatena_rss, "https://b.hatena.ne.jp/hotentry/entertainment.rss", "entertainment", 25)
 
-        f_sub_h = pool.submit(fetch_hatena_rss, "https://b.hatena.ne.jp/hotentry/game.rss", "subculture", 4)
-        f_sub_auto = pool.submit(fetch_generic_feed, "https://automaton-media.com/feed/", "subculture", "AUTOMATON", 3, "ゲーム")
-        f_sub_comic = pool.submit(fetch_generic_feed, "https://natalie.mu/comic/feed/news", "subculture", "コミックナタリー", 3, "漫画・アニメ")
-        f_sub_vtuber = pool.submit(fetch_generic_feed, "https://panora.tokyo/feed/", "subculture", "PANORA", 3, "Vtuber")
+        f_sub_h = pool.submit(fetch_hatena_rss, "https://b.hatena.ne.jp/hotentry/game.rss", "subculture", 20)
+        f_sub_auto = pool.submit(fetch_generic_feed, "https://automaton-media.com/feed/", "subculture", "AUTOMATON", 8, "ゲーム")
+        f_sub_comic = pool.submit(fetch_generic_feed, "https://natalie.mu/comic/feed/news", "subculture", "コミックナタリー", 8, "漫画・アニメ")
+        f_sub_vtuber = pool.submit(fetch_generic_feed, "https://panora.tokyo/feed/", "subculture", "PANORA", 8, "Vtuber")
 
-    domestic_candidates = f_dom_y.result() + f_dom_h.result() + f_dom_t.result()
+    domestic_candidates = f_dom_y.result() + f_dom_t.result() + f_dom_h.result()
     tech_candidates = f_tech_y.result() + f_tech_h.result() + f_tech_z.result()
     business_candidates = f_biz_y.result() + f_biz_h.result()
     entertainment_candidates = f_ent_y.result() + f_ent_h.result()
@@ -705,11 +705,11 @@ def main() -> None:
     )
 
     seen_global: set[str] = set()
-    domestic = pick_unique_category_items(domestic_candidates, seen_global, target_count=10)
-    tech = pick_unique_category_items(tech_candidates, seen_global, target_count=10)
-    business = pick_unique_category_items(business_candidates, seen_global, target_count=10)
-    entertainment = pick_unique_category_items(entertainment_candidates, seen_global, target_count=10)
-    subculture = pick_unique_category_items(subculture_candidates, seen_global, target_count=10)
+    domestic = pick_unique_category_items(domestic_candidates, seen_global, target_count=30)
+    tech = pick_unique_category_items(tech_candidates, seen_global, target_count=30)
+    business = pick_unique_category_items(business_candidates, seen_global, target_count=30)
+    entertainment = pick_unique_category_items(entertainment_candidates, seen_global, target_count=30)
+    subculture = pick_unique_category_items(subculture_candidates, seen_global, target_count=30)
 
     items = interleave_top_items(domestic, tech, business, entertainment, subculture)
     if not items:
@@ -735,13 +735,14 @@ def main() -> None:
                 it["image"] = cached_img
                 it["hasRealImage"] = True
 
-    # 引用元ページからOGP画像＆概要を並列取得
-    enrich_og_metadata_parallel(items)
+    # 上位10記事（各ジャンル10位以内＋トップ上位10件）のみ引用元ページからOGP画像を並列取得
+    image_targets = domestic[:10] + tech[:10] + business[:10] + entertainment[:10] + subculture[:10]
+    enrich_og_metadata_parallel(image_targets)
 
     keywords: list[str] = []
     api_key = os.environ.get("GEMINI_API_KEY", "").strip()
     if api_key:
-        ai_keywords = enrich_with_gemini(items, api_key)
+        ai_keywords = enrich_with_gemini(items[:40], api_key)
         if ai_keywords:
             keywords = ai_keywords
         elif cached_keywords:

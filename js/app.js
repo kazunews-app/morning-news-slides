@@ -35,6 +35,9 @@
   const elFeedHeading = document.getElementById("feed-heading");
   const elFeedCount = document.getElementById("feed-count");
   const elNewsGrid = document.getElementById("news-grid");
+  const elTextFeedWrap = document.getElementById("text-feed-wrap");
+  const elTextFeedCount = document.getElementById("text-feed-count");
+  const elNewsTextList = document.getElementById("news-text-list");
   const elWeatherSection = document.getElementById("weather-section");
   const elModal = document.getElementById("article-modal");
   const elModalDialog = elModal ? elModal.querySelector(".modal-dialog") : null;
@@ -243,13 +246,15 @@
     });
 
     const isTopOverview = state.category === "all" && !q && filtered.length >= 5;
-    let gridItems = filtered;
+    const visualItems = filtered.slice(0, 10);
+    const textItems = filtered.slice(10);
+    let gridItems = visualItems;
 
     if (isTopOverview) {
       elHeroSection.hidden = false;
-      renderHero(filtered);
-      gridItems = filtered.slice(5);
-      elFeedHeading.textContent = "最新ニュース一覧";
+      renderHero(visualItems);
+      gridItems = visualItems.slice(5);
+      elFeedHeading.textContent = "注目のトレンド記事（TOP 10）";
     } else {
       elHeroSection.hidden = true;
       const meta = getCategoryMeta(state.category);
@@ -296,6 +301,37 @@
           `;
         })
         .join("");
+    }
+
+    if (elTextFeedWrap && elNewsTextList) {
+      if (textItems.length > 0) {
+        elTextFeedWrap.hidden = false;
+        if (elTextFeedCount) elTextFeedCount.textContent = `${textItems.length}件`;
+        elNewsTextList.innerHTML = textItems
+          .map((item, idx) => {
+            const meta = getCategoryMeta(item.category);
+            const rank = idx + 11;
+            return `
+              <article class="text-news-item" data-article-idx="${item._idx}">
+                <span class="text-news-rank">${rank}</span>
+                <div class="text-news-body">
+                  <div class="meta-row">
+                    <span class="cat-pill ${escapeHtml(item.category)}">${meta.icon} ${escapeHtml(meta.label)}</span>
+                    <span>${escapeHtml(item.source || "")}</span>
+                    <span>•</span>
+                    <span>${escapeHtml(formatRelativeTime(item))}</span>
+                  </div>
+                  <h3 class="text-news-title">${escapeHtml(item.title)}</h3>
+                  <p class="text-news-summary">${escapeHtml(item.summary)}</p>
+                </div>
+              </article>
+            `;
+          })
+          .join("");
+      } else {
+        elTextFeedWrap.hidden = true;
+        elNewsTextList.innerHTML = "";
+      }
     }
 
     document.querySelectorAll("[data-article-idx]").forEach((el) => {
@@ -649,18 +685,18 @@
       subComic,
       subVtuber,
     ] = await Promise.all([
-      fetchRssItemsFast("https://news.yahoo.co.jp/rss/topics/domestic.xml", "domestic", "Yahoo!ニュース", 6),
-      fetchRssItemsFast("https://b.hatena.ne.jp/hotentry/social.rss", "domestic", "はてなブックマーク", 6),
-      fetchRssItemsFast("https://news.yahoo.co.jp/rss/topics/it.xml", "tech", "Yahoo!ニュース", 6),
-      fetchRssItemsFast("https://b.hatena.ne.jp/hotentry/it.rss", "tech", "はてなブックマーク", 6),
-      fetchRssItemsFast("https://news.yahoo.co.jp/rss/topics/business.xml", "business", "Yahoo!ニュース", 6),
-      fetchRssItemsFast("https://b.hatena.ne.jp/hotentry/economics.rss", "business", "はてなブックマーク", 6),
-      fetchRssItemsFast("https://news.yahoo.co.jp/rss/topics/entertainment.xml", "entertainment", "Yahoo!ニュース", 6),
-      fetchRssItemsFast("https://b.hatena.ne.jp/hotentry/entertainment.rss", "entertainment", "はてなブックマーク", 6),
-      fetchRssItemsFast("https://b.hatena.ne.jp/hotentry/game.rss", "subculture", "はてなブックマーク", 4),
-      fetchRssItemsFast("https://automaton-media.com/feed/", "subculture", "AUTOMATON", 3),
-      fetchRssItemsFast("https://natalie.mu/comic/feed/news", "subculture", "コミックナタリー", 3),
-      fetchRssItemsFast("https://panora.tokyo/feed/", "subculture", "PANORA", 3),
+      fetchRssItemsFast("https://news.yahoo.co.jp/rss/topics/domestic.xml", "domestic", "Yahoo!ニュース", 10),
+      fetchRssItemsFast("https://b.hatena.ne.jp/hotentry/social.rss", "domestic", "はてなブックマーク", 25),
+      fetchRssItemsFast("https://news.yahoo.co.jp/rss/topics/it.xml", "tech", "Yahoo!ニュース", 10),
+      fetchRssItemsFast("https://b.hatena.ne.jp/hotentry/it.rss", "tech", "はてなブックマーク", 25),
+      fetchRssItemsFast("https://news.yahoo.co.jp/rss/topics/business.xml", "business", "Yahoo!ニュース", 10),
+      fetchRssItemsFast("https://b.hatena.ne.jp/hotentry/economics.rss", "business", "はてなブックマーク", 25),
+      fetchRssItemsFast("https://news.yahoo.co.jp/rss/topics/entertainment.xml", "entertainment", "Yahoo!ニュース", 10),
+      fetchRssItemsFast("https://b.hatena.ne.jp/hotentry/entertainment.rss", "entertainment", "はてなブックマーク", 25),
+      fetchRssItemsFast("https://b.hatena.ne.jp/hotentry/game.rss", "subculture", "はてなブックマーク", 20),
+      fetchRssItemsFast("https://automaton-media.com/feed/", "subculture", "AUTOMATON", 8),
+      fetchRssItemsFast("https://natalie.mu/comic/feed/news", "subculture", "コミックナタリー", 8),
+      fetchRssItemsFast("https://panora.tokyo/feed/", "subculture", "PANORA", 8),
     ]);
 
     const totalFetched =
@@ -719,15 +755,15 @@
             isAiEnriched: false,
           };
           list.push(itemObj);
-          if (!raw.rawThumb) {
+          if (!raw.rawThumb && list.length <= 10) {
             bgOgTargets.push({ url: raw.url, item: itemObj });
           }
         }
-        if (list.length >= 10) break;
+        if (list.length >= 30) break;
       }
 
       for (const oldIt of existingCatItems) {
-        if (list.length >= 10) break;
+        if (list.length >= 30) break;
         if (!seen.has(oldIt.url) && !seen.has(oldIt.title)) {
           seen.add(oldIt.url);
           seen.add(oldIt.title);
