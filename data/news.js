@@ -1,6 +1,6 @@
 window.NEWS_DATA = {
   "date": "2026年11月15日 (日)",
-  "updatedAt": "2026-11-15 13:34",
+  "updatedAt": "2026-11-15 14:30",
   "title": "TREND NEWS",
   "keywords": [
     "きょう近畿や東海で激しい雨…",
@@ -538,44 +538,44 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "デスクトップアプリを自動操作できるAUVが良さげかも | kawarimidoll.com",
-      "source": "kawarimidoll.com",
-      "publishedAt": "2026-10-19 17:36",
-      "publishedTs": 1792399008,
-      "image": "https://kawarimidoll.com/posts/202610182/og.png",
-      "summary": "Programmable Computer Use, without agents. AUV turns app UI workflows into typed operations you can script, record, inspect, and replay. GitHub - moeru-ai…",
+      "title": "独プールで15人体調不良　マイクロソフト障害影響 | NEWSjp",
+      "source": "news.jp",
+      "publishedAt": "2026-11-15 11:57",
+      "publishedTs": 1794711436,
+      "image": "https://img.jp.ekkowassets.com/c_limit,w_200,h_200,f_auto,q_auto:eco/ch/units/39166665832988672/profile_7.png",
+      "summary": "【ベルリン共同】ドイツ公共放送WDRは14日、米IT大手マイクロソフトの主力業務ソフトの大規模障害による影響で、西部ブリュールのテーマパーク内にあるプールの利用者15人が体調不良を訴えたと報じた。障害により安全管理システムの警報メールが担当者に届かず、塩素を注入する装置の不具合に気付かず水中塩素濃度が著し.…",
       "points": [
         "カテゴリ: テクノロジー・AIで話題の記事",
-        "引用元: kawarimidoll.com（2026-10-19 17:36）",
+        "引用元: news.jp（2026-11-15 11:57）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "テクノロジー・AI分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "テクノロジー・AI",
-        "kawarimidoll.com"
+        "news.jp"
       ],
-      "url": "https://kawarimidoll.com/posts/202610182/",
+      "url": "https://news.jp/i/1494496378441958289",
       "isAiEnriched": false
     },
     {
       "category": "business",
-      "title": "わずか4人の造反に自民党内がピリピリ…石破茂と小渕優子があぶり出した｢高市1強｣のほころび",
-      "source": "president.jp",
-      "publishedAt": "2026-11-14 20:36",
-      "publishedTs": 1794656165,
-      "image": "https://president.ismcdn.jp/mwimgs/8/5/1200wm/img_85dec2f841712411312c77aac2d27db81098454.jpg",
-      "summary": "造反した4人への共感 「自民党は1年前まで『財源なき消費減税はあってはならない』と言い続けてきた。1年でくるくる変わるような税制は、慎まなければならない。高市早苗首相は『12月までにはちゃんとする』『心配には及ばない』というが、財源がなかったらどうするのか。どんなことがあっても揺れないのが財政規律だと...",
+      "title": "大阪･阿倍野｢故郷を返してほしい｣の声も…｢インバウンドで復活｣の裏で､再開発が1822億円の大赤字　変貌した街の現在",
+      "source": "toyokeizai.net",
+      "publishedAt": "2026-11-15 08:42",
+      "publishedTs": 1794699732,
+      "image": "https://tk.ismcdn.jp/mwimgs/2/8/1200xm/img_28d2e62e826ce3756a8c9e6285c64f67364295.jpg",
+      "summary": "コンテンツブロックが有効であることを検知しました。 このサイトを利用するには、コンテンツブロック機能（広告ブロック機能を持つ拡張機能等）を無効にしてページを再読み込みしてください。 なお、Microsoft Edgeをご利用のお客様はプライバシー設定が影響している可能性があるため「追跡防止を有効にする」の設…",
       "points": [
         "カテゴリ: ビジネス・経済で話題の記事",
-        "引用元: president.jp（2026-11-14 20:36）",
+        "引用元: toyokeizai.net（2026-11-15 08:42）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "ビジネス・経済分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "ビジネス・経済",
-        "president.jp"
+        "toyokeizai.net"
       ],
-      "url": "https://president.jp/articles/-/122183",
+      "url": "https://toyokeizai.net/articles/-/963719",
       "isAiEnriched": false
     },
     {
@@ -601,44 +601,44 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "貧乏人向けの金貸しと、Appleの取り立てテクノロジー » p2ptk[.]org",
-      "source": "p2ptk.org",
-      "publishedAt": "2026-11-15 03:54",
-      "publishedTs": 1794682485,
-      "image": "https://p2ptk.org/wp-content/uploads/2026/11/think_different_repo.jpg",
-      "summary": "以下の文章は、コリイ・ドクトロウの「Apple’s robo-repo」という記事（2026年7月25日公開）を翻訳したものである。 Pluralistic 奇妙に思えるかもしれないが、金貸しは返済に苦労しそうな貧乏人に金を貸すのを大いに好む。当然ながら貸し手は耳を揃えて返済してほしいと考えているし、当然な…",
+      "title": "個人開発で5週間150万DL、AIと爆速で作るCAD「SolidCraft」 - FabScene（ファブシーン）",
+      "source": "fabscene.com",
+      "publishedAt": "2026-11-15 08:49",
+      "publishedTs": 1794700197,
+      "image": "https://fabscene.com/wp-content/uploads/2026/11/image-113.webp",
+      "summary": "Claude CodeやCodexのようなAIコーディングツールが広がり、個人が手がけられるソフトウェアの規模が変わりつつある。米国の開発者Brennen Herbruck氏が2026年10月に書き始めたオープンソースの3D CAD「SolidCraft」は、その一例だ。公開から約5週間で正式版を58回リリ…",
       "points": [
         "カテゴリ: テクノロジー・AIで話題の記事",
-        "引用元: p2ptk.org（2026-11-15 03:54）",
+        "引用元: fabscene.com（2026-11-15 08:49）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "テクノロジー・AI分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "テクノロジー・AI",
-        "p2ptk.org"
+        "fabscene.com"
       ],
-      "url": "https://p2ptk.org/monopoly/5681",
+      "url": "https://fabscene.com/new/interview/solidcraft-open-source-cad-ai-1-5m-downloads-brennen-herbruck/",
       "isAiEnriched": false
     },
     {
       "category": "business",
-      "title": "大阪･阿倍野｢故郷を返してほしい｣の声も…｢インバウンドで復活｣の裏で､再開発が1822億円の大赤字　変貌した街の現在",
-      "source": "toyokeizai.net",
-      "publishedAt": "2026-11-15 08:42",
-      "publishedTs": 1794699732,
-      "image": "https://tk.ismcdn.jp/mwimgs/2/8/1200xm/img_28d2e62e826ce3756a8c9e6285c64f67364295.jpg",
-      "summary": "コンテンツブロックが有効であることを検知しました。 このサイトを利用するには、コンテンツブロック機能（広告ブロック機能を持つ拡張機能等）を無効にしてページを再読み込みしてください。 なお、Microsoft Edgeをご利用のお客様はプライバシー設定が影響している可能性があるため「追跡防止を有効にする」の設…",
+      "title": "わずか4人の造反に自民党内がピリピリ…石破茂と小渕優子があぶり出した｢高市1強｣のほころび",
+      "source": "president.jp",
+      "publishedAt": "2026-11-14 20:36",
+      "publishedTs": 1794656165,
+      "image": "https://president.ismcdn.jp/mwimgs/8/5/1200wm/img_85dec2f841712411312c77aac2d27db81098454.jpg",
+      "summary": "造反した4人への共感 「自民党は1年前まで『財源なき消費減税はあってはならない』と言い続けてきた。1年でくるくる変わるような税制は、慎まなければならない。高市早苗首相は『12月までにはちゃんとする』『心配には及ばない』というが、財源がなかったらどうするのか。どんなことがあっても揺れないのが財政規律だと...",
       "points": [
         "カテゴリ: ビジネス・経済で話題の記事",
-        "引用元: toyokeizai.net（2026-11-15 08:42）",
+        "引用元: president.jp（2026-11-14 20:36）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "ビジネス・経済分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "ビジネス・経済",
-        "toyokeizai.net"
+        "president.jp"
       ],
-      "url": "https://toyokeizai.net/articles/-/963719",
+      "url": "https://president.jp/articles/-/122183",
       "isAiEnriched": false
     }
   ]
