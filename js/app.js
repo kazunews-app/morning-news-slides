@@ -1106,7 +1106,7 @@
   async function fetchGithubNewsData() {
     const ts = Date.now();
     const fetchFromApi = async () => {
-      const apiUrl = `https://api.github.com/repos/sjhkazu1011-ctrl/morning-news-slides/contents/data/news.js?ref=main&_=${ts}`;
+      const apiUrl = `https://api.github.com/repos/kazunews-app/morning-news-slides/contents/data/news.js?ref=main&_=${ts}`;
       const res = await fetchWithTimeout(apiUrl, { cache: "no-store" }, 3200);
       if (!res.ok) throw new Error("gh api fail");
       const meta = await res.json();
@@ -1131,7 +1131,7 @@
     // 3系統を並列取得し、古いCDNキャッシュではなく最も新しいupdatedAtのデータを採用
     const results = await Promise.allSettled([
       fetchFromApi(),
-      fetchFromUrl(`https://raw.githubusercontent.com/sjhkazu1011-ctrl/morning-news-slides/main/data/news.js?t=${ts}`),
+      fetchFromUrl(`https://raw.githubusercontent.com/kazunews-app/morning-news-slides/main/data/news.js?t=${ts}`),
       fetchFromUrl(`data/news.js?t=${ts}`),
     ]);
 
