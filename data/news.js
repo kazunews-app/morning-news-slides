@@ -1,13 +1,13 @@
 window.NEWS_DATA = {
   "date": "2026年11月16日 (月)",
-  "updatedAt": "2026-11-16 02:51",
+  "updatedAt": "2026-11-16 03:28",
   "title": "TREND NEWS",
   "keywords": [
-    "サイバー攻撃",
-    "個人情報流出",
-    "エヌビディア",
-    "CEO辞任",
-    "米財務長官"
+    "ホンダ",
+    "情報漏えい",
+    "不正アクセス",
+    "委託先",
+    "個人情報"
   ],
   "weatherCities": [
     {
@@ -21,52 +21,52 @@ window.NEWS_DATA = {
       "pop": 98,
       "hourly": [
         {
-          "time": "02:00",
+          "time": "03:00",
           "code": 53,
           "temp": 4,
           "pop": 98
         },
         {
-          "time": "05:00",
+          "time": "06:00",
           "code": 51,
           "temp": 4,
-          "pop": 91
+          "pop": 82
         },
         {
-          "time": "08:00",
+          "time": "09:00",
           "code": 51,
           "temp": 6,
-          "pop": 41
+          "pop": 25
         },
         {
-          "time": "11:00",
+          "time": "12:00",
           "code": 51,
-          "temp": 7,
-          "pop": 28
+          "temp": 6,
+          "pop": 35
         },
         {
-          "time": "14:00",
+          "time": "15:00",
           "code": 51,
-          "temp": 5,
-          "pop": 50
+          "temp": 4,
+          "pop": 55
         },
         {
-          "time": "17:00",
+          "time": "18:00",
           "code": 1,
           "temp": 3,
-          "pop": 56
+          "pop": 53
         },
         {
-          "time": "20:00",
+          "time": "21:00",
           "code": 1,
-          "temp": 3,
-          "pop": 31
-        },
-        {
-          "time": "23:00",
-          "code": 71,
           "temp": 2,
-          "pop": 34
+          "pop": 24
+        },
+        {
+          "time": "00:00",
+          "code": 2,
+          "temp": 2,
+          "pop": 39
         }
       ],
       "daily": [
@@ -133,56 +133,56 @@ window.NEWS_DATA = {
       "region": "東北",
       "temp": 13,
       "code": 0,
-      "wind": 14,
+      "wind": 13,
       "maxTemp": 13,
       "minTemp": 7,
       "pop": 20,
       "hourly": [
         {
-          "time": "02:00",
+          "time": "03:00",
           "code": 0,
           "temp": 13,
-          "pop": 5
+          "pop": 2
         },
         {
-          "time": "05:00",
+          "time": "06:00",
           "code": 0,
           "temp": 12,
-          "pop": 7
+          "pop": 10
         },
         {
-          "time": "08:00",
+          "time": "09:00",
           "code": 0,
           "temp": 12,
-          "pop": 6
+          "pop": 4
         },
         {
-          "time": "11:00",
+          "time": "12:00",
           "code": 1,
           "temp": 13,
-          "pop": 7
+          "pop": 8
         },
         {
-          "time": "14:00",
+          "time": "15:00",
           "code": 1,
           "temp": 12,
-          "pop": 3
+          "pop": 0
         },
         {
-          "time": "17:00",
+          "time": "18:00",
           "code": 1,
           "temp": 10,
           "pop": 0
         },
         {
-          "time": "20:00",
-          "code": 2,
-          "temp": 9,
+          "time": "21:00",
+          "code": 0,
+          "temp": 8,
           "pop": 0
         },
         {
-          "time": "23:00",
-          "code": 0,
+          "time": "00:00",
+          "code": 1,
           "temp": 7,
           "pop": 0
         }
@@ -250,59 +250,59 @@ window.NEWS_DATA = {
       "name": "新潟",
       "region": "北陸",
       "temp": 14,
-      "code": 1,
+      "code": 2,
       "wind": 23,
       "maxTemp": 15,
       "minTemp": 11,
       "pop": 66,
       "hourly": [
         {
-          "time": "02:00",
-          "code": 1,
-          "temp": 14,
-          "pop": 66
-        },
-        {
-          "time": "05:00",
+          "time": "03:00",
           "code": 2,
           "temp": 14,
-          "pop": 30
+          "pop": 63
         },
         {
-          "time": "08:00",
+          "time": "06:00",
           "code": 2,
           "temp": 13,
-          "pop": 11
+          "pop": 16
         },
         {
-          "time": "11:00",
+          "time": "09:00",
           "code": 3,
           "temp": 13,
-          "pop": 4
+          "pop": 10
         },
         {
-          "time": "14:00",
+          "time": "12:00",
+          "code": 3,
+          "temp": 13,
+          "pop": 2
+        },
+        {
+          "time": "15:00",
           "code": 2,
           "temp": 13,
           "pop": 0
         },
         {
-          "time": "17:00",
+          "time": "18:00",
           "code": 2,
           "temp": 13,
           "pop": 0
         },
         {
-          "time": "20:00",
+          "time": "21:00",
           "code": 3,
           "temp": 12,
-          "pop": 4
+          "pop": 6
         },
         {
-          "time": "23:00",
+          "time": "00:00",
           "code": 2,
           "temp": 11,
-          "pop": 5
+          "pop": 4
         }
       ],
       "daily": [
@@ -375,52 +375,52 @@ window.NEWS_DATA = {
       "pop": 98,
       "hourly": [
         {
-          "time": "02:00",
+          "time": "03:00",
           "code": 2,
           "temp": 14,
-          "pop": 82
+          "pop": 71
         },
         {
-          "time": "05:00",
+          "time": "06:00",
           "code": 1,
-          "temp": 13,
-          "pop": 43
-        },
-        {
-          "time": "08:00",
-          "code": 2,
           "temp": 12,
-          "pop": 13
+          "pop": 31
         },
         {
-          "time": "11:00",
+          "time": "09:00",
           "code": 3,
-          "temp": 14,
-          "pop": 23
-        },
-        {
-          "time": "14:00",
-          "code": 2,
-          "temp": 15,
-          "pop": 15
-        },
-        {
-          "time": "17:00",
-          "code": 2,
           "temp": 13,
-          "pop": 5
+          "pop": 10
         },
         {
-          "time": "20:00",
-          "code": 1,
-          "temp": 12,
-          "pop": 3
+          "time": "12:00",
+          "code": 2,
+          "temp": 14,
+          "pop": 27
         },
         {
-          "time": "23:00",
+          "time": "15:00",
+          "code": 2,
+          "temp": 14,
+          "pop": 8
+        },
+        {
+          "time": "18:00",
+          "code": 3,
+          "temp": 13,
+          "pop": 4
+        },
+        {
+          "time": "21:00",
+          "code": 3,
+          "temp": 11,
+          "pop": 2
+        },
+        {
+          "time": "00:00",
           "code": 1,
           "temp": 10,
-          "pop": 1
+          "pop": 0
         }
       ],
       "daily": [
@@ -485,59 +485,59 @@ window.NEWS_DATA = {
     {
       "name": "東京",
       "region": "関東",
-      "temp": 12,
+      "temp": 13,
       "code": 0,
-      "wind": 7,
+      "wind": 9,
       "maxTemp": 18,
       "minTemp": 11,
       "pop": 47,
       "hourly": [
         {
-          "time": "02:00",
+          "time": "03:00",
           "code": 0,
-          "temp": 12,
-          "pop": 21
+          "temp": 13,
+          "pop": 12
         },
         {
-          "time": "05:00",
+          "time": "06:00",
           "code": 0,
           "temp": 14,
-          "pop": 5
+          "pop": 4
         },
         {
-          "time": "08:00",
+          "time": "09:00",
           "code": 0,
-          "temp": 15,
-          "pop": 1
-        },
-        {
-          "time": "11:00",
-          "code": 0,
-          "temp": 17,
+          "temp": 16,
           "pop": 0
         },
         {
-          "time": "14:00",
+          "time": "12:00",
           "code": 0,
           "temp": 18,
           "pop": 0
         },
         {
-          "time": "17:00",
-          "code": 1,
-          "temp": 16,
+          "time": "15:00",
+          "code": 0,
+          "temp": 18,
           "pop": 0
         },
         {
-          "time": "20:00",
+          "time": "18:00",
           "code": 2,
-          "temp": 14,
-          "pop": 1
+          "temp": 15,
+          "pop": 0
         },
         {
-          "time": "23:00",
+          "time": "21:00",
           "code": 2,
-          "temp": 13,
+          "temp": 14,
+          "pop": 2
+        },
+        {
+          "time": "00:00",
+          "code": 2,
+          "temp": 12,
           "pop": 2
         }
       ],
@@ -611,52 +611,52 @@ window.NEWS_DATA = {
       "pop": 8,
       "hourly": [
         {
-          "time": "02:00",
+          "time": "03:00",
           "code": 0,
           "temp": 15,
-          "pop": 1
+          "pop": 0
         },
         {
-          "time": "05:00",
+          "time": "06:00",
           "code": 0,
-          "temp": 14,
+          "temp": 13,
           "pop": 0
         },
         {
-          "time": "08:00",
+          "time": "09:00",
           "code": 0,
-          "temp": 14,
+          "temp": 16,
           "pop": 0
         },
         {
-          "time": "11:00",
-          "code": 2,
-          "temp": 18,
-          "pop": 0
-        },
-        {
-          "time": "14:00",
+          "time": "12:00",
           "code": 2,
           "temp": 19,
           "pop": 0
         },
         {
-          "time": "17:00",
-          "code": 1,
-          "temp": 16,
+          "time": "15:00",
+          "code": 2,
+          "temp": 18,
           "pop": 0
         },
         {
-          "time": "20:00",
+          "time": "18:00",
+          "code": 1,
+          "temp": 15,
+          "pop": 0
+        },
+        {
+          "time": "21:00",
           "code": 1,
           "temp": 13,
           "pop": 0
         },
         {
-          "time": "23:00",
-          "code": 1,
+          "time": "00:00",
+          "code": 2,
           "temp": 12,
-          "pop": 1
+          "pop": 2
         }
       ],
       "daily": [
@@ -721,7 +721,7 @@ window.NEWS_DATA = {
     {
       "name": "大阪",
       "region": "近畿",
-      "temp": 15,
+      "temp": 14,
       "code": 0,
       "wind": 6,
       "maxTemp": 18,
@@ -729,51 +729,51 @@ window.NEWS_DATA = {
       "pop": 2,
       "hourly": [
         {
-          "time": "02:00",
-          "code": 0,
-          "temp": 15,
-          "pop": 0
-        },
-        {
-          "time": "05:00",
+          "time": "03:00",
           "code": 0,
           "temp": 14,
           "pop": 0
         },
         {
-          "time": "08:00",
-          "code": 1,
-          "temp": 14,
-          "pop": 0
-        },
-        {
-          "time": "11:00",
-          "code": 3,
-          "temp": 17,
-          "pop": 0
-        },
-        {
-          "time": "14:00",
-          "code": 2,
-          "temp": 18,
-          "pop": 0
-        },
-        {
-          "time": "17:00",
-          "code": 2,
-          "temp": 15,
-          "pop": 0
-        },
-        {
-          "time": "20:00",
-          "code": 1,
+          "time": "06:00",
+          "code": 0,
           "temp": 13,
           "pop": 0
         },
         {
-          "time": "23:00",
+          "time": "09:00",
+          "code": 1,
+          "temp": 15,
+          "pop": 0
+        },
+        {
+          "time": "12:00",
+          "code": 3,
+          "temp": 18,
+          "pop": 0
+        },
+        {
+          "time": "15:00",
+          "code": 2,
+          "temp": 17,
+          "pop": 0
+        },
+        {
+          "time": "18:00",
+          "code": 3,
+          "temp": 15,
+          "pop": 0
+        },
+        {
+          "time": "21:00",
           "code": 0,
-          "temp": 12,
+          "temp": 13,
+          "pop": 0
+        },
+        {
+          "time": "00:00",
+          "code": 0,
+          "temp": 11,
           "pop": 0
         }
       ],
@@ -839,59 +839,59 @@ window.NEWS_DATA = {
     {
       "name": "広島",
       "region": "中国",
-      "temp": 15,
-      "code": 0,
+      "temp": 14,
+      "code": 1,
       "wind": 3,
       "maxTemp": 19,
       "minTemp": 12,
       "pop": 0,
       "hourly": [
         {
-          "time": "02:00",
-          "code": 0,
+          "time": "03:00",
+          "code": 1,
+          "temp": 14,
+          "pop": 0
+        },
+        {
+          "time": "06:00",
+          "code": 1,
+          "temp": 13,
+          "pop": 0
+        },
+        {
+          "time": "09:00",
+          "code": 3,
           "temp": 15,
           "pop": 0
         },
         {
-          "time": "05:00",
-          "code": 1,
-          "temp": 14,
-          "pop": 0
-        },
-        {
-          "time": "08:00",
-          "code": 1,
-          "temp": 14,
-          "pop": 0
-        },
-        {
-          "time": "11:00",
-          "code": 2,
-          "temp": 18,
-          "pop": 0
-        },
-        {
-          "time": "14:00",
+          "time": "12:00",
           "code": 2,
           "temp": 19,
           "pop": 0
         },
         {
-          "time": "17:00",
+          "time": "15:00",
+          "code": 3,
+          "temp": 19,
+          "pop": 0
+        },
+        {
+          "time": "18:00",
           "code": 2,
-          "temp": 17,
+          "temp": 16,
           "pop": 0
         },
         {
-          "time": "20:00",
+          "time": "21:00",
           "code": 1,
-          "temp": 15,
+          "temp": 14,
           "pop": 0
         },
         {
-          "time": "23:00",
-          "code": 1,
-          "temp": 13,
+          "time": "00:00",
+          "code": 2,
+          "temp": 12,
           "pop": 0
         }
       ],
@@ -959,58 +959,58 @@ window.NEWS_DATA = {
       "region": "四国",
       "temp": 15,
       "code": 0,
-      "wind": 7,
+      "wind": 6,
       "maxTemp": 21,
       "minTemp": 14,
       "pop": 2,
       "hourly": [
         {
-          "time": "02:00",
+          "time": "03:00",
           "code": 0,
-          "temp": 16,
-          "pop": 0
-        },
-        {
-          "time": "05:00",
-          "code": 0,
-          "temp": 14,
-          "pop": 0
-        },
-        {
-          "time": "08:00",
-          "code": 2,
           "temp": 15,
           "pop": 0
         },
         {
-          "time": "11:00",
-          "code": 2,
-          "temp": 20,
+          "time": "06:00",
+          "code": 1,
+          "temp": 14,
           "pop": 0
         },
         {
-          "time": "14:00",
-          "code": 2,
-          "temp": 21,
-          "pop": 0
-        },
-        {
-          "time": "17:00",
+          "time": "09:00",
           "code": 2,
           "temp": 18,
           "pop": 0
         },
         {
-          "time": "20:00",
+          "time": "12:00",
           "code": 2,
+          "temp": 20,
+          "pop": 0
+        },
+        {
+          "time": "15:00",
+          "code": 2,
+          "temp": 20,
+          "pop": 0
+        },
+        {
+          "time": "18:00",
+          "code": 3,
+          "temp": 17,
+          "pop": 0
+        },
+        {
+          "time": "21:00",
+          "code": 1,
           "temp": 16,
           "pop": 2
         },
         {
-          "time": "23:00",
-          "code": 1,
+          "time": "00:00",
+          "code": 2,
           "temp": 15,
-          "pop": 1
+          "pop": 0
         }
       ],
       "daily": [
@@ -1077,57 +1077,57 @@ window.NEWS_DATA = {
       "region": "九州",
       "temp": 18,
       "code": 0,
-      "wind": 12,
+      "wind": 11,
       "maxTemp": 20,
       "minTemp": 16,
       "pop": 4,
       "hourly": [
         {
-          "time": "02:00",
-          "code": 1,
+          "time": "03:00",
+          "code": 0,
           "temp": 18,
-          "pop": 1
+          "pop": 2
         },
         {
-          "time": "05:00",
-          "code": 1,
+          "time": "06:00",
+          "code": 2,
           "temp": 17,
           "pop": 2
         },
         {
-          "time": "08:00",
-          "code": 2,
-          "temp": 16,
-          "pop": 1
-        },
-        {
-          "time": "11:00",
+          "time": "09:00",
           "code": 1,
-          "temp": 19,
+          "temp": 17,
           "pop": 0
         },
         {
-          "time": "14:00",
-          "code": 3,
+          "time": "12:00",
+          "code": 2,
           "temp": 20,
           "pop": 0
         },
         {
-          "time": "17:00",
+          "time": "15:00",
           "code": 0,
           "temp": 20,
           "pop": 0
         },
         {
-          "time": "20:00",
-          "code": 1,
-          "temp": 18,
+          "time": "18:00",
+          "code": 0,
+          "temp": 19,
           "pop": 0
         },
         {
-          "time": "23:00",
-          "code": 1,
+          "time": "21:00",
+          "code": 2,
           "temp": 17,
+          "pop": 0
+        },
+        {
+          "time": "00:00",
+          "code": 1,
+          "temp": 16,
           "pop": 0
         }
       ],
@@ -1201,52 +1201,52 @@ window.NEWS_DATA = {
       "pop": 35,
       "hourly": [
         {
-          "time": "02:00",
+          "time": "03:00",
           "code": 0,
           "temp": 22,
           "pop": 0
         },
         {
-          "time": "05:00",
+          "time": "06:00",
           "code": 0,
           "temp": 21,
           "pop": 2
         },
         {
-          "time": "08:00",
+          "time": "09:00",
           "code": 0,
-          "temp": 22,
+          "temp": 23,
           "pop": 0
         },
         {
-          "time": "11:00",
+          "time": "12:00",
           "code": 0,
           "temp": 25,
-          "pop": 17
+          "pop": 25
         },
         {
-          "time": "14:00",
-          "code": 0,
-          "temp": 26,
-          "pop": 34
-        },
-        {
-          "time": "17:00",
+          "time": "15:00",
           "code": 1,
-          "temp": 24,
-          "pop": 26
+          "temp": 25,
+          "pop": 35
         },
         {
-          "time": "20:00",
+          "time": "18:00",
           "code": 1,
-          "temp": 22,
-          "pop": 7
+          "temp": 23,
+          "pop": 20
         },
         {
-          "time": "23:00",
+          "time": "21:00",
           "code": 1,
           "temp": 22,
-          "pop": 1
+          "pop": 2
+        },
+        {
+          "time": "00:00",
+          "code": 3,
+          "temp": 22,
+          "pop": 2
         }
       ],
       "daily": [
@@ -1664,24 +1664,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "仏郵政子会社にサイバー攻撃、2200万人の氏名や住所情報が流出",
+      "title": "ホンダ株主のメール約1700件漏えい、委託先経由で被害拡大",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-16 01:45",
-      "publishedTs": 1794761106,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261116-00188427-biz_plus-000-1-view.jpg?exp=10800",
-      "summary": "フランス郵政公社傘下のマイレヴァがサイバー攻撃を受け、企業向け郵送サービスの宛先にあたる2,200万人の氏名や住所が流出したことが11月14日に発表された。",
+      "publishedAt": "2026-11-16 02:55",
+      "publishedTs": 1794765306,
+      "image": "https://tse2.mm.bing.net/th?q=%E3%83%9B%E3%83%B3%E3%83%80%E6%A0%AA%E4%B8%BB%E3%81%AE%E3%83%A1%E3%83%BC%E3%83%AB1%20741%E4%BB%B6%E3%81%8C%E6%BC%8F%E3%81%88%E3%81%84%20%E4%B8%89%E8%8F%B1UFJ%20%E5%A0%BA%E5%B8%82%E3%81%AB%E3%82%82%E6%B3%A2%E5%8F%8A%20%E5%A7%94%E8%A8%97%E5%85%88%E7%B5%8C%E7%94%B1%E3%81%A7%E8%A2%AB&w=800&h=450&c=7&rs=1&p=0",
+      "summary": "ホンダは個人株主のメールアドレス1,741件の漏えいを発表しました。委託先企業が利用するメール配信サービスへの不正アクセスが原因で、三菱UFJや堺市などにも被害が波及しています。",
       "points": [
-        "仏郵政子会社のマイレヴァがサイバー攻撃被害を受信",
-        "顧客企業の宛先である2,200万人の氏名と住所が流出",
-        "給与明細や書留などの郵送基盤が標的となった"
+        "ホンダの個人株主のメールアドレス1,741件が流出",
+        "原因は委託先が利用するメール配信サービスへの不正アクセス",
+        "三菱UFJ銀行や堺市など他企業・自治体にも影響が拡大"
       ],
-      "impact": "企業の給与明細や重要書類の郵送基盤を狙った攻撃であり、BtoBサービスにおける個人情報管理とセキュリティ体制の再評価が急速に進む見込み。",
+      "impact": "サプライチェーンや外部委託先を狙ったサイバー攻撃のリスクが改めて浮き彫りになり、企業のセキュリティ管理体制の見直しが急務となっています。",
       "tags": [
-        "サイバー攻撃",
-        "個人情報流出",
-        "フランス郵政"
+        "テクノロジー",
+        "セキュリティ",
+        "サイバー攻撃"
       ],
-      "url": "https://news.yahoo.co.jp/articles/1669f8309b2b394158cad9286e86bb975c1eab62?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/3a7907064299c72a7aec388e59f24162cd314f90?source=rss",
       "isAiEnriched": true
     },
     {
@@ -1774,24 +1774,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "Windows認証失敗問題でMicrosoftが定例外更新",
+      "title": "仏郵政子会社にサイバー攻撃、2200万人の氏名や住所情報が流出",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-16 00:46",
-      "publishedTs": 1794757560,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261116-00000001-impwfw-000-1-view.jpg?exp=10800",
-      "summary": "Microsoftは11月13日、Windowsの定例外アップデートをリリースしました。11月のセキュリティ更新適用後に一部の企業向けデバイスでライセンス認証操作が失敗する問題に対処するためのものです。",
+      "publishedAt": "2026-11-16 01:45",
+      "publishedTs": 1794761106,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261116-00188427-biz_plus-000-1-view.jpg?exp=10800",
+      "summary": "フランス郵政公社傘下のマイレヴァがサイバー攻撃を受け、企業向け郵送サービスの宛先にあたる2,200万人の氏名や住所が流出したことが11月14日に発表された。",
       "points": [
-        "11月13日に定例外のアップデートを配信",
-        "企業向けデバイスでライセンス認証が失敗する不具合に対応",
-        "セキュリティ更新プログラム適用環境でのトラブルを解消"
+        "仏郵政子会社のマイレヴァがサイバー攻撃被害を受信",
+        "顧客企業の宛先である2,200万人の氏名と住所が流出",
+        "給与明細や書留などの郵送基盤が標的となった"
       ],
-      "impact": "企業でWindows端末を管理するIT担当者は、認証トラブルを防ぐために速やかなアップデート適用と動作確認が求められます。",
+      "impact": "企業の給与明細や重要書類の郵送基盤を狙った攻撃であり、BtoBサービスにおける個人情報管理とセキュリティ体制の再評価が急速に進む見込み。",
       "tags": [
-        "テクノロジー",
-        "Windows",
-        "Microsoft"
+        "サイバー攻撃",
+        "個人情報流出",
+        "フランス郵政"
       ],
-      "url": "https://news.yahoo.co.jp/articles/a71ff78b01bd61265fc6502b585646ed7b277109?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/1669f8309b2b394158cad9286e86bb975c1eab62?source=rss",
       "isAiEnriched": true
     },
     {
@@ -1884,24 +1884,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "NVIDIA次期CEOにArmのレネ・ハース氏らが浮上",
+      "title": "Windows認証失敗問題でMicrosoftが定例外更新",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-16 00:15",
-      "publishedTs": 1794755706,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261116-00188426-biz_plus-000-1-view.jpg?exp=10800",
-      "summary": "創業者のジェンスン・フアン氏の辞任に伴い、NVIDIA取締役会が次期CEOの選定を開始しました。有力候補として英Armのレネ・ハースCEOらの名前が挙がっています。",
+      "publishedAt": "2026-11-16 00:46",
+      "publishedTs": 1794757560,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261116-00000001-impwfw-000-1-view.jpg?exp=10800",
+      "summary": "Microsoftは11月13日、Windowsの定例外アップデートをリリースしました。11月のセキュリティ更新適用後に一部の企業向けデバイスでライセンス認証操作が失敗する問題に対処するためのものです。",
       "points": [
-        "ジェンスン・フアン氏の辞任に伴う後継者人事",
-        "英Armのレネ・ハース氏が有力候補として浮上",
-        "AMDのリサ・スー氏への接触も報道される"
+        "11月13日に定例外のアップデートを配信",
+        "企業向けデバイスでライセンス認証が失敗する不具合に対応",
+        "セキュリティ更新プログラム適用環境でのトラブルを解消"
       ],
-      "impact": "AI半導体市場を牽引する巨頭の経営体制変更は、今後のグローバルなテック業界の勢力図や株価に大きな影響を与えます。",
+      "impact": "企業でWindows端末を管理するIT担当者は、認証トラブルを防ぐために速やかなアップデート適用と動作確認が求められます。",
       "tags": [
         "テクノロジー",
-        "AI",
-        "半導体"
+        "Windows",
+        "Microsoft"
       ],
-      "url": "https://news.yahoo.co.jp/articles/89d9b4593096112552ab81690eee4ce3b76049ab?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/a71ff78b01bd61265fc6502b585646ed7b277109?source=rss",
       "isAiEnriched": true
     },
     {
@@ -1994,24 +1994,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "SpaceXが「Grok Bot 1.0」公開、チームで働くAIアシスタント",
+      "title": "NVIDIA次期CEOにArmのレネ・ハース氏らが浮上",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 23:50",
-      "publishedTs": 1794754206,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00188425-biz_plus-000-1-view.jpg?exp=10800",
-      "summary": "SpaceXのAI部門が常時稼働型のAIエージェント「Grok Bot 1.0」の正式版を公開しました。個人向けの枠を超え、チーム全体で共有して協働できる機能が追加され、ビジネスの現場での活用が期待されます。",
+      "publishedAt": "2026-11-16 00:15",
+      "publishedTs": 1794755706,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261116-00188426-biz_plus-000-1-view.jpg?exp=10800",
+      "summary": "創業者のジェンスン・フアン氏の辞任に伴い、NVIDIA取締役会が次期CEOの選定を開始しました。有力候補として英Armのレネ・ハースCEOらの名前が挙がっています。",
       "points": [
-        "常時稼働型のAIエージェント正式版が登場",
-        "チーム全体で共有し協働する機能を搭載",
-        "Slackなどのツール連携で業務効率化へ"
+        "ジェンスン・フアン氏の辞任に伴う後継者人事",
+        "英Armのレネ・ハース氏が有力候補として浮上",
+        "AMDのリサ・スー氏への接触も報道される"
       ],
-      "impact": "企業の業務効率化や働き方のスタイルに大きな変化をもたらし、AIを活用したチームコラボレーションが加速します。",
+      "impact": "AI半導体市場を牽引する巨頭の経営体制変更は、今後のグローバルなテック業界の勢力図や株価に大きな影響を与えます。",
       "tags": [
+        "テクノロジー",
         "AI",
-        "SpaceX",
-        "ビジネスツール"
+        "半導体"
       ],
-      "url": "https://news.yahoo.co.jp/articles/3120fefe05f5c4be767b2c8324eaec2789e8dd1a?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/89d9b4593096112552ab81690eee4ce3b76049ab?source=rss",
       "isAiEnriched": true
     },
     {
@@ -2104,24 +2104,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "OpenAIが企業向け新サービスを発表、自社情報やAIを直接管理可能に",
+      "title": "SpaceXが「Grok Bot 1.0」公開、チームで働くAIアシスタント",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 22:25",
-      "publishedTs": 1794749106,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00188424-biz_plus-000-1-view.jpg?exp=10800",
-      "summary": "米OpenAIは、企業がChatGPT上のプロフィールや商品情報を自ら管理・分析できる「Businesses in ChatGPT」のベータ版を提供開始しました。",
+      "publishedAt": "2026-11-15 23:50",
+      "publishedTs": 1794754206,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00188425-biz_plus-000-1-view.jpg?exp=10800",
+      "summary": "SpaceXのAI部門が常時稼働型のAIエージェント「Grok Bot 1.0」の正式版を公開しました。個人向けの枠を超え、チーム全体で共有して協働できる機能が追加され、ビジネスの現場での活用が期待されます。",
       "points": [
-        "企業情報をChatGPT上で管理できる新サービス",
-        "ユーザーの反応や利用データを直接分析可能",
-        "まずは米国市場などでベータ版の提供を開始"
+        "常時稼働型のAIエージェント正式版が登場",
+        "チーム全体で共有し協働する機能を搭載",
+        "Slackなどのツール連携で業務効率化へ"
       ],
-      "impact": "企業のマーケティングやカスタマーサポートのデジタル化が進み、ChatGPTを活用したビジネスがさらに加速します。",
+      "impact": "企業の業務効率化や働き方のスタイルに大きな変化をもたらし、AIを活用したチームコラボレーションが加速します。",
       "tags": [
-        "OpenAI",
-        "ChatGPT",
-        "AIビジネス"
+        "AI",
+        "SpaceX",
+        "ビジネスツール"
       ],
-      "url": "https://news.yahoo.co.jp/articles/cc3a265101ddb8c23f7eaf13fc171ca1c0f3773f?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/3120fefe05f5c4be767b2c8324eaec2789e8dd1a?source=rss",
       "isAiEnriched": true
     },
     {
@@ -2213,24 +2213,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "韓国公取委、ネイバーによる暗号資産取引所Upbit買収計画の審議を開始",
+      "title": "OpenAIが企業向け新サービスを発表、自社情報やAIを直接管理可能に",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 22:00",
-      "publishedTs": 1794747600,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00411501-coindesk-000-1-view.jpg?exp=10800",
-      "summary": "韓国公正取引委員会は、ネット大手ネイバーの金融子会社による暗号資産取引所「Upbit」運営会社の買収計画について審議を開始し、独占への懸念を示しました。",
+      "publishedAt": "2026-11-15 22:25",
+      "publishedTs": 1794749106,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00188424-biz_plus-000-1-view.jpg?exp=10800",
+      "summary": "米OpenAIは、企業がChatGPT上のプロフィールや商品情報を自ら管理・分析できる「Businesses in ChatGPT」のベータ版を提供開始しました。",
       "points": [
-        "ネイバー子会社によるUpbit買収計画を審議",
-        "韓国最大の暗号資産取引所の買収提案",
-        "公正取引委員会が市場の独占や競争に懸念"
+        "企業情報をChatGPT上で管理できる新サービス",
+        "ユーザーの反応や利用データを直接分析可能",
+        "まずは米国市場などでベータ版の提供を開始"
       ],
-      "impact": "暗号資産市場における大手IT企業の参入規制や、取引所の再編・価格形成への影響が注視されています。",
+      "impact": "企業のマーケティングやカスタマーサポートのデジタル化が進み、ChatGPTを活用したビジネスがさらに加速します。",
       "tags": [
-        "ネイバー",
-        "Upbit",
-        "暗号資産"
+        "OpenAI",
+        "ChatGPT",
+        "AIビジネス"
       ],
-      "url": "https://news.yahoo.co.jp/articles/58cbdde92a65471ebda31e0012f85b2fc59001e0?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/cc3a265101ddb8c23f7eaf13fc171ca1c0f3773f?source=rss",
       "isAiEnriched": true
     },
     {
@@ -2321,24 +2321,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "Ankerが置くだけで計測できる睡眠テック「SleepLab Pro」発表",
+      "title": "韓国公取委、ネイバーによる暗号資産取引所Upbit買収計画の審議を開始",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 21:30",
-      "publishedTs": 1794745802,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00000012-giz-000-1-view.jpg?exp=10800",
-      "summary": "Ankerが新たに展開する「SleepLab Pro」は、スマートウォッチなどの装着ストレスを解消し、ベッドの脇に置くだけで高精度な睡眠データを取得できる注目の最新ガジェットです。",
+      "publishedAt": "2026-11-15 22:00",
+      "publishedTs": 1794747600,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00411501-coindesk-000-1-view.jpg?exp=10800",
+      "summary": "韓国公正取引委員会は、ネット大手ネイバーの金融子会社による暗号資産取引所「Upbit」運営会社の買収計画について審議を開始し、独占への懸念を示しました。",
       "points": [
-        "身に着ける必要がない「置くだけ」の睡眠計測器",
-        "スマートウォッチの着用感が苦手な層に最適",
-        "Ankerが睡眠テック分野へ新たにアプローチ"
+        "ネイバー子会社によるUpbit買収計画を審議",
+        "韓国最大の暗号資産取引所の買収提案",
+        "公正取引委員会が市場の独占や競争に懸念"
       ],
-      "impact": "ウェアラブル端末の着用ストレスから解放され、手軽にヘルスケアデータを取得する新しい睡眠管理の潮流が生まれます。",
+      "impact": "暗号資産市場における大手IT企業の参入規制や、取引所の再編・価格形成への影響が注視されています。",
       "tags": [
-        "Anker",
-        "睡眠テック",
-        "ガジェット"
+        "ネイバー",
+        "Upbit",
+        "暗号資産"
       ],
-      "url": "https://news.yahoo.co.jp/articles/f2f09d794c1b4dd04eb3d68fb5669e7b93e0b458?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/58cbdde92a65471ebda31e0012f85b2fc59001e0?source=rss",
       "isAiEnriched": true
     },
     {
@@ -2429,24 +2429,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "最新のWindows 11 PCに市販セキュリティソフトは必須か？",
+      "title": "Ankerが置くだけで計測できる睡眠テック「SleepLab Pro」発表",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 21:15",
-      "publishedTs": 1794744900,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00145852-nallabout-000-1-view.jpg?exp=10800",
-      "summary": "最新のWindows 11パソコンを購入した際、セキュリティソフトを追加導入する必要があるのか解説。標準機能の信頼性と詐欺広告の見分け方など、適切なセキュリティ対策を考える。",
+      "publishedAt": "2026-11-15 21:30",
+      "publishedTs": 1794745802,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00000012-giz-000-1-view.jpg?exp=10800",
+      "summary": "Ankerが新たに展開する「SleepLab Pro」は、スマートウォッチなどの装着ストレスを解消し、ベッドの脇に置くだけで高精度な睡眠データを取得できる注目の最新ガジェットです。",
       "points": [
-        "Windows 11最新PCでのソフト導入の必要性",
-        "標準セキュリティ機能の役割を検証",
-        "偽警告やネット詐欺の被害防止法を解説"
+        "身に着ける必要がない「置くだけ」の睡眠計測器",
+        "スマートウォッチの着用感が苦手な層に最適",
+        "Ankerが睡眠テック分野へ新たにアプローチ"
       ],
-      "impact": "パソコン買い替え時の無駄な支出を抑えつつ、個人情報漏洩や詐欺被害を防ぐサイバーセキュリティ意識の向上に繋がります。",
+      "impact": "ウェアラブル端末の着用ストレスから解放され、手軽にヘルスケアデータを取得する新しい睡眠管理の潮流が生まれます。",
       "tags": [
-        "Windows11",
-        "セキュリティ",
-        "PC"
+        "Anker",
+        "睡眠テック",
+        "ガジェット"
       ],
-      "url": "https://news.yahoo.co.jp/articles/5b3a26e7acc6d8a3fe8b15661a2376951ee87374?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/f2f09d794c1b4dd04eb3d68fb5669e7b93e0b458?source=rss",
       "isAiEnriched": true
     },
     {
@@ -2494,25 +2494,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "subculture",
-      "title": "新時代ダークファンタジー「ケントゥリア」最新108話公開",
+      "title": "[第19話]打ち切られ漫画家と同人女 - 澄ヒビト | 少年ジャンプ＋",
       "source": "shonenjumpplus.com",
       "publishedAt": "2026-11-16 00:00",
-      "publishedTs": 1794754830,
-      "image": "https://cdn-ak-img.shonenjumpplus.com/public/series-thumbnail/17106371852950196659-77adc6b52c2e96c4c3a952147b90e050?1793705410",
-      "summary": "少年ジャンプ＋で連載中の人気ダークファンタジーバトル漫画『ケントゥリア』の最新108話が公開されました。奴隷船に密航した主人公ユリアンが自由を求めて過酷な運命に立ち向かう壮大な物語です。",
+      "publishedTs": 1794754841,
+      "image": "https://cdn-ak-img.shonenjumpplus.com/public/series-thumbnail/17107094915405001773-a4f5fef4c93c80138aad5c3a3b3f05b4?1791345775",
+      "summary": "打ち切られ漫画家と同人女 澄ヒビト 売れない漫画家・RO傍先生こと行来はついに連載打ち切りに…失意の中、SNSを開くと、なんと自分の作品に萌えまくってるアカウントが！行来の作品で同人誌をイベントで頒布すると知って、少しでも自分の作品を好きだと言ってくれる人に会いたいと思い、行来...",
       "points": [
-        "少年ジャンプ＋の人気ダークファンタジー連載",
-        "自由を切望する主人公ユリアンの過酷な旅を描く",
-        "コミックス最新11巻が1月4日に発売予定"
+        "カテゴリ: サブカルチャーで話題の記事",
+        "引用元: shonenjumpplus.com（2026-11-16 00:00）",
+        "「元記事を読む」から本文を確認できます"
       ],
-      "impact": "コミックスの発売を控えてストーリーが大きく動く時期であり、読者の間で話題性や期待値が急上昇しています。",
+      "impact": "サブカルチャー分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "サブカルチャー",
-        "漫画",
-        "少年ジャンプ＋"
+        "shonenjumpplus.com"
       ],
-      "url": "https://shonenjumpplus.com/episode/9253191257982513571",
-      "isAiEnriched": true
+      "url": "https://shonenjumpplus.com/episode/9253191257982513621",
+      "isAiEnriched": false
     },
     {
       "category": "domestic",
@@ -2537,24 +2536,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "iPhone 18 Proカメラを評価！15 Proからの買い替えを見送る理由",
+      "title": "最新のWindows 11 PCに市販セキュリティソフトは必須か？",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 21:00",
-      "publishedTs": 1794744002,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00010002-andgp-000-1-view.jpg?exp=10800",
-      "summary": "超高性能なカメラを搭載した「iPhone 18 Pro」のレビュー。驚異的な画質を誇る一方で、「iPhone 15 Pro」の既存ユーザーが買い替えを見送ると判断した実用上の背景に迫る。",
+      "publishedAt": "2026-11-15 21:15",
+      "publishedTs": 1794744900,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00145852-nallabout-000-1-view.jpg?exp=10800",
+      "summary": "最新のWindows 11パソコンを購入した際、セキュリティソフトを追加導入する必要があるのか解説。標準機能の信頼性と詐欺広告の見分け方など、適切なセキュリティ対策を考える。",
       "points": [
-        "iPhone 18 Proの圧巻のカメラ性能を比較",
-        "15 Pro既存ユーザーによる本音レビュー",
-        "性能向上に対する買い替えのコストパフォーマンス"
+        "Windows 11最新PCでのソフト導入の必要性",
+        "標準セキュリティ機能の役割を検証",
+        "偽警告やネット詐欺の被害防止法を解説"
       ],
-      "impact": "スマホの高価格化が進む中、最新機種への買い替え判断基準やスマートフォンの購買傾向に影響を与えるレビューです。",
+      "impact": "パソコン買い替え時の無駄な支出を抑えつつ、個人情報漏洩や詐欺被害を防ぐサイバーセキュリティ意識の向上に繋がります。",
       "tags": [
-        "iPhone18Pro",
-        "スマホ",
-        "レビュー"
+        "Windows11",
+        "セキュリティ",
+        "PC"
       ],
-      "url": "https://news.yahoo.co.jp/articles/c2fc7b0bc7bc0335728f51ccbdd8a1eb36a13ff0?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/5b3a26e7acc6d8a3fe8b15661a2376951ee87374?source=rss",
       "isAiEnriched": true
     },
     {
@@ -2645,24 +2644,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "ビットコイン採掘業者に電気代上昇の可能性！2028年以降に影響か",
+      "title": "iPhone 18 Proカメラを評価！15 Proからの買い替えを見送る理由",
       "source": "Yahoo!ニュース",
       "publishedAt": "2026-11-15 21:00",
-      "publishedTs": 1794744000,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00411476-coindesk-000-1-view.jpg?exp=10800",
-      "summary": "パラグアイ国営電力会社がマイニング事業者向けの割安電力契約を2027年末で終了する方針を発表。2028年以降の電気代上昇に伴い、暗号資産マイニング業界の拠点移動などが懸念される。",
+      "publishedTs": 1794744002,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00010002-andgp-000-1-view.jpg?exp=10800",
+      "summary": "超高性能なカメラを搭載した「iPhone 18 Pro」のレビュー。驚異的な画質を誇る一方で、「iPhone 15 Pro」の既存ユーザーが買い替えを見送ると判断した実用上の背景に迫る。",
       "points": [
-        "パラグアイが暗号資産マイナー向け優遇料金を終了",
-        "2028年以降の電気代上昇が懸念材料に",
-        "マイニング拠点の再編やコスト増の可能性"
+        "iPhone 18 Proの圧巻のカメラ性能を比較",
+        "15 Pro既存ユーザーによる本音レビュー",
+        "性能向上に対する買い替えのコストパフォーマンス"
       ],
-      "impact": "暗号資産市場の採掘コスト増に伴い、ビットコインの供給構造やマイナーの再編、暗号資産全体の価格形成に影響を及ぼす可能性があります。",
+      "impact": "スマホの高価格化が進む中、最新機種への買い替え判断基準やスマートフォンの購買傾向に影響を与えるレビューです。",
       "tags": [
-        "ビットコイン",
-        "暗号資産",
-        "電気代"
+        "iPhone18Pro",
+        "スマホ",
+        "レビュー"
       ],
-      "url": "https://news.yahoo.co.jp/articles/285d5049ea6872615f49b5e09d581fcc39622609?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/c2fc7b0bc7bc0335728f51ccbdd8a1eb36a13ff0?source=rss",
       "isAiEnriched": true
     },
     {
@@ -2752,24 +2751,25 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "Geminiが「あなたの家計」を読み始めた、銀行・カード口座も連携し米国の全ユーザーへ(ビジネス＋IT)",
+      "title": "ビットコイン採掘業者に電気代上昇の可能性！2028年以降に影響か",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 20:55",
-      "publishedTs": 1794743706,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00188423-biz_plus-000-1-view.jpg?exp=10800",
-      "summary": "グーグルは11月13日（米国時間）、対話AI「Gemini」のアプリにGoogle Walletを接続できる機能を、米国の全ユーザー向けに提供開始した。支出の傾向をもとに家計を相談でき、Plaid経…",
+      "publishedAt": "2026-11-15 21:00",
+      "publishedTs": 1794744000,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00411476-coindesk-000-1-view.jpg?exp=10800",
+      "summary": "パラグアイ国営電力会社がマイニング事業者向けの割安電力契約を2027年末で終了する方針を発表。2028年以降の電気代上昇に伴い、暗号資産マイニング業界の拠点移動などが懸念される。",
       "points": [
-        "カテゴリ: テクノロジー・AIの注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 20:55）",
-        "「元記事を読む」から詳細を確認できます"
+        "パラグアイが暗号資産マイナー向け優遇料金を終了",
+        "2028年以降の電気代上昇が懸念材料に",
+        "マイニング拠点の再編やコスト増の可能性"
       ],
-      "impact": "テクノロジー・AI分野で関心を集めている最新ニュースです。",
+      "impact": "暗号資産市場の採掘コスト増に伴い、ビットコインの供給構造やマイナーの再編、暗号資産全体の価格形成に影響を及ぼす可能性があります。",
       "tags": [
-        "テクノロジー・AI",
-        "Yahoo!ニュース"
+        "ビットコイン",
+        "暗号資産",
+        "電気代"
       ],
-      "url": "https://news.yahoo.co.jp/articles/71236fd0104a8a4bf2ec6909530bc77b5197d39b?source=rss",
-      "isAiEnriched": false
+      "url": "https://news.yahoo.co.jp/articles/285d5049ea6872615f49b5e09d581fcc39622609?source=rss",
+      "isAiEnriched": true
     },
     {
       "category": "business",
@@ -2815,24 +2815,25 @@ window.NEWS_DATA = {
     },
     {
       "category": "subculture",
-      "title": "[第19話]打ち切られ漫画家と同人女 - 澄ヒビト | 少年ジャンプ＋",
+      "title": "新時代ダークファンタジー「ケントゥリア」最新108話公開",
       "source": "shonenjumpplus.com",
       "publishedAt": "2026-11-16 00:00",
-      "publishedTs": 1794754841,
-      "image": "https://cdn-ak-img.shonenjumpplus.com/public/series-thumbnail/17107094915405001773-a4f5fef4c93c80138aad5c3a3b3f05b4?1791345775",
-      "summary": "打ち切られ漫画家と同人女 澄ヒビト 売れない漫画家・RO傍先生こと行来はついに連載打ち切りに…失意の中、SNSを開くと、なんと自分の作品に萌えまくってるアカウントが！行来の作品で同人誌をイベントで頒布すると知って、少しでも自分の作品を好きだと言ってくれる人に会いたいと思い、行来...",
+      "publishedTs": 1794754830,
+      "image": "https://cdn-ak-img.shonenjumpplus.com/public/series-thumbnail/17106371852950196659-77adc6b52c2e96c4c3a952147b90e050?1793705410",
+      "summary": "少年ジャンプ＋で連載中の人気ダークファンタジーバトル漫画『ケントゥリア』の最新108話が公開されました。奴隷船に密航した主人公ユリアンが自由を求めて過酷な運命に立ち向かう壮大な物語です。",
       "points": [
-        "カテゴリ: サブカルチャーで話題の記事",
-        "引用元: shonenjumpplus.com（2026-11-16 00:00）",
-        "「元記事を読む」から本文を確認できます"
+        "少年ジャンプ＋の人気ダークファンタジー連載",
+        "自由を切望する主人公ユリアンの過酷な旅を描く",
+        "コミックス最新11巻が1月4日に発売予定"
       ],
-      "impact": "サブカルチャー分野で多くの読者に共有されている注目記事です。",
+      "impact": "コミックスの発売を控えてストーリーが大きく動く時期であり、読者の間で話題性や期待値が急上昇しています。",
       "tags": [
         "サブカルチャー",
-        "shonenjumpplus.com"
+        "漫画",
+        "少年ジャンプ＋"
       ],
-      "url": "https://shonenjumpplus.com/episode/9253191257982513621",
-      "isAiEnriched": false
+      "url": "https://shonenjumpplus.com/episode/9253191257982513571",
+      "isAiEnriched": true
     },
     {
       "category": "domestic",
@@ -2857,15 +2858,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "Netflix、広告付き最安プランが遂に“1,000円目前”　月額最大300円引き上げ、実に2年ぶりの改定(オタク総研)",
+      "title": "Geminiが「あなたの家計」を読み始めた、銀行・カード口座も連携し米国の全ユーザーへ(ビジネス＋IT)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 20:50",
-      "publishedTs": 1794743400,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00205000-otakulab-000-1-view.jpg?exp=10800",
-      "summary": "米・Netflixが日本国内で提供する全3プランの月額料金を約2年ぶりに引き上げていたことが明らかになった。新規加入者には即日適用され、既存会員には次月以降、それぞれの請求日に合わせて順次適用される…",
+      "publishedAt": "2026-11-15 20:55",
+      "publishedTs": 1794743706,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00188423-biz_plus-000-1-view.jpg?exp=10800",
+      "summary": "グーグルは11月13日（米国時間）、対話AI「Gemini」のアプリにGoogle Walletを接続できる機能を、米国の全ユーザー向けに提供開始した。支出の傾向をもとに家計を相談でき、Plaid経…",
       "points": [
         "カテゴリ: テクノロジー・AIの注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 20:50）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 20:55）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "テクノロジー・AI分野で関心を集めている最新ニュースです。",
@@ -2873,7 +2874,7 @@ window.NEWS_DATA = {
         "テクノロジー・AI",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/d5cd06ee9fa5e1b76007f7ee05149f648a1456bd?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/71236fd0104a8a4bf2ec6909530bc77b5197d39b?source=rss",
       "isAiEnriched": false
     },
     {
@@ -2962,25 +2963,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "NVIDIA元CEOフアン氏の辞任と今後を巡る動向",
+      "title": "Netflix、広告付き最安プランが遂に“1,000円目前”　月額最大300円引き上げ、実に2年ぶりの改定(オタク総研)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 20:30",
-      "publishedTs": 1794742202,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00000011-giz-000-1-view.jpg?exp=10800",
-      "summary": "2026年11月に突然の辞任を発表したNVIDIAのジェンスン・フアン元CEO。辞任前日には金融ニュースでも取り上げられ、早くも次の動向に大きな注目が集まっています。",
+      "publishedAt": "2026-11-15 20:50",
+      "publishedTs": 1794743400,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00205000-otakulab-000-1-view.jpg?exp=10800",
+      "summary": "米・Netflixが日本国内で提供する全3プランの月額料金を約2年ぶりに引き上げていたことが明らかになった。新規加入者には即日適用され、既存会員には次月以降、それぞれの請求日に合わせて順次適用される…",
       "points": [
-        "NVIDIAのジェンスン・フアン元CEOが突然辞任",
-        "辞任発表の前日から金融界やメディアで大きな話題に",
-        "早くも次のキャリアや仕事に対する関心が高まる"
+        "カテゴリ: テクノロジー・AIの注目トピック",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 20:50）",
+        "「元記事を読む」から詳細を確認できます"
       ],
-      "impact": "世界的な半導体巨頭のトップ交代が、今後のAI市場や関連企業の経営戦略に与える影響が注視されています。",
+      "impact": "テクノロジー・AI分野で関心を集めている最新ニュースです。",
       "tags": [
-        "テクノロジー",
-        "AI",
-        "NVIDIA"
+        "テクノロジー・AI",
+        "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/683066d68041c6710890f0d6177cebfae5efb89c?source=rss",
-      "isAiEnriched": true
+      "url": "https://news.yahoo.co.jp/articles/d5cd06ee9fa5e1b76007f7ee05149f648a1456bd?source=rss",
+      "isAiEnriched": false
     },
     {
       "category": "business",
@@ -3069,24 +3069,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "SNS「X」が1投稿の画像数を最大20枚に大幅拡大",
+      "title": "NVIDIA元CEOフアン氏の辞任と今後を巡る動向",
       "source": "Yahoo!ニュース",
       "publishedAt": "2026-11-15 20:30",
-      "publishedTs": 1794742200,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00000001-impress-000-1-view.jpg?exp=10800",
-      "summary": "SNSプラットフォームのX（旧Twitter）が、1回の投稿で添付できる画像数を従来の最大4枚から20枚へと大幅に拡大しました。モバイル版では横スワイプで閲覧可能です。",
+      "publishedTs": 1794742202,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00000011-giz-000-1-view.jpg?exp=10800",
+      "summary": "2026年11月に突然の辞任を発表したNVIDIAのジェンスン・フアン元CEO。辞任前日には金融ニュースでも取り上げられ、早くも次の動向に大きな注目が集まっています。",
       "points": [
-        "1投稿あたり最大20枚までの画像投稿に対応",
-        "従来の4枚制限から大幅にアップグレード",
-        "モバイルアプリでは横方向のスワイプで閲覧可能"
+        "NVIDIAのジェンスン・フアン元CEOが突然辞任",
+        "辞任発表の前日から金融界やメディアで大きな話題に",
+        "早くも次のキャリアや仕事に対する関心が高まる"
       ],
-      "impact": "一度に多くのビジュアル情報を共有できるようになり、クリエイターやマーケティングの表現力が大きく広がります。",
+      "impact": "世界的な半導体巨頭のトップ交代が、今後のAI市場や関連企業の経営戦略に与える影響が注視されています。",
       "tags": [
-        "SNS",
-        "X",
-        "テクノロジー"
+        "テクノロジー",
+        "AI",
+        "NVIDIA"
       ],
-      "url": "https://news.yahoo.co.jp/articles/ded93e11d766fd317a2f4093d08ce1001b454ce0?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/683066d68041c6710890f0d6177cebfae5efb89c?source=rss",
       "isAiEnriched": true
     },
     {
@@ -3176,24 +3176,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "北朝鮮ハッカー、盗撮映像でなりすまし 640億円超窃取",
+      "title": "SNS「X」が1投稿の画像数を最大20枚に大幅拡大",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 20:15",
-      "publishedTs": 1794741354,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00411486-coindesk-000-1-view.jpg?exp=10800",
-      "summary": "FBIは11月、北朝鮮のハッカー集団が盗撮映像を用いたなりすまし手法により、過去18カ月で4億ドル（約640億円）以上の暗号資産を不正に窃取したと発表しました。",
+      "publishedAt": "2026-11-15 20:30",
+      "publishedTs": 1794742200,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00000001-impress-000-1-view.jpg?exp=10800",
+      "summary": "SNSプラットフォームのX（旧Twitter）が、1回の投稿で添付できる画像数を従来の最大4枚から20枚へと大幅に拡大しました。モバイル版では横スワイプで閲覧可能です。",
       "points": [
-        "FBIが北朝鮮支援ハッカーによる新たな手口を警告",
-        "盗撮映像を悪用した巧妙ななりすましで被害拡大",
-        "過去18カ月間で被害総額は640億円超に達する"
+        "1投稿あたり最大20枚までの画像投稿に対応",
+        "従来の4枚制限から大幅にアップグレード",
+        "モバイルアプリでは横方向のスワイプで閲覧可能"
       ],
-      "impact": "暗号資産保有者や関連企業において、本人確認プロセスの厳格化や高度なセキュリティ対策の早急な見直しが求められます。",
+      "impact": "一度に多くのビジュアル情報を共有できるようになり、クリエイターやマーケティングの表現力が大きく広がります。",
       "tags": [
-        "テクノロジー",
-        "セキュリティ",
-        "暗号資産"
+        "SNS",
+        "X",
+        "テクノロジー"
       ],
-      "url": "https://news.yahoo.co.jp/articles/89d8f3e972125759caaee8b87cb07858f162f0fd?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/ded93e11d766fd317a2f4093d08ce1001b454ce0?source=rss",
       "isAiEnriched": true
     },
     {
@@ -3283,24 +3283,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "Apple Watch最新版、Siri対応やアプリ切替のコツ",
+      "title": "北朝鮮ハッカー、盗撮映像でなりすまし 640億円超窃取",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 19:30",
-      "publishedTs": 1794738601,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00000010-giz-000-1-view.jpg?exp=10800",
-      "summary": "watchOSのアップデートにより、Apple Watchでも日本語対応のSiri AIが利用可能になりました。フリーズ時の対処法や、スムーズにアプリを切り替える便利な操作方法が紹介されています。",
+      "publishedAt": "2026-11-15 20:15",
+      "publishedTs": 1794741354,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00411486-coindesk-000-1-view.jpg?exp=10800",
+      "summary": "FBIは11月、北朝鮮のハッカー集団が盗撮映像を用いたなりすまし手法により、過去18カ月で4億ドル（約640億円）以上の暗号資産を不正に窃取したと発表しました。",
       "points": [
-        "watchOSのアップデートでSiri AIの日本語対応が本格化",
-        "アプリがフリーズした際のスマートな対処方法",
-        "スマートウォッチの利便性を高める操作テクニック"
+        "FBIが北朝鮮支援ハッカーによる新たな手口を警告",
+        "盗撮映像を悪用した巧妙ななりすましで被害拡大",
+        "過去18カ月間で被害総額は640億円超に達する"
       ],
-      "impact": "Apple Watchユーザーの利便性を向上させ、ウェアラブル端末の活用法を広げます。",
+      "impact": "暗号資産保有者や関連企業において、本人確認プロセスの厳格化や高度なセキュリティ対策の早急な見直しが求められます。",
       "tags": [
         "テクノロジー",
-        "Apple",
-        "ガジェット"
+        "セキュリティ",
+        "暗号資産"
       ],
-      "url": "https://news.yahoo.co.jp/articles/141d6943d17d82800442f0c2c3ee0279804945f2?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/89d8f3e972125759caaee8b87cb07858f162f0fd?source=rss",
       "isAiEnriched": true
     },
     {
@@ -3390,24 +3390,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "アイスランド発のキュートなFMシンセ「FIRST LOVE」発売",
+      "title": "Apple Watch最新版、Siri対応やアプリ切替のコツ",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 19:00",
-      "publishedTs": 1794736802,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00000009-giz-000-1-view.jpg?exp=10800",
-      "summary": "試作発表から2年を経て、アイスランドの楽器メーカーによるスタンドアロン型FMシンセサイザー「FIRST LOVE」がようやく製品化され、正式にリリースされました。",
+      "publishedAt": "2026-11-15 19:30",
+      "publishedTs": 1794738601,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00000010-giz-000-1-view.jpg?exp=10800",
+      "summary": "watchOSのアップデートにより、Apple Watchでも日本語対応のSiri AIが利用可能になりました。フリーズ時の対処法や、スムーズにアプリを切り替える便利な操作方法が紹介されています。",
       "points": [
-        "アイスランドの楽器メーカー発のシンセサイザー",
-        "試作機披露から2年越しについに製品化を達成",
-        "ユニークで可愛らしいデザインのスタンドアロン型"
+        "watchOSのアップデートでSiri AIの日本語対応が本格化",
+        "アプリがフリーズした際のスマートな対処方法",
+        "スマートウォッチの利便性を高める操作テクニック"
       ],
-      "impact": "音楽制作愛好家やガジェットファンの間で、ユニークな機材として注目を集めます。",
+      "impact": "Apple Watchユーザーの利便性を向上させ、ウェアラブル端末の活用法を広げます。",
       "tags": [
         "テクノロジー",
-        "音楽",
-        "楽器"
+        "Apple",
+        "ガジェット"
       ],
-      "url": "https://news.yahoo.co.jp/articles/1dabca2cda454c63f30cea683d062ded4b713bba?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/141d6943d17d82800442f0c2c3ee0279804945f2?source=rss",
       "isAiEnriched": true
     },
     {
@@ -3497,24 +3497,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "テスラ公式がクリスマスグッズ発売、サイバートラックのラジコンも",
+      "title": "アイスランド発のキュートなFMシンセ「FIRST LOVE」発売",
       "source": "Yahoo!ニュース",
       "publishedAt": "2026-11-15 19:00",
       "publishedTs": 1794736802,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00000007-giz-000-1-view.jpg?exp=10800",
-      "summary": "電気自動車メーカーのテスラがクリスマス商戦に向けた公式グッズを発表しました。特に細部までこだわった大型の「サイバートラック」のラジコンがファンの間で大きな注目を集めています。",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00000009-giz-000-1-view.jpg?exp=10800",
+      "summary": "試作発表から2年を経て、アイスランドの楽器メーカーによるスタンドアロン型FMシンセサイザー「FIRST LOVE」がようやく製品化され、正式にリリースされました。",
       "points": [
-        "テスラがクリスマス商戦に向けた公式グッズを発売",
-        "目玉商品は本格的なサイバートラックの大型ラジコン",
-        "自動車メーカーの枠を超えた多彩なラインナップ"
+        "アイスランドの楽器メーカー発のシンセサイザー",
+        "試作機披露から2年越しについに製品化を達成",
+        "ユニークで可愛らしいデザインのスタンドアロン型"
       ],
-      "impact": "ブランドのファン層拡大やホリデーシーズンの物販売上に大きく貢献します。",
+      "impact": "音楽制作愛好家やガジェットファンの間で、ユニークな機材として注目を集めます。",
       "tags": [
         "テクノロジー",
-        "テスラ",
-        "グッズ"
+        "音楽",
+        "楽器"
       ],
-      "url": "https://news.yahoo.co.jp/articles/bf57389a905e4b8dbe989b8d6eae87d4c8d8875a?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/1dabca2cda454c63f30cea683d062ded4b713bba?source=rss",
       "isAiEnriched": true
     },
     {
@@ -3604,24 +3604,25 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "ギターアンプ、に見せかけた冷蔵庫（スピーカー付き）。なにこのキメラ合体(ギズモード・ジャパン)",
+      "title": "テスラ公式がクリスマスグッズ発売、サイバートラックのラジコンも",
       "source": "Yahoo!ニュース",
       "publishedAt": "2026-11-15 19:00",
       "publishedTs": 1794736802,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00000006-giz-000-1-view.jpg?exp=10800",
-      "summary": "ドリンクが冷やせるギターアンプとは？一般家庭には台所が定位置の冷蔵庫。小さくても自室にあると便利だったりします。水分補給もできますし、ダラダラ時間にご褒美の一杯をプシュっと…なんてこともできます。同…",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00000007-giz-000-1-view.jpg?exp=10800",
+      "summary": "電気自動車メーカーのテスラがクリスマス商戦に向けた公式グッズを発表しました。特に細部までこだわった大型の「サイバートラック」のラジコンがファンの間で大きな注目を集めています。",
       "points": [
-        "カテゴリ: テクノロジー・AIの注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 19:00）",
-        "「元記事を読む」から詳細を確認できます"
+        "テスラがクリスマス商戦に向けた公式グッズを発売",
+        "目玉商品は本格的なサイバートラックの大型ラジコン",
+        "自動車メーカーの枠を超えた多彩なラインナップ"
       ],
-      "impact": "テクノロジー・AI分野で関心を集めている最新ニュースです。",
+      "impact": "ブランドのファン層拡大やホリデーシーズンの物販売上に大きく貢献します。",
       "tags": [
-        "テクノロジー・AI",
-        "Yahoo!ニュース"
+        "テクノロジー",
+        "テスラ",
+        "グッズ"
       ],
-      "url": "https://news.yahoo.co.jp/articles/08ba46f42761c9e9567405bcc43d2583ff2269b9?source=rss",
-      "isAiEnriched": false
+      "url": "https://news.yahoo.co.jp/articles/bf57389a905e4b8dbe989b8d6eae87d4c8d8875a?source=rss",
+      "isAiEnriched": true
     },
     {
       "category": "business",
@@ -3710,12 +3711,12 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "レシートみたいにプリントできるインスタントカメラ。塗り絵もできます(ギズモード・ジャパン)",
+      "title": "ギターアンプ、に見せかけた冷蔵庫（スピーカー付き）。なにこのキメラ合体(ギズモード・ジャパン)",
       "source": "Yahoo!ニュース",
       "publishedAt": "2026-11-15 19:00",
       "publishedTs": 1794736802,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00000005-giz-000-1-view.jpg?exp=10800",
-      "summary": "付属のマーカーで落書きも楽しい。スマホのおかげでいつでもどこでも写真が撮れますが、アナログなインスタントカメラだってまだまだ元気。ポラロイドは現在進行形で新モデルを出し続けているくらいです。【全画像…",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00000006-giz-000-1-view.jpg?exp=10800",
+      "summary": "ドリンクが冷やせるギターアンプとは？一般家庭には台所が定位置の冷蔵庫。小さくても自室にあると便利だったりします。水分補給もできますし、ダラダラ時間にご褒美の一杯をプシュっと…なんてこともできます。同…",
       "points": [
         "カテゴリ: テクノロジー・AIの注目トピック",
         "配信: Yahoo!ニュース トピックス（2026-11-15 19:00）",
@@ -3726,7 +3727,7 @@ window.NEWS_DATA = {
         "テクノロジー・AI",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/ed73c629a2d15f0694962c4d752abd1b38653a06?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/08ba46f42761c9e9567405bcc43d2583ff2269b9?source=rss",
       "isAiEnriched": false
     },
     {
@@ -3816,15 +3817,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "再び売れ始めた「有線イヤホン」――安くてもイイ音が楽しめる［道越一郎のカットエッジ］(BCN)",
+      "title": "レシートみたいにプリントできるインスタントカメラ。塗り絵もできます(ギズモード・ジャパン)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 18:30",
-      "publishedTs": 1794735000,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00677549-bcn-000-5-view.jpg?exp=10800",
-      "summary": "有線イヤホンが好きだ。完全ワイヤレスイヤホン全盛の昨今。街を歩いても耳から線を垂らしている人はごくごく少数派だ。しかし、あえて有線を選ぶのには理由がある。まず、音がいい。プレーヤーとイヤホンが直付け…",
+      "publishedAt": "2026-11-15 19:00",
+      "publishedTs": 1794736802,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00000005-giz-000-1-view.jpg?exp=10800",
+      "summary": "付属のマーカーで落書きも楽しい。スマホのおかげでいつでもどこでも写真が撮れますが、アナログなインスタントカメラだってまだまだ元気。ポラロイドは現在進行形で新モデルを出し続けているくらいです。【全画像…",
       "points": [
         "カテゴリ: テクノロジー・AIの注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 18:30）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 19:00）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "テクノロジー・AI分野で関心を集めている最新ニュースです。",
@@ -3832,7 +3833,7 @@ window.NEWS_DATA = {
         "テクノロジー・AI",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/a42e5efd564d51a0e822d95504e7761e4d74b141?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/ed73c629a2d15f0694962c4d752abd1b38653a06?source=rss",
       "isAiEnriched": false
     },
     {
@@ -3921,15 +3922,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "ソニー「WF-1000XM5」が3カ月ぶりTOP10入り、26年10月に売れた完全ワイヤレスイヤホンTOP10(BCN)",
+      "title": "再び売れ始めた「有線イヤホン」――安くてもイイ音が楽しめる［道越一郎のカットエッジ］(BCN)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 18:00",
-      "publishedTs": 1794733200,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00677541-bcn-000-5-view.jpg?exp=10800",
-      "summary": "「BCNランキング」2026年10月の月次集計データによると、完全ワイヤレスイヤホン（シリーズ別）の実売台数ランキングは以下の通りとなった。【写真ギャラリー】1位 AirPods Pro 3（MFH…",
+      "publishedAt": "2026-11-15 18:30",
+      "publishedTs": 1794735000,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00677549-bcn-000-5-view.jpg?exp=10800",
+      "summary": "有線イヤホンが好きだ。完全ワイヤレスイヤホン全盛の昨今。街を歩いても耳から線を垂らしている人はごくごく少数派だ。しかし、あえて有線を選ぶのには理由がある。まず、音がいい。プレーヤーとイヤホンが直付け…",
       "points": [
         "カテゴリ: テクノロジー・AIの注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 18:00）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 18:30）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "テクノロジー・AI分野で関心を集めている最新ニュースです。",
@@ -3937,7 +3938,7 @@ window.NEWS_DATA = {
         "テクノロジー・AI",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/421d64f8c6736e037d4a6bfe2d70b7c99e1e84ed?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/a42e5efd564d51a0e822d95504e7761e4d74b141?source=rss",
       "isAiEnriched": false
     },
     {
@@ -4027,12 +4028,12 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "俺、8210円で買える「透明レトロカメラ」に夢中なんだ。これ面白いんだぜ！(アスキー)",
+      "title": "ソニー「WF-1000XM5」が3カ月ぶりTOP10入り、26年10月に売れた完全ワイヤレスイヤホンTOP10(BCN)",
       "source": "Yahoo!ニュース",
       "publishedAt": "2026-11-15 18:00",
       "publishedTs": 1794733200,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00000005-ascii-000-1-view.jpg?exp=10800",
-      "summary": "『私的My推しガジェット』 はアスキーの各編集者が個人的に推しなガジェットを紹介していくレビュー企画です。戦闘機のHUDみたいで撮影がものすごく楽しい！",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00677541-bcn-000-5-view.jpg?exp=10800",
+      "summary": "「BCNランキング」2026年10月の月次集計データによると、完全ワイヤレスイヤホン（シリーズ別）の実売台数ランキングは以下の通りとなった。【写真ギャラリー】1位 AirPods Pro 3（MFH…",
       "points": [
         "カテゴリ: テクノロジー・AIの注目トピック",
         "配信: Yahoo!ニュース トピックス（2026-11-15 18:00）",
@@ -4043,7 +4044,7 @@ window.NEWS_DATA = {
         "テクノロジー・AI",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/476f347caec5191417c4c77629497602149885b3?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/421d64f8c6736e037d4a6bfe2d70b7c99e1e84ed?source=rss",
       "isAiEnriched": false
     },
     {
@@ -4132,15 +4133,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "Netflix、日本で値上げ　広告つき990円、Standardは1790円に(CNET Japan)",
+      "title": "俺、8210円で買える「透明レトロカメラ」に夢中なんだ。これ面白いんだぜ！(アスキー)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 17:30",
-      "publishedTs": 1794731400,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-35254907-cnetj-000-1-view.jpg?exp=10800",
-      "summary": "Netflixは、日本で新規加入できる全3プランの月額料金を引き上げた。最も安い「広告つきスタンダード」は890円から990円に、「スタンダード」は1590円から1790円に、「プレミアム」は229…",
+      "publishedAt": "2026-11-15 18:00",
+      "publishedTs": 1794733200,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00000005-ascii-000-1-view.jpg?exp=10800",
+      "summary": "『私的My推しガジェット』 はアスキーの各編集者が個人的に推しなガジェットを紹介していくレビュー企画です。戦闘機のHUDみたいで撮影がものすごく楽しい！",
       "points": [
         "カテゴリ: テクノロジー・AIの注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 17:30）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 18:00）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "テクノロジー・AI分野で関心を集めている最新ニュースです。",
@@ -4148,7 +4149,7 @@ window.NEWS_DATA = {
         "テクノロジー・AI",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/0686fadccd891a9a9a2d4c294edbeefa57a0dfbe?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/476f347caec5191417c4c77629497602149885b3?source=rss",
       "isAiEnriched": false
     },
     {
@@ -4195,23 +4196,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "subculture",
-      "title": "反戦審神者部について、考えたこと。｜亘",
-      "source": "note.com",
-      "publishedAt": "2026-11-15 03:06",
-      "publishedTs": 1794679601,
-      "image": "https://d2l930y2yx77uc.cloudfront.net/production/social_images/d3d657b7cdac33a8d8e6b3fd4e10fb3343bf65bb.png",
-      "summary": "1.はじめに初めまして、亘と言います。審神者歴10年の古参プレイヤーです。鬼丸国綱も修行から帰り、意気揚々と絶賛レベリング中です。 江戸城の周回も早々に終わり、宝物庫三周目のおかわりをするかどうか悩んでいます。 さて今回、刀剣乱舞界隈で一部のファンがコンテンツを政治利用している、という事態を受け記録を...",
+      "title": "『League of Legends』大規模アップデートの内容チラ見せ。ビジュアル大刷新&ゲームプレイ変更いろいろありそう",
+      "source": "AUTOMATON",
+      "publishedAt": "2026-11-15 07:24",
+      "publishedTs": 1794695055,
+      "image": "https://automaton-media.com/wp-content/uploads/2026/11/league-of-legends-20261115-479316-header.jpg",
+      "summary": "Riot Gamesは11月15日、『League of Legends』向けの大型アップデート「New Dawn」の内容をお披露目した。ビジュアル刷新のほか、ゲームプレイにも変更が加えられそうだ。",
       "points": [
-        "カテゴリ: サブカルチャーで話題の記事",
-        "引用元: note.com（2026-11-15 03:06）",
-        "「元記事を読む」から本文を確認できます"
+        "カテゴリ: サブカルチャーの注目ニュース",
+        "配信: AUTOMATON（2026-11-15 07:24）",
+        "「元記事を読む」から詳細を確認できます"
       ],
-      "impact": "サブカルチャー分野で多くの読者に共有されている注目記事です。",
+      "impact": "サブカルチャー分野で注目を集めている最新記事です。",
       "tags": [
         "サブカルチャー",
-        "note.com"
+        "ゲーム",
+        "AUTOMATON"
       ],
-      "url": "https://note.com/epi_ca/n/n86c245316180",
+      "url": "https://automaton-media.com/articles/newsjp/league-of-legends-20261115-479316/",
       "isAiEnriched": false
     },
     {
@@ -4237,15 +4239,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "【ハイエンドオーディオ＆アクセサリーショウ2026】オーディオ銘機賞受賞モデルが聴ける！山之内 正氏＆小原由夫氏による講演予定(PHILE WEB)",
+      "title": "Netflix、日本で値上げ　広告つき990円、Standardは1790円に(CNET Japan)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 17:16",
-      "publishedTs": 1794730606,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00131718-phileweb-000-1-view.jpg?exp=10800",
-      "summary": "小社主催によるオーディオの祭典「ハイエンドオーディオ＆アクセサリーショウ2026」が、11月21日（土）と22日（日）に、浅草橋のヒューリックホールにて開催されます。速報にてお知らせいたしました今年…",
+      "publishedAt": "2026-11-15 17:30",
+      "publishedTs": 1794731400,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-35254907-cnetj-000-1-view.jpg?exp=10800",
+      "summary": "Netflixは、日本で新規加入できる全3プランの月額料金を引き上げた。最も安い「広告つきスタンダード」は890円から990円に、「スタンダード」は1590円から1790円に、「プレミアム」は229…",
       "points": [
         "カテゴリ: テクノロジー・AIの注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 17:16）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 17:30）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "テクノロジー・AI分野で関心を集めている最新ニュースです。",
@@ -4253,7 +4255,7 @@ window.NEWS_DATA = {
         "テクノロジー・AI",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/c7e7911bb9365676b6140a048159ec567a2234f9?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/0686fadccd891a9a9a2d4c294edbeefa57a0dfbe?source=rss",
       "isAiEnriched": false
     },
     {
@@ -4300,25 +4302,25 @@ window.NEWS_DATA = {
     },
     {
       "category": "subculture",
-      "title": "『League of Legends』大規模アップデートの内容チラ見せ。ビジュアル大刷新&ゲームプレイ変更いろいろありそう",
-      "source": "AUTOMATON",
-      "publishedAt": "2026-11-15 07:24",
-      "publishedTs": 1794695055,
-      "image": "https://automaton-media.com/wp-content/uploads/2026/11/league-of-legends-20261115-479316-header.jpg",
-      "summary": "Riot Gamesは11月15日、『League of Legends』向けの大型アップデート「New Dawn」の内容をお披露目した。ビジュアル刷新のほか、ゲームプレイにも変更が加えられそうだ。",
+      "title": "『Ｋ２ - 真船一雄』第533話「眠れない夜」がコミックDAYSで公開",
+      "source": "comic-days.com",
+      "publishedAt": "2026-11-15 14:43",
+      "publishedTs": 1794721410,
+      "image": "https://cdn-img.comic-days.com/public/series-thumbnail/13932016480029452682-ac964de5c372f36b73ba8a992344492e?1699347362",
+      "summary": "人気医療漫画『Ｋ２ - 真船一雄』の最新話「第533話 眠れない夜」が、コミックDAYSにて公開されました。天才医師の神業的なメスさばきと、患者の心に寄り添う人間ドラマが描かれています。",
       "points": [
-        "カテゴリ: サブカルチャーの注目ニュース",
-        "配信: AUTOMATON（2026-11-15 07:24）",
-        "「元記事を読む」から詳細を確認できます"
+        "医療マンガ『Ｋ２ - 真船一雄』の最新話が配信",
+        "コミックDAYSにて第533話「眠れない夜」が公開",
+        "最先端医療と心温まる人間ドラマの展開が人気"
       ],
-      "impact": "サブカルチャー分野で注目を集めている最新記事です。",
+      "impact": "漫画ファンの間で作品の最新展開を巡る盛り上がりや、プラットフォームへの誘導を促進します。",
       "tags": [
         "サブカルチャー",
-        "ゲーム",
-        "AUTOMATON"
+        "漫画",
+        "コミックDAYS"
       ],
-      "url": "https://automaton-media.com/articles/newsjp/league-of-legends-20261115-479316/",
-      "isAiEnriched": false
+      "url": "https://comic-days.com/episode/12207421983947538316",
+      "isAiEnriched": true
     },
     {
       "category": "domestic",
@@ -4343,15 +4345,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "ガソリン車より150万円高価なディーゼル版「ランクル250 ZX」。一生モノとして推せる理由と悩ましい弱点(アスキー)",
+      "title": "【ハイエンドオーディオ＆アクセサリーショウ2026】オーディオ銘機賞受賞モデルが聴ける！山之内 正氏＆小原由夫氏による講演予定(PHILE WEB)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 17:15",
-      "publishedTs": 1794730500,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00000004-ascii-000-1-view.jpg?exp=10800",
-      "summary": "「ランドクルーザープラド」の事実上の後継モデルとして、2024年4月に登場したトヨタ「ランドクルーザー250」。人気が高く、発売直後から手に入りにくい状態が続いています。2.8Lディーゼル車は現在受…",
+      "publishedAt": "2026-11-15 17:16",
+      "publishedTs": 1794730606,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00131718-phileweb-000-1-view.jpg?exp=10800",
+      "summary": "小社主催によるオーディオの祭典「ハイエンドオーディオ＆アクセサリーショウ2026」が、11月21日（土）と22日（日）に、浅草橋のヒューリックホールにて開催されます。速報にてお知らせいたしました今年…",
       "points": [
         "カテゴリ: テクノロジー・AIの注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 17:15）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 17:16）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "テクノロジー・AI分野で関心を集めている最新ニュースです。",
@@ -4359,7 +4361,7 @@ window.NEWS_DATA = {
         "テクノロジー・AI",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/e6e8e319adf96e7debf478a87c7d9f614604cfe1?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/c7e7911bb9365676b6140a048159ec567a2234f9?source=rss",
       "isAiEnriched": false
     },
     {
@@ -4406,24 +4408,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "subculture",
-      "title": "『Ｋ２ - 真船一雄』第533話「眠れない夜」がコミックDAYSで公開",
-      "source": "comic-days.com",
-      "publishedAt": "2026-11-15 14:43",
-      "publishedTs": 1794721410,
-      "image": "https://cdn-img.comic-days.com/public/series-thumbnail/13932016480029452682-ac964de5c372f36b73ba8a992344492e?1699347362",
-      "summary": "人気医療漫画『Ｋ２ - 真船一雄』の最新話「第533話 眠れない夜」が、コミックDAYSにて公開されました。天才医師の神業的なメスさばきと、患者の心に寄り添う人間ドラマが描かれています。",
+      "title": "刀剣乱舞ファンコミュニティで政治的発言を巡る議論が紛糾",
+      "source": "posfie.com",
+      "publishedAt": "2026-11-15 09:58",
+      "publishedTs": 1794704330,
+      "image": "https://s.tgstc.com/ogp3/9271bd03e0a0e28291e3c61e7d00ffd9-1200x630.jpeg",
+      "summary": "ミュージカル『刀剣乱舞』などのファン層の間で、政治や社会問題に対するスタンスを巡り激しい論争が発生しています。推し活と政治的信条の切り離しを求める声と、参加を促す声が対立しています。",
       "points": [
-        "医療マンガ『Ｋ２ - 真船一雄』の最新話が配信",
-        "コミックDAYSにて第533話「眠れない夜」が公開",
-        "最先端医療と心温まる人間ドラマの展開が人気"
+        "刀剣乱舞のファンコミュニティ内で起きた政治的議論",
+        "社会問題への関与を求める声と否定する声の対立",
+        "エンタメと政治参加の距離感を巡るネット上の論争"
       ],
-      "impact": "漫画ファンの間で作品の最新展開を巡る盛り上がりや、プラットフォームへの誘導を促進します。",
+      "impact": "ファンダム内における言論の自由やマナーに関する議論を活発化させています。",
       "tags": [
         "サブカルチャー",
-        "漫画",
-        "コミックDAYS"
+        "SNS",
+        "社会"
       ],
-      "url": "https://comic-days.com/episode/12207421983947538316",
+      "url": "https://posfie.com/@Acg3C2/p/ioy1XNT",
       "isAiEnriched": true
     },
     {
@@ -4449,15 +4451,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "SpaceX、スターシップ上段の「箸キャッチ」に初成功、機体完全再使用へ前進(ビジネス＋IT)",
+      "title": "ガソリン車より150万円高価なディーゼル版「ランクル250 ZX」。一生モノとして推せる理由と悩ましい弱点(アスキー)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 17:05",
-      "publishedTs": 1794729913,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00188421-biz_plus-000-1-view.jpg?exp=10800",
-      "summary": "米SpaceXは2026年11月14日、次世代大型ロケット「スターシップ」の第15回飛行試験において、地球周回軌道から帰還した上段宇宙船を発射塔のアームで直接受け止めることに初めて成功した。軌道速度…",
+      "publishedAt": "2026-11-15 17:15",
+      "publishedTs": 1794730500,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00000004-ascii-000-1-view.jpg?exp=10800",
+      "summary": "「ランドクルーザープラド」の事実上の後継モデルとして、2024年4月に登場したトヨタ「ランドクルーザー250」。人気が高く、発売直後から手に入りにくい状態が続いています。2.8Lディーゼル車は現在受…",
       "points": [
         "カテゴリ: テクノロジー・AIの注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 17:05）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 17:15）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "テクノロジー・AI分野で関心を集めている最新ニュースです。",
@@ -4465,7 +4467,7 @@ window.NEWS_DATA = {
         "テクノロジー・AI",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/57183faf2bf4471fbbda630b42d0d3fcdd450710?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/e6e8e319adf96e7debf478a87c7d9f614604cfe1?source=rss",
       "isAiEnriched": false
     },
     {
@@ -4512,25 +4514,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "subculture",
-      "title": "刀剣乱舞ファンコミュニティで政治的発言を巡る議論が紛糾",
-      "source": "posfie.com",
-      "publishedAt": "2026-11-15 09:58",
-      "publishedTs": 1794704330,
-      "image": "https://s.tgstc.com/ogp3/9271bd03e0a0e28291e3c61e7d00ffd9-1200x630.jpeg",
-      "summary": "ミュージカル『刀剣乱舞』などのファン層の間で、政治や社会問題に対するスタンスを巡り激しい論争が発生しています。推し活と政治的信条の切り離しを求める声と、参加を促す声が対立しています。",
+      "title": "宇宙戦艦ヤマト 黎明篇：「完結編」と「復活篇」を否定しない　“ヤマト愛”を貫く　岡秀樹インタビュー - MANTANWEB（まんたんウェブ）",
+      "source": "mantan-web.jp",
+      "publishedAt": "2026-11-15 08:11",
+      "publishedTs": 1794697888,
+      "image": "https://storage.mantan-web.jp/w=1280,h=720,icr=0:0.1:1:1,a=2,g=2,f=webp:auto/images/2026/10/29/20261029dog00m200001000a/001.jpg",
+      "summary": "人気アニメ「宇宙戦艦ヤマト」シリーズの小説「宇宙戦艦ヤマト 黎明篇」（KADOKAWA）の第3部「ツァラトゥストラ・ゾーン」が11月6日に発売された。「黎明篇」は、1983年公開の「宇宙戦艦ヤマト 完結編」と2009年公開の「宇宙戦艦ヤマト 復活篇」の間をつなぐ小説で、第3部で完結した。第3部を執筆したのが…",
       "points": [
-        "刀剣乱舞のファンコミュニティ内で起きた政治的議論",
-        "社会問題への関与を求める声と否定する声の対立",
-        "エンタメと政治参加の距離感を巡るネット上の論争"
+        "カテゴリ: サブカルチャーで話題の記事",
+        "引用元: mantan-web.jp（2026-11-15 08:11）",
+        "「元記事を読む」から本文を確認できます"
       ],
-      "impact": "ファンダム内における言論の自由やマナーに関する議論を活発化させています。",
+      "impact": "サブカルチャー分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "サブカルチャー",
-        "SNS",
-        "社会"
+        "mantan-web.jp"
       ],
-      "url": "https://posfie.com/@Acg3C2/p/ioy1XNT",
-      "isAiEnriched": true
+      "url": "https://mantan-web.jp/article/20261029dog00m200001000a.html",
+      "isAiEnriched": false
     }
   ]
 };
