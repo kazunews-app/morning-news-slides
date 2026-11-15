@@ -1009,6 +1009,14 @@
       .join("");
   }
 
+  async function fetchSingleLocationWeather(lat, lon) {
+    const url = `https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}&current=temperature_2m,weather_code,wind_speed_10m&daily=temperature_2m_max,temperature_2m_min,precipitation_probability_max&timezone=Asia%2FTokyo&forecast_days=1`;
+    const res = await fetchWithTimeout(url, {}, 10000);
+    if (!res.ok) throw new Error(`Weather HTTP ${res.status}`);
+    const data = await res.json();
+    return parseWeatherItem(data);
+  }
+
   async function fetchAndRenderAllWeather(forceRefresh = false) {
     if (weatherState.isFetching) return;
     if (!forceRefresh && Date.now() - weatherState.lastFetchAt < 10 * 60 * 1000 && weatherState.lastFetchAt > 0) {
@@ -1021,28 +1029,33 @@
       const loc = weatherState.currentLoc || getSavedLocation();
       weatherState.currentLoc = loc;
 
-      const allCoords = [loc, ...MAJOR_JP_CITIES];
-      const lats = allCoords.map((c) => c.lat).join(",");
-      const lons = allCoords.map((c) => c.lon).join(",");
-      const url = `https://api.open-meteo.com/v1/forecast?latitude=${lats}&longitude=${lons}&current=temperature_2m,weather_code,wind_speed_10m&daily=temperature_2m_max,temperature_2m_min,precipitation_probability_max&timezone=Asia%2FTokyo&forecast_days=1`;
+      // 現在地と主要12都市を個別に並列取得（1本にまとめるとAPI側がタイムアウトするため）
+      const currentPromise = fetchSingleLocationWeather(loc.lat, loc.lon);
+      const cityPromises = MAJOR_JP_CITIES.map((city) =>
+        fetchSingleLocationWeather(city.lat, city.lon).then((w) => ({ city, w }))
+      );
 
-      const res = await fetchWithTimeout(url, {}, 6000);
-      if (!res.ok) throw new Error("Weather batch fetch failed");
-      const raw = await res.json();
-      const list = Array.isArray(raw) ? raw : [raw];
-
-      if (list[0]) {
-        renderCurrentWeatherCard(loc, parseWeatherItem(list[0]));
+      const currentSettled = await currentPromise.then(
+        (w) => ({ ok: true, w }),
+        () => ({ ok: false })
+      );
+      if (currentSettled.ok) {
+        renderCurrentWeatherCard(loc, currentSettled.w);
       }
-      const cityResults = MAJOR_JP_CITIES.map((city, idx) => ({
-        city,
-        w: parseWeatherItem(list[idx + 1] || list[0]),
-      }));
-      renderCityWeatherCards(cityResults);
 
-      weatherState.lastFetchAt = Date.now();
-      if (elWeatherUpdatedLabel) {
-        elWeatherUpdatedLabel.textContent = `更新: ${formatNowJst().updatedAt}`;
+      const citySettledList = await Promise.allSettled(cityPromises);
+      const cityResults = citySettledList
+        .filter((r) => r.status === "fulfilled")
+        .map((r) => r.value);
+
+      if (cityResults.length > 0) {
+        renderCityWeatherCards(cityResults);
+        weatherState.lastFetchAt = Date.now();
+        if (elWeatherUpdatedLabel) {
+          elWeatherUpdatedLabel.textContent = `更新: ${formatNowJst().updatedAt}`;
+        }
+      } else if (!currentSettled.ok) {
+        if (elWeatherUpdatedLabel) elWeatherUpdatedLabel.textContent = "天気の取得に失敗しました（再試行してください）";
       }
     } catch (_err) {
       if (elWeatherUpdatedLabel) elWeatherUpdatedLabel.textContent = "天気の取得に失敗しました";
