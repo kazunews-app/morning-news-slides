@@ -1407,3 +1407,560 @@ html, body {
     transform: translateX(0);
   }
 }
+
+/* =========================================================
+   Font Size Scaling (Standard / Large / X-Large)
+   ========================================================= */
+html[data-font-size="large"] {
+  font-size: 17.5px;
+}
+
+html[data-font-size="xlarge"] {
+  font-size: 19px;
+}
+
+.font-size-btn .font-size-icon {
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+}
+
+.font-size-btn.active {
+  border-color: var(--accent);
+  color: var(--accent);
+  background: var(--accent-soft);
+}
+
+/* =========================================================
+   Bookmarks, Read Status, Unread Filter & My Topics
+   ========================================================= */
+.card-thumb-wrap {
+  position: relative;
+}
+
+.side-item,
+.text-news-item {
+  position: relative;
+}
+
+.bookmark-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 1px solid rgba(15, 23, 42, 0.15);
+  background: rgba(255, 255, 255, 0.92);
+  color: #64748b;
+  font-size: 1rem;
+  line-height: 1;
+  cursor: pointer;
+  transition: transform 0.15s ease, background-color 0.15s ease, color 0.15s ease;
+  z-index: 3;
+  flex-shrink: 0;
+}
+
+[data-theme="dark"] .bookmark-btn {
+  background: rgba(15, 23, 42, 0.86);
+  border-color: rgba(255, 255, 255, 0.18);
+  color: #94a3b8;
+}
+
+.hero-image-wrap .bookmark-btn,
+.card-thumb-wrap .bookmark-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.22);
+}
+
+.bookmark-btn:hover {
+  transform: scale(1.08);
+  color: #f59e0b;
+}
+
+.bookmark-btn.active {
+  color: #f59e0b;
+  border-color: #f59e0b;
+  background: #fffbeb;
+}
+
+[data-theme="dark"] .bookmark-btn.active {
+  background: rgba(245, 158, 11, 0.2);
+  color: #fbbf24;
+  border-color: #fbbf24;
+}
+
+/* Read Badge & Dimming */
+.read-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 2px 7px;
+  border-radius: 6px;
+  background: var(--surface-muted);
+  color: var(--text-muted);
+  font-size: 0.68rem;
+  font-weight: 700;
+}
+
+.is-read .hero-title,
+.is-read .side-item-title,
+.is-read .card-title,
+.is-read .text-news-title {
+  color: var(--text-secondary);
+  opacity: 0.78;
+}
+
+.feed-header-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.unread-filter-btn {
+  padding: 4px 11px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--surface-muted);
+  color: var(--text-secondary);
+  font-family: inherit;
+  font-size: 0.76rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.16s ease;
+}
+
+.unread-filter-btn:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.unread-filter-btn.active {
+  background: var(--accent);
+  color: #ffffff;
+  border-color: var(--accent);
+}
+
+/* My Topics (推しキーワード) */
+.my-topic-chip {
+  border-color: rgba(245, 158, 11, 0.45);
+  background: rgba(245, 158, 11, 0.12);
+  color: #b45309;
+  font-weight: 700;
+}
+
+[data-theme="dark"] .my-topic-chip {
+  color: #fbbf24;
+  background: rgba(245, 158, 11, 0.18);
+}
+
+.my-topic-chip:hover,
+.my-topic-chip.active {
+  background: #d97706;
+  border-color: #d97706;
+  color: #ffffff;
+}
+
+.my-topic-manage-chip {
+  border-style: dashed;
+  font-weight: 700;
+}
+
+.my-topic-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: rgba(245, 158, 11, 0.16);
+  color: #b45309;
+  font-size: 0.71rem;
+  font-weight: 800;
+}
+
+[data-theme="dark"] .my-topic-badge {
+  color: #fbbf24;
+  background: rgba(245, 158, 11, 0.22);
+}
+
+.news-card.is-my-topic,
+.hero-card.is-my-topic,
+.text-news-item.is-my-topic {
+  border-color: rgba(245, 158, 11, 0.55);
+}
+
+.cat-pill.saved {
+  background: rgba(245, 158, 11, 0.15);
+  color: #d97706;
+}
+
+/* =========================================================
+   Modal Share & Bookmark Actions
+   ========================================================= */
+.modal-share-bar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.modal-action-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 9px 14px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--surface-muted);
+  color: var(--text-primary);
+  font-family: inherit;
+  font-size: 0.82rem;
+  font-weight: 700;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.16s ease;
+}
+
+.modal-action-btn:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.modal-action-btn.active {
+  border-color: #f59e0b;
+  background: rgba(245, 158, 11, 0.16);
+  color: #b45309;
+}
+
+[data-theme="dark"] .modal-action-btn.active {
+  color: #fbbf24;
+}
+
+.modal-line-btn {
+  background: rgba(6, 199, 85, 0.14);
+  color: #059669;
+  border-color: rgba(6, 199, 85, 0.35);
+}
+
+[data-theme="dark"] .modal-line-btn {
+  color: #34d399;
+}
+
+/* =========================================================
+   Hourly & 7-Day Weekly Weather Forecast
+   ========================================================= */
+.weather-current-top {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.weather-current-forecasts {
+  width: 100%;
+  padding-top: 16px;
+  border-top: 1px solid rgba(255, 255, 255, 0.22);
+  display: grid;
+  grid-template-columns: 1.15fr 1fr;
+  gap: 18px;
+}
+
+.weather-forecast-block {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  min-width: 0;
+}
+
+.weather-forecast-title {
+  font-size: 0.78rem;
+  font-weight: 800;
+  opacity: 0.92;
+}
+
+.weather-detail-panel .weather-forecast-title {
+  color: var(--text-muted);
+  margin-top: 4px;
+}
+
+.weather-hourly-strip {
+  display: grid;
+  grid-template-columns: repeat(8, minmax(48px, 1fr));
+  gap: 6px;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.weather-hourly-strip::-webkit-scrollbar {
+  display: none;
+}
+
+.weather-hour-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+  padding: 7px 4px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.14);
+  font-size: 0.72rem;
+  text-align: center;
+}
+
+.weather-detail-panel .weather-hour-item {
+  background: var(--surface-muted);
+  color: var(--text-primary);
+}
+
+.weather-hour-time {
+  font-weight: 700;
+  opacity: 0.88;
+}
+
+.weather-hour-icon {
+  font-size: 1.15rem;
+  line-height: 1.1;
+}
+
+.weather-hour-temp {
+  font-weight: 800;
+  font-size: 0.8rem;
+}
+
+.weather-hour-pop {
+  font-size: 0.66rem;
+  opacity: 0.85;
+}
+
+.weather-daily-list {
+  display: grid;
+  grid-template-columns: repeat(7, minmax(46px, 1fr));
+  gap: 6px;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.weather-daily-list::-webkit-scrollbar {
+  display: none;
+}
+
+.weather-day-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+  padding: 7px 4px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.14);
+  font-size: 0.72rem;
+  text-align: center;
+}
+
+.weather-detail-panel .weather-day-col {
+  background: var(--surface-muted);
+  color: var(--text-primary);
+}
+
+.weather-day-label {
+  font-weight: 800;
+  font-size: 0.72rem;
+}
+
+.weather-day-date {
+  font-size: 0.64rem;
+  opacity: 0.8;
+}
+
+.weather-day-icon {
+  font-size: 1.15rem;
+  line-height: 1.1;
+}
+
+.weather-day-temps {
+  font-weight: 800;
+  font-size: 0.73rem;
+  white-space: nowrap;
+}
+
+.weather-day-pop {
+  font-size: 0.65rem;
+  opacity: 0.85;
+}
+
+@media (max-width: 900px) {
+  .weather-current-forecasts {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* =========================================================
+   Customization Settings Modal
+   ========================================================= */
+.settings-dialog {
+  max-width: 580px;
+}
+
+.settings-body {
+  padding-top: 20px;
+}
+
+.settings-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-top: 14px;
+  border-top: 1px solid var(--border);
+}
+
+.settings-sec-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.settings-section h3 {
+  font-size: 0.96rem;
+  font-weight: 800;
+}
+
+.settings-desc {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  line-height: 1.45;
+}
+
+.font-size-options {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+}
+
+.font-opt-btn {
+  padding: 10px 12px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border);
+  background: var(--surface-muted);
+  color: var(--text-primary);
+  font-family: inherit;
+  font-size: 0.88rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.font-opt-btn.active {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #ffffff;
+}
+
+.topic-input-row {
+  display: flex;
+  gap: 8px;
+}
+
+.topic-input-row input {
+  flex: 1;
+  height: 38px;
+  padding: 0 12px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border);
+  background: var(--surface-muted);
+  color: var(--text-primary);
+  font-family: inherit;
+  font-size: 0.9rem;
+}
+
+.primary-sm-btn {
+  padding: 0 16px;
+  height: 38px;
+  border-radius: var(--radius-sm);
+  border: none;
+  background: var(--accent);
+  color: #ffffff;
+  font-family: inherit;
+  font-size: 0.85rem;
+  font-weight: 700;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.my-topics-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.topic-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 5px 11px;
+  border-radius: 999px;
+  background: rgba(245, 158, 11, 0.16);
+  color: #b45309;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+[data-theme="dark"] .topic-pill {
+  color: #fbbf24;
+}
+
+.topic-pill button {
+  border: none;
+  background: transparent;
+  color: inherit;
+  cursor: pointer;
+  font-weight: 800;
+  font-size: 0.82rem;
+}
+
+.category-order-list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.cat-order-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 12px;
+  border-radius: var(--radius-sm);
+  background: var(--surface-muted);
+  border: 1px solid var(--border);
+}
+
+.cat-order-label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.88rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.cat-order-actions {
+  display: flex;
+  gap: 6px;
+}
+
+.cat-move-btn {
+  width: 30px;
+  height: 28px;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text-primary);
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.cat-move-btn:disabled {
+  opacity: 0.35;
+  cursor: default;
+}

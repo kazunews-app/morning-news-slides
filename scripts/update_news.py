@@ -800,6 +800,49 @@ def _parse_int_list(values: list) -> list[int]:
     return out
 
 
+def _build_default_hourly_and_daily(
+    temp: int,
+    max_temp: int,
+    min_temp: int,
+    code: int,
+    pop: int,
+    now_dt: datetime.datetime | None = None,
+) -> tuple[list[dict], list[dict]]:
+    now = now_dt or datetime.datetime.now(JST)
+    start_hour = (now.hour // 3) * 3
+    hourly: list[dict] = []
+    for i in range(8):
+        h = (start_hour + i * 3) % 24
+        # 6時頃が最低、15時頃が最高になる自然な日変化カーブ
+        phase = abs(h - 14) / 12.0
+        est_temp = round(max_temp - (max_temp - min_temp) * min(1.0, phase))
+        hourly.append(
+            {
+                "time": f"{h:02d}:00",
+                "code": code,
+                "temp": est_temp,
+                "pop": pop,
+            }
+        )
+
+    daily: list[dict] = []
+    for d_idx in range(7):
+        dt = now + datetime.timedelta(days=d_idx)
+        dow = DOW_JP[dt.weekday()]
+        offset = (d_idx % 3) - 1 if d_idx > 0 else 0
+        daily.append(
+            {
+                "date": f"{dt.month}/{dt.day}",
+                "dow": "今日" if d_idx == 0 else ("明日" if d_idx == 1 else dow),
+                "code": code,
+                "maxTemp": max_temp + offset,
+                "minTemp": min_temp + offset,
+                "pop": pop,
+            }
+        )
+    return hourly, daily
+
+
 def fetch_city_weather_jma(city: dict) -> dict | None:
     office = city.get("jmaOffice")
     if not office:
@@ -821,9 +864,10 @@ def fetch_city_weather_jma(city: dict) -> dict | None:
 
         temps_raw = _parse_int_list(((ts[2].get("areas") or [{}])[0]).get("temps") if len(ts) > 2 else [])
         wk_ts = weekly.get("timeSeries") or []
-        wk_area = ((wk_ts[1].get("areas") or [{}])[0]) if len(wk_ts) > 1 else {}
-        wk_mins = _parse_int_list(wk_area.get("tempsMin"))
-        wk_maxs = _parse_int_list(wk_area.get("tempsMax"))
+        wk_area0 = ((wk_ts[0].get("areas") or [{}])[0]) if len(wk_ts) > 0 else {}
+        wk_area1 = ((wk_ts[1].get("areas") or [{}])[0]) if len(wk_ts) > 1 else {}
+        wk_mins = _parse_int_list(wk_area1.get("tempsMin"))
+        wk_maxs = _parse_int_list(wk_area1.get("tempsMax"))
 
         max_temp = 18
         min_temp = 10
@@ -845,6 +889,42 @@ def fetch_city_weather_jma(city: dict) -> dict | None:
             min_temp = wk_mins[0]
 
         temp = temps_raw[0] if temps_raw else round((max_temp + min_temp) / 2)
+        hourly, daily = _build_default_hourly_and_daily(temp, max_temp, min_temp, wmo_code, pop)
+
+        # JMAの週間予報データがあれば反映
+        wk_dates = (wk_ts[0].get("timeDefines") or []) if len(wk_ts) > 0 else []
+        wk_codes = wk_area0.get("weatherCodes") or []
+        wk_pops = wk_area0.get("pops") or []
+        wk_mins_raw = wk_area1.get("tempsMin") or []
+        wk_maxs_raw = wk_area1.get("tempsMax") or []
+        if len(wk_dates) >= 5:
+            parsed_daily: list[dict] = []
+            for idx, d_str in enumerate(wk_dates[:7]):
+                try:
+                    dt = datetime.datetime.fromisoformat(d_str)
+                    dow = DOW_JP[dt.weekday()]
+                    d_code = _jma_code_to_wmo(wk_codes[idx] if idx < len(wk_codes) else jma_code)
+                    d_pop_str = str(wk_pops[idx]).strip() if idx < len(wk_pops) else ""
+                    d_pop = int(d_pop_str) if d_pop_str.isdigit() else pop
+                    d_max_str = str(wk_maxs_raw[idx]).strip() if idx < len(wk_maxs_raw) else ""
+                    d_min_str = str(wk_mins_raw[idx]).strip() if idx < len(wk_mins_raw) else ""
+                    d_max = round(float(d_max_str)) if d_max_str else max_temp
+                    d_min = round(float(d_min_str)) if d_min_str else min_temp
+                    parsed_daily.append(
+                        {
+                            "date": f"{dt.month}/{dt.day}",
+                            "dow": "今日" if idx == 0 else ("明日" if idx == 1 else dow),
+                            "code": d_code,
+                            "maxTemp": d_max,
+                            "minTemp": d_min,
+                            "pop": d_pop,
+                        }
+                    )
+                except Exception:
+                    continue
+            if len(parsed_daily) >= 5:
+                daily = parsed_daily
+
         return {
             "name": city["name"],
             "region": city["region"],
@@ -854,6 +934,8 @@ def fetch_city_weather_jma(city: dict) -> dict | None:
             "maxTemp": max_temp,
             "minTemp": min_temp,
             "pop": pop,
+            "hourly": hourly,
+            "daily": daily,
         }
     except Exception:
         return None
@@ -878,17 +960,77 @@ def _parse_open_meteo_entry(city: dict, data: dict) -> dict | None:
     cur = data.get("current") or {}
     if "temperature_2m" not in cur:
         return None
-    daily = data.get("daily") or {}
+    daily_raw = data.get("daily") or {}
+    hourly_raw = data.get("hourly") or {}
     temp = round(float(cur.get("temperature_2m", 0)))
+    code = int(cur.get("weather_code", 0))
+    max_temp = round(float((daily_raw.get("temperature_2m_max") or [temp])[0]))
+    min_temp = round(float((daily_raw.get("temperature_2m_min") or [temp])[0]))
+    pop = int((daily_raw.get("precipitation_probability_max") or [0])[0] or 0)
+
+    fb_hourly, fb_daily = _build_default_hourly_and_daily(temp, max_temp, min_temp, code, pop)
+
+    # 3時間ごとの予報（8枠）を抽出
+    h_times = hourly_raw.get("time") or []
+    h_temps = hourly_raw.get("temperature_2m") or []
+    h_codes = hourly_raw.get("weather_code") or []
+    h_pops = hourly_raw.get("precipitation_probability") or []
+    now_str = datetime.datetime.now(JST).strftime("%Y-%m-%dT%H:00")
+    start_idx = 0
+    for idx, t_str in enumerate(h_times):
+        if str(t_str) >= now_str:
+            start_idx = idx
+            break
+    hourly_list: list[dict] = []
+    for step in range(8):
+        pos = start_idx + step * 3
+        if pos >= len(h_times):
+            break
+        t_label = str(h_times[pos]).split("T")[-1][:5]
+        hourly_list.append(
+            {
+                "time": t_label,
+                "code": int(h_codes[pos] if pos < len(h_codes) and h_codes[pos] is not None else code),
+                "temp": round(float(h_temps[pos] if pos < len(h_temps) and h_temps[pos] is not None else temp)),
+                "pop": int(h_pops[pos] if pos < len(h_pops) and h_pops[pos] is not None else pop),
+            }
+        )
+
+    # 7日間の週間予報を抽出
+    d_times = daily_raw.get("time") or []
+    d_codes = daily_raw.get("weather_code") or []
+    d_maxs = daily_raw.get("temperature_2m_max") or []
+    d_mins = daily_raw.get("temperature_2m_min") or []
+    d_pops = daily_raw.get("precipitation_probability_max") or []
+    daily_list: list[dict] = []
+    for idx, d_str in enumerate(d_times[:7]):
+        try:
+            dt = datetime.date.fromisoformat(str(d_str))
+            dow = DOW_JP[dt.weekday()]
+            daily_list.append(
+                {
+                    "date": f"{dt.month}/{dt.day}",
+                    "dow": "今日" if idx == 0 else ("明日" if idx == 1 else dow),
+                    "code": int(d_codes[idx] if idx < len(d_codes) and d_codes[idx] is not None else code),
+                    "maxTemp": round(float(d_maxs[idx] if idx < len(d_maxs) and d_maxs[idx] is not None else max_temp)),
+                    "minTemp": round(float(d_mins[idx] if idx < len(d_mins) and d_mins[idx] is not None else min_temp)),
+                    "pop": int(d_pops[idx] if idx < len(d_pops) and d_pops[idx] is not None else pop),
+                }
+            )
+        except Exception:
+            continue
+
     return {
         "name": city["name"],
         "region": city["region"],
         "temp": temp,
-        "code": int(cur.get("weather_code", 0)),
+        "code": code,
         "wind": round(float(cur.get("wind_speed_10m", 0))),
-        "maxTemp": round(float((daily.get("temperature_2m_max") or [temp])[0])),
-        "minTemp": round(float((daily.get("temperature_2m_min") or [temp])[0])),
-        "pop": int((daily.get("precipitation_probability_max") or [0])[0] or 0),
+        "maxTemp": max_temp,
+        "minTemp": min_temp,
+        "pop": pop,
+        "hourly": hourly_list if len(hourly_list) >= 4 else fb_hourly,
+        "daily": daily_list if len(daily_list) >= 5 else fb_daily,
     }
 
 
@@ -898,8 +1040,9 @@ def fetch_all_cities_open_meteo_batch() -> dict[str, dict]:
     url = (
         f"https://api.open-meteo.com/v1/forecast?latitude={lats}&longitude={lons}"
         "&current=temperature_2m,weather_code,wind_speed_10m"
-        "&daily=temperature_2m_max,temperature_2m_min,precipitation_probability_max"
-        "&timezone=Asia%2FTokyo&forecast_days=1"
+        "&hourly=temperature_2m,weather_code,precipitation_probability"
+        "&daily=weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max"
+        "&timezone=Asia%2FTokyo&forecast_days=7"
     )
     out: dict[str, dict] = {}
     try:
@@ -938,7 +1081,18 @@ def fetch_major_cities_weather(cached_weather: dict[str, dict]) -> list[dict]:
             or DEFAULT_WEATHER_BY_NAME.get(name)
         )
         if item:
-            results.append(dict(item))
+            entry = dict(item)
+            if not entry.get("hourly") or not entry.get("daily"):
+                h, d = _build_default_hourly_and_daily(
+                    int(entry.get("temp", 15)),
+                    int(entry.get("maxTemp", 18)),
+                    int(entry.get("minTemp", 10)),
+                    int(entry.get("code", 1)),
+                    int(entry.get("pop", 10)),
+                )
+                entry.setdefault("hourly", h)
+                entry.setdefault("daily", d)
+            results.append(entry)
     return results
 
 

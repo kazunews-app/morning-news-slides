@@ -1,0 +1,20 @@
+{
+  "name": "TREND NEWS — トレンドニュース速報",
+  "short_name": "TREND NEWS",
+  "description": "5分ごと自動更新のトレンドニュース＆全国天気アプリ",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#f4f6fa",
+  "theme_color": "#2563eb",
+  "lang": "ja",
+  "icons": [
+    {
+      "src": "assets/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

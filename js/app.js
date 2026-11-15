@@ -1,17 +1,34 @@
 (() => {
   const CATEGORY_META = {
+    all: { label: "トップ", icon: "🔥" },
     domestic: { label: "国内・総合", icon: "🇯🇵" },
     tech: { label: "テクノロジー・AI", icon: "🤖" },
     business: { label: "ビジネス・経済", icon: "📈" },
     entertainment: { label: "芸能・エンタメ", icon: "🎬" },
     subculture: { label: "サブカルチャー", icon: "🎮" },
+    saved: { label: "保存済み", icon: "⭐" },
     weather: { label: "天気", icon: "☀️" },
   };
 
+  const DEFAULT_CATEGORY_ORDER = [
+    "all",
+    "domestic",
+    "tech",
+    "business",
+    "entertainment",
+    "subculture",
+    "saved",
+    "weather",
+  ];
   const MAX_ARTICLE_AGE_SEC = 24 * 3600;
-  const VALID_CATEGORIES = new Set(["all", "domestic", "tech", "business", "entertainment", "subculture", "weather"]);
+  const VALID_CATEGORIES = new Set(DEFAULT_CATEGORY_ORDER);
   const CATEGORY_STORAGE_KEY = "trend-news-active-category";
   const WEATHER_CACHE_KEY = "trend-news-weather-cities-v1";
+  const BOOKMARKS_STORAGE_KEY = "trend-news-bookmarks";
+  const READ_URLS_STORAGE_KEY = "trend-news-read-urls";
+  const MY_TOPICS_STORAGE_KEY = "trend-news-my-topics";
+  const FONT_SIZE_STORAGE_KEY = "trend-news-font-size";
+  const CAT_PREFS_STORAGE_KEY = "trend-news-category-prefs";
 
   const DEFAULT_WEATHER_CITIES = [
     { name: "札幌", region: "北海道", temp: 7, code: 3, wind: 4, maxTemp: 9, minTemp: 2, pop: 20 },
@@ -63,23 +80,56 @@
     safeStorageSet(typeof localStorage !== "undefined" ? localStorage : null, CATEGORY_STORAGE_KEY, cat);
   }
 
+  function loadJsonFromStorage(key, fallbackVal) {
+    try {
+      const raw = safeStorageGet(typeof localStorage !== "undefined" ? localStorage : null, key);
+      if (!raw) return fallbackVal;
+      const parsed = JSON.parse(raw);
+      return parsed ?? fallbackVal;
+    } catch (_e) {
+      return fallbackVal;
+    }
+  }
+
+  function loadInitialCatPrefs() {
+    const raw = loadJsonFromStorage(CAT_PREFS_STORAGE_KEY, null);
+    const savedOrder = Array.isArray(raw?.order) ? raw.order.filter((c) => VALID_CATEGORIES.has(c)) : [];
+    const mergedOrder = [
+      ...savedOrder,
+      ...DEFAULT_CATEGORY_ORDER.filter((c) => !savedOrder.includes(c)),
+    ];
+    const hidden = Array.isArray(raw?.hidden)
+      ? raw.hidden.filter((c) => c !== "all" && VALID_CATEGORIES.has(c))
+      : [];
+    return { order: mergedOrder, hidden };
+  }
+
   const state = {
     data: window.NEWS_DATA || { date: "--", updatedAt: "--", keywords: [], weatherCities: DEFAULT_WEATHER_CITIES, items: [] },
     category: getSavedCategory(),
     query: "",
+    unreadOnly: false,
     isReloading: false,
     lastDataSignature: "",
+    bookmarks: loadJsonFromStorage(BOOKMARKS_STORAGE_KEY, []).filter((b) => b && b.url && b.title),
+    readUrls: new Set(loadJsonFromStorage(READ_URLS_STORAGE_KEY, []).filter((u) => typeof u === "string")),
+    myTopics: loadJsonFromStorage(MY_TOPICS_STORAGE_KEY, []).filter((t) => typeof t === "string" && t.trim()),
+    fontSize: safeStorageGet(typeof localStorage !== "undefined" ? localStorage : null, FONT_SIZE_STORAGE_KEY) || "normal",
+    catPrefs: loadInitialCatPrefs(),
   };
 
   // DOM
   const elHeaderUpdated = document.getElementById("header-updated");
   const elSearchInput = document.getElementById("search-input");
   const elSearchClear = document.getElementById("search-clear");
+  const elBtnFontSize = document.getElementById("btn-font-size");
+  const elBtnSettings = document.getElementById("btn-settings");
   const elBtnRefresh = document.getElementById("btn-refresh");
   const elBtnTheme = document.getElementById("btn-theme");
   const elBrandReset = document.getElementById("brand-reset");
   const elBtnWeatherShortcut = document.getElementById("btn-weather-shortcut");
   const elHeaderWeatherIcon = document.getElementById("header-weather-icon");
+  const elCategoryNav = document.getElementById("category-nav");
   const elTrendingBar = document.getElementById("trending-bar");
   const elTrendingTags = document.getElementById("trending-tags");
   const elFilterStatus = document.getElementById("filter-status");
@@ -90,6 +140,7 @@
   const elHeroSideList = document.getElementById("hero-side-list");
   const elFeedSection = document.getElementById("feed-section");
   const elFeedHeading = document.getElementById("feed-heading");
+  const elBtnUnreadOnly = document.getElementById("btn-unread-only");
   const elFeedCount = document.getElementById("feed-count");
   const elNewsGrid = document.getElementById("news-grid");
   const elTextFeedWrap = document.getElementById("text-feed-wrap");
@@ -101,6 +152,15 @@
   const elModalBackdrop = document.getElementById("modal-backdrop");
   const elModalClose = document.getElementById("modal-close");
   const elModalContent = document.getElementById("modal-content");
+  const elSettingsModal = document.getElementById("settings-modal");
+  const elSettingsBackdrop = document.getElementById("settings-backdrop");
+  const elSettingsClose = document.getElementById("settings-close");
+  const elFontSizeOptions = document.getElementById("font-size-options");
+  const elMyTopicInput = document.getElementById("my-topic-input");
+  const elBtnAddTopic = document.getElementById("btn-add-topic");
+  const elMyTopicsList = document.getElementById("my-topics-list");
+  const elCategoryOrderList = document.getElementById("category-order-list");
+  const elBtnResetPrefs = document.getElementById("btn-reset-prefs");
   const navTabs = document.querySelectorAll(".nav-tab");
 
   function escapeHtml(str) {
@@ -271,16 +331,156 @@
     }
   }
 
+  // Bookmarks, Read Status, My Topics, Font Size & Category Prefs
+  function isBookmarked(url) {
+    if (!url) return false;
+    return state.bookmarks.some((b) => b.url === url);
+  }
+
+  function findArticleByUrl(url) {
+    if (!url) return null;
+    const fromData = (Array.isArray(state.data.items) ? state.data.items : []).find((it) => it && it.url === url);
+    if (fromData) return fromData;
+    return state.bookmarks.find((b) => b && b.url === url) || null;
+  }
+
+  function toggleBookmarkByUrl(url) {
+    if (!url) return false;
+    const existingIdx = state.bookmarks.findIndex((b) => b.url === url);
+    let nowSaved = false;
+    if (existingIdx >= 0) {
+      state.bookmarks.splice(existingIdx, 1);
+      nowSaved = false;
+    } else {
+      const item = findArticleByUrl(url);
+      if (item) {
+        const cleanCopy = {
+          category: item.category || "domestic",
+          title: item.title,
+          source: item.source || "",
+          publishedAt: item.publishedAt || "",
+          publishedTs: item.publishedTs || Math.floor(Date.now() / 1000),
+          image: getSafeImageUrl(item),
+          summary: item.summary || "",
+          points: Array.isArray(item.points) ? item.points : [],
+          impact: item.impact || "",
+          tags: Array.isArray(item.tags) ? item.tags : [],
+          url: item.url,
+          savedAt: Date.now(),
+        };
+        state.bookmarks.unshift(cleanCopy);
+        nowSaved = true;
+      }
+    }
+    safeStorageSet(localStorage, BOOKMARKS_STORAGE_KEY, JSON.stringify(state.bookmarks.slice(0, 200)));
+    renderFeed();
+    return nowSaved;
+  }
+
+  function markArticleRead(url) {
+    if (!url || state.readUrls.has(url)) return;
+    state.readUrls.add(url);
+    const list = Array.from(state.readUrls).slice(-500);
+    safeStorageSet(localStorage, READ_URLS_STORAGE_KEY, JSON.stringify(list));
+    if (state.unreadOnly) {
+      renderFeed();
+      return;
+    }
+    if (elMainContainer && typeof elMainContainer.querySelectorAll === "function") {
+      elMainContainer.querySelectorAll(`[data-article-url]`).forEach((card) => {
+        if (card.getAttribute("data-article-url") === url) {
+          card.classList.add("is-read");
+        }
+      });
+    }
+  }
+
+  function getMatchedMyTopic(item) {
+    if (!state.myTopics || state.myTopics.length === 0 || !item) return "";
+    const hay = [
+      item.title,
+      item.summary,
+      ...(Array.isArray(item.tags) ? item.tags : []),
+    ]
+      .join(" ")
+      .toLowerCase();
+    for (const topic of state.myTopics) {
+      const t = topic.trim();
+      if (t && hay.includes(t.toLowerCase())) {
+        return t;
+      }
+    }
+    return "";
+  }
+
+  function applyFontSize(size) {
+    const valid = size === "large" || size === "xlarge" ? size : "normal";
+    state.fontSize = valid;
+    document.documentElement.setAttribute("data-font-size", valid);
+    safeStorageSet(localStorage, FONT_SIZE_STORAGE_KEY, valid);
+    if (elBtnFontSize) {
+      elBtnFontSize.classList.toggle("active", valid !== "normal");
+      const labelMap = { normal: "標準", large: "大きめ", xlarge: "特大" };
+      elBtnFontSize.setAttribute("title", `文字サイズ: ${labelMap[valid]}（クリックで切替）`);
+    }
+    if (elFontSizeOptions && typeof elFontSizeOptions.querySelectorAll === "function") {
+      elFontSizeOptions.querySelectorAll("[data-set-font]").forEach((btn) => {
+        btn.classList.toggle("active", btn.getAttribute("data-set-font") === valid);
+      });
+    }
+  }
+
+  function cycleFontSize() {
+    const order = ["normal", "large", "xlarge"];
+    const next = order[(order.indexOf(state.fontSize) + 1) % order.length];
+    applyFontSize(next);
+  }
+
+  function applyCategoryPreferences() {
+    const { order, hidden } = state.catPrefs;
+    const hiddenSet = new Set(hidden);
+    const tabsByCat = new Map();
+    navTabs.forEach((tab) => {
+      const c = tab.getAttribute("data-category");
+      if (c) tabsByCat.set(c, tab);
+    });
+    order.forEach((cat) => {
+      const tab = tabsByCat.get(cat);
+      if (!tab) return;
+      const isHidden = cat !== "all" && hiddenSet.has(cat);
+      tab.hidden = isHidden;
+      if (elCategoryNav && typeof elCategoryNav.appendChild === "function") {
+        elCategoryNav.appendChild(tab);
+      }
+    });
+    if (hiddenSet.has(state.category)) {
+      state.category = "all";
+      saveCategory("all");
+    }
+  }
+
+  function getActiveCategoryOrder() {
+    const hiddenSet = new Set(state.catPrefs.hidden);
+    return state.catPrefs.order.filter((c) => c === "all" || !hiddenSet.has(c));
+  }
+
   function renderTrending() {
     const keywords = Array.isArray(state.data.keywords) ? state.data.keywords : [];
     const currentQ = state.query.trim().toLowerCase();
-    elTrendingTags.innerHTML = keywords
-      .map((kw) => {
-        const searchVal = normalizeKeywordQuery(kw);
-        const active = currentQ && currentQ === searchVal.toLowerCase() ? "active" : "";
-        return `<button type="button" class="trending-chip ${active}" data-kw="${escapeHtml(searchVal)}"># ${escapeHtml(kw)}</button>`;
-      })
-      .join("");
+
+    const myTopicChips = state.myTopics.map((topic) => {
+      const active = currentQ && currentQ === topic.toLowerCase() ? "active" : "";
+      return `<button type="button" class="trending-chip my-topic-chip ${active}" data-kw="${escapeHtml(topic)}">📌 ${escapeHtml(topic)}</button>`;
+    });
+
+    const kwChips = keywords.map((kw) => {
+      const searchVal = normalizeKeywordQuery(kw);
+      const active = currentQ && currentQ === searchVal.toLowerCase() ? "active" : "";
+      return `<button type="button" class="trending-chip ${active}" data-kw="${escapeHtml(searchVal)}"># ${escapeHtml(kw)}</button>`;
+    });
+
+    const manageBtn = `<button type="button" class="trending-chip my-topic-manage-chip" data-open-settings="1">＋ マイトピック登録</button>`;
+    elTrendingTags.innerHTML = [...myTopicChips, ...kwChips, manageBtn].join("");
   }
 
   function renderHero(items) {
@@ -289,16 +489,22 @@
     const leadMeta = getCategoryMeta(lead.category);
     const leadImg = getSafeImageUrl(lead);
     const leadFallback = getFallbackImage(lead);
+    const leadSaved = isBookmarked(lead.url);
+    const leadRead = Boolean(lead.url && state.readUrls.has(lead.url));
+    const leadTopic = getMatchedMyTopic(lead);
 
     elHeroLead.innerHTML = `
-      <article class="hero-card" data-article-idx="${lead._idx}" data-article-url="${escapeHtml(lead.url || "")}">
+      <article class="hero-card ${leadRead ? "is-read" : ""} ${leadTopic ? "is-my-topic" : ""}" data-article-idx="${lead._idx}" data-article-url="${escapeHtml(lead.url || "")}">
         <div class="hero-image-wrap">
           <img src="${escapeHtml(leadImg)}" data-fallback-src="${escapeHtml(leadFallback)}" alt="${escapeHtml(lead.title)}" referrerpolicy="no-referrer" />
           <span class="hero-top-badge">TOP PICKUP</span>
+          <button type="button" class="bookmark-btn ${leadSaved ? "active" : ""}" data-bookmark-url="${escapeHtml(lead.url || "")}" title="${leadSaved ? "保存を解除" : "あとで読むに保存"}" aria-label="ブックマーク切替">${leadSaved ? "★" : "☆"}</button>
         </div>
         <div class="hero-body">
           <div class="meta-row">
             <span class="cat-pill ${escapeHtml(lead.category)}">${leadMeta.icon} ${escapeHtml(leadMeta.label)}</span>
+            ${leadTopic ? `<span class="my-topic-badge">📌 ${escapeHtml(leadTopic)}</span>` : ""}
+            ${leadRead ? `<span class="read-badge">既読</span>` : ""}
             <span>${escapeHtml(lead.source || "")}</span>
             <span>•</span>
             <span>${escapeHtml(formatRelativeTime(lead))}</span>
@@ -314,17 +520,23 @@
         const meta = getCategoryMeta(item.category);
         const img = getSafeImageUrl(item);
         const fb = getFallbackImage(item);
+        const isSaved = isBookmarked(item.url);
+        const isRead = Boolean(item.url && state.readUrls.has(item.url));
+        const matchedTopic = getMatchedMyTopic(item);
         return `
-          <button type="button" class="side-item" data-article-idx="${item._idx}" data-article-url="${escapeHtml(item.url || "")}">
+          <div class="side-item ${isRead ? "is-read" : ""} ${matchedTopic ? "is-my-topic" : ""}" role="button" tabindex="0" data-article-idx="${item._idx}" data-article-url="${escapeHtml(item.url || "")}">
             <img class="side-thumb" src="${escapeHtml(img)}" data-fallback-src="${escapeHtml(fb)}" alt="" loading="lazy" referrerpolicy="no-referrer" />
             <div class="side-item-body">
               <div class="meta-row">
                 <span class="cat-pill ${escapeHtml(item.category)}">${meta.icon} ${escapeHtml(meta.label)}</span>
+                ${matchedTopic ? `<span class="my-topic-badge">📌 ${escapeHtml(matchedTopic)}</span>` : ""}
+                ${isRead ? `<span class="read-badge">既読</span>` : ""}
                 <span>${escapeHtml(formatRelativeTime(item))}</span>
               </div>
               <div class="side-item-title">${escapeHtml(item.title)}</div>
             </div>
-          </button>
+            <button type="button" class="bookmark-btn ${isSaved ? "active" : ""}" data-bookmark-url="${escapeHtml(item.url || "")}" title="${isSaved ? "保存を解除" : "あとで読むに保存"}" aria-label="ブックマーク切替">${isSaved ? "★" : "☆"}</button>
+          </div>
         `;
       })
       .join("");
@@ -346,11 +558,16 @@
     if (elFeedSection) elFeedSection.hidden = false;
     if (elWeatherSection) elWeatherSection.hidden = true;
 
-    const rawItems = Array.isArray(state.data.items) ? state.data.items : [];
+    const isSavedView = state.category === "saved" && !q;
+    const rawItems = isSavedView
+      ? state.bookmarks
+      : Array.isArray(state.data.items)
+        ? state.data.items
+        : [];
     const nowSec = Math.floor(Date.now() / 1000);
     const allWithIdx = rawItems
-      .map((item, idx) => ({ ...item, _idx: idx }))
-      .filter((item) => isArticleWithin24Hours(item, nowSec));
+      .map((item, idx) => ({ ...item, _idx: isSavedView ? -1 : idx }))
+      .filter((item) => (isSavedView ? true : isArticleWithin24Hours(item, nowSec)));
 
     if (q) {
       elFilterStatus.hidden = false;
@@ -361,7 +578,16 @@
 
     const qLower = q.toLowerCase();
     const filtered = allWithIdx.filter((item) => {
-      if (state.category !== "all" && state.category !== "weather" && item.category !== state.category) {
+      if (state.unreadOnly && item.url && state.readUrls.has(item.url)) {
+        return false;
+      }
+      if (
+        !isSavedView &&
+        state.category !== "all" &&
+        state.category !== "weather" &&
+        state.category !== "saved" &&
+        item.category !== state.category
+      ) {
         return false;
       }
       if (!qLower) return true;
@@ -378,7 +604,7 @@
       return haystack.includes(qLower);
     });
 
-    const isTopOverview = state.category === "all" && !q && filtered.length >= 5;
+    const isTopOverview = state.category === "all" && !q && !state.unreadOnly && filtered.length >= 5;
     const visualItems = filtered.slice(0, 10);
     const textItems = filtered.slice(10);
     let gridItems = visualItems;
@@ -397,15 +623,26 @@
         ? "検索結果"
         : state.category === "all"
           ? "注目のトレンド記事"
-          : `${meta.icon} ${meta.label}のニュース`;
+          : state.category === "saved"
+            ? "⭐ 保存した記事（あとで読む）"
+            : `${meta.icon} ${meta.label}のニュース`;
     }
 
     elFeedCount.textContent = `${filtered.length}件の記事`;
+    if (elBtnUnreadOnly) {
+      elBtnUnreadOnly.classList.toggle("active", state.unreadOnly);
+      elBtnUnreadOnly.setAttribute("aria-pressed", String(state.unreadOnly));
+    }
 
     if (gridItems.length === 0 && !isTopOverview) {
+      const emptyMsg = isSavedView
+        ? "保存した記事はまだありません。記事カードの「☆」ボタンからあとで読む記事を保存できます。"
+        : state.unreadOnly
+          ? "未読の記事はありません。「未読のみ」を解除するとすべての記事を表示します。"
+          : "条件に一致するニュースが見つかりませんでした。";
       elNewsGrid.innerHTML = `
         <div class="empty-state">
-          <p>条件に一致するニュースが見つかりませんでした。</p>
+          <p>${escapeHtml(emptyMsg)}</p>
         </div>
       `;
     } else {
@@ -414,19 +651,25 @@
           const meta = getCategoryMeta(item.category);
           const img = getSafeImageUrl(item);
           const fb = getFallbackImage(item);
+          const isSaved = isBookmarked(item.url);
+          const isRead = Boolean(item.url && state.readUrls.has(item.url));
+          const matchedTopic = getMatchedMyTopic(item);
           const tagsHtml = (Array.isArray(item.tags) ? item.tags : [])
             .slice(0, 3)
             .map((t) => `<span class="tag-chip">#${escapeHtml(t)}</span>`)
             .join("");
 
           return `
-            <article class="news-card" data-article-idx="${item._idx}" data-article-url="${escapeHtml(item.url || "")}">
+            <article class="news-card ${isRead ? "is-read" : ""} ${matchedTopic ? "is-my-topic" : ""}" data-article-idx="${item._idx}" data-article-url="${escapeHtml(item.url || "")}">
               <div class="card-thumb-wrap">
                 <img src="${escapeHtml(img)}" data-fallback-src="${escapeHtml(fb)}" alt="${escapeHtml(item.title)}" loading="lazy" referrerpolicy="no-referrer" />
+                <button type="button" class="bookmark-btn ${isSaved ? "active" : ""}" data-bookmark-url="${escapeHtml(item.url || "")}" title="${isSaved ? "保存を解除" : "あとで読むに保存"}" aria-label="ブックマーク切替">${isSaved ? "★" : "☆"}</button>
               </div>
               <div class="card-body">
                 <div class="meta-row">
                   <span class="cat-pill ${escapeHtml(item.category)}">${meta.icon} ${escapeHtml(meta.label)}</span>
+                  ${matchedTopic ? `<span class="my-topic-badge">📌 ${escapeHtml(matchedTopic)}</span>` : ""}
+                  ${isRead ? `<span class="read-badge">既読</span>` : ""}
                   <span>${escapeHtml(item.source || "")}</span>
                   <span>•</span>
                   <span>${escapeHtml(formatRelativeTime(item))}</span>
@@ -449,12 +692,17 @@
           .map((item, idx) => {
             const meta = getCategoryMeta(item.category);
             const rank = idx + 11;
+            const isSaved = isBookmarked(item.url);
+            const isRead = Boolean(item.url && state.readUrls.has(item.url));
+            const matchedTopic = getMatchedMyTopic(item);
             return `
-              <article class="text-news-item" data-article-idx="${item._idx}" data-article-url="${escapeHtml(item.url || "")}">
+              <article class="text-news-item ${isRead ? "is-read" : ""} ${matchedTopic ? "is-my-topic" : ""}" data-article-idx="${item._idx}" data-article-url="${escapeHtml(item.url || "")}">
                 <span class="text-news-rank">${rank}</span>
                 <div class="text-news-body">
                   <div class="meta-row">
                     <span class="cat-pill ${escapeHtml(item.category)}">${meta.icon} ${escapeHtml(meta.label)}</span>
+                    ${matchedTopic ? `<span class="my-topic-badge">📌 ${escapeHtml(matchedTopic)}</span>` : ""}
+                    ${isRead ? `<span class="read-badge">既読</span>` : ""}
                     <span>${escapeHtml(item.source || "")}</span>
                     <span>•</span>
                     <span>${escapeHtml(formatRelativeTime(item))}</span>
@@ -462,6 +710,7 @@
                   <h3 class="text-news-title">${escapeHtml(item.title)}</h3>
                   <p class="text-news-summary">${escapeHtml(item.summary)}</p>
                 </div>
+                <button type="button" class="bookmark-btn ${isSaved ? "active" : ""}" data-bookmark-url="${escapeHtml(item.url || "")}" title="${isSaved ? "保存を解除" : "あとで読むに保存"}" aria-label="ブックマーク切替">${isSaved ? "★" : "☆"}</button>
               </article>
             `;
           })
@@ -473,17 +722,30 @@
     }
   }
 
+  function copyTextToClipboard(text, onDone) {
+    if (navigator.clipboard && typeof navigator.clipboard.writeText === "function") {
+      navigator.clipboard.writeText(text).then(onDone).catch(() => {});
+      return;
+    }
+    onDone();
+  }
+
   function openArticleModal(idx, urlFallback = "") {
     const items = Array.isArray(state.data.items) ? state.data.items : [];
     let item = Number.isInteger(idx) && idx >= 0 ? items[idx] : null;
     if (!item && urlFallback) {
-      item = items.find((it) => it && it.url === urlFallback) || null;
+      item = findArticleByUrl(urlFallback);
     }
     if (!item) return;
+
+    if (item.url) {
+      markArticleRead(item.url);
+    }
 
     const meta = getCategoryMeta(item.category);
     const img = getSafeImageUrl(item);
     const fb = getFallbackImage(item);
+    const isSaved = isBookmarked(item.url);
     const pointsHtml = (Array.isArray(item.points) ? item.points : [])
       .map((pt) => `<li>${escapeHtml(pt)}</li>`)
       .join("");
@@ -491,6 +753,9 @@
       .map((t) => `<span class="tag-chip">#${escapeHtml(t)}</span>`)
       .join("");
     const safeUrl = isSafeHttpUrl(item.url) ? item.url.trim() : "";
+    const lineShareUrl = safeUrl
+      ? `https://social-plugins.line.me/lineit/share?url=${encodeURIComponent(safeUrl)}`
+      : "";
 
     elModalContent.innerHTML = `
       <img class="modal-hero-img" src="${escapeHtml(img)}" data-fallback-src="${escapeHtml(fb)}" alt="${escapeHtml(item.title)}" referrerpolicy="no-referrer" />
@@ -522,8 +787,19 @@
             : ""
         }
 
+        <div style="display:flex;gap:6px;flex-wrap:wrap;">${tagsHtml}</div>
+
         <div class="modal-actions">
-          <div style="display:flex;gap:6px;flex-wrap:wrap;">${tagsHtml}</div>
+          <div class="modal-share-bar">
+            ${
+              safeUrl
+                ? `<button type="button" class="modal-action-btn ${isSaved ? "active" : ""}" id="btn-modal-bookmark" data-bookmark-url="${escapeHtml(safeUrl)}">${isSaved ? "★ 保存済み" : "☆ あとで読む"}</button>
+                   <button type="button" class="modal-action-btn" id="btn-modal-copy" data-share-url="${escapeHtml(safeUrl)}">🔗 URLコピー</button>
+                   <button type="button" class="modal-action-btn" id="btn-modal-share" data-share-url="${escapeHtml(safeUrl)}" data-share-title="${escapeHtml(item.title)}">📤 シェア</button>
+                   <a class="modal-action-btn modal-line-btn" href="${escapeHtml(lineShareUrl)}" target="_blank" rel="noopener noreferrer">💬 LINEで送る</a>`
+                : ""
+            }
+          </div>
           ${
             safeUrl
               ? `<a class="read-original-btn" href="${escapeHtml(safeUrl)}" target="_blank" rel="noopener noreferrer">元記事を読む ↗</a>`
@@ -1507,6 +1783,62 @@
     );
   }
 
+  const DOW_SHORT_JP = ["日", "月", "火", "水", "木", "金", "土"];
+
+  function buildDefaultHourlyAndDaily(base) {
+    const temp = Math.round(Number(base?.temp ?? 16));
+    const maxTemp = Math.round(Number(base?.maxTemp ?? temp + 2));
+    const minTemp = Math.round(Number(base?.minTemp ?? temp - 3));
+    const code = Math.round(Number(base?.code ?? 1));
+    const pop = Math.round(Number(base?.pop ?? 10));
+
+    const now = new Date();
+    const jstMs = now.getTime() + (now.getTimezoneOffset() + 540) * 60000;
+    const jst = new Date(jstMs);
+    const startHour = Math.floor(jst.getHours() / 3) * 3;
+
+    const hourly = [];
+    for (let i = 0; i < 8; i++) {
+      const h = (startHour + i * 3) % 24;
+      const phase = Math.min(1, Math.abs(h - 14) / 12);
+      const estTemp = Math.round(maxTemp - (maxTemp - minTemp) * phase);
+      hourly.push({
+        time: `${String(h).padStart(2, "0")}:00`,
+        code,
+        temp: estTemp,
+        pop,
+      });
+    }
+
+    const daily = [];
+    for (let d = 0; d < 7; d++) {
+      const dt = new Date(jstMs + d * 86400000);
+      const offset = d > 0 ? (d % 3) - 1 : 0;
+      daily.push({
+        date: `${dt.getMonth() + 1}/${dt.getDate()}`,
+        dow: d === 0 ? "今日" : d === 1 ? "明日" : DOW_SHORT_JP[dt.getDay()],
+        code,
+        maxTemp: maxTemp + offset,
+        minTemp: minTemp + offset,
+        pop,
+      });
+    }
+    return { hourly, daily };
+  }
+
+  function ensureWeatherForecasts(w) {
+    if (!w) return w;
+    const hasHourly = Array.isArray(w.hourly) && w.hourly.length >= 4;
+    const hasDaily = Array.isArray(w.daily) && w.daily.length >= 5;
+    if (hasHourly && hasDaily) return w;
+    const fb = buildDefaultHourlyAndDaily(w);
+    return {
+      ...w,
+      hourly: hasHourly ? w.hourly : fb.hourly,
+      daily: hasDaily ? w.daily : fb.daily,
+    };
+  }
+
   function parseWeatherItem(entry) {
     const temp = Math.round(entry?.current?.temperature_2m ?? 0);
     const code = Math.round(Number(entry?.current?.weather_code ?? 0));
@@ -1515,7 +1847,51 @@
     const maxTemp = Math.round(entry?.daily?.temperature_2m_max?.[0] ?? temp);
     const minTemp = Math.round(entry?.daily?.temperature_2m_min?.[0] ?? temp);
     const pop = entry?.daily?.precipitation_probability_max?.[0] ?? 0;
-    return { temp, wind, code, meta, maxTemp, minTemp, pop };
+
+    const hourly = [];
+    const hTimes = entry?.hourly?.time || [];
+    const hTemps = entry?.hourly?.temperature_2m || [];
+    const hCodes = entry?.hourly?.weather_code || [];
+    const hPops = entry?.hourly?.precipitation_probability || [];
+    if (hTimes.length > 0) {
+      const nowJstIso = formatNowJst().updatedAt.replace(" ", "T").slice(0, 13) + ":00";
+      let startIdx = hTimes.findIndex((t) => String(t) >= nowJstIso);
+      if (startIdx < 0) startIdx = 0;
+      for (let step = 0; step < 8; step++) {
+        const pos = startIdx + step * 3;
+        if (pos >= hTimes.length) break;
+        const timeStr = String(hTimes[pos]).split("T").pop()?.slice(0, 5) || "00:00";
+        hourly.push({
+          time: timeStr,
+          code: Math.round(Number(hCodes[pos] ?? code)),
+          temp: Math.round(Number(hTemps[pos] ?? temp)),
+          pop: Math.round(Number(hPops[pos] ?? pop)),
+        });
+      }
+    }
+
+    const daily = [];
+    const dTimes = entry?.daily?.time || [];
+    const dCodes = entry?.daily?.weather_code || [];
+    const dMaxs = entry?.daily?.temperature_2m_max || [];
+    const dMins = entry?.daily?.temperature_2m_min || [];
+    const dPops = entry?.daily?.precipitation_probability_max || [];
+    dTimes.slice(0, 7).forEach((dStr, idx) => {
+      const dt = new Date(`${dStr}T00:00:00+09:00`);
+      const m = Number.isFinite(dt.getMonth()) ? dt.getMonth() + 1 : idx + 1;
+      const d = Number.isFinite(dt.getDate()) ? dt.getDate() : idx + 1;
+      const dow = Number.isFinite(dt.getDay()) ? DOW_SHORT_JP[dt.getDay()] : "";
+      daily.push({
+        date: `${m}/${d}`,
+        dow: idx === 0 ? "今日" : idx === 1 ? "明日" : dow,
+        code: Math.round(Number(dCodes[idx] ?? code)),
+        maxTemp: Math.round(Number(dMaxs[idx] ?? maxTemp)),
+        minTemp: Math.round(Number(dMins[idx] ?? minTemp)),
+        pop: Math.round(Number(dPops[idx] ?? pop)),
+      });
+    });
+
+    return ensureWeatherForecasts({ temp, wind, code, meta, maxTemp, minTemp, pop, hourly, daily });
   }
 
   function parseJmaForecastEntry(jmaJson, fallbackEntry) {
@@ -1534,6 +1910,7 @@
     const tempsRaw = (rep?.timeSeries?.[2]?.areas?.[0]?.temps || [])
       .map((t) => Number(t))
       .filter((n) => Number.isFinite(n));
+    const wkArea0 = weekly?.timeSeries?.[0]?.areas?.[0] || {};
     const wkArea = weekly?.timeSeries?.[1]?.areas?.[0] || {};
     const wkMins = (wkArea.tempsMin || []).map(Number).filter(Number.isFinite);
     const wkMaxs = (wkArea.tempsMax || []).map(Number).filter(Number.isFinite);
@@ -1557,7 +1934,32 @@
     }
     const temp = tempsRaw.length >= 1 ? Math.round(tempsRaw[0]) : (fallbackEntry?.temp ?? Math.round((maxTemp + minTemp) / 2));
 
-    return {
+    const wkDates = weekly?.timeSeries?.[0]?.timeDefines || [];
+    const wkCodes = wkArea0.weatherCodes || [];
+    const wkPops = wkArea0.pops || [];
+    const wkMaxRaw = wkArea.tempsMax || [];
+    const wkMinRaw = wkArea.tempsMin || [];
+    const daily = [];
+    wkDates.slice(0, 7).forEach((dStr, idx) => {
+      const dt = new Date(dStr);
+      const m = Number.isFinite(dt.getMonth()) ? dt.getMonth() + 1 : idx + 1;
+      const d = Number.isFinite(dt.getDate()) ? dt.getDate() : idx + 1;
+      const dow = Number.isFinite(dt.getDay()) ? DOW_SHORT_JP[dt.getDay()] : "";
+      const dCode = jmaCodeToWmo(wkCodes[idx] || jmaCode);
+      const dPopNum = Number(wkPops[idx]);
+      const dMaxNum = Number(wkMaxRaw[idx]);
+      const dMinNum = Number(wkMinRaw[idx]);
+      daily.push({
+        date: `${m}/${d}`,
+        dow: idx === 0 ? "今日" : idx === 1 ? "明日" : dow,
+        code: dCode,
+        maxTemp: Number.isFinite(dMaxNum) && String(wkMaxRaw[idx]).trim() ? Math.round(dMaxNum) : maxTemp,
+        minTemp: Number.isFinite(dMinNum) && String(wkMinRaw[idx]).trim() ? Math.round(dMinNum) : minTemp,
+        pop: Number.isFinite(dPopNum) && String(wkPops[idx]).trim() ? Math.round(dPopNum) : pop,
+      });
+    });
+
+    return ensureWeatherForecasts({
       temp,
       wind: fallbackEntry?.wind ?? 4,
       code,
@@ -1565,7 +1967,9 @@
       maxTemp,
       minTemp,
       pop,
-    };
+      hourly: fallbackEntry?.hourly,
+      daily: daily.length >= 5 ? daily : fallbackEntry?.daily,
+    });
   }
 
   async function fetchCityWeatherFromJma(city, fallbackEntry = null) {
@@ -1576,29 +1980,80 @@
     return parseJmaForecastEntry(json, fallbackEntry);
   }
 
+  function renderWeatherForecastBlocksHtml(w) {
+    const safeW = ensureWeatherForecasts(w);
+    const hourlyHtml = (safeW.hourly || [])
+      .slice(0, 8)
+      .map((h) => {
+        const m = getWeatherMeta(h.code);
+        return `
+          <div class="weather-hour-item">
+            <span class="weather-hour-time">${escapeHtml(h.time)}</span>
+            <span class="weather-hour-icon">${m.icon}</span>
+            <span class="weather-hour-temp">${h.temp}°</span>
+            <span class="weather-hour-pop">☔${h.pop}%</span>
+          </div>
+        `;
+      })
+      .join("");
+
+    const dailyHtml = (safeW.daily || [])
+      .slice(0, 7)
+      .map((d) => {
+        const m = getWeatherMeta(d.code);
+        return `
+          <div class="weather-day-col">
+            <span class="weather-day-label">${escapeHtml(d.dow)}</span>
+            <span class="weather-day-date">${escapeHtml(d.date)}</span>
+            <span class="weather-day-icon">${m.icon}</span>
+            <span class="weather-day-temps">${d.maxTemp}°/${d.minTemp}°</span>
+            <span class="weather-day-pop">☔${d.pop}%</span>
+          </div>
+        `;
+      })
+      .join("");
+
+    return `
+      <div class="weather-forecast-block">
+        <div class="weather-forecast-title">🕒 3時間ごとの天気推移</div>
+        <div class="weather-hourly-strip">${hourlyHtml}</div>
+      </div>
+      <div class="weather-forecast-block">
+        <div class="weather-forecast-title">📅 週間天気予報（7日間）</div>
+        <div class="weather-daily-list">${dailyHtml}</div>
+      </div>
+    `;
+  }
+
   function renderCurrentWeatherCard(loc, w) {
-    if (w?.meta?.icon) syncHeaderWeatherIcon(w.meta.icon);
+    const safeW = ensureWeatherForecasts(w);
+    if (safeW?.meta?.icon) syncHeaderWeatherIcon(safeW.meta.icon);
     if (!elWeatherCurrentWrap) return;
     elWeatherCurrentWrap.innerHTML = `
       <div class="weather-current-card">
-        <div class="weather-current-main">
-          <div class="weather-current-icon">${w.meta.icon}</div>
-          <div>
-            <div class="weather-current-loc-badge">📍 現在地の天気</div>
-            <div class="weather-current-city">${escapeHtml(loc.locName)}</div>
-            <div class="weather-current-desc">${escapeHtml(w.meta.label)}・最高 ${w.maxTemp}°C / 最低 ${w.minTemp}°C</div>
+        <div class="weather-current-top">
+          <div class="weather-current-main">
+            <div class="weather-current-icon">${safeW.meta.icon}</div>
+            <div>
+              <div class="weather-current-loc-badge">📍 現在地の天気</div>
+              <div class="weather-current-city">${escapeHtml(loc.locName)}</div>
+              <div class="weather-current-desc">${escapeHtml(safeW.meta.label)}・最高 ${safeW.maxTemp}°C / 最低 ${safeW.minTemp}°C</div>
+            </div>
+          </div>
+          <div class="weather-current-stats">
+            <div class="weather-current-temp">${safeW.temp}°C</div>
+            <div class="weather-current-details">
+              <span>☔ 降水確率: ${safeW.pop}%</span>
+              <span>🍃 風速: ${safeW.wind} km/h</span>
+            </div>
+            <div class="weather-loc-actions">
+              <button type="button" class="weather-action-btn" id="btn-weather-gps">📍 現在地を再取得</button>
+              <button type="button" class="weather-action-btn" id="btn-weather-city">🏙️ 都市名を指定</button>
+            </div>
           </div>
         </div>
-        <div class="weather-current-stats">
-          <div class="weather-current-temp">${w.temp}°C</div>
-          <div class="weather-current-details">
-            <span>☔ 降水確率: ${w.pop}%</span>
-            <span>🍃 風速: ${w.wind} km/h</span>
-          </div>
-          <div class="weather-loc-actions">
-            <button type="button" class="weather-action-btn" id="btn-weather-gps">📍 現在地を再取得</button>
-            <button type="button" class="weather-action-btn" id="btn-weather-city">🏙️ 都市名を指定</button>
-          </div>
+        <div class="weather-current-forecasts">
+          ${renderWeatherForecastBlocksHtml(safeW)}
         </div>
       </div>
     `;
@@ -1611,42 +2066,44 @@
     if (!entry) {
       elWeatherDetailPanel.innerHTML = `
         <div class="weather-detail-placeholder">
-          <p>👆 地図上の都市名をクリックすると、詳しい天気情報が表示されます。</p>
+          <p>👆 地図上の都市名をクリックすると、3時間ごと・週間予報を含む詳しい天気情報が表示されます。</p>
         </div>
       `;
       return;
     }
     const { city, w } = entry;
+    const safeW = ensureWeatherForecasts(w);
     elWeatherDetailPanel.innerHTML = `
       <div class="weather-detail-head">
         <span class="weather-detail-city">${escapeHtml(city.name)}</span>
         <span class="weather-city-region">${escapeHtml(city.region)}</span>
       </div>
       <div class="weather-detail-main">
-        <span class="weather-detail-icon">${w.meta.icon}</span>
+        <span class="weather-detail-icon">${safeW.meta.icon}</span>
         <div>
-          <div class="weather-detail-temp">${w.temp}°C</div>
-          <div class="weather-detail-label">${escapeHtml(w.meta.label)}</div>
+          <div class="weather-detail-temp">${safeW.temp}°C</div>
+          <div class="weather-detail-label">${escapeHtml(safeW.meta.label)}</div>
         </div>
       </div>
       <div class="weather-detail-grid">
         <div class="weather-detail-stat">
           <span class="weather-detail-stat-label">最高気温</span>
-          <span class="weather-detail-stat-val">${w.maxTemp}°C</span>
+          <span class="weather-detail-stat-val">${safeW.maxTemp}°C</span>
         </div>
         <div class="weather-detail-stat">
           <span class="weather-detail-stat-label">最低気温</span>
-          <span class="weather-detail-stat-val">${w.minTemp}°C</span>
+          <span class="weather-detail-stat-val">${safeW.minTemp}°C</span>
         </div>
         <div class="weather-detail-stat">
           <span class="weather-detail-stat-label">降水確率</span>
-          <span class="weather-detail-stat-val">☔ ${w.pop}%</span>
+          <span class="weather-detail-stat-val">☔ ${safeW.pop}%</span>
         </div>
         <div class="weather-detail-stat">
           <span class="weather-detail-stat-label">風速</span>
-          <span class="weather-detail-stat-val">🍃 ${w.wind} km/h</span>
+          <span class="weather-detail-stat-val">🍃 ${safeW.wind} km/h</span>
         </div>
       </div>
+      ${renderWeatherForecastBlocksHtml(safeW)}
     `;
   }
 
@@ -1688,7 +2145,7 @@
       const code = Number.isFinite(Number(p.code)) ? Math.round(Number(p.code)) : 0;
       return {
         city,
-        w: {
+        w: ensureWeatherForecasts({
           temp: p.temp,
           wind: p.wind ?? 0,
           code,
@@ -1696,13 +2153,15 @@
           maxTemp: p.maxTemp ?? p.temp,
           minTemp: p.minTemp ?? p.temp,
           pop: p.pop ?? 0,
-        },
+          hourly: p.hourly,
+          daily: p.daily,
+        }),
       };
     }).filter(Boolean);
   }
 
   async function fetchSingleLocationWeather(lat, lon) {
-    const url = `https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}&current=temperature_2m,weather_code,wind_speed_10m&daily=temperature_2m_max,temperature_2m_min,precipitation_probability_max&timezone=Asia%2FTokyo&forecast_days=1`;
+    const url = `https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}&current=temperature_2m,weather_code,wind_speed_10m&hourly=temperature_2m,weather_code,precipitation_probability&daily=weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max&timezone=Asia%2FTokyo&forecast_days=7`;
     for (let attempt = 0; attempt < 2; attempt++) {
       try {
         const res = await fetchWithTimeout(url, {}, 8000);
@@ -1718,7 +2177,7 @@
   async function fetchAllCitiesOpenMeteoBatch() {
     const lats = MAJOR_JP_CITIES.map((c) => c.lat).join(",");
     const lons = MAJOR_JP_CITIES.map((c) => c.lon).join(",");
-    const url = `https://api.open-meteo.com/v1/forecast?latitude=${lats}&longitude=${lons}&current=temperature_2m,weather_code,wind_speed_10m&daily=temperature_2m_max,temperature_2m_min,precipitation_probability_max&timezone=Asia%2FTokyo&forecast_days=1`;
+    const url = `https://api.open-meteo.com/v1/forecast?latitude=${lats}&longitude=${lons}&current=temperature_2m,weather_code,wind_speed_10m&hourly=temperature_2m,weather_code,precipitation_probability&daily=weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max&timezone=Asia%2FTokyo&forecast_days=7`;
     const res = await fetchWithTimeout(url, {}, 9000);
     if (!res.ok) throw new Error(`Open-Meteo batch HTTP ${res.status}`);
     const data = await res.json();
@@ -1817,12 +2276,12 @@
             maxTemp: w.maxTemp ?? w.temp,
             minTemp: w.minTemp ?? w.temp,
             pop: w.pop ?? 0,
+            hourly: w.hourly,
+            daily: w.daily,
           }));
           saveCachedWeatherCities(serializedCities, nowUpdated);
           state.data.weatherCities = serializedCities;
-          try {
-            localStorage.setItem("trend-news-live-cache", JSON.stringify(state.data));
-          } catch (_e) {}
+          safeStorageSet(localStorage, "trend-news-live-cache", JSON.stringify(state.data));
           if (elWeatherUpdatedLabel) {
             elWeatherUpdatedLabel.textContent = `更新: ${nowUpdated}`;
           }
@@ -1843,6 +2302,79 @@
       }
     }
     fetchAndRenderAllWeather(false);
+  }
+
+  // Settings Modal (My Topics & Category Order)
+  function renderSettingsModalContent() {
+    applyFontSize(state.fontSize);
+
+    if (elMyTopicsList) {
+      if (state.myTopics.length === 0) {
+        elMyTopicsList.innerHTML = `<span class="settings-desc">まだ登録されていません。上の入力欄から追加できます。</span>`;
+      } else {
+        elMyTopicsList.innerHTML = state.myTopics
+          .map(
+            (t) => `
+              <span class="topic-pill">
+                📌 ${escapeHtml(t)}
+                <button type="button" data-remove-topic="${escapeHtml(t)}" aria-label="${escapeHtml(t)}を削除">✕</button>
+              </span>
+            `
+          )
+          .join("");
+      }
+    }
+
+    if (elCategoryOrderList) {
+      const hiddenSet = new Set(state.catPrefs.hidden);
+      const order = state.catPrefs.order;
+      elCategoryOrderList.innerHTML = order
+        .map((cat, idx) => {
+          const meta = getCategoryMeta(cat);
+          const isAll = cat === "all";
+          const isVisible = isAll || !hiddenSet.has(cat);
+          return `
+            <div class="cat-order-row" data-cat-row="${escapeHtml(cat)}">
+              <label class="cat-order-label">
+                <input type="checkbox" data-toggle-cat="${escapeHtml(cat)}" ${isVisible ? "checked" : ""} ${isAll ? "disabled" : ""} />
+                <span>${meta.icon} ${escapeHtml(meta.label)}</span>
+              </label>
+              <div class="cat-order-actions">
+                <button type="button" class="cat-move-btn" data-move-cat="${escapeHtml(cat)}" data-dir="-1" ${idx === 0 ? "disabled" : ""} aria-label="上へ移動">↑</button>
+                <button type="button" class="cat-move-btn" data-move-cat="${escapeHtml(cat)}" data-dir="1" ${idx === order.length - 1 ? "disabled" : ""} aria-label="下へ移動">↓</button>
+              </div>
+            </div>
+          `;
+        })
+        .join("");
+    }
+  }
+
+  function openSettingsModal() {
+    if (!elSettingsModal) return;
+    renderSettingsModalContent();
+    elSettingsModal.hidden = false;
+    document.body.style.overflow = "hidden";
+  }
+
+  function closeSettingsModal() {
+    if (!elSettingsModal) return;
+    elSettingsModal.hidden = true;
+    document.body.style.overflow = "";
+  }
+
+  function addMyTopicFromInput() {
+    if (!elMyTopicInput) return;
+    const val = elMyTopicInput.value.trim();
+    if (!val) return;
+    if (!state.myTopics.some((t) => t.toLowerCase() === val.toLowerCase())) {
+      state.myTopics.push(val);
+      safeStorageSet(localStorage, MY_TOPICS_STORAGE_KEY, JSON.stringify(state.myTopics));
+    }
+    elMyTopicInput.value = "";
+    renderSettingsModalContent();
+    renderTrending();
+    renderFeed();
   }
 
   // Theme
@@ -1887,6 +2419,13 @@
   );
 
   elMainContainer?.addEventListener("click", (e) => {
+    const bmBtn = e?.target?.closest?.("[data-bookmark-url]");
+    if (bmBtn) {
+      e.stopPropagation?.();
+      const bmUrl = bmBtn.getAttribute("data-bookmark-url") || "";
+      toggleBookmarkByUrl(bmUrl);
+      return;
+    }
     const card = e?.target?.closest?.("[data-article-idx]");
     if (!card) return;
     const idx = Number(card.getAttribute("data-article-idx"));
@@ -1894,10 +2433,49 @@
     openArticleModal(idx, url);
   });
 
+  elModalContent?.addEventListener("click", (e) => {
+    const bmBtn = e?.target?.closest?.("#btn-modal-bookmark");
+    if (bmBtn) {
+      const bmUrl = bmBtn.getAttribute("data-bookmark-url") || "";
+      const nowSaved = toggleBookmarkByUrl(bmUrl);
+      bmBtn.classList.toggle("active", nowSaved);
+      bmBtn.textContent = nowSaved ? "★ 保存済み" : "☆ あとで読む";
+      return;
+    }
+    const copyBtn = e?.target?.closest?.("#btn-modal-copy");
+    if (copyBtn) {
+      const shareUrl = copyBtn.getAttribute("data-share-url") || "";
+      if (shareUrl) {
+        copyTextToClipboard(shareUrl, () => {
+          copyBtn.textContent = "✓ コピーしました";
+        });
+      }
+      return;
+    }
+    const shareBtn = e?.target?.closest?.("#btn-modal-share");
+    if (shareBtn) {
+      const shareUrl = shareBtn.getAttribute("data-share-url") || "";
+      const shareTitle = shareBtn.getAttribute("data-share-title") || "TREND NEWS";
+      if (navigator.share && typeof navigator.share === "function") {
+        navigator.share({ title: shareTitle, text: shareTitle, url: shareUrl }).catch(() => {});
+      } else if (shareUrl) {
+        copyTextToClipboard(shareUrl, () => {
+          shareBtn.textContent = "✓ URLをコピーしました";
+        });
+      }
+    }
+  });
+
   elTrendingTags?.addEventListener("click", (e) => {
+    const openBtn = e?.target?.closest?.("[data-open-settings]");
+    if (openBtn) {
+      openSettingsModal();
+      return;
+    }
     const chip = e?.target?.closest?.(".trending-chip");
     if (!chip) return;
     const kw = chip.getAttribute("data-kw") || "";
+    if (!kw) return;
     if (state.query.trim().toLowerCase() === kw.toLowerCase()) {
       setQuery("");
     } else {
@@ -1946,20 +2524,98 @@
     setCategory("weather");
   });
 
+  elBtnUnreadOnly?.addEventListener("click", () => {
+    state.unreadOnly = !state.unreadOnly;
+    renderFeed();
+  });
+
+  elBtnFontSize?.addEventListener("click", cycleFontSize);
+  elBtnSettings?.addEventListener("click", openSettingsModal);
+  elSettingsClose?.addEventListener("click", closeSettingsModal);
+  elSettingsBackdrop?.addEventListener("click", closeSettingsModal);
+
+  elFontSizeOptions?.addEventListener("click", (e) => {
+    const btn = e?.target?.closest?.("[data-set-font]");
+    if (!btn) return;
+    applyFontSize(btn.getAttribute("data-set-font"));
+  });
+
+  elBtnAddTopic?.addEventListener("click", addMyTopicFromInput);
+  elMyTopicInput?.addEventListener("keydown", (e) => {
+    if (e.key === "Enter") {
+      e.preventDefault();
+      addMyTopicFromInput();
+    }
+  });
+
+  elMyTopicsList?.addEventListener("click", (e) => {
+    const rmBtn = e?.target?.closest?.("[data-remove-topic]");
+    if (!rmBtn) return;
+    const topic = rmBtn.getAttribute("data-remove-topic");
+    state.myTopics = state.myTopics.filter((t) => t !== topic);
+    safeStorageSet(localStorage, MY_TOPICS_STORAGE_KEY, JSON.stringify(state.myTopics));
+    renderSettingsModalContent();
+    renderTrending();
+    renderFeed();
+  });
+
+  elCategoryOrderList?.addEventListener("click", (e) => {
+    const moveBtn = e?.target?.closest?.("[data-move-cat]");
+    if (moveBtn) {
+      const cat = moveBtn.getAttribute("data-move-cat");
+      const dir = Number(moveBtn.getAttribute("data-dir"));
+      const idx = state.catPrefs.order.indexOf(cat);
+      const nextIdx = idx + dir;
+      if (idx >= 0 && nextIdx >= 0 && nextIdx < state.catPrefs.order.length) {
+        const copy = [...state.catPrefs.order];
+        const [item] = copy.splice(idx, 1);
+        copy.splice(nextIdx, 0, item);
+        state.catPrefs.order = copy;
+        safeStorageSet(localStorage, CAT_PREFS_STORAGE_KEY, JSON.stringify(state.catPrefs));
+        applyCategoryPreferences();
+        renderSettingsModalContent();
+      }
+      return;
+    }
+    const toggleInput = e?.target?.closest?.("[data-toggle-cat]");
+    if (toggleInput) {
+      const cat = toggleInput.getAttribute("data-toggle-cat");
+      if (cat && cat !== "all") {
+        const hiddenSet = new Set(state.catPrefs.hidden);
+        if (toggleInput.checked) {
+          hiddenSet.delete(cat);
+        } else {
+          hiddenSet.add(cat);
+        }
+        state.catPrefs.hidden = Array.from(hiddenSet);
+        safeStorageSet(localStorage, CAT_PREFS_STORAGE_KEY, JSON.stringify(state.catPrefs));
+        applyCategoryPreferences();
+        syncCategoryTabsUI(state.category, true);
+        renderFeed();
+      }
+    }
+  });
+
+  elBtnResetPrefs?.addEventListener("click", () => {
+    state.catPrefs = { order: [...DEFAULT_CATEGORY_ORDER], hidden: [] };
+    safeStorageSet(localStorage, CAT_PREFS_STORAGE_KEY, JSON.stringify(state.catPrefs));
+    applyCategoryPreferences();
+    renderSettingsModalContent();
+    syncCategoryTabsUI(state.category, true);
+  });
+
   elBtnRefresh.addEventListener("click", () => reloadNewsData(true));
   elBtnTheme.addEventListener("click", toggleTheme);
   elModalClose.addEventListener("click", closeModal);
   elModalBackdrop.addEventListener("click", closeModal);
   document.addEventListener("keydown", (e) => {
-    if (e.key === "Escape" && !elModal.hidden) closeModal();
+    if (e.key === "Escape") {
+      if (!elModal.hidden) closeModal();
+      if (elSettingsModal && !elSettingsModal.hidden) closeSettingsModal();
+    }
   });
 
   function setupMobileSwipeNavigation() {
-    const categoryOrder = Array.from(navTabs)
-      .map((t) => t.getAttribute("data-category"))
-      .filter(Boolean);
-    if (categoryOrder.length === 0) return;
-
     let startX = 0;
     let startY = 0;
     let startTime = 0;
@@ -1972,17 +2628,16 @@
           tracking = false;
           return;
         }
-        if (elModal && !elModal.hidden) {
+        if ((elModal && !elModal.hidden) || (elSettingsModal && !elSettingsModal.hidden)) {
           tracking = false;
           return;
         }
         const target = e.target;
-        if (target && target.closest(".category-nav, .trending-inner, input, textarea, select")) {
+        if (target && target.closest(".category-nav, .trending-inner, .weather-hourly-strip, .weather-daily-list, input, textarea, select")) {
           tracking = false;
           return;
         }
         const t = e.touches[0];
-        // iOS Safariの画面端「戻る/進む」ジェスチャーと競合しないよう端24pxは除外
         if (t.clientX < 24 || t.clientX > window.innerWidth - 24) {
           tracking = false;
           return;
@@ -2018,10 +2673,10 @@
         if (Math.abs(dx) < 60 || Math.abs(dy) > 80) return;
         if (Math.abs(dx) < Math.abs(dy) * 1.4) return;
 
+        const categoryOrder = getActiveCategoryOrder();
         const currentIdx = categoryOrder.indexOf(state.category);
         if (currentIdx === -1) return;
 
-        // 左へスワイプ (dx < 0) -> 次のジャンル、右へスワイプ (dx > 0) -> 前のジャンル
         const dir = dx < 0 ? 1 : -1;
         const nextIdx = currentIdx + dir;
         if (nextIdx < 0 || nextIdx >= categoryOrder.length) return;
@@ -2034,6 +2689,8 @@
 
   // Init
   initTheme();
+  applyFontSize(state.fontSize);
+  applyCategoryPreferences();
   setupMobileSwipeNavigation();
   state.data = { ...state.data, items: normalizeNewsItems(state.data.items) };
   state.lastDataSignature = computeDataSignature(state.data);
@@ -2041,6 +2698,9 @@
   syncCategoryTabsUI(state.category, true);
   renderAll();
   reloadNewsData(false);
+  if (typeof navigator !== "undefined" && navigator.serviceWorker && typeof navigator.serviceWorker.register === "function") {
+    navigator.serviceWorker.register("sw.js").catch(() => {});
+  }
   setInterval(() => reloadNewsData(false), 5 * 60 * 1000);
   setInterval(() => {
     if (state.category === "weather") fetchAndRenderAllWeather(true);
