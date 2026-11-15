@@ -1,12 +1,12 @@
 window.NEWS_DATA = {
   "date": "2026年11月15日 (日)",
-  "updatedAt": "2026-11-15 11:42",
+  "updatedAt": "2026-11-15 12:35",
   "title": "TREND NEWS",
   "keywords": [
     "きょう近畿や東海で激しい雨…",
     "検事の取り調べ AIでチェ…",
     "売れ残りを寄付 広がる一方…",
-    "首相 「アジア版IEA」創…",
+    "定数削減巡り国民と維新に温…",
     "AIエージェント普及 問わ…",
     "月収2万円と年金5万円 7…"
   ],
@@ -76,15 +76,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "首相 「アジア版IEA」創設提唱へ",
+      "title": "定数削減巡り国民と維新に温度差",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 07:36",
-      "publishedTs": 1794695801,
-      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/15/9034e7f07cf3146767f55c395f8a76903fa458e0e3f4e32ce5d9922be02604a9.jpg",
-      "summary": "高市首相は、１７日にフィリピン・マニラで開かれるアジア・ゼロエミッション共同体（ＡＺＥＣ）の首脳会合で、危機時の石油調達で連携する枠組みとして「アジア版ＩＥＡ（国際エネルギー機関）」の創設を提唱する…",
+      "publishedAt": "2026-11-15 12:02",
+      "publishedTs": 1794711734,
+      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/eternal/2023/9/28/2fd1d2e94623326b5bb4aace171d5d80c8c869de98f7e837d2185426a8c18c12.jpg",
+      "summary": "衆院議員定数削減法案を共同提出した国民民主党と日本維新の会との間で今後の削減を巡って温度差が生じている。選挙制度の抜本改革を求める国民民主は、現行制度でのさらなる定数削減には応じない立場だが、維新は…",
       "points": [
         "カテゴリ: 国内・総合の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 07:36）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 12:02）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "国内・総合分野で関心を集めている最新ニュースです。",
@@ -92,7 +92,7 @@ window.NEWS_DATA = {
         "国内・総合",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/pickup/6602615?source=rss",
+      "url": "https://news.yahoo.co.jp/pickup/6602652?source=rss",
       "isAiEnriched": false
     },
     {
@@ -139,15 +139,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "米中露の接近 日本政府は危機感",
+      "title": "首相 「アジア版IEA」創設提唱へ",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-14 20:17",
-      "publishedTs": 1794655024,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800",
-      "summary": "政府は、トランプ米政権に懸念を伝えていたにもかかわらず、米国、中国、ロシアの首脳会談が開かれることとなり3カ国の接近に危機感を強めている。「わが国と築き上げてきた安全保障秩序を毀損しないよう米側に注…",
+      "publishedAt": "2026-11-15 07:36",
+      "publishedTs": 1794695801,
+      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/15/9034e7f07cf3146767f55c395f8a76903fa458e0e3f4e32ce5d9922be02604a9.jpg",
+      "summary": "高市首相は、１７日にフィリピン・マニラで開かれるアジア・ゼロエミッション共同体（ＡＺＥＣ）の首脳会合で、危機時の石油調達で連携する枠組みとして「アジア版ＩＥＡ（国際エネルギー機関）」の創設を提唱する…",
       "points": [
         "カテゴリ: 国内・総合の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-14 20:17）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 07:36）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "国内・総合分野で関心を集めている最新ニュースです。",
@@ -155,7 +155,7 @@ window.NEWS_DATA = {
         "国内・総合",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/pickup/6602584?source=rss",
+      "url": "https://news.yahoo.co.jp/pickup/6602615?source=rss",
       "isAiEnriched": false
     },
     {
@@ -202,15 +202,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "横田さん拉致49年 母が思い吐露",
+      "title": "米中露の接近 日本政府は危機感",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 08:10",
-      "publishedTs": 1794697836,
-      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/15/988c416b8d7760fd4297eef6382084d721af90c1fc6d3e320226553b4c8135bc.jpg",
-      "summary": "新潟市の中学1年生だった横田めぐみさんが北朝鮮に拉致されて、2026年11月15日で49年となる。母・早紀江さん（90）は「一回でもいいから会いたい」とめぐみさんへの思いを吐露した。",
+      "publishedAt": "2026-11-14 20:17",
+      "publishedTs": 1794655024,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800",
+      "summary": "政府は、トランプ米政権に懸念を伝えていたにもかかわらず、米国、中国、ロシアの首脳会談が開かれることとなり3カ国の接近に危機感を強めている。「わが国と築き上げてきた安全保障秩序を毀損しないよう米側に注…",
       "points": [
         "カテゴリ: 国内・総合の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 08:10）",
+        "配信: Yahoo!ニュース トピックス（2026-11-14 20:17）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "国内・総合分野で関心を集めている最新ニュースです。",
@@ -218,7 +218,7 @@ window.NEWS_DATA = {
         "国内・総合",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/pickup/6602620?source=rss",
+      "url": "https://news.yahoo.co.jp/pickup/6602584?source=rss",
       "isAiEnriched": false
     },
     {
@@ -265,15 +265,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "関東15日は気温急降下 師走並みか",
+      "title": "横田さん拉致49年 母が思い吐露",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-14 15:06",
-      "publishedTs": 1794636419,
-      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/14/67a4720168e8c401284c176c89102dcb3dbcebef562e00a05c8d15ff3a148585.jpg",
-      "summary": "15日(日)の関東は朝から夜にかけて雨が降り、最高気温は前日より大幅に低くなる予想です。東京都心と前橋は14℃、さいたまは13℃など師走並みの寒さになる所もあるでしょう。15日(日)は昼間も厚手の上…",
+      "publishedAt": "2026-11-15 08:10",
+      "publishedTs": 1794697836,
+      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/15/988c416b8d7760fd4297eef6382084d721af90c1fc6d3e320226553b4c8135bc.jpg",
+      "summary": "新潟市の中学1年生だった横田めぐみさんが北朝鮮に拉致されて、2026年11月15日で49年となる。母・早紀江さん（90）は「一回でもいいから会いたい」とめぐみさんへの思いを吐露した。",
       "points": [
         "カテゴリ: 国内・総合の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-14 15:06）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 08:10）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "国内・総合分野で関心を集めている最新ニュースです。",
@@ -281,7 +281,7 @@ window.NEWS_DATA = {
         "国内・総合",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/pickup/6602551?source=rss",
+      "url": "https://news.yahoo.co.jp/pickup/6602620?source=rss",
       "isAiEnriched": false
     },
     {
@@ -328,15 +328,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "日本兵の墓が無縁化 解消に法の壁",
+      "title": "政府広報の夫婦漫才に疑問の声",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-14 21:32",
-      "publishedTs": 1794659573,
-      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/14/942fb40e42c832cabe66aad9ae36be189d3bf1b25305e8e44e6b6b8c98ae4e16.jpg",
-      "summary": "全国で相続や墓じまいの問題が語られるなか、福井県越前市にある寺の住職は、戦後80年以上が経過した今も「戦没者の墓」のゆくえに頭を悩ませている。",
+      "publishedAt": "2026-11-15 12:05",
+      "publishedTs": 1794711914,
+      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/15/b3ae388a2898cca281fd48987c9339feac9750605148302ee32d9b515dd1df03.jpg",
+      "summary": "男女のキャラクターが夫婦漫才で安全保障の重要性を訴える政府公式サイトの特集ページが波紋を広げている。政府は世論調査を基に防衛力強化に抵抗感の強い階層として「40代以上の女性」をターゲットに広報戦略を…",
       "points": [
         "カテゴリ: 国内・総合の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-14 21:32）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 12:05）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "国内・総合分野で関心を集めている最新ニュースです。",
@@ -344,7 +344,7 @@ window.NEWS_DATA = {
         "国内・総合",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/pickup/6602590?source=rss",
+      "url": "https://news.yahoo.co.jp/pickup/6602653?source=rss",
       "isAiEnriched": false
     },
     {
@@ -370,15 +370,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "東京で「臭い豚骨」がブーム 背景",
+      "title": "ハンズ渋谷店「本日最終」響く声",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 10:52",
-      "publishedTs": 1794707560,
-      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/15/e843f03b363e79e64f817fca37544469a200deef1f1f934ac6a213adde6ddb42.jpg",
-      "summary": "福岡のご当地ラーメンと言えば「豚骨ラーメン」である。博多ラーメンや長浜ラーメン、久留米ラーメンなど、白濁した豚骨スープにストレート麺を合わせた豚骨ラーメンは、福岡の人にとってソウルフードならぬ、ソウ…",
+      "publishedAt": "2026-11-15 11:57",
+      "publishedTs": 1794711456,
+      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/15/b324099198f9a3c5548b89fa5bdebda2d0d7a901b0413dc8a0108cbfc76220e2.jpg",
+      "summary": "「ハンズ渋谷店」（渋谷区宇田川町）が11月15日、営業を終了する。旧「東急ハンズ渋谷店」として1978（昭和53）年9月9日に開業。DIYやクラフト用品、画材から文具、バラエティー雑貨まで幅広い品ぞ…",
       "points": [
         "カテゴリ: ビジネス・経済の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 10:52）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 11:57）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "ビジネス・経済分野で関心を集めている最新ニュースです。",
@@ -386,7 +386,7 @@ window.NEWS_DATA = {
         "ビジネス・経済",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/pickup/6602644?source=rss",
+      "url": "https://news.yahoo.co.jp/pickup/6602649?source=rss",
       "isAiEnriched": false
     },
     {
@@ -450,6 +450,69 @@ window.NEWS_DATA = {
         "afpbb.com"
       ],
       "url": "https://www.afpbb.com/articles/-/3662399",
+      "isAiEnriched": false
+    },
+    {
+      "category": "domestic",
+      "title": "愛知県小牧市の住宅に男ら侵入、住人女性が襲われ肺に穴など重傷　中学生を含む複数人の男確保：中日新聞Web",
+      "source": "chunichi.co.jp",
+      "publishedAt": "2026-11-15 08:07",
+      "publishedTs": 1794697625,
+      "image": "https://static.chunichi.co.jp/image/article/size1/a/3/b/6/a3b63565671e28be64cebc6eb053793a_1.jpg",
+      "summary": "15日午前0時55分ごろ、愛知県小牧市小針2の住宅で、男3、4人が住人の無職女性（82）に対し「金はないか」と尋ね、女性が「ない」と答えると棒状のもので殴り、顔にスプレーのようなものをかけて逃走した。県警小牧署は強盗事件とみて捜査。捜査関係者によると、すでに複数人の男の身柄を確保した。中学生が含まれる。",
+      "points": [
+        "カテゴリ: 国内・総合で話題の記事",
+        "引用元: chunichi.co.jp（2026-11-15 08:07）",
+        "「元記事を読む」から本文を確認できます"
+      ],
+      "impact": "国内・総合分野で多くの読者に共有されている注目記事です。",
+      "tags": [
+        "国内・総合",
+        "chunichi.co.jp"
+      ],
+      "url": "https://www.chunichi.co.jp/article/1339609",
+      "isAiEnriched": false
+    },
+    {
+      "category": "tech",
+      "title": "NVIDIAフアン前CEOの復帰求める署名が11万人超　マスク氏らも賛同、米議会は追及継続",
+      "source": "itmedia.co.jp",
+      "publishedAt": "2026-11-15 08:39",
+      "publishedTs": 1794699550,
+      "image": "https://www.itmedia.co.jp/news/article/ogp/2611/15/2000003207/10012162/2048",
+      "summary": "フアン氏は、中国の情報機関との関係が疑われる女性との交際が報じられたことを受け、11月12日にCEO、社長、取締役を退任した。NVIDIAは最高財務責任者（CFO）のコレット・クレス氏を暫定CEOに任命し、社内外から後任を探している。 署名運動の主催者は、フアン氏が十分な弁明の機会を与えられずに退任に追い込…",
+      "points": [
+        "カテゴリ: テクノロジー・AIで話題の記事",
+        "引用元: itmedia.co.jp（2026-11-15 08:39）",
+        "「元記事を読む」から本文を確認できます"
+      ],
+      "impact": "テクノロジー・AI分野で多くの読者に共有されている注目記事です。",
+      "tags": [
+        "テクノロジー・AI",
+        "itmedia.co.jp"
+      ],
+      "url": "https://www.itmedia.co.jp/news/article/2611/15/2000003207/",
+      "isAiEnriched": false
+    },
+    {
+      "category": "business",
+      "title": "ロシアがＮＡＴＯへ「旧共産圏加盟前」まで撤退要求か…ラトビア首相、議論に応じれば「プーチン氏のわなにはまる」",
+      "source": "yomiuri.co.jp",
+      "publishedAt": "2026-11-15 00:14",
+      "publishedTs": 1794669249,
+      "image": "https://www.yomiuri.co.jp/media/2026/11/20261114-GYT1I00255-1.jpg?type=ogp",
+      "summary": "【読売新聞】 米紙ニューヨーク・タイムズ（電子版）は１３日、ウクライナへの侵略を続けるロシアが和平交渉に絡め、北大西洋条約機構（ＮＡＴＯ）に対し、ポーランドやバルト３国など旧共産圏の東欧諸国が加盟する以前の１９９７年の状態まで部隊と…",
+      "points": [
+        "カテゴリ: ビジネス・経済で話題の記事",
+        "引用元: yomiuri.co.jp（2026-11-15 00:14）",
+        "「元記事を読む」から本文を確認できます"
+      ],
+      "impact": "ビジネス・経済分野で多くの読者に共有されている注目記事です。",
+      "tags": [
+        "ビジネス・経済",
+        "yomiuri.co.jp"
+      ],
+      "url": "https://www.yomiuri.co.jp/world/20261114-GYT1T00254/",
       "isAiEnriched": false
     },
     {
@@ -559,86 +622,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "ロシアがＮＡＴＯへ「旧共産圏加盟前」まで撤退要求か…ラトビア首相、議論に応じれば「プーチン氏のわなにはまる」",
-      "source": "yomiuri.co.jp",
-      "publishedAt": "2026-11-15 00:14",
-      "publishedTs": 1794669249,
-      "image": "https://www.yomiuri.co.jp/media/2026/11/20261114-GYT1I00255-1.jpg?type=ogp",
-      "summary": "【読売新聞】 米紙ニューヨーク・タイムズ（電子版）は１３日、ウクライナへの侵略を続けるロシアが和平交渉に絡め、北大西洋条約機構（ＮＡＴＯ）に対し、ポーランドやバルト３国など旧共産圏の東欧諸国が加盟する以前の１９９７年の状態まで部隊と…",
+      "title": "@RyuichiYoneyama のポスト on Xアメリカ中間選挙の民主党の勝利が敵失なのはその通りでしょうが、今迄嬉々として「リベラルは何故嫌われるか」を語っていた「識者」の方々は、流石に「保守は何故負けたのか」ー例えば①何でもリベラル・外国人のせいで悪口ばかり②経済政策がご都合主義的で相当に不合理ーを語るべきじゃないですかね",
+      "source": "x.com",
+      "publishedAt": "2026-11-14 16:55",
+      "publishedTs": 1794642916,
+      "image": "https://pbs.twimg.com/profile_images/1376328098967216129/lgmlngyB_400x400.jpg",
+      "summary": "アメリカ中間選挙の民主党の勝利が敵失なのはその通りでしょうが、今迄嬉々として「リベラルは何故嫌われるか」を語っていた「識者」の方々は、流石に「保守は何故負けたのか」ー例えば①何でもリベラル・外国人のせいで悪口ばかり②経済政策がご都合主義的で相当に不合理ーを語るべきじゃないですかね…",
       "points": [
         "カテゴリ: ビジネス・経済で話題の記事",
-        "引用元: yomiuri.co.jp（2026-11-15 00:14）",
+        "引用元: x.com（2026-11-14 16:55）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "ビジネス・経済分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "ビジネス・経済",
-        "yomiuri.co.jp"
+        "x.com"
       ],
-      "url": "https://www.yomiuri.co.jp/world/20261114-GYT1T00254/",
-      "isAiEnriched": false
-    },
-    {
-      "category": "domestic",
-      "title": "フェミニズムが社会に浸透した結果",
-      "source": "anond.hatelabo.jp",
-      "publishedAt": "2026-11-14 23:14",
-      "publishedTs": 1794665691,
-      "image": "https://anond.hatelabo.jp/assets/images/og-image-1500.gif",
-      "summary": "男は女を養わなくなった。 男も女に経済力や甲斐性を要求して当たり前、女も働いて当たり前の価値観になった。 何だ、フェミニズムって男にとっても素晴らしいことではないか。",
-      "points": [
-        "カテゴリ: 国内・総合で話題の記事",
-        "引用元: anond.hatelabo.jp（2026-11-14 23:14）",
-        "「元記事を読む」から本文を確認できます"
-      ],
-      "impact": "国内・総合分野で多くの読者に共有されている注目記事です。",
-      "tags": [
-        "国内・総合",
-        "anond.hatelabo.jp"
-      ],
-      "url": "https://anond.hatelabo.jp/20261114231126",
-      "isAiEnriched": false
-    },
-    {
-      "category": "tech",
-      "title": "NVIDIAフアン前CEOの復帰求める署名が11万人超　マスク氏らも賛同、米議会は追及継続",
-      "source": "itmedia.co.jp",
-      "publishedAt": "2026-11-15 08:39",
-      "publishedTs": 1794699550,
-      "image": "https://www.itmedia.co.jp/news/article/ogp/2611/15/2000003207/10012162/2048",
-      "summary": "フアン氏は、中国の情報機関との関係が疑われる女性との交際が報じられたことを受け、11月12日にCEO、社長、取締役を退任した。NVIDIAは最高財務責任者（CFO）のコレット・クレス氏を暫定CEOに任命し、社内外から後任を探している。 署名運動の主催者は、フアン氏が十分な弁明の機会を与えられずに退任に追い込…",
-      "points": [
-        "カテゴリ: テクノロジー・AIで話題の記事",
-        "引用元: itmedia.co.jp（2026-11-15 08:39）",
-        "「元記事を読む」から本文を確認できます"
-      ],
-      "impact": "テクノロジー・AI分野で多くの読者に共有されている注目記事です。",
-      "tags": [
-        "テクノロジー・AI",
-        "itmedia.co.jp"
-      ],
-      "url": "https://www.itmedia.co.jp/news/article/2611/15/2000003207/",
-      "isAiEnriched": false
-    },
-    {
-      "category": "business",
-      "title": "沖縄知事選の関連動画、兵庫知事選でも発信のアカウントが推計収益の6割独占　宮城でも活動",
-      "source": "kobe-np.co.jp",
-      "publishedAt": "2026-11-14 23:59",
-      "publishedTs": 1794668343,
-      "image": "https://i.kobe-np.co.jp/news/society/202611/img/a_21030734.jpg",
-      "summary": "９月の沖縄県知事選の関連動画で、ユーチューブの再生回数が上位に入った５０アカウントのうち、１１アカウントは２０２４年の兵庫県知事選でも選挙期間中に関連動画を発信していた。この１１アカウントは、沖縄県知事選での収益を試算した動画３３０本のうち、約３割の９８本を配信。再生回数に応じた収益は推計で最大...",
-      "points": [
-        "カテゴリ: ビジネス・経済で話題の記事",
-        "引用元: kobe-np.co.jp（2026-11-14 23:59）",
-        "「元記事を読む」から本文を確認できます"
-      ],
-      "impact": "ビジネス・経済分野で多くの読者に共有されている注目記事です。",
-      "tags": [
-        "ビジネス・経済",
-        "kobe-np.co.jp"
-      ],
-      "url": "https://www.kobe-np.co.jp/news/society/202611/0021030732.shtml",
+      "url": "https://x.com/RyuichiYoneyama/status/2118146813412966555",
       "isAiEnriched": false
     }
   ]
