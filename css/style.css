@@ -1313,8 +1313,8 @@ html, body {
 .weather-map-card {
   position: relative;
   width: 100%;
-  aspect-ratio: 600 / 560;
-  background: linear-gradient(180deg, #dbeafe 0%, #eff6ff 100%);
+  aspect-ratio: 1 / 1;
+  background: linear-gradient(180deg, #0078c8 0%, #0043a4 100%);
   border: 1px solid var(--border);
   border-radius: var(--radius-lg);
   box-shadow: var(--shadow-sm);
@@ -1322,43 +1322,16 @@ html, body {
 }
 
 [data-theme="dark"] .weather-map-card {
-  background: linear-gradient(180deg, #0f172a 0%, #1e293b 100%);
+  background: linear-gradient(180deg, #0c2d57 0%, #071b36 100%);
 }
 
 .japan-map-svg {
   width: 100%;
   height: 100%;
   display: block;
-}
-
-.map-inset-box {
-  fill: rgba(255, 255, 255, 0.45);
-  stroke: rgba(37, 99, 235, 0.3);
-  stroke-width: 1.5;
-  stroke-dasharray: 4 3;
-}
-
-[data-theme="dark"] .map-inset-box {
-  fill: rgba(15, 23, 42, 0.45);
-  stroke: rgba(96, 165, 250, 0.35);
-}
-
-.map-inset-label {
-  font-size: 13px;
-  font-weight: 700;
-  fill: var(--text-muted);
-}
-
-.map-land {
-  fill: #a7f3d0;
-  stroke: #059669;
-  stroke-width: 1.8;
-  stroke-linejoin: round;
-}
-
-[data-theme="dark"] .map-land {
-  fill: #1e3a2f;
-  stroke: #34d399;
+  object-fit: contain;
+  user-select: none;
+  pointer-events: none;
 }
 
 .weather-map-pins {
@@ -1371,42 +1344,60 @@ html, body {
   position: absolute;
   transform: translate(-50%, -50%);
   pointer-events: auto;
-  display: inline-flex;
+  display: flex;
+  flex-direction: column;
   align-items: center;
-  gap: 4px;
-  padding: 4px 8px;
-  border-radius: 999px;
-  border: 1px solid var(--border);
-  background: rgba(255, 255, 255, 0.94);
+  gap: 1px;
+  padding: 3px 6px;
+  min-width: 44px;
+  border-radius: 7px;
+  border: 1px solid rgba(15, 23, 42, 0.14);
+  background: rgba(255, 255, 255, 0.96);
   color: #0f172a;
   font-family: inherit;
-  font-size: 0.74rem;
-  font-weight: 700;
+  line-height: 1.15;
   white-space: nowrap;
   cursor: pointer;
-  box-shadow: 0 3px 10px rgba(15, 23, 42, 0.14);
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.25);
   transition: transform 0.15s ease, border-color 0.15s ease, background-color 0.15s ease;
   z-index: 2;
 }
 
 [data-theme="dark"] .weather-map-pin {
-  background: rgba(21, 30, 50, 0.94);
+  background: rgba(21, 30, 50, 0.96);
   color: #f1f5f9;
-  border-color: rgba(255, 255, 255, 0.16);
+  border-color: rgba(255, 255, 255, 0.22);
 }
 
 .weather-map-pin:hover,
 .weather-map-pin.active {
   transform: translate(-50%, -50%) scale(1.08);
-  border-color: var(--accent);
+  border-color: #f59e0b;
   background: var(--accent);
   color: #ffffff;
   z-index: 5;
 }
 
+.weather-map-pin .pin-city {
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+.weather-map-pin .pin-weather {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  font-size: 0.72rem;
+}
+
 .weather-map-pin .pin-temp {
   font-weight: 800;
-  color: var(--accent);
+  color: #dc2626;
+}
+
+[data-theme="dark"] .weather-map-pin .pin-temp {
+  color: #fb923c;
 }
 
 .weather-map-pin:hover .pin-temp,
@@ -1506,8 +1497,15 @@ html, body {
 
 @media (max-width: 640px) {
   .weather-map-pin {
-    padding: 3px 6px;
-    font-size: 0.65rem;
-    gap: 2px;
+    min-width: 36px;
+    padding: 2px 4px;
+    border-radius: 5px;
+    gap: 0;
+  }
+  .weather-map-pin .pin-city {
+    font-size: 0.6rem;
+  }
+  .weather-map-pin .pin-weather {
+    font-size: 0.63rem;
   }
 }

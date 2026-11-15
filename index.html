@@ -11,7 +11,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+JP:wght@400;500;700;800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="css/style.css?v=20261115-5" />
+  <link rel="stylesheet" href="css/style.css?v=20261115-6" />
 </head>
 <body>
   <!-- スティッキーヘッダー -->
@@ -149,27 +149,7 @@
       </div>
       <div class="weather-map-layout">
         <div class="weather-map-card" id="weather-map-card">
-          <svg class="japan-map-svg" viewBox="0 0 600 560" role="img" aria-label="日本地図">
-            <!-- 沖縄インセット枠 -->
-            <rect x="18" y="22" width="138" height="128" rx="12" class="map-inset-box" />
-            <text x="30" y="42" class="map-inset-label">沖縄</text>
-            <!-- 沖縄本島 -->
-            <path d="M72 95 L88 86 L95 98 L82 122 L68 124 L65 110 Z" class="map-land" />
-            <circle cx="52" cy="130" r="4" class="map-land" />
-            <circle cx="114" cy="84" r="3" class="map-land" />
-
-            <!-- 北海道 -->
-            <path d="M415 24 L452 16 L496 36 L538 56 L552 84 L526 102 L494 114 L468 138 L442 124 L424 134 L406 118 L412 88 L398 62 Z" class="map-land" />
-
-            <!-- 本州 -->
-            <path d="M402 152 L434 150 L446 184 L444 236 L432 284 L424 328 L404 358 L384 344 L366 356 L342 350 L316 364 L296 382 L274 398 L254 388 L234 384 L196 382 L152 388 L128 380 L132 356 L166 340 L204 328 L244 318 L278 294 L292 268 L314 272 L338 258 L364 236 L382 204 L394 172 Z" class="map-land" />
-
-            <!-- 四国 -->
-            <path d="M180 402 L222 396 L244 412 L232 438 L194 438 L172 424 Z" class="map-land" />
-
-            <!-- 九州 -->
-            <path d="M76 394 L118 390 L132 420 L122 464 L96 492 L76 480 L72 444 L62 418 Z" class="map-land" />
-          </svg>
+          <img class="japan-map-svg" src="assets/japan-map.svg?v=20261115-6" alt="日本地図" />
           <div class="weather-map-pins" id="weather-map-pins"></div>
         </div>
 
@@ -195,7 +175,7 @@
     </div>
   </div>
 
-  <script src="data/news.js?v=20261115-5"></script>
-  <script src="js/app.js?v=20261115-5"></script>
+  <script src="data/news.js?v=20261115-6"></script>
+  <script src="js/app.js?v=20261115-6"></script>
 </body>
 </html>

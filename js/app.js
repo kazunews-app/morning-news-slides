@@ -872,18 +872,17 @@
   const elWeatherUpdatedLabel = document.getElementById("weather-updated-label");
 
   const MAJOR_JP_CITIES = [
-    { name: "札幌", region: "北海道", lat: 43.0618, lon: 141.3545, x: 76, y: 15 },
-    { name: "仙台", region: "東北", lat: 38.2682, lon: 140.8694, x: 71, y: 38 },
-    { name: "新潟", region: "北陸", lat: 37.9161, lon: 139.0364, x: 61, y: 43 },
-    { name: "金沢", region: "北陸", lat: 36.5613, lon: 136.6562, x: 50, y: 50 },
-    { name: "東京", region: "関東", lat: 35.6812, lon: 139.7671, x: 69, y: 57 },
-    { name: "横浜", region: "関東", lat: 35.4437, lon: 139.638, x: 68, y: 65 },
-    { name: "名古屋", region: "東海", lat: 35.1815, lon: 136.9066, x: 54, y: 63 },
-    { name: "大阪", region: "近畿", lat: 34.6937, lon: 135.5023, x: 44, y: 67 },
-    { name: "広島", region: "中国", lat: 34.3853, lon: 132.4553, x: 27, y: 66 },
-    { name: "高松", region: "四国", lat: 34.3428, lon: 134.0466, x: 35, y: 76 },
-    { name: "福岡", region: "九州", lat: 33.5902, lon: 130.4017, x: 15, y: 74 },
-    { name: "那覇", region: "沖縄", lat: 26.2124, lon: 127.6809, x: 14, y: 20 },
+    { name: "札幌", region: "北海道", lat: 43.0618, lon: 141.3545, x: 63, y: 15 },
+    { name: "仙台", region: "東北", lat: 38.2682, lon: 140.8694, x: 78, y: 45 },
+    { name: "新潟", region: "北陸", lat: 37.9161, lon: 139.0364, x: 52, y: 42 },
+    { name: "金沢", region: "北陸", lat: 36.5613, lon: 136.6562, x: 41, y: 51 },
+    { name: "東京", region: "関東", lat: 35.6812, lon: 139.7671, x: 76, y: 65 },
+    { name: "名古屋", region: "東海", lat: 35.1815, lon: 136.9066, x: 55, y: 76 },
+    { name: "大阪", region: "近畿", lat: 34.6937, lon: 135.5023, x: 41, y: 79 },
+    { name: "広島", region: "中国", lat: 34.3853, lon: 132.4553, x: 24, y: 63 },
+    { name: "高知", region: "四国", lat: 33.5597, lon: 133.5311, x: 27, y: 86 },
+    { name: "福岡", region: "九州", lat: 33.5902, lon: 130.4017, x: 11, y: 70 },
+    { name: "那覇", region: "沖縄", lat: 26.2124, lon: 127.6809, x: 28, y: 17 },
   ];
 
   const weatherState = {
@@ -1092,9 +1091,8 @@
             style="left: ${city.x}%; top: ${city.y}%;"
             aria-label="${escapeHtml(city.name)} ${escapeHtml(w.meta.label)} ${w.temp}°C"
           >
-            <span>${escapeHtml(city.name)}</span>
-            <span>${w.meta.icon}</span>
-            <span class="pin-temp">${w.temp}°</span>
+            <span class="pin-city">${escapeHtml(city.name)}</span>
+            <span class="pin-weather">${w.meta.icon}<span class="pin-temp">${w.temp}°</span></span>
           </button>
         `;
       })
