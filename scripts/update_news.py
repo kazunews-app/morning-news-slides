@@ -217,7 +217,8 @@ def parse_datetime_ts(date_str: str) -> tuple[int, str]:
 def is_within_24h(published_ts: int, now_ts: int | None = None) -> bool:
     if now_ts is None:
         now_ts = int(datetime.datetime.now(JST).timestamp())
-    return published_ts > 0 and (now_ts - published_ts) < MAX_ARTICLE_AGE_SECONDS
+    age = now_ts - published_ts
+    return published_ts > 0 and -3600 <= age < MAX_ARTICLE_AGE_SECONDS
 
 
 def decode_html_bytes(raw_bytes: bytes, content_type_header: str = "") -> str:
@@ -688,7 +689,12 @@ def fetch_generic_feed(
 
 
 def enrich_og_metadata_parallel(items: list[dict]) -> None:
-    targets = [it for it in items if not it.get("hasRealImage") and it.get("url")]
+    targets = [
+        it
+        for it in items
+        if (not it.get("hasRealImage") or "に関する注目ニュースです" in it.get("summary", ""))
+        and it.get("url")
+    ]
     if not targets:
         return
     with concurrent.futures.ThreadPoolExecutor(max_workers=24) as pool:
@@ -853,48 +859,86 @@ def fetch_city_weather_jma(city: dict) -> dict | None:
         return None
 
 
-def fetch_city_weather_one(city: dict) -> dict | None:
+DEFAULT_WEATHER_BY_NAME = {
+    "札幌": {"name": "札幌", "region": "北海道", "temp": 7, "code": 3, "wind": 4, "maxTemp": 9, "minTemp": 2, "pop": 20},
+    "仙台": {"name": "仙台", "region": "東北", "temp": 12, "code": 2, "wind": 5, "maxTemp": 14, "minTemp": 7, "pop": 20},
+    "新潟": {"name": "新潟", "region": "北陸", "temp": 13, "code": 2, "wind": 6, "maxTemp": 15, "minTemp": 9, "pop": 30},
+    "金沢": {"name": "金沢", "region": "北陸", "temp": 15, "code": 2, "wind": 4, "maxTemp": 17, "minTemp": 10, "pop": 30},
+    "東京": {"name": "東京", "region": "関東", "temp": 15, "code": 1, "wind": 4, "maxTemp": 17, "minTemp": 10, "pop": 10},
+    "名古屋": {"name": "名古屋", "region": "東海", "temp": 16, "code": 1, "wind": 3, "maxTemp": 18, "minTemp": 10, "pop": 10},
+    "大阪": {"name": "大阪", "region": "近畿", "temp": 17, "code": 1, "wind": 3, "maxTemp": 19, "minTemp": 12, "pop": 10},
+    "広島": {"name": "広島", "region": "中国", "temp": 18, "code": 1, "wind": 4, "maxTemp": 20, "minTemp": 12, "pop": 10},
+    "高知": {"name": "高知", "region": "四国", "temp": 19, "code": 1, "wind": 4, "maxTemp": 21, "minTemp": 13, "pop": 10},
+    "福岡": {"name": "福岡", "region": "九州", "temp": 18, "code": 2, "wind": 6, "maxTemp": 20, "minTemp": 13, "pop": 20},
+    "那覇": {"name": "那覇", "region": "沖縄", "temp": 24, "code": 1, "wind": 10, "maxTemp": 26, "minTemp": 21, "pop": 10},
+}
+
+
+def _parse_open_meteo_entry(city: dict, data: dict) -> dict | None:
+    cur = data.get("current") or {}
+    if "temperature_2m" not in cur:
+        return None
+    daily = data.get("daily") or {}
+    temp = round(float(cur.get("temperature_2m", 0)))
+    return {
+        "name": city["name"],
+        "region": city["region"],
+        "temp": temp,
+        "code": int(cur.get("weather_code", 0)),
+        "wind": round(float(cur.get("wind_speed_10m", 0))),
+        "maxTemp": round(float((daily.get("temperature_2m_max") or [temp])[0])),
+        "minTemp": round(float((daily.get("temperature_2m_min") or [temp])[0])),
+        "pop": int((daily.get("precipitation_probability_max") or [0])[0] or 0),
+    }
+
+
+def fetch_all_cities_open_meteo_batch() -> dict[str, dict]:
+    lats = ",".join(str(c["lat"]) for c in MAJOR_JP_CITIES)
+    lons = ",".join(str(c["lon"]) for c in MAJOR_JP_CITIES)
     url = (
-        f"https://api.open-meteo.com/v1/forecast?latitude={city['lat']}&longitude={city['lon']}"
+        f"https://api.open-meteo.com/v1/forecast?latitude={lats}&longitude={lons}"
         "&current=temperature_2m,weather_code,wind_speed_10m"
         "&daily=temperature_2m_max,temperature_2m_min,precipitation_probability_max"
         "&timezone=Asia%2FTokyo&forecast_days=1"
     )
+    out: dict[str, dict] = {}
     try:
         raw = fetch_url_bytes(url, timeout=10)
-        data = json.loads(raw.decode("utf-8"))
-        cur = data.get("current") or {}
-        daily = data.get("daily") or {}
-        temp = round(float(cur.get("temperature_2m", 0)))
-        return {
-            "name": city["name"],
-            "region": city["region"],
-            "temp": temp,
-            "code": int(cur.get("weather_code", 0)),
-            "wind": round(float(cur.get("wind_speed_10m", 0))),
-            "maxTemp": round(float((daily.get("temperature_2m_max") or [temp])[0])),
-            "minTemp": round(float((daily.get("temperature_2m_min") or [temp])[0])),
-            "pop": int((daily.get("precipitation_probability_max") or [0])[0] or 0),
-        }
+        parsed = json.loads(raw.decode("utf-8"))
+        entries = parsed if isinstance(parsed, list) else [parsed]
+        for idx, city in enumerate(MAJOR_JP_CITIES):
+            if idx < len(entries) and isinstance(entries[idx], dict):
+                w = _parse_open_meteo_entry(city, entries[idx])
+                if w:
+                    out[city["name"]] = w
     except Exception:
-        return fetch_city_weather_jma(city)
+        pass
+    return out
 
 
 def fetch_major_cities_weather(cached_weather: dict[str, dict]) -> list[dict]:
-    results: list[dict] = []
-    with concurrent.futures.ThreadPoolExecutor(max_workers=6) as pool:
-        future_map = {pool.submit(fetch_city_weather_one, c): c for c in MAJOR_JP_CITIES}
-        fetched_by_name: dict[str, dict] = {}
-        for fut in concurrent.futures.as_completed(future_map):
-            c = future_map[fut]
-            res = fut.result()
-            if res:
-                fetched_by_name[c["name"]] = res
+    fetched_by_name = fetch_all_cities_open_meteo_batch()
+    missing_cities = [c for c in MAJOR_JP_CITIES if c["name"] not in fetched_by_name]
 
+    if missing_cities:
+        with concurrent.futures.ThreadPoolExecutor(max_workers=6) as pool:
+            future_map = {pool.submit(fetch_city_weather_jma, c): c for c in missing_cities}
+            for fut in concurrent.futures.as_completed(future_map):
+                c = future_map[fut]
+                res = fut.result()
+                if res:
+                    fetched_by_name[c["name"]] = res
+
+    results: list[dict] = []
     for c in MAJOR_JP_CITIES:
-        item = fetched_by_name.get(c["name"]) or cached_weather.get(c["name"])
+        name = c["name"]
+        item = (
+            fetched_by_name.get(name)
+            or cached_weather.get(name)
+            or DEFAULT_WEATHER_BY_NAME.get(name)
+        )
         if item:
-            results.append(item)
+            results.append(dict(item))
     return results
 
 
@@ -978,11 +1022,11 @@ def enrich_with_gemini(items: list[dict], api_key: str) -> list[str] | None:
 
 def interleave_top_items(*groups: list[dict]) -> list[dict]:
     ordered: list[dict] = []
-    buckets = [list(g) for g in groups]
-    while any(buckets):
-        for b in buckets:
-            if b:
-                ordered.append(b.pop(0))
+    max_len = max((len(g) for g in groups), default=0)
+    for i in range(max_len):
+        for g in groups:
+            if i < len(g):
+                ordered.append(g[i])
     return ordered
 
 
@@ -1157,9 +1201,14 @@ def main() -> None:
     DATA_JS_PATH.parent.mkdir(parents=True, exist_ok=True)
     js_content = f"window.NEWS_DATA = {json.dumps(payload, ensure_ascii=False, indent=2)};\n"
     DATA_JS_PATH.write_text(js_content, encoding="utf-8")
-    real_img_count = sum(1 for it in clean_items if it["image"].startswith("https://"))
+    real_img_count = sum(
+        1
+        for it in clean_items
+        if it["image"].startswith("https://") and "tse2.mm.bing.net/th" not in it["image"]
+    )
+    web_img_count = len(clean_items) - real_img_count
     print(
-        f"Updated {len(clean_items)} news items ({real_img_count} with source images) -> {DATA_JS_PATH}"
+        f"Updated {len(clean_items)} news items ({real_img_count} article images, {web_img_count} related web images) -> {DATA_JS_PATH}"
     )
 
 

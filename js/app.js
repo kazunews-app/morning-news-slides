@@ -32,30 +32,35 @@
     : [];
   const INITIAL_BUNDLED_UPDATED_AT = window.NEWS_DATA?.updatedAt || "";
 
+  function safeStorageGet(storage, key) {
+    try {
+      if (typeof storage !== "undefined" && storage) {
+        return storage.getItem(key);
+      }
+    } catch (_e) {}
+    return null;
+  }
+
+  function safeStorageSet(storage, key, val) {
+    try {
+      if (typeof storage !== "undefined" && storage) {
+        storage.setItem(key, String(val));
+      }
+    } catch (_e) {}
+  }
+
   function getSavedCategory() {
-    try {
-      if (typeof sessionStorage !== "undefined") {
-        const s = sessionStorage.getItem(CATEGORY_STORAGE_KEY);
-        if (s && VALID_CATEGORIES.has(s)) return s;
-      }
-    } catch (_e) {}
-    try {
-      if (typeof localStorage !== "undefined") {
-        const l = localStorage.getItem(CATEGORY_STORAGE_KEY);
-        if (l && VALID_CATEGORIES.has(l)) return l;
-      }
-    } catch (_e) {}
+    const s = safeStorageGet(typeof sessionStorage !== "undefined" ? sessionStorage : null, CATEGORY_STORAGE_KEY);
+    if (s && VALID_CATEGORIES.has(s)) return s;
+    const l = safeStorageGet(typeof localStorage !== "undefined" ? localStorage : null, CATEGORY_STORAGE_KEY);
+    if (l && VALID_CATEGORIES.has(l)) return l;
     return "all";
   }
 
   function saveCategory(cat) {
     if (!VALID_CATEGORIES.has(cat)) return;
-    try {
-      if (typeof sessionStorage !== "undefined") sessionStorage.setItem(CATEGORY_STORAGE_KEY, cat);
-    } catch (_e) {}
-    try {
-      if (typeof localStorage !== "undefined") localStorage.setItem(CATEGORY_STORAGE_KEY, cat);
-    } catch (_e) {}
+    safeStorageSet(typeof sessionStorage !== "undefined" ? sessionStorage : null, CATEGORY_STORAGE_KEY, cat);
+    safeStorageSet(typeof localStorage !== "undefined" ? localStorage : null, CATEGORY_STORAGE_KEY, cat);
   }
 
   const state = {
@@ -252,7 +257,7 @@
     const cities = Array.isArray(state.data?.weatherCities) ? state.data.weatherCities : [];
     const saved = (() => {
       try {
-        return JSON.parse(localStorage.getItem("trend-news-geo") || "null");
+        return JSON.parse(safeStorageGet(localStorage, "trend-news-geo") || "null");
       } catch (_e) {
         return null;
       }
@@ -276,30 +281,19 @@
         return `<button type="button" class="trending-chip ${active}" data-kw="${escapeHtml(searchVal)}"># ${escapeHtml(kw)}</button>`;
       })
       .join("");
-
-    elTrendingTags.querySelectorAll(".trending-chip").forEach((btn) => {
-      btn.addEventListener("click", () => {
-        const kw = btn.getAttribute("data-kw") || "";
-        if (state.query.trim().toLowerCase() === kw.toLowerCase()) {
-          setQuery("");
-        } else {
-          setQuery(kw);
-        }
-      });
-    });
   }
 
   function renderHero(items) {
     const lead = items[0];
     const sideItems = items.slice(1, 5);
     const leadMeta = getCategoryMeta(lead.category);
-    const leadImg = getSafeImageUrl(lead, 0);
-    const leadFallback = getFallbackImage(lead, 0);
+    const leadImg = getSafeImageUrl(lead);
+    const leadFallback = getFallbackImage(lead);
 
     elHeroLead.innerHTML = `
-      <article class="hero-card" data-article-idx="${lead._idx}">
+      <article class="hero-card" data-article-idx="${lead._idx}" data-article-url="${escapeHtml(lead.url || "")}">
         <div class="hero-image-wrap">
-          <img src="${escapeHtml(leadImg)}" alt="${escapeHtml(lead.title)}" referrerpolicy="no-referrer" onerror="this.onerror=null;this.src='${escapeHtml(leadFallback)}'" />
+          <img src="${escapeHtml(leadImg)}" data-fallback-src="${escapeHtml(leadFallback)}" alt="${escapeHtml(lead.title)}" referrerpolicy="no-referrer" />
           <span class="hero-top-badge">TOP PICKUP</span>
         </div>
         <div class="hero-body">
@@ -316,13 +310,13 @@
     `;
 
     elHeroSideList.innerHTML = sideItems
-      .map((item, i) => {
+      .map((item) => {
         const meta = getCategoryMeta(item.category);
-        const img = getSafeImageUrl(item, i + 1);
-        const fb = getFallbackImage(item, i + 1);
+        const img = getSafeImageUrl(item);
+        const fb = getFallbackImage(item);
         return `
-          <button type="button" class="side-item" data-article-idx="${item._idx}">
-            <img class="side-thumb" src="${escapeHtml(img)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.onerror=null;this.src='${escapeHtml(fb)}'" />
+          <button type="button" class="side-item" data-article-idx="${item._idx}" data-article-url="${escapeHtml(item.url || "")}">
+            <img class="side-thumb" src="${escapeHtml(img)}" data-fallback-src="${escapeHtml(fb)}" alt="" loading="lazy" referrerpolicy="no-referrer" />
             <div class="side-item-body">
               <div class="meta-row">
                 <span class="cat-pill ${escapeHtml(item.category)}">${meta.icon} ${escapeHtml(meta.label)}</span>
@@ -365,12 +359,12 @@
       elFilterStatus.hidden = true;
     }
 
+    const qLower = q.toLowerCase();
     const filtered = allWithIdx.filter((item) => {
       if (state.category !== "all" && state.category !== "weather" && item.category !== state.category) {
         return false;
       }
-      if (!q) return true;
-      const qLower = q.toLowerCase();
+      if (!qLower) return true;
       const haystack = [
         item.title,
         item.summary,
@@ -396,9 +390,14 @@
       elFeedHeading.textContent = "注目のトレンド記事（TOP 10）";
     } else {
       elHeroSection.hidden = true;
+      elHeroLead.innerHTML = "";
+      elHeroSideList.innerHTML = "";
       const meta = getCategoryMeta(state.category);
-      elFeedHeading.textContent =
-        state.category === "all" ? "検索結果" : `${meta.icon} ${meta.label}のニュース`;
+      elFeedHeading.textContent = q
+        ? "検索結果"
+        : state.category === "all"
+          ? "注目のトレンド記事"
+          : `${meta.icon} ${meta.label}のニュース`;
     }
 
     elFeedCount.textContent = `${filtered.length}件の記事`;
@@ -411,19 +410,19 @@
       `;
     } else {
       elNewsGrid.innerHTML = gridItems
-        .map((item, i) => {
+        .map((item) => {
           const meta = getCategoryMeta(item.category);
-          const img = getSafeImageUrl(item, i);
-          const fb = getFallbackImage(item, i);
+          const img = getSafeImageUrl(item);
+          const fb = getFallbackImage(item);
           const tagsHtml = (Array.isArray(item.tags) ? item.tags : [])
             .slice(0, 3)
             .map((t) => `<span class="tag-chip">#${escapeHtml(t)}</span>`)
             .join("");
 
           return `
-            <article class="news-card" data-article-idx="${item._idx}">
+            <article class="news-card" data-article-idx="${item._idx}" data-article-url="${escapeHtml(item.url || "")}">
               <div class="card-thumb-wrap">
-                <img src="${escapeHtml(img)}" alt="${escapeHtml(item.title)}" loading="lazy" referrerpolicy="no-referrer" onerror="this.onerror=null;this.src='${escapeHtml(fb)}'" />
+                <img src="${escapeHtml(img)}" data-fallback-src="${escapeHtml(fb)}" alt="${escapeHtml(item.title)}" loading="lazy" referrerpolicy="no-referrer" />
               </div>
               <div class="card-body">
                 <div class="meta-row">
@@ -451,7 +450,7 @@
             const meta = getCategoryMeta(item.category);
             const rank = idx + 11;
             return `
-              <article class="text-news-item" data-article-idx="${item._idx}">
+              <article class="text-news-item" data-article-idx="${item._idx}" data-article-url="${escapeHtml(item.url || "")}">
                 <span class="text-news-rank">${rank}</span>
                 <div class="text-news-body">
                   <div class="meta-row">
@@ -472,23 +471,19 @@
         elNewsTextList.innerHTML = "";
       }
     }
-
-    document.querySelectorAll("[data-article-idx]").forEach((el) => {
-      el.addEventListener("click", () => {
-        const idx = Number(el.getAttribute("data-article-idx"));
-        openArticleModal(idx);
-      });
-    });
   }
 
-  function openArticleModal(idx) {
+  function openArticleModal(idx, urlFallback = "") {
     const items = Array.isArray(state.data.items) ? state.data.items : [];
-    const item = items[idx];
+    let item = Number.isInteger(idx) && idx >= 0 ? items[idx] : null;
+    if (!item && urlFallback) {
+      item = items.find((it) => it && it.url === urlFallback) || null;
+    }
     if (!item) return;
 
     const meta = getCategoryMeta(item.category);
-    const img = getSafeImageUrl(item, idx);
-    const fb = getFallbackImage(item, idx);
+    const img = getSafeImageUrl(item);
+    const fb = getFallbackImage(item);
     const pointsHtml = (Array.isArray(item.points) ? item.points : [])
       .map((pt) => `<li>${escapeHtml(pt)}</li>`)
       .join("");
@@ -498,7 +493,7 @@
     const safeUrl = isSafeHttpUrl(item.url) ? item.url.trim() : "";
 
     elModalContent.innerHTML = `
-      <img class="modal-hero-img" src="${escapeHtml(img)}" alt="${escapeHtml(item.title)}" referrerpolicy="no-referrer" onerror="this.onerror=null;this.src='${escapeHtml(fb)}'" />
+      <img class="modal-hero-img" src="${escapeHtml(img)}" data-fallback-src="${escapeHtml(fb)}" alt="${escapeHtml(item.title)}" referrerpolicy="no-referrer" />
       <div class="modal-body">
         <div class="meta-row">
           <span class="cat-pill ${escapeHtml(item.category)}">${meta.icon} ${escapeHtml(meta.label)}</span>
@@ -586,15 +581,18 @@
     }
   }
 
-  function setCategory(cat, swipeDir = 0, shouldScrollTop = true) {
+  function setCategory(cat, swipeDir = 0, shouldScrollTop = true, resetQuery = false) {
     const targetCat = VALID_CATEGORIES.has(cat) ? cat : "all";
     state.category = targetCat;
     saveCategory(targetCat);
-    if (targetCat === "weather" && state.query) {
+    if ((targetCat === "weather" || resetQuery) && state.query) {
       state.query = "";
       elSearchInput.value = "";
       elSearchClear.hidden = true;
       renderTrending();
+    } else if (resetQuery) {
+      elSearchInput.value = "";
+      elSearchClear.hidden = true;
     }
     syncCategoryTabsUI(targetCat, false);
     renderFeed();
@@ -828,6 +826,43 @@
     return "";
   }
 
+  function parseFlexibleDateTs(rawDate) {
+    if (typeof rawDate !== "string") return 0;
+    const trimmed = rawDate.trim();
+    if (!trimmed) return 0;
+    if (/^\d{4}-\d{2}-\d{2}\s+\d{2}:\d{2}(:\d{2})?$/.test(trimmed)) {
+      const ms = Date.parse(trimmed.replace(/\s+/, "T") + "Z");
+      return Number.isFinite(ms) && ms > 0 ? Math.floor(ms / 1000) : 0;
+    }
+    const ms = Date.parse(trimmed);
+    return Number.isFinite(ms) && ms > 0 ? Math.floor(ms / 1000) : 0;
+  }
+
+  function findXmlChildText(parent, localNames) {
+    if (!parent || !parent.children) return "";
+    const nameSet = new Set(localNames);
+    for (const child of parent.children) {
+      const ln = (child.localName || child.nodeName.split(":").pop() || "").toLowerCase();
+      if (nameSet.has(ln) && child.textContent) {
+        return child.textContent.trim();
+      }
+    }
+    return "";
+  }
+
+  function findXmlChildAttr(parent, localNames, attrName) {
+    if (!parent || !parent.children) return "";
+    const nameSet = new Set(localNames);
+    for (const child of parent.children) {
+      const ln = (child.localName || child.nodeName.split(":").pop() || "").toLowerCase();
+      if (nameSet.has(ln)) {
+        const val = child.getAttribute?.(attrName) || "";
+        if (val) return val.trim();
+      }
+    }
+    return "";
+  }
+
   async function fetchRssViaRss2Json(rssUrl, category, sourceFallback, limit) {
     const ts = Date.now();
     const r2jUrl = `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(rssUrl)}&_=${ts}`;
@@ -838,8 +873,7 @@
     return data.items.slice(0, limit).map((it, idx) => {
       const title = (it.title || "").trim();
       const link = (it.link || "").trim();
-      const pubMs = it.pubDate ? Date.parse(it.pubDate.replace(" ", "T") + "Z") : NaN;
-      const publishedTs = Number.isFinite(pubMs) && pubMs > 0 ? Math.floor(pubMs / 1000) : 0;
+      const publishedTs = parseFlexibleDateTs(it.pubDate || "");
       const thumbCandidates = [
         it.thumbnail,
         it.enclosure?.link,
@@ -879,27 +913,24 @@
     const nodes = Array.from(doc.querySelectorAll(isAtom ? "entry" : "item")).slice(0, limit);
     if (nodes.length === 0) throw new Error("xml empty");
     return nodes.map((node, idx) => {
-      const title = (node.querySelector("title")?.textContent || "").trim();
+      const title = findXmlChildText(node, ["title"]);
       let link = "";
       if (isAtom) {
-        link = node.querySelector('link[rel="alternate"]')?.getAttribute("href") || node.querySelector("link")?.getAttribute("href") || "";
+        link =
+          node.querySelector('link[rel="alternate"]')?.getAttribute("href") ||
+          findXmlChildAttr(node, ["link"], "href");
       } else {
-        link = (node.querySelector("link")?.textContent || "").trim();
+        link = findXmlChildText(node, ["link"]);
       }
-      link = link.trim();
-      const pubRaw =
-        node.querySelector("pubDate, published, updated")?.textContent ||
-        node.getElementsByTagName("dc:date")?.[0]?.textContent ||
-        "";
-      const pubMs = pubRaw ? Date.parse(pubRaw) : NaN;
-      const publishedTs = Number.isFinite(pubMs) && pubMs > 0 ? Math.floor(pubMs / 1000) : 0;
-      const encodedHtml = node.getElementsByTagName("content:encoded")?.[0]?.textContent || "";
-      const desc = node.querySelector("description, summary, content")?.textContent || "";
-      const enclosureUrl = node.querySelector("enclosure")?.getAttribute("url") || "";
-      const mediaContentUrl = node.getElementsByTagName("media:content")?.[0]?.getAttribute("url") || "";
-      const mediaThumbUrl = node.getElementsByTagName("media:thumbnail")?.[0]?.getAttribute("url") || "";
-      const imageNodeText = node.querySelector("image")?.textContent || "";
-      const hatenaImg = node.getElementsByTagName("hatena:imageurl")?.[0]?.textContent || "";
+      const pubRaw = findXmlChildText(node, ["pubdate", "published", "updated", "date"]);
+      const publishedTs = parseFlexibleDateTs(pubRaw);
+      const encodedHtml = findXmlChildText(node, ["encoded"]);
+      const desc = findXmlChildText(node, ["description", "summary", "content"]);
+      const enclosureUrl = findXmlChildAttr(node, ["enclosure"], "url");
+      const mediaContentUrl = findXmlChildAttr(node, ["content"], "url");
+      const mediaThumbUrl = findXmlChildAttr(node, ["thumbnail"], "url");
+      const imageNodeText = findXmlChildText(node, ["image"]);
+      const hatenaImg = findXmlChildText(node, ["imageurl"]);
       const htmlImg = extractImgFromHtmlSnippet(`${encodedHtml}\n${desc}`, link);
       let rawThumb = "";
       for (const cand of [enclosureUrl, mediaContentUrl, mediaThumbUrl, imageNodeText, htmlImg, hatenaImg]) {
@@ -1079,6 +1110,17 @@
     });
   }
 
+  function interleaveArrays(arrays) {
+    const out = [];
+    const maxLen = arrays.reduce((m, a) => Math.max(m, a.length), 0);
+    for (let i = 0; i < maxLen; i++) {
+      for (const arr of arrays) {
+        if (i < arr.length) out.push(arr[i]);
+      }
+    }
+    return out;
+  }
+
   async function fetchLiveBrowserNews(baseData) {
     const existingByUrl = new Map();
     const existingByTitle = new Map();
@@ -1207,29 +1249,17 @@
     const bizList = buildCategoryList([...bizYahoo, ...bizHatena], oldItems.filter((i) => i.category === "business"), "business");
     const entList = buildCategoryList([...entYahoo, ...entHatena], oldItems.filter((i) => i.category === "entertainment"), "entertainment");
 
-    const subInterleaved = [];
-    const subBuckets = [subAuto, subComic, subVtuber, subGame].map((arr) => [...arr]);
-    while (subBuckets.some((b) => b.length > 0)) {
-      for (const b of subBuckets) {
-        if (b.length > 0) subInterleaved.push(b.shift());
-      }
-    }
+    const subInterleaved = interleaveArrays([subAuto, subComic, subVtuber, subGame]);
     const subList = buildCategoryList(subInterleaved, oldItems.filter((i) => i.category === "subculture"), "subculture");
 
-    const interleaved = [];
-    const buckets = [domList, techList, bizList, entList, subList];
-    while (buckets.some((b) => b.length > 0)) {
-      for (const b of buckets) {
-        if (b.length > 0) interleaved.push(b.shift());
-      }
-    }
-
+    const interleaved = interleaveArrays([domList, techList, bizList, entList, subList]);
     if (interleaved.length === 0) return null;
 
     const nowJst = formatNowJst();
-    const keywords = interleaved.slice(0, 6).map((it) =>
-      it.title.length > 13 ? it.title.slice(0, 13) + "…" : it.title
-    );
+    const keywords =
+      Array.isArray(baseData?.keywords) && baseData.keywords.length > 0
+        ? baseData.keywords
+        : interleaved.slice(0, 6).map((it) => (it.title.length > 13 ? it.title.slice(0, 13) + "…" : it.title));
 
     return {
       payload: {
@@ -1261,15 +1291,16 @@
         applyNewsDataIfNewer(ghData, isManual);
       }
 
-      // Step 2: 5分以上古い場合または手動更新時は、ブラウザから直接RSSを並列高速取得して即描画
-      const ageMs = Date.now() - parseUpdatedAtMs(state.data?.updatedAt);
-      if (isManual || ageMs >= 5 * 60 * 1000) {
+      // Step 2: GitHub側データが5分以上古い（または取得不可）場合のみ、ブラウザから直接RSSを並列取得
+      const ghAgeMs = ghData ? Date.now() - parseUpdatedAtMs(ghData.updatedAt) : Infinity;
+      const currentAgeMs = Date.now() - parseUpdatedAtMs(state.data?.updatedAt);
+      if ((!ghData || ghAgeMs >= 5 * 60 * 1000) && (isManual || currentAgeMs >= 5 * 60 * 1000)) {
         const liveRes = await fetchLiveBrowserNews(state.data);
         if (liveRes && liveRes.payload) {
           applyNewsDataIfNewer(liveRes.payload, true);
           // OGP画像取得は描画をブロックせず裏で並列差し替え
           enrichNewImagesInBackground(liveRes.bgOgTargets);
-        } else if (isManual) {
+        } else if (isManual && !ghData) {
           const nowJst = formatNowJst();
           state.data.updatedAt = nowJst.updatedAt;
           renderAll();
@@ -1382,7 +1413,7 @@
 
   function getSavedLocation() {
     try {
-      const saved = JSON.parse(localStorage.getItem("trend-news-geo") || "null");
+      const saved = JSON.parse(safeStorageGet(localStorage, "trend-news-geo") || "null");
       if (saved && Number.isFinite(saved.lat) && Number.isFinite(saved.lon)) {
         return { lat: saved.lat, lon: saved.lon, locName: saved.locName || "現在地", isFallback: false };
       }
@@ -1441,7 +1472,7 @@
     if (elWeatherUpdatedLabel) elWeatherUpdatedLabel.textContent = "地域を検索中...";
     const found = await searchCityCoords(input);
     if (found) {
-      localStorage.setItem("trend-news-geo", JSON.stringify(found));
+      safeStorageSet(localStorage, "trend-news-geo", JSON.stringify(found));
       weatherState.currentLoc = { ...found, isFallback: false };
       await fetchAndRenderAllWeather(true);
     } else if (elWeatherUpdatedLabel) {
@@ -1463,7 +1494,7 @@
         const lon = Number(pos.coords.longitude.toFixed(4));
         const locName = await resolveLocationName(lat, lon);
         const geo = { lat, lon, locName };
-        localStorage.setItem("trend-news-geo", JSON.stringify(geo));
+        safeStorageSet(localStorage, "trend-news-geo", JSON.stringify(geo));
         weatherState.currentLoc = { ...geo, isFallback: false };
         await fetchAndRenderAllWeather(true);
       },
@@ -1639,21 +1670,6 @@
         `;
       })
       .join("");
-
-    elWeatherMapPins.querySelectorAll(".weather-map-pin").forEach((btn) => {
-      btn.addEventListener("click", () => {
-        const name = btn.getAttribute("data-city-name");
-        weatherState.selectedCityName = name;
-        elWeatherMapPins.querySelectorAll(".weather-map-pin").forEach((p) => {
-          p.classList.toggle("active", p.getAttribute("data-city-name") === name);
-        });
-        const found = weatherState.cityResults.find((r) => r.city.name === name);
-        renderCityDetailPanel(found);
-        if (window.innerWidth <= 960 && elWeatherDetailPanel) {
-          elWeatherDetailPanel.scrollIntoView({ behavior: "smooth", block: "nearest" });
-        }
-      });
-    });
 
     if (weatherState.selectedCityName) {
       const selected = cityResults.find((r) => r.city.name === weatherState.selectedCityName);
@@ -1831,7 +1847,9 @@
 
   // Theme
   function initTheme() {
-    const saved = localStorage.getItem("trend-news-theme") || localStorage.getItem("morning-news-theme");
+    const saved =
+      safeStorageGet(localStorage, "trend-news-theme") ||
+      safeStorageGet(localStorage, "morning-news-theme");
     if (saved === "dark" || saved === "light") {
       document.documentElement.setAttribute("data-theme", saved);
     } else if (window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches) {
@@ -1843,7 +1861,7 @@
     const current = document.documentElement.getAttribute("data-theme") || "light";
     const next = current === "light" ? "dark" : "light";
     document.documentElement.setAttribute("data-theme", next);
-    localStorage.setItem("trend-news-theme", next);
+    safeStorageSet(localStorage, "trend-news-theme", next);
   }
 
   function renderAll() {
@@ -1854,6 +1872,54 @@
   }
 
   // Events
+  document.addEventListener(
+    "error",
+    (e) => {
+      const target = e?.target;
+      if (!target || target.tagName !== "IMG") return;
+      const fb = target.getAttribute("data-fallback-src");
+      if (fb && target.getAttribute("src") !== fb) {
+        target.removeAttribute("data-fallback-src");
+        target.setAttribute("src", fb);
+      }
+    },
+    true
+  );
+
+  elMainContainer?.addEventListener("click", (e) => {
+    const card = e?.target?.closest?.("[data-article-idx]");
+    if (!card) return;
+    const idx = Number(card.getAttribute("data-article-idx"));
+    const url = card.getAttribute("data-article-url") || "";
+    openArticleModal(idx, url);
+  });
+
+  elTrendingTags?.addEventListener("click", (e) => {
+    const chip = e?.target?.closest?.(".trending-chip");
+    if (!chip) return;
+    const kw = chip.getAttribute("data-kw") || "";
+    if (state.query.trim().toLowerCase() === kw.toLowerCase()) {
+      setQuery("");
+    } else {
+      setQuery(kw);
+    }
+  });
+
+  elWeatherMapPins?.addEventListener("click", (e) => {
+    const btn = e?.target?.closest?.(".weather-map-pin");
+    if (!btn) return;
+    const name = btn.getAttribute("data-city-name");
+    weatherState.selectedCityName = name;
+    elWeatherMapPins.querySelectorAll(".weather-map-pin").forEach((p) => {
+      p.classList.toggle("active", p.getAttribute("data-city-name") === name);
+    });
+    const found = weatherState.cityResults.find((r) => r.city.name === name);
+    renderCityDetailPanel(found);
+    if (window.innerWidth <= 960 && elWeatherDetailPanel) {
+      elWeatherDetailPanel.scrollIntoView({ behavior: "smooth", block: "nearest" });
+    }
+  });
+
   navTabs.forEach((tab) => {
     tab.addEventListener("click", () => {
       setCategory(tab.getAttribute("data-category"));
@@ -1869,13 +1935,11 @@
 
   elSearchClear.addEventListener("click", () => setQuery(""));
   elBtnClearFilter.addEventListener("click", () => {
-    setCategory("all");
-    setQuery("");
+    setCategory("all", 0, true, true);
   });
   elBrandReset.addEventListener("click", (e) => {
     e.preventDefault();
-    setCategory("all");
-    setQuery("");
+    setCategory("all", 0, true, true);
   });
 
   elBtnWeatherShortcut?.addEventListener("click", () => {
