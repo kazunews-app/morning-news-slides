@@ -1,6 +1,6 @@
 window.NEWS_DATA = {
   "date": "2026年11月15日 (日)",
-  "updatedAt": "2026-11-15 15:27",
+  "updatedAt": "2026-11-15 15:28",
   "title": "TREND NEWS",
   "keywords": [
     "きょう近畿や東海で激しい雨…",
