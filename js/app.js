@@ -865,30 +865,33 @@
     }
   }
 
-  // Weather Dedicated Section (現在地 + 日本の主要都市一括取得)
+  // Weather Dedicated Section (現在地 + 日本地図の主要都市)
   const elWeatherCurrentWrap = document.getElementById("weather-current-wrap");
-  const elWeatherCitiesGrid = document.getElementById("weather-cities-grid");
+  const elWeatherMapPins = document.getElementById("weather-map-pins");
+  const elWeatherDetailPanel = document.getElementById("weather-detail-panel");
   const elWeatherUpdatedLabel = document.getElementById("weather-updated-label");
 
   const MAJOR_JP_CITIES = [
-    { name: "札幌", region: "北海道", lat: 43.0618, lon: 141.3545 },
-    { name: "仙台", region: "東北", lat: 38.2682, lon: 140.8694 },
-    { name: "東京", region: "関東", lat: 35.6812, lon: 139.7671 },
-    { name: "横浜", region: "関東", lat: 35.4437, lon: 139.638 },
-    { name: "新潟", region: "北陸", lat: 37.9161, lon: 139.0364 },
-    { name: "金沢", region: "北陸", lat: 36.5613, lon: 136.6562 },
-    { name: "名古屋", region: "東海", lat: 35.1815, lon: 136.9066 },
-    { name: "大阪", region: "近畿", lat: 34.6937, lon: 135.5023 },
-    { name: "広島", region: "中国", lat: 34.3853, lon: 132.4553 },
-    { name: "高松", region: "四国", lat: 34.3428, lon: 134.0466 },
-    { name: "福岡", region: "九州", lat: 33.5902, lon: 130.4017 },
-    { name: "那覇", region: "沖縄", lat: 26.2124, lon: 127.6809 },
+    { name: "札幌", region: "北海道", lat: 43.0618, lon: 141.3545, x: 76, y: 15 },
+    { name: "仙台", region: "東北", lat: 38.2682, lon: 140.8694, x: 71, y: 38 },
+    { name: "新潟", region: "北陸", lat: 37.9161, lon: 139.0364, x: 61, y: 43 },
+    { name: "金沢", region: "北陸", lat: 36.5613, lon: 136.6562, x: 50, y: 50 },
+    { name: "東京", region: "関東", lat: 35.6812, lon: 139.7671, x: 69, y: 57 },
+    { name: "横浜", region: "関東", lat: 35.4437, lon: 139.638, x: 68, y: 65 },
+    { name: "名古屋", region: "東海", lat: 35.1815, lon: 136.9066, x: 54, y: 63 },
+    { name: "大阪", region: "近畿", lat: 34.6937, lon: 135.5023, x: 44, y: 67 },
+    { name: "広島", region: "中国", lat: 34.3853, lon: 132.4553, x: 27, y: 66 },
+    { name: "高松", region: "四国", lat: 34.3428, lon: 134.0466, x: 35, y: 76 },
+    { name: "福岡", region: "九州", lat: 33.5902, lon: 130.4017, x: 15, y: 74 },
+    { name: "那覇", region: "沖縄", lat: 26.2124, lon: 127.6809, x: 14, y: 20 },
   ];
 
   const weatherState = {
     lastFetchAt: 0,
     isFetching: false,
     currentLoc: null, // { lat, lon, locName, isFallback? }
+    cityResults: [],
+    selectedCityName: null,
   };
 
   function getWeatherMeta(code) {
@@ -1031,31 +1034,93 @@
     document.getElementById("btn-weather-city")?.addEventListener("click", () => promptManualCityWeather());
   }
 
-  function renderCityWeatherCards(cityResults) {
-    if (!elWeatherCitiesGrid) return;
-    elWeatherCitiesGrid.innerHTML = cityResults
+  function renderCityDetailPanel(entry) {
+    if (!elWeatherDetailPanel) return;
+    if (!entry) {
+      elWeatherDetailPanel.innerHTML = `
+        <div class="weather-detail-placeholder">
+          <p>👆 地図上の都市名をクリックすると、詳しい天気情報が表示されます。</p>
+        </div>
+      `;
+      return;
+    }
+    const { city, w } = entry;
+    elWeatherDetailPanel.innerHTML = `
+      <div class="weather-detail-head">
+        <span class="weather-detail-city">${escapeHtml(city.name)}</span>
+        <span class="weather-city-region">${escapeHtml(city.region)}</span>
+      </div>
+      <div class="weather-detail-main">
+        <span class="weather-detail-icon">${w.meta.icon}</span>
+        <div>
+          <div class="weather-detail-temp">${w.temp}°C</div>
+          <div class="weather-detail-label">${escapeHtml(w.meta.label)}</div>
+        </div>
+      </div>
+      <div class="weather-detail-grid">
+        <div class="weather-detail-stat">
+          <span class="weather-detail-stat-label">最高気温</span>
+          <span class="weather-detail-stat-val">${w.maxTemp}°C</span>
+        </div>
+        <div class="weather-detail-stat">
+          <span class="weather-detail-stat-label">最低気温</span>
+          <span class="weather-detail-stat-val">${w.minTemp}°C</span>
+        </div>
+        <div class="weather-detail-stat">
+          <span class="weather-detail-stat-label">降水確率</span>
+          <span class="weather-detail-stat-val">☔ ${w.pop}%</span>
+        </div>
+        <div class="weather-detail-stat">
+          <span class="weather-detail-stat-label">風速</span>
+          <span class="weather-detail-stat-val">🍃 ${w.wind} km/h</span>
+        </div>
+      </div>
+    `;
+  }
+
+  function renderCityWeatherMap(cityResults) {
+    weatherState.cityResults = cityResults;
+    if (!elWeatherMapPins) return;
+    elWeatherMapPins.innerHTML = cityResults
       .map(({ city, w }) => {
+        const isActive = weatherState.selectedCityName === city.name ? "active" : "";
         return `
-          <article class="weather-city-card">
-            <div class="weather-city-top">
-              <span class="weather-city-name">${escapeHtml(city.name)}</span>
-              <span class="weather-city-region">${escapeHtml(city.region)}</span>
-            </div>
-            <div class="weather-city-mid">
-              <span class="weather-city-icon">${w.meta.icon}</span>
-              <div>
-                <div class="weather-city-temp">${w.temp}°C</div>
-                <div class="weather-city-label">${escapeHtml(w.meta.label)}</div>
-              </div>
-            </div>
-            <div class="weather-city-meta">
-              <span>最高 ${w.maxTemp}° / 最低 ${w.minTemp}°</span>
-              <span>☔ ${w.pop}%</span>
-            </div>
-          </article>
+          <button
+            type="button"
+            class="weather-map-pin ${isActive}"
+            data-city-name="${escapeHtml(city.name)}"
+            style="left: ${city.x}%; top: ${city.y}%;"
+            aria-label="${escapeHtml(city.name)} ${escapeHtml(w.meta.label)} ${w.temp}°C"
+          >
+            <span>${escapeHtml(city.name)}</span>
+            <span>${w.meta.icon}</span>
+            <span class="pin-temp">${w.temp}°</span>
+          </button>
         `;
       })
       .join("");
+
+    elWeatherMapPins.querySelectorAll(".weather-map-pin").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        const name = btn.getAttribute("data-city-name");
+        weatherState.selectedCityName = name;
+        elWeatherMapPins.querySelectorAll(".weather-map-pin").forEach((p) => {
+          p.classList.toggle("active", p.getAttribute("data-city-name") === name);
+        });
+        const found = weatherState.cityResults.find((r) => r.city.name === name);
+        renderCityDetailPanel(found);
+        if (window.innerWidth <= 960 && elWeatherDetailPanel) {
+          elWeatherDetailPanel.scrollIntoView({ behavior: "smooth", block: "nearest" });
+        }
+      });
+    });
+
+    if (weatherState.selectedCityName) {
+      const selected = cityResults.find((r) => r.city.name === weatherState.selectedCityName);
+      renderCityDetailPanel(selected);
+    } else {
+      renderCityDetailPanel(null);
+    }
   }
 
   async function fetchSingleLocationWeather(lat, lon) {
@@ -1098,7 +1163,7 @@
         .map((r) => r.value);
 
       if (cityResults.length > 0) {
-        renderCityWeatherCards(cityResults);
+        renderCityWeatherMap(cityResults);
         weatherState.lastFetchAt = Date.now();
         if (elWeatherUpdatedLabel) {
           elWeatherUpdatedLabel.textContent = `更新: ${formatNowJst().updatedAt}`;

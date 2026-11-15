@@ -1301,3 +1301,213 @@ html, body {
     gap: 10px;
   }
 }
+
+/* Japan Weather Map & Detail Panel */
+.weather-map-layout {
+  display: grid;
+  grid-template-columns: 1.55fr 1fr;
+  gap: 20px;
+  align-items: start;
+}
+
+.weather-map-card {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 600 / 560;
+  background: linear-gradient(180deg, #dbeafe 0%, #eff6ff 100%);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+  overflow: hidden;
+}
+
+[data-theme="dark"] .weather-map-card {
+  background: linear-gradient(180deg, #0f172a 0%, #1e293b 100%);
+}
+
+.japan-map-svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.map-inset-box {
+  fill: rgba(255, 255, 255, 0.45);
+  stroke: rgba(37, 99, 235, 0.3);
+  stroke-width: 1.5;
+  stroke-dasharray: 4 3;
+}
+
+[data-theme="dark"] .map-inset-box {
+  fill: rgba(15, 23, 42, 0.45);
+  stroke: rgba(96, 165, 250, 0.35);
+}
+
+.map-inset-label {
+  font-size: 13px;
+  font-weight: 700;
+  fill: var(--text-muted);
+}
+
+.map-land {
+  fill: #a7f3d0;
+  stroke: #059669;
+  stroke-width: 1.8;
+  stroke-linejoin: round;
+}
+
+[data-theme="dark"] .map-land {
+  fill: #1e3a2f;
+  stroke: #34d399;
+}
+
+.weather-map-pins {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.weather-map-pin {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  pointer-events: auto;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 8px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.94);
+  color: #0f172a;
+  font-family: inherit;
+  font-size: 0.74rem;
+  font-weight: 700;
+  white-space: nowrap;
+  cursor: pointer;
+  box-shadow: 0 3px 10px rgba(15, 23, 42, 0.14);
+  transition: transform 0.15s ease, border-color 0.15s ease, background-color 0.15s ease;
+  z-index: 2;
+}
+
+[data-theme="dark"] .weather-map-pin {
+  background: rgba(21, 30, 50, 0.94);
+  color: #f1f5f9;
+  border-color: rgba(255, 255, 255, 0.16);
+}
+
+.weather-map-pin:hover,
+.weather-map-pin.active {
+  transform: translate(-50%, -50%) scale(1.08);
+  border-color: var(--accent);
+  background: var(--accent);
+  color: #ffffff;
+  z-index: 5;
+}
+
+.weather-map-pin .pin-temp {
+  font-weight: 800;
+  color: var(--accent);
+}
+
+.weather-map-pin:hover .pin-temp,
+.weather-map-pin.active .pin-temp {
+  color: #ffffff;
+}
+
+.weather-detail-panel {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 22px;
+  box-shadow: var(--shadow-sm);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.weather-detail-placeholder {
+  text-align: center;
+  padding: 36px 12px;
+  color: var(--text-muted);
+  font-size: 0.92rem;
+}
+
+.weather-detail-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid var(--border);
+}
+
+.weather-detail-city {
+  font-size: 1.45rem;
+  font-weight: 800;
+  color: var(--text-primary);
+}
+
+.weather-detail-main {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.weather-detail-icon {
+  font-size: 3.1rem;
+  line-height: 1;
+}
+
+.weather-detail-temp {
+  font-size: 2.3rem;
+  font-weight: 800;
+  color: var(--accent);
+  line-height: 1.1;
+}
+
+.weather-detail-label {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--text-secondary);
+}
+
+.weather-detail-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.weather-detail-stat {
+  background: var(--surface-muted);
+  border-radius: var(--radius-sm);
+  padding: 10px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.weather-detail-stat-label {
+  font-size: 0.74rem;
+  color: var(--text-muted);
+  font-weight: 600;
+}
+
+.weather-detail-stat-val {
+  font-size: 1rem;
+  font-weight: 800;
+  color: var(--text-primary);
+}
+
+@media (max-width: 960px) {
+  .weather-map-layout {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  .weather-map-pin {
+    padding: 3px 6px;
+    font-size: 0.65rem;
+    gap: 2px;
+  }
+}
