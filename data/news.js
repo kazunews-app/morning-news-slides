@@ -1,6 +1,6 @@
 window.NEWS_DATA = {
   "date": "2026年11月15日 (日)",
-  "updatedAt": "2026-11-15 14:52",
+  "updatedAt": "2026-11-15 15:00",
   "title": "TREND NEWS",
   "keywords": [
     "きょう近畿や東海で激しい雨…",
@@ -182,15 +182,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "entertainment",
-      "title": "紅白 返り咲き組が定番になった訳",
+      "title": "ROLLY語る「3歳で女装」の原体験",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 13:06",
-      "publishedTs": 1794715573,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/iwiz-yn/rpr/nakanishimasao/02766362/title-1794709407148.jpeg?exp=10800",
-      "summary": "大みそかの「第77回NHK紅白歌合戦」の出場者が13日に発表されました。「モナキ」「＝LOVE」ら初出場組も存在感を見せる中、目を引いたのが返り咲き組。42年ぶり８回目の出場となる高田みづえさんをはじ…",
+      "publishedAt": "2026-11-15 11:55",
+      "publishedTs": 1794711322,
+      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/15/5cbad61b92d4d0374721de283d79eb65360576b70343e13cb533a295a1c76622.jpg",
+      "summary": "バンド「すかんち」のリーダーとして活躍し、音楽活動のほか、俳優などとしても幅広く活動するROLLY（63）。その目を引く出で立ちでも知られるが、原点は3歳の頃にあったという。",
       "points": [
         "カテゴリ: 芸能・エンタメの注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 13:06）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 11:55）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "芸能・エンタメ分野で関心を集めている最新ニュースです。",
@@ -198,7 +198,7 @@ window.NEWS_DATA = {
         "芸能・エンタメ",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/pickup/6602658?source=rss",
+      "url": "https://news.yahoo.co.jp/pickup/6602651?source=rss",
       "isAiEnriched": false
     },
     {
@@ -288,15 +288,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "entertainment",
-      "title": "ROLLY語る「3歳で女装」の原体験",
+      "title": "やす子 子ども食堂運営にやりがい",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 11:55",
-      "publishedTs": 1794711322,
-      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/15/5cbad61b92d4d0374721de283d79eb65360576b70343e13cb533a295a1c76622.jpg",
-      "summary": "バンド「すかんち」のリーダーとして活躍し、音楽活動のほか、俳優などとしても幅広く活動するROLLY（63）。その目を引く出で立ちでも知られるが、原点は3歳の頃にあったという。",
+      "publishedAt": "2026-11-15 11:19",
+      "publishedTs": 1794709187,
+      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/15/ed2a6b91632d714d1c121205faf552775f0ad05dd56c5d428c816bc0d79dfb91.jpg",
+      "summary": "お笑い芸人のやす子（２８）は、９月から東京・葛飾区で子ども食堂「やすまったり」を運営している。週１日のペースで地域の子どもたちを受け入れ、食事を提供。芸人業の傍ら、試行錯誤を重ねながら運営を続けてい…",
       "points": [
         "カテゴリ: 芸能・エンタメの注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 11:55）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 11:19）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "芸能・エンタメ分野で関心を集めている最新ニュースです。",
@@ -304,7 +304,7 @@ window.NEWS_DATA = {
         "芸能・エンタメ",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/pickup/6602651?source=rss",
+      "url": "https://news.yahoo.co.jp/pickup/6602646?source=rss",
       "isAiEnriched": false
     },
     {
@@ -393,15 +393,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "entertainment",
-      "title": "やす子 子ども食堂運営にやりがい",
+      "title": "瀬戸康史 帰宅早い理由は「家族」",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 11:19",
-      "publishedTs": 1794709187,
-      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/15/ed2a6b91632d714d1c121205faf552775f0ad05dd56c5d428c816bc0d79dfb91.jpg",
-      "summary": "お笑い芸人のやす子（２８）は、９月から東京・葛飾区で子ども食堂「やすまったり」を運営している。週１日のペースで地域の子どもたちを受け入れ、食事を提供。芸人業の傍ら、試行錯誤を重ねながら運営を続けてい…",
+      "publishedAt": "2026-11-15 10:05",
+      "publishedTs": 1794704712,
+      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/15/5f2fd896a04104bfe0de79b25363946ba12443f21b66e29c003a4a696c7754f6.jpg",
+      "summary": "田中哲司の素朴な疑問に即答 有村架純「めっちゃ爆速で帰ってます」 俳優の瀬戸康史が14日、東京芸術劇場プレイハウスで行われた舞台『キュー』の公開ゲネプロ前囲み取材に出席。稽古終了後すぐに帰る理由を問…",
       "points": [
         "カテゴリ: 芸能・エンタメの注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 11:19）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 10:05）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "芸能・エンタメ分野で関心を集めている最新ニュースです。",
@@ -409,7 +409,7 @@ window.NEWS_DATA = {
         "芸能・エンタメ",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/pickup/6602646?source=rss",
+      "url": "https://news.yahoo.co.jp/pickup/6602638?source=rss",
       "isAiEnriched": false
     },
     {
@@ -499,15 +499,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "entertainment",
-      "title": "瀬戸康史 帰宅早い理由は「家族」",
+      "title": "VIVANTドラム編 地上波初放送へ",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 10:05",
-      "publishedTs": 1794704712,
-      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/15/5f2fd896a04104bfe0de79b25363946ba12443f21b66e29c003a4a696c7754f6.jpg",
-      "summary": "田中哲司の素朴な疑問に即答 有村架純「めっちゃ爆速で帰ってます」 俳優の瀬戸康史が14日、東京芸術劇場プレイハウスで行われた舞台『キュー』の公開ゲネプロ前囲み取材に出席。稽古終了後すぐに帰る理由を問…",
+      "publishedAt": "2026-11-15 08:37",
+      "publishedTs": 1794699450,
+      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/15/f92d57627ebad93ce872d01da8c34afb92c96a048f1126d9b6b9d8cd7016ae7b.jpg",
+      "summary": "TBSは15日までに、今月22日午後9時の日曜劇場枠の時間帯に、「『VIVANT－THE ORIGIN STORY－』ドラム編」を地上波初放送することを、番組表などで告知した。",
       "points": [
         "カテゴリ: 芸能・エンタメの注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 10:05）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 08:37）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "芸能・エンタメ分野で関心を集めている最新ニュースです。",
@@ -515,7 +515,7 @@ window.NEWS_DATA = {
         "芸能・エンタメ",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/pickup/6602638?source=rss",
+      "url": "https://news.yahoo.co.jp/pickup/6602625?source=rss",
       "isAiEnriched": false
     },
     {
@@ -605,15 +605,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "entertainment",
-      "title": "VIVANTドラム編 地上波初放送へ",
+      "title": "大倉士門 妻との連絡1日100往復超",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 08:37",
-      "publishedTs": 1794699450,
-      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/15/f92d57627ebad93ce872d01da8c34afb92c96a048f1126d9b6b9d8cd7016ae7b.jpg",
-      "summary": "TBSは15日までに、今月22日午後9時の日曜劇場枠の時間帯に、「『VIVANT－THE ORIGIN STORY－』ドラム編」を地上波初放送することを、番組表などで告知した。",
+      "publishedAt": "2026-11-14 22:56",
+      "publishedTs": 1794664566,
+      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/14/ecb8bf03e1b16223a1a9b6262f49e57c5c0abaf0b03bb41c25a0104e6d346ec1.jpg",
+      "summary": "2026年7月に第1子誕生を公表した大倉士門さん・池田美優さん夫妻。一児の父となった大倉士門さんへのインタビュー取材の日、「今日はワンオペなんです」と赤ちゃんを抱っこしながら質問に答えてくれました。",
       "points": [
         "カテゴリ: 芸能・エンタメの注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 08:37）",
+        "配信: Yahoo!ニュース トピックス（2026-11-14 22:56）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "芸能・エンタメ分野で関心を集めている最新ニュースです。",
@@ -621,7 +621,7 @@ window.NEWS_DATA = {
         "芸能・エンタメ",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/pickup/6602625?source=rss",
+      "url": "https://news.yahoo.co.jp/pickup/6602605?source=rss",
       "isAiEnriched": false
     },
     {
@@ -710,15 +710,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "entertainment",
-      "title": "大倉士門 妻との連絡1日100往復超",
+      "title": "中村七之助 パパになりお酒やめた",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-14 22:56",
-      "publishedTs": 1794664566,
-      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/14/ecb8bf03e1b16223a1a9b6262f49e57c5c0abaf0b03bb41c25a0104e6d346ec1.jpg",
-      "summary": "2026年7月に第1子誕生を公表した大倉士門さん・池田美優さん夫妻。一児の父となった大倉士門さんへのインタビュー取材の日、「今日はワンオペなんです」と赤ちゃんを抱っこしながら質問に答えてくれました。",
+      "publishedAt": "2026-11-14 20:15",
+      "publishedTs": 1794654959,
+      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/14/1d0573ab8429ba2831cb1207907dc59cde54af200820efdf8f891fbd929a2a43.jpg",
+      "summary": "歌舞伎俳優の中村獅童と中村七之助が１４日、都内で開かれた、東京・歌舞伎座「十二月大歌舞伎」（２～２５日）の第一部で上演される「刺青奇偶（いれずみちょうはん）」の取材会に出席した。",
       "points": [
         "カテゴリ: 芸能・エンタメの注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-14 22:56）",
+        "配信: Yahoo!ニュース トピックス（2026-11-14 20:15）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "芸能・エンタメ分野で関心を集めている最新ニュースです。",
@@ -726,7 +726,7 @@ window.NEWS_DATA = {
         "芸能・エンタメ",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/pickup/6602605?source=rss",
+      "url": "https://news.yahoo.co.jp/pickup/6602579?source=rss",
       "isAiEnriched": false
     },
     {
@@ -816,23 +816,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "entertainment",
-      "title": "中村七之助 パパになりお酒やめた",
-      "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-14 20:15",
-      "publishedTs": 1794654959,
-      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/14/1d0573ab8429ba2831cb1207907dc59cde54af200820efdf8f891fbd929a2a43.jpg",
-      "summary": "歌舞伎俳優の中村獅童と中村七之助が１４日、都内で開かれた、東京・歌舞伎座「十二月大歌舞伎」（２～２５日）の第一部で上演される「刺青奇偶（いれずみちょうはん）」の取材会に出席した。",
+      "title": "【国際親善試合】日本がブラジルにW杯のリベンジ達成！2点差を追いつかれるも後半ATに坂元が値千金の勝ち越し弾 - ドメサカブログ",
+      "source": "blog.domesoccer.jp",
+      "publishedAt": "2026-11-15 06:00",
+      "publishedTs": 1794690053,
+      "image": "https://blog.domesoccer.jp/app/wp-content/uploads/2026/11/031-1.jpg?v=1794659558",
+      "summary": "J1 (22,728) 鹿島 (1,560) 水戸 (950) 浦和 (2,034) 千葉 (1,186) 柏 (1,451) F東京 (1,823) 東京V (1,213) 町田 (839) 川崎F (1,529) 横浜FM (1,743) 清水 (1,384) 名古屋 (1,530) 京都 (1,121…",
       "points": [
-        "カテゴリ: 芸能・エンタメの注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-14 20:15）",
-        "「元記事を読む」から詳細を確認できます"
+        "カテゴリ: 芸能・エンタメで話題の記事",
+        "引用元: blog.domesoccer.jp（2026-11-15 06:00）",
+        "「元記事を読む」から本文を確認できます"
       ],
-      "impact": "芸能・エンタメ分野で関心を集めている最新ニュースです。",
+      "impact": "芸能・エンタメ分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "芸能・エンタメ",
-        "Yahoo!ニュース"
+        "blog.domesoccer.jp"
       ],
-      "url": "https://news.yahoo.co.jp/pickup/6602579?source=rss",
+      "url": "https://blog.domesoccer.jp/archives/60255528.html",
       "isAiEnriched": false
     },
     {
@@ -922,23 +922,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "entertainment",
-      "title": "【国際親善試合】日本がブラジルにW杯のリベンジ達成！2点差を追いつかれるも後半ATに坂元が値千金の勝ち越し弾 - ドメサカブログ",
-      "source": "blog.domesoccer.jp",
-      "publishedAt": "2026-11-15 06:00",
-      "publishedTs": 1794690053,
-      "image": "https://blog.domesoccer.jp/app/wp-content/uploads/2026/11/031-1.jpg?v=1794659558",
-      "summary": "J1 (22,728) 鹿島 (1,560) 水戸 (950) 浦和 (2,034) 千葉 (1,186) 柏 (1,451) F東京 (1,823) 東京V (1,213) 町田 (839) 川崎F (1,529) 横浜FM (1,743) 清水 (1,384) 名古屋 (1,530) 京都 (1,121…",
+      "title": "【Official Music Video】世点彩 / MyGO!!!!!【オリジナル楽曲】",
+      "source": "youtube.com",
+      "publishedAt": "2026-11-14 20:19",
+      "publishedTs": 1794655194,
+      "image": "https://i.ytimg.com/vi/EyowWigzhIY/hqdefault.jpg",
+      "summary": "「世点彩」 作詞：藤原優樹(SUPA LOVE) 作曲・編曲：トミタカズキ(SUPA LOVE) 歌：MyGO!!!!! ＜MV＞ 監督 / CG / 撮影 / 編集：西久保 直哉（SIGNIF） 作画監督：4O（SIGNIF） キャラクターデザイン / イラストレーション：ナナカワ https://twi…",
       "points": [
         "カテゴリ: 芸能・エンタメで話題の記事",
-        "引用元: blog.domesoccer.jp（2026-11-15 06:00）",
+        "引用元: youtube.com（2026-11-14 20:19）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "芸能・エンタメ分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "芸能・エンタメ",
-        "blog.domesoccer.jp"
+        "youtube.com"
       ],
-      "url": "https://blog.domesoccer.jp/archives/60255528.html",
+      "url": "https://www.youtube.com/watch?v=EyowWigzhIY",
       "isAiEnriched": false
     },
     {
@@ -964,15 +964,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "住宅に強盗 少年ら5人が関与か",
+      "title": "ヒ素含む古書 22年以降100点超",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 12:56",
-      "publishedTs": 1794715001,
-      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/15/6868860b14844f381e169ab3a07ff0304a688fa7ff787ba5c335cb8bd45b6e97.jpg",
-      "summary": "15日未明、愛知県小牧市の住宅に男らが押し入り、住人の女性が殴られ重傷です。",
+      "publishedAt": "2026-11-15 14:07",
+      "publishedTs": 1794719232,
+      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/15/b237022c18385c061948f488fe09389142df6ed74428a90266ea863965cb317a.jpg",
+      "summary": "調査した研究者がデータベース開設 毒性のあるヒ素を含む顔料を使った古い書籍などが、全国の図書館や古書店で見つかっている。江戸～明治時代の出版物を中心に、これまでに１００点以上が確認された。調査した研…",
       "points": [
         "カテゴリ: 国内・総合の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 12:56）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 14:07）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "国内・総合分野で関心を集めている最新ニュースです。",
@@ -980,7 +980,7 @@ window.NEWS_DATA = {
         "国内・総合",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/pickup/6602657?source=rss",
+      "url": "https://news.yahoo.co.jp/pickup/6602665?source=rss",
       "isAiEnriched": false
     },
     {
@@ -1027,23 +1027,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "entertainment",
-      "title": "【Official Music Video】世点彩 / MyGO!!!!!【オリジナル楽曲】",
-      "source": "youtube.com",
-      "publishedAt": "2026-11-14 20:19",
-      "publishedTs": 1794655194,
-      "image": "https://i.ytimg.com/vi/EyowWigzhIY/hqdefault.jpg",
-      "summary": "「世点彩」 作詞：藤原優樹(SUPA LOVE) 作曲・編曲：トミタカズキ(SUPA LOVE) 歌：MyGO!!!!! ＜MV＞ 監督 / CG / 撮影 / 編集：西久保 直哉（SIGNIF） 作画監督：4O（SIGNIF） キャラクターデザイン / イラストレーション：ナナカワ https://twi…",
+      "title": "第77回紅白歌合戦の出場歌手のこと - WASTE OF POPS 80s-90s",
+      "source": "wasteofpops.com",
+      "publishedAt": "2026-11-15 00:23",
+      "publishedTs": 1794669798,
+      "image": "https://ogimage.blog.st-hatena.com/8599973812320169335/14729835035338472431/1794713547",
+      "summary": "紅白の出演者、出ました。 毎年言っていることですが、元々紅白は「その年の代表的ヒット曲が年末に一堂に会する場」だったわけですが、もはや「老若男女みんなが知っているヒット曲」などどこにもなく、それでもその「体」を守るために様々なジャンル・年代から引っ張ってきて、全体として少しでも「老若男女が納得する...",
       "points": [
         "カテゴリ: 芸能・エンタメで話題の記事",
-        "引用元: youtube.com（2026-11-14 20:19）",
+        "引用元: wasteofpops.com（2026-11-15 00:23）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "芸能・エンタメ分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "芸能・エンタメ",
-        "youtube.com"
+        "wasteofpops.com"
       ],
-      "url": "https://www.youtube.com/watch?v=EyowWigzhIY",
+      "url": "https://www.wasteofpops.com/entry/2026/11/14/000000",
       "isAiEnriched": false
     },
     {
@@ -1070,15 +1070,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "手が出ない 福岡市マンション高騰",
+      "title": "大阪3歳死亡 平均体重5キロ下回る",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 12:39",
-      "publishedTs": 1794713948,
-      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/15/2cc4d517d4a4333628a2c6bb4ea54c0eb2769e692ca80ec0a25222d29773ee9f.jpg",
-      "summary": "「もとから手が出せないと思っていました」 建設会社に勤める男性（29）は、ろくに価格も見ないまま福岡市内でのマンション購入を諦めた。",
+      "publishedAt": "2026-11-15 13:46",
+      "publishedTs": 1794717983,
+      "image": "assets/images/news-1.jpg",
+      "summary": "「大阪3歳死亡 平均体重5キロ下回る」に関する注目ニュースです。詳細は元記事から確認できます。",
       "points": [
         "カテゴリ: 国内・総合の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 12:39）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 13:46）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "国内・総合分野で関心を集めている最新ニュースです。",
@@ -1086,7 +1086,7 @@ window.NEWS_DATA = {
         "国内・総合",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/pickup/6602655?source=rss",
+      "url": "https://news.yahoo.co.jp/pickup/6602664?source=rss",
       "isAiEnriched": false
     },
     {
@@ -1133,23 +1133,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "entertainment",
-      "title": "第77回紅白歌合戦の出場歌手のこと - WASTE OF POPS 80s-90s",
-      "source": "wasteofpops.com",
-      "publishedAt": "2026-11-15 00:23",
-      "publishedTs": 1794669798,
-      "image": "https://ogimage.blog.st-hatena.com/8599973812320169335/14729835035338472431/1794713547",
-      "summary": "紅白の出演者、出ました。 毎年言っていることですが、元々紅白は「その年の代表的ヒット曲が年末に一堂に会する場」だったわけですが、もはや「老若男女みんなが知っているヒット曲」などどこにもなく、それでもその「体」を守るために様々なジャンル・年代から引っ張ってきて、全体として少しでも「老若男女が納得する...",
+      "title": "Netflixが値上げ、国内2年ぶり　広告付きプランは11%高の990円 - 日本経済新聞",
+      "source": "nikkei.com",
+      "publishedAt": "2026-11-14 20:31",
+      "publishedTs": 1794655890,
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3878606013112026000000-2.jpg?auto=compress&bg=FFFF&crop=focalpoint&fit=crop&fm=jpg&h=630&w=1200&s=635c9076876658eff6997cd19ae75569",
+      "summary": "米動画配信大手ネットフリックスは14日、日本での料金プランを値上げすると会員に通知した。広告付きの最安プランは11%値上げして月額990円となる。新規会員の獲得が難しくなるなか、単価を上げてコンテンツ制作力を高める。ネットフリックスが日本で値上げするのは2024年以来。広告なしで2台同時に視聴できるスタンダ…",
       "points": [
         "カテゴリ: 芸能・エンタメで話題の記事",
-        "引用元: wasteofpops.com（2026-11-15 00:23）",
+        "引用元: nikkei.com（2026-11-14 20:31）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "芸能・エンタメ分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "芸能・エンタメ",
-        "wasteofpops.com"
+        "nikkei.com"
       ],
-      "url": "https://www.wasteofpops.com/entry/2026/11/14/000000",
+      "url": "https://www.nikkei.com/article/DGXZQOUC13CL30T11C26A1000000/",
       "isAiEnriched": false
     },
     {
@@ -1176,15 +1176,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "いろは坂右折禁止 渋滞緩和に効果",
+      "title": "手が出ない 福岡市マンション高騰",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 13:54",
-      "publishedTs": 1794718473,
-      "image": "assets/images/news-1.jpg",
-      "summary": "「いろは坂右折禁止 渋滞緩和に効果」に関する注目ニュースです。詳細は元記事から確認できます。",
+      "publishedAt": "2026-11-15 12:39",
+      "publishedTs": 1794713948,
+      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/15/2cc4d517d4a4333628a2c6bb4ea54c0eb2769e692ca80ec0a25222d29773ee9f.jpg",
+      "summary": "「もとから手が出せないと思っていました」 建設会社に勤める男性（29）は、ろくに価格も見ないまま福岡市内でのマンション購入を諦めた。",
       "points": [
         "カテゴリ: 国内・総合の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 13:54）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 12:39）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "国内・総合分野で関心を集めている最新ニュースです。",
@@ -1192,7 +1192,7 @@ window.NEWS_DATA = {
         "国内・総合",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/pickup/6602663?source=rss",
+      "url": "https://news.yahoo.co.jp/pickup/6602655?source=rss",
       "isAiEnriched": false
     },
     {
@@ -1239,23 +1239,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "entertainment",
-      "title": "Netflixが値上げ、国内2年ぶり　広告付きプランは11%高の990円 - 日本経済新聞",
-      "source": "nikkei.com",
-      "publishedAt": "2026-11-14 20:31",
-      "publishedTs": 1794655890,
-      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3878606013112026000000-2.jpg?auto=compress&bg=FFFF&crop=focalpoint&fit=crop&fm=jpg&h=630&w=1200&s=635c9076876658eff6997cd19ae75569",
-      "summary": "米動画配信大手ネットフリックスは14日、日本での料金プランを値上げすると会員に通知した。広告付きの最安プランは11%値上げして月額990円となる。新規会員の獲得が難しくなるなか、単価を上げてコンテンツ制作力を高める。ネットフリックスが日本で値上げするのは2024年以来。広告なしで2台同時に視聴できるスタンダ…",
+      "title": "『ゴジラ-0.0』製作はクオリティー最重視　岸田一晃プロデューサー「スタッフの提案は全力で実現」｜シネマトゥデイ",
+      "source": "cinematoday.jp",
+      "publishedAt": "2026-11-14 13:45",
+      "publishedTs": 1794631544,
+      "image": "https://img.cinematoday.jp/a/rqh1jJo8diw1/_size_r1200x630/_v_1794454939/main.jpg",
+      "summary": "『ゴジラ-0.0』岸田一晃プロデューサー（「ゴジラ博 マイナスの世界」会場にて撮影） 映画『ゴジラ-0.0』（全国公開中）の企画・プロデュースを担当した岸田一晃（東宝）が5日、大丸東京店にて開催された「ゴジラ博 マイナスの世界」プレス内覧会に出席し、“クオリティー・ファースト”を掲げた最新作の製作について語…",
       "points": [
         "カテゴリ: 芸能・エンタメで話題の記事",
-        "引用元: nikkei.com（2026-11-14 20:31）",
+        "引用元: cinematoday.jp（2026-11-14 13:45）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "芸能・エンタメ分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "芸能・エンタメ",
-        "nikkei.com"
+        "cinematoday.jp"
       ],
-      "url": "https://www.nikkei.com/article/DGXZQOUC13CL30T11C26A1000000/",
+      "url": "https://www.cinematoday.jp/news/N0157907",
       "isAiEnriched": false
     },
     {
@@ -1281,15 +1281,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "867gで生まれた女性 母の話に涙",
+      "title": "いろは坂右折禁止 渋滞緩和に効果",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 09:14",
-      "publishedTs": 1794701678,
-      "image": "assets/images/news-2.jpg",
-      "summary": "「867gで生まれた女性 母の話に涙」に関する注目ニュースです。詳細は元記事から確認できます。",
+      "publishedAt": "2026-11-15 13:54",
+      "publishedTs": 1794718473,
+      "image": "assets/images/news-1.jpg",
+      "summary": "「いろは坂右折禁止 渋滞緩和に効果」に関する注目ニュースです。詳細は元記事から確認できます。",
       "points": [
         "カテゴリ: 国内・総合の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 09:14）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 13:54）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "国内・総合分野で関心を集めている最新ニュースです。",
@@ -1297,7 +1297,7 @@ window.NEWS_DATA = {
         "国内・総合",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/pickup/6602630?source=rss",
+      "url": "https://news.yahoo.co.jp/pickup/6602663?source=rss",
       "isAiEnriched": false
     },
     {
@@ -1319,112 +1319,6 @@ window.NEWS_DATA = {
         "fabscene.com"
       ],
       "url": "https://fabscene.com/new/interview/solidcraft-open-source-cad-ai-1-5m-downloads-brennen-herbruck/",
-      "isAiEnriched": false
-    },
-    {
-      "category": "business",
-      "title": "沖縄知事選の関連動画、兵庫知事選でも発信のアカウントが推計収益の6割独占　宮城でも活動",
-      "source": "kobe-np.co.jp",
-      "publishedAt": "2026-11-14 23:59",
-      "publishedTs": 1794668343,
-      "image": "https://i.kobe-np.co.jp/news/society/202611/img/a_21030734.jpg",
-      "summary": "９月の沖縄県知事選の関連動画で、ユーチューブの再生回数が上位に入った５０アカウントのうち、１１アカウントは２０２４年の兵庫県知事選でも選挙期間中に関連動画を発信していた。この１１アカウントは、沖縄県知事選での収益を試算した動画３３０本のうち、約３割の９８本を配信。再生回数に応じた収益は推計で最大...",
-      "points": [
-        "カテゴリ: ビジネス・経済で話題の記事",
-        "引用元: kobe-np.co.jp（2026-11-14 23:59）",
-        "「元記事を読む」から本文を確認できます"
-      ],
-      "impact": "ビジネス・経済分野で多くの読者に共有されている注目記事です。",
-      "tags": [
-        "ビジネス・経済",
-        "kobe-np.co.jp"
-      ],
-      "url": "https://www.kobe-np.co.jp/news/society/202611/0021030732.shtml",
-      "isAiEnriched": false
-    },
-    {
-      "category": "entertainment",
-      "title": "『ゴジラ-0.0』製作はクオリティー最重視　岸田一晃プロデューサー「スタッフの提案は全力で実現」｜シネマトゥデイ",
-      "source": "cinematoday.jp",
-      "publishedAt": "2026-11-14 13:45",
-      "publishedTs": 1794631544,
-      "image": "https://img.cinematoday.jp/a/rqh1jJo8diw1/_size_r1200x630/_v_1794454939/main.jpg",
-      "summary": "『ゴジラ-0.0』岸田一晃プロデューサー（「ゴジラ博 マイナスの世界」会場にて撮影） 映画『ゴジラ-0.0』（全国公開中）の企画・プロデュースを担当した岸田一晃（東宝）が5日、大丸東京店にて開催された「ゴジラ博 マイナスの世界」プレス内覧会に出席し、“クオリティー・ファースト”を掲げた最新作の製作について語…",
-      "points": [
-        "カテゴリ: 芸能・エンタメで話題の記事",
-        "引用元: cinematoday.jp（2026-11-14 13:45）",
-        "「元記事を読む」から本文を確認できます"
-      ],
-      "impact": "芸能・エンタメ分野で多くの読者に共有されている注目記事です。",
-      "tags": [
-        "芸能・エンタメ",
-        "cinematoday.jp"
-      ],
-      "url": "https://www.cinematoday.jp/news/N0157907",
-      "isAiEnriched": false
-    },
-    {
-      "category": "subculture",
-      "title": "『League of Legends』大規模アップデートの内容チラ見せ。ビジュアル大刷新&ゲームプレイ変更いろいろありそう",
-      "source": "AUTOMATON",
-      "publishedAt": "2026-11-15 07:24",
-      "publishedTs": 1794695055,
-      "image": "assets/images/news-4.jpg",
-      "summary": "Riot Gamesは11月15日、『League of Legends』向けの大型アップデート「New Dawn」の内容をお披露目した。ビジュアル刷新のほか、ゲームプレイにも変更が加えられそうだ。",
-      "points": [
-        "カテゴリ: サブカルチャーの注目ニュース",
-        "配信: AUTOMATON（2026-11-15 07:24）",
-        "「元記事を読む」から詳細を確認できます"
-      ],
-      "impact": "サブカルチャー分野で注目を集めている最新記事です。",
-      "tags": [
-        "サブカルチャー",
-        "ゲーム",
-        "AUTOMATON"
-      ],
-      "url": "https://automaton-media.com/articles/newsjp/league-of-legends-20261115-479316/",
-      "isAiEnriched": false
-    },
-    {
-      "category": "domestic",
-      "title": "駅伝 タスキ渡しで失格ハプニング",
-      "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 13:26",
-      "publishedTs": 1794716796,
-      "image": "assets/images/news-1.jpg",
-      "summary": "「駅伝 タスキ渡しで失格ハプニング」に関する注目ニュースです。詳細は元記事から確認できます。",
-      "points": [
-        "カテゴリ: 国内・総合の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 13:26）",
-        "「元記事を読む」から詳細を確認できます"
-      ],
-      "impact": "国内・総合分野で関心を集めている最新ニュースです。",
-      "tags": [
-        "国内・総合",
-        "Yahoo!ニュース"
-      ],
-      "url": "https://news.yahoo.co.jp/pickup/6602661?source=rss",
-      "isAiEnriched": false
-    },
-    {
-      "category": "tech",
-      "title": "貧乏人向けの金貸しと、Appleの取り立てテクノロジー » p2ptk[.]org",
-      "source": "p2ptk.org",
-      "publishedAt": "2026-11-15 03:54",
-      "publishedTs": 1794682485,
-      "image": "https://p2ptk.org/wp-content/uploads/2026/11/think_different_repo.jpg",
-      "summary": "以下の文章は、コリイ・ドクトロウの「Apple’s robo-repo」という記事（2026年7月25日公開）を翻訳したものである。 Pluralistic 奇妙に思えるかもしれないが、金貸しは返済に苦労しそうな貧乏人に金を貸すのを大いに好む。当然ながら貸し手は耳を揃えて返済してほしいと考えているし、当然な…",
-      "points": [
-        "カテゴリ: テクノロジー・AIで話題の記事",
-        "引用元: p2ptk.org（2026-11-15 03:54）",
-        "「元記事を読む」から本文を確認できます"
-      ],
-      "impact": "テクノロジー・AI分野で多くの読者に共有されている注目記事です。",
-      "tags": [
-        "テクノロジー・AI",
-        "p2ptk.org"
-      ],
-      "url": "https://p2ptk.org/monopoly/5681",
       "isAiEnriched": false
     },
     {
@@ -1471,6 +1365,112 @@ window.NEWS_DATA = {
     },
     {
       "category": "subculture",
+      "title": "『League of Legends』大規模アップデートの内容チラ見せ。ビジュアル大刷新&ゲームプレイ変更いろいろありそう",
+      "source": "AUTOMATON",
+      "publishedAt": "2026-11-15 07:24",
+      "publishedTs": 1794695055,
+      "image": "assets/images/news-4.jpg",
+      "summary": "Riot Gamesは11月15日、『League of Legends』向けの大型アップデート「New Dawn」の内容をお披露目した。ビジュアル刷新のほか、ゲームプレイにも変更が加えられそうだ。",
+      "points": [
+        "カテゴリ: サブカルチャーの注目ニュース",
+        "配信: AUTOMATON（2026-11-15 07:24）",
+        "「元記事を読む」から詳細を確認できます"
+      ],
+      "impact": "サブカルチャー分野で注目を集めている最新記事です。",
+      "tags": [
+        "サブカルチャー",
+        "ゲーム",
+        "AUTOMATON"
+      ],
+      "url": "https://automaton-media.com/articles/newsjp/league-of-legends-20261115-479316/",
+      "isAiEnriched": false
+    },
+    {
+      "category": "domestic",
+      "title": "駅伝 タスキ渡しで失格ハプニング",
+      "source": "Yahoo!ニュース",
+      "publishedAt": "2026-11-15 13:26",
+      "publishedTs": 1794716796,
+      "image": "assets/images/news-2.jpg",
+      "summary": "「駅伝 タスキ渡しで失格ハプニング」に関する注目ニュースです。詳細は元記事から確認できます。",
+      "points": [
+        "カテゴリ: 国内・総合の注目トピック",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 13:26）",
+        "「元記事を読む」から詳細を確認できます"
+      ],
+      "impact": "国内・総合分野で関心を集めている最新ニュースです。",
+      "tags": [
+        "国内・総合",
+        "Yahoo!ニュース"
+      ],
+      "url": "https://news.yahoo.co.jp/pickup/6602661?source=rss",
+      "isAiEnriched": false
+    },
+    {
+      "category": "tech",
+      "title": "デスクトップアプリを自動操作できるAUVが良さげかも | kawarimidoll.com",
+      "source": "kawarimidoll.com",
+      "publishedAt": "2026-10-19 17:36",
+      "publishedTs": 1792399008,
+      "image": "https://kawarimidoll.com/posts/202610182/og.png",
+      "summary": "Programmable Computer Use, without agents. AUV turns app UI workflows into typed operations you can script, record, inspect, and replay. GitHub - moeru-ai…",
+      "points": [
+        "カテゴリ: テクノロジー・AIで話題の記事",
+        "引用元: kawarimidoll.com（2026-10-19 17:36）",
+        "「元記事を読む」から本文を確認できます"
+      ],
+      "impact": "テクノロジー・AI分野で多くの読者に共有されている注目記事です。",
+      "tags": [
+        "テクノロジー・AI",
+        "kawarimidoll.com"
+      ],
+      "url": "https://kawarimidoll.com/posts/202610182/",
+      "isAiEnriched": false
+    },
+    {
+      "category": "business",
+      "title": "沖縄知事選の関連動画、兵庫知事選でも発信のアカウントが推計収益の6割独占　宮城でも活動",
+      "source": "kobe-np.co.jp",
+      "publishedAt": "2026-11-14 23:59",
+      "publishedTs": 1794668343,
+      "image": "https://i.kobe-np.co.jp/news/society/202611/img/a_21030734.jpg",
+      "summary": "９月の沖縄県知事選の関連動画で、ユーチューブの再生回数が上位に入った５０アカウントのうち、１１アカウントは２０２４年の兵庫県知事選でも選挙期間中に関連動画を発信していた。この１１アカウントは、沖縄県知事選での収益を試算した動画３３０本のうち、約３割の９８本を配信。再生回数に応じた収益は推計で最大...",
+      "points": [
+        "カテゴリ: ビジネス・経済で話題の記事",
+        "引用元: kobe-np.co.jp（2026-11-14 23:59）",
+        "「元記事を読む」から本文を確認できます"
+      ],
+      "impact": "ビジネス・経済分野で多くの読者に共有されている注目記事です。",
+      "tags": [
+        "ビジネス・経済",
+        "kobe-np.co.jp"
+      ],
+      "url": "https://www.kobe-np.co.jp/news/society/202611/0021030732.shtml",
+      "isAiEnriched": false
+    },
+    {
+      "category": "entertainment",
+      "title": "【bloodthirsty butchers周年企画】寄稿『私とkocorono』 | COLUMN | SOUND FUJI",
+      "source": "soundfuji.kingrecords.co.jp",
+      "publishedAt": "2026-11-14 18:03",
+      "publishedTs": 1794647023,
+      "image": "https://soundfuji.kingrecords.co.jp/shared/img/2026/09/butchers_contribution.jpg",
+      "summary": "日本のオルタナティヴ・ロックシーンを代表するバンド、bloodthirsty butchersが本日、初ライヴから40年を迎え、 マスターピース『kocorono』もリリースから30周年イヤーとなる。 「2月」で始まり「12月」で終わる11ヶ月の心象風景で綴られる、轟音と静寂、叙情と緊張が交差する傑作。 日…",
+      "points": [
+        "カテゴリ: 芸能・エンタメで話題の記事",
+        "引用元: soundfuji.kingrecords.co.jp（2026-11-14 18:03）",
+        "「元記事を読む」から本文を確認できます"
+      ],
+      "impact": "芸能・エンタメ分野で多くの読者に共有されている注目記事です。",
+      "tags": [
+        "芸能・エンタメ",
+        "soundfuji.kingrecords.co.jp"
+      ],
+      "url": "https://soundfuji.kingrecords.co.jp/column/10503/",
+      "isAiEnriched": false
+    },
+    {
+      "category": "subculture",
       "title": "ななしいんく所属 天絆ささは・幽音しの・羽流鷲りりりによる現地3Dファンミーティング「うるぱんおばけ3Dクリスマスパーティー」が12/20に開催決定",
       "source": "PANORA",
       "publishedAt": "2026-11-14 12:21",
@@ -1497,7 +1497,7 @@ window.NEWS_DATA = {
       "source": "Yahoo!ニュース",
       "publishedAt": "2026-11-15 12:14",
       "publishedTs": 1794712446,
-      "image": "assets/images/news-2.jpg",
+      "image": "assets/images/news-1.jpg",
       "summary": "「慶大・広池 ヤンキースと契約へ」に関する注目ニュースです。詳細は元記事から確認できます。",
       "points": [
         "カテゴリ: 国内・総合の注目トピック",
@@ -1514,23 +1514,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "デスクトップアプリを自動操作できるAUVが良さげかも | kawarimidoll.com",
-      "source": "kawarimidoll.com",
-      "publishedAt": "2026-10-19 17:36",
-      "publishedTs": 1792399008,
-      "image": "https://kawarimidoll.com/posts/202610182/og.png",
-      "summary": "Programmable Computer Use, without agents. AUV turns app UI workflows into typed operations you can script, record, inspect, and replay. GitHub - moeru-ai…",
+      "title": "貧乏人向けの金貸しと、Appleの取り立てテクノロジー » p2ptk[.]org",
+      "source": "p2ptk.org",
+      "publishedAt": "2026-11-15 03:54",
+      "publishedTs": 1794682485,
+      "image": "https://p2ptk.org/wp-content/uploads/2026/11/think_different_repo.jpg",
+      "summary": "以下の文章は、コリイ・ドクトロウの「Apple’s robo-repo」という記事（2026年7月25日公開）を翻訳したものである。 Pluralistic 奇妙に思えるかもしれないが、金貸しは返済に苦労しそうな貧乏人に金を貸すのを大いに好む。当然ながら貸し手は耳を揃えて返済してほしいと考えているし、当然な…",
       "points": [
         "カテゴリ: テクノロジー・AIで話題の記事",
-        "引用元: kawarimidoll.com（2026-10-19 17:36）",
+        "引用元: p2ptk.org（2026-11-15 03:54）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "テクノロジー・AI分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "テクノロジー・AI",
-        "kawarimidoll.com"
+        "p2ptk.org"
       ],
-      "url": "https://kawarimidoll.com/posts/202610182/",
+      "url": "https://p2ptk.org/monopoly/5681",
       "isAiEnriched": false
     },
     {
@@ -1556,23 +1556,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "entertainment",
-      "title": "【bloodthirsty butchers周年企画】寄稿『私とkocorono』 | COLUMN | SOUND FUJI",
-      "source": "soundfuji.kingrecords.co.jp",
-      "publishedAt": "2026-11-14 18:03",
-      "publishedTs": 1794647023,
-      "image": "https://soundfuji.kingrecords.co.jp/shared/img/2026/09/butchers_contribution.jpg",
-      "summary": "日本のオルタナティヴ・ロックシーンを代表するバンド、bloodthirsty butchersが本日、初ライヴから40年を迎え、 マスターピース『kocorono』もリリースから30周年イヤーとなる。 「2月」で始まり「12月」で終わる11ヶ月の心象風景で綴られる、轟音と静寂、叙情と緊張が交差する傑作。 日…",
+      "title": "【本編】『犬神家の一族(2006)』角川映画50周年記念！＜2週間限定公開＞",
+      "source": "youtube.com",
+      "publishedAt": "2026-11-14 10:33",
+      "publishedTs": 1794620023,
+      "image": "https://i.ytimg.com/vi/m2fETRsQF2Y/hqdefault.jpg",
+      "summary": "＃角川シネマコレクション #犬神家の一族（2006） ＼KADOKAWAチャンネル（ https://kdq.jp/KADCHAN ）ではあれもこれも見放題！金田一さん、事件です！／ ※ご視聴にはプライム会費のほか、1ヵ月396円（税込）の会員登録が必要です。詳しくは上記URLをご覧ください。 ～～～～～K…",
       "points": [
         "カテゴリ: 芸能・エンタメで話題の記事",
-        "引用元: soundfuji.kingrecords.co.jp（2026-11-14 18:03）",
+        "引用元: youtube.com（2026-11-14 10:33）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "芸能・エンタメ分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "芸能・エンタメ",
-        "soundfuji.kingrecords.co.jp"
+        "youtube.com"
       ],
-      "url": "https://soundfuji.kingrecords.co.jp/column/10503/",
+      "url": "https://www.youtube.com/watch?v=m2fETRsQF2Y",
       "isAiEnriched": false
     },
     {
@@ -1598,23 +1598,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "愛知県小牧市の住宅に男ら侵入、住人女性が襲われ肺に穴など重傷　中学生を含む複数人の男確保：中日新聞Web",
-      "source": "chunichi.co.jp",
-      "publishedAt": "2026-11-15 08:07",
-      "publishedTs": 1794697625,
-      "image": "https://static.chunichi.co.jp/image/article/size1/a/3/b/6/a3b63565671e28be64cebc6eb053793a_1.jpg",
-      "summary": "15日午前0時55分ごろ、愛知県小牧市小針2の住宅で、男3、4人が住人の無職女性（82）に対し「金はないか」と尋ね、女性が「ない」と答えると棒状のもので殴り、顔にスプレーのようなものをかけて逃走した。県警小牧署は強盗事件とみて捜査。捜査関係者によると、すでに複数人の男の身柄を確保した。中学生が含まれる。",
+      "title": "紅白 返り咲き組が定番になった訳",
+      "source": "Yahoo!ニュース",
+      "publishedAt": "2026-11-15 13:06",
+      "publishedTs": 1794715573,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/iwiz-yn/rpr/nakanishimasao/02766362/title-1794709407148.jpeg?exp=10800",
+      "summary": "大みそかの「第77回NHK紅白歌合戦」の出場者が13日に発表されました。「モナキ」「＝LOVE」ら初出場組も存在感を見せる中、目を引いたのが返り咲き組。42年ぶり８回目の出場となる高田みづえさんをはじ…",
       "points": [
-        "カテゴリ: 国内・総合で話題の記事",
-        "引用元: chunichi.co.jp（2026-11-15 08:07）",
-        "「元記事を読む」から本文を確認できます"
+        "カテゴリ: 国内・総合の注目トピック",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 13:06）",
+        "「元記事を読む」から詳細を確認できます"
       ],
-      "impact": "国内・総合分野で多くの読者に共有されている注目記事です。",
+      "impact": "国内・総合分野で関心を集めている最新ニュースです。",
       "tags": [
         "国内・総合",
-        "chunichi.co.jp"
+        "Yahoo!ニュース"
       ],
-      "url": "https://www.chunichi.co.jp/article/1339609",
+      "url": "https://news.yahoo.co.jp/pickup/6602658?source=rss",
       "isAiEnriched": false
     },
     {
@@ -1640,36 +1640,36 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "戦争反対界隈、「先制攻撃を始める前提に自衛隊は成り立ってる」という小泉防衛相の発言捏造を始める。",
-      "source": "posfie.com",
-      "publishedAt": "2026-11-14 17:36",
-      "publishedTs": 1794645388,
-      "image": "https://s.tgstc.com/ogp3/5e5d7dbfda9c2dda6c34f27eece61689-1200x630.jpeg",
-      "summary": "緒方恵美 @Megumi_Ogata 「小泉大臣は先制攻撃とは言ってない」 と仰る方へ。 「米国とイスラエルが先制攻撃を始めなければ(戦争はなかった)」 という言葉を受けて、 「始めないという前提で自衛隊はない」 と答えている段階で、文脈的に仰っているのと同義です。 憲法違反でなく言うとしたら、 「始められ…",
+      "title": "高市首相“パフォーマンス外交”は限界、「米中接近」国際情勢の変化への戦略見えず",
+      "source": "diamond.jp",
+      "publishedAt": "2026-11-15 11:19",
+      "publishedTs": 1794709162,
+      "image": "https://dol.ismcdn.jp/mwimgs/1/d/-/img_1deb27f7d7b7174a5709b03eb2ed03cb526614.jpg",
+      "summary": "高市政権のこの一年の外交は、国際社会の批判が強い「米国第一」のトランプ米政権への「追随」が目立つ一方で、中国との関係悪化は続いたままだ。「米中接近」という国際情勢の大きな変化のもと、構想力や戦略のない“パフォーマンス外交“の限界が露呈している。特集『高市政権1年 サナエノミクスの功罪』の本稿では、高...",
       "points": [
         "カテゴリ: ビジネス・経済で話題の記事",
-        "引用元: posfie.com（2026-11-14 17:36）",
+        "引用元: diamond.jp（2026-11-15 11:19）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "ビジネス・経済分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "ビジネス・経済",
-        "posfie.com"
+        "diamond.jp"
       ],
-      "url": "https://posfie.com/@any_k_tg/p/f0gZrzm",
+      "url": "https://diamond.jp/articles/-/403162",
       "isAiEnriched": false
     },
     {
       "category": "entertainment",
-      "title": "【本編】『犬神家の一族(2006)』角川映画50周年記念！＜2週間限定公開＞",
+      "title": "ZORN / STAR feat. アイナ・ジ・エンド, AKLO",
       "source": "youtube.com",
-      "publishedAt": "2026-11-14 10:33",
-      "publishedTs": 1794620023,
-      "image": "https://i.ytimg.com/vi/m2fETRsQF2Y/hqdefault.jpg",
-      "summary": "＃角川シネマコレクション #犬神家の一族（2006） ＼KADOKAWAチャンネル（ https://kdq.jp/KADCHAN ）ではあれもこれも見放題！金田一さん、事件です！／ ※ご視聴にはプライム会費のほか、1ヵ月396円（税込）の会員登録が必要です。詳しくは上記URLをご覧ください。 ～～～～～K…",
+      "publishedAt": "2026-11-13 21:21",
+      "publishedTs": 1794572508,
+      "image": "https://i.ytimg.com/vi/qmcTFkYJTTI/hqdefault.jpg",
+      "summary": "2026.11.14 Digital Release https://zorn.lnk.to/star Words by ZORN, アイナ・ジ・エンド, AKLO Music Produced by BACHLOGIC Mixed & Mastered by Hayabusa ーMusic Video S…",
       "points": [
         "カテゴリ: 芸能・エンタメで話題の記事",
-        "引用元: youtube.com（2026-11-14 10:33）",
+        "引用元: youtube.com（2026-11-13 21:21）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "芸能・エンタメ分野で多くの読者に共有されている注目記事です。",
@@ -1677,7 +1677,7 @@ window.NEWS_DATA = {
         "芸能・エンタメ",
         "youtube.com"
       ],
-      "url": "https://www.youtube.com/watch?v=m2fETRsQF2Y",
+      "url": "https://www.youtube.com/watch?v=qmcTFkYJTTI",
       "isAiEnriched": false
     },
     {
@@ -1704,23 +1704,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "「ラヴ上等」出演の「あっすん」を逮捕　無許可風俗営業容疑　名古屋：朝日新聞",
-      "source": "asahi.com",
-      "publishedAt": "2026-11-15 07:44",
-      "publishedTs": 1794696254,
-      "image": "https://imgopt.asahi.com/ogp/AS20261115000633_comm.jpg",
-      "summary": "無許可で風俗営業店舗を経営したとして、愛知県警は15日、Netflix（ネットフリックス）が配信する「『ラヴ上等』シーズン2」の出演者で、小栗彩朱佳（あすか）容疑者（31）=名古屋市中区栄2丁目=ら…",
+      "title": "愛知県小牧市の住宅に男ら侵入、住人女性が襲われ肺に穴など重傷　中学生を含む複数人の男確保：中日新聞Web",
+      "source": "chunichi.co.jp",
+      "publishedAt": "2026-11-15 08:07",
+      "publishedTs": 1794697625,
+      "image": "https://static.chunichi.co.jp/image/article/size1/a/3/b/6/a3b63565671e28be64cebc6eb053793a_1.jpg",
+      "summary": "15日午前0時55分ごろ、愛知県小牧市小針2の住宅で、男3、4人が住人の無職女性（82）に対し「金はないか」と尋ね、女性が「ない」と答えると棒状のもので殴り、顔にスプレーのようなものをかけて逃走した。県警小牧署は強盗事件とみて捜査。捜査関係者によると、すでに複数人の男の身柄を確保した。中学生が含まれる。",
       "points": [
         "カテゴリ: 国内・総合で話題の記事",
-        "引用元: asahi.com（2026-11-15 07:44）",
+        "引用元: chunichi.co.jp（2026-11-15 08:07）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "国内・総合分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "国内・総合",
-        "asahi.com"
+        "chunichi.co.jp"
       ],
-      "url": "https://www.asahi.com/articles/ASVCG366TVCGOIPE001M.html",
+      "url": "https://www.chunichi.co.jp/article/1339609",
       "isAiEnriched": false
     },
     {
@@ -1746,44 +1746,44 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "ネタニヤフ氏、挙国一致政権を再び呼び掛け アイゼンコット氏は拒否",
-      "source": "afpbb.com",
-      "publishedAt": "2026-11-15 10:04",
-      "publishedTs": 1794704670,
-      "image": "https://afpbb.ismcdn.jp/mwimgs/8/0/1000x/img_80b531579989a198a9a048e7afe9fbfb83147.jpg",
-      "summary": "【11月15日 AFP】イスラエルのベンヤミン・ネタニヤフ暫定首相は14日、政敵のガディ・アイゼンコット氏に対し、挙国一致政権の樹立を改めて呼び掛けた。アイゼンコット氏は、策略だとしてこれを退けた。 アイゼンコット氏は8日に首相候補に指名され、政権樹立に向けた交渉を進めている。 ネタニヤフ氏は動画声明で、1…",
+      "title": "戦争反対界隈、「先制攻撃を始める前提に自衛隊は成り立ってる」という小泉防衛相の発言捏造を始める。",
+      "source": "posfie.com",
+      "publishedAt": "2026-11-14 17:36",
+      "publishedTs": 1794645388,
+      "image": "https://s.tgstc.com/ogp3/5e5d7dbfda9c2dda6c34f27eece61689-1200x630.jpeg",
+      "summary": "緒方恵美 @Megumi_Ogata 「小泉大臣は先制攻撃とは言ってない」 と仰る方へ。 「米国とイスラエルが先制攻撃を始めなければ(戦争はなかった)」 という言葉を受けて、 「始めないという前提で自衛隊はない」 と答えている段階で、文脈的に仰っているのと同義です。 憲法違反でなく言うとしたら、 「始められ…",
       "points": [
         "カテゴリ: ビジネス・経済で話題の記事",
-        "引用元: afpbb.com（2026-11-15 10:04）",
+        "引用元: posfie.com（2026-11-14 17:36）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "ビジネス・経済分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "ビジネス・経済",
-        "afpbb.com"
+        "posfie.com"
       ],
-      "url": "https://www.afpbb.com/articles/-/3662402",
+      "url": "https://posfie.com/@any_k_tg/p/f0gZrzm",
       "isAiEnriched": false
     },
     {
       "category": "entertainment",
-      "title": "ZORN / STAR feat. アイナ・ジ・エンド, AKLO",
-      "source": "youtube.com",
-      "publishedAt": "2026-11-13 21:21",
-      "publishedTs": 1794572508,
-      "image": "https://i.ytimg.com/vi/qmcTFkYJTTI/hqdefault.jpg",
-      "summary": "2026.11.14 Digital Release https://zorn.lnk.to/star Words by ZORN, アイナ・ジ・エンド, AKLO Music Produced by BACHLOGIC Mixed & Mastered by Hayabusa ーMusic Video S…",
+      "title": "テネリフェFWの急逝…衝突したアンドラGKは12試合の出場停止に「規則が許す最大レベルの処分」（DAZN News） - Yahoo!ニュース",
+      "source": "news.yahoo.co.jp",
+      "publishedAt": "2026-11-14 12:32",
+      "publishedTs": 1794627164,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261114-00010002-dazn-000-2-view.jpg?exp=10800",
+      "summary": "ヘスス・オウォノ(C)Getty Imagesスペインサッカー連盟（RFEF）の規律委員会は13日、FCアンドラに所属する赤道ギニア代表GKヘスス・オウォノ（25）に対して、暴力的プレーによって12試合の出場停止処分を科した。 2日に行われたラ・リーガ2部テネリフェ対FCアンドラ（2-2）で、ヘスス・オウォ…",
       "points": [
         "カテゴリ: 芸能・エンタメで話題の記事",
-        "引用元: youtube.com（2026-11-13 21:21）",
+        "引用元: news.yahoo.co.jp（2026-11-14 12:32）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "芸能・エンタメ分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "芸能・エンタメ",
-        "youtube.com"
+        "news.yahoo.co.jp"
       ],
-      "url": "https://www.youtube.com/watch?v=qmcTFkYJTTI",
+      "url": "https://news.yahoo.co.jp/articles/ba6da9a4609dc5a1ca1b53b158e38c9830995dcf",
       "isAiEnriched": false
     },
     {
@@ -1810,23 +1810,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "グーグルに16年間勤務、55歳で突然解雇…スーパーのレジ係に転職した私が直面した「3つの試練」（CREA WEB） - Yahoo!ニュース",
-      "source": "news.yahoo.co.jp",
-      "publishedAt": "2026-11-15 08:21",
-      "publishedTs": 1794698505,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261114-10060720-creaweb-000-2-view.jpg?exp=10800",
-      "summary": "ロイス・キムさん（文＝ロイス・キム 翻訳＝須美春奈） グーグルをクビになったら、人は次にどんな仕事を選ぶのか――。 『ロイス、グーグルをクビになる。』(すばる舎)の著者であるロイス・キムさんは、2007年にグーグルコリアに入社。2019年には米シリコンバレーのグーグル本社へ50歳にして赴任。華々しいキャリア…",
+      "title": "「ラヴ上等」出演の「あっすん」を逮捕　無許可風俗営業容疑　名古屋：朝日新聞",
+      "source": "asahi.com",
+      "publishedAt": "2026-11-15 07:44",
+      "publishedTs": 1794696254,
+      "image": "https://imgopt.asahi.com/ogp/AS20261115000633_comm.jpg",
+      "summary": "無許可で風俗営業店舗を経営したとして、愛知県警は15日、Netflix（ネットフリックス）が配信する「『ラヴ上等』シーズン2」の出演者で、小栗彩朱佳（あすか）容疑者（31）=名古屋市中区栄2丁目=ら…",
       "points": [
         "カテゴリ: 国内・総合で話題の記事",
-        "引用元: news.yahoo.co.jp（2026-11-15 08:21）",
+        "引用元: asahi.com（2026-11-15 07:44）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "国内・総合分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "国内・総合",
-        "news.yahoo.co.jp"
+        "asahi.com"
       ],
-      "url": "https://news.yahoo.co.jp/articles/b7884758915a7addd35d4b1fb540db4f11fca9cf",
+      "url": "https://www.asahi.com/articles/ASVCG366TVCGOIPE001M.html",
       "isAiEnriched": false
     },
     {
@@ -1852,44 +1852,44 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "米国、26年ぶりに「はしか排除状態」の認定取り消し　ワクチン未接種で感染拡大",
-      "source": "cnn.co.jp",
-      "publishedAt": "2026-11-14 15:47",
-      "publishedTs": 1794638825,
-      "image": "https://www.cnn.co.jp/storage/2026/11/14/b6aea80d1aa133980d8afc1dd771f12b/2026-02-13t111716z-252000037-rc2lgjagqclg-rtrmadp-3-health-usa-measles-spartanburg-20261110112828365.jpg",
-      "summary": "麻疹の感染者の大半は、MMRワクチンを接種していないか、接種状況が不明な人だ/Jayla Whitfield-Anderson/Reuters （CNN） 米国では2000年以降、ワクチン接種の普及により、麻疹（はしか）は継続的に広がる病気としては「排除された」とみなされてきた。だが、この状態は終わりを迎え…",
+      "title": "ネタニヤフ氏、挙国一致政権を再び呼び掛け アイゼンコット氏は拒否",
+      "source": "afpbb.com",
+      "publishedAt": "2026-11-15 10:04",
+      "publishedTs": 1794704670,
+      "image": "https://afpbb.ismcdn.jp/mwimgs/8/0/1000x/img_80b531579989a198a9a048e7afe9fbfb83147.jpg",
+      "summary": "【11月15日 AFP】イスラエルのベンヤミン・ネタニヤフ暫定首相は14日、政敵のガディ・アイゼンコット氏に対し、挙国一致政権の樹立を改めて呼び掛けた。アイゼンコット氏は、策略だとしてこれを退けた。 アイゼンコット氏は8日に首相候補に指名され、政権樹立に向けた交渉を進めている。 ネタニヤフ氏は動画声明で、1…",
       "points": [
         "カテゴリ: ビジネス・経済で話題の記事",
-        "引用元: cnn.co.jp（2026-11-14 15:47）",
+        "引用元: afpbb.com（2026-11-15 10:04）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "ビジネス・経済分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "ビジネス・経済",
-        "cnn.co.jp"
+        "afpbb.com"
       ],
-      "url": "https://www.cnn.co.jp/usa/35254884.html",
+      "url": "https://www.afpbb.com/articles/-/3662402",
       "isAiEnriched": false
     },
     {
       "category": "entertainment",
-      "title": "テネリフェFWの急逝…衝突したアンドラGKは12試合の出場停止に「規則が許す最大レベルの処分」（DAZN News） - Yahoo!ニュース",
-      "source": "news.yahoo.co.jp",
-      "publishedAt": "2026-11-14 12:32",
-      "publishedTs": 1794627164,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261114-00010002-dazn-000-2-view.jpg?exp=10800",
-      "summary": "ヘスス・オウォノ(C)Getty Imagesスペインサッカー連盟（RFEF）の規律委員会は13日、FCアンドラに所属する赤道ギニア代表GKヘスス・オウォノ（25）に対して、暴力的プレーによって12試合の出場停止処分を科した。 2日に行われたラ・リーガ2部テネリフェ対FCアンドラ（2-2）で、ヘスス・オウォ…",
+      "title": "『ゴジラ-1.0』初期案にはメーサー兵器も　山崎貴監督が明かす『ゴジラ-0.0』兵器チョイスの裏側【ネタバレあり】｜シネマトゥデイ",
+      "source": "cinematoday.jp",
+      "publishedAt": "2026-11-14 09:01",
+      "publishedTs": 1794614477,
+      "image": "https://img.cinematoday.jp/a/muerdrqTtqH5/_size_r1200x630/_v_1794581812/main.jpg",
+      "summary": "ゴジラに接近される二式大艇 - (C) 2026 TOHO ゴジラとキングギドラが登場し、人類と三つどもえの死闘を展開する『ゴジラ-0.0』。劇中に登場する対怪獣作戦や兵器のチョイスなど、創作の舞台裏を山崎貴監督が語った。（ネタバレ注意。以下、一部映画の内容に触れています） 【画像】『ゴジラ-1.0』『ゴジ…",
       "points": [
         "カテゴリ: 芸能・エンタメで話題の記事",
-        "引用元: news.yahoo.co.jp（2026-11-14 12:32）",
+        "引用元: cinematoday.jp（2026-11-14 09:01）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "芸能・エンタメ分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "芸能・エンタメ",
-        "news.yahoo.co.jp"
+        "cinematoday.jp"
       ],
-      "url": "https://news.yahoo.co.jp/articles/ba6da9a4609dc5a1ca1b53b158e38c9830995dcf",
+      "url": "https://www.cinematoday.jp/news/N0157945",
       "isAiEnriched": false
     },
     {
@@ -1915,23 +1915,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "バカの家計管理してる",
-      "source": "anond.hatelabo.jp",
-      "publishedAt": "2026-11-14 10:18",
-      "publishedTs": 1794619138,
-      "image": "https://anond.hatelabo.jp/assets/images/og-image-1500.gif",
-      "summary": "無駄遣いがひどくて毎月予算に収まらず、ボーナスが補填にまわるみたいになっててよくないなーと思っていた。無駄遣いの内容は、でっかい買い物するとか旅行とか毎晩飲みに行ってるとかじゃなくて、ガチャとか電子書籍とかコンビニとかまあ、なんか気付いたら、みたいなことが多くて、家計簿つけたりしてもなんかうまく...",
+      "title": "グーグルに16年間勤務、55歳で突然解雇…スーパーのレジ係に転職した私が直面した「3つの試練」（CREA WEB） - Yahoo!ニュース",
+      "source": "news.yahoo.co.jp",
+      "publishedAt": "2026-11-15 08:21",
+      "publishedTs": 1794698505,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261114-10060720-creaweb-000-2-view.jpg?exp=10800",
+      "summary": "ロイス・キムさん（文＝ロイス・キム 翻訳＝須美春奈） グーグルをクビになったら、人は次にどんな仕事を選ぶのか――。 『ロイス、グーグルをクビになる。』(すばる舎)の著者であるロイス・キムさんは、2007年にグーグルコリアに入社。2019年には米シリコンバレーのグーグル本社へ50歳にして赴任。華々しいキャリア…",
       "points": [
         "カテゴリ: 国内・総合で話題の記事",
-        "引用元: anond.hatelabo.jp（2026-11-14 10:18）",
+        "引用元: news.yahoo.co.jp（2026-11-15 08:21）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "国内・総合分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "国内・総合",
-        "anond.hatelabo.jp"
+        "news.yahoo.co.jp"
       ],
-      "url": "https://anond.hatelabo.jp/20261114101649",
+      "url": "https://news.yahoo.co.jp/articles/b7884758915a7addd35d4b1fb540db4f11fca9cf",
       "isAiEnriched": false
     },
     {
@@ -1957,44 +1957,44 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "2028アメリカ大統領選挙：ろくな候補者がいないんだが……｜女子大生起業家",
-      "source": "note.com",
-      "publishedAt": "2026-11-10 16:49",
-      "publishedTs": 1794296984,
-      "image": "https://assets.st-note.com/production/uploads/images/334405492/rectangle_large_type_2_d0108f86bab27526d4735f52cbd1c9dc.png?fit=bounds&quality=85&width=1280",
-      "summary": "中間選挙について何か書いてくれと言われたのだが、ご存じの通り私はウクライナ応援団なので、10月に入ってロシア宥和的な動きをしていたトランプ政権に対して「普通に負けると思うし、負けろ」というスタンスでやっていて、実際その通りに負けたという印象である。 トランプが輸入を言い出した後「保守派アメリカ人にと...",
+      "title": "米国、26年ぶりに「はしか排除状態」の認定取り消し　ワクチン未接種で感染拡大",
+      "source": "cnn.co.jp",
+      "publishedAt": "2026-11-14 15:47",
+      "publishedTs": 1794638825,
+      "image": "https://www.cnn.co.jp/storage/2026/11/14/b6aea80d1aa133980d8afc1dd771f12b/2026-02-13t111716z-252000037-rc2lgjagqclg-rtrmadp-3-health-usa-measles-spartanburg-20261110112828365.jpg",
+      "summary": "麻疹の感染者の大半は、MMRワクチンを接種していないか、接種状況が不明な人だ/Jayla Whitfield-Anderson/Reuters （CNN） 米国では2000年以降、ワクチン接種の普及により、麻疹（はしか）は継続的に広がる病気としては「排除された」とみなされてきた。だが、この状態は終わりを迎え…",
       "points": [
         "カテゴリ: ビジネス・経済で話題の記事",
-        "引用元: note.com（2026-11-10 16:49）",
+        "引用元: cnn.co.jp（2026-11-14 15:47）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "ビジネス・経済分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "ビジネス・経済",
-        "note.com"
+        "cnn.co.jp"
       ],
-      "url": "https://note.com/seanky/n/n931f0f83030e",
+      "url": "https://www.cnn.co.jp/usa/35254884.html",
       "isAiEnriched": false
     },
     {
       "category": "entertainment",
-      "title": "『ゴジラ-1.0』初期案にはメーサー兵器も　山崎貴監督が明かす『ゴジラ-0.0』兵器チョイスの裏側【ネタバレあり】｜シネマトゥデイ",
-      "source": "cinematoday.jp",
-      "publishedAt": "2026-11-14 09:01",
-      "publishedTs": 1794614477,
-      "image": "https://img.cinematoday.jp/a/muerdrqTtqH5/_size_r1200x630/_v_1794581812/main.jpg",
-      "summary": "ゴジラに接近される二式大艇 - (C) 2026 TOHO ゴジラとキングギドラが登場し、人類と三つどもえの死闘を展開する『ゴジラ-0.0』。劇中に登場する対怪獣作戦や兵器のチョイスなど、創作の舞台裏を山崎貴監督が語った。（ネタバレ注意。以下、一部映画の内容に触れています） 【画像】『ゴジラ-1.0』『ゴジ…",
+      "title": "電通はなぜいま、シンガポールでサッカー国際大会の主催に挑戦するのか",
+      "source": "yomiuri.co.jp",
+      "publishedAt": "2026-11-13 20:33",
+      "publishedTs": 1794569627,
+      "image": "https://www.yomiuri.co.jp/media/2026/11/20261111-GYT1I00231-1.jpg?type=ogp",
+      "summary": "【読売新聞】 五輪など多くの国際スポーツ大会を支えてきた大手広告会社の電通が、シンガポールでサッカーの国際親善大会を主催する。裏方から主催者へ。新たなビジネスモデルを模索する同社の戦略を探る。（永井順子） 電通が主催する国際親善大会…",
       "points": [
         "カテゴリ: 芸能・エンタメで話題の記事",
-        "引用元: cinematoday.jp（2026-11-14 09:01）",
+        "引用元: yomiuri.co.jp（2026-11-13 20:33）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "芸能・エンタメ分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "芸能・エンタメ",
-        "cinematoday.jp"
+        "yomiuri.co.jp"
       ],
-      "url": "https://www.cinematoday.jp/news/N0157945",
+      "url": "https://www.yomiuri.co.jp/economy/20261111-GYT1T00222/",
       "isAiEnriched": false
     },
     {
@@ -2021,23 +2021,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "大川原冤罪で長期拘束認めた裁判所、避ける検証　訴訟で責任問う遺族：朝日新聞",
-      "source": "asahi.com",
-      "publishedAt": "2026-11-14 19:12",
-      "publishedTs": 1794651128,
-      "image": "https://imgopt.asahi.com/ogp/AS20261107000396_comm.jpg",
-      "summary": "■記者解説 社会部・米田優人、黒田早織 「違法な捜査が進んでいたのであれば、なぜ裁判所は止めることができなかったのか」。東京地裁で10月30日、裁判官の責任を問う訴訟でこう証言したのは、機械メーカー…",
+      "title": "バカの家計管理してる",
+      "source": "anond.hatelabo.jp",
+      "publishedAt": "2026-11-14 10:18",
+      "publishedTs": 1794619138,
+      "image": "https://anond.hatelabo.jp/assets/images/og-image-1500.gif",
+      "summary": "無駄遣いがひどくて毎月予算に収まらず、ボーナスが補填にまわるみたいになっててよくないなーと思っていた。無駄遣いの内容は、でっかい買い物するとか旅行とか毎晩飲みに行ってるとかじゃなくて、ガチャとか電子書籍とかコンビニとかまあ、なんか気付いたら、みたいなことが多くて、家計簿つけたりしてもなんかうまく...",
       "points": [
         "カテゴリ: 国内・総合で話題の記事",
-        "引用元: asahi.com（2026-11-14 19:12）",
+        "引用元: anond.hatelabo.jp（2026-11-14 10:18）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "国内・総合分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "国内・総合",
-        "asahi.com"
+        "anond.hatelabo.jp"
       ],
-      "url": "https://www.asahi.com/articles/ASVC662TDVC6UPQJ00WM.html",
+      "url": "https://anond.hatelabo.jp/20261114101649",
       "isAiEnriched": false
     },
     {
@@ -2063,44 +2063,44 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "日本のAppleことバルミューダ社、高級家電が売れず売上高89億円、最終赤字10億5千万円に下方修正",
-      "source": "gadget2ch.com",
-      "publishedAt": "2026-11-14 07:40",
-      "publishedTs": 1794609629,
-      "image": "https://www.gadget2ch.com/wp-content/uploads/2026/11/78459c3dc69db92f5d9860af3194166a.w960.h960-1-1.jpg-1-1-1-1.webp",
-      "summary": "高級家電ブランド「バルミューダ（BALMUDA）」を展開するバルミューダは11月13日、2026年12月期の通期業績予想を下方修正した。売上高は従来予想の105億円から89億円へと16億円引き下げ、前期比3.8％増の増収予想から一転、同12.0％減の減収となる見通しだ。 利益面も大幅に悪化する。営業損益は従…",
+      "title": "2028アメリカ大統領選挙：ろくな候補者がいないんだが……｜女子大生起業家",
+      "source": "note.com",
+      "publishedAt": "2026-11-10 16:49",
+      "publishedTs": 1794296984,
+      "image": "https://assets.st-note.com/production/uploads/images/334405492/rectangle_large_type_2_d0108f86bab27526d4735f52cbd1c9dc.png?fit=bounds&quality=85&width=1280",
+      "summary": "中間選挙について何か書いてくれと言われたのだが、ご存じの通り私はウクライナ応援団なので、10月に入ってロシア宥和的な動きをしていたトランプ政権に対して「普通に負けると思うし、負けろ」というスタンスでやっていて、実際その通りに負けたという印象である。 トランプが輸入を言い出した後「保守派アメリカ人にと...",
       "points": [
         "カテゴリ: ビジネス・経済で話題の記事",
-        "引用元: gadget2ch.com（2026-11-14 07:40）",
+        "引用元: note.com（2026-11-10 16:49）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "ビジネス・経済分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "ビジネス・経済",
-        "gadget2ch.com"
+        "note.com"
       ],
-      "url": "https://www.gadget2ch.com/archives/post-282583.html",
+      "url": "https://note.com/seanky/n/n931f0f83030e",
       "isAiEnriched": false
     },
     {
       "category": "entertainment",
-      "title": "電通はなぜいま、シンガポールでサッカー国際大会の主催に挑戦するのか",
-      "source": "yomiuri.co.jp",
-      "publishedAt": "2026-11-13 20:33",
-      "publishedTs": 1794569627,
-      "image": "https://www.yomiuri.co.jp/media/2026/11/20261111-GYT1I00231-1.jpg?type=ogp",
-      "summary": "【読売新聞】 五輪など多くの国際スポーツ大会を支えてきた大手広告会社の電通が、シンガポールでサッカーの国際親善大会を主催する。裏方から主催者へ。新たなビジネスモデルを模索する同社の戦略を探る。（永井順子） 電通が主催する国際親善大会…",
+      "title": "『ゴジラ-0.0』はなぜ革命的なのか？怪獣バトルのIMAXでの衝撃、そして『オッペンハイマー』へのアンサー。魂を揺さぶる5つの理由【映画レビュー／感想・考察】｜天豆　てんまめ",
+      "source": "note.com",
+      "publishedAt": "2026-11-13 16:52",
+      "publishedTs": 1794556371,
+      "image": "https://assets.st-note.com/production/uploads/images/332712697/rectangle_large_type_2_ecfc130e0c6b264892a1eae4fcbc53a6.jpeg?fit=bounds&quality=85&width=1280",
+      "summary": "『ゴジラ-0.0』はなぜ革命的なのか？怪獣バトルのIMAXでの衝撃、そして『オッペンハイマー』へのアンサー。魂を揺さぶる5つの理由【映画レビュー／感想・考察】 怪獣映画を観に行ったはずだった。 まさか、2年半前に『オッペンハイマー』を観て抱いた、あの消化しきれない思いまで呼び覚まされるとは。 2026年11…",
       "points": [
         "カテゴリ: 芸能・エンタメで話題の記事",
-        "引用元: yomiuri.co.jp（2026-11-13 20:33）",
+        "引用元: note.com（2026-11-13 16:52）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "芸能・エンタメ分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "芸能・エンタメ",
-        "yomiuri.co.jp"
+        "note.com"
       ],
-      "url": "https://www.yomiuri.co.jp/economy/20261111-GYT1T00222/",
+      "url": "https://note.com/tenmame0720/n/nf30ebfb7e669",
       "isAiEnriched": false
     },
     {
@@ -2127,15 +2127,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "在留外国人「住めなくなるかも…」日本語試験受けられず、国に批判も：朝日新聞",
+      "title": "大川原冤罪で長期拘束認めた裁判所、避ける検証　訴訟で責任問う遺族：朝日新聞",
       "source": "asahi.com",
-      "publishedAt": "2026-11-15 08:31",
-      "publishedTs": 1794699083,
-      "image": "https://imgopt.asahi.com/ogp/AS20261111001206_comm.jpg",
-      "summary": "外国人らが日本語能力の証明に使っている「日本語能力試験（JLPT）」が、受験したくてもできない事態になっている。 在留資格に関する制度の変更で、受験希望者が急増する一方、対応が追いついていないためだ…",
+      "publishedAt": "2026-11-14 19:12",
+      "publishedTs": 1794651128,
+      "image": "https://imgopt.asahi.com/ogp/AS20261107000396_comm.jpg",
+      "summary": "■記者解説 社会部・米田優人、黒田早織 「違法な捜査が進んでいたのであれば、なぜ裁判所は止めることができなかったのか」。東京地裁で10月30日、裁判官の責任を問う訴訟でこう証言したのは、機械メーカー…",
       "points": [
         "カテゴリ: 国内・総合で話題の記事",
-        "引用元: asahi.com（2026-11-15 08:31）",
+        "引用元: asahi.com（2026-11-14 19:12）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "国内・総合分野で多くの読者に共有されている注目記事です。",
@@ -2143,7 +2143,7 @@ window.NEWS_DATA = {
         "国内・総合",
         "asahi.com"
       ],
-      "url": "https://www.asahi.com/articles/ASVCC0G2TVCCPTIL00VM.html",
+      "url": "https://www.asahi.com/articles/ASVC662TDVC6UPQJ00WM.html",
       "isAiEnriched": false
     },
     {
@@ -2169,44 +2169,44 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "【分析】トランプ氏に見切りをつけたバンス氏、28年大統領選に望みつなぐため",
-      "source": "cnn.co.jp",
-      "publishedAt": "2026-11-14 11:55",
-      "publishedTs": 1794624931,
-      "image": "https://www.cnn.co.jp/storage/2026/11/13/92398e2ffe171242f007b94084ff142d/01-2026-10-29t193612z-513432323-rc27doartfwb-rtrmadp-3-usa-vance.jpg",
-      "summary": "テキサス州ウェザーフォードで開かれた中間選挙の集会で、バンス副大統領が演説する様子＝10月29日/Evan Vucci/Reuters （CNN） バンス米副大統領は今月4日、「米国を再び偉大に（MAGA）」の旗の下に集まった支持勢力の惨状を見渡し、2028年大統領選の幕開けとも言える異例のSNS投稿で自身…",
+      "title": "日本のAppleことバルミューダ社、高級家電が売れず売上高89億円、最終赤字10億5千万円に下方修正",
+      "source": "gadget2ch.com",
+      "publishedAt": "2026-11-14 07:40",
+      "publishedTs": 1794609629,
+      "image": "https://www.gadget2ch.com/wp-content/uploads/2026/11/78459c3dc69db92f5d9860af3194166a.w960.h960-1-1.jpg-1-1-1-1.webp",
+      "summary": "高級家電ブランド「バルミューダ（BALMUDA）」を展開するバルミューダは11月13日、2026年12月期の通期業績予想を下方修正した。売上高は従来予想の105億円から89億円へと16億円引き下げ、前期比3.8％増の増収予想から一転、同12.0％減の減収となる見通しだ。 利益面も大幅に悪化する。営業損益は従…",
       "points": [
         "カテゴリ: ビジネス・経済で話題の記事",
-        "引用元: cnn.co.jp（2026-11-14 11:55）",
+        "引用元: gadget2ch.com（2026-11-14 07:40）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "ビジネス・経済分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "ビジネス・経済",
-        "cnn.co.jp"
+        "gadget2ch.com"
       ],
-      "url": "https://www.cnn.co.jp/usa/35254865.html",
+      "url": "https://www.gadget2ch.com/archives/post-282583.html",
       "isAiEnriched": false
     },
     {
       "category": "entertainment",
-      "title": "『ゴジラ-0.0』はなぜ革命的なのか？怪獣バトルのIMAXでの衝撃、そして『オッペンハイマー』へのアンサー。魂を揺さぶる5つの理由【映画レビュー／感想・考察】｜天豆　てんまめ",
-      "source": "note.com",
-      "publishedAt": "2026-11-13 16:52",
-      "publishedTs": 1794556371,
-      "image": "https://assets.st-note.com/production/uploads/images/332712697/rectangle_large_type_2_ecfc130e0c6b264892a1eae4fcbc53a6.jpeg?fit=bounds&quality=85&width=1280",
-      "summary": "『ゴジラ-0.0』はなぜ革命的なのか？怪獣バトルのIMAXでの衝撃、そして『オッペンハイマー』へのアンサー。魂を揺さぶる5つの理由【映画レビュー／感想・考察】 怪獣映画を観に行ったはずだった。 まさか、2年半前に『オッペンハイマー』を観て抱いた、あの消化しきれない思いまで呼び覚まされるとは。 2026年11…",
+      "title": "#反戦サッカー部がなんでこんなに反発を受けたのか",
+      "source": "anond.hatelabo.jp",
+      "publishedAt": "2026-11-13 20:10",
+      "publishedTs": 1794568247,
+      "image": "https://anond.hatelabo.jp/assets/images/og-image-1500.gif",
+      "summary": "『共産党ががっつり関わってるのが見え見えだった』以上の理由はないと思う。 それくらいサッカー界隈では共産党＝敵って認識が広まってる。 なぜかというとサッカー用のスタジアム建設の話がでてくると必ずといっていい程、共産党があの手この手で反対運動に動いていたから。 今でこそ右寄り政党の十八番になりつつある...",
       "points": [
         "カテゴリ: 芸能・エンタメで話題の記事",
-        "引用元: note.com（2026-11-13 16:52）",
+        "引用元: anond.hatelabo.jp（2026-11-13 20:10）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "芸能・エンタメ分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "芸能・エンタメ",
-        "note.com"
+        "anond.hatelabo.jp"
       ],
-      "url": "https://note.com/tenmame0720/n/nf30ebfb7e669",
+      "url": "https://anond.hatelabo.jp/20261113200707",
       "isAiEnriched": false
     },
     {
@@ -2232,23 +2232,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "フェミニズムが社会に浸透した結果",
-      "source": "anond.hatelabo.jp",
-      "publishedAt": "2026-11-14 23:14",
-      "publishedTs": 1794665691,
-      "image": "https://anond.hatelabo.jp/assets/images/og-image-1500.gif",
-      "summary": "男は女を養わなくなった。 男も女に経済力や甲斐性を要求して当たり前、女も働いて当たり前の価値観になった。 何だ、フェミニズムって男にとっても素晴らしいことではないか。",
+      "title": "在留外国人「住めなくなるかも…」日本語試験受けられず、国に批判も：朝日新聞",
+      "source": "asahi.com",
+      "publishedAt": "2026-11-15 08:31",
+      "publishedTs": 1794699083,
+      "image": "https://imgopt.asahi.com/ogp/AS20261111001206_comm.jpg",
+      "summary": "外国人らが日本語能力の証明に使っている「日本語能力試験（JLPT）」が、受験したくてもできない事態になっている。 在留資格に関する制度の変更で、受験希望者が急増する一方、対応が追いついていないためだ…",
       "points": [
         "カテゴリ: 国内・総合で話題の記事",
-        "引用元: anond.hatelabo.jp（2026-11-14 23:14）",
+        "引用元: asahi.com（2026-11-15 08:31）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "国内・総合分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "国内・総合",
-        "anond.hatelabo.jp"
+        "asahi.com"
       ],
-      "url": "https://anond.hatelabo.jp/20261114231126",
+      "url": "https://www.asahi.com/articles/ASVCC0G2TVCCPTIL00VM.html",
       "isAiEnriched": false
     },
     {
@@ -2274,44 +2274,44 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "戦争に疲れても…トランプ氏の「停戦」に反発　ウクライナ人の心の内：朝日新聞",
-      "source": "digital.asahi.com",
-      "publishedAt": "2026-11-14 17:50",
-      "publishedTs": 1794646220,
-      "image": "https://imgopt.asahi.com/ogp/AS20261110003379_comm.jpg",
-      "summary": "みなさん、こんにちは。ニュースレターや記者アカウントにお寄せいただく感想や応援のメッセージに、いつも大変力づけられています。 その中に、こんな質問がありました（文章は少し手直ししています）。 「ウクライナの人々は、ゼレンスキー大統領に何を思っているのでしょうか」 「ウクライナの人たちは、終わらない戦...",
+      "title": "【分析】トランプ氏に見切りをつけたバンス氏、28年大統領選に望みつなぐため",
+      "source": "cnn.co.jp",
+      "publishedAt": "2026-11-14 11:55",
+      "publishedTs": 1794624931,
+      "image": "https://www.cnn.co.jp/storage/2026/11/13/92398e2ffe171242f007b94084ff142d/01-2026-10-29t193612z-513432323-rc27doartfwb-rtrmadp-3-usa-vance.jpg",
+      "summary": "テキサス州ウェザーフォードで開かれた中間選挙の集会で、バンス副大統領が演説する様子＝10月29日/Evan Vucci/Reuters （CNN） バンス米副大統領は今月4日、「米国を再び偉大に（MAGA）」の旗の下に集まった支持勢力の惨状を見渡し、2028年大統領選の幕開けとも言える異例のSNS投稿で自身…",
       "points": [
         "カテゴリ: ビジネス・経済で話題の記事",
-        "引用元: digital.asahi.com（2026-11-14 17:50）",
+        "引用元: cnn.co.jp（2026-11-14 11:55）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "ビジネス・経済分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "ビジネス・経済",
-        "digital.asahi.com"
+        "cnn.co.jp"
       ],
-      "url": "https://digital.asahi.com/sp/articles/ASVCB33QHVCBUHBI00BM.html?ptoken=01M7CESWQ2280FMGXFQHVAK603",
+      "url": "https://www.cnn.co.jp/usa/35254865.html",
       "isAiEnriched": false
     },
     {
       "category": "entertainment",
-      "title": "#反戦サッカー部がなんでこんなに反発を受けたのか",
-      "source": "anond.hatelabo.jp",
-      "publishedAt": "2026-11-13 20:10",
-      "publishedTs": 1794568247,
-      "image": "https://anond.hatelabo.jp/assets/images/og-image-1500.gif",
-      "summary": "『共産党ががっつり関わってるのが見え見えだった』以上の理由はないと思う。 それくらいサッカー界隈では共産党＝敵って認識が広まってる。 なぜかというとサッカー用のスタジアム建設の話がでてくると必ずといっていい程、共産党があの手この手で反対運動に動いていたから。 今でこそ右寄り政党の十八番になりつつある...",
+      "title": "【NVIDIA】革ジャン太郎の不倫相手は、結局何がしたかったのか",
+      "source": "youtube.com",
+      "publishedAt": "2026-11-13 09:11",
+      "publishedTs": 1794528686,
+      "image": "https://i.ytimg.com/vi/0YVZR_cl-u8/hqdefault.jpg",
+      "summary": "▼関連動画 (トランプと革ジャン中国訪問) アメリカが中国をAI大国にしてしまった。中国でNVIDIAのシェアが95%から8%まで下落 https://youtu.be/kDTosjpW86E 投資家視点で。中国のAIや半導体の現状って、どの辺盛っててどこがガチなのか？冷静に分析します。 https://y…",
       "points": [
         "カテゴリ: 芸能・エンタメで話題の記事",
-        "引用元: anond.hatelabo.jp（2026-11-13 20:10）",
+        "引用元: youtube.com（2026-11-13 09:11）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "芸能・エンタメ分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "芸能・エンタメ",
-        "anond.hatelabo.jp"
+        "youtube.com"
       ],
-      "url": "https://anond.hatelabo.jp/20261113200707",
+      "url": "https://www.youtube.com/watch?v=0YVZR_cl-u8",
       "isAiEnriched": false
     },
     {
@@ -2338,23 +2338,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "農地がホテルや住宅に変わる　312市町村で1割超消失、細る食料基盤 - 日本経済新聞",
-      "source": "nikkei.com",
-      "publishedAt": "2026-11-15 02:10",
-      "publishedTs": 1794676236,
-      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3805800030102026000000-4.jpg?auto=compress&bg=FFFF&crop=focalpoint&fit=crop&fm=jpg&h=630&w=1200&s=18f66b4251ac825002ced605101f0862",
-      "summary": "日本の食料生産基盤が細っている。日本経済新聞が全国の農地転用の状況を調べると、過去15年間に312市町村で農地の1割超が転用されていた。担い手不足も重なり、安い田畑がホテルや住宅に姿を変えている。食料生産力を高めるには、国や自治体が過度な転用の防止策を講じる必要が出てきた。「開発業者3社から話」富士山を...",
+      "title": "フェミニズムが社会に浸透した結果",
+      "source": "anond.hatelabo.jp",
+      "publishedAt": "2026-11-14 23:14",
+      "publishedTs": 1794665691,
+      "image": "https://anond.hatelabo.jp/assets/images/og-image-1500.gif",
+      "summary": "男は女を養わなくなった。 男も女に経済力や甲斐性を要求して当たり前、女も働いて当たり前の価値観になった。 何だ、フェミニズムって男にとっても素晴らしいことではないか。",
       "points": [
         "カテゴリ: 国内・総合で話題の記事",
-        "引用元: nikkei.com（2026-11-15 02:10）",
+        "引用元: anond.hatelabo.jp（2026-11-14 23:14）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "国内・総合分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "国内・総合",
-        "nikkei.com"
+        "anond.hatelabo.jp"
       ],
-      "url": "https://www.nikkei.com/article/DGXZQOUE216VA0R21C26A0000000/",
+      "url": "https://anond.hatelabo.jp/20261114231126",
       "isAiEnriched": false
     },
     {
@@ -2380,44 +2380,44 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "高市首相「会議に出たくない」ムーブ被害者たちの困惑国際。国際会議を欠席しまくる総理の言い逃れ乱舞、実は昔から？...（週プレNEWS） - Yahoo!ニュース",
-      "source": "news.yahoo.co.jp",
-      "publishedAt": "2026-11-14 12:44",
-      "publishedTs": 1794627898,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261114-01335390-playboyz-000-1-view.jpg?exp=10800",
-      "summary": "「高市首相「会議に出たくない」ムーブ被害者たちの困惑国際。国際会議を欠席しまくる総理の言い逃れ乱舞、実は昔から？...（週プレNEWS） - Yahoo!ニュース」に関する注目ニュースです。詳細は元記事から確認できます。",
+      "title": "戦争に疲れても…トランプ氏の「停戦」に反発　ウクライナ人の心の内：朝日新聞",
+      "source": "digital.asahi.com",
+      "publishedAt": "2026-11-14 17:50",
+      "publishedTs": 1794646220,
+      "image": "https://imgopt.asahi.com/ogp/AS20261110003379_comm.jpg",
+      "summary": "みなさん、こんにちは。ニュースレターや記者アカウントにお寄せいただく感想や応援のメッセージに、いつも大変力づけられています。 その中に、こんな質問がありました（文章は少し手直ししています）。 「ウクライナの人々は、ゼレンスキー大統領に何を思っているのでしょうか」 「ウクライナの人たちは、終わらない戦...",
       "points": [
         "カテゴリ: ビジネス・経済で話題の記事",
-        "引用元: news.yahoo.co.jp（2026-11-14 12:44）",
+        "引用元: digital.asahi.com（2026-11-14 17:50）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "ビジネス・経済分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "ビジネス・経済",
-        "news.yahoo.co.jp"
+        "digital.asahi.com"
       ],
-      "url": "https://news.yahoo.co.jp/articles/7244d0a7f5aebc73fd103ca25c98787fb7e35313",
+      "url": "https://digital.asahi.com/sp/articles/ASVCB33QHVCBUHBI00BM.html?ptoken=01M7CESWQ2280FMGXFQHVAK603",
       "isAiEnriched": false
     },
     {
       "category": "entertainment",
-      "title": "【NVIDIA】革ジャン太郎の不倫相手は、結局何がしたかったのか",
-      "source": "youtube.com",
-      "publishedAt": "2026-11-13 09:11",
-      "publishedTs": 1794528686,
-      "image": "https://i.ytimg.com/vi/0YVZR_cl-u8/hqdefault.jpg",
-      "summary": "▼関連動画 (トランプと革ジャン中国訪問) アメリカが中国をAI大国にしてしまった。中国でNVIDIAのシェアが95%から8%まで下落 https://youtu.be/kDTosjpW86E 投資家視点で。中国のAIや半導体の現状って、どの辺盛っててどこがガチなのか？冷静に分析します。 https://y…",
+      "title": "エイフェックス・ツイン『Drukqs』をめぐる往復書簡 | ele-king",
+      "source": "ele-king.net",
+      "publishedAt": "2026-11-13 14:45",
+      "publishedTs": 1794548746,
+      "image": "https://www.ele-king.net/upimgs3/img/3579.jpg",
+      "summary": "拝啓 野田くん 今から2年前のことだったね。野田くんとエイフェックス・ツインの『Selected Ambient Works Vol.2』について、書簡をやりとりしながら話したこと、覚えてるかい？ 僕たちがまだ30代になったばかりの若さで、週末になるたびに夜な夜な踊っていたあの時代においてもっともトンガって…",
       "points": [
         "カテゴリ: 芸能・エンタメで話題の記事",
-        "引用元: youtube.com（2026-11-13 09:11）",
+        "引用元: ele-king.net（2026-11-13 14:45）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "芸能・エンタメ分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "芸能・エンタメ",
-        "youtube.com"
+        "ele-king.net"
       ],
-      "url": "https://www.youtube.com/watch?v=0YVZR_cl-u8",
+      "url": "https://www.ele-king.net/columns/012462/",
       "isAiEnriched": false
     },
     {
@@ -2486,128 +2486,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "高市首相「会議に出たくない」ムーブ被害者たちの困惑国際。国際会議を欠席しまくる総理の言い逃れ乱舞、実は昔から？...",
-      "source": "wpb.shueisha.co.jp",
-      "publishedAt": "2026-11-14 09:05",
-      "publishedTs": 1794614757,
-      "image": "assets/images/news-5.jpg",
-      "summary": "週プレNEWS TOP新着ニュース政治・国際ニュース高市首相「会議に出たくない」ムーブ被害者たちの困惑国際。国際会議を欠席しまくる総理の言い逃れ乱舞、実は昔から？... ドタキャンを繰り返してきた高市早苗首相 米中露のトップが参加するAPEC（アジア太平洋経済協力会議）首脳会議が11月18日から開催されるが…",
+      "title": "高市首相「会議に出たくない」ムーブ被害者たちの困惑国際。国際会議を欠席しまくる総理の言い逃れ乱舞、実は昔から？...（週プレNEWS） - Yahoo!ニュース",
+      "source": "news.yahoo.co.jp",
+      "publishedAt": "2026-11-14 12:44",
+      "publishedTs": 1794627898,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261114-01335390-playboyz-000-1-view.jpg?exp=10800",
+      "summary": "「高市首相「会議に出たくない」ムーブ被害者たちの困惑国際。国際会議を欠席しまくる総理の言い逃れ乱舞、実は昔から？...（週プレNEWS） - Yahoo!ニュース」に関する注目ニュースです。詳細は元記事から確認できます。",
       "points": [
         "カテゴリ: ビジネス・経済で話題の記事",
-        "引用元: wpb.shueisha.co.jp（2026-11-14 09:05）",
+        "引用元: news.yahoo.co.jp（2026-11-14 12:44）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "ビジネス・経済分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "ビジネス・経済",
-        "wpb.shueisha.co.jp"
-      ],
-      "url": "https://wpb.shueisha.co.jp/news/politics/20261114-133539/",
-      "isAiEnriched": false
-    },
-    {
-      "category": "entertainment",
-      "title": "エイフェックス・ツイン『Drukqs』をめぐる往復書簡 | ele-king",
-      "source": "ele-king.net",
-      "publishedAt": "2026-11-13 14:45",
-      "publishedTs": 1794548746,
-      "image": "https://www.ele-king.net/upimgs3/img/3579.jpg",
-      "summary": "拝啓 野田くん 今から2年前のことだったね。野田くんとエイフェックス・ツインの『Selected Ambient Works Vol.2』について、書簡をやりとりしながら話したこと、覚えてるかい？ 僕たちがまだ30代になったばかりの若さで、週末になるたびに夜な夜な踊っていたあの時代においてもっともトンガって…",
-      "points": [
-        "カテゴリ: 芸能・エンタメで話題の記事",
-        "引用元: ele-king.net（2026-11-13 14:45）",
-        "「元記事を読む」から本文を確認できます"
-      ],
-      "impact": "芸能・エンタメ分野で多くの読者に共有されている注目記事です。",
-      "tags": [
-        "芸能・エンタメ",
-        "ele-king.net"
-      ],
-      "url": "https://www.ele-king.net/columns/012462/",
-      "isAiEnriched": false
-    },
-    {
-      "category": "subculture",
-      "title": "廣井きくりの深酒日記　ぼっち・ざ・ろっく！外伝 66話",
-      "source": "comic-fuz.com",
-      "publishedAt": "2026-11-15 00:25",
-      "publishedTs": 1794669923,
-      "image": "https://img.comic-fuz.com/e/1GSLs3/j-K.webp?h=CcfY8W9xexcUnrWrpYlP2A&e=5000000000",
-      "summary": "ABJマークは、この電子書店・電子書籍配信サービスが、著作権者からコンテンツ使用許諾を得た正規版配信サービスであることを示す登録商標(登録番号第6091713号)です。",
-      "points": [
-        "カテゴリ: サブカルチャーで話題の記事",
-        "引用元: comic-fuz.com（2026-11-15 00:25）",
-        "「元記事を読む」から本文を確認できます"
-      ],
-      "impact": "サブカルチャー分野で多くの読者に共有されている注目記事です。",
-      "tags": [
-        "サブカルチャー",
-        "comic-fuz.com"
-      ],
-      "url": "https://comic-fuz.com/manga/viewer/81838",
-      "isAiEnriched": false
-    },
-    {
-      "category": "domestic",
-      "title": "部門長まで上り詰めたグーグル米本社を55歳でクビに…掛け持ちバイトで月収80万円、「以前より少ない」とぼやくが、老後の不安は消えたワケ（THE GOLD ONLINE（ゴールドオンライン）） - Yahoo!ニュース",
-      "source": "news.yahoo.co.jp",
-      "publishedAt": "2026-11-15 13:28",
-      "publishedTs": 1794716898,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261028-00082683-gonline-000-1-view.jpg?exp=10800",
-      "summary": "（※画像はイメージです／PIXTA）（ゴールドオンライン）モトローラやイーライリリーを経てグーグルで16年間勤め、米国本社で部門長まで上り詰めたロイス・キム氏。30年におよぶキャリアの絶頂期にあった55歳のある朝、彼女は突然の解雇を宣告されます。グーグルから放り出された彼女は、この期間を「ギャップイヤー」と…",
-      "points": [
-        "カテゴリ: 国内・総合で話題の記事",
-        "引用元: news.yahoo.co.jp（2026-11-15 13:28）",
-        "「元記事を読む」から本文を確認できます"
-      ],
-      "impact": "国内・総合分野で多くの読者に共有されている注目記事です。",
-      "tags": [
-        "国内・総合",
         "news.yahoo.co.jp"
       ],
-      "url": "https://news.yahoo.co.jp/articles/09d74208ad2103cdb06398a86188d12793299a60",
-      "isAiEnriched": false
-    },
-    {
-      "category": "tech",
-      "title": "「すげぇ！教科書とかで見たフロッピーや！！これで容量どれくらいあるんですか？」若者のほのぼのとした感想がぶっ刺さるネット民",
-      "source": "togetter.com",
-      "publishedAt": "2026-11-14 21:54",
-      "publishedTs": 1794660853,
-      "image": "https://s.tgstc.com/ogp3/54892bba0fd3c6ad84afa397226a52c4-1200x630.jpeg",
-      "summary": "しー@園芸博NEXT！ @Sh_i0916 すげぇ！！！ フロッピーや！！ フロッピーや！！！ 教科書とかで見たフロッピーや！！ 初めて触ったかも！！ うっす！！！！ かるっ！！！！！ すげぇ！！ これで容量どれくらいあるんですか？ #フロッピー #富士通 pic.x.com/Ofx3uVhKaf 2026…",
-      "points": [
-        "カテゴリ: テクノロジー・AIで話題の記事",
-        "引用元: togetter.com（2026-11-14 21:54）",
-        "「元記事を読む」から本文を確認できます"
-      ],
-      "impact": "テクノロジー・AI分野で多くの読者に共有されている注目記事です。",
-      "tags": [
-        "テクノロジー・AI",
-        "togetter.com"
-      ],
-      "url": "https://togetter.com/li/2770437",
-      "isAiEnriched": false
-    },
-    {
-      "category": "business",
-      "title": "XユーザーのChina Tips by myokoiさん: 「APEC首脳会議で高市が冷遇されると、「日本政府は抗議を行う」というAPECでの参加条件を、日本政府は文書で中国政府に突き付けたらしい。 中国メディアが報じている 特にカメラの前では、高市が「冷遇されている」に見えるようにしてはならない、としたという」 / X",
-      "source": "x.com",
-      "publishedAt": "2026-11-13 02:48",
-      "publishedTs": 1794505711,
-      "image": "assets/images/news-6.jpg",
-      "summary": "「XユーザーのChina Tips by myokoiさん: 「APEC首脳会議で高市が冷遇されると、「日本政府は抗議を行う」というAPECでの参加条件を、日本政府は文書で中国政府に突き付けたらしい。 中国メディアが報じている 特にカメラの前では、高市が「冷遇されている」に見えるようにしてはならない、とした…",
-      "points": [
-        "カテゴリ: ビジネス・経済で話題の記事",
-        "引用元: x.com（2026-11-13 02:48）",
-        "「元記事を読む」から本文を確認できます"
-      ],
-      "impact": "ビジネス・経済分野で多くの読者に共有されている注目記事です。",
-      "tags": [
-        "ビジネス・経済",
-        "x.com"
-      ],
-      "url": "https://x.com/myokoi1962/status/2120730582451995069",
+      "url": "https://news.yahoo.co.jp/articles/7244d0a7f5aebc73fd103ca25c98787fb7e35313",
       "isAiEnriched": false
     },
     {
@@ -2633,6 +2528,111 @@ window.NEWS_DATA = {
     },
     {
       "category": "subculture",
+      "title": "廣井きくりの深酒日記　ぼっち・ざ・ろっく！外伝 66話",
+      "source": "comic-fuz.com",
+      "publishedAt": "2026-11-15 00:25",
+      "publishedTs": 1794669923,
+      "image": "https://img.comic-fuz.com/e/1GSLs3/j-K.webp?h=CcfY8W9xexcUnrWrpYlP2A&e=5000000000",
+      "summary": "ABJマークは、この電子書店・電子書籍配信サービスが、著作権者からコンテンツ使用許諾を得た正規版配信サービスであることを示す登録商標(登録番号第6091713号)です。",
+      "points": [
+        "カテゴリ: サブカルチャーで話題の記事",
+        "引用元: comic-fuz.com（2026-11-15 00:25）",
+        "「元記事を読む」から本文を確認できます"
+      ],
+      "impact": "サブカルチャー分野で多くの読者に共有されている注目記事です。",
+      "tags": [
+        "サブカルチャー",
+        "comic-fuz.com"
+      ],
+      "url": "https://comic-fuz.com/manga/viewer/81838",
+      "isAiEnriched": false
+    },
+    {
+      "category": "domestic",
+      "title": "農地がホテルや住宅に変わる　312市町村で1割超消失、細る食料基盤 - 日本経済新聞",
+      "source": "nikkei.com",
+      "publishedAt": "2026-11-15 02:10",
+      "publishedTs": 1794676236,
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3805800030102026000000-4.jpg?auto=compress&bg=FFFF&crop=focalpoint&fit=crop&fm=jpg&h=630&w=1200&s=18f66b4251ac825002ced605101f0862",
+      "summary": "日本の食料生産基盤が細っている。日本経済新聞が全国の農地転用の状況を調べると、過去15年間に312市町村で農地の1割超が転用されていた。担い手不足も重なり、安い田畑がホテルや住宅に姿を変えている。食料生産力を高めるには、国や自治体が過度な転用の防止策を講じる必要が出てきた。「開発業者3社から話」富士山を...",
+      "points": [
+        "カテゴリ: 国内・総合で話題の記事",
+        "引用元: nikkei.com（2026-11-15 02:10）",
+        "「元記事を読む」から本文を確認できます"
+      ],
+      "impact": "国内・総合分野で多くの読者に共有されている注目記事です。",
+      "tags": [
+        "国内・総合",
+        "nikkei.com"
+      ],
+      "url": "https://www.nikkei.com/article/DGXZQOUE216VA0R21C26A0000000/",
+      "isAiEnriched": false
+    },
+    {
+      "category": "tech",
+      "title": "「すげぇ！教科書とかで見たフロッピーや！！これで容量どれくらいあるんですか？」若者のほのぼのとした感想がぶっ刺さるネット民",
+      "source": "togetter.com",
+      "publishedAt": "2026-11-14 21:54",
+      "publishedTs": 1794660853,
+      "image": "https://s.tgstc.com/ogp3/54892bba0fd3c6ad84afa397226a52c4-1200x630.jpeg",
+      "summary": "しー@園芸博NEXT！ @Sh_i0916 すげぇ！！！ フロッピーや！！ フロッピーや！！！ 教科書とかで見たフロッピーや！！ 初めて触ったかも！！ うっす！！！！ かるっ！！！！！ すげぇ！！ これで容量どれくらいあるんですか？ #フロッピー #富士通 pic.x.com/Ofx3uVhKaf 2026…",
+      "points": [
+        "カテゴリ: テクノロジー・AIで話題の記事",
+        "引用元: togetter.com（2026-11-14 21:54）",
+        "「元記事を読む」から本文を確認できます"
+      ],
+      "impact": "テクノロジー・AI分野で多くの読者に共有されている注目記事です。",
+      "tags": [
+        "テクノロジー・AI",
+        "togetter.com"
+      ],
+      "url": "https://togetter.com/li/2770437",
+      "isAiEnriched": false
+    },
+    {
+      "category": "business",
+      "title": "高市首相「会議に出たくない」ムーブ被害者たちの困惑国際。国際会議を欠席しまくる総理の言い逃れ乱舞、実は昔から？...",
+      "source": "wpb.shueisha.co.jp",
+      "publishedAt": "2026-11-14 09:05",
+      "publishedTs": 1794614757,
+      "image": "assets/images/news-6.jpg",
+      "summary": "週プレNEWS TOP新着ニュース政治・国際ニュース高市首相「会議に出たくない」ムーブ被害者たちの困惑国際。国際会議を欠席しまくる総理の言い逃れ乱舞、実は昔から？... ドタキャンを繰り返してきた高市早苗首相 米中露のトップが参加するAPEC（アジア太平洋経済協力会議）首脳会議が11月18日から開催されるが…",
+      "points": [
+        "カテゴリ: ビジネス・経済で話題の記事",
+        "引用元: wpb.shueisha.co.jp（2026-11-14 09:05）",
+        "「元記事を読む」から本文を確認できます"
+      ],
+      "impact": "ビジネス・経済分野で多くの読者に共有されている注目記事です。",
+      "tags": [
+        "ビジネス・経済",
+        "wpb.shueisha.co.jp"
+      ],
+      "url": "https://wpb.shueisha.co.jp/news/politics/20261114-133539/",
+      "isAiEnriched": false
+    },
+    {
+      "category": "entertainment",
+      "title": "紅白歌合戦ことしの出場歌手発表 初出場は7組【出場歌手一覧】 | NHKニュース",
+      "source": "news.web.nhk",
+      "publishedAt": "2026-11-13 13:17",
+      "publishedTs": 1794543451,
+      "image": "https://imgu.web.nhk/news/u/news/nd/kiji/20261113de75147/20261113de75147_E0000171862_1_l.jpg",
+      "summary": "大みそか恒例のNHK紅白歌合戦のことしの出場歌手が13日発表され、紅組と白組、合わせて41組の出場が決まりました。ことしの初出場は、＝LOVEやモナキなど合わせて7組です。 NHK紅白歌合戦ホーム…",
+      "points": [
+        "カテゴリ: 芸能・エンタメで話題の記事",
+        "引用元: news.web.nhk（2026-11-13 13:17）",
+        "「元記事を読む」から本文を確認できます"
+      ],
+      "impact": "芸能・エンタメ分野で多くの読者に共有されている注目記事です。",
+      "tags": [
+        "芸能・エンタメ",
+        "news.web.nhk"
+      ],
+      "url": "https://news.web.nhk/newsweb/na/nd-20261113de75147",
+      "isAiEnriched": false
+    },
+    {
+      "category": "subculture",
       "title": "[第13話]ルノリータ - 棉きのし | 少年ジャンプ＋",
       "source": "shonenjumpplus.com",
       "publishedAt": "2026-11-15 00:36",
@@ -2654,23 +2654,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "「二度と造れない車両」　新観光列車「赤い星」公開、ラウンジや畳敷き茶室も　JR北海道",
-      "source": "sankei.com",
-      "publishedAt": "2026-11-15 00:41",
-      "publishedTs": 1794670913,
-      "image": "https://www.sankei.com/resizer/v2/BTD3EUDKBZJMXGJJDHQJ6IK7CY.jpg?auth=62ea80c6aa68a7acb1132b34f3c2cc7b4f24bd978af527454adf1c23defa7b09&quality=50&focal=1064%2C1052&width=1200&height=675",
-      "summary": "ただいまメンテナンス中です メンテナンスのため、会員のログイン機能を一時停止しております。メンテナンス終了までメールマガジンの配信も停止します。 ユーザーの皆様にはご迷惑をおかけいたしますが、何卒ご理解のほどよろしくお願いいたします。",
+      "title": "部門長まで上り詰めたグーグル米本社を55歳でクビに…掛け持ちバイトで月収80万円、「以前より少ない」とぼやくが、老後の不安は消えたワケ（THE GOLD ONLINE（ゴールドオンライン）） - Yahoo!ニュース",
+      "source": "news.yahoo.co.jp",
+      "publishedAt": "2026-11-15 13:28",
+      "publishedTs": 1794716898,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261028-00082683-gonline-000-1-view.jpg?exp=10800",
+      "summary": "（※画像はイメージです／PIXTA）（ゴールドオンライン）モトローラやイーライリリーを経てグーグルで16年間勤め、米国本社で部門長まで上り詰めたロイス・キム氏。30年におよぶキャリアの絶頂期にあった55歳のある朝、彼女は突然の解雇を宣告されます。グーグルから放り出された彼女は、この期間を「ギャップイヤー」と…",
       "points": [
         "カテゴリ: 国内・総合で話題の記事",
-        "引用元: sankei.com（2026-11-15 00:41）",
+        "引用元: news.yahoo.co.jp（2026-11-15 13:28）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "国内・総合分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "国内・総合",
-        "sankei.com"
+        "news.yahoo.co.jp"
       ],
-      "url": "https://www.sankei.com/article/20261114-MBDYXQK3QZK5BPHZTMY6R75TGE/",
+      "url": "https://news.yahoo.co.jp/articles/09d74208ad2103cdb06398a86188d12793299a60",
       "isAiEnriched": false
     },
     {
@@ -2696,44 +2696,44 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "ロシア首都で車爆発、ウクライナ親ロ派政治家の元側近が負傷　前日にも爆発で軍人死亡",
-      "source": "cnn.co.jp",
-      "publishedAt": "2026-11-14 09:49",
-      "publishedTs": 1794617372,
-      "image": "https://www.cnn.co.jp/storage/2026/11/14/32e24106920548bae1b4f533390d39cf/gettyimages-2304388903.jpg",
-      "summary": "（CNN） ロシア首都モスクワ南部で13日、車が爆発し、ウクライナの親ロシア派政治家の元側近が負傷した。ロシアでこうした襲撃とみられる事件が起きるのは2日連続。 ロシア連邦捜査委員会のモスクワ支部は声明で、負傷した男性は治療を受けるため、市内の病院に搬送されたと明らかにした。この男性は親ロシア派のウクラ...",
+      "title": "XユーザーのChina Tips by myokoiさん: 「APEC首脳会議で高市が冷遇されると、「日本政府は抗議を行う」というAPECでの参加条件を、日本政府は文書で中国政府に突き付けたらしい。 中国メディアが報じている 特にカメラの前では、高市が「冷遇されている」に見えるようにしてはならない、としたという」 / X",
+      "source": "x.com",
+      "publishedAt": "2026-11-13 02:48",
+      "publishedTs": 1794505711,
+      "image": "assets/images/news-5.jpg",
+      "summary": "「XユーザーのChina Tips by myokoiさん: 「APEC首脳会議で高市が冷遇されると、「日本政府は抗議を行う」というAPECでの参加条件を、日本政府は文書で中国政府に突き付けたらしい。 中国メディアが報じている 特にカメラの前では、高市が「冷遇されている」に見えるようにしてはならない、とした…",
       "points": [
         "カテゴリ: ビジネス・経済で話題の記事",
-        "引用元: cnn.co.jp（2026-11-14 09:49）",
+        "引用元: x.com（2026-11-13 02:48）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "ビジネス・経済分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "ビジネス・経済",
-        "cnn.co.jp"
+        "x.com"
       ],
-      "url": "https://www.cnn.co.jp/world/35254877.html",
+      "url": "https://x.com/myokoi1962/status/2120730582451995069",
       "isAiEnriched": false
     },
     {
       "category": "entertainment",
-      "title": "紅白歌合戦ことしの出場歌手発表 初出場は7組【出場歌手一覧】 | NHKニュース",
-      "source": "news.web.nhk",
-      "publishedAt": "2026-11-13 13:17",
-      "publishedTs": 1794543451,
-      "image": "https://imgu.web.nhk/news/u/news/nd/kiji/20261113de75147/20261113de75147_E0000171862_1_l.jpg",
-      "summary": "大みそか恒例のNHK紅白歌合戦のことしの出場歌手が13日発表され、紅組と白組、合わせて41組の出場が決まりました。ことしの初出場は、＝LOVEやモナキなど合わせて7組です。 NHK紅白歌合戦ホーム…",
+      "title": "出場歌手 | 第77回NHK紅白歌合戦",
+      "source": "nhk.or.jp",
+      "publishedAt": "2026-11-13 13:11",
+      "publishedTs": 1794543091,
+      "image": "https://www.nhk.or.jp/kouhaku/assets/artist2026-1.png",
+      "summary": "紅組 ILLIT （3） Ado （2） 杏里 （4） =LOVE （初） 石川さゆり （49） AKB48 （14） きゃりーぱみゅぱみゅ （4） CUTIE STREET （初） 坂本冬美 （38） 高田みづえ （8） ちゃんみな （2） 天童よしみ （31） 乃木坂46 （12） HANA （2） F…",
       "points": [
         "カテゴリ: 芸能・エンタメで話題の記事",
-        "引用元: news.web.nhk（2026-11-13 13:17）",
+        "引用元: nhk.or.jp（2026-11-13 13:11）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "芸能・エンタメ分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "芸能・エンタメ",
-        "news.web.nhk"
+        "nhk.or.jp"
       ],
-      "url": "https://news.web.nhk/newsweb/na/nd-20261113de75147",
+      "url": "https://www.nhk.or.jp/kouhaku/artist77/index.html",
       "isAiEnriched": false
     },
     {
@@ -2801,128 +2801,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "米国務長官、ICCに警告「剣を帯びる者に法律を説くのはやめろ」",
-      "source": "afpbb.com",
-      "publishedAt": "2026-11-14 09:39",
-      "publishedTs": 1794616795,
-      "image": "https://afpbb.ismcdn.jp/mwimgs/9/3/1000x/img_93d74da810771456230942dc3857fd8f70358.jpg",
-      "summary": "【11月14日 AFP】マルコ・ルビオ米国務長官は13日、国際法が「武器化」され、エリート層の道具になっていると批判するとともに、国際刑事裁判所（ICC）に強い警告を発した。 ルビオ氏は、オランダ・ハーグに本部を置くICCが米国の認めていない規則を強制しようとしていると非難し、「剣を帯びる者に法律を説く」こ…",
+      "title": "ロシア首都で車爆発、ウクライナ親ロ派政治家の元側近が負傷　前日にも爆発で軍人死亡",
+      "source": "cnn.co.jp",
+      "publishedAt": "2026-11-14 09:49",
+      "publishedTs": 1794617372,
+      "image": "https://www.cnn.co.jp/storage/2026/11/14/32e24106920548bae1b4f533390d39cf/gettyimages-2304388903.jpg",
+      "summary": "（CNN） ロシア首都モスクワ南部で13日、車が爆発し、ウクライナの親ロシア派政治家の元側近が負傷した。ロシアでこうした襲撃とみられる事件が起きるのは2日連続。 ロシア連邦捜査委員会のモスクワ支部は声明で、負傷した男性は治療を受けるため、市内の病院に搬送されたと明らかにした。この男性は親ロシア派のウクラ...",
       "points": [
         "カテゴリ: ビジネス・経済で話題の記事",
-        "引用元: afpbb.com（2026-11-14 09:39）",
+        "引用元: cnn.co.jp（2026-11-14 09:49）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "ビジネス・経済分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "ビジネス・経済",
-        "afpbb.com"
+        "cnn.co.jp"
       ],
-      "url": "https://www.afpbb.com/articles/-/3662364",
-      "isAiEnriched": false
-    },
-    {
-      "category": "entertainment",
-      "title": "出場歌手 | 第77回NHK紅白歌合戦",
-      "source": "nhk.or.jp",
-      "publishedAt": "2026-11-13 13:11",
-      "publishedTs": 1794543091,
-      "image": "https://www.nhk.or.jp/kouhaku/assets/artist2026-1.png",
-      "summary": "紅組 ILLIT （3） Ado （2） 杏里 （4） =LOVE （初） 石川さゆり （49） AKB48 （14） きゃりーぱみゅぱみゅ （4） CUTIE STREET （初） 坂本冬美 （38） 高田みづえ （8） ちゃんみな （2） 天童よしみ （31） 乃木坂46 （12） HANA （2） F…",
-      "points": [
-        "カテゴリ: 芸能・エンタメで話題の記事",
-        "引用元: nhk.or.jp（2026-11-13 13:11）",
-        "「元記事を読む」から本文を確認できます"
-      ],
-      "impact": "芸能・エンタメ分野で多くの読者に共有されている注目記事です。",
-      "tags": [
-        "芸能・エンタメ",
-        "nhk.or.jp"
-      ],
-      "url": "https://www.nhk.or.jp/kouhaku/artist77/index.html",
-      "isAiEnriched": false
-    },
-    {
-      "category": "subculture",
-      "title": "[第28話]無敵のスバル - 成田成哲 | 少年ジャンプ＋",
-      "source": "shonenjumpplus.com",
-      "publishedAt": "2026-11-15 00:00",
-      "publishedTs": 1794668428,
-      "image": "https://cdn-ak-img.shonenjumpplus.com/public/series-thumbnail/17107419589191699611-1466a3a53b79bfca52c622a6257adc98?1793705410",
-      "summary": "無敵のスバル 成田成哲 拳と蹴りで決着をつける実践格闘空手——フルコンタクト。高校１年生の神薙昴は初めてフルコンの大会に出場。彼を待ち受けるは強者のみ。だがこの時、昴の力量はまだ誰も知らなかった… [JC3巻1/4発売予定]…",
-      "points": [
-        "カテゴリ: サブカルチャーで話題の記事",
-        "引用元: shonenjumpplus.com（2026-11-15 00:00）",
-        "「元記事を読む」から本文を確認できます"
-      ],
-      "impact": "サブカルチャー分野で多くの読者に共有されている注目記事です。",
-      "tags": [
-        "サブカルチャー",
-        "shonenjumpplus.com"
-      ],
-      "url": "https://shonenjumpplus.com/episode/9253191257737711505",
-      "isAiEnriched": false
-    },
-    {
-      "category": "domestic",
-      "title": "人気店の居酒屋にインフルエンサーから「食事提供と報酬12000円でSNSにPRとして投稿する」という依頼が来たことが議論に「お客様に失礼」「ただの営業なので嫌なら断れば」",
-      "source": "togetter.com",
-      "publishedAt": "2026-11-15 11:54",
-      "publishedTs": 1794711259,
-      "image": "https://s.tgstc.com/ogp3/bbbe865c2e0bc8eb84ded53bbd38cf11-1200x630.jpeg",
-      "summary": "はまむらみつや @kitashinci 二人でご飯食べさせて、SNSに投稿したるから12000円払えってか？？ 今までインスタグラマーの人が、居酒屋 浜村にお越しになって頂いてて、SNSとかに投稿して頂いてるけど、皆様自分でご予約下さって、気づいたら投稿して頂いてた方ばっかりで。 この人載せてる店全部信用出…",
-      "points": [
-        "カテゴリ: 国内・総合で話題の記事",
-        "引用元: togetter.com（2026-11-15 11:54）",
-        "「元記事を読む」から本文を確認できます"
-      ],
-      "impact": "国内・総合分野で多くの読者に共有されている注目記事です。",
-      "tags": [
-        "国内・総合",
-        "togetter.com"
-      ],
-      "url": "https://togetter.com/li/2770611",
-      "isAiEnriched": false
-    },
-    {
-      "category": "tech",
-      "title": "XCPEマルウェアの解析と国内における観測実態",
-      "source": "blog.nicter.jp",
-      "publishedAt": "2026-11-06 21:02",
-      "publishedTs": 1793966546,
-      "image": "https://blog.nicter.jp/posts/2026-13/model_jp.png",
-      "summary": "はじめに 2026年11月3日、Googleは、世界で130万台以上のAndroid搭載機器に影響を及ぼしていたXCPEボットネットのテイクダウンを発表しました1。XCPEは、一部のAndroid搭載セットトップボックスなどにプリインストールされているマルウェアで、遠隔からのコマンド実行や情報収集に加え、外…",
-      "points": [
-        "カテゴリ: テクノロジー・AIで話題の記事",
-        "引用元: blog.nicter.jp（2026-11-06 21:02）",
-        "「元記事を読む」から本文を確認できます"
-      ],
-      "impact": "テクノロジー・AI分野で多くの読者に共有されている注目記事です。",
-      "tags": [
-        "テクノロジー・AI",
-        "blog.nicter.jp"
-      ],
-      "url": "https://blog.nicter.jp/2026/11/xcpe_campaign/",
-      "isAiEnriched": false
-    },
-    {
-      "category": "business",
-      "title": "50年住宅ローン、始まった融資引き締め　金融庁が問題視「新たな火種」 - 日本経済新聞",
-      "source": "nikkei.com",
-      "publishedAt": "2026-11-14 07:03",
-      "publishedTs": 1794607395,
-      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3871701012112026000000-1.jpg?auto=compress&bg=FFFF&crop=focalpoint&fit=crop&fm=jpg&h=630&w=1200&s=f466743b2692b9106a3ed6d82dafe770",
-      "summary": "超長期50年の住宅ローン市場に異変が生じている。マンション価格の高騰で月々の返済負担を抑えられると人気を集めるものの、一部の金融機関で内々に融資を厳しくする動きが出てきた。金融庁は契約者へのリスク説明が十分かどうか目を光らせる。「実は融資審査の蛇口を絞り始めている」。あるネット銀行の関係者は声を潜...",
-      "points": [
-        "カテゴリ: ビジネス・経済で話題の記事",
-        "引用元: nikkei.com（2026-11-14 07:03）",
-        "「元記事を読む」から本文を確認できます"
-      ],
-      "impact": "ビジネス・経済分野で多くの読者に共有されている注目記事です。",
-      "tags": [
-        "ビジネス・経済",
-        "nikkei.com"
-      ],
-      "url": "https://www.nikkei.com/article/DGXZQOUB12C1Q0S6A111C2000000/",
+      "url": "https://www.cnn.co.jp/world/35254877.html",
       "isAiEnriched": false
     },
     {
@@ -2948,15 +2843,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "subculture",
-      "title": "[第8画目]イッピツアヤル - 横山左 | 少年ジャンプ＋",
+      "title": "[第28話]無敵のスバル - 成田成哲 | 少年ジャンプ＋",
       "source": "shonenjumpplus.com",
-      "publishedAt": "2026-11-15 00:01",
-      "publishedTs": 1794668460,
-      "image": "https://cdn-ak-img.shonenjumpplus.com/public/series-thumbnail/9253191256479706037-d58e07119b67013ca3eff1206a2d4b43?1794211962",
-      "summary": "イッピツアヤル 横山左 読み方が難しいせいで、人生で一度も下の名前を呼ばれたことがない高校２年生の加賀見斐。そんな彼は、書道部の鎮西みやびに恋をする。彼女に近づきたい、その一心で書道部の門を叩いた斐だったが…恋心を墨にのせた青春が始まる！ [JC1巻12/4発売]…",
+      "publishedAt": "2026-11-15 00:00",
+      "publishedTs": 1794668428,
+      "image": "https://cdn-ak-img.shonenjumpplus.com/public/series-thumbnail/17107419589191699611-1466a3a53b79bfca52c622a6257adc98?1793705410",
+      "summary": "無敵のスバル 成田成哲 拳と蹴りで決着をつける実践格闘空手——フルコンタクト。高校１年生の神薙昴は初めてフルコンの大会に出場。彼を待ち受けるは強者のみ。だがこの時、昴の力量はまだ誰も知らなかった… [JC3巻1/4発売予定]…",
       "points": [
         "カテゴリ: サブカルチャーで話題の記事",
-        "引用元: shonenjumpplus.com（2026-11-15 00:01）",
+        "引用元: shonenjumpplus.com（2026-11-15 00:00）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "サブカルチャー分野で多くの読者に共有されている注目記事です。",
@@ -2964,70 +2859,70 @@ window.NEWS_DATA = {
         "サブカルチャー",
         "shonenjumpplus.com"
       ],
-      "url": "https://shonenjumpplus.com/episode/9253191257737711681",
+      "url": "https://shonenjumpplus.com/episode/9253191257737711505",
       "isAiEnriched": false
     },
     {
       "category": "domestic",
-      "title": "リニア品川－名古屋開業、最短2040年代か　本紙試算、湧水対策など不確定要素：中日新聞Web",
-      "source": "chunichi.co.jp",
-      "publishedAt": "2026-11-15 05:44",
-      "publishedTs": 1794689055,
-      "image": "https://static.chunichi.co.jp/image/article/size1/3/f/f/7/3ff78a2c3847293ca4f76d231e54577f_1.jpg",
-      "summary": "リニア中央新幹線の東京・品川－名古屋間の新たな開業時期について、JR東海は年内に公表する方針を示している。駅周辺再開発への影響や経済波及効果から、沿線と周辺地域には大きな関心事だ。本紙は、JRやトンネル工学の専門家への取材をもとに開業時期を試算。早くても2040年代になるとの結果になった。 （水谷元海、...",
+      "title": "「二度と造れない車両」　新観光列車「赤い星」公開、ラウンジや畳敷き茶室も　JR北海道",
+      "source": "sankei.com",
+      "publishedAt": "2026-11-15 00:41",
+      "publishedTs": 1794670913,
+      "image": "https://www.sankei.com/resizer/v2/BTD3EUDKBZJMXGJJDHQJ6IK7CY.jpg?auth=62ea80c6aa68a7acb1132b34f3c2cc7b4f24bd978af527454adf1c23defa7b09&quality=50&focal=1064%2C1052&width=1200&height=675",
+      "summary": "ただいまメンテナンス中です メンテナンスのため、会員のログイン機能を一時停止しております。メンテナンス終了までメールマガジンの配信も停止します。 ユーザーの皆様にはご迷惑をおかけいたしますが、何卒ご理解のほどよろしくお願いいたします。",
       "points": [
         "カテゴリ: 国内・総合で話題の記事",
-        "引用元: chunichi.co.jp（2026-11-15 05:44）",
+        "引用元: sankei.com（2026-11-15 00:41）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "国内・総合分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "国内・総合",
-        "chunichi.co.jp"
+        "sankei.com"
       ],
-      "url": "https://www.chunichi.co.jp/article/1339597",
+      "url": "https://www.sankei.com/article/20261114-MBDYXQK3QZK5BPHZTMY6R75TGE/",
       "isAiEnriched": false
     },
     {
       "category": "tech",
-      "title": "「PowerShell 7.7」が一般公開 ～.NET 11ベース、セキュリティ強化や新コマンドを追加／2年サポートの「標準期間サポート」（STS）リリース",
-      "source": "forest.watch.impress.co.jp",
-      "publishedAt": "2026-11-14 13:56",
-      "publishedTs": 1794632206,
-      "image": "https://forest.watch.impress.co.jp/img/wf/list/2156/192/powershell.jpg",
-      "summary": "「「PowerShell 7.7」が一般公開 ～.NET 11ベース、セキュリティ強化や新コマンドを追加／2年サポートの「標準期間サポート」（STS）リリース」に関する注目ニュースです。詳細は元記事から確認できます。",
+      "title": "XCPEマルウェアの解析と国内における観測実態",
+      "source": "blog.nicter.jp",
+      "publishedAt": "2026-11-06 21:02",
+      "publishedTs": 1793966546,
+      "image": "https://blog.nicter.jp/posts/2026-13/model_jp.png",
+      "summary": "はじめに 2026年11月3日、Googleは、世界で130万台以上のAndroid搭載機器に影響を及ぼしていたXCPEボットネットのテイクダウンを発表しました1。XCPEは、一部のAndroid搭載セットトップボックスなどにプリインストールされているマルウェアで、遠隔からのコマンド実行や情報収集に加え、外…",
       "points": [
         "カテゴリ: テクノロジー・AIで話題の記事",
-        "引用元: forest.watch.impress.co.jp（2026-11-14 13:56）",
+        "引用元: blog.nicter.jp（2026-11-06 21:02）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "テクノロジー・AI分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "テクノロジー・AI",
-        "forest.watch.impress.co.jp"
+        "blog.nicter.jp"
       ],
-      "url": "https://forest.watch.impress.co.jp/docs/news/2156192.html",
+      "url": "https://blog.nicter.jp/2026/11/xcpe_campaign/",
       "isAiEnriched": false
     },
     {
       "category": "business",
-      "title": "タンカーが「制御失う」、リバークルーズ船に衝突　米ニューオーリンズ",
-      "source": "cnn.co.jp",
-      "publishedAt": "2026-11-14 08:50",
-      "publishedTs": 1794613805,
-      "image": "https://www.cnn.co.jp/storage/2026/11/14/2b2b5ef98a2088e333154f39f3126d87/still-23160835-182692-81100000002-still.jpg",
-      "summary": "（CNN） 米南部ルイジアナ州のニューオーリンズ港付近で13日、タンカーがリバークルーズ船に衝突する事故があった。ニューオーリンズのモレノ市長によると、クルーズ船の乗客全員の安否が確認されており、命に関わるけがを負った人はいない。 港の当局者によると、タンカーは、ミシシッピ川沿いのニューオーリンズ港に停...",
+      "title": "米国務長官、ICCに警告「剣を帯びる者に法律を説くのはやめろ」",
+      "source": "afpbb.com",
+      "publishedAt": "2026-11-14 09:39",
+      "publishedTs": 1794616795,
+      "image": "https://afpbb.ismcdn.jp/mwimgs/9/3/1000x/img_93d74da810771456230942dc3857fd8f70358.jpg",
+      "summary": "【11月14日 AFP】マルコ・ルビオ米国務長官は13日、国際法が「武器化」され、エリート層の道具になっていると批判するとともに、国際刑事裁判所（ICC）に強い警告を発した。 ルビオ氏は、オランダ・ハーグに本部を置くICCが米国の認めていない規則を強制しようとしていると非難し、「剣を帯びる者に法律を説く」こ…",
       "points": [
         "カテゴリ: ビジネス・経済で話題の記事",
-        "引用元: cnn.co.jp（2026-11-14 08:50）",
+        "引用元: afpbb.com（2026-11-14 09:39）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "ビジネス・経済分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "ビジネス・経済",
-        "cnn.co.jp"
+        "afpbb.com"
       ],
-      "url": "https://www.cnn.co.jp/usa/35254876.html",
+      "url": "https://www.afpbb.com/articles/-/3662364",
       "isAiEnriched": false
     },
     {
@@ -3053,6 +2948,111 @@ window.NEWS_DATA = {
     },
     {
       "category": "subculture",
+      "title": "[第8画目]イッピツアヤル - 横山左 | 少年ジャンプ＋",
+      "source": "shonenjumpplus.com",
+      "publishedAt": "2026-11-15 00:01",
+      "publishedTs": 1794668460,
+      "image": "https://cdn-ak-img.shonenjumpplus.com/public/series-thumbnail/9253191256479706037-d58e07119b67013ca3eff1206a2d4b43?1794211962",
+      "summary": "イッピツアヤル 横山左 読み方が難しいせいで、人生で一度も下の名前を呼ばれたことがない高校２年生の加賀見斐。そんな彼は、書道部の鎮西みやびに恋をする。彼女に近づきたい、その一心で書道部の門を叩いた斐だったが…恋心を墨にのせた青春が始まる！ [JC1巻12/4発売]…",
+      "points": [
+        "カテゴリ: サブカルチャーで話題の記事",
+        "引用元: shonenjumpplus.com（2026-11-15 00:01）",
+        "「元記事を読む」から本文を確認できます"
+      ],
+      "impact": "サブカルチャー分野で多くの読者に共有されている注目記事です。",
+      "tags": [
+        "サブカルチャー",
+        "shonenjumpplus.com"
+      ],
+      "url": "https://shonenjumpplus.com/episode/9253191257737711681",
+      "isAiEnriched": false
+    },
+    {
+      "category": "domestic",
+      "title": "人気店の居酒屋にインフルエンサーから「食事提供と報酬12000円でSNSにPRとして投稿する」という依頼が来たことが議論に「お客様に失礼」「ただの営業なので嫌なら断れば」",
+      "source": "togetter.com",
+      "publishedAt": "2026-11-15 11:54",
+      "publishedTs": 1794711259,
+      "image": "https://s.tgstc.com/ogp3/bbbe865c2e0bc8eb84ded53bbd38cf11-1200x630.jpeg",
+      "summary": "はまむらみつや @kitashinci 二人でご飯食べさせて、SNSに投稿したるから12000円払えってか？？ 今までインスタグラマーの人が、居酒屋 浜村にお越しになって頂いてて、SNSとかに投稿して頂いてるけど、皆様自分でご予約下さって、気づいたら投稿して頂いてた方ばっかりで。 この人載せてる店全部信用出…",
+      "points": [
+        "カテゴリ: 国内・総合で話題の記事",
+        "引用元: togetter.com（2026-11-15 11:54）",
+        "「元記事を読む」から本文を確認できます"
+      ],
+      "impact": "国内・総合分野で多くの読者に共有されている注目記事です。",
+      "tags": [
+        "国内・総合",
+        "togetter.com"
+      ],
+      "url": "https://togetter.com/li/2770611",
+      "isAiEnriched": false
+    },
+    {
+      "category": "tech",
+      "title": "「PowerShell 7.7」が一般公開 ～.NET 11ベース、セキュリティ強化や新コマンドを追加／2年サポートの「標準期間サポート」（STS）リリース",
+      "source": "forest.watch.impress.co.jp",
+      "publishedAt": "2026-11-14 13:56",
+      "publishedTs": 1794632206,
+      "image": "https://forest.watch.impress.co.jp/img/wf/list/2156/192/powershell.jpg",
+      "summary": "「「PowerShell 7.7」が一般公開 ～.NET 11ベース、セキュリティ強化や新コマンドを追加／2年サポートの「標準期間サポート」（STS）リリース」に関する注目ニュースです。詳細は元記事から確認できます。",
+      "points": [
+        "カテゴリ: テクノロジー・AIで話題の記事",
+        "引用元: forest.watch.impress.co.jp（2026-11-14 13:56）",
+        "「元記事を読む」から本文を確認できます"
+      ],
+      "impact": "テクノロジー・AI分野で多くの読者に共有されている注目記事です。",
+      "tags": [
+        "テクノロジー・AI",
+        "forest.watch.impress.co.jp"
+      ],
+      "url": "https://forest.watch.impress.co.jp/docs/news/2156192.html",
+      "isAiEnriched": false
+    },
+    {
+      "category": "business",
+      "title": "50年住宅ローン、始まった融資引き締め　金融庁が問題視「新たな火種」 - 日本経済新聞",
+      "source": "nikkei.com",
+      "publishedAt": "2026-11-14 07:03",
+      "publishedTs": 1794607395,
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3871701012112026000000-1.jpg?auto=compress&bg=FFFF&crop=focalpoint&fit=crop&fm=jpg&h=630&w=1200&s=f466743b2692b9106a3ed6d82dafe770",
+      "summary": "超長期50年の住宅ローン市場に異変が生じている。マンション価格の高騰で月々の返済負担を抑えられると人気を集めるものの、一部の金融機関で内々に融資を厳しくする動きが出てきた。金融庁は契約者へのリスク説明が十分かどうか目を光らせる。「実は融資審査の蛇口を絞り始めている」。あるネット銀行の関係者は声を潜...",
+      "points": [
+        "カテゴリ: ビジネス・経済で話題の記事",
+        "引用元: nikkei.com（2026-11-14 07:03）",
+        "「元記事を読む」から本文を確認できます"
+      ],
+      "impact": "ビジネス・経済分野で多くの読者に共有されている注目記事です。",
+      "tags": [
+        "ビジネス・経済",
+        "nikkei.com"
+      ],
+      "url": "https://www.nikkei.com/article/DGXZQOUB12C1Q0S6A111C2000000/",
+      "isAiEnriched": false
+    },
+    {
+      "category": "entertainment",
+      "title": "スピッツ、デビュー35周年記念｜﨑山龍男のドラミングから辿る90年代の名盤8作品 | ドラマガWeb",
+      "source": "drumsmagazine.jp",
+      "publishedAt": "2026-11-12 08:20",
+      "publishedTs": 1794439225,
+      "image": "https://drumsmagazine.jp/wp-content/uploads/DMweb_spitz90s_re.jpg",
+      "summary": "2026年にデビュー35周年を迎えたスピッツ。11月25日には約3年半ぶり、通算18作目となるオリジナル・アルバム『kettle』のリリースを控えている。そのアニバーサリーを祝うべく、確かなテクニック裏打ちされた歌心溢れるアプローチでバンド・サウンドを支え続けてきたドラマー、﨑山龍男のプレイにスポットを当て…",
+      "points": [
+        "カテゴリ: 芸能・エンタメで話題の記事",
+        "引用元: drumsmagazine.jp（2026-11-12 08:20）",
+        "「元記事を読む」から本文を確認できます"
+      ],
+      "impact": "芸能・エンタメ分野で多くの読者に共有されている注目記事です。",
+      "tags": [
+        "芸能・エンタメ",
+        "drumsmagazine.jp"
+      ],
+      "url": "https://drumsmagazine.jp/special/spitz-tatsuo-sakiyama-discography-1990s/",
+      "isAiEnriched": false
+    },
+    {
+      "category": "subculture",
       "title": "シン十二支 - ジャンプルーキー！",
       "source": "rookie.shonenjump.com",
       "publishedAt": "2026-11-12 10:55",
@@ -3074,23 +3074,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "高市政権:これが“身を切る改革”か！　議員定数削減の大茶番　自維国の31減の舞台裏 | 毎日新聞",
-      "source": "mainichi.jp",
-      "publishedAt": "2026-11-15 03:43",
-      "publishedTs": 1794681815,
-      "image": "https://cdn.mainichi.jp/vol1/2026/11/10/20261110org00m010014000p/0c10.jpg?1",
-      "summary": "合意書に署名し写真撮影に臨む自民党の鈴木俊一幹事長（中央）、日本維新の会の柴田巧幹事長（右）、国民民主党の榛葉賀津也幹事長＝国会内で2026年10月29日午前10時54分、平田明浩撮影 国民民主はなぜすり寄ったのか 議員削減がまとまった「思惑」 なぜ今、国会議員の定数削減が必要なのか―。それも比例区「31減…",
+      "title": "リニア品川－名古屋開業、最短2040年代か　本紙試算、湧水対策など不確定要素：中日新聞Web",
+      "source": "chunichi.co.jp",
+      "publishedAt": "2026-11-15 05:44",
+      "publishedTs": 1794689055,
+      "image": "https://static.chunichi.co.jp/image/article/size1/3/f/f/7/3ff78a2c3847293ca4f76d231e54577f_1.jpg",
+      "summary": "リニア中央新幹線の東京・品川－名古屋間の新たな開業時期について、JR東海は年内に公表する方針を示している。駅周辺再開発への影響や経済波及効果から、沿線と周辺地域には大きな関心事だ。本紙は、JRやトンネル工学の専門家への取材をもとに開業時期を試算。早くても2040年代になるとの結果になった。 （水谷元海、...",
       "points": [
         "カテゴリ: 国内・総合で話題の記事",
-        "引用元: mainichi.jp（2026-11-15 03:43）",
+        "引用元: chunichi.co.jp（2026-11-15 05:44）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "国内・総合分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "国内・総合",
-        "mainichi.jp"
+        "chunichi.co.jp"
       ],
-      "url": "https://mainichi.jp/sunday/articles/20261110/org/00m/010/018000c",
+      "url": "https://www.chunichi.co.jp/article/1339597",
       "isAiEnriched": false
     },
     {
@@ -3116,44 +3116,44 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "支援金の対象「勤労者の5割以上へ引き上げ検討」高市総理　「夫婦2人と子ども2人世帯で最大計6万円」支給見通し（FNNプライムオンライン（フジテレビ系）） - Yahoo!ニュース",
-      "source": "news.yahoo.co.jp",
-      "publishedAt": "2026-11-13 16:54",
-      "publishedTs": 1794556499,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261113-01251800-fnn-000-8-thumb.jpg?exp=10800",
-      "summary": "FNNプライムオンライン今国会で最大の焦点となっている消費税減税法案をめぐり、高市総理大臣は、支援金の対象について「勤労者全体の5割以上となるよう所得上限の引き上げを検討する」と表明しました。 公明・杉議員: 従来の350万円という想定から、所得の上限をどの程度引き上げ、対象人数をどの程度拡大することを検.…",
+      "title": "タンカーが「制御失う」、リバークルーズ船に衝突　米ニューオーリンズ",
+      "source": "cnn.co.jp",
+      "publishedAt": "2026-11-14 08:50",
+      "publishedTs": 1794613805,
+      "image": "https://www.cnn.co.jp/storage/2026/11/14/2b2b5ef98a2088e333154f39f3126d87/still-23160835-182692-81100000002-still.jpg",
+      "summary": "（CNN） 米南部ルイジアナ州のニューオーリンズ港付近で13日、タンカーがリバークルーズ船に衝突する事故があった。ニューオーリンズのモレノ市長によると、クルーズ船の乗客全員の安否が確認されており、命に関わるけがを負った人はいない。 港の当局者によると、タンカーは、ミシシッピ川沿いのニューオーリンズ港に停...",
       "points": [
         "カテゴリ: ビジネス・経済で話題の記事",
-        "引用元: news.yahoo.co.jp（2026-11-13 16:54）",
+        "引用元: cnn.co.jp（2026-11-14 08:50）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "ビジネス・経済分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "ビジネス・経済",
-        "news.yahoo.co.jp"
+        "cnn.co.jp"
       ],
-      "url": "https://news.yahoo.co.jp/articles/78021b7e58056eb5ea64be1894b35f6622e1de59",
+      "url": "https://www.cnn.co.jp/usa/35254876.html",
       "isAiEnriched": false
     },
     {
       "category": "entertainment",
-      "title": "スピッツ、デビュー35周年記念｜﨑山龍男のドラミングから辿る90年代の名盤8作品 | ドラマガWeb",
-      "source": "drumsmagazine.jp",
-      "publishedAt": "2026-11-12 08:20",
-      "publishedTs": 1794439225,
-      "image": "https://drumsmagazine.jp/wp-content/uploads/DMweb_spitz90s_re.jpg",
-      "summary": "2026年にデビュー35周年を迎えたスピッツ。11月25日には約3年半ぶり、通算18作目となるオリジナル・アルバム『kettle』のリリースを控えている。そのアニバーサリーを祝うべく、確かなテクニック裏打ちされた歌心溢れるアプローチでバンド・サウンドを支え続けてきたドラマー、﨑山龍男のプレイにスポットを当て…",
+      "title": "サンボマスターとアイナ・ジ・エンド / 花束 MUSIC VIDEO",
+      "source": "youtube.com",
+      "publishedAt": "2026-11-12 18:07",
+      "publishedTs": 1794474446,
+      "image": "https://i.ytimg.com/vi/yxfg1xxx-og/hqdefault.jpg",
+      "summary": "Listen Here https://sambomaster.lnk.to/Hanataba_AiNATHEEND Netflixコメディシリーズ「トークサバイバー！DEAD or LAUGH」主題歌 https://www.netflix.com/title/81484461 Netflixで独占配信中…",
       "points": [
         "カテゴリ: 芸能・エンタメで話題の記事",
-        "引用元: drumsmagazine.jp（2026-11-12 08:20）",
+        "引用元: youtube.com（2026-11-12 18:07）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "芸能・エンタメ分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "芸能・エンタメ",
-        "drumsmagazine.jp"
+        "youtube.com"
       ],
-      "url": "https://drumsmagazine.jp/special/spitz-tatsuo-sakiyama-discography-1990s/",
+      "url": "https://www.youtube.com/watch?v=yxfg1xxx-og",
       "isAiEnriched": false
     },
     {
