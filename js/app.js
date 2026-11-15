@@ -23,6 +23,8 @@
   const elBtnRefresh = document.getElementById("btn-refresh");
   const elBtnTheme = document.getElementById("btn-theme");
   const elBrandReset = document.getElementById("brand-reset");
+  const elBtnWeatherShortcut = document.getElementById("btn-weather-shortcut");
+  const elHeaderWeatherIcon = document.getElementById("header-weather-icon");
   const elTrendingBar = document.getElementById("trending-bar");
   const elTrendingTags = document.getElementById("trending-tags");
   const elFilterStatus = document.getElementById("filter-status");
@@ -114,20 +116,27 @@
     return String(kw ?? "").replace(/[…\.]+$/g, "").trim();
   }
 
-  function updateCounts() {
-    const items = Array.isArray(state.data.items) ? state.data.items : [];
-    const counts = { all: items.length, domestic: 0, tech: 0, business: 0, entertainment: 0, subculture: 0 };
-    items.forEach((it) => {
-      if (it && counts[it.category] !== undefined) counts[it.category] += 1;
-    });
-    document.getElementById("count-all").textContent = counts.all;
-    document.getElementById("count-domestic").textContent = counts.domestic;
-    document.getElementById("count-tech").textContent = counts.tech;
-    document.getElementById("count-business").textContent = counts.business;
-    const elEnt = document.getElementById("count-entertainment");
-    if (elEnt) elEnt.textContent = counts.entertainment;
-    const elSub = document.getElementById("count-subculture");
-    if (elSub) elSub.textContent = counts.subculture;
+  function syncHeaderWeatherIcon(iconOverride) {
+    if (!elHeaderWeatherIcon) return;
+    if (iconOverride) {
+      elHeaderWeatherIcon.textContent = iconOverride;
+      return;
+    }
+    const cities = Array.isArray(state.data?.weatherCities) ? state.data.weatherCities : [];
+    const saved = (() => {
+      try {
+        return JSON.parse(localStorage.getItem("trend-news-geo") || "null");
+      } catch (_e) {
+        return null;
+      }
+    })();
+    const matchCity =
+      (saved?.locName && cities.find((c) => saved.locName.includes(c.name))) ||
+      cities.find((c) => c.name === "東京") ||
+      cities[0];
+    if (matchCity && Number.isFinite(matchCity.code)) {
+      elHeaderWeatherIcon.textContent = getWeatherMeta(matchCity.code).icon;
+    }
   }
 
   function renderTrending() {
@@ -428,12 +437,23 @@
 
   function setCategory(cat, swipeDir = 0) {
     state.category = cat;
+    if (cat === "weather" && state.query) {
+      state.query = "";
+      elSearchInput.value = "";
+      elSearchClear.hidden = true;
+      renderTrending();
+    }
     let activeTabEl = null;
     navTabs.forEach((tab) => {
       const isMatch = tab.getAttribute("data-category") === cat;
       tab.classList.toggle("active", isMatch);
       if (isMatch) activeTabEl = tab;
     });
+    if (elBtnWeatherShortcut) {
+      const isWeather = cat === "weather";
+      elBtnWeatherShortcut.classList.toggle("active", isWeather);
+      elBtnWeatherShortcut.setAttribute("aria-pressed", String(isWeather));
+    }
     if (activeTabEl && typeof activeTabEl.scrollIntoView === "function") {
       activeTabEl.scrollIntoView({ behavior: "smooth", inline: "center", block: "nearest" });
     }
@@ -1021,6 +1041,7 @@
   }
 
   function renderCurrentWeatherCard(loc, w) {
+    if (w?.meta?.icon) syncHeaderWeatherIcon(w.meta.icon);
     if (!elWeatherCurrentWrap) return;
     elWeatherCurrentWrap.innerHTML = `
       <div class="weather-current-card">
@@ -1266,7 +1287,7 @@
 
   function renderAll() {
     elHeaderUpdated.textContent = `更新: ${state.data.updatedAt || state.data.date || "--"}`;
-    updateCounts();
+    syncHeaderWeatherIcon();
     renderTrending();
     renderFeed();
   }
@@ -1295,6 +1316,11 @@
     e.preventDefault();
     setCategory("all");
     setQuery("");
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
+
+  elBtnWeatherShortcut?.addEventListener("click", () => {
+    setCategory("weather");
     window.scrollTo({ top: 0, behavior: "smooth" });
   });
 

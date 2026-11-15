@@ -13,7 +13,6 @@
   --accent: #2563eb;
   --accent-hover: #1d4ed8;
   --accent-soft: rgba(37, 99, 235, 0.1);
-  --live: #ef4444;
 
   --cat-domestic: #059669;
   --cat-domestic-bg: rgba(5, 150, 105, 0.12);
@@ -102,45 +101,27 @@ html, body {
   gap: 16px;
 }
 
-.brand {
+.header-left {
   display: flex;
   align-items: center;
-  gap: 10px;
-  text-decoration: none;
-  color: inherit;
+  gap: 12px;
+  min-width: 0;
   flex-shrink: 0;
 }
 
-.brand-badge {
-  display: inline-flex;
+.brand {
+  display: flex;
   align-items: center;
-  gap: 5px;
-  padding: 4px 9px;
-  border-radius: 6px;
-  background: var(--live);
-  color: #ffffff;
-  font-size: 0.72rem;
-  font-weight: 800;
-  letter-spacing: 0.06em;
-}
-
-.brand-badge::before {
-  content: "";
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-  background: #ffffff;
-  animation: pulse 1.8s infinite;
-}
-
-@keyframes pulse {
-  0%, 100% { opacity: 1; }
-  50% { opacity: 0.35; }
+  text-decoration: none;
+  color: inherit;
+  min-width: 0;
+  flex-shrink: 0;
 }
 
 .brand-text {
   display: flex;
   flex-direction: column;
+  min-width: 0;
 }
 
 .brand-title {
@@ -154,6 +135,42 @@ html, body {
   font-size: 0.72rem;
   color: var(--text-muted);
   font-weight: 500;
+  white-space: nowrap;
+}
+
+.header-weather-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 6px 12px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--surface-muted);
+  color: var(--text-primary);
+  font-family: inherit;
+  font-size: 0.82rem;
+  font-weight: 700;
+  cursor: pointer;
+  white-space: nowrap;
+  flex-shrink: 0;
+  transition: all 0.18s ease;
+}
+
+.header-weather-btn:hover {
+  border-color: var(--accent);
+  background: var(--accent-soft);
+  color: var(--accent);
+}
+
+.header-weather-btn.active {
+  border-color: var(--accent);
+  background: var(--accent);
+  color: #ffffff;
+}
+
+.header-weather-icon {
+  font-size: 0.95rem;
+  line-height: 1;
 }
 
 /* Search Box */
@@ -348,20 +365,6 @@ html, body {
   height: 3px;
   border-radius: 3px 3px 0 0;
   background: var(--accent);
-}
-
-.tab-count {
-  font-size: 0.72rem;
-  font-weight: 700;
-  padding: 2px 7px;
-  border-radius: 999px;
-  background: var(--surface-muted);
-  color: var(--text-muted);
-}
-
-.nav-tab.active .tab-count {
-  background: var(--accent-soft);
-  color: var(--accent);
 }
 
 /* Trending Bar */
@@ -961,6 +964,23 @@ html, body {
   .header-top {
     flex-wrap: wrap;
     gap: 10px;
+  }
+  .header-left {
+    gap: 10px;
+    flex: 1;
+    min-width: 0;
+  }
+  .brand-title {
+    font-size: 1.05rem;
+  }
+  .brand-meta {
+    font-size: 0.68rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .header-weather-btn {
+    padding: 5px 10px;
+    font-size: 0.78rem;
   }
   .search-box {
     order: 3;
