@@ -1,13 +1,13 @@
 window.NEWS_DATA = {
   "date": "2026年11月15日 (日)",
-  "updatedAt": "2026-11-15 09:46",
+  "updatedAt": "2026-11-15 10:51",
   "title": "TREND NEWS",
   "keywords": [
     "きょう近畿や東海で激しい雨…",
-    "Netflixが値上げ 最…",
+    "検事の取り調べ AIでチェ…",
     "エヌビディアCEO 後任選…",
     "首相 「アジア版IEA」創…",
-    "AI悪用攻撃拠点か 世界で…",
+    "AIエージェント普及 問わ…",
     "売れ残りを寄付 広がる一方…"
   ],
   "items": [
@@ -34,15 +34,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "Netflixが値上げ 最安は990円に",
+      "title": "検事の取り調べ AIでチェックへ",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 07:58",
-      "publishedTs": 1794697128,
-      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/15/295dc8a23f1198e652299ef3c5722a35de55a468d02ace0b2893973dc305822a.jpg",
-      "summary": "Netflixは、日本における各プランの月額料金を値上げした。4K/HDR視聴に対応する「プレミアム」は300円値上げの月額2,590円、最安の「広告つきスタンダード」は100円値上げの月額990円…",
+      "publishedAt": "2026-11-15 10:48",
+      "publishedTs": 1794707328,
+      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/15/575a0e293777c22b66ae06135a430ba1c0a2d48c555e076dc5ddd9bf8aa53357.jpg",
+      "summary": "法務・検察当局は、取り調べの適正化を図るため、人工知能（AI）の活用を検討している。取り調べの様子を録音・録画（可視化）した事件について、AIに記録を分析させ、不適切な言動をチェックする。2026年…",
       "points": [
         "カテゴリ: テクノロジー・AIの注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 07:58）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 10:48）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "テクノロジー・AI分野で関心を集めている最新ニュースです。",
@@ -50,7 +50,7 @@ window.NEWS_DATA = {
         "テクノロジー・AI",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/pickup/6602619?source=rss",
+      "url": "https://news.yahoo.co.jp/pickup/6602643?source=rss",
       "isAiEnriched": false
     },
     {
@@ -97,15 +97,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "AI悪用攻撃拠点か 世界で千台発見",
+      "title": "AIエージェント普及 問われる対応",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-14 22:45",
-      "publishedTs": 1794663944,
-      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/eternal/2023/10/2/9846172226b1f454b7799140cec36c5e0725fae7f6dd816b7a80e5ee21bfb0b0.jpg",
-      "summary": "高性能な人工知能（AI）を悪用したサイバー攻撃の拠点と疑われるサーバーが10月以降、世界のインターネット上に少なくとも千台前後存在していることが14日、分かった。日本の情報セキュリティー専門機関が海…",
+      "publishedAt": "2026-11-15 10:44",
+      "publishedTs": 1794707067,
+      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/15/58ef73af9bdb86c91a9c6280bbe71cef5edb0f655d7d3b72a48189fe92e70657.jpg",
+      "summary": "人工知能（AI）が人間のエージェント（代理人）として働く「AIエージェント」が普及しつつある。",
       "points": [
         "カテゴリ: テクノロジー・AIの注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-14 22:45）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 10:44）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "テクノロジー・AI分野で関心を集めている最新ニュースです。",
@@ -113,7 +113,7 @@ window.NEWS_DATA = {
         "テクノロジー・AI",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/pickup/6602602?source=rss",
+      "url": "https://news.yahoo.co.jp/pickup/6602642?source=rss",
       "isAiEnriched": false
     },
     {
@@ -160,15 +160,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "マイクロソフトの障害 全面復旧",
+      "title": "Netflixが値上げ 最安は990円に",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-14 15:27",
-      "publishedTs": 1794637645,
-      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/14/7839b54a28bb0eaf8f488c04bd0a7573ed3d1d7428e94b1741c9c033bca79467.jpg",
-      "summary": "アメリカのIT大手マイクロソフトは世界規模で発生した接続障害について、サービスが全面復旧したと発表しました。",
+      "publishedAt": "2026-11-15 07:58",
+      "publishedTs": 1794697128,
+      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/15/295dc8a23f1198e652299ef3c5722a35de55a468d02ace0b2893973dc305822a.jpg",
+      "summary": "Netflixは、日本における各プランの月額料金を値上げした。4K/HDR視聴に対応する「プレミアム」は300円値上げの月額2,590円、最安の「広告つきスタンダード」は100円値上げの月額990円…",
       "points": [
         "カテゴリ: テクノロジー・AIの注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-14 15:27）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 07:58）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "テクノロジー・AI分野で関心を集めている最新ニュースです。",
@@ -176,20 +176,20 @@ window.NEWS_DATA = {
         "テクノロジー・AI",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/pickup/6602556?source=rss",
+      "url": "https://news.yahoo.co.jp/pickup/6602619?source=rss",
       "isAiEnriched": false
     },
     {
       "category": "business",
-      "title": "スバルWRXのMT車復活 要望受け",
+      "title": "月収2万円と年金5万円 70代の現実",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-14 18:51",
-      "publishedTs": 1794649897,
-      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/14/805dda9cf5a2532d079ecaad096334db8da53292e8ae551f180f66bfe8bb0e3e.jpg",
-      "summary": "SUBARU（スバル）は14日、国内向けにスポーツセダン「WRX」のマニュアル車を発売すると発表した。顧客からの要望を受け、2019年に生産終了した先代モデル以来、7年ぶりに復活させた。スポーティー…",
+      "publishedAt": "2026-11-15 10:06",
+      "publishedTs": 1794704777,
+      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/15/bf4afd5c158e071b58e0c75fe822c993453c10dada68e54b208dcb888750a217.jpg",
+      "summary": "「生きるために働く」高齢者。年金だけでは暮らせない中、仕事をしようにも見つからない現実もありました。",
       "points": [
         "カテゴリ: ビジネス・経済の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-14 18:51）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 10:06）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "ビジネス・経済分野で関心を集めている最新ニュースです。",
@@ -197,7 +197,7 @@ window.NEWS_DATA = {
         "ビジネス・経済",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/pickup/6602575?source=rss",
+      "url": "https://news.yahoo.co.jp/pickup/6602636?source=rss",
       "isAiEnriched": false
     },
     {
@@ -223,15 +223,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "MS 障害原因は過去の増強作業",
+      "title": "AI悪用攻撃拠点か 世界で千台発見",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-14 23:42",
-      "publishedTs": 1794667326,
-      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/14/e058d3503fab7b659e391884f55f2d7474968c3d8b7af6b7f960cc5fadb11a63.jpg",
-      "summary": "【ニューヨーク＝木瀬武】米マイクロソフトは１４日未明（日本時間１４日午後）、メールソフト「アウトルック」など複数のサービスで発生した大規模なシステム障害が全面復旧したと発表した。日本を含む世界各地で…",
+      "publishedAt": "2026-11-14 22:45",
+      "publishedTs": 1794663944,
+      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/eternal/2023/10/2/9846172226b1f454b7799140cec36c5e0725fae7f6dd816b7a80e5ee21bfb0b0.jpg",
+      "summary": "高性能な人工知能（AI）を悪用したサイバー攻撃の拠点と疑われるサーバーが10月以降、世界のインターネット上に少なくとも千台前後存在していることが14日、分かった。日本の情報セキュリティー専門機関が海…",
       "points": [
         "カテゴリ: テクノロジー・AIの注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-14 23:42）",
+        "配信: Yahoo!ニュース トピックス（2026-11-14 22:45）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "テクノロジー・AI分野で関心を集めている最新ニュースです。",
@@ -239,20 +239,20 @@ window.NEWS_DATA = {
         "テクノロジー・AI",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/pickup/6602606?source=rss",
+      "url": "https://news.yahoo.co.jp/pickup/6602602?source=rss",
       "isAiEnriched": false
     },
     {
       "category": "business",
-      "title": "縦型ショートドラマ トラブル急増",
+      "title": "スバルWRXのMT車復活 要望受け",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-14 21:56",
-      "publishedTs": 1794661002,
-      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/eternal/2022/1/21/a1e83497e6ae7c4773b9d74bb91b357c6f183c9c1f6da1f8c664c1112bbe60ae.jpg",
-      "summary": "スマートフォンで手軽に視聴でき、幅広い世代に人気が広がる1話1～2分程度の「縦型ショートドラマ」を巡り、サブスクリプション（定額課金）契約を解約できないなどのトラブルが急増していることが14日、共同…",
+      "publishedAt": "2026-11-14 18:51",
+      "publishedTs": 1794649897,
+      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/14/805dda9cf5a2532d079ecaad096334db8da53292e8ae551f180f66bfe8bb0e3e.jpg",
+      "summary": "SUBARU（スバル）は14日、国内向けにスポーツセダン「WRX」のマニュアル車を発売すると発表した。顧客からの要望を受け、2019年に生産終了した先代モデル以来、7年ぶりに復活させた。スポーティー…",
       "points": [
         "カテゴリ: ビジネス・経済の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-14 21:56）",
+        "配信: Yahoo!ニュース トピックス（2026-11-14 18:51）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "ビジネス・経済分野で関心を集めている最新ニュースです。",
@@ -260,7 +260,7 @@ window.NEWS_DATA = {
         "ビジネス・経済",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/pickup/6602597?source=rss",
+      "url": "https://news.yahoo.co.jp/pickup/6602575?source=rss",
       "isAiEnriched": false
     },
     {
@@ -286,15 +286,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "マイクロソフト 大規模障害を謝罪",
+      "title": "マイクロソフトの障害 全面復旧",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-14 08:55",
-      "publishedTs": 1794614142,
-      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/14/e6b36b62472fc53436734b6d37af39eceb49fdc81da63c16d7316ae834f4c830.jpg",
-      "summary": "【AFP＝時事】米マイクロソフトは13日、世界各地の公共サービスや企業に支障を及ぼした大規模障害について謝罪した。メールサービス「アウトルック」などが「広範に復旧した」と述べ、全面復旧に向けた作業を…",
+      "publishedAt": "2026-11-14 15:27",
+      "publishedTs": 1794637645,
+      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/14/7839b54a28bb0eaf8f488c04bd0a7573ed3d1d7428e94b1741c9c033bca79467.jpg",
+      "summary": "アメリカのIT大手マイクロソフトは世界規模で発生した接続障害について、サービスが全面復旧したと発表しました。",
       "points": [
         "カテゴリ: テクノロジー・AIの注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-14 08:55）",
+        "配信: Yahoo!ニュース トピックス（2026-11-14 15:27）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "テクノロジー・AI分野で関心を集めている最新ニュースです。",
@@ -302,20 +302,20 @@ window.NEWS_DATA = {
         "テクノロジー・AI",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/pickup/6602508?source=rss",
+      "url": "https://news.yahoo.co.jp/pickup/6602556?source=rss",
       "isAiEnriched": false
     },
     {
       "category": "business",
-      "title": "再開発が大赤字 大阪・阿倍野の今",
+      "title": "縦型ショートドラマ トラブル急増",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 09:24",
-      "publishedTs": 1794702290,
-      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/15/2fbea6621d30a5ae4bc27f59b6b005e01bc552d5de61b81d79efefb23cd22529.jpg",
-      "summary": "大阪・天王寺駅の南西側に広がる阿倍野地区。大型商業施設「あべのキューズタウン」や高層住宅が立ち並び、近くには観光名所の「あべのハルカス」もある。こうした現在の街並みを形づくったのが、大阪市が約40年…",
+      "publishedAt": "2026-11-14 21:56",
+      "publishedTs": 1794661002,
+      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/eternal/2022/1/21/a1e83497e6ae7c4773b9d74bb91b357c6f183c9c1f6da1f8c664c1112bbe60ae.jpg",
+      "summary": "スマートフォンで手軽に視聴でき、幅広い世代に人気が広がる1話1～2分程度の「縦型ショートドラマ」を巡り、サブスクリプション（定額課金）契約を解約できないなどのトラブルが急増していることが14日、共同…",
       "points": [
         "カテゴリ: ビジネス・経済の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 09:24）",
+        "配信: Yahoo!ニュース トピックス（2026-11-14 21:56）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "ビジネス・経済分野で関心を集めている最新ニュースです。",
@@ -323,7 +323,7 @@ window.NEWS_DATA = {
         "ビジネス・経済",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/pickup/6602629?source=rss",
+      "url": "https://news.yahoo.co.jp/pickup/6602597?source=rss",
       "isAiEnriched": false
     },
     {
@@ -370,15 +370,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "「銀だこ」曲がり角 赤字転落なぜ",
+      "title": "再開発が大赤字 大阪・阿倍野の今",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-14 10:28",
-      "publishedTs": 1794619704,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/iwiz-yn/rpr/miwadaisuke/02765414/title-1794581047685.jpeg?exp=10800",
-      "summary": "たこ焼きチェーン「築地銀だこ」を展開するホットランドホールディングスが、赤字に転落しました。11月13日に発表した2026年12月期第3四半期決算は、売上高408億5600万円、営業利益12億1400…",
+      "publishedAt": "2026-11-15 09:24",
+      "publishedTs": 1794702290,
+      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/15/2fbea6621d30a5ae4bc27f59b6b005e01bc552d5de61b81d79efefb23cd22529.jpg",
+      "summary": "大阪・天王寺駅の南西側に広がる阿倍野地区。大型商業施設「あべのキューズタウン」や高層住宅が立ち並び、近くには観光名所の「あべのハルカス」もある。こうした現在の街並みを形づくったのが、大阪市が約40年…",
       "points": [
         "カテゴリ: ビジネス・経済の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-14 10:28）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 09:24）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "ビジネス・経済分野で関心を集めている最新ニュースです。",
@@ -386,7 +386,7 @@ window.NEWS_DATA = {
         "ビジネス・経済",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/pickup/6602520?source=rss",
+      "url": "https://news.yahoo.co.jp/pickup/6602629?source=rss",
       "isAiEnriched": false
     },
     {
@@ -433,6 +433,69 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
+      "title": "米国、NATO加盟と引き換えに領土割譲を提案 ゼレンスキー氏",
+      "source": "afpbb.com",
+      "publishedAt": "2026-11-15 08:22",
+      "publishedTs": 1794698543,
+      "image": "https://afpbb.ismcdn.jp/mwimgs/7/3/1000x/img_73741d7f6ce767c06b1d90c085bb4c0e71011.jpg",
+      "summary": "アイルランドの首都ダブリン郊外で、記者団と話すウクライナのウォロディミル・ゼレンスキー大統領（中央）、スティーブ・ウィトコフ米特使（右）、ジャレッド・クシュナー氏（2026年11月12日撮影）。（c）Paul Faith/AFP 【11月15日 AFP】米国が、ウクライナの北大西洋条約機構（NATO）加盟と…",
+      "points": [
+        "カテゴリ: ビジネス・経済で話題の記事",
+        "引用元: afpbb.com（2026-11-15 08:22）",
+        "「元記事を読む」から本文を確認できます"
+      ],
+      "impact": "ビジネス・経済分野で多くの読者に共有されている注目記事です。",
+      "tags": [
+        "ビジネス・経済",
+        "afpbb.com"
+      ],
+      "url": "https://www.afpbb.com/articles/-/3662399",
+      "isAiEnriched": false
+    },
+    {
+      "category": "domestic",
+      "title": "「ラヴ上等」出演の「あっすん」を逮捕　無許可風俗営業容疑　名古屋：朝日新聞",
+      "source": "asahi.com",
+      "publishedAt": "2026-11-15 07:44",
+      "publishedTs": 1794696254,
+      "image": "https://imgopt.asahi.com/ogp/AS20261115000633_comm.jpg",
+      "summary": "無許可で風俗営業店舗を経営したとして、愛知県警は15日、Netflix（ネットフリックス）が配信する「『ラヴ上等』シーズン2」の出演者で、小栗彩朱佳（あすか）容疑者（31）=名古屋市中区栄2丁目=ら…",
+      "points": [
+        "カテゴリ: 国内・総合で話題の記事",
+        "引用元: asahi.com（2026-11-15 07:44）",
+        "「元記事を読む」から本文を確認できます"
+      ],
+      "impact": "国内・総合分野で多くの読者に共有されている注目記事です。",
+      "tags": [
+        "国内・総合",
+        "asahi.com"
+      ],
+      "url": "https://www.asahi.com/articles/ASVCG366TVCGOIPE001M.html",
+      "isAiEnriched": false
+    },
+    {
+      "category": "tech",
+      "title": "デスクトップアプリを自動操作できるAUVが良さげかも | kawarimidoll.com",
+      "source": "kawarimidoll.com",
+      "publishedAt": "2026-10-19 17:36",
+      "publishedTs": 1792399008,
+      "image": "https://kawarimidoll.com/posts/202610182/og.png",
+      "summary": "Programmable Computer Use, without agents. AUV turns app UI workflows into typed operations you can script, record, inspect, and replay. GitHub - moeru-ai…",
+      "points": [
+        "カテゴリ: テクノロジー・AIで話題の記事",
+        "引用元: kawarimidoll.com（2026-10-19 17:36）",
+        "「元記事を読む」から本文を確認できます"
+      ],
+      "impact": "テクノロジー・AI分野で多くの読者に共有されている注目記事です。",
+      "tags": [
+        "テクノロジー・AI",
+        "kawarimidoll.com"
+      ],
+      "url": "https://kawarimidoll.com/posts/202610182/",
+      "isAiEnriched": false
+    },
+    {
+      "category": "business",
       "title": "わずか4人の造反に自民党内がピリピリ…石破茂と小渕優子があぶり出した｢高市1強｣のほころび",
       "source": "president.jp",
       "publishedAt": "2026-11-14 20:36",
@@ -475,44 +538,44 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "AI悪用の攻撃拠点、千台発見　サイトの弱点探索、不正侵入疑い",
-      "source": "47news.jp",
-      "publishedAt": "2026-11-14 23:55",
-      "publishedTs": 1794668147,
-      "image": "https://img.cf.47news.jp/public/photo/9ef83e68fcd797b3c447d8ad2edc6cd0/photo.jpg",
-      "summary": "高性能な人工知能（AI）を悪用したサイバー攻撃の拠点と疑われるサーバーが10月以降、世界のインターネット上に少なくとも千台前後存在していることが14日、分かった。日本の情報セキュリティー専門機関が海外企業と連携した国際的調査で判明した。国内外のウェブサイトを標的としてAIを使って弱点を探索し、不正侵入を...",
+      "title": "貧乏人向けの金貸しと、Appleの取り立てテクノロジー » p2ptk[.]org",
+      "source": "p2ptk.org",
+      "publishedAt": "2026-11-15 03:54",
+      "publishedTs": 1794682485,
+      "image": "https://p2ptk.org/wp-content/uploads/2026/11/think_different_repo.jpg",
+      "summary": "以下の文章は、コリイ・ドクトロウの「Apple’s robo-repo」という記事（2026年7月25日公開）を翻訳したものである。 Pluralistic 奇妙に思えるかもしれないが、金貸しは返済に苦労しそうな貧乏人に金を貸すのを大いに好む。当然ながら貸し手は耳を揃えて返済してほしいと考えているし、当然な…",
       "points": [
         "カテゴリ: テクノロジー・AIで話題の記事",
-        "引用元: 47news.jp（2026-11-14 23:55）",
+        "引用元: p2ptk.org（2026-11-15 03:54）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "テクノロジー・AI分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "テクノロジー・AI",
-        "47news.jp"
+        "p2ptk.org"
       ],
-      "url": "https://www.47news.jp/15231027.html",
+      "url": "https://p2ptk.org/monopoly/5681",
       "isAiEnriched": false
     },
     {
       "category": "business",
-      "title": "米国、NATO加盟と引き換えに領土割譲を提案 ゼレンスキー氏",
-      "source": "afpbb.com",
-      "publishedAt": "2026-11-15 08:22",
-      "publishedTs": 1794698543,
-      "image": "https://afpbb.ismcdn.jp/mwimgs/7/3/1000x/img_73741d7f6ce767c06b1d90c085bb4c0e71011.jpg",
-      "summary": "アイルランドの首都ダブリン郊外で、記者団と話すウクライナのウォロディミル・ゼレンスキー大統領（中央）、スティーブ・ウィトコフ米特使（右）、ジャレッド・クシュナー氏（2026年11月12日撮影）。（c）Paul Faith/AFP 【11月15日 AFP】米国が、ウクライナの北大西洋条約機構（NATO）加盟と…",
+      "title": "沖縄知事選の関連動画、兵庫知事選でも発信のアカウントが推計収益の6割独占　宮城でも活動",
+      "source": "kobe-np.co.jp",
+      "publishedAt": "2026-11-14 23:59",
+      "publishedTs": 1794668343,
+      "image": "https://i.kobe-np.co.jp/news/society/202611/img/a_21030734.jpg",
+      "summary": "９月の沖縄県知事選の関連動画で、ユーチューブの再生回数が上位に入った５０アカウントのうち、１１アカウントは２０２４年の兵庫県知事選でも選挙期間中に関連動画を発信していた。この１１アカウントは、沖縄県知事選での収益を試算した動画３３０本のうち、約３割の９８本を配信。再生回数に応じた収益は推計で最大...",
       "points": [
         "カテゴリ: ビジネス・経済で話題の記事",
-        "引用元: afpbb.com（2026-11-15 08:22）",
+        "引用元: kobe-np.co.jp（2026-11-14 23:59）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "ビジネス・経済分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "ビジネス・経済",
-        "afpbb.com"
+        "kobe-np.co.jp"
       ],
-      "url": "https://www.afpbb.com/articles/-/3662399",
+      "url": "https://www.kobe-np.co.jp/news/society/202611/0021030732.shtml",
       "isAiEnriched": false
     },
     {
@@ -555,69 +618,6 @@ window.NEWS_DATA = {
         "togetter.com"
       ],
       "url": "https://togetter.com/li/2770437",
-      "isAiEnriched": false
-    },
-    {
-      "category": "business",
-      "title": "沖縄知事選の関連動画、兵庫知事選でも発信のアカウントが推計収益の6割独占　宮城でも活動",
-      "source": "kobe-np.co.jp",
-      "publishedAt": "2026-11-14 23:59",
-      "publishedTs": 1794668343,
-      "image": "https://i.kobe-np.co.jp/news/society/202611/img/a_21030734.jpg",
-      "summary": "９月の沖縄県知事選の関連動画で、ユーチューブの再生回数が上位に入った５０アカウントのうち、１１アカウントは２０２４年の兵庫県知事選でも選挙期間中に関連動画を発信していた。この１１アカウントは、沖縄県知事選での収益を試算した動画３３０本のうち、約３割の９８本を配信。再生回数に応じた収益は推計で最大...",
-      "points": [
-        "カテゴリ: ビジネス・経済で話題の記事",
-        "引用元: kobe-np.co.jp（2026-11-14 23:59）",
-        "「元記事を読む」から本文を確認できます"
-      ],
-      "impact": "ビジネス・経済分野で多くの読者に共有されている注目記事です。",
-      "tags": [
-        "ビジネス・経済",
-        "kobe-np.co.jp"
-      ],
-      "url": "https://www.kobe-np.co.jp/news/society/202611/0021030732.shtml",
-      "isAiEnriched": false
-    },
-    {
-      "category": "domestic",
-      "title": "農地がホテルや住宅に変わる　312市町村で1割超消失、細る食料基盤 - 日本経済新聞",
-      "source": "nikkei.com",
-      "publishedAt": "2026-11-15 02:10",
-      "publishedTs": 1794676236,
-      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3805800030102026000000-4.jpg?auto=compress&bg=FFFF&crop=focalpoint&fit=crop&fm=jpg&h=630&w=1200&s=18f66b4251ac825002ced605101f0862",
-      "summary": "日本の食料生産基盤が細っている。日本経済新聞が全国の農地転用の状況を調べると、過去15年間に312市町村で農地の1割超が転用されていた。担い手不足も重なり、安い田畑がホテルや住宅に姿を変えている。食料生産力を高めるには、国や自治体が過度な転用の防止策を講じる必要が出てきた。「開発業者3社から話」富士山を...",
-      "points": [
-        "カテゴリ: 国内・総合で話題の記事",
-        "引用元: nikkei.com（2026-11-15 02:10）",
-        "「元記事を読む」から本文を確認できます"
-      ],
-      "impact": "国内・総合分野で多くの読者に共有されている注目記事です。",
-      "tags": [
-        "国内・総合",
-        "nikkei.com"
-      ],
-      "url": "https://www.nikkei.com/article/DGXZQOUE216VA0R21C26A0000000/",
-      "isAiEnriched": false
-    },
-    {
-      "category": "tech",
-      "title": "貧乏人向けの金貸しと、Appleの取り立てテクノロジー » p2ptk[.]org",
-      "source": "p2ptk.org",
-      "publishedAt": "2026-11-15 03:54",
-      "publishedTs": 1794682485,
-      "image": "https://p2ptk.org/wp-content/uploads/2026/11/think_different_repo.jpg",
-      "summary": "以下の文章は、コリイ・ドクトロウの「Apple’s robo-repo」という記事（2026年7月25日公開）を翻訳したものである。 Pluralistic 奇妙に思えるかもしれないが、金貸しは返済に苦労しそうな貧乏人に金を貸すのを大いに好む。当然ながら貸し手は耳を揃えて返済してほしいと考えているし、当然な…",
-      "points": [
-        "カテゴリ: テクノロジー・AIで話題の記事",
-        "引用元: p2ptk.org（2026-11-15 03:54）",
-        "「元記事を読む」から本文を確認できます"
-      ],
-      "impact": "テクノロジー・AI分野で多くの読者に共有されている注目記事です。",
-      "tags": [
-        "テクノロジー・AI",
-        "p2ptk.org"
-      ],
-      "url": "https://p2ptk.org/monopoly/5681",
       "isAiEnriched": false
     },
     {
