@@ -1,6 +1,6 @@
 window.NEWS_DATA = {
   "date": "2026年11月16日 (月)",
-  "updatedAt": "2026-11-16 02:11",
+  "updatedAt": "2026-11-16 02:51",
   "title": "TREND NEWS",
   "keywords": [
     "サイバー攻撃",
@@ -133,7 +133,7 @@ window.NEWS_DATA = {
       "region": "東北",
       "temp": 13,
       "code": 0,
-      "wind": 13,
+      "wind": 14,
       "maxTemp": 13,
       "minTemp": 7,
       "pop": 20,
@@ -251,7 +251,7 @@ window.NEWS_DATA = {
       "region": "北陸",
       "temp": 14,
       "code": 1,
-      "wind": 24,
+      "wind": 23,
       "maxTemp": 15,
       "minTemp": 11,
       "pop": 66,
@@ -369,7 +369,7 @@ window.NEWS_DATA = {
       "region": "北陸",
       "temp": 14,
       "code": 2,
-      "wind": 6,
+      "wind": 5,
       "maxTemp": 16,
       "minTemp": 10,
       "pop": 98,
@@ -487,7 +487,7 @@ window.NEWS_DATA = {
       "region": "関東",
       "temp": 12,
       "code": 0,
-      "wind": 6,
+      "wind": 7,
       "maxTemp": 18,
       "minTemp": 11,
       "pop": 47,
@@ -605,7 +605,7 @@ window.NEWS_DATA = {
       "region": "東海",
       "temp": 15,
       "code": 0,
-      "wind": 9,
+      "wind": 10,
       "maxTemp": 19,
       "minTemp": 12,
       "pop": 8,
@@ -841,7 +841,7 @@ window.NEWS_DATA = {
       "region": "中国",
       "temp": 15,
       "code": 0,
-      "wind": 4,
+      "wind": 3,
       "maxTemp": 19,
       "minTemp": 12,
       "pop": 0,
@@ -957,7 +957,7 @@ window.NEWS_DATA = {
     {
       "name": "高知",
       "region": "四国",
-      "temp": 16,
+      "temp": 15,
       "code": 0,
       "wind": 7,
       "maxTemp": 21,
@@ -1076,7 +1076,7 @@ window.NEWS_DATA = {
       "name": "福岡",
       "region": "九州",
       "temp": 18,
-      "code": 1,
+      "code": 0,
       "wind": 12,
       "maxTemp": 20,
       "minTemp": 16,
@@ -1195,7 +1195,7 @@ window.NEWS_DATA = {
       "region": "沖縄",
       "temp": 22,
       "code": 0,
-      "wind": 11,
+      "wind": 10,
       "maxTemp": 26,
       "minTemp": 21,
       "pop": 35,
@@ -3667,24 +3667,25 @@ window.NEWS_DATA = {
     },
     {
       "category": "subculture",
-      "title": "ギャルと本屋 第23話 明石アカ | 週刊コロコロコミック",
-      "source": "corocoro.jp",
-      "publishedAt": "2026-11-15 18:40",
-      "publishedTs": 1794735645,
-      "image": "https://img.www.corocoro.jp/chapter/53063.webp?h=Gj3yKNYwlrPIfBPLuKkYEg&e=1795392000",
-      "summary": "ABJマークは、この電子書店・電子書籍配信サービスが、著作権者からコンテンツ使用許諾を得た正規版配信サービスであることを示す登録商標(登録番号第6091713号)です。 (C) Shogakukan Inc. 2024 All rights reserved. No reproduction or repu…",
+      "title": "人間と宇宙人が共生する日本を描く『ドラマクイン』第74話公開",
+      "source": "shonenjumpplus.com",
+      "publishedAt": "2026-11-16 00:00",
+      "publishedTs": 1794754846,
+      "image": "https://cdn-ak-img.shonenjumpplus.com/public/series-thumbnail/17106567261425153050-e7acbd2f7582f66143db5379da63532f?1793705410",
+      "summary": "少年ジャンプ＋で連載中の市川苦楽氏による『ドラマクイン』第74話が公開されました。宇宙人に家族を殺された北見と、宇宙人の上司にこき使われるノマモトの出会いから展開される独特な世界観の物語が注目を集めています。",
       "points": [
-        "カテゴリ: サブカルチャーで話題の記事",
-        "引用元: corocoro.jp（2026-11-15 18:40）",
-        "「元記事を読む」から本文を確認できます"
+        "人間と宇宙人が共に暮らす日本が舞台",
+        "複雑な過去を持つキャラクターたちの人間ドラマ",
+        "少年ジャンプ＋にて最新話が配信中"
       ],
-      "impact": "サブカルチャー分野で多くの読者に共有されている注目記事です。",
+      "impact": "SFとヒューマンドラマが融合したユニークな作品として、マンガファンの間で話題を呼んでいます。",
       "tags": [
-        "サブカルチャー",
-        "corocoro.jp"
+        "マンガ",
+        "少年ジャンプ＋",
+        "ドラマクイン"
       ],
-      "url": "https://www.corocoro.jp/chapter/53063/viewer",
-      "isAiEnriched": false
+      "url": "https://shonenjumpplus.com/episode/9253191257982513583",
+      "isAiEnriched": true
     },
     {
       "category": "domestic",
@@ -3772,37 +3773,37 @@ window.NEWS_DATA = {
     },
     {
       "category": "subculture",
-      "title": "人間と宇宙人が共生する日本を描く『ドラマクイン』第74話公開",
-      "source": "shonenjumpplus.com",
-      "publishedAt": "2026-11-16 00:00",
-      "publishedTs": 1794754846,
-      "image": "https://cdn-ak-img.shonenjumpplus.com/public/series-thumbnail/17106567261425153050-e7acbd2f7582f66143db5379da63532f?1793705410",
-      "summary": "少年ジャンプ＋で連載中の市川苦楽氏による『ドラマクイン』第74話が公開されました。宇宙人に家族を殺された北見と、宇宙人の上司にこき使われるノマモトの出会いから展開される独特な世界観の物語が注目を集めています。",
+      "title": "不正アクセスを受けたセガのアーケード向けネットワークサービス「ALL․Net」一部復旧。『オンゲキ』『セガNET麻雀 MJ Arcade』など、一部タイトルが稼働再開",
+      "source": "AUTOMATON",
+      "publishedAt": "2026-11-15 10:31",
+      "publishedTs": 1794706276,
+      "image": "https://automaton-media.com/wp-content/uploads/2026/11/20261115-479328-header.jpg",
+      "summary": "セガ フェイブは11月15日、「ALL․Net」および「Aime」の各種サービスについて、一部機能が復旧したと発表した。『オンゲキ』『カードメイカー』などをはじめとした一部タイトルが稼働再開している。",
       "points": [
-        "人間と宇宙人が共に暮らす日本が舞台",
-        "複雑な過去を持つキャラクターたちの人間ドラマ",
-        "少年ジャンプ＋にて最新話が配信中"
+        "カテゴリ: サブカルチャーの注目ニュース",
+        "配信: AUTOMATON（2026-11-15 10:31）",
+        "「元記事を読む」から詳細を確認できます"
       ],
-      "impact": "SFとヒューマンドラマが融合したユニークな作品として、マンガファンの間で話題を呼んでいます。",
+      "impact": "サブカルチャー分野で注目を集めている最新記事です。",
       "tags": [
-        "マンガ",
-        "少年ジャンプ＋",
-        "ドラマクイン"
+        "サブカルチャー",
+        "ゲーム",
+        "AUTOMATON"
       ],
-      "url": "https://shonenjumpplus.com/episode/9253191257982513583",
-      "isAiEnriched": true
+      "url": "https://automaton-media.com/articles/newsjp/20261115-479328/",
+      "isAiEnriched": false
     },
     {
       "category": "domestic",
-      "title": "千葉・いすみ市議選に『長福丸』店主が初当選　タイやヒラメの船長から異色の市議(サンケイスポーツ)",
+      "title": "渋谷ハンズ 雨の閉店 48年の歴史に幕 列島に爆弾低気圧 週半ばから暴風雪警戒(テレビ朝日系（ANN）)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 23:14",
-      "publishedTs": 1794752049,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00000163-sanspo-000-1-view.jpg?exp=10800",
-      "summary": "任期満了に伴う千葉県いすみ市議選が15日、投開票され、同市大原の釣り船『長福丸』の店主、藤井俊輔氏（42）が初当選した。藤井氏は同市出身で18歳から船に乗り、21歳から船頭としてマダイやヒラメ船など…",
+      "publishedAt": "2026-11-15 23:30",
+      "publishedTs": 1794753036,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00000044-ann-000-2-thumb.jpg?exp=10800",
+      "summary": "全国的に雨となったきょう15日、東京では冷え込みが一段と強まり、静岡や甲府などでは師走並みの寒さとなりました。この寒さ、月曜は一旦やわらぐのですが、水曜以降は爆弾低気圧が列島を襲う可能性があります。",
       "points": [
         "カテゴリ: 国内・総合の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 23:14）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 23:30）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "国内・総合分野で関心を集めている最新ニュースです。",
@@ -3810,7 +3811,7 @@ window.NEWS_DATA = {
         "国内・総合",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/95f7a6470a1f2aa74440b89a00cef52e783e4ae6?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/dfc51400b7ab4d7e2a148db922cb84f511212452?source=rss",
       "isAiEnriched": false
     },
     {
@@ -3878,37 +3879,36 @@ window.NEWS_DATA = {
     },
     {
       "category": "subculture",
-      "title": "不正アクセスを受けたセガのアーケード向けネットワークサービス「ALL․Net」一部復旧。『オンゲキ』『セガNET麻雀 MJ Arcade』など、一部タイトルが稼働再開",
-      "source": "AUTOMATON",
-      "publishedAt": "2026-11-15 10:31",
-      "publishedTs": 1794706276,
-      "image": "https://automaton-media.com/wp-content/uploads/2026/11/20261115-479328-header.jpg",
-      "summary": "セガ フェイブは11月15日、「ALL․Net」および「Aime」の各種サービスについて、一部機能が復旧したと発表した。『オンゲキ』『カードメイカー』などをはじめとした一部タイトルが稼働再開している。",
+      "title": "ギャルと本屋 第23話 明石アカ | 週刊コロコロコミック",
+      "source": "corocoro.jp",
+      "publishedAt": "2026-11-15 18:40",
+      "publishedTs": 1794735645,
+      "image": "https://img.www.corocoro.jp/chapter/53063.webp?h=Gj3yKNYwlrPIfBPLuKkYEg&e=1795392000",
+      "summary": "ABJマークは、この電子書店・電子書籍配信サービスが、著作権者からコンテンツ使用許諾を得た正規版配信サービスであることを示す登録商標(登録番号第6091713号)です。 (C) Shogakukan Inc. 2024 All rights reserved. No reproduction or repu…",
       "points": [
-        "カテゴリ: サブカルチャーの注目ニュース",
-        "配信: AUTOMATON（2026-11-15 10:31）",
-        "「元記事を読む」から詳細を確認できます"
+        "カテゴリ: サブカルチャーで話題の記事",
+        "引用元: corocoro.jp（2026-11-15 18:40）",
+        "「元記事を読む」から本文を確認できます"
       ],
-      "impact": "サブカルチャー分野で注目を集めている最新記事です。",
+      "impact": "サブカルチャー分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "サブカルチャー",
-        "ゲーム",
-        "AUTOMATON"
+        "corocoro.jp"
       ],
-      "url": "https://automaton-media.com/articles/newsjp/20261115-479328/",
+      "url": "https://www.corocoro.jp/chapter/53063/viewer",
       "isAiEnriched": false
     },
     {
       "category": "domestic",
-      "title": "少年の非行防止啓発ポスター　小中高生が作成　警視庁が優秀作品を表彰(テレビ朝日系（ANN）)",
+      "title": "千葉・いすみ市議選に『長福丸』店主が初当選　タイやヒラメの船長から異色の市議(サンケイスポーツ)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 23:12",
-      "publishedTs": 1794751967,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00000041-ann-000-1-thumb.jpg?exp=10800",
-      "summary": "小中高生が作成した少年の非行防止啓発ポスターの展示会が開かれ、警視庁が優秀作品を表彰しました。 東京・江東区で開かれたイベントでは、いじめや万引き、闇バイトなど少年の非行防止を目的として小学生から高…",
+      "publishedAt": "2026-11-15 23:14",
+      "publishedTs": 1794752049,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00000163-sanspo-000-1-view.jpg?exp=10800",
+      "summary": "任期満了に伴う千葉県いすみ市議選が15日、投開票され、同市大原の釣り船『長福丸』の店主、藤井俊輔氏（42）が初当選した。藤井氏は同市出身で18歳から船に乗り、21歳から船頭としてマダイやヒラメ船など…",
       "points": [
         "カテゴリ: 国内・総合の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 23:12）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 23:14）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "国内・総合分野で関心を集めている最新ニュースです。",
@@ -3916,7 +3916,7 @@ window.NEWS_DATA = {
         "国内・総合",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/b1733893726bc52e9b201d418d48beb6976c266a?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/95f7a6470a1f2aa74440b89a00cef52e783e4ae6?source=rss",
       "isAiEnriched": false
     },
     {
@@ -3984,37 +3984,37 @@ window.NEWS_DATA = {
     },
     {
       "category": "subculture",
-      "title": "刀剣乱舞ファンコミュニティで政治的発言を巡る議論が紛糾",
-      "source": "posfie.com",
-      "publishedAt": "2026-11-15 09:58",
-      "publishedTs": 1794704330,
-      "image": "https://s.tgstc.com/ogp3/9271bd03e0a0e28291e3c61e7d00ffd9-1200x630.jpeg",
-      "summary": "ミュージカル『刀剣乱舞』などのファン層の間で、政治や社会問題に対するスタンスを巡り激しい論争が発生しています。推し活と政治的信条の切り離しを求める声と、参加を促す声が対立しています。",
+      "title": "『マインクラフト』に新武器“投擲ディスク”追加へ。統合版には「オフハンド」完全実装、来年最初のアプデが早くもお披露目",
+      "source": "AUTOMATON",
+      "publishedAt": "2026-11-15 09:07",
+      "publishedTs": 1794701237,
+      "image": "https://automaton-media.com/wp-content/uploads/2026/11/20261115-479322-header.jpg",
+      "summary": "Mojang Studiosは11月15日、2027年の最初のゲームドロップを公開した。新武器の実装や、Bedrock版へのオフハンド完全実装が明かされた。",
       "points": [
-        "刀剣乱舞のファンコミュニティ内で起きた政治的議論",
-        "社会問題への関与を求める声と否定する声の対立",
-        "エンタメと政治参加の距離感を巡るネット上の論争"
+        "カテゴリ: サブカルチャーの注目ニュース",
+        "配信: AUTOMATON（2026-11-15 09:07）",
+        "「元記事を読む」から詳細を確認できます"
       ],
-      "impact": "ファンダム内における言論の自由やマナーに関する議論を活発化させています。",
+      "impact": "サブカルチャー分野で注目を集めている最新記事です。",
       "tags": [
         "サブカルチャー",
-        "SNS",
-        "社会"
+        "ゲーム",
+        "AUTOMATON"
       ],
-      "url": "https://posfie.com/@Acg3C2/p/ioy1XNT",
-      "isAiEnriched": true
+      "url": "https://automaton-media.com/articles/newsjp/20261115-479322/",
+      "isAiEnriched": false
     },
     {
       "category": "domestic",
-      "title": "JR山陰「スーパーおき」車と接触　乗客にけがなし　車の持ち主を捜索中　島根県警(テレビ朝日系（ANN）)",
+      "title": "少年の非行防止啓発ポスター　小中高生が作成　警視庁が優秀作品を表彰(テレビ朝日系（ANN）)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 22:56",
-      "publishedTs": 1794751004,
-      "image": "https://tse2.mm.bing.net/th?q=JR%E5%B1%B1%E9%99%B0%20%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%81%8A%E3%81%8D%20%E8%BB%8A%E3%81%A8%E6%8E%A5%E8%A7%A6%20%E4%B9%97%E5%AE%A2%E3%81%AB%E3%81%91%E3%81%8C%E3%81%AA%E3%81%97%20%E8%BB%8A%E3%81%AE%E6%8C%81%E3%81%A1%E4%B8%BB%E3%82%92%E6%8D%9C%E7%B4%A2%E4%B8%AD%20%E5%B3%B6%E6%A0%B9%E7%9C%8C%E8%AD%A6&w=800&h=450&c=7&rs=1&p=0",
-      "summary": "島根県出雲市の踏切で、JR山陰線の特急列車「スーパーおき」と軽乗用車が接触しました。乗客らにけがはありませんでした。警察は軽乗用車の持ち主の行方を捜しています。 15日午後8時前、出雲市東神西町の踏…",
+      "publishedAt": "2026-11-15 23:12",
+      "publishedTs": 1794751967,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00000041-ann-000-1-thumb.jpg?exp=10800",
+      "summary": "小中高生が作成した少年の非行防止啓発ポスターの展示会が開かれ、警視庁が優秀作品を表彰しました。 東京・江東区で開かれたイベントでは、いじめや万引き、闇バイトなど少年の非行防止を目的として小学生から高…",
       "points": [
         "カテゴリ: 国内・総合の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 22:56）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 23:12）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "国内・総合分野で関心を集めている最新ニュースです。",
@@ -4022,7 +4022,7 @@ window.NEWS_DATA = {
         "国内・総合",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/9c7d2596cf99732fe241668a560424aacac2b5c7?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/b1733893726bc52e9b201d418d48beb6976c266a?source=rss",
       "isAiEnriched": false
     },
     {
@@ -4090,37 +4090,36 @@ window.NEWS_DATA = {
     },
     {
       "category": "subculture",
-      "title": "『マインクラフト』に新武器“投擲ディスク”追加へ。統合版には「オフハンド」完全実装、来年最初のアプデが早くもお披露目",
-      "source": "AUTOMATON",
-      "publishedAt": "2026-11-15 09:07",
-      "publishedTs": 1794701237,
-      "image": "https://automaton-media.com/wp-content/uploads/2026/11/20261115-479322-header.jpg",
-      "summary": "Mojang Studiosは11月15日、2027年の最初のゲームドロップを公開した。新武器の実装や、Bedrock版へのオフハンド完全実装が明かされた。",
+      "title": "バキのわ！～バキを語る女子高校生たち～・バキのわ！　『刃牙』シリーズ35周年特別編 | チャンピオンクロス",
+      "source": "championcross.jp",
+      "publishedAt": "2026-11-15 08:27",
+      "publishedTs": 1794698833,
+      "image": "https://cdn-public.comici.jp/episode/1790217388/11546d525ae9f4d4.webp",
+      "summary": "ABJマークは、この電子書店・電子書籍配信サービスが、著作権者からコンテンツ使用許諾を得た正規版配信サービスであることを示す登録商標(登録番号第6091713号)です。ABJマークの詳細、ABJマークを掲示しているサービスの一覧はこちら。 https://aebs.or.jp/…",
       "points": [
-        "カテゴリ: サブカルチャーの注目ニュース",
-        "配信: AUTOMATON（2026-11-15 09:07）",
-        "「元記事を読む」から詳細を確認できます"
+        "カテゴリ: サブカルチャーで話題の記事",
+        "引用元: championcross.jp（2026-11-15 08:27）",
+        "「元記事を読む」から本文を確認できます"
       ],
-      "impact": "サブカルチャー分野で注目を集めている最新記事です。",
+      "impact": "サブカルチャー分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "サブカルチャー",
-        "ゲーム",
-        "AUTOMATON"
+        "championcross.jp"
       ],
-      "url": "https://automaton-media.com/articles/newsjp/20261115-479322/",
+      "url": "https://championcross.jp/episodes/055bfa217a654",
       "isAiEnriched": false
     },
     {
       "category": "domestic",
-      "title": "東京・新宿区長選、現職の吉住健一氏が4選　3期12年の実績訴え(産経新聞)",
+      "title": "JR山陰「スーパーおき」車と接触　乗客にけがなし　車の持ち主を捜索中　島根県警(テレビ朝日系（ANN）)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 22:54",
-      "publishedTs": 1794750869,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00000161-san-000-1-view.jpg?exp=10800",
-      "summary": "任期満了に伴う東京都新宿区長選は15日、投開票が行われ、無所属で現職の吉住健一氏（54）＝自民、公明推薦＝が新人3人を抑え、4選を果たした。投票率は28.89％（前回は28.05％）だった。吉住氏は…",
+      "publishedAt": "2026-11-15 22:56",
+      "publishedTs": 1794751004,
+      "image": "https://tse2.mm.bing.net/th?q=JR%E5%B1%B1%E9%99%B0%20%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%81%8A%E3%81%8D%20%E8%BB%8A%E3%81%A8%E6%8E%A5%E8%A7%A6%20%E4%B9%97%E5%AE%A2%E3%81%AB%E3%81%91%E3%81%8C%E3%81%AA%E3%81%97%20%E8%BB%8A%E3%81%AE%E6%8C%81%E3%81%A1%E4%B8%BB%E3%82%92%E6%8D%9C%E7%B4%A2%E4%B8%AD%20%E5%B3%B6%E6%A0%B9%E7%9C%8C%E8%AD%A6&w=800&h=450&c=7&rs=1&p=0",
+      "summary": "島根県出雲市の踏切で、JR山陰線の特急列車「スーパーおき」と軽乗用車が接触しました。乗客らにけがはありませんでした。警察は軽乗用車の持ち主の行方を捜しています。 15日午後8時前、出雲市東神西町の踏…",
       "points": [
         "カテゴリ: 国内・総合の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 22:54）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 22:56）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "国内・総合分野で関心を集めている最新ニュースです。",
@@ -4128,7 +4127,7 @@ window.NEWS_DATA = {
         "国内・総合",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/6b1b19b7ec49f2cf9e5cfdd0c2daf4ddd81df4ff?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/9c7d2596cf99732fe241668a560424aacac2b5c7?source=rss",
       "isAiEnriched": false
     },
     {
@@ -4196,36 +4195,36 @@ window.NEWS_DATA = {
     },
     {
       "category": "subculture",
-      "title": "バキのわ！～バキを語る女子高校生たち～・バキのわ！　『刃牙』シリーズ35周年特別編 | チャンピオンクロス",
-      "source": "championcross.jp",
-      "publishedAt": "2026-11-15 08:27",
-      "publishedTs": 1794698833,
-      "image": "https://cdn-public.comici.jp/episode/1790217388/11546d525ae9f4d4.webp",
-      "summary": "ABJマークは、この電子書店・電子書籍配信サービスが、著作権者からコンテンツ使用許諾を得た正規版配信サービスであることを示す登録商標(登録番号第6091713号)です。ABJマークの詳細、ABJマークを掲示しているサービスの一覧はこちら。 https://aebs.or.jp/…",
+      "title": "反戦審神者部について、考えたこと。｜亘",
+      "source": "note.com",
+      "publishedAt": "2026-11-15 03:06",
+      "publishedTs": 1794679601,
+      "image": "https://d2l930y2yx77uc.cloudfront.net/production/social_images/d3d657b7cdac33a8d8e6b3fd4e10fb3343bf65bb.png",
+      "summary": "1.はじめに初めまして、亘と言います。審神者歴10年の古参プレイヤーです。鬼丸国綱も修行から帰り、意気揚々と絶賛レベリング中です。 江戸城の周回も早々に終わり、宝物庫三周目のおかわりをするかどうか悩んでいます。 さて今回、刀剣乱舞界隈で一部のファンがコンテンツを政治利用している、という事態を受け記録を...",
       "points": [
         "カテゴリ: サブカルチャーで話題の記事",
-        "引用元: championcross.jp（2026-11-15 08:27）",
+        "引用元: note.com（2026-11-15 03:06）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "サブカルチャー分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "サブカルチャー",
-        "championcross.jp"
+        "note.com"
       ],
-      "url": "https://championcross.jp/episodes/055bfa217a654",
+      "url": "https://note.com/epi_ca/n/n86c245316180",
       "isAiEnriched": false
     },
     {
       "category": "domestic",
-      "title": "東京・品川区長選、現職の森沢恭子氏が再選　「誰もが生きがいを感じ、自分らしく」(産経新聞)",
+      "title": "東京・新宿区長選、現職の吉住健一氏が4選　3期12年の実績訴え(産経新聞)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 22:47",
-      "publishedTs": 1794750439,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00000160-san-000-1-view.jpg?exp=10800",
-      "summary": "任期満了に伴う東京都品川区長選の投票が15日に行われ、即日開票の結果、無所属で現職の森沢恭子氏（48）が、無所属新人で広告業経営の浜田健太郎氏（27）を破り、再選を果たした。投票率は34.39％（前…",
+      "publishedAt": "2026-11-15 22:54",
+      "publishedTs": 1794750869,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00000161-san-000-1-view.jpg?exp=10800",
+      "summary": "任期満了に伴う東京都新宿区長選は15日、投開票が行われ、無所属で現職の吉住健一氏（54）＝自民、公明推薦＝が新人3人を抑え、4選を果たした。投票率は28.89％（前回は28.05％）だった。吉住氏は…",
       "points": [
         "カテゴリ: 国内・総合の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 22:47）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 22:54）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "国内・総合分野で関心を集めている最新ニュースです。",
@@ -4233,7 +4232,7 @@ window.NEWS_DATA = {
         "国内・総合",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/0406b768ba87f358f0405bcca5df6e72a5886078?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/6b1b19b7ec49f2cf9e5cfdd0c2daf4ddd81df4ff?source=rss",
       "isAiEnriched": false
     },
     {
@@ -4301,36 +4300,37 @@ window.NEWS_DATA = {
     },
     {
       "category": "subculture",
-      "title": "反戦審神者部について、考えたこと。｜亘",
-      "source": "note.com",
-      "publishedAt": "2026-11-15 03:06",
-      "publishedTs": 1794679601,
-      "image": "https://d2l930y2yx77uc.cloudfront.net/production/social_images/d3d657b7cdac33a8d8e6b3fd4e10fb3343bf65bb.png",
-      "summary": "1.はじめに初めまして、亘と言います。審神者歴10年の古参プレイヤーです。鬼丸国綱も修行から帰り、意気揚々と絶賛レベリング中です。 江戸城の周回も早々に終わり、宝物庫三周目のおかわりをするかどうか悩んでいます。 さて今回、刀剣乱舞界隈で一部のファンがコンテンツを政治利用している、という事態を受け記録を...",
+      "title": "『League of Legends』大規模アップデートの内容チラ見せ。ビジュアル大刷新&ゲームプレイ変更いろいろありそう",
+      "source": "AUTOMATON",
+      "publishedAt": "2026-11-15 07:24",
+      "publishedTs": 1794695055,
+      "image": "https://automaton-media.com/wp-content/uploads/2026/11/league-of-legends-20261115-479316-header.jpg",
+      "summary": "Riot Gamesは11月15日、『League of Legends』向けの大型アップデート「New Dawn」の内容をお披露目した。ビジュアル刷新のほか、ゲームプレイにも変更が加えられそうだ。",
       "points": [
-        "カテゴリ: サブカルチャーで話題の記事",
-        "引用元: note.com（2026-11-15 03:06）",
-        "「元記事を読む」から本文を確認できます"
+        "カテゴリ: サブカルチャーの注目ニュース",
+        "配信: AUTOMATON（2026-11-15 07:24）",
+        "「元記事を読む」から詳細を確認できます"
       ],
-      "impact": "サブカルチャー分野で多くの読者に共有されている注目記事です。",
+      "impact": "サブカルチャー分野で注目を集めている最新記事です。",
       "tags": [
         "サブカルチャー",
-        "note.com"
+        "ゲーム",
+        "AUTOMATON"
       ],
-      "url": "https://note.com/epi_ca/n/n86c245316180",
+      "url": "https://automaton-media.com/articles/newsjp/league-of-legends-20261115-479316/",
       "isAiEnriched": false
     },
     {
       "category": "domestic",
-      "title": "【独自】高市総理が新構想「ブリッジ・アジア・イニシアティブ」提唱へ　AI・量子など先端技術の共同研究開発プロジェクトを推進(テレ東BIZ)",
+      "title": "東京・品川区長選、現職の森沢恭子氏が再選　「誰もが生きがいを感じ、自分らしく」(産経新聞)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 22:35",
-      "publishedTs": 1794749759,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00299000-tvtnews-000-1-view.jpg?exp=10800",
-      "summary": "高市総理大臣は、17日にフィリピン・マニラで開かれる「AZEC＝アジア・ゼロエミッション共同体」首脳会合において、AI＝人工知能や量子技術など次世代先端分野でアジア各国との共同研究開発を推進する新構…",
+      "publishedAt": "2026-11-15 22:47",
+      "publishedTs": 1794750439,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00000160-san-000-1-view.jpg?exp=10800",
+      "summary": "任期満了に伴う東京都品川区長選の投票が15日に行われ、即日開票の結果、無所属で現職の森沢恭子氏（48）が、無所属新人で広告業経営の浜田健太郎氏（27）を破り、再選を果たした。投票率は34.39％（前…",
       "points": [
         "カテゴリ: 国内・総合の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 22:35）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 22:47）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "国内・総合分野で関心を集めている最新ニュースです。",
@@ -4338,7 +4338,7 @@ window.NEWS_DATA = {
         "国内・総合",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/8a6a881847f2dbc0889501b40f893b69d7092a73?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/0406b768ba87f358f0405bcca5df6e72a5886078?source=rss",
       "isAiEnriched": false
     },
     {
@@ -4406,37 +4406,37 @@ window.NEWS_DATA = {
     },
     {
       "category": "subculture",
-      "title": "『League of Legends』大規模アップデートの内容チラ見せ。ビジュアル大刷新&ゲームプレイ変更いろいろありそう",
-      "source": "AUTOMATON",
-      "publishedAt": "2026-11-15 07:24",
-      "publishedTs": 1794695055,
-      "image": "https://automaton-media.com/wp-content/uploads/2026/11/league-of-legends-20261115-479316-header.jpg",
-      "summary": "Riot Gamesは11月15日、『League of Legends』向けの大型アップデート「New Dawn」の内容をお披露目した。ビジュアル刷新のほか、ゲームプレイにも変更が加えられそうだ。",
+      "title": "『Ｋ２ - 真船一雄』第533話「眠れない夜」がコミックDAYSで公開",
+      "source": "comic-days.com",
+      "publishedAt": "2026-11-15 14:43",
+      "publishedTs": 1794721410,
+      "image": "https://cdn-img.comic-days.com/public/series-thumbnail/13932016480029452682-ac964de5c372f36b73ba8a992344492e?1699347362",
+      "summary": "人気医療漫画『Ｋ２ - 真船一雄』の最新話「第533話 眠れない夜」が、コミックDAYSにて公開されました。天才医師の神業的なメスさばきと、患者の心に寄り添う人間ドラマが描かれています。",
       "points": [
-        "カテゴリ: サブカルチャーの注目ニュース",
-        "配信: AUTOMATON（2026-11-15 07:24）",
-        "「元記事を読む」から詳細を確認できます"
+        "医療マンガ『Ｋ２ - 真船一雄』の最新話が配信",
+        "コミックDAYSにて第533話「眠れない夜」が公開",
+        "最先端医療と心温まる人間ドラマの展開が人気"
       ],
-      "impact": "サブカルチャー分野で注目を集めている最新記事です。",
+      "impact": "漫画ファンの間で作品の最新展開を巡る盛り上がりや、プラットフォームへの誘導を促進します。",
       "tags": [
         "サブカルチャー",
-        "ゲーム",
-        "AUTOMATON"
+        "漫画",
+        "コミックDAYS"
       ],
-      "url": "https://automaton-media.com/articles/newsjp/league-of-legends-20261115-479316/",
-      "isAiEnriched": false
+      "url": "https://comic-days.com/episode/12207421983947538316",
+      "isAiEnriched": true
     },
     {
       "category": "domestic",
-      "title": "山形・長井市長に遠藤氏初当選「市をどう変えるかで頭がいっぱい」　6選目指した現職破る(産経新聞)",
+      "title": "【独自】高市総理が新構想「ブリッジ・アジア・イニシアティブ」提唱へ　AI・量子など先端技術の共同研究開発プロジェクトを推進(テレ東BIZ)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 22:32",
-      "publishedTs": 1794749556,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00000158-san-000-1-view.jpg?exp=10800",
-      "summary": "任期満了に伴う山形県長井市長選が15日投開票され、新人で元長井市職員の遠藤健志氏（51）が、新人で元県議の五十嵐智洋氏（71）と6選を目指す現職の内谷重治氏（70）を破り、初当選を果たした。投票率は…",
+      "publishedAt": "2026-11-15 22:35",
+      "publishedTs": 1794749759,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00299000-tvtnews-000-1-view.jpg?exp=10800",
+      "summary": "高市総理大臣は、17日にフィリピン・マニラで開かれる「AZEC＝アジア・ゼロエミッション共同体」首脳会合において、AI＝人工知能や量子技術など次世代先端分野でアジア各国との共同研究開発を推進する新構…",
       "points": [
         "カテゴリ: 国内・総合の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 22:32）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 22:35）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "国内・総合分野で関心を集めている最新ニュースです。",
@@ -4444,7 +4444,7 @@ window.NEWS_DATA = {
         "国内・総合",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/c825123652cb39239666392864aa6d4e578f9b55?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/8a6a881847f2dbc0889501b40f893b69d7092a73?source=rss",
       "isAiEnriched": false
     },
     {
@@ -4512,24 +4512,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "subculture",
-      "title": "『Ｋ２ - 真船一雄』第533話「眠れない夜」がコミックDAYSで公開",
-      "source": "comic-days.com",
-      "publishedAt": "2026-11-15 14:43",
-      "publishedTs": 1794721410,
-      "image": "https://cdn-img.comic-days.com/public/series-thumbnail/13932016480029452682-ac964de5c372f36b73ba8a992344492e?1699347362",
-      "summary": "人気医療漫画『Ｋ２ - 真船一雄』の最新話「第533話 眠れない夜」が、コミックDAYSにて公開されました。天才医師の神業的なメスさばきと、患者の心に寄り添う人間ドラマが描かれています。",
+      "title": "刀剣乱舞ファンコミュニティで政治的発言を巡る議論が紛糾",
+      "source": "posfie.com",
+      "publishedAt": "2026-11-15 09:58",
+      "publishedTs": 1794704330,
+      "image": "https://s.tgstc.com/ogp3/9271bd03e0a0e28291e3c61e7d00ffd9-1200x630.jpeg",
+      "summary": "ミュージカル『刀剣乱舞』などのファン層の間で、政治や社会問題に対するスタンスを巡り激しい論争が発生しています。推し活と政治的信条の切り離しを求める声と、参加を促す声が対立しています。",
       "points": [
-        "医療マンガ『Ｋ２ - 真船一雄』の最新話が配信",
-        "コミックDAYSにて第533話「眠れない夜」が公開",
-        "最先端医療と心温まる人間ドラマの展開が人気"
+        "刀剣乱舞のファンコミュニティ内で起きた政治的議論",
+        "社会問題への関与を求める声と否定する声の対立",
+        "エンタメと政治参加の距離感を巡るネット上の論争"
       ],
-      "impact": "漫画ファンの間で作品の最新展開を巡る盛り上がりや、プラットフォームへの誘導を促進します。",
+      "impact": "ファンダム内における言論の自由やマナーに関する議論を活発化させています。",
       "tags": [
         "サブカルチャー",
-        "漫画",
-        "コミックDAYS"
+        "SNS",
+        "社会"
       ],
-      "url": "https://comic-days.com/episode/12207421983947538316",
+      "url": "https://posfie.com/@Acg3C2/p/ioy1XNT",
       "isAiEnriched": true
     }
   ]
