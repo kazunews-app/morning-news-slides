@@ -1,14 +1,14 @@
 window.NEWS_DATA = {
   "date": "2026年11月15日 (日)",
-  "updatedAt": "2026-11-15 10:51",
+  "updatedAt": "2026-11-15 11:42",
   "title": "TREND NEWS",
   "keywords": [
     "きょう近畿や東海で激しい雨…",
     "検事の取り調べ AIでチェ…",
-    "エヌビディアCEO 後任選…",
+    "売れ残りを寄付 広がる一方…",
     "首相 「アジア版IEA」創…",
     "AIエージェント普及 問わ…",
-    "売れ残りを寄付 広がる一方…"
+    "月収2万円と年金5万円 7…"
   ],
   "items": [
     {
@@ -55,15 +55,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "エヌビディアCEO 後任選定難航か",
+      "title": "売れ残りを寄付 広がる一方問題も",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-14 15:24",
-      "publishedTs": 1794637471,
-      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/14/acb13343d754433282c9db080fca24bd53a5547b47066db1e7e5a80f1a57e7ff.jpg",
-      "summary": "【ニューヨーク共同】米半導体大手エヌビディアの取締役会は13日、不倫騒動で辞任したジェンスン・フアン前最高経営責任者（CEO）の後任選びを本格化した。世界の人工知能（AI）ブームを新たにけん引する役…",
+      "publishedAt": "2026-11-14 18:42",
+      "publishedTs": 1794649373,
+      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/14/03efb125752606456a6e65030d056987e911b41854bd605c13c7da98bd805791.jpg",
+      "summary": "“売れ残ったパン”を中心に販売しているサイトを見つけた。その日、残ってしまったパンを冷凍し、一定量が溜まったら購入者に宅配で届ける形で、全国1500店以上のパン屋が参加している。",
       "points": [
         "カテゴリ: ビジネス・経済の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-14 15:24）",
+        "配信: Yahoo!ニュース トピックス（2026-11-14 18:42）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "ビジネス・経済分野で関心を集めている最新ニュースです。",
@@ -71,7 +71,7 @@ window.NEWS_DATA = {
         "ビジネス・経済",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/pickup/6602554?source=rss",
+      "url": "https://news.yahoo.co.jp/pickup/6602572?source=rss",
       "isAiEnriched": false
     },
     {
@@ -118,15 +118,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "売れ残りを寄付 広がる一方問題も",
+      "title": "月収2万円と年金5万円 70代の現実",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-14 18:42",
-      "publishedTs": 1794649373,
-      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/14/03efb125752606456a6e65030d056987e911b41854bd605c13c7da98bd805791.jpg",
-      "summary": "“売れ残ったパン”を中心に販売しているサイトを見つけた。その日、残ってしまったパンを冷凍し、一定量が溜まったら購入者に宅配で届ける形で、全国1500店以上のパン屋が参加している。",
+      "publishedAt": "2026-11-15 10:06",
+      "publishedTs": 1794704777,
+      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/15/bf4afd5c158e071b58e0c75fe822c993453c10dada68e54b208dcb888750a217.jpg",
+      "summary": "「生きるために働く」高齢者。年金だけでは暮らせない中、仕事をしようにも見つからない現実もありました。",
       "points": [
         "カテゴリ: ビジネス・経済の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-14 18:42）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 10:06）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "ビジネス・経済分野で関心を集めている最新ニュースです。",
@@ -134,7 +134,7 @@ window.NEWS_DATA = {
         "ビジネス・経済",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/pickup/6602572?source=rss",
+      "url": "https://news.yahoo.co.jp/pickup/6602636?source=rss",
       "isAiEnriched": false
     },
     {
@@ -181,15 +181,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "月収2万円と年金5万円 70代の現実",
+      "title": "スバルWRXのMT車復活 要望受け",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 10:06",
-      "publishedTs": 1794704777,
-      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/15/bf4afd5c158e071b58e0c75fe822c993453c10dada68e54b208dcb888750a217.jpg",
-      "summary": "「生きるために働く」高齢者。年金だけでは暮らせない中、仕事をしようにも見つからない現実もありました。",
+      "publishedAt": "2026-11-14 18:51",
+      "publishedTs": 1794649897,
+      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/14/805dda9cf5a2532d079ecaad096334db8da53292e8ae551f180f66bfe8bb0e3e.jpg",
+      "summary": "SUBARU（スバル）は14日、国内向けにスポーツセダン「WRX」のマニュアル車を発売すると発表した。顧客からの要望を受け、2019年に生産終了した先代モデル以来、7年ぶりに復活させた。スポーティー…",
       "points": [
         "カテゴリ: ビジネス・経済の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 10:06）",
+        "配信: Yahoo!ニュース トピックス（2026-11-14 18:51）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "ビジネス・経済分野で関心を集めている最新ニュースです。",
@@ -197,7 +197,7 @@ window.NEWS_DATA = {
         "ビジネス・経済",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/pickup/6602636?source=rss",
+      "url": "https://news.yahoo.co.jp/pickup/6602575?source=rss",
       "isAiEnriched": false
     },
     {
@@ -244,15 +244,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "スバルWRXのMT車復活 要望受け",
+      "title": "縦型ショートドラマ トラブル急増",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-14 18:51",
-      "publishedTs": 1794649897,
-      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/14/805dda9cf5a2532d079ecaad096334db8da53292e8ae551f180f66bfe8bb0e3e.jpg",
-      "summary": "SUBARU（スバル）は14日、国内向けにスポーツセダン「WRX」のマニュアル車を発売すると発表した。顧客からの要望を受け、2019年に生産終了した先代モデル以来、7年ぶりに復活させた。スポーティー…",
+      "publishedAt": "2026-11-14 21:56",
+      "publishedTs": 1794661002,
+      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/eternal/2022/1/21/a1e83497e6ae7c4773b9d74bb91b357c6f183c9c1f6da1f8c664c1112bbe60ae.jpg",
+      "summary": "スマートフォンで手軽に視聴でき、幅広い世代に人気が広がる1話1～2分程度の「縦型ショートドラマ」を巡り、サブスクリプション（定額課金）契約を解約できないなどのトラブルが急増していることが14日、共同…",
       "points": [
         "カテゴリ: ビジネス・経済の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-14 18:51）",
+        "配信: Yahoo!ニュース トピックス（2026-11-14 21:56）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "ビジネス・経済分野で関心を集めている最新ニュースです。",
@@ -260,7 +260,7 @@ window.NEWS_DATA = {
         "ビジネス・経済",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/pickup/6602575?source=rss",
+      "url": "https://news.yahoo.co.jp/pickup/6602597?source=rss",
       "isAiEnriched": false
     },
     {
@@ -307,15 +307,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "縦型ショートドラマ トラブル急増",
+      "title": "再開発が大赤字 大阪・阿倍野の今",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-14 21:56",
-      "publishedTs": 1794661002,
-      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/eternal/2022/1/21/a1e83497e6ae7c4773b9d74bb91b357c6f183c9c1f6da1f8c664c1112bbe60ae.jpg",
-      "summary": "スマートフォンで手軽に視聴でき、幅広い世代に人気が広がる1話1～2分程度の「縦型ショートドラマ」を巡り、サブスクリプション（定額課金）契約を解約できないなどのトラブルが急増していることが14日、共同…",
+      "publishedAt": "2026-11-15 09:24",
+      "publishedTs": 1794702290,
+      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/15/2fbea6621d30a5ae4bc27f59b6b005e01bc552d5de61b81d79efefb23cd22529.jpg",
+      "summary": "大阪・天王寺駅の南西側に広がる阿倍野地区。大型商業施設「あべのキューズタウン」や高層住宅が立ち並び、近くには観光名所の「あべのハルカス」もある。こうした現在の街並みを形づくったのが、大阪市が約40年…",
       "points": [
         "カテゴリ: ビジネス・経済の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-14 21:56）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 09:24）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "ビジネス・経済分野で関心を集めている最新ニュースです。",
@@ -323,7 +323,7 @@ window.NEWS_DATA = {
         "ビジネス・経済",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/pickup/6602597?source=rss",
+      "url": "https://news.yahoo.co.jp/pickup/6602629?source=rss",
       "isAiEnriched": false
     },
     {
@@ -370,15 +370,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "再開発が大赤字 大阪・阿倍野の今",
+      "title": "東京で「臭い豚骨」がブーム 背景",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 09:24",
-      "publishedTs": 1794702290,
-      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/15/2fbea6621d30a5ae4bc27f59b6b005e01bc552d5de61b81d79efefb23cd22529.jpg",
-      "summary": "大阪・天王寺駅の南西側に広がる阿倍野地区。大型商業施設「あべのキューズタウン」や高層住宅が立ち並び、近くには観光名所の「あべのハルカス」もある。こうした現在の街並みを形づくったのが、大阪市が約40年…",
+      "publishedAt": "2026-11-15 10:52",
+      "publishedTs": 1794707560,
+      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/15/e843f03b363e79e64f817fca37544469a200deef1f1f934ac6a213adde6ddb42.jpg",
+      "summary": "福岡のご当地ラーメンと言えば「豚骨ラーメン」である。博多ラーメンや長浜ラーメン、久留米ラーメンなど、白濁した豚骨スープにストレート麺を合わせた豚骨ラーメンは、福岡の人にとってソウルフードならぬ、ソウ…",
       "points": [
         "カテゴリ: ビジネス・経済の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 09:24）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 10:52）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "ビジネス・経済分野で関心を集めている最新ニュースです。",
@@ -386,28 +386,28 @@ window.NEWS_DATA = {
         "ビジネス・経済",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/pickup/6602629?source=rss",
+      "url": "https://news.yahoo.co.jp/pickup/6602644?source=rss",
       "isAiEnriched": false
     },
     {
       "category": "domestic",
-      "title": "バカの家計管理してる",
-      "source": "anond.hatelabo.jp",
-      "publishedAt": "2026-11-14 10:18",
-      "publishedTs": 1794619138,
-      "image": "https://anond.hatelabo.jp/assets/images/og-image-1500.gif",
-      "summary": "無駄遣いがひどくて毎月予算に収まらず、ボーナスが補填にまわるみたいになっててよくないなーと思っていた。無駄遣いの内容は、でっかい買い物するとか旅行とか毎晩飲みに行ってるとかじゃなくて、ガチャとか電子書籍とかコンビニとかまあ、なんか気付いたら、みたいなことが多くて、家計簿つけたりしてもなんかうまく...",
+      "title": "「ラヴ上等」出演の「あっすん」を逮捕　無許可風俗営業容疑　名古屋：朝日新聞",
+      "source": "asahi.com",
+      "publishedAt": "2026-11-15 07:44",
+      "publishedTs": 1794696254,
+      "image": "https://imgopt.asahi.com/ogp/AS20261115000633_comm.jpg",
+      "summary": "無許可で風俗営業店舗を経営したとして、愛知県警は15日、Netflix（ネットフリックス）が配信する「『ラヴ上等』シーズン2」の出演者で、小栗彩朱佳（あすか）容疑者（31）=名古屋市中区栄2丁目=ら…",
       "points": [
         "カテゴリ: 国内・総合で話題の記事",
-        "引用元: anond.hatelabo.jp（2026-11-14 10:18）",
+        "引用元: asahi.com（2026-11-15 07:44）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "国内・総合分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "国内・総合",
-        "anond.hatelabo.jp"
+        "asahi.com"
       ],
-      "url": "https://anond.hatelabo.jp/20261114101649",
+      "url": "https://www.asahi.com/articles/ASVCG366TVCGOIPE001M.html",
       "isAiEnriched": false
     },
     {
@@ -454,23 +454,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "「ラヴ上等」出演の「あっすん」を逮捕　無許可風俗営業容疑　名古屋：朝日新聞",
-      "source": "asahi.com",
-      "publishedAt": "2026-11-15 07:44",
-      "publishedTs": 1794696254,
-      "image": "https://imgopt.asahi.com/ogp/AS20261115000633_comm.jpg",
-      "summary": "無許可で風俗営業店舗を経営したとして、愛知県警は15日、Netflix（ネットフリックス）が配信する「『ラヴ上等』シーズン2」の出演者で、小栗彩朱佳（あすか）容疑者（31）=名古屋市中区栄2丁目=ら…",
+      "title": "バカの家計管理してる",
+      "source": "anond.hatelabo.jp",
+      "publishedAt": "2026-11-14 10:18",
+      "publishedTs": 1794619138,
+      "image": "https://anond.hatelabo.jp/assets/images/og-image-1500.gif",
+      "summary": "無駄遣いがひどくて毎月予算に収まらず、ボーナスが補填にまわるみたいになっててよくないなーと思っていた。無駄遣いの内容は、でっかい買い物するとか旅行とか毎晩飲みに行ってるとかじゃなくて、ガチャとか電子書籍とかコンビニとかまあ、なんか気付いたら、みたいなことが多くて、家計簿つけたりしてもなんかうまく...",
       "points": [
         "カテゴリ: 国内・総合で話題の記事",
-        "引用元: asahi.com（2026-11-15 07:44）",
+        "引用元: anond.hatelabo.jp（2026-11-14 10:18）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "国内・総合分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "国内・総合",
-        "asahi.com"
+        "anond.hatelabo.jp"
       ],
-      "url": "https://www.asahi.com/articles/ASVCG366TVCGOIPE001M.html",
+      "url": "https://anond.hatelabo.jp/20261114101649",
       "isAiEnriched": false
     },
     {
@@ -559,23 +559,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "沖縄知事選の関連動画、兵庫知事選でも発信のアカウントが推計収益の6割独占　宮城でも活動",
-      "source": "kobe-np.co.jp",
-      "publishedAt": "2026-11-14 23:59",
-      "publishedTs": 1794668343,
-      "image": "https://i.kobe-np.co.jp/news/society/202611/img/a_21030734.jpg",
-      "summary": "９月の沖縄県知事選の関連動画で、ユーチューブの再生回数が上位に入った５０アカウントのうち、１１アカウントは２０２４年の兵庫県知事選でも選挙期間中に関連動画を発信していた。この１１アカウントは、沖縄県知事選での収益を試算した動画３３０本のうち、約３割の９８本を配信。再生回数に応じた収益は推計で最大...",
+      "title": "ロシアがＮＡＴＯへ「旧共産圏加盟前」まで撤退要求か…ラトビア首相、議論に応じれば「プーチン氏のわなにはまる」",
+      "source": "yomiuri.co.jp",
+      "publishedAt": "2026-11-15 00:14",
+      "publishedTs": 1794669249,
+      "image": "https://www.yomiuri.co.jp/media/2026/11/20261114-GYT1I00255-1.jpg?type=ogp",
+      "summary": "【読売新聞】 米紙ニューヨーク・タイムズ（電子版）は１３日、ウクライナへの侵略を続けるロシアが和平交渉に絡め、北大西洋条約機構（ＮＡＴＯ）に対し、ポーランドやバルト３国など旧共産圏の東欧諸国が加盟する以前の１９９７年の状態まで部隊と…",
       "points": [
         "カテゴリ: ビジネス・経済で話題の記事",
-        "引用元: kobe-np.co.jp（2026-11-14 23:59）",
+        "引用元: yomiuri.co.jp（2026-11-15 00:14）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "ビジネス・経済分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "ビジネス・経済",
-        "kobe-np.co.jp"
+        "yomiuri.co.jp"
       ],
-      "url": "https://www.kobe-np.co.jp/news/society/202611/0021030732.shtml",
+      "url": "https://www.yomiuri.co.jp/world/20261114-GYT1T00254/",
       "isAiEnriched": false
     },
     {
@@ -601,44 +601,44 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "「すげぇ！教科書とかで見たフロッピーや！！これで容量どれくらいあるんですか？」若者のほのぼのとした感想がぶっ刺さるネット民",
-      "source": "togetter.com",
-      "publishedAt": "2026-11-14 21:54",
-      "publishedTs": 1794660853,
-      "image": "https://s.tgstc.com/ogp3/54892bba0fd3c6ad84afa397226a52c4-1200x630.jpeg",
-      "summary": "しー@園芸博NEXT！ @Sh_i0916 すげぇ！！！ フロッピーや！！ フロッピーや！！！ 教科書とかで見たフロッピーや！！ 初めて触ったかも！！ うっす！！！！ かるっ！！！！！ すげぇ！！ これで容量どれくらいあるんですか？ #フロッピー #富士通 pic.x.com/Ofx3uVhKaf 2026…",
+      "title": "NVIDIAフアン前CEOの復帰求める署名が11万人超　マスク氏らも賛同、米議会は追及継続",
+      "source": "itmedia.co.jp",
+      "publishedAt": "2026-11-15 08:39",
+      "publishedTs": 1794699550,
+      "image": "https://www.itmedia.co.jp/news/article/ogp/2611/15/2000003207/10012162/2048",
+      "summary": "フアン氏は、中国の情報機関との関係が疑われる女性との交際が報じられたことを受け、11月12日にCEO、社長、取締役を退任した。NVIDIAは最高財務責任者（CFO）のコレット・クレス氏を暫定CEOに任命し、社内外から後任を探している。 署名運動の主催者は、フアン氏が十分な弁明の機会を与えられずに退任に追い込…",
       "points": [
         "カテゴリ: テクノロジー・AIで話題の記事",
-        "引用元: togetter.com（2026-11-14 21:54）",
+        "引用元: itmedia.co.jp（2026-11-15 08:39）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "テクノロジー・AI分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "テクノロジー・AI",
-        "togetter.com"
+        "itmedia.co.jp"
       ],
-      "url": "https://togetter.com/li/2770437",
+      "url": "https://www.itmedia.co.jp/news/article/2611/15/2000003207/",
       "isAiEnriched": false
     },
     {
       "category": "business",
-      "title": "@RyuichiYoneyama のポスト on Xアメリカ中間選挙の民主党の勝利が敵失なのはその通りでしょうが、今迄嬉々として「リベラルは何故嫌われるか」を語っていた「識者」の方々は、流石に「保守は何故負けたのか」ー例えば①何でもリベラル・外国人のせいで悪口ばかり②経済政策がご都合主義的で相当に不合理ーを語るべきじゃないですかね",
-      "source": "x.com",
-      "publishedAt": "2026-11-14 16:55",
-      "publishedTs": 1794642916,
-      "image": "https://pbs.twimg.com/profile_images/1376328098967216129/lgmlngyB_400x400.jpg",
-      "summary": "アメリカ中間選挙の民主党の勝利が敵失なのはその通りでしょうが、今迄嬉々として「リベラルは何故嫌われるか」を語っていた「識者」の方々は、流石に「保守は何故負けたのか」ー例えば①何でもリベラル・外国人のせいで悪口ばかり②経済政策がご都合主義的で相当に不合理ーを語るべきじゃないですかね…",
+      "title": "沖縄知事選の関連動画、兵庫知事選でも発信のアカウントが推計収益の6割独占　宮城でも活動",
+      "source": "kobe-np.co.jp",
+      "publishedAt": "2026-11-14 23:59",
+      "publishedTs": 1794668343,
+      "image": "https://i.kobe-np.co.jp/news/society/202611/img/a_21030734.jpg",
+      "summary": "９月の沖縄県知事選の関連動画で、ユーチューブの再生回数が上位に入った５０アカウントのうち、１１アカウントは２０２４年の兵庫県知事選でも選挙期間中に関連動画を発信していた。この１１アカウントは、沖縄県知事選での収益を試算した動画３３０本のうち、約３割の９８本を配信。再生回数に応じた収益は推計で最大...",
       "points": [
         "カテゴリ: ビジネス・経済で話題の記事",
-        "引用元: x.com（2026-11-14 16:55）",
+        "引用元: kobe-np.co.jp（2026-11-14 23:59）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "ビジネス・経済分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "ビジネス・経済",
-        "x.com"
+        "kobe-np.co.jp"
       ],
-      "url": "https://x.com/RyuichiYoneyama/status/2118146813412966555",
+      "url": "https://www.kobe-np.co.jp/news/society/202611/0021030732.shtml",
       "isAiEnriched": false
     }
   ]
