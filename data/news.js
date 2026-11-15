@@ -1,6 +1,6 @@
 window.NEWS_DATA = {
   "date": "2026年11月15日 (日)",
-  "updatedAt": "2026-11-15 17:32",
+  "updatedAt": "2026-11-15 17:35",
   "title": "TREND NEWS",
   "keywords": [
     "週後半 日本海側で暴風・大…",
@@ -2115,15 +2115,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "entertainment",
-      "title": "春風亭一之輔、「マッチ売りの少女」が「ドバイチョコ」を売っていたら、なぜそんなに悲しくならないのか　「少女が抱えたカゴの中には…」(AERA DIGITAL)",
+      "title": "武田真治の妻・静まなみ、壮絶な早産を回顧　妊娠32週で突然破水…緊急入院で点滴も副作用「すごくしんどかった」(オリコン)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 17:30",
-      "publishedTs": 1794731436,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00297627-sasahi-000-1-view.jpg?exp=10800",
-      "summary": "落語家・春風亭一之輔さんが連載中のコラム「ああ、それ私よく知ってます。」。今回のお題は「ドバイチョコ」。【写真】対談で爆笑する一之輔師匠はこちら！ この年齢になると葬儀に参列することが年々多くなる。",
+      "publishedAt": "2026-11-15 17:33",
+      "publishedTs": 1794731582,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00000399-oric-000-1-view.jpg?exp=10800",
+      "summary": "俳優の武田真治（53）と妻でモデルの静まなみ（32）が15日、都内で行われた普及啓発イベント『世界早産児デー2026 in TOKYO ～すべてのこどもと家族にやさしさとつながりが届く東京へ～』に夫…",
       "points": [
         "カテゴリ: 芸能・エンタメの注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 17:30）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 17:33）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "芸能・エンタメ分野で関心を集めている最新ニュースです。",
@@ -2131,7 +2131,7 @@ window.NEWS_DATA = {
         "芸能・エンタメ",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/90e697d7dbdb0ef8cb9537dc24b620e27e72b42b?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/6a78a9be2f2c3931923f0374f6b1ee7e5d318af2?source=rss",
       "isAiEnriched": false
     },
     {
@@ -2220,12 +2220,12 @@ window.NEWS_DATA = {
     },
     {
       "category": "entertainment",
-      "title": "知られざる結末が存在…!? 歴代『ドラクエ』予想外の展開に驚いた「記憶に残る“特殊なボス戦”」(ふたまん＋)",
+      "title": "春風亭一之輔、「マッチ売りの少女」が「ドバイチョコ」を売っていたら、なぜそんなに悲しくならないのか　「少女が抱えたカゴの中には…」(AERA DIGITAL)",
       "source": "Yahoo!ニュース",
       "publishedAt": "2026-11-15 17:30",
-      "publishedTs": 1794731433,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00132757-futaman-000-1-view.jpg?exp=10800",
-      "summary": "近年、リメイクや新作の発表が相次いでいる『ドラゴンクエスト』（以下、ドラクエ）シリーズ。2026年12月3日にはスピンオフ作品である『ドラゴンクエストモンスターズ4 枯れ木の国のビアンカ・フローラ』",
+      "publishedTs": 1794731436,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00297627-sasahi-000-1-view.jpg?exp=10800",
+      "summary": "落語家・春風亭一之輔さんが連載中のコラム「ああ、それ私よく知ってます。」。今回のお題は「ドバイチョコ」。【写真】対談で爆笑する一之輔師匠はこちら！ この年齢になると葬儀に参列することが年々多くなる。",
       "points": [
         "カテゴリ: 芸能・エンタメの注目トピック",
         "配信: Yahoo!ニュース トピックス（2026-11-15 17:30）",
@@ -2236,7 +2236,7 @@ window.NEWS_DATA = {
         "芸能・エンタメ",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/bdadd6adeb667fde7928c161db343419bba0a491?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/90e697d7dbdb0ef8cb9537dc24b620e27e72b42b?source=rss",
       "isAiEnriched": false
     },
     {
@@ -2326,12 +2326,12 @@ window.NEWS_DATA = {
     },
     {
       "category": "entertainment",
-      "title": "【日本一のイケメン中学生候補】西日本代表：中村友哉＜男子中学生ミスターコン2026 ファイナリスト連載＞(モデルプレス)",
+      "title": "知られざる結末が存在…!? 歴代『ドラクエ』予想外の展開に驚いた「記憶に残る“特殊なボス戦”」(ふたまん＋)",
       "source": "Yahoo!ニュース",
       "publishedAt": "2026-11-15 17:30",
-      "publishedTs": 1794731404,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-04874699-mdpr-000-1-view.jpg?exp=10800",
-      "summary": "【モデルプレス＝2026/11/15】“日本一のイケメン中学生”を決める「男子中学生ミスターコン2026」。モデルプレスは今回、ファイナリストに勝ち残った15人を1人ずつ紹介する連載を開始。第4回は…",
+      "publishedTs": 1794731433,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00132757-futaman-000-1-view.jpg?exp=10800",
+      "summary": "近年、リメイクや新作の発表が相次いでいる『ドラゴンクエスト』（以下、ドラクエ）シリーズ。2026年12月3日にはスピンオフ作品である『ドラゴンクエストモンスターズ4 枯れ木の国のビアンカ・フローラ』",
       "points": [
         "カテゴリ: 芸能・エンタメの注目トピック",
         "配信: Yahoo!ニュース トピックス（2026-11-15 17:30）",
@@ -2342,7 +2342,7 @@ window.NEWS_DATA = {
         "芸能・エンタメ",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/29cb8e1973d30f34aa677afbe2885d824b704840?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/bdadd6adeb667fde7928c161db343419bba0a491?source=rss",
       "isAiEnriched": false
     },
     {
@@ -2432,12 +2432,12 @@ window.NEWS_DATA = {
     },
     {
       "category": "entertainment",
-      "title": "「進撃の巨人」調査兵団がモチーフ！“心臓を捧げよ”の英字刻印に注目☆ジーンズ＆ジャケット登場(アニメ！アニメ！)",
+      "title": "【日本一のイケメン中学生候補】西日本代表：中村友哉＜男子中学生ミスターコン2026 ファイナリスト連載＞(モデルプレス)",
       "source": "Yahoo!ニュース",
       "publishedAt": "2026-11-15 17:30",
-      "publishedTs": 1794731403,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00000018-anmanmv-000-1-view.jpg?exp=10800",
-      "summary": "TVアニメ『進撃の巨人』より、調査兵団をモチーフにした新作アパレルとして「ストレートジーンズ」と「ファティーグジャケット」が登場。公式キャラコスチュームやアパレル・グッズの企画、開発、製造を手掛ける…",
+      "publishedTs": 1794731404,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-04874699-mdpr-000-1-view.jpg?exp=10800",
+      "summary": "【モデルプレス＝2026/11/15】“日本一のイケメン中学生”を決める「男子中学生ミスターコン2026」。モデルプレスは今回、ファイナリストに勝ち残った15人を1人ずつ紹介する連載を開始。第4回は…",
       "points": [
         "カテゴリ: 芸能・エンタメの注目トピック",
         "配信: Yahoo!ニュース トピックス（2026-11-15 17:30）",
@@ -2448,7 +2448,7 @@ window.NEWS_DATA = {
         "芸能・エンタメ",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/5859e8442041d4d56682fbbc0528b9a525f3fcb1?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/29cb8e1973d30f34aa677afbe2885d824b704840?source=rss",
       "isAiEnriched": false
     },
     {
@@ -2537,12 +2537,12 @@ window.NEWS_DATA = {
     },
     {
       "category": "entertainment",
-      "title": "「スヌーピー」の新作UTがユニクロから12月中旬に発売！仲間たちとの心温まるシーンをデザインした全6種(インサイド)",
+      "title": "「進撃の巨人」調査兵団がモチーフ！“心臓を捧げよ”の英字刻印に注目☆ジーンズ＆ジャケット登場(アニメ！アニメ！)",
       "source": "Yahoo!ニュース",
       "publishedAt": "2026-11-15 17:30",
       "publishedTs": 1794731403,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00000031-isd-000-1-view.jpg?exp=10800",
-      "summary": "ユニクロは、「スヌーピー（PEANUTS）」の新作UTコレクションを12月中旬に発売します。【画像】心温まるシーンをデザインした「スヌーピー」新作UT全6種！◆人気の「スヌーピー」にレディース向け新…",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00000018-anmanmv-000-1-view.jpg?exp=10800",
+      "summary": "TVアニメ『進撃の巨人』より、調査兵団をモチーフにした新作アパレルとして「ストレートジーンズ」と「ファティーグジャケット」が登場。公式キャラコスチュームやアパレル・グッズの企画、開発、製造を手掛ける…",
       "points": [
         "カテゴリ: 芸能・エンタメの注目トピック",
         "配信: Yahoo!ニュース トピックス（2026-11-15 17:30）",
@@ -2553,7 +2553,7 @@ window.NEWS_DATA = {
         "芸能・エンタメ",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/dbfb1e39dda850112c0422ddb42fd87671551932?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/5859e8442041d4d56682fbbc0528b9a525f3fcb1?source=rss",
       "isAiEnriched": false
     },
     {
@@ -2643,12 +2643,12 @@ window.NEWS_DATA = {
     },
     {
       "category": "entertainment",
-      "title": "ソン・ヘギョの美談はバンコクまで…食堂店主「温かいハグ…感動的」(朝鮮日報日本語版)",
+      "title": "「スヌーピー」の新作UTがユニクロから12月中旬に発売！仲間たちとの心温まるシーンをデザインした全6種(インサイド)",
       "source": "Yahoo!ニュース",
       "publishedAt": "2026-11-15 17:30",
-      "publishedTs": 1794731400,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00080020-chosun-000-11-view.jpg?exp=10800",
-      "summary": "【Pickcon】俳優ソン・ヘギョがタイの街角にある食堂で、店主のジェイ・ファイ（Jay Fai）さんと交流した。【写真】 未公開グラビアカット大放出…ソン・ヘギョ 「言葉はいらない」レジェンド級の…",
+      "publishedTs": 1794731403,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00000031-isd-000-1-view.jpg?exp=10800",
+      "summary": "ユニクロは、「スヌーピー（PEANUTS）」の新作UTコレクションを12月中旬に発売します。【画像】心温まるシーンをデザインした「スヌーピー」新作UT全6種！◆人気の「スヌーピー」にレディース向け新…",
       "points": [
         "カテゴリ: 芸能・エンタメの注目トピック",
         "配信: Yahoo!ニュース トピックス（2026-11-15 17:30）",
@@ -2659,7 +2659,7 @@ window.NEWS_DATA = {
         "芸能・エンタメ",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/448b3e50e7c3c8522da1480fa5138f6feed9f88e?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/dbfb1e39dda850112c0422ddb42fd87671551932?source=rss",
       "isAiEnriched": false
     },
     {
@@ -2749,15 +2749,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "entertainment",
-      "title": "ビートたけし、自分の「なりすまし動画」に苦言「40本くらい探した。人生相談しているんだよ」(日刊スポーツ)",
+      "title": "ソン・ヘギョの美談はバンコクまで…食堂店主「温かいハグ…感動的」(朝鮮日報日本語版)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 17:27",
-      "publishedTs": 1794731238,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-41151135-nksports-000-1-view.jpg?exp=10800",
-      "summary": "ビートたけし（79）は15日に放送されたテレビ朝日系「ビートたけしのTVタックル」（日曜正午）に出演。生成AIで作成された自身の「なりすまし動画」が数多く存在しているとして、苦言を呈した。 この日の…",
+      "publishedAt": "2026-11-15 17:30",
+      "publishedTs": 1794731400,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00080020-chosun-000-11-view.jpg?exp=10800",
+      "summary": "【Pickcon】俳優ソン・ヘギョがタイの街角にある食堂で、店主のジェイ・ファイ（Jay Fai）さんと交流した。【写真】 未公開グラビアカット大放出…ソン・ヘギョ 「言葉はいらない」レジェンド級の…",
       "points": [
         "カテゴリ: 芸能・エンタメの注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 17:27）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 17:30）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "芸能・エンタメ分野で関心を集めている最新ニュースです。",
@@ -2765,7 +2765,7 @@ window.NEWS_DATA = {
         "芸能・エンタメ",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/dca9f1ec7d48dd3705c4e22e0a9a5fe616d5f24d?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/448b3e50e7c3c8522da1480fa5138f6feed9f88e?source=rss",
       "isAiEnriched": false
     },
     {
@@ -2854,15 +2854,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "entertainment",
-      "title": "黒田驚がく！元M-1王者の意外な経歴　中学時代に相撲大会決勝で、後の「千代大海」と対戦していた(スポニチアネックス)",
+      "title": "ビートたけし、自分の「なりすまし動画」に苦言「40本くらい探した。人生相談しているんだよ」(日刊スポーツ)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 17:26",
-      "publishedTs": 1794731160,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00000288-spnannex-000-2-view.jpg?exp=10800",
-      "summary": "お笑いコンビ「メッセンジャー」黒田有（56）が自身のYouTubeチャンネル「くろだ煮」を更新。元M-1グランプリ王者の意外すぎる経歴に大笑いした。 この回は「M-1グランプリ2009」を制したパン…",
+      "publishedAt": "2026-11-15 17:27",
+      "publishedTs": 1794731238,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-41151135-nksports-000-1-view.jpg?exp=10800",
+      "summary": "ビートたけし（79）は15日に放送されたテレビ朝日系「ビートたけしのTVタックル」（日曜正午）に出演。生成AIで作成された自身の「なりすまし動画」が数多く存在しているとして、苦言を呈した。 この日の…",
       "points": [
         "カテゴリ: 芸能・エンタメの注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 17:26）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 17:27）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "芸能・エンタメ分野で関心を集めている最新ニュースです。",
@@ -2870,7 +2870,7 @@ window.NEWS_DATA = {
         "芸能・エンタメ",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/fac7f4fe4172e162df4585b675b4303167181fa9?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/dca9f1ec7d48dd3705c4e22e0a9a5fe616d5f24d?source=rss",
       "isAiEnriched": false
     },
     {
@@ -2896,15 +2896,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "自宅で寝ていた82歳女性が3～4人の男にバールで殴られるなどして重傷 強盗殺人未遂事件として捜査本部設置(東海テレビ)",
+      "title": "16日(月)　太平洋側は天気回復　東京19℃で日差しの温もり戻る(ウェザーマップ)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 17:21",
-      "publishedTs": 1794730894,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-90049340-tokaiv-000-1-view.jpg?exp=10800",
-      "summary": "15日未明、愛知県小牧市の住宅に複数の男が押し入り、住人の高齢女性が殴られて大ケガをした事件で、警察は強盗殺人未遂事件として捜査本部を設置し、詳しく調べています。 警察によりますと、15日午前1時前…",
+      "publishedAt": "2026-11-15 17:31",
+      "publishedTs": 1794731506,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00010002-wmap-000-1-view.jpg?exp=10800",
+      "summary": "16日(月)は太平洋側では天気が回復し、晴れる所が多いでしょう。15日(日)は関東では冷たい雨となり、最高気温が15℃未満となった所が多くなりましたが、16日(月)は20℃前後まで上がり、暖かさが戻…",
       "points": [
         "カテゴリ: 国内・総合の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 17:21）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 17:31）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "国内・総合分野で関心を集めている最新ニュースです。",
@@ -2912,7 +2912,7 @@ window.NEWS_DATA = {
         "国内・総合",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/2c0c5c0fa1f535755cec1c1afea88aa83db80d72?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/33d21fb570c63609a997ea4d6b076b276fb03ec8?source=rss",
       "isAiEnriched": false
     },
     {
@@ -2959,15 +2959,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "entertainment",
-      "title": "「完ぺき！」『ガンダム』ラクス・クラインの美女コスプレイヤーに「超キュート」「最高」「すばらしい」(マグミクス)",
+      "title": "黒田驚がく！元M-1王者の意外な経歴　中学時代に相撲大会決勝で、後の「千代大海」と対戦していた(スポニチアネックス)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 17:25",
-      "publishedTs": 1794731100,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00384805-magmix-000-1-view.jpg?exp=10800",
-      "summary": "台湾コスプレイヤーの「佞佞Ning」さんが『機動戦士ガンダムSEED』シリーズの「ラクス・クライン」に扮したコスプレ写真をInstagramに投稿し、反響を呼びました。【画像】え…っ！「完ぺき！」こ…",
+      "publishedAt": "2026-11-15 17:26",
+      "publishedTs": 1794731160,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00000288-spnannex-000-2-view.jpg?exp=10800",
+      "summary": "お笑いコンビ「メッセンジャー」黒田有（56）が自身のYouTubeチャンネル「くろだ煮」を更新。元M-1グランプリ王者の意外すぎる経歴に大笑いした。 この回は「M-1グランプリ2009」を制したパン…",
       "points": [
         "カテゴリ: 芸能・エンタメの注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 17:25）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 17:26）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "芸能・エンタメ分野で関心を集めている最新ニュースです。",
@@ -2975,7 +2975,7 @@ window.NEWS_DATA = {
         "芸能・エンタメ",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/b188952b53615a62ce1f92110f5999de615b6031?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/fac7f4fe4172e162df4585b675b4303167181fa9?source=rss",
       "isAiEnriched": false
     },
     {
@@ -3002,15 +3002,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "【科捜研】DNA型が一致する確率は「565京分の1」　科学捜査の最前線にカメラ潜入　4分野で年間2500件の鑑定　鹿児島県警(FNNプライムオンライン)",
+      "title": "女性医師死亡17年で追悼式　遺族「風化させない」(共同通信)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 17:14",
-      "publishedTs": 1794730460,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-01251039-fnnprimev-000-1-view.jpg?exp=10800",
-      "summary": "科学の力で事件の真相に迫る科学捜査研究所、通称「科捜研」。鹿児島県警に発足して2026年で30年になる。捜査の行方を大きく左右する鑑定は、どのように行われているのか。今回、鹿児島テレビのカメラが内部…",
+      "publishedAt": "2026-11-15 17:31",
+      "publishedTs": 1794731465,
+      "image": "https://tse2.mm.bing.net/th?q=%E5%A5%B3%E6%80%A7%E5%8C%BB%E5%B8%AB%E6%AD%BB%E4%BA%A117%E5%B9%B4%E3%81%A7%E8%BF%BD%E6%82%BC%E5%BC%8F%20%E9%81%BA%E6%97%8F%20%E9%A2%A8%E5%8C%96%E3%81%95%E3%81%9B%E3%81%AA%E3%81%84&w=800&h=450&c=7&rs=1&p=0",
+      "summary": "大阪市西成区の川で2009年11月に遺体で見つかった医師矢島祥子さん＝当時（34）＝を追悼する集会が15日、同市浪速区で開かれた。遺体の状況に不審な点があるとして、遺族が12年8月、容疑者不詳の殺人…",
       "points": [
         "カテゴリ: 国内・総合の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 17:14）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 17:31）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "国内・総合分野で関心を集めている最新ニュースです。",
@@ -3018,7 +3018,7 @@ window.NEWS_DATA = {
         "国内・総合",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/40668d6c3cb2a3c16f6f2aec8ecef40cfc2dfb4f?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/d3aa1319a10a653d48f857c89554244f044b4c59?source=rss",
       "isAiEnriched": false
     },
     {
@@ -3065,12 +3065,12 @@ window.NEWS_DATA = {
     },
     {
       "category": "entertainment",
-      "title": "＜アオアシ Season2＞紅白戦再び、アシトたちサブ組が練習の成果を発揮する…第7話あらすじ＆先行カット公開(WEBザテレビジョン)",
+      "title": "「完ぺき！」『ガンダム』ラクス・クラインの美女コスプレイヤーに「超キュート」「最高」「すばらしい」(マグミクス)",
       "source": "Yahoo!ニュース",
       "publishedAt": "2026-11-15 17:25",
       "publishedTs": 1794731100,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-01457293-the_tv-000-1-view.jpg?exp=10800",
-      "summary": "アニメ「アオアシ Season2」(毎週日曜夕方5:00-5:30、NHK Eテレ／Hulu・Netflix・U-NEXTほかにて配信)の第8話「高みを目指す」が11月22日(日)に放送される。放送…",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00384805-magmix-000-1-view.jpg?exp=10800",
+      "summary": "台湾コスプレイヤーの「佞佞Ning」さんが『機動戦士ガンダムSEED』シリーズの「ラクス・クライン」に扮したコスプレ写真をInstagramに投稿し、反響を呼びました。【画像】え…っ！「完ぺき！」こ…",
       "points": [
         "カテゴリ: 芸能・エンタメの注目トピック",
         "配信: Yahoo!ニュース トピックス（2026-11-15 17:25）",
@@ -3081,7 +3081,7 @@ window.NEWS_DATA = {
         "芸能・エンタメ",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/f0fcff4c29ea0d962481182ea673671743968b17?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/b188952b53615a62ce1f92110f5999de615b6031?source=rss",
       "isAiEnriched": false
     },
     {
@@ -3108,15 +3108,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "消費減税、効果小さい63％　財源、支援金説明必要85％(共同通信)",
+      "title": "「身寄りなき死」は自業自得なのか？ 誰でも陥る“孤立”の現実…無縁納骨を25％減らした横須賀市の「エンディングプラン・サポート事業」(ABEMA TIMES)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 17:05",
-      "publishedTs": 1794729939,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00000077-kyodonews-000-2-view.jpg?pri=l&w=640&h=453&exp=10800",
-      "summary": "共同通信社は14、15両日、全国電話世論調査を実施した。参院で関連法案が審議中の消費税減税について、物価高対策としての効果が「小さい」は63.5％で、「大きい」の30.9％を上回った。減税の財源や新…",
+      "publishedAt": "2026-11-15 17:30",
+      "publishedTs": 1794731435,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-10288917-abemav-000-1-view.jpg?exp=10800",
+      "summary": "家族や親族との関係が希薄化し、人生の最期を1人で迎える「身寄りなき死」が増加している。全国で年間約4 万件に上るとされる引き取り手のない遺体の火葬・埋葬には公費が投入されているが、ネット上では「自業…",
       "points": [
         "カテゴリ: 国内・総合の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 17:05）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 17:30）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "国内・総合分野で関心を集めている最新ニュースです。",
@@ -3124,7 +3124,7 @@ window.NEWS_DATA = {
         "国内・総合",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/6f9179a9a41edd71949c3f2c8fda936fc271505e?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/12a2a1d06b62e1b9476a856347b0be2f52f56dce?source=rss",
       "isAiEnriched": false
     },
     {
@@ -3171,12 +3171,12 @@ window.NEWS_DATA = {
     },
     {
       "category": "entertainment",
-      "title": "【アオアシ Season2】第8話「⾼みを⽬指す」あらすじ＆先行カット公開！(アニメージュプラス)",
+      "title": "＜アオアシ Season2＞紅白戦再び、アシトたちサブ組が練習の成果を発揮する…第7話あらすじ＆先行カット公開(WEBザテレビジョン)",
       "source": "Yahoo!ニュース",
       "publishedAt": "2026-11-15 17:25",
       "publishedTs": 1794731100,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00068243-animage-000-1-view.jpg?exp=10800",
-      "summary": "2026年10月4日（日）より毎週日曜日午後5時より放送予定のTVアニメ『アオアシ Season2』、第8話のあらすじと先行カットが公開された。【関連画像】第8話先行カットをすべてチェックする！（写…",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-01457293-the_tv-000-1-view.jpg?exp=10800",
+      "summary": "アニメ「アオアシ Season2」(毎週日曜夕方5:00-5:30、NHK Eテレ／Hulu・Netflix・U-NEXTほかにて配信)の第8話「高みを目指す」が11月22日(日)に放送される。放送…",
       "points": [
         "カテゴリ: 芸能・エンタメの注目トピック",
         "配信: Yahoo!ニュース トピックス（2026-11-15 17:25）",
@@ -3187,7 +3187,7 @@ window.NEWS_DATA = {
         "芸能・エンタメ",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/5d2cbbd4d7f2ad0f390382aaa32329616bf3ecf9?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/f0fcff4c29ea0d962481182ea673671743968b17?source=rss",
       "isAiEnriched": false
     },
     {
@@ -3213,15 +3213,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "イチゴ王国の土台支える、唯一の公的研究所　新品種開発から生産者サポートまで、栃木(共同通信)",
+      "title": "自宅で寝ていた82歳女性が3～4人の男にバールで殴られるなどして重傷 強盗殺人未遂事件として捜査本部設置(東海テレビ)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 17:00",
-      "publishedTs": 1794729601,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00000076-kyodonews-000-2-view.jpg?exp=10800",
-      "summary": "57年連続でイチゴ収穫量日本一を誇る栃木県。同県栃木市にある日本唯一の公的なイチゴ専門研究機関「県農業総合研究センターいちご研究所」が、その土台を支えている。新品種の開発から栽培技術の研究、消費者調…",
+      "publishedAt": "2026-11-15 17:21",
+      "publishedTs": 1794730894,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-90049340-tokaiv-000-1-view.jpg?exp=10800",
+      "summary": "15日未明、愛知県小牧市の住宅に複数の男が押し入り、住人の高齢女性が殴られて大ケガをした事件で、警察は強盗殺人未遂事件として捜査本部を設置し、詳しく調べています。 警察によりますと、15日午前1時前…",
       "points": [
         "カテゴリ: 国内・総合の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 17:00）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 17:21）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "国内・総合分野で関心を集めている最新ニュースです。",
@@ -3229,7 +3229,7 @@ window.NEWS_DATA = {
         "国内・総合",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/575ac9637f7ddd837884246878ea25ab5a76e5c2?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/2c0c5c0fa1f535755cec1c1afea88aa83db80d72?source=rss",
       "isAiEnriched": false
     },
     {
@@ -3276,15 +3276,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "entertainment",
-      "title": "脱出ゲーム世界大会、日本チーム優勝　松丸亮吾チームは3位「やった〜!!!」(オリコン)",
+      "title": "【アオアシ Season2】第8話「⾼みを⽬指す」あらすじ＆先行カット公開！(アニメージュプラス)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 17:24",
-      "publishedTs": 1794731064,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00000398-oric-000-1-view.jpg?exp=10800",
-      "summary": "謎解きクリエイターの松丸亮吾が15日、自身のXを更新し、「脱出ゲーム世界大会'26 決勝戦 in ヨーロッパ」でメダルを獲得したと報告した。【画像】脱出ゲーム世界大会結果（一覧）／優勝・3位チームビ…",
+      "publishedAt": "2026-11-15 17:25",
+      "publishedTs": 1794731100,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00068243-animage-000-1-view.jpg?exp=10800",
+      "summary": "2026年10月4日（日）より毎週日曜日午後5時より放送予定のTVアニメ『アオアシ Season2』、第8話のあらすじと先行カットが公開された。【関連画像】第8話先行カットをすべてチェックする！（写…",
       "points": [
         "カテゴリ: 芸能・エンタメの注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 17:24）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 17:25）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "芸能・エンタメ分野で関心を集めている最新ニュースです。",
@@ -3292,7 +3292,7 @@ window.NEWS_DATA = {
         "芸能・エンタメ",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/3dac0a1a8de58556fd4c36ae45e49e5feece91bd?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/5d2cbbd4d7f2ad0f390382aaa32329616bf3ecf9?source=rss",
       "isAiEnriched": false
     },
     {
@@ -3319,15 +3319,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "大阪3歳女児虐待死　全身のあざは50カ所以上　暴行後は別室で1人寝かせたか(産経新聞)",
+      "title": "【科捜研】DNA型が一致する確率は「565京分の1」　科学捜査の最前線にカメラ潜入　4分野で年間2500件の鑑定　鹿児島県警(FNNプライムオンライン)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 16:55",
-      "publishedTs": 1794729349,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00000101-san-000-1-view.jpg?exp=10800",
-      "summary": "大阪府枚方市で金尾英怜奈（かなおえれな）ちゃん（3）が死亡し、両親が逮捕された事件で、全身に新旧混ざる50カ所以上のあざがあったことが15日、捜査関係者への取材で分かった。殺人容疑で逮捕された父親の…",
+      "publishedAt": "2026-11-15 17:14",
+      "publishedTs": 1794730460,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-01251039-fnnprimev-000-1-view.jpg?exp=10800",
+      "summary": "科学の力で事件の真相に迫る科学捜査研究所、通称「科捜研」。鹿児島県警に発足して2026年で30年になる。捜査の行方を大きく左右する鑑定は、どのように行われているのか。今回、鹿児島テレビのカメラが内部…",
       "points": [
         "カテゴリ: 国内・総合の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 16:55）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 17:14）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "国内・総合分野で関心を集めている最新ニュースです。",
@@ -3335,7 +3335,7 @@ window.NEWS_DATA = {
         "国内・総合",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/f6b7a8e11e9aff7d5ef8fc2105776f2e7e2f21a3?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/40668d6c3cb2a3c16f6f2aec8ecef40cfc2dfb4f?source=rss",
       "isAiEnriched": false
     },
     {
@@ -3382,12 +3382,12 @@ window.NEWS_DATA = {
     },
     {
       "category": "entertainment",
-      "title": "武田真治＆静まなみ夫妻、3年前の早産を回顧 32週で破水・緊急入院→34週・1787gで出産「罪悪感もあってすごく複雑な心境」(モデルプレス)",
+      "title": "脱出ゲーム世界大会、日本チーム優勝　松丸亮吾チームは3位「やった〜!!!」(オリコン)",
       "source": "Yahoo!ニュース",
       "publishedAt": "2026-11-15 17:24",
-      "publishedTs": 1794731045,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-04877163-mdpr-000-1-view.jpg?exp=10800",
-      "summary": "【モデルプレス＝2026/11/15】俳優の武田真治とモデル・歯科衛生士の静まなみの夫妻が15日、都内で開催された「世界早産児デー2026 in TOKYO」トークセッションに出席。3年前の出産時に…",
+      "publishedTs": 1794731064,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00000398-oric-000-1-view.jpg?exp=10800",
+      "summary": "謎解きクリエイターの松丸亮吾が15日、自身のXを更新し、「脱出ゲーム世界大会'26 決勝戦 in ヨーロッパ」でメダルを獲得したと報告した。【画像】脱出ゲーム世界大会結果（一覧）／優勝・3位チームビ…",
       "points": [
         "カテゴリ: 芸能・エンタメの注目トピック",
         "配信: Yahoo!ニュース トピックス（2026-11-15 17:24）",
@@ -3398,7 +3398,7 @@ window.NEWS_DATA = {
         "芸能・エンタメ",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/3880614c7c8a6addf11e958b8f0415502ca2994b?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/3dac0a1a8de58556fd4c36ae45e49e5feece91bd?source=rss",
       "isAiEnriched": false
     },
     {
@@ -3425,15 +3425,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "日中改善へ対話実現が焦点　首相、16日から比と中国を訪問(共同通信)",
+      "title": "消費減税、効果小さい63％　財源、支援金説明必要85％(共同通信)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 16:50",
-      "publishedTs": 1794729033,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00000074-kyodonews-000-3-view.jpg?exp=10800",
-      "summary": "高市早苗首相は16日から東南アジア諸国連合（ASEAN）関連首脳会議やアジア太平洋経済協力会議（APEC）首脳会議に出席するためフィリピン、中国を訪れる。米中、米中ロ3カ国首脳会談が見込まれる中、日…",
+      "publishedAt": "2026-11-15 17:05",
+      "publishedTs": 1794729939,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00000077-kyodonews-000-2-view.jpg?pri=l&w=640&h=453&exp=10800",
+      "summary": "共同通信社は14、15両日、全国電話世論調査を実施した。参院で関連法案が審議中の消費税減税について、物価高対策としての効果が「小さい」は63.5％で、「大きい」の30.9％を上回った。減税の財源や新…",
       "points": [
         "カテゴリ: 国内・総合の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 16:50）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 17:05）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "国内・総合分野で関心を集めている最新ニュースです。",
@@ -3441,7 +3441,7 @@ window.NEWS_DATA = {
         "国内・総合",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/7d31f1ecbcb5a78e5386ea02e02cb08069e6440e?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/6f9179a9a41edd71949c3f2c8fda936fc271505e?source=rss",
       "isAiEnriched": false
     },
     {
@@ -3488,15 +3488,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "entertainment",
-      "title": "武田真治、早産で生まれた娘の入院中にオムツの替え方など学び「練習期間がいっぱい取れた。娘は親孝行」とポジティブ思考　夫妻で「世界早産児デー」イベント出席(中日スポーツ)",
+      "title": "武田真治＆静まなみ夫妻、3年前の早産を回顧 32週で破水・緊急入院→34週・1787gで出産「罪悪感もあってすごく複雑な心境」(モデルプレス)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 17:23",
-      "publishedTs": 1794731032,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00000085-chuspo-000-1-view.jpg?exp=10800",
-      "summary": "俳優の武田真治（53）、モデルの静まなみ（32）夫妻が15日、東京都内で行われた「世界早産児デー2026 in TOKYO」のトークイベントに出席した。 武田と静は2020年7月に結婚し、23年6月…",
+      "publishedAt": "2026-11-15 17:24",
+      "publishedTs": 1794731045,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-04877163-mdpr-000-1-view.jpg?exp=10800",
+      "summary": "【モデルプレス＝2026/11/15】俳優の武田真治とモデル・歯科衛生士の静まなみの夫妻が15日、都内で開催された「世界早産児デー2026 in TOKYO」トークセッションに出席。3年前の出産時に…",
       "points": [
         "カテゴリ: 芸能・エンタメの注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 17:23）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 17:24）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "芸能・エンタメ分野で関心を集めている最新ニュースです。",
@@ -3504,7 +3504,7 @@ window.NEWS_DATA = {
         "芸能・エンタメ",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/68338c3cf03fa8c25f7ffab01db506237b44e60a?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/3880614c7c8a6addf11e958b8f0415502ca2994b?source=rss",
       "isAiEnriched": false
     },
     {
@@ -3531,15 +3531,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "玉木氏、主張確約で賛成も　減税法案の参院採決(共同通信)",
+      "title": "イチゴ王国の土台支える、唯一の公的研究所　新品種開発から生産者サポートまで、栃木(共同通信)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 16:46",
-      "publishedTs": 1794728771,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00000073-kyodonews-000-2-view.jpg?pri=l&w=479&h=640&exp=10800",
-      "summary": "国民民主党の玉木雄一郎代表は15日、参院で審議中の飲食料品の消費税減税関連法案を巡り、同党が主張する2029年度からの住民税減税の実施が確約されれば、参院採決で賛成に転じる可能性を示した。「賛否を決…",
+      "publishedAt": "2026-11-15 17:00",
+      "publishedTs": 1794729601,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00000076-kyodonews-000-2-view.jpg?exp=10800",
+      "summary": "57年連続でイチゴ収穫量日本一を誇る栃木県。同県栃木市にある日本唯一の公的なイチゴ専門研究機関「県農業総合研究センターいちご研究所」が、その土台を支えている。新品種の開発から栽培技術の研究、消費者調…",
       "points": [
         "カテゴリ: 国内・総合の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 16:46）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 17:00）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "国内・総合分野で関心を集めている最新ニュースです。",
@@ -3547,7 +3547,7 @@ window.NEWS_DATA = {
         "国内・総合",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/1f4e106a9109f1f9a31e260e6975ce573c5d9ac3?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/575ac9637f7ddd837884246878ea25ab5a76e5c2?source=rss",
       "isAiEnriched": false
     },
     {
@@ -3594,12 +3594,12 @@ window.NEWS_DATA = {
     },
     {
       "category": "entertainment",
-      "title": "2児の父・パックン 寝起き姿で長女への手作り弁当披露!彩り豊かで栄養満点な仕上がりに「娘さんがうらやましい」「食べたい!」(めざましmedia)",
+      "title": "武田真治、早産で生まれた娘の入院中にオムツの替え方など学び「練習期間がいっぱい取れた。娘は親孝行」とポジティブ思考　夫妻で「世界早産児デー」イベント出席(中日スポーツ)",
       "source": "Yahoo!ニュース",
       "publishedAt": "2026-11-15 17:23",
-      "publishedTs": 1794730998,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00374012-fujitv-000-1-view.jpg?exp=10800",
-      "summary": "お笑いタレントやコメンテーターとして活躍する、パックンさんが2026年11月11日までに自身のインスタグラムを更新。愛情たっぷりの手作り弁当を公開し、「美味しそう!食べたい!」「娘さんがうらやましい…",
+      "publishedTs": 1794731032,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00000085-chuspo-000-1-view.jpg?exp=10800",
+      "summary": "俳優の武田真治（53）、モデルの静まなみ（32）夫妻が15日、東京都内で行われた「世界早産児デー2026 in TOKYO」のトークイベントに出席した。 武田と静は2020年7月に結婚し、23年6月…",
       "points": [
         "カテゴリ: 芸能・エンタメの注目トピック",
         "配信: Yahoo!ニュース トピックス（2026-11-15 17:23）",
@@ -3610,7 +3610,7 @@ window.NEWS_DATA = {
         "芸能・エンタメ",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/a30c1eeb580cd8fdb6ffd07d175ae55f458a9cc1?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/68338c3cf03fa8c25f7ffab01db506237b44e60a?source=rss",
       "isAiEnriched": false
     },
     {
@@ -3636,15 +3636,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "高市内閣支持率50％で横ばい(共同通信)",
+      "title": "大阪3歳女児虐待死　全身のあざは50カ所以上　暴行後は別室で1人寝かせたか(産経新聞)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 16:45",
-      "publishedTs": 1794728702,
-      "image": "https://tse2.mm.bing.net/th?q=%E9%AB%98%E5%B8%82%E5%86%85%E9%96%A3%E6%94%AF%E6%8C%81%E7%8E%8750%EF%BC%85%E3%81%A7%E6%A8%AA%E3%81%B0%E3%81%84&w=800&h=450&c=7&rs=1&p=0",
-      "summary": "共同通信世論調査で、高市内閣の支持率は50.4％となり、10月の前回調査より1.3ポイント増えた。不支持率は34.4％だった。",
+      "publishedAt": "2026-11-15 16:55",
+      "publishedTs": 1794729349,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00000101-san-000-1-view.jpg?exp=10800",
+      "summary": "大阪府枚方市で金尾英怜奈（かなおえれな）ちゃん（3）が死亡し、両親が逮捕された事件で、全身に新旧混ざる50カ所以上のあざがあったことが15日、捜査関係者への取材で分かった。殺人容疑で逮捕された父親の…",
       "points": [
         "カテゴリ: 国内・総合の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 16:45）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 16:55）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "国内・総合分野で関心を集めている最新ニュースです。",
@@ -3652,7 +3652,7 @@ window.NEWS_DATA = {
         "国内・総合",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/7617e7633aa1eb2591cc9fa04de87f57183f1f29?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/f6b7a8e11e9aff7d5ef8fc2105776f2e7e2f21a3?source=rss",
       "isAiEnriched": false
     },
     {
@@ -3699,15 +3699,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "entertainment",
-      "title": "久下真以子アナ、出産を報告「金メダルベビー2号爆誕」(テレビ朝日系（ANN）)",
+      "title": "2児の父・パックン 寝起き姿で長女への手作り弁当披露!彩り豊かで栄養満点な仕上がりに「娘さんがうらやましい」「食べたい!」(めざましmedia)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 17:21",
-      "publishedTs": 1794730877,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-90204363-ann-000-1-view.jpg?exp=10800",
-      "summary": "フリーアナウンサーの久下真以子（41）が14日、インスタグラムで、第2子となる男児の出産を報告した。久下は2021年9月に、車いすラグビーの羽賀理之選手（42）との結婚を発表し、24年11月に第1子…",
+      "publishedAt": "2026-11-15 17:23",
+      "publishedTs": 1794730998,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00374012-fujitv-000-1-view.jpg?exp=10800",
+      "summary": "お笑いタレントやコメンテーターとして活躍する、パックンさんが2026年11月11日までに自身のインスタグラムを更新。愛情たっぷりの手作り弁当を公開し、「美味しそう!食べたい!」「娘さんがうらやましい…",
       "points": [
         "カテゴリ: 芸能・エンタメの注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 17:21）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 17:23）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "芸能・エンタメ分野で関心を集めている最新ニュースです。",
@@ -3715,7 +3715,7 @@ window.NEWS_DATA = {
         "芸能・エンタメ",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/21c5e7900f557655ae675d169ac1df0c4d904fa2?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/a30c1eeb580cd8fdb6ffd07d175ae55f458a9cc1?source=rss",
       "isAiEnriched": false
     },
     {
@@ -3742,15 +3742,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "サイバー攻撃への政府対応「遅い」59％(共同通信)",
+      "title": "日中改善へ対話実現が焦点　首相、16日から比と中国を訪問(共同通信)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 16:44",
-      "publishedTs": 1794728690,
-      "image": "https://tse2.mm.bing.net/th?q=%E3%82%B5%E3%82%A4%E3%83%90%E3%83%BC%E6%94%BB%E6%92%83%E3%81%B8%E3%81%AE%E6%94%BF%E5%BA%9C%E5%AF%BE%E5%BF%9C%20%E9%81%85%E3%81%84%2059%EF%BC%85&w=800&h=450&c=7&rs=1&p=0",
-      "summary": "共同通信世論調査で、相次ぐ企業へのサイバー攻撃を受けた政府対応への評価を尋ねたところ「遅い」との回答は59.0％で、「迅速だ」の32.7％を上回った。",
+      "publishedAt": "2026-11-15 16:50",
+      "publishedTs": 1794729033,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00000074-kyodonews-000-3-view.jpg?exp=10800",
+      "summary": "高市早苗首相は16日から東南アジア諸国連合（ASEAN）関連首脳会議やアジア太平洋経済協力会議（APEC）首脳会議に出席するためフィリピン、中国を訪れる。米中、米中ロ3カ国首脳会談が見込まれる中、日…",
       "points": [
         "カテゴリ: 国内・総合の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 16:44）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 16:50）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "国内・総合分野で関心を集めている最新ニュースです。",
@@ -3758,7 +3758,7 @@ window.NEWS_DATA = {
         "国内・総合",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/e24b68ad8339940b8364b14406dccf72707d30e7?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/7d31f1ecbcb5a78e5386ea02e02cb08069e6440e?source=rss",
       "isAiEnriched": false
     },
     {
@@ -3805,15 +3805,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "entertainment",
-      "title": "ラフターラインズがGI制覇→“命名者”にX騒然「この人マジで凄い」「豪運」「馬の見方教えて欲しい」(ENCOUNT)",
+      "title": "久下真以子アナ、出産を報告「金メダルベビー2号爆誕」(テレビ朝日系（ANN）)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 17:20",
-      "publishedTs": 1794730836,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-01098900-encount-000-1-view.jpg?exp=10800",
-      "summary": "中央競馬のGI・エリザベス女王杯（京都競馬場・芝2200メートル）が行われ、武豊の騎乗したラフターラインズ（牝3、小笠）が豪快に差し切り、初のGI勝利を収めた。レース後、ラフターラインズの“命名者”…",
+      "publishedAt": "2026-11-15 17:21",
+      "publishedTs": 1794730877,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-90204363-ann-000-1-view.jpg?exp=10800",
+      "summary": "フリーアナウンサーの久下真以子（41）が14日、インスタグラムで、第2子となる男児の出産を報告した。久下は2021年9月に、車いすラグビーの羽賀理之選手（42）との結婚を発表し、24年11月に第1子…",
       "points": [
         "カテゴリ: 芸能・エンタメの注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 17:20）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 17:21）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "芸能・エンタメ分野で関心を集めている最新ニュースです。",
@@ -3821,7 +3821,7 @@ window.NEWS_DATA = {
         "芸能・エンタメ",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/344ce6a9cad2e9903e084749f58cf280a4df9276?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/21c5e7900f557655ae675d169ac1df0c4d904fa2?source=rss",
       "isAiEnriched": false
     },
     {
@@ -3847,15 +3847,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "政治資金の規制強化優先を67％(共同通信)",
+      "title": "玉木氏、主張確約で賛成も　減税法案の参院採決(共同通信)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 16:43",
-      "publishedTs": 1794728598,
-      "image": "https://tse2.mm.bing.net/th?q=%E6%94%BF%E6%B2%BB%E8%B3%87%E9%87%91%E3%81%AE%E8%A6%8F%E5%88%B6%E5%BC%B7%E5%8C%96%E5%84%AA%E5%85%88%E3%82%9267%EF%BC%85&w=800&h=450&c=7&rs=1&p=0",
-      "summary": "共同通信世論調査で「政治とカネ」問題を巡り、衆院定数削減と政治資金の規制強化のどちらをより優先すべきか尋ねたところ、政治資金の規制強化が67.1％に上った。",
+      "publishedAt": "2026-11-15 16:46",
+      "publishedTs": 1794728771,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00000073-kyodonews-000-2-view.jpg?pri=l&w=479&h=640&exp=10800",
+      "summary": "国民民主党の玉木雄一郎代表は15日、参院で審議中の飲食料品の消費税減税関連法案を巡り、同党が主張する2029年度からの住民税減税の実施が確約されれば、参院採決で賛成に転じる可能性を示した。「賛否を決…",
       "points": [
         "カテゴリ: 国内・総合の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 16:43）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 16:46）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "国内・総合分野で関心を集めている最新ニュースです。",
@@ -3863,7 +3863,7 @@ window.NEWS_DATA = {
         "国内・総合",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/fbd754c4d39b0a2694f1a79a927fac94729f656f?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/1f4e106a9109f1f9a31e260e6975ce573c5d9ac3?source=rss",
       "isAiEnriched": false
     },
     {
@@ -3910,12 +3910,12 @@ window.NEWS_DATA = {
     },
     {
       "category": "entertainment",
-      "title": "プロ雀士になった３２歳女優「小悪魔」「かわいすぎて」佐野ひなこにくぎ付け…美人雀士と“９４年組”ショット公開(スポーツ報知)",
+      "title": "ラフターラインズがGI制覇→“命名者”にX騒然「この人マジで凄い」「豪運」「馬の見方教えて欲しい」(ENCOUNT)",
       "source": "Yahoo!ニュース",
       "publishedAt": "2026-11-15 17:20",
-      "publishedTs": 1794730802,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-11151094-sph-000-1-view.jpg?exp=10800",
-      "summary": "モデルで女優の佐野ひなこ（３２）が１５日までに自身のインスタグラムを更新し、女流プロ雀士でモデルの岡田紗佳との２ショットを公開し、ファンから反響が寄せられてる。【写真】超絶ボディー全開！ウエスト５１…",
+      "publishedTs": 1794730836,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-01098900-encount-000-1-view.jpg?exp=10800",
+      "summary": "中央競馬のGI・エリザベス女王杯（京都競馬場・芝2200メートル）が行われ、武豊の騎乗したラフターラインズ（牝3、小笠）が豪快に差し切り、初のGI勝利を収めた。レース後、ラフターラインズの“命名者”…",
       "points": [
         "カテゴリ: 芸能・エンタメの注目トピック",
         "配信: Yahoo!ニュース トピックス（2026-11-15 17:20）",
@@ -3926,7 +3926,7 @@ window.NEWS_DATA = {
         "芸能・エンタメ",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/56f1b1f3c88e6810fa7eee10200b1cf16f72daee?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/344ce6a9cad2e9903e084749f58cf280a4df9276?source=rss",
       "isAiEnriched": false
     },
     {
@@ -3952,15 +3952,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "消費減税、財政への不安感じる68％(共同通信)",
+      "title": "高市内閣支持率50％で横ばい(共同通信)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 16:42",
-      "publishedTs": 1794728564,
-      "image": "https://tse2.mm.bing.net/th?q=%E6%B6%88%E8%B2%BB%E6%B8%9B%E7%A8%8E%20%E8%B2%A1%E6%94%BF%E3%81%B8%E3%81%AE%E4%B8%8D%E5%AE%89%E6%84%9F%E3%81%98%E3%82%8B68%EF%BC%85&w=800&h=450&c=7&rs=1&p=0",
-      "summary": "共同通信世論調査で、消費税減税による財政への不安を感じるかどうかを尋ねたところ「感じる」「ある程度感じる」が計68.6％となった。",
+      "publishedAt": "2026-11-15 16:45",
+      "publishedTs": 1794728702,
+      "image": "https://tse2.mm.bing.net/th?q=%E9%AB%98%E5%B8%82%E5%86%85%E9%96%A3%E6%94%AF%E6%8C%81%E7%8E%8750%EF%BC%85%E3%81%A7%E6%A8%AA%E3%81%B0%E3%81%84&w=800&h=450&c=7&rs=1&p=0",
+      "summary": "共同通信世論調査で、高市内閣の支持率は50.4％となり、10月の前回調査より1.3ポイント増えた。不支持率は34.4％だった。",
       "points": [
         "カテゴリ: 国内・総合の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 16:42）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 16:45）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "国内・総合分野で関心を集めている最新ニュースです。",
@@ -3968,7 +3968,7 @@ window.NEWS_DATA = {
         "国内・総合",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/fd7184020a0c0c8eef2c94055204e52a2928e1ae?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/7617e7633aa1eb2591cc9fa04de87f57183f1f29?source=rss",
       "isAiEnriched": false
     },
     {
@@ -4015,12 +4015,12 @@ window.NEWS_DATA = {
     },
     {
       "category": "entertainment",
-      "title": "【あすから】ソンジュン＆パク・ヒョンシク、異なる魅力を持つ男性を熱演　韓国ドラマ『上流社会』放送スタート＜キャスト・あらすじ＞(オリコン)",
+      "title": "プロ雀士になった３２歳女優「小悪魔」「かわいすぎて」佐野ひなこにくぎ付け…美人雀士と“９４年組”ショット公開(スポーツ報知)",
       "source": "Yahoo!ニュース",
       "publishedAt": "2026-11-15 17:20",
-      "publishedTs": 1794730800,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00000306-oric-000-1-view.jpg?exp=10800",
-      "summary": "俳優のソンジュン、パク・ヒョンシクらが出演する韓国ドラマ『上流社会』（全16話／2015年）が、あす16日より「アジアドラマチックTV（アジドラ）」で放送される。（毎週月～水曜 24：00～）【場面…",
+      "publishedTs": 1794730802,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-11151094-sph-000-1-view.jpg?exp=10800",
+      "summary": "モデルで女優の佐野ひなこ（３２）が１５日までに自身のインスタグラムを更新し、女流プロ雀士でモデルの岡田紗佳との２ショットを公開し、ファンから反響が寄せられてる。【写真】超絶ボディー全開！ウエスト５１…",
       "points": [
         "カテゴリ: 芸能・エンタメの注目トピック",
         "配信: Yahoo!ニュース トピックス（2026-11-15 17:20）",
@@ -4031,7 +4031,7 @@ window.NEWS_DATA = {
         "芸能・エンタメ",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/fb5be35b6b9183e07c1d7490b4d898521e7b88b3?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/56f1b1f3c88e6810fa7eee10200b1cf16f72daee?source=rss",
       "isAiEnriched": false
     },
     {
@@ -4057,15 +4057,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "減税財源や支援金制度で説明必要85％(共同通信)",
+      "title": "サイバー攻撃への政府対応「遅い」59％(共同通信)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 16:42",
-      "publishedTs": 1794728537,
-      "image": "https://tse2.mm.bing.net/th?q=%E6%B8%9B%E7%A8%8E%E8%B2%A1%E6%BA%90%E3%82%84%E6%94%AF%E6%8F%B4%E9%87%91%E5%88%B6%E5%BA%A6%E3%81%A7%E8%AA%AC%E6%98%8E%E5%BF%85%E8%A6%8185%EF%BC%85&w=800&h=450&c=7&rs=1&p=0",
-      "summary": "共同通信世論調査で、高市早苗首相は消費税減税の具体的な財源や新たな支援金制度の詳細を「説明する必要がある」との回答は85.6％、「必要はない」は12.3％だった。",
+      "publishedAt": "2026-11-15 16:44",
+      "publishedTs": 1794728690,
+      "image": "https://tse2.mm.bing.net/th?q=%E3%82%B5%E3%82%A4%E3%83%90%E3%83%BC%E6%94%BB%E6%92%83%E3%81%B8%E3%81%AE%E6%94%BF%E5%BA%9C%E5%AF%BE%E5%BF%9C%20%E9%81%85%E3%81%84%2059%EF%BC%85&w=800&h=450&c=7&rs=1&p=0",
+      "summary": "共同通信世論調査で、相次ぐ企業へのサイバー攻撃を受けた政府対応への評価を尋ねたところ「遅い」との回答は59.0％で、「迅速だ」の32.7％を上回った。",
       "points": [
         "カテゴリ: 国内・総合の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 16:42）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 16:44）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "国内・総合分野で関心を集めている最新ニュースです。",
@@ -4073,7 +4073,7 @@ window.NEWS_DATA = {
         "国内・総合",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/71434c384915a518187f1aded61c428312d50a95?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/e24b68ad8339940b8364b14406dccf72707d30e7?source=rss",
       "isAiEnriched": false
     },
     {
@@ -4120,15 +4120,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "entertainment",
-      "title": "朝井リョウ＆加藤千恵の「オールナイトニッポン0(ZERO)」が5年連続で復活！11・21に放送(サンケイスポーツ)",
+      "title": "【あすから】ソンジュン＆パク・ヒョンシク、異なる魅力を持つ男性を熱演　韓国ドラマ『上流社会』放送スタート＜キャスト・あらすじ＞(オリコン)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 17:19",
-      "publishedTs": 1794730773,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00000107-sanspo-000-1-view.jpg?exp=10800",
-      "summary": "小説家、朝井リョウ氏と小説家、加藤千恵氏がが21日27時から放送のニッポン放送「朝井リョウと加藤千恵のオールナイトニッポン0(ZERO)」でパーソナリティを務めることが15日、分かった。2015年4…",
+      "publishedAt": "2026-11-15 17:20",
+      "publishedTs": 1794730800,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00000306-oric-000-1-view.jpg?exp=10800",
+      "summary": "俳優のソンジュン、パク・ヒョンシクらが出演する韓国ドラマ『上流社会』（全16話／2015年）が、あす16日より「アジアドラマチックTV（アジドラ）」で放送される。（毎週月～水曜 24：00～）【場面…",
       "points": [
         "カテゴリ: 芸能・エンタメの注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 17:19）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 17:20）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "芸能・エンタメ分野で関心を集めている最新ニュースです。",
@@ -4136,7 +4136,7 @@ window.NEWS_DATA = {
         "芸能・エンタメ",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/555635da4c2cffdc2f648693912b1a97f80b72ef?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/fb5be35b6b9183e07c1d7490b4d898521e7b88b3?source=rss",
       "isAiEnriched": false
     },
     {
@@ -4162,15 +4162,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "消費減税、物価高対策の効果小さい63％(共同通信)",
+      "title": "政治資金の規制強化優先を67％(共同通信)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 16:41",
-      "publishedTs": 1794728494,
-      "image": "https://tse2.mm.bing.net/th?q=%E6%B6%88%E8%B2%BB%E6%B8%9B%E7%A8%8E%20%E7%89%A9%E4%BE%A1%E9%AB%98%E5%AF%BE%E7%AD%96%E3%81%AE%E5%8A%B9%E6%9E%9C%E5%B0%8F%E3%81%95%E3%81%8463%EF%BC%85&w=800&h=450&c=7&rs=1&p=0",
-      "summary": "共同通信社が14、15日に実施した全国電話世論調査によると、飲食料品の消費税減税に関し、物価高対策としての効果が「小さい」との回答は63.5％で、「大きい」の30.9％を上回った。",
+      "publishedAt": "2026-11-15 16:43",
+      "publishedTs": 1794728598,
+      "image": "https://tse2.mm.bing.net/th?q=%E6%94%BF%E6%B2%BB%E8%B3%87%E9%87%91%E3%81%AE%E8%A6%8F%E5%88%B6%E5%BC%B7%E5%8C%96%E5%84%AA%E5%85%88%E3%82%9267%EF%BC%85&w=800&h=450&c=7&rs=1&p=0",
+      "summary": "共同通信世論調査で「政治とカネ」問題を巡り、衆院定数削減と政治資金の規制強化のどちらをより優先すべきか尋ねたところ、政治資金の規制強化が67.1％に上った。",
       "points": [
         "カテゴリ: 国内・総合の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 16:41）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 16:43）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "国内・総合分野で関心を集めている最新ニュースです。",
@@ -4178,7 +4178,7 @@ window.NEWS_DATA = {
         "国内・総合",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/f72043e8370b3614f82a588730481ad8eb1ee555?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/fbd754c4d39b0a2694f1a79a927fac94729f656f?source=rss",
       "isAiEnriched": false
     },
     {
@@ -4225,15 +4225,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "entertainment",
-      "title": "小松彩夏　息子との秋の2ショット公開　リアルな子育てエピ披露で「男の子ママってみんなこんな感じ？」(スポニチアネックス)",
+      "title": "朝井リョウ＆加藤千恵の「オールナイトニッポン0(ZERO)」が5年連続で復活！11・21に放送(サンケイスポーツ)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 17:18",
-      "publishedTs": 1794730728,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00000286-spnannex-000-2-view.jpg?exp=10800",
-      "summary": "結婚を機に仙台に移住した女優の小松彩夏（40）が15日、自身のインスタグラムを更新。息子との2ショットを投稿した。 「息子の体力が無限すぎて毎日公園で何キロ走っているかわかりません笑」とコメントし、…",
+      "publishedAt": "2026-11-15 17:19",
+      "publishedTs": 1794730773,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00000107-sanspo-000-1-view.jpg?exp=10800",
+      "summary": "小説家、朝井リョウ氏と小説家、加藤千恵氏がが21日27時から放送のニッポン放送「朝井リョウと加藤千恵のオールナイトニッポン0(ZERO)」でパーソナリティを務めることが15日、分かった。2015年4…",
       "points": [
         "カテゴリ: 芸能・エンタメの注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 17:18）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 17:19）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "芸能・エンタメ分野で関心を集めている最新ニュースです。",
@@ -4241,7 +4241,7 @@ window.NEWS_DATA = {
         "芸能・エンタメ",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/0f408a80906ae42f2c86ab89e18f2da80eceac75?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/555635da4c2cffdc2f648693912b1a97f80b72ef?source=rss",
       "isAiEnriched": false
     },
     {
@@ -4267,15 +4267,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "19日(木)頃は暴風や高波に警戒　大雨や大雪のおそれも　北海道(日本気象協会tenki.jp)",
+      "title": "消費減税、財政への不安感じる68％(共同通信)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 16:40",
-      "publishedTs": 1794728450,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00037119-tenki-000-1-view.jpg?exp=10800",
-      "summary": "発達する低気圧の接近に伴い、北海道では18日(水)には広く雨が降る見込みです。その後は強い冬型の気圧配置と上空の寒気の影響で21日(土)頃にかけて日本海側を中心に雪が降り、ふぶいたり局地的な大雪とな…",
+      "publishedAt": "2026-11-15 16:42",
+      "publishedTs": 1794728564,
+      "image": "https://tse2.mm.bing.net/th?q=%E6%B6%88%E8%B2%BB%E6%B8%9B%E7%A8%8E%20%E8%B2%A1%E6%94%BF%E3%81%B8%E3%81%AE%E4%B8%8D%E5%AE%89%E6%84%9F%E3%81%98%E3%82%8B68%EF%BC%85&w=800&h=450&c=7&rs=1&p=0",
+      "summary": "共同通信世論調査で、消費税減税による財政への不安を感じるかどうかを尋ねたところ「感じる」「ある程度感じる」が計68.6％となった。",
       "points": [
         "カテゴリ: 国内・総合の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 16:40）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 16:42）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "国内・総合分野で関心を集めている最新ニュースです。",
@@ -4283,7 +4283,7 @@ window.NEWS_DATA = {
         "国内・総合",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/8801009b5ee46bcdf7dc252f2c04c6eb27d96fc3?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/fd7184020a0c0c8eef2c94055204e52a2928e1ae?source=rss",
       "isAiEnriched": false
     },
     {
@@ -4330,12 +4330,12 @@ window.NEWS_DATA = {
     },
     {
       "category": "entertainment",
-      "title": "“飲酒運転で清掃車に衝突”コ・ギョンピョ、運転手の60代職員が負傷(Kstyle)",
+      "title": "小松彩夏　息子との秋の2ショット公開　リアルな子育てエピ披露で「男の子ママってみんなこんな感じ？」(スポニチアネックス)",
       "source": "Yahoo!ニュース",
       "publishedAt": "2026-11-15 17:18",
-      "publishedTs": 1794730698,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00000108-kstylens-000-1-view.jpg?exp=10800",
-      "summary": "俳優コ・ギョンピョが泥酔状態で運転し、清掃車に衝突する事故を起こした中、60代の清掃業者の職員が痛みを訴えていることが分かった。“飲酒運転で衝突事故”コ・ギョンピョの出演映画「元祖×トック屋」配給会…",
+      "publishedTs": 1794730728,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00000286-spnannex-000-2-view.jpg?exp=10800",
+      "summary": "結婚を機に仙台に移住した女優の小松彩夏（40）が15日、自身のインスタグラムを更新。息子との2ショットを投稿した。 「息子の体力が無限すぎて毎日公園で何キロ走っているかわかりません笑」とコメントし、…",
       "points": [
         "カテゴリ: 芸能・エンタメの注目トピック",
         "配信: Yahoo!ニュース トピックス（2026-11-15 17:18）",
@@ -4346,7 +4346,7 @@ window.NEWS_DATA = {
         "芸能・エンタメ",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/6f7ab3a5d646551251bdd4a8ccaa498516b97d4d?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/0f408a80906ae42f2c86ab89e18f2da80eceac75?source=rss",
       "isAiEnriched": false
     },
     {
@@ -4372,15 +4372,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "防衛省、新AI方針策定へ　「実装化と安全確保両立」(共同通信)",
+      "title": "減税財源や支援金制度で説明必要85％(共同通信)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 16:32",
-      "publishedTs": 1794727975,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00000065-kyodonews-000-3-view.jpg?pri=l&w=570&h=640&exp=10800",
-      "summary": "小泉進次郎防衛相は15日、防衛省の人工知能（AI）活用推進基本方針を見直し、新たな「ディフェンスAIビジョン」を今月末にも策定する方針を表明した。陸上自衛隊久里浜駐屯地（神奈川県横須賀市）の創設76…",
+      "publishedAt": "2026-11-15 16:42",
+      "publishedTs": 1794728537,
+      "image": "https://tse2.mm.bing.net/th?q=%E6%B8%9B%E7%A8%8E%E8%B2%A1%E6%BA%90%E3%82%84%E6%94%AF%E6%8F%B4%E9%87%91%E5%88%B6%E5%BA%A6%E3%81%A7%E8%AA%AC%E6%98%8E%E5%BF%85%E8%A6%8185%EF%BC%85&w=800&h=450&c=7&rs=1&p=0",
+      "summary": "共同通信世論調査で、高市早苗首相は消費税減税の具体的な財源や新たな支援金制度の詳細を「説明する必要がある」との回答は85.6％、「必要はない」は12.3％だった。",
       "points": [
         "カテゴリ: 国内・総合の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 16:32）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 16:42）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "国内・総合分野で関心を集めている最新ニュースです。",
@@ -4388,7 +4388,7 @@ window.NEWS_DATA = {
         "国内・総合",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/37b2d61306aace61676e0d1c4ab62fabf2bddcb7?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/71434c384915a518187f1aded61c428312d50a95?source=rss",
       "isAiEnriched": false
     },
     {
@@ -4435,15 +4435,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "entertainment",
-      "title": "田中遊「ライトスタッフ」を踊場海月が上演、演劇と人生の創造を描く(ステージナタリー)",
+      "title": "“飲酒運転で清掃車に衝突”コ・ギョンピョ、運転手の60代職員が負傷(Kstyle)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 17:17",
-      "publishedTs": 1794730630,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00000041-natalies-000-1-view.jpg?exp=10800",
-      "summary": "踊場海月 第3回公演「ライトスタッフ」が来年1月21日から24日まで東京・インディペンデントシアターOjiにて上演される。【画像】踊場海月第3回公演「ライトスタッフ」チラシ裏（他1件）見立てや身体表…",
+      "publishedAt": "2026-11-15 17:18",
+      "publishedTs": 1794730698,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-00000108-kstylens-000-1-view.jpg?exp=10800",
+      "summary": "俳優コ・ギョンピョが泥酔状態で運転し、清掃車に衝突する事故を起こした中、60代の清掃業者の職員が痛みを訴えていることが分かった。“飲酒運転で衝突事故”コ・ギョンピョの出演映画「元祖×トック屋」配給会…",
       "points": [
         "カテゴリ: 芸能・エンタメの注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 17:17）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 17:18）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "芸能・エンタメ分野で関心を集めている最新ニュースです。",
@@ -4451,7 +4451,7 @@ window.NEWS_DATA = {
         "芸能・エンタメ",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/ee985c90d0911984b07aa2dde1c3f08e9af6b60f?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/6f7ab3a5d646551251bdd4a8ccaa498516b97d4d?source=rss",
       "isAiEnriched": false
     },
     {
