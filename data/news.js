@@ -1,9 +1,9 @@
 window.NEWS_DATA = {
   "date": "2026年11月15日 (日)",
-  "updatedAt": "2026-11-15 15:28",
+  "updatedAt": "2026-11-15 15:46",
   "title": "TREND NEWS",
   "keywords": [
-    "きょう近畿や東海で激しい雨…",
+    "首相APEC出席へ 焦点は…",
     "検事の取り調べ AIでチェ…",
     "月収2万円と年金5万円 7…",
     "元≠ME菅波 事務所所属で…",
@@ -14,126 +14,126 @@ window.NEWS_DATA = {
     {
       "name": "札幌",
       "region": "北海道",
-      "temp": 6,
-      "code": 55,
-      "wind": 2,
-      "maxTemp": 8,
-      "minTemp": 1,
-      "pop": 85
+      "temp": 10,
+      "code": 80,
+      "wind": 4,
+      "maxTemp": 10,
+      "minTemp": 4,
+      "pop": 70
     },
     {
       "name": "仙台",
       "region": "東北",
-      "temp": 12,
-      "code": 55,
-      "wind": 5,
-      "maxTemp": 12,
+      "temp": 13,
+      "code": 61,
+      "wind": 4,
+      "maxTemp": 13,
       "minTemp": 11,
-      "pop": 100
+      "pop": 80
     },
     {
       "name": "新潟",
       "region": "北陸",
-      "temp": 14,
-      "code": 53,
-      "wind": 7,
+      "temp": 16,
+      "code": 61,
+      "wind": 4,
       "maxTemp": 16,
-      "minTemp": 14,
-      "pop": 100
+      "minTemp": 11,
+      "pop": 90
     },
     {
       "name": "金沢",
       "region": "北陸",
-      "temp": 17,
+      "temp": 18,
       "code": 61,
       "wind": 4,
-      "maxTemp": 17,
-      "minTemp": 14,
-      "pop": 100
+      "maxTemp": 18,
+      "minTemp": 12,
+      "pop": 90
     },
     {
       "name": "東京",
       "region": "関東",
-      "temp": 11,
-      "code": 55,
-      "wind": 5,
+      "temp": 14,
+      "code": 61,
+      "wind": 4,
       "maxTemp": 14,
-      "minTemp": 11,
-      "pop": 100
+      "minTemp": 13,
+      "pop": 80
     },
     {
       "name": "名古屋",
       "region": "東海",
-      "temp": 14,
-      "code": 51,
-      "wind": 3,
+      "temp": 15,
+      "code": 95,
+      "wind": 4,
       "maxTemp": 15,
       "minTemp": 13,
-      "pop": 100
+      "pop": 90
     },
     {
       "name": "大阪",
       "region": "近畿",
-      "temp": 16,
-      "code": 53,
-      "wind": 2,
-      "maxTemp": 16,
+      "temp": 18,
+      "code": 95,
+      "wind": 4,
+      "maxTemp": 18,
       "minTemp": 14,
-      "pop": 100
+      "pop": 80
     },
     {
       "name": "広島",
       "region": "中国",
       "temp": 20,
-      "code": 1,
-      "wind": 6,
+      "code": 61,
+      "wind": 4,
       "maxTemp": 20,
-      "minTemp": 15,
-      "pop": 100
+      "minTemp": 13,
+      "pop": 40
     },
     {
       "name": "高知",
       "region": "四国",
       "temp": 20,
-      "code": 2,
+      "code": 95,
       "wind": 4,
       "maxTemp": 20,
-      "minTemp": 16,
-      "pop": 100
+      "minTemp": 14,
+      "pop": 20
     },
     {
       "name": "福岡",
       "region": "九州",
       "temp": 20,
-      "code": 3,
-      "wind": 19,
+      "code": 61,
+      "wind": 4,
       "maxTemp": 20,
-      "minTemp": 17,
-      "pop": 100
+      "minTemp": 15,
+      "pop": 30
     },
     {
       "name": "那覇",
       "region": "沖縄",
-      "temp": 25,
-      "code": 1,
-      "wind": 17,
+      "temp": 26,
+      "code": 80,
+      "wind": 4,
       "maxTemp": 26,
       "minTemp": 22,
-      "pop": 100
+      "pop": 20
     }
   ],
   "items": [
     {
       "category": "domestic",
-      "title": "きょう近畿や東海で激しい雨 注意",
+      "title": "首相APEC出席へ 焦点は日中関係",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 08:07",
-      "publishedTs": 1794697647,
-      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/15/e29e16dffd2bc8327543e7cd3ea56f2f8aed8ec20a2ceb337f37a850bd9b4a5d.jpg",
-      "summary": "今日15日(日)は太平洋側を中心に発達した雨雲や雷雲がかかるでしょう。九州や四国は昼前にかけて、近畿は昼過ぎにかけて激しい雨や雷雨になる所がありそうです。東海は昼前から夕方にかけて局地的に激しい雨が…",
+      "publishedAt": "2026-11-15 15:39",
+      "publishedTs": 1794724762,
+      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/15/1a873e7c43d044566dc7de9f227dd220efcf3c60341161d90328bb3096a800f8.jpg",
+      "summary": "高市首相はASEAN＝東南アジア諸国連合の首脳会議に出席するため、16日にフィリピンに向かう。その後、18日にはAPEC＝アジア太平洋経済協力会議の首脳会議が開催される中国・深センに移動する。",
       "points": [
         "カテゴリ: 国内・総合の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 08:07）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 15:39）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "国内・総合分野で関心を集めている最新ニュースです。",
@@ -141,7 +141,7 @@ window.NEWS_DATA = {
         "国内・総合",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/pickup/6602621?source=rss",
+      "url": "https://news.yahoo.co.jp/pickup/6602674?source=rss",
       "isAiEnriched": false
     },
     {
@@ -421,23 +421,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "subculture",
-      "title": "BLのセックスシーンは尊いだけで卑猥ではないんだよね",
-      "source": "anond.hatelabo.jp",
-      "publishedAt": "2026-11-14 23:59",
-      "publishedTs": 1794668379,
-      "image": "https://anond.hatelabo.jp/assets/images/og-image-1500.gif",
-      "summary": "これわかってない男多いのだけれど女性は性欲でBLを見てないってことをいい加減理解した方がいいよ？",
+      "title": "刀剣乱舞界隈の腐女子、ついに「政治や反戦に声をあげない人間は独裁政権と統一教会支持者」という声明を発表。「これが反戦サッカー部でやりたかったことか」「たかがゲームで統一教会ｗｗｗ」",
+      "source": "posfie.com",
+      "publishedAt": "2026-11-15 09:58",
+      "publishedTs": 1794704330,
+      "image": "https://s.tgstc.com/ogp3/9271bd03e0a0e28291e3c61e7d00ffd9-1200x630.jpeg",
+      "summary": "すじこ @sujiko88k あえて言葉強く言います。刀ミュファンでまだ「反戦とか･･･」「政治と離して」とか思ってる人は自身が呑気な独裁支持者で統一教会側だと自覚してください。 博物館の予算減らされてます、大学の人文系を「縮小」と現政権は言ってます、チケ代上がってますね、俳優さん全員徴兵される世代です→…",
       "points": [
         "カテゴリ: サブカルチャーで話題の記事",
-        "引用元: anond.hatelabo.jp（2026-11-14 23:59）",
+        "引用元: posfie.com（2026-11-15 09:58）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "サブカルチャー分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "サブカルチャー",
-        "anond.hatelabo.jp"
+        "posfie.com"
       ],
-      "url": "https://anond.hatelabo.jp/20261114235117",
+      "url": "https://posfie.com/@Acg3C2/p/ioy1XNT",
       "isAiEnriched": false
     },
     {
@@ -484,15 +484,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "再開発が大赤字 大阪・阿倍野の今",
+      "title": "手が出ない 福岡市マンション高騰",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 09:24",
-      "publishedTs": 1794702290,
-      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/15/2fbea6621d30a5ae4bc27f59b6b005e01bc552d5de61b81d79efefb23cd22529.jpg",
-      "summary": "大阪・天王寺駅の南西側に広がる阿倍野地区。大型商業施設「あべのキューズタウン」や高層住宅が立ち並び、近くには観光名所の「あべのハルカス」もある。こうした現在の街並みを形づくったのが、大阪市が約40年…",
+      "publishedAt": "2026-11-15 12:39",
+      "publishedTs": 1794713948,
+      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/15/2cc4d517d4a4333628a2c6bb4ea54c0eb2769e692ca80ec0a25222d29773ee9f.jpg",
+      "summary": "「もとから手が出せないと思っていました」 建設会社に勤める男性（29）は、ろくに価格も見ないまま福岡市内でのマンション購入を諦めた。",
       "points": [
         "カテゴリ: ビジネス・経済の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 09:24）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 12:39）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "ビジネス・経済分野で関心を集めている最新ニュースです。",
@@ -500,7 +500,7 @@ window.NEWS_DATA = {
         "ビジネス・経済",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/pickup/6602629?source=rss",
+      "url": "https://news.yahoo.co.jp/pickup/6602655?source=rss",
       "isAiEnriched": false
     },
     {
@@ -590,15 +590,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "東京で「臭い豚骨」がブーム 背景",
+      "title": "再開発が大赤字 大阪・阿倍野の今",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 10:52",
-      "publishedTs": 1794707560,
-      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/15/e843f03b363e79e64f817fca37544469a200deef1f1f934ac6a213adde6ddb42.jpg",
-      "summary": "福岡のご当地ラーメンと言えば「豚骨ラーメン」である。博多ラーメンや長浜ラーメン、久留米ラーメンなど、白濁した豚骨スープにストレート麺を合わせた豚骨ラーメンは、福岡の人にとってソウルフードならぬ、ソウ…",
+      "publishedAt": "2026-11-15 09:24",
+      "publishedTs": 1794702290,
+      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/15/2fbea6621d30a5ae4bc27f59b6b005e01bc552d5de61b81d79efefb23cd22529.jpg",
+      "summary": "大阪・天王寺駅の南西側に広がる阿倍野地区。大型商業施設「あべのキューズタウン」や高層住宅が立ち並び、近くには観光名所の「あべのハルカス」もある。こうした現在の街並みを形づくったのが、大阪市が約40年…",
       "points": [
         "カテゴリ: ビジネス・経済の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 10:52）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 09:24）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "ビジネス・経済分野で関心を集めている最新ニュースです。",
@@ -606,7 +606,7 @@ window.NEWS_DATA = {
         "ビジネス・経済",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/pickup/6602644?source=rss",
+      "url": "https://news.yahoo.co.jp/pickup/6602629?source=rss",
       "isAiEnriched": false
     },
     {
@@ -696,15 +696,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "子どもの間で「宝石集め」ブーム",
+      "title": "東京で「臭い豚骨」がブーム 背景",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 11:23",
-      "publishedTs": 1794709397,
-      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/15/b9ae6242f3681b6389ff3f2e6e8f74b011b389e627268c131692b5f9a4c8f5f5.jpg",
-      "summary": "かつては“大人の贅沢”の象徴だった宝石。しかし今、その価値観は変わりつつあるのかもしれません。先日行われたアジア大会のeスポーツ「ぷよぷよ」で史上最年少の金メダルを獲得した11歳の栗原悠輝選手が、優…",
+      "publishedAt": "2026-11-15 10:52",
+      "publishedTs": 1794707560,
+      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/15/e843f03b363e79e64f817fca37544469a200deef1f1f934ac6a213adde6ddb42.jpg",
+      "summary": "福岡のご当地ラーメンと言えば「豚骨ラーメン」である。博多ラーメンや長浜ラーメン、久留米ラーメンなど、白濁した豚骨スープにストレート麺を合わせた豚骨ラーメンは、福岡の人にとってソウルフードならぬ、ソウ…",
       "points": [
         "カテゴリ: ビジネス・経済の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 11:23）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 10:52）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "ビジネス・経済分野で関心を集めている最新ニュースです。",
@@ -712,7 +712,7 @@ window.NEWS_DATA = {
         "ビジネス・経済",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/pickup/6602647?source=rss",
+      "url": "https://news.yahoo.co.jp/pickup/6602644?source=rss",
       "isAiEnriched": false
     },
     {
@@ -738,23 +738,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "subculture",
-      "title": "刀剣乱舞界隈の腐女子、ついに「政治や反戦に声をあげない人間は独裁政権と統一教会支持者」という声明を発表。「これが反戦サッカー部でやりたかったことか」「たかがゲームで統一教会ｗｗｗ」",
-      "source": "posfie.com",
-      "publishedAt": "2026-11-15 09:58",
-      "publishedTs": 1794704330,
-      "image": "https://s.tgstc.com/ogp3/9271bd03e0a0e28291e3c61e7d00ffd9-1200x630.jpeg",
-      "summary": "すじこ @sujiko88k あえて言葉強く言います。刀ミュファンでまだ「反戦とか･･･」「政治と離して」とか思ってる人は自身が呑気な独裁支持者で統一教会側だと自覚してください。 博物館の予算減らされてます、大学の人文系を「縮小」と現政権は言ってます、チケ代上がってますね、俳優さん全員徴兵される世代です→…",
+      "title": "BLのセックスシーンは尊いだけで卑猥ではないんだよね",
+      "source": "anond.hatelabo.jp",
+      "publishedAt": "2026-11-14 23:59",
+      "publishedTs": 1794668379,
+      "image": "https://anond.hatelabo.jp/assets/images/og-image-1500.gif",
+      "summary": "これわかってない男多いのだけれど女性は性欲でBLを見てないってことをいい加減理解した方がいいよ？",
       "points": [
         "カテゴリ: サブカルチャーで話題の記事",
-        "引用元: posfie.com（2026-11-15 09:58）",
+        "引用元: anond.hatelabo.jp（2026-11-14 23:59）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "サブカルチャー分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "サブカルチャー",
-        "posfie.com"
+        "anond.hatelabo.jp"
       ],
-      "url": "https://posfie.com/@Acg3C2/p/ioy1XNT",
+      "url": "https://anond.hatelabo.jp/20261114235117",
       "isAiEnriched": false
     },
     {
@@ -801,23 +801,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "米国、NATO加盟と引き換えに領土割譲を提案 ゼレンスキー氏",
-      "source": "afpbb.com",
-      "publishedAt": "2026-11-15 08:22",
-      "publishedTs": 1794698543,
-      "image": "https://afpbb.ismcdn.jp/mwimgs/7/3/1000x/img_73741d7f6ce767c06b1d90c085bb4c0e71011.jpg",
-      "summary": "アイルランドの首都ダブリン郊外で、記者団と話すウクライナのウォロディミル・ゼレンスキー大統領（中央）、スティーブ・ウィトコフ米特使（右）、ジャレッド・クシュナー氏（2026年11月12日撮影）。（c）Paul Faith/AFP 【11月15日 AFP】米国が、ウクライナの北大西洋条約機構（NATO）加盟と…",
+      "title": "子どもの間で「宝石集め」ブーム",
+      "source": "Yahoo!ニュース",
+      "publishedAt": "2026-11-15 11:23",
+      "publishedTs": 1794709397,
+      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/15/b9ae6242f3681b6389ff3f2e6e8f74b011b389e627268c131692b5f9a4c8f5f5.jpg",
+      "summary": "かつては“大人の贅沢”の象徴だった宝石。しかし今、その価値観は変わりつつあるのかもしれません。先日行われたアジア大会のeスポーツ「ぷよぷよ」で史上最年少の金メダルを獲得した11歳の栗原悠輝選手が、優…",
       "points": [
-        "カテゴリ: ビジネス・経済で話題の記事",
-        "引用元: afpbb.com（2026-11-15 08:22）",
-        "「元記事を読む」から本文を確認できます"
+        "カテゴリ: ビジネス・経済の注目トピック",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 11:23）",
+        "「元記事を読む」から詳細を確認できます"
       ],
-      "impact": "ビジネス・経済分野で多くの読者に共有されている注目記事です。",
+      "impact": "ビジネス・経済分野で関心を集めている最新ニュースです。",
       "tags": [
         "ビジネス・経済",
-        "afpbb.com"
+        "Yahoo!ニュース"
       ],
-      "url": "https://www.afpbb.com/articles/-/3662399",
+      "url": "https://news.yahoo.co.jp/pickup/6602647?source=rss",
       "isAiEnriched": false
     },
     {
@@ -907,23 +907,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "ロシアがＮＡＴＯへ「旧共産圏加盟前」まで撤退要求か…ラトビア首相、議論に応じれば「プーチン氏のわなにはまる」",
-      "source": "yomiuri.co.jp",
-      "publishedAt": "2026-11-15 00:14",
-      "publishedTs": 1794669249,
-      "image": "https://www.yomiuri.co.jp/media/2026/11/20261114-GYT1I00255-1.jpg?type=ogp",
-      "summary": "【読売新聞】 米紙ニューヨーク・タイムズ（電子版）は１３日、ウクライナへの侵略を続けるロシアが和平交渉に絡め、北大西洋条約機構（ＮＡＴＯ）に対し、ポーランドやバルト３国など旧共産圏の東欧諸国が加盟する以前の１９９７年の状態まで部隊と…",
+      "title": "米国、NATO加盟と引き換えに領土割譲を提案 ゼレンスキー氏",
+      "source": "afpbb.com",
+      "publishedAt": "2026-11-15 08:22",
+      "publishedTs": 1794698543,
+      "image": "https://afpbb.ismcdn.jp/mwimgs/7/3/1000x/img_73741d7f6ce767c06b1d90c085bb4c0e71011.jpg",
+      "summary": "アイルランドの首都ダブリン郊外で、記者団と話すウクライナのウォロディミル・ゼレンスキー大統領（中央）、スティーブ・ウィトコフ米特使（右）、ジャレッド・クシュナー氏（2026年11月12日撮影）。（c）Paul Faith/AFP 【11月15日 AFP】米国が、ウクライナの北大西洋条約機構（NATO）加盟と…",
       "points": [
         "カテゴリ: ビジネス・経済で話題の記事",
-        "引用元: yomiuri.co.jp（2026-11-15 00:14）",
+        "引用元: afpbb.com（2026-11-15 08:22）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "ビジネス・経済分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "ビジネス・経済",
-        "yomiuri.co.jp"
+        "afpbb.com"
       ],
-      "url": "https://www.yomiuri.co.jp/world/20261114-GYT1T00254/",
+      "url": "https://www.afpbb.com/articles/-/3662399",
       "isAiEnriched": false
     },
     {
@@ -1013,44 +1013,44 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "大阪･阿倍野｢故郷を返してほしい｣の声も…｢インバウンドで復活｣の裏で､再開発が1822億円の大赤字　変貌した街の現在",
-      "source": "toyokeizai.net",
-      "publishedAt": "2026-11-15 08:42",
-      "publishedTs": 1794699732,
-      "image": "https://tk.ismcdn.jp/mwimgs/2/8/1200xm/img_28d2e62e826ce3756a8c9e6285c64f67364295.jpg",
-      "summary": "コンテンツブロックが有効であることを検知しました。 このサイトを利用するには、コンテンツブロック機能（広告ブロック機能を持つ拡張機能等）を無効にしてページを再読み込みしてください。 なお、Microsoft Edgeをご利用のお客様はプライバシー設定が影響している可能性があるため「追跡防止を有効にする」の設…",
+      "title": "ロシアがＮＡＴＯへ「旧共産圏加盟前」まで撤退要求か…ラトビア首相、議論に応じれば「プーチン氏のわなにはまる」",
+      "source": "yomiuri.co.jp",
+      "publishedAt": "2026-11-15 00:14",
+      "publishedTs": 1794669249,
+      "image": "https://www.yomiuri.co.jp/media/2026/11/20261114-GYT1I00255-1.jpg?type=ogp",
+      "summary": "【読売新聞】 米紙ニューヨーク・タイムズ（電子版）は１３日、ウクライナへの侵略を続けるロシアが和平交渉に絡め、北大西洋条約機構（ＮＡＴＯ）に対し、ポーランドやバルト３国など旧共産圏の東欧諸国が加盟する以前の１９９７年の状態まで部隊と…",
       "points": [
         "カテゴリ: ビジネス・経済で話題の記事",
-        "引用元: toyokeizai.net（2026-11-15 08:42）",
+        "引用元: yomiuri.co.jp（2026-11-15 00:14）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "ビジネス・経済分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "ビジネス・経済",
-        "toyokeizai.net"
+        "yomiuri.co.jp"
       ],
-      "url": "https://toyokeizai.net/articles/-/963719",
+      "url": "https://www.yomiuri.co.jp/world/20261114-GYT1T00254/",
       "isAiEnriched": false
     },
     {
       "category": "entertainment",
-      "title": "19時頃上映の映画を観に行ったら5列ほど前にいた男性と二人…開始約30分で男性が退席、10分程で戻りドリンクを差し出され「映画終わったらお話ししませんか？」と言われた",
-      "source": "togetter.com",
-      "publishedAt": "2026-11-14 10:08",
-      "publishedTs": 1794618532,
-      "image": "https://s.tgstc.com/ogp3/6cd0dafd0877c26e9d0d0e2572558ce1-1200x630.jpeg",
-      "summary": "陸奥瑛子 @mairo622 こないだレイトショー観に行ったら、客席は私1人で、貸し切りじゃー！って浮かれてたら、私の5列ほど前に男性が来て、まあそりゃそーよねって思ってるうちに開始時間。 開始30分程で男性客が退席したのでまた、貸し切りじゃー！って浮かれてたら、→ 2026-11-13 15:07:15…",
+      "title": "【国際親善試合】日本がブラジルにW杯のリベンジ達成！2点差を追いつかれるも後半ATに坂元が値千金の勝ち越し弾 - ドメサカブログ",
+      "source": "blog.domesoccer.jp",
+      "publishedAt": "2026-11-15 06:00",
+      "publishedTs": 1794690053,
+      "image": "https://blog.domesoccer.jp/app/wp-content/uploads/2026/11/031-1.jpg?v=1794659558",
+      "summary": "J1 (22,728) 鹿島 (1,560) 水戸 (950) 浦和 (2,034) 千葉 (1,186) 柏 (1,451) F東京 (1,823) 東京V (1,213) 町田 (839) 川崎F (1,529) 横浜FM (1,743) 清水 (1,384) 名古屋 (1,530) 京都 (1,121…",
       "points": [
         "カテゴリ: 芸能・エンタメで話題の記事",
-        "引用元: togetter.com（2026-11-14 10:08）",
+        "引用元: blog.domesoccer.jp（2026-11-15 06:00）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "芸能・エンタメ分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "芸能・エンタメ",
-        "togetter.com"
+        "blog.domesoccer.jp"
       ],
-      "url": "https://togetter.com/li/2770228",
+      "url": "https://blog.domesoccer.jp/archives/60255528.html",
       "isAiEnriched": false
     },
     {
@@ -1118,44 +1118,44 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "わずか4人の造反に自民党内がピリピリ…石破茂と小渕優子があぶり出した｢高市1強｣のほころび",
-      "source": "president.jp",
-      "publishedAt": "2026-11-14 20:36",
-      "publishedTs": 1794656165,
-      "image": "https://president.ismcdn.jp/mwimgs/8/5/1200wm/img_85dec2f841712411312c77aac2d27db81098454.jpg",
-      "summary": "造反した4人への共感 「自民党は1年前まで『財源なき消費減税はあってはならない』と言い続けてきた。1年でくるくる変わるような税制は、慎まなければならない。高市早苗首相は『12月までにはちゃんとする』『心配には及ばない』というが、財源がなかったらどうするのか。どんなことがあっても揺れないのが財政規律だと...",
+      "title": "大阪･阿倍野｢故郷を返してほしい｣の声も…｢インバウンドで復活｣の裏で､再開発が1822億円の大赤字　変貌した街の現在",
+      "source": "toyokeizai.net",
+      "publishedAt": "2026-11-15 08:42",
+      "publishedTs": 1794699732,
+      "image": "https://tk.ismcdn.jp/mwimgs/2/8/1200xm/img_28d2e62e826ce3756a8c9e6285c64f67364295.jpg",
+      "summary": "コンテンツブロックが有効であることを検知しました。 このサイトを利用するには、コンテンツブロック機能（広告ブロック機能を持つ拡張機能等）を無効にしてページを再読み込みしてください。 なお、Microsoft Edgeをご利用のお客様はプライバシー設定が影響している可能性があるため「追跡防止を有効にする」の設…",
       "points": [
         "カテゴリ: ビジネス・経済で話題の記事",
-        "引用元: president.jp（2026-11-14 20:36）",
+        "引用元: toyokeizai.net（2026-11-15 08:42）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "ビジネス・経済分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "ビジネス・経済",
-        "president.jp"
+        "toyokeizai.net"
       ],
-      "url": "https://president.jp/articles/-/122183",
+      "url": "https://toyokeizai.net/articles/-/963719",
       "isAiEnriched": false
     },
     {
       "category": "entertainment",
-      "title": "【国際親善試合】日本がブラジルにW杯のリベンジ達成！2点差を追いつかれるも後半ATに坂元が値千金の勝ち越し弾 - ドメサカブログ",
-      "source": "blog.domesoccer.jp",
-      "publishedAt": "2026-11-15 06:00",
-      "publishedTs": 1794690053,
-      "image": "https://blog.domesoccer.jp/app/wp-content/uploads/2026/11/031-1.jpg?v=1794659558",
-      "summary": "J1 (22,728) 鹿島 (1,560) 水戸 (950) 浦和 (2,034) 千葉 (1,186) 柏 (1,451) F東京 (1,823) 東京V (1,213) 町田 (839) 川崎F (1,529) 横浜FM (1,743) 清水 (1,384) 名古屋 (1,530) 京都 (1,121…",
+      "title": "19時頃上映の映画を観に行ったら5列ほど前にいた男性と二人…開始約30分で男性が退席、10分程で戻りドリンクを差し出され「映画終わったらお話ししませんか？」と言われた",
+      "source": "togetter.com",
+      "publishedAt": "2026-11-14 10:08",
+      "publishedTs": 1794618532,
+      "image": "https://s.tgstc.com/ogp3/6cd0dafd0877c26e9d0d0e2572558ce1-1200x630.jpeg",
+      "summary": "陸奥瑛子 @mairo622 こないだレイトショー観に行ったら、客席は私1人で、貸し切りじゃー！って浮かれてたら、私の5列ほど前に男性が来て、まあそりゃそーよねって思ってるうちに開始時間。 開始30分程で男性客が退席したのでまた、貸し切りじゃー！って浮かれてたら、→ 2026-11-13 15:07:15…",
       "points": [
         "カテゴリ: 芸能・エンタメで話題の記事",
-        "引用元: blog.domesoccer.jp（2026-11-15 06:00）",
+        "引用元: togetter.com（2026-11-14 10:08）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "芸能・エンタメ分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "芸能・エンタメ",
-        "blog.domesoccer.jp"
+        "togetter.com"
       ],
-      "url": "https://blog.domesoccer.jp/archives/60255528.html",
+      "url": "https://togetter.com/li/2770228",
       "isAiEnriched": false
     },
     {
@@ -1224,23 +1224,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "衆院定数削減を共同提出した国民と維新に温度差…国民「１回限り」、維新は「１割削減」の旗を降ろさず",
-      "source": "yomiuri.co.jp",
-      "publishedAt": "2026-11-15 11:28",
-      "publishedTs": 1794709712,
-      "image": "https://www.yomiuri.co.jp/media/2026/11/20261114-GYT1I00376-1.jpg?type=ogpw",
-      "summary": "【読売新聞】 衆院議員定数削減法案を共同提出した国民民主党と日本維新の会との間で今後の削減を巡って温度差が生じている。選挙制度の抜本改革を求める国民民主は、現行制度でのさらなる定数削減には応じない立場だが、維新は「１割削減」の旗を降…",
+      "title": "45都道府県で土木職員の定員割れ、22年の土木職経験者が悲惨な目に遭うことが想定できるとして、なってはいけない職業と語る「夜中の呼び出しがキツい」「仕事が多すぎる」",
+      "source": "togetter.com",
+      "publishedAt": "2026-11-15 15:01",
+      "publishedTs": 1794722463,
+      "image": "https://s.tgstc.com/ogp3/1afaaa23e94e89f3329d6e8fdc1255dc-1200x630.jpeg",
+      "summary": "エミネム @0NsD11KcHW91935 ワイの思った通りの展開になってきている。都道府県でこれだから、市町村なんて0人とか当たり前😂😂 ますます水道、下水道、道路等のインフラの終焉は早まる。。まじで水道なんて20年後には蛇口から出ないんじゃないかな。 土木職員 今春45都道府県定員割れ #Yahooニュ…",
       "points": [
         "カテゴリ: ビジネス・経済で話題の記事",
-        "引用元: yomiuri.co.jp（2026-11-15 11:28）",
+        "引用元: togetter.com（2026-11-15 15:01）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "ビジネス・経済分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "ビジネス・経済",
-        "yomiuri.co.jp"
+        "togetter.com"
       ],
-      "url": "https://www.yomiuri.co.jp/politics/20261114-GYT1T00375/",
+      "url": "https://togetter.com/li/2770658",
       "isAiEnriched": false
     },
     {
@@ -1330,23 +1330,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "45都道府県で土木職員の定員割れ、22年の土木職経験者が悲惨な目に遭うことが想定できるとして、なってはいけない職業と語る「夜中の呼び出しがキツい」「仕事が多すぎる」",
-      "source": "togetter.com",
-      "publishedAt": "2026-11-15 15:01",
-      "publishedTs": 1794722463,
-      "image": "https://s.tgstc.com/ogp3/1afaaa23e94e89f3329d6e8fdc1255dc-1200x630.jpeg",
-      "summary": "エミネム @0NsD11KcHW91935 ワイの思った通りの展開になってきている。都道府県でこれだから、市町村なんて0人とか当たり前😂😂 ますます水道、下水道、道路等のインフラの終焉は早まる。。まじで水道なんて20年後には蛇口から出ないんじゃないかな。 土木職員 今春45都道府県定員割れ #Yahooニュ…",
+      "title": "わずか4人の造反に自民党内がピリピリ…石破茂と小渕優子があぶり出した｢高市1強｣のほころび",
+      "source": "president.jp",
+      "publishedAt": "2026-11-14 20:36",
+      "publishedTs": 1794656165,
+      "image": "https://president.ismcdn.jp/mwimgs/8/5/1200wm/img_85dec2f841712411312c77aac2d27db81098454.jpg",
+      "summary": "造反した4人への共感 「自民党は1年前まで『財源なき消費減税はあってはならない』と言い続けてきた。1年でくるくる変わるような税制は、慎まなければならない。高市早苗首相は『12月までにはちゃんとする』『心配には及ばない』というが、財源がなかったらどうするのか。どんなことがあっても揺れないのが財政規律だと...",
       "points": [
         "カテゴリ: ビジネス・経済で話題の記事",
-        "引用元: togetter.com（2026-11-15 15:01）",
+        "引用元: president.jp（2026-11-14 20:36）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "ビジネス・経済分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "ビジネス・経済",
-        "togetter.com"
+        "president.jp"
       ],
-      "url": "https://togetter.com/li/2770658",
+      "url": "https://president.jp/articles/-/122183",
       "isAiEnriched": false
     },
     {
@@ -1393,15 +1393,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "手が出ない 福岡市マンション高騰",
+      "title": "豊洲の公園にポケカ袋が散乱 波紋",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 12:39",
-      "publishedTs": 1794713948,
-      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/15/2cc4d517d4a4333628a2c6bb4ea54c0eb2769e692ca80ec0a25222d29773ee9f.jpg",
-      "summary": "「もとから手が出せないと思っていました」 建設会社に勤める男性（29）は、ろくに価格も見ないまま福岡市内でのマンション購入を諦めた。",
+      "publishedAt": "2026-11-15 15:24",
+      "publishedTs": 1794723894,
+      "image": "assets/images/news-1.jpg",
+      "summary": "「豊洲の公園にポケカ袋が散乱 波紋」に関する注目ニュースです。詳細は元記事から確認できます。",
       "points": [
         "カテゴリ: 国内・総合の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 12:39）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 15:24）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "国内・総合分野で関心を集めている最新ニュースです。",
@@ -1409,7 +1409,7 @@ window.NEWS_DATA = {
         "国内・総合",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/pickup/6602655?source=rss",
+      "url": "https://news.yahoo.co.jp/pickup/6602672?source=rss",
       "isAiEnriched": false
     },
     {
@@ -1435,23 +1435,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "@RyuichiYoneyama のポスト on Xアメリカ中間選挙の民主党の勝利が敵失なのはその通りでしょうが、今迄嬉々として「リベラルは何故嫌われるか」を語っていた「識者」の方々は、流石に「保守は何故負けたのか」ー例えば①何でもリベラル・外国人のせいで悪口ばかり②経済政策がご都合主義的で相当に不合理ーを語るべきじゃないですかね",
-      "source": "x.com",
-      "publishedAt": "2026-11-14 16:55",
-      "publishedTs": 1794642916,
-      "image": "assets/images/news-5.jpg",
-      "summary": "「@RyuichiYoneyama のポスト on Xアメリカ中間選挙の民主党の勝利が敵失なのはその通りでしょうが、今迄嬉々として「リベラルは何故嫌われるか」を語っていた「識者」の方々は、流石に「保守は何故負けたのか」ー例えば①何でもリベラル・外国人のせいで悪口ばかり②経済政策がご都合主義的で相当に不合理ー…",
+      "title": "衆院定数削減を共同提出した国民と維新に温度差…国民「１回限り」、維新は「１割削減」の旗を降ろさず",
+      "source": "yomiuri.co.jp",
+      "publishedAt": "2026-11-15 11:28",
+      "publishedTs": 1794709712,
+      "image": "https://www.yomiuri.co.jp/media/2026/11/20261114-GYT1I00376-1.jpg?type=ogpw",
+      "summary": "【読売新聞】 衆院議員定数削減法案を共同提出した国民民主党と日本維新の会との間で今後の削減を巡って温度差が生じている。選挙制度の抜本改革を求める国民民主は、現行制度でのさらなる定数削減には応じない立場だが、維新は「１割削減」の旗を降…",
       "points": [
         "カテゴリ: ビジネス・経済で話題の記事",
-        "引用元: x.com（2026-11-14 16:55）",
+        "引用元: yomiuri.co.jp（2026-11-15 11:28）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "ビジネス・経済分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "ビジネス・経済",
-        "x.com"
+        "yomiuri.co.jp"
       ],
-      "url": "https://x.com/RyuichiYoneyama/status/2118146813412966555",
+      "url": "https://www.yomiuri.co.jp/politics/20261114-GYT1T00375/",
       "isAiEnriched": false
     },
     {
@@ -1541,23 +1541,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "沖縄知事選の関連動画、兵庫知事選でも発信のアカウントが推計収益の6割独占　宮城でも活動",
-      "source": "kobe-np.co.jp",
-      "publishedAt": "2026-11-14 23:59",
-      "publishedTs": 1794668343,
-      "image": "https://i.kobe-np.co.jp/news/society/202611/img/a_21030734.jpg",
-      "summary": "９月の沖縄県知事選の関連動画で、ユーチューブの再生回数が上位に入った５０アカウントのうち、１１アカウントは２０２４年の兵庫県知事選でも選挙期間中に関連動画を発信していた。この１１アカウントは、沖縄県知事選での収益を試算した動画３３０本のうち、約３割の９８本を配信。再生回数に応じた収益は推計で最大...",
+      "title": "@RyuichiYoneyama のポスト on Xアメリカ中間選挙の民主党の勝利が敵失なのはその通りでしょうが、今迄嬉々として「リベラルは何故嫌われるか」を語っていた「識者」の方々は、流石に「保守は何故負けたのか」ー例えば①何でもリベラル・外国人のせいで悪口ばかり②経済政策がご都合主義的で相当に不合理ーを語るべきじゃないですかね",
+      "source": "x.com",
+      "publishedAt": "2026-11-14 16:55",
+      "publishedTs": 1794642916,
+      "image": "assets/images/news-5.jpg",
+      "summary": "「@RyuichiYoneyama のポスト on Xアメリカ中間選挙の民主党の勝利が敵失なのはその通りでしょうが、今迄嬉々として「リベラルは何故嫌われるか」を語っていた「識者」の方々は、流石に「保守は何故負けたのか」ー例えば①何でもリベラル・外国人のせいで悪口ばかり②経済政策がご都合主義的で相当に不合理ー…",
       "points": [
         "カテゴリ: ビジネス・経済で話題の記事",
-        "引用元: kobe-np.co.jp（2026-11-14 23:59）",
+        "引用元: x.com（2026-11-14 16:55）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "ビジネス・経済分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "ビジネス・経済",
-        "kobe-np.co.jp"
+        "x.com"
       ],
-      "url": "https://www.kobe-np.co.jp/news/society/202611/0021030732.shtml",
+      "url": "https://x.com/RyuichiYoneyama/status/2118146813412966555",
       "isAiEnriched": false
     },
     {
@@ -1752,23 +1752,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "米国がウクライナによる領土割譲を提案、NATO加盟と引き替えに　ゼレンスキー氏明かす",
-      "source": "cnn.co.jp",
-      "publishedAt": "2026-11-15 09:02",
-      "publishedTs": 1794700944,
-      "image": "https://www.cnn.co.jp/storage/2026/11/15/c231bc54f2354b3f24a24522a6738cda/gettyimages-2289169806.jpg",
-      "summary": "ウクライナ東部ドンバス地方で、対ドローン用の網が設置された主要道路を歩く女性/Scott Peterson/Getty Images （CNN） ウクライナ情勢を巡り、米国側が最近行われた協議の中でウクライナに対し、北大西洋条約機構（NATO）に加盟する見返りとして、東部ドンバス地方をロシアに割譲する案を提…",
+      "title": "沖縄知事選の関連動画、兵庫知事選でも発信のアカウントが推計収益の6割独占　宮城でも活動",
+      "source": "kobe-np.co.jp",
+      "publishedAt": "2026-11-14 23:59",
+      "publishedTs": 1794668343,
+      "image": "https://i.kobe-np.co.jp/news/society/202611/img/a_21030734.jpg",
+      "summary": "９月の沖縄県知事選の関連動画で、ユーチューブの再生回数が上位に入った５０アカウントのうち、１１アカウントは２０２４年の兵庫県知事選でも選挙期間中に関連動画を発信していた。この１１アカウントは、沖縄県知事選での収益を試算した動画３３０本のうち、約３割の９８本を配信。再生回数に応じた収益は推計で最大...",
       "points": [
         "カテゴリ: ビジネス・経済で話題の記事",
-        "引用元: cnn.co.jp（2026-11-15 09:02）",
+        "引用元: kobe-np.co.jp（2026-11-14 23:59）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "ビジネス・経済分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "ビジネス・経済",
-        "cnn.co.jp"
+        "kobe-np.co.jp"
       ],
-      "url": "https://www.cnn.co.jp/world/35254896.html",
+      "url": "https://www.kobe-np.co.jp/news/society/202611/0021030732.shtml",
       "isAiEnriched": false
     },
     {
@@ -1858,23 +1858,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "戦争反対界隈、「先制攻撃を始める前提に自衛隊は成り立ってる」という小泉防衛相の発言捏造を始める。",
-      "source": "posfie.com",
-      "publishedAt": "2026-11-14 17:36",
-      "publishedTs": 1794645388,
-      "image": "https://s.tgstc.com/ogp3/5e5d7dbfda9c2dda6c34f27eece61689-1200x630.jpeg",
-      "summary": "緒方恵美 @Megumi_Ogata 「小泉大臣は先制攻撃とは言ってない」 と仰る方へ。 「米国とイスラエルが先制攻撃を始めなければ(戦争はなかった)」 という言葉を受けて、 「始めないという前提で自衛隊はない」 と答えている段階で、文脈的に仰っているのと同義です。 憲法違反でなく言うとしたら、 「始められ…",
+      "title": "米国がウクライナによる領土割譲を提案、NATO加盟と引き替えに　ゼレンスキー氏明かす",
+      "source": "cnn.co.jp",
+      "publishedAt": "2026-11-15 09:02",
+      "publishedTs": 1794700944,
+      "image": "https://www.cnn.co.jp/storage/2026/11/15/c231bc54f2354b3f24a24522a6738cda/gettyimages-2289169806.jpg",
+      "summary": "ウクライナ東部ドンバス地方で、対ドローン用の網が設置された主要道路を歩く女性/Scott Peterson/Getty Images （CNN） ウクライナ情勢を巡り、米国側が最近行われた協議の中でウクライナに対し、北大西洋条約機構（NATO）に加盟する見返りとして、東部ドンバス地方をロシアに割譲する案を提…",
       "points": [
         "カテゴリ: ビジネス・経済で話題の記事",
-        "引用元: posfie.com（2026-11-14 17:36）",
+        "引用元: cnn.co.jp（2026-11-15 09:02）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "ビジネス・経済分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "ビジネス・経済",
-        "posfie.com"
+        "cnn.co.jp"
       ],
-      "url": "https://posfie.com/@any_k_tg/p/f0gZrzm",
+      "url": "https://www.cnn.co.jp/world/35254896.html",
       "isAiEnriched": false
     },
     {
@@ -1964,23 +1964,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "ネタニヤフ氏、挙国一致政権を再び呼び掛け アイゼンコット氏は拒否",
-      "source": "afpbb.com",
-      "publishedAt": "2026-11-15 10:04",
-      "publishedTs": 1794704670,
-      "image": "https://afpbb.ismcdn.jp/mwimgs/8/0/1000x/img_80b531579989a198a9a048e7afe9fbfb83147.jpg",
-      "summary": "【11月15日 AFP】イスラエルのベンヤミン・ネタニヤフ暫定首相は14日、政敵のガディ・アイゼンコット氏に対し、挙国一致政権の樹立を改めて呼び掛けた。アイゼンコット氏は、策略だとしてこれを退けた。 アイゼンコット氏は8日に首相候補に指名され、政権樹立に向けた交渉を進めている。 ネタニヤフ氏は動画声明で、1…",
+      "title": "戦争反対界隈、「先制攻撃を始める前提に自衛隊は成り立ってる」という小泉防衛相の発言捏造を始める。",
+      "source": "posfie.com",
+      "publishedAt": "2026-11-14 17:36",
+      "publishedTs": 1794645388,
+      "image": "https://s.tgstc.com/ogp3/5e5d7dbfda9c2dda6c34f27eece61689-1200x630.jpeg",
+      "summary": "緒方恵美 @Megumi_Ogata 「小泉大臣は先制攻撃とは言ってない」 と仰る方へ。 「米国とイスラエルが先制攻撃を始めなければ(戦争はなかった)」 という言葉を受けて、 「始めないという前提で自衛隊はない」 と答えている段階で、文脈的に仰っているのと同義です。 憲法違反でなく言うとしたら、 「始められ…",
       "points": [
         "カテゴリ: ビジネス・経済で話題の記事",
-        "引用元: afpbb.com（2026-11-15 10:04）",
+        "引用元: posfie.com（2026-11-14 17:36）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "ビジネス・経済分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "ビジネス・経済",
-        "afpbb.com"
+        "posfie.com"
       ],
-      "url": "https://www.afpbb.com/articles/-/3662402",
+      "url": "https://posfie.com/@any_k_tg/p/f0gZrzm",
       "isAiEnriched": false
     },
     {
@@ -2069,23 +2069,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "米国、26年ぶりに「はしか排除状態」の認定取り消し　ワクチン未接種で感染拡大",
-      "source": "cnn.co.jp",
-      "publishedAt": "2026-11-14 15:47",
-      "publishedTs": 1794638825,
-      "image": "https://www.cnn.co.jp/storage/2026/11/14/b6aea80d1aa133980d8afc1dd771f12b/2026-02-13t111716z-252000037-rc2lgjagqclg-rtrmadp-3-health-usa-measles-spartanburg-20261110112828365.jpg",
-      "summary": "麻疹の感染者の大半は、MMRワクチンを接種していないか、接種状況が不明な人だ/Jayla Whitfield-Anderson/Reuters （CNN） 米国では2000年以降、ワクチン接種の普及により、麻疹（はしか）は継続的に広がる病気としては「排除された」とみなされてきた。だが、この状態は終わりを迎え…",
+      "title": "ネタニヤフ氏、挙国一致政権を再び呼び掛け アイゼンコット氏は拒否",
+      "source": "afpbb.com",
+      "publishedAt": "2026-11-15 10:04",
+      "publishedTs": 1794704670,
+      "image": "https://afpbb.ismcdn.jp/mwimgs/8/0/1000x/img_80b531579989a198a9a048e7afe9fbfb83147.jpg",
+      "summary": "【11月15日 AFP】イスラエルのベンヤミン・ネタニヤフ暫定首相は14日、政敵のガディ・アイゼンコット氏に対し、挙国一致政権の樹立を改めて呼び掛けた。アイゼンコット氏は、策略だとしてこれを退けた。 アイゼンコット氏は8日に首相候補に指名され、政権樹立に向けた交渉を進めている。 ネタニヤフ氏は動画声明で、1…",
       "points": [
         "カテゴリ: ビジネス・経済で話題の記事",
-        "引用元: cnn.co.jp（2026-11-14 15:47）",
+        "引用元: afpbb.com（2026-11-15 10:04）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "ビジネス・経済分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "ビジネス・経済",
-        "cnn.co.jp"
+        "afpbb.com"
       ],
-      "url": "https://www.cnn.co.jp/usa/35254884.html",
+      "url": "https://www.afpbb.com/articles/-/3662402",
       "isAiEnriched": false
     },
     {
@@ -2175,23 +2175,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "2028アメリカ大統領選挙：ろくな候補者がいないんだが……｜女子大生起業家",
-      "source": "note.com",
-      "publishedAt": "2026-11-10 16:49",
-      "publishedTs": 1794296984,
-      "image": "https://assets.st-note.com/production/uploads/images/334405492/rectangle_large_type_2_d0108f86bab27526d4735f52cbd1c9dc.png?fit=bounds&quality=85&width=1280",
-      "summary": "中間選挙について何か書いてくれと言われたのだが、ご存じの通り私はウクライナ応援団なので、10月に入ってロシア宥和的な動きをしていたトランプ政権に対して「普通に負けると思うし、負けろ」というスタンスでやっていて、実際その通りに負けたという印象である。 トランプが輸入を言い出した後「保守派アメリカ人にと...",
+      "title": "米国、26年ぶりに「はしか排除状態」の認定取り消し　ワクチン未接種で感染拡大",
+      "source": "cnn.co.jp",
+      "publishedAt": "2026-11-14 15:47",
+      "publishedTs": 1794638825,
+      "image": "https://www.cnn.co.jp/storage/2026/11/14/b6aea80d1aa133980d8afc1dd771f12b/2026-02-13t111716z-252000037-rc2lgjagqclg-rtrmadp-3-health-usa-measles-spartanburg-20261110112828365.jpg",
+      "summary": "麻疹の感染者の大半は、MMRワクチンを接種していないか、接種状況が不明な人だ/Jayla Whitfield-Anderson/Reuters （CNN） 米国では2000年以降、ワクチン接種の普及により、麻疹（はしか）は継続的に広がる病気としては「排除された」とみなされてきた。だが、この状態は終わりを迎え…",
       "points": [
         "カテゴリ: ビジネス・経済で話題の記事",
-        "引用元: note.com（2026-11-10 16:49）",
+        "引用元: cnn.co.jp（2026-11-14 15:47）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "ビジネス・経済分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "ビジネス・経済",
-        "note.com"
+        "cnn.co.jp"
       ],
-      "url": "https://note.com/seanky/n/n931f0f83030e",
+      "url": "https://www.cnn.co.jp/usa/35254884.html",
       "isAiEnriched": false
     },
     {
@@ -2281,23 +2281,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "日本のAppleことバルミューダ社、高級家電が売れず売上高89億円、最終赤字10億5千万円に下方修正",
-      "source": "gadget2ch.com",
-      "publishedAt": "2026-11-14 07:40",
-      "publishedTs": 1794609629,
-      "image": "https://www.gadget2ch.com/wp-content/uploads/2026/11/78459c3dc69db92f5d9860af3194166a.w960.h960-1-1.jpg-1-1-1-1.webp",
-      "summary": "高級家電ブランド「バルミューダ（BALMUDA）」を展開するバルミューダは11月13日、2026年12月期の通期業績予想を下方修正した。売上高は従来予想の105億円から89億円へと16億円引き下げ、前期比3.8％増の増収予想から一転、同12.0％減の減収となる見通しだ。 利益面も大幅に悪化する。営業損益は従…",
+      "title": "2028アメリカ大統領選挙：ろくな候補者がいないんだが……｜女子大生起業家",
+      "source": "note.com",
+      "publishedAt": "2026-11-10 16:49",
+      "publishedTs": 1794296984,
+      "image": "https://assets.st-note.com/production/uploads/images/334405492/rectangle_large_type_2_d0108f86bab27526d4735f52cbd1c9dc.png?fit=bounds&quality=85&width=1280",
+      "summary": "中間選挙について何か書いてくれと言われたのだが、ご存じの通り私はウクライナ応援団なので、10月に入ってロシア宥和的な動きをしていたトランプ政権に対して「普通に負けると思うし、負けろ」というスタンスでやっていて、実際その通りに負けたという印象である。 トランプが輸入を言い出した後「保守派アメリカ人にと...",
       "points": [
         "カテゴリ: ビジネス・経済で話題の記事",
-        "引用元: gadget2ch.com（2026-11-14 07:40）",
+        "引用元: note.com（2026-11-10 16:49）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "ビジネス・経済分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "ビジネス・経済",
-        "gadget2ch.com"
+        "note.com"
       ],
-      "url": "https://www.gadget2ch.com/archives/post-282583.html",
+      "url": "https://note.com/seanky/n/n931f0f83030e",
       "isAiEnriched": false
     },
     {
@@ -2386,23 +2386,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "【分析】トランプ氏に見切りをつけたバンス氏、28年大統領選に望みつなぐため",
-      "source": "cnn.co.jp",
-      "publishedAt": "2026-11-14 11:55",
-      "publishedTs": 1794624931,
-      "image": "https://www.cnn.co.jp/storage/2026/11/13/92398e2ffe171242f007b94084ff142d/01-2026-10-29t193612z-513432323-rc27doartfwb-rtrmadp-3-usa-vance.jpg",
-      "summary": "テキサス州ウェザーフォードで開かれた中間選挙の集会で、バンス副大統領が演説する様子＝10月29日/Evan Vucci/Reuters （CNN） バンス米副大統領は今月4日、「米国を再び偉大に（MAGA）」の旗の下に集まった支持勢力の惨状を見渡し、2028年大統領選の幕開けとも言える異例のSNS投稿で自身…",
+      "title": "日本のAppleことバルミューダ社、高級家電が売れず売上高89億円、最終赤字10億5千万円に下方修正",
+      "source": "gadget2ch.com",
+      "publishedAt": "2026-11-14 07:40",
+      "publishedTs": 1794609629,
+      "image": "https://www.gadget2ch.com/wp-content/uploads/2026/11/78459c3dc69db92f5d9860af3194166a.w960.h960-1-1.jpg-1-1-1-1.webp",
+      "summary": "高級家電ブランド「バルミューダ（BALMUDA）」を展開するバルミューダは11月13日、2026年12月期の通期業績予想を下方修正した。売上高は従来予想の105億円から89億円へと16億円引き下げ、前期比3.8％増の増収予想から一転、同12.0％減の減収となる見通しだ。 利益面も大幅に悪化する。営業損益は従…",
       "points": [
         "カテゴリ: ビジネス・経済で話題の記事",
-        "引用元: cnn.co.jp（2026-11-14 11:55）",
+        "引用元: gadget2ch.com（2026-11-14 07:40）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "ビジネス・経済分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "ビジネス・経済",
-        "cnn.co.jp"
+        "gadget2ch.com"
       ],
-      "url": "https://www.cnn.co.jp/usa/35254865.html",
+      "url": "https://www.gadget2ch.com/archives/post-282583.html",
       "isAiEnriched": false
     },
     {
@@ -2492,23 +2492,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "戦争に疲れても…トランプ氏の「停戦」に反発　ウクライナ人の心の内：朝日新聞",
-      "source": "digital.asahi.com",
-      "publishedAt": "2026-11-14 17:50",
-      "publishedTs": 1794646220,
-      "image": "https://imgopt.asahi.com/ogp/AS20261110003379_comm.jpg",
-      "summary": "みなさん、こんにちは。ニュースレターや記者アカウントにお寄せいただく感想や応援のメッセージに、いつも大変力づけられています。 その中に、こんな質問がありました（文章は少し手直ししています）。 「ウクライナの人々は、ゼレンスキー大統領に何を思っているのでしょうか」 「ウクライナの人たちは、終わらない戦...",
+      "title": "【分析】トランプ氏に見切りをつけたバンス氏、28年大統領選に望みつなぐため",
+      "source": "cnn.co.jp",
+      "publishedAt": "2026-11-14 11:55",
+      "publishedTs": 1794624931,
+      "image": "https://www.cnn.co.jp/storage/2026/11/13/92398e2ffe171242f007b94084ff142d/01-2026-10-29t193612z-513432323-rc27doartfwb-rtrmadp-3-usa-vance.jpg",
+      "summary": "テキサス州ウェザーフォードで開かれた中間選挙の集会で、バンス副大統領が演説する様子＝10月29日/Evan Vucci/Reuters （CNN） バンス米副大統領は今月4日、「米国を再び偉大に（MAGA）」の旗の下に集まった支持勢力の惨状を見渡し、2028年大統領選の幕開けとも言える異例のSNS投稿で自身…",
       "points": [
         "カテゴリ: ビジネス・経済で話題の記事",
-        "引用元: digital.asahi.com（2026-11-14 17:50）",
+        "引用元: cnn.co.jp（2026-11-14 11:55）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "ビジネス・経済分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "ビジネス・経済",
-        "digital.asahi.com"
+        "cnn.co.jp"
       ],
-      "url": "https://digital.asahi.com/sp/articles/ASVCB33QHVCBUHBI00BM.html?ptoken=01M7CESWQ2280FMGXFQHVAK603",
+      "url": "https://www.cnn.co.jp/usa/35254865.html",
       "isAiEnriched": false
     },
     {
@@ -2556,23 +2556,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "フェミニズムが社会に浸透した結果",
-      "source": "anond.hatelabo.jp",
-      "publishedAt": "2026-11-14 23:14",
-      "publishedTs": 1794665691,
-      "image": "https://anond.hatelabo.jp/assets/images/og-image-1500.gif",
-      "summary": "男は女を養わなくなった。 男も女に経済力や甲斐性を要求して当たり前、女も働いて当たり前の価値観になった。 何だ、フェミニズムって男にとっても素晴らしいことではないか。",
+      "title": "部門長まで上り詰めたグーグル米本社を55歳でクビに…掛け持ちバイトで月収80万円、「以前より少ない」とぼやくが、老後の不安は消えたワケ（THE GOLD ONLINE（ゴールドオンライン）） - Yahoo!ニュース",
+      "source": "news.yahoo.co.jp",
+      "publishedAt": "2026-11-15 13:28",
+      "publishedTs": 1794716898,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261028-00082683-gonline-000-1-view.jpg?exp=10800",
+      "summary": "（※画像はイメージです／PIXTA）（ゴールドオンライン）モトローラやイーライリリーを経てグーグルで16年間勤め、米国本社で部門長まで上り詰めたロイス・キム氏。30年におよぶキャリアの絶頂期にあった55歳のある朝、彼女は突然の解雇を宣告されます。グーグルから放り出された彼女は、この期間を「ギャップイヤー」と…",
       "points": [
         "カテゴリ: 国内・総合で話題の記事",
-        "引用元: anond.hatelabo.jp（2026-11-14 23:14）",
+        "引用元: news.yahoo.co.jp（2026-11-15 13:28）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "国内・総合分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "国内・総合",
-        "anond.hatelabo.jp"
+        "news.yahoo.co.jp"
       ],
-      "url": "https://anond.hatelabo.jp/20261114231126",
+      "url": "https://news.yahoo.co.jp/articles/09d74208ad2103cdb06398a86188d12793299a60",
       "isAiEnriched": false
     },
     {
@@ -2598,23 +2598,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "高市首相「会議に出たくない」ムーブ被害者たちの困惑国際。国際会議を欠席しまくる総理の言い逃れ乱舞、実は昔から？...（週プレNEWS） - Yahoo!ニュース",
-      "source": "news.yahoo.co.jp",
-      "publishedAt": "2026-11-14 12:44",
-      "publishedTs": 1794627898,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261114-01335390-playboyz-000-1-view.jpg?exp=10800",
-      "summary": "「高市首相「会議に出たくない」ムーブ被害者たちの困惑国際。国際会議を欠席しまくる総理の言い逃れ乱舞、実は昔から？...（週プレNEWS） - Yahoo!ニュース」に関する注目ニュースです。詳細は元記事から確認できます。",
+      "title": "戦争に疲れても…トランプ氏の「停戦」に反発　ウクライナ人の心の内：朝日新聞",
+      "source": "digital.asahi.com",
+      "publishedAt": "2026-11-14 17:50",
+      "publishedTs": 1794646220,
+      "image": "https://imgopt.asahi.com/ogp/AS20261110003379_comm.jpg",
+      "summary": "みなさん、こんにちは。ニュースレターや記者アカウントにお寄せいただく感想や応援のメッセージに、いつも大変力づけられています。 その中に、こんな質問がありました（文章は少し手直ししています）。 「ウクライナの人々は、ゼレンスキー大統領に何を思っているのでしょうか」 「ウクライナの人たちは、終わらない戦...",
       "points": [
         "カテゴリ: ビジネス・経済で話題の記事",
-        "引用元: news.yahoo.co.jp（2026-11-14 12:44）",
+        "引用元: digital.asahi.com（2026-11-14 17:50）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "ビジネス・経済分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "ビジネス・経済",
-        "news.yahoo.co.jp"
+        "digital.asahi.com"
       ],
-      "url": "https://news.yahoo.co.jp/articles/7244d0a7f5aebc73fd103ca25c98787fb7e35313",
+      "url": "https://digital.asahi.com/sp/articles/ASVCB33QHVCBUHBI00BM.html?ptoken=01M7CESWQ2280FMGXFQHVAK603",
       "isAiEnriched": false
     },
     {
@@ -2661,23 +2661,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "農地がホテルや住宅に変わる　312市町村で1割超消失、細る食料基盤 - 日本経済新聞",
-      "source": "nikkei.com",
-      "publishedAt": "2026-11-15 02:10",
-      "publishedTs": 1794676236,
-      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3805800030102026000000-4.jpg?auto=compress&bg=FFFF&crop=focalpoint&fit=crop&fm=jpg&h=630&w=1200&s=18f66b4251ac825002ced605101f0862",
-      "summary": "日本の食料生産基盤が細っている。日本経済新聞が全国の農地転用の状況を調べると、過去15年間に312市町村で農地の1割超が転用されていた。担い手不足も重なり、安い田畑がホテルや住宅に姿を変えている。食料生産力を高めるには、国や自治体が過度な転用の防止策を講じる必要が出てきた。「開発業者3社から話」富士山を...",
+      "title": "フェミニズムが社会に浸透した結果",
+      "source": "anond.hatelabo.jp",
+      "publishedAt": "2026-11-14 23:14",
+      "publishedTs": 1794665691,
+      "image": "https://anond.hatelabo.jp/assets/images/og-image-1500.gif",
+      "summary": "男は女を養わなくなった。 男も女に経済力や甲斐性を要求して当たり前、女も働いて当たり前の価値観になった。 何だ、フェミニズムって男にとっても素晴らしいことではないか。",
       "points": [
         "カテゴリ: 国内・総合で話題の記事",
-        "引用元: nikkei.com（2026-11-15 02:10）",
+        "引用元: anond.hatelabo.jp（2026-11-14 23:14）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "国内・総合分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "国内・総合",
-        "nikkei.com"
+        "anond.hatelabo.jp"
       ],
-      "url": "https://www.nikkei.com/article/DGXZQOUE216VA0R21C26A0000000/",
+      "url": "https://anond.hatelabo.jp/20261114231126",
       "isAiEnriched": false
     },
     {
@@ -2703,23 +2703,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "高市首相「会議に出たくない」ムーブ被害者たちの困惑国際。国際会議を欠席しまくる総理の言い逃れ乱舞、実は昔から？...",
-      "source": "wpb.shueisha.co.jp",
-      "publishedAt": "2026-11-14 09:05",
-      "publishedTs": 1794614757,
-      "image": "assets/images/news-5.jpg",
-      "summary": "週プレNEWS TOP新着ニュース政治・国際ニュース高市首相「会議に出たくない」ムーブ被害者たちの困惑国際。国際会議を欠席しまくる総理の言い逃れ乱舞、実は昔から？... ドタキャンを繰り返してきた高市早苗首相 米中露のトップが参加するAPEC（アジア太平洋経済協力会議）首脳会議が11月18日から開催されるが…",
+      "title": "高市首相「会議に出たくない」ムーブ被害者たちの困惑国際。国際会議を欠席しまくる総理の言い逃れ乱舞、実は昔から？...（週プレNEWS） - Yahoo!ニュース",
+      "source": "news.yahoo.co.jp",
+      "publishedAt": "2026-11-14 12:44",
+      "publishedTs": 1794627898,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261114-01335390-playboyz-000-1-view.jpg?exp=10800",
+      "summary": "「高市首相「会議に出たくない」ムーブ被害者たちの困惑国際。国際会議を欠席しまくる総理の言い逃れ乱舞、実は昔から？...（週プレNEWS） - Yahoo!ニュース」に関する注目ニュースです。詳細は元記事から確認できます。",
       "points": [
         "カテゴリ: ビジネス・経済で話題の記事",
-        "引用元: wpb.shueisha.co.jp（2026-11-14 09:05）",
+        "引用元: news.yahoo.co.jp（2026-11-14 12:44）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "ビジネス・経済分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "ビジネス・経済",
-        "wpb.shueisha.co.jp"
+        "news.yahoo.co.jp"
       ],
-      "url": "https://wpb.shueisha.co.jp/news/politics/20261114-133539/",
+      "url": "https://news.yahoo.co.jp/articles/7244d0a7f5aebc73fd103ca25c98787fb7e35313",
       "isAiEnriched": false
     },
     {
@@ -2766,65 +2766,65 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "部門長まで上り詰めたグーグル米本社を55歳でクビに…掛け持ちバイトで月収80万円、「以前より少ない」とぼやくが、老後の不安は消えたワケ（THE GOLD ONLINE（ゴールドオンライン）） - Yahoo!ニュース",
-      "source": "news.yahoo.co.jp",
-      "publishedAt": "2026-11-15 13:28",
-      "publishedTs": 1794716898,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261028-00082683-gonline-000-1-view.jpg?exp=10800",
-      "summary": "（※画像はイメージです／PIXTA）（ゴールドオンライン）モトローラやイーライリリーを経てグーグルで16年間勤め、米国本社で部門長まで上り詰めたロイス・キム氏。30年におよぶキャリアの絶頂期にあった55歳のある朝、彼女は突然の解雇を宣告されます。グーグルから放り出された彼女は、この期間を「ギャップイヤー」と…",
+      "title": "農地がホテルや住宅に変わる　312市町村で1割超消失、細る食料基盤 - 日本経済新聞",
+      "source": "nikkei.com",
+      "publishedAt": "2026-11-15 02:10",
+      "publishedTs": 1794676236,
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3805800030102026000000-4.jpg?auto=compress&bg=FFFF&crop=focalpoint&fit=crop&fm=jpg&h=630&w=1200&s=18f66b4251ac825002ced605101f0862",
+      "summary": "日本の食料生産基盤が細っている。日本経済新聞が全国の農地転用の状況を調べると、過去15年間に312市町村で農地の1割超が転用されていた。担い手不足も重なり、安い田畑がホテルや住宅に姿を変えている。食料生産力を高めるには、国や自治体が過度な転用の防止策を講じる必要が出てきた。「開発業者3社から話」富士山を...",
       "points": [
         "カテゴリ: 国内・総合で話題の記事",
-        "引用元: news.yahoo.co.jp（2026-11-15 13:28）",
+        "引用元: nikkei.com（2026-11-15 02:10）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "国内・総合分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "国内・総合",
-        "news.yahoo.co.jp"
+        "nikkei.com"
       ],
-      "url": "https://news.yahoo.co.jp/articles/09d74208ad2103cdb06398a86188d12793299a60",
+      "url": "https://www.nikkei.com/article/DGXZQOUE216VA0R21C26A0000000/",
       "isAiEnriched": false
     },
     {
       "category": "tech",
-      "title": "「すげぇ！教科書とかで見たフロッピーや！！これで容量どれくらいあるんですか？」若者のほのぼのとした感想がぶっ刺さるネット民",
-      "source": "togetter.com",
-      "publishedAt": "2026-11-14 21:54",
-      "publishedTs": 1794660853,
-      "image": "https://s.tgstc.com/ogp3/54892bba0fd3c6ad84afa397226a52c4-1200x630.jpeg",
-      "summary": "しー@園芸博NEXT！ @Sh_i0916 すげぇ！！！ フロッピーや！！ フロッピーや！！！ 教科書とかで見たフロッピーや！！ 初めて触ったかも！！ うっす！！！！ かるっ！！！！！ すげぇ！！ これで容量どれくらいあるんですか？ #フロッピー #富士通 pic.x.com/Ofx3uVhKaf 2026…",
+      "title": "AI悪用の攻撃拠点、千台発見　サイトの弱点探索、不正侵入疑い",
+      "source": "47news.jp",
+      "publishedAt": "2026-11-14 23:55",
+      "publishedTs": 1794668147,
+      "image": "https://img.cf.47news.jp/public/photo/9ef83e68fcd797b3c447d8ad2edc6cd0/photo.jpg",
+      "summary": "高性能な人工知能（AI）を悪用したサイバー攻撃の拠点と疑われるサーバーが10月以降、世界のインターネット上に少なくとも千台前後存在していることが14日、分かった。日本の情報セキュリティー専門機関が海外企業と連携した国際的調査で判明した。国内外のウェブサイトを標的としてAIを使って弱点を探索し、不正侵入を...",
       "points": [
         "カテゴリ: テクノロジー・AIで話題の記事",
-        "引用元: togetter.com（2026-11-14 21:54）",
+        "引用元: 47news.jp（2026-11-14 23:55）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "テクノロジー・AI分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "テクノロジー・AI",
-        "togetter.com"
+        "47news.jp"
       ],
-      "url": "https://togetter.com/li/2770437",
+      "url": "https://www.47news.jp/15231027.html",
       "isAiEnriched": false
     },
     {
       "category": "business",
-      "title": "XユーザーのChina Tips by myokoiさん: 「APEC首脳会議で高市が冷遇されると、「日本政府は抗議を行う」というAPECでの参加条件を、日本政府は文書で中国政府に突き付けたらしい。 中国メディアが報じている 特にカメラの前では、高市が「冷遇されている」に見えるようにしてはならない、としたという」 / X",
-      "source": "x.com",
-      "publishedAt": "2026-11-13 02:48",
-      "publishedTs": 1794505711,
-      "image": "assets/images/news-6.jpg",
-      "summary": "「XユーザーのChina Tips by myokoiさん: 「APEC首脳会議で高市が冷遇されると、「日本政府は抗議を行う」というAPECでの参加条件を、日本政府は文書で中国政府に突き付けたらしい。 中国メディアが報じている 特にカメラの前では、高市が「冷遇されている」に見えるようにしてはならない、とした…",
+      "title": "高市首相「会議に出たくない」ムーブ被害者たちの困惑国際。国際会議を欠席しまくる総理の言い逃れ乱舞、実は昔から？...",
+      "source": "wpb.shueisha.co.jp",
+      "publishedAt": "2026-11-14 09:05",
+      "publishedTs": 1794614757,
+      "image": "assets/images/news-5.jpg",
+      "summary": "週プレNEWS TOP新着ニュース政治・国際ニュース高市首相「会議に出たくない」ムーブ被害者たちの困惑国際。国際会議を欠席しまくる総理の言い逃れ乱舞、実は昔から？... ドタキャンを繰り返してきた高市早苗首相 米中露のトップが参加するAPEC（アジア太平洋経済協力会議）首脳会議が11月18日から開催されるが…",
       "points": [
         "カテゴリ: ビジネス・経済で話題の記事",
-        "引用元: x.com（2026-11-13 02:48）",
+        "引用元: wpb.shueisha.co.jp（2026-11-14 09:05）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "ビジネス・経済分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "ビジネス・経済",
-        "x.com"
+        "wpb.shueisha.co.jp"
       ],
-      "url": "https://x.com/myokoi1962/status/2120730582451995069",
+      "url": "https://wpb.shueisha.co.jp/news/politics/20261114-133539/",
       "isAiEnriched": false
     },
     {
@@ -2892,44 +2892,44 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "AI悪用の攻撃拠点、千台発見　サイトの弱点探索、不正侵入疑い",
-      "source": "47news.jp",
-      "publishedAt": "2026-11-14 23:55",
-      "publishedTs": 1794668147,
-      "image": "https://img.cf.47news.jp/public/photo/9ef83e68fcd797b3c447d8ad2edc6cd0/photo.jpg",
-      "summary": "高性能な人工知能（AI）を悪用したサイバー攻撃の拠点と疑われるサーバーが10月以降、世界のインターネット上に少なくとも千台前後存在していることが14日、分かった。日本の情報セキュリティー専門機関が海外企業と連携した国際的調査で判明した。国内外のウェブサイトを標的としてAIを使って弱点を探索し、不正侵入を...",
+      "title": "「すげぇ！教科書とかで見たフロッピーや！！これで容量どれくらいあるんですか？」若者のほのぼのとした感想がぶっ刺さるネット民",
+      "source": "togetter.com",
+      "publishedAt": "2026-11-14 21:54",
+      "publishedTs": 1794660853,
+      "image": "https://s.tgstc.com/ogp3/54892bba0fd3c6ad84afa397226a52c4-1200x630.jpeg",
+      "summary": "しー@園芸博NEXT！ @Sh_i0916 すげぇ！！！ フロッピーや！！ フロッピーや！！！ 教科書とかで見たフロッピーや！！ 初めて触ったかも！！ うっす！！！！ かるっ！！！！！ すげぇ！！ これで容量どれくらいあるんですか？ #フロッピー #富士通 pic.x.com/Ofx3uVhKaf 2026…",
       "points": [
         "カテゴリ: テクノロジー・AIで話題の記事",
-        "引用元: 47news.jp（2026-11-14 23:55）",
+        "引用元: togetter.com（2026-11-14 21:54）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "テクノロジー・AI分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "テクノロジー・AI",
-        "47news.jp"
+        "togetter.com"
       ],
-      "url": "https://www.47news.jp/15231027.html",
+      "url": "https://togetter.com/li/2770437",
       "isAiEnriched": false
     },
     {
       "category": "business",
-      "title": "ロシア首都で車爆発、ウクライナ親ロ派政治家の元側近が負傷　前日にも爆発で軍人死亡",
-      "source": "cnn.co.jp",
-      "publishedAt": "2026-11-14 09:49",
-      "publishedTs": 1794617372,
-      "image": "https://www.cnn.co.jp/storage/2026/11/14/32e24106920548bae1b4f533390d39cf/gettyimages-2304388903.jpg",
-      "summary": "（CNN） ロシア首都モスクワ南部で13日、車が爆発し、ウクライナの親ロシア派政治家の元側近が負傷した。ロシアでこうした襲撃とみられる事件が起きるのは2日連続。 ロシア連邦捜査委員会のモスクワ支部は声明で、負傷した男性は治療を受けるため、市内の病院に搬送されたと明らかにした。この男性は親ロシア派のウクラ...",
+      "title": "XユーザーのChina Tips by myokoiさん: 「APEC首脳会議で高市が冷遇されると、「日本政府は抗議を行う」というAPECでの参加条件を、日本政府は文書で中国政府に突き付けたらしい。 中国メディアが報じている 特にカメラの前では、高市が「冷遇されている」に見えるようにしてはならない、としたという」 / X",
+      "source": "x.com",
+      "publishedAt": "2026-11-13 02:48",
+      "publishedTs": 1794505711,
+      "image": "assets/images/news-6.jpg",
+      "summary": "「XユーザーのChina Tips by myokoiさん: 「APEC首脳会議で高市が冷遇されると、「日本政府は抗議を行う」というAPECでの参加条件を、日本政府は文書で中国政府に突き付けたらしい。 中国メディアが報じている 特にカメラの前では、高市が「冷遇されている」に見えるようにしてはならない、とした…",
       "points": [
         "カテゴリ: ビジネス・経済で話題の記事",
-        "引用元: cnn.co.jp（2026-11-14 09:49）",
+        "引用元: x.com（2026-11-13 02:48）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "ビジネス・経済分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "ビジネス・経済",
-        "cnn.co.jp"
+        "x.com"
       ],
-      "url": "https://www.cnn.co.jp/world/35254877.html",
+      "url": "https://x.com/myokoi1962/status/2120730582451995069",
       "isAiEnriched": false
     },
     {
@@ -3018,23 +3018,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "米国務長官、ICCに警告「剣を帯びる者に法律を説くのはやめろ」",
-      "source": "afpbb.com",
-      "publishedAt": "2026-11-14 09:39",
-      "publishedTs": 1794616795,
-      "image": "https://afpbb.ismcdn.jp/mwimgs/9/3/1000x/img_93d74da810771456230942dc3857fd8f70358.jpg",
-      "summary": "【11月14日 AFP】マルコ・ルビオ米国務長官は13日、国際法が「武器化」され、エリート層の道具になっていると批判するとともに、国際刑事裁判所（ICC）に強い警告を発した。 ルビオ氏は、オランダ・ハーグに本部を置くICCが米国の認めていない規則を強制しようとしていると非難し、「剣を帯びる者に法律を説く」こ…",
+      "title": "ロシア首都で車爆発、ウクライナ親ロ派政治家の元側近が負傷　前日にも爆発で軍人死亡",
+      "source": "cnn.co.jp",
+      "publishedAt": "2026-11-14 09:49",
+      "publishedTs": 1794617372,
+      "image": "https://www.cnn.co.jp/storage/2026/11/14/32e24106920548bae1b4f533390d39cf/gettyimages-2304388903.jpg",
+      "summary": "（CNN） ロシア首都モスクワ南部で13日、車が爆発し、ウクライナの親ロシア派政治家の元側近が負傷した。ロシアでこうした襲撃とみられる事件が起きるのは2日連続。 ロシア連邦捜査委員会のモスクワ支部は声明で、負傷した男性は治療を受けるため、市内の病院に搬送されたと明らかにした。この男性は親ロシア派のウクラ...",
       "points": [
         "カテゴリ: ビジネス・経済で話題の記事",
-        "引用元: afpbb.com（2026-11-14 09:39）",
+        "引用元: cnn.co.jp（2026-11-14 09:49）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "ビジネス・経済分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "ビジネス・経済",
-        "afpbb.com"
+        "cnn.co.jp"
       ],
-      "url": "https://www.afpbb.com/articles/-/3662364",
+      "url": "https://www.cnn.co.jp/world/35254877.html",
       "isAiEnriched": false
     },
     {
@@ -3081,23 +3081,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "「二度と造れない車両」　新観光列車「赤い星」公開、ラウンジや畳敷き茶室も　JR北海道",
-      "source": "sankei.com",
-      "publishedAt": "2026-11-15 00:41",
-      "publishedTs": 1794670913,
-      "image": "https://www.sankei.com/resizer/v2/BTD3EUDKBZJMXGJJDHQJ6IK7CY.jpg?auth=62ea80c6aa68a7acb1132b34f3c2cc7b4f24bd978af527454adf1c23defa7b09&quality=50&focal=1064%2C1052&width=1200&height=675",
-      "summary": "ただいまメンテナンス中です メンテナンスのため、会員のログイン機能を一時停止しております。メンテナンス終了までメールマガジンの配信も停止します。 ユーザーの皆様にはご迷惑をおかけいたしますが、何卒ご理解のほどよろしくお願いいたします。",
+      "title": "厳格化する外国人政策に疑問…直木賞作家・中島京子さんが説く「反うわさ戦略」とは：東京新聞デジタル",
+      "source": "tokyo-np.co.jp",
+      "publishedAt": "2026-11-15 09:24",
+      "publishedTs": 1794702280,
+      "image": "https://static.tokyo-np.co.jp/image/article/size1/f/d/1/c/fd1c840e5afe79a654fe41c654324efe_1.jpg",
+      "summary": "小説『やさしい猫』（中央公論新社）で入管政策の現実を描いた直木賞作家の中島京子さんが、このほど日本ペンクラブで講演し、厳格化する政府の姿勢に疑問を投げかけた。",
       "points": [
         "カテゴリ: 国内・総合で話題の記事",
-        "引用元: sankei.com（2026-11-15 00:41）",
+        "引用元: tokyo-np.co.jp（2026-11-15 09:24）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "国内・総合分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "国内・総合",
-        "sankei.com"
+        "tokyo-np.co.jp"
       ],
-      "url": "https://www.sankei.com/article/20261114-MBDYXQK3QZK5BPHZTMY6R75TGE/",
+      "url": "https://www.tokyo-np.co.jp/article/526208",
       "isAiEnriched": false
     },
     {
@@ -3123,23 +3123,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "50年住宅ローン、始まった融資引き締め　金融庁が問題視「新たな火種」 - 日本経済新聞",
-      "source": "nikkei.com",
-      "publishedAt": "2026-11-14 07:03",
-      "publishedTs": 1794607395,
-      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3871701012112026000000-1.jpg?auto=compress&bg=FFFF&crop=focalpoint&fit=crop&fm=jpg&h=630&w=1200&s=f466743b2692b9106a3ed6d82dafe770",
-      "summary": "超長期50年の住宅ローン市場に異変が生じている。マンション価格の高騰で月々の返済負担を抑えられると人気を集めるものの、一部の金融機関で内々に融資を厳しくする動きが出てきた。金融庁は契約者へのリスク説明が十分かどうか目を光らせる。「実は融資審査の蛇口を絞り始めている」。あるネット銀行の関係者は声を潜...",
+      "title": "米国務長官、ICCに警告「剣を帯びる者に法律を説くのはやめろ」",
+      "source": "afpbb.com",
+      "publishedAt": "2026-11-14 09:39",
+      "publishedTs": 1794616795,
+      "image": "https://afpbb.ismcdn.jp/mwimgs/9/3/1000x/img_93d74da810771456230942dc3857fd8f70358.jpg",
+      "summary": "【11月14日 AFP】マルコ・ルビオ米国務長官は13日、国際法が「武器化」され、エリート層の道具になっていると批判するとともに、国際刑事裁判所（ICC）に強い警告を発した。 ルビオ氏は、オランダ・ハーグに本部を置くICCが米国の認めていない規則を強制しようとしていると非難し、「剣を帯びる者に法律を説く」こ…",
       "points": [
         "カテゴリ: ビジネス・経済で話題の記事",
-        "引用元: nikkei.com（2026-11-14 07:03）",
+        "引用元: afpbb.com（2026-11-14 09:39）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "ビジネス・経済分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "ビジネス・経済",
-        "nikkei.com"
+        "afpbb.com"
       ],
-      "url": "https://www.nikkei.com/article/DGXZQOUB12C1Q0S6A111C2000000/",
+      "url": "https://www.afpbb.com/articles/-/3662364",
       "isAiEnriched": false
     },
     {
@@ -3228,23 +3228,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "タンカーが「制御失う」、リバークルーズ船に衝突　米ニューオーリンズ",
-      "source": "cnn.co.jp",
-      "publishedAt": "2026-11-14 08:50",
-      "publishedTs": 1794613805,
-      "image": "https://www.cnn.co.jp/storage/2026/11/14/2b2b5ef98a2088e333154f39f3126d87/still-23160835-182692-81100000002-still.jpg",
-      "summary": "（CNN） 米南部ルイジアナ州のニューオーリンズ港付近で13日、タンカーがリバークルーズ船に衝突する事故があった。ニューオーリンズのモレノ市長によると、クルーズ船の乗客全員の安否が確認されており、命に関わるけがを負った人はいない。 港の当局者によると、タンカーは、ミシシッピ川沿いのニューオーリンズ港に停...",
+      "title": "50年住宅ローン、始まった融資引き締め　金融庁が問題視「新たな火種」 - 日本経済新聞",
+      "source": "nikkei.com",
+      "publishedAt": "2026-11-14 07:03",
+      "publishedTs": 1794607395,
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3871701012112026000000-1.jpg?auto=compress&bg=FFFF&crop=focalpoint&fit=crop&fm=jpg&h=630&w=1200&s=f466743b2692b9106a3ed6d82dafe770",
+      "summary": "超長期50年の住宅ローン市場に異変が生じている。マンション価格の高騰で月々の返済負担を抑えられると人気を集めるものの、一部の金融機関で内々に融資を厳しくする動きが出てきた。金融庁は契約者へのリスク説明が十分かどうか目を光らせる。「実は融資審査の蛇口を絞り始めている」。あるネット銀行の関係者は声を潜...",
       "points": [
         "カテゴリ: ビジネス・経済で話題の記事",
-        "引用元: cnn.co.jp（2026-11-14 08:50）",
+        "引用元: nikkei.com（2026-11-14 07:03）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "ビジネス・経済分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "ビジネス・経済",
-        "cnn.co.jp"
+        "nikkei.com"
       ],
-      "url": "https://www.cnn.co.jp/usa/35254876.html",
+      "url": "https://www.nikkei.com/article/DGXZQOUB12C1Q0S6A111C2000000/",
       "isAiEnriched": false
     },
     {
