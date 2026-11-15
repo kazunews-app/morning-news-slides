@@ -1,6 +1,6 @@
 window.NEWS_DATA = {
   "date": "2026年11月15日 (日)",
-  "updatedAt": "2026-11-15 08:53",
+  "updatedAt": "2026-11-15 09:46",
   "title": "TREND NEWS",
   "keywords": [
     "きょう近畿や東海で激しい雨…",
@@ -307,15 +307,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "「銀だこ」曲がり角 赤字転落なぜ",
+      "title": "再開発が大赤字 大阪・阿倍野の今",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-14 10:28",
-      "publishedTs": 1794619704,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/iwiz-yn/rpr/miwadaisuke/02765414/title-1794581047685.jpeg?exp=10800",
-      "summary": "たこ焼きチェーン「築地銀だこ」を展開するホットランドホールディングスが、赤字に転落しました。11月13日に発表した2026年12月期第3四半期決算は、売上高408億5600万円、営業利益12億1400…",
+      "publishedAt": "2026-11-15 09:24",
+      "publishedTs": 1794702290,
+      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/15/2fbea6621d30a5ae4bc27f59b6b005e01bc552d5de61b81d79efefb23cd22529.jpg",
+      "summary": "大阪・天王寺駅の南西側に広がる阿倍野地区。大型商業施設「あべのキューズタウン」や高層住宅が立ち並び、近くには観光名所の「あべのハルカス」もある。こうした現在の街並みを形づくったのが、大阪市が約40年…",
       "points": [
         "カテゴリ: ビジネス・経済の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-14 10:28）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 09:24）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "ビジネス・経済分野で関心を集めている最新ニュースです。",
@@ -323,7 +323,7 @@ window.NEWS_DATA = {
         "ビジネス・経済",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/pickup/6602520?source=rss",
+      "url": "https://news.yahoo.co.jp/pickup/6602629?source=rss",
       "isAiEnriched": false
     },
     {
@@ -370,15 +370,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "菓子屋の倒産最多へ 老舗でも低迷",
+      "title": "「銀だこ」曲がり角 赤字転落なぜ",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-14 17:46",
-      "publishedTs": 1794645988,
-      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/14/4c7c22638f841b5dabd360a4e400b63a1a9a54a999073629174fc8a582dd5acf.jpg",
-      "summary": "「お菓子屋さん」の倒産が増加している。2026年1-10月の倒産は、1989年以降で最多だった2005年（1-12月）の13件に並んだ。過去最多の更新が確実になった。",
+      "publishedAt": "2026-11-14 10:28",
+      "publishedTs": 1794619704,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/iwiz-yn/rpr/miwadaisuke/02765414/title-1794581047685.jpeg?exp=10800",
+      "summary": "たこ焼きチェーン「築地銀だこ」を展開するホットランドホールディングスが、赤字に転落しました。11月13日に発表した2026年12月期第3四半期決算は、売上高408億5600万円、営業利益12億1400…",
       "points": [
         "カテゴリ: ビジネス・経済の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-14 17:46）",
+        "配信: Yahoo!ニュース トピックス（2026-11-14 10:28）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "ビジネス・経済分野で関心を集めている最新ニュースです。",
@@ -386,7 +386,7 @@ window.NEWS_DATA = {
         "ビジネス・経済",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/pickup/6602566?source=rss",
+      "url": "https://news.yahoo.co.jp/pickup/6602520?source=rss",
       "isAiEnriched": false
     },
     {
@@ -454,23 +454,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "フェミニズムが社会に浸透した結果",
-      "source": "anond.hatelabo.jp",
-      "publishedAt": "2026-11-14 23:14",
-      "publishedTs": 1794665691,
-      "image": "https://anond.hatelabo.jp/assets/images/og-image-1500.gif",
-      "summary": "男は女を養わなくなった。 男も女に経済力や甲斐性を要求して当たり前、女も働いて当たり前の価値観になった。 何だ、フェミニズムって男にとっても素晴らしいことではないか。",
+      "title": "大川原冤罪で長期拘束認めた裁判所、避ける検証　訴訟で責任問う遺族：朝日新聞",
+      "source": "asahi.com",
+      "publishedAt": "2026-11-14 19:12",
+      "publishedTs": 1794651128,
+      "image": "https://imgopt.asahi.com/ogp/AS20261107000396_comm.jpg",
+      "summary": "■記者解説 社会部・米田優人、黒田早織 「違法な捜査が進んでいたのであれば、なぜ裁判所は止めることができなかったのか」。東京地裁で10月30日、裁判官の責任を問う訴訟でこう証言したのは、機械メーカー…",
       "points": [
         "カテゴリ: 国内・総合で話題の記事",
-        "引用元: anond.hatelabo.jp（2026-11-14 23:14）",
+        "引用元: asahi.com（2026-11-14 19:12）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "国内・総合分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "国内・総合",
-        "anond.hatelabo.jp"
+        "asahi.com"
       ],
-      "url": "https://anond.hatelabo.jp/20261114231126",
+      "url": "https://www.asahi.com/articles/ASVC662TDVC6UPQJ00WM.html",
       "isAiEnriched": false
     },
     {
@@ -496,44 +496,44 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "沖縄知事選の関連動画、兵庫知事選でも発信のアカウントが推計収益の6割独占　宮城でも活動",
-      "source": "kobe-np.co.jp",
-      "publishedAt": "2026-11-14 23:59",
-      "publishedTs": 1794668343,
-      "image": "https://i.kobe-np.co.jp/news/society/202611/img/a_21030734.jpg",
-      "summary": "９月の沖縄県知事選の関連動画で、ユーチューブの再生回数が上位に入った５０アカウントのうち、１１アカウントは２０２４年の兵庫県知事選でも選挙期間中に関連動画を発信していた。この１１アカウントは、沖縄県知事選での収益を試算した動画３３０本のうち、約３割の９８本を配信。再生回数に応じた収益は推計で最大...",
+      "title": "米国、NATO加盟と引き換えに領土割譲を提案 ゼレンスキー氏",
+      "source": "afpbb.com",
+      "publishedAt": "2026-11-15 08:22",
+      "publishedTs": 1794698543,
+      "image": "https://afpbb.ismcdn.jp/mwimgs/7/3/1000x/img_73741d7f6ce767c06b1d90c085bb4c0e71011.jpg",
+      "summary": "アイルランドの首都ダブリン郊外で、記者団と話すウクライナのウォロディミル・ゼレンスキー大統領（中央）、スティーブ・ウィトコフ米特使（右）、ジャレッド・クシュナー氏（2026年11月12日撮影）。（c）Paul Faith/AFP 【11月15日 AFP】米国が、ウクライナの北大西洋条約機構（NATO）加盟と…",
       "points": [
         "カテゴリ: ビジネス・経済で話題の記事",
-        "引用元: kobe-np.co.jp（2026-11-14 23:59）",
+        "引用元: afpbb.com（2026-11-15 08:22）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "ビジネス・経済分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "ビジネス・経済",
-        "kobe-np.co.jp"
+        "afpbb.com"
       ],
-      "url": "https://www.kobe-np.co.jp/news/society/202611/0021030732.shtml",
+      "url": "https://www.afpbb.com/articles/-/3662399",
       "isAiEnriched": false
     },
     {
       "category": "domestic",
-      "title": "大川原冤罪で長期拘束認めた裁判所、避ける検証　訴訟で責任問う遺族：朝日新聞",
-      "source": "asahi.com",
-      "publishedAt": "2026-11-14 19:12",
-      "publishedTs": 1794651128,
-      "image": "https://imgopt.asahi.com/ogp/AS20261107000396_comm.jpg",
-      "summary": "■記者解説 社会部・米田優人、黒田早織 「違法な捜査が進んでいたのであれば、なぜ裁判所は止めることができなかったのか」。東京地裁で10月30日、裁判官の責任を問う訴訟でこう証言したのは、機械メーカー…",
+      "title": "フェミニズムが社会に浸透した結果",
+      "source": "anond.hatelabo.jp",
+      "publishedAt": "2026-11-14 23:14",
+      "publishedTs": 1794665691,
+      "image": "https://anond.hatelabo.jp/assets/images/og-image-1500.gif",
+      "summary": "男は女を養わなくなった。 男も女に経済力や甲斐性を要求して当たり前、女も働いて当たり前の価値観になった。 何だ、フェミニズムって男にとっても素晴らしいことではないか。",
       "points": [
         "カテゴリ: 国内・総合で話題の記事",
-        "引用元: asahi.com（2026-11-14 19:12）",
+        "引用元: anond.hatelabo.jp（2026-11-14 23:14）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "国内・総合分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "国内・総合",
-        "asahi.com"
+        "anond.hatelabo.jp"
       ],
-      "url": "https://www.asahi.com/articles/ASVC662TDVC6UPQJ00WM.html",
+      "url": "https://anond.hatelabo.jp/20261114231126",
       "isAiEnriched": false
     },
     {
@@ -559,65 +559,65 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "戦争反対界隈、「先制攻撃を始める前提に自衛隊は成り立ってる」という小泉防衛相の発言捏造を始める。",
-      "source": "posfie.com",
-      "publishedAt": "2026-11-14 17:36",
-      "publishedTs": 1794645388,
-      "image": "https://s.tgstc.com/ogp3/5e5d7dbfda9c2dda6c34f27eece61689-1200x630.jpeg",
-      "summary": "緒方恵美 @Megumi_Ogata 「小泉大臣は先制攻撃とは言ってない」 と仰る方へ。 「米国とイスラエルが先制攻撃を始めなければ(戦争はなかった)」 という言葉を受けて、 「始めないという前提で自衛隊はない」 と答えている段階で、文脈的に仰っているのと同義です。 憲法違反でなく言うとしたら、 「始められ…",
+      "title": "沖縄知事選の関連動画、兵庫知事選でも発信のアカウントが推計収益の6割独占　宮城でも活動",
+      "source": "kobe-np.co.jp",
+      "publishedAt": "2026-11-14 23:59",
+      "publishedTs": 1794668343,
+      "image": "https://i.kobe-np.co.jp/news/society/202611/img/a_21030734.jpg",
+      "summary": "９月の沖縄県知事選の関連動画で、ユーチューブの再生回数が上位に入った５０アカウントのうち、１１アカウントは２０２４年の兵庫県知事選でも選挙期間中に関連動画を発信していた。この１１アカウントは、沖縄県知事選での収益を試算した動画３３０本のうち、約３割の９８本を配信。再生回数に応じた収益は推計で最大...",
       "points": [
         "カテゴリ: ビジネス・経済で話題の記事",
-        "引用元: posfie.com（2026-11-14 17:36）",
+        "引用元: kobe-np.co.jp（2026-11-14 23:59）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "ビジネス・経済分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "ビジネス・経済",
-        "posfie.com"
+        "kobe-np.co.jp"
       ],
-      "url": "https://posfie.com/@any_k_tg/p/f0gZrzm",
+      "url": "https://www.kobe-np.co.jp/news/society/202611/0021030732.shtml",
       "isAiEnriched": false
     },
     {
       "category": "domestic",
-      "title": "昔、肝癌で終末期入院中の母に「退院するときの服」を買ってくるように頼まれ、婦人服売り場でぼんやりと服を選んでいるときに声をかけてくれた店員さんに救われた",
-      "source": "togetter.com",
-      "publishedAt": "2026-11-14 18:23",
-      "publishedTs": 1794648200,
-      "image": "https://s.tgstc.com/ogp3/24c22d084c64d272ed9f66aacbc1c22e-1200x630.jpeg",
-      "summary": "せき @sekisyko ひと昔以上前、母親の肝癌終末期入院中(本人告知なし、そのまま看取りになる予定)の付き添いしていた時に本人から「退院するときの服が無いからなんかええやつ買うてきてんか」と頼まれ70代からぐらいの婦人服を売ってるお店で茫漠と服を選んでいた。すると私をじっと見ていた店員のお姉さんが→ 2…",
+      "title": "農地がホテルや住宅に変わる　312市町村で1割超消失、細る食料基盤 - 日本経済新聞",
+      "source": "nikkei.com",
+      "publishedAt": "2026-11-15 02:10",
+      "publishedTs": 1794676236,
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3805800030102026000000-4.jpg?auto=compress&bg=FFFF&crop=focalpoint&fit=crop&fm=jpg&h=630&w=1200&s=18f66b4251ac825002ced605101f0862",
+      "summary": "日本の食料生産基盤が細っている。日本経済新聞が全国の農地転用の状況を調べると、過去15年間に312市町村で農地の1割超が転用されていた。担い手不足も重なり、安い田畑がホテルや住宅に姿を変えている。食料生産力を高めるには、国や自治体が過度な転用の防止策を講じる必要が出てきた。「開発業者3社から話」富士山を...",
       "points": [
         "カテゴリ: 国内・総合で話題の記事",
-        "引用元: togetter.com（2026-11-14 18:23）",
+        "引用元: nikkei.com（2026-11-15 02:10）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "国内・総合分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "国内・総合",
-        "togetter.com"
+        "nikkei.com"
       ],
-      "url": "https://togetter.com/li/2770389",
+      "url": "https://www.nikkei.com/article/DGXZQOUE216VA0R21C26A0000000/",
       "isAiEnriched": false
     },
     {
       "category": "tech",
-      "title": "AIチームを率いるとは、どういうこと？ with プログラマー・起業家 amachang Part1 | The Update",
-      "source": "theupdate.coffee",
-      "publishedAt": "2026-11-14 16:45",
-      "publishedTs": 1794642330,
-      "image": "https://i.scdn.co/image/ab6765630000ba8aa73d8865f4e71fabfa514528",
-      "summary": "2026年11月14日|21分 AIチームを率いるとは、どういうこと？ with プログラマー・起業家 amachang Part1 ゲスト: 天野仁史（多摩川機構エンジニアリング株式会社 代表） 一人の会社に、開発チームがいくつもある。 コードを書くAI、デザインするAI、それらを束ねるAI。スマートニュ…",
+      "title": "貧乏人向けの金貸しと、Appleの取り立てテクノロジー » p2ptk[.]org",
+      "source": "p2ptk.org",
+      "publishedAt": "2026-11-15 03:54",
+      "publishedTs": 1794682485,
+      "image": "https://p2ptk.org/wp-content/uploads/2026/11/think_different_repo.jpg",
+      "summary": "以下の文章は、コリイ・ドクトロウの「Apple’s robo-repo」という記事（2026年7月25日公開）を翻訳したものである。 Pluralistic 奇妙に思えるかもしれないが、金貸しは返済に苦労しそうな貧乏人に金を貸すのを大いに好む。当然ながら貸し手は耳を揃えて返済してほしいと考えているし、当然な…",
       "points": [
         "カテゴリ: テクノロジー・AIで話題の記事",
-        "引用元: theupdate.coffee（2026-11-14 16:45）",
+        "引用元: p2ptk.org（2026-11-15 03:54）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "テクノロジー・AI分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "テクノロジー・AI",
-        "theupdate.coffee"
+        "p2ptk.org"
       ],
-      "url": "https://theupdate.coffee/episodes/0J7UP7922ZXV6NBTt7w9Jl/",
+      "url": "https://p2ptk.org/monopoly/5681",
       "isAiEnriched": false
     },
     {
