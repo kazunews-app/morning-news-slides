@@ -469,7 +469,12 @@
     if (!candidate || !Array.isArray(candidate.items) || candidate.items.length === 0) return false;
     const currentMs = parseUpdatedAtMs(state.data?.updatedAt);
     const candidateMs = parseUpdatedAtMs(candidate.updatedAt);
-    if (!forceApply && currentMs > 0 && candidateMs > 0 && candidateMs < currentMs) {
+    // 現在表示中のデータより古いデータには絶対に戻さない
+    if (currentMs > 0 && candidateMs > 0 && candidateMs < currentMs) {
+      return false;
+    }
+    // 同時刻で件数が減る場合も上書きしない
+    if (currentMs > 0 && candidateMs === currentMs && candidate.items.length < (state.data?.items?.length || 0)) {
       return false;
     }
     const sig = computeDataSignature(candidate);
@@ -499,7 +504,7 @@
     const ts = Date.now();
     const fetchFromApi = async () => {
       const apiUrl = `https://api.github.com/repos/sjhkazu1011-ctrl/morning-news-slides/contents/data/news.js?ref=main&_=${ts}`;
-      const res = await fetchWithTimeout(apiUrl, { cache: "no-store" }, 3500);
+      const res = await fetchWithTimeout(apiUrl, { cache: "no-store" }, 3200);
       if (!res.ok) throw new Error("gh api fail");
       const meta = await res.json();
       if (!meta || typeof meta.content !== "string") throw new Error("gh api empty");
@@ -512,7 +517,7 @@
     };
 
     const fetchFromUrl = async (url) => {
-      const res = await fetchWithTimeout(url, { cache: "no-store" }, 3500);
+      const res = await fetchWithTimeout(url, { cache: "no-store" }, 3000);
       if (!res.ok) throw new Error("url fail");
       const text = await res.text();
       const parsed = parseNewsJsText(text);
@@ -520,16 +525,24 @@
       throw new Error("url invalid");
     };
 
-    // 3系統を並列レースさせて最速の応答を採用
-    try {
-      return await Promise.any([
-        fetchFromApi(),
-        fetchFromUrl(`https://raw.githubusercontent.com/sjhkazu1011-ctrl/morning-news-slides/main/data/news.js?t=${ts}`),
-        fetchFromUrl(`data/news.js?t=${ts}`),
-      ]);
-    } catch (_e) {
-      return null;
+    // 3系統を並列取得し、古いCDNキャッシュではなく最も新しいupdatedAtのデータを採用
+    const results = await Promise.allSettled([
+      fetchFromApi(),
+      fetchFromUrl(`https://raw.githubusercontent.com/sjhkazu1011-ctrl/morning-news-slides/main/data/news.js?t=${ts}`),
+      fetchFromUrl(`data/news.js?t=${ts}`),
+    ]);
+
+    let best = null;
+    let bestMs = -1;
+    for (const r of results) {
+      if (r.status !== "fulfilled" || !r.value) continue;
+      const ms = parseUpdatedAtMs(r.value.updatedAt);
+      if (ms > bestMs || (ms === bestMs && r.value.items.length > (best?.items?.length || 0))) {
+        best = r.value;
+        bestMs = ms;
+      }
     }
+    return best;
   }
 
   async function fetchRssViaRss2Json(rssUrl, category, sourceFallback, limit) {
