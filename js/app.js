@@ -8,9 +8,58 @@
     weather: { label: "天気", icon: "☀️", fallbackImg: "assets/images/news-1.jpg" },
   };
 
+  const VALID_CATEGORIES = new Set(["all", "domestic", "tech", "business", "entertainment", "subculture", "weather"]);
+  const CATEGORY_STORAGE_KEY = "trend-news-active-category";
+  const WEATHER_CACHE_KEY = "trend-news-weather-cities-v1";
+
+  const DEFAULT_WEATHER_CITIES = [
+    { name: "札幌", region: "北海道", temp: 7, code: 3, wind: 4, maxTemp: 9, minTemp: 2, pop: 20 },
+    { name: "仙台", region: "東北", temp: 12, code: 2, wind: 5, maxTemp: 14, minTemp: 7, pop: 20 },
+    { name: "新潟", region: "北陸", temp: 13, code: 2, wind: 6, maxTemp: 15, minTemp: 9, pop: 30 },
+    { name: "金沢", region: "北陸", temp: 15, code: 2, wind: 4, maxTemp: 17, minTemp: 10, pop: 30 },
+    { name: "東京", region: "関東", temp: 15, code: 1, wind: 4, maxTemp: 17, minTemp: 10, pop: 10 },
+    { name: "名古屋", region: "東海", temp: 16, code: 1, wind: 3, maxTemp: 18, minTemp: 10, pop: 10 },
+    { name: "大阪", region: "近畿", temp: 17, code: 1, wind: 3, maxTemp: 19, minTemp: 12, pop: 10 },
+    { name: "広島", region: "中国", temp: 18, code: 1, wind: 4, maxTemp: 20, minTemp: 12, pop: 10 },
+    { name: "高知", region: "四国", temp: 19, code: 1, wind: 4, maxTemp: 21, minTemp: 13, pop: 10 },
+    { name: "福岡", region: "九州", temp: 18, code: 2, wind: 6, maxTemp: 20, minTemp: 13, pop: 20 },
+    { name: "那覇", region: "沖縄", temp: 24, code: 1, wind: 10, maxTemp: 26, minTemp: 21, pop: 10 },
+  ];
+
+  const INITIAL_BUNDLED_WEATHER_CITIES = Array.isArray(window.NEWS_DATA?.weatherCities)
+    ? window.NEWS_DATA.weatherCities.map((c) => ({ ...c }))
+    : [];
+  const INITIAL_BUNDLED_UPDATED_AT = window.NEWS_DATA?.updatedAt || "";
+
+  function getSavedCategory() {
+    try {
+      if (typeof sessionStorage !== "undefined") {
+        const s = sessionStorage.getItem(CATEGORY_STORAGE_KEY);
+        if (s && VALID_CATEGORIES.has(s)) return s;
+      }
+    } catch (_e) {}
+    try {
+      if (typeof localStorage !== "undefined") {
+        const l = localStorage.getItem(CATEGORY_STORAGE_KEY);
+        if (l && VALID_CATEGORIES.has(l)) return l;
+      }
+    } catch (_e) {}
+    return "all";
+  }
+
+  function saveCategory(cat) {
+    if (!VALID_CATEGORIES.has(cat)) return;
+    try {
+      if (typeof sessionStorage !== "undefined") sessionStorage.setItem(CATEGORY_STORAGE_KEY, cat);
+    } catch (_e) {}
+    try {
+      if (typeof localStorage !== "undefined") localStorage.setItem(CATEGORY_STORAGE_KEY, cat);
+    } catch (_e) {}
+  }
+
   const state = {
-    data: window.NEWS_DATA || { date: "--", updatedAt: "--", keywords: [], items: [] },
-    category: "all",
+    data: window.NEWS_DATA || { date: "--", updatedAt: "--", keywords: [], weatherCities: DEFAULT_WEATHER_CITIES, items: [] },
+    category: getSavedCategory(),
     query: "",
     isReloading: false,
     lastDataSignature: "",
@@ -435,14 +484,7 @@
     elMainContainer.classList.add(swipeDir > 0 ? "swipe-in-right" : "swipe-in-left");
   }
 
-  function setCategory(cat, swipeDir = 0) {
-    state.category = cat;
-    if (cat === "weather" && state.query) {
-      state.query = "";
-      elSearchInput.value = "";
-      elSearchClear.hidden = true;
-      renderTrending();
-    }
+  function syncCategoryTabsUI(cat, useInstantScroll = false) {
     let activeTabEl = null;
     navTabs.forEach((tab) => {
       const isMatch = tab.getAttribute("data-category") === cat;
@@ -455,10 +497,30 @@
       elBtnWeatherShortcut.setAttribute("aria-pressed", String(isWeather));
     }
     if (activeTabEl && typeof activeTabEl.scrollIntoView === "function") {
-      activeTabEl.scrollIntoView({ behavior: "smooth", inline: "center", block: "nearest" });
+      activeTabEl.scrollIntoView({
+        behavior: useInstantScroll ? "auto" : "smooth",
+        inline: "center",
+        block: "nearest",
+      });
     }
+  }
+
+  function setCategory(cat, swipeDir = 0, shouldScrollTop = true) {
+    const targetCat = VALID_CATEGORIES.has(cat) ? cat : "all";
+    state.category = targetCat;
+    saveCategory(targetCat);
+    if (targetCat === "weather" && state.query) {
+      state.query = "";
+      elSearchInput.value = "";
+      elSearchClear.hidden = true;
+      renderTrending();
+    }
+    syncCategoryTabsUI(targetCat, false);
     renderFeed();
     playSwipeAnimation(swipeDir);
+    if (shouldScrollTop && typeof window.scrollTo === "function") {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
   }
 
   function parseNewsJsText(text) {
@@ -494,11 +556,66 @@
     };
   }
 
+  function readCachedWeatherEntry() {
+    try {
+      const raw = localStorage.getItem(WEATHER_CACHE_KEY);
+      if (!raw) return null;
+      const parsed = JSON.parse(raw);
+      if (Array.isArray(parsed) && parsed.length > 0) {
+        return { updatedAt: "", cities: parsed };
+      }
+      if (parsed && Array.isArray(parsed.cities) && parsed.cities.length > 0) {
+        return { updatedAt: parsed.updatedAt || "", cities: parsed.cities };
+      }
+    } catch (_e) {}
+    return null;
+  }
+
+  function saveCachedWeatherCities(cities, updatedAt = "") {
+    if (!Array.isArray(cities) || cities.length === 0) return;
+    try {
+      localStorage.setItem(
+        WEATHER_CACHE_KEY,
+        JSON.stringify({
+          updatedAt: updatedAt || formatNowJst().updatedAt,
+          cities,
+        })
+      );
+    } catch (_e) {}
+  }
+
+  function getBestAvailableWeatherCities(candidate) {
+    if (candidate && Array.isArray(candidate.weatherCities) && candidate.weatherCities.length > 0) {
+      return candidate.weatherCities.map((c) => ({ ...c }));
+    }
+    const bundledMs = parseUpdatedAtMs(INITIAL_BUNDLED_UPDATED_AT);
+    const cachedEntry = readCachedWeatherEntry();
+    const cachedMs = parseUpdatedAtMs(cachedEntry?.updatedAt);
+    const currentCities = Array.isArray(state.data?.weatherCities) && state.data.weatherCities.length > 0
+      ? state.data.weatherCities
+      : null;
+
+    if (currentCities && parseUpdatedAtMs(state.data?.updatedAt) >= cachedMs) {
+      return currentCities.map((c) => ({ ...c }));
+    }
+    if (cachedEntry && cachedEntry.cities.length > 0 && cachedMs >= bundledMs) {
+      return cachedEntry.cities.map((c) => ({ ...c }));
+    }
+    if (INITIAL_BUNDLED_WEATHER_CITIES.length > 0) {
+      return INITIAL_BUNDLED_WEATHER_CITIES.map((c) => ({ ...c }));
+    }
+    if (cachedEntry && cachedEntry.cities.length > 0) {
+      return cachedEntry.cities.map((c) => ({ ...c }));
+    }
+    return DEFAULT_WEATHER_CITIES.map((c) => ({ ...c }));
+  }
+
   function computeDataSignature(data) {
     if (!data || !Array.isArray(data.items)) return "";
     const firstTitle = data.items[0]?.title || "";
     const firstImg = data.items[0]?.image || "";
-    return `${data.updatedAt || ""}|${data.items.length}|${firstTitle}|${firstImg}`;
+    const weatherLen = Array.isArray(data.weatherCities) ? data.weatherCities.length : 0;
+    return `${data.updatedAt || ""}|${data.items.length}|${firstTitle}|${firstImg}|${weatherLen}`;
   }
 
   function applyNewsDataIfNewer(candidate, forceApply = false) {
@@ -513,13 +630,23 @@
     if (currentMs > 0 && candidateMs === currentMs && candidate.items.length < (state.data?.items?.length || 0)) {
       return false;
     }
-    const sig = computeDataSignature(candidate);
+
+    const bestWeather = getBestAvailableWeatherCities(candidate);
+    const normalizedCandidate = {
+      ...candidate,
+      weatherCities: bestWeather,
+    };
+    if (Array.isArray(candidate.weatherCities) && candidate.weatherCities.length > 0) {
+      saveCachedWeatherCities(candidate.weatherCities, candidate.updatedAt || "");
+    }
+
+    const sig = computeDataSignature(normalizedCandidate);
     if (forceApply || sig !== state.lastDataSignature) {
-      window.NEWS_DATA = candidate;
-      state.data = candidate;
+      window.NEWS_DATA = normalizedCandidate;
+      state.data = normalizedCandidate;
       state.lastDataSignature = sig;
       try {
-        localStorage.setItem("trend-news-live-cache", JSON.stringify(candidate));
+        localStorage.setItem("trend-news-live-cache", JSON.stringify(normalizedCandidate));
       } catch (_e) {}
       renderAll();
       return true;
@@ -528,6 +655,15 @@
   }
 
   function restoreCachedNewsOnStartup() {
+    if (INITIAL_BUNDLED_WEATHER_CITIES.length > 0) {
+      const existingWeatherCache = readCachedWeatherEntry();
+      if (
+        !existingWeatherCache ||
+        parseUpdatedAtMs(INITIAL_BUNDLED_UPDATED_AT) >= parseUpdatedAtMs(existingWeatherCache.updatedAt)
+      ) {
+        saveCachedWeatherCities(INITIAL_BUNDLED_WEATHER_CITIES, INITIAL_BUNDLED_UPDATED_AT);
+      }
+    }
     try {
       const raw = localStorage.getItem("trend-news-live-cache");
       if (!raw) return;
@@ -858,6 +994,7 @@
         updatedAt: nowJst.updatedAt,
         title: "TREND NEWS",
         keywords,
+        weatherCities: getBestAvailableWeatherCities(baseData),
         items: interleaved,
       },
       bgOgTargets,
@@ -908,18 +1045,76 @@
   const elWeatherUpdatedLabel = document.getElementById("weather-updated-label");
 
   const MAJOR_JP_CITIES = [
-    { name: "札幌", region: "北海道", lat: 43.0618, lon: 141.3545, x: 63, y: 15 },
-    { name: "仙台", region: "東北", lat: 38.2682, lon: 140.8694, x: 78, y: 45 },
-    { name: "新潟", region: "北陸", lat: 37.9161, lon: 139.0364, x: 52, y: 42 },
-    { name: "金沢", region: "北陸", lat: 36.5613, lon: 136.6562, x: 41, y: 51 },
-    { name: "東京", region: "関東", lat: 35.6812, lon: 139.7671, x: 76, y: 65 },
-    { name: "名古屋", region: "東海", lat: 35.1815, lon: 136.9066, x: 55, y: 76 },
-    { name: "大阪", region: "近畿", lat: 34.6937, lon: 135.5023, x: 41, y: 79 },
-    { name: "広島", region: "中国", lat: 34.3853, lon: 132.4553, x: 24, y: 63 },
-    { name: "高知", region: "四国", lat: 33.5597, lon: 133.5311, x: 27, y: 86 },
-    { name: "福岡", region: "九州", lat: 33.5902, lon: 130.4017, x: 11, y: 70 },
-    { name: "那覇", region: "沖縄", lat: 26.2124, lon: 127.6809, x: 28, y: 17 },
+    { name: "札幌", region: "北海道", lat: 43.0618, lon: 141.3545, x: 63, y: 15, jmaOffice: "016000" },
+    { name: "仙台", region: "東北", lat: 38.2682, lon: 140.8694, x: 78, y: 45, jmaOffice: "040000" },
+    { name: "新潟", region: "北陸", lat: 37.9161, lon: 139.0364, x: 52, y: 42, jmaOffice: "150000" },
+    { name: "金沢", region: "北陸", lat: 36.5613, lon: 136.6562, x: 41, y: 51, jmaOffice: "170000" },
+    { name: "東京", region: "関東", lat: 35.6812, lon: 139.7671, x: 76, y: 65, jmaOffice: "130000" },
+    { name: "名古屋", region: "東海", lat: 35.1815, lon: 136.9066, x: 55, y: 76, jmaOffice: "230000" },
+    { name: "大阪", region: "近畿", lat: 34.6937, lon: 135.5023, x: 41, y: 79, jmaOffice: "270000" },
+    { name: "広島", region: "中国", lat: 34.3853, lon: 132.4553, x: 24, y: 63, jmaOffice: "340000" },
+    { name: "高知", region: "四国", lat: 33.5597, lon: 133.5311, x: 27, y: 86, jmaOffice: "390000" },
+    { name: "福岡", region: "九州", lat: 33.5902, lon: 130.4017, x: 11, y: 70, jmaOffice: "400000" },
+    { name: "那覇", region: "沖縄", lat: 26.2124, lon: 127.6809, x: 28, y: 17, jmaOffice: "471000" },
   ];
+
+  const JP_CITY_COORDS = {
+    札幌: [43.0618, 141.3545], 旭川: [43.7706, 142.365], 函館: [41.7687, 140.7288],
+    青森: [40.8221, 140.7474], 盛岡: [39.702, 141.1545], 仙台: [38.2682, 140.8694],
+    秋田: [39.7186, 140.1024], 山形: [38.2554, 140.3396], 福島: [37.7608, 140.4747], 郡山: [37.4005, 140.3597],
+    水戸: [36.3659, 140.4712], つくば: [36.0835, 140.0764], 宇都宮: [36.5551, 139.8828],
+    前橋: [36.3895, 139.0634], 高崎: [36.3219, 139.0033],
+    さいたま: [35.8617, 139.6455], 大宮: [35.9063, 139.624], 川口: [35.8076, 139.724],
+    千葉: [35.6074, 140.1065], 船橋: [35.6947, 139.9826], 柏: [35.8676, 139.9757],
+    東京: [35.6812, 139.7671], 新宿: [35.6938, 139.7034], 渋谷: [35.658, 139.7016],
+    品川: [35.6285, 139.7388], 池袋: [35.7295, 139.7109], 八王子: [35.6664, 139.316],
+    横浜: [35.4437, 139.638], 川崎: [35.5308, 139.7029], 相模原: [35.5713, 139.3732],
+    新潟: [37.9161, 139.0364], 富山: [36.6953, 137.2113], 金沢: [36.5613, 136.6562], 福井: [36.0641, 136.2195],
+    甲府: [35.6621, 138.5683], 長野: [36.6486, 138.1942], 岐阜: [35.4233, 136.7607],
+    静岡: [34.9756, 138.3828], 浜松: [34.7108, 137.7261], 名古屋: [35.1815, 136.9066], 豊田: [35.0824, 137.1562],
+    津: [34.7186, 136.5057], 大津: [35.0179, 135.8546], 京都: [35.0116, 135.7681],
+    大阪: [34.6937, 135.5023], 堺: [34.5733, 135.483], 神戸: [34.6901, 135.1955], 姫路: [34.8151, 134.6853],
+    奈良: [34.6851, 135.8048], 和歌山: [34.2305, 135.1708],
+    鳥取: [35.5011, 134.2351], 松江: [35.4681, 133.0484], 岡山: [34.6551, 133.9195],
+    広島: [34.3853, 132.4553], 福山: [34.4859, 133.3623], 山口: [34.1785, 131.4737],
+    徳島: [34.0703, 134.5548], 高松: [34.3428, 134.0466], 松山: [33.8392, 132.7657], 高知: [33.5597, 133.5311],
+    福岡: [33.5902, 130.4017], 北九州: [33.8834, 130.8752], 久留米: [33.3193, 130.5084],
+    佐賀: [33.2635, 130.3009], 長崎: [32.7503, 129.8777], 熊本: [32.8031, 130.7079],
+    大分: [33.2382, 131.6126], 宮崎: [31.9077, 131.4202], 鹿児島: [31.5966, 130.5571], 那覇: [26.2124, 127.6809],
+  };
+
+  function findNearestMajorCity(lat, lon) {
+    let best = MAJOR_JP_CITIES[4]; // 東京デフォルト
+    let bestDist = Infinity;
+    for (const city of MAJOR_JP_CITIES) {
+      const dLat = city.lat - lat;
+      const dLon = (city.lon - lon) * 0.82;
+      const dist = dLat * dLat + dLon * dLon;
+      if (dist < bestDist) {
+        bestDist = dist;
+        best = city;
+      }
+    }
+    return best;
+  }
+
+  function jmaCodeToWmo(jmaCode, weatherText = "") {
+    const code = String(jmaCode || "").trim();
+    const text = String(weatherText || "");
+    if (text.includes("雷")) return 95;
+    if (text.startsWith("雪") || text.startsWith("みぞれ") || text.includes("吹雪")) return 71;
+    if (text.startsWith("雨")) return 61;
+    if (code.startsWith("4")) return 71;
+    if (code.startsWith("3")) return 61;
+    if (code.startsWith("2")) return text.includes("雨") ? 80 : text.includes("雪") ? 71 : 3;
+    if (code.startsWith("1")) {
+      if (code === "100") return 0;
+      if (text.includes("雨")) return 80;
+      if (text.includes("雪")) return 71;
+      return 1;
+    }
+    return 1;
+  }
 
   const weatherState = {
     lastFetchAt: 0,
@@ -966,10 +1161,19 @@
   }
 
   async function searchCityCoords(cityName) {
-    const q = cityName.trim();
-    if (!q) return null;
+    const raw = cityName.trim();
+    if (!raw) return null;
+    const stripped = raw.replace(/\s+/g, "").replace(/[都道府県市区町村]$/, "");
+    const localMatchKey =
+      (JP_CITY_COORDS[raw] && raw) ||
+      (JP_CITY_COORDS[stripped] && stripped) ||
+      Object.keys(JP_CITY_COORDS).find((k) => stripped.includes(k) || k.includes(stripped));
+    if (localMatchKey) {
+      const [lat, lon] = JP_CITY_COORDS[localMatchKey];
+      return { lat, lon, locName: raw };
+    }
     try {
-      const url = `https://geocoding-api.open-meteo.com/v1/search?name=${encodeURIComponent(q)}&count=1&language=ja&format=json`;
+      const url = `https://geocoding-api.open-meteo.com/v1/search?name=${encodeURIComponent(raw)}&count=1&language=ja&format=json`;
       const res = await fetchWithTimeout(url, {}, 5000);
       if (!res.ok) return null;
       const data = await res.json();
@@ -978,7 +1182,7 @@
       return {
         lat: Number(first.latitude.toFixed(4)),
         lon: Number(first.longitude.toFixed(4)),
-        locName: first.name || q,
+        locName: first.name || raw,
       };
     } catch (_e) {
       return null;
@@ -1031,13 +1235,71 @@
 
   function parseWeatherItem(entry) {
     const temp = Math.round(entry?.current?.temperature_2m ?? 0);
-    const code = entry?.current?.weather_code ?? 0;
+    const code = Math.round(Number(entry?.current?.weather_code ?? 0));
     const wind = Math.round(entry?.current?.wind_speed_10m ?? 0);
     const meta = getWeatherMeta(code);
     const maxTemp = Math.round(entry?.daily?.temperature_2m_max?.[0] ?? temp);
     const minTemp = Math.round(entry?.daily?.temperature_2m_min?.[0] ?? temp);
     const pop = entry?.daily?.precipitation_probability_max?.[0] ?? 0;
-    return { temp, wind, meta, maxTemp, minTemp, pop };
+    return { temp, wind, code, meta, maxTemp, minTemp, pop };
+  }
+
+  function parseJmaForecastEntry(jmaJson, fallbackEntry) {
+    const rep = Array.isArray(jmaJson) ? jmaJson[0] : null;
+    const weekly = Array.isArray(jmaJson) ? jmaJson[1] : null;
+    const area0 = rep?.timeSeries?.[0]?.areas?.[0] || {};
+    const jmaCode = String(area0.weatherCodes?.[0] || "");
+    const wText = String(area0.weathers?.[0] || "");
+    const code = jmaCodeToWmo(jmaCode, wText);
+
+    const popsRaw = (rep?.timeSeries?.[1]?.areas?.[0]?.pops || [])
+      .map((p) => Number(p))
+      .filter((n) => Number.isFinite(n));
+    const pop = popsRaw.length > 0 ? Math.max(...popsRaw.slice(0, 3)) : (fallbackEntry?.pop ?? 10);
+
+    const tempsRaw = (rep?.timeSeries?.[2]?.areas?.[0]?.temps || [])
+      .map((t) => Number(t))
+      .filter((n) => Number.isFinite(n));
+    const wkArea = weekly?.timeSeries?.[1]?.areas?.[0] || {};
+    const wkMins = (wkArea.tempsMin || []).map(Number).filter(Number.isFinite);
+    const wkMaxs = (wkArea.tempsMax || []).map(Number).filter(Number.isFinite);
+
+    let maxTemp = fallbackEntry?.maxTemp ?? 18;
+    let minTemp = fallbackEntry?.minTemp ?? 10;
+    if (tempsRaw.length >= 4) {
+      maxTemp = Math.round(tempsRaw[0]);
+      minTemp = Math.round(Math.min(tempsRaw[1], tempsRaw[2]));
+    } else if (tempsRaw.length === 3) {
+      maxTemp = Math.round(tempsRaw[0]);
+      minTemp = Math.round(tempsRaw[1]);
+    } else if (tempsRaw.length >= 1) {
+      minTemp = Math.round(Math.min(...tempsRaw));
+      maxTemp = Math.round(Math.max(...tempsRaw));
+      if (wkMaxs.length > 0) maxTemp = Math.max(maxTemp, Math.round(wkMaxs[0]));
+      if (wkMins.length > 0) minTemp = Math.min(minTemp, Math.round(wkMins[0]));
+    } else if (wkMaxs.length > 0 && wkMins.length > 0) {
+      maxTemp = Math.round(wkMaxs[0]);
+      minTemp = Math.round(wkMins[0]);
+    }
+    const temp = tempsRaw.length >= 1 ? Math.round(tempsRaw[0]) : (fallbackEntry?.temp ?? Math.round((maxTemp + minTemp) / 2));
+
+    return {
+      temp,
+      wind: fallbackEntry?.wind ?? 4,
+      code,
+      meta: getWeatherMeta(code),
+      maxTemp,
+      minTemp,
+      pop,
+    };
+  }
+
+  async function fetchCityWeatherFromJma(city, fallbackEntry = null) {
+    const url = `https://www.jma.go.jp/bosai/forecast/data/forecast/${city.jmaOffice}.json`;
+    const res = await fetchWithTimeout(url, { cache: "no-store" }, 7000);
+    if (!res.ok) throw new Error(`JMA HTTP ${res.status}`);
+    const json = await res.json();
+    return parseJmaForecastEntry(json, fallbackEntry);
   }
 
   function renderCurrentWeatherCard(loc, w) {
@@ -1159,18 +1421,19 @@
   }
 
   function buildPreloadedCityResults() {
-    const preloaded = Array.isArray(state.data?.weatherCities) ? state.data.weatherCities : [];
-    if (preloaded.length === 0) return [];
+    const preloaded = getBestAvailableWeatherCities(state.data);
     const byName = new Map(preloaded.map((c) => [c.name, c]));
     return MAJOR_JP_CITIES.map((city) => {
-      const p = byName.get(city.name);
+      const p = byName.get(city.name) || DEFAULT_WEATHER_CITIES.find((d) => d.name === city.name);
       if (!p) return null;
+      const code = Number.isFinite(Number(p.code)) ? Math.round(Number(p.code)) : 0;
       return {
         city,
         w: {
           temp: p.temp,
           wind: p.wind ?? 0,
-          meta: getWeatherMeta(p.code ?? 0),
+          code,
+          meta: getWeatherMeta(code),
           maxTemp: p.maxTemp ?? p.temp,
           minTemp: p.minTemp ?? p.temp,
           pop: p.pop ?? 0,
@@ -1183,7 +1446,7 @@
     const url = `https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}&current=temperature_2m,weather_code,wind_speed_10m&daily=temperature_2m_max,temperature_2m_min,precipitation_probability_max&timezone=Asia%2FTokyo&forecast_days=1`;
     for (let attempt = 0; attempt < 2; attempt++) {
       try {
-        const res = await fetchWithTimeout(url, {}, 12000);
+        const res = await fetchWithTimeout(url, {}, 8000);
         if (!res.ok) throw new Error(`Weather HTTP ${res.status}`);
         const data = await res.json();
         return parseWeatherItem(data);
@@ -1191,6 +1454,24 @@
         if (attempt === 1) throw err;
       }
     }
+  }
+
+  async function fetchAllCitiesOpenMeteoBatch() {
+    const lats = MAJOR_JP_CITIES.map((c) => c.lat).join(",");
+    const lons = MAJOR_JP_CITIES.map((c) => c.lon).join(",");
+    const url = `https://api.open-meteo.com/v1/forecast?latitude=${lats}&longitude=${lons}&current=temperature_2m,weather_code,wind_speed_10m&daily=temperature_2m_max,temperature_2m_min,precipitation_probability_max&timezone=Asia%2FTokyo&forecast_days=1`;
+    const res = await fetchWithTimeout(url, {}, 9000);
+    if (!res.ok) throw new Error(`Open-Meteo batch HTTP ${res.status}`);
+    const data = await res.json();
+    const list = Array.isArray(data) ? data : [data];
+    const results = new Map();
+    MAJOR_JP_CITIES.forEach((city, idx) => {
+      const entry = list[idx];
+      if (entry && entry.current) {
+        results.set(city.name, { city, w: parseWeatherItem(entry) });
+      }
+    });
+    return results;
   }
 
   async function fetchAndRenderAllWeather(forceRefresh = false) {
@@ -1203,52 +1484,89 @@
     try {
       const loc = weatherState.currentLoc || getSavedLocation();
       weatherState.currentLoc = loc;
+      const nearestCity = findNearestMajorCity(loc.lat, loc.lon);
 
-      // Step 1: data/news.js に事前取得済みの主要11都市データを0秒で即描画
+      // Step 1: 保護済み事前データ（または内蔵デフォルト）で主要11都市＋現在地カードを0秒即描画
       const preloadedResults = buildPreloadedCityResults();
-      if (preloadedResults.length > 0) {
-        renderCityWeatherMap(preloadedResults);
-        if (elWeatherUpdatedLabel) {
-          elWeatherUpdatedLabel.textContent = `更新: ${state.data?.updatedAt || formatNowJst().updatedAt}`;
-        }
-      } else if (elWeatherUpdatedLabel) {
-        elWeatherUpdatedLabel.textContent = "最新の天気を取得中...";
+      renderCityWeatherMap(preloadedResults);
+      const instantCurrent = preloadedResults.find((r) => r.city.name === nearestCity.name) || preloadedResults[0];
+      if (instantCurrent) {
+        renderCurrentWeatherCard(loc, instantCurrent.w);
+      }
+      if (elWeatherUpdatedLabel) {
+        elWeatherUpdatedLabel.textContent = `更新: ${state.data?.updatedAt || formatNowJst().updatedAt}`;
       }
 
-      // Step 2: 現在地の天気（1本だけ）を取得して表示
-      let currentOk = false;
+      // Step 2: 現在地の天気を最新化（Open-Meteo -> 気象庁 -> 事前データの多段フォールバック）
+      let liveUpdated = false;
       try {
         const currentWeather = await fetchSingleLocationWeather(loc.lat, loc.lon);
         renderCurrentWeatherCard(loc, currentWeather);
-        currentOk = true;
+        liveUpdated = true;
       } catch (_e) {
-        // 現在地取得に失敗した場合は東京の事前データで代替表示
-        const fallbackTokyo = preloadedResults.find((r) => r.city.name === "東京");
-        if (fallbackTokyo) {
-          renderCurrentWeatherCard(loc, fallbackTokyo.w);
-        }
+        try {
+          const jmaCurrent = await fetchCityWeatherFromJma(nearestCity, instantCurrent?.w);
+          renderCurrentWeatherCard(loc, jmaCurrent);
+          liveUpdated = true;
+        } catch (_e2) {}
       }
 
-      // Step 3: 事前データがなかった場合、または手動更新時のみ、3都市ずつ小分けでブラウザから更新
-      if (preloadedResults.length === 0 || forceRefresh) {
+      // Step 3: 主要11都市を最新化（Open-Meteo 1回一括取得 -> 欠損分は気象庁APIで補完）
+      const shouldRefreshCities =
+        forceRefresh ||
+        weatherState.lastFetchAt === 0 ||
+        !Array.isArray(state.data?.weatherCities) ||
+        state.data.weatherCities.length === 0;
+
+      if (shouldRefreshCities) {
         const merged = new Map(preloadedResults.map((r) => [r.city.name, r]));
-        for (let i = 0; i < MAJOR_JP_CITIES.length; i += 3) {
-          const chunk = MAJOR_JP_CITIES.slice(i, i + 3);
-          const settled = await Promise.allSettled(
-            chunk.map((city) => fetchSingleLocationWeather(city.lat, city.lon).then((w) => ({ city, w })))
+        let batchMap = new Map();
+        try {
+          batchMap = await fetchAllCitiesOpenMeteoBatch();
+          batchMap.forEach((val, key) => {
+            merged.set(key, val);
+            liveUpdated = true;
+          });
+        } catch (_e) {}
+
+        const missingCities = MAJOR_JP_CITIES.filter((c) => !batchMap.has(c.name));
+        if (missingCities.length > 0) {
+          const jmaSettled = await Promise.allSettled(
+            missingCities.map((city) =>
+              fetchCityWeatherFromJma(city, merged.get(city.name)?.w).then((w) => ({ city, w }))
+            )
           );
-          settled.forEach((r) => {
-            if (r.status === "fulfilled") merged.set(r.value.city.name, r.value);
+          jmaSettled.forEach((r) => {
+            if (r.status === "fulfilled") {
+              merged.set(r.value.city.name, r.value);
+              liveUpdated = true;
+            }
           });
         }
+
         const cityResults = MAJOR_JP_CITIES.map((c) => merged.get(c.name)).filter(Boolean);
-        if (cityResults.length > 0) {
-          renderCityWeatherMap(cityResults);
+        renderCityWeatherMap(cityResults);
+
+        if (liveUpdated) {
+          const nowUpdated = formatNowJst().updatedAt;
+          const serializedCities = cityResults.map(({ city, w }) => ({
+            name: city.name,
+            region: city.region,
+            temp: w.temp,
+            code: w.code ?? 0,
+            wind: w.wind ?? 0,
+            maxTemp: w.maxTemp ?? w.temp,
+            minTemp: w.minTemp ?? w.temp,
+            pop: w.pop ?? 0,
+          }));
+          saveCachedWeatherCities(serializedCities, nowUpdated);
+          state.data.weatherCities = serializedCities;
+          try {
+            localStorage.setItem("trend-news-live-cache", JSON.stringify(state.data));
+          } catch (_e) {}
           if (elWeatherUpdatedLabel) {
-            elWeatherUpdatedLabel.textContent = `更新: ${formatNowJst().updatedAt}`;
+            elWeatherUpdatedLabel.textContent = `更新: ${nowUpdated}`;
           }
-        } else if (!currentOk && elWeatherUpdatedLabel) {
-          elWeatherUpdatedLabel.textContent = "天気の取得に失敗しました（再試行してください）";
         }
       }
 
@@ -1296,7 +1614,6 @@
   navTabs.forEach((tab) => {
     tab.addEventListener("click", () => {
       setCategory(tab.getAttribute("data-category"));
-      window.scrollTo({ top: 0, behavior: "smooth" });
     });
   });
 
@@ -1316,12 +1633,10 @@
     e.preventDefault();
     setCategory("all");
     setQuery("");
-    window.scrollTo({ top: 0, behavior: "smooth" });
   });
 
   elBtnWeatherShortcut?.addEventListener("click", () => {
     setCategory("weather");
-    window.scrollTo({ top: 0, behavior: "smooth" });
   });
 
   elBtnRefresh.addEventListener("click", () => reloadNewsData(true));
@@ -1405,7 +1720,6 @@
         if (nextIdx < 0 || nextIdx >= categoryOrder.length) return;
 
         setCategory(categoryOrder[nextIdx], dir);
-        window.scrollTo({ top: 0, behavior: "smooth" });
       },
       { passive: true }
     );
@@ -1416,6 +1730,7 @@
   setupMobileSwipeNavigation();
   state.lastDataSignature = computeDataSignature(state.data);
   restoreCachedNewsOnStartup();
+  syncCategoryTabsUI(state.category, true);
   renderAll();
   reloadNewsData(false);
   setInterval(() => reloadNewsData(false), 5 * 60 * 1000);

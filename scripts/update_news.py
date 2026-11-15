@@ -572,18 +572,116 @@ def load_cached_data() -> tuple[dict[str, dict], list[str], dict[str, dict]]:
 
 
 MAJOR_JP_CITIES = [
-    {"name": "札幌", "region": "北海道", "lat": 43.0618, "lon": 141.3545},
-    {"name": "仙台", "region": "東北", "lat": 38.2682, "lon": 140.8694},
-    {"name": "新潟", "region": "北陸", "lat": 37.9161, "lon": 139.0364},
-    {"name": "金沢", "region": "北陸", "lat": 36.5613, "lon": 136.6562},
-    {"name": "東京", "region": "関東", "lat": 35.6812, "lon": 139.7671},
-    {"name": "名古屋", "region": "東海", "lat": 35.1815, "lon": 136.9066},
-    {"name": "大阪", "region": "近畿", "lat": 34.6937, "lon": 135.5023},
-    {"name": "広島", "region": "中国", "lat": 34.3853, "lon": 132.4553},
-    {"name": "高知", "region": "四国", "lat": 33.5597, "lon": 133.5311},
-    {"name": "福岡", "region": "九州", "lat": 33.5902, "lon": 130.4017},
-    {"name": "那覇", "region": "沖縄", "lat": 26.2124, "lon": 127.6809},
+    {"name": "札幌", "region": "北海道", "lat": 43.0618, "lon": 141.3545, "jmaOffice": "016000"},
+    {"name": "仙台", "region": "東北", "lat": 38.2682, "lon": 140.8694, "jmaOffice": "040000"},
+    {"name": "新潟", "region": "北陸", "lat": 37.9161, "lon": 139.0364, "jmaOffice": "150000"},
+    {"name": "金沢", "region": "北陸", "lat": 36.5613, "lon": 136.6562, "jmaOffice": "170000"},
+    {"name": "東京", "region": "関東", "lat": 35.6812, "lon": 139.7671, "jmaOffice": "130000"},
+    {"name": "名古屋", "region": "東海", "lat": 35.1815, "lon": 136.9066, "jmaOffice": "230000"},
+    {"name": "大阪", "region": "近畿", "lat": 34.6937, "lon": 135.5023, "jmaOffice": "270000"},
+    {"name": "広島", "region": "中国", "lat": 34.3853, "lon": 132.4553, "jmaOffice": "340000"},
+    {"name": "高知", "region": "四国", "lat": 33.5597, "lon": 133.5311, "jmaOffice": "390000"},
+    {"name": "福岡", "region": "九州", "lat": 33.5902, "lon": 130.4017, "jmaOffice": "400000"},
+    {"name": "那覇", "region": "沖縄", "lat": 26.2124, "lon": 127.6809, "jmaOffice": "471000"},
 ]
+
+
+def _jma_code_to_wmo(jma_code: str, weather_text: str = "") -> int:
+    code = str(jma_code or "").strip()
+    text = str(weather_text or "")
+    if "雷" in text:
+        return 95
+    if text.startswith("雪") or text.startswith("みぞれ") or "吹雪" in text:
+        return 71
+    if text.startswith("雨"):
+        return 61
+    if code.startswith("4"):
+        return 71
+    if code.startswith("3"):
+        return 61
+    if code.startswith("2"):
+        return 80 if "雨" in text else (71 if "雪" in text else 3)
+    if code.startswith("1"):
+        if code == "100":
+            return 0
+        if "雨" in text:
+            return 80
+        if "雪" in text:
+            return 71
+        return 1
+    return 1
+
+
+def _parse_int_list(values: list) -> list[int]:
+    out: list[int] = []
+    for v in values or []:
+        s = str(v).strip()
+        if not s:
+            continue
+        try:
+            out.append(round(float(s)))
+        except ValueError:
+            continue
+    return out
+
+
+def fetch_city_weather_jma(city: dict) -> dict | None:
+    office = city.get("jmaOffice")
+    if not office:
+        return None
+    url = f"https://www.jma.go.jp/bosai/forecast/data/forecast/{office}.json"
+    try:
+        raw = fetch_url_bytes(url, timeout=10)
+        jma_json = json.loads(raw.decode("utf-8"))
+        rep = jma_json[0] if isinstance(jma_json, list) and jma_json else {}
+        weekly = jma_json[1] if isinstance(jma_json, list) and len(jma_json) > 1 else {}
+        ts = rep.get("timeSeries") or []
+        area0 = ((ts[0].get("areas") or [{}])[0]) if len(ts) > 0 else {}
+        jma_code = (area0.get("weatherCodes") or [""])[0]
+        w_text = (area0.get("weathers") or [""])[0]
+        wmo_code = _jma_code_to_wmo(jma_code, w_text)
+
+        pops_raw = _parse_int_list(((ts[1].get("areas") or [{}])[0]).get("pops") if len(ts) > 1 else [])
+        pop = max(pops_raw[:3]) if pops_raw else 10
+
+        temps_raw = _parse_int_list(((ts[2].get("areas") or [{}])[0]).get("temps") if len(ts) > 2 else [])
+        wk_ts = weekly.get("timeSeries") or []
+        wk_area = ((wk_ts[1].get("areas") or [{}])[0]) if len(wk_ts) > 1 else {}
+        wk_mins = _parse_int_list(wk_area.get("tempsMin"))
+        wk_maxs = _parse_int_list(wk_area.get("tempsMax"))
+
+        max_temp = 18
+        min_temp = 10
+        if len(temps_raw) >= 4:
+            max_temp = temps_raw[0]
+            min_temp = min(temps_raw[1], temps_raw[2])
+        elif len(temps_raw) == 3:
+            max_temp = temps_raw[0]
+            min_temp = temps_raw[1]
+        elif len(temps_raw) >= 1:
+            min_temp = min(temps_raw)
+            max_temp = max(temps_raw)
+            if wk_maxs:
+                max_temp = max(max_temp, wk_maxs[0])
+            if wk_mins:
+                min_temp = min(min_temp, wk_mins[0])
+        elif wk_maxs and wk_mins:
+            max_temp = wk_maxs[0]
+            min_temp = wk_mins[0]
+
+        temp = temps_raw[0] if temps_raw else round((max_temp + min_temp) / 2)
+        return {
+            "name": city["name"],
+            "region": city["region"],
+            "temp": temp,
+            "code": wmo_code,
+            "wind": 4,
+            "maxTemp": max_temp,
+            "minTemp": min_temp,
+            "pop": pop,
+        }
+    except Exception:
+        return None
 
 
 def fetch_city_weather_one(city: dict) -> dict | None:
@@ -610,7 +708,7 @@ def fetch_city_weather_one(city: dict) -> dict | None:
             "pop": int((daily.get("precipitation_probability_max") or [0])[0] or 0),
         }
     except Exception:
-        return None
+        return fetch_city_weather_jma(city)
 
 
 def fetch_major_cities_weather(cached_weather: dict[str, dict]) -> list[dict]:
