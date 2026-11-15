@@ -1,4 +1,4 @@
-const CACHE_NAME = "trend-news-pwa-v2";
+const CACHE_NAME = "trend-news-pwa-v3";
 const STATIC_ASSETS = [
   "./",
   "./index.html",
@@ -34,16 +34,24 @@ self.addEventListener("fetch", (event) => {
   const url = new URL(req.url);
   if (url.origin !== self.location.origin) return;
 
-  // Network-first so news and code updates are always fresh, falling back to cache offline
+  // Normalize cache key by stripping cache-busting query strings (?t=..., ?v=..., ?_=...)
+  // so CacheStorage never accumulates duplicate timestamped entries
+  const canonicalUrl = url.origin + url.pathname;
+
   event.respondWith(
     fetch(req)
       .then((res) => {
         if (res && res.ok) {
           const clone = res.clone();
-          caches.open(CACHE_NAME).then((cache) => cache.put(req, clone)).catch(() => {});
+          caches.open(CACHE_NAME).then((cache) => cache.put(canonicalUrl, clone)).catch(() => {});
         }
         return res;
       })
-      .catch(() => caches.match(req).then((cached) => cached || caches.match("./index.html")))
+      .catch(() =>
+        caches
+          .match(canonicalUrl)
+          .then((cached) => cached || caches.match(req))
+          .then((cached) => cached || caches.match("./index.html"))
+      )
   );
 });

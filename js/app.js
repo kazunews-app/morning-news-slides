@@ -104,6 +104,13 @@
     return { order: mergedOrder, hidden };
   }
 
+  const initialBookmarks = loadJsonFromStorage(BOOKMARKS_STORAGE_KEY, []).filter(
+    (b) => b && typeof b.url === "string" && b.url && b.title
+  );
+  const initialMyTopics = loadJsonFromStorage(MY_TOPICS_STORAGE_KEY, []).filter(
+    (t) => typeof t === "string" && t.trim()
+  );
+
   const state = {
     data: window.NEWS_DATA || { date: "--", updatedAt: "--", keywords: [], weatherCities: DEFAULT_WEATHER_CITIES, items: [] },
     category: getSavedCategory(),
@@ -111,12 +118,22 @@
     unreadOnly: false,
     isReloading: false,
     lastDataSignature: "",
-    bookmarks: loadJsonFromStorage(BOOKMARKS_STORAGE_KEY, []).filter((b) => b && b.url && b.title),
+    currentModalItem: null,
+    bookmarks: initialBookmarks,
+    bookmarkUrls: new Set(initialBookmarks.map((b) => b.url)),
     readUrls: new Set(loadJsonFromStorage(READ_URLS_STORAGE_KEY, []).filter((u) => typeof u === "string")),
-    myTopics: loadJsonFromStorage(MY_TOPICS_STORAGE_KEY, []).filter((t) => typeof t === "string" && t.trim()),
+    myTopics: initialMyTopics,
+    myTopicsPairs: initialMyTopics.map((t) => ({ raw: t.trim(), lower: t.trim().toLowerCase() })),
     fontSize: safeStorageGet(typeof localStorage !== "undefined" ? localStorage : null, FONT_SIZE_STORAGE_KEY) || "normal",
     catPrefs: loadInitialCatPrefs(),
   };
+
+  function syncMyTopicsPairs() {
+    state.myTopicsPairs = (state.myTopics || [])
+      .map((t) => String(t || "").trim())
+      .filter(Boolean)
+      .map((raw) => ({ raw, lower: raw.toLowerCase() }));
+  }
 
   // DOM
   const elHeaderUpdated = document.getElementById("header-updated");
@@ -186,7 +203,7 @@
     const ts = Number(item?.publishedTs);
     if (Number.isFinite(ts) && ts > 0) return ts;
     if (typeof item?.publishedAt === "string" && item.publishedAt.trim()) {
-      const normalized = item.publishedAt.trim().replace(" ", "T");
+      const normalized = item.publishedAt.trim().replace(/\//g, "-").replace(" ", "T");
       const ms = Date.parse(/[zZ]|[+\-]\d{2}:?\d{2}$/.test(normalized) ? normalized : `${normalized}+09:00`);
       if (Number.isFinite(ms) && ms > 0) return Math.floor(ms / 1000);
     }
@@ -315,13 +332,7 @@
       return;
     }
     const cities = Array.isArray(state.data?.weatherCities) ? state.data.weatherCities : [];
-    const saved = (() => {
-      try {
-        return JSON.parse(safeStorageGet(localStorage, "trend-news-geo") || "null");
-      } catch (_e) {
-        return null;
-      }
-    })();
+    const saved = loadJsonFromStorage("trend-news-geo", null);
     const matchCity =
       (saved?.locName && cities.find((c) => saved.locName.includes(c.name))) ||
       cities.find((c) => c.name === "東京") ||
@@ -333,15 +344,19 @@
 
   // Bookmarks, Read Status, My Topics, Font Size & Category Prefs
   function isBookmarked(url) {
-    if (!url) return false;
-    return state.bookmarks.some((b) => b.url === url);
+    return Boolean(url && state.bookmarkUrls.has(url));
   }
 
   function findArticleByUrl(url) {
     if (!url) return null;
     const fromData = (Array.isArray(state.data.items) ? state.data.items : []).find((it) => it && it.url === url);
     if (fromData) return fromData;
-    return state.bookmarks.find((b) => b && b.url === url) || null;
+    const fromSaved = state.bookmarks.find((b) => b && b.url === url);
+    if (fromSaved) return fromSaved;
+    if (state.currentModalItem && state.currentModalItem.url === url) {
+      return state.currentModalItem;
+    }
+    return null;
   }
 
   function toggleBookmarkByUrl(url) {
@@ -350,6 +365,7 @@
     let nowSaved = false;
     if (existingIdx >= 0) {
       state.bookmarks.splice(existingIdx, 1);
+      state.bookmarkUrls.delete(url);
       nowSaved = false;
     } else {
       const item = findArticleByUrl(url);
@@ -369,11 +385,22 @@
           savedAt: Date.now(),
         };
         state.bookmarks.unshift(cleanCopy);
+        state.bookmarkUrls.add(url);
         nowSaved = true;
       }
     }
     safeStorageSet(localStorage, BOOKMARKS_STORAGE_KEY, JSON.stringify(state.bookmarks.slice(0, 200)));
-    renderFeed();
+    if (state.category === "saved") {
+      renderFeed();
+    } else if (elMainContainer && typeof elMainContainer.querySelectorAll === "function") {
+      elMainContainer.querySelectorAll("[data-bookmark-url]").forEach((btn) => {
+        if (btn.getAttribute("data-bookmark-url") === url) {
+          btn.classList.toggle("active", nowSaved);
+          btn.textContent = nowSaved ? "★" : "☆";
+          btn.setAttribute("title", nowSaved ? "保存を解除" : "あとで読むに保存");
+        }
+      });
+    }
     return nowSaved;
   }
 
@@ -387,16 +414,28 @@
       return;
     }
     if (elMainContainer && typeof elMainContainer.querySelectorAll === "function") {
-      elMainContainer.querySelectorAll(`[data-article-url]`).forEach((card) => {
+      elMainContainer.querySelectorAll("[data-article-url]").forEach((card) => {
         if (card.getAttribute("data-article-url") === url) {
           card.classList.add("is-read");
+          const metaRow = card.querySelector?.(".meta-row");
+          if (metaRow && !metaRow.querySelector?.(".read-badge") && typeof document.createElement === "function") {
+            const badge = document.createElement("span");
+            badge.className = "read-badge";
+            badge.textContent = "既読";
+            const anchor = metaRow.querySelector?.(".my-topic-badge") || metaRow.querySelector?.(".cat-pill");
+            if (anchor && anchor.nextSibling && typeof metaRow.insertBefore === "function") {
+              metaRow.insertBefore(badge, anchor.nextSibling);
+            } else if (typeof metaRow.appendChild === "function") {
+              metaRow.appendChild(badge);
+            }
+          }
         }
       });
     }
   }
 
   function getMatchedMyTopic(item) {
-    if (!state.myTopics || state.myTopics.length === 0 || !item) return "";
+    if (!state.myTopicsPairs || state.myTopicsPairs.length === 0 || !item) return "";
     const hay = [
       item.title,
       item.summary,
@@ -404,10 +443,9 @@
     ]
       .join(" ")
       .toLowerCase();
-    for (const topic of state.myTopics) {
-      const t = topic.trim();
-      if (t && hay.includes(t.toLowerCase())) {
-        return t;
+    for (const pair of state.myTopicsPairs) {
+      if (hay.includes(pair.lower)) {
+        return pair.raw;
       }
     }
     return "";
@@ -722,12 +760,46 @@
     }
   }
 
+  function fallbackExecCopy(text) {
+    try {
+      if (typeof document === "undefined" || !document.body || typeof document.createElement !== "function") {
+        return false;
+      }
+      const ta = document.createElement("textarea");
+      ta.value = text;
+      ta.setAttribute("readonly", "");
+      ta.style.position = "fixed";
+      ta.style.left = "-9999px";
+      document.body.appendChild(ta);
+      ta.select?.();
+      const ok = typeof document.execCommand === "function" ? document.execCommand("copy") : true;
+      document.body.removeChild(ta);
+      return Boolean(ok);
+    } catch (_e) {
+      return false;
+    }
+  }
+
   function copyTextToClipboard(text, onDone) {
+    if (!text) return;
     if (navigator.clipboard && typeof navigator.clipboard.writeText === "function") {
-      navigator.clipboard.writeText(text).then(onDone).catch(() => {});
+      navigator.clipboard
+        .writeText(text)
+        .then(onDone)
+        .catch(() => {
+          if (fallbackExecCopy(text)) onDone();
+        });
       return;
     }
+    fallbackExecCopy(text);
     onDone();
+  }
+
+  function syncBodyScrollLock() {
+    const anyModalOpen = Boolean(
+      (elModal && !elModal.hidden) || (elSettingsModal && !elSettingsModal.hidden)
+    );
+    document.body.style.overflow = anyModalOpen ? "hidden" : "";
   }
 
   function openArticleModal(idx, urlFallback = "") {
@@ -738,6 +810,7 @@
     }
     if (!item) return;
 
+    state.currentModalItem = item;
     if (item.url) {
       markArticleRead(item.url);
     }
@@ -811,12 +884,13 @@
 
     elModal.hidden = false;
     if (elModalDialog) elModalDialog.scrollTop = 0;
-    document.body.style.overflow = "hidden";
+    syncBodyScrollLock();
   }
 
   function closeModal() {
     elModal.hidden = true;
-    document.body.style.overflow = "";
+    state.currentModalItem = null;
+    syncBodyScrollLock();
   }
 
   function setQuery(q) {
@@ -859,6 +933,11 @@
 
   function setCategory(cat, swipeDir = 0, shouldScrollTop = true, resetQuery = false) {
     const targetCat = VALID_CATEGORIES.has(cat) ? cat : "all";
+    if (state.catPrefs.hidden.includes(targetCat)) {
+      state.catPrefs.hidden = state.catPrefs.hidden.filter((c) => c !== targetCat);
+      safeStorageSet(localStorage, CAT_PREFS_STORAGE_KEY, JSON.stringify(state.catPrefs));
+      applyCategoryPreferences();
+    }
     state.category = targetCat;
     saveCategory(targetCat);
     if ((targetCat === "weather" || resetQuery) && state.query) {
@@ -912,31 +991,27 @@
   }
 
   function readCachedWeatherEntry() {
-    try {
-      const raw = localStorage.getItem(WEATHER_CACHE_KEY);
-      if (!raw) return null;
-      const parsed = JSON.parse(raw);
-      if (Array.isArray(parsed) && parsed.length > 0) {
-        return { updatedAt: "", cities: parsed };
-      }
-      if (parsed && Array.isArray(parsed.cities) && parsed.cities.length > 0) {
-        return { updatedAt: parsed.updatedAt || "", cities: parsed.cities };
-      }
-    } catch (_e) {}
+    const parsed = loadJsonFromStorage(WEATHER_CACHE_KEY, null);
+    if (!parsed) return null;
+    if (Array.isArray(parsed) && parsed.length > 0) {
+      return { updatedAt: "", cities: parsed };
+    }
+    if (Array.isArray(parsed.cities) && parsed.cities.length > 0) {
+      return { updatedAt: parsed.updatedAt || "", cities: parsed.cities };
+    }
     return null;
   }
 
   function saveCachedWeatherCities(cities, updatedAt = "") {
     if (!Array.isArray(cities) || cities.length === 0) return;
-    try {
-      localStorage.setItem(
-        WEATHER_CACHE_KEY,
-        JSON.stringify({
-          updatedAt: updatedAt || formatNowJst().updatedAt,
-          cities,
-        })
-      );
-    } catch (_e) {}
+    safeStorageSet(
+      localStorage,
+      WEATHER_CACHE_KEY,
+      JSON.stringify({
+        updatedAt: updatedAt || formatNowJst().updatedAt,
+        cities,
+      })
+    );
   }
 
   function getBestAvailableWeatherCities(candidate) {
@@ -1005,9 +1080,7 @@
       window.NEWS_DATA = normalizedCandidate;
       state.data = normalizedCandidate;
       state.lastDataSignature = sig;
-      try {
-        localStorage.setItem("trend-news-live-cache", JSON.stringify(normalizedCandidate));
-      } catch (_e) {}
+      safeStorageSet(localStorage, "trend-news-live-cache", JSON.stringify(normalizedCandidate));
       renderAll();
       return true;
     }
@@ -1024,12 +1097,10 @@
         saveCachedWeatherCities(INITIAL_BUNDLED_WEATHER_CITIES, INITIAL_BUNDLED_UPDATED_AT);
       }
     }
-    try {
-      const raw = localStorage.getItem("trend-news-live-cache");
-      if (!raw) return;
-      const cached = JSON.parse(raw);
+    const cached = loadJsonFromStorage("trend-news-live-cache", null);
+    if (cached) {
       applyNewsDataIfNewer(cached, false);
-    } catch (_e) {}
+    }
   }
 
   async function fetchGithubNewsData() {
@@ -1376,9 +1447,7 @@
     ).then((results) => {
       const anyUpdated = results.some((r) => r.status === "fulfilled" && r.value === true);
       if (anyUpdated) {
-        try {
-          localStorage.setItem("trend-news-live-cache", JSON.stringify(state.data));
-        } catch (_e) {}
+        safeStorageSet(localStorage, "trend-news-live-cache", JSON.stringify(state.data));
         if (state.category !== "weather") {
           renderFeed();
         }
@@ -2354,13 +2423,13 @@
     if (!elSettingsModal) return;
     renderSettingsModalContent();
     elSettingsModal.hidden = false;
-    document.body.style.overflow = "hidden";
+    syncBodyScrollLock();
   }
 
   function closeSettingsModal() {
     if (!elSettingsModal) return;
     elSettingsModal.hidden = true;
-    document.body.style.overflow = "";
+    syncBodyScrollLock();
   }
 
   function addMyTopicFromInput() {
@@ -2369,6 +2438,7 @@
     if (!val) return;
     if (!state.myTopics.some((t) => t.toLowerCase() === val.toLowerCase())) {
       state.myTopics.push(val);
+      syncMyTopicsPairs();
       safeStorageSet(localStorage, MY_TOPICS_STORAGE_KEY, JSON.stringify(state.myTopics));
     }
     elMyTopicInput.value = "";
@@ -2428,6 +2498,17 @@
     }
     const card = e?.target?.closest?.("[data-article-idx]");
     if (!card) return;
+    const idx = Number(card.getAttribute("data-article-idx"));
+    const url = card.getAttribute("data-article-url") || "";
+    openArticleModal(idx, url);
+  });
+
+  elMainContainer?.addEventListener("keydown", (e) => {
+    if (e.key !== "Enter" && e.key !== " ") return;
+    if (e?.target?.closest?.("[data-bookmark-url], button, a, input")) return;
+    const card = e?.target?.closest?.("[data-article-idx]");
+    if (!card) return;
+    e.preventDefault?.();
     const idx = Number(card.getAttribute("data-article-idx"));
     const url = card.getAttribute("data-article-url") || "";
     openArticleModal(idx, url);
@@ -2553,6 +2634,7 @@
     if (!rmBtn) return;
     const topic = rmBtn.getAttribute("data-remove-topic");
     state.myTopics = state.myTopics.filter((t) => t !== topic);
+    syncMyTopicsPairs();
     safeStorageSet(localStorage, MY_TOPICS_STORAGE_KEY, JSON.stringify(state.myTopics));
     renderSettingsModalContent();
     renderTrending();

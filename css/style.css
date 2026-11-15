@@ -507,6 +507,7 @@ html, body {
 }
 
 .side-item {
+  position: relative;
   display: flex;
   gap: 12px;
   align-items: flex-start;
@@ -643,6 +644,7 @@ html, body {
 }
 
 .card-thumb-wrap {
+  position: relative;
   width: 100%;
   aspect-ratio: 16 / 9;
   background: var(--surface-muted);
@@ -1126,6 +1128,7 @@ html, body {
 }
 
 .text-news-item {
+  position: relative;
   display: flex;
   align-items: flex-start;
   gap: 12px;
@@ -1462,15 +1465,6 @@ html[data-font-size="xlarge"] {
 /* =========================================================
    Bookmarks, Read Status, Unread Filter & My Topics
    ========================================================= */
-.card-thumb-wrap {
-  position: relative;
-}
-
-.side-item,
-.text-news-item {
-  position: relative;
-}
-
 .bookmark-btn {
   display: inline-flex;
   align-items: center;
