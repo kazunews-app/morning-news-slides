@@ -1,6 +1,6 @@
 window.NEWS_DATA = {
   "date": "2026年11月15日 (日)",
-  "updatedAt": "2026-11-15 14:47",
+  "updatedAt": "2026-11-15 14:52",
   "title": "TREND NEWS",
   "keywords": [
     "きょう近畿や東海で激しい雨…",
@@ -1408,23 +1408,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "デスクトップアプリを自動操作できるAUVが良さげかも | kawarimidoll.com",
-      "source": "kawarimidoll.com",
-      "publishedAt": "2026-10-19 17:36",
-      "publishedTs": 1792399008,
-      "image": "https://kawarimidoll.com/posts/202610182/og.png",
-      "summary": "Programmable Computer Use, without agents. AUV turns app UI workflows into typed operations you can script, record, inspect, and replay. GitHub - moeru-ai…",
+      "title": "貧乏人向けの金貸しと、Appleの取り立てテクノロジー » p2ptk[.]org",
+      "source": "p2ptk.org",
+      "publishedAt": "2026-11-15 03:54",
+      "publishedTs": 1794682485,
+      "image": "https://p2ptk.org/wp-content/uploads/2026/11/think_different_repo.jpg",
+      "summary": "以下の文章は、コリイ・ドクトロウの「Apple’s robo-repo」という記事（2026年7月25日公開）を翻訳したものである。 Pluralistic 奇妙に思えるかもしれないが、金貸しは返済に苦労しそうな貧乏人に金を貸すのを大いに好む。当然ながら貸し手は耳を揃えて返済してほしいと考えているし、当然な…",
       "points": [
         "カテゴリ: テクノロジー・AIで話題の記事",
-        "引用元: kawarimidoll.com（2026-10-19 17:36）",
+        "引用元: p2ptk.org（2026-11-15 03:54）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "テクノロジー・AI分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "テクノロジー・AI",
-        "kawarimidoll.com"
+        "p2ptk.org"
       ],
-      "url": "https://kawarimidoll.com/posts/202610182/",
+      "url": "https://p2ptk.org/monopoly/5681",
       "isAiEnriched": false
     },
     {
@@ -1514,23 +1514,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "貧乏人向けの金貸しと、Appleの取り立てテクノロジー » p2ptk[.]org",
-      "source": "p2ptk.org",
-      "publishedAt": "2026-11-15 03:54",
-      "publishedTs": 1794682485,
-      "image": "https://p2ptk.org/wp-content/uploads/2026/11/think_different_repo.jpg",
-      "summary": "以下の文章は、コリイ・ドクトロウの「Apple’s robo-repo」という記事（2026年7月25日公開）を翻訳したものである。 Pluralistic 奇妙に思えるかもしれないが、金貸しは返済に苦労しそうな貧乏人に金を貸すのを大いに好む。当然ながら貸し手は耳を揃えて返済してほしいと考えているし、当然な…",
+      "title": "デスクトップアプリを自動操作できるAUVが良さげかも | kawarimidoll.com",
+      "source": "kawarimidoll.com",
+      "publishedAt": "2026-10-19 17:36",
+      "publishedTs": 1792399008,
+      "image": "https://kawarimidoll.com/posts/202610182/og.png",
+      "summary": "Programmable Computer Use, without agents. AUV turns app UI workflows into typed operations you can script, record, inspect, and replay. GitHub - moeru-ai…",
       "points": [
         "カテゴリ: テクノロジー・AIで話題の記事",
-        "引用元: p2ptk.org（2026-11-15 03:54）",
+        "引用元: kawarimidoll.com（2026-10-19 17:36）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "テクノロジー・AI分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "テクノロジー・AI",
-        "p2ptk.org"
+        "kawarimidoll.com"
       ],
-      "url": "https://p2ptk.org/monopoly/5681",
+      "url": "https://kawarimidoll.com/posts/202610182/",
       "isAiEnriched": false
     },
     {
@@ -2042,23 +2042,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "「人工知能学会」で「おじさん構文」の研究発表、問われる「若者に絵文字を使っていいのか」問題…ＡＩとの関係は",
-      "source": "yomiuri.co.jp",
-      "publishedAt": "2026-11-15 11:53",
-      "publishedTs": 1794711205,
-      "image": "https://www.yomiuri.co.jp/media/2026/11/20261112-GYT1I00165-1.jpg?type=ogpw",
-      "summary": "【読売新聞】 「若者は上司から絵文字がついた文章を受け取るとどう思うか――」。人工知能学会の研究会で、大学生が「おじさん構文」と呼ばれる文章についての研究結果を報告した。大学や企業のＡＩ研究者らが参加する学会で、場違いとも思える研究…",
+      "title": "55歳でグーグル本社をクビになった私が、4つのバイトのかけもち生活を通して思い出した「肉体労働の価値」とは",
+      "source": "crea.bunshun.jp",
+      "publishedAt": "2026-11-14 17:01",
+      "publishedTs": 1794643306,
+      "image": "https://crea.ismcdn.jp/mwimgs/2/6/1200wm/img_26e7a268236162c5590aa4c2f3ec356574001.jpg",
+      "summary": "パソコンがなくても働ける生き方 前の職場の同僚たちに私がギャップイヤーの間にしている仕事について話したことがある。 日々体を使う仕事をしていて、自分自身がプロダクトでありサービスなんだと思うと、仕事へのやる気もやりがいも感じると私は言った。 それに耳を傾けていた同僚はこんなことを口にした。 「自分自...",
       "points": [
         "カテゴリ: テクノロジー・AIで話題の記事",
-        "引用元: yomiuri.co.jp（2026-11-15 11:53）",
+        "引用元: crea.bunshun.jp（2026-11-14 17:01）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "テクノロジー・AI分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "テクノロジー・AI",
-        "yomiuri.co.jp"
+        "crea.bunshun.jp"
       ],
-      "url": "https://www.yomiuri.co.jp/science/20261112-GYT1T00160/",
+      "url": "https://crea.bunshun.jp/articles/-/60719",
       "isAiEnriched": false
     },
     {
@@ -2148,23 +2148,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "55歳でグーグル本社をクビになった私が、4つのバイトのかけもち生活を通して思い出した「肉体労働の価値」とは",
-      "source": "crea.bunshun.jp",
-      "publishedAt": "2026-11-14 17:01",
-      "publishedTs": 1794643306,
-      "image": "https://crea.ismcdn.jp/mwimgs/2/6/1200wm/img_26e7a268236162c5590aa4c2f3ec356574001.jpg",
-      "summary": "パソコンがなくても働ける生き方 前の職場の同僚たちに私がギャップイヤーの間にしている仕事について話したことがある。 日々体を使う仕事をしていて、自分自身がプロダクトでありサービスなんだと思うと、仕事へのやる気もやりがいも感じると私は言った。 それに耳を傾けていた同僚はこんなことを口にした。 「自分自...",
+      "title": "「人工知能学会」で「おじさん構文」の研究発表、問われる「若者に絵文字を使っていいのか」問題…ＡＩとの関係は",
+      "source": "yomiuri.co.jp",
+      "publishedAt": "2026-11-15 11:53",
+      "publishedTs": 1794711205,
+      "image": "https://www.yomiuri.co.jp/media/2026/11/20261112-GYT1I00165-1.jpg?type=ogpw",
+      "summary": "【読売新聞】 「若者は上司から絵文字がついた文章を受け取るとどう思うか――」。人工知能学会の研究会で、大学生が「おじさん構文」と呼ばれる文章についての研究結果を報告した。大学や企業のＡＩ研究者らが参加する学会で、場違いとも思える研究…",
       "points": [
         "カテゴリ: テクノロジー・AIで話題の記事",
-        "引用元: crea.bunshun.jp（2026-11-14 17:01）",
+        "引用元: yomiuri.co.jp（2026-11-15 11:53）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "テクノロジー・AI分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "テクノロジー・AI",
-        "crea.bunshun.jp"
+        "yomiuri.co.jp"
       ],
-      "url": "https://crea.bunshun.jp/articles/-/60719",
+      "url": "https://www.yomiuri.co.jp/science/20261112-GYT1T00160/",
       "isAiEnriched": false
     },
     {
@@ -2549,23 +2549,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "「二度と造れない車両」　新観光列車「赤い星」公開、ラウンジや畳敷き茶室も　JR北海道",
-      "source": "sankei.com",
-      "publishedAt": "2026-11-15 00:41",
-      "publishedTs": 1794670913,
-      "image": "https://www.sankei.com/resizer/v2/BTD3EUDKBZJMXGJJDHQJ6IK7CY.jpg?auth=62ea80c6aa68a7acb1132b34f3c2cc7b4f24bd978af527454adf1c23defa7b09&quality=50&focal=1064%2C1052&width=1200&height=675",
-      "summary": "ただいまメンテナンス中です メンテナンスのため、会員のログイン機能を一時停止しております。メンテナンス終了までメールマガジンの配信も停止します。 ユーザーの皆様にはご迷惑をおかけいたしますが、何卒ご理解のほどよろしくお願いいたします。",
+      "title": "部門長まで上り詰めたグーグル米本社を55歳でクビに…掛け持ちバイトで月収80万円、「以前より少ない」とぼやくが、老後の不安は消えたワケ（THE GOLD ONLINE（ゴールドオンライン）） - Yahoo!ニュース",
+      "source": "news.yahoo.co.jp",
+      "publishedAt": "2026-11-15 13:28",
+      "publishedTs": 1794716898,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261028-00082683-gonline-000-1-view.jpg?exp=10800",
+      "summary": "（※画像はイメージです／PIXTA）（ゴールドオンライン）モトローラやイーライリリーを経てグーグルで16年間勤め、米国本社で部門長まで上り詰めたロイス・キム氏。30年におよぶキャリアの絶頂期にあった55歳のある朝、彼女は突然の解雇を宣告されます。グーグルから放り出された彼女は、この期間を「ギャップイヤー」と…",
       "points": [
         "カテゴリ: 国内・総合で話題の記事",
-        "引用元: sankei.com（2026-11-15 00:41）",
+        "引用元: news.yahoo.co.jp（2026-11-15 13:28）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "国内・総合分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "国内・総合",
-        "sankei.com"
+        "news.yahoo.co.jp"
       ],
-      "url": "https://www.sankei.com/article/20261114-MBDYXQK3QZK5BPHZTMY6R75TGE/",
+      "url": "https://news.yahoo.co.jp/articles/09d74208ad2103cdb06398a86188d12793299a60",
       "isAiEnriched": false
     },
     {
@@ -2654,23 +2654,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "［社説］女性へのあらゆる暴力根絶を - 日本経済新聞",
-      "source": "nikkei.com",
-      "publishedAt": "2026-11-15 00:21",
-      "publishedTs": 1794669678,
-      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3874963013112026000000-2.jpg?auto=compress&bg=FFFF&crop=focalpoint&fit=crop&fm=jpg&h=630&w=1200&s=23f00abd65440470f41a9704179e913f",
-      "summary": "今月25日は国連が定める「女性に対する暴力撤廃の国際デー」だ。日本でも12日から2週間、ポスターや動画を通じて相談窓口の利用を呼びかけている。性犯罪や性暴力、DV（配偶者などからの暴力）は被害者の尊厳を著しく傷つけ、心身だけでなく社会的・経済的に長期にわたり支障をきたす。断じて許されない。被害者が勇気を...",
+      "title": "「二度と造れない車両」　新観光列車「赤い星」公開、ラウンジや畳敷き茶室も　JR北海道",
+      "source": "sankei.com",
+      "publishedAt": "2026-11-15 00:41",
+      "publishedTs": 1794670913,
+      "image": "https://www.sankei.com/resizer/v2/BTD3EUDKBZJMXGJJDHQJ6IK7CY.jpg?auth=62ea80c6aa68a7acb1132b34f3c2cc7b4f24bd978af527454adf1c23defa7b09&quality=50&focal=1064%2C1052&width=1200&height=675",
+      "summary": "ただいまメンテナンス中です メンテナンスのため、会員のログイン機能を一時停止しております。メンテナンス終了までメールマガジンの配信も停止します。 ユーザーの皆様にはご迷惑をおかけいたしますが、何卒ご理解のほどよろしくお願いいたします。",
       "points": [
         "カテゴリ: 国内・総合で話題の記事",
-        "引用元: nikkei.com（2026-11-15 00:21）",
+        "引用元: sankei.com（2026-11-15 00:41）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "国内・総合分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "国内・総合",
-        "nikkei.com"
+        "sankei.com"
       ],
-      "url": "https://www.nikkei.com/article/DGXZQODK1341M0T11C26A1000000/",
+      "url": "https://www.sankei.com/article/20261114-MBDYXQK3QZK5BPHZTMY6R75TGE/",
       "isAiEnriched": false
     },
     {
@@ -2759,23 +2759,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "リニア品川－名古屋開業、最短2040年代か　本紙試算、湧水対策など不確定要素：中日新聞Web",
-      "source": "chunichi.co.jp",
-      "publishedAt": "2026-11-15 05:44",
-      "publishedTs": 1794689055,
-      "image": "https://static.chunichi.co.jp/image/article/size1/3/f/f/7/3ff78a2c3847293ca4f76d231e54577f_1.jpg",
-      "summary": "リニア中央新幹線の東京・品川－名古屋間の新たな開業時期について、JR東海は年内に公表する方針を示している。駅周辺再開発への影響や経済波及効果から、沿線と周辺地域には大きな関心事だ。本紙は、JRやトンネル工学の専門家への取材をもとに開業時期を試算。早くても2040年代になるとの結果になった。 （水谷元海、...",
+      "title": "［社説］女性へのあらゆる暴力根絶を - 日本経済新聞",
+      "source": "nikkei.com",
+      "publishedAt": "2026-11-15 00:21",
+      "publishedTs": 1794669678,
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3874963013112026000000-2.jpg?auto=compress&bg=FFFF&crop=focalpoint&fit=crop&fm=jpg&h=630&w=1200&s=23f00abd65440470f41a9704179e913f",
+      "summary": "今月25日は国連が定める「女性に対する暴力撤廃の国際デー」だ。日本でも12日から2週間、ポスターや動画を通じて相談窓口の利用を呼びかけている。性犯罪や性暴力、DV（配偶者などからの暴力）は被害者の尊厳を著しく傷つけ、心身だけでなく社会的・経済的に長期にわたり支障をきたす。断じて許されない。被害者が勇気を...",
       "points": [
         "カテゴリ: 国内・総合で話題の記事",
-        "引用元: chunichi.co.jp（2026-11-15 05:44）",
+        "引用元: nikkei.com（2026-11-15 00:21）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "国内・総合分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "国内・総合",
-        "chunichi.co.jp"
+        "nikkei.com"
       ],
-      "url": "https://www.chunichi.co.jp/article/1339597",
+      "url": "https://www.nikkei.com/article/DGXZQODK1341M0T11C26A1000000/",
       "isAiEnriched": false
     },
     {
@@ -2864,23 +2864,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "高市政権:これが“身を切る改革”か！　議員定数削減の大茶番　自維国の31減の舞台裏 | 毎日新聞",
-      "source": "mainichi.jp",
-      "publishedAt": "2026-11-15 03:43",
-      "publishedTs": 1794681815,
-      "image": "https://cdn.mainichi.jp/vol1/2026/11/10/20261110org00m010014000p/0c10.jpg?1",
-      "summary": "合意書に署名し写真撮影に臨む自民党の鈴木俊一幹事長（中央）、日本維新の会の柴田巧幹事長（右）、国民民主党の榛葉賀津也幹事長＝国会内で2026年10月29日午前10時54分、平田明浩撮影 国民民主はなぜすり寄ったのか 議員削減がまとまった「思惑」 なぜ今、国会議員の定数削減が必要なのか―。それも比例区「31減…",
+      "title": "人気店の居酒屋にインフルエンサーから「食事提供と報酬12000円でSNSにPRとして投稿する」という依頼が来たことが議論に「お客様に失礼」「ただの営業なので嫌なら断れば」",
+      "source": "togetter.com",
+      "publishedAt": "2026-11-15 11:54",
+      "publishedTs": 1794711259,
+      "image": "https://s.tgstc.com/ogp3/bbbe865c2e0bc8eb84ded53bbd38cf11-1200x630.jpeg",
+      "summary": "はまむらみつや @kitashinci 二人でご飯食べさせて、SNSに投稿したるから12000円払えってか？？ 今までインスタグラマーの人が、居酒屋 浜村にお越しになって頂いてて、SNSとかに投稿して頂いてるけど、皆様自分でご予約下さって、気づいたら投稿して頂いてた方ばっかりで。 この人載せてる店全部信用出…",
       "points": [
         "カテゴリ: 国内・総合で話題の記事",
-        "引用元: mainichi.jp（2026-11-15 03:43）",
+        "引用元: togetter.com（2026-11-15 11:54）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "国内・総合分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "国内・総合",
-        "mainichi.jp"
+        "togetter.com"
       ],
-      "url": "https://mainichi.jp/sunday/articles/20261110/org/00m/010/018000c",
+      "url": "https://togetter.com/li/2770611",
       "isAiEnriched": false
     },
     {
@@ -2969,23 +2969,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "ラヴ上等「あっすん」容疑者逮捕 - Yahoo!ニュース",
-      "source": "news.yahoo.co.jp",
-      "publishedAt": "2026-11-15 13:06",
-      "publishedTs": 1794715583,
-      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/15/75b64de23300edb2ef0d1517806a1acd1fbb7bd55e8627c32a7fd63de0a9f93a.jpg",
-      "summary": "無許可で風俗営業店舗を経営したとして、愛知県警は15日、Netflix（ネットフリックス）が配信する「『ラヴ上等』シーズン2」の出演者で、風俗店経営の小栗彩朱佳（あすか）容疑者（31）=名古屋市中区栄2丁目=ら男女3人を風俗営業法違反の疑いで逮捕し、発表した。3人の認否は明らかにしていない。",
+      "title": "リニア品川－名古屋開業、最短2040年代か　本紙試算、湧水対策など不確定要素：中日新聞Web",
+      "source": "chunichi.co.jp",
+      "publishedAt": "2026-11-15 05:44",
+      "publishedTs": 1794689055,
+      "image": "https://static.chunichi.co.jp/image/article/size1/3/f/f/7/3ff78a2c3847293ca4f76d231e54577f_1.jpg",
+      "summary": "リニア中央新幹線の東京・品川－名古屋間の新たな開業時期について、JR東海は年内に公表する方針を示している。駅周辺再開発への影響や経済波及効果から、沿線と周辺地域には大きな関心事だ。本紙は、JRやトンネル工学の専門家への取材をもとに開業時期を試算。早くても2040年代になるとの結果になった。 （水谷元海、...",
       "points": [
         "カテゴリ: 国内・総合で話題の記事",
-        "引用元: news.yahoo.co.jp（2026-11-15 13:06）",
+        "引用元: chunichi.co.jp（2026-11-15 05:44）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "国内・総合分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "国内・総合",
-        "news.yahoo.co.jp"
+        "chunichi.co.jp"
       ],
-      "url": "https://news.yahoo.co.jp/pickup/6602608",
+      "url": "https://www.chunichi.co.jp/article/1339597",
       "isAiEnriched": false
     },
     {
@@ -3074,23 +3074,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "部門長まで上り詰めたグーグル米本社を55歳でクビに…掛け持ちバイトで月収80万円、「以前より少ない」とぼやくが、老後の不安は消えたワケ（THE GOLD ONLINE（ゴールドオンライン）） - Yahoo!ニュース",
-      "source": "news.yahoo.co.jp",
-      "publishedAt": "2026-11-15 13:28",
-      "publishedTs": 1794716898,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261028-00082683-gonline-000-1-view.jpg?exp=10800",
-      "summary": "（※画像はイメージです／PIXTA）（ゴールドオンライン）モトローラやイーライリリーを経てグーグルで16年間勤め、米国本社で部門長まで上り詰めたロイス・キム氏。30年におよぶキャリアの絶頂期にあった55歳のある朝、彼女は突然の解雇を宣告されます。グーグルから放り出された彼女は、この期間を「ギャップイヤー」と…",
+      "title": "高市政権:これが“身を切る改革”か！　議員定数削減の大茶番　自維国の31減の舞台裏 | 毎日新聞",
+      "source": "mainichi.jp",
+      "publishedAt": "2026-11-15 03:43",
+      "publishedTs": 1794681815,
+      "image": "https://cdn.mainichi.jp/vol1/2026/11/10/20261110org00m010014000p/0c10.jpg?1",
+      "summary": "合意書に署名し写真撮影に臨む自民党の鈴木俊一幹事長（中央）、日本維新の会の柴田巧幹事長（右）、国民民主党の榛葉賀津也幹事長＝国会内で2026年10月29日午前10時54分、平田明浩撮影 国民民主はなぜすり寄ったのか 議員削減がまとまった「思惑」 なぜ今、国会議員の定数削減が必要なのか―。それも比例区「31減…",
       "points": [
         "カテゴリ: 国内・総合で話題の記事",
-        "引用元: news.yahoo.co.jp（2026-11-15 13:28）",
+        "引用元: mainichi.jp（2026-11-15 03:43）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "国内・総合分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "国内・総合",
-        "news.yahoo.co.jp"
+        "mainichi.jp"
       ],
-      "url": "https://news.yahoo.co.jp/articles/09d74208ad2103cdb06398a86188d12793299a60",
+      "url": "https://mainichi.jp/sunday/articles/20261110/org/00m/010/018000c",
       "isAiEnriched": false
     },
     {
