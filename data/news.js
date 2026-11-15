@@ -1,6 +1,6 @@
 window.NEWS_DATA = {
   "date": "2026年11月15日 (日)",
-  "updatedAt": "2026-11-15 14:43",
+  "updatedAt": "2026-11-15 14:47",
   "title": "TREND NEWS",
   "keywords": [
     "きょう近畿や東海で激しい雨…",
@@ -2969,15 +2969,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "部門長まで上り詰めたグーグル米本社を55歳でクビに…掛け持ちバイトで月収80万円、「以前より少ない」とぼやくが、老後の不安は消えたワケ（THE GOLD ONLINE（ゴールドオンライン）） - Yahoo!ニュース",
+      "title": "ラヴ上等「あっすん」容疑者逮捕 - Yahoo!ニュース",
       "source": "news.yahoo.co.jp",
-      "publishedAt": "2026-11-15 13:28",
-      "publishedTs": 1794716898,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261028-00082683-gonline-000-1-view.jpg?exp=10800",
-      "summary": "（※画像はイメージです／PIXTA）（ゴールドオンライン）モトローラやイーライリリーを経てグーグルで16年間勤め、米国本社で部門長まで上り詰めたロイス・キム氏。30年におよぶキャリアの絶頂期にあった55歳のある朝、彼女は突然の解雇を宣告されます。グーグルから放り出された彼女は、この期間を「ギャップイヤー」と…",
+      "publishedAt": "2026-11-15 13:06",
+      "publishedTs": 1794715583,
+      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/15/75b64de23300edb2ef0d1517806a1acd1fbb7bd55e8627c32a7fd63de0a9f93a.jpg",
+      "summary": "無許可で風俗営業店舗を経営したとして、愛知県警は15日、Netflix（ネットフリックス）が配信する「『ラヴ上等』シーズン2」の出演者で、風俗店経営の小栗彩朱佳（あすか）容疑者（31）=名古屋市中区栄2丁目=ら男女3人を風俗営業法違反の疑いで逮捕し、発表した。3人の認否は明らかにしていない。",
       "points": [
         "カテゴリ: 国内・総合で話題の記事",
-        "引用元: news.yahoo.co.jp（2026-11-15 13:28）",
+        "引用元: news.yahoo.co.jp（2026-11-15 13:06）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "国内・総合分野で多くの読者に共有されている注目記事です。",
@@ -2985,7 +2985,7 @@ window.NEWS_DATA = {
         "国内・総合",
         "news.yahoo.co.jp"
       ],
-      "url": "https://news.yahoo.co.jp/articles/09d74208ad2103cdb06398a86188d12793299a60",
+      "url": "https://news.yahoo.co.jp/pickup/6602608",
       "isAiEnriched": false
     },
     {
@@ -3074,23 +3074,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "人気店の居酒屋にインフルエンサーから「食事提供と報酬12000円でSNSにPRとして投稿する」という依頼が来たことが議論に「お客様に失礼」「ただの営業なので嫌なら断れば」",
-      "source": "togetter.com",
-      "publishedAt": "2026-11-15 11:54",
-      "publishedTs": 1794711259,
-      "image": "https://s.tgstc.com/ogp3/bbbe865c2e0bc8eb84ded53bbd38cf11-1200x630.jpeg",
-      "summary": "はまむらみつや @kitashinci 二人でご飯食べさせて、SNSに投稿したるから12000円払えってか？？ 今までインスタグラマーの人が、居酒屋 浜村にお越しになって頂いてて、SNSとかに投稿して頂いてるけど、皆様自分でご予約下さって、気づいたら投稿して頂いてた方ばっかりで。 この人載せてる店全部信用出…",
+      "title": "部門長まで上り詰めたグーグル米本社を55歳でクビに…掛け持ちバイトで月収80万円、「以前より少ない」とぼやくが、老後の不安は消えたワケ（THE GOLD ONLINE（ゴールドオンライン）） - Yahoo!ニュース",
+      "source": "news.yahoo.co.jp",
+      "publishedAt": "2026-11-15 13:28",
+      "publishedTs": 1794716898,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261028-00082683-gonline-000-1-view.jpg?exp=10800",
+      "summary": "（※画像はイメージです／PIXTA）（ゴールドオンライン）モトローラやイーライリリーを経てグーグルで16年間勤め、米国本社で部門長まで上り詰めたロイス・キム氏。30年におよぶキャリアの絶頂期にあった55歳のある朝、彼女は突然の解雇を宣告されます。グーグルから放り出された彼女は、この期間を「ギャップイヤー」と…",
       "points": [
         "カテゴリ: 国内・総合で話題の記事",
-        "引用元: togetter.com（2026-11-15 11:54）",
+        "引用元: news.yahoo.co.jp（2026-11-15 13:28）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "国内・総合分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "国内・総合",
-        "togetter.com"
+        "news.yahoo.co.jp"
       ],
-      "url": "https://togetter.com/li/2770611",
+      "url": "https://news.yahoo.co.jp/articles/09d74208ad2103cdb06398a86188d12793299a60",
       "isAiEnriched": false
     },
     {
