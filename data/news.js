@@ -1,14 +1,14 @@
 window.NEWS_DATA = {
   "date": "2026年11月15日 (日)",
-  "updatedAt": "2026-11-15 12:35",
+  "updatedAt": "2026-11-15 13:34",
   "title": "TREND NEWS",
   "keywords": [
     "きょう近畿や東海で激しい雨…",
     "検事の取り調べ AIでチェ…",
-    "売れ残りを寄付 広がる一方…",
+    "月収2万円と年金5万円 7…",
     "定数削減巡り国民と維新に温…",
     "AIエージェント普及 問わ…",
-    "月収2万円と年金5万円 7…"
+    "スバルWRXのMT車復活 …"
   ],
   "items": [
     {
@@ -55,15 +55,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "売れ残りを寄付 広がる一方問題も",
+      "title": "月収2万円と年金5万円 70代の現実",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-14 18:42",
-      "publishedTs": 1794649373,
-      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/14/03efb125752606456a6e65030d056987e911b41854bd605c13c7da98bd805791.jpg",
-      "summary": "“売れ残ったパン”を中心に販売しているサイトを見つけた。その日、残ってしまったパンを冷凍し、一定量が溜まったら購入者に宅配で届ける形で、全国1500店以上のパン屋が参加している。",
+      "publishedAt": "2026-11-15 10:06",
+      "publishedTs": 1794704777,
+      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/15/bf4afd5c158e071b58e0c75fe822c993453c10dada68e54b208dcb888750a217.jpg",
+      "summary": "「生きるために働く」高齢者。年金だけでは暮らせない中、仕事をしようにも見つからない現実もありました。",
       "points": [
         "カテゴリ: ビジネス・経済の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-14 18:42）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 10:06）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "ビジネス・経済分野で関心を集めている最新ニュースです。",
@@ -71,7 +71,7 @@ window.NEWS_DATA = {
         "ビジネス・経済",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/pickup/6602572?source=rss",
+      "url": "https://news.yahoo.co.jp/pickup/6602636?source=rss",
       "isAiEnriched": false
     },
     {
@@ -118,15 +118,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "月収2万円と年金5万円 70代の現実",
+      "title": "スバルWRXのMT車復活 要望受け",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-15 10:06",
-      "publishedTs": 1794704777,
-      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/15/bf4afd5c158e071b58e0c75fe822c993453c10dada68e54b208dcb888750a217.jpg",
-      "summary": "「生きるために働く」高齢者。年金だけでは暮らせない中、仕事をしようにも見つからない現実もありました。",
+      "publishedAt": "2026-11-14 18:51",
+      "publishedTs": 1794649897,
+      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/14/805dda9cf5a2532d079ecaad096334db8da53292e8ae551f180f66bfe8bb0e3e.jpg",
+      "summary": "SUBARU（スバル）は14日、国内向けにスポーツセダン「WRX」のマニュアル車を発売すると発表した。顧客からの要望を受け、2019年に生産終了した先代モデル以来、7年ぶりに復活させた。スポーティー…",
       "points": [
         "カテゴリ: ビジネス・経済の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-15 10:06）",
+        "配信: Yahoo!ニュース トピックス（2026-11-14 18:51）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "ビジネス・経済分野で関心を集めている最新ニュースです。",
@@ -134,7 +134,7 @@ window.NEWS_DATA = {
         "ビジネス・経済",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/pickup/6602636?source=rss",
+      "url": "https://news.yahoo.co.jp/pickup/6602575?source=rss",
       "isAiEnriched": false
     },
     {
@@ -181,15 +181,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "スバルWRXのMT車復活 要望受け",
+      "title": "縦型ショートドラマ トラブル急増",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-14 18:51",
-      "publishedTs": 1794649897,
-      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/14/805dda9cf5a2532d079ecaad096334db8da53292e8ae551f180f66bfe8bb0e3e.jpg",
-      "summary": "SUBARU（スバル）は14日、国内向けにスポーツセダン「WRX」のマニュアル車を発売すると発表した。顧客からの要望を受け、2019年に生産終了した先代モデル以来、7年ぶりに復活させた。スポーティー…",
+      "publishedAt": "2026-11-14 21:56",
+      "publishedTs": 1794661002,
+      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/eternal/2022/1/21/a1e83497e6ae7c4773b9d74bb91b357c6f183c9c1f6da1f8c664c1112bbe60ae.jpg",
+      "summary": "スマートフォンで手軽に視聴でき、幅広い世代に人気が広がる1話1～2分程度の「縦型ショートドラマ」を巡り、サブスクリプション（定額課金）契約を解約できないなどのトラブルが急増していることが14日、共同…",
       "points": [
         "カテゴリ: ビジネス・経済の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-14 18:51）",
+        "配信: Yahoo!ニュース トピックス（2026-11-14 21:56）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "ビジネス・経済分野で関心を集めている最新ニュースです。",
@@ -197,7 +197,7 @@ window.NEWS_DATA = {
         "ビジネス・経済",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/pickup/6602575?source=rss",
+      "url": "https://news.yahoo.co.jp/pickup/6602597?source=rss",
       "isAiEnriched": false
     },
     {
@@ -244,15 +244,15 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "縦型ショートドラマ トラブル急増",
+      "title": "手が出ない 福岡市マンション高騰",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-14 21:56",
-      "publishedTs": 1794661002,
-      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/eternal/2022/1/21/a1e83497e6ae7c4773b9d74bb91b357c6f183c9c1f6da1f8c664c1112bbe60ae.jpg",
-      "summary": "スマートフォンで手軽に視聴でき、幅広い世代に人気が広がる1話1～2分程度の「縦型ショートドラマ」を巡り、サブスクリプション（定額課金）契約を解約できないなどのトラブルが急増していることが14日、共同…",
+      "publishedAt": "2026-11-15 12:39",
+      "publishedTs": 1794713948,
+      "image": "https://news-pctr.c.yimg.jp/t/news-topics/images/tpc/2026/11/15/2cc4d517d4a4333628a2c6bb4ea54c0eb2769e692ca80ec0a25222d29773ee9f.jpg",
+      "summary": "「もとから手が出せないと思っていました」 建設会社に勤める男性（29）は、ろくに価格も見ないまま福岡市内でのマンション購入を諦めた。",
       "points": [
         "カテゴリ: ビジネス・経済の注目トピック",
-        "配信: Yahoo!ニュース トピックス（2026-11-14 21:56）",
+        "配信: Yahoo!ニュース トピックス（2026-11-15 12:39）",
         "「元記事を読む」から詳細を確認できます"
       ],
       "impact": "ビジネス・経済分野で関心を集めている最新ニュースです。",
@@ -260,7 +260,7 @@ window.NEWS_DATA = {
         "ビジネス・経済",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/pickup/6602597?source=rss",
+      "url": "https://news.yahoo.co.jp/pickup/6602655?source=rss",
       "isAiEnriched": false
     },
     {
@@ -391,23 +391,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "「ラヴ上等」出演の「あっすん」を逮捕　無許可風俗営業容疑　名古屋：朝日新聞",
-      "source": "asahi.com",
-      "publishedAt": "2026-11-15 07:44",
-      "publishedTs": 1794696254,
-      "image": "https://imgopt.asahi.com/ogp/AS20261115000633_comm.jpg",
-      "summary": "無許可で風俗営業店舗を経営したとして、愛知県警は15日、Netflix（ネットフリックス）が配信する「『ラヴ上等』シーズン2」の出演者で、小栗彩朱佳（あすか）容疑者（31）=名古屋市中区栄2丁目=ら…",
+      "title": "愛知県小牧市の住宅に男ら侵入、住人女性が襲われ肺に穴など重傷　中学生を含む複数人の男確保：中日新聞Web",
+      "source": "chunichi.co.jp",
+      "publishedAt": "2026-11-15 08:07",
+      "publishedTs": 1794697625,
+      "image": "https://static.chunichi.co.jp/image/article/size1/a/3/b/6/a3b63565671e28be64cebc6eb053793a_1.jpg",
+      "summary": "15日午前0時55分ごろ、愛知県小牧市小針2の住宅で、男3、4人が住人の無職女性（82）に対し「金はないか」と尋ね、女性が「ない」と答えると棒状のもので殴り、顔にスプレーのようなものをかけて逃走した。県警小牧署は強盗事件とみて捜査。捜査関係者によると、すでに複数人の男の身柄を確保した。中学生が含まれる。",
       "points": [
         "カテゴリ: 国内・総合で話題の記事",
-        "引用元: asahi.com（2026-11-15 07:44）",
+        "引用元: chunichi.co.jp（2026-11-15 08:07）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "国内・総合分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "国内・総合",
-        "asahi.com"
+        "chunichi.co.jp"
       ],
-      "url": "https://www.asahi.com/articles/ASVCG366TVCGOIPE001M.html",
+      "url": "https://www.chunichi.co.jp/article/1339609",
       "isAiEnriched": false
     },
     {
@@ -454,23 +454,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "愛知県小牧市の住宅に男ら侵入、住人女性が襲われ肺に穴など重傷　中学生を含む複数人の男確保：中日新聞Web",
-      "source": "chunichi.co.jp",
-      "publishedAt": "2026-11-15 08:07",
-      "publishedTs": 1794697625,
-      "image": "https://static.chunichi.co.jp/image/article/size1/a/3/b/6/a3b63565671e28be64cebc6eb053793a_1.jpg",
-      "summary": "15日午前0時55分ごろ、愛知県小牧市小針2の住宅で、男3、4人が住人の無職女性（82）に対し「金はないか」と尋ね、女性が「ない」と答えると棒状のもので殴り、顔にスプレーのようなものをかけて逃走した。県警小牧署は強盗事件とみて捜査。捜査関係者によると、すでに複数人の男の身柄を確保した。中学生が含まれる。",
+      "title": "「ラヴ上等」出演の「あっすん」を逮捕　無許可風俗営業容疑　名古屋：朝日新聞",
+      "source": "asahi.com",
+      "publishedAt": "2026-11-15 07:44",
+      "publishedTs": 1794696254,
+      "image": "https://imgopt.asahi.com/ogp/AS20261115000633_comm.jpg",
+      "summary": "無許可で風俗営業店舗を経営したとして、愛知県警は15日、Netflix（ネットフリックス）が配信する「『ラヴ上等』シーズン2」の出演者で、小栗彩朱佳（あすか）容疑者（31）=名古屋市中区栄2丁目=ら…",
       "points": [
         "カテゴリ: 国内・総合で話題の記事",
-        "引用元: chunichi.co.jp（2026-11-15 08:07）",
+        "引用元: asahi.com（2026-11-15 07:44）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "国内・総合分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "国内・総合",
-        "chunichi.co.jp"
+        "asahi.com"
       ],
-      "url": "https://www.chunichi.co.jp/article/1339609",
+      "url": "https://www.asahi.com/articles/ASVCG366TVCGOIPE001M.html",
       "isAiEnriched": false
     },
     {
@@ -517,23 +517,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "バカの家計管理してる",
-      "source": "anond.hatelabo.jp",
-      "publishedAt": "2026-11-14 10:18",
-      "publishedTs": 1794619138,
-      "image": "https://anond.hatelabo.jp/assets/images/og-image-1500.gif",
-      "summary": "無駄遣いがひどくて毎月予算に収まらず、ボーナスが補填にまわるみたいになっててよくないなーと思っていた。無駄遣いの内容は、でっかい買い物するとか旅行とか毎晩飲みに行ってるとかじゃなくて、ガチャとか電子書籍とかコンビニとかまあ、なんか気付いたら、みたいなことが多くて、家計簿つけたりしてもなんかうまく...",
+      "title": "グーグルに16年間勤務、55歳で突然解雇…スーパーのレジ係に転職した私が直面した「3つの試練」（CREA WEB） - Yahoo!ニュース",
+      "source": "news.yahoo.co.jp",
+      "publishedAt": "2026-11-15 08:21",
+      "publishedTs": 1794698505,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261114-10060720-creaweb-000-2-view.jpg?exp=10800",
+      "summary": "ロイス・キムさん（文＝ロイス・キム 翻訳＝須美春奈） グーグルをクビになったら、人は次にどんな仕事を選ぶのか――。 『ロイス、グーグルをクビになる。』(すばる舎)の著者であるロイス・キムさんは、2007年にグーグルコリアに入社。2019年には米シリコンバレーのグーグル本社へ50歳にして赴任。華々しいキャリア…",
       "points": [
         "カテゴリ: 国内・総合で話題の記事",
-        "引用元: anond.hatelabo.jp（2026-11-14 10:18）",
+        "引用元: news.yahoo.co.jp（2026-11-15 08:21）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "国内・総合分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "国内・総合",
-        "anond.hatelabo.jp"
+        "news.yahoo.co.jp"
       ],
-      "url": "https://anond.hatelabo.jp/20261114101649",
+      "url": "https://news.yahoo.co.jp/articles/b7884758915a7addd35d4b1fb540db4f11fca9cf",
       "isAiEnriched": false
     },
     {
@@ -580,23 +580,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "大川原冤罪で長期拘束認めた裁判所、避ける検証　訴訟で責任問う遺族：朝日新聞",
-      "source": "asahi.com",
-      "publishedAt": "2026-11-14 19:12",
-      "publishedTs": 1794651128,
-      "image": "https://imgopt.asahi.com/ogp/AS20261107000396_comm.jpg",
-      "summary": "■記者解説 社会部・米田優人、黒田早織 「違法な捜査が進んでいたのであれば、なぜ裁判所は止めることができなかったのか」。東京地裁で10月30日、裁判官の責任を問う訴訟でこう証言したのは、機械メーカー…",
+      "title": "バカの家計管理してる",
+      "source": "anond.hatelabo.jp",
+      "publishedAt": "2026-11-14 10:18",
+      "publishedTs": 1794619138,
+      "image": "https://anond.hatelabo.jp/assets/images/og-image-1500.gif",
+      "summary": "無駄遣いがひどくて毎月予算に収まらず、ボーナスが補填にまわるみたいになっててよくないなーと思っていた。無駄遣いの内容は、でっかい買い物するとか旅行とか毎晩飲みに行ってるとかじゃなくて、ガチャとか電子書籍とかコンビニとかまあ、なんか気付いたら、みたいなことが多くて、家計簿つけたりしてもなんかうまく...",
       "points": [
         "カテゴリ: 国内・総合で話題の記事",
-        "引用元: asahi.com（2026-11-14 19:12）",
+        "引用元: anond.hatelabo.jp（2026-11-14 10:18）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "国内・総合分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "国内・総合",
-        "asahi.com"
+        "anond.hatelabo.jp"
       ],
-      "url": "https://www.asahi.com/articles/ASVC662TDVC6UPQJ00WM.html",
+      "url": "https://anond.hatelabo.jp/20261114101649",
       "isAiEnriched": false
     },
     {
@@ -622,23 +622,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "@RyuichiYoneyama のポスト on Xアメリカ中間選挙の民主党の勝利が敵失なのはその通りでしょうが、今迄嬉々として「リベラルは何故嫌われるか」を語っていた「識者」の方々は、流石に「保守は何故負けたのか」ー例えば①何でもリベラル・外国人のせいで悪口ばかり②経済政策がご都合主義的で相当に不合理ーを語るべきじゃないですかね",
-      "source": "x.com",
-      "publishedAt": "2026-11-14 16:55",
-      "publishedTs": 1794642916,
-      "image": "https://pbs.twimg.com/profile_images/1376328098967216129/lgmlngyB_400x400.jpg",
-      "summary": "アメリカ中間選挙の民主党の勝利が敵失なのはその通りでしょうが、今迄嬉々として「リベラルは何故嫌われるか」を語っていた「識者」の方々は、流石に「保守は何故負けたのか」ー例えば①何でもリベラル・外国人のせいで悪口ばかり②経済政策がご都合主義的で相当に不合理ーを語るべきじゃないですかね…",
+      "title": "大阪･阿倍野｢故郷を返してほしい｣の声も…｢インバウンドで復活｣の裏で､再開発が1822億円の大赤字　変貌した街の現在",
+      "source": "toyokeizai.net",
+      "publishedAt": "2026-11-15 08:42",
+      "publishedTs": 1794699732,
+      "image": "https://tk.ismcdn.jp/mwimgs/2/8/1200xm/img_28d2e62e826ce3756a8c9e6285c64f67364295.jpg",
+      "summary": "コンテンツブロックが有効であることを検知しました。 このサイトを利用するには、コンテンツブロック機能（広告ブロック機能を持つ拡張機能等）を無効にしてページを再読み込みしてください。 なお、Microsoft Edgeをご利用のお客様はプライバシー設定が影響している可能性があるため「追跡防止を有効にする」の設…",
       "points": [
         "カテゴリ: ビジネス・経済で話題の記事",
-        "引用元: x.com（2026-11-14 16:55）",
+        "引用元: toyokeizai.net（2026-11-15 08:42）",
         "「元記事を読む」から本文を確認できます"
       ],
       "impact": "ビジネス・経済分野で多くの読者に共有されている注目記事です。",
       "tags": [
         "ビジネス・経済",
-        "x.com"
+        "toyokeizai.net"
       ],
-      "url": "https://x.com/RyuichiYoneyama/status/2118146813412966555",
+      "url": "https://toyokeizai.net/articles/-/963719",
       "isAiEnriched": false
     }
   ]
