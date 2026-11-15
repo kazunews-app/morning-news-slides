@@ -3,6 +3,9 @@
     domestic: { label: "国内・総合", icon: "🇯🇵", fallbackImg: "assets/images/news-1.jpg" },
     tech: { label: "テクノロジー・AI", icon: "🤖", fallbackImg: "assets/images/news-3.jpg" },
     business: { label: "ビジネス・経済", icon: "📈", fallbackImg: "assets/images/news-5.jpg" },
+    entertainment: { label: "芸能・エンタメ", icon: "🎬", fallbackImg: "assets/images/news-2.jpg" },
+    subculture: { label: "サブカルチャー", icon: "🎮", fallbackImg: "assets/images/news-4.jpg" },
+    weather: { label: "天気", icon: "☀️", fallbackImg: "assets/images/news-1.jpg" },
   };
 
   const state = {
@@ -20,6 +23,7 @@
   const elBtnRefresh = document.getElementById("btn-refresh");
   const elBtnTheme = document.getElementById("btn-theme");
   const elBrandReset = document.getElementById("brand-reset");
+  const elTrendingBar = document.getElementById("trending-bar");
   const elTrendingTags = document.getElementById("trending-tags");
   const elFilterStatus = document.getElementById("filter-status");
   const elFilterStatusText = document.getElementById("filter-status-text");
@@ -27,9 +31,11 @@
   const elHeroSection = document.getElementById("hero-section");
   const elHeroLead = document.getElementById("hero-lead");
   const elHeroSideList = document.getElementById("hero-side-list");
+  const elFeedSection = document.getElementById("feed-section");
   const elFeedHeading = document.getElementById("feed-heading");
   const elFeedCount = document.getElementById("feed-count");
   const elNewsGrid = document.getElementById("news-grid");
+  const elWeatherSection = document.getElementById("weather-section");
   const elModal = document.getElementById("article-modal");
   const elModalDialog = elModal ? elModal.querySelector(".modal-dialog") : null;
   const elModalBackdrop = document.getElementById("modal-backdrop");
@@ -62,6 +68,12 @@
     }
     if (item?.category === "tech") {
       return index % 2 === 0 ? "assets/images/news-3.jpg" : "assets/images/news-4.jpg";
+    }
+    if (item?.category === "entertainment") {
+      return index % 2 === 0 ? "assets/images/news-2.jpg" : "assets/images/news-6.jpg";
+    }
+    if (item?.category === "subculture") {
+      return index % 2 === 0 ? "assets/images/news-4.jpg" : "assets/images/news-3.jpg";
     }
     return index % 2 === 0 ? "assets/images/news-5.jpg" : "assets/images/news-6.jpg";
   }
@@ -101,7 +113,7 @@
 
   function updateCounts() {
     const items = Array.isArray(state.data.items) ? state.data.items : [];
-    const counts = { all: items.length, domestic: 0, tech: 0, business: 0 };
+    const counts = { all: items.length, domestic: 0, tech: 0, business: 0, entertainment: 0, subculture: 0 };
     items.forEach((it) => {
       if (it && counts[it.category] !== undefined) counts[it.category] += 1;
     });
@@ -109,6 +121,10 @@
     document.getElementById("count-domestic").textContent = counts.domestic;
     document.getElementById("count-tech").textContent = counts.tech;
     document.getElementById("count-business").textContent = counts.business;
+    const elEnt = document.getElementById("count-entertainment");
+    if (elEnt) elEnt.textContent = counts.entertainment;
+    const elSub = document.getElementById("count-subculture");
+    if (elSub) elSub.textContent = counts.subculture;
   }
 
   function renderTrending() {
@@ -182,9 +198,23 @@
   }
 
   function renderFeed() {
+    const q = state.query.trim();
+    if (state.category === "weather" && !q) {
+      if (elTrendingBar) elTrendingBar.hidden = true;
+      elFilterStatus.hidden = true;
+      elHeroSection.hidden = true;
+      if (elFeedSection) elFeedSection.hidden = true;
+      if (elWeatherSection) elWeatherSection.hidden = false;
+      ensureWeatherLoadedAndRender();
+      return;
+    }
+
+    if (elTrendingBar) elTrendingBar.hidden = false;
+    if (elFeedSection) elFeedSection.hidden = false;
+    if (elWeatherSection) elWeatherSection.hidden = true;
+
     const rawItems = Array.isArray(state.data.items) ? state.data.items : [];
     const allWithIdx = rawItems.map((item, idx) => ({ ...item, _idx: idx }));
-    const q = state.query.trim();
 
     if (q) {
       elFilterStatus.hidden = false;
@@ -194,7 +224,9 @@
     }
 
     const filtered = allWithIdx.filter((item) => {
-      if (state.category !== "all" && item.category !== state.category) return false;
+      if (state.category !== "all" && state.category !== "weather" && item.category !== state.category) {
+        return false;
+      }
       if (!q) return true;
       const qLower = q.toLowerCase();
       const haystack = [
@@ -429,113 +461,123 @@
 
   async function fetchGithubNewsData() {
     const ts = Date.now();
-    // 1. GitHub Contents API (Fastly CDNの5分キャッシュを回避して最新コミットを即時取得)
-    try {
+    const fetchFromApi = async () => {
       const apiUrl = `https://api.github.com/repos/sjhkazu1011-ctrl/morning-news-slides/contents/data/news.js?ref=main&_=${ts}`;
-      const res = await fetchWithTimeout(apiUrl, { cache: "no-store" }, 7000);
-      if (res.ok) {
-        const meta = await res.json();
-        if (meta && typeof meta.content === "string") {
-          const binStr = atob(meta.content.replace(/\s/g, ""));
-          const bytes = Uint8Array.from(binStr, (c) => c.charCodeAt(0));
-          const text = new TextDecoder("utf-8").decode(bytes);
-          const parsed = parseNewsJsText(text);
-          if (parsed && Array.isArray(parsed.items) && parsed.items.length > 0) {
-            return parsed;
-          }
-        }
-      }
-    } catch (_e) {}
+      const res = await fetchWithTimeout(apiUrl, { cache: "no-store" }, 3500);
+      if (!res.ok) throw new Error("gh api fail");
+      const meta = await res.json();
+      if (!meta || typeof meta.content !== "string") throw new Error("gh api empty");
+      const binStr = atob(meta.content.replace(/\s/g, ""));
+      const bytes = Uint8Array.from(binStr, (c) => c.charCodeAt(0));
+      const text = new TextDecoder("utf-8").decode(bytes);
+      const parsed = parseNewsJsText(text);
+      if (parsed && Array.isArray(parsed.items) && parsed.items.length > 0) return parsed;
+      throw new Error("gh api invalid");
+    };
 
-    // 2. Fallback: raw.githubusercontent.com & local data/news.js
-    const fallbackUrls = [
-      `https://raw.githubusercontent.com/sjhkazu1011-ctrl/morning-news-slides/main/data/news.js?t=${ts}`,
-      `data/news.js?t=${ts}`,
-    ];
-    for (const url of fallbackUrls) {
-      try {
-        const res = await fetchWithTimeout(url, { cache: "no-store" }, 7000);
-        if (!res.ok) continue;
-        const text = await res.text();
-        const parsed = parseNewsJsText(text);
-        if (parsed && Array.isArray(parsed.items) && parsed.items.length > 0) {
-          return parsed;
-        }
-      } catch (_e) {}
+    const fetchFromUrl = async (url) => {
+      const res = await fetchWithTimeout(url, { cache: "no-store" }, 3500);
+      if (!res.ok) throw new Error("url fail");
+      const text = await res.text();
+      const parsed = parseNewsJsText(text);
+      if (parsed && Array.isArray(parsed.items) && parsed.items.length > 0) return parsed;
+      throw new Error("url invalid");
+    };
+
+    // 3系統を並列レースさせて最速の応答を採用
+    try {
+      return await Promise.any([
+        fetchFromApi(),
+        fetchFromUrl(`https://raw.githubusercontent.com/sjhkazu1011-ctrl/morning-news-slides/main/data/news.js?t=${ts}`),
+        fetchFromUrl(`data/news.js?t=${ts}`),
+      ]);
+    } catch (_e) {
+      return null;
     }
-    return null;
   }
 
-  async function fetchRssItemsViaProxy(rssUrl, category, sourceFallback, limit) {
+  async function fetchRssViaRss2Json(rssUrl, category, sourceFallback, limit) {
     const ts = Date.now();
-    // Try rss2json first, then allorigins XML
-    try {
-      const r2jUrl = `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(rssUrl)}&_=${ts}`;
-      const res = await fetchWithTimeout(r2jUrl, { cache: "no-store" }, 6500);
-      if (res.ok) {
-        const data = await res.json();
-        if (data && Array.isArray(data.items) && data.items.length > 0) {
-          return data.items.slice(0, limit).map((it, idx) => {
-            const title = (it.title || "").trim();
-            const link = (it.link || "").trim();
-            const pubMs = it.pubDate ? Date.parse(it.pubDate.replace(" ", "T") + "Z") : Date.now();
-            const publishedTs = Number.isFinite(pubMs) ? Math.floor(pubMs / 1000) : Math.floor(Date.now() / 1000);
-            const thumb = it.thumbnail || it.enclosure?.link || it.enclosure?.thumbnail || "";
-            return {
-              category,
-              title,
-              url: link,
-              source: sourceFallback,
-              publishedTs,
-              publishedAt: it.pubDate ? it.pubDate.slice(0, 16) : formatNowJst().updatedAt,
-              rawThumb: thumb.startsWith("https://") ? thumb : "",
-              rawDesc: it.description || "",
-              idx,
-            };
-          });
-        }
-      }
-    } catch (_e) {}
+    const r2jUrl = `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(rssUrl)}&_=${ts}`;
+    const res = await fetchWithTimeout(r2jUrl, { cache: "no-store" }, 3200);
+    if (!res.ok) throw new Error("rss2json fail");
+    const data = await res.json();
+    if (!data || !Array.isArray(data.items) || data.items.length === 0) throw new Error("rss2json empty");
+    return data.items.slice(0, limit).map((it, idx) => {
+      const title = (it.title || "").trim();
+      const link = (it.link || "").trim();
+      const pubMs = it.pubDate ? Date.parse(it.pubDate.replace(" ", "T") + "Z") : Date.now();
+      const publishedTs = Number.isFinite(pubMs) ? Math.floor(pubMs / 1000) : Math.floor(Date.now() / 1000);
+      const thumb = it.thumbnail || it.enclosure?.link || it.enclosure?.thumbnail || "";
+      return {
+        category,
+        title,
+        url: link,
+        source: sourceFallback,
+        publishedTs,
+        publishedAt: it.pubDate ? it.pubDate.slice(0, 16) : formatNowJst().updatedAt,
+        rawThumb: thumb.startsWith("https://") ? thumb : "",
+        rawDesc: it.description || "",
+        idx,
+      };
+    });
+  }
 
-    try {
-      const proxyUrl = `https://api.allorigins.win/raw?url=${encodeURIComponent(rssUrl)}&_=${ts}`;
-      const res = await fetchWithTimeout(proxyUrl, { cache: "no-store" }, 7000);
-      if (res.ok) {
-        const xmlText = await res.text();
-        const doc = new DOMParser().parseFromString(xmlText, "text/xml");
-        const nodes = Array.from(doc.querySelectorAll("item")).slice(0, limit);
-        return nodes.map((node, idx) => {
-          const title = (node.querySelector("title")?.textContent || "").trim();
-          const link = (node.querySelector("link")?.textContent || "").trim();
-          const pubRaw =
-            node.querySelector("pubDate")?.textContent ||
-            node.getElementsByTagName("dc:date")?.[0]?.textContent ||
-            "";
-          const pubMs = pubRaw ? Date.parse(pubRaw) : Date.now();
-          const publishedTs = Number.isFinite(pubMs) ? Math.floor(pubMs / 1000) : Math.floor(Date.now() / 1000);
-          const hatenaImg = node.getElementsByTagName("hatena:imageurl")?.[0]?.textContent || "";
-          const desc = node.querySelector("description")?.textContent || "";
-          return {
-            category,
-            title,
-            url: link,
-            source: sourceFallback,
-            publishedTs,
-            publishedAt: formatNowJst().updatedAt,
-            rawThumb: hatenaImg.startsWith("https://") ? hatenaImg : "",
-            rawDesc: desc,
-            idx,
-          };
-        });
+  async function fetchRssViaAllOrigins(rssUrl, category, sourceFallback, limit) {
+    const ts = Date.now();
+    const proxyUrl = `https://api.allorigins.win/raw?url=${encodeURIComponent(rssUrl)}&_=${ts}`;
+    const res = await fetchWithTimeout(proxyUrl, { cache: "no-store" }, 3500);
+    if (!res.ok) throw new Error("allorigins fail");
+    const xmlText = await res.text();
+    const doc = new DOMParser().parseFromString(xmlText, "text/xml");
+    const isAtom = doc.documentElement?.localName === "feed";
+    const nodes = Array.from(doc.querySelectorAll(isAtom ? "entry" : "item")).slice(0, limit);
+    if (nodes.length === 0) throw new Error("xml empty");
+    return nodes.map((node, idx) => {
+      const title = (node.querySelector("title")?.textContent || "").trim();
+      let link = "";
+      if (isAtom) {
+        link = node.querySelector('link[rel="alternate"]')?.getAttribute("href") || node.querySelector("link")?.getAttribute("href") || "";
+      } else {
+        link = (node.querySelector("link")?.textContent || "").trim();
       }
-    } catch (_e) {}
-    return [];
+      const pubRaw =
+        node.querySelector("pubDate, published, updated")?.textContent ||
+        node.getElementsByTagName("dc:date")?.[0]?.textContent ||
+        "";
+      const pubMs = pubRaw ? Date.parse(pubRaw) : Date.now();
+      const publishedTs = Number.isFinite(pubMs) ? Math.floor(pubMs / 1000) : Math.floor(Date.now() / 1000);
+      const hatenaImg = node.getElementsByTagName("hatena:imageurl")?.[0]?.textContent || "";
+      const desc = node.querySelector("description, summary, content")?.textContent || "";
+      return {
+        category,
+        title,
+        url: link.trim(),
+        source: sourceFallback,
+        publishedTs,
+        publishedAt: formatNowJst().updatedAt,
+        rawThumb: hatenaImg.startsWith("https://") ? hatenaImg : "",
+        rawDesc: desc,
+        idx,
+      };
+    });
+  }
+
+  async function fetchRssItemsFast(rssUrl, category, sourceFallback, limit) {
+    try {
+      return await Promise.any([
+        fetchRssViaRss2Json(rssUrl, category, sourceFallback, limit),
+        fetchRssViaAllOrigins(rssUrl, category, sourceFallback, limit),
+      ]);
+    } catch (_e) {
+      return [];
+    }
   }
 
   async function fetchLiveOgForUrl(url) {
     try {
       const proxyUrl = `https://api.allorigins.win/raw?url=${encodeURIComponent(url)}`;
-      const res = await fetchWithTimeout(proxyUrl, {}, 5000);
+      const res = await fetchWithTimeout(proxyUrl, {}, 2600);
       if (!res.ok) return {};
       const html = await res.text();
       const doc = new DOMParser().parseFromString(html, "text/html");
@@ -556,6 +598,35 @@
     }
   }
 
+  function enrichNewImagesInBackground(newTargets) {
+    if (!newTargets || newTargets.length === 0) return;
+    Promise.allSettled(
+      newTargets.slice(0, 12).map(async (target) => {
+        const og = await fetchLiveOgForUrl(target.url);
+        let changed = false;
+        if (og.image) {
+          target.item.image = og.image;
+          changed = true;
+        }
+        if (og.summary && og.summary.length >= 20 && target.item.summary.includes("に関する注目ニュースです")) {
+          target.item.summary = og.summary.endsWith("。") ? og.summary : og.summary + "…";
+          changed = true;
+        }
+        return changed;
+      })
+    ).then((results) => {
+      const anyUpdated = results.some((r) => r.status === "fulfilled" && r.value === true);
+      if (anyUpdated) {
+        try {
+          localStorage.setItem("trend-news-live-cache", JSON.stringify(state.data));
+        } catch (_e) {}
+        if (state.category !== "weather") {
+          renderFeed();
+        }
+      }
+    });
+  }
+
   async function fetchLiveBrowserNews(baseData) {
     const existingByUrl = new Map();
     const existingByTitle = new Map();
@@ -564,21 +635,53 @@
       if (it?.title) existingByTitle.set(it.title, it);
     });
 
-    const [domYahoo, domHatena, techYahoo, techHatena, bizYahoo, bizHatena] = await Promise.all([
-      fetchRssItemsViaProxy("https://news.yahoo.co.jp/rss/topics/domestic.xml", "domestic", "Yahoo!ニュース", 7),
-      fetchRssItemsViaProxy("https://b.hatena.ne.jp/hotentry/social.rss", "domestic", "はてなブックマーク", 6),
-      fetchRssItemsViaProxy("https://news.yahoo.co.jp/rss/topics/it.xml", "tech", "Yahoo!ニュース", 7),
-      fetchRssItemsViaProxy("https://b.hatena.ne.jp/hotentry/it.rss", "tech", "はてなブックマーク", 6),
-      fetchRssItemsViaProxy("https://news.yahoo.co.jp/rss/topics/business.xml", "business", "Yahoo!ニュース", 7),
-      fetchRssItemsViaProxy("https://b.hatena.ne.jp/hotentry/economics.rss", "business", "はてなブックマーク", 6),
+    const [
+      domYahoo,
+      domHatena,
+      techYahoo,
+      techHatena,
+      bizYahoo,
+      bizHatena,
+      entYahoo,
+      entHatena,
+      subGame,
+      subAuto,
+      subComic,
+      subVtuber,
+    ] = await Promise.all([
+      fetchRssItemsFast("https://news.yahoo.co.jp/rss/topics/domestic.xml", "domestic", "Yahoo!ニュース", 6),
+      fetchRssItemsFast("https://b.hatena.ne.jp/hotentry/social.rss", "domestic", "はてなブックマーク", 6),
+      fetchRssItemsFast("https://news.yahoo.co.jp/rss/topics/it.xml", "tech", "Yahoo!ニュース", 6),
+      fetchRssItemsFast("https://b.hatena.ne.jp/hotentry/it.rss", "tech", "はてなブックマーク", 6),
+      fetchRssItemsFast("https://news.yahoo.co.jp/rss/topics/business.xml", "business", "Yahoo!ニュース", 6),
+      fetchRssItemsFast("https://b.hatena.ne.jp/hotentry/economics.rss", "business", "はてなブックマーク", 6),
+      fetchRssItemsFast("https://news.yahoo.co.jp/rss/topics/entertainment.xml", "entertainment", "Yahoo!ニュース", 6),
+      fetchRssItemsFast("https://b.hatena.ne.jp/hotentry/entertainment.rss", "entertainment", "はてなブックマーク", 6),
+      fetchRssItemsFast("https://b.hatena.ne.jp/hotentry/game.rss", "subculture", "はてなブックマーク", 4),
+      fetchRssItemsFast("https://automaton-media.com/feed/", "subculture", "AUTOMATON", 3),
+      fetchRssItemsFast("https://natalie.mu/comic/feed/news", "subculture", "コミックナタリー", 3),
+      fetchRssItemsFast("https://panora.tokyo/feed/", "subculture", "PANORA", 3),
     ]);
 
     const totalFetched =
-      domYahoo.length + domHatena.length + techYahoo.length + techHatena.length + bizYahoo.length + bizHatena.length;
+      domYahoo.length +
+      domHatena.length +
+      techYahoo.length +
+      techHatena.length +
+      bizYahoo.length +
+      bizHatena.length +
+      entYahoo.length +
+      entHatena.length +
+      subGame.length +
+      subAuto.length +
+      subComic.length +
+      subVtuber.length;
     if (totalFetched === 0) return null;
 
     const seen = new Set();
-    async function buildCategoryList(rawCandidates, existingCatItems, catKey) {
+    const bgOgTargets = [];
+
+    function buildCategoryList(rawCandidates, existingCatItems, catKey) {
       const catMeta = getCategoryMeta(catKey);
       const list = [];
       for (const raw of rawCandidates) {
@@ -591,21 +694,13 @@
         if (cached) {
           list.push({ ...cached, category: catKey });
         } else {
-          let img = raw.rawThumb || getFallbackImage({ category: catKey }, list.length);
+          const img = raw.rawThumb || getFallbackImage({ category: catKey }, list.length);
           let summary = raw.rawDesc
             ? raw.rawDesc.replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim()
             : `「${raw.title}」に関する注目ニュースです。詳細は元記事から確認できます。`;
           if (summary.length > 150) summary = summary.slice(0, 149) + "…";
 
-          if (!raw.rawThumb && raw.url.includes("news.yahoo.co.jp")) {
-            const og = await fetchLiveOgForUrl(raw.url);
-            if (og.image) img = og.image;
-            if (og.summary && og.summary.length >= 20) {
-              summary = og.summary.endsWith("。") ? og.summary : og.summary + "…";
-            }
-          }
-
-          list.push({
+          const itemObj = {
             category: catKey,
             title: raw.title,
             source: raw.source,
@@ -622,12 +717,15 @@
             tags: [catMeta.label, raw.source],
             url: raw.url,
             isAiEnriched: false,
-          });
+          };
+          list.push(itemObj);
+          if (!raw.rawThumb) {
+            bgOgTargets.push({ url: raw.url, item: itemObj });
+          }
         }
         if (list.length >= 10) break;
       }
 
-      // 10件に満たない場合は既存キャッシュ記事で補完
       for (const oldIt of existingCatItems) {
         if (list.length >= 10) break;
         if (!seen.has(oldIt.url) && !seen.has(oldIt.title)) {
@@ -639,18 +737,23 @@
       return list;
     }
 
-    const oldDom = (baseData?.items || []).filter((i) => i.category === "domestic");
-    const oldTech = (baseData?.items || []).filter((i) => i.category === "tech");
-    const oldBiz = (baseData?.items || []).filter((i) => i.category === "business");
+    const oldItems = baseData?.items || [];
+    const domList = buildCategoryList([...domYahoo, ...domHatena], oldItems.filter((i) => i.category === "domestic"), "domestic");
+    const techList = buildCategoryList([...techYahoo, ...techHatena], oldItems.filter((i) => i.category === "tech"), "tech");
+    const bizList = buildCategoryList([...bizYahoo, ...bizHatena], oldItems.filter((i) => i.category === "business"), "business");
+    const entList = buildCategoryList([...entYahoo, ...entHatena], oldItems.filter((i) => i.category === "entertainment"), "entertainment");
 
-    const [domList, techList, bizList] = await Promise.all([
-      buildCategoryList([...domYahoo, ...domHatena], oldDom, "domestic"),
-      buildCategoryList([...techYahoo, ...techHatena], oldTech, "tech"),
-      buildCategoryList([...bizYahoo, ...bizHatena], oldBiz, "business"),
-    ]);
+    const subInterleaved = [];
+    const subBuckets = [subAuto, subComic, subVtuber, subGame].map((arr) => [...arr]);
+    while (subBuckets.some((b) => b.length > 0)) {
+      for (const b of subBuckets) {
+        if (b.length > 0) subInterleaved.push(b.shift());
+      }
+    }
+    const subList = buildCategoryList(subInterleaved, oldItems.filter((i) => i.category === "subculture"), "subculture");
 
     const interleaved = [];
-    const buckets = [domList, techList, bizList];
+    const buckets = [domList, techList, bizList, entList, subList];
     while (buckets.some((b) => b.length > 0)) {
       for (const b of buckets) {
         if (b.length > 0) interleaved.push(b.shift());
@@ -665,11 +768,14 @@
     );
 
     return {
-      date: nowJst.date,
-      updatedAt: nowJst.updatedAt,
-      title: "TREND NEWS",
-      keywords,
-      items: interleaved,
+      payload: {
+        date: nowJst.date,
+        updatedAt: nowJst.updatedAt,
+        title: "TREND NEWS",
+        keywords,
+        items: interleaved,
+      },
+      bgOgTargets,
     };
   }
 
@@ -679,21 +785,26 @@
     elBtnRefresh.classList.add("spinning");
 
     try {
-      // Step 1: GitHub APIから最新コミットの data/news.js をキャッシュなしで取得
+      if (state.category === "weather" && isManual) {
+        await fetchAndRenderAllWeather(true);
+        return;
+      }
+
+      // Step 1: GitHub API / raw / local を並列レースで最速取得
       const ghData = await fetchGithubNewsData();
       if (ghData) {
         applyNewsDataIfNewer(ghData, isManual);
       }
 
-      // Step 2: GitHub Actionsの定期実行が5分以上遅延している場合、または手動更新ボタン押下時は
-      // ブラウザから直接Yahoo!ニュース/はてなRSSを取得してリアルタイム更新する
+      // Step 2: 5分以上古い場合または手動更新時は、ブラウザから直接RSSを並列高速取得して即描画
       const ageMs = Date.now() - parseUpdatedAtMs(state.data?.updatedAt);
       if (isManual || ageMs >= 5 * 60 * 1000) {
-        const liveData = await fetchLiveBrowserNews(state.data);
-        if (liveData) {
-          applyNewsDataIfNewer(liveData, true);
+        const liveRes = await fetchLiveBrowserNews(state.data);
+        if (liveRes && liveRes.payload) {
+          applyNewsDataIfNewer(liveRes.payload, true);
+          // OGP画像取得は描画をブロックせず裏で並列差し替え
+          enrichNewImagesInBackground(liveRes.bgOgTargets);
         } else if (isManual) {
-          // 通信制限等で外部RSSプロキシが応答しない場合でも現在時刻で再描画
           const nowJst = formatNowJst();
           state.data.updatedAt = nowJst.updatedAt;
           renderAll();
@@ -705,12 +816,31 @@
     }
   }
 
-  // Weather (Geolocation + Open-Meteo + Reverse Geocoding)
-  const elWeatherWidget = document.getElementById("weather-widget");
-  const elWeatherIcon = document.getElementById("weather-icon");
-  const elWeatherLoc = document.getElementById("weather-loc");
-  const elWeatherTemp = document.getElementById("weather-temp");
-  const elWeatherSub = document.getElementById("weather-sub");
+  // Weather Dedicated Section (現在地 + 日本の主要都市一括取得)
+  const elWeatherCurrentWrap = document.getElementById("weather-current-wrap");
+  const elWeatherCitiesGrid = document.getElementById("weather-cities-grid");
+  const elWeatherUpdatedLabel = document.getElementById("weather-updated-label");
+
+  const MAJOR_JP_CITIES = [
+    { name: "札幌", region: "北海道", lat: 43.0618, lon: 141.3545 },
+    { name: "仙台", region: "東北", lat: 38.2682, lon: 140.8694 },
+    { name: "東京", region: "関東", lat: 35.6812, lon: 139.7671 },
+    { name: "横浜", region: "関東", lat: 35.4437, lon: 139.638 },
+    { name: "新潟", region: "北陸", lat: 37.9161, lon: 139.0364 },
+    { name: "金沢", region: "北陸", lat: 36.5613, lon: 136.6562 },
+    { name: "名古屋", region: "東海", lat: 35.1815, lon: 136.9066 },
+    { name: "大阪", region: "近畿", lat: 34.6937, lon: 135.5023 },
+    { name: "広島", region: "中国", lat: 34.3853, lon: 132.4553 },
+    { name: "高松", region: "四国", lat: 34.3428, lon: 134.0466 },
+    { name: "福岡", region: "九州", lat: 33.5902, lon: 130.4017 },
+    { name: "那覇", region: "沖縄", lat: 26.2124, lon: 127.6809 },
+  ];
+
+  const weatherState = {
+    lastFetchAt: 0,
+    isFetching: false,
+    currentLoc: null, // { lat, lon, locName, isFallback? }
+  };
 
   function getWeatherMeta(code) {
     if (code === 0) return { icon: "☀️", label: "快晴" };
@@ -725,10 +855,20 @@
     return { icon: "⛅", label: "天気" };
   }
 
+  function getSavedLocation() {
+    try {
+      const saved = JSON.parse(localStorage.getItem("trend-news-geo") || "null");
+      if (saved && Number.isFinite(saved.lat) && Number.isFinite(saved.lon)) {
+        return { lat: saved.lat, lon: saved.lon, locName: saved.locName || "現在地", isFallback: false };
+      }
+    } catch (_e) {}
+    return { lat: 35.6812, lon: 139.7671, locName: "東京（デフォルト）", isFallback: true };
+  }
+
   async function resolveLocationName(lat, lon) {
     try {
       const url = `https://api.bigdatacloud.net/data/reverse-geocode-client?latitude=${lat}&longitude=${lon}&localityLanguage=ja`;
-      const res = await fetchWithTimeout(url, {}, 6000);
+      const res = await fetchWithTimeout(url, {}, 4000);
       if (!res.ok) return "現在地";
       const data = await res.json();
       const city = data.city || data.locality || data.principalSubdivision || "現在地";
@@ -738,36 +878,12 @@
     }
   }
 
-  async function fetchAndRenderWeather(lat, lon, locName) {
-    try {
-      const url = `https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}&current=temperature_2m,weather_code&daily=weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max&timezone=Asia%2FTokyo&forecast_days=1`;
-      const res = await fetchWithTimeout(url, {}, 8000);
-      if (!res.ok) throw new Error("Weather fetch failed");
-      const data = await res.json();
-
-      const currentTemp = Math.round(data.current?.temperature_2m ?? 0);
-      const code = data.current?.weather_code ?? 0;
-      const meta = getWeatherMeta(code);
-
-      const maxTemp = Math.round(data.daily?.temperature_2m_max?.[0] ?? currentTemp);
-      const minTemp = Math.round(data.daily?.temperature_2m_min?.[0] ?? currentTemp);
-      const pop = data.daily?.precipitation_probability_max?.[0] ?? 0;
-
-      elWeatherIcon.textContent = meta.icon;
-      elWeatherLoc.textContent = `📍 ${locName}`;
-      elWeatherTemp.textContent = `${currentTemp}°C`;
-      elWeatherSub.textContent = `${meta.label} H:${maxTemp}° L:${minTemp}° ☔${pop}%`;
-    } catch (_err) {
-      elWeatherSub.textContent = "天気を取得できませんでした";
-    }
-  }
-
   async function searchCityCoords(cityName) {
     const q = cityName.trim();
     if (!q) return null;
     try {
       const url = `https://geocoding-api.open-meteo.com/v1/search?name=${encodeURIComponent(q)}&count=1&language=ja&format=json`;
-      const res = await fetchWithTimeout(url, {}, 6000);
+      const res = await fetchWithTimeout(url, {}, 5000);
       if (!res.ok) return null;
       const data = await res.json();
       const first = data.results?.[0];
@@ -782,70 +898,167 @@
     }
   }
 
-  async function promptManualCity() {
+  async function promptManualCityWeather() {
     const input = window.prompt(
-      "iPhoneの位置情報サービスがオフか拒否されています。\n天気を表示したい市区町村名（例: 横浜市、大阪市、札幌市、新宿区）を入力してください:",
+      "天気を表示したい市区町村名（例: 横浜市、大阪市、札幌市、新宿区）を入力してください:",
       ""
     );
     if (!input) return;
-    elWeatherSub.textContent = "地域を検索中...";
+    if (elWeatherUpdatedLabel) elWeatherUpdatedLabel.textContent = "地域を検索中...";
     const found = await searchCityCoords(input);
     if (found) {
       localStorage.setItem("trend-news-geo", JSON.stringify(found));
-      await fetchAndRenderWeather(found.lat, found.lon, found.locName);
-    } else {
-      elWeatherSub.textContent = "地域が見つかりませんでした(タップで再試行)";
+      weatherState.currentLoc = { ...found, isFallback: false };
+      await fetchAndRenderAllWeather(true);
+    } else if (elWeatherUpdatedLabel) {
+      elWeatherUpdatedLabel.textContent = "地域が見つかりませんでした";
     }
   }
 
-  function requestGeolocationWeather(isUserTap = false) {
+  function requestGeolocationAndRefresh(isUserTap = false) {
     if (!navigator.geolocation) {
-      if (isUserTap) promptManualCity();
+      if (isUserTap) promptManualCityWeather();
       return;
     }
-    if (isUserTap) {
-      elWeatherLoc.textContent = "📍 測位中...";
-      elWeatherSub.textContent = "現在地を取得しています...";
+    if (isUserTap && elWeatherUpdatedLabel) {
+      elWeatherUpdatedLabel.textContent = "現在地を測位中...";
     }
     navigator.geolocation.getCurrentPosition(
       async (pos) => {
         const lat = Number(pos.coords.latitude.toFixed(4));
         const lon = Number(pos.coords.longitude.toFixed(4));
         const locName = await resolveLocationName(lat, lon);
-        localStorage.setItem("trend-news-geo", JSON.stringify({ lat, lon, locName }));
-        await fetchAndRenderWeather(lat, lon, locName);
+        const geo = { lat, lon, locName };
+        localStorage.setItem("trend-news-geo", JSON.stringify(geo));
+        weatherState.currentLoc = { ...geo, isFallback: false };
+        await fetchAndRenderAllWeather(true);
       },
-      async (_err) => {
+      async () => {
         if (isUserTap) {
-          await promptManualCity();
-        } else {
-          await fetchAndRenderWeather(35.6812, 139.7671, "東京(タップで現在地へ)");
+          await promptManualCityWeather();
         }
       },
-      { enableHighAccuracy: false, timeout: 12000, maximumAge: 300000 }
+      { enableHighAccuracy: false, timeout: 8000, maximumAge: 300000 }
     );
   }
 
-  function refreshSavedWeather() {
-    try {
-      const saved = JSON.parse(localStorage.getItem("trend-news-geo") || "null");
-      if (saved && Number.isFinite(saved.lat) && Number.isFinite(saved.lon)) {
-        fetchAndRenderWeather(saved.lat, saved.lon, saved.locName || "現在地");
-        return true;
-      }
-    } catch (_e) {}
-    return false;
+  function parseWeatherItem(entry) {
+    const temp = Math.round(entry?.current?.temperature_2m ?? 0);
+    const code = entry?.current?.weather_code ?? 0;
+    const wind = Math.round(entry?.current?.wind_speed_10m ?? 0);
+    const meta = getWeatherMeta(code);
+    const maxTemp = Math.round(entry?.daily?.temperature_2m_max?.[0] ?? temp);
+    const minTemp = Math.round(entry?.daily?.temperature_2m_min?.[0] ?? temp);
+    const pop = entry?.daily?.precipitation_probability_max?.[0] ?? 0;
+    return { temp, wind, meta, maxTemp, minTemp, pop };
   }
 
-  function initWeather() {
-    if (elWeatherWidget) {
-      elWeatherWidget.addEventListener("click", () => requestGeolocationWeather(true));
-    }
-    if (refreshSavedWeather()) {
+  function renderCurrentWeatherCard(loc, w) {
+    if (!elWeatherCurrentWrap) return;
+    elWeatherCurrentWrap.innerHTML = `
+      <div class="weather-current-card">
+        <div class="weather-current-main">
+          <div class="weather-current-icon">${w.meta.icon}</div>
+          <div>
+            <div class="weather-current-loc-badge">📍 現在地の天気</div>
+            <div class="weather-current-city">${escapeHtml(loc.locName)}</div>
+            <div class="weather-current-desc">${escapeHtml(w.meta.label)}・最高 ${w.maxTemp}°C / 最低 ${w.minTemp}°C</div>
+          </div>
+        </div>
+        <div class="weather-current-stats">
+          <div class="weather-current-temp">${w.temp}°C</div>
+          <div class="weather-current-details">
+            <span>☔ 降水確率: ${w.pop}%</span>
+            <span>🍃 風速: ${w.wind} km/h</span>
+          </div>
+          <div class="weather-loc-actions">
+            <button type="button" class="weather-action-btn" id="btn-weather-gps">📍 現在地を再取得</button>
+            <button type="button" class="weather-action-btn" id="btn-weather-city">🏙️ 都市名を指定</button>
+          </div>
+        </div>
+      </div>
+    `;
+    document.getElementById("btn-weather-gps")?.addEventListener("click", () => requestGeolocationAndRefresh(true));
+    document.getElementById("btn-weather-city")?.addEventListener("click", () => promptManualCityWeather());
+  }
+
+  function renderCityWeatherCards(cityResults) {
+    if (!elWeatherCitiesGrid) return;
+    elWeatherCitiesGrid.innerHTML = cityResults
+      .map(({ city, w }) => {
+        return `
+          <article class="weather-city-card">
+            <div class="weather-city-top">
+              <span class="weather-city-name">${escapeHtml(city.name)}</span>
+              <span class="weather-city-region">${escapeHtml(city.region)}</span>
+            </div>
+            <div class="weather-city-mid">
+              <span class="weather-city-icon">${w.meta.icon}</span>
+              <div>
+                <div class="weather-city-temp">${w.temp}°C</div>
+                <div class="weather-city-label">${escapeHtml(w.meta.label)}</div>
+              </div>
+            </div>
+            <div class="weather-city-meta">
+              <span>最高 ${w.maxTemp}° / 最低 ${w.minTemp}°</span>
+              <span>☔ ${w.pop}%</span>
+            </div>
+          </article>
+        `;
+      })
+      .join("");
+  }
+
+  async function fetchAndRenderAllWeather(forceRefresh = false) {
+    if (weatherState.isFetching) return;
+    if (!forceRefresh && Date.now() - weatherState.lastFetchAt < 10 * 60 * 1000 && weatherState.lastFetchAt > 0) {
       return;
     }
-    fetchAndRenderWeather(35.6812, 139.7671, "東京(タップで現在地へ)");
-    requestGeolocationWeather(false);
+    weatherState.isFetching = true;
+    if (elWeatherUpdatedLabel) elWeatherUpdatedLabel.textContent = "最新の天気を取得中...";
+
+    try {
+      const loc = weatherState.currentLoc || getSavedLocation();
+      weatherState.currentLoc = loc;
+
+      const allCoords = [loc, ...MAJOR_JP_CITIES];
+      const lats = allCoords.map((c) => c.lat).join(",");
+      const lons = allCoords.map((c) => c.lon).join(",");
+      const url = `https://api.open-meteo.com/v1/forecast?latitude=${lats}&longitude=${lons}&current=temperature_2m,weather_code,wind_speed_10m&daily=temperature_2m_max,temperature_2m_min,precipitation_probability_max&timezone=Asia%2FTokyo&forecast_days=1`;
+
+      const res = await fetchWithTimeout(url, {}, 6000);
+      if (!res.ok) throw new Error("Weather batch fetch failed");
+      const raw = await res.json();
+      const list = Array.isArray(raw) ? raw : [raw];
+
+      if (list[0]) {
+        renderCurrentWeatherCard(loc, parseWeatherItem(list[0]));
+      }
+      const cityResults = MAJOR_JP_CITIES.map((city, idx) => ({
+        city,
+        w: parseWeatherItem(list[idx + 1] || list[0]),
+      }));
+      renderCityWeatherCards(cityResults);
+
+      weatherState.lastFetchAt = Date.now();
+      if (elWeatherUpdatedLabel) {
+        elWeatherUpdatedLabel.textContent = `更新: ${formatNowJst().updatedAt}`;
+      }
+    } catch (_err) {
+      if (elWeatherUpdatedLabel) elWeatherUpdatedLabel.textContent = "天気の取得に失敗しました";
+    } finally {
+      weatherState.isFetching = false;
+    }
+  }
+
+  function ensureWeatherLoadedAndRender() {
+    if (!weatherState.currentLoc) {
+      weatherState.currentLoc = getSavedLocation();
+      if (weatherState.currentLoc.isFallback) {
+        requestGeolocationAndRefresh(false);
+      }
+    }
+    fetchAndRenderAllWeather(false);
   }
 
   // Theme
@@ -909,11 +1122,12 @@
 
   // Init
   initTheme();
-  initWeather();
   state.lastDataSignature = computeDataSignature(state.data);
   restoreCachedNewsOnStartup();
   renderAll();
   reloadNewsData(false);
   setInterval(() => reloadNewsData(false), 5 * 60 * 1000);
-  setInterval(refreshSavedWeather, 30 * 60 * 1000);
+  setInterval(() => {
+    if (state.category === "weather") fetchAndRenderAllWeather(true);
+  }, 30 * 60 * 1000);
 })();

@@ -34,12 +34,16 @@ FALLBACK_IMAGES = {
     "domestic": ["assets/images/news-1.jpg", "assets/images/news-2.jpg"],
     "tech": ["assets/images/news-3.jpg", "assets/images/news-4.jpg"],
     "business": ["assets/images/news-5.jpg", "assets/images/news-6.jpg"],
+    "entertainment": ["assets/images/news-2.jpg", "assets/images/news-6.jpg"],
+    "subculture": ["assets/images/news-4.jpg", "assets/images/news-3.jpg"],
 }
 
 CATEGORY_LABELS = {
     "domestic": "国内・総合",
     "tech": "テクノロジー・AI",
     "business": "ビジネス・経済",
+    "entertainment": "芸能・エンタメ",
+    "subculture": "サブカルチャー",
 }
 
 
@@ -416,11 +420,111 @@ def fetch_zenn_tech(limit: int = 4) -> list[dict]:
     return items
 
 
+def fetch_generic_feed(
+    feed_url: str,
+    category: str,
+    source_label: str,
+    limit: int = 5,
+    extra_tag: str = "",
+) -> list[dict]:
+    """RSS 2.0 および Atom フィードから記事を取得する"""
+    items: list[dict] = []
+    try:
+        root = ET.fromstring(fetch_url_bytes(feed_url))
+    except Exception as exc:
+        print(f"[WARN] Feed fetch failed ({source_label}): {exc}")
+        return items
+
+    root_name = local_name(root.tag)
+    fb_list = FALLBACK_IMAGES[category]
+    cat_label = CATEGORY_LABELS[category]
+
+    if root_name == "feed":
+        # Atom feed (例: コミックナタリー)
+        entries = [el for el in root if local_name(el.tag) == "entry"][:limit]
+        for idx, entry in enumerate(entries):
+            title = find_child_text(entry, "title")
+            link = ""
+            for child in entry:
+                if local_name(child.tag) == "link":
+                    href = child.attrib.get("href", "")
+                    rel = child.attrib.get("rel", "alternate")
+                    if href and rel in ("alternate", ""):
+                        link = sanitize_http_url(href)
+                        break
+            if not title or not link:
+                continue
+            date_raw = find_child_text(entry, "published") or find_child_text(entry, "updated")
+            ts, pub_str = parse_datetime_ts(date_raw)
+            summary_raw = find_child_text(entry, "summary") or find_child_text(entry, "content")
+            desc = format_summary_text(summary_raw, title)
+            tags = [t for t in [cat_label, extra_tag, source_label] if t][:3]
+
+            items.append(
+                {
+                    "category": category,
+                    "title": title,
+                    "source": source_label,
+                    "publishedAt": pub_str,
+                    "publishedTs": ts,
+                    "image": fb_list[idx % len(fb_list)],
+                    "fallbackHatenaImg": None,
+                    "hasRealImage": False,
+                    "summary": desc,
+                    "points": [
+                        f"カテゴリ: {cat_label}の注目ニュース",
+                        f"配信: {source_label}（{pub_str}）",
+                        "「元記事を読む」から詳細を確認できます",
+                    ],
+                    "impact": f"{cat_label}分野で注目を集めている最新記事です。",
+                    "tags": tags,
+                    "url": link,
+                    "isAiEnriched": False,
+                }
+            )
+    else:
+        # RSS 2.0 (例: AUTOMATON, PANORA)
+        rss_items = root.findall("./channel/item")[:limit]
+        for idx, node in enumerate(rss_items):
+            title = (node.findtext("title") or "").strip()
+            link = sanitize_http_url(node.findtext("link"))
+            if not title or not link:
+                continue
+            date_raw = node.findtext("pubDate") or find_child_text(node, "date")
+            ts, pub_str = parse_datetime_ts(date_raw)
+            desc = format_summary_text(node.findtext("description") or "", title)
+            tags = [t for t in [cat_label, extra_tag, source_label] if t][:3]
+
+            items.append(
+                {
+                    "category": category,
+                    "title": title,
+                    "source": source_label,
+                    "publishedAt": pub_str,
+                    "publishedTs": ts,
+                    "image": fb_list[idx % len(fb_list)],
+                    "fallbackHatenaImg": None,
+                    "hasRealImage": False,
+                    "summary": desc,
+                    "points": [
+                        f"カテゴリ: {cat_label}の注目ニュース",
+                        f"配信: {source_label}（{pub_str}）",
+                        "「元記事を読む」から詳細を確認できます",
+                    ],
+                    "impact": f"{cat_label}分野で注目を集めている最新記事です。",
+                    "tags": tags,
+                    "url": link,
+                    "isAiEnriched": False,
+                }
+            )
+    return items
+
+
 def enrich_og_metadata_parallel(items: list[dict]) -> None:
     targets = [it for it in items if not it.get("hasRealImage") and it.get("url")]
     if not targets:
         return
-    with concurrent.futures.ThreadPoolExecutor(max_workers=8) as pool:
+    with concurrent.futures.ThreadPoolExecutor(max_workers=16) as pool:
         future_map = {pool.submit(fetch_page_og_meta, it["url"]): it for it in targets}
         for future in concurrent.futures.as_completed(future_map):
             it = future_map[future]
@@ -541,9 +645,9 @@ def enrich_with_gemini(items: list[dict], api_key: str) -> list[str] | None:
     return keywords or None
 
 
-def interleave_top_items(domestic: list[dict], tech: list[dict], business: list[dict]) -> list[dict]:
+def interleave_top_items(*groups: list[dict]) -> list[dict]:
     ordered: list[dict] = []
-    buckets = [list(domestic), list(tech), list(business)]
+    buckets = [list(g) for g in groups]
     while any(buckets):
         for b in buckets:
             if b:
@@ -572,29 +676,42 @@ def pick_unique_category_items(
 def main() -> None:
     now = datetime.datetime.now(JST)
 
-    domestic_candidates = (
-        fetch_yahoo_topics("https://news.yahoo.co.jp/rss/topics/domestic.xml", "domestic", limit=6)
-        + fetch_hatena_rss("https://b.hatena.ne.jp/hotentry/social.rss", "domestic", limit=8)
-        + fetch_yahoo_topics("https://news.yahoo.co.jp/rss/topics/top-picks.xml", "domestic", limit=5)
-    )
+    with concurrent.futures.ThreadPoolExecutor(max_workers=10) as pool:
+        f_dom_y = pool.submit(fetch_yahoo_topics, "https://news.yahoo.co.jp/rss/topics/domestic.xml", "domestic", 6)
+        f_dom_h = pool.submit(fetch_hatena_rss, "https://b.hatena.ne.jp/hotentry/social.rss", "domestic", 8)
+        f_dom_t = pool.submit(fetch_yahoo_topics, "https://news.yahoo.co.jp/rss/topics/top-picks.xml", "domestic", 5)
 
-    tech_candidates = (
-        fetch_yahoo_topics("https://news.yahoo.co.jp/rss/topics/it.xml", "tech", limit=5)
-        + fetch_hatena_rss("https://b.hatena.ne.jp/hotentry/it.rss", "tech", limit=8)
-        + fetch_zenn_tech(limit=4)
-    )
+        f_tech_y = pool.submit(fetch_yahoo_topics, "https://news.yahoo.co.jp/rss/topics/it.xml", "tech", 5)
+        f_tech_h = pool.submit(fetch_hatena_rss, "https://b.hatena.ne.jp/hotentry/it.rss", "tech", 8)
+        f_tech_z = pool.submit(fetch_zenn_tech, 4)
 
-    business_candidates = (
-        fetch_yahoo_topics("https://news.yahoo.co.jp/rss/topics/business.xml", "business", limit=6)
-        + fetch_hatena_rss("https://b.hatena.ne.jp/hotentry/economics.rss", "business", limit=8)
+        f_biz_y = pool.submit(fetch_yahoo_topics, "https://news.yahoo.co.jp/rss/topics/business.xml", "business", 6)
+        f_biz_h = pool.submit(fetch_hatena_rss, "https://b.hatena.ne.jp/hotentry/economics.rss", "business", 8)
+
+        f_ent_y = pool.submit(fetch_yahoo_topics, "https://news.yahoo.co.jp/rss/topics/entertainment.xml", "entertainment", 6)
+        f_ent_h = pool.submit(fetch_hatena_rss, "https://b.hatena.ne.jp/hotentry/entertainment.rss", "entertainment", 8)
+
+        f_sub_h = pool.submit(fetch_hatena_rss, "https://b.hatena.ne.jp/hotentry/game.rss", "subculture", 4)
+        f_sub_auto = pool.submit(fetch_generic_feed, "https://automaton-media.com/feed/", "subculture", "AUTOMATON", 3, "ゲーム")
+        f_sub_comic = pool.submit(fetch_generic_feed, "https://natalie.mu/comic/feed/news", "subculture", "コミックナタリー", 3, "漫画・アニメ")
+        f_sub_vtuber = pool.submit(fetch_generic_feed, "https://panora.tokyo/feed/", "subculture", "PANORA", 3, "Vtuber")
+
+    domestic_candidates = f_dom_y.result() + f_dom_h.result() + f_dom_t.result()
+    tech_candidates = f_tech_y.result() + f_tech_h.result() + f_tech_z.result()
+    business_candidates = f_biz_y.result() + f_biz_h.result()
+    entertainment_candidates = f_ent_y.result() + f_ent_h.result()
+    subculture_candidates = interleave_top_items(
+        f_sub_auto.result(), f_sub_comic.result(), f_sub_vtuber.result(), f_sub_h.result()
     )
 
     seen_global: set[str] = set()
     domestic = pick_unique_category_items(domestic_candidates, seen_global, target_count=10)
     tech = pick_unique_category_items(tech_candidates, seen_global, target_count=10)
     business = pick_unique_category_items(business_candidates, seen_global, target_count=10)
+    entertainment = pick_unique_category_items(entertainment_candidates, seen_global, target_count=10)
+    subculture = pick_unique_category_items(subculture_candidates, seen_global, target_count=10)
 
-    items = interleave_top_items(domestic, tech, business)
+    items = interleave_top_items(domestic, tech, business, entertainment, subculture)
     if not items:
         raise RuntimeError("ニュースを1件も取得できませんでした。")
 
