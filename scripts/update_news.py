@@ -21,6 +21,7 @@ import xml.etree.ElementTree as ET
 from pathlib import Path
 
 JST = datetime.timezone(datetime.timedelta(hours=9))
+MAX_ARTICLE_AGE_SECONDS = 24 * 3600
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 DATA_JS_PATH = PROJECT_ROOT / "data" / "news.js"
 
@@ -29,14 +30,6 @@ USER_AGENT = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
     "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
 )
-
-FALLBACK_IMAGES = {
-    "domestic": ["assets/images/news-1.jpg", "assets/images/news-2.jpg"],
-    "tech": ["assets/images/news-3.jpg", "assets/images/news-4.jpg"],
-    "business": ["assets/images/news-5.jpg", "assets/images/news-6.jpg"],
-    "entertainment": ["assets/images/news-2.jpg", "assets/images/news-6.jpg"],
-    "subculture": ["assets/images/news-4.jpg", "assets/images/news-3.jpg"],
-}
 
 CATEGORY_LABELS = {
     "domestic": "国内・総合",
@@ -48,40 +41,102 @@ CATEGORY_LABELS = {
 
 
 class MetaTagParser(html.parser.HTMLParser):
-    """HTMLの<head>内からOGP画像とdescriptionを正確に抽出するパーサー"""
+    """HTML内のOGP画像・JSON-LD画像・記事本文内画像・descriptionを抽出するパーサー"""
 
     def __init__(self) -> None:
         super().__init__()
         self.og_images: list[str] = []
+        self.article_images: list[str] = []
+        self.other_images: list[str] = []
+        self.ld_json_blocks: list[str] = []
         self.descriptions: list[str] = []
-        self.in_body = False
+        self.in_ld_json = False
+        self.ld_buf: list[str] = []
+        self.article_depth = 0
+        self.skip_container_depth = 0
 
     def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
-        if self.in_body:
-            return
         t = tag.lower()
-        if t == "body":
-            self.in_body = True
-            return
-        if t != "meta":
-            return
-
         attr_map = {k.lower(): (v or "").strip() for k, v in attrs if k}
-        content = attr_map.get("content", "")
-        if not content:
+
+        if t in ("article", "main"):
+            self.article_depth += 1
+        elif t in ("header", "footer", "nav", "aside"):
+            self.skip_container_depth += 1
+
+        if t == "script":
+            stype = attr_map.get("type", "").lower()
+            if "ld+json" in stype:
+                self.in_ld_json = True
+                self.ld_buf = []
             return
 
-        prop = attr_map.get("property", "").lower()
-        name = attr_map.get("name", "").lower()
+        if t == "meta":
+            content = attr_map.get("content", "")
+            if not content:
+                return
+            prop = attr_map.get("property", "").lower()
+            name = attr_map.get("name", "").lower()
+            if prop in ("og:image", "og:image:url", "og:image:secure_url") or name in (
+                "og:image",
+                "twitter:image",
+                "twitter:image:src",
+            ):
+                self.og_images.append(content)
+            elif prop == "og:description" or name in ("og:description", "description", "twitter:description"):
+                self.descriptions.append(content)
+            return
 
-        if prop in ("og:image", "og:image:url", "og:image:secure_url") or name in (
-            "og:image",
-            "twitter:image",
-            "twitter:image:src",
-        ):
-            self.og_images.append(content)
-        elif prop == "og:description" or name in ("og:description", "description", "twitter:description"):
-            self.descriptions.append(content)
+        if t == "link":
+            rel = attr_map.get("rel", "").lower()
+            href = attr_map.get("href", "")
+            if href and "image_src" in rel:
+                self.og_images.append(href)
+            return
+
+        if t == "img" and self.skip_container_depth == 0:
+            src = (
+                attr_map.get("data-src")
+                or attr_map.get("data-lazy-src")
+                or attr_map.get("data-original")
+                or attr_map.get("src")
+                or ""
+            )
+            if not src:
+                return
+            cls_alt = (attr_map.get("class", "") + " " + attr_map.get("alt", "")).lower()
+            if any(k in cls_alt for k in ("icon", "logo", "avatar", "emoji", "badge", "banner", "button")):
+                return
+            w_raw = attr_map.get("width", "")
+            h_raw = attr_map.get("height", "")
+            try:
+                if (w_raw and int(re.sub(r"\D", "", w_raw) or "999") < 64) or (
+                    h_raw and int(re.sub(r"\D", "", h_raw) or "999") < 64
+                ):
+                    return
+            except ValueError:
+                pass
+            if self.article_depth > 0:
+                self.article_images.append(src)
+            else:
+                self.other_images.append(src)
+
+    def handle_endtag(self, tag: str) -> None:
+        t = tag.lower()
+        if t == "script" and self.in_ld_json:
+            self.in_ld_json = False
+            raw = "".join(self.ld_buf).strip()
+            if raw:
+                self.ld_json_blocks.append(raw)
+            self.ld_buf = []
+        elif t in ("article", "main") and self.article_depth > 0:
+            self.article_depth -= 1
+        elif t in ("header", "footer", "nav", "aside") and self.skip_container_depth > 0:
+            self.skip_container_depth -= 1
+
+    def handle_data(self, data: str) -> None:
+        if self.in_ld_json:
+            self.ld_buf.append(data)
 
 
 def clean_html(raw: str | None) -> str:
@@ -139,9 +194,8 @@ def domain_label(url: str, fallback: str) -> str:
 
 
 def parse_datetime_ts(date_str: str) -> tuple[int, str]:
-    now = datetime.datetime.now(JST)
     if not date_str:
-        return int(now.timestamp()), now.strftime("%Y-%m-%d %H:%M")
+        return 0, ""
     try:
         dt = email.utils.parsedate_to_datetime(date_str)
         if dt.tzinfo is None:
@@ -157,7 +211,13 @@ def parse_datetime_ts(date_str: str) -> tuple[int, str]:
         dt_jst = dt.astimezone(JST)
         return int(dt_jst.timestamp()), dt_jst.strftime("%Y-%m-%d %H:%M")
     except Exception:
-        return int(now.timestamp()), now.strftime("%Y-%m-%d %H:%M")
+        return 0, ""
+
+
+def is_within_24h(published_ts: int, now_ts: int | None = None) -> bool:
+    if now_ts is None:
+        now_ts = int(datetime.datetime.now(JST).timestamp())
+    return published_ts > 0 and (now_ts - published_ts) < MAX_ARTICLE_AGE_SECONDS
 
 
 def decode_html_bytes(raw_bytes: bytes, content_type_header: str = "") -> str:
@@ -198,13 +258,26 @@ def fetch_url_bytes(url: str, timeout: int = 12) -> bytes:
 def is_generic_logo_image(img_url: str) -> bool:
     lowered = img_url.lower()
     bad_tokens = [
+        "assets/images/",
         "ogp_default",
         "default_ogp",
         "s.yimg.jp/images/news/ogp",
         "s.yimg.jp/images/jpnews/cre/common",
         "nosimage",
         "noimage",
+        "no_image",
         "spacer.gif",
+        "1x1.",
+        "pixel.gif",
+        "favicon",
+        "apple-touch-icon",
+        "b.hatena.ne.jp/images/",
+        "/common/img/logo",
+        "/assets/logo",
+        "default.jpg",
+        "default.png",
+        "amd-img/default",
+        ".svg",
     ]
     return any(tok in lowered for tok in bad_tokens)
 
@@ -213,6 +286,8 @@ def normalize_image_url(base_url: str, raw_img: str) -> str | None:
     if not raw_img:
         return None
     img = html.unescape(raw_img.strip())
+    if img.startswith("data:"):
+        return None
     if img.startswith("//"):
         img = "https:" + img
     elif img.startswith("/"):
@@ -226,6 +301,54 @@ def normalize_image_url(base_url: str, raw_img: str) -> str | None:
     return img
 
 
+def build_related_web_image_url(title: str, category: str = "") -> str:
+    """記事タイトル・カテゴリからネット上の最も関連性の高い画像URLを生成する"""
+    cleaned = re.sub(r"【[^】]*】|\[[^\]]*\]|［[^］]*］|（[^）]*）|\([^)]*\)", " ", title or "")
+    cleaned = re.sub(r"\s*[-|｜–—]\s*[^-|｜–—]+$", "", cleaned)
+    cleaned = re.sub(r"[「」『』！？!?,、。・…\"'#@]+", " ", cleaned)
+    cleaned = re.sub(r"\s+", " ", cleaned).strip()
+    words = cleaned[:40].strip()
+    if len(words) < 4:
+        words = CATEGORY_LABELS.get(category, "日本 ニュース")
+    return (
+        "https://tse2.mm.bing.net/th?q="
+        + urllib.parse.quote(words)
+        + "&w=800&h=450&c=7&rs=1&p=0"
+    )
+
+
+def _extract_images_from_ld_json(raw_json: str) -> list[str]:
+    found: list[str] = []
+    try:
+        parsed = json.loads(raw_json)
+    except Exception:
+        return found
+
+    def walk(obj: object) -> None:
+        if isinstance(obj, dict):
+            for key in ("image", "thumbnailUrl"):
+                val = obj.get(key)
+                if isinstance(val, str):
+                    found.append(val)
+                elif isinstance(val, dict) and isinstance(val.get("url"), str):
+                    found.append(val["url"])
+                elif isinstance(val, list):
+                    for sub in val:
+                        if isinstance(sub, str):
+                            found.append(sub)
+                        elif isinstance(sub, dict) and isinstance(sub.get("url"), str):
+                            found.append(sub["url"])
+            for v in obj.values():
+                if isinstance(v, (dict, list)):
+                    walk(v)
+        elif isinstance(obj, list):
+            for v in obj:
+                walk(v)
+
+    walk(parsed)
+    return found
+
+
 def extract_meta_from_html(page_url: str, html_text: str) -> tuple[str | None, str | None]:
     parser = MetaTagParser()
     try:
@@ -233,8 +356,14 @@ def extract_meta_from_html(page_url: str, html_text: str) -> tuple[str | None, s
     except Exception:
         pass
 
+    candidates: list[str] = list(parser.og_images)
+    for raw_ld in parser.ld_json_blocks:
+        candidates.extend(_extract_images_from_ld_json(raw_ld))
+    candidates.extend(parser.article_images)
+    candidates.extend(parser.other_images)
+
     found_img: str | None = None
-    for cand_raw in parser.og_images:
+    for cand_raw in candidates:
         cand = normalize_image_url(page_url, cand_raw)
         if cand:
             found_img = cand
@@ -253,6 +382,30 @@ def extract_meta_from_html(page_url: str, html_text: str) -> tuple[str | None, s
             break
 
     return found_img, found_desc
+
+
+def extract_image_from_rss_node(node: ET.Element, link: str, extra_html: str = "") -> str | None:
+    """RSS/Atomノード内のmedia:thumbnail / media:content / enclosure / HTML imgから画像を抽出"""
+    for child in node:
+        lname = local_name(child.tag)
+        if lname in ("thumbnail", "content", "enclosure"):
+            url_attr = child.attrib.get("url") or child.attrib.get("href") or ""
+            typ = child.attrib.get("type", "").lower()
+            if url_attr and (not typ or typ.startswith("image/") or lname in ("thumbnail", "content")):
+                norm = normalize_image_url(link, url_attr)
+                if norm:
+                    return norm
+        elif lname in ("image", "imageurl") and child.text:
+            norm = normalize_image_url(link, child.text)
+            if norm:
+                return norm
+
+    if extra_html:
+        for m in re.finditer(r'<img[^>]+src=["\']([^"\']+)["\']', extra_html, re.IGNORECASE):
+            norm = normalize_image_url(link, m.group(1))
+            if norm:
+                return norm
+    return None
 
 
 def fetch_page_og_meta(url: str, depth: int = 0) -> tuple[str | None, str | None]:
@@ -286,7 +439,7 @@ def fetch_page_og_meta(url: str, depth: int = 0) -> tuple[str | None, str | None
         return None, None
 
 
-def fetch_yahoo_topics(rss_url: str, category: str, limit: int) -> list[dict]:
+def fetch_yahoo_topics(rss_url: str, category: str, limit: int, now_ts: int | None = None) -> list[dict]:
     items: list[dict] = []
     try:
         root = ET.fromstring(fetch_url_bytes(rss_url))
@@ -294,14 +447,15 @@ def fetch_yahoo_topics(rss_url: str, category: str, limit: int) -> list[dict]:
         print(f"[WARN] Yahoo RSS fetch failed ({category}): {exc}")
         return items
 
-    for idx, node in enumerate(root.findall("./channel/item")[:limit]):
+    for node in root.findall("./channel/item")[:limit]:
         title = (node.findtext("title") or "").strip()
         link = sanitize_http_url(node.findtext("link"))
         if not title or not link:
             continue
         ts, pub_str = parse_datetime_ts(node.findtext("pubDate") or "")
-        rss_img = normalize_image_url(link, node.findtext("image") or "")
-        fb_list = FALLBACK_IMAGES[category]
+        if not is_within_24h(ts, now_ts):
+            continue
+        rss_img = extract_image_from_rss_node(node, link, node.findtext("description") or "")
 
         items.append(
             {
@@ -310,7 +464,7 @@ def fetch_yahoo_topics(rss_url: str, category: str, limit: int) -> list[dict]:
                 "source": "Yahoo!ニュース",
                 "publishedAt": pub_str,
                 "publishedTs": ts,
-                "image": rss_img or fb_list[idx % len(fb_list)],
+                "image": rss_img or build_related_web_image_url(title, category),
                 "fallbackHatenaImg": rss_img,
                 "hasRealImage": bool(rss_img),
                 "summary": f"「{title}」に関する注目ニュースです。詳細は元記事から確認できます。",
@@ -328,7 +482,7 @@ def fetch_yahoo_topics(rss_url: str, category: str, limit: int) -> list[dict]:
     return items
 
 
-def fetch_hatena_rss(rss_url: str, category: str, limit: int) -> list[dict]:
+def fetch_hatena_rss(rss_url: str, category: str, limit: int, now_ts: int | None = None) -> list[dict]:
     items: list[dict] = []
     try:
         root = ET.fromstring(fetch_url_bytes(rss_url))
@@ -337,18 +491,22 @@ def fetch_hatena_rss(rss_url: str, category: str, limit: int) -> list[dict]:
         return items
 
     rdf_items = [el for el in root if local_name(el.tag) == "item"]
-    for idx, node in enumerate(rdf_items[:limit]):
+    for node in rdf_items[:limit]:
         title = find_child_text(node, "title")
         link = sanitize_http_url(find_child_text(node, "link"))
         if not title or not link:
             continue
-        desc = format_summary_text(find_child_text(node, "description"), title)
 
         date_raw = find_child_text(node, "date")
         ts, pub_str = parse_datetime_ts(date_raw)
+        if not is_within_24h(ts, now_ts):
+            continue
 
-        hatena_img = normalize_image_url(link, find_child_text(node, "imageurl"))
-        fb_list = FALLBACK_IMAGES[category]
+        raw_desc = find_child_text(node, "description")
+        raw_encoded = find_child_text(node, "encoded")
+        desc = format_summary_text(raw_desc, title)
+
+        hatena_img = extract_image_from_rss_node(node, link, f"{raw_encoded}\n{raw_desc}")
         src_domain = domain_label(link, "はてなブックマーク")
 
         items.append(
@@ -358,7 +516,7 @@ def fetch_hatena_rss(rss_url: str, category: str, limit: int) -> list[dict]:
                 "source": src_domain,
                 "publishedAt": pub_str,
                 "publishedTs": ts,
-                "image": hatena_img or fb_list[idx % len(fb_list)],
+                "image": hatena_img or build_related_web_image_url(title, category),
                 "fallbackHatenaImg": hatena_img,
                 "hasRealImage": False,
                 "summary": desc,
@@ -376,22 +534,23 @@ def fetch_hatena_rss(rss_url: str, category: str, limit: int) -> list[dict]:
     return items
 
 
-def fetch_zenn_tech(limit: int = 10) -> list[dict]:
+def fetch_zenn_tech(limit: int = 20, now_ts: int | None = None) -> list[dict]:
     items: list[dict] = []
     try:
         data = json.loads(
-            fetch_url_bytes("https://zenn.dev/api/articles?order=trend&count=20").decode("utf-8")
+            fetch_url_bytes("https://zenn.dev/api/articles?order=trend&count=30").decode("utf-8")
         )
-        for idx, art in enumerate(data.get("articles", [])[:limit]):
+        for art in data.get("articles", [])[:limit]:
             title = (art.get("title") or "").strip()
             path = art.get("path") or ""
             link = f"https://zenn.dev{path}" if path.startswith("/") else "https://zenn.dev"
             if not title:
                 continue
             ts, pub_str = parse_datetime_ts(art.get("published_at") or "")
+            if not is_within_24h(ts, now_ts):
+                continue
             likes = art.get("liked_count", 0)
             user_name = (art.get("user") or {}).get("name") or "Zenn"
-            fb_list = FALLBACK_IMAGES["tech"]
 
             items.append(
                 {
@@ -400,7 +559,7 @@ def fetch_zenn_tech(limit: int = 10) -> list[dict]:
                     "source": f"zenn.dev ({user_name})",
                     "publishedAt": pub_str,
                     "publishedTs": ts,
-                    "image": fb_list[idx % len(fb_list)],
+                    "image": build_related_web_image_url(title, "tech"),
                     "fallbackHatenaImg": None,
                     "hasRealImage": False,
                     "summary": f"Zennでトレンド入りしている技術記事（いいね {likes}件）。実務に役立つ開発知見が解説されています。",
@@ -424,8 +583,9 @@ def fetch_generic_feed(
     feed_url: str,
     category: str,
     source_label: str,
-    limit: int = 5,
+    limit: int = 20,
     extra_tag: str = "",
+    now_ts: int | None = None,
 ) -> list[dict]:
     """RSS 2.0 および Atom フィードから記事を取得する"""
     items: list[dict] = []
@@ -436,13 +596,12 @@ def fetch_generic_feed(
         return items
 
     root_name = local_name(root.tag)
-    fb_list = FALLBACK_IMAGES[category]
     cat_label = CATEGORY_LABELS[category]
 
     if root_name == "feed":
         # Atom feed (例: コミックナタリー)
         entries = [el for el in root if local_name(el.tag) == "entry"][:limit]
-        for idx, entry in enumerate(entries):
+        for entry in entries:
             title = find_child_text(entry, "title")
             link = ""
             for child in entry:
@@ -456,8 +615,11 @@ def fetch_generic_feed(
                 continue
             date_raw = find_child_text(entry, "published") or find_child_text(entry, "updated")
             ts, pub_str = parse_datetime_ts(date_raw)
+            if not is_within_24h(ts, now_ts):
+                continue
             summary_raw = find_child_text(entry, "summary") or find_child_text(entry, "content")
             desc = format_summary_text(summary_raw, title)
+            rss_img = extract_image_from_rss_node(entry, link, summary_raw)
             tags = [t for t in [cat_label, extra_tag, source_label] if t][:3]
 
             items.append(
@@ -467,8 +629,8 @@ def fetch_generic_feed(
                     "source": source_label,
                     "publishedAt": pub_str,
                     "publishedTs": ts,
-                    "image": fb_list[idx % len(fb_list)],
-                    "fallbackHatenaImg": None,
+                    "image": rss_img or build_related_web_image_url(title, category),
+                    "fallbackHatenaImg": rss_img,
                     "hasRealImage": False,
                     "summary": desc,
                     "points": [
@@ -485,14 +647,19 @@ def fetch_generic_feed(
     else:
         # RSS 2.0 (例: AUTOMATON, PANORA)
         rss_items = root.findall("./channel/item")[:limit]
-        for idx, node in enumerate(rss_items):
+        for node in rss_items:
             title = (node.findtext("title") or "").strip()
             link = sanitize_http_url(node.findtext("link"))
             if not title or not link:
                 continue
             date_raw = node.findtext("pubDate") or find_child_text(node, "date")
             ts, pub_str = parse_datetime_ts(date_raw)
-            desc = format_summary_text(node.findtext("description") or "", title)
+            if not is_within_24h(ts, now_ts):
+                continue
+            raw_desc = node.findtext("description") or ""
+            raw_encoded = find_child_text(node, "encoded")
+            desc = format_summary_text(raw_desc, title)
+            rss_img = extract_image_from_rss_node(node, link, f"{raw_encoded}\n{raw_desc}")
             tags = [t for t in [cat_label, extra_tag, source_label] if t][:3]
 
             items.append(
@@ -502,8 +669,8 @@ def fetch_generic_feed(
                     "source": source_label,
                     "publishedAt": pub_str,
                     "publishedTs": ts,
-                    "image": fb_list[idx % len(fb_list)],
-                    "fallbackHatenaImg": None,
+                    "image": rss_img or build_related_web_image_url(title, category),
+                    "fallbackHatenaImg": rss_img,
                     "hasRealImage": False,
                     "summary": desc,
                     "points": [
@@ -524,16 +691,16 @@ def enrich_og_metadata_parallel(items: list[dict]) -> None:
     targets = [it for it in items if not it.get("hasRealImage") and it.get("url")]
     if not targets:
         return
-    with concurrent.futures.ThreadPoolExecutor(max_workers=16) as pool:
+    with concurrent.futures.ThreadPoolExecutor(max_workers=24) as pool:
         future_map = {pool.submit(fetch_page_og_meta, it["url"]): it for it in targets}
         for future in concurrent.futures.as_completed(future_map):
             it = future_map[future]
             try:
                 og_img, og_desc = future.result()
-                if og_img:
+                if og_img and not is_generic_logo_image(og_img):
                     it["image"] = og_img
                     it["hasRealImage"] = True
-                elif it.get("fallbackHatenaImg"):
+                elif it.get("fallbackHatenaImg") and not is_generic_logo_image(it["fallbackHatenaImg"]):
                     it["image"] = it["fallbackHatenaImg"]
                     it["hasRealImage"] = True
 
@@ -541,12 +708,13 @@ def enrich_og_metadata_parallel(items: list[dict]) -> None:
                 if og_desc and "に関する注目ニュースです" in it.get("summary", ""):
                     it["summary"] = format_summary_text(og_desc, it["title"])
             except Exception:
-                if it.get("fallbackHatenaImg"):
-                    it["image"] = it["fallbackHatenaImg"]
+                fb_img = it.get("fallbackHatenaImg") or ""
+                if fb_img and not is_generic_logo_image(fb_img):
+                    it["image"] = fb_img
                     it["hasRealImage"] = True
 
 
-def load_cached_data() -> tuple[dict[str, dict], list[str], dict[str, dict]]:
+def load_cached_data(now_ts: int | None = None) -> tuple[dict[str, dict], list[str], dict[str, dict]]:
     if not DATA_JS_PATH.exists():
         return {}, [], {}
     try:
@@ -559,7 +727,8 @@ def load_cached_data() -> tuple[dict[str, dict], list[str], dict[str, dict]]:
         data = json.loads(json_part)
         cache: dict[str, dict] = {}
         for it in data.get("items", []):
-            if it.get("url"):
+            ts = int(it.get("publishedTs") or 0)
+            if it.get("url") and is_within_24h(ts, now_ts):
                 cache[it["url"]] = it
         cached_kw = [str(k) for k in data.get("keywords", []) if str(k).strip()]
         cached_weather: dict[str, dict] = {}
@@ -818,10 +987,16 @@ def interleave_top_items(*groups: list[dict]) -> list[dict]:
 
 
 def pick_unique_category_items(
-    candidates: list[dict], seen: set[str], target_count: int = 10
+    candidates: list[dict],
+    seen: set[str],
+    target_count: int = 30,
+    now_ts: int | None = None,
 ) -> list[dict]:
     picked: list[dict] = []
     for it in candidates:
+        ts = int(it.get("publishedTs") or 0)
+        if not is_within_24h(ts, now_ts):
+            continue
         key_url = it.get("url", "").strip()
         key_title = it.get("title", "").strip()
         if not key_title or (key_url and key_url in seen) or key_title in seen:
@@ -837,48 +1012,67 @@ def pick_unique_category_items(
 
 def main() -> None:
     now = datetime.datetime.now(JST)
+    now_ts = int(now.timestamp())
 
-    with concurrent.futures.ThreadPoolExecutor(max_workers=14) as pool:
-        f_dom_y = pool.submit(fetch_yahoo_topics, "https://news.yahoo.co.jp/rss/topics/domestic.xml", "domestic", 10)
-        f_dom_t = pool.submit(fetch_yahoo_topics, "https://news.yahoo.co.jp/rss/topics/top-picks.xml", "domestic", 10)
-        f_dom_h = pool.submit(fetch_hatena_rss, "https://b.hatena.ne.jp/hotentry/social.rss", "domestic", 25)
+    with concurrent.futures.ThreadPoolExecutor(max_workers=20) as pool:
+        f_dom_y = pool.submit(fetch_yahoo_topics, "https://news.yahoo.co.jp/rss/topics/domestic.xml", "domestic", 25, now_ts)
+        f_dom_t = pool.submit(fetch_yahoo_topics, "https://news.yahoo.co.jp/rss/topics/top-picks.xml", "domestic", 25, now_ts)
+        f_dom_c = pool.submit(fetch_yahoo_topics, "https://news.yahoo.co.jp/rss/categories/domestic.xml", "domestic", 35, now_ts)
+        f_dom_h = pool.submit(fetch_hatena_rss, "https://b.hatena.ne.jp/hotentry/social.rss", "domestic", 35, now_ts)
+        f_dom_e = pool.submit(fetch_hatena_rss, "https://b.hatena.ne.jp/entrylist/social.rss", "domestic", 30, now_ts)
 
-        f_tech_y = pool.submit(fetch_yahoo_topics, "https://news.yahoo.co.jp/rss/topics/it.xml", "tech", 10)
-        f_tech_h = pool.submit(fetch_hatena_rss, "https://b.hatena.ne.jp/hotentry/it.rss", "tech", 25)
-        f_tech_z = pool.submit(fetch_zenn_tech, 10)
+        f_tech_y = pool.submit(fetch_yahoo_topics, "https://news.yahoo.co.jp/rss/topics/it.xml", "tech", 25, now_ts)
+        f_tech_c = pool.submit(fetch_yahoo_topics, "https://news.yahoo.co.jp/rss/categories/it.xml", "tech", 35, now_ts)
+        f_tech_h = pool.submit(fetch_hatena_rss, "https://b.hatena.ne.jp/hotentry/it.rss", "tech", 35, now_ts)
+        f_tech_e = pool.submit(fetch_hatena_rss, "https://b.hatena.ne.jp/entrylist/it.rss", "tech", 30, now_ts)
+        f_tech_z = pool.submit(fetch_zenn_tech, 25, now_ts)
 
-        f_biz_y = pool.submit(fetch_yahoo_topics, "https://news.yahoo.co.jp/rss/topics/business.xml", "business", 10)
-        f_biz_h = pool.submit(fetch_hatena_rss, "https://b.hatena.ne.jp/hotentry/economics.rss", "business", 25)
+        f_biz_y = pool.submit(fetch_yahoo_topics, "https://news.yahoo.co.jp/rss/topics/business.xml", "business", 25, now_ts)
+        f_biz_c = pool.submit(fetch_yahoo_topics, "https://news.yahoo.co.jp/rss/categories/business.xml", "business", 35, now_ts)
+        f_biz_h = pool.submit(fetch_hatena_rss, "https://b.hatena.ne.jp/hotentry/economics.rss", "business", 35, now_ts)
+        f_biz_e = pool.submit(fetch_hatena_rss, "https://b.hatena.ne.jp/entrylist/economics.rss", "business", 30, now_ts)
 
-        f_ent_y = pool.submit(fetch_yahoo_topics, "https://news.yahoo.co.jp/rss/topics/entertainment.xml", "entertainment", 10)
-        f_ent_h = pool.submit(fetch_hatena_rss, "https://b.hatena.ne.jp/hotentry/entertainment.rss", "entertainment", 25)
+        f_ent_y = pool.submit(fetch_yahoo_topics, "https://news.yahoo.co.jp/rss/topics/entertainment.xml", "entertainment", 25, now_ts)
+        f_ent_c = pool.submit(fetch_yahoo_topics, "https://news.yahoo.co.jp/rss/categories/entertainment.xml", "entertainment", 35, now_ts)
+        f_ent_h = pool.submit(fetch_hatena_rss, "https://b.hatena.ne.jp/hotentry/entertainment.rss", "entertainment", 35, now_ts)
+        f_ent_e = pool.submit(fetch_hatena_rss, "https://b.hatena.ne.jp/entrylist/entertainment.rss", "entertainment", 30, now_ts)
+        f_ent_m = pool.submit(fetch_generic_feed, "https://natalie.mu/music/feed/news", "entertainment", "音楽ナタリー", 15, "音楽", now_ts)
 
-        f_sub_h = pool.submit(fetch_hatena_rss, "https://b.hatena.ne.jp/hotentry/game.rss", "subculture", 20)
-        f_sub_auto = pool.submit(fetch_generic_feed, "https://automaton-media.com/feed/", "subculture", "AUTOMATON", 8, "ゲーム")
-        f_sub_comic = pool.submit(fetch_generic_feed, "https://natalie.mu/comic/feed/news", "subculture", "コミックナタリー", 8, "漫画・アニメ")
-        f_sub_vtuber = pool.submit(fetch_generic_feed, "https://panora.tokyo/feed/", "subculture", "PANORA", 8, "Vtuber")
+        f_sub_auto = pool.submit(fetch_generic_feed, "https://automaton-media.com/feed/", "subculture", "AUTOMATON", 20, "ゲーム", now_ts)
+        f_sub_comic = pool.submit(fetch_generic_feed, "https://natalie.mu/comic/feed/news", "subculture", "コミックナタリー", 20, "漫画・アニメ", now_ts)
+        f_sub_vtuber = pool.submit(fetch_generic_feed, "https://panora.tokyo/feed/", "subculture", "PANORA", 15, "Vtuber", now_ts)
+        f_sub_h = pool.submit(fetch_hatena_rss, "https://b.hatena.ne.jp/hotentry/game.rss", "subculture", 30, now_ts)
+        f_sub_e = pool.submit(fetch_hatena_rss, "https://b.hatena.ne.jp/entrylist/game.rss", "subculture", 25, now_ts)
 
-    domestic_candidates = f_dom_y.result() + f_dom_t.result() + f_dom_h.result()
-    tech_candidates = f_tech_y.result() + f_tech_h.result() + f_tech_z.result()
-    business_candidates = f_biz_y.result() + f_biz_h.result()
-    entertainment_candidates = f_ent_y.result() + f_ent_h.result()
+    domestic_candidates = (
+        f_dom_y.result() + f_dom_t.result() + f_dom_c.result() + f_dom_h.result() + f_dom_e.result()
+    )
+    tech_candidates = (
+        f_tech_y.result() + f_tech_c.result() + f_tech_h.result() + f_tech_z.result() + f_tech_e.result()
+    )
+    business_candidates = (
+        f_biz_y.result() + f_biz_c.result() + f_biz_h.result() + f_biz_e.result()
+    )
+    entertainment_candidates = (
+        f_ent_y.result() + f_ent_c.result() + f_ent_h.result() + f_ent_m.result() + f_ent_e.result()
+    )
     subculture_candidates = interleave_top_items(
-        f_sub_auto.result(), f_sub_comic.result(), f_sub_vtuber.result(), f_sub_h.result()
+        f_sub_auto.result(), f_sub_comic.result(), f_sub_vtuber.result(), f_sub_h.result(), f_sub_e.result()
     )
 
     seen_global: set[str] = set()
-    domestic = pick_unique_category_items(domestic_candidates, seen_global, target_count=30)
-    tech = pick_unique_category_items(tech_candidates, seen_global, target_count=30)
-    business = pick_unique_category_items(business_candidates, seen_global, target_count=30)
-    entertainment = pick_unique_category_items(entertainment_candidates, seen_global, target_count=30)
-    subculture = pick_unique_category_items(subculture_candidates, seen_global, target_count=30)
+    domestic = pick_unique_category_items(domestic_candidates, seen_global, target_count=30, now_ts=now_ts)
+    tech = pick_unique_category_items(tech_candidates, seen_global, target_count=30, now_ts=now_ts)
+    business = pick_unique_category_items(business_candidates, seen_global, target_count=30, now_ts=now_ts)
+    entertainment = pick_unique_category_items(entertainment_candidates, seen_global, target_count=30, now_ts=now_ts)
+    subculture = pick_unique_category_items(subculture_candidates, seen_global, target_count=30, now_ts=now_ts)
 
     items = interleave_top_items(domestic, tech, business, entertainment, subculture)
     if not items:
         raise RuntimeError("ニュースを1件も取得できませんでした。")
 
-    # 既存キャッシュからAI要約・実画像・天気を引き継ぐ
-    cache, cached_keywords, cached_weather = load_cached_data()
+    # 既存キャッシュからAI要約・実画像・天気を引き継ぐ（24時間以内の記事のみ）
+    cache, cached_keywords, cached_weather = load_cached_data(now_ts)
     for it in items:
         cached = cache.get(it.get("url", ""))
         if cached:
@@ -893,13 +1087,25 @@ def main() -> None:
                 it["summary"] = format_summary_text(cached["summary"], it["title"])
 
             cached_img = cached.get("image", "")
-            if cached_img.startswith("https://") and not is_generic_logo_image(cached_img):
+            if (
+                cached_img.startswith(("https://", "http://"))
+                and not is_generic_logo_image(cached_img)
+                and "tse2.mm.bing.net/th" not in cached_img
+            ):
                 it["image"] = cached_img
                 it["hasRealImage"] = True
 
-    # 上位10記事（各ジャンル10位以内＋トップ上位10件）のみ引用元ページからOGP画像を並列取得
-    image_targets = domestic[:10] + tech[:10] + business[:10] + entertainment[:10] + subculture[:10]
-    enrich_og_metadata_parallel(image_targets)
+    # 全記事について引用元ページから記事内画像・OGPを並列取得（未取得時は関連Web画像へフォールバック）
+    enrich_og_metadata_parallel(items)
+    for it in items:
+        img = (it.get("image") or "").strip()
+        if not img.startswith(("https://", "http://")) or is_generic_logo_image(img):
+            fb_img = (it.get("fallbackHatenaImg") or "").strip()
+            if fb_img.startswith(("https://", "http://")) and not is_generic_logo_image(fb_img):
+                it["image"] = fb_img
+            else:
+                it["image"] = build_related_web_image_url(it.get("title", ""), it.get("category", ""))
+
     weather_cities = fetch_major_cities_weather(cached_weather)
 
     keywords: list[str] = []
@@ -919,6 +1125,8 @@ def main() -> None:
 
     clean_items = []
     for it in items:
+        if not is_within_24h(int(it.get("publishedTs") or 0), now_ts):
+            continue
         clean_items.append(
             {
                 "category": it["category"],

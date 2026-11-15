@@ -1,13 +1,14 @@
 (() => {
   const CATEGORY_META = {
-    domestic: { label: "国内・総合", icon: "🇯🇵", fallbackImg: "assets/images/news-1.jpg" },
-    tech: { label: "テクノロジー・AI", icon: "🤖", fallbackImg: "assets/images/news-3.jpg" },
-    business: { label: "ビジネス・経済", icon: "📈", fallbackImg: "assets/images/news-5.jpg" },
-    entertainment: { label: "芸能・エンタメ", icon: "🎬", fallbackImg: "assets/images/news-2.jpg" },
-    subculture: { label: "サブカルチャー", icon: "🎮", fallbackImg: "assets/images/news-4.jpg" },
-    weather: { label: "天気", icon: "☀️", fallbackImg: "assets/images/news-1.jpg" },
+    domestic: { label: "国内・総合", icon: "🇯🇵" },
+    tech: { label: "テクノロジー・AI", icon: "🤖" },
+    business: { label: "ビジネス・経済", icon: "📈" },
+    entertainment: { label: "芸能・エンタメ", icon: "🎬" },
+    subculture: { label: "サブカルチャー", icon: "🎮" },
+    weather: { label: "天気", icon: "☀️" },
   };
 
+  const MAX_ARTICLE_AGE_SEC = 24 * 3600;
   const VALID_CATEGORIES = new Set(["all", "domestic", "tech", "business", "entertainment", "subculture", "weather"]);
   const CATEGORY_STORAGE_KEY = "trend-news-active-category";
   const WEATHER_CACHE_KEY = "trend-news-weather-cities-v1";
@@ -113,31 +114,108 @@
   }
 
   function getCategoryMeta(cat) {
-    return CATEGORY_META[cat] || { label: "ニュース", icon: "📰", fallbackImg: "assets/images/news-1.jpg" };
+    return CATEGORY_META[cat] || { label: "ニュース", icon: "📰" };
   }
 
-  function getFallbackImage(item, index = 0) {
-    if (item?.category === "domestic") {
-      return index % 2 === 0 ? "assets/images/news-1.jpg" : "assets/images/news-2.jpg";
+  function getItemPublishedTs(item) {
+    const ts = Number(item?.publishedTs);
+    if (Number.isFinite(ts) && ts > 0) return ts;
+    if (typeof item?.publishedAt === "string" && item.publishedAt.trim()) {
+      const normalized = item.publishedAt.trim().replace(" ", "T");
+      const ms = Date.parse(/[zZ]|[+\-]\d{2}:?\d{2}$/.test(normalized) ? normalized : `${normalized}+09:00`);
+      if (Number.isFinite(ms) && ms > 0) return Math.floor(ms / 1000);
     }
-    if (item?.category === "tech") {
-      return index % 2 === 0 ? "assets/images/news-3.jpg" : "assets/images/news-4.jpg";
-    }
-    if (item?.category === "entertainment") {
-      return index % 2 === 0 ? "assets/images/news-2.jpg" : "assets/images/news-6.jpg";
-    }
-    if (item?.category === "subculture") {
-      return index % 2 === 0 ? "assets/images/news-4.jpg" : "assets/images/news-3.jpg";
-    }
-    return index % 2 === 0 ? "assets/images/news-5.jpg" : "assets/images/news-6.jpg";
+    return 0;
   }
 
-  function getSafeImageUrl(item, index = 0) {
+  function isArticleWithin24Hours(item, nowSec = Math.floor(Date.now() / 1000)) {
+    const ts = getItemPublishedTs(item);
+    if (ts <= 0) return false;
+    const ageSec = nowSec - ts;
+    return ageSec >= -3600 && ageSec < MAX_ARTICLE_AGE_SEC;
+  }
+
+  function formatJstFromTs(tsSec) {
+    if (!Number.isFinite(tsSec) || tsSec <= 0) return "";
+    const jst = new Date((tsSec + 9 * 3600) * 1000);
+    const pad = (n) => String(n).padStart(2, "0");
+    return `${jst.getUTCFullYear()}-${pad(jst.getUTCMonth() + 1)}-${pad(jst.getUTCDate())} ${pad(jst.getUTCHours())}:${pad(jst.getUTCMinutes())}`;
+  }
+
+  function isGenericOrSampleImageUrl(url) {
+    if (typeof url !== "string") return true;
+    const trimmed = url.trim();
+    if (!trimmed || (!trimmed.startsWith("https://") && !trimmed.startsWith("http://"))) {
+      return true;
+    }
+    const lower = trimmed.toLowerCase();
+    const badTokens = [
+      "assets/images/",
+      "ogp_default",
+      "default_ogp",
+      "noimage",
+      "no_image",
+      "spacer.gif",
+      "1x1.",
+      "pixel.gif",
+      "favicon",
+      "apple-touch-icon",
+      "b.hatena.ne.jp/images/",
+      "/common/img/logo",
+      "/assets/logo",
+      "news-pctr.c.yimg.jp/e/",
+      "default.jpg",
+      "default.png",
+      "amd-img/default",
+      ".svg",
+    ];
+    return badTokens.some((tok) => lower.includes(tok));
+  }
+
+  function buildRelatedImageQuery(item) {
+    let title = String(item?.title || "").trim();
+    title = title.replace(/\s*[-｜|—–]\s*[^-｜|—–]{1,28}$/, "").trim();
+    const stop = new Set(["news", "yahoo", "itmedia", "zenn", "qiita", "note", "topics", "2026", "2025", "http", "https"]);
+    const tokens = (title.match(/[一-龥ァ-ヶーa-zA-Z0-9]{2,}/g) || []).filter(
+      (t) => !stop.has(t.toLowerCase())
+    );
+    let query = tokens.slice(0, 6).join(" ").trim();
+    if (!query) query = title.slice(0, 48).trim();
+    if (query.length > 64) query = query.slice(0, 64).trim();
+    if (!query) {
+      const catLabel = getCategoryMeta(item?.category).label || "ニュース";
+      return `${catLabel} ニュース`;
+    }
+    return query;
+  }
+
+  function getRelatedWebImageUrl(item) {
+    const query = buildRelatedImageQuery(item);
+    const encoded = encodeURIComponent(query).replace(/'/g, "%27");
+    return `https://tse2.mm.bing.net/th?q=${encoded}&w=800&h=450&c=7&rs=1&p=0`;
+  }
+
+  function getFallbackImage(item, _index = 0) {
+    return getRelatedWebImageUrl(item);
+  }
+
+  function getSafeImageUrl(item, _index = 0) {
     const raw = typeof item?.image === "string" ? item.image.trim() : "";
-    if (raw.startsWith("https://") || raw.startsWith("http://") || raw.startsWith("assets/")) {
+    if (!isGenericOrSampleImageUrl(raw)) {
       return raw;
     }
-    return getFallbackImage(item, index);
+    return getRelatedWebImageUrl(item);
+  }
+
+  function normalizeNewsItems(items) {
+    if (!Array.isArray(items)) return [];
+    const nowSec = Math.floor(Date.now() / 1000);
+    return items
+      .filter((it) => it && isArticleWithin24Hours(it, nowSec))
+      .map((it) => {
+        const safeImg = getSafeImageUrl(it);
+        return it.image === safeImg ? it : { ...it, image: safeImg };
+      });
   }
 
   async function fetchWithTimeout(url, options = {}, timeoutMs = 8000) {
@@ -275,7 +353,10 @@
     if (elWeatherSection) elWeatherSection.hidden = true;
 
     const rawItems = Array.isArray(state.data.items) ? state.data.items : [];
-    const allWithIdx = rawItems.map((item, idx) => ({ ...item, _idx: idx }));
+    const nowSec = Math.floor(Date.now() / 1000);
+    const allWithIdx = rawItems
+      .map((item, idx) => ({ ...item, _idx: idx }))
+      .filter((item) => isArticleWithin24Hours(item, nowSec));
 
     if (q) {
       elFilterStatus.hidden = false;
@@ -620,20 +701,25 @@
 
   function applyNewsDataIfNewer(candidate, forceApply = false) {
     if (!candidate || !Array.isArray(candidate.items) || candidate.items.length === 0) return false;
+    const cleanItems = normalizeNewsItems(candidate.items);
+    if (cleanItems.length === 0) return false;
+
     const currentMs = parseUpdatedAtMs(state.data?.updatedAt);
     const candidateMs = parseUpdatedAtMs(candidate.updatedAt);
     // 現在表示中のデータより古いデータには絶対に戻さない
     if (currentMs > 0 && candidateMs > 0 && candidateMs < currentMs) {
       return false;
     }
-    // 同時刻で件数が減る場合も上書きしない
-    if (currentMs > 0 && candidateMs === currentMs && candidate.items.length < (state.data?.items?.length || 0)) {
+    // 同時刻で24時間以内の件数が減る場合も上書きしない
+    const currentCleanLen = normalizeNewsItems(state.data?.items).length;
+    if (currentMs > 0 && candidateMs === currentMs && cleanItems.length < currentCleanLen) {
       return false;
     }
 
     const bestWeather = getBestAvailableWeatherCities(candidate);
     const normalizedCandidate = {
       ...candidate,
+      items: cleanItems,
       weatherCities: bestWeather,
     };
     if (Array.isArray(candidate.weatherCities) && candidate.weatherCities.length > 0) {
@@ -717,6 +803,31 @@
     return best;
   }
 
+  function resolveSafeCandidateImg(rawUrl, baseUrl) {
+    if (typeof rawUrl !== "string") return "";
+    let cand = rawUrl.trim().replace(/&amp;/g, "&");
+    if (!cand || cand.startsWith("data:")) return "";
+    if (cand.startsWith("//")) cand = `https:${cand}`;
+    if (!cand.startsWith("http://") && !cand.startsWith("https://") && baseUrl) {
+      try {
+        cand = new URL(cand, baseUrl).href;
+      } catch (_e) {
+        return "";
+      }
+    }
+    return isGenericOrSampleImageUrl(cand) ? "" : cand;
+  }
+
+  function extractImgFromHtmlSnippet(html, baseUrl) {
+    if (typeof html !== "string" || !html) return "";
+    const matches = html.matchAll(/<img[^>]+(?:data-src|data-original|src)=["']([^"']+)["']/gi);
+    for (const m of matches) {
+      const safe = resolveSafeCandidateImg(m[1], baseUrl);
+      if (safe) return safe;
+    }
+    return "";
+  }
+
   async function fetchRssViaRss2Json(rssUrl, category, sourceFallback, limit) {
     const ts = Date.now();
     const r2jUrl = `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(rssUrl)}&_=${ts}`;
@@ -727,17 +838,30 @@
     return data.items.slice(0, limit).map((it, idx) => {
       const title = (it.title || "").trim();
       const link = (it.link || "").trim();
-      const pubMs = it.pubDate ? Date.parse(it.pubDate.replace(" ", "T") + "Z") : Date.now();
-      const publishedTs = Number.isFinite(pubMs) ? Math.floor(pubMs / 1000) : Math.floor(Date.now() / 1000);
-      const thumb = it.thumbnail || it.enclosure?.link || it.enclosure?.thumbnail || "";
+      const pubMs = it.pubDate ? Date.parse(it.pubDate.replace(" ", "T") + "Z") : NaN;
+      const publishedTs = Number.isFinite(pubMs) && pubMs > 0 ? Math.floor(pubMs / 1000) : 0;
+      const thumbCandidates = [
+        it.thumbnail,
+        it.enclosure?.link,
+        it.enclosure?.thumbnail,
+        extractImgFromHtmlSnippet(it.content || it.description || "", link),
+      ];
+      let rawThumb = "";
+      for (const cand of thumbCandidates) {
+        const safe = resolveSafeCandidateImg(cand, link);
+        if (safe) {
+          rawThumb = safe;
+          break;
+        }
+      }
       return {
         category,
         title,
         url: link,
         source: sourceFallback,
         publishedTs,
-        publishedAt: it.pubDate ? it.pubDate.slice(0, 16) : formatNowJst().updatedAt,
-        rawThumb: thumb.startsWith("https://") ? thumb : "",
+        publishedAt: publishedTs > 0 ? formatJstFromTs(publishedTs) : "",
+        rawThumb,
         rawDesc: it.description || "",
         idx,
       };
@@ -762,22 +886,37 @@
       } else {
         link = (node.querySelector("link")?.textContent || "").trim();
       }
+      link = link.trim();
       const pubRaw =
         node.querySelector("pubDate, published, updated")?.textContent ||
         node.getElementsByTagName("dc:date")?.[0]?.textContent ||
         "";
-      const pubMs = pubRaw ? Date.parse(pubRaw) : Date.now();
-      const publishedTs = Number.isFinite(pubMs) ? Math.floor(pubMs / 1000) : Math.floor(Date.now() / 1000);
-      const hatenaImg = node.getElementsByTagName("hatena:imageurl")?.[0]?.textContent || "";
+      const pubMs = pubRaw ? Date.parse(pubRaw) : NaN;
+      const publishedTs = Number.isFinite(pubMs) && pubMs > 0 ? Math.floor(pubMs / 1000) : 0;
+      const encodedHtml = node.getElementsByTagName("content:encoded")?.[0]?.textContent || "";
       const desc = node.querySelector("description, summary, content")?.textContent || "";
+      const enclosureUrl = node.querySelector("enclosure")?.getAttribute("url") || "";
+      const mediaContentUrl = node.getElementsByTagName("media:content")?.[0]?.getAttribute("url") || "";
+      const mediaThumbUrl = node.getElementsByTagName("media:thumbnail")?.[0]?.getAttribute("url") || "";
+      const imageNodeText = node.querySelector("image")?.textContent || "";
+      const hatenaImg = node.getElementsByTagName("hatena:imageurl")?.[0]?.textContent || "";
+      const htmlImg = extractImgFromHtmlSnippet(`${encodedHtml}\n${desc}`, link);
+      let rawThumb = "";
+      for (const cand of [enclosureUrl, mediaContentUrl, mediaThumbUrl, imageNodeText, htmlImg, hatenaImg]) {
+        const safe = resolveSafeCandidateImg(cand, link);
+        if (safe) {
+          rawThumb = safe;
+          break;
+        }
+      }
       return {
         category,
         title,
-        url: link.trim(),
+        url: link,
         source: sourceFallback,
         publishedTs,
-        publishedAt: formatNowJst().updatedAt,
-        rawThumb: hatenaImg.startsWith("https://") ? hatenaImg : "",
+        publishedAt: publishedTs > 0 ? formatJstFromTs(publishedTs) : "",
+        rawThumb,
         rawDesc: desc,
         idx,
       };
@@ -795,6 +934,37 @@
     }
   }
 
+  function extractImagesFromLdJsonText(rawJson) {
+    const out = [];
+    try {
+      const parsed = JSON.parse(rawJson);
+      const stack = Array.isArray(parsed) ? [...parsed] : [parsed];
+      while (stack.length > 0) {
+        const cur = stack.shift();
+        if (!cur || typeof cur !== "object") continue;
+        if (Array.isArray(cur)) {
+          stack.push(...cur);
+          continue;
+        }
+        const imgVal = cur.image || cur.thumbnailUrl;
+        if (typeof imgVal === "string") {
+          out.push(imgVal);
+        } else if (Array.isArray(imgVal)) {
+          imgVal.forEach((v) => {
+            if (typeof v === "string") out.push(v);
+            else if (v && typeof v.url === "string") out.push(v.url);
+          });
+        } else if (imgVal && typeof imgVal === "object" && typeof imgVal.url === "string") {
+          out.push(imgVal.url);
+        }
+        Object.values(cur).forEach((v) => {
+          if (v && typeof v === "object") stack.push(v);
+        });
+      }
+    } catch (_e) {}
+    return out;
+  }
+
   async function fetchLiveOgForUrl(url) {
     try {
       const proxyUrl = `https://api.allorigins.win/raw?url=${encodeURIComponent(url)}`;
@@ -802,16 +972,77 @@
       if (!res.ok) return {};
       const html = await res.text();
       const doc = new DOMParser().parseFromString(html, "text/html");
-      const ogImg =
-        doc.querySelector('meta[property="og:image"]')?.getAttribute("content") ||
-        doc.querySelector('meta[name="twitter:image"]')?.getAttribute("content") ||
-        "";
+
+      let foundImg = "";
+      const metaSelectors = [
+        'meta[property="og:image"]',
+        'meta[property="og:image:secure_url"]',
+        'meta[name="twitter:image"]',
+        'meta[name="twitter:image:src"]',
+        'meta[property="twitter:image"]',
+      ];
+      for (const sel of metaSelectors) {
+        const val = doc.querySelector(sel)?.getAttribute("content") || "";
+        const safe = resolveSafeCandidateImg(val, url);
+        if (safe) {
+          foundImg = safe;
+          break;
+        }
+      }
+      if (!foundImg) {
+        const linkSrc = doc.querySelector('link[rel="image_src"]')?.getAttribute("href") || "";
+        foundImg = resolveSafeCandidateImg(linkSrc, url);
+      }
+      if (!foundImg) {
+        for (const script of doc.querySelectorAll('script[type="application/ld+json"]')) {
+          for (const rawImg of extractImagesFromLdJsonText(script.textContent || "")) {
+            const safe = resolveSafeCandidateImg(rawImg, url);
+            if (safe) {
+              foundImg = safe;
+              break;
+            }
+          }
+          if (foundImg) break;
+        }
+      }
+      if (!foundImg) {
+        const imgEls = [
+          ...doc.querySelectorAll("article img, main img, .article-body img, .entry-content img"),
+          ...doc.querySelectorAll("img"),
+        ];
+        const badMarkerRe = /(icon|logo|avatar|badge|banner|button|btn|spacer|emoji)/i;
+        for (const imgEl of imgEls) {
+          if (imgEl.closest("header, footer, nav, aside")) continue;
+          const attrMarker = `${imgEl.className || ""} ${imgEl.id || ""} ${imgEl.getAttribute("alt") || ""}`;
+          if (badMarkerRe.test(attrMarker)) continue;
+          const w = parseInt(imgEl.getAttribute("width") || "", 10);
+          const h = parseInt(imgEl.getAttribute("height") || "", 10);
+          if ((Number.isFinite(w) && w < 64) || (Number.isFinite(h) && h < 64)) continue;
+          const cand =
+            imgEl.getAttribute("data-src") ||
+            imgEl.getAttribute("data-original") ||
+            imgEl.getAttribute("src") ||
+            "";
+          const safe = resolveSafeCandidateImg(cand, url);
+          if (safe) {
+            foundImg = safe;
+            break;
+          }
+        }
+      }
+      if (!foundImg) {
+        const yMatch = html.match(/https:\/\/newsatcl-pctr\.c\.yimg\.jp\/[^\s"'<>]+/);
+        if (yMatch) {
+          foundImg = resolveSafeCandidateImg(yMatch[0], url);
+        }
+      }
+
       const ogDesc =
         doc.querySelector('meta[property="og:description"]')?.getAttribute("content") ||
         doc.querySelector('meta[name="description"]')?.getAttribute("content") ||
         "";
       return {
-        image: ogImg.startsWith("https://") && !ogImg.includes("ogp_default") ? ogImg : "",
+        image: foundImg,
         summary: ogDesc ? ogDesc.trim() : "",
       };
     } catch (_e) {
@@ -822,10 +1053,10 @@
   function enrichNewImagesInBackground(newTargets) {
     if (!newTargets || newTargets.length === 0) return;
     Promise.allSettled(
-      newTargets.slice(0, 12).map(async (target) => {
+      newTargets.slice(0, 30).map(async (target) => {
         const og = await fetchLiveOgForUrl(target.url);
         let changed = false;
-        if (og.image) {
+        if (og.image && !isGenericOrSampleImageUrl(og.image)) {
           target.item.image = og.image;
           changed = true;
         }
@@ -904,18 +1135,28 @@
 
     function buildCategoryList(rawCandidates, existingCatItems, catKey) {
       const catMeta = getCategoryMeta(catKey);
+      const nowSec = Math.floor(Date.now() / 1000);
       const list = [];
       for (const raw of rawCandidates) {
         if (!raw.title || !raw.url) continue;
+        if (!isArticleWithin24Hours(raw, nowSec)) continue;
         if (seen.has(raw.url) || seen.has(raw.title)) continue;
         seen.add(raw.url);
         seen.add(raw.title);
 
         const cached = existingByUrl.get(raw.url) || existingByTitle.get(raw.title);
         if (cached) {
-          list.push({ ...cached, category: catKey });
+          const safeImg = getSafeImageUrl(cached);
+          const itemObj = { ...cached, category: catKey, image: safeImg };
+          list.push(itemObj);
+          if (isGenericOrSampleImageUrl(cached.image) && bgOgTargets.length < 30) {
+            bgOgTargets.push({ url: raw.url, item: itemObj });
+          }
         } else {
-          const img = raw.rawThumb || getFallbackImage({ category: catKey }, list.length);
+          const hasValidThumb = !isGenericOrSampleImageUrl(raw.rawThumb);
+          const img = hasValidThumb
+            ? raw.rawThumb
+            : getRelatedWebImageUrl({ title: raw.title, category: catKey });
           let summary = raw.rawDesc
             ? raw.rawDesc.replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim()
             : `「${raw.title}」に関する注目ニュースです。詳細は元記事から確認できます。`;
@@ -940,7 +1181,7 @@
             isAiEnriched: false,
           };
           list.push(itemObj);
-          if (!raw.rawThumb && list.length <= 10) {
+          if (!hasValidThumb && bgOgTargets.length < 30) {
             bgOgTargets.push({ url: raw.url, item: itemObj });
           }
         }
@@ -949,10 +1190,12 @@
 
       for (const oldIt of existingCatItems) {
         if (list.length >= 30) break;
+        if (!isArticleWithin24Hours(oldIt, nowSec)) continue;
         if (!seen.has(oldIt.url) && !seen.has(oldIt.title)) {
           seen.add(oldIt.url);
           seen.add(oldIt.title);
-          list.push(oldIt);
+          const safeImg = getSafeImageUrl(oldIt);
+          list.push(oldIt.image === safeImg ? oldIt : { ...oldIt, image: safeImg });
         }
       }
       return list;
@@ -1728,6 +1971,7 @@
   // Init
   initTheme();
   setupMobileSwipeNavigation();
+  state.data = { ...state.data, items: normalizeNewsItems(state.data.items) };
   state.lastDataSignature = computeDataSignature(state.data);
   restoreCachedNewsOnStartup();
   syncCategoryTabsUI(state.category, true);
