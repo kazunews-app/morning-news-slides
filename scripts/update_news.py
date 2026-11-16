@@ -15,6 +15,8 @@ import html.parser
 import json
 import os
 import re
+import time
+import urllib.error
 import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
@@ -1169,11 +1171,36 @@ def _discover_gemini_flash_models(api_key: str) -> list[str]:
         return []
 
 
+def _parse_gemini_json_text(raw_text: str) -> dict | None:
+    if not raw_text:
+        return None
+    cleaned = raw_text.strip()
+    if cleaned.startswith("```"):
+        cleaned = re.sub(r"^```(?:json)?\s*", "", cleaned, flags=re.IGNORECASE)
+        cleaned = re.sub(r"\s*```$", "", cleaned)
+    try:
+        obj = json.loads(cleaned)
+        if isinstance(obj, dict):
+            return obj
+    except Exception:
+        pass
+    m = re.search(r"\{[\s\S]*\}", cleaned)
+    if m:
+        try:
+            obj = json.loads(m.group(0))
+            if isinstance(obj, dict):
+                return obj
+        except Exception:
+            pass
+    return None
+
+
 def _enrich_batch_with_gemini(
     batch_targets: list[tuple[int, dict]],
     api_key: str,
     model_candidates: list[str],
     include_keywords: bool = False,
+    deadline_monotonic: float | None = None,
 ) -> tuple[int, list[str] | None, str]:
     prompt_articles = [
         {
@@ -1227,6 +1254,8 @@ def _enrich_batch_with_gemini(
     last_exc: Exception | None = None
 
     for model_name in model_candidates:
+        if deadline_monotonic is not None and time.monotonic() >= deadline_monotonic:
+            break
         url = f"https://generativelanguage.googleapis.com/v1beta/models/{model_name}:generateContent"
         req = urllib.request.Request(
             url,
@@ -1238,19 +1267,23 @@ def _enrich_batch_with_gemini(
             method="POST",
         )
         try:
-            with urllib.request.urlopen(req, timeout=55) as resp:
+            with urllib.request.urlopen(req, timeout=28) as resp:
                 res_json = json.loads(resp.read().decode("utf-8"))
             text = res_json["candidates"][0]["content"]["parts"][0]["text"]
-            parsed = json.loads(text)
-            if isinstance(parsed, dict) and isinstance(parsed.get("articles"), list):
+            cand_parsed = _parse_gemini_json_text(text)
+            if cand_parsed and isinstance(cand_parsed.get("articles"), list) and len(cand_parsed["articles"]) > 0:
+                parsed = cand_parsed
                 used_model = model_name
                 break
+        except urllib.error.HTTPError as exc:
+            last_exc = exc
+            print(f"[WARN] Gemini model {model_name} HTTP {exc.code}: {exc.reason}", flush=True)
         except Exception as exc:
             last_exc = exc
-            parsed = None
+            print(f"[WARN] Gemini model {model_name} error: {exc}", flush=True)
 
     if not parsed:
-        print(f"[WARN] Gemini batch enrichment failed ({len(batch_targets)} items): {last_exc}")
+        print(f"[WARN] Gemini batch enrichment failed ({len(batch_targets)} items): {last_exc}", flush=True)
         return 0, None, ""
 
     ai_map = {a.get("index"): a for a in parsed.get("articles", []) if isinstance(a, dict)}
@@ -1282,55 +1315,67 @@ def enrich_with_gemini(items: list[dict], api_key: str) -> list[str] | None:
     if not targets:
         return None
 
+    deadline = time.monotonic() + 130.0
     preferred_models = [
-        "gemini-3.5-flash-lite",
         "gemini-flash-lite-latest",
+        "gemini-3.5-flash-lite",
         "gemini-2.5-flash-lite",
         "gemini-3.6-flash",
         "gemini-3.8-flash",
-        "gemini-flash-latest",
-        "gemini-2.5-flash",
     ]
     discovered = [m for m in _discover_gemini_flash_models(api_key) if m not in preferred_models]
-    model_candidates = preferred_models + discovered
+    model_candidates = (preferred_models + discovered)[:4]
 
-    batch_size = 25
+    batch_size = 15
+    batches = [targets[i : i + batch_size] for i in range(0, len(targets), batch_size)]
     total_enriched = 0
     keywords: list[str] | None = None
     last_model = ""
 
-    for b_idx in range(0, len(targets), batch_size):
-        batch = targets[b_idx : b_idx + batch_size]
-        cnt, kw, used_model = _enrich_batch_with_gemini(
-            batch,
-            api_key,
-            model_candidates,
-            include_keywords=(b_idx == 0),
-        )
-        total_enriched += cnt
-        if kw and not keywords:
-            keywords = kw
-        if used_model:
-            last_model = used_model
-            # 成功したモデルを最優先にする
-            model_candidates = [used_model] + [m for m in model_candidates if m != used_model]
+    # 最初のバッチで有効モデルと注目キーワードを確定
+    first_cnt, first_kw, first_model = _enrich_batch_with_gemini(
+        batches[0],
+        api_key,
+        model_candidates,
+        include_keywords=True,
+        deadline_monotonic=deadline,
+    )
+    total_enriched += first_cnt
+    if first_kw:
+        keywords = first_kw
+    if first_model:
+        last_model = first_model
+        active_models = [first_model] + [m for m in model_candidates if m != first_model][:1]
+    else:
+        active_models = model_candidates[:2]
 
-    # 取りこぼし記事があれば1回リトライ
-    remaining = [(i, it) for i, it in enumerate(items) if not is_valid_ai_enriched(it)]
-    if 0 < len(remaining) <= batch_size and last_model:
-        cnt, kw, _ = _enrich_batch_with_gemini(
-            remaining,
-            api_key,
-            model_candidates,
-            include_keywords=(keywords is None),
-        )
-        total_enriched += cnt
-        if kw and not keywords:
-            keywords = kw
+    # 残りのバッチを2並列で高速処理（RPM/TPM制限内に十分収まる）
+    if len(batches) > 1 and time.monotonic() < deadline:
+        with concurrent.futures.ThreadPoolExecutor(max_workers=2) as pool:
+            futures = [
+                pool.submit(
+                    _enrich_batch_with_gemini,
+                    b,
+                    api_key,
+                    active_models,
+                    False,
+                    deadline,
+                )
+                for b in batches[1:]
+            ]
+            for fut in concurrent.futures.as_completed(futures):
+                try:
+                    cnt, _, used_m = fut.result()
+                    total_enriched += cnt
+                    if used_m and not last_model:
+                        last_model = used_m
+                except Exception:
+                    pass
 
     print(
-        f"[INFO] Gemini enrichment succeeded ({last_model or 'none'}): "
-        f"{total_enriched}/{len(targets)} target articles enriched"
+        f"[INFO] Gemini enrichment finished ({last_model or 'none'}): "
+        f"{total_enriched}/{len(targets)} target articles enriched",
+        flush=True,
     )
     return keywords
 
