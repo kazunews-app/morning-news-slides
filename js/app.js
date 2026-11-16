@@ -819,7 +819,22 @@
     const img = getSafeImageUrl(item);
     const fb = getFallbackImage(item);
     const isSaved = isBookmarked(item.url);
-    const pointsHtml = (Array.isArray(item.points) ? item.points : [])
+    const rawPoints = Array.isArray(item.points) ? item.points : [];
+    const hasPlaceholderPoint = rawPoints.some((p) => String(p || "").includes("「元記事を読む」から"));
+    const displayPoints = hasPlaceholderPoint
+      ? (() => {
+          const sum = String(item.summary || "");
+          const clauses = sum
+            .split(/[。！？!?]|(?<=、)/)
+            .map((s) => s.replace(/^[、。・…\s]+|[、。・…\s]+$/g, ""))
+            .filter((s) => s.length >= 10 && !s.includes("に関する注目ニュースです"));
+          const pts = clauses.slice(0, 2).map((c) => (c.length > 56 ? `${c.slice(0, 56)}…` : c));
+          if (pts.length === 0) pts.push(`トピック: ${String(item.title || "").slice(0, 48)}`);
+          pts.push(`分野・出典: ${meta.label}（${item.source || "ニュース配信"}）`);
+          return pts;
+        })()
+      : rawPoints;
+    const pointsHtml = displayPoints
       .map((pt) => `<li>${escapeHtml(pt)}</li>`)
       .join("");
     const tagsHtml = (Array.isArray(item.tags) ? item.tags : [])
@@ -1045,24 +1060,27 @@
     const firstTitle = data.items[0]?.title || "";
     const firstImg = data.items[0]?.image || "";
     const weatherLen = Array.isArray(data.weatherCities) ? data.weatherCities.length : 0;
-    return `${data.updatedAt || ""}|${data.items.length}|${firstTitle}|${firstImg}|${weatherLen}`;
+    const aiCount = data.items.filter((it) => it && it.isAiEnriched).length;
+    return `${data.updatedAt || ""}|${data.items.length}|${aiCount}|${firstTitle}|${firstImg}|${weatherLen}`;
   }
 
-  function applyNewsDataIfNewer(candidate, forceApply = false) {
+  function applyNewsDataIfNewer(candidate, forceApply = false, isAuthoritative = false) {
     if (!candidate || !Array.isArray(candidate.items) || candidate.items.length === 0) return false;
     const cleanItems = normalizeNewsItems(candidate.items);
     if (cleanItems.length === 0) return false;
 
-    const currentMs = parseUpdatedAtMs(state.data?.updatedAt);
-    const candidateMs = parseUpdatedAtMs(candidate.updatedAt);
-    // 現在表示中のデータより古いデータには絶対に戻さない
-    if (currentMs > 0 && candidateMs > 0 && candidateMs < currentMs) {
-      return false;
-    }
-    // 同時刻で24時間以内の件数が減る場合も上書きしない
-    const currentCleanLen = normalizeNewsItems(state.data?.items).length;
-    if (currentMs > 0 && candidateMs === currentMs && cleanItems.length < currentCleanLen) {
-      return false;
+    if (!isAuthoritative) {
+      const currentMs = parseUpdatedAtMs(state.data?.updatedAt);
+      const candidateMs = parseUpdatedAtMs(candidate.updatedAt);
+      // 現在表示中のデータより古いデータには絶対に戻さない
+      if (currentMs > 0 && candidateMs > 0 && candidateMs < currentMs) {
+        return false;
+      }
+      // 同時刻で24時間以内の件数が減る場合も上書きしない
+      const currentCleanLen = normalizeNewsItems(state.data?.items).length;
+      if (currentMs > 0 && candidateMs === currentMs && cleanItems.length < currentCleanLen) {
+        return false;
+      }
     }
 
     const bestWeather = getBestAvailableWeatherCities(candidate);
@@ -1630,26 +1648,23 @@
         return;
       }
 
-      // Step 1: GitHub API / raw / local を並列レースで最速取得
+      // Step 1: GitHub API / raw / local を並列レースで最速取得（AI要約済みの正規データを常に優先）
       const ghData = await fetchGithubNewsData();
       if (ghData) {
-        applyNewsDataIfNewer(ghData, isManual);
+        applyNewsDataIfNewer(ghData, true, true);
+        return;
       }
 
-      // Step 2: GitHub側データが5分以上古い（または取得不可）場合のみ、ブラウザから直接RSSを並列取得
-      const ghAgeMs = ghData ? Date.now() - parseUpdatedAtMs(ghData.updatedAt) : Infinity;
-      const currentAgeMs = Date.now() - parseUpdatedAtMs(state.data?.updatedAt);
-      if ((!ghData || ghAgeMs >= 5 * 60 * 1000) && (isManual || currentAgeMs >= 5 * 60 * 1000)) {
+      // Step 2: 万が一GitHub側の全経路が取得不可でデータが空の場合のみ、ブラウザから直接RSSを並列取得
+      const hasItems = Array.isArray(state.data?.items) && state.data.items.length > 0;
+      if (!hasItems) {
         const liveRes = await fetchLiveBrowserNews(state.data);
         if (liveRes && liveRes.payload) {
-          applyNewsDataIfNewer(liveRes.payload, true);
-          // OGP画像取得は描画をブロックせず裏で並列差し替え
+          applyNewsDataIfNewer(liveRes.payload, true, false);
           enrichNewImagesInBackground(liveRes.bgOgTargets);
-        } else if (isManual && !ghData) {
-          const nowJst = formatNowJst();
-          state.data.updatedAt = nowJst.updatedAt;
-          renderAll();
         }
+      } else if (isManual) {
+        renderAll();
       }
     } finally {
       elBtnRefresh.classList.remove("spinning");

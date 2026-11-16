@@ -430,10 +430,12 @@ def fetch_page_og_meta(url: str, depth: int = 0) -> tuple[str | None, str | None
         chunk = decode_html_bytes(raw_chunk, ctype)
         img, desc = extract_meta_from_html(final_url, chunk)
 
-        if not img and "news.yahoo.co.jp/pickup/" in final_url and depth == 0:
+        if (not img or not desc) and "news.yahoo.co.jp/pickup/" in final_url and depth == 0:
             m_art = re.search(r'(https://news\.yahoo\.co\.jp/articles/[a-zA-Z0-9]+)', chunk)
             if m_art:
-                return fetch_page_og_meta(m_art.group(1), depth=depth + 1)
+                art_img, art_desc = fetch_page_og_meta(m_art.group(1), depth=depth + 1)
+                img = img or art_img
+                desc = desc or art_desc
 
         return img, desc
     except Exception:
@@ -1096,8 +1098,53 @@ def fetch_major_cities_weather(cached_weather: dict[str, dict]) -> list[dict]:
     return results
 
 
+def is_valid_ai_enriched(it: dict) -> bool:
+    if not it.get("isAiEnriched"):
+        return False
+    summary = str(it.get("summary") or "").strip()
+    if not summary or "に関する注目ニュースです" in summary:
+        return False
+    points = it.get("points") or []
+    if not isinstance(points, list) or len(points) == 0:
+        return False
+    if any("「元記事を読む」から" in str(p) for p in points):
+        return False
+    return True
+
+
+def apply_smart_fallback_enrichment(it: dict) -> None:
+    """AI要約が未適用の記事に対しても、本文抜粋から具体的な要点3つを生成する"""
+    if is_valid_ai_enriched(it):
+        return
+    cat_label = CATEGORY_LABELS.get(it.get("category", ""), "ニュース")
+    title = str(it.get("title") or "").strip()
+    summary = format_summary_text(str(it.get("summary") or ""), title)
+    it["summary"] = summary
+    src = str(it.get("source") or "ニュース配信").strip()
+    pub = str(it.get("publishedAt") or "").strip()
+
+    clauses = [
+        c.strip(" 、。・…")
+        for c in re.split(r"[。！？!?]|(?<=、)", summary)
+        if len(c.strip(" 、。・…")) >= 10 and "に関する注目ニュースです" not in c
+    ]
+    points: list[str] = []
+    for cl in clauses:
+        pt = cl[:56] + ("…" if len(cl) > 56 else "")
+        if pt not in points:
+            points.append(pt)
+        if len(points) >= 2:
+            break
+    if not points:
+        points.append(f"トピック: {title[:48]}")
+    points.append(f"分野・出典: {cat_label}（{src}{' / ' + pub if pub else ''}）")
+    it["points"] = points[:3]
+    if not it.get("impact") or "関心を集めている最新" in str(it.get("impact", "")) or "注目を集めている最新" in str(it.get("impact", "")):
+        it["impact"] = f"「{title[:28]}」を巡る{cat_label}分野の注目動向として今後の展開が注目されます。"
+
+
 def _discover_gemini_flash_models(api_key: str) -> list[str]:
-    """利用可能なFlash系モデル一覧をAPIから取得する"""
+    """利用可能なテキスト生成用Flash系モデル一覧をAPIから取得する"""
     url = "https://generativelanguage.googleapis.com/v1beta/models"
     req = urllib.request.Request(
         url,
@@ -1108,23 +1155,26 @@ def _discover_gemini_flash_models(api_key: str) -> list[str]:
         with urllib.request.urlopen(req, timeout=15) as resp:
             data = json.loads(resp.read().decode("utf-8"))
         models: list[str] = []
+        excluded_tokens = ("tts", "image", "audio", "embedding", "vision", "live")
         for m in data.get("models", []):
             name = str(m.get("name", ""))
             methods = m.get("supportedGenerationMethods") or []
             if name.startswith("models/") and "generateContent" in methods:
                 short = name[len("models/") :]
-                if "flash" in short.lower():
+                lower_short = short.lower()
+                if "flash" in lower_short and not any(bad in lower_short for bad in excluded_tokens):
                     models.append(short)
         return models
     except Exception:
         return []
 
 
-def enrich_with_gemini(items: list[dict], api_key: str) -> list[str] | None:
-    targets = [(i, it) for i, it in enumerate(items) if not it.get("isAiEnriched")]
-    if not targets:
-        return None
-
+def _enrich_batch_with_gemini(
+    batch_targets: list[tuple[int, dict]],
+    api_key: str,
+    model_candidates: list[str],
+    include_keywords: bool = False,
+) -> tuple[int, list[str] | None, str]:
     prompt_articles = [
         {
             "index": i,
@@ -1133,49 +1183,50 @@ def enrich_with_gemini(items: list[dict], api_key: str) -> list[str] | None:
             "source": it["source"],
             "snippet": it["summary"],
         }
-        for i, it in targets
+        for i, it in batch_targets
     ]
 
+    kw_instruction = (
+        '  "keywords": ["注目キーワード1", "注目キーワード2", "注目キーワード3", "注目キーワード4", "注目キーワード5"],\n'
+        if include_keywords
+        else ""
+    )
     prompt = (
-        "あなたはニュースメディアの編集者です。以下の最新ニュースリストをもとに、"
+        "あなたはニュースメディアの編集者です。以下の最新ニュースリストのすべての記事（全件漏れなく）について、"
         "ニュースサイトで読みやすい日本語の要約JSONを作成してください。\n\n"
         "出力は必ず以下のJSON形式のみ（マークダウン不要）で返してください:\n"
         "{\n"
-        '  "keywords": ["注目キーワード1", "注目キーワード2", "注目キーワード3", "注目キーワード4", "注目キーワード5"],\n'
+        f"{kw_instruction}"
         '  "articles": [\n'
         "    {\n"
         '      "index": 0,\n'
         '      "title": "元の意味を保ちつつ読みやすく整えた見出し（38文字以内）",\n'
         '      "summary": "記事の概要を伝える完結したリード文（90文字前後）",\n'
-        '      "points": ["要点1", "要点2", "要点3"],\n'
+        '      "points": ["具体的な要点1", "具体的な要点2", "具体的な要点3"],\n'
         '      "impact": "生活・仕事・市場への注目ポイント（70文字前後）",\n'
         '      "tags": ["タグ1", "タグ2", "タグ3"]\n'
         "    }\n"
         "  ]\n"
         "}\n\n"
-        f"入力ニュース:\n{json.dumps(prompt_articles, ensure_ascii=False, indent=2)}"
+        f"入力ニュース（全{len(prompt_articles)}件すべて出力すること）:\n"
+        f"{json.dumps(prompt_articles, ensure_ascii=False)}"
     )
 
     body_bytes = json.dumps(
         {
             "contents": [{"parts": [{"text": prompt}]}],
-            "generationConfig": {"responseMimeType": "application/json"},
+            "generationConfig": {
+                "responseMimeType": "application/json",
+                "maxOutputTokens": 8192,
+            },
         }
     ).encode("utf-8")
 
-    preferred_models = [
-        "gemini-3.5-flash-lite",
-        "gemini-3.6-flash",
-        "gemini-3.8-flash",
-        "gemini-flash-latest",
-        "gemini-2.5-flash",
-    ]
     parsed = None
     used_model = ""
     last_exc: Exception | None = None
 
-    def _try_model(model_name: str) -> dict | None:
-        nonlocal last_exc
+    for model_name in model_candidates:
         url = f"https://generativelanguage.googleapis.com/v1beta/models/{model_name}:generateContent"
         req = urllib.request.Request(
             url,
@@ -1187,35 +1238,24 @@ def enrich_with_gemini(items: list[dict], api_key: str) -> list[str] | None:
             method="POST",
         )
         try:
-            with urllib.request.urlopen(req, timeout=50) as resp:
+            with urllib.request.urlopen(req, timeout=55) as resp:
                 res_json = json.loads(resp.read().decode("utf-8"))
             text = res_json["candidates"][0]["content"]["parts"][0]["text"]
-            return json.loads(text)
-        except Exception as exc:
-            last_exc = exc
-            return None
-
-    for model_name in preferred_models:
-        parsed = _try_model(model_name)
-        if parsed:
-            used_model = model_name
-            break
-
-    if not parsed:
-        for model_name in _discover_gemini_flash_models(api_key):
-            if model_name in preferred_models:
-                continue
-            parsed = _try_model(model_name)
-            if parsed:
+            parsed = json.loads(text)
+            if isinstance(parsed, dict) and isinstance(parsed.get("articles"), list):
                 used_model = model_name
                 break
+        except Exception as exc:
+            last_exc = exc
+            parsed = None
 
     if not parsed:
-        print(f"[WARN] Gemini enrichment failed, keeping fallback: {last_exc}")
-        return None
+        print(f"[WARN] Gemini batch enrichment failed ({len(batch_targets)} items): {last_exc}")
+        return 0, None, ""
 
     ai_map = {a.get("index"): a for a in parsed.get("articles", []) if isinstance(a, dict)}
-    for i, item in targets:
+    enriched_count = 0
+    for i, item in batch_targets:
         ai = ai_map.get(i)
         if not ai:
             continue
@@ -1227,10 +1267,72 @@ def enrich_with_gemini(items: list[dict], api_key: str) -> list[str] | None:
         if isinstance(ai.get("tags"), list) and ai["tags"]:
             item["tags"] = [str(t) for t in ai["tags"][:3]]
         item["isAiEnriched"] = True
+        enriched_count += 1
 
-    keywords = [str(k) for k in parsed.get("keywords", [])[:6] if str(k).strip()]
-    print(f"[INFO] Gemini enrichment succeeded ({used_model}): {len(targets)} target articles")
-    return keywords or None
+    keywords = None
+    if include_keywords:
+        kw_list = [str(k) for k in parsed.get("keywords", [])[:6] if str(k).strip()]
+        keywords = kw_list or None
+
+    return enriched_count, keywords, used_model
+
+
+def enrich_with_gemini(items: list[dict], api_key: str) -> list[str] | None:
+    targets = [(i, it) for i, it in enumerate(items) if not is_valid_ai_enriched(it)]
+    if not targets:
+        return None
+
+    preferred_models = [
+        "gemini-3.5-flash-lite",
+        "gemini-flash-lite-latest",
+        "gemini-2.5-flash-lite",
+        "gemini-3.6-flash",
+        "gemini-3.8-flash",
+        "gemini-flash-latest",
+        "gemini-2.5-flash",
+    ]
+    discovered = [m for m in _discover_gemini_flash_models(api_key) if m not in preferred_models]
+    model_candidates = preferred_models + discovered
+
+    batch_size = 25
+    total_enriched = 0
+    keywords: list[str] | None = None
+    last_model = ""
+
+    for b_idx in range(0, len(targets), batch_size):
+        batch = targets[b_idx : b_idx + batch_size]
+        cnt, kw, used_model = _enrich_batch_with_gemini(
+            batch,
+            api_key,
+            model_candidates,
+            include_keywords=(b_idx == 0),
+        )
+        total_enriched += cnt
+        if kw and not keywords:
+            keywords = kw
+        if used_model:
+            last_model = used_model
+            # 成功したモデルを最優先にする
+            model_candidates = [used_model] + [m for m in model_candidates if m != used_model]
+
+    # 取りこぼし記事があれば1回リトライ
+    remaining = [(i, it) for i, it in enumerate(items) if not is_valid_ai_enriched(it)]
+    if 0 < len(remaining) <= batch_size and last_model:
+        cnt, kw, _ = _enrich_batch_with_gemini(
+            remaining,
+            api_key,
+            model_candidates,
+            include_keywords=(keywords is None),
+        )
+        total_enriched += cnt
+        if kw and not keywords:
+            keywords = kw
+
+    print(
+        f"[INFO] Gemini enrichment succeeded ({last_model or 'none'}): "
+        f"{total_enriched}/{len(targets)} target articles enriched"
+    )
+    return keywords
 
 
 def interleave_top_items(*groups: list[dict]) -> list[dict]:
@@ -1333,7 +1435,7 @@ def main() -> None:
     for it in items:
         cached = cache.get(it.get("url", ""))
         if cached:
-            if cached.get("isAiEnriched"):
+            if is_valid_ai_enriched(cached):
                 it["title"] = cached.get("title", it["title"])
                 it["summary"] = format_summary_text(cached.get("summary", it["summary"]), it["title"])
                 it["points"] = cached.get("points", it["points"])
@@ -1368,11 +1470,14 @@ def main() -> None:
     keywords: list[str] = []
     api_key = os.environ.get("GEMINI_API_KEY", "").strip()
     if api_key:
-        ai_keywords = enrich_with_gemini(items[:40], api_key)
+        ai_keywords = enrich_with_gemini(items, api_key)
         if ai_keywords:
             keywords = ai_keywords
         elif cached_keywords:
             keywords = cached_keywords
+
+    for it in items:
+        apply_smart_fallback_enrichment(it)
 
     if not keywords:
         keywords = [
