@@ -1,543 +1,543 @@
 window.NEWS_DATA = {
   "date": "2026年11月22日 (日)",
-  "updatedAt": "2026-11-22 01:21",
+  "updatedAt": "2026-11-22 02:11",
   "title": "TREND NEWS",
   "keywords": [
-    "少年ジャンプ＋",
-    "エンタメ",
-    "フィギュア",
-    "メルセデス・ベンツ",
-    "愛子さま"
+    "Creepy Nuts",
+    "ブルーノ・マーズ",
+    "寒波・大雪",
+    "日中関係",
+    "世帯貯蓄"
   ],
   "weatherCities": [
     {
       "name": "札幌",
       "region": "北海道",
-      "temp": -1,
-      "code": 71,
-      "wind": 4,
-      "maxTemp": 8,
-      "minTemp": -1,
-      "pop": 40,
+      "temp": -7,
+      "code": 45,
+      "wind": 5,
+      "maxTemp": 2,
+      "minTemp": -7,
+      "pop": 24,
       "hourly": [
         {
-          "time": "00:00",
-          "code": 71,
-          "temp": -1,
-          "pop": 40
+          "time": "02:00",
+          "code": 45,
+          "temp": -7,
+          "pop": 9
         },
         {
-          "time": "03:00",
-          "code": 71,
-          "temp": 0,
-          "pop": 40
+          "time": "05:00",
+          "code": 45,
+          "temp": -6,
+          "pop": 0
         },
         {
-          "time": "06:00",
-          "code": 71,
+          "time": "08:00",
+          "code": 1,
+          "temp": -3,
+          "pop": 3
+        },
+        {
+          "time": "11:00",
+          "code": 3,
+          "temp": 1,
+          "pop": 6
+        },
+        {
+          "time": "14:00",
+          "code": 3,
           "temp": 2,
-          "pop": 40
+          "pop": 5
         },
         {
-          "time": "09:00",
-          "code": 71,
-          "temp": 4,
-          "pop": 40
+          "time": "17:00",
+          "code": 3,
+          "temp": 0,
+          "pop": 1
         },
         {
-          "time": "12:00",
-          "code": 71,
-          "temp": 6,
-          "pop": 40
+          "time": "20:00",
+          "code": 3,
+          "temp": -1,
+          "pop": 0
         },
         {
-          "time": "15:00",
-          "code": 71,
-          "temp": 7,
-          "pop": 40
-        },
-        {
-          "time": "18:00",
-          "code": 71,
-          "temp": 5,
-          "pop": 40
-        },
-        {
-          "time": "21:00",
-          "code": 71,
-          "temp": 3,
-          "pop": 40
+          "time": "23:00",
+          "code": 2,
+          "temp": -2,
+          "pop": 0
         }
       ],
       "daily": [
         {
           "date": "11/22",
           "dow": "今日",
-          "code": 3,
-          "maxTemp": 8,
-          "minTemp": -1,
-          "pop": 40
+          "code": 45,
+          "maxTemp": 2,
+          "minTemp": -7,
+          "pop": 24
         },
         {
           "date": "11/23",
           "dow": "明日",
-          "code": 3,
-          "maxTemp": 8,
-          "minTemp": -1,
-          "pop": 50
+          "code": 51,
+          "maxTemp": 7,
+          "minTemp": -3,
+          "pop": 49
         },
         {
           "date": "11/24",
           "dow": "火",
-          "code": 3,
-          "maxTemp": 10,
+          "code": 81,
+          "maxTemp": 8,
           "minTemp": -2,
-          "pop": 70
+          "pop": 99
         },
         {
           "date": "11/25",
           "dow": "水",
-          "code": 3,
-          "maxTemp": 2,
-          "minTemp": -4,
-          "pop": 70
+          "code": 71,
+          "maxTemp": 0,
+          "minTemp": -3,
+          "pop": 82
         },
         {
           "date": "11/26",
           "dow": "木",
-          "code": 3,
-          "maxTemp": 6,
-          "minTemp": 0,
-          "pop": 60
+          "code": 71,
+          "maxTemp": 8,
+          "minTemp": -3,
+          "pop": 76
         },
         {
           "date": "11/27",
           "dow": "金",
-          "code": 3,
-          "maxTemp": 8,
-          "minTemp": 2,
-          "pop": 50
+          "code": 51,
+          "maxTemp": 9,
+          "minTemp": -4,
+          "pop": 41
         },
         {
           "date": "11/28",
           "dow": "土",
-          "code": 3,
-          "maxTemp": 7,
+          "code": 51,
+          "maxTemp": 14,
           "minTemp": 2,
-          "pop": 60
+          "pop": 65
         }
       ]
     },
     {
       "name": "仙台",
       "region": "東北",
-      "temp": 1,
-      "code": 80,
+      "temp": 2,
+      "code": 51,
       "wind": 4,
-      "maxTemp": 12,
+      "maxTemp": 10,
       "minTemp": 1,
-      "pop": 30,
+      "pop": 59,
       "hourly": [
         {
-          "time": "00:00",
-          "code": 80,
-          "temp": 1,
-          "pop": 30
-        },
-        {
-          "time": "03:00",
-          "code": 80,
+          "time": "02:00",
+          "code": 51,
           "temp": 2,
-          "pop": 30
+          "pop": 47
         },
         {
-          "time": "06:00",
-          "code": 80,
-          "temp": 5,
-          "pop": 30
+          "time": "05:00",
+          "code": 0,
+          "temp": 2,
+          "pop": 27
         },
         {
-          "time": "09:00",
-          "code": 80,
-          "temp": 7,
-          "pop": 30
+          "time": "08:00",
+          "code": 0,
+          "temp": 3,
+          "pop": 10
         },
         {
-          "time": "12:00",
-          "code": 80,
-          "temp": 10,
-          "pop": 30
+          "time": "11:00",
+          "code": 0,
+          "temp": 9,
+          "pop": 4
         },
         {
-          "time": "15:00",
-          "code": 80,
-          "temp": 11,
-          "pop": 30
+          "time": "14:00",
+          "code": 0,
+          "temp": 9,
+          "pop": 6
         },
         {
-          "time": "18:00",
-          "code": 80,
-          "temp": 8,
-          "pop": 30
-        },
-        {
-          "time": "21:00",
-          "code": 80,
+          "time": "17:00",
+          "code": 0,
           "temp": 6,
-          "pop": 30
+          "pop": 2
+        },
+        {
+          "time": "20:00",
+          "code": 0,
+          "temp": 4,
+          "pop": 0
+        },
+        {
+          "time": "23:00",
+          "code": 0,
+          "temp": 3,
+          "pop": 0
         }
       ],
       "daily": [
         {
           "date": "11/22",
           "dow": "今日",
-          "code": 3,
-          "maxTemp": 12,
+          "code": 51,
+          "maxTemp": 10,
           "minTemp": 1,
-          "pop": 30
+          "pop": 59
         },
         {
           "date": "11/23",
           "dow": "明日",
           "code": 1,
-          "maxTemp": 12,
-          "minTemp": 1,
-          "pop": 20
+          "maxTemp": 11,
+          "minTemp": 2,
+          "pop": 0
         },
         {
           "date": "11/24",
           "dow": "火",
-          "code": 3,
+          "code": 51,
           "maxTemp": 14,
           "minTemp": 5,
-          "pop": 40
+          "pop": 96
         },
         {
           "date": "11/25",
           "dow": "水",
-          "code": 1,
-          "maxTemp": 8,
-          "minTemp": 3,
-          "pop": 30
+          "code": 51,
+          "maxTemp": 7,
+          "minTemp": 2,
+          "pop": 86
         },
         {
           "date": "11/26",
           "dow": "木",
           "code": 3,
           "maxTemp": 14,
-          "minTemp": 3,
-          "pop": 30
+          "minTemp": 1,
+          "pop": 12
         },
         {
           "date": "11/27",
           "dow": "金",
-          "code": 1,
-          "maxTemp": 16,
-          "minTemp": 5,
-          "pop": 20
+          "code": 3,
+          "maxTemp": 17,
+          "minTemp": 4,
+          "pop": 0
         },
         {
           "date": "11/28",
           "dow": "土",
-          "code": 3,
-          "maxTemp": 16,
+          "code": 51,
+          "maxTemp": 20,
           "minTemp": 5,
-          "pop": 40
+          "pop": 50
         }
       ]
     },
     {
       "name": "新潟",
       "region": "北陸",
-      "temp": 2,
-      "code": 95,
-      "wind": 4,
-      "maxTemp": 13,
-      "minTemp": 2,
-      "pop": 90,
+      "temp": 4,
+      "code": 63,
+      "wind": 15,
+      "maxTemp": 8,
+      "minTemp": 3,
+      "pop": 100,
       "hourly": [
         {
-          "time": "00:00",
-          "code": 95,
-          "temp": 2,
-          "pop": 90
+          "time": "02:00",
+          "code": 63,
+          "temp": 4,
+          "pop": 100
         },
         {
-          "time": "03:00",
-          "code": 95,
-          "temp": 3,
-          "pop": 90
+          "time": "05:00",
+          "code": 61,
+          "temp": 4,
+          "pop": 100
         },
         {
-          "time": "06:00",
-          "code": 95,
-          "temp": 6,
-          "pop": 90
+          "time": "08:00",
+          "code": 51,
+          "temp": 4,
+          "pop": 100
         },
         {
-          "time": "09:00",
-          "code": 95,
-          "temp": 8,
-          "pop": 90
+          "time": "11:00",
+          "code": 53,
+          "temp": 5,
+          "pop": 93
         },
         {
-          "time": "12:00",
-          "code": 95,
-          "temp": 11,
-          "pop": 90
-        },
-        {
-          "time": "15:00",
-          "code": 95,
-          "temp": 12,
-          "pop": 90
-        },
-        {
-          "time": "18:00",
-          "code": 95,
-          "temp": 9,
-          "pop": 90
-        },
-        {
-          "time": "21:00",
-          "code": 95,
+          "time": "14:00",
+          "code": 55,
           "temp": 7,
-          "pop": 90
+          "pop": 95
+        },
+        {
+          "time": "17:00",
+          "code": 1,
+          "temp": 7,
+          "pop": 91
+        },
+        {
+          "time": "20:00",
+          "code": 51,
+          "temp": 6,
+          "pop": 58
+        },
+        {
+          "time": "23:00",
+          "code": 53,
+          "temp": 4,
+          "pop": 43
         }
       ],
       "daily": [
         {
           "date": "11/22",
           "dow": "今日",
-          "code": 61,
-          "maxTemp": 13,
-          "minTemp": 2,
-          "pop": 90
+          "code": 63,
+          "maxTemp": 8,
+          "minTemp": 3,
+          "pop": 100
         },
         {
           "date": "11/23",
           "dow": "明日",
-          "code": 1,
+          "code": 51,
           "maxTemp": 13,
-          "minTemp": 3,
-          "pop": 20
+          "minTemp": 4,
+          "pop": 41
         },
         {
           "date": "11/24",
           "dow": "火",
-          "code": 3,
-          "maxTemp": 14,
-          "minTemp": 4,
-          "pop": 70
+          "code": 63,
+          "maxTemp": 12,
+          "minTemp": 7,
+          "pop": 100
         },
         {
           "date": "11/25",
           "dow": "水",
-          "code": 3,
+          "code": 53,
           "maxTemp": 8,
-          "minTemp": 3,
-          "pop": 70
+          "minTemp": 4,
+          "pop": 98
         },
         {
           "date": "11/26",
           "dow": "木",
-          "code": 3,
-          "maxTemp": 14,
+          "code": 53,
+          "maxTemp": 15,
           "minTemp": 5,
-          "pop": 40
+          "pop": 82
         },
         {
           "date": "11/27",
           "dow": "金",
-          "code": 3,
-          "maxTemp": 17,
-          "minTemp": 7,
-          "pop": 40
+          "code": 53,
+          "maxTemp": 18,
+          "minTemp": 9,
+          "pop": 37
         },
         {
           "date": "11/28",
           "dow": "土",
-          "code": 3,
-          "maxTemp": 17,
-          "minTemp": 8,
-          "pop": 50
+          "code": 80,
+          "maxTemp": 18,
+          "minTemp": 9,
+          "pop": 83
         }
       ]
     },
     {
       "name": "金沢",
       "region": "北陸",
-      "temp": 4,
-      "code": 95,
-      "wind": 4,
-      "maxTemp": 15,
-      "minTemp": 3,
-      "pop": 90,
+      "temp": 7,
+      "code": 3,
+      "wind": 14,
+      "maxTemp": 8,
+      "minTemp": 4,
+      "pop": 100,
       "hourly": [
         {
-          "time": "00:00",
-          "code": 95,
-          "temp": 3,
-          "pop": 90
-        },
-        {
-          "time": "03:00",
-          "code": 95,
-          "temp": 4,
-          "pop": 90
-        },
-        {
-          "time": "06:00",
-          "code": 95,
+          "time": "02:00",
+          "code": 51,
           "temp": 7,
-          "pop": 90
+          "pop": 98
         },
         {
-          "time": "09:00",
-          "code": 95,
-          "temp": 10,
-          "pop": 90
+          "time": "05:00",
+          "code": 51,
+          "temp": 6,
+          "pop": 100
         },
         {
-          "time": "12:00",
-          "code": 95,
-          "temp": 13,
-          "pop": 90
+          "time": "08:00",
+          "code": 63,
+          "temp": 5,
+          "pop": 93
         },
         {
-          "time": "15:00",
-          "code": 95,
-          "temp": 14,
-          "pop": 90
+          "time": "11:00",
+          "code": 51,
+          "temp": 5,
+          "pop": 87
         },
         {
-          "time": "18:00",
-          "code": 95,
-          "temp": 11,
-          "pop": 90
-        },
-        {
-          "time": "21:00",
-          "code": 95,
+          "time": "14:00",
+          "code": 2,
           "temp": 8,
-          "pop": 90
+          "pop": 67
+        },
+        {
+          "time": "17:00",
+          "code": 1,
+          "temp": 6,
+          "pop": 33
+        },
+        {
+          "time": "20:00",
+          "code": 1,
+          "temp": 5,
+          "pop": 5
+        },
+        {
+          "time": "23:00",
+          "code": 0,
+          "temp": 4,
+          "pop": 0
         }
       ],
       "daily": [
         {
           "date": "11/22",
           "dow": "今日",
-          "code": 61,
-          "maxTemp": 15,
-          "minTemp": 3,
-          "pop": 90
+          "code": 63,
+          "maxTemp": 8,
+          "minTemp": 4,
+          "pop": 100
         },
         {
           "date": "11/23",
           "dow": "明日",
-          "code": 1,
-          "maxTemp": 15,
-          "minTemp": 3,
-          "pop": 20
+          "code": 3,
+          "maxTemp": 13,
+          "minTemp": 4,
+          "pop": 0
         },
         {
           "date": "11/24",
           "dow": "火",
-          "code": 3,
+          "code": 65,
           "maxTemp": 14,
-          "minTemp": 5,
-          "pop": 70
+          "minTemp": 8,
+          "pop": 100
         },
         {
           "date": "11/25",
           "dow": "水",
-          "code": 3,
-          "maxTemp": 10,
+          "code": 53,
+          "maxTemp": 9,
           "minTemp": 4,
-          "pop": 70
+          "pop": 100
         },
         {
           "date": "11/26",
           "dow": "木",
-          "code": 3,
-          "maxTemp": 15,
-          "minTemp": 5,
-          "pop": 40
+          "code": 51,
+          "maxTemp": 14,
+          "minTemp": 7,
+          "pop": 12
         },
         {
           "date": "11/27",
           "dow": "金",
           "code": 3,
           "maxTemp": 19,
-          "minTemp": 7,
-          "pop": 30
+          "minTemp": 9,
+          "pop": 2
         },
         {
           "date": "11/28",
           "dow": "土",
-          "code": 3,
-          "maxTemp": 18,
-          "minTemp": 9,
-          "pop": 50
+          "code": 80,
+          "maxTemp": 17,
+          "minTemp": 7,
+          "pop": 87
         }
       ]
     },
     {
       "name": "東京",
       "region": "関東",
-      "temp": 5,
+      "temp": 7,
       "code": 0,
-      "wind": 4,
-      "maxTemp": 15,
-      "minTemp": 5,
+      "wind": 1,
+      "maxTemp": 13,
+      "minTemp": 6,
       "pop": 0,
       "hourly": [
         {
-          "time": "00:00",
+          "time": "02:00",
           "code": 0,
-          "temp": 5,
+          "temp": 7,
           "pop": 0
         },
         {
-          "time": "03:00",
+          "time": "05:00",
           "code": 0,
           "temp": 6,
           "pop": 0
         },
         {
-          "time": "06:00",
+          "time": "08:00",
           "code": 0,
-          "temp": 8,
+          "temp": 7,
           "pop": 0
         },
         {
-          "time": "09:00",
-          "code": 0,
-          "temp": 11,
-          "pop": 0
-        },
-        {
-          "time": "12:00",
-          "code": 0,
-          "temp": 13,
-          "pop": 0
-        },
-        {
-          "time": "15:00",
-          "code": 0,
-          "temp": 14,
-          "pop": 0
-        },
-        {
-          "time": "18:00",
+          "time": "11:00",
           "code": 0,
           "temp": 12,
           "pop": 0
         },
         {
-          "time": "21:00",
+          "time": "14:00",
           "code": 0,
+          "temp": 13,
+          "pop": 0
+        },
+        {
+          "time": "17:00",
+          "code": 0,
+          "temp": 11,
+          "pop": 0
+        },
+        {
+          "time": "20:00",
+          "code": 1,
           "temp": 9,
+          "pop": 0
+        },
+        {
+          "time": "23:00",
+          "code": 0,
+          "temp": 7,
           "pop": 0
         }
       ],
@@ -545,236 +545,236 @@ window.NEWS_DATA = {
         {
           "date": "11/22",
           "dow": "今日",
-          "code": 0,
-          "maxTemp": 15,
-          "minTemp": 5,
+          "code": 1,
+          "maxTemp": 13,
+          "minTemp": 6,
           "pop": 0
         },
         {
           "date": "11/23",
           "dow": "明日",
           "code": 1,
-          "maxTemp": 15,
+          "maxTemp": 13,
           "minTemp": 5,
-          "pop": 10
+          "pop": 0
         },
         {
           "date": "11/24",
           "dow": "火",
-          "code": 3,
+          "code": 63,
           "maxTemp": 18,
           "minTemp": 8,
-          "pop": 50
+          "pop": 84
         },
         {
           "date": "11/25",
           "dow": "水",
-          "code": 1,
-          "maxTemp": 14,
-          "minTemp": 7,
-          "pop": 20
+          "code": 3,
+          "maxTemp": 12,
+          "minTemp": 6,
+          "pop": 6
         },
         {
           "date": "11/26",
           "dow": "木",
           "code": 3,
-          "maxTemp": 16,
-          "minTemp": 6,
-          "pop": 30
+          "maxTemp": 14,
+          "minTemp": 4,
+          "pop": 0
         },
         {
           "date": "11/27",
           "dow": "金",
-          "code": 1,
-          "maxTemp": 17,
-          "minTemp": 6,
-          "pop": 20
+          "code": 3,
+          "maxTemp": 16,
+          "minTemp": 7,
+          "pop": 2
         },
         {
           "date": "11/28",
           "dow": "土",
-          "code": 3,
-          "maxTemp": 18,
-          "minTemp": 8,
-          "pop": 40
+          "code": 1,
+          "maxTemp": 20,
+          "minTemp": 6,
+          "pop": 16
         }
       ]
     },
     {
       "name": "名古屋",
       "region": "東海",
-      "temp": 5,
-      "code": 1,
-      "wind": 4,
-      "maxTemp": 14,
+      "temp": 6,
+      "code": 0,
+      "wind": 3,
+      "maxTemp": 11,
       "minTemp": 4,
-      "pop": 10,
+      "pop": 0,
       "hourly": [
         {
-          "time": "00:00",
-          "code": 1,
+          "time": "02:00",
+          "code": 0,
+          "temp": 6,
+          "pop": 0
+        },
+        {
+          "time": "05:00",
+          "code": 0,
           "temp": 4,
-          "pop": 10
+          "pop": 0
         },
         {
-          "time": "03:00",
-          "code": 1,
+          "time": "08:00",
+          "code": 0,
           "temp": 5,
-          "pop": 10
+          "pop": 0
         },
         {
-          "time": "06:00",
-          "code": 1,
-          "temp": 7,
-          "pop": 10
+          "time": "11:00",
+          "code": 0,
+          "temp": 9,
+          "pop": 0
         },
         {
-          "time": "09:00",
-          "code": 1,
+          "time": "14:00",
+          "code": 0,
           "temp": 10,
-          "pop": 10
+          "pop": 0
         },
         {
-          "time": "12:00",
-          "code": 1,
-          "temp": 12,
-          "pop": 10
+          "time": "17:00",
+          "code": 0,
+          "temp": 9,
+          "pop": 0
         },
         {
-          "time": "15:00",
-          "code": 1,
-          "temp": 13,
-          "pop": 10
+          "time": "20:00",
+          "code": 0,
+          "temp": 7,
+          "pop": 0
         },
         {
-          "time": "18:00",
-          "code": 1,
-          "temp": 11,
-          "pop": 10
-        },
-        {
-          "time": "21:00",
-          "code": 1,
-          "temp": 8,
-          "pop": 10
+          "time": "23:00",
+          "code": 0,
+          "temp": 6,
+          "pop": 0
         }
       ],
       "daily": [
         {
           "date": "11/22",
           "dow": "今日",
-          "code": 1,
-          "maxTemp": 14,
+          "code": 2,
+          "maxTemp": 11,
           "minTemp": 4,
-          "pop": 10
+          "pop": 0
         },
         {
           "date": "11/23",
           "dow": "明日",
-          "code": 1,
-          "maxTemp": 14,
-          "minTemp": 4,
-          "pop": 10
+          "code": 3,
+          "maxTemp": 13,
+          "minTemp": 3,
+          "pop": 0
         },
         {
           "date": "11/24",
           "dow": "火",
-          "code": 3,
-          "maxTemp": 13,
-          "minTemp": 7,
-          "pop": 70
+          "code": 63,
+          "maxTemp": 11,
+          "minTemp": 6,
+          "pop": 100
         },
         {
           "date": "11/25",
           "dow": "水",
-          "code": 1,
-          "maxTemp": 12,
-          "minTemp": 5,
-          "pop": 20
+          "code": 51,
+          "maxTemp": 10,
+          "minTemp": 4,
+          "pop": 24
         },
         {
           "date": "11/26",
           "dow": "木",
           "code": 3,
-          "maxTemp": 14,
-          "minTemp": 4,
-          "pop": 30
+          "maxTemp": 13,
+          "minTemp": 1,
+          "pop": 0
         },
         {
           "date": "11/27",
           "dow": "金",
           "code": 3,
-          "maxTemp": 17,
+          "maxTemp": 16,
           "minTemp": 5,
-          "pop": 30
+          "pop": 8
         },
         {
           "date": "11/28",
           "dow": "土",
-          "code": 3,
-          "maxTemp": 17,
-          "minTemp": 8,
-          "pop": 50
+          "code": 0,
+          "maxTemp": 18,
+          "minTemp": 6,
+          "pop": 33
         }
       ]
     },
     {
       "name": "大阪",
       "region": "近畿",
-      "temp": 7,
-      "code": 80,
-      "wind": 4,
-      "maxTemp": 14,
-      "minTemp": 5,
-      "pop": 30,
+      "temp": 6,
+      "code": 0,
+      "wind": 5,
+      "maxTemp": 12,
+      "minTemp": 6,
+      "pop": 6,
       "hourly": [
         {
-          "time": "00:00",
-          "code": 80,
-          "temp": 5,
-          "pop": 30
-        },
-        {
-          "time": "03:00",
-          "code": 80,
+          "time": "02:00",
+          "code": 0,
           "temp": 6,
-          "pop": 30
+          "pop": 0
         },
         {
-          "time": "06:00",
-          "code": 80,
+          "time": "05:00",
+          "code": 1,
+          "temp": 6,
+          "pop": 0
+        },
+        {
+          "time": "08:00",
+          "code": 0,
           "temp": 8,
-          "pop": 30
+          "pop": 0
         },
         {
-          "time": "09:00",
-          "code": 80,
+          "time": "11:00",
+          "code": 0,
           "temp": 10,
-          "pop": 30
+          "pop": 0
         },
         {
-          "time": "12:00",
-          "code": 80,
+          "time": "14:00",
+          "code": 1,
           "temp": 12,
-          "pop": 30
+          "pop": 5
         },
         {
-          "time": "15:00",
-          "code": 80,
-          "temp": 13,
-          "pop": 30
-        },
-        {
-          "time": "18:00",
-          "code": 80,
+          "time": "17:00",
+          "code": 0,
           "temp": 11,
-          "pop": 30
+          "pop": 2
         },
         {
-          "time": "21:00",
-          "code": 80,
-          "temp": 9,
-          "pop": 30
+          "time": "20:00",
+          "code": 0,
+          "temp": 8,
+          "pop": 0
+        },
+        {
+          "time": "23:00",
+          "code": 0,
+          "temp": 7,
+          "pop": 0
         }
       ],
       "daily": [
@@ -782,235 +782,235 @@ window.NEWS_DATA = {
           "date": "11/22",
           "dow": "今日",
           "code": 1,
-          "maxTemp": 14,
-          "minTemp": 5,
-          "pop": 30
+          "maxTemp": 12,
+          "minTemp": 6,
+          "pop": 6
         },
         {
           "date": "11/23",
           "dow": "明日",
-          "code": 1,
-          "maxTemp": 14,
-          "minTemp": 5,
-          "pop": 10
+          "code": 2,
+          "maxTemp": 13,
+          "minTemp": 4,
+          "pop": 0
         },
         {
           "date": "11/24",
           "dow": "火",
-          "code": 3,
-          "maxTemp": 14,
+          "code": 63,
+          "maxTemp": 16,
           "minTemp": 7,
-          "pop": 70
+          "pop": 100
         },
         {
           "date": "11/25",
           "dow": "水",
-          "code": 1,
-          "maxTemp": 13,
-          "minTemp": 7,
-          "pop": 20
+          "code": 2,
+          "maxTemp": 12,
+          "minTemp": 4,
+          "pop": 0
         },
         {
           "date": "11/26",
           "dow": "木",
           "code": 3,
-          "maxTemp": 15,
-          "minTemp": 6,
-          "pop": 30
+          "maxTemp": 12,
+          "minTemp": 2,
+          "pop": 2
         },
         {
           "date": "11/27",
           "dow": "金",
-          "code": 1,
+          "code": 3,
           "maxTemp": 18,
-          "minTemp": 8,
-          "pop": 20
+          "minTemp": 7,
+          "pop": 12
         },
         {
           "date": "11/28",
           "dow": "土",
-          "code": 3,
-          "maxTemp": 18,
-          "minTemp": 11,
-          "pop": 40
+          "code": 2,
+          "maxTemp": 17,
+          "minTemp": 8,
+          "pop": 29
         }
       ]
     },
     {
       "name": "広島",
       "region": "中国",
-      "temp": 4,
-      "code": 95,
+      "temp": 5,
+      "code": 1,
       "wind": 4,
-      "maxTemp": 14,
-      "minTemp": 3,
-      "pop": 20,
+      "maxTemp": 11,
+      "minTemp": 4,
+      "pop": 7,
       "hourly": [
         {
-          "time": "00:00",
-          "code": 95,
-          "temp": 3,
-          "pop": 20
+          "time": "02:00",
+          "code": 1,
+          "temp": 5,
+          "pop": 7
         },
         {
-          "time": "03:00",
-          "code": 95,
+          "time": "05:00",
+          "code": 0,
           "temp": 4,
-          "pop": 20
+          "pop": 2
         },
         {
-          "time": "06:00",
-          "code": 95,
-          "temp": 7,
-          "pop": 20
+          "time": "08:00",
+          "code": 1,
+          "temp": 4,
+          "pop": 0
         },
         {
-          "time": "09:00",
-          "code": 95,
+          "time": "11:00",
+          "code": 1,
           "temp": 9,
-          "pop": 20
+          "pop": 0
         },
         {
-          "time": "12:00",
-          "code": 95,
-          "temp": 12,
-          "pop": 20
+          "time": "14:00",
+          "code": 0,
+          "temp": 11,
+          "pop": 0
         },
         {
-          "time": "15:00",
-          "code": 95,
-          "temp": 13,
-          "pop": 20
+          "time": "17:00",
+          "code": 0,
+          "temp": 9,
+          "pop": 0
         },
         {
-          "time": "18:00",
-          "code": 95,
-          "temp": 10,
-          "pop": 20
+          "time": "20:00",
+          "code": 0,
+          "temp": 6,
+          "pop": 0
         },
         {
-          "time": "21:00",
-          "code": 95,
-          "temp": 8,
-          "pop": 20
+          "time": "23:00",
+          "code": 0,
+          "temp": 5,
+          "pop": 0
         }
       ],
       "daily": [
         {
           "date": "11/22",
           "dow": "今日",
-          "code": 1,
-          "maxTemp": 14,
-          "minTemp": 3,
-          "pop": 20
+          "code": 51,
+          "maxTemp": 11,
+          "minTemp": 4,
+          "pop": 7
         },
         {
           "date": "11/23",
           "dow": "明日",
-          "code": 1,
-          "maxTemp": 14,
+          "code": 2,
+          "maxTemp": 15,
           "minTemp": 3,
-          "pop": 20
+          "pop": 0
         },
         {
           "date": "11/24",
           "dow": "火",
-          "code": 3,
-          "maxTemp": 13,
-          "minTemp": 5,
-          "pop": 80
+          "code": 63,
+          "maxTemp": 15,
+          "minTemp": 7,
+          "pop": 100
         },
         {
           "date": "11/25",
           "dow": "水",
-          "code": 1,
-          "maxTemp": 13,
-          "minTemp": 5,
-          "pop": 20
+          "code": 2,
+          "maxTemp": 10,
+          "minTemp": 2,
+          "pop": 2
         },
         {
           "date": "11/26",
           "dow": "木",
           "code": 3,
-          "maxTemp": 15,
-          "minTemp": 4,
-          "pop": 30
+          "maxTemp": 12,
+          "minTemp": 1,
+          "pop": 0
         },
         {
           "date": "11/27",
           "dow": "金",
           "code": 1,
-          "maxTemp": 17,
-          "minTemp": 8,
-          "pop": 20
+          "maxTemp": 16,
+          "minTemp": 5,
+          "pop": 9
         },
         {
           "date": "11/28",
           "dow": "土",
-          "code": 3,
+          "code": 2,
           "maxTemp": 18,
-          "minTemp": 9,
-          "pop": 40
+          "minTemp": 8,
+          "pop": 20
         }
       ]
     },
     {
       "name": "高知",
       "region": "四国",
-      "temp": 4,
-      "code": 80,
+      "temp": 6,
+      "code": 0,
       "wind": 4,
-      "maxTemp": 15,
-      "minTemp": 3,
-      "pop": 30,
+      "maxTemp": 12,
+      "minTemp": 5,
+      "pop": 0,
       "hourly": [
         {
-          "time": "00:00",
-          "code": 80,
-          "temp": 3,
-          "pop": 30
+          "time": "02:00",
+          "code": 0,
+          "temp": 6,
+          "pop": 0
         },
         {
-          "time": "03:00",
-          "code": 80,
-          "temp": 4,
-          "pop": 30
+          "time": "05:00",
+          "code": 0,
+          "temp": 6,
+          "pop": 0
         },
         {
-          "time": "06:00",
-          "code": 80,
-          "temp": 7,
-          "pop": 30
+          "time": "08:00",
+          "code": 0,
+          "temp": 6,
+          "pop": 0
         },
         {
-          "time": "09:00",
-          "code": 80,
+          "time": "11:00",
+          "code": 0,
           "temp": 10,
-          "pop": 30
+          "pop": 0
         },
         {
-          "time": "12:00",
-          "code": 80,
-          "temp": 13,
-          "pop": 30
+          "time": "14:00",
+          "code": 0,
+          "temp": 12,
+          "pop": 0
         },
         {
-          "time": "15:00",
-          "code": 80,
-          "temp": 14,
-          "pop": 30
+          "time": "17:00",
+          "code": 0,
+          "temp": 10,
+          "pop": 0
         },
         {
-          "time": "18:00",
-          "code": 80,
-          "temp": 11,
-          "pop": 30
+          "time": "20:00",
+          "code": 0,
+          "temp": 6,
+          "pop": 0
         },
         {
-          "time": "21:00",
-          "code": 80,
-          "temp": 8,
-          "pop": 30
+          "time": "23:00",
+          "code": 0,
+          "temp": 5,
+          "pop": 0
         }
       ],
       "daily": [
@@ -1018,175 +1018,175 @@ window.NEWS_DATA = {
           "date": "11/22",
           "dow": "今日",
           "code": 1,
-          "maxTemp": 15,
-          "minTemp": 3,
-          "pop": 30
+          "maxTemp": 12,
+          "minTemp": 5,
+          "pop": 0
         },
         {
           "date": "11/23",
           "dow": "明日",
-          "code": 1,
-          "maxTemp": 15,
-          "minTemp": 3,
-          "pop": 20
+          "code": 2,
+          "maxTemp": 14,
+          "minTemp": 4,
+          "pop": 0
         },
         {
           "date": "11/24",
           "dow": "火",
-          "code": 3,
+          "code": 63,
           "maxTemp": 15,
-          "minTemp": 5,
-          "pop": 80
+          "minTemp": 6,
+          "pop": 100
         },
         {
           "date": "11/25",
           "dow": "水",
-          "code": 1,
-          "maxTemp": 15,
-          "minTemp": 5,
-          "pop": 20
+          "code": 2,
+          "maxTemp": 13,
+          "minTemp": 3,
+          "pop": 0
         },
         {
           "date": "11/26",
           "dow": "木",
           "code": 3,
-          "maxTemp": 16,
-          "minTemp": 5,
-          "pop": 30
+          "maxTemp": 14,
+          "minTemp": 3,
+          "pop": 1
         },
         {
           "date": "11/27",
           "dow": "金",
           "code": 3,
-          "maxTemp": 19,
-          "minTemp": 7,
-          "pop": 30
+          "maxTemp": 20,
+          "minTemp": 9,
+          "pop": 11
         },
         {
           "date": "11/28",
           "dow": "土",
-          "code": 3,
-          "maxTemp": 20,
-          "minTemp": 9,
-          "pop": 40
+          "code": 0,
+          "maxTemp": 21,
+          "minTemp": 5,
+          "pop": 22
         }
       ]
     },
     {
       "name": "福岡",
       "region": "九州",
-      "temp": 9,
-      "code": 95,
-      "wind": 4,
-      "maxTemp": 17,
-      "minTemp": 5,
-      "pop": 60,
+      "temp": 10,
+      "code": 2,
+      "wind": 27,
+      "maxTemp": 11,
+      "minTemp": 9,
+      "pop": 75,
       "hourly": [
         {
-          "time": "00:00",
-          "code": 95,
-          "temp": 5,
-          "pop": 60
-        },
-        {
-          "time": "03:00",
-          "code": 95,
-          "temp": 6,
-          "pop": 60
-        },
-        {
-          "time": "06:00",
-          "code": 95,
-          "temp": 9,
-          "pop": 60
-        },
-        {
-          "time": "09:00",
-          "code": 95,
-          "temp": 12,
-          "pop": 60
-        },
-        {
-          "time": "12:00",
-          "code": 95,
-          "temp": 15,
-          "pop": 60
-        },
-        {
-          "time": "15:00",
-          "code": 95,
-          "temp": 16,
-          "pop": 60
-        },
-        {
-          "time": "18:00",
-          "code": 95,
-          "temp": 13,
-          "pop": 60
-        },
-        {
-          "time": "21:00",
-          "code": 95,
+          "time": "02:00",
+          "code": 2,
           "temp": 10,
-          "pop": 60
+          "pop": 32
+        },
+        {
+          "time": "05:00",
+          "code": 2,
+          "temp": 9,
+          "pop": 1
+        },
+        {
+          "time": "08:00",
+          "code": 2,
+          "temp": 9,
+          "pop": 0
+        },
+        {
+          "time": "11:00",
+          "code": 2,
+          "temp": 10,
+          "pop": 0
+        },
+        {
+          "time": "14:00",
+          "code": 2,
+          "temp": 10,
+          "pop": 0
+        },
+        {
+          "time": "17:00",
+          "code": 2,
+          "temp": 11,
+          "pop": 0
+        },
+        {
+          "time": "20:00",
+          "code": 1,
+          "temp": 10,
+          "pop": 0
+        },
+        {
+          "time": "23:00",
+          "code": 2,
+          "temp": 9,
+          "pop": 0
         }
       ],
       "daily": [
         {
           "date": "11/22",
           "dow": "今日",
-          "code": 3,
-          "maxTemp": 17,
-          "minTemp": 5,
-          "pop": 60
+          "code": 2,
+          "maxTemp": 11,
+          "minTemp": 9,
+          "pop": 75
         },
         {
           "date": "11/23",
           "dow": "明日",
           "code": 3,
-          "maxTemp": 17,
-          "minTemp": 5,
-          "pop": 40
+          "maxTemp": 16,
+          "minTemp": 8,
+          "pop": 0
         },
         {
           "date": "11/24",
           "dow": "火",
-          "code": 3,
-          "maxTemp": 15,
-          "minTemp": 7,
-          "pop": 80
+          "code": 63,
+          "maxTemp": 16,
+          "minTemp": 10,
+          "pop": 100
         },
         {
           "date": "11/25",
           "dow": "水",
-          "code": 1,
-          "maxTemp": 13,
-          "minTemp": 7,
-          "pop": 20
+          "code": 3,
+          "maxTemp": 11,
+          "minTemp": 4,
+          "pop": 2
         },
         {
           "date": "11/26",
           "dow": "木",
           "code": 3,
-          "maxTemp": 17,
-          "minTemp": 7,
-          "pop": 30
+          "maxTemp": 14,
+          "minTemp": 4,
+          "pop": 1
         },
         {
           "date": "11/27",
           "dow": "金",
-          "code": 3,
+          "code": 51,
           "maxTemp": 20,
-          "minTemp": 9,
-          "pop": 30
+          "minTemp": 10,
+          "pop": 16
         },
         {
           "date": "11/28",
           "dow": "土",
-          "code": 3,
-          "maxTemp": 19,
+          "code": 51,
+          "maxTemp": 16,
           "minTemp": 10,
-          "pop": 40
+          "pop": 25
         }
       ]
     },
@@ -1194,58 +1194,58 @@ window.NEWS_DATA = {
       "name": "那覇",
       "region": "沖縄",
       "temp": 17,
-      "code": 0,
-      "wind": 4,
-      "maxTemp": 25,
+      "code": 1,
+      "wind": 9,
+      "maxTemp": 21,
       "minTemp": 17,
       "pop": 0,
       "hourly": [
         {
-          "time": "00:00",
-          "code": 0,
+          "time": "02:00",
+          "code": 1,
           "temp": 17,
           "pop": 0
         },
         {
-          "time": "03:00",
+          "time": "05:00",
+          "code": 1,
+          "temp": 17,
+          "pop": 0
+        },
+        {
+          "time": "08:00",
+          "code": 3,
+          "temp": 18,
+          "pop": 0
+        },
+        {
+          "time": "11:00",
+          "code": 2,
+          "temp": 20,
+          "pop": 0
+        },
+        {
+          "time": "14:00",
+          "code": 1,
+          "temp": 21,
+          "pop": 0
+        },
+        {
+          "time": "17:00",
+          "code": 0,
+          "temp": 19,
+          "pop": 0
+        },
+        {
+          "time": "20:00",
           "code": 0,
           "temp": 18,
           "pop": 0
         },
         {
-          "time": "06:00",
+          "time": "23:00",
           "code": 0,
-          "temp": 20,
-          "pop": 0
-        },
-        {
-          "time": "09:00",
-          "code": 0,
-          "temp": 22,
-          "pop": 0
-        },
-        {
-          "time": "12:00",
-          "code": 0,
-          "temp": 24,
-          "pop": 0
-        },
-        {
-          "time": "15:00",
-          "code": 0,
-          "temp": 24,
-          "pop": 0
-        },
-        {
-          "time": "18:00",
-          "code": 0,
-          "temp": 22,
-          "pop": 0
-        },
-        {
-          "time": "21:00",
-          "code": 0,
-          "temp": 20,
+          "temp": 18,
           "pop": 0
         }
       ],
@@ -1253,25 +1253,25 @@ window.NEWS_DATA = {
         {
           "date": "11/22",
           "dow": "今日",
-          "code": 0,
-          "maxTemp": 25,
+          "code": 3,
+          "maxTemp": 21,
           "minTemp": 17,
           "pop": 0
         },
         {
           "date": "11/23",
           "dow": "明日",
-          "code": 1,
-          "maxTemp": 25,
-          "minTemp": 19,
-          "pop": 30
+          "code": 3,
+          "maxTemp": 24,
+          "minTemp": 18,
+          "pop": 2
         },
         {
           "date": "11/24",
           "dow": "火",
-          "code": 3,
-          "maxTemp": 25,
-          "minTemp": 18,
+          "code": 53,
+          "maxTemp": 26,
+          "minTemp": 20,
           "pop": 80
         },
         {
@@ -1280,31 +1280,31 @@ window.NEWS_DATA = {
           "code": 3,
           "maxTemp": 22,
           "minTemp": 18,
-          "pop": 40
+          "pop": 25
         },
         {
           "date": "11/26",
           "dow": "木",
-          "code": 3,
-          "maxTemp": 23,
-          "minTemp": 18,
-          "pop": 70
+          "code": 53,
+          "maxTemp": 25,
+          "minTemp": 20,
+          "pop": 57
         },
         {
           "date": "11/27",
           "dow": "金",
-          "code": 3,
-          "maxTemp": 25,
-          "minTemp": 19,
-          "pop": 50
+          "code": 53,
+          "maxTemp": 26,
+          "minTemp": 21,
+          "pop": 48
         },
         {
           "date": "11/28",
           "dow": "土",
-          "code": 3,
+          "code": 51,
           "maxTemp": 24,
-          "minTemp": 19,
-          "pop": 40
+          "minTemp": 20,
+          "pop": 61
         }
       ]
     }
@@ -2148,24 +2148,25 @@ window.NEWS_DATA = {
     },
     {
       "category": "entertainment",
-      "title": "ブルーノ・マーズ、父の死去を公表──音楽を教えてくれた最愛の父へ「世界で最高の父親だった」(The Hollywood Reporter Japan)",
+      "title": "ブルーノ・マーズ、父の死去を公表",
       "source": "Yahoo!ニュース",
       "publishedAt": "2026-11-22 01:06",
       "publishedTs": 1795277180,
       "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261122-00010001-thrjapan-000-1-view.jpg?exp=10800",
-      "summary": "グラミー賞受賞アーティストのブルーノ・マーズが、父親でミュージシャンのピーター・ヘルナンデスの死去を明らかにした。74歳だった。マーズはInstagramに家族写真を投稿し、音楽の道を切り開いてくれ…",
+      "summary": "グラミー賞受賞アーティストのブルーノ・マーズが、父親でミュージシャンのピーター・ヘルナンデスの死去をInstagramで公表しました。74歳でした。",
       "points": [
-        "グラミー賞受賞アーティストのブルーノ・マーズが",
-        "父親でミュージシャンのピーター・ヘルナンデスの死去を明らかにした",
-        "分野・出典: 芸能・エンタメ（Yahoo!ニュース / 2026-11-22 01:06）"
+        "父親のピーター・ヘルナンデスが74歳で死去",
+        "ブルーノ・マーズがInstagramで家族写真を投稿",
+        "音楽の道を教えてくれた父親に感謝と追悼を表明"
       ],
-      "impact": "「ブルーノ・マーズ、父の死去を公表──音楽を教えてくれた最」を巡る芸能・エンタメ分野の注目動向として今後の展開が注目されます。",
+      "impact": "世界的なアーティストの訃報に、音楽ファンや関係者から多くの哀悼の意が寄せられています。",
       "tags": [
-        "芸能・エンタメ",
-        "Yahoo!ニュース"
+        "ブルーノ・マーズ",
+        "訃報",
+        "音楽"
       ],
       "url": "https://news.yahoo.co.jp/articles/8bdcc1fd8e5480148fc19a75b347a4c0fec99491?source=rss",
-      "isAiEnriched": false
+      "isAiEnriched": true
     },
     {
       "category": "subculture",
@@ -2257,45 +2258,46 @@ window.NEWS_DATA = {
     },
     {
       "category": "entertainment",
-      "title": "Creepy Nuts、最新アルバムは来年2月「景色がガラッと変わって見える」R-指定が待てないDJ松永に苦笑い(TOKYO HEADLINE WEB)",
+      "title": "Creepy Nuts、最新アルバム2月発売",
       "source": "Yahoo!ニュース",
       "publishedAt": "2026-11-22 00:45",
       "publishedTs": 1795275939,
       "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261122-00010001-theadline-000-1-view.jpg?exp=10800",
-      "summary": "ヒップホップユニットのCreepy Nutsがニューアルバムを2027年2月10日に発売することを発表した。11月21日、今年行った自身の北米ツアーなどの様子を追った『Creepy Nuts – N…",
+      "summary": "ヒップホップユニットのCreepy Nutsが、2027年2月10日にニューアルバムを発売することを発表しました。北米ツアーを追ったドキュメンタリー映画の公開に合わせて明かされました。",
       "points": [
-        "ヒップホップユニットのCreepy Nutsがニューアルバムを2027年2月10日に発売することを発表した",
-        "今年行った自身の北米ツアーなどの様子を追った『Creepy Nuts – N",
-        "分野・出典: 芸能・エンタメ（Yahoo!ニュース / 2026-11-22 00:45）"
+        "ニューアルバムの発売日が2027年2月10日に決定",
+        "北米ツアーの様子を追ったドキュメンタリー映画も公開",
+        "メンバー自身もアルバムの仕上がりに自信を覗かせる"
       ],
-      "impact": "「Creepy Nuts、最新アルバムは来年2月「景色がガ」を巡る芸能・エンタメ分野の注目動向として今後の展開が注目されます。",
+      "impact": "国内外で活躍を続ける彼らの新作発表は、音楽シーンやファンにとって大きな注目を集めるトピックとなります。",
       "tags": [
-        "芸能・エンタメ",
-        "Yahoo!ニュース"
+        "Creepy Nuts",
+        "アルバム",
+        "音楽"
       ],
       "url": "https://news.yahoo.co.jp/articles/5f3e3858b26386fd76395074380d896f8204981f?source=rss",
-      "isAiEnriched": false
+      "isAiEnriched": true
     },
     {
       "category": "subculture",
-      "title": "「ラーメン大好き小泉さん」118杯目配信開始",
-      "source": "championcross.jp",
-      "publishedAt": "2026-11-21 08:59",
-      "publishedTs": 1795219199,
-      "image": "https://cdn-public.comici.jp/episode/1793075716/f2c4fb95f424531e.webp",
-      "summary": "チャンピオンクロスにて人気漫画「ラーメン大好き小泉さん」の最新118杯目が配信開始されました。正規版配信サービスとして公開されています。",
+      "title": "実践格闘空手を描く「無敵のスバル」",
+      "source": "shonenjumpplus.com",
+      "publishedAt": "2026-11-22 00:00",
+      "publishedTs": 1795273227,
+      "image": "https://cdn-ak-img.shonenjumpplus.com/public/series-thumbnail/17107419589191699611-1466a3a53b79bfca52c622a6257adc98?1795064883",
+      "summary": "フルコンタクト空手の大会に初めて出場した高校1年生の神薙昴を描く格闘マンガ。知られざる実力が動き出す。",
       "points": [
-        "チャンピオンクロスで最新話を配信",
-        "著作権者から許諾を得た正規版サービスで展開",
-        "グルメ漫画として根強い人気を誇る作品"
+        "フルコンタクト空手を題材にした格闘技",
+        "主人公の知られざる力量に注目",
+        "コミックス第3巻が1月4日発売予定"
       ],
-      "impact": "ファンに向けて最新のストーリーが届けられ、作中で紹介されるラーメン店への関心が高まります。",
+      "impact": "本格的な格闘技描写を楽しむアクション・スポーツ漫画ファンから期待されています。",
       "tags": [
-        "ラーメン大好き小泉さん",
-        "漫画",
-        "グルメ"
+        "マンガ",
+        "格闘空手",
+        "少年ジャンプ＋"
       ],
-      "url": "https://championcross.jp/episodes/3c6c2fcf3e349",
+      "url": "https://shonenjumpplus.com/episode/9253191257982514286",
       "isAiEnriched": true
     },
     {
@@ -2366,45 +2368,46 @@ window.NEWS_DATA = {
     },
     {
       "category": "entertainment",
-      "title": "木村拓哉の長女・Cocomi（25）、人気アニメキャラとの“推し活ショット”を公開！「いつも可愛く撮ってくれてありがとう」(ABEMA TIMES)",
+      "title": "Cocomi、アニメキャラとの推し活公開",
       "source": "Yahoo!ニュース",
       "publishedAt": "2026-11-22 00:42",
       "publishedTs": 1795275736,
       "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261122-10290866-abemav-000-1-view.jpg?exp=10800",
-      "summary": "俳優・木村拓哉と歌手・工藤静香（56）の長女で、フルート奏者のCocomi（25）が、推し活を楽しむ姿を披露した。【映像】Cocomiの家族ショット（複数カット） 工藤との親子ショットや、妹のKōk…",
+      "summary": "木村拓哉と工藤静香の長女でフルート奏者のCocomiが、人気アニメキャラクターとの推し活を楽しむ微笑ましいショットをSNSで公開し、話題を集めています。",
       "points": [
-        "俳優・木村拓哉と歌手・工藤静香（56）の長女で",
-        "フルート奏者のCocomi（25）が",
-        "分野・出典: 芸能・エンタメ（Yahoo!ニュース / 2026-11-22 00:42）"
+        "フルート奏者のCocomiが推し活ショットを公開",
+        "人気アニメキャラクターと一緒に撮影されたプライベート感あふれる写真",
+        "家族やファンとの温かい交流の様子が垣間見える"
       ],
-      "impact": "「木村拓哉の長女・Cocomi（25）、人気アニメキャラと」を巡る芸能・エンタメ分野の注目動向として今後の展開が注目されます。",
+      "impact": "著名人の親しみやすい趣味やプライベートの一面は、SNSを中心に幅広い世代の関心を集めています。",
       "tags": [
-        "芸能・エンタメ",
-        "Yahoo!ニュース"
+        "Cocomi",
+        "推し活",
+        "芸能"
       ],
       "url": "https://news.yahoo.co.jp/articles/63f6ea323db70b0422cd223bd858232acc0fcf92?source=rss",
-      "isAiEnriched": false
+      "isAiEnriched": true
     },
     {
       "category": "subculture",
-      "title": "実践格闘空手を描く「無敵のスバル」",
-      "source": "shonenjumpplus.com",
-      "publishedAt": "2026-11-22 00:00",
-      "publishedTs": 1795273227,
-      "image": "https://cdn-ak-img.shonenjumpplus.com/public/series-thumbnail/17107419589191699611-1466a3a53b79bfca52c622a6257adc98?1795064883",
-      "summary": "フルコンタクト空手の大会に初めて出場した高校1年生の神薙昴を描く格闘マンガ。知られざる実力が動き出す。",
+      "title": "『GTA5』の舞台を活用した海面上昇シミュレーション",
+      "source": "AUTOMATON",
+      "publishedAt": "2026-11-21 18:45",
+      "publishedTs": 1795254322,
+      "image": "https://automaton-media.com/wp-content/uploads/2026/11/20261121-480294-header.jpg",
+      "summary": "人気ゲーム『グランド・セフト・オートV』のマップを使い、環境問題である海面上昇を予測する実証実験が行われ、注目を集めています。",
       "points": [
-        "フルコンタクト空手を題材にした格闘技",
-        "主人公の知られざる力量に注目",
-        "コミックス第3巻が1月4日発売予定"
+        "ゲームのロスサントスを舞台に実証実験を実施",
+        "500年後の都市水没リスクなどを視覚化",
+        "エンタメ技術の環境問題への応用が話題に"
       ],
-      "impact": "本格的な格闘技描写を楽しむアクション・スポーツ漫画ファンから期待されています。",
+      "impact": "ゲームエンジンを活用した新しい気候変動の啓発手法として、今後の教育や研究分野への応用が期待されます。",
       "tags": [
-        "マンガ",
-        "格闘空手",
-        "少年ジャンプ＋"
+        "ゲーム",
+        "環境問題",
+        "GTA5"
       ],
-      "url": "https://shonenjumpplus.com/episode/9253191257982514286",
+      "url": "https://automaton-media.com/articles/newsjp/20261121-480294/",
       "isAiEnriched": true
     },
     {
@@ -2475,45 +2478,46 @@ window.NEWS_DATA = {
     },
     {
       "category": "entertainment",
-      "title": "お腹丸見せにもほどがある！RQ木村楓〝オープンカー〟爆走姿に「めっちゃセレブ感」「最高の景色だね〜」(西スポWEB OTTO!)",
+      "title": "RQ木村楓、オープンカーでのドライブ姿",
       "source": "Yahoo!ニュース",
       "publishedAt": "2026-11-22 00:30",
       "publishedTs": 1795275002,
       "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261122-00010003-nishispo-000-1-view.jpg?exp=10800",
-      "summary": "レースクイーン・木村楓のドライブ姿が話題になっている。【写真あり】お腹丸見せにもほどがある！RQ木村楓〝オープンカー〟爆走姿…",
+      "summary": "レースクイーンの木村楓がオープンカーを運転する様子を公開し、そのヘルシーでスタイリッシュな姿がファンやネット上で大きな注目を集めています。",
       "points": [
-        "レースクイーン・木村楓のドライブ姿が話題になっている",
-        "【写真あり】お腹丸見せにもほどがある",
-        "分野・出典: 芸能・エンタメ（Yahoo!ニュース / 2026-11-22 00:30）"
+        "レースクイーン・木村楓のドライブ姿が話題",
+        "オープンカーを爽快に運転する様子を写真で披露",
+        "セレブ感あふれる抜群のスタイルに賞賛の声"
       ],
-      "impact": "「お腹丸見せにもほどがある！RQ木村楓〝オープンカー〟爆走」を巡る芸能・エンタメ分野の注目動向として今後の展開が注目されます。",
+      "impact": "SNSでのビジュアル発信は、ファンのエンゲージメントを高め、メディアやネットニュースで広く拡散されます。",
       "tags": [
-        "芸能・エンタメ",
-        "Yahoo!ニュース"
+        "木村楓",
+        "レースクイーン",
+        "SNS"
       ],
       "url": "https://news.yahoo.co.jp/articles/f597b8de8df29e5acf62bfad99820ed6b4d58933?source=rss",
-      "isAiEnriched": false
+      "isAiEnriched": true
     },
     {
       "category": "subculture",
-      "title": "『GTA5』の舞台を活用した海面上昇シミュレーション",
-      "source": "AUTOMATON",
-      "publishedAt": "2026-11-21 18:45",
-      "publishedTs": 1795254322,
-      "image": "https://automaton-media.com/wp-content/uploads/2026/11/20261121-480294-header.jpg",
-      "summary": "人気ゲーム『グランド・セフト・オートV』のマップを使い、環境問題である海面上昇を予測する実証実験が行われ、注目を集めています。",
+      "title": "Vシンガー・響咲祢音、「未知程」のカバーMVを公開",
+      "source": "PANORA",
+      "publishedAt": "2026-11-21 15:03",
+      "publishedTs": 1795240997,
+      "image": "https://asset.panora.tokyo/wp-content/uploads/2026/11/21145301/hibisaki-michinori-main.jpg",
+      "summary": "Vシンガーの響咲祢音（ひびさき ねおん）が、歌ってみた企画の第7弾として「DYES IWASAKI × ルンルン “未知程”」のカバーミュージックビデオを公開し、注目を集めています。",
       "points": [
-        "ゲームのロスサントスを舞台に実証実験を実施",
-        "500年後の都市水没リスクなどを視覚化",
-        "エンタメ技術の環境問題への応用が話題に"
+        "Vシンガー・響咲祢音による歌ってみた動画の第7弾",
+        "DYES IWASAKIとルンルンの楽曲「未知程」をカバー",
+        "クオリティの高いMVが公開されファンから好評"
       ],
-      "impact": "ゲームエンジンを活用した新しい気候変動の啓発手法として、今後の教育や研究分野への応用が期待されます。",
+      "impact": "バーチャルアーティストによるカバー楽曲市場の活性化や、新たな音楽ファンの獲得につながるトピックです。",
       "tags": [
-        "ゲーム",
-        "環境問題",
-        "GTA5"
+        "VTuber",
+        "音楽",
+        "MV"
       ],
-      "url": "https://automaton-media.com/articles/newsjp/20261121-480294/",
+      "url": "https://panora.tokyo/archives/164012",
       "isAiEnriched": true
     },
     {
@@ -2584,44 +2588,46 @@ window.NEWS_DATA = {
     },
     {
       "category": "entertainment",
-      "title": "DJ松永はミステリアスジャパニーズ？ R-指定は中学英語でパッショントーク！Creepy Nutsの北米ツアー追ったドキュメンタリー映画が公開(TOKYO HEADLINE WEB)",
+      "title": "Creepy Nuts北米ツアー映画が公開",
       "source": "Yahoo!ニュース",
       "publishedAt": "2026-11-22 00:29",
       "publishedTs": 1795274987,
       "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261122-00010000-theadline-000-1-view.jpg?exp=10800",
-      "summary": "ヒップホップユニットのCreepy Nutsが劇場ドキュメンタリーフィルム『Creepy Nuts – NORTH AMERICA TOUR: LIVE in NY & DOCUMENTARY FI…",
+      "summary": "Creepy Nutsの北米ツアーに密着したドキュメンタリーフィルムが公開されました。現地でのユニークなエピソードやライブの裏側が描かれています。",
       "points": [
-        "ヒップホップユニットのCreepy Nutsが劇場ドキュメンタリーフィルム『Creepy Nuts – NORT…",
-        "分野・出典: 芸能・エンタメ（Yahoo!ニュース / 2026-11-22 00:29）"
+        "北米ツアーの裏側に密着したドキュメンタリー映画が公開",
+        "メンバーの現地でのコミカルかつリアルな様子を収録",
+        "ライブ映像とドキュメンタリーの融合が見どころ"
       ],
-      "impact": "「DJ松永はミステリアスジャパニーズ？ R-指定は中学英語」を巡る芸能・エンタメ分野の注目動向として今後の展開が注目されます。",
+      "impact": "世界進出を果たすアーティストのリアルな苦労と成長を描いた作品として、音楽ファン必見の内容となっています。",
       "tags": [
-        "芸能・エンタメ",
-        "Yahoo!ニュース"
+        "Creepy Nuts",
+        "映画",
+        "ドキュメンタリー"
       ],
       "url": "https://news.yahoo.co.jp/articles/24baf3a81c34a601e50824ff8050aeb888a8fe54?source=rss",
-      "isAiEnriched": false
+      "isAiEnriched": true
     },
     {
       "category": "subculture",
-      "title": "Vシンガー・響咲祢音、「未知程」のカバーMVを公開",
-      "source": "PANORA",
-      "publishedAt": "2026-11-21 15:03",
-      "publishedTs": 1795240997,
-      "image": "https://asset.panora.tokyo/wp-content/uploads/2026/11/21145301/hibisaki-michinori-main.jpg",
-      "summary": "Vシンガーの響咲祢音（ひびさき ねおん）が、歌ってみた企画の第7弾として「DYES IWASAKI × ルンルン “未知程”」のカバーミュージックビデオを公開し、注目を集めています。",
+      "title": "懐かしの「よくわからない歌詞」談義",
+      "source": "togetter.com",
+      "publishedAt": "2026-11-21 16:31",
+      "publishedTs": 1795246293,
+      "image": "https://s.tgstc.com/ogp3/cb70cd0e9d008e0b39dc1064720afb89-1200x630.jpeg",
+      "summary": "昭和・平成のヒット曲に登場する難解で印象的な歌詞について、ネット上でユーザーによるユニークな解釈や意見交換が活発に行われています。",
       "points": [
-        "Vシンガー・響咲祢音による歌ってみた動画の第7弾",
-        "DYES IWASAKIとルンルンの楽曲「未知程」をカバー",
-        "クオリティの高いMVが公開されファンから好評"
+        "「星屑ロンリネス」や「Youはshock」などの歌詞が話題に",
+        "独特な世界観を持つフレーズのチョイスに共感やツッコミが続出",
+        "ネットユーザーの間で世代を超えた盛り上がりを見せる"
       ],
-      "impact": "バーチャルアーティストによるカバー楽曲市場の活性化や、新たな音楽ファンの獲得につながるトピックです。",
+      "impact": "懐かしいポップカルチャーの話題は、SNSでの共感を呼び起こし、ノスタルジックな盛り上がりを生み出します。",
       "tags": [
-        "VTuber",
         "音楽",
-        "MV"
+        "歌詞",
+        "SNSトレンド"
       ],
-      "url": "https://panora.tokyo/archives/164012",
+      "url": "https://togetter.com/li/2773224",
       "isAiEnriched": true
     },
     {
@@ -2692,44 +2698,47 @@ window.NEWS_DATA = {
     },
     {
       "category": "entertainment",
-      "title": "キャサリン妃、がん患者支援のため英国最高峰への登山に挑戦──密着ドキュメンタリーがNBCで放送へ(The Hollywood Reporter Japan)",
+      "title": "キャサリン妃、がん患者支援で英国最高峰へ",
       "source": "Yahoo!ニュース",
       "publishedAt": "2026-11-22 00:29",
       "publishedTs": 1795274946,
       "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261122-00010000-thrjapan-000-1-view.jpg?exp=10800",
-      "summary": "キャサリン妃が、がん患者を支援するチャリティー活動に取り組む姿を追ったドキュメンタリー『ヒール：ア・プリンセス・オブ・ウェールズ・スペシャル（原題：Heal: A Princess of Wales…",
+      "summary": "英キャサリン妃が、がん患者支援のチャリティー活動として英国最高峰への登山に挑戦。その過酷かつ温かい取り組みを追ったドキュメンタリーが放送予定です。",
       "points": [
-        "がん患者を支援するチャリティー活動に取り組む姿を追ったドキュメンタリー『ヒール：ア・プリンセス・オブ・ウェールズ…",
-        "分野・出典: 芸能・エンタメ（Yahoo!ニュース / 2026-11-22 00:29）"
+        "がん患者支援のため英国最高峰の登山に挑戦",
+        "チャリティー活動に密着したドキュメンタリーがNBCで放送へ",
+        "公務を通じて多くの人々に勇気と希望を与える活動"
       ],
-      "impact": "「キャサリン妃、がん患者支援のため英国最高峰への登山に挑戦」を巡る芸能・エンタメ分野の注目動向として今後の展開が注目されます。",
+      "impact": "ロイヤルファミリーによる体当たり支援活動は、世界中のがん患者や支援者に大きな勇気を与えています。",
       "tags": [
-        "芸能・エンタメ",
-        "Yahoo!ニュース"
+        "キャサリン妃",
+        "イギリス王室",
+        "チャリティー"
       ],
       "url": "https://news.yahoo.co.jp/articles/189d1f3e11eaf2654476b33b7f5d529c0b7b14b3?source=rss",
-      "isAiEnriched": false
+      "isAiEnriched": true
     },
     {
       "category": "subculture",
-      "title": "三大よくわからない歌詞「星屑ロンリネス」「ルネッサンス情熱」「Youはshock」あたりだと思うけど他に何がある？→しゃかりきコロンブスとか？",
-      "source": "togetter.com",
-      "publishedAt": "2026-11-21 16:31",
-      "publishedTs": 1795246293,
-      "image": "https://s.tgstc.com/ogp3/cb70cd0e9d008e0b39dc1064720afb89-1200x630.jpeg",
-      "summary": "アスタ ラビス 太 @HUMVGeNGtw3cDOi @kitalbounovel 星空のディスタンス→「たとえ500マイル離れてても～～」もっと何億光年レベルの距離かなと思ったら、東京から札幌くらいまでの距離だからすげえ親近感感じてしまったwww 2026-11-20 23:57:05…",
+      "title": "『GTA6』の発売で学校がズル休み対策",
+      "source": "AUTOMATON",
+      "publishedAt": "2026-11-21 16:59",
+      "publishedTs": 1795247988,
+      "image": "https://automaton-media.com/wp-content/uploads/2026/11/20261121-480285-header.jpg",
+      "summary": "イギリスの学校で、大作ゲーム『GTA6』の発売に伴う生徒のズル休みを防ぐユニークな対策が話題に。送迎バスやアマゾンギフト券の抽選会を実施し、登校を促しています。",
       "points": [
-        "アスタ ラビス 太 @HUMVGeNGtw3cDOi @kitalbounovel 星空のディスタンス→「たとえ…",
-        "東京から札幌くらいまでの距離だからすげえ親近感感じてしまったwww 2026-11-20 23:57:05",
-        "分野・出典: サブカルチャー（togetter.com / 2026-11-21 16:31）"
+        "イギリスの学校が『GTA6』発売日対策を実施",
+        "ミニバスでの送迎やアマギフ抽選会で登校を促進",
+        "生徒の欠席を防ぐためのユニークな試みとして注目"
       ],
-      "impact": "サブカルチャー分野で多くの読者に共有されている注目記事です。",
+      "impact": "話題のエンタメ作品の発売が社会的な学生の行動や学校運営にまで影響を与える事例として注目されます。",
       "tags": [
         "サブカルチャー",
-        "togetter.com"
+        "ゲーム",
+        "海外ニュース"
       ],
-      "url": "https://togetter.com/li/2773224",
-      "isAiEnriched": false
+      "url": "https://automaton-media.com/articles/newsjp/20261121-480285/",
+      "isAiEnriched": true
     },
     {
       "category": "domestic",
@@ -2821,46 +2830,47 @@ window.NEWS_DATA = {
     },
     {
       "category": "subculture",
-      "title": "『GTA6』の発売で学校がズル休み対策",
-      "source": "AUTOMATON",
-      "publishedAt": "2026-11-21 16:59",
-      "publishedTs": 1795247988,
-      "image": "https://automaton-media.com/wp-content/uploads/2026/11/20261121-480285-header.jpg",
-      "summary": "イギリスの学校で、大作ゲーム『GTA6』の発売に伴う生徒のズル休みを防ぐユニークな対策が話題に。送迎バスやアマゾンギフト券の抽選会を実施し、登校を促しています。",
+      "title": "Pimax、最大3.7万円オフの年間最大セールと追加ギフト企画を開始",
+      "source": "PANORA",
+      "publishedAt": "2026-11-21 11:14",
+      "publishedTs": 1795227256,
+      "image": "https://asset.panora.tokyo/wp-content/uploads/2026/11/21111406/191510-12-7926a7fb29317df1b99f7d59fe9e3e37-3900x3900-1.webp",
+      "summary": "ハイエンドPC VRヘッドセットを手がけるPimaxが、最大3万7100円オフとなる年間最大のセールおよびアンケート企画を開催しています。",
       "points": [
-        "イギリスの学校が『GTA6』発売日対策を実施",
-        "ミニバスでの送迎やアマギフ抽選会で登校を促進",
-        "生徒の欠席を防ぐためのユニークな試みとして注目"
+        "ハイエンドPC VRヘッドセットが最大3万7100円オフ",
+        "現在開催中の年間最大セールの一環として実施",
+        "アンケート回答で追加ギフトが当たる特別企画も同時に開始"
       ],
-      "impact": "話題のエンタメ作品の発売が社会的な学生の行動や学校運営にまで影響を与える事例として注目されます。",
+      "impact": "高価なハイエンドVR機器を検討していたユーザーにとって、購入の大きなチャンスとなります。",
       "tags": [
-        "サブカルチャー",
-        "ゲーム",
-        "海外ニュース"
+        "Pimax",
+        "VR",
+        "セール"
       ],
-      "url": "https://automaton-media.com/articles/newsjp/20261121-480285/",
+      "url": "https://panora.tokyo/archives/164003",
       "isAiEnriched": true
     },
     {
       "category": "domestic",
-      "title": "アジアパラ大会金メダルの小田凱人選手が地元に凱旋　大歓迎パレード　愛知・一宮市(CBCテレビ)",
+      "title": "冷え込む日中関係と今後の外交方針",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-22 01:00",
-      "publishedTs": 1795276834,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261122-23103675-cbcv-000-1-thumb.jpg?exp=10800",
-      "summary": "プロ車いすテニスプレイヤーの小田凱人選手が、21日地元・愛知県一宮市に凱旋しました。【写真を見る】アジアパラ大会金メダルの小田凱人選手が地元に凱旋 大歓迎パレード 愛知・一宮市史上最年少で生涯ゴール…",
+      "publishedAt": "2026-11-22 01:48",
+      "publishedTs": 1795279696,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261122-90204935-ann-000-1-view.jpg?exp=10800",
+      "summary": "訪中した高市総理を待ち受けた冷遇とも取れる扱いなど、冷え込む日中関係の背景と今後日本が取るべき外交姿勢について前駐中国大使に取材しました。",
       "points": [
-        "プロ車いすテニスプレイヤーの小田凱人選手が",
-        "21日地元・愛知県一宮市に凱旋しました",
-        "分野・出典: 国内・総合（Yahoo!ニュース / 2026-11-22 01:00）"
+        "高市総理の訪中における待遇の格差が注目を集める",
+        "前駐中国大使が日中関係の現状と課題を分析",
+        "今後の外交における向き合い方や戦略について議論"
       ],
-      "impact": "「アジアパラ大会金メダルの小田凱人選手が地元に凱旋　大歓迎」を巡る国内・総合分野の注目動向として今後の展開が注目されます。",
+      "impact": "国際情勢や安全保障に関わる外交問題は、日本の経済や安全保障体制に直接影響を与える重要な課題です。",
       "tags": [
-        "国内・総合",
-        "Yahoo!ニュース"
+        "日中関係",
+        "外交",
+        "政治"
       ],
-      "url": "https://news.yahoo.co.jp/articles/a0ebf59347dc6d61a70dd8cf496afdb9706acafd?source=rss",
-      "isAiEnriched": false
+      "url": "https://news.yahoo.co.jp/articles/7aa97c2cce33ee2aef3a863c6daeb8eb0aacd4d8?source=rss",
+      "isAiEnriched": true
     },
     {
       "category": "tech",
@@ -2930,46 +2940,46 @@ window.NEWS_DATA = {
     },
     {
       "category": "subculture",
-      "title": "Pimax、最大3.7万円オフの年間最大セールと追加ギフト企画を開始",
-      "source": "PANORA",
-      "publishedAt": "2026-11-21 11:14",
-      "publishedTs": 1795227256,
-      "image": "https://asset.panora.tokyo/wp-content/uploads/2026/11/21111406/191510-12-7926a7fb29317df1b99f7d59fe9e3e37-3900x3900-1.webp",
-      "summary": "ハイエンドPC VRヘッドセットを手がけるPimaxが、最大3万7100円オフとなる年間最大のセールおよびアンケート企画を開催しています。",
+      "title": "「ラーメン大好き小泉さん」118杯目配信開始",
+      "source": "championcross.jp",
+      "publishedAt": "2026-11-21 08:59",
+      "publishedTs": 1795219199,
+      "image": "https://cdn-public.comici.jp/episode/1793075716/f2c4fb95f424531e.webp",
+      "summary": "チャンピオンクロスにて人気漫画「ラーメン大好き小泉さん」の最新118杯目が配信開始されました。正規版配信サービスとして公開されています。",
       "points": [
-        "ハイエンドPC VRヘッドセットが最大3万7100円オフ",
-        "現在開催中の年間最大セールの一環として実施",
-        "アンケート回答で追加ギフトが当たる特別企画も同時に開始"
+        "チャンピオンクロスで最新話を配信",
+        "著作権者から許諾を得た正規版サービスで展開",
+        "グルメ漫画として根強い人気を誇る作品"
       ],
-      "impact": "高価なハイエンドVR機器を検討していたユーザーにとって、購入の大きなチャンスとなります。",
+      "impact": "ファンに向けて最新のストーリーが届けられ、作中で紹介されるラーメン店への関心が高まります。",
       "tags": [
-        "Pimax",
-        "VR",
-        "セール"
+        "ラーメン大好き小泉さん",
+        "漫画",
+        "グルメ"
       ],
-      "url": "https://panora.tokyo/archives/164003",
+      "url": "https://championcross.jp/episodes/3c6c2fcf3e349",
       "isAiEnriched": true
     },
     {
       "category": "domestic",
-      "title": "愛子さまシンガポール訪問を終え帰国「友好親善引き継ぐ」",
+      "title": "強烈寒波が3連休直撃、都内で初の氷点下",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-21 23:30",
-      "publishedTs": 1795271438,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261121-10291222-abemav-000-1-view.png?fmt=jpeg&q=85&exp=10800",
-      "summary": "シンガポールを公式訪問していた天皇皇后両陛下の長女・愛子さまが帰国され、皇室の友好親善の歩みを受け継ぐ決意を語られました。",
+      "publishedAt": "2026-11-22 01:24",
+      "publishedTs": 1795278256,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261122-90204934-ann-000-1-view.jpg?exp=10800",
+      "summary": "今シーズン一番の強い寒波が3連休を直撃し、東京都心でも初の氷点下を観測しました。全国的な大雪により孤立や停電、交通障害などの影響が広がっています。",
       "points": [
-        "シンガポール公式訪問を終えて帰国",
-        "「友好親善の歩みを受け継いでいきたい」と感想",
-        "国際親善における皇室の役割を示す"
+        "今季一番の強い寒波が日本列島を直撃",
+        "都内で今季初の氷点下を観測し厳しい寒さに",
+        "大雪による孤立、停電、交通網への影響が各地で発生"
       ],
-      "impact": "国内外の外交および皇室の国際親善活動に対する国民的な関心を高めるニュースです。",
+      "impact": "インフラの麻痺や交通網の乱れなど、人々の生活やレジャー計画に甚大な影響を及ぼしています。",
       "tags": [
-        "愛子さま",
-        "皇室",
-        "シンガポール"
+        "寒波",
+        "大雪",
+        "気象"
       ],
-      "url": "https://news.yahoo.co.jp/articles/e2bf8863782f84059b6c3c99cc6da90eea652e1e?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/af157dba4a25bb8a55a4f7d638b343c06e847c2c?source=rss",
       "isAiEnriched": true
     },
     {
@@ -3062,24 +3072,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "世界遺産・白川郷の合掌造り集落が雪化粧で観光客魅了",
+      "title": "車いすテニス小田凱人選手が地元凱旋",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-21 23:11",
-      "publishedTs": 1795270274,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261121-23103668-cbcv-000-1-thumb.jpg?exp=10800",
-      "summary": "3連休初日の21日、岐阜県白川村の白川郷では雪景色が広がり、美しい合掌造りの集落を一目見ようと多くの観光客でにぎわいました。",
+      "publishedAt": "2026-11-22 01:00",
+      "publishedTs": 1795276834,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261122-23103675-cbcv-000-1-thumb.jpg?exp=10800",
+      "summary": "アジアパラ大会で金メダルを獲得したプロ車いすテニスプレイヤーの小田凱人選手が、地元・愛知県一宮市に凱旋し、大歓迎のパレードが行われました。",
       "points": [
-        "11月3連休初日の白川郷の様子",
-        "合掌造りの集落が美しい雪化粧に包まれる",
-        "多くの観光客が訪れにぎわいを見せる"
+        "アジアパラ大会金メダリストの小田凱人選手が地元に凱旋",
+        "愛知県一宮市で盛大な大歓迎パレードを開催",
+        "史上最年少での活躍に地元住民から温かい祝福"
       ],
-      "impact": "国内の観光業やレジャー産業における冬のシーズンインの盛り上がりを象徴しています。",
+      "impact": "トップアスリートの凱旋と地元での交流は、地域社会に大きな活気と感動をもたらしています。",
       "tags": [
-        "白川郷",
-        "世界遺産",
-        "観光"
+        "小田凱人",
+        "車いすテニス",
+        "地元凱旋"
       ],
-      "url": "https://news.yahoo.co.jp/articles/98e4158790572df18d501e26c8cdfd3d44bdaa8a?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/a0ebf59347dc6d61a70dd8cf496afdb9706acafd?source=rss",
       "isAiEnriched": true
     },
     {
@@ -3172,24 +3182,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "愛子さまシンガポール公式訪問からご帰国",
+      "title": "愛子さまシンガポール訪問を終え帰国「友好親善引き継ぐ」",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-21 23:09",
-      "publishedTs": 1795270192,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261121-00000069-ann-000-2-thumb.jpg?exp=10800",
-      "summary": "シンガポールを公式訪問していた天皇皇后両陛下の長女・愛子さまが帰国。「友好親善の歩みを受け継いでいく」と感想を寄せた。",
+      "publishedAt": "2026-11-21 23:30",
+      "publishedTs": 1795271438,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261121-10291222-abemav-000-1-view.png?fmt=jpeg&q=85&exp=10800",
+      "summary": "シンガポールを公式訪問していた天皇皇后両陛下の長女・愛子さまが帰国され、皇室の友好親善の歩みを受け継ぐ決意を語られました。",
       "points": [
-        "愛子さまがシンガポール公式訪問から帰国",
-        "羽田空港に到着し、心境を明かす",
-        "皇室の国際親善の歴史を受け継ぐ決意"
+        "シンガポール公式訪問を終えて帰国",
+        "「友好親善の歩みを受け継いでいきたい」と感想",
+        "国際親善における皇室の役割を示す"
       ],
-      "impact": "皇室の国際親善活動に対する国民の関心と敬意を高めるニュースとなっています。",
+      "impact": "国内外の外交および皇室の国際親善活動に対する国民的な関心を高めるニュースです。",
       "tags": [
         "愛子さま",
         "皇室",
         "シンガポール"
       ],
-      "url": "https://news.yahoo.co.jp/articles/c857229123ff21640a5ac89f3fa3672ec0436aca?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/e2bf8863782f84059b6c3c99cc6da90eea652e1e?source=rss",
       "isAiEnriched": true
     },
     {
@@ -3216,24 +3226,25 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "【官公職員・民間の家庭】貯蓄の中央値は「官公職員1100万円、民間職員は1281万円」中央値が1番高いのは法人経営者の2492万円(LIMO)",
+      "title": "世帯主の職業別貯蓄中央値を比較",
       "source": "Yahoo!ニュース",
       "publishedAt": "2026-11-21 21:20",
       "publishedTs": 1795263633,
       "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261121-90000533-toushin-000-1-view.jpg?exp=10800",
-      "summary": "世帯主の職業によって、貯蓄にどのくらいの違いがあるのでしょうか。同じ職業の家庭の数字と比べると、平均だけを見るよりも、わが家の位置がぐっとわかりやすくなります。まずは、職業ごとに見た貯蓄の真ん中の金…",
+      "summary": "世帯主の職業によって異なる貯蓄額の中央値を調査。官公職員や民間職員、法人経営者などの具体的な数値を比較し、家庭の資産形成の目安を紹介します。",
       "points": [
-        "世帯主の職業によって",
-        "貯蓄にどのくらいの違いがあるのでしょうか",
-        "分野・出典: ビジネス・経済（Yahoo!ニュース / 2026-11-21 21:20）"
+        "民間職員の貯蓄中央値は1281万円、官公職員は1100万円",
+        "最も高いのは法人経営者で2492万円という結果に",
+        "平均値よりも実態に近い「中央値」で世帯の立ち位置を把握"
       ],
-      "impact": "「【官公職員・民間の家庭】貯蓄の中央値は「官公職員1100」を巡るビジネス・経済分野の注目動向として今後の展開が注目されます。",
+      "impact": "自身の家計状況を客観的に見直し、将来の資産形成やライフプランを考えるための有用な指標となります。",
       "tags": [
-        "ビジネス・経済",
-        "Yahoo!ニュース"
+        "貯蓄",
+        "家計",
+        "マネー"
       ],
       "url": "https://news.yahoo.co.jp/articles/fdd6f5a3e897d7ccb3f6e685a89a70e06f50389f?source=rss",
-      "isAiEnriched": false
+      "isAiEnriched": true
     },
     {
       "category": "entertainment",
@@ -3281,24 +3292,25 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "前橋で連日目撃のクマ発見に至らず　水路に赤外線カメラを設置して監視へ(テレビ朝日系（ANN）)",
+      "title": "世界遺産・白川郷の合掌造り集落が雪化粧で観光客魅了",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-21 23:08",
-      "publishedTs": 1795270133,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261121-00000068-ann-000-1-thumb.jpg?exp=10800",
-      "summary": "連日クマの目撃が相次いでいる群馬県前橋市で、市は21日、捕獲に向けた活動を行いましたが発見には至りませんでした。前橋市の担当者「市民の皆さんには大変ご心配ご不安をかけている状況。全体的に警戒をしてい…",
+      "publishedAt": "2026-11-21 23:11",
+      "publishedTs": 1795270274,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261121-23103668-cbcv-000-1-thumb.jpg?exp=10800",
+      "summary": "3連休初日の21日、岐阜県白川村の白川郷では雪景色が広がり、美しい合掌造りの集落を一目見ようと多くの観光客でにぎわいました。",
       "points": [
-        "連日クマの目撃が相次いでいる群馬県前橋市で",
-        "捕獲に向けた活動を行いましたが発見には至りませんでした",
-        "分野・出典: 国内・総合（Yahoo!ニュース / 2026-11-21 23:08）"
+        "11月3連休初日の白川郷の様子",
+        "合掌造りの集落が美しい雪化粧に包まれる",
+        "多くの観光客が訪れにぎわいを見せる"
       ],
-      "impact": "「前橋で連日目撃のクマ発見に至らず　水路に赤外線カメラを設」を巡る国内・総合分野の注目動向として今後の展開が注目されます。",
+      "impact": "国内の観光業やレジャー産業における冬のシーズンインの盛り上がりを象徴しています。",
       "tags": [
-        "国内・総合",
-        "Yahoo!ニュース"
+        "白川郷",
+        "世界遺産",
+        "観光"
       ],
-      "url": "https://news.yahoo.co.jp/articles/46646eccb7b2a6bf22f718f554daaa364236b4eb?source=rss",
-      "isAiEnriched": false
+      "url": "https://news.yahoo.co.jp/articles/98e4158790572df18d501e26c8cdfd3d44bdaa8a?source=rss",
+      "isAiEnriched": true
     },
     {
       "category": "tech",
@@ -3324,24 +3336,25 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "【日本株】来期も好業績が期待できる｢受注残が増えた株｣2銘柄！ 金融機関のDX需要が追い風の｢野村総合研究所｣、今期の業績も上方修正した｢きんでん｣に注目！(ダイヤモンド・ザイ)",
+      "title": "受注残が増えた好業績期待の日本株2選",
       "source": "Yahoo!ニュース",
       "publishedAt": "2026-11-21 21:20",
       "publishedTs": 1795263628,
       "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261121-02075865-dzai-000-1-view.jpg?exp=10800",
-      "summary": "【日本株】受注残が増えていて、来期以降も好業績が見込める「野村総合研究所」と「きんでん」に注目！ 【画像】「野村総合研究所」（4307）は、金融機関のDX需要が追い風に！社会インフラを支える中核シス…",
+      "summary": "来期以降も好業績が期待される受注残増加企業として、金融DXが追い風の野村総合研究所ときんでんの2銘柄に注目が集まっています。",
       "points": [
-        "【日本株】受注残が増えていて",
-        "来期以降も好業績が見込める「野村総合研究所」と「きんでん」に注目",
-        "分野・出典: ビジネス・経済（Yahoo!ニュース / 2026-11-21 21:20）"
+        "野村総合研究所は金融機関のDX需要が強力な追い風",
+        "きんでんは好調な受注を背景に今期業績を上方修正",
+        "来期以降も安定した成長が期待される注目銘柄"
       ],
-      "impact": "「【日本株】来期も好業績が期待できる｢受注残が増えた株｣2」を巡るビジネス・経済分野の注目動向として今後の展開が注目されます。",
+      "impact": "株式投資家にとって、受注残の動向は中長期の業績を占う上で非常に価値の高い判断材料となります。",
       "tags": [
-        "ビジネス・経済",
-        "Yahoo!ニュース"
+        "株式投資",
+        "日本株",
+        "経済"
       ],
       "url": "https://news.yahoo.co.jp/articles/2d703f9c0cd0acc40f0c25afdabe5daca8f04f19?source=rss",
-      "isAiEnriched": false
+      "isAiEnriched": true
     },
     {
       "category": "entertainment",
@@ -3389,24 +3402,25 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "京成本線で人身事故 運転再開(レスキューナウニュース)",
+      "title": "愛子さまシンガポール公式訪問からご帰国",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-21 23:05",
-      "publishedTs": 1795269900,
-      "image": "https://tse2.mm.bing.net/th?q=%E4%BA%AC%E6%88%90%E6%9C%AC%E7%B7%9A%E3%81%A7%E4%BA%BA%E8%BA%AB%E4%BA%8B%E6%95%85%20%E9%81%8B%E8%BB%A2%E5%86%8D%E9%96%8B&w=800&h=450&c=7&rs=1&p=0",
-      "summary": "京成大久保～実籾駅間で発生した人身事故の影響で、京成本線は京成津田沼～八千代台駅間の下り線(八千代台方面行)の運転を見合わせていましたが、23:05現在、運転を再開しています。なお、ダイヤが乱れてい…",
+      "publishedAt": "2026-11-21 23:09",
+      "publishedTs": 1795270192,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261121-00000069-ann-000-2-thumb.jpg?exp=10800",
+      "summary": "シンガポールを公式訪問していた天皇皇后両陛下の長女・愛子さまが帰国。「友好親善の歩みを受け継いでいく」と感想を寄せた。",
       "points": [
-        "京成大久保～実籾駅間で発生した人身事故の影響で",
-        "京成本線は京成津田沼～八千代台駅間の下り線(八千代台方面行)の運転を見合わせていましたが",
-        "分野・出典: 国内・総合（Yahoo!ニュース / 2026-11-21 23:05）"
+        "愛子さまがシンガポール公式訪問から帰国",
+        "羽田空港に到着し、心境を明かす",
+        "皇室の国際親善の歴史を受け継ぐ決意"
       ],
-      "impact": "「京成本線で人身事故 運転再開(レスキューナウニュース)」を巡る国内・総合分野の注目動向として今後の展開が注目されます。",
+      "impact": "皇室の国際親善活動に対する国民の関心と敬意を高めるニュースとなっています。",
       "tags": [
-        "国内・総合",
-        "Yahoo!ニュース"
+        "愛子さま",
+        "皇室",
+        "シンガポール"
       ],
-      "url": "https://news.yahoo.co.jp/articles/70e37c5378988864ee050a89e00b15dfde77e033?source=rss",
-      "isAiEnriched": false
+      "url": "https://news.yahoo.co.jp/articles/c857229123ff21640a5ac89f3fa3672ec0436aca?source=rss",
+      "isAiEnriched": true
     },
     {
       "category": "tech",
@@ -3432,24 +3446,25 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "新しいジェネシスGV80ハイブリッド＆G80ハイブリッド登場！(GQ JAPAN)",
+      "title": "ジェネシスGV80＆G80ハイブリッド登場",
       "source": "Yahoo!ニュース",
       "publishedAt": "2026-11-21 21:16",
       "publishedTs": 1795263396,
       "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261121-00010002-gqjapan-000-1-view.jpg?exp=10800",
-      "summary": "ジェネシス初のハイブリッドに注目！【写真を見る】新しいジェネシスGV80ハイブリッド＆G80ハイブリッドの全貌…",
+      "summary": "高級車ブランドのジェネシスから、初となるハイブリッドモデル「GV80ハイブリッド」および「G80ハイブリッド」の全貌が新たに公開されました。",
       "points": [
-        "ジェネシス初のハイブリッドに注目",
-        "【写真を見る】新しいジェネシスGV80ハイブリッド＆G80ハイブリッドの全貌",
-        "分野・出典: ビジネス・経済（Yahoo!ニュース / 2026-11-21 21:16）"
+        "ジェネシスブランド初のハイブリッドモデルが登場",
+        "SUVのGV80とセダンのG80にそれぞれハイブリッドを追加",
+        "環境性能と高級感を両立させた次世代のラインナップ"
       ],
-      "impact": "「新しいジェネシスGV80ハイブリッド＆G80ハイブリッド」を巡るビジネス・経済分野の注目動向として今後の展開が注目されます。",
+      "impact": "電動化が進む高級車市場において、新たな選択肢として自動車業界やユーザーの注目を集めています。",
       "tags": [
-        "ビジネス・経済",
-        "Yahoo!ニュース"
+        "ジェネシス",
+        "ハイブリッド車",
+        "自動車"
       ],
       "url": "https://news.yahoo.co.jp/articles/8b3db603be6736d4a0f13726b16f9ca0fbc513c7?source=rss",
-      "isAiEnriched": false
+      "isAiEnriched": true
     },
     {
       "category": "entertainment",
@@ -3497,24 +3512,25 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "「検証を」女児保育関係者　虐待疑い死亡、大阪枚方(共同通信)",
+      "title": "前橋市のクマ目撃、赤外線カメラで監視",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-21 23:02",
-      "publishedTs": 1795269737,
-      "image": "https://tse2.mm.bing.net/th?q=%E6%A4%9C%E8%A8%BC%E3%82%92%20%E5%A5%B3%E5%85%90%E4%BF%9D%E8%82%B2%E9%96%A2%E4%BF%82%E8%80%85%20%E8%99%90%E5%BE%85%E7%96%91%E3%81%84%E6%AD%BB%E4%BA%A1%20%E5%A4%A7%E9%98%AA%E6%9E%9A%E6%96%B9&w=800&h=450&c=7&rs=1&p=0",
-      "summary": "大阪府枚方市で8月、虐待された疑いがある金尾英怜奈ちゃん（3）が死亡した事件で、英怜奈ちゃんがかつて通っていた保育施設の関係者が21日、取材に応じ「心を痛めている。施設として保育や支援は最大限やって…",
+      "publishedAt": "2026-11-21 23:08",
+      "publishedTs": 1795270133,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261121-00000068-ann-000-1-thumb.jpg?exp=10800",
+      "summary": "群馬県前橋市で連日相次ぐクマの目撃情報を受け、市は捕獲に向けた活動を実施。発見には至らず、今後は水路に赤外線カメラを設置して警戒を続けます。",
       "points": [
-        "虐待された疑いがある金尾英怜奈ちゃん（3）が死亡した事件で",
-        "英怜奈ちゃんがかつて通っていた保育施設の関係者が21日",
-        "分野・出典: 国内・総合（Yahoo!ニュース / 2026-11-21 23:02）"
+        "前橋市内で連日クマの目撃情報が相次ぐ",
+        "21日の捕獲活動では発見に至らず",
+        "水路に赤外線カメラを設置し警戒・監視を強化"
       ],
-      "impact": "「「検証を」女児保育関係者　虐待疑い死亡、大阪枚方(共同通」を巡る国内・総合分野の注目動向として今後の展開が注目されます。",
+      "impact": "住民の安全確保と野生動物の出没対策において、行政による迅速な警戒態勢の維持が急務となっています。",
       "tags": [
-        "国内・総合",
-        "Yahoo!ニュース"
+        "クマ目撃",
+        "前橋市",
+        "鳥獣被害"
       ],
-      "url": "https://news.yahoo.co.jp/articles/32eb37cfe924b969e46b3b4b0a5ad2477bc36c76?source=rss",
-      "isAiEnriched": false
+      "url": "https://news.yahoo.co.jp/articles/46646eccb7b2a6bf22f718f554daaa364236b4eb?source=rss",
+      "isAiEnriched": true
     },
     {
       "category": "tech",
@@ -3606,24 +3622,25 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "京成本線で人身事故 一部運転見合わせ(レスキューナウニュース)",
+      "title": "京成本線、人身事故で一時運転見合わせ",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-21 22:50",
-      "publishedTs": 1795269000,
-      "image": "https://tse2.mm.bing.net/th?q=%E4%BA%AC%E6%88%90%E6%9C%AC%E7%B7%9A%E3%81%A7%E4%BA%BA%E8%BA%AB%E4%BA%8B%E6%95%85%20%E4%B8%80%E9%83%A8%E9%81%8B%E8%BB%A2%E8%A6%8B%E5%90%88%E3%82%8F%E3%81%9B&w=800&h=450&c=7&rs=1&p=0",
-      "summary": "京成大久保～実籾駅間で発生した人身事故の影響で、京成本線は京成津田沼～八千代台駅間の下り線(八千代台方面行)の運転を見合わせています。振替輸送を行っています。",
+      "publishedAt": "2026-11-21 23:05",
+      "publishedTs": 1795269900,
+      "image": "https://tse2.mm.bing.net/th?q=%E4%BA%AC%E6%88%90%E6%9C%AC%E7%B7%9A%E3%81%A7%E4%BA%BA%E8%BA%AB%E4%BA%8B%E6%95%85%20%E9%81%8B%E8%BB%A2%E5%86%8D%E9%96%8B&w=800&h=450&c=7&rs=1&p=0",
+      "summary": "京成大久保駅と実籾駅の間で発生した人身事故の影響により、京成本線の一部区間で一時運転見合わせとなりましたが、現在は再開されています。",
       "points": [
-        "京成大久保～実籾駅間で発生した人身事故の影響で",
-        "京成本線は京成津田沼～八千代台駅間の下り線(八千代台方面行)の運転を見合わせています",
-        "分野・出典: 国内・総合（Yahoo!ニュース / 2026-11-21 22:50）"
+        "京成大久保～実籾駅間で人身事故が発生",
+        "京成本線の京成津田沼～八千代台駅間（下り）で一時見合わせ",
+        "現在は運転を再開しているもののダイヤに乱れ"
       ],
-      "impact": "「京成本線で人身事故 一部運転見合わせ(レスキューナウニュ」を巡る国内・総合分野の注目動向として今後の展開が注目されます。",
+      "impact": "通勤や通学の足に乱れが生じ、利用客の移動やスケジュールに影響を与えました。",
       "tags": [
-        "国内・総合",
-        "Yahoo!ニュース"
+        "京成本線",
+        "人身事故",
+        "交通情報"
       ],
-      "url": "https://news.yahoo.co.jp/articles/6d65318ecba80e66fe1171b84a3f33097440fb38?source=rss",
-      "isAiEnriched": false
+      "url": "https://news.yahoo.co.jp/articles/70e37c5378988864ee050a89e00b15dfde77e033?source=rss",
+      "isAiEnriched": true
     },
     {
       "category": "tech",
@@ -3715,24 +3732,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "小田急小田原線、人身事故で一時見合わせも運転再開",
+      "title": "大阪枚方の女児虐待死事件、元通う保育施設関係者が検証求める",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-21 22:40",
-      "publishedTs": 1795268400,
-      "image": "https://tse2.mm.bing.net/th?q=%E5%B0%8F%E7%94%B0%E6%80%A5%E5%B0%8F%E7%94%B0%E5%8E%9F%E7%B7%9A%E3%81%A7%E4%BA%BA%E8%BA%AB%E4%BA%8B%E6%95%85%20%E9%81%8B%E8%BB%A2%E5%86%8D%E9%96%8B&w=800&h=450&c=7&rs=1&p=0",
-      "summary": "玉川学園前～町田駅間で発生した人身事故の影響により、小田急小田原線は新百合ケ丘～町田駅間で運転を見合わせていましたが、夜遅くに運転を再開しました。現在もダイヤが乱れています。",
+      "publishedAt": "2026-11-21 23:02",
+      "publishedTs": 1795269737,
+      "image": "https://tse2.mm.bing.net/th?q=%E6%A4%9C%E8%A8%BC%E3%82%92%20%E5%A5%B3%E5%85%90%E4%BF%9D%E8%82%B2%E9%96%A2%E4%BF%82%E8%80%85%20%E8%99%90%E5%BE%85%E7%96%91%E3%81%84%E6%AD%BB%E4%BA%A1%20%E5%A4%A7%E9%98%AA%E6%9E%9A%E6%96%B9&w=800&h=450&c=7&rs=1&p=0",
+      "summary": "大阪府枚方市で8月に起きた3歳女児の虐待疑い死亡事件で、かつて女児が通っていた保育施設の関係者が取材に応じました。施設側は最大限の支援を行ってきたとしつつも、事件の真相究明と再発防止に向けた徹底的な検証を求めています。",
       "points": [
-        "玉川学園前～町田駅間で人身事故が発生",
-        "新百合ケ丘～町田駅間で一時運転見合わせ",
-        "同日22:34頃に運転再開、ダイヤ乱れ継続"
+        "大阪府枚方市で8月に3歳女児が虐待の疑いで死亡した事件が発生",
+        "かつて女児が通っていた保育施設の関係者が取材に応じ心痛を吐露",
+        "施設側はこれまでの支援を振り返りつつ、事態の検証を求めている"
       ],
-      "impact": "帰宅ラッシュや夜間の移動に大きな影響が出ており、利用者は最新の運行情報の確認が必要です。",
+      "impact": "児童虐待防止に向けた地域社会や保育現場での見守り体制、早期発見のあり方に改めて注目が集まっています。",
       "tags": [
-        "小田急線",
-        "人身事故",
-        "運行情報"
+        "児童虐待",
+        "大阪府枚方市",
+        "保育施設"
       ],
-      "url": "https://news.yahoo.co.jp/articles/bfd106da6e138d4d3dd9e6cbe9032ca2ef37cee7?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/32eb37cfe924b969e46b3b4b0a5ad2477bc36c76?source=rss",
       "isAiEnriched": true
     },
     {
@@ -3825,24 +3842,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "名古屋市西区で自転車と車が衝突、37歳男性が重体",
+      "title": "京成本線で人身事故が発生、京成津田沼～八千代台間で運転見合わせ",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-21 22:27",
-      "publishedTs": 1795267636,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261121-23103661-cbcv-000-1-view.jpg?exp=10800",
-      "summary": "名古屋市西区の市道で、車道を走行中の自転車がカーブの先で車にはねられる事故が発生しました。この事故で自転車に乗っていた37歳男性が意識不明の重体とみられています。",
+      "publishedAt": "2026-11-21 22:50",
+      "publishedTs": 1795269000,
+      "image": "https://tse2.mm.bing.net/th?q=%E4%BA%AC%E6%88%90%E6%9C%AC%E7%B7%9A%E3%81%A7%E4%BA%BA%E8%BA%AB%E4%BA%8B%E6%95%85%20%E4%B8%80%E9%83%A8%E9%81%8B%E8%BB%A2%E8%A6%8B%E5%90%88%E3%82%8F%E3%81%9B&w=800&h=450&c=7&rs=1&p=0",
+      "summary": "京成大久保駅と実籾駅の間で発生した人身事故の影響により、京成本線は京成津田沼駅から八千代台駅までの下り線で運転を見合わせています。現在、沿線では振替輸送が実施されており、利用者に影響が出ています。",
       "points": [
-        "名古屋市西区の市道で車と自転車の事故が発生",
-        "カーブを曲がり切った先での衝突事故",
-        "自転車に乗っていた37歳男性が重体の模様"
+        "京成大久保～実籾駅間で人身事故が発生",
+        "京成本線の京成津田沼～八千代台駅間の下り線が運転見合わせ",
+        "影響区間では順次振替輸送を実施中"
       ],
-      "impact": "見通しの悪いカーブでの自転車走行の危険性が改めて浮き彫りになり、交通安全の徹底が求められます。",
+      "impact": "該当路線を利用する通勤や通学の足に乱れが生じており、最新の運行情報の確認や時間に余裕を持った移動が必要です。",
       "tags": [
-        "交通事故",
-        "名古屋市",
-        "自転車"
+        "京成本線",
+        "人身事故",
+        "運行情報"
       ],
-      "url": "https://news.yahoo.co.jp/articles/4b3c55d9542eb60067d17042b6aa830e0754b088?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/6d65318ecba80e66fe1171b84a3f33097440fb38?source=rss",
       "isAiEnriched": true
     },
     {
@@ -3935,24 +3952,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "キュウリやビール万引き、所持金2万8千円あるも容疑否認",
+      "title": "小田急小田原線、人身事故で一時見合わせも運転再開",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-21 22:27",
-      "publishedTs": 1795267636,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261121-23103666-cbcv-000-1-view.jpg?exp=10800",
-      "summary": "三重県桑名市のショッピングセンターで約7000円相当の商品を万引きしたとして、ベトナム国籍の男が逮捕されました。男は所持金を所持していながら「金を払った」と容疑を否認しています。",
+      "publishedAt": "2026-11-21 22:40",
+      "publishedTs": 1795268400,
+      "image": "https://tse2.mm.bing.net/th?q=%E5%B0%8F%E7%94%B0%E6%80%A5%E5%B0%8F%E7%94%B0%E5%8E%9F%E7%B7%9A%E3%81%A7%E4%BA%BA%E8%BA%AB%E4%BA%8B%E6%95%85%20%E9%81%8B%E8%BB%A2%E5%86%8D%E9%96%8B&w=800&h=450&c=7&rs=1&p=0",
+      "summary": "玉川学園前～町田駅間で発生した人身事故の影響により、小田急小田原線は新百合ケ丘～町田駅間で運転を見合わせていましたが、夜遅くに運転を再開しました。現在もダイヤが乱れています。",
       "points": [
-        "三重県桑名市のSCで食料品など23点を万引き",
-        "ベトナム国籍の自称大阪市住まいの男を逮捕",
-        "2万8千円の所持金があるも容疑を否認"
+        "玉川学園前～町田駅間で人身事故が発生",
+        "新百合ケ丘～町田駅間で一時運転見合わせ",
+        "同日22:34頃に運転再開、ダイヤ乱れ継続"
       ],
-      "impact": "小売店における万引き被害対策と、容疑者の不審な供述による事件の動機解明に警察の捜査が注目されています。",
+      "impact": "帰宅ラッシュや夜間の移動に大きな影響が出ており、利用者は最新の運行情報の確認が必要です。",
       "tags": [
-        "万引き",
-        "三重県",
-        "事件・事故"
+        "小田急線",
+        "人身事故",
+        "運行情報"
       ],
-      "url": "https://news.yahoo.co.jp/articles/5bf17774c7ca16f544158c2dfd4db03a0a6a5847?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/bfd106da6e138d4d3dd9e6cbe9032ca2ef37cee7?source=rss",
       "isAiEnriched": true
     },
     {
@@ -4045,24 +4062,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "大阪死亡女児の保育関係者「一時保護の検証を行って」",
+      "title": "名古屋市西区で自転車と車が衝突、37歳男性が重体",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-21 22:01",
-      "publishedTs": 1795266112,
-      "image": "https://tse2.mm.bing.net/th?q=%E8%A1%8C%E6%94%BF%E3%81%AF%E6%A4%9C%E8%A8%BC%E3%82%92%20%E5%A4%A7%E9%98%AA%E6%AD%BB%E4%BA%A1%E5%A5%B3%E5%85%90%E3%81%AE%E4%BF%9D%E8%82%B2%E9%96%A2%E4%BF%82%E8%80%85&w=800&h=450&c=7&rs=1&p=0",
-      "summary": "大阪府枚方市の女児死亡事件を巡り、かつて女児が通っていた保育施設の関係者が取材に応じました。最大限の支援をしてきたとした上で、行政に対して一時保護のタイミングなどの検証を求めました。",
+      "publishedAt": "2026-11-21 22:27",
+      "publishedTs": 1795267636,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261121-23103661-cbcv-000-1-view.jpg?exp=10800",
+      "summary": "名古屋市西区の市道で、車道を走行中の自転車がカーブの先で車にはねられる事故が発生しました。この事故で自転車に乗っていた37歳男性が意識不明の重体とみられています。",
       "points": [
-        "大阪・枚方市の女児死亡事件で保育関係者が取材に対応",
-        "施設として最大限の保育や支援を行ってきたと主張",
-        "行政に対し一時保護のタイミングなどの検証を要請"
+        "名古屋市西区の市道で車と自転車の事故が発生",
+        "カーブを曲がり切った先での衝突事故",
+        "自転車に乗っていた37歳男性が重体の模様"
       ],
-      "impact": "児童虐待防止や行政による保護判断のあり方について、さらなる事実解明と制度見直しの議論が深まっています。",
+      "impact": "見通しの悪いカーブでの自転車走行の危険性が改めて浮き彫りになり、交通安全の徹底が求められます。",
       "tags": [
-        "児童虐待",
-        "大阪府",
-        "保育施設"
+        "交通事故",
+        "名古屋市",
+        "自転車"
       ],
-      "url": "https://news.yahoo.co.jp/articles/8ff4033968271f6b2258cdeb5151bf70d7b40b70?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/4b3c55d9542eb60067d17042b6aa830e0754b088?source=rss",
       "isAiEnriched": true
     },
     {
@@ -4155,24 +4172,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "名古屋駅近くのマンションで火事、5階一室が火元か",
+      "title": "キュウリやビール万引き、所持金2万8千円あるも容疑否認",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-21 21:45",
-      "publishedTs": 1795265129,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261121-23103657-cbcv-000-1-thumb.jpg?exp=10800",
-      "summary": "名古屋市中村区の名古屋駅近くにある8階建てマンションで火災が発生しました。近隣住民から黒煙が見えると通報があり消防が出動しましたが、これまでのところけが人は確認されていません。",
+      "publishedAt": "2026-11-21 22:27",
+      "publishedTs": 1795267636,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261121-23103666-cbcv-000-1-view.jpg?exp=10800",
+      "summary": "三重県桑名市のショッピングセンターで約7000円相当の商品を万引きしたとして、ベトナム国籍の男が逮捕されました。男は所持金を所持していながら「金を払った」と容疑を否認しています。",
       "points": [
-        "名古屋市中村区の8階建てマンションで火災発生",
-        "近隣住民からの通報で消防が出動、黒煙が上がる",
-        "けが人はなし、5階の一室が火元とみられる"
+        "三重県桑名市のSCで食料品など23点を万引き",
+        "ベトナム国籍の自称大阪市住まいの男を逮捕",
+        "2万8千円の所持金があるも容疑を否認"
       ],
-      "impact": "駅周辺の密集地における火災発生は周辺住民に不安を与えましたが、迅速な対応で人的被害がなかったのは不幸中の幸いです。",
+      "impact": "小売店における万引き被害対策と、容疑者の不審な供述による事件の動機解明に警察の捜査が注目されています。",
       "tags": [
-        "火災",
-        "名古屋市",
-        "マンション"
+        "万引き",
+        "三重県",
+        "事件・事故"
       ],
-      "url": "https://news.yahoo.co.jp/articles/a1bffa05517f55f554a8c44af71eccab3a1d0ee3?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/5bf17774c7ca16f544158c2dfd4db03a0a6a5847?source=rss",
       "isAiEnriched": true
     },
     {
@@ -4265,24 +4282,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "福井県勝山市で71歳女性が除雪車にはねられ死亡",
+      "title": "大阪死亡女児の保育関係者「一時保護の検証を行って」",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-21 21:38",
-      "publishedTs": 1795264719,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261121-00000162-san-000-1-view.jpg?exp=10800",
-      "summary": "福井県勝山市の国道で、道路を横断していた71歳の女性が作業中だった除雪車にはねられる事故が発生しました。女性は病院に搬送されましたが、その後死亡が確認されました。",
+      "publishedAt": "2026-11-21 22:01",
+      "publishedTs": 1795266112,
+      "image": "https://tse2.mm.bing.net/th?q=%E8%A1%8C%E6%94%BF%E3%81%AF%E6%A4%9C%E8%A8%BC%E3%82%92%20%E5%A4%A7%E9%98%AA%E6%AD%BB%E4%BA%A1%E5%A5%B3%E5%85%90%E3%81%AE%E4%BF%9D%E8%82%B2%E9%96%A2%E4%BF%82%E8%80%85&w=800&h=450&c=7&rs=1&p=0",
+      "summary": "大阪府枚方市の女児死亡事件を巡り、かつて女児が通っていた保育施設の関係者が取材に応じました。最大限の支援をしてきたとした上で、行政に対して一時保護のタイミングなどの検証を求めました。",
       "points": [
-        "福井県勝山市の国道で歩行者と除雪車の事故が発生",
-        "71歳女性が作業中の除雪車にはねられ搬送先で死亡",
-        "警察が当時の詳しい事故原因を調査中"
+        "大阪・枚方市の女児死亡事件で保育関係者が取材に対応",
+        "施設として最大限の保育や支援を行ってきたと主張",
+        "行政に対し一時保護のタイミングなどの検証を要請"
       ],
-      "impact": "本格的な冬季の到来を前に、除雪作業車と歩行者の接触事故に対する注意喚起と安全対策の重要性が高まっています。",
+      "impact": "児童虐待防止や行政による保護判断のあり方について、さらなる事実解明と制度見直しの議論が深まっています。",
       "tags": [
-        "交通事故",
-        "福井県",
-        "除雪車"
+        "児童虐待",
+        "大阪府",
+        "保育施設"
       ],
-      "url": "https://news.yahoo.co.jp/articles/998ddb731538140c737e3d620cea54635571c50f?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/8ff4033968271f6b2258cdeb5151bf70d7b40b70?source=rss",
       "isAiEnriched": true
     },
     {
@@ -4352,47 +4369,25 @@ window.NEWS_DATA = {
       "isAiEnriched": true
     },
     {
-      "category": "subculture",
-      "title": "くら寿司、ちいかわコラボ皿をLINE抽選で配布へ",
-      "source": "togetter.com",
-      "publishedAt": "2026-11-21 01:52",
-      "publishedTs": 1795193554,
-      "image": "https://s.tgstc.com/ogp3/b3eeb7d33ffb26fcaba2e173c5a4755f-1200x630.jpeg",
-      "summary": "店員の不正行為で中止となった、くら寿司の「ちいかわ」寿司皿が、公式LINEを通じた抽選プレゼント形式で実施されることが決定。実施期間は11月25日から12月6日までとなります。",
-      "points": [
-        "店員の不正行為が原因で一度は配布中止となった",
-        "公式LINEを通じた抽選プレゼント形式に変更",
-        "抽選期間は11月25日11時から12月6日まで"
-      ],
-      "impact": "ファン待望のコラボグッズ入手機会が復活した一方、過去のトラブルに対する運営体制への目は依然として厳しそうです。",
-      "tags": [
-        "サブカルチャー",
-        "ちいかわ",
-        "くら寿司"
-      ],
-      "url": "https://togetter.com/li/2773047",
-      "isAiEnriched": true
-    },
-    {
       "category": "domestic",
-      "title": "政府広報のナオキマン起用に批判噴出",
+      "title": "名古屋駅近くのマンションで火事、5階一室が火元か",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-21 21:00",
-      "publishedTs": 1795262434,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261121-00403860-diamond-000-1-view.jpg?exp=10800",
-      "summary": "政府が安全保障の広報にユーチューバーを起用した件に関し、過去の発信確認不足などから批判が集まり、稲盛和夫の言葉を引き合いに警鐘が鳴らされている。",
+      "publishedAt": "2026-11-21 21:45",
+      "publishedTs": 1795265129,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261121-23103657-cbcv-000-1-thumb.jpg?exp=10800",
+      "summary": "名古屋市中村区の名古屋駅近くにある8階建てマンションで火災が発生しました。近隣住民から黒煙が見えると通報があり消防が出動しましたが、これまでのところけが人は確認されていません。",
       "points": [
-        "政府の安保広報に都市伝説系YouTuberを起用",
-        "若者への訴求を狙うも過去の発信確認が不足と批判",
-        "組織的な情報発信のあり方に疑問の声が上がる"
+        "名古屋市中村区の8階建てマンションで火災発生",
+        "近隣住民からの通報で消防が出動、黒煙が上がる",
+        "けが人はなし、5階の一室が火元とみられる"
       ],
-      "impact": "政府機関のSNS・インフルエンサー活用に関する議論が加速する。",
+      "impact": "駅周辺の密集地における火災発生は周辺住民に不安を与えましたが、迅速な対応で人的被害がなかったのは不幸中の幸いです。",
       "tags": [
-        "政治",
-        "YouTube",
-        "政府広報"
+        "火災",
+        "名古屋市",
+        "マンション"
       ],
-      "url": "https://news.yahoo.co.jp/articles/a329018d9c8886765616361274a866e64b66b27b?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/a1bffa05517f55f554a8c44af71eccab3a1d0ee3?source=rss",
       "isAiEnriched": true
     },
     {
@@ -4463,24 +4458,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "公明党、統一選で自民系推薦を見送りへ",
+      "title": "福井県勝山市で71歳女性が除雪車にはねられ死亡",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-21 21:00",
-      "publishedTs": 1795262400,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261121-00000127-kyodonews-000-6-view.jpg?pri=l&w=640&h=415&exp=10800",
-      "summary": "公明党は、閣僚の疑惑や与党主導の定数削減への反発から、来年春の統一地方選で自民党系候補を推薦しない方針を固め、独自路線を明確にした。",
+      "publishedAt": "2026-11-21 21:38",
+      "publishedTs": 1795264719,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261121-00000162-san-000-1-view.jpg?exp=10800",
+      "summary": "福井県勝山市の国道で、道路を横断していた71歳の女性が作業中だった除雪車にはねられる事故が発生しました。女性は病院に搬送されましたが、その後死亡が確認されました。",
       "points": [
-        "来春の統一地方選で自民系候補の推薦を見送り",
-        "閣僚の「政治とカネ」疑惑や定数削減に反発",
-        "連立離脱後の独自の政治スタンスを強める"
+        "福井県勝山市の国道で歩行者と除雪車の事故が発生",
+        "71歳女性が作業中の除雪車にはねられ搬送先で死亡",
+        "警察が当時の詳しい事故原因を調査中"
       ],
-      "impact": "今後の地方選挙や国政における与野党の勢力図に影響を与える。",
+      "impact": "本格的な冬季の到来を前に、除雪作業車と歩行者の接触事故に対する注意喚起と安全対策の重要性が高まっています。",
       "tags": [
-        "公明党",
-        "政治",
-        "統一地方選"
+        "交通事故",
+        "福井県",
+        "除雪車"
       ],
-      "url": "https://news.yahoo.co.jp/articles/2a1ce180bf49893e7f2fb0cdcdae0cff081f546e?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/998ddb731538140c737e3d620cea54635571c50f?source=rss",
       "isAiEnriched": true
     },
     {
