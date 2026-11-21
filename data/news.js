@@ -1,71 +1,71 @@
 window.NEWS_DATA = {
   "date": "2026年11月22日 (日)",
-  "updatedAt": "2026-11-22 03:43",
+  "updatedAt": "2026-11-22 04:33",
   "title": "TREND NEWS",
   "keywords": [
-    "OpenAI",
-    "GPT-6.2",
-    "AIエージェント",
-    "dots",
-    "多層防御"
+    "GENERATIONS",
+    "動員300万人突破",
+    "デビュー15周年",
+    "対バンツアー",
+    "アリーナツアー"
   ],
   "weatherCities": [
     {
       "name": "札幌",
       "region": "北海道",
-      "temp": -6,
-      "code": 45,
-      "wind": 4,
-      "maxTemp": 2,
-      "minTemp": -7,
+      "temp": -5,
+      "code": 2,
+      "wind": 2,
+      "maxTemp": 3,
+      "minTemp": -6,
       "pop": 24,
       "hourly": [
         {
-          "time": "03:00",
-          "code": 45,
-          "temp": -6,
-          "pop": 2
-        },
-        {
-          "time": "06:00",
-          "code": 45,
-          "temp": -6,
+          "time": "04:00",
+          "code": 1,
+          "temp": -5,
           "pop": 0
         },
         {
-          "time": "09:00",
-          "code": 1,
-          "temp": -1,
-          "pop": 4
+          "time": "07:00",
+          "code": 0,
+          "temp": -5,
+          "pop": 1
         },
         {
-          "time": "12:00",
+          "time": "10:00",
+          "code": 3,
+          "temp": 2,
+          "pop": 5
+        },
+        {
+          "time": "13:00",
           "code": 3,
           "temp": 2,
           "pop": 6
         },
         {
-          "time": "15:00",
+          "time": "16:00",
           "code": 3,
-          "temp": 2,
-          "pop": 4
+          "temp": 0,
+          "pop": 3
         },
         {
-          "time": "18:00",
+          "time": "19:00",
           "code": 3,
           "temp": -1,
           "pop": 0
         },
         {
-          "time": "21:00",
+          "time": "22:00",
           "code": 3,
-          "temp": -2,
+          "temp": -1,
           "pop": 0
         },
         {
-          "time": "00:00",
-          "code": 2,
-          "temp": -2,
+          "time": "01:00",
+          "code": 3,
+          "temp": -1,
           "pop": 0
         }
       ],
@@ -74,8 +74,8 @@ window.NEWS_DATA = {
           "date": "11/22",
           "dow": "今日",
           "code": 45,
-          "maxTemp": 2,
-          "minTemp": -7,
+          "maxTemp": 3,
+          "minTemp": -6,
           "pop": 24
         },
         {
@@ -83,13 +83,13 @@ window.NEWS_DATA = {
           "dow": "明日",
           "code": 51,
           "maxTemp": 7,
-          "minTemp": -3,
+          "minTemp": -2,
           "pop": 49
         },
         {
           "date": "11/24",
           "dow": "火",
-          "code": 81,
+          "code": 80,
           "maxTemp": 8,
           "minTemp": -2,
           "pop": 99
@@ -97,7 +97,7 @@ window.NEWS_DATA = {
         {
           "date": "11/25",
           "dow": "水",
-          "code": 71,
+          "code": 85,
           "maxTemp": 0,
           "minTemp": -3,
           "pop": 82
@@ -106,23 +106,23 @@ window.NEWS_DATA = {
           "date": "11/26",
           "dow": "木",
           "code": 71,
-          "maxTemp": 8,
-          "minTemp": -3,
+          "maxTemp": 6,
+          "minTemp": -2,
           "pop": 76
         },
         {
           "date": "11/27",
           "dow": "金",
           "code": 51,
-          "maxTemp": 9,
-          "minTemp": -4,
+          "maxTemp": 11,
+          "minTemp": -2,
           "pop": 41
         },
         {
           "date": "11/28",
           "dow": "土",
-          "code": 51,
-          "maxTemp": 14,
+          "code": 95,
+          "maxTemp": 11,
           "minTemp": 2,
           "pop": 65
         }
@@ -132,56 +132,56 @@ window.NEWS_DATA = {
       "name": "仙台",
       "region": "東北",
       "temp": 2,
-      "code": 1,
-      "wind": 4,
+      "code": 0,
+      "wind": 5,
       "maxTemp": 9,
       "minTemp": 2,
       "pop": 59,
       "hourly": [
         {
-          "time": "03:00",
+          "time": "04:00",
           "code": 1,
           "temp": 2,
-          "pop": 41
+          "pop": 34
         },
         {
-          "time": "06:00",
+          "time": "07:00",
           "code": 0,
           "temp": 2,
-          "pop": 20
+          "pop": 14
         },
         {
-          "time": "09:00",
-          "code": 1,
-          "temp": 6,
-          "pop": 6
-        },
-        {
-          "time": "12:00",
+          "time": "10:00",
           "code": 0,
-          "temp": 9,
+          "temp": 8,
           "pop": 4
         },
         {
-          "time": "15:00",
+          "time": "13:00",
           "code": 0,
           "temp": 9,
-          "pop": 6
+          "pop": 5
         },
         {
-          "time": "18:00",
+          "time": "16:00",
           "code": 0,
-          "temp": 6,
+          "temp": 8,
+          "pop": 4
+        },
+        {
+          "time": "19:00",
+          "code": 0,
+          "temp": 5,
           "pop": 0
         },
         {
-          "time": "21:00",
+          "time": "22:00",
           "code": 0,
-          "temp": 4,
+          "temp": 3,
           "pop": 0
         },
         {
-          "time": "00:00",
+          "time": "01:00",
           "code": 0,
           "temp": 3,
           "pop": 0
@@ -217,15 +217,15 @@ window.NEWS_DATA = {
           "dow": "水",
           "code": 51,
           "maxTemp": 7,
-          "minTemp": 2,
+          "minTemp": 1,
           "pop": 86
         },
         {
           "date": "11/26",
           "dow": "木",
           "code": 3,
-          "maxTemp": 14,
-          "minTemp": 1,
+          "maxTemp": 13,
+          "minTemp": 2,
           "pop": 12
         },
         {
@@ -240,8 +240,8 @@ window.NEWS_DATA = {
           "date": "11/28",
           "dow": "土",
           "code": 51,
-          "maxTemp": 20,
-          "minTemp": 5,
+          "maxTemp": 17,
+          "minTemp": 6,
           "pop": 50
         }
       ]
@@ -250,59 +250,59 @@ window.NEWS_DATA = {
       "name": "新潟",
       "region": "北陸",
       "temp": 2,
-      "code": 63,
-      "wind": 9,
+      "code": 61,
+      "wind": 2,
       "maxTemp": 8,
       "minTemp": 2,
       "pop": 100,
       "hourly": [
         {
-          "time": "03:00",
+          "time": "04:00",
           "code": 63,
-          "temp": 3,
-          "pop": 100
-        },
-        {
-          "time": "06:00",
-          "code": 51,
           "temp": 2,
           "pop": 100
         },
         {
-          "time": "09:00",
-          "code": 61,
+          "time": "07:00",
+          "code": 53,
           "temp": 3,
           "pop": 100
         },
         {
-          "time": "12:00",
-          "code": 51,
-          "temp": 6,
-          "pop": 90
+          "time": "10:00",
+          "code": 55,
+          "temp": 4,
+          "pop": 97
         },
         {
-          "time": "15:00",
-          "code": 51,
+          "time": "13:00",
+          "code": 53,
+          "temp": 6,
+          "pop": 91
+        },
+        {
+          "time": "16:00",
+          "code": 2,
           "temp": 8,
-          "pop": 96
+          "pop": 94
         },
         {
-          "time": "18:00",
-          "code": 1,
+          "time": "19:00",
+          "code": 2,
           "temp": 6,
-          "pop": 84
+          "pop": 72
         },
         {
-          "time": "21:00",
-          "code": 51,
-          "temp": 5,
-          "pop": 47
-        },
-        {
-          "time": "00:00",
+          "time": "22:00",
           "code": 51,
           "temp": 4,
-          "pop": 41
+          "pop": 43
+        },
+        {
+          "time": "01:00",
+          "code": 51,
+          "temp": 4,
+          "pop": 33
         }
       ],
       "daily": [
@@ -333,7 +333,7 @@ window.NEWS_DATA = {
         {
           "date": "11/25",
           "dow": "水",
-          "code": 53,
+          "code": 85,
           "maxTemp": 8,
           "minTemp": 4,
           "pop": 98
@@ -341,25 +341,25 @@ window.NEWS_DATA = {
         {
           "date": "11/26",
           "dow": "木",
-          "code": 53,
-          "maxTemp": 15,
+          "code": 80,
+          "maxTemp": 14,
           "minTemp": 5,
           "pop": 82
         },
         {
           "date": "11/27",
           "dow": "金",
-          "code": 53,
+          "code": 51,
           "maxTemp": 18,
-          "minTemp": 9,
+          "minTemp": 8,
           "pop": 37
         },
         {
           "date": "11/28",
           "dow": "土",
-          "code": 80,
-          "maxTemp": 18,
-          "minTemp": 9,
+          "code": 55,
+          "maxTemp": 16,
+          "minTemp": 8,
           "pop": 83
         }
       ]
@@ -367,58 +367,58 @@ window.NEWS_DATA = {
     {
       "name": "金沢",
       "region": "北陸",
-      "temp": 7,
-      "code": 51,
-      "wind": 11,
+      "temp": 6,
+      "code": 63,
+      "wind": 5,
       "maxTemp": 8,
       "minTemp": 4,
       "pop": 100,
       "hourly": [
         {
-          "time": "03:00",
+          "time": "04:00",
           "code": 51,
           "temp": 7,
-          "pop": 98
+          "pop": 99
         },
         {
-          "time": "06:00",
-          "code": 61,
+          "time": "07:00",
+          "code": 55,
           "temp": 5,
-          "pop": 100
+          "pop": 97
         },
         {
-          "time": "09:00",
-          "code": 53,
-          "temp": 5,
-          "pop": 90
-        },
-        {
-          "time": "12:00",
-          "code": 1,
-          "temp": 8,
-          "pop": 84
-        },
-        {
-          "time": "15:00",
-          "code": 1,
-          "temp": 8,
-          "pop": 57
-        },
-        {
-          "time": "18:00",
-          "code": 1,
+          "time": "10:00",
+          "code": 51,
           "temp": 6,
-          "pop": 22
+          "pop": 88
         },
         {
-          "time": "21:00",
+          "time": "13:00",
+          "code": 3,
+          "temp": 8,
+          "pop": 77
+        },
+        {
+          "time": "16:00",
+          "code": 1,
+          "temp": 8,
+          "pop": 45
+        },
+        {
+          "time": "19:00",
+          "code": 51,
+          "temp": 6,
+          "pop": 13
+        },
+        {
+          "time": "22:00",
           "code": 0,
           "temp": 5,
           "pop": 0
         },
         {
-          "time": "00:00",
-          "code": 1,
+          "time": "01:00",
+          "code": 0,
           "temp": 4,
           "pop": 0
         }
@@ -451,8 +451,8 @@ window.NEWS_DATA = {
         {
           "date": "11/25",
           "dow": "水",
-          "code": 53,
-          "maxTemp": 9,
+          "code": 80,
+          "maxTemp": 8,
           "minTemp": 4,
           "pop": 100
         },
@@ -461,21 +461,21 @@ window.NEWS_DATA = {
           "dow": "木",
           "code": 51,
           "maxTemp": 14,
-          "minTemp": 7,
+          "minTemp": 6,
           "pop": 12
         },
         {
           "date": "11/27",
           "dow": "金",
-          "code": 3,
-          "maxTemp": 19,
-          "minTemp": 9,
+          "code": 2,
+          "maxTemp": 20,
+          "minTemp": 8,
           "pop": 2
         },
         {
           "date": "11/28",
           "dow": "土",
-          "code": 80,
+          "code": 55,
           "maxTemp": 17,
           "minTemp": 7,
           "pop": 87
@@ -485,57 +485,57 @@ window.NEWS_DATA = {
     {
       "name": "東京",
       "region": "関東",
-      "temp": 7,
+      "temp": 6,
       "code": 0,
-      "wind": 2,
+      "wind": 4,
       "maxTemp": 13,
       "minTemp": 6,
       "pop": 0,
       "hourly": [
         {
-          "time": "03:00",
-          "code": 0,
-          "temp": 7,
-          "pop": 0
-        },
-        {
-          "time": "06:00",
+          "time": "04:00",
           "code": 0,
           "temp": 6,
           "pop": 0
         },
         {
-          "time": "09:00",
+          "time": "07:00",
           "code": 0,
-          "temp": 8,
+          "temp": 6,
           "pop": 0
         },
         {
-          "time": "12:00",
+          "time": "10:00",
+          "code": 0,
+          "temp": 10,
+          "pop": 0
+        },
+        {
+          "time": "13:00",
           "code": 0,
           "temp": 12,
           "pop": 0
         },
         {
-          "time": "15:00",
+          "time": "16:00",
           "code": 0,
           "temp": 12,
           "pop": 0
         },
         {
-          "time": "18:00",
+          "time": "19:00",
           "code": 1,
           "temp": 10,
           "pop": 0
         },
         {
-          "time": "21:00",
+          "time": "22:00",
           "code": 0,
           "temp": 8,
           "pop": 0
         },
         {
-          "time": "00:00",
+          "time": "01:00",
           "code": 0,
           "temp": 7,
           "pop": 0
@@ -569,7 +569,7 @@ window.NEWS_DATA = {
         {
           "date": "11/25",
           "dow": "水",
-          "code": 3,
+          "code": 51,
           "maxTemp": 12,
           "minTemp": 6,
           "pop": 6
@@ -578,7 +578,7 @@ window.NEWS_DATA = {
           "date": "11/26",
           "dow": "木",
           "code": 3,
-          "maxTemp": 14,
+          "maxTemp": 13,
           "minTemp": 4,
           "pop": 0
         },
@@ -587,15 +587,15 @@ window.NEWS_DATA = {
           "dow": "金",
           "code": 3,
           "maxTemp": 16,
-          "minTemp": 7,
+          "minTemp": 6,
           "pop": 2
         },
         {
           "date": "11/28",
           "dow": "土",
-          "code": 1,
-          "maxTemp": 20,
-          "minTemp": 6,
+          "code": 80,
+          "maxTemp": 15,
+          "minTemp": 8,
           "pop": 16
         }
       ]
@@ -605,55 +605,55 @@ window.NEWS_DATA = {
       "region": "東海",
       "temp": 5,
       "code": 0,
-      "wind": 2,
+      "wind": 0,
       "maxTemp": 10,
       "minTemp": 4,
       "pop": 0,
       "hourly": [
         {
-          "time": "03:00",
+          "time": "04:00",
           "code": 0,
           "temp": 5,
           "pop": 0
         },
         {
-          "time": "06:00",
+          "time": "07:00",
           "code": 0,
           "temp": 4,
           "pop": 0
         },
         {
-          "time": "09:00",
-          "code": 0,
-          "temp": 6,
-          "pop": 0
-        },
-        {
-          "time": "12:00",
-          "code": 1,
-          "temp": 10,
-          "pop": 0
-        },
-        {
-          "time": "15:00",
-          "code": 0,
-          "temp": 10,
-          "pop": 0
-        },
-        {
-          "time": "18:00",
+          "time": "10:00",
           "code": 0,
           "temp": 8,
           "pop": 0
         },
         {
-          "time": "21:00",
-          "code": 0,
-          "temp": 7,
+          "time": "13:00",
+          "code": 2,
+          "temp": 10,
           "pop": 0
         },
         {
-          "time": "00:00",
+          "time": "16:00",
+          "code": 0,
+          "temp": 10,
+          "pop": 0
+        },
+        {
+          "time": "19:00",
+          "code": 0,
+          "temp": 8,
+          "pop": 0
+        },
+        {
+          "time": "22:00",
+          "code": 0,
+          "temp": 6,
+          "pop": 0
+        },
+        {
+          "time": "01:00",
           "code": 0,
           "temp": 5,
           "pop": 0
@@ -696,14 +696,14 @@ window.NEWS_DATA = {
           "date": "11/26",
           "dow": "木",
           "code": 3,
-          "maxTemp": 13,
+          "maxTemp": 12,
           "minTemp": 1,
           "pop": 0
         },
         {
           "date": "11/27",
           "dow": "金",
-          "code": 3,
+          "code": 53,
           "maxTemp": 16,
           "minTemp": 5,
           "pop": 8
@@ -711,7 +711,7 @@ window.NEWS_DATA = {
         {
           "date": "11/28",
           "dow": "土",
-          "code": 0,
+          "code": 81,
           "maxTemp": 18,
           "minTemp": 6,
           "pop": 33
@@ -723,57 +723,57 @@ window.NEWS_DATA = {
       "region": "近畿",
       "temp": 6,
       "code": 0,
-      "wind": 3,
+      "wind": 4,
       "maxTemp": 12,
       "minTemp": 5,
       "pop": 6,
       "hourly": [
         {
-          "time": "03:00",
+          "time": "04:00",
           "code": 0,
           "temp": 6,
           "pop": 0
         },
         {
-          "time": "06:00",
+          "time": "07:00",
           "code": 1,
           "temp": 5,
           "pop": 0
         },
         {
-          "time": "09:00",
-          "code": 0,
-          "temp": 9,
-          "pop": 0
-        },
-        {
-          "time": "12:00",
-          "code": 0,
-          "temp": 11,
-          "pop": 0
-        },
-        {
-          "time": "15:00",
-          "code": 1,
-          "temp": 12,
-          "pop": 6
-        },
-        {
-          "time": "18:00",
+          "time": "10:00",
           "code": 0,
           "temp": 10,
           "pop": 0
         },
         {
-          "time": "21:00",
+          "time": "13:00",
+          "code": 0,
+          "temp": 12,
+          "pop": 2
+        },
+        {
+          "time": "16:00",
+          "code": 1,
+          "temp": 12,
+          "pop": 5
+        },
+        {
+          "time": "19:00",
+          "code": 0,
+          "temp": 9,
+          "pop": 0
+        },
+        {
+          "time": "22:00",
           "code": 0,
           "temp": 8,
           "pop": 0
         },
         {
-          "time": "00:00",
+          "time": "01:00",
           "code": 0,
-          "temp": 7,
+          "temp": 6,
           "pop": 0
         }
       ],
@@ -806,14 +806,14 @@ window.NEWS_DATA = {
           "date": "11/25",
           "dow": "水",
           "code": 2,
-          "maxTemp": 12,
+          "maxTemp": 11,
           "minTemp": 4,
           "pop": 0
         },
         {
           "date": "11/26",
           "dow": "木",
-          "code": 3,
+          "code": 45,
           "maxTemp": 12,
           "minTemp": 2,
           "pop": 2
@@ -821,7 +821,7 @@ window.NEWS_DATA = {
         {
           "date": "11/27",
           "dow": "金",
-          "code": 3,
+          "code": 80,
           "maxTemp": 18,
           "minTemp": 7,
           "pop": 12
@@ -829,8 +829,8 @@ window.NEWS_DATA = {
         {
           "date": "11/28",
           "dow": "土",
-          "code": 2,
-          "maxTemp": 17,
+          "code": 80,
+          "maxTemp": 18,
           "minTemp": 8,
           "pop": 29
         }
@@ -841,55 +841,55 @@ window.NEWS_DATA = {
       "region": "中国",
       "temp": 5,
       "code": 0,
-      "wind": 4,
+      "wind": 6,
       "maxTemp": 11,
       "minTemp": 4,
       "pop": 7,
       "hourly": [
         {
-          "time": "03:00",
+          "time": "04:00",
           "code": 0,
           "temp": 5,
-          "pop": 6
+          "pop": 4
         },
         {
-          "time": "06:00",
+          "time": "07:00",
           "code": 0,
           "temp": 5,
           "pop": 0
         },
         {
-          "time": "09:00",
+          "time": "10:00",
           "code": 1,
-          "temp": 7,
+          "temp": 8,
           "pop": 0
         },
         {
-          "time": "12:00",
-          "code": 0,
-          "temp": 10,
-          "pop": 0
-        },
-        {
-          "time": "15:00",
+          "time": "13:00",
           "code": 0,
           "temp": 11,
           "pop": 0
         },
         {
-          "time": "18:00",
+          "time": "16:00",
           "code": 0,
-          "temp": 8,
+          "temp": 10,
           "pop": 0
         },
         {
-          "time": "21:00",
+          "time": "19:00",
+          "code": 0,
+          "temp": 7,
+          "pop": 0
+        },
+        {
+          "time": "22:00",
           "code": 0,
           "temp": 5,
           "pop": 0
         },
         {
-          "time": "00:00",
+          "time": "01:00",
           "code": 0,
           "temp": 4,
           "pop": 0
@@ -923,7 +923,7 @@ window.NEWS_DATA = {
         {
           "date": "11/25",
           "dow": "水",
-          "code": 2,
+          "code": 3,
           "maxTemp": 10,
           "minTemp": 2,
           "pop": 2
@@ -932,24 +932,24 @@ window.NEWS_DATA = {
           "date": "11/26",
           "dow": "木",
           "code": 3,
-          "maxTemp": 12,
-          "minTemp": 1,
+          "maxTemp": 13,
+          "minTemp": 2,
           "pop": 0
         },
         {
           "date": "11/27",
           "dow": "金",
-          "code": 1,
-          "maxTemp": 16,
+          "code": 51,
+          "maxTemp": 17,
           "minTemp": 5,
           "pop": 9
         },
         {
           "date": "11/28",
           "dow": "土",
-          "code": 2,
-          "maxTemp": 18,
-          "minTemp": 8,
+          "code": 51,
+          "maxTemp": 15,
+          "minTemp": 6,
           "pop": 20
         }
       ]
@@ -965,49 +965,49 @@ window.NEWS_DATA = {
       "pop": 0,
       "hourly": [
         {
-          "time": "03:00",
+          "time": "04:00",
           "code": 1,
           "temp": 6,
           "pop": 0
         },
         {
-          "time": "06:00",
+          "time": "07:00",
           "code": 0,
           "temp": 6,
           "pop": 0
         },
         {
-          "time": "09:00",
+          "time": "10:00",
           "code": 0,
-          "temp": 9,
+          "temp": 10,
           "pop": 0
         },
         {
-          "time": "12:00",
-          "code": 0,
-          "temp": 12,
-          "pop": 0
-        },
-        {
-          "time": "15:00",
+          "time": "13:00",
           "code": 0,
           "temp": 12,
           "pop": 0
         },
         {
-          "time": "18:00",
+          "time": "16:00",
           "code": 0,
-          "temp": 8,
+          "temp": 11,
           "pop": 0
         },
         {
-          "time": "21:00",
+          "time": "19:00",
           "code": 0,
-          "temp": 6,
+          "temp": 7,
           "pop": 0
         },
         {
-          "time": "00:00",
+          "time": "22:00",
+          "code": 0,
+          "temp": 5,
+          "pop": 0
+        },
+        {
+          "time": "01:00",
           "code": 0,
           "temp": 5,
           "pop": 0
@@ -1042,7 +1042,7 @@ window.NEWS_DATA = {
           "date": "11/25",
           "dow": "水",
           "code": 2,
-          "maxTemp": 13,
+          "maxTemp": 12,
           "minTemp": 3,
           "pop": 0
         },
@@ -1051,13 +1051,13 @@ window.NEWS_DATA = {
           "dow": "木",
           "code": 3,
           "maxTemp": 14,
-          "minTemp": 3,
+          "minTemp": 2,
           "pop": 1
         },
         {
           "date": "11/27",
           "dow": "金",
-          "code": 3,
+          "code": 53,
           "maxTemp": 20,
           "minTemp": 9,
           "pop": 11
@@ -1065,9 +1065,9 @@ window.NEWS_DATA = {
         {
           "date": "11/28",
           "dow": "土",
-          "code": 0,
-          "maxTemp": 21,
-          "minTemp": 5,
+          "code": 53,
+          "maxTemp": 18,
+          "minTemp": 8,
           "pop": 22
         }
       ]
@@ -1077,55 +1077,55 @@ window.NEWS_DATA = {
       "region": "九州",
       "temp": 9,
       "code": 1,
-      "wind": 28,
+      "wind": 26,
       "maxTemp": 11,
       "minTemp": 8,
       "pop": 75,
       "hourly": [
         {
-          "time": "03:00",
-          "code": 2,
-          "temp": 10,
-          "pop": 10
+          "time": "04:00",
+          "code": 1,
+          "temp": 9,
+          "pop": 2
         },
         {
-          "time": "06:00",
+          "time": "07:00",
           "code": 2,
           "temp": 9,
           "pop": 0
         },
         {
-          "time": "09:00",
+          "time": "10:00",
           "code": 2,
           "temp": 9,
           "pop": 0
         },
         {
-          "time": "12:00",
-          "code": 2,
-          "temp": 9,
-          "pop": 0
-        },
-        {
-          "time": "15:00",
+          "time": "13:00",
           "code": 2,
           "temp": 10,
           "pop": 0
         },
         {
-          "time": "18:00",
+          "time": "16:00",
+          "code": 2,
+          "temp": 10,
+          "pop": 0
+        },
+        {
+          "time": "19:00",
           "code": 1,
           "temp": 10,
           "pop": 0
         },
         {
-          "time": "21:00",
+          "time": "22:00",
           "code": 1,
           "temp": 9,
           "pop": 0
         },
         {
-          "time": "00:00",
+          "time": "01:00",
           "code": 1,
           "temp": 8,
           "pop": 0
@@ -1160,8 +1160,8 @@ window.NEWS_DATA = {
           "date": "11/25",
           "dow": "水",
           "code": 3,
-          "maxTemp": 11,
-          "minTemp": 4,
+          "maxTemp": 10,
+          "minTemp": 6,
           "pop": 2
         },
         {
@@ -1169,7 +1169,7 @@ window.NEWS_DATA = {
           "dow": "木",
           "code": 3,
           "maxTemp": 14,
-          "minTemp": 4,
+          "minTemp": 6,
           "pop": 1
         },
         {
@@ -1184,8 +1184,8 @@ window.NEWS_DATA = {
           "date": "11/28",
           "dow": "土",
           "code": 51,
-          "maxTemp": 16,
-          "minTemp": 10,
+          "maxTemp": 14,
+          "minTemp": 9,
           "pop": 25
         }
       ]
@@ -1194,58 +1194,58 @@ window.NEWS_DATA = {
       "name": "那覇",
       "region": "沖縄",
       "temp": 17,
-      "code": 1,
+      "code": 0,
       "wind": 10,
-      "maxTemp": 21,
-      "minTemp": 17,
+      "maxTemp": 22,
+      "minTemp": 16,
       "pop": 0,
       "hourly": [
         {
-          "time": "03:00",
-          "code": 1,
+          "time": "04:00",
+          "code": 0,
           "temp": 17,
           "pop": 0
         },
         {
-          "time": "06:00",
+          "time": "07:00",
           "code": 3,
           "temp": 17,
           "pop": 0
         },
         {
-          "time": "09:00",
+          "time": "10:00",
+          "code": 3,
+          "temp": 20,
+          "pop": 0
+        },
+        {
+          "time": "13:00",
+          "code": 1,
+          "temp": 21,
+          "pop": 0
+        },
+        {
+          "time": "16:00",
+          "code": 0,
+          "temp": 21,
+          "pop": 0
+        },
+        {
+          "time": "19:00",
+          "code": 0,
+          "temp": 18,
+          "pop": 0
+        },
+        {
+          "time": "22:00",
+          "code": 0,
+          "temp": 18,
+          "pop": 0
+        },
+        {
+          "time": "01:00",
           "code": 3,
           "temp": 19,
-          "pop": 0
-        },
-        {
-          "time": "12:00",
-          "code": 1,
-          "temp": 21,
-          "pop": 0
-        },
-        {
-          "time": "15:00",
-          "code": 2,
-          "temp": 21,
-          "pop": 0
-        },
-        {
-          "time": "18:00",
-          "code": 0,
-          "temp": 18,
-          "pop": 0
-        },
-        {
-          "time": "21:00",
-          "code": 0,
-          "temp": 18,
-          "pop": 0
-        },
-        {
-          "time": "00:00",
-          "code": 1,
-          "temp": 18,
           "pop": 0
         }
       ],
@@ -1254,56 +1254,56 @@ window.NEWS_DATA = {
           "date": "11/22",
           "dow": "今日",
           "code": 3,
-          "maxTemp": 21,
-          "minTemp": 17,
+          "maxTemp": 22,
+          "minTemp": 16,
           "pop": 0
         },
         {
           "date": "11/23",
           "dow": "明日",
           "code": 3,
-          "maxTemp": 24,
+          "maxTemp": 23,
           "minTemp": 18,
           "pop": 2
         },
         {
           "date": "11/24",
           "dow": "火",
-          "code": 53,
-          "maxTemp": 26,
-          "minTemp": 20,
+          "code": 80,
+          "maxTemp": 25,
+          "minTemp": 19,
           "pop": 80
         },
         {
           "date": "11/25",
           "dow": "水",
           "code": 3,
-          "maxTemp": 22,
+          "maxTemp": 21,
           "minTemp": 18,
           "pop": 25
         },
         {
           "date": "11/26",
           "dow": "木",
-          "code": 53,
-          "maxTemp": 25,
-          "minTemp": 20,
+          "code": 82,
+          "maxTemp": 22,
+          "minTemp": 19,
           "pop": 57
         },
         {
           "date": "11/27",
           "dow": "金",
-          "code": 53,
-          "maxTemp": 26,
+          "code": 51,
+          "maxTemp": 25,
           "minTemp": 21,
           "pop": 48
         },
         {
           "date": "11/28",
           "dow": "土",
-          "code": 51,
-          "maxTemp": 24,
-          "minTemp": 20,
+          "code": 3,
+          "maxTemp": 23,
+          "minTemp": 18,
           "pop": 61
         }
       ]
@@ -2148,24 +2148,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "entertainment",
-      "title": "ブルーノ・マーズ、父の死去を公表",
+      "title": "GENERATIONS、動員300万人突破と15周年企画を発表",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-22 01:06",
-      "publishedTs": 1795277180,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261122-00010001-thrjapan-000-1-view.jpg?exp=10800",
-      "summary": "グラミー賞受賞アーティストのブルーノ・マーズが、父親でミュージシャンのピーター・ヘルナンデスの死去をInstagramで公表しました。74歳でした。",
+      "publishedAt": "2026-11-22 04:00",
+      "publishedTs": 1795287653,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261122-00000002-chuspo-000-1-view.jpg?exp=10800",
+      "summary": "デビュー記念日の21日、福井県でのツアー公演でライブ総観客動員数300万人を突破した。さらに15周年記念プロジェクトとして対バンライブやアリーナツアーの開催も発表された。",
       "points": [
-        "父親のピーター・ヘルナンデスが74歳で死去",
-        "ブルーノ・マーズがInstagramで家族写真を投稿",
-        "音楽の道を教えてくれた父親に感謝と追悼を表明"
+        "デビュー記念日にサンドーム福井で公演を開催",
+        "ライブ総観客動員数が300万人を突破",
+        "15周年記念の対バンライブとアリーナツアー開催を発表"
       ],
-      "impact": "世界的なアーティストの訃報に、音楽ファンや関係者から多くの哀悼の意が寄せられています。",
+      "impact": "グループの節目の年を迎え、ファン待望の大規模ツアーや新企画の発表にエンタメ業界の注目が集まる。",
       "tags": [
-        "ブルーノ・マーズ",
-        "訃報",
-        "音楽"
+        "GENERATIONS",
+        "ライブ",
+        "エンタメ"
       ],
-      "url": "https://news.yahoo.co.jp/articles/8bdcc1fd8e5480148fc19a75b347a4c0fec99491?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/20672142c9794ec92ab25a94f8b2cba0789ce07d?source=rss",
       "isAiEnriched": true
     },
     {
@@ -2258,24 +2258,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "entertainment",
-      "title": "Creepy Nuts、最新アルバム2月発売",
+      "title": "GENERATIONS、LDH初の社外対バンツアー開催へ",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-22 00:45",
-      "publishedTs": 1795275939,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261122-00010001-theadline-000-1-view.jpg?exp=10800",
-      "summary": "ヒップホップユニットのCreepy Nutsが、2027年2月10日にニューアルバムを発売することを発表しました。北米ツアーを追ったドキュメンタリー映画の公開に合わせて明かされました。",
+      "publishedAt": "2026-11-22 04:00",
+      "publishedTs": 1795287612,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261122-00000002-natalien-000-1-view.jpg?exp=10800",
+      "summary": "15周年イヤーの幕開けとして、2027年3月にLDH初となる社外アーティストとの対バンツアー「OFF WE GO!!」の開催を発表。5月からは全国アリーナツアーも予定されている。",
       "points": [
-        "ニューアルバムの発売日が2027年2月10日に決定",
-        "北米ツアーの様子を追ったドキュメンタリー映画も公開",
-        "メンバー自身もアルバムの仕上がりに自信を覗かせる"
+        "2027年3月に社外対バンツアーを開催",
+        "サウシー、きゅーすと、アレキらが出演予定",
+        "同年5月からは全国アリーナツアーもスタート"
       ],
-      "impact": "国内外で活躍を続ける彼らの新作発表は、音楽シーンやファンにとって大きな注目を集めるトピックとなります。",
+      "impact": "事務所の垣根を越えたコラボレーションは、音楽シーンやファン層の拡大において新たな試みとなる。",
       "tags": [
-        "Creepy Nuts",
-        "アルバム",
+        "GENERATIONS",
+        "対バンツアー",
         "音楽"
       ],
-      "url": "https://news.yahoo.co.jp/articles/5f3e3858b26386fd76395074380d896f8204981f?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/ba68dfea05d39376065a6f238c6aa54e00d7ffa3?source=rss",
       "isAiEnriched": true
     },
     {
@@ -2368,24 +2368,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "entertainment",
-      "title": "Cocomi、アニメキャラとの推し活公開",
+      "title": "ジェネが動員300万人達成、「ここは通過点」と意欲",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-22 00:42",
-      "publishedTs": 1795275736,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261122-10290866-abemav-000-1-view.jpg?exp=10800",
-      "summary": "木村拓哉と工藤静香の長女でフルート奏者のCocomiが、人気アニメキャラクターとの推し活を楽しむ微笑ましいショットをSNSで公開し、話題を集めています。",
+      "publishedAt": "2026-11-22 04:00",
+      "publishedTs": 1795287608,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261122-11211354-sph-000-1-view.jpg?exp=10800",
+      "summary": "デビュー14回目の記念日に福井でアリーナツアーを行ったGENERATIONS。8400人のファンと誕生日を祝い、メンバーの数原龍友は「ここは通過点」とさらなる飛躍を誓った。",
       "points": [
-        "フルート奏者のCocomiが推し活ショットを公開",
-        "人気アニメキャラクターと一緒に撮影されたプライベート感あふれる写真",
-        "家族やファンとの温かい交流の様子が垣間見える"
+        "デビュー14周年記念日にアリーナツアー福井公演を開催",
+        "8400人のファンと共に記念日を祝福",
+        "数原龍友が「ここは通過点」と力強くコメント"
       ],
-      "impact": "著名人の親しみやすい趣味やプライベートの一面は、SNSを中心に幅広い世代の関心を集めています。",
+      "impact": "長年支持されるアーティストとしての確かな実績と、未来に向けた強いモチベーションを示すニュース。",
       "tags": [
-        "Cocomi",
-        "推し活",
-        "芸能"
+        "GENERATIONS",
+        "数原龍友",
+        "ライブ"
       ],
-      "url": "https://news.yahoo.co.jp/articles/63f6ea323db70b0422cd223bd858232acc0fcf92?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/e7427427fd992a701510062041c75ae77002d77a?source=rss",
       "isAiEnriched": true
     },
     {
@@ -2478,24 +2478,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "entertainment",
-      "title": "RQ木村楓、オープンカーでのドライブ姿",
+      "title": "GENERATIONS、15年目突入で「6人で作れるライブ」",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-22 00:30",
-      "publishedTs": 1795275002,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261122-00010003-nishispo-000-1-view.jpg?exp=10800",
-      "summary": "レースクイーンの木村楓がオープンカーを運転する様子を公開し、そのヘルシーでスタイリッシュな姿がファンやネット上で大きな注目を集めています。",
+      "publishedAt": "2026-11-22 04:00",
+      "publishedTs": 1795287604,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261122-41212007-nksports-000-2-view.jpg?exp=10800",
+      "summary": "デビュー記念日のライブで8400人のファンを熱狂させたGENERATIONS。15年目に突入し、6人体制ならではの固い絆が生み出す最高のステージをファンへ届けた。",
       "points": [
-        "レースクイーン・木村楓のドライブ姿が話題",
-        "オープンカーを爽快に運転する様子を写真で披露",
-        "セレブ感あふれる抜群のスタイルに賞賛の声"
+        "デビュー記念日にサンドーム福井で熱気あふれるライブを実施",
+        "14周年を祝うケーキの登場で会場が笑顔に包まれる",
+        "6人体制での団結力が光るステージを実現"
       ],
-      "impact": "SNSでのビジュアル発信は、ファンのエンゲージメントを高め、メディアやネットニュースで広く拡散されます。",
+      "impact": "メンバー体制の変化を乗り越え、結束力を強めて新たなステージへ進むグループの姿が印象づけられる。",
       "tags": [
-        "木村楓",
-        "レースクイーン",
-        "SNS"
+        "GENERATIONS",
+        "ライブ",
+        "記念日"
       ],
-      "url": "https://news.yahoo.co.jp/articles/f597b8de8df29e5acf62bfad99820ed6b4d58933?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/1320d174034c052ae38d0c7962c3df09242d6d80?source=rss",
       "isAiEnriched": true
     },
     {
@@ -2588,24 +2588,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "entertainment",
-      "title": "Creepy Nuts北米ツアー映画が公開",
+      "title": "ジェネ、LDH初の社外対バンでCUTIE STREETら出演",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-22 00:29",
-      "publishedTs": 1795274987,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261122-00010000-theadline-000-1-view.jpg?exp=10800",
-      "summary": "Creepy Nutsの北米ツアーに密着したドキュメンタリーフィルムが公開されました。現地でのユニークなエピソードやライブの裏側が描かれています。",
+      "publishedAt": "2026-11-22 04:00",
+      "publishedTs": 1795287604,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261122-41212001-nksports-000-2-view.jpg?exp=10800",
+      "summary": "ツアー福井公演のステージ上で、ライブ総動員数300万人突破の快挙を達成。さらにLDH所属アーティストとしては初となる、社外アーティストを迎えた対バンライブの開催を発表した。",
       "points": [
-        "北米ツアーの裏側に密着したドキュメンタリー映画が公開",
-        "メンバーの現地でのコミカルかつリアルな様子を収録",
-        "ライブ映像とドキュメンタリーの融合が見どころ"
+        "福井公演にてライブ総動員300万人を突破",
+        "CUTIE STREETら6組を迎える社外対バンを発表",
+        "記念すべきデビュー記念日に嬉しい発表が重なる"
       ],
-      "impact": "世界進出を果たすアーティストのリアルな苦労と成長を描いた作品として、音楽ファン必見の内容となっています。",
+      "impact": "事務所の枠組みを超えた積極的なライブ展開は、音楽ファンの間で大きな話題を呼ぶこと必至。",
       "tags": [
-        "Creepy Nuts",
-        "映画",
-        "ドキュメンタリー"
+        "GENERATIONS",
+        "対バン",
+        "CUTIESTREET"
       ],
-      "url": "https://news.yahoo.co.jp/articles/24baf3a81c34a601e50824ff8050aeb888a8fe54?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/64960623d706cca3a9f36271ce02567cba260b77?source=rss",
       "isAiEnriched": true
     },
     {
@@ -2698,24 +2698,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "entertainment",
-      "title": "キャサリン妃、がん患者支援で英国最高峰へ",
+      "title": "15年目突入のジェネ、サプライズ連発で新ツアー発表",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-22 00:29",
-      "publishedTs": 1795274946,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261122-00010000-thrjapan-000-1-view.jpg?exp=10800",
-      "summary": "英キャサリン妃が、がん患者支援のチャリティー活動として英国最高峰への登山に挑戦。その過酷かつ温かい取り組みを追ったドキュメンタリーが放送予定です。",
+      "publishedAt": "2026-11-22 04:00",
+      "publishedTs": 1795287604,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261122-11211352-sph-000-1-view.jpg?exp=10800",
+      "summary": "福井公演の終盤にサプライズ発表を連発し、節目の15年目に向けて大きなのろしを上げたGENERATIONS。キューストらも登場する画期的な対バン企画などが明かされた。",
       "points": [
-        "がん患者支援のため英国最高峰の登山に挑戦",
-        "チャリティー活動に密着したドキュメンタリーがNBCで放送へ",
-        "公務を通じて多くの人々に勇気と希望を与える活動"
+        "ライブ終盤にファン驚きのサプライズ発表を連続実施",
+        "15年目へ向けて勢いづく充実のステージ展開",
+        "キューストらが出演する対バン企画の全貌が明らかに"
       ],
-      "impact": "ロイヤルファミリーによる体当たり支援活動は、世界中のがん患者や支援者に大きな勇気を与えています。",
+      "impact": "ファンへのサプライズ演出を通じて、今後の活動に対する期待感と興奮を最高潮に高めている。",
       "tags": [
-        "キャサリン妃",
-        "イギリス王室",
-        "チャリティー"
+        "GENERATIONS",
+        "サプライズ",
+        "ライブ"
       ],
-      "url": "https://news.yahoo.co.jp/articles/189d1f3e11eaf2654476b33b7f5d529c0b7b14b3?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/3d94678f3f54cda76c435656c8c4f2ee18499591?source=rss",
       "isAiEnriched": true
     },
     {
@@ -2808,24 +2808,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "entertainment",
-      "title": "ブリトニー・スピアーズのナイフ動画に心配の声",
+      "title": "GENERATIONS、ライブ総動員300万人突破を達成",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-22 00:20",
-      "publishedTs": 1795274402,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261122-00010002-nishispo-000-1-view.jpg?exp=10800",
-      "summary": "歌手のブリトニー・スピアーズがナイフを振り回すダンス動画を再投稿し、ファンから危険視する声が相次いでいる。",
+      "publishedAt": "2026-11-22 04:00",
+      "publishedTs": 1795287602,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261122-41212003-nksports-000-1-view.jpg?exp=10800",
+      "summary": "デビュー14周年の記念日に開催されたアリーナツアー福井公演で、ライブ総動員数300万人を突破。「キャリアって大事」と語るなど、これまでの歩みに自信を見せた。",
       "points": [
-        "ナイフを使ったダンス動画が話題",
-        "過去には警察が出動する騒動に",
-        "ファンから心配や驚きの声が寄せられる"
+        "14周年記念日にライブ総動員数300万人を突破",
+        "これまでのキャリアの重みと大切さを実感",
+        "ファンやスタッフへの感謝を胸にさらなる高みへ"
       ],
-      "impact": "海外セレブの動向やSNSでの発信が再び議論を呼ぶきっかけとなっています。",
+      "impact": "長年の地道なライブ活動が確実な数字として結実し、グループの歴史における大きなマイルストーンとなった。",
       "tags": [
-        "ブリトニー・スピアーズ",
-        "海外セレブ",
-        "SNS"
+        "GENERATIONS",
+        "300万人",
+        "記念日"
       ],
-      "url": "https://news.yahoo.co.jp/articles/da14b3bf001a2d47a613f59f7663d1ee298d1208?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/5a3a7cb040d24c620f164d5db1e16c7dc004162d?source=rss",
       "isAiEnriched": true
     },
     {
@@ -2918,24 +2918,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "entertainment",
-      "title": "アイドル事務所の豪華な福利厚生が話題",
+      "title": "ジェネ15周年イヤー開幕、動員300万人突破に歓喜",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-22 00:10",
-      "publishedTs": 1795273802,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261122-00010001-nishispo-000-1-view.jpg?exp=10800",
-      "summary": "女性アイドルが公開した所属事務所の充実した福利厚生ショットが「超優良企業」などとネット上で大反響を呼んでいる。",
+      "publishedAt": "2026-11-22 04:00",
+      "publishedTs": 1795287600,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261122-00000003-sanspo-000-1-view.jpg?exp=10800",
+      "summary": "デビューから14年を迎えた記念日に、総動員数300万人の大台に到達。数原龍友が「ここは通過点」と語ったほか、2027年の対バンやアリーナツアーの予定が発表された。",
       "points": [
-        "アイドルが事務所の福利厚生を紹介",
-        "充実した内容に「入社したい」の声",
-        "SNSで大きな反響を記録"
+        "デビュー14周年を迎えた記念すべきライブで300万人達成",
+        "2027年3月に多彩なゲストを迎える対バンライブを開催",
+        "同年5月からは大規模なアリーナツアーも決定"
       ],
-      "impact": "芸能事務所の労働環境やユニークな情報として広く拡散されています。",
+      "impact": "記念すべき記録の樹立と未来のスケジュール発表が重なり、ファンにとって忘れられない一日となった。",
       "tags": [
-        "アイドル",
-        "福利厚生",
-        "芸能"
+        "GENERATIONS",
+        "ツアー",
+        "数原龍友"
       ],
-      "url": "https://news.yahoo.co.jp/articles/945d96685390adfe6ac56c401f2a7d1d40e076ea?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/d40e9df79c9242389fa61bca81e563ab9b4dbf01?source=rss",
       "isAiEnriched": true
     },
     {
@@ -3028,24 +3028,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "entertainment",
-      "title": "のんのイメチェン姿に「セクシー」と反響",
+      "title": "GENERATIONS、動員300万人突破で「まだ通過点」",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-22 00:00",
-      "publishedTs": 1795273239,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261122-10290869-abemav-000-1-view.jpg?exp=10800",
-      "summary": "俳優ののんがInstagramを更新。雰囲気がガラリと変わった近影を公開し、ファンから称賛の声が寄せられている。",
+      "publishedAt": "2026-11-22 04:00",
+      "publishedTs": 1795287600,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261122-00000020-spnannex-000-2-view.jpg?exp=10800",
+      "summary": "デビュー記念日のライブで15年目に突入したGENERATIONS。全234公演を経て動員人数が300万人を突破し、「まだ通過点です」とさらなる飛躍を誓った。",
       "points": [
-        "のんがInstagramで近影を公開",
-        "いつもと違う雰囲気が話題に",
-        "ファンから多くの反響が集まる"
+        "デビュー記念日ライブで15年目への突入を果たす",
+        "全234公演を積み重ねて動員300万人を突破",
+        "メンバーから「まだ通過点」と謙虚かつ力強い言葉"
       ],
-      "impact": "俳優としての新たな魅力やビジュアルの変化がファンやメディアで注目されています。",
+      "impact": "数多くのステージを共にしてきたメンバーとファンにとって、次の未来へと繋がる大きな弾みとなる。",
       "tags": [
-        "のん",
-        "俳優",
-        "Instagram"
+        "GENERATIONS",
+        "動員数",
+        "ライブ"
       ],
-      "url": "https://news.yahoo.co.jp/articles/e898782bb9cd67b62c2e818cd744f6ef70235ffd?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/40a1a1a52748cf5933fdeee39834b5882cc925f1?source=rss",
       "isAiEnriched": true
     },
     {
@@ -3138,24 +3138,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "entertainment",
-      "title": "「RAPSTAR 2026」キャンプ進出者決定",
+      "title": "ブルーノ・マーズ、父の死去を公表",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-22 00:00",
-      "publishedTs": 1795273211,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261122-00000001-natalien-000-1-view.jpg?exp=10800",
-      "summary": "オーディション番組「RAPSTAR 2026」でキャンプステージに進む8人のラッパーが決定し、関連楽曲の配信も開始。",
+      "publishedAt": "2026-11-22 01:06",
+      "publishedTs": 1795277180,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261122-00010001-thrjapan-000-1-view.jpg?exp=10800",
+      "summary": "グラミー賞受賞アーティストのブルーノ・マーズが、父親でミュージシャンのピーター・ヘルナンデスの死去をInstagramで公表しました。74歳でした。",
       "points": [
-        "キャンプステージに進む8人が決定",
-        "ROOTS STAGEの全12曲が配信開始",
-        "オーディション番組の最新回で発表"
+        "父親のピーター・ヘルナンデスが74歳で死去",
+        "ブルーノ・マーズがInstagramで家族写真を投稿",
+        "音楽の道を教えてくれた父親に感謝と追悼を表明"
       ],
-      "impact": "次世代のヒップホップシーンを担う才能の選考が進み、音楽ファンの関心を集めています。",
+      "impact": "世界的なアーティストの訃報に、音楽ファンや関係者から多くの哀悼の意が寄せられています。",
       "tags": [
-        "RAPSTAR",
-        "オーディション",
+        "ブルーノ・マーズ",
+        "訃報",
         "音楽"
       ],
-      "url": "https://news.yahoo.co.jp/articles/5fe677c45b04f8fb458aa4866c18d249185826f4?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/8bdcc1fd8e5480148fc19a75b347a4c0fec99491?source=rss",
       "isAiEnriched": true
     },
     {
@@ -3248,24 +3248,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "entertainment",
-      "title": "えなこの超薄着海外ショットに驚きの声",
+      "title": "Creepy Nuts、最新アルバム2月発売",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-22 00:00",
-      "publishedTs": 1795273209,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261122-00010000-nishispo-000-1-view.jpg?exp=10800",
-      "summary": "コスプレイヤーのえなこが海外で撮影したプライベートの薄着ショットを公開し、スタイルの良さに驚きの声が上がっている。",
+      "publishedAt": "2026-11-22 00:45",
+      "publishedTs": 1795275939,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261122-00010001-theadline-000-1-view.jpg?exp=10800",
+      "summary": "ヒップホップユニットのCreepy Nutsが、2027年2月10日にニューアルバムを発売することを発表しました。北米ツアーを追ったドキュメンタリー映画の公開に合わせて明かされました。",
       "points": [
-        "えなこの海外プライベートショット",
-        "超薄着の姿がネットで話題に",
-        "ファンから多くのコメントが寄せられる"
+        "ニューアルバムの発売日が2027年2月10日に決定",
+        "北米ツアーの様子を追ったドキュメンタリー映画も公開",
+        "メンバー自身もアルバムの仕上がりに自信を覗かせる"
       ],
-      "impact": "人気コスプレイヤーの日常的な発信としてエンタメニュースで広く注目されています。",
+      "impact": "国内外で活躍を続ける彼らの新作発表は、音楽シーンやファンにとって大きな注目を集めるトピックとなります。",
       "tags": [
-        "えなこ",
-        "コスプレイヤー",
-        "SNS"
+        "Creepy Nuts",
+        "アルバム",
+        "音楽"
       ],
-      "url": "https://news.yahoo.co.jp/articles/a94182bd4b880b2e761077ef59a78b0564895aee?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/5f3e3858b26386fd76395074380d896f8204981f?source=rss",
       "isAiEnriched": true
     },
     {
@@ -3358,24 +3358,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "entertainment",
-      "title": "ポケモン30周年記念ガチャが11月下旬発売",
+      "title": "Cocomi、アニメキャラとの推し活公開",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-22 00:00",
-      "publishedTs": 1795273200,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261122-00000003-imphbw-000-1-view.jpg?exp=10800",
-      "summary": "タカラトミーアーツから、ポケモン30周年を記念したメタルチャームマスコットのイーブイフレンズがガチャで登場。",
+      "publishedAt": "2026-11-22 00:42",
+      "publishedTs": 1795275736,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261122-10290866-abemav-000-1-view.jpg?exp=10800",
+      "summary": "木村拓哉と工藤静香の長女でフルート奏者のCocomiが、人気アニメキャラクターとの推し活を楽しむ微笑ましいショットをSNSで公開し、話題を集めています。",
       "points": [
-        "ポケモン30周年記念のガチャ商品",
-        "イーブイフレンズのメタルチャーム",
-        "11月下旬より1回300円で発売"
+        "フルート奏者のCocomiが推し活ショットを公開",
+        "人気アニメキャラクターと一緒に撮影されたプライベート感あふれる写真",
+        "家族やファンとの温かい交流の様子が垣間見える"
       ],
-      "impact": "ポケモンファンやガチャコレクターの間で収集アイテムとして人気を集めそうです。",
+      "impact": "著名人の親しみやすい趣味やプライベートの一面は、SNSを中心に幅広い世代の関心を集めています。",
       "tags": [
-        "ポケモン",
-        "ガチャ",
-        "グッズ"
+        "Cocomi",
+        "推し活",
+        "芸能"
       ],
-      "url": "https://news.yahoo.co.jp/articles/6a1a9edc6643e1a41c71912428d4d4435b1f18c2?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/63f6ea323db70b0422cd223bd858232acc0fcf92?source=rss",
       "isAiEnriched": true
     },
     {
@@ -3468,24 +3468,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "entertainment",
-      "title": "「艦これ」山風改二のフィギュア展示",
+      "title": "RQ木村楓、オープンカーでのドライブ姿",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-22 00:00",
-      "publishedTs": 1795273200,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261122-00000002-imphbw-000-1-view.jpg?exp=10800",
-      "summary": "キューズQによる「艦隊これくしょん -艦これ- 山風改二」1/7スケールフィギュアの撮り下ろし写真が公開。",
+      "publishedAt": "2026-11-22 00:30",
+      "publishedTs": 1795275002,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261122-00010003-nishispo-000-1-view.jpg?exp=10800",
+      "summary": "レースクイーンの木村楓がオープンカーを運転する様子を公開し、そのヘルシーでスタイリッシュな姿がファンやネット上で大きな注目を集めています。",
       "points": [
-        "艦これの艦娘「山風改二」がフィギュア化",
-        "2027年11月の発売を予定",
-        "あみあみでの展示撮り下ろしを公開"
+        "レースクイーン・木村楓のドライブ姿が話題",
+        "オープンカーを爽快に運転する様子を写真で披露",
+        "セレブ感あふれる抜群のスタイルに賞賛の声"
       ],
-      "impact": "艦これファンや高品質なフィギュアコレクターの購買意欲を刺激しています。",
+      "impact": "SNSでのビジュアル発信は、ファンのエンゲージメントを高め、メディアやネットニュースで広く拡散されます。",
       "tags": [
-        "艦これ",
-        "フィギュア",
-        "ホビー"
+        "木村楓",
+        "レースクイーン",
+        "SNS"
       ],
-      "url": "https://news.yahoo.co.jp/articles/fe087c541d67f815bc1af2954a6906b74e169ccd?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/f597b8de8df29e5acf62bfad99820ed6b4d58933?source=rss",
       "isAiEnriched": true
     },
     {
@@ -3578,24 +3578,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "entertainment",
-      "title": "S.H.Figuarts ウルトラマンヒカリ抽選",
+      "title": "Creepy Nuts北米ツアー映画が公開",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-22 00:00",
-      "publishedTs": 1795273200,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261122-00000001-imphbw-000-1-view.jpg?exp=10800",
-      "summary": "「ウルトラマンメビウス」に登場するウルトラマンヒカリのフィギュア2次発送分抽選販売の申込が本日締切となる。",
+      "publishedAt": "2026-11-22 00:29",
+      "publishedTs": 1795274987,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261122-00010000-theadline-000-1-view.jpg?exp=10800",
+      "summary": "Creepy Nutsの北米ツアーに密着したドキュメンタリーフィルムが公開されました。現地でのユニークなエピソードやライブの裏側が描かれています。",
       "points": [
-        "S.H.Figuarts ウルトラマンヒカリ",
-        "2次発送分の抽選申込が本日締切",
-        "価格は9,900円、2027年6月発送予定"
+        "北米ツアーの裏側に密着したドキュメンタリー映画が公開",
+        "メンバーの現地でのコミカルかつリアルな様子を収録",
+        "ライブ映像とドキュメンタリーの融合が見どころ"
       ],
-      "impact": "特撮ヒーローの可動フィギュアを求めるコレクターやファンにとって重要な締め切りとなります。",
+      "impact": "世界進出を果たすアーティストのリアルな苦労と成長を描いた作品として、音楽ファン必見の内容となっています。",
       "tags": [
-        "ウルトラマン",
-        "フィギュア",
-        "BANDAI SPIRITS"
+        "Creepy Nuts",
+        "映画",
+        "ドキュメンタリー"
       ],
-      "url": "https://news.yahoo.co.jp/articles/66a695299833abae22d655a499d2fcfc7028d6d3?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/24baf3a81c34a601e50824ff8050aeb888a8fe54?source=rss",
       "isAiEnriched": true
     },
     {
@@ -3688,24 +3688,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "entertainment",
-      "title": "「ボトムズ ペールゼン・ファイルズ」劇場版",
+      "title": "キャサリン妃、がん患者支援で英国最高峰へ",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-22 00:00",
-      "publishedTs": 1795273200,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261122-00000002-impgmw-000-1-view.jpg?exp=10800",
-      "summary": "サンライズ制作のロボットアニメ「装甲騎兵ボトムズ ペールゼン・ファイルズ 劇場版」がBS12で無料初放送。",
+      "publishedAt": "2026-11-22 00:29",
+      "publishedTs": 1795274946,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261122-00010000-thrjapan-000-1-view.jpg?exp=10800",
+      "summary": "英キャサリン妃が、がん患者支援のチャリティー活動として英国最高峰への登山に挑戦。その過酷かつ温かい取り組みを追ったドキュメンタリーが放送予定です。",
       "points": [
-        "BS12「日曜アニメ劇場」で放送",
-        "ロボットアニメの名作シリーズの劇場版",
-        "本日11月22日19時から無料放送"
+        "がん患者支援のため英国最高峰の登山に挑戦",
+        "チャリティー活動に密着したドキュメンタリーがNBCで放送へ",
+        "公務を通じて多くの人々に勇気と希望を与える活動"
       ],
-      "impact": "往年のロボットアニメファンや名作を自宅で楽しみたい視聴者層に喜ばれています。",
+      "impact": "ロイヤルファミリーによる体当たり支援活動は、世界中のがん患者や支援者に大きな勇気を与えています。",
       "tags": [
-        "装甲騎兵ボトムズ",
-        "アニメ",
-        "BS12"
+        "キャサリン妃",
+        "イギリス王室",
+        "チャリティー"
       ],
-      "url": "https://news.yahoo.co.jp/articles/b562e57c5c2498263b6bfd391de41777879f9187?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/189d1f3e11eaf2654476b33b7f5d529c0b7b14b3?source=rss",
       "isAiEnriched": true
     },
     {
@@ -3798,24 +3798,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "entertainment",
-      "title": "Switch・Switch2のボタン不良時に確認すべき動作チェック",
+      "title": "ブリトニー・スピアーズのナイフ動画に心配の声",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-22 00:00",
-      "publishedTs": 1795273200,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261122-00000001-impgmw-000-1-view.jpg?exp=10800",
-      "summary": "Nintendo Switchシリーズでコントローラーのボタンが正しく動作しているかを確認できる「入力デバイスの動作チェック」機能を紹介します。",
+      "publishedAt": "2026-11-22 00:20",
+      "publishedTs": 1795274402,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261122-00010002-nishispo-000-1-view.jpg?exp=10800",
+      "summary": "歌手のブリトニー・スピアーズがナイフを振り回すダンス動画を再投稿し、ファンから危険視する声が相次いでいる。",
       "points": [
-        "「設定」からコントローラーの動作確認が可能",
-        "ボタンやスティックの異常を自分で簡単にチェックできる",
-        "故障と判断する前に試したい便利な機能"
+        "ナイフを使ったダンス動画が話題",
+        "過去には警察が出動する騒動に",
+        "ファンから心配や驚きの声が寄せられる"
       ],
-      "impact": "ゲームプレイ中に操作不良を感じた際、修理に出す前に自宅で原因を切り分けるために役立ちます。",
+      "impact": "海外セレブの動向やSNSでの発信が再び議論を呼ぶきっかけとなっています。",
       "tags": [
-        "Nintendo Switch",
-        "ゲーム",
-        "ガジェット"
+        "ブリトニー・スピアーズ",
+        "海外セレブ",
+        "SNS"
       ],
-      "url": "https://news.yahoo.co.jp/articles/e865054b39e48de90e858d7584a576b78604af7b?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/da14b3bf001a2d47a613f59f7663d1ee298d1208?source=rss",
       "isAiEnriched": true
     },
     {
@@ -3908,46 +3908,46 @@ window.NEWS_DATA = {
     },
     {
       "category": "entertainment",
-      "title": "明石家さんまが太田裕美さんの名曲「木綿のハンカチーフ」の魅力を熱弁",
+      "title": "アイドル事務所の豪華な福利厚生が話題",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-21 23:55",
-      "publishedTs": 1795272924,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261121-00410699-tospoweb-000-1-view.jpg?exp=10800",
-      "summary": "明石家さんまがラジオ番組に出演し、亡くなった歌手・太田裕美さんの名曲「木綿のハンカチーフ」を振り返り、現代の時代背景との違いを語りました。",
+      "publishedAt": "2026-11-22 00:10",
+      "publishedTs": 1795273802,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261122-00010001-nishispo-000-1-view.jpg?exp=10800",
+      "summary": "女性アイドルが公開した所属事務所の充実した福利厚生ショットが「超優良企業」などとネット上で大反響を呼んでいる。",
       "points": [
-        "明石家さんまがMBSラジオで太田裕美さんを追悼",
-        "名曲「木綿のハンカチーフ」の楽曲としての魅力を熱弁",
-        "「今の時代はおそらくヒットしない」とその理由を分析"
+        "アイドルが事務所の福利厚生を紹介",
+        "充実した内容に「入社したい」の声",
+        "SNSで大きな反響を記録"
       ],
-      "impact": "昭和を代表する名曲の価値や、時代による音楽のヒットの構造変化について改めて考えさせられます。",
+      "impact": "芸能事務所の労働環境やユニークな情報として広く拡散されています。",
       "tags": [
-        "明石家さんま",
-        "太田裕美",
-        "音楽"
+        "アイドル",
+        "福利厚生",
+        "芸能"
       ],
-      "url": "https://news.yahoo.co.jp/articles/f6f0107ec132a31eecc4d5609bd8779829338b38?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/945d96685390adfe6ac56c401f2a7d1d40e076ea?source=rss",
       "isAiEnriched": true
     },
     {
       "category": "subculture",
-      "title": "サンデーうぇぶり連載『レッドブルー』第214話レッドサイド④が公開",
-      "source": "sunday-webry.com",
-      "publishedAt": "2026-11-21 04:02",
-      "publishedTs": 1795201338,
-      "image": "https://cdn-img.www.sunday-webry.com/public/series-thumbnail/3269754496660548419-489dff8a6a064d75481e174bd12e59ef?1755841963",
-      "summary": "マンガアプリ「サンデーうぇぶり」にて、波切敦氏による人気作品『レッドブルー』の第214話レッドサイド④が配信開始されました。",
+      "title": "『GTA6』で列車が停止可能に、過去作の無敵伝説が終焉へ",
+      "source": "AUTOMATON",
+      "publishedAt": "2026-11-21 10:34",
+      "publishedTs": 1795224889,
+      "image": "https://automaton-media.com/wp-content/uploads/2026/11/20261120-480222-header.jpg",
+      "summary": "人気シリーズ最新作『グランド・セフト・オートVI（GTA6）』では、過去作で無敵とされた列車を止められるようになることが判明しました。",
       "points": [
-        "人気作品『レッドブルー』の最新話が公開",
-        "プラットフォームは「サンデーうぇぶり」",
-        "作者は波切敦による格闘・青春ストーリー"
+        "過去作では絶対に止められない存在だった列車",
+        "GTA6ではついに停止させることが可能に",
+        "シリーズのいわゆる「列車不敗伝説」が終了へ"
       ],
-      "impact": "作品のファンに向けて最新話の展開を提供するもので、プラットフォームのエンタメ利用を促進します。",
+      "impact": "長年のファンにとってお馴染みの仕様変更となり、ゲーム内の物理法則や自由度の広がりへの期待が高まっています。",
       "tags": [
-        "マンガ",
-        "サンデーうぇぶり",
-        "レッドブルー"
+        "GTA6",
+        "ゲーム",
+        "サブカルチャー"
       ],
-      "url": "https://www.sunday-webry.com/episode/12207421984548056623",
+      "url": "https://automaton-media.com/articles/newsjp/20261120-480222/",
       "isAiEnriched": true
     },
     {
@@ -4018,46 +4018,46 @@ window.NEWS_DATA = {
     },
     {
       "category": "entertainment",
-      "title": "伊勢丹創業140周年を祝う人気芸人のコラボショットに大反響",
+      "title": "のんのイメチェン姿に「セクシー」と反響",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-21 23:50",
-      "publishedTs": 1795272620,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261121-00010089-nishispo-000-1-view.jpg?exp=10800",
-      "summary": "老舗百貨店「伊勢丹」の創業140周年を記念し、人気芸人たちが披露したお祝いのコラボショットがSNS上で「可愛い」「ご利益がありそう」と話題を集めています。",
+      "publishedAt": "2026-11-22 00:00",
+      "publishedTs": 1795273239,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261122-10290869-abemav-000-1-view.jpg?exp=10800",
+      "summary": "俳優ののんがInstagramを更新。雰囲気がガラリと変わった近影を公開し、ファンから称賛の声が寄せられている。",
       "points": [
-        "伊勢丹が11月5日に創業140周年を迎えた",
-        "人気芸人によるお祝いのコラボショットが公開された",
-        "ファンから「可愛い」「ご利益がありそう」と絶賛の声"
+        "のんがInstagramで近影を公開",
+        "いつもと違う雰囲気が話題に",
+        "ファンから多くの反響が集まる"
       ],
-      "impact": "老舗百貨店の記念企画と人気タレントのコラボレーションが、SNS上で大きな注目を集めています。",
+      "impact": "俳優としての新たな魅力やビジュアルの変化がファンやメディアで注目されています。",
       "tags": [
-        "伊勢丹",
-        "芸能",
-        "SNS"
+        "のん",
+        "俳優",
+        "Instagram"
       ],
-      "url": "https://news.yahoo.co.jp/articles/8e5e021982af6d544d2baa74f85eba372b8d9a4d?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/e898782bb9cd67b62c2e818cd744f6ef70235ffd?source=rss",
       "isAiEnriched": true
     },
     {
       "category": "subculture",
-      "title": "『GTA6』で列車が停止可能に、過去作の無敵伝説が終焉へ",
+      "title": "NVIDIAグラボの「SSD無限酷使」不具合が修正",
       "source": "AUTOMATON",
-      "publishedAt": "2026-11-21 10:34",
-      "publishedTs": 1795224889,
-      "image": "https://automaton-media.com/wp-content/uploads/2026/11/20261120-480222-header.jpg",
-      "summary": "人気シリーズ最新作『グランド・セフト・オートVI（GTA6）』では、過去作で無敵とされた列車を止められるようになることが判明しました。",
+      "publishedAt": "2026-11-21 09:23",
+      "publishedTs": 1795220596,
+      "image": "https://automaton-media.com/wp-content/uploads/2026/11/20261121-480255-header.jpg",
+      "summary": "NVIDIA製GPUのドライバーで無操作中にもSSDへ多大な書き込みが発生していた不具合が、最新バージョンで修正されました。",
       "points": [
-        "過去作では絶対に止められない存在だった列車",
-        "GTA6ではついに停止させることが可能に",
-        "シリーズのいわゆる「列車不敗伝説」が終了へ"
+        "GeForceの特定ドライバーで発生していた問題",
+        "何も操作していない状態でも数十GBが書き込まれていた",
+        "最新の修正版バージョンにてすでに解決済み"
       ],
-      "impact": "長年のファンにとってお馴染みの仕様変更となり、ゲーム内の物理法則や自由度の広がりへの期待が高まっています。",
+      "impact": "PCユーザーのSSD寿命を縮めるリスクが解消され、安心して最新ドライバーを利用できるようになります。",
       "tags": [
-        "GTA6",
-        "ゲーム",
-        "サブカルチャー"
+        "NVIDIA",
+        "GPU",
+        "SSD"
       ],
-      "url": "https://automaton-media.com/articles/newsjp/20261120-480222/",
+      "url": "https://automaton-media.com/articles/newsjp/20261121-480255/",
       "isAiEnriched": true
     },
     {
@@ -4128,46 +4128,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "entertainment",
-      "title": "元日テレアナ・上田まりえのミニスカ私服姿に称賛の声",
+      "title": "「RAPSTAR 2026」キャンプ進出者決定",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-21 23:50",
-      "publishedTs": 1795272610,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261121-00010088-nishispo-000-1-view.jpg?exp=10800",
-      "summary": "40歳を迎えた元日本テレビアナウンサーの上田まりえが披露したミニスカートの私服姿が話題となり、「どんどん穿いてほしい」とファンからエールが送られています。",
+      "publishedAt": "2026-11-22 00:00",
+      "publishedTs": 1795273211,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261122-00000001-natalien-000-1-view.jpg?exp=10800",
+      "summary": "オーディション番組「RAPSTAR 2026」でキャンプステージに進む8人のラッパーが決定し、関連楽曲の配信も開始。",
       "points": [
-        "元日テレアナの上田まりえが40歳でのミニスカ私服を公開",
-        "「羞恥心が無くなれば無敵」という前向きな持論を展開",
-        "ファンからは「どんどん穿いて」と好意的な声が相次ぐ"
+        "キャンプステージに進む8人が決定",
+        "ROOTS STAGEの全12曲が配信開始",
+        "オーディション番組の最新回で発表"
       ],
-      "impact": "年齢にとらわれず自分の好きなファッションを楽しむ姿勢が、多くの共感と支持を集めています。",
+      "impact": "次世代のヒップホップシーンを担う才能の選考が進み、音楽ファンの関心を集めています。",
       "tags": [
-        "上田まりえ",
-        "ファッション",
-        "アナウンサー"
+        "RAPSTAR",
+        "オーディション",
+        "音楽"
       ],
-      "url": "https://news.yahoo.co.jp/articles/9ca4635f8d3b5f245d7e6081978951c05512d801?source=rss",
-      "isAiEnriched": true
-    },
-    {
-      "category": "subculture",
-      "title": "NVIDIAグラボの「SSD無限酷使」不具合が修正",
-      "source": "AUTOMATON",
-      "publishedAt": "2026-11-21 09:23",
-      "publishedTs": 1795220596,
-      "image": "https://automaton-media.com/wp-content/uploads/2026/11/20261121-480255-header.jpg",
-      "summary": "NVIDIA製GPUのドライバーで無操作中にもSSDへ多大な書き込みが発生していた不具合が、最新バージョンで修正されました。",
-      "points": [
-        "GeForceの特定ドライバーで発生していた問題",
-        "何も操作していない状態でも数十GBが書き込まれていた",
-        "最新の修正版バージョンにてすでに解決済み"
-      ],
-      "impact": "PCユーザーのSSD寿命を縮めるリスクが解消され、安心して最新ドライバーを利用できるようになります。",
-      "tags": [
-        "NVIDIA",
-        "GPU",
-        "SSD"
-      ],
-      "url": "https://automaton-media.com/articles/newsjp/20261121-480255/",
+      "url": "https://news.yahoo.co.jp/articles/5fe677c45b04f8fb458aa4866c18d249185826f4?source=rss",
       "isAiEnriched": true
     },
     {
@@ -4238,24 +4216,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "entertainment",
-      "title": "TWICE公式キャラの絵本第2弾が2027年2月に発売決定",
+      "title": "えなこの超薄着海外ショットに驚きの声",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-21 23:50",
-      "publishedTs": 1795272602,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261121-00167659-exp-000-1-view.jpg?exp=10800",
-      "summary": "TWICEの公式キャラクター「TWICE LOVELYS」が活躍する絵本の第2弾が、2027年2月3日に発売されることが発表され、新たな冒険の旅が描かれます。",
+      "publishedAt": "2026-11-22 00:00",
+      "publishedTs": 1795273209,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261122-00010000-nishispo-000-1-view.jpg?exp=10800",
+      "summary": "コスプレイヤーのえなこが海外で撮影したプライベートの薄着ショットを公開し、スタイルの良さに驚きの声が上がっている。",
       "points": [
-        "TWICE公式キャラ「TWICE LOVELYS」の絵本第2弾",
-        "タイトルは『TWICE LOVELYSえほん ラブリー、たまごをおいかけて』",
-        "不思議なたまごのおうちを探す冒険の旅がテーマ"
+        "えなこの海外プライベートショット",
+        "超薄着の姿がネットで話題に",
+        "ファンから多くのコメントが寄せられる"
       ],
-      "impact": "ファン層だけでなく、子供向けの絵本市場でもキャラクターグッズとしての高い注目を集めています。",
+      "impact": "人気コスプレイヤーの日常的な発信としてエンタメニュースで広く注目されています。",
       "tags": [
-        "TWICE",
-        "絵本",
-        "K-POP"
+        "えなこ",
+        "コスプレイヤー",
+        "SNS"
       ],
-      "url": "https://news.yahoo.co.jp/articles/78927eb192d4fc8ee1ab1f608a0f12862437e5ba?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/a94182bd4b880b2e761077ef59a78b0564895aee?source=rss",
       "isAiEnriched": true
     },
     {
@@ -4326,24 +4304,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "entertainment",
-      "title": "BUMP OF CHICKEN「embrace」ライブ映像公開",
+      "title": "ポケモン30周年記念ガチャが11月下旬発売",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-21 23:45",
-      "publishedTs": 1795272310,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261121-00000083-natalien-000-1-view.jpg?exp=10800",
-      "summary": "BUMP OF CHICKENが2004年にリリースした楽曲「embrace」のライブ映像がYouTubeでプレミア公開決定。",
+      "publishedAt": "2026-11-22 00:00",
+      "publishedTs": 1795273200,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261122-00000003-imphbw-000-1-view.jpg?exp=10800",
+      "summary": "タカラトミーアーツから、ポケモン30周年を記念したメタルチャームマスコットのイーブイフレンズがガチャで登場。",
       "points": [
-        "名曲「embrace」のライブ映像がYouTubeで公開される",
-        "RADWIMPSとの共演からちょうど1年の節目となる",
-        "ファン待望の映像解禁として大きな盛り上がりが予想される"
+        "ポケモン30周年記念のガチャ商品",
+        "イーブイフレンズのメタルチャーム",
+        "11月下旬より1回300円で発売"
       ],
-      "impact": "音楽ファンの間で過去のライブの思い出や今後の活動に対する期待が高まっています。",
+      "impact": "ポケモンファンやガチャコレクターの間で収集アイテムとして人気を集めそうです。",
       "tags": [
-        "音楽",
-        "BUMP OF CHICKEN",
-        "ライブ"
+        "ポケモン",
+        "ガチャ",
+        "グッズ"
       ],
-      "url": "https://news.yahoo.co.jp/articles/74627765928d4961b8f754873e16df47e53488b1?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/6a1a9edc6643e1a41c71912428d4d4435b1f18c2?source=rss",
       "isAiEnriched": true
     },
     {
@@ -4414,24 +4392,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "entertainment",
-      "title": "カジサックの妻・ヨメサックが豪邸キッチン公開",
+      "title": "「艦これ」山風改二のフィギュア展示",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-21 23:42",
-      "publishedTs": 1795272136,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261121-10290868-abemav-000-1-view.jpg?exp=10800",
-      "summary": "YouTuberカジサックの妻・ヨメサックがSNSで自宅の豪華なキッチンスペースと手料理を公開し話題に。",
+      "publishedAt": "2026-11-22 00:00",
+      "publishedTs": 1795273200,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261122-00000002-imphbw-000-1-view.jpg?exp=10800",
+      "summary": "キューズQによる「艦隊これくしょん -艦これ- 山風改二」1/7スケールフィギュアの撮り下ろし写真が公開。",
       "points": [
-        "Instagramのストーリーズで自宅のキッチンを公開",
-        "ホテル並みと噂される大豪邸の新居がたびたび話題に",
-        "家族のために作った手料理の温かいエピソードを披露"
+        "艦これの艦娘「山風改二」がフィギュア化",
+        "2027年11月の発売を予定",
+        "あみあみでの展示撮り下ろしを公開"
       ],
-      "impact": "人気YouTuberのライフスタイルやプライベートの話題としてSNSを中心に注目を集めています。",
+      "impact": "艦これファンや高品質なフィギュアコレクターの購買意欲を刺激しています。",
       "tags": [
-        "エンタメ",
-        "YouTuber",
-        "SNS"
+        "艦これ",
+        "フィギュア",
+        "ホビー"
       ],
-      "url": "https://news.yahoo.co.jp/articles/2a842fc257037ff9bc85f6a28e9247abadbbfad3?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/fe087c541d67f815bc1af2954a6906b74e169ccd?source=rss",
       "isAiEnriched": true
     },
     {
@@ -4502,24 +4480,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "entertainment",
-      "title": "≒JOY新曲MV公開！藤沢莉子がセンター",
+      "title": "S.H.Figuarts ウルトラマンヒカリ抽選",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-21 23:42",
-      "publishedTs": 1795272130,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261121-00000082-natalien-000-1-view.jpg?exp=10800",
-      "summary": "≒JOYの新曲「どんな君も どんな夜も」のミュージックビデオが公開。学校を舞台にした友情讃歌を描く。",
+      "publishedAt": "2026-11-22 00:00",
+      "publishedTs": 1795273200,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261122-00000001-imphbw-000-1-view.jpg?exp=10800",
+      "summary": "「ウルトラマンメビウス」に登場するウルトラマンヒカリのフィギュア2次発送分抽選販売の申込が本日締切となる。",
       "points": [
-        "藤沢莉子がセンターを務める青春友情ソング",
-        "学校を舞台にしたドラマ仕立てのMVがYouTubeで公開",
-        "11月25日のリリースに向けて期待が高まる"
+        "S.H.Figuarts ウルトラマンヒカリ",
+        "2次発送分の抽選申込が本日締切",
+        "価格は9,900円、2027年6月発送予定"
       ],
-      "impact": "アイドルファンの間で楽曲の世界観やメンバーのパフォーマンスに高い注目が集まっています。",
+      "impact": "特撮ヒーローの可動フィギュアを求めるコレクターやファンにとって重要な締め切りとなります。",
       "tags": [
-        "アイドル",
-        "音楽",
-        "MV"
+        "ウルトラマン",
+        "フィギュア",
+        "BANDAI SPIRITS"
       ],
-      "url": "https://news.yahoo.co.jp/articles/ba33780f3855e4a9a24b0a15a8317c19b2a5ae46?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/66a695299833abae22d655a499d2fcfc7028d6d3?source=rss",
       "isAiEnriched": true
     }
   ]
