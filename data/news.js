@@ -1,21 +1,21 @@
 window.NEWS_DATA = {
   "date": "2026年11月22日 (日)",
-  "updatedAt": "2026-11-22 02:11",
+  "updatedAt": "2026-11-22 02:57",
   "title": "TREND NEWS",
   "keywords": [
-    "Creepy Nuts",
-    "ブルーノ・マーズ",
-    "寒波・大雪",
-    "日中関係",
-    "世帯貯蓄"
+    "ひき逃げ事件",
+    "トルコ国籍",
+    "名古屋市東区",
+    "クマ出没",
+    "山の異変"
   ],
   "weatherCities": [
     {
       "name": "札幌",
       "region": "北海道",
-      "temp": -7,
+      "temp": -6,
       "code": 45,
-      "wind": 5,
+      "wind": 4,
       "maxTemp": 2,
       "minTemp": -7,
       "pop": 24,
@@ -132,8 +132,8 @@ window.NEWS_DATA = {
       "name": "仙台",
       "region": "東北",
       "temp": 2,
-      "code": 51,
-      "wind": 4,
+      "code": 1,
+      "wind": 3,
       "maxTemp": 10,
       "minTemp": 1,
       "pop": 59,
@@ -250,8 +250,8 @@ window.NEWS_DATA = {
       "name": "新潟",
       "region": "北陸",
       "temp": 4,
-      "code": 63,
-      "wind": 15,
+      "code": 51,
+      "wind": 16,
       "maxTemp": 8,
       "minTemp": 3,
       "pop": 100,
@@ -368,8 +368,8 @@ window.NEWS_DATA = {
       "name": "金沢",
       "region": "北陸",
       "temp": 7,
-      "code": 3,
-      "wind": 14,
+      "code": 51,
+      "wind": 16,
       "maxTemp": 8,
       "minTemp": 4,
       "pop": 100,
@@ -487,7 +487,7 @@ window.NEWS_DATA = {
       "region": "関東",
       "temp": 7,
       "code": 0,
-      "wind": 1,
+      "wind": 3,
       "maxTemp": 13,
       "minTemp": 6,
       "pop": 0,
@@ -603,9 +603,9 @@ window.NEWS_DATA = {
     {
       "name": "名古屋",
       "region": "東海",
-      "temp": 6,
+      "temp": 5,
       "code": 0,
-      "wind": 3,
+      "wind": 1,
       "maxTemp": 11,
       "minTemp": 4,
       "pop": 0,
@@ -723,7 +723,7 @@ window.NEWS_DATA = {
       "region": "近畿",
       "temp": 6,
       "code": 0,
-      "wind": 5,
+      "wind": 4,
       "maxTemp": 12,
       "minTemp": 6,
       "pop": 6,
@@ -840,7 +840,7 @@ window.NEWS_DATA = {
       "name": "広島",
       "region": "中国",
       "temp": 5,
-      "code": 1,
+      "code": 0,
       "wind": 4,
       "maxTemp": 11,
       "minTemp": 4,
@@ -959,7 +959,7 @@ window.NEWS_DATA = {
       "region": "四国",
       "temp": 6,
       "code": 0,
-      "wind": 4,
+      "wind": 5,
       "maxTemp": 12,
       "minTemp": 5,
       "pop": 0,
@@ -1077,7 +1077,7 @@ window.NEWS_DATA = {
       "region": "九州",
       "temp": 10,
       "code": 2,
-      "wind": 27,
+      "wind": 28,
       "maxTemp": 11,
       "minTemp": 9,
       "pop": 75,
@@ -2280,24 +2280,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "subculture",
-      "title": "実践格闘空手を描く「無敵のスバル」",
-      "source": "shonenjumpplus.com",
-      "publishedAt": "2026-11-22 00:00",
-      "publishedTs": 1795273227,
-      "image": "https://cdn-ak-img.shonenjumpplus.com/public/series-thumbnail/17107419589191699611-1466a3a53b79bfca52c622a6257adc98?1795064883",
-      "summary": "フルコンタクト空手の大会に初めて出場した高校1年生の神薙昴を描く格闘マンガ。知られざる実力が動き出す。",
+      "title": "懐かしの「よくわからない歌詞」談義",
+      "source": "togetter.com",
+      "publishedAt": "2026-11-21 16:31",
+      "publishedTs": 1795246293,
+      "image": "https://s.tgstc.com/ogp3/cb70cd0e9d008e0b39dc1064720afb89-1200x630.jpeg",
+      "summary": "昭和・平成のヒット曲に登場する難解で印象的な歌詞について、ネット上でユーザーによるユニークな解釈や意見交換が活発に行われています。",
       "points": [
-        "フルコンタクト空手を題材にした格闘技",
-        "主人公の知られざる力量に注目",
-        "コミックス第3巻が1月4日発売予定"
+        "「星屑ロンリネス」や「Youはshock」などの歌詞が話題に",
+        "独特な世界観を持つフレーズのチョイスに共感やツッコミが続出",
+        "ネットユーザーの間で世代を超えた盛り上がりを見せる"
       ],
-      "impact": "本格的な格闘技描写を楽しむアクション・スポーツ漫画ファンから期待されています。",
+      "impact": "懐かしいポップカルチャーの話題は、SNSでの共感を呼び起こし、ノスタルジックな盛り上がりを生み出します。",
       "tags": [
-        "マンガ",
-        "格闘空手",
-        "少年ジャンプ＋"
+        "音楽",
+        "歌詞",
+        "SNSトレンド"
       ],
-      "url": "https://shonenjumpplus.com/episode/9253191257982514286",
+      "url": "https://togetter.com/li/2773224",
       "isAiEnriched": true
     },
     {
@@ -2390,24 +2390,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "subculture",
-      "title": "『GTA5』の舞台を活用した海面上昇シミュレーション",
-      "source": "AUTOMATON",
-      "publishedAt": "2026-11-21 18:45",
-      "publishedTs": 1795254322,
-      "image": "https://automaton-media.com/wp-content/uploads/2026/11/20261121-480294-header.jpg",
-      "summary": "人気ゲーム『グランド・セフト・オートV』のマップを使い、環境問題である海面上昇を予測する実証実験が行われ、注目を集めています。",
+      "title": "実践格闘空手を描く「無敵のスバル」",
+      "source": "shonenjumpplus.com",
+      "publishedAt": "2026-11-22 00:00",
+      "publishedTs": 1795273227,
+      "image": "https://cdn-ak-img.shonenjumpplus.com/public/series-thumbnail/17107419589191699611-1466a3a53b79bfca52c622a6257adc98?1795064883",
+      "summary": "フルコンタクト空手の大会に初めて出場した高校1年生の神薙昴を描く格闘マンガ。知られざる実力が動き出す。",
       "points": [
-        "ゲームのロスサントスを舞台に実証実験を実施",
-        "500年後の都市水没リスクなどを視覚化",
-        "エンタメ技術の環境問題への応用が話題に"
+        "フルコンタクト空手を題材にした格闘技",
+        "主人公の知られざる力量に注目",
+        "コミックス第3巻が1月4日発売予定"
       ],
-      "impact": "ゲームエンジンを活用した新しい気候変動の啓発手法として、今後の教育や研究分野への応用が期待されます。",
+      "impact": "本格的な格闘技描写を楽しむアクション・スポーツ漫画ファンから期待されています。",
       "tags": [
-        "ゲーム",
-        "環境問題",
-        "GTA5"
+        "マンガ",
+        "格闘空手",
+        "少年ジャンプ＋"
       ],
-      "url": "https://automaton-media.com/articles/newsjp/20261121-480294/",
+      "url": "https://shonenjumpplus.com/episode/9253191257982514286",
       "isAiEnriched": true
     },
     {
@@ -2500,24 +2500,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "subculture",
-      "title": "Vシンガー・響咲祢音、「未知程」のカバーMVを公開",
-      "source": "PANORA",
-      "publishedAt": "2026-11-21 15:03",
-      "publishedTs": 1795240997,
-      "image": "https://asset.panora.tokyo/wp-content/uploads/2026/11/21145301/hibisaki-michinori-main.jpg",
-      "summary": "Vシンガーの響咲祢音（ひびさき ねおん）が、歌ってみた企画の第7弾として「DYES IWASAKI × ルンルン “未知程”」のカバーミュージックビデオを公開し、注目を集めています。",
+      "title": "『GTA5』の舞台を活用した海面上昇シミュレーション",
+      "source": "AUTOMATON",
+      "publishedAt": "2026-11-21 18:45",
+      "publishedTs": 1795254322,
+      "image": "https://automaton-media.com/wp-content/uploads/2026/11/20261121-480294-header.jpg",
+      "summary": "人気ゲーム『グランド・セフト・オートV』のマップを使い、環境問題である海面上昇を予測する実証実験が行われ、注目を集めています。",
       "points": [
-        "Vシンガー・響咲祢音による歌ってみた動画の第7弾",
-        "DYES IWASAKIとルンルンの楽曲「未知程」をカバー",
-        "クオリティの高いMVが公開されファンから好評"
+        "ゲームのロスサントスを舞台に実証実験を実施",
+        "500年後の都市水没リスクなどを視覚化",
+        "エンタメ技術の環境問題への応用が話題に"
       ],
-      "impact": "バーチャルアーティストによるカバー楽曲市場の活性化や、新たな音楽ファンの獲得につながるトピックです。",
+      "impact": "ゲームエンジンを活用した新しい気候変動の啓発手法として、今後の教育や研究分野への応用が期待されます。",
       "tags": [
-        "VTuber",
-        "音楽",
-        "MV"
+        "ゲーム",
+        "環境問題",
+        "GTA5"
       ],
-      "url": "https://panora.tokyo/archives/164012",
+      "url": "https://automaton-media.com/articles/newsjp/20261121-480294/",
       "isAiEnriched": true
     },
     {
@@ -2610,24 +2610,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "subculture",
-      "title": "懐かしの「よくわからない歌詞」談義",
-      "source": "togetter.com",
-      "publishedAt": "2026-11-21 16:31",
-      "publishedTs": 1795246293,
-      "image": "https://s.tgstc.com/ogp3/cb70cd0e9d008e0b39dc1064720afb89-1200x630.jpeg",
-      "summary": "昭和・平成のヒット曲に登場する難解で印象的な歌詞について、ネット上でユーザーによるユニークな解釈や意見交換が活発に行われています。",
+      "title": "Vシンガー・響咲祢音、「未知程」のカバーMVを公開",
+      "source": "PANORA",
+      "publishedAt": "2026-11-21 15:03",
+      "publishedTs": 1795240997,
+      "image": "https://asset.panora.tokyo/wp-content/uploads/2026/11/21145301/hibisaki-michinori-main.jpg",
+      "summary": "Vシンガーの響咲祢音（ひびさき ねおん）が、歌ってみた企画の第7弾として「DYES IWASAKI × ルンルン “未知程”」のカバーミュージックビデオを公開し、注目を集めています。",
       "points": [
-        "「星屑ロンリネス」や「Youはshock」などの歌詞が話題に",
-        "独特な世界観を持つフレーズのチョイスに共感やツッコミが続出",
-        "ネットユーザーの間で世代を超えた盛り上がりを見せる"
+        "Vシンガー・響咲祢音による歌ってみた動画の第7弾",
+        "DYES IWASAKIとルンルンの楽曲「未知程」をカバー",
+        "クオリティの高いMVが公開されファンから好評"
       ],
-      "impact": "懐かしいポップカルチャーの話題は、SNSでの共感を呼び起こし、ノスタルジックな盛り上がりを生み出します。",
+      "impact": "バーチャルアーティストによるカバー楽曲市場の活性化や、新たな音楽ファンの獲得につながるトピックです。",
       "tags": [
+        "VTuber",
         "音楽",
-        "歌詞",
-        "SNSトレンド"
+        "MV"
       ],
-      "url": "https://togetter.com/li/2773224",
+      "url": "https://panora.tokyo/archives/164012",
       "isAiEnriched": true
     },
     {
@@ -2852,24 +2852,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "冷え込む日中関係と今後の外交方針",
+      "title": "名古屋市東区のひき逃げ事件、トルコ国籍の男を逮捕",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-22 01:48",
-      "publishedTs": 1795279696,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261122-90204935-ann-000-1-view.jpg?exp=10800",
-      "summary": "訪中した高市総理を待ち受けた冷遇とも取れる扱いなど、冷え込む日中関係の背景と今後日本が取るべき外交姿勢について前駐中国大使に取材しました。",
+      "publishedAt": "2026-11-22 02:21",
+      "publishedTs": 1795281661,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261122-90038148-nbnv-000-1-view.jpg?exp=10800",
+      "summary": "名古屋市東区で原付バイクの男性が車にひき逃げされ重傷を負った事件で、愛知県春日井市に住むトルコ国籍の解体作業員の男が過失運転致傷とひき逃げの疑いで逮捕されました。",
       "points": [
-        "高市総理の訪中における待遇の格差が注目を集める",
-        "前駐中国大使が日中関係の現状と課題を分析",
-        "今後の外交における向き合い方や戦略について議論"
+        "名古屋市東区で原付バイクがひき逃げ被害に遭う",
+        "運転していた男性が重傷を負う事故が発生",
+        "愛知県春日井市のトルコ国籍の男が逮捕された"
       ],
-      "impact": "国際情勢や安全保障に関わる外交問題は、日本の経済や安全保障体制に直接影響を与える重要な課題です。",
+      "impact": "街頭での交通安全や、ひき逃げ事件の早期解決に向けた防犯意識の強化が求められます。",
       "tags": [
-        "日中関係",
-        "外交",
-        "政治"
+        "事件",
+        "逮捕",
+        "名古屋"
       ],
-      "url": "https://news.yahoo.co.jp/articles/7aa97c2cce33ee2aef3a863c6daeb8eb0aacd4d8?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/39f784d5b7996ab43fa5e1d984b66b97b6534b99?source=rss",
       "isAiEnriched": true
     },
     {
@@ -2962,24 +2962,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "強烈寒波が3連休直撃、都内で初の氷点下",
+      "title": "前橋市でクマ出没続く、わずか5mmの生物がもたらす山の異変",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-22 01:24",
-      "publishedTs": 1795278256,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261122-90204934-ann-000-1-view.jpg?exp=10800",
-      "summary": "今シーズン一番の強い寒波が3連休を直撃し、東京都心でも初の氷点下を観測しました。全国的な大雪により孤立や停電、交通障害などの影響が広がっています。",
+      "publishedAt": "2026-11-22 02:15",
+      "publishedTs": 1795281335,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261122-90204936-ann-000-1-view.jpg?exp=10800",
+      "summary": "群馬県前橋市の住宅街でクマの目撃が相次ぎ厳戒態勢が続く中、クマが人里へ下りてくる原因の一つとして、わずか5ミリの生物が引き起こした山の生態系の異変が関係していることが分かりました。",
       "points": [
-        "今季一番の強い寒波が日本列島を直撃",
-        "都内で今季初の氷点下を観測し厳しい寒さに",
-        "大雪による孤立、停電、交通網への影響が各地で発生"
+        "前橋市の住宅街でクマの目撃情報が相次ぎ警戒続く",
+        "クマが人里に下りてくる背景に山の環境変化が存在",
+        "わずか5ミリの生物がもたらした異変が影響か"
       ],
-      "impact": "インフラの麻痺や交通網の乱れなど、人々の生活やレジャー計画に甚大な影響を及ぼしています。",
+      "impact": "野生動物の出没リスクが高まる中、地域住民の安全確保や環境変化への対策が急務となっています。",
       "tags": [
-        "寒波",
-        "大雪",
-        "気象"
+        "クマ",
+        "自然",
+        "群馬"
       ],
-      "url": "https://news.yahoo.co.jp/articles/af157dba4a25bb8a55a4f7d638b343c06e847c2c?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/5d49c05b718653272eb279485b5d6fdb43beacdf?source=rss",
       "isAiEnriched": true
     },
     {
@@ -3072,24 +3072,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "車いすテニス小田凱人選手が地元凱旋",
+      "title": "冷え込む日中関係と今後の外交方針",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-22 01:00",
-      "publishedTs": 1795276834,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261122-23103675-cbcv-000-1-thumb.jpg?exp=10800",
-      "summary": "アジアパラ大会で金メダルを獲得したプロ車いすテニスプレイヤーの小田凱人選手が、地元・愛知県一宮市に凱旋し、大歓迎のパレードが行われました。",
+      "publishedAt": "2026-11-22 01:48",
+      "publishedTs": 1795279696,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261122-90204935-ann-000-1-view.jpg?exp=10800",
+      "summary": "訪中した高市総理を待ち受けた冷遇とも取れる扱いなど、冷え込む日中関係の背景と今後日本が取るべき外交姿勢について前駐中国大使に取材しました。",
       "points": [
-        "アジアパラ大会金メダリストの小田凱人選手が地元に凱旋",
-        "愛知県一宮市で盛大な大歓迎パレードを開催",
-        "史上最年少での活躍に地元住民から温かい祝福"
+        "高市総理の訪中における待遇の格差が注目を集める",
+        "前駐中国大使が日中関係の現状と課題を分析",
+        "今後の外交における向き合い方や戦略について議論"
       ],
-      "impact": "トップアスリートの凱旋と地元での交流は、地域社会に大きな活気と感動をもたらしています。",
+      "impact": "国際情勢や安全保障に関わる外交問題は、日本の経済や安全保障体制に直接影響を与える重要な課題です。",
       "tags": [
-        "小田凱人",
-        "車いすテニス",
-        "地元凱旋"
+        "日中関係",
+        "外交",
+        "政治"
       ],
-      "url": "https://news.yahoo.co.jp/articles/a0ebf59347dc6d61a70dd8cf496afdb9706acafd?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/7aa97c2cce33ee2aef3a863c6daeb8eb0aacd4d8?source=rss",
       "isAiEnriched": true
     },
     {
@@ -3182,24 +3182,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "愛子さまシンガポール訪問を終え帰国「友好親善引き継ぐ」",
+      "title": "強烈寒波が3連休直撃、都内で初の氷点下",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-21 23:30",
-      "publishedTs": 1795271438,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261121-10291222-abemav-000-1-view.png?fmt=jpeg&q=85&exp=10800",
-      "summary": "シンガポールを公式訪問していた天皇皇后両陛下の長女・愛子さまが帰国され、皇室の友好親善の歩みを受け継ぐ決意を語られました。",
+      "publishedAt": "2026-11-22 01:24",
+      "publishedTs": 1795278256,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261122-90204934-ann-000-1-view.jpg?exp=10800",
+      "summary": "今シーズン一番の強い寒波が3連休を直撃し、東京都心でも初の氷点下を観測しました。全国的な大雪により孤立や停電、交通障害などの影響が広がっています。",
       "points": [
-        "シンガポール公式訪問を終えて帰国",
-        "「友好親善の歩みを受け継いでいきたい」と感想",
-        "国際親善における皇室の役割を示す"
+        "今季一番の強い寒波が日本列島を直撃",
+        "都内で今季初の氷点下を観測し厳しい寒さに",
+        "大雪による孤立、停電、交通網への影響が各地で発生"
       ],
-      "impact": "国内外の外交および皇室の国際親善活動に対する国民的な関心を高めるニュースです。",
+      "impact": "インフラの麻痺や交通網の乱れなど、人々の生活やレジャー計画に甚大な影響を及ぼしています。",
       "tags": [
-        "愛子さま",
-        "皇室",
-        "シンガポール"
+        "寒波",
+        "大雪",
+        "気象"
       ],
-      "url": "https://news.yahoo.co.jp/articles/e2bf8863782f84059b6c3c99cc6da90eea652e1e?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/af157dba4a25bb8a55a4f7d638b343c06e847c2c?source=rss",
       "isAiEnriched": true
     },
     {
@@ -3292,24 +3292,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "世界遺産・白川郷の合掌造り集落が雪化粧で観光客魅了",
+      "title": "車いすテニス小田凱人選手が地元凱旋",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-21 23:11",
-      "publishedTs": 1795270274,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261121-23103668-cbcv-000-1-thumb.jpg?exp=10800",
-      "summary": "3連休初日の21日、岐阜県白川村の白川郷では雪景色が広がり、美しい合掌造りの集落を一目見ようと多くの観光客でにぎわいました。",
+      "publishedAt": "2026-11-22 01:00",
+      "publishedTs": 1795276834,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261122-23103675-cbcv-000-1-thumb.jpg?exp=10800",
+      "summary": "アジアパラ大会で金メダルを獲得したプロ車いすテニスプレイヤーの小田凱人選手が、地元・愛知県一宮市に凱旋し、大歓迎のパレードが行われました。",
       "points": [
-        "11月3連休初日の白川郷の様子",
-        "合掌造りの集落が美しい雪化粧に包まれる",
-        "多くの観光客が訪れにぎわいを見せる"
+        "アジアパラ大会金メダリストの小田凱人選手が地元に凱旋",
+        "愛知県一宮市で盛大な大歓迎パレードを開催",
+        "史上最年少での活躍に地元住民から温かい祝福"
       ],
-      "impact": "国内の観光業やレジャー産業における冬のシーズンインの盛り上がりを象徴しています。",
+      "impact": "トップアスリートの凱旋と地元での交流は、地域社会に大きな活気と感動をもたらしています。",
       "tags": [
-        "白川郷",
-        "世界遺産",
-        "観光"
+        "小田凱人",
+        "車いすテニス",
+        "地元凱旋"
       ],
-      "url": "https://news.yahoo.co.jp/articles/98e4158790572df18d501e26c8cdfd3d44bdaa8a?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/a0ebf59347dc6d61a70dd8cf496afdb9706acafd?source=rss",
       "isAiEnriched": true
     },
     {
@@ -3402,24 +3402,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "愛子さまシンガポール公式訪問からご帰国",
+      "title": "愛子さまシンガポール訪問を終え帰国「友好親善引き継ぐ」",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-21 23:09",
-      "publishedTs": 1795270192,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261121-00000069-ann-000-2-thumb.jpg?exp=10800",
-      "summary": "シンガポールを公式訪問していた天皇皇后両陛下の長女・愛子さまが帰国。「友好親善の歩みを受け継いでいく」と感想を寄せた。",
+      "publishedAt": "2026-11-21 23:30",
+      "publishedTs": 1795271438,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261121-10291222-abemav-000-1-view.png?fmt=jpeg&q=85&exp=10800",
+      "summary": "シンガポールを公式訪問していた天皇皇后両陛下の長女・愛子さまが帰国され、皇室の友好親善の歩みを受け継ぐ決意を語られました。",
       "points": [
-        "愛子さまがシンガポール公式訪問から帰国",
-        "羽田空港に到着し、心境を明かす",
-        "皇室の国際親善の歴史を受け継ぐ決意"
+        "シンガポール公式訪問を終えて帰国",
+        "「友好親善の歩みを受け継いでいきたい」と感想",
+        "国際親善における皇室の役割を示す"
       ],
-      "impact": "皇室の国際親善活動に対する国民の関心と敬意を高めるニュースとなっています。",
+      "impact": "国内外の外交および皇室の国際親善活動に対する国民的な関心を高めるニュースです。",
       "tags": [
         "愛子さま",
         "皇室",
         "シンガポール"
       ],
-      "url": "https://news.yahoo.co.jp/articles/c857229123ff21640a5ac89f3fa3672ec0436aca?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/e2bf8863782f84059b6c3c99cc6da90eea652e1e?source=rss",
       "isAiEnriched": true
     },
     {
@@ -3512,24 +3512,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "前橋市のクマ目撃、赤外線カメラで監視",
+      "title": "世界遺産・白川郷の合掌造り集落が雪化粧で観光客魅了",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-21 23:08",
-      "publishedTs": 1795270133,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261121-00000068-ann-000-1-thumb.jpg?exp=10800",
-      "summary": "群馬県前橋市で連日相次ぐクマの目撃情報を受け、市は捕獲に向けた活動を実施。発見には至らず、今後は水路に赤外線カメラを設置して警戒を続けます。",
+      "publishedAt": "2026-11-21 23:11",
+      "publishedTs": 1795270274,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261121-23103668-cbcv-000-1-thumb.jpg?exp=10800",
+      "summary": "3連休初日の21日、岐阜県白川村の白川郷では雪景色が広がり、美しい合掌造りの集落を一目見ようと多くの観光客でにぎわいました。",
       "points": [
-        "前橋市内で連日クマの目撃情報が相次ぐ",
-        "21日の捕獲活動では発見に至らず",
-        "水路に赤外線カメラを設置し警戒・監視を強化"
+        "11月3連休初日の白川郷の様子",
+        "合掌造りの集落が美しい雪化粧に包まれる",
+        "多くの観光客が訪れにぎわいを見せる"
       ],
-      "impact": "住民の安全確保と野生動物の出没対策において、行政による迅速な警戒態勢の維持が急務となっています。",
+      "impact": "国内の観光業やレジャー産業における冬のシーズンインの盛り上がりを象徴しています。",
       "tags": [
-        "クマ目撃",
-        "前橋市",
-        "鳥獣被害"
+        "白川郷",
+        "世界遺産",
+        "観光"
       ],
-      "url": "https://news.yahoo.co.jp/articles/46646eccb7b2a6bf22f718f554daaa364236b4eb?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/98e4158790572df18d501e26c8cdfd3d44bdaa8a?source=rss",
       "isAiEnriched": true
     },
     {
@@ -3622,24 +3622,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "京成本線、人身事故で一時運転見合わせ",
+      "title": "愛子さまシンガポール公式訪問からご帰国",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-21 23:05",
-      "publishedTs": 1795269900,
-      "image": "https://tse2.mm.bing.net/th?q=%E4%BA%AC%E6%88%90%E6%9C%AC%E7%B7%9A%E3%81%A7%E4%BA%BA%E8%BA%AB%E4%BA%8B%E6%95%85%20%E9%81%8B%E8%BB%A2%E5%86%8D%E9%96%8B&w=800&h=450&c=7&rs=1&p=0",
-      "summary": "京成大久保駅と実籾駅の間で発生した人身事故の影響により、京成本線の一部区間で一時運転見合わせとなりましたが、現在は再開されています。",
+      "publishedAt": "2026-11-21 23:09",
+      "publishedTs": 1795270192,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261121-00000069-ann-000-2-thumb.jpg?exp=10800",
+      "summary": "シンガポールを公式訪問していた天皇皇后両陛下の長女・愛子さまが帰国。「友好親善の歩みを受け継いでいく」と感想を寄せた。",
       "points": [
-        "京成大久保～実籾駅間で人身事故が発生",
-        "京成本線の京成津田沼～八千代台駅間（下り）で一時見合わせ",
-        "現在は運転を再開しているもののダイヤに乱れ"
+        "愛子さまがシンガポール公式訪問から帰国",
+        "羽田空港に到着し、心境を明かす",
+        "皇室の国際親善の歴史を受け継ぐ決意"
       ],
-      "impact": "通勤や通学の足に乱れが生じ、利用客の移動やスケジュールに影響を与えました。",
+      "impact": "皇室の国際親善活動に対する国民の関心と敬意を高めるニュースとなっています。",
       "tags": [
-        "京成本線",
-        "人身事故",
-        "交通情報"
+        "愛子さま",
+        "皇室",
+        "シンガポール"
       ],
-      "url": "https://news.yahoo.co.jp/articles/70e37c5378988864ee050a89e00b15dfde77e033?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/c857229123ff21640a5ac89f3fa3672ec0436aca?source=rss",
       "isAiEnriched": true
     },
     {
@@ -3732,24 +3732,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "大阪枚方の女児虐待死事件、元通う保育施設関係者が検証求める",
+      "title": "前橋市のクマ目撃、赤外線カメラで監視",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-21 23:02",
-      "publishedTs": 1795269737,
-      "image": "https://tse2.mm.bing.net/th?q=%E6%A4%9C%E8%A8%BC%E3%82%92%20%E5%A5%B3%E5%85%90%E4%BF%9D%E8%82%B2%E9%96%A2%E4%BF%82%E8%80%85%20%E8%99%90%E5%BE%85%E7%96%91%E3%81%84%E6%AD%BB%E4%BA%A1%20%E5%A4%A7%E9%98%AA%E6%9E%9A%E6%96%B9&w=800&h=450&c=7&rs=1&p=0",
-      "summary": "大阪府枚方市で8月に起きた3歳女児の虐待疑い死亡事件で、かつて女児が通っていた保育施設の関係者が取材に応じました。施設側は最大限の支援を行ってきたとしつつも、事件の真相究明と再発防止に向けた徹底的な検証を求めています。",
+      "publishedAt": "2026-11-21 23:08",
+      "publishedTs": 1795270133,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261121-00000068-ann-000-1-thumb.jpg?exp=10800",
+      "summary": "群馬県前橋市で連日相次ぐクマの目撃情報を受け、市は捕獲に向けた活動を実施。発見には至らず、今後は水路に赤外線カメラを設置して警戒を続けます。",
       "points": [
-        "大阪府枚方市で8月に3歳女児が虐待の疑いで死亡した事件が発生",
-        "かつて女児が通っていた保育施設の関係者が取材に応じ心痛を吐露",
-        "施設側はこれまでの支援を振り返りつつ、事態の検証を求めている"
+        "前橋市内で連日クマの目撃情報が相次ぐ",
+        "21日の捕獲活動では発見に至らず",
+        "水路に赤外線カメラを設置し警戒・監視を強化"
       ],
-      "impact": "児童虐待防止に向けた地域社会や保育現場での見守り体制、早期発見のあり方に改めて注目が集まっています。",
+      "impact": "住民の安全確保と野生動物の出没対策において、行政による迅速な警戒態勢の維持が急務となっています。",
       "tags": [
-        "児童虐待",
-        "大阪府枚方市",
-        "保育施設"
+        "クマ目撃",
+        "前橋市",
+        "鳥獣被害"
       ],
-      "url": "https://news.yahoo.co.jp/articles/32eb37cfe924b969e46b3b4b0a5ad2477bc36c76?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/46646eccb7b2a6bf22f718f554daaa364236b4eb?source=rss",
       "isAiEnriched": true
     },
     {
@@ -3842,24 +3842,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "京成本線で人身事故が発生、京成津田沼～八千代台間で運転見合わせ",
+      "title": "京成本線、人身事故で一時運転見合わせ",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-21 22:50",
-      "publishedTs": 1795269000,
-      "image": "https://tse2.mm.bing.net/th?q=%E4%BA%AC%E6%88%90%E6%9C%AC%E7%B7%9A%E3%81%A7%E4%BA%BA%E8%BA%AB%E4%BA%8B%E6%95%85%20%E4%B8%80%E9%83%A8%E9%81%8B%E8%BB%A2%E8%A6%8B%E5%90%88%E3%82%8F%E3%81%9B&w=800&h=450&c=7&rs=1&p=0",
-      "summary": "京成大久保駅と実籾駅の間で発生した人身事故の影響により、京成本線は京成津田沼駅から八千代台駅までの下り線で運転を見合わせています。現在、沿線では振替輸送が実施されており、利用者に影響が出ています。",
+      "publishedAt": "2026-11-21 23:05",
+      "publishedTs": 1795269900,
+      "image": "https://tse2.mm.bing.net/th?q=%E4%BA%AC%E6%88%90%E6%9C%AC%E7%B7%9A%E3%81%A7%E4%BA%BA%E8%BA%AB%E4%BA%8B%E6%95%85%20%E9%81%8B%E8%BB%A2%E5%86%8D%E9%96%8B&w=800&h=450&c=7&rs=1&p=0",
+      "summary": "京成大久保駅と実籾駅の間で発生した人身事故の影響により、京成本線の一部区間で一時運転見合わせとなりましたが、現在は再開されています。",
       "points": [
         "京成大久保～実籾駅間で人身事故が発生",
-        "京成本線の京成津田沼～八千代台駅間の下り線が運転見合わせ",
-        "影響区間では順次振替輸送を実施中"
+        "京成本線の京成津田沼～八千代台駅間（下り）で一時見合わせ",
+        "現在は運転を再開しているもののダイヤに乱れ"
       ],
-      "impact": "該当路線を利用する通勤や通学の足に乱れが生じており、最新の運行情報の確認や時間に余裕を持った移動が必要です。",
+      "impact": "通勤や通学の足に乱れが生じ、利用客の移動やスケジュールに影響を与えました。",
       "tags": [
         "京成本線",
         "人身事故",
-        "運行情報"
+        "交通情報"
       ],
-      "url": "https://news.yahoo.co.jp/articles/6d65318ecba80e66fe1171b84a3f33097440fb38?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/70e37c5378988864ee050a89e00b15dfde77e033?source=rss",
       "isAiEnriched": true
     },
     {
@@ -3952,24 +3952,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "小田急小田原線、人身事故で一時見合わせも運転再開",
+      "title": "大阪枚方の女児虐待死事件、元通う保育施設関係者が検証求める",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-21 22:40",
-      "publishedTs": 1795268400,
-      "image": "https://tse2.mm.bing.net/th?q=%E5%B0%8F%E7%94%B0%E6%80%A5%E5%B0%8F%E7%94%B0%E5%8E%9F%E7%B7%9A%E3%81%A7%E4%BA%BA%E8%BA%AB%E4%BA%8B%E6%95%85%20%E9%81%8B%E8%BB%A2%E5%86%8D%E9%96%8B&w=800&h=450&c=7&rs=1&p=0",
-      "summary": "玉川学園前～町田駅間で発生した人身事故の影響により、小田急小田原線は新百合ケ丘～町田駅間で運転を見合わせていましたが、夜遅くに運転を再開しました。現在もダイヤが乱れています。",
+      "publishedAt": "2026-11-21 23:02",
+      "publishedTs": 1795269737,
+      "image": "https://tse2.mm.bing.net/th?q=%E6%A4%9C%E8%A8%BC%E3%82%92%20%E5%A5%B3%E5%85%90%E4%BF%9D%E8%82%B2%E9%96%A2%E4%BF%82%E8%80%85%20%E8%99%90%E5%BE%85%E7%96%91%E3%81%84%E6%AD%BB%E4%BA%A1%20%E5%A4%A7%E9%98%AA%E6%9E%9A%E6%96%B9&w=800&h=450&c=7&rs=1&p=0",
+      "summary": "大阪府枚方市で8月に起きた3歳女児の虐待疑い死亡事件で、かつて女児が通っていた保育施設の関係者が取材に応じました。施設側は最大限の支援を行ってきたとしつつも、事件の真相究明と再発防止に向けた徹底的な検証を求めています。",
       "points": [
-        "玉川学園前～町田駅間で人身事故が発生",
-        "新百合ケ丘～町田駅間で一時運転見合わせ",
-        "同日22:34頃に運転再開、ダイヤ乱れ継続"
+        "大阪府枚方市で8月に3歳女児が虐待の疑いで死亡した事件が発生",
+        "かつて女児が通っていた保育施設の関係者が取材に応じ心痛を吐露",
+        "施設側はこれまでの支援を振り返りつつ、事態の検証を求めている"
       ],
-      "impact": "帰宅ラッシュや夜間の移動に大きな影響が出ており、利用者は最新の運行情報の確認が必要です。",
+      "impact": "児童虐待防止に向けた地域社会や保育現場での見守り体制、早期発見のあり方に改めて注目が集まっています。",
       "tags": [
-        "小田急線",
-        "人身事故",
-        "運行情報"
+        "児童虐待",
+        "大阪府枚方市",
+        "保育施設"
       ],
-      "url": "https://news.yahoo.co.jp/articles/bfd106da6e138d4d3dd9e6cbe9032ca2ef37cee7?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/32eb37cfe924b969e46b3b4b0a5ad2477bc36c76?source=rss",
       "isAiEnriched": true
     },
     {
@@ -4062,24 +4062,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "名古屋市西区で自転車と車が衝突、37歳男性が重体",
+      "title": "京成本線で人身事故が発生、京成津田沼～八千代台間で運転見合わせ",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-21 22:27",
-      "publishedTs": 1795267636,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261121-23103661-cbcv-000-1-view.jpg?exp=10800",
-      "summary": "名古屋市西区の市道で、車道を走行中の自転車がカーブの先で車にはねられる事故が発生しました。この事故で自転車に乗っていた37歳男性が意識不明の重体とみられています。",
+      "publishedAt": "2026-11-21 22:50",
+      "publishedTs": 1795269000,
+      "image": "https://tse2.mm.bing.net/th?q=%E4%BA%AC%E6%88%90%E6%9C%AC%E7%B7%9A%E3%81%A7%E4%BA%BA%E8%BA%AB%E4%BA%8B%E6%95%85%20%E4%B8%80%E9%83%A8%E9%81%8B%E8%BB%A2%E8%A6%8B%E5%90%88%E3%82%8F%E3%81%9B&w=800&h=450&c=7&rs=1&p=0",
+      "summary": "京成大久保駅と実籾駅の間で発生した人身事故の影響により、京成本線は京成津田沼駅から八千代台駅までの下り線で運転を見合わせています。現在、沿線では振替輸送が実施されており、利用者に影響が出ています。",
       "points": [
-        "名古屋市西区の市道で車と自転車の事故が発生",
-        "カーブを曲がり切った先での衝突事故",
-        "自転車に乗っていた37歳男性が重体の模様"
+        "京成大久保～実籾駅間で人身事故が発生",
+        "京成本線の京成津田沼～八千代台駅間の下り線が運転見合わせ",
+        "影響区間では順次振替輸送を実施中"
       ],
-      "impact": "見通しの悪いカーブでの自転車走行の危険性が改めて浮き彫りになり、交通安全の徹底が求められます。",
+      "impact": "該当路線を利用する通勤や通学の足に乱れが生じており、最新の運行情報の確認や時間に余裕を持った移動が必要です。",
       "tags": [
-        "交通事故",
-        "名古屋市",
-        "自転車"
+        "京成本線",
+        "人身事故",
+        "運行情報"
       ],
-      "url": "https://news.yahoo.co.jp/articles/4b3c55d9542eb60067d17042b6aa830e0754b088?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/6d65318ecba80e66fe1171b84a3f33097440fb38?source=rss",
       "isAiEnriched": true
     },
     {
@@ -4172,24 +4172,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "キュウリやビール万引き、所持金2万8千円あるも容疑否認",
+      "title": "小田急小田原線、人身事故で一時見合わせも運転再開",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-21 22:27",
-      "publishedTs": 1795267636,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261121-23103666-cbcv-000-1-view.jpg?exp=10800",
-      "summary": "三重県桑名市のショッピングセンターで約7000円相当の商品を万引きしたとして、ベトナム国籍の男が逮捕されました。男は所持金を所持していながら「金を払った」と容疑を否認しています。",
+      "publishedAt": "2026-11-21 22:40",
+      "publishedTs": 1795268400,
+      "image": "https://tse2.mm.bing.net/th?q=%E5%B0%8F%E7%94%B0%E6%80%A5%E5%B0%8F%E7%94%B0%E5%8E%9F%E7%B7%9A%E3%81%A7%E4%BA%BA%E8%BA%AB%E4%BA%8B%E6%95%85%20%E9%81%8B%E8%BB%A2%E5%86%8D%E9%96%8B&w=800&h=450&c=7&rs=1&p=0",
+      "summary": "玉川学園前～町田駅間で発生した人身事故の影響により、小田急小田原線は新百合ケ丘～町田駅間で運転を見合わせていましたが、夜遅くに運転を再開しました。現在もダイヤが乱れています。",
       "points": [
-        "三重県桑名市のSCで食料品など23点を万引き",
-        "ベトナム国籍の自称大阪市住まいの男を逮捕",
-        "2万8千円の所持金があるも容疑を否認"
+        "玉川学園前～町田駅間で人身事故が発生",
+        "新百合ケ丘～町田駅間で一時運転見合わせ",
+        "同日22:34頃に運転再開、ダイヤ乱れ継続"
       ],
-      "impact": "小売店における万引き被害対策と、容疑者の不審な供述による事件の動機解明に警察の捜査が注目されています。",
+      "impact": "帰宅ラッシュや夜間の移動に大きな影響が出ており、利用者は最新の運行情報の確認が必要です。",
       "tags": [
-        "万引き",
-        "三重県",
-        "事件・事故"
+        "小田急線",
+        "人身事故",
+        "運行情報"
       ],
-      "url": "https://news.yahoo.co.jp/articles/5bf17774c7ca16f544158c2dfd4db03a0a6a5847?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/bfd106da6e138d4d3dd9e6cbe9032ca2ef37cee7?source=rss",
       "isAiEnriched": true
     },
     {
@@ -4282,24 +4282,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "大阪死亡女児の保育関係者「一時保護の検証を行って」",
+      "title": "名古屋市西区で自転車と車が衝突、37歳男性が重体",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-21 22:01",
-      "publishedTs": 1795266112,
-      "image": "https://tse2.mm.bing.net/th?q=%E8%A1%8C%E6%94%BF%E3%81%AF%E6%A4%9C%E8%A8%BC%E3%82%92%20%E5%A4%A7%E9%98%AA%E6%AD%BB%E4%BA%A1%E5%A5%B3%E5%85%90%E3%81%AE%E4%BF%9D%E8%82%B2%E9%96%A2%E4%BF%82%E8%80%85&w=800&h=450&c=7&rs=1&p=0",
-      "summary": "大阪府枚方市の女児死亡事件を巡り、かつて女児が通っていた保育施設の関係者が取材に応じました。最大限の支援をしてきたとした上で、行政に対して一時保護のタイミングなどの検証を求めました。",
+      "publishedAt": "2026-11-21 22:27",
+      "publishedTs": 1795267636,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261121-23103661-cbcv-000-1-view.jpg?exp=10800",
+      "summary": "名古屋市西区の市道で、車道を走行中の自転車がカーブの先で車にはねられる事故が発生しました。この事故で自転車に乗っていた37歳男性が意識不明の重体とみられています。",
       "points": [
-        "大阪・枚方市の女児死亡事件で保育関係者が取材に対応",
-        "施設として最大限の保育や支援を行ってきたと主張",
-        "行政に対し一時保護のタイミングなどの検証を要請"
+        "名古屋市西区の市道で車と自転車の事故が発生",
+        "カーブを曲がり切った先での衝突事故",
+        "自転車に乗っていた37歳男性が重体の模様"
       ],
-      "impact": "児童虐待防止や行政による保護判断のあり方について、さらなる事実解明と制度見直しの議論が深まっています。",
+      "impact": "見通しの悪いカーブでの自転車走行の危険性が改めて浮き彫りになり、交通安全の徹底が求められます。",
       "tags": [
-        "児童虐待",
-        "大阪府",
-        "保育施設"
+        "交通事故",
+        "名古屋市",
+        "自転車"
       ],
-      "url": "https://news.yahoo.co.jp/articles/8ff4033968271f6b2258cdeb5151bf70d7b40b70?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/4b3c55d9542eb60067d17042b6aa830e0754b088?source=rss",
       "isAiEnriched": true
     },
     {
@@ -4370,24 +4370,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "名古屋駅近くのマンションで火事、5階一室が火元か",
+      "title": "キュウリやビール万引き、所持金2万8千円あるも容疑否認",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-21 21:45",
-      "publishedTs": 1795265129,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261121-23103657-cbcv-000-1-thumb.jpg?exp=10800",
-      "summary": "名古屋市中村区の名古屋駅近くにある8階建てマンションで火災が発生しました。近隣住民から黒煙が見えると通報があり消防が出動しましたが、これまでのところけが人は確認されていません。",
+      "publishedAt": "2026-11-21 22:27",
+      "publishedTs": 1795267636,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261121-23103666-cbcv-000-1-view.jpg?exp=10800",
+      "summary": "三重県桑名市のショッピングセンターで約7000円相当の商品を万引きしたとして、ベトナム国籍の男が逮捕されました。男は所持金を所持していながら「金を払った」と容疑を否認しています。",
       "points": [
-        "名古屋市中村区の8階建てマンションで火災発生",
-        "近隣住民からの通報で消防が出動、黒煙が上がる",
-        "けが人はなし、5階の一室が火元とみられる"
+        "三重県桑名市のSCで食料品など23点を万引き",
+        "ベトナム国籍の自称大阪市住まいの男を逮捕",
+        "2万8千円の所持金があるも容疑を否認"
       ],
-      "impact": "駅周辺の密集地における火災発生は周辺住民に不安を与えましたが、迅速な対応で人的被害がなかったのは不幸中の幸いです。",
+      "impact": "小売店における万引き被害対策と、容疑者の不審な供述による事件の動機解明に警察の捜査が注目されています。",
       "tags": [
-        "火災",
-        "名古屋市",
-        "マンション"
+        "万引き",
+        "三重県",
+        "事件・事故"
       ],
-      "url": "https://news.yahoo.co.jp/articles/a1bffa05517f55f554a8c44af71eccab3a1d0ee3?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/5bf17774c7ca16f544158c2dfd4db03a0a6a5847?source=rss",
       "isAiEnriched": true
     },
     {
@@ -4458,24 +4458,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "福井県勝山市で71歳女性が除雪車にはねられ死亡",
+      "title": "大阪死亡女児の保育関係者「一時保護の検証を行って」",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-21 21:38",
-      "publishedTs": 1795264719,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261121-00000162-san-000-1-view.jpg?exp=10800",
-      "summary": "福井県勝山市の国道で、道路を横断していた71歳の女性が作業中だった除雪車にはねられる事故が発生しました。女性は病院に搬送されましたが、その後死亡が確認されました。",
+      "publishedAt": "2026-11-21 22:01",
+      "publishedTs": 1795266112,
+      "image": "https://tse2.mm.bing.net/th?q=%E8%A1%8C%E6%94%BF%E3%81%AF%E6%A4%9C%E8%A8%BC%E3%82%92%20%E5%A4%A7%E9%98%AA%E6%AD%BB%E4%BA%A1%E5%A5%B3%E5%85%90%E3%81%AE%E4%BF%9D%E8%82%B2%E9%96%A2%E4%BF%82%E8%80%85&w=800&h=450&c=7&rs=1&p=0",
+      "summary": "大阪府枚方市の女児死亡事件を巡り、かつて女児が通っていた保育施設の関係者が取材に応じました。最大限の支援をしてきたとした上で、行政に対して一時保護のタイミングなどの検証を求めました。",
       "points": [
-        "福井県勝山市の国道で歩行者と除雪車の事故が発生",
-        "71歳女性が作業中の除雪車にはねられ搬送先で死亡",
-        "警察が当時の詳しい事故原因を調査中"
+        "大阪・枚方市の女児死亡事件で保育関係者が取材に対応",
+        "施設として最大限の保育や支援を行ってきたと主張",
+        "行政に対し一時保護のタイミングなどの検証を要請"
       ],
-      "impact": "本格的な冬季の到来を前に、除雪作業車と歩行者の接触事故に対する注意喚起と安全対策の重要性が高まっています。",
+      "impact": "児童虐待防止や行政による保護判断のあり方について、さらなる事実解明と制度見直しの議論が深まっています。",
       "tags": [
-        "交通事故",
-        "福井県",
-        "除雪車"
+        "児童虐待",
+        "大阪府",
+        "保育施設"
       ],
-      "url": "https://news.yahoo.co.jp/articles/998ddb731538140c737e3d620cea54635571c50f?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/8ff4033968271f6b2258cdeb5151bf70d7b40b70?source=rss",
       "isAiEnriched": true
     },
     {
