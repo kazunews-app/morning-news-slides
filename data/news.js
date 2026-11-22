@@ -1,6 +1,6 @@
 window.NEWS_DATA = {
   "date": "2026年11月23日 (月)",
-  "updatedAt": "2026-11-23 02:17",
+  "updatedAt": "2026-11-23 02:59",
   "title": "TREND NEWS",
   "keywords": [
     "八木教広",
@@ -131,7 +131,7 @@ window.NEWS_DATA = {
     {
       "name": "仙台",
       "region": "東北",
-      "temp": 2,
+      "temp": 3,
       "code": 0,
       "wind": 4,
       "maxTemp": 11,
@@ -367,8 +367,8 @@ window.NEWS_DATA = {
     {
       "name": "金沢",
       "region": "北陸",
-      "temp": 6,
-      "code": 1,
+      "temp": 7,
+      "code": 3,
       "wind": 6,
       "maxTemp": 13,
       "minTemp": 5,
@@ -1195,7 +1195,7 @@ window.NEWS_DATA = {
       "region": "沖縄",
       "temp": 19,
       "code": 3,
-      "wind": 10,
+      "wind": 9,
       "maxTemp": 24,
       "minTemp": 18,
       "pop": 2,
@@ -2060,24 +2060,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "subculture",
-      "title": "声優・青木志貴が自身のジェンダー観について告白",
-      "source": "bunshun.jp",
-      "publishedAt": "2026-11-22 11:59",
-      "publishedTs": 1795316370,
-      "image": "https://bunshun.jp/mwimgs/c/9/1200wm/img_c917d7c5fc5388e17bc049fb314980e11055645.jpg",
-      "summary": "デレマス声優の青木志貴がインタビューで自身の幼少期や、「自分は男だと思っている」と気づいた瞬間について赤裸々に語りました。",
+      "title": "『SPY×FAMILY』第144話が少年ジャンプ＋で公開",
+      "source": "shonenjumpplus.com",
+      "publishedAt": "2026-11-23 00:00",
+      "publishedTs": 1795359614,
+      "image": "https://cdn-ak-img.shonenjumpplus.com/public/series-thumbnail/10834108156648240732-a36361f526a0f4cddeaaffcb49b901ed?1795064883",
+      "summary": "遠藤達哉の人気漫画『SPY×FAMILY』の第144話が少年ジャンプ＋にて公開された。テレビアニメや劇場版の展開も控えるスパイアクションコメディの最新話となる。",
       "points": [
-        "幼少期から男の子の遊びや役割を好んでいた",
-        "告白された際の違和感から自身の性に気づく",
-        "「僕は自分のことを男だと思ってる」と告白"
+        "少年ジャンプ＋で第144話が公開",
+        "TVアニメSeason 4＆劇場版2の制作が決定",
+        "スパイ×アクション×特殊家族コメディとして人気"
       ],
-      "impact": "多様なジェンダー観についての理解を深めるきっかけとして、多くの読者の関心を集めています。",
+      "impact": "アニメ化や映画化の発表も相次ぎ、コンテンツ全体のさらなる盛り上がりが期待されています。",
       "tags": [
-        "インタビュー",
-        "声優",
-        "ジェンダー"
+        "SPY×FAMILY",
+        "少年ジャンプ＋",
+        "漫画"
       ],
-      "url": "https://bunshun.jp/articles/-/93007",
+      "url": "https://shonenjumpplus.com/episode/9253191257982514341",
       "isAiEnriched": true
     },
     {
@@ -2170,24 +2170,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "subculture",
-      "title": "『SPY×FAMILY』第144話が少年ジャンプ＋で公開",
-      "source": "shonenjumpplus.com",
-      "publishedAt": "2026-11-23 00:00",
-      "publishedTs": 1795359614,
-      "image": "https://cdn-ak-img.shonenjumpplus.com/public/series-thumbnail/10834108156648240732-a36361f526a0f4cddeaaffcb49b901ed?1795064883",
-      "summary": "遠藤達哉の人気漫画『SPY×FAMILY』の第144話が少年ジャンプ＋にて公開された。テレビアニメや劇場版の展開も控えるスパイアクションコメディの最新話となる。",
+      "title": "『ドルフロ』新作や注目ゲーム7選が発表",
+      "source": "AUTOMATON",
+      "publishedAt": "2026-11-22 16:47",
+      "publishedTs": 1795333676,
+      "image": "https://automaton-media.com/wp-content/uploads/2026/11/20261121-480328-header.jpg",
+      "summary": "新作PvEシューター『ガールズフロントライン：ブルーコブナント』や、交流不要のMMO『クロスランド』など、今週話題となったゲーム情報が公開されました。",
       "points": [
-        "少年ジャンプ＋で第144話が公開",
-        "TVアニメSeason 4＆劇場版2の制作が決定",
-        "スパイ×アクション×特殊家族コメディとして人気"
+        "『ガールズフロントライン』の新作シューターが正式発表された",
+        "交流不要で遊べるMMO『クロスランド』が大人気を集める",
+        "『HARMA 亡国のエデン』など今週の注目タイトル7本を紹介"
       ],
-      "impact": "アニメ化や映画化の発表も相次ぎ、コンテンツ全体のさらなる盛り上がりが期待されています。",
+      "impact": "新作ゲームの動向やプレイスタイルの多様化に敏感なゲーマー層の間で、大きな話題と期待を集めています。",
       "tags": [
-        "SPY×FAMILY",
-        "少年ジャンプ＋",
-        "漫画"
+        "サブカルチャー",
+        "ゲーム",
+        "新作"
       ],
-      "url": "https://shonenjumpplus.com/episode/9253191257982514341",
+      "url": "https://automaton-media.com/articles/newsjp/20261121-480328/",
       "isAiEnriched": true
     },
     {
@@ -2280,24 +2280,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "subculture",
-      "title": "『ドルフロ』新作や注目ゲーム7選が発表",
-      "source": "AUTOMATON",
-      "publishedAt": "2026-11-22 16:47",
-      "publishedTs": 1795333676,
-      "image": "https://automaton-media.com/wp-content/uploads/2026/11/20261121-480328-header.jpg",
-      "summary": "新作PvEシューター『ガールズフロントライン：ブルーコブナント』や、交流不要のMMO『クロスランド』など、今週話題となったゲーム情報が公開されました。",
+      "title": "VTuber29名コラボのNFC内蔵CD型アクキー登場",
+      "source": "PANORA",
+      "publishedAt": "2026-11-22 12:37",
+      "publishedTs": 1795318642,
+      "image": "https://asset.panora.tokyo/wp-content/uploads/2026/11/22123715/110924-77-94d9a939c5ae9f39404f76e248fbd7df-1300x650-1.webp",
+      "summary": "AttendMeが、29名の人気VTuberとコラボレーションしたNFC内蔵CD型アクリルキーホルダー「MELOKEY」の受注受付を開始しました。",
       "points": [
-        "『ガールズフロントライン』の新作シューターが正式発表された",
-        "交流不要で遊べるMMO『クロスランド』が大人気を集める",
-        "『HARMA 亡国のエデン』など今週の注目タイトル7本を紹介"
+        "総勢29名のVTuberが参加するコラボ企画",
+        "NFCチップを内蔵したCD型アクリルキーホルダー",
+        "ファングッズとしての新しい体験やデジタル連動"
       ],
-      "impact": "新作ゲームの動向やプレイスタイルの多様化に敏感なゲーマー層の間で、大きな話題と期待を集めています。",
+      "impact": "推し活グッズのデジタル融合が進む中、ファンコミュニティの活性化や新しいグッズ市場の開拓に寄与します。",
       "tags": [
-        "サブカルチャー",
-        "ゲーム",
-        "新作"
+        "VTuber",
+        "グッズ",
+        "サブカルチャー"
       ],
-      "url": "https://automaton-media.com/articles/newsjp/20261121-480328/",
+      "url": "https://panora.tokyo/archives/164074",
       "isAiEnriched": true
     },
     {
@@ -2390,24 +2390,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "subculture",
-      "title": "VTuber29名コラボのNFC内蔵CD型アクキー登場",
-      "source": "PANORA",
-      "publishedAt": "2026-11-22 12:37",
-      "publishedTs": 1795318642,
-      "image": "https://asset.panora.tokyo/wp-content/uploads/2026/11/22123715/110924-77-94d9a939c5ae9f39404f76e248fbd7df-1300x650-1.webp",
-      "summary": "AttendMeが、29名の人気VTuberとコラボレーションしたNFC内蔵CD型アクリルキーホルダー「MELOKEY」の受注受付を開始しました。",
+      "title": "声優・青木志貴が自身のジェンダー観について告白",
+      "source": "bunshun.jp",
+      "publishedAt": "2026-11-22 11:59",
+      "publishedTs": 1795316370,
+      "image": "https://bunshun.jp/mwimgs/c/9/1200wm/img_c917d7c5fc5388e17bc049fb314980e11055645.jpg",
+      "summary": "デレマス声優の青木志貴がインタビューで自身の幼少期や、「自分は男だと思っている」と気づいた瞬間について赤裸々に語りました。",
       "points": [
-        "総勢29名のVTuberが参加するコラボ企画",
-        "NFCチップを内蔵したCD型アクリルキーホルダー",
-        "ファングッズとしての新しい体験やデジタル連動"
+        "幼少期から男の子の遊びや役割を好んでいた",
+        "告白された際の違和感から自身の性に気づく",
+        "「僕は自分のことを男だと思ってる」と告白"
       ],
-      "impact": "推し活グッズのデジタル融合が進む中、ファンコミュニティの活性化や新しいグッズ市場の開拓に寄与します。",
+      "impact": "多様なジェンダー観についての理解を深めるきっかけとして、多くの読者の関心を集めています。",
       "tags": [
-        "VTuber",
-        "グッズ",
-        "サブカルチャー"
+        "インタビュー",
+        "声優",
+        "ジェンダー"
       ],
-      "url": "https://panora.tokyo/archives/164074",
+      "url": "https://bunshun.jp/articles/-/93007",
       "isAiEnriched": true
     },
     {
@@ -3600,24 +3600,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "subculture",
-      "title": "声優の安野希世乃が結婚を発表",
-      "source": "avex.jp",
-      "publishedAt": "2026-11-22 19:36",
-      "publishedTs": 1795343777,
-      "image": "https://avex.jp/kiyono-yasuno/assets/img/ogp.jpg?202509",
-      "summary": "人気声優・歌手として活動する安野希世乃が、自身のオフィシャルサイトおよびSNSを通じて、結婚したことをファンや関係者に向けて温かい感謝の言葉とともに報告しました。",
+      "title": "『魔法使いの夜』主題歌にみるゼロ年代の精神と世界への向き合い方",
+      "source": "note.com",
+      "publishedAt": "2026-11-22 19:56",
+      "publishedTs": 1795344997,
+      "image": "https://assets.st-note.com/production/uploads/images/339232524/rectangle_large_type_2_44b77fcd273e81cd1234cb7985812b60.png?fit=bounds&quality=85&width=1280",
+      "summary": "映画『魔法使いの夜』の主題歌を手がけたsupercellの楽曲歌詞から、強烈なゼロ年代の精神性とメッセージを読み解く。",
       "points": [
-        "声優・歌手として活躍する安野希世乃が結婚を発表",
-        "日頃から応援してくれるファンや関係者へ感謝を伝えた",
-        "今後も変わらず活動を継続していく姿勢を示す"
+        "映画の最終予告で流れた主題歌「夜と青」に注目",
+        "歌詞に込められた「世界を睨み返す」姿勢を分析",
+        "ゼロ年代特有の諦めない気概とサブカルチャーを考察"
       ],
-      "impact": "人気声優の結婚発表はファンコミュニティやSNS上で大きな祝福のムーブメントを起こします。",
+      "impact": "作品のファンやサブカルチャー愛好家の間で、作品が持つ世界観や時代背景への理解が深まるきっかけとなります。",
       "tags": [
-        "声優",
-        "結婚",
-        "芸能"
+        "サブカルチャー",
+        "魔法使いの夜",
+        "映画"
       ],
-      "url": "https://avex.jp/kiyono-yasuno/news/detail.php?id=1137384",
+      "url": "https://note.com/sr_ktd/n/n1e7e2d99cdf9",
       "isAiEnriched": true
     },
     {
@@ -3710,24 +3710,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "subculture",
-      "title": "『魔法使いの夜』主題歌にみるゼロ年代の精神と世界への向き合い方",
-      "source": "note.com",
-      "publishedAt": "2026-11-22 19:56",
-      "publishedTs": 1795344997,
-      "image": "https://assets.st-note.com/production/uploads/images/339232524/rectangle_large_type_2_44b77fcd273e81cd1234cb7985812b60.png?fit=bounds&quality=85&width=1280",
-      "summary": "映画『魔法使いの夜』の主題歌を手がけたsupercellの楽曲歌詞から、強烈なゼロ年代の精神性とメッセージを読み解く。",
+      "title": "声優の安野希世乃が結婚を発表",
+      "source": "avex.jp",
+      "publishedAt": "2026-11-22 19:36",
+      "publishedTs": 1795343777,
+      "image": "https://avex.jp/kiyono-yasuno/assets/img/ogp.jpg?202509",
+      "summary": "人気声優・歌手として活動する安野希世乃が、自身のオフィシャルサイトおよびSNSを通じて、結婚したことをファンや関係者に向けて温かい感謝の言葉とともに報告しました。",
       "points": [
-        "映画の最終予告で流れた主題歌「夜と青」に注目",
-        "歌詞に込められた「世界を睨み返す」姿勢を分析",
-        "ゼロ年代特有の諦めない気概とサブカルチャーを考察"
+        "声優・歌手として活躍する安野希世乃が結婚を発表",
+        "日頃から応援してくれるファンや関係者へ感謝を伝えた",
+        "今後も変わらず活動を継続していく姿勢を示す"
       ],
-      "impact": "作品のファンやサブカルチャー愛好家の間で、作品が持つ世界観や時代背景への理解が深まるきっかけとなります。",
+      "impact": "人気声優の結婚発表はファンコミュニティやSNS上で大きな祝福のムーブメントを起こします。",
       "tags": [
-        "サブカルチャー",
-        "魔法使いの夜",
-        "映画"
+        "声優",
+        "結婚",
+        "芸能"
       ],
-      "url": "https://note.com/sr_ktd/n/n1e7e2d99cdf9",
+      "url": "https://avex.jp/kiyono-yasuno/news/detail.php?id=1137384",
       "isAiEnriched": true
     },
     {
@@ -3930,24 +3930,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "subculture",
-      "title": "「装甲騎兵ボトムズ」新作における令和のAT進化の裏側",
-      "source": "mantan-web.jp",
-      "publishedAt": "2026-11-22 10:49",
-      "publishedTs": 1795312149,
-      "image": "https://storage.mantan-web.jp/w=1280,h=720,icr=0:0.1:1:1,a=2,g=2,f=webp:auto/images/2026/11/16/20261116dog00m200114000a/001.jpg",
-      "summary": "40年以上愛される名作ロボットアニメの新作における、合理性とリアリティーを追求したデザインの制作秘話を明かす。",
+      "title": "橘オレコ最新作、還暦夫婦の恋を描く読切が掲載",
+      "source": "manga-one.com",
+      "publishedAt": "2026-11-22 05:45",
+      "publishedTs": 1795293936,
+      "image": "https://app.manga-one.com/secure/1795075772/webp/chapter/362449.webp?hash=g-KHH_w5rz1eq_-4I8EXqw&expires=1881792000",
+      "summary": "『ホタルの嫁入り』の橘オレコによる最新作の読切第一弾『冷め切った夫婦channel』が、マンガワンにて公開される。",
       "points": [
-        "1983年の放送開始から続く「装甲騎兵ボトムズ」の歴史",
-        "“令和のAT”はいかに進化したのかを徹底解説",
-        "デザインの裏側にあるこだわりを制作陣がインタビューで語る"
+        "人気マンガ家・橘オレコの2週連続読切企画の第一弾",
+        "会話のない還暦夫婦の「恋」を描いた異色の恋愛作品",
+        "緩急ある展開で知られる作者の新たな挑戦に期待"
       ],
-      "impact": "往年のアニメファンから現代のメカデザイン愛好家まで、幅広い層の興味を喚起します。",
+      "impact": "ヒット作を手がける作者の新作として、マンガファンの間で大きな話題と高い関心を集めることになりそうだ。",
       "tags": [
-        "アニメ",
-        "ボトムズ",
-        "サブカルチャー"
+        "橘オレコ",
+        "マンガ",
+        "読切"
       ],
-      "url": "https://mantan-web.jp/article/20261116dog00m200114000a.html",
+      "url": "https://manga-one.com/manga/28783/chapter/362449",
       "isAiEnriched": true
     },
     {
@@ -4040,24 +4040,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "subculture",
-      "title": "橘オレコ最新作、還暦夫婦の恋を描く読切が掲載",
-      "source": "manga-one.com",
-      "publishedAt": "2026-11-22 05:45",
-      "publishedTs": 1795293936,
-      "image": "https://app.manga-one.com/secure/1795075772/webp/chapter/362449.webp?hash=g-KHH_w5rz1eq_-4I8EXqw&expires=1881792000",
-      "summary": "『ホタルの嫁入り』の橘オレコによる最新作の読切第一弾『冷め切った夫婦channel』が、マンガワンにて公開される。",
+      "title": "「装甲騎兵ボトムズ」新作における令和のAT進化の裏側",
+      "source": "mantan-web.jp",
+      "publishedAt": "2026-11-22 10:49",
+      "publishedTs": 1795312149,
+      "image": "https://storage.mantan-web.jp/w=1280,h=720,icr=0:0.1:1:1,a=2,g=2,f=webp:auto/images/2026/11/16/20261116dog00m200114000a/001.jpg",
+      "summary": "40年以上愛される名作ロボットアニメの新作における、合理性とリアリティーを追求したデザインの制作秘話を明かす。",
       "points": [
-        "人気マンガ家・橘オレコの2週連続読切企画の第一弾",
-        "会話のない還暦夫婦の「恋」を描いた異色の恋愛作品",
-        "緩急ある展開で知られる作者の新たな挑戦に期待"
+        "1983年の放送開始から続く「装甲騎兵ボトムズ」の歴史",
+        "“令和のAT”はいかに進化したのかを徹底解説",
+        "デザインの裏側にあるこだわりを制作陣がインタビューで語る"
       ],
-      "impact": "ヒット作を手がける作者の新作として、マンガファンの間で大きな話題と高い関心を集めることになりそうだ。",
+      "impact": "往年のアニメファンから現代のメカデザイン愛好家まで、幅広い層の興味を喚起します。",
       "tags": [
-        "橘オレコ",
-        "マンガ",
-        "読切"
+        "アニメ",
+        "ボトムズ",
+        "サブカルチャー"
       ],
-      "url": "https://manga-one.com/manga/28783/chapter/362449",
+      "url": "https://mantan-web.jp/article/20261116dog00m200114000a.html",
       "isAiEnriched": true
     },
     {
