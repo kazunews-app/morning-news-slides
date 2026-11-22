@@ -1,6 +1,6 @@
 window.NEWS_DATA = {
   "date": "2026年11月23日 (月)",
-  "updatedAt": "2026-11-23 02:59",
+  "updatedAt": "2026-11-23 03:48",
   "title": "TREND NEWS",
   "keywords": [
     "八木教広",
@@ -13,60 +13,60 @@ window.NEWS_DATA = {
     {
       "name": "札幌",
       "region": "北海道",
-      "temp": -1,
-      "code": 2,
+      "temp": -2,
+      "code": 1,
       "wind": 9,
       "maxTemp": 7,
       "minTemp": -2,
       "pop": 35,
       "hourly": [
         {
-          "time": "02:00",
-          "code": 2,
-          "temp": -1,
-          "pop": 0
-        },
-        {
-          "time": "05:00",
+          "time": "03:00",
           "code": 2,
           "temp": -2,
           "pop": 0
         },
         {
-          "time": "08:00",
+          "time": "06:00",
           "code": 1,
-          "temp": 0,
+          "temp": -1,
           "pop": 0
         },
         {
-          "time": "11:00",
+          "time": "09:00",
+          "code": 0,
+          "temp": 3,
+          "pop": 0
+        },
+        {
+          "time": "12:00",
           "code": 3,
           "temp": 6,
           "pop": 0
         },
         {
-          "time": "14:00",
-          "code": 3,
-          "temp": 6,
-          "pop": 0
-        },
-        {
-          "time": "17:00",
-          "code": 3,
-          "temp": 4,
-          "pop": 7
-        },
-        {
-          "time": "20:00",
-          "code": 51,
-          "temp": 4,
-          "pop": 31
-        },
-        {
-          "time": "23:00",
+          "time": "15:00",
           "code": 3,
           "temp": 5,
-          "pop": 4
+          "pop": 0
+        },
+        {
+          "time": "18:00",
+          "code": 2,
+          "temp": 4,
+          "pop": 12
+        },
+        {
+          "time": "21:00",
+          "code": 51,
+          "temp": 4,
+          "pop": 35
+        },
+        {
+          "time": "00:00",
+          "code": 3,
+          "temp": 6,
+          "pop": 0
         }
       ],
       "daily": [
@@ -135,53 +135,53 @@ window.NEWS_DATA = {
       "code": 0,
       "wind": 4,
       "maxTemp": 11,
-      "minTemp": 2,
+      "minTemp": 3,
       "pop": 0,
       "hourly": [
         {
-          "time": "02:00",
+          "time": "03:00",
           "code": 0,
-          "temp": 2,
+          "temp": 3,
           "pop": 0
         },
         {
-          "time": "05:00",
+          "time": "06:00",
           "code": 0,
-          "temp": 2,
+          "temp": 3,
           "pop": 0
         },
         {
-          "time": "08:00",
+          "time": "09:00",
           "code": 1,
-          "temp": 4,
+          "temp": 6,
           "pop": 0
         },
         {
-          "time": "11:00",
-          "code": 0,
+          "time": "12:00",
+          "code": 1,
           "temp": 10,
           "pop": 0
         },
         {
-          "time": "14:00",
-          "code": 1,
+          "time": "15:00",
+          "code": 0,
           "temp": 11,
           "pop": 0
         },
         {
-          "time": "17:00",
-          "code": 1,
-          "temp": 9,
-          "pop": 0
-        },
-        {
-          "time": "20:00",
-          "code": 2,
+          "time": "18:00",
+          "code": 0,
           "temp": 8,
           "pop": 0
         },
         {
-          "time": "23:00",
+          "time": "21:00",
+          "code": 1,
+          "temp": 8,
+          "pop": 0
+        },
+        {
+          "time": "00:00",
           "code": 0,
           "temp": 7,
           "pop": 0
@@ -191,9 +191,9 @@ window.NEWS_DATA = {
         {
           "date": "11/23",
           "dow": "今日",
-          "code": 2,
+          "code": 1,
           "maxTemp": 11,
-          "minTemp": 2,
+          "minTemp": 3,
           "pop": 0
         },
         {
@@ -249,58 +249,58 @@ window.NEWS_DATA = {
     {
       "name": "新潟",
       "region": "北陸",
-      "temp": 4,
+      "temp": 5,
       "code": 1,
-      "wind": 12,
-      "maxTemp": 12,
-      "minTemp": 4,
+      "wind": 11,
+      "maxTemp": 13,
+      "minTemp": 5,
       "pop": 76,
       "hourly": [
         {
-          "time": "02:00",
+          "time": "03:00",
           "code": 1,
-          "temp": 4,
-          "pop": 64
+          "temp": 5,
+          "pop": 55
         },
         {
-          "time": "05:00",
+          "time": "06:00",
           "code": 1,
-          "temp": 4,
-          "pop": 34
+          "temp": 5,
+          "pop": 25
         },
         {
-          "time": "08:00",
-          "code": 2,
-          "temp": 6,
-          "pop": 16
+          "time": "09:00",
+          "code": 1,
+          "temp": 7,
+          "pop": 12
         },
         {
-          "time": "11:00",
-          "code": 2,
-          "temp": 10,
-          "pop": 3
+          "time": "12:00",
+          "code": 1,
+          "temp": 11,
+          "pop": 0
         },
         {
-          "time": "14:00",
+          "time": "15:00",
           "code": 51,
           "temp": 12,
           "pop": 0
         },
         {
-          "time": "17:00",
+          "time": "18:00",
           "code": 0,
           "temp": 10,
           "pop": 0
         },
         {
-          "time": "20:00",
-          "code": 2,
+          "time": "21:00",
+          "code": 0,
           "temp": 8,
           "pop": 0
         },
         {
-          "time": "23:00",
-          "code": 1,
+          "time": "00:00",
+          "code": 0,
           "temp": 7,
           "pop": 0
         }
@@ -310,14 +310,14 @@ window.NEWS_DATA = {
           "date": "11/23",
           "dow": "今日",
           "code": 51,
-          "maxTemp": 12,
-          "minTemp": 4,
+          "maxTemp": 13,
+          "minTemp": 5,
           "pop": 76
         },
         {
           "date": "11/24",
           "dow": "明日",
-          "code": 65,
+          "code": 63,
           "maxTemp": 13,
           "minTemp": 7,
           "pop": 100
@@ -368,57 +368,57 @@ window.NEWS_DATA = {
       "name": "金沢",
       "region": "北陸",
       "temp": 7,
-      "code": 3,
-      "wind": 6,
-      "maxTemp": 13,
+      "code": 1,
+      "wind": 8,
+      "maxTemp": 14,
       "minTemp": 5,
       "pop": 0,
       "hourly": [
         {
-          "time": "02:00",
+          "time": "03:00",
           "code": 1,
-          "temp": 6,
+          "temp": 7,
           "pop": 0
         },
         {
-          "time": "05:00",
-          "code": 0,
+          "time": "06:00",
+          "code": 2,
           "temp": 8,
           "pop": 0
         },
         {
-          "time": "08:00",
+          "time": "09:00",
           "code": 2,
           "temp": 9,
           "pop": 0
         },
         {
-          "time": "11:00",
-          "code": 0,
-          "temp": 12,
-          "pop": 0
-        },
-        {
-          "time": "14:00",
+          "time": "12:00",
           "code": 0,
           "temp": 13,
           "pop": 0
         },
         {
-          "time": "17:00",
+          "time": "15:00",
           "code": 0,
-          "temp": 11,
+          "temp": 14,
           "pop": 0
         },
         {
-          "time": "20:00",
-          "code": 0,
-          "temp": 8,
-          "pop": 0
-        },
-        {
-          "time": "23:00",
+          "time": "18:00",
           "code": 1,
+          "temp": 10,
+          "pop": 0
+        },
+        {
+          "time": "21:00",
+          "code": 0,
+          "temp": 10,
+          "pop": 0
+        },
+        {
+          "time": "00:00",
+          "code": 2,
           "temp": 11,
           "pop": 0
         }
@@ -427,8 +427,8 @@ window.NEWS_DATA = {
         {
           "date": "11/23",
           "dow": "今日",
-          "code": 51,
-          "maxTemp": 13,
+          "code": 3,
+          "maxTemp": 14,
           "minTemp": 5,
           "pop": 0
         },
@@ -493,50 +493,50 @@ window.NEWS_DATA = {
       "pop": 0,
       "hourly": [
         {
-          "time": "02:00",
+          "time": "03:00",
           "code": 0,
           "temp": 6,
           "pop": 0
         },
         {
-          "time": "05:00",
+          "time": "06:00",
           "code": 0,
-          "temp": 6,
+          "temp": 5,
           "pop": 0
         },
         {
-          "time": "08:00",
+          "time": "09:00",
           "code": 0,
-          "temp": 6,
+          "temp": 8,
           "pop": 0
         },
         {
-          "time": "11:00",
-          "code": 0,
-          "temp": 10,
-          "pop": 0
-        },
-        {
-          "time": "14:00",
-          "code": 0,
-          "temp": 13,
-          "pop": 0
-        },
-        {
-          "time": "17:00",
+          "time": "12:00",
           "code": 0,
           "temp": 12,
           "pop": 0
         },
         {
-          "time": "20:00",
+          "time": "15:00",
+          "code": 0,
+          "temp": 13,
+          "pop": 0
+        },
+        {
+          "time": "18:00",
           "code": 0,
           "temp": 11,
           "pop": 0
         },
         {
-          "time": "23:00",
+          "time": "21:00",
           "code": 0,
+          "temp": 11,
+          "pop": 0
+        },
+        {
+          "time": "00:00",
+          "code": 1,
           "temp": 11,
           "pop": 0
         }
@@ -545,7 +545,7 @@ window.NEWS_DATA = {
         {
           "date": "11/23",
           "dow": "今日",
-          "code": 1,
+          "code": 0,
           "maxTemp": 13,
           "minTemp": 5,
           "pop": 0
@@ -555,7 +555,7 @@ window.NEWS_DATA = {
           "dow": "明日",
           "code": 63,
           "maxTemp": 19,
-          "minTemp": 10,
+          "minTemp": 11,
           "pop": 100
         },
         {
@@ -603,57 +603,57 @@ window.NEWS_DATA = {
     {
       "name": "名古屋",
       "region": "東海",
-      "temp": 5,
+      "temp": 4,
       "code": 0,
-      "wind": 3,
+      "wind": 4,
       "maxTemp": 13,
       "minTemp": 4,
       "pop": 0,
       "hourly": [
         {
-          "time": "02:00",
-          "code": 0,
-          "temp": 5,
-          "pop": 0
-        },
-        {
-          "time": "05:00",
+          "time": "03:00",
           "code": 0,
           "temp": 4,
           "pop": 0
         },
         {
-          "time": "08:00",
+          "time": "06:00",
           "code": 0,
-          "temp": 5,
+          "temp": 4,
           "pop": 0
         },
         {
-          "time": "11:00",
+          "time": "09:00",
           "code": 0,
-          "temp": 10,
+          "temp": 6,
           "pop": 0
         },
         {
-          "time": "14:00",
+          "time": "12:00",
+          "code": 0,
+          "temp": 12,
+          "pop": 0
+        },
+        {
+          "time": "15:00",
           "code": 0,
           "temp": 13,
           "pop": 0
         },
         {
-          "time": "17:00",
+          "time": "18:00",
           "code": 0,
-          "temp": 11,
+          "temp": 10,
           "pop": 0
         },
         {
-          "time": "20:00",
+          "time": "21:00",
           "code": 0,
-          "temp": 9,
+          "temp": 8,
           "pop": 0
         },
         {
-          "time": "23:00",
+          "time": "00:00",
           "code": 1,
           "temp": 8,
           "pop": 0
@@ -729,51 +729,51 @@ window.NEWS_DATA = {
       "pop": 0,
       "hourly": [
         {
-          "time": "02:00",
+          "time": "03:00",
           "code": 0,
           "temp": 6,
           "pop": 0
         },
         {
-          "time": "05:00",
+          "time": "06:00",
           "code": 0,
           "temp": 5,
           "pop": 0
         },
         {
-          "time": "08:00",
+          "time": "09:00",
           "code": 0,
-          "temp": 5,
+          "temp": 7,
           "pop": 0
         },
         {
-          "time": "11:00",
-          "code": 0,
-          "temp": 10,
-          "pop": 0
-        },
-        {
-          "time": "14:00",
-          "code": 0,
-          "temp": 13,
-          "pop": 0
-        },
-        {
-          "time": "17:00",
+          "time": "12:00",
           "code": 0,
           "temp": 12,
           "pop": 0
         },
         {
-          "time": "20:00",
+          "time": "15:00",
           "code": 0,
+          "temp": 13,
+          "pop": 0
+        },
+        {
+          "time": "18:00",
+          "code": 0,
+          "temp": 12,
+          "pop": 0
+        },
+        {
+          "time": "21:00",
+          "code": 1,
           "temp": 10,
           "pop": 0
         },
         {
-          "time": "23:00",
+          "time": "00:00",
           "code": 1,
-          "temp": 10,
+          "temp": 9,
           "pop": 0
         }
       ],
@@ -790,7 +790,7 @@ window.NEWS_DATA = {
           "date": "11/24",
           "dow": "明日",
           "code": 65,
-          "maxTemp": 14,
+          "maxTemp": 15,
           "minTemp": 8,
           "pop": 100
         },
@@ -847,51 +847,51 @@ window.NEWS_DATA = {
       "pop": 0,
       "hourly": [
         {
-          "time": "02:00",
+          "time": "03:00",
           "code": 0,
           "temp": 4,
           "pop": 0
         },
         {
-          "time": "05:00",
+          "time": "06:00",
           "code": 0,
           "temp": 3,
           "pop": 0
         },
         {
-          "time": "08:00",
+          "time": "09:00",
           "code": 0,
-          "temp": 4,
+          "temp": 6,
           "pop": 0
         },
         {
-          "time": "11:00",
-          "code": 0,
-          "temp": 10,
-          "pop": 0
-        },
-        {
-          "time": "14:00",
-          "code": 0,
-          "temp": 13,
-          "pop": 0
-        },
-        {
-          "time": "17:00",
-          "code": 2,
-          "temp": 13,
-          "pop": 0
-        },
-        {
-          "time": "20:00",
+          "time": "12:00",
           "code": 1,
+          "temp": 11,
+          "pop": 0
+        },
+        {
+          "time": "15:00",
+          "code": 1,
+          "temp": 13,
+          "pop": 0
+        },
+        {
+          "time": "18:00",
+          "code": 2,
           "temp": 12,
           "pop": 0
         },
         {
-          "time": "23:00",
+          "time": "21:00",
           "code": 2,
-          "temp": 12,
+          "temp": 11,
+          "pop": 0
+        },
+        {
+          "time": "00:00",
+          "code": 1,
+          "temp": 14,
           "pop": 0
         }
       ],
@@ -957,59 +957,59 @@ window.NEWS_DATA = {
     {
       "name": "高知",
       "region": "四国",
-      "temp": 5,
+      "temp": 4,
       "code": 0,
-      "wind": 5,
+      "wind": 6,
       "maxTemp": 14,
       "minTemp": 4,
       "pop": 0,
       "hourly": [
         {
-          "time": "02:00",
-          "code": 0,
-          "temp": 5,
-          "pop": 0
-        },
-        {
-          "time": "05:00",
+          "time": "03:00",
           "code": 0,
           "temp": 4,
           "pop": 0
         },
         {
-          "time": "08:00",
+          "time": "06:00",
           "code": 0,
-          "temp": 5,
+          "temp": 4,
           "pop": 0
         },
         {
-          "time": "11:00",
+          "time": "09:00",
           "code": 0,
-          "temp": 12,
+          "temp": 8,
           "pop": 0
         },
         {
-          "time": "14:00",
+          "time": "12:00",
+          "code": 0,
+          "temp": 13,
+          "pop": 0
+        },
+        {
+          "time": "15:00",
           "code": 0,
           "temp": 14,
           "pop": 0
         },
         {
-          "time": "17:00",
+          "time": "18:00",
           "code": 0,
-          "temp": 12,
+          "temp": 11,
           "pop": 0
         },
         {
-          "time": "20:00",
+          "time": "21:00",
           "code": 1,
           "temp": 10,
           "pop": 0
         },
         {
-          "time": "23:00",
+          "time": "00:00",
           "code": 1,
-          "temp": 10,
+          "temp": 11,
           "pop": 0
         }
       ],
@@ -1017,7 +1017,7 @@ window.NEWS_DATA = {
         {
           "date": "11/23",
           "dow": "今日",
-          "code": 1,
+          "code": 2,
           "maxTemp": 14,
           "minTemp": 4,
           "pop": 0
@@ -1077,58 +1077,58 @@ window.NEWS_DATA = {
       "region": "九州",
       "temp": 8,
       "code": 0,
-      "wind": 11,
+      "wind": 12,
       "maxTemp": 16,
       "minTemp": 8,
       "pop": 0,
       "hourly": [
         {
-          "time": "02:00",
+          "time": "03:00",
           "code": 0,
           "temp": 8,
           "pop": 0
         },
         {
-          "time": "05:00",
+          "time": "06:00",
           "code": 1,
           "temp": 8,
           "pop": 0
         },
         {
-          "time": "08:00",
+          "time": "09:00",
           "code": 1,
-          "temp": 8,
+          "temp": 10,
           "pop": 0
         },
         {
-          "time": "11:00",
-          "code": 1,
-          "temp": 13,
-          "pop": 0
-        },
-        {
-          "time": "14:00",
-          "code": 2,
+          "time": "12:00",
+          "code": 0,
           "temp": 15,
           "pop": 0
         },
         {
-          "time": "17:00",
-          "code": 2,
+          "time": "15:00",
+          "code": 1,
+          "temp": 16,
+          "pop": 0
+        },
+        {
+          "time": "18:00",
+          "code": 1,
           "temp": 14,
           "pop": 0
         },
         {
-          "time": "20:00",
-          "code": 1,
+          "time": "21:00",
+          "code": 0,
           "temp": 13,
           "pop": 0
         },
         {
-          "time": "23:00",
+          "time": "00:00",
           "code": 51,
           "temp": 14,
-          "pop": 0
+          "pop": 6
         }
       ],
       "daily": [
@@ -1144,7 +1144,7 @@ window.NEWS_DATA = {
           "date": "11/24",
           "dow": "明日",
           "code": 65,
-          "maxTemp": 16,
+          "maxTemp": 17,
           "minTemp": 8,
           "pop": 100
         },
@@ -1195,55 +1195,55 @@ window.NEWS_DATA = {
       "region": "沖縄",
       "temp": 19,
       "code": 3,
-      "wind": 9,
+      "wind": 8,
       "maxTemp": 24,
       "minTemp": 18,
       "pop": 2,
       "hourly": [
         {
-          "time": "02:00",
+          "time": "03:00",
           "code": 3,
           "temp": 19,
           "pop": 0
         },
         {
-          "time": "05:00",
-          "code": 1,
-          "temp": 19,
-          "pop": 0
-        },
-        {
-          "time": "08:00",
-          "code": 3,
-          "temp": 21,
-          "pop": 0
-        },
-        {
-          "time": "11:00",
-          "code": 1,
-          "temp": 23,
-          "pop": 0
-        },
-        {
-          "time": "14:00",
+          "time": "06:00",
           "code": 2,
+          "temp": 19,
+          "pop": 0
+        },
+        {
+          "time": "09:00",
+          "code": 3,
+          "temp": 22,
+          "pop": 0
+        },
+        {
+          "time": "12:00",
+          "code": 3,
           "temp": 24,
+          "pop": 0
+        },
+        {
+          "time": "15:00",
+          "code": 2,
+          "temp": 23,
           "pop": 2
         },
         {
-          "time": "17:00",
-          "code": 2,
+          "time": "18:00",
+          "code": 1,
           "temp": 22,
-          "pop": 1
-        },
-        {
-          "time": "20:00",
-          "code": 2,
-          "temp": 21,
           "pop": 0
         },
         {
-          "time": "23:00",
+          "time": "21:00",
+          "code": 3,
+          "temp": 22,
+          "pop": 0
+        },
+        {
+          "time": "00:00",
           "code": 1,
           "temp": 22,
           "pop": 0
@@ -2060,24 +2060,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "subculture",
-      "title": "『SPY×FAMILY』第144話が少年ジャンプ＋で公開",
-      "source": "shonenjumpplus.com",
-      "publishedAt": "2026-11-23 00:00",
-      "publishedTs": 1795359614,
-      "image": "https://cdn-ak-img.shonenjumpplus.com/public/series-thumbnail/10834108156648240732-a36361f526a0f4cddeaaffcb49b901ed?1795064883",
-      "summary": "遠藤達哉の人気漫画『SPY×FAMILY』の第144話が少年ジャンプ＋にて公開された。テレビアニメや劇場版の展開も控えるスパイアクションコメディの最新話となる。",
+      "title": "声優・青木志貴が自身のジェンダー観について告白",
+      "source": "bunshun.jp",
+      "publishedAt": "2026-11-22 11:59",
+      "publishedTs": 1795316370,
+      "image": "https://bunshun.jp/mwimgs/c/9/1200wm/img_c917d7c5fc5388e17bc049fb314980e11055645.jpg",
+      "summary": "デレマス声優の青木志貴がインタビューで自身の幼少期や、「自分は男だと思っている」と気づいた瞬間について赤裸々に語りました。",
       "points": [
-        "少年ジャンプ＋で第144話が公開",
-        "TVアニメSeason 4＆劇場版2の制作が決定",
-        "スパイ×アクション×特殊家族コメディとして人気"
+        "幼少期から男の子の遊びや役割を好んでいた",
+        "告白された際の違和感から自身の性に気づく",
+        "「僕は自分のことを男だと思ってる」と告白"
       ],
-      "impact": "アニメ化や映画化の発表も相次ぎ、コンテンツ全体のさらなる盛り上がりが期待されています。",
+      "impact": "多様なジェンダー観についての理解を深めるきっかけとして、多くの読者の関心を集めています。",
       "tags": [
-        "SPY×FAMILY",
-        "少年ジャンプ＋",
-        "漫画"
+        "インタビュー",
+        "声優",
+        "ジェンダー"
       ],
-      "url": "https://shonenjumpplus.com/episode/9253191257982514341",
+      "url": "https://bunshun.jp/articles/-/93007",
       "isAiEnriched": true
     },
     {
@@ -2170,24 +2170,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "subculture",
-      "title": "『ドルフロ』新作や注目ゲーム7選が発表",
-      "source": "AUTOMATON",
-      "publishedAt": "2026-11-22 16:47",
-      "publishedTs": 1795333676,
-      "image": "https://automaton-media.com/wp-content/uploads/2026/11/20261121-480328-header.jpg",
-      "summary": "新作PvEシューター『ガールズフロントライン：ブルーコブナント』や、交流不要のMMO『クロスランド』など、今週話題となったゲーム情報が公開されました。",
+      "title": "『SPY×FAMILY』第144話が少年ジャンプ＋で公開",
+      "source": "shonenjumpplus.com",
+      "publishedAt": "2026-11-23 00:00",
+      "publishedTs": 1795359614,
+      "image": "https://cdn-ak-img.shonenjumpplus.com/public/series-thumbnail/10834108156648240732-a36361f526a0f4cddeaaffcb49b901ed?1795064883",
+      "summary": "遠藤達哉の人気漫画『SPY×FAMILY』の第144話が少年ジャンプ＋にて公開された。テレビアニメや劇場版の展開も控えるスパイアクションコメディの最新話となる。",
       "points": [
-        "『ガールズフロントライン』の新作シューターが正式発表された",
-        "交流不要で遊べるMMO『クロスランド』が大人気を集める",
-        "『HARMA 亡国のエデン』など今週の注目タイトル7本を紹介"
+        "少年ジャンプ＋で第144話が公開",
+        "TVアニメSeason 4＆劇場版2の制作が決定",
+        "スパイ×アクション×特殊家族コメディとして人気"
       ],
-      "impact": "新作ゲームの動向やプレイスタイルの多様化に敏感なゲーマー層の間で、大きな話題と期待を集めています。",
+      "impact": "アニメ化や映画化の発表も相次ぎ、コンテンツ全体のさらなる盛り上がりが期待されています。",
       "tags": [
-        "サブカルチャー",
-        "ゲーム",
-        "新作"
+        "SPY×FAMILY",
+        "少年ジャンプ＋",
+        "漫画"
       ],
-      "url": "https://automaton-media.com/articles/newsjp/20261121-480328/",
+      "url": "https://shonenjumpplus.com/episode/9253191257982514341",
       "isAiEnriched": true
     },
     {
@@ -2280,24 +2280,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "subculture",
-      "title": "VTuber29名コラボのNFC内蔵CD型アクキー登場",
-      "source": "PANORA",
-      "publishedAt": "2026-11-22 12:37",
-      "publishedTs": 1795318642,
-      "image": "https://asset.panora.tokyo/wp-content/uploads/2026/11/22123715/110924-77-94d9a939c5ae9f39404f76e248fbd7df-1300x650-1.webp",
-      "summary": "AttendMeが、29名の人気VTuberとコラボレーションしたNFC内蔵CD型アクリルキーホルダー「MELOKEY」の受注受付を開始しました。",
+      "title": "『ドルフロ』新作や注目ゲーム7選が発表",
+      "source": "AUTOMATON",
+      "publishedAt": "2026-11-22 16:47",
+      "publishedTs": 1795333676,
+      "image": "https://automaton-media.com/wp-content/uploads/2026/11/20261121-480328-header.jpg",
+      "summary": "新作PvEシューター『ガールズフロントライン：ブルーコブナント』や、交流不要のMMO『クロスランド』など、今週話題となったゲーム情報が公開されました。",
       "points": [
-        "総勢29名のVTuberが参加するコラボ企画",
-        "NFCチップを内蔵したCD型アクリルキーホルダー",
-        "ファングッズとしての新しい体験やデジタル連動"
+        "『ガールズフロントライン』の新作シューターが正式発表された",
+        "交流不要で遊べるMMO『クロスランド』が大人気を集める",
+        "『HARMA 亡国のエデン』など今週の注目タイトル7本を紹介"
       ],
-      "impact": "推し活グッズのデジタル融合が進む中、ファンコミュニティの活性化や新しいグッズ市場の開拓に寄与します。",
+      "impact": "新作ゲームの動向やプレイスタイルの多様化に敏感なゲーマー層の間で、大きな話題と期待を集めています。",
       "tags": [
-        "VTuber",
-        "グッズ",
-        "サブカルチャー"
+        "サブカルチャー",
+        "ゲーム",
+        "新作"
       ],
-      "url": "https://panora.tokyo/archives/164074",
+      "url": "https://automaton-media.com/articles/newsjp/20261121-480328/",
       "isAiEnriched": true
     },
     {
@@ -2390,24 +2390,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "subculture",
-      "title": "声優・青木志貴が自身のジェンダー観について告白",
-      "source": "bunshun.jp",
-      "publishedAt": "2026-11-22 11:59",
-      "publishedTs": 1795316370,
-      "image": "https://bunshun.jp/mwimgs/c/9/1200wm/img_c917d7c5fc5388e17bc049fb314980e11055645.jpg",
-      "summary": "デレマス声優の青木志貴がインタビューで自身の幼少期や、「自分は男だと思っている」と気づいた瞬間について赤裸々に語りました。",
+      "title": "VTuber29名コラボのNFC内蔵CD型アクキー登場",
+      "source": "PANORA",
+      "publishedAt": "2026-11-22 12:37",
+      "publishedTs": 1795318642,
+      "image": "https://asset.panora.tokyo/wp-content/uploads/2026/11/22123715/110924-77-94d9a939c5ae9f39404f76e248fbd7df-1300x650-1.webp",
+      "summary": "AttendMeが、29名の人気VTuberとコラボレーションしたNFC内蔵CD型アクリルキーホルダー「MELOKEY」の受注受付を開始しました。",
       "points": [
-        "幼少期から男の子の遊びや役割を好んでいた",
-        "告白された際の違和感から自身の性に気づく",
-        "「僕は自分のことを男だと思ってる」と告白"
+        "総勢29名のVTuberが参加するコラボ企画",
+        "NFCチップを内蔵したCD型アクリルキーホルダー",
+        "ファングッズとしての新しい体験やデジタル連動"
       ],
-      "impact": "多様なジェンダー観についての理解を深めるきっかけとして、多くの読者の関心を集めています。",
+      "impact": "推し活グッズのデジタル融合が進む中、ファンコミュニティの活性化や新しいグッズ市場の開拓に寄与します。",
       "tags": [
-        "インタビュー",
-        "声優",
-        "ジェンダー"
+        "VTuber",
+        "グッズ",
+        "サブカルチャー"
       ],
-      "url": "https://bunshun.jp/articles/-/93007",
+      "url": "https://panora.tokyo/archives/164074",
       "isAiEnriched": true
     },
     {
