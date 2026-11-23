@@ -1,6 +1,6 @@
 window.NEWS_DATA = {
   "date": "2026年11月24日 (火)",
-  "updatedAt": "2026-11-24 03:08",
+  "updatedAt": "2026-11-24 04:12",
   "title": "TREND NEWS",
   "keywords": [
     "ウクライナ軍事",
@@ -13,178 +13,178 @@ window.NEWS_DATA = {
     {
       "name": "札幌",
       "region": "北海道",
-      "temp": 7,
-      "code": 53,
-      "wind": 23,
+      "temp": 5,
+      "code": 95,
+      "wind": 4,
       "maxTemp": 8,
-      "minTemp": -1,
-      "pop": 100,
+      "minTemp": -3,
+      "pop": 80,
       "hourly": [
         {
           "time": "03:00",
-          "code": 53,
-          "temp": 7,
-          "pop": 100
+          "code": 95,
+          "temp": -2,
+          "pop": 80
         },
         {
           "time": "06:00",
-          "code": 61,
-          "temp": 7,
-          "pop": 100
+          "code": 95,
+          "temp": 1,
+          "pop": 80
         },
         {
           "time": "09:00",
-          "code": 53,
-          "temp": 8,
-          "pop": 100
+          "code": 95,
+          "temp": 3,
+          "pop": 80
         },
         {
           "time": "12:00",
-          "code": 51,
-          "temp": 8,
-          "pop": 100
+          "code": 95,
+          "temp": 6,
+          "pop": 80
         },
         {
           "time": "15:00",
-          "code": 1,
-          "temp": 6,
-          "pop": 35
+          "code": 95,
+          "temp": 7,
+          "pop": 80
         },
         {
           "time": "18:00",
-          "code": 2,
-          "temp": 3,
-          "pop": 6
+          "code": 95,
+          "temp": 4,
+          "pop": 80
         },
         {
           "time": "21:00",
-          "code": 2,
-          "temp": 1,
-          "pop": 22
+          "code": 95,
+          "temp": 2,
+          "pop": 80
         },
         {
           "time": "00:00",
-          "code": 1,
-          "temp": -1,
-          "pop": 49
+          "code": 95,
+          "temp": -3,
+          "pop": 80
         }
       ],
       "daily": [
         {
           "date": "11/24",
           "dow": "今日",
-          "code": 81,
+          "code": 61,
           "maxTemp": 8,
-          "minTemp": -1,
-          "pop": 100
+          "minTemp": -3,
+          "pop": 80
         },
         {
           "date": "11/25",
           "dow": "明日",
-          "code": 71,
-          "maxTemp": 0,
+          "code": 3,
+          "maxTemp": 1,
           "minTemp": -3,
-          "pop": 84
+          "pop": 70
         },
         {
           "date": "11/26",
           "dow": "木",
-          "code": 71,
-          "maxTemp": 7,
-          "minTemp": -2,
-          "pop": 100
+          "code": 3,
+          "maxTemp": 10,
+          "minTemp": 0,
+          "pop": 60
         },
         {
           "date": "11/27",
           "dow": "金",
           "code": 3,
-          "maxTemp": 11,
-          "minTemp": -2,
-          "pop": 56
+          "maxTemp": 13,
+          "minTemp": 3,
+          "pop": 50
         },
         {
           "date": "11/28",
           "dow": "土",
-          "code": 53,
+          "code": 3,
           "maxTemp": 13,
-          "minTemp": 2,
-          "pop": 71
+          "minTemp": 1,
+          "pop": 70
         },
         {
           "date": "11/29",
           "dow": "日",
-          "code": 2,
-          "maxTemp": 2,
-          "minTemp": -3,
-          "pop": 37
+          "code": 3,
+          "maxTemp": 4,
+          "minTemp": 0,
+          "pop": 50
         },
         {
           "date": "11/30",
           "dow": "月",
-          "code": 85,
-          "maxTemp": 5,
-          "minTemp": -3,
-          "pop": 67
+          "code": 3,
+          "maxTemp": 7,
+          "minTemp": 0,
+          "pop": 50
         }
       ]
     },
     {
       "name": "仙台",
       "region": "東北",
-      "temp": 6,
-      "code": 2,
-      "wind": 6,
-      "maxTemp": 14,
-      "minTemp": 4,
-      "pop": 100,
+      "temp": 5,
+      "code": 0,
+      "wind": 4,
+      "maxTemp": 15,
+      "minTemp": 2,
+      "pop": 10,
       "hourly": [
         {
           "time": "03:00",
-          "code": 2,
-          "temp": 6,
-          "pop": 0
+          "code": 0,
+          "temp": 3,
+          "pop": 10
         },
         {
           "time": "06:00",
-          "code": 1,
-          "temp": 7,
-          "pop": 0
+          "code": 0,
+          "temp": 6,
+          "pop": 10
         },
         {
           "time": "09:00",
-          "code": 1,
+          "code": 0,
           "temp": 10,
-          "pop": 0
+          "pop": 10
         },
         {
           "time": "12:00",
-          "code": 2,
-          "temp": 14,
-          "pop": 31
+          "code": 0,
+          "temp": 13,
+          "pop": 10
         },
         {
           "time": "15:00",
-          "code": 3,
-          "temp": 13,
-          "pop": 100
+          "code": 0,
+          "temp": 14,
+          "pop": 10
         },
         {
           "time": "18:00",
-          "code": 3,
-          "temp": 12,
-          "pop": 100
+          "code": 0,
+          "temp": 11,
+          "pop": 10
         },
         {
           "time": "21:00",
-          "code": 1,
-          "temp": 10,
-          "pop": 25
+          "code": 0,
+          "temp": 7,
+          "pop": 10
         },
         {
           "time": "00:00",
           "code": 0,
-          "temp": 6,
-          "pop": 76
+          "temp": 2,
+          "pop": 10
         }
       ],
       "daily": [
@@ -192,401 +192,519 @@ window.NEWS_DATA = {
           "date": "11/24",
           "dow": "今日",
           "code": 3,
-          "maxTemp": 14,
-          "minTemp": 4,
-          "pop": 100
+          "maxTemp": 15,
+          "minTemp": 2,
+          "pop": 10
         },
         {
           "date": "11/25",
           "dow": "明日",
-          "code": 51,
-          "maxTemp": 7,
-          "minTemp": 3,
-          "pop": 99
+          "code": 1,
+          "maxTemp": 8,
+          "minTemp": 2,
+          "pop": 20
         },
         {
           "date": "11/26",
           "dow": "木",
-          "code": 2,
-          "maxTemp": 14,
+          "code": 3,
+          "maxTemp": 15,
           "minTemp": 3,
-          "pop": 6
+          "pop": 30
         },
         {
           "date": "11/27",
           "dow": "金",
-          "code": 3,
+          "code": 1,
           "maxTemp": 17,
-          "minTemp": 4,
-          "pop": 0
+          "minTemp": 6,
+          "pop": 20
         },
         {
           "date": "11/28",
           "dow": "土",
-          "code": 51,
-          "maxTemp": 14,
-          "minTemp": 6,
-          "pop": 45
+          "code": 3,
+          "maxTemp": 18,
+          "minTemp": 7,
+          "pop": 40
         },
         {
           "date": "11/29",
           "dow": "日",
-          "code": 51,
-          "maxTemp": 8,
-          "minTemp": 3,
-          "pop": 89
+          "code": 3,
+          "maxTemp": 11,
+          "minTemp": 5,
+          "pop": 30
         },
         {
           "date": "11/30",
           "dow": "月",
-          "code": 3,
-          "maxTemp": 13,
-          "minTemp": 3,
-          "pop": 14
+          "code": 1,
+          "maxTemp": 14,
+          "minTemp": 5,
+          "pop": 20
         }
       ]
     },
     {
       "name": "新潟",
       "region": "北陸",
-      "temp": 8,
-      "code": 0,
-      "wind": 14,
+      "temp": 5,
+      "code": 1,
+      "wind": 4,
       "maxTemp": 13,
-      "minTemp": 7,
-      "pop": 100,
+      "minTemp": 4,
+      "pop": 60,
       "hourly": [
         {
           "time": "03:00",
-          "code": 0,
-          "temp": 8,
-          "pop": 0
+          "code": 1,
+          "temp": 5,
+          "pop": 60
         },
         {
           "time": "06:00",
           "code": 1,
-          "temp": 8,
-          "pop": 0
+          "temp": 7,
+          "pop": 60
         },
         {
           "time": "09:00",
-          "code": 51,
-          "temp": 11,
-          "pop": 45
+          "code": 1,
+          "temp": 9,
+          "pop": 60
         },
         {
           "time": "12:00",
-          "code": 63,
+          "code": 1,
           "temp": 12,
-          "pop": 96
+          "pop": 60
         },
         {
           "time": "15:00",
-          "code": 55,
+          "code": 1,
           "temp": 12,
-          "pop": 100
+          "pop": 60
         },
         {
           "time": "18:00",
-          "code": 51,
-          "temp": 12,
-          "pop": 100
+          "code": 1,
+          "temp": 10,
+          "pop": 60
         },
         {
           "time": "21:00",
-          "code": 2,
-          "temp": 10,
-          "pop": 96
+          "code": 1,
+          "temp": 8,
+          "pop": 60
         },
         {
           "time": "00:00",
-          "code": 61,
-          "temp": 7,
-          "pop": 100
+          "code": 1,
+          "temp": 4,
+          "pop": 60
         }
       ],
       "daily": [
         {
           "date": "11/24",
           "dow": "今日",
-          "code": 63,
+          "code": 3,
           "maxTemp": 13,
-          "minTemp": 7,
-          "pop": 100
+          "minTemp": 4,
+          "pop": 60
         },
         {
           "date": "11/25",
           "dow": "明日",
-          "code": 61,
+          "code": 3,
           "maxTemp": 8,
-          "minTemp": 6,
-          "pop": 100
+          "minTemp": 4,
+          "pop": 80
         },
         {
           "date": "11/26",
           "dow": "木",
-          "code": 53,
-          "maxTemp": 14,
-          "minTemp": 6,
-          "pop": 92
+          "code": 3,
+          "maxTemp": 15,
+          "minTemp": 5,
+          "pop": 40
         },
         {
           "date": "11/27",
           "dow": "金",
-          "code": 2,
+          "code": 3,
           "maxTemp": 18,
-          "minTemp": 9,
-          "pop": 16
+          "minTemp": 7,
+          "pop": 30
         },
         {
           "date": "11/28",
           "dow": "土",
-          "code": 80,
-          "maxTemp": 15,
-          "minTemp": 10,
-          "pop": 100
+          "code": 3,
+          "maxTemp": 17,
+          "minTemp": 7,
+          "pop": 70
         },
         {
           "date": "11/29",
           "dow": "日",
-          "code": 81,
-          "maxTemp": 10,
-          "minTemp": 7,
-          "pop": 100
+          "code": 3,
+          "maxTemp": 12,
+          "minTemp": 6,
+          "pop": 60
         },
         {
           "date": "11/30",
           "dow": "月",
-          "code": 51,
-          "maxTemp": 15,
-          "minTemp": 5,
-          "pop": 47
+          "code": 3,
+          "maxTemp": 16,
+          "minTemp": 7,
+          "pop": 50
         }
       ]
     },
     {
       "name": "金沢",
       "region": "北陸",
-      "temp": 13,
-      "code": 2,
-      "wind": 12,
-      "maxTemp": 14,
-      "minTemp": 6,
-      "pop": 100,
+      "temp": 9,
+      "code": 1,
+      "wind": 4,
+      "maxTemp": 13,
+      "minTemp": 5,
+      "pop": 90,
       "hourly": [
         {
           "time": "03:00",
-          "code": 2,
-          "temp": 13,
-          "pop": 0
+          "code": 1,
+          "temp": 6,
+          "pop": 90
         },
         {
           "time": "06:00",
-          "code": 2,
-          "temp": 14,
-          "pop": 20
+          "code": 1,
+          "temp": 8,
+          "pop": 90
         },
         {
           "time": "09:00",
-          "code": 53,
-          "temp": 13,
-          "pop": 100
+          "code": 1,
+          "temp": 10,
+          "pop": 90
         },
         {
           "time": "12:00",
-          "code": 61,
+          "code": 1,
           "temp": 12,
-          "pop": 100
+          "pop": 90
         },
         {
           "time": "15:00",
-          "code": 53,
-          "temp": 11,
-          "pop": 100
+          "code": 1,
+          "temp": 12,
+          "pop": 90
         },
         {
           "time": "18:00",
-          "code": 3,
+          "code": 1,
           "temp": 10,
-          "pop": 100
+          "pop": 90
         },
         {
           "time": "21:00",
-          "code": 51,
+          "code": 1,
           "temp": 8,
-          "pop": 100
+          "pop": 90
         },
         {
           "time": "00:00",
-          "code": 53,
-          "temp": 6,
-          "pop": 100
+          "code": 1,
+          "temp": 5,
+          "pop": 90
         }
       ],
       "daily": [
         {
           "date": "11/24",
           "dow": "今日",
-          "code": 65,
-          "maxTemp": 14,
-          "minTemp": 6,
-          "pop": 100
+          "code": 3,
+          "maxTemp": 13,
+          "minTemp": 5,
+          "pop": 90
         },
         {
           "date": "11/25",
           "dow": "明日",
-          "code": 61,
-          "maxTemp": 9,
-          "minTemp": 6,
-          "pop": 100
+          "code": 3,
+          "maxTemp": 10,
+          "minTemp": 5,
+          "pop": 80
         },
         {
           "date": "11/26",
           "dow": "木",
           "code": 3,
-          "maxTemp": 15,
-          "minTemp": 7,
-          "pop": 14
+          "maxTemp": 16,
+          "minTemp": 5,
+          "pop": 30
         },
         {
           "date": "11/27",
           "dow": "金",
-          "code": 51,
+          "code": 3,
           "maxTemp": 20,
-          "minTemp": 9,
-          "pop": 13
+          "minTemp": 7,
+          "pop": 30
         },
         {
           "date": "11/28",
           "dow": "土",
-          "code": 80,
-          "maxTemp": 16,
+          "code": 3,
+          "maxTemp": 17,
           "minTemp": 8,
-          "pop": 97
+          "pop": 70
         },
         {
           "date": "11/29",
           "dow": "日",
-          "code": 80,
-          "maxTemp": 9,
-          "minTemp": 6,
-          "pop": 100
+          "code": 3,
+          "maxTemp": 14,
+          "minTemp": 8,
+          "pop": 60
         },
         {
           "date": "11/30",
           "dow": "月",
-          "code": 2,
-          "maxTemp": 15,
-          "minTemp": 6,
-          "pop": 16
+          "code": 3,
+          "maxTemp": 17,
+          "minTemp": 8,
+          "pop": 40
         }
       ]
     },
     {
       "name": "東京",
       "region": "関東",
-      "temp": 10,
-      "code": 2,
-      "wind": 5,
+      "temp": 7,
+      "code": 1,
+      "wind": 4,
       "maxTemp": 18,
-      "minTemp": 8,
-      "pop": 100,
+      "minTemp": 7,
+      "pop": 20,
       "hourly": [
         {
           "time": "03:00",
-          "code": 2,
-          "temp": 10,
-          "pop": 0
+          "code": 1,
+          "temp": 8,
+          "pop": 20
         },
         {
           "time": "06:00",
           "code": 1,
-          "temp": 12,
-          "pop": 0
+          "temp": 11,
+          "pop": 20
         },
         {
           "time": "09:00",
-          "code": 3,
-          "temp": 15,
-          "pop": 0
+          "code": 1,
+          "temp": 13,
+          "pop": 20
         },
         {
           "time": "12:00",
           "code": 1,
-          "temp": 18,
-          "pop": 0
+          "temp": 16,
+          "pop": 20
         },
         {
           "time": "15:00",
-          "code": 2,
-          "temp": 18,
-          "pop": 80
+          "code": 1,
+          "temp": 17,
+          "pop": 20
         },
         {
           "time": "18:00",
-          "code": 63,
-          "temp": 13,
-          "pop": 100
+          "code": 1,
+          "temp": 14,
+          "pop": 20
         },
         {
           "time": "21:00",
           "code": 1,
           "temp": 12,
-          "pop": 82
+          "pop": 20
         },
         {
           "time": "00:00",
-          "code": 0,
-          "temp": 10,
-          "pop": 0
+          "code": 1,
+          "temp": 7,
+          "pop": 20
         }
       ],
       "daily": [
         {
           "date": "11/24",
           "dow": "今日",
-          "code": 63,
+          "code": 3,
           "maxTemp": 18,
-          "minTemp": 8,
-          "pop": 100
+          "minTemp": 7,
+          "pop": 20
         },
         {
           "date": "11/25",
           "dow": "明日",
-          "code": 0,
-          "maxTemp": 13,
+          "code": 1,
+          "maxTemp": 15,
           "minTemp": 7,
-          "pop": 18
+          "pop": 10
         },
         {
           "date": "11/26",
           "dow": "木",
           "code": 3,
-          "maxTemp": 15,
+          "maxTemp": 17,
           "minTemp": 5,
-          "pop": 0
+          "pop": 30
+        },
+        {
+          "date": "11/27",
+          "dow": "金",
+          "code": 1,
+          "maxTemp": 18,
+          "minTemp": 7,
+          "pop": 20
+        },
+        {
+          "date": "11/28",
+          "dow": "土",
+          "code": 3,
+          "maxTemp": 21,
+          "minTemp": 10,
+          "pop": 50
+        },
+        {
+          "date": "11/29",
+          "dow": "日",
+          "code": 1,
+          "maxTemp": 17,
+          "minTemp": 8,
+          "pop": 20
+        },
+        {
+          "date": "11/30",
+          "dow": "月",
+          "code": 1,
+          "maxTemp": 18,
+          "minTemp": 6,
+          "pop": 20
+        }
+      ]
+    },
+    {
+      "name": "名古屋",
+      "region": "東海",
+      "temp": 7,
+      "code": 1,
+      "wind": 4,
+      "maxTemp": 13,
+      "minTemp": 6,
+      "pop": 80,
+      "hourly": [
+        {
+          "time": "03:00",
+          "code": 1,
+          "temp": 7,
+          "pop": 80
+        },
+        {
+          "time": "06:00",
+          "code": 1,
+          "temp": 8,
+          "pop": 80
+        },
+        {
+          "time": "09:00",
+          "code": 1,
+          "temp": 10,
+          "pop": 80
+        },
+        {
+          "time": "12:00",
+          "code": 1,
+          "temp": 12,
+          "pop": 80
+        },
+        {
+          "time": "15:00",
+          "code": 1,
+          "temp": 12,
+          "pop": 80
+        },
+        {
+          "time": "18:00",
+          "code": 1,
+          "temp": 11,
+          "pop": 80
+        },
+        {
+          "time": "21:00",
+          "code": 1,
+          "temp": 9,
+          "pop": 80
+        },
+        {
+          "time": "00:00",
+          "code": 1,
+          "temp": 6,
+          "pop": 80
+        }
+      ],
+      "daily": [
+        {
+          "date": "11/24",
+          "dow": "今日",
+          "code": 3,
+          "maxTemp": 13,
+          "minTemp": 6,
+          "pop": 80
+        },
+        {
+          "date": "11/25",
+          "dow": "明日",
+          "code": 3,
+          "maxTemp": 12,
+          "minTemp": 6,
+          "pop": 10
+        },
+        {
+          "date": "11/26",
+          "dow": "木",
+          "code": 3,
+          "maxTemp": 13,
+          "minTemp": 4,
+          "pop": 30
         },
         {
           "date": "11/27",
           "dow": "金",
           "code": 3,
           "maxTemp": 16,
-          "minTemp": 6,
-          "pop": 2
+          "minTemp": 7,
+          "pop": 30
         },
         {
           "date": "11/28",
           "dow": "土",
-          "code": 80,
-          "maxTemp": 16,
-          "minTemp": 8,
-          "pop": 67
+          "code": 3,
+          "maxTemp": 17,
+          "minTemp": 10,
+          "pop": 50
         },
         {
           "date": "11/29",
           "dow": "日",
-          "code": 51,
-          "maxTemp": 13,
+          "code": 1,
+          "maxTemp": 15,
           "minTemp": 6,
           "pop": 20
         },
@@ -594,127 +712,9 @@ window.NEWS_DATA = {
           "date": "11/30",
           "dow": "月",
           "code": 1,
-          "maxTemp": 13,
-          "minTemp": 5,
-          "pop": 0
-        }
-      ]
-    },
-    {
-      "name": "名古屋",
-      "region": "東海",
-      "temp": 6,
-      "code": 2,
-      "wind": 1,
-      "maxTemp": 12,
-      "minTemp": 6,
-      "pop": 100,
-      "hourly": [
-        {
-          "time": "03:00",
-          "code": 2,
-          "temp": 6,
-          "pop": 0
-        },
-        {
-          "time": "06:00",
-          "code": 2,
-          "temp": 6,
-          "pop": 6
-        },
-        {
-          "time": "09:00",
-          "code": 51,
-          "temp": 8,
-          "pop": 88
-        },
-        {
-          "time": "12:00",
-          "code": 51,
-          "temp": 10,
-          "pop": 100
-        },
-        {
-          "time": "15:00",
-          "code": 61,
-          "temp": 11,
-          "pop": 100
-        },
-        {
-          "time": "18:00",
-          "code": 3,
-          "temp": 11,
-          "pop": 73
-        },
-        {
-          "time": "21:00",
-          "code": 2,
-          "temp": 10,
-          "pop": 0
-        },
-        {
-          "time": "00:00",
-          "code": 0,
-          "temp": 8,
-          "pop": 12
-        }
-      ],
-      "daily": [
-        {
-          "date": "11/24",
-          "dow": "今日",
-          "code": 63,
-          "maxTemp": 12,
-          "minTemp": 6,
-          "pop": 100
-        },
-        {
-          "date": "11/25",
-          "dow": "明日",
-          "code": 2,
-          "maxTemp": 10,
-          "minTemp": 6,
-          "pop": 37
-        },
-        {
-          "date": "11/26",
-          "dow": "木",
-          "code": 3,
-          "maxTemp": 13,
-          "minTemp": 4,
-          "pop": 0
-        },
-        {
-          "date": "11/27",
-          "dow": "金",
-          "code": 2,
           "maxTemp": 16,
-          "minTemp": 4,
-          "pop": 33
-        },
-        {
-          "date": "11/28",
-          "dow": "土",
-          "code": 80,
-          "maxTemp": 18,
-          "minTemp": 10,
-          "pop": 76
-        },
-        {
-          "date": "11/29",
-          "dow": "日",
-          "code": 51,
-          "maxTemp": 11,
-          "minTemp": 4,
-          "pop": 31
-        },
-        {
-          "date": "11/30",
-          "dow": "月",
-          "code": 0,
-          "maxTemp": 14,
-          "minTemp": 2,
-          "pop": 0
+          "minTemp": 5,
+          "pop": 20
         }
       ]
     },
@@ -724,587 +724,587 @@ window.NEWS_DATA = {
       "temp": 9,
       "code": 1,
       "wind": 4,
-      "maxTemp": 16,
-      "minTemp": 8,
-      "pop": 100,
+      "maxTemp": 15,
+      "minTemp": 7,
+      "pop": 90,
       "hourly": [
         {
           "time": "03:00",
           "code": 1,
-          "temp": 9,
-          "pop": 0
+          "temp": 8,
+          "pop": 90
         },
         {
           "time": "06:00",
-          "code": 3,
+          "code": 1,
           "temp": 10,
-          "pop": 76
+          "pop": 90
         },
         {
           "time": "09:00",
-          "code": 53,
-          "temp": 15,
-          "pop": 100
+          "code": 1,
+          "temp": 12,
+          "pop": 90
         },
         {
           "time": "12:00",
-          "code": 63,
-          "temp": 13,
-          "pop": 100
+          "code": 1,
+          "temp": 14,
+          "pop": 90
         },
         {
           "time": "15:00",
-          "code": 51,
-          "temp": 13,
-          "pop": 100
+          "code": 1,
+          "temp": 14,
+          "pop": 90
         },
         {
           "time": "18:00",
-          "code": 2,
-          "temp": 11,
-          "pop": 35
+          "code": 1,
+          "temp": 12,
+          "pop": 90
         },
         {
           "time": "21:00",
-          "code": 0,
-          "temp": 9,
-          "pop": 0
+          "code": 1,
+          "temp": 10,
+          "pop": 90
         },
         {
           "time": "00:00",
-          "code": 2,
-          "temp": 8,
-          "pop": 0
+          "code": 1,
+          "temp": 7,
+          "pop": 90
         }
       ],
       "daily": [
         {
           "date": "11/24",
           "dow": "今日",
-          "code": 65,
-          "maxTemp": 16,
-          "minTemp": 8,
-          "pop": 100
+          "code": 3,
+          "maxTemp": 15,
+          "minTemp": 7,
+          "pop": 90
         },
         {
           "date": "11/25",
           "dow": "明日",
-          "code": 2,
-          "maxTemp": 11,
-          "minTemp": 6,
-          "pop": 0
+          "code": 1,
+          "maxTemp": 13,
+          "minTemp": 7,
+          "pop": 20
         },
         {
           "date": "11/26",
           "dow": "木",
           "code": 3,
-          "maxTemp": 14,
-          "minTemp": 5,
-          "pop": 0
+          "maxTemp": 15,
+          "minTemp": 6,
+          "pop": 30
         },
         {
           "date": "11/27",
           "dow": "金",
           "code": 3,
-          "maxTemp": 19,
-          "minTemp": 6,
-          "pop": 51
+          "maxTemp": 18,
+          "minTemp": 9,
+          "pop": 30
         },
         {
           "date": "11/28",
           "dow": "土",
-          "code": 81,
-          "maxTemp": 18,
-          "minTemp": 10,
-          "pop": 68
+          "code": 3,
+          "maxTemp": 19,
+          "minTemp": 11,
+          "pop": 50
         },
         {
           "date": "11/29",
           "dow": "日",
-          "code": 51,
-          "maxTemp": 13,
-          "minTemp": 5,
-          "pop": 4
+          "code": 1,
+          "maxTemp": 16,
+          "minTemp": 9,
+          "pop": 20
         },
         {
           "date": "11/30",
           "dow": "月",
-          "code": 45,
-          "maxTemp": 14,
-          "minTemp": 4,
-          "pop": 0
+          "code": 1,
+          "maxTemp": 17,
+          "minTemp": 8,
+          "pop": 20
         }
       ]
     },
     {
       "name": "広島",
       "region": "中国",
-      "temp": 14,
-      "code": 63,
-      "wind": 12,
+      "temp": 10,
+      "code": 1,
+      "wind": 4,
       "maxTemp": 14,
-      "minTemp": 6,
-      "pop": 100,
+      "minTemp": 5,
+      "pop": 80,
       "hourly": [
         {
           "time": "03:00",
-          "code": 63,
-          "temp": 14,
-          "pop": 100
+          "code": 1,
+          "temp": 6,
+          "pop": 80
         },
         {
           "time": "06:00",
-          "code": 63,
-          "temp": 14,
-          "pop": 100
+          "code": 1,
+          "temp": 8,
+          "pop": 80
         },
         {
           "time": "09:00",
-          "code": 53,
-          "temp": 13,
-          "pop": 100
+          "code": 1,
+          "temp": 10,
+          "pop": 80
         },
         {
           "time": "12:00",
           "code": 1,
-          "temp": 13,
-          "pop": 65
+          "temp": 12,
+          "pop": 80
         },
         {
           "time": "15:00",
-          "code": 0,
-          "temp": 11,
-          "pop": 0
+          "code": 1,
+          "temp": 13,
+          "pop": 80
         },
         {
           "time": "18:00",
-          "code": 2,
-          "temp": 8,
-          "pop": 2
+          "code": 1,
+          "temp": 11,
+          "pop": 80
         },
         {
           "time": "21:00",
-          "code": 2,
-          "temp": 8,
-          "pop": 16
+          "code": 1,
+          "temp": 9,
+          "pop": 80
         },
         {
           "time": "00:00",
           "code": 1,
-          "temp": 6,
-          "pop": 0
+          "temp": 5,
+          "pop": 80
         }
       ],
       "daily": [
         {
           "date": "11/24",
           "dow": "今日",
-          "code": 63,
+          "code": 61,
           "maxTemp": 14,
-          "minTemp": 6,
-          "pop": 100
+          "minTemp": 5,
+          "pop": 80
         },
         {
           "date": "11/25",
           "dow": "明日",
           "code": 1,
-          "maxTemp": 11,
+          "maxTemp": 14,
           "minTemp": 5,
-          "pop": 0
+          "pop": 20
         },
         {
           "date": "11/26",
           "dow": "木",
           "code": 3,
           "maxTemp": 15,
-          "minTemp": 5,
-          "pop": 0
+          "minTemp": 4,
+          "pop": 30
         },
         {
           "date": "11/27",
           "dow": "金",
-          "code": 53,
-          "maxTemp": 17,
-          "minTemp": 6,
-          "pop": 37
+          "code": 1,
+          "maxTemp": 18,
+          "minTemp": 10,
+          "pop": 20
         },
         {
           "date": "11/28",
           "dow": "土",
-          "code": 51,
-          "maxTemp": 17,
-          "minTemp": 7,
-          "pop": 57
+          "code": 3,
+          "maxTemp": 18,
+          "minTemp": 9,
+          "pop": 40
         },
         {
           "date": "11/29",
           "dow": "日",
-          "code": 51,
-          "maxTemp": 12,
-          "minTemp": 3,
-          "pop": 73
+          "code": 1,
+          "maxTemp": 16,
+          "minTemp": 7,
+          "pop": 20
         },
         {
           "date": "11/30",
           "dow": "月",
           "code": 1,
-          "maxTemp": 14,
-          "minTemp": 2,
-          "pop": 0
+          "maxTemp": 17,
+          "minTemp": 8,
+          "pop": 20
         }
       ]
     },
     {
       "name": "高知",
       "region": "四国",
-      "temp": 11,
-      "code": 2,
-      "wind": 5,
-      "maxTemp": 15,
-      "minTemp": 8,
-      "pop": 100,
+      "temp": 10,
+      "code": 1,
+      "wind": 4,
+      "maxTemp": 16,
+      "minTemp": 5,
+      "pop": 90,
       "hourly": [
         {
           "time": "03:00",
-          "code": 2,
-          "temp": 11,
-          "pop": 6
+          "code": 1,
+          "temp": 6,
+          "pop": 90
         },
         {
           "time": "06:00",
-          "code": 2,
-          "temp": 12,
-          "pop": 100
+          "code": 1,
+          "temp": 9,
+          "pop": 90
         },
         {
           "time": "09:00",
-          "code": 63,
-          "temp": 14,
-          "pop": 100
+          "code": 1,
+          "temp": 11,
+          "pop": 90
         },
         {
           "time": "12:00",
-          "code": 51,
-          "temp": 15,
-          "pop": 100
+          "code": 1,
+          "temp": 14,
+          "pop": 90
         },
         {
           "time": "15:00",
-          "code": 2,
-          "temp": 13,
-          "pop": 76
+          "code": 1,
+          "temp": 15,
+          "pop": 90
         },
         {
           "time": "18:00",
           "code": 1,
-          "temp": 11,
-          "pop": 0
+          "temp": 12,
+          "pop": 90
         },
         {
           "time": "21:00",
-          "code": 0,
-          "temp": 9,
-          "pop": 0
+          "code": 1,
+          "temp": 10,
+          "pop": 90
         },
         {
           "time": "00:00",
           "code": 1,
-          "temp": 8,
-          "pop": 0
+          "temp": 5,
+          "pop": 90
         }
       ],
       "daily": [
         {
           "date": "11/24",
           "dow": "今日",
-          "code": 65,
-          "maxTemp": 15,
-          "minTemp": 8,
-          "pop": 100
+          "code": 61,
+          "maxTemp": 16,
+          "minTemp": 5,
+          "pop": 90
         },
         {
           "date": "11/25",
           "dow": "明日",
-          "code": 2,
-          "maxTemp": 13,
-          "minTemp": 4,
-          "pop": 0
+          "code": 1,
+          "maxTemp": 15,
+          "minTemp": 5,
+          "pop": 10
         },
         {
           "date": "11/26",
           "dow": "木",
           "code": 3,
-          "maxTemp": 14,
-          "minTemp": 5,
-          "pop": 1
+          "maxTemp": 16,
+          "minTemp": 4,
+          "pop": 30
         },
         {
           "date": "11/27",
           "dow": "金",
-          "code": 51,
-          "maxTemp": 20,
+          "code": 3,
+          "maxTemp": 19,
           "minTemp": 9,
-          "pop": 44
+          "pop": 50
         },
         {
           "date": "11/28",
           "dow": "土",
-          "code": 53,
+          "code": 3,
           "maxTemp": 20,
           "minTemp": 9,
-          "pop": 47
+          "pop": 40
         },
         {
           "date": "11/29",
           "dow": "日",
-          "code": 51,
-          "maxTemp": 14,
-          "minTemp": 4,
-          "pop": 25
+          "code": 1,
+          "maxTemp": 18,
+          "minTemp": 7,
+          "pop": 20
         },
         {
           "date": "11/30",
           "dow": "月",
-          "code": 0,
-          "maxTemp": 16,
-          "minTemp": 4,
-          "pop": 0
+          "code": 1,
+          "maxTemp": 19,
+          "minTemp": 6,
+          "pop": 20
         }
       ]
     },
     {
       "name": "福岡",
       "region": "九州",
-      "temp": 15,
-      "code": 3,
-      "wind": 17,
-      "maxTemp": 16,
-      "minTemp": 8,
-      "pop": 100,
+      "temp": 13,
+      "code": 80,
+      "wind": 4,
+      "maxTemp": 15,
+      "minTemp": 6,
+      "pop": 90,
       "hourly": [
         {
           "time": "03:00",
-          "code": 51,
-          "temp": 15,
-          "pop": 100
+          "code": 80,
+          "temp": 7,
+          "pop": 90
         },
         {
           "time": "06:00",
-          "code": 63,
-          "temp": 14,
-          "pop": 100
+          "code": 80,
+          "temp": 9,
+          "pop": 90
         },
         {
           "time": "09:00",
-          "code": 3,
-          "temp": 16,
-          "pop": 100
+          "code": 80,
+          "temp": 11,
+          "pop": 90
         },
         {
           "time": "12:00",
-          "code": 0,
-          "temp": 12,
-          "pop": 41
+          "code": 80,
+          "temp": 14,
+          "pop": 90
         },
         {
           "time": "15:00",
-          "code": 2,
-          "temp": 12,
-          "pop": 2
+          "code": 80,
+          "temp": 14,
+          "pop": 90
         },
         {
           "time": "18:00",
-          "code": 2,
-          "temp": 11,
-          "pop": 10
+          "code": 80,
+          "temp": 12,
+          "pop": 90
         },
         {
           "time": "21:00",
-          "code": 3,
+          "code": 80,
           "temp": 10,
-          "pop": 35
+          "pop": 90
         },
         {
           "time": "00:00",
-          "code": 1,
-          "temp": 8,
-          "pop": 18
+          "code": 80,
+          "temp": 6,
+          "pop": 90
         }
       ],
       "daily": [
         {
           "date": "11/24",
           "dow": "今日",
-          "code": 63,
-          "maxTemp": 16,
-          "minTemp": 8,
-          "pop": 100
+          "code": 61,
+          "maxTemp": 15,
+          "minTemp": 6,
+          "pop": 90
         },
         {
           "date": "11/25",
           "dow": "明日",
-          "code": 2,
-          "maxTemp": 11,
-          "minTemp": 7,
-          "pop": 18
+          "code": 3,
+          "maxTemp": 12,
+          "minTemp": 6,
+          "pop": 20
         },
         {
           "date": "11/26",
           "dow": "木",
           "code": 3,
-          "maxTemp": 15,
-          "minTemp": 10,
-          "pop": 1
+          "maxTemp": 17,
+          "minTemp": 6,
+          "pop": 30
         },
         {
           "date": "11/27",
           "dow": "金",
-          "code": 53,
+          "code": 3,
           "maxTemp": 20,
           "minTemp": 11,
-          "pop": 21
+          "pop": 30
         },
         {
           "date": "11/28",
           "dow": "土",
-          "code": 51,
-          "maxTemp": 15,
-          "minTemp": 8,
-          "pop": 72
+          "code": 3,
+          "maxTemp": 19,
+          "minTemp": 10,
+          "pop": 40
         },
         {
           "date": "11/29",
           "dow": "日",
-          "code": 51,
-          "maxTemp": 10,
-          "minTemp": 2,
-          "pop": 76
+          "code": 3,
+          "maxTemp": 17,
+          "minTemp": 8,
+          "pop": 30
         },
         {
           "date": "11/30",
           "dow": "月",
-          "code": 0,
-          "maxTemp": 16,
-          "minTemp": 2,
-          "pop": 0
+          "code": 3,
+          "maxTemp": 19,
+          "minTemp": 9,
+          "pop": 30
         }
       ]
     },
     {
       "name": "那覇",
       "region": "沖縄",
-      "temp": 23,
-      "code": 2,
-      "wind": 15,
-      "maxTemp": 25,
-      "minTemp": 19,
-      "pop": 97,
+      "temp": 22,
+      "code": 80,
+      "wind": 4,
+      "maxTemp": 26,
+      "minTemp": 18,
+      "pop": 60,
       "hourly": [
         {
           "time": "03:00",
-          "code": 2,
-          "temp": 23,
-          "pop": 0
+          "code": 80,
+          "temp": 19,
+          "pop": 60
         },
         {
           "time": "06:00",
-          "code": 1,
-          "temp": 24,
-          "pop": 2
+          "code": 80,
+          "temp": 21,
+          "pop": 60
         },
         {
           "time": "09:00",
-          "code": 51,
-          "temp": 25,
-          "pop": 18
+          "code": 80,
+          "temp": 23,
+          "pop": 60
         },
         {
           "time": "12:00",
-          "code": 51,
-          "temp": 23,
-          "pop": 96
+          "code": 80,
+          "temp": 25,
+          "pop": 60
         },
         {
           "time": "15:00",
-          "code": 55,
-          "temp": 21,
-          "pop": 80
+          "code": 80,
+          "temp": 25,
+          "pop": 60
         },
         {
           "time": "18:00",
-          "code": 51,
-          "temp": 20,
-          "pop": 71
+          "code": 80,
+          "temp": 23,
+          "pop": 60
         },
         {
           "time": "21:00",
-          "code": 51,
-          "temp": 19,
-          "pop": 47
+          "code": 80,
+          "temp": 21,
+          "pop": 60
         },
         {
           "time": "00:00",
-          "code": 3,
-          "temp": 19,
-          "pop": 22
+          "code": 80,
+          "temp": 18,
+          "pop": 60
         }
       ],
       "daily": [
         {
           "date": "11/24",
           "dow": "今日",
-          "code": 55,
-          "maxTemp": 25,
-          "minTemp": 19,
-          "pop": 97
+          "code": 3,
+          "maxTemp": 26,
+          "minTemp": 18,
+          "pop": 60
         },
         {
           "date": "11/25",
           "dow": "明日",
           "code": 3,
-          "maxTemp": 21,
-          "minTemp": 17,
-          "pop": 22
+          "maxTemp": 22,
+          "minTemp": 18,
+          "pop": 30
         },
         {
           "date": "11/26",
           "dow": "木",
-          "code": 81,
-          "maxTemp": 21,
-          "minTemp": 19,
-          "pop": 99
+          "code": 3,
+          "maxTemp": 23,
+          "minTemp": 18,
+          "pop": 80
         },
         {
           "date": "11/27",
           "dow": "金",
-          "code": 53,
-          "maxTemp": 26,
-          "minTemp": 21,
-          "pop": 75
+          "code": 3,
+          "maxTemp": 25,
+          "minTemp": 19,
+          "pop": 60
         },
         {
           "date": "11/28",
           "dow": "土",
-          "code": 51,
-          "maxTemp": 23,
+          "code": 3,
+          "maxTemp": 24,
           "minTemp": 19,
-          "pop": 45
+          "pop": 40
         },
         {
           "date": "11/29",
           "dow": "日",
-          "code": 3,
-          "maxTemp": 21,
-          "minTemp": 17,
-          "pop": 2
+          "code": 1,
+          "maxTemp": 24,
+          "minTemp": 18,
+          "pop": 20
         },
         {
           "date": "11/30",
           "dow": "月",
           "code": 3,
-          "maxTemp": 22,
+          "maxTemp": 25,
           "minTemp": 18,
-          "pop": 2
+          "pop": 30
         }
       ]
     }
@@ -2004,7 +2004,7 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "為替相場　　24日（日本時間　3時）(共同通信)",
+      "title": "為替相場　　24日（日本時間　4時）(共同通信)",
       "source": "Yahoo!ニュース",
       "publishedAt": "2026-11-24 03:00",
       "publishedTs": 1795456834,
@@ -2014,7 +2014,7 @@ window.NEWS_DATA = {
         "3時現在 1ドル＝ 159円27銭～ 159円28銭 前日比 －0円08銭 1ユーロ＝ 173円36銭～ 173…",
         "分野・出典: ビジネス・経済（Yahoo!ニュース / 2026-11-24 03:00）"
       ],
-      "impact": "「為替相場　　24日（日本時間　3時）(共同通信)」を巡るビジネス・経済分野の注目動向として今後の展開が注目されます。",
+      "impact": "「為替相場　　24日（日本時間　4時）(共同通信)」を巡るビジネス・経済分野の注目動向として今後の展開が注目されます。",
       "tags": [
         "ビジネス・経済",
         "Yahoo!ニュース"
@@ -2131,23 +2131,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "entertainment",
-      "title": "『アベンジャーズ／ドゥームズデイ』X-MENの登場シーンが公開され話題に！サイクロップスが懐かしの名セリフを披露(The Hollywood Reporter Japan)",
+      "title": "木村拓哉が2年ぶりのライブツアーを完走！アンコールの声鳴りやまず「夜空ノムコウ」で大合唱、涙も(TOKYO HEADLINE WEB)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-24 02:49",
-      "publishedTs": 1795456185,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-00010003-thrjapan-000-1-view.jpg?exp=10800",
-      "summary": "『アベンジャーズ／ドゥームズデイ』の最終予告編で、X-MENのファンの注目を集める新シーンが公開された。ジェームズ・マースデン演じるサイクロップスがX-MENのメンバーを招集し、「To me, my…",
+      "publishedAt": "2026-11-24 04:10",
+      "publishedTs": 1795461009,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-00010004-theadline-000-1-view.jpg?exp=10800",
+      "summary": "木村拓哉が11月23日、千葉・ららアリーナ東京で2年ぶりとなるライブツアー「TAKUYA KIMURA Live Tour 2026 Checkpoint」を完走した。レーベル移籍後、初のアルバム『…",
       "points": [
-        "『アベンジャーズ／ドゥームズデイ』の最終予告編で",
-        "X-MENのファンの注目を集める新シーンが公開された",
-        "分野・出典: 芸能・エンタメ（Yahoo!ニュース / 2026-11-24 02:49）"
+        "木村拓哉が11月23日",
+        "千葉・ららアリーナ東京で2年ぶりとなるライブツアー「TAKUYA KIMURA Live Tour 2026 C…",
+        "分野・出典: 芸能・エンタメ（Yahoo!ニュース / 2026-11-24 04:10）"
       ],
-      "impact": "「『アベンジャーズ／ドゥームズデイ』X-MENの登場シーン」を巡る芸能・エンタメ分野の注目動向として今後の展開が注目されます。",
+      "impact": "「木村拓哉が2年ぶりのライブツアーを完走！アンコールの声鳴」を巡る芸能・エンタメ分野の注目動向として今後の展開が注目されます。",
       "tags": [
         "芸能・エンタメ",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/699a7edc30c77eb4411dfbcd85f9ecfcc5351ebf?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/4b0136d3852de9ebe83e1667d20086a08b8bc85b?source=rss",
       "isAiEnriched": false
     },
     {
@@ -2237,23 +2237,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "entertainment",
-      "title": "ヘイリー・スタインフェルド、『アベンジャーズ／ドゥームズデイ』にケイト・ビショップ役で復帰！マーベルが動画でサプライズ発表(The Hollywood Reporter Japan)",
+      "title": "TOMORROW X TOGETHER、15作連続！最新作「PERFECT STORM」がオリコン週間アルバムランキングで1位に(Kstyle)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-24 01:59",
-      "publishedTs": 1795453190,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-00010002-thrjapan-000-1-view.jpg?exp=10800",
-      "summary": "俳優のヘイリー・スタインフェルドが、MCU（マーベル・シネマティック・ユニバース）に帰ってくる。2021年のドラマシリーズ『ホークアイ』でケイト・ビショップを演じたスタインフェルドが、最新作『アベン…",
+      "publishedAt": "2026-11-24 04:03",
+      "publishedTs": 1795460598,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-00000099-kstylens-000-1-view.jpg?exp=10800",
+      "summary": "TOMORROW X TOGETHERの最新アルバム「PERFECT STORM」が、11月24日発表の最新「オリコン週間アルバムランキング」で1位に初登場した（オリコン調べ／2026年11月30日…",
       "points": [
-        "俳優のヘイリー・スタインフェルドが",
-        "MCU（マーベル・シネマティック・ユニバース）に帰ってくる",
-        "分野・出典: 芸能・エンタメ（Yahoo!ニュース / 2026-11-24 01:59）"
+        "TOMORROW X TOGETHERの最新アルバム「PERFECT STORM」が",
+        "11月24日発表の最新「オリコン週間アルバムランキング」で1位に初登場した（オリコン調べ／2026年11月30日",
+        "分野・出典: 芸能・エンタメ（Yahoo!ニュース / 2026-11-24 04:03）"
       ],
-      "impact": "「ヘイリー・スタインフェルド、『アベンジャーズ／ドゥームズ」を巡る芸能・エンタメ分野の注目動向として今後の展開が注目されます。",
+      "impact": "「TOMORROW X TOGETHER、15作連続！最新」を巡る芸能・エンタメ分野の注目動向として今後の展開が注目されます。",
       "tags": [
         "芸能・エンタメ",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/2b528b9a2960b7f14623a6ac8cc1d1abc67d3cd3?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/72c6dd7893ce0b31b481d1bb418996692f8d15c8?source=rss",
       "isAiEnriched": false
     },
     {
@@ -2344,23 +2344,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "entertainment",
-      "title": "英国王室で最も裕福なのは誰？チャールズ国王、ウィリアム皇太子からジョージ王子まで資産ランキング(The Hollywood Reporter Japan)",
+      "title": "木村拓哉、ツアーファイナルでスーパースターの貫禄！　アンコールで披露した”あの曲”にファン感涙、キムタクも背を向け涙拭う(中日スポーツ)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-24 01:11",
-      "publishedTs": 1795450284,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-00010001-thrjapan-000-1-view.jpg?exp=10800",
-      "summary": "英国王室のメンバーは、どれほどの資産を持っているのだろうか。チャールズ国王やウィリアム皇太子をはじめ、キャサリン妃、ヘンリー王子、メーガン妃など、世界中から注目を集める王室メンバーの推定純資産をラン…",
+      "publishedAt": "2026-11-24 04:00",
+      "publishedTs": 1795460453,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-00000003-chuspo-000-1-view.jpg?exp=10800",
+      "summary": "俳優で歌手の木村拓哉（54）が23日、千葉県船橋市のららアリーナ東京ベイで、最新アルバム「Checkpoint」を引っ提げた2年ぶりの全国ツアーのファイナルを迎えた。タイトルが示すとおり、第一線を走…",
       "points": [
-        "英国王室のメンバーは",
-        "どれほどの資産を持っているのだろうか",
-        "分野・出典: 芸能・エンタメ（Yahoo!ニュース / 2026-11-24 01:11）"
+        "俳優で歌手の木村拓哉（54）が23日",
+        "千葉県船橋市のららアリーナ東京ベイで",
+        "分野・出典: 芸能・エンタメ（Yahoo!ニュース / 2026-11-24 04:00）"
       ],
-      "impact": "「英国王室で最も裕福なのは誰？チャールズ国王、ウィリアム皇」を巡る芸能・エンタメ分野の注目動向として今後の展開が注目されます。",
+      "impact": "「木村拓哉、ツアーファイナルでスーパースターの貫禄！　アン」を巡る芸能・エンタメ分野の注目動向として今後の展開が注目されます。",
       "tags": [
         "芸能・エンタメ",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/a71aeb10a60fdad57e32faf72185578448f89a1b?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/f72222809671027a53ec7514a9f2bec24a8a37be?source=rss",
       "isAiEnriched": false
     },
     {
@@ -2451,23 +2451,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "entertainment",
-      "title": "ILLITがハリウッド映画にカメオ出演！ BTSやLE SSERAFIMらの楽曲が彩る「K-POP スーパースター！THE DEBUT」27年5月公開(映画.com)",
+      "title": "Hearts2Hearts、日本初イベントのコンセプトは運動会　ジウ「たくさんの方が来てくださり驚き」ジューン「りりしい新しい姿見せたい」(中日スポーツ)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-24 01:00",
-      "publishedTs": 1795449600,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-00000001-eiga-000-1-view.jpg?exp=10800",
-      "summary": "BTS、LE SSERAFIMなど人気K-POPグループを多数擁するHYBEとハリウッドがタッグを組んだ映画「K-POP スーパースター！THE DEBUT」が、2027年5月14日に全国公開される…",
+      "publishedAt": "2026-11-24 04:00",
+      "publishedTs": 1795460453,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-00000002-chuspo-000-1-view.jpg?exp=10800",
+      "summary": "韓国の8人組ガールズグループ「Hearts2Hearts」が22、23日、東京・有明アリーナで、日本初のファンイベント「Hearts2Hearts JAPAN 1st Fan Event ”READ…",
       "points": [
-        "LE SSERAFIMなど人気K-POPグループを多数擁するHYBEとハリウッドがタッグを組んだ映画「K-POP…",
-        "THE DEBUT」が",
-        "分野・出典: 芸能・エンタメ（Yahoo!ニュース / 2026-11-24 01:00）"
+        "韓国の8人組ガールズグループ「Hearts2Hearts」が22",
+        "東京・有明アリーナで",
+        "分野・出典: 芸能・エンタメ（Yahoo!ニュース / 2026-11-24 04:00）"
       ],
-      "impact": "「ILLITがハリウッド映画にカメオ出演！ BTSやLE 」を巡る芸能・エンタメ分野の注目動向として今後の展開が注目されます。",
+      "impact": "「Hearts2Hearts、日本初イベントのコンセプトは」を巡る芸能・エンタメ分野の注目動向として今後の展開が注目されます。",
       "tags": [
         "芸能・エンタメ",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/cc7f26436d751d081c8040f1466ccea622fa410f?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/edc704fb30bd10c42a998a2f84482a04243584dd?source=rss",
       "isAiEnriched": false
     },
     {
@@ -2558,23 +2558,22 @@ window.NEWS_DATA = {
     },
     {
       "category": "entertainment",
-      "title": "『アベンジャーズ／ドゥームズデイ』新予告＆US版本ポスターが解禁！クリス・エヴァンス演じるスティーブが復帰、X-MENら新たなヒーローたちが集結(The Hollywood Reporter Japan)",
+      "title": "【ライブレポート】木村拓哉2年ぶりツアーが千葉でファイナル、移籍後初アルバム曲や「背中を押してくれた曲」で紡いだ現在の思い(音楽ナタリー)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-24 00:47",
-      "publishedTs": 1795448849,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-00010000-thrjapan-000-1-view.jpg?exp=10800",
-      "summary": "マーベル・スタジオの最新作『アベンジャーズ／ドゥームズデイ』より、新たな本予告編とUS版本ポスタービジュアルが解禁された。映像では、クリス・エヴァンス演じるスティーブ・ロジャースのその後が描かれるほ…",
+      "publishedAt": "2026-11-24 04:00",
+      "publishedTs": 1795460427,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-00000006-natalien-000-1-view.jpg?exp=10800",
+      "summary": "木村拓哉の2年ぶりのライブツアー「TAKUYA KIMURA Live Tour 2026 Checkpoint」のファイナル公演が昨日11月23日に千葉・LaLa arena TOKYO-BAYで…",
       "points": [
-        "マーベル・スタジオの最新作『アベンジャーズ／ドゥームズデイ』より",
-        "新たな本予告編とUS版本ポスタービジュアルが解禁された",
-        "分野・出典: 芸能・エンタメ（Yahoo!ニュース / 2026-11-24 00:47）"
+        "木村拓哉の2年ぶりのライブツアー「TAKUYA KIMURA Live Tour 2026 Checkpoint…",
+        "分野・出典: 芸能・エンタメ（Yahoo!ニュース / 2026-11-24 04:00）"
       ],
-      "impact": "「『アベンジャーズ／ドゥームズデイ』新予告＆US版本ポスタ」を巡る芸能・エンタメ分野の注目動向として今後の展開が注目されます。",
+      "impact": "「【ライブレポート】木村拓哉2年ぶりツアーが千葉でファイナ」を巡る芸能・エンタメ分野の注目動向として今後の展開が注目されます。",
       "tags": [
         "芸能・エンタメ",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/a8364a32f80940dafa8886b2b86b3a853930c1ca?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/3ef68ef70020ddbd1b0c6afd7a05346d8bb0f076?source=rss",
       "isAiEnriched": false
     },
     {
@@ -2663,23 +2662,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "entertainment",
-      "title": "直木賞作家・今村翔吾氏　佐賀で「名護屋城クロストーク」に登場「１６０人の大名が集まった。まさに“戦国オールスター”」(スポーツ報知)",
+      "title": "M!LK「CHARGESPOT」新CMでモバイルバッテリーに変身！コンビニで充電ピンチの人を待つ「みんなー！ チャージしよー!!」(音楽ナタリー)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-24 00:45",
-      "publishedTs": 1795448714,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-11241002-sph-000-1-view.jpg?exp=10800",
-      "summary": "直木賞作家の今村翔吾氏が２３日、自ら経営する佐賀市の「佐賀之書店」で「未だ本能寺にあり」（幻冬舎刊）の出版記念サイン会を行った。 同店はＪＲ佐賀駅構内にあった書店が撤退し、地元の復活を望む声に押され…",
+      "publishedAt": "2026-11-24 04:00",
+      "publishedTs": 1795460419,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-00000005-natalien-000-1-view.jpg?exp=10800",
+      "summary": "M!LKがモバイルバッテリーのシェアリングサービス「CHARGESPOT（チャージスポット）」の新CMキャラクターに就任。新テレビCM「M!LKのチャースポ」編が本日11月24日より放送される。【動…",
       "points": [
-        "直木賞作家の今村翔吾氏が２３日",
-        "自ら経営する佐賀市の「佐賀之書店」で「未だ本能寺にあり」（幻冬舎刊）の出版記念サイン会を行った",
-        "分野・出典: 芸能・エンタメ（Yahoo!ニュース / 2026-11-24 00:45）"
+        "LKがモバイルバッテリーのシェアリングサービス「CHARGESPOT（チャージスポット）」の新CMキャラクターに…",
+        "LKのチャースポ」編が本日11月24日より放送される",
+        "分野・出典: 芸能・エンタメ（Yahoo!ニュース / 2026-11-24 04:00）"
       ],
-      "impact": "「直木賞作家・今村翔吾氏　佐賀で「名護屋城クロストーク」に」を巡る芸能・エンタメ分野の注目動向として今後の展開が注目されます。",
+      "impact": "「M!LK「CHARGESPOT」新CMでモバイルバッテリ」を巡る芸能・エンタメ分野の注目動向として今後の展開が注目されます。",
       "tags": [
         "芸能・エンタメ",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/cd96995f567c8d6f5628c8ef3fe8857db526ae72?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/d73e2b65c6cf68768fa3c2408f0bcabc46b4edf5?source=rss",
       "isAiEnriched": false
     },
     {
@@ -2771,23 +2770,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "entertainment",
-      "title": "『GTA6』長期間にわたって天候が変化しない不具合を修正―いくつかのクラッシュ問題にも対応するパッチノート公開(Game Spark)",
+      "title": "【イベントレポート】「ちいかわクリスマスマーケット」開催を祝い、ちいかわ、ハチワレ、うさぎが点灯式(コミックナタリー)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-24 00:44",
-      "publishedTs": 1795448683,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-00000002-gamespav-000-1-view.jpg?exp=10800",
-      "summary": "Rockstar Gamesは、『グランド・セフト・オートVI（GTA6）』について、最新アップデートのパッチノートを公開しました。【画像】長期間にわたって天候が変化しない問題を修正『GTA6』最新…",
+      "publishedAt": "2026-11-24 04:00",
+      "publishedTs": 1795460412,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-00000004-nataliec-000-1-view.jpg?exp=10800",
+      "summary": "ナガノ「ちいかわ」の体験型イベント「ちいかわクリスマスマーケット」オープンを記念した点灯式が、去る11月23日に千葉県・豊砂公園で開催された。式にはちいかわ、ハチワレ、うさぎが登壇し、会場中央に立つ…",
       "points": [
-        "Rockstar Gamesは",
-        "『グランド・セフト・オートVI（GTA6）』について",
-        "分野・出典: 芸能・エンタメ（Yahoo!ニュース / 2026-11-24 00:44）"
+        "ナガノ「ちいかわ」の体験型イベント「ちいかわクリスマスマーケット」オープンを記念した点灯式が",
+        "去る11月23日に千葉県・豊砂公園で開催された",
+        "分野・出典: 芸能・エンタメ（Yahoo!ニュース / 2026-11-24 04:00）"
       ],
-      "impact": "「『GTA6』長期間にわたって天候が変化しない不具合を修正」を巡る芸能・エンタメ分野の注目動向として今後の展開が注目されます。",
+      "impact": "「【イベントレポート】「ちいかわクリスマスマーケット」開催」を巡る芸能・エンタメ分野の注目動向として今後の展開が注目されます。",
       "tags": [
         "芸能・エンタメ",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/0515eb976366dc504588eef72798d13696477260?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/a238b0fb002a3e673c27919052f89d1e9c3178bd?source=rss",
       "isAiEnriched": false
     },
     {
@@ -2878,23 +2877,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "entertainment",
-      "title": "「みんな見る目ないわ」推し活フェスで〝声かけ0人〟「そんな馬鹿な…」タレントの阿波みなみに「そこで内職できるやん」の声(西スポWEB OTTO!)",
+      "title": "木村拓哉　２年ぶり全国ツアー完走で感極まる「感謝しています」　スーパースターに１万１０００人が大熱狂(スポーツ報知)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-24 00:30",
-      "publishedTs": 1795447802,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-00010003-nishispo-000-1-view.jpg?exp=10800",
-      "summary": "タレント・阿波みなみの悲しすぎる出来事が話題になっている。【写真あり】「みんな見る目ないわ」推し活フェスで〝声かけ0人〟…",
+      "publishedAt": "2026-11-24 04:00",
+      "publishedTs": 1795460408,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-11231355-sph-000-1-view.jpg?exp=10800",
+      "summary": "俳優で歌手の木村拓哉が２３日、千葉・ららアリーナ東京ベイで全国ツアー「ＴＡＫＵＹＡ ＫＩＭＵＲＡ Ｌｉｖｅ Ｔｏｕｒ ２０２６ Ｃｈｅｃｋｐｏｉｎｔ」（５都市９公演）最終日を迎えた。ＳＭＡＰの名曲を…",
       "points": [
-        "タレント・阿波みなみの悲しすぎる出来事が話題になっている",
-        "【写真あり】「みんな見る目ないわ」推し活フェスで〝声かけ0人〟",
-        "分野・出典: 芸能・エンタメ（Yahoo!ニュース / 2026-11-24 00:30）"
+        "俳優で歌手の木村拓哉が２３日",
+        "千葉・ららアリーナ東京ベイで全国ツアー「ＴＡＫＵＹＡ ＫＩＭＵＲＡ Ｌｉｖｅ Ｔｏｕｒ ２０２６ Ｃｈｅｃｋｐｏ…",
+        "分野・出典: 芸能・エンタメ（Yahoo!ニュース / 2026-11-24 04:00）"
       ],
-      "impact": "「「みんな見る目ないわ」推し活フェスで〝声かけ0人〟「そん」を巡る芸能・エンタメ分野の注目動向として今後の展開が注目されます。",
+      "impact": "「木村拓哉　２年ぶり全国ツアー完走で感極まる「感謝していま」を巡る芸能・エンタメ分野の注目動向として今後の展開が注目されます。",
       "tags": [
         "芸能・エンタメ",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/47f30688a32e04941fa582e3130b8e8b6a425056?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/e757988beb51d9ecf4956b6063143db7d7236804?source=rss",
       "isAiEnriched": false
     },
     {
@@ -2985,23 +2984,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "entertainment",
-      "title": "『アベンジャーズ／ドゥームズデイ』本ポスター公開　ドクター・ドゥームが鋭く睨みつける(シネマトゥデイ)",
+      "title": "宮﨑優「つらい経験も人生の糧になる」　２７日公開映画「君の話」出演　北村匠海＆出口夏希との共演は「ワクワクしました」(スポーツ報知)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-24 00:28",
-      "publishedTs": 1795447681,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-00000001-flix-000-1-view.jpg?exp=10800",
-      "summary": "マーベル・スタジオ最新作『アベンジャーズ／ドゥームズデイ』より、アイアンマン役で知られるロバート・ダウニー・Jrが演じる新たな脅威ドクター・ドゥームの姿を捉えたUS版本ポスタービジュアルと、日本語字…",
+      "publishedAt": "2026-11-24 04:00",
+      "publishedTs": 1795460407,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-11231346-sph-000-1-view.jpg?exp=10800",
+      "summary": "女優の宮﨑優（２６）がこのほど、２７日公開の映画「君の話」（北村匠海主演、中川龍太郎監督）の単独インタビューに応じた。宮﨑優、１０００人オーディション勝ち抜き「女優人生が変わった」 不幸な過去を忘れ…",
       "points": [
-        "マーベル・スタジオ最新作『アベンジャーズ／ドゥームズデイ』より",
-        "アイアンマン役で知られるロバート・ダウニー・Jrが演じる新たな脅威ドクター・ドゥームの姿を捉えたUS版本ポスター…",
-        "分野・出典: 芸能・エンタメ（Yahoo!ニュース / 2026-11-24 00:28）"
+        "女優の宮﨑優（２６）がこのほど",
+        "２７日公開の映画「君の話」（北村匠海主演",
+        "分野・出典: 芸能・エンタメ（Yahoo!ニュース / 2026-11-24 04:00）"
       ],
-      "impact": "「『アベンジャーズ／ドゥームズデイ』本ポスター公開　ドクタ」を巡る芸能・エンタメ分野の注目動向として今後の展開が注目されます。",
+      "impact": "「宮﨑優「つらい経験も人生の糧になる」　２７日公開映画「君」を巡る芸能・エンタメ分野の注目動向として今後の展開が注目されます。",
       "tags": [
         "芸能・エンタメ",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/24724379346ca450d8b9611594174aa14283567a?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/28b129b71d496ec05840267bb910bbe441970e73?source=rss",
       "isAiEnriched": false
     },
     {
@@ -3091,23 +3090,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "entertainment",
-      "title": "『エンドゲーム』の決断が世界滅亡の引き金に？『アベンジャーズ／ドゥームズデイ』本予告公開(オリコン)",
+      "title": "M!LK「CHARGESPOT」新CMキャラクター就任 5人がバッテリーに扮する 充電が切れたときの“チャージ方法”も明らかに(モデルプレス)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-24 00:27",
-      "publishedTs": 1795447664,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-00000344-oric-000-1-view.jpg?exp=10800",
-      "summary": "マーベル・スタジオの映画『アベンジャーズ／ドゥームズデイ』（12月18日、日米同時公開）の本予告編とUS版本ポスタービジュアルが公開された。映像では、クリス・エヴァンス演じる初代キャプテン・アメリカ…",
+      "publishedAt": "2026-11-24 04:00",
+      "publishedTs": 1795460404,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-04881900-mdpr-000-1-view.jpg?exp=10800",
+      "summary": "【モデルプレス＝2026/11/24】5人組ダンスボーカルグループ・M!LKが、モバイルバッテリーのシェアリングサービス「CHARGESPOT（チャージスポット）」の新CMキャラクターに就任。新TV…",
       "points": [
-        "マーベル・スタジオの映画『アベンジャーズ／ドゥームズデイ』（12月18日",
-        "日米同時公開）の本予告編とUS版本ポスタービジュアルが公開された",
-        "分野・出典: 芸能・エンタメ（Yahoo!ニュース / 2026-11-24 00:27）"
+        "【モデルプレス＝2026/11/24】5人組ダンスボーカルグループ・M",
+        "モバイルバッテリーのシェアリングサービス「CHARGESPOT（チャージスポット）」の新CMキャラクターに就任",
+        "分野・出典: 芸能・エンタメ（Yahoo!ニュース / 2026-11-24 04:00）"
       ],
-      "impact": "「『エンドゲーム』の決断が世界滅亡の引き金に？『アベンジャ」を巡る芸能・エンタメ分野の注目動向として今後の展開が注目されます。",
+      "impact": "「M!LK「CHARGESPOT」新CMキャラクター就任 」を巡る芸能・エンタメ分野の注目動向として今後の展開が注目されます。",
       "tags": [
         "芸能・エンタメ",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/7897884bd2959ff80d06e9d1251b5b40b998498c?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/ac177c84a419f64bf148b48b90d9b6ecfab8ee2a?source=rss",
       "isAiEnriched": false
     },
     {
@@ -3198,23 +3197,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "entertainment",
-      "title": "NVIDIA株、フアンCEO復帰で一時35％超の爆騰！時価総額も一時1兆ドル増、歴史的記録となる可能性(Game Spark)",
+      "title": "Ｈｅａｒｔｓ２Ｈｅａｒｔｓ　日本初のファンイベント開催「お会いできて光栄」「素敵なステージに」　２日間で計３万人を魅了(スポーツ報知)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-24 00:21",
-      "publishedTs": 1795447318,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-00000001-gamespav-000-1-view.jpg?exp=10800",
-      "summary": "NVIDIAの株価が、現地時間2026年11月23日の米国株式市場で急騰しています。同日に発表された創業者ジェンスン・フアン氏のCEO復帰を受け、株価は一時35％以上の上昇を記録。これに伴い、同社の…",
+      "publishedAt": "2026-11-24 04:00",
+      "publishedTs": 1795460403,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-11231253-sph-000-1-view.jpg?exp=10800",
+      "summary": "韓国の女性８人組グループ「Ｈｅａｒｔｓ２Ｈｅａｒｔｓ（ハーツトゥハーツ）」が２３日、東京・有明アリーナで日本初のファンイベント「Ｈｅａｒｔｓ２Ｈｅａｒｔｓ ＪＡＰＡＮ １ｓｔ Ｆａｎ Ｅｖｅｎｔ“Ｒ…",
       "points": [
-        "NVIDIAの株価が",
-        "現地時間2026年11月23日の米国株式市場で急騰しています",
-        "分野・出典: 芸能・エンタメ（Yahoo!ニュース / 2026-11-24 00:21）"
+        "韓国の女性８人組グループ「Ｈｅａｒｔｓ２Ｈｅａｒｔｓ（ハーツトゥハーツ）」が２３日",
+        "東京・有明アリーナで日本初のファンイベント「Ｈｅａｒｔｓ２Ｈｅａｒｔｓ ＪＡＰＡＮ １ｓｔ Ｆａｎ Ｅｖｅｎｔ“…",
+        "分野・出典: 芸能・エンタメ（Yahoo!ニュース / 2026-11-24 04:00）"
       ],
-      "impact": "「NVIDIA株、フアンCEO復帰で一時35％超の爆騰！時」を巡る芸能・エンタメ分野の注目動向として今後の展開が注目されます。",
+      "impact": "「Ｈｅａｒｔｓ２Ｈｅａｒｔｓ　日本初のファンイベント開催「」を巡る芸能・エンタメ分野の注目動向として今後の展開が注目されます。",
       "tags": [
         "芸能・エンタメ",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/c94d0dbccbe65a03981e48fda42cfd65253d6982?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/8aeab9bf5901a96929b65cf695205b710fdd7b8c?source=rss",
       "isAiEnriched": false
     },
     {
@@ -3304,23 +3303,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "entertainment",
-      "title": "秋山成勲の格闘技引退発表に〝父親の因縁試合〟引用し強烈コメント…〝桜庭ジュニア〟に反響「気の強さは親譲りかな」「息子君は言わない方がいい」(西スポWEB OTTO!)",
+      "title": "木村拓哉が５都市９公演ツアーを完走　「国内が少なかった」とさみしげもリベンジに意欲(日刊スポーツ)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-24 00:20",
-      "publishedTs": 1795447202,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-00010002-nishispo-000-1-view.jpg?exp=10800",
-      "summary": "総合格闘家の桜庭和志(57)の長男で、同じく格闘家の桜庭大世(28)のSNS投稿に大きな反響が寄せられている。【写真あり】〝桜庭ジュニア〟の強烈コメント…",
+      "publishedAt": "2026-11-24 04:00",
+      "publishedTs": 1795460402,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-41232145-nksports-000-1-view.jpg?exp=10800",
+      "summary": "木村拓哉（54）が23日、千葉・ららアリーナ東京ベイでライブツアー「Checkpoint」のファイナル公演を行った。幼少期を過ごした千葉の3公演で3万3000人を動員した。【写真】ギター演奏する木村…",
       "points": [
-        "総合格闘家の桜庭和志(57)の長男で",
-        "同じく格闘家の桜庭大世(28)のSNS投稿に大きな反響が寄せられている",
-        "分野・出典: 芸能・エンタメ（Yahoo!ニュース / 2026-11-24 00:20）"
+        "木村拓哉（54）が23日",
+        "千葉・ららアリーナ東京ベイでライブツアー「Checkpoint」のファイナル公演を行った",
+        "分野・出典: 芸能・エンタメ（Yahoo!ニュース / 2026-11-24 04:00）"
       ],
-      "impact": "「秋山成勲の格闘技引退発表に〝父親の因縁試合〟引用し強烈コ」を巡る芸能・エンタメ分野の注目動向として今後の展開が注目されます。",
+      "impact": "「木村拓哉が５都市９公演ツアーを完走　「国内が少なかった」」を巡る芸能・エンタメ分野の注目動向として今後の展開が注目されます。",
       "tags": [
         "芸能・エンタメ",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/71f278ec308deb114194013ab9d411368c0d3c75?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/d283a145cab2c1fa7bc70e44984307891d76457c?source=rss",
       "isAiEnriched": false
     },
     {
@@ -3409,23 +3408,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "entertainment",
-      "title": "ヒーローたちが大集結！　『アベンジャーズ／ドゥームズデイ』本予告＆US版ポスター公開(リアルサウンド)",
+      "title": "木村拓哉２年ぶりライブツアー最後に熱唱した曲は…オープニングはヒョウ柄シャツ白スーツで登場(日刊スポーツ)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-24 00:18",
-      "publishedTs": 1795447136,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-00010002-realsound-000-1-view.jpg?exp=10800",
-      "summary": "12月18日に日米同時公開される映画『アベンジャーズ／ドゥームズデイ』の本予告とUS版本ポスタービジュアルが公開された。【写真】『アベンジャーズ／ドゥームズデイ』新場面カット 本作は、全世界歴代興行…",
+      "publishedAt": "2026-11-24 04:00",
+      "publishedTs": 1795460402,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-41232153-nksports-000-2-view.jpg?exp=10800",
+      "summary": "木村拓哉（54）が23日、千葉・ららアリーナ東京ベイで、2年ぶりのライブツアー「Checkpoint」ファイナル公演を行った。幼少期を過ごした千葉の3公演で3万3000人を動員。ソウル、台北の海外フ…",
       "points": [
-        "12月18日に日米同時公開される映画『アベンジャーズ／ドゥームズデイ』の本予告とUS版本ポスタービジュアルが公開…",
-        "【写真】『アベンジャーズ／ドゥームズデイ』新場面カット 本作は",
-        "分野・出典: 芸能・エンタメ（Yahoo!ニュース / 2026-11-24 00:18）"
+        "木村拓哉（54）が23日",
+        "千葉・ららアリーナ東京ベイで",
+        "分野・出典: 芸能・エンタメ（Yahoo!ニュース / 2026-11-24 04:00）"
       ],
-      "impact": "「ヒーローたちが大集結！　『アベンジャーズ／ドゥームズデイ」を巡る芸能・エンタメ分野の注目動向として今後の展開が注目されます。",
+      "impact": "「木村拓哉２年ぶりライブツアー最後に熱唱した曲は…オープニ」を巡る芸能・エンタメ分野の注目動向として今後の展開が注目されます。",
       "tags": [
         "芸能・エンタメ",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/2cd31400e4922d6cdb077cd2f7dbe6cc1a95d261?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/2fecf3db2625e61322e7ab03396a7c94f328b601?source=rss",
       "isAiEnriched": false
     },
     {
@@ -3515,23 +3514,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "entertainment",
-      "title": "ファミマで『ドラゴンクエストモンスターズ4』コラボ開催！「スライムまん」や限定アクキー配布、くじやカード付きチップスなど販売も(インサイド)",
+      "title": "木村拓哉「本人も非常に反省していた」ライブツアー22日にお笑い界の「怪獣」登場でMC40分(日刊スポーツ)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-24 00:10",
-      "publishedTs": 1795446603,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-00000001-isd-000-1-view.jpg?exp=10800",
-      "summary": "ファミリーマートは、『ドラゴンクエストモンスターズ4 枯れ木の国のビアンカ・フローラ』とのコラボキャンペーンを11月24日より開催します。【画像】ファミマで『ドラクエモンスターズ4』コラボキャンペー…",
+      "publishedAt": "2026-11-24 04:00",
+      "publishedTs": 1795460401,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-41232137-nksports-000-1-view.jpg?exp=10800",
+      "summary": "木村拓哉（54）が23日、千葉・ららアリーナ東京ベイで、2年ぶりのライブツアー「Checkpoint」ファイナル公演を行った。幼少期を過ごした千葉の3公演で3万3000人を動員。ソウル、台北の海外フ…",
       "points": [
-        "『ドラゴンクエストモンスターズ4 枯れ木の国のビアンカ・フローラ』とのコラボキャンペーンを11月24日より開催し…",
-        "【画像】ファミマで『ドラクエモンスターズ4』コラボキャンペー",
-        "分野・出典: 芸能・エンタメ（Yahoo!ニュース / 2026-11-24 00:10）"
+        "木村拓哉（54）が23日",
+        "千葉・ららアリーナ東京ベイで",
+        "分野・出典: 芸能・エンタメ（Yahoo!ニュース / 2026-11-24 04:00）"
       ],
-      "impact": "「ファミマで『ドラゴンクエストモンスターズ4』コラボ開催！」を巡る芸能・エンタメ分野の注目動向として今後の展開が注目されます。",
+      "impact": "「木村拓哉「本人も非常に反省していた」ライブツアー22日に」を巡る芸能・エンタメ分野の注目動向として今後の展開が注目されます。",
       "tags": [
         "芸能・エンタメ",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/c05fdcf2c8f92770d29972943de4209c56f61745?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/021f7c8a06e41aa16d0e943bc32bfb2ce7c6ff89?source=rss",
       "isAiEnriched": false
     },
     {
@@ -3621,23 +3620,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "entertainment",
-      "title": "「髪の毛って大事だね」ハリポタ俳優マルフォイ役トム・フェルトン〝激変〟姿に「いい歳の取り方してるよ」「だいすきだふぉい」の声(西スポWEB OTTO!)",
+      "title": "Hearts2Hearts、運動会テーマにファンイベント「かわいい姿見て」韓国で新人賞９冠(日刊スポーツ)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-24 00:10",
-      "publishedTs": 1795446602,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-00010001-nishispo-000-1-view.jpg?exp=10800",
-      "summary": "俳優、トム・フェルトン(39)の最新姿が話題を集めている。【写真あり】「髪の毛って大事だね」ハリポタ俳優マルフォイ役トム・フェルトン〝激変〟姿…",
+      "publishedAt": "2026-11-24 04:00",
+      "publishedTs": 1795460401,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-41231838-nksports-000-2-view.jpg?exp=10800",
+      "summary": "8人組K－POPガールズグループ、Hearts2Hearts（ハーツトゥハーツ＝H2H）が、東京・有明アリーナで初のファンイベントを行い、22日、23日の両日で約3万人のファンを動員した。【写真】フ…",
       "points": [
-        "トム・フェルトン(39)の最新姿が話題を集めている",
-        "【写真あり】「髪の毛って大事だね」ハリポタ俳優マルフォイ役トム・フェルトン〝激変〟姿",
-        "分野・出典: 芸能・エンタメ（Yahoo!ニュース / 2026-11-24 00:10）"
+        "8人組K－POPガールズグループ",
+        "Hearts2Hearts（ハーツトゥハーツ＝H2H）が",
+        "分野・出典: 芸能・エンタメ（Yahoo!ニュース / 2026-11-24 04:00）"
       ],
-      "impact": "「「髪の毛って大事だね」ハリポタ俳優マルフォイ役トム・フェ」を巡る芸能・エンタメ分野の注目動向として今後の展開が注目されます。",
+      "impact": "「Hearts2Hearts、運動会テーマにファンイベント」を巡る芸能・エンタメ分野の注目動向として今後の展開が注目されます。",
       "tags": [
         "芸能・エンタメ",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/8335433589fc0dbd9849d611f2bfacb2bf5ec1a2?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/d8023dfabd17fca68709eee7ad558628c388faff?source=rss",
       "isAiEnriched": false
     },
     {
@@ -3728,23 +3727,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "entertainment",
-      "title": "『男ともだち』舞台挨拶でchilldspot 比喩根が歌唱　三島有紀子監督「撮影当時が一瞬で蘇った」(リアルサウンド)",
+      "title": "木村拓哉、２年ぶりのライブツアーは地元の千葉で完走　感激の涙で「これからも一瞬を、すげー一瞬にしたい」(サンケイスポーツ)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-24 00:09",
-      "publishedTs": 1795446580,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-00010001-realsound-000-1-view.jpg?exp=10800",
-      "summary": "公開中の映画『男ともだち』の舞台挨拶が11月23日に開催され、劇中歌を担当したchilldspotの比喩根と三島有紀子監督が登壇した。【写真】弾き語りをするchilldspotの比喩根 本作は、『し…",
+      "publishedAt": "2026-11-24 04:00",
+      "publishedTs": 1795460400,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-00000001-sanspo-000-1-view.jpg?exp=10800",
+      "summary": "俳優で歌手、木村拓哉（54）が23日、千葉・船橋市のららアリーナ東京ベイで約2年ぶりとなるライブツアーの最終公演を開催した。地元の千葉を舞台に、アンコールでは今ツアーで初めてSMAPの「夜空ノムコウ…",
       "points": [
-        "公開中の映画『男ともだち』の舞台挨拶が11月23日に開催され",
-        "劇中歌を担当したchilldspotの比喩根と三島有紀子監督が登壇した",
-        "分野・出典: 芸能・エンタメ（Yahoo!ニュース / 2026-11-24 00:09）"
+        "木村拓哉（54）が23日",
+        "千葉・船橋市のららアリーナ東京ベイで約2年ぶりとなるライブツアーの最終公演を開催した",
+        "分野・出典: 芸能・エンタメ（Yahoo!ニュース / 2026-11-24 04:00）"
       ],
-      "impact": "「『男ともだち』舞台挨拶でchilldspot 比喩根が歌」を巡る芸能・エンタメ分野の注目動向として今後の展開が注目されます。",
+      "impact": "「木村拓哉、２年ぶりのライブツアーは地元の千葉で完走　感激」を巡る芸能・エンタメ分野の注目動向として今後の展開が注目されます。",
       "tags": [
         "芸能・エンタメ",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/ec223aca9907dafd80496d3144b7d257ebc53732?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/e1ccb3ee2bac411ea4d3257cfe45688c545a758e?source=rss",
       "isAiEnriched": false
     },
     {
@@ -3834,23 +3833,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "entertainment",
-      "title": "日本テレビ・報道局特別解説委員の小栗泉氏　１１月いっぱいで同局退社を報告　２か月ぶり「ｎｅｗｓ　ｚｅｒｏ」出演　９月末に右大腿骨転子部と右手首の骨折明かす(スポーツ報知)",
+      "title": "Hearts2Hearts、来年の日本活動は「さまざまな姿を見せる予定」　スポーティーなミニ丈衣装で登場(ENCOUNT)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-24 00:05",
-      "publishedTs": 1795446337,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-11241000-sph-000-1-view.jpg?exp=10800",
-      "summary": "日本テレビの報道局特別解説委員の小栗泉氏が２３日、日本テレビ系報道番組「ｎｅｗｓ ｚｅｒｏ」に生出演し、今月いっぱいで同局を退社することを伝えた。藤井貴彦アナがカメラワークに“ダメ出し” 森保一監督…",
+      "publishedAt": "2026-11-24 04:00",
+      "publishedTs": 1795460400,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-01103337-encount-000-1-view.jpg?exp=10800",
+      "summary": "韓国の8人組ガールズグループ・Hearts2Heartsが、東京・有明アリーナで日本初のファンイベント「Hearts2Hearts JAPAN 1st Fan Event “READY！S2U”」を…",
       "points": [
-        "日本テレビの報道局特別解説委員の小栗泉氏が２３日",
-        "日本テレビ系報道番組「ｎｅｗｓ ｚｅｒｏ」に生出演し",
-        "分野・出典: 芸能・エンタメ（Yahoo!ニュース / 2026-11-24 00:05）"
+        "韓国の8人組ガールズグループ・Hearts2Heartsが",
+        "東京・有明アリーナで日本初のファンイベント「Hearts2Hearts JAPAN 1st Fan Event …",
+        "分野・出典: 芸能・エンタメ（Yahoo!ニュース / 2026-11-24 04:00）"
       ],
-      "impact": "「日本テレビ・報道局特別解説委員の小栗泉氏　１１月いっぱい」を巡る芸能・エンタメ分野の注目動向として今後の展開が注目されます。",
+      "impact": "「Hearts2Hearts、来年の日本活動は「さまざまな」を巡る芸能・エンタメ分野の注目動向として今後の展開が注目されます。",
       "tags": [
         "芸能・エンタメ",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/47d3e3891c764bae605e18dbecec5bd2166effa1?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/b4e925d3c4300cf39d3550f972fcf2a38aff54ab?source=rss",
       "isAiEnriched": false
     },
     {
@@ -3942,23 +3941,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "entertainment",
-      "title": "SEVENTEEN ジョンハン、Ryosuke Yamadaと奇跡のコラボ実現！12月14日にデジタルシングル「Afterglow」を発売(Kstyle)",
+      "title": "木村拓哉、ツアーラストに28年前の名曲　観客との大合唱で感極まる(ENCOUNT)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-24 00:03",
-      "publishedTs": 1795446198,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-00000098-kstylens-000-1-view.jpg?exp=10800",
-      "summary": "SEVENTEENのジョンハンが、日本を代表するアーティストRyosuke Yamadaとコラボレーションし、12月14日にデジタルシングル「Afterglow」を配信することが決定した。【写真あり…",
+      "publishedAt": "2026-11-24 04:00",
+      "publishedTs": 1795460400,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-01103316-encount-000-1-view.jpg?exp=10800",
+      "summary": "俳優で歌手の木村拓哉が23日、千葉・ららアリーナ 東京ベイで「TAKUYA KIMURA Live Tour 2026 Checkpoint」の最終公演を開催した。ソロとしては初の海外公演（ソウル、…",
       "points": [
-        "SEVENTEENのジョンハンが",
-        "日本を代表するアーティストRyosuke Yamadaとコラボレーションし",
-        "分野・出典: 芸能・エンタメ（Yahoo!ニュース / 2026-11-24 00:03）"
+        "俳優で歌手の木村拓哉が23日",
+        "千葉・ららアリーナ 東京ベイで「TAKUYA KIMURA Live Tour 2026 Checkpoint」…",
+        "分野・出典: 芸能・エンタメ（Yahoo!ニュース / 2026-11-24 04:00）"
       ],
-      "impact": "「SEVENTEEN ジョンハン、Ryosuke Yama」を巡る芸能・エンタメ分野の注目動向として今後の展開が注目されます。",
+      "impact": "「木村拓哉、ツアーラストに28年前の名曲　観客との大合唱で」を巡る芸能・エンタメ分野の注目動向として今後の展開が注目されます。",
       "tags": [
         "芸能・エンタメ",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/7882b19b3cf8c658a9d07d1243628da4f705f2e6?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/fbf4e248397cc027fe1ac844283baca36c8486a9?source=rss",
       "isAiEnriched": false
     },
     {
@@ -4050,23 +4049,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "entertainment",
-      "title": "Hey! Say! JUMP山田涼介×SEVENTEEN・JEONGHAN、コラボシングル「Afterglow」配信リリース(音楽ナタリー)",
+      "title": "M!LK塩﨑太智、自宅で眉毛を切りすぎ“ヒョウ柄”に　「ピンチだった」出来事を明かす(ENCOUNT)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-24 00:00",
-      "publishedTs": 1795446019,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-00000003-natalien-000-1-view.jpg?exp=10800",
-      "summary": "山田涼介（Hey! Say! JUMP）とJEONGHAN（SEVENTEEN）によるコラボレーションシングル「Afterglow」が、12月14日に配信リリースされる。ジャケット撮影で初対面を果た…",
+      "publishedAt": "2026-11-24 04:00",
+      "publishedTs": 1795460400,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-01102576-encount-000-1-view.jpg?exp=10800",
+      "summary": "5人組ダンスボーカルグループ・M!LKが、モバイルバッテリーのシェアリングサービス「CHARGESPOT」の新CMキャラクターに起用された。結成12周年を迎える24日から放映される新テレビCM「M!",
       "points": [
-        "JUMP）とJEONGHAN（SEVENTEEN）によるコラボレーションシングル「Afterglow」が",
-        "12月14日に配信リリースされる",
-        "分野・出典: 芸能・エンタメ（Yahoo!ニュース / 2026-11-24 00:00）"
+        "5人組ダンスボーカルグループ・M",
+        "モバイルバッテリーのシェアリングサービス「CHARGESPOT」の新CMキャラクターに起用された",
+        "分野・出典: 芸能・エンタメ（Yahoo!ニュース / 2026-11-24 04:00）"
       ],
-      "impact": "「Hey! Say! JUMP山田涼介×SEVENTEEN」を巡る芸能・エンタメ分野の注目動向として今後の展開が注目されます。",
+      "impact": "「M!LK塩﨑太智、自宅で眉毛を切りすぎ“ヒョウ柄”に　「」を巡る芸能・エンタメ分野の注目動向として今後の展開が注目されます。",
       "tags": [
         "芸能・エンタメ",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/71e83e0eb6ad2a9866ac470a9837d9f4f063836d?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/520b929789582c9adc6ffc01d754d931e15cf7fd?source=rss",
       "isAiEnriched": false
     },
     {
@@ -4158,23 +4157,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "entertainment",
-      "title": "「プレモル」×つの丸、シンボリルドルフ＆トウカイテイオー描いたデザイン缶発売(コミックナタリー)",
+      "title": "全日完売「ちいかわクリスマスマーケット」現地レポ！　ちいかわ＆ハチワレ＆うさぎが点灯式に登場　見どころは？(クランクイン！)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-24 00:00",
-      "publishedTs": 1795446018,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-00000002-nataliec-000-1-view.jpg?exp=10800",
-      "summary": "「みどりのマキバオー」などで知られるつの丸が描き下ろした、シンボリルドルフとトウカイテイオーのイラストをパッケージにしたサントリー「ザ・プレミアム・モルツ」のデザイン缶「ザ・プレミアム・モルツ つの…",
+      "publishedAt": "2026-11-24 04:00",
+      "publishedTs": 1795460400,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-00194744-crankinn-000-1-view.jpg?exp=10800",
+      "summary": "ナガノによるX発マンガ『ちいかわ』の世界観をクリスマスマーケットで楽しめる体験型イベント「ちいかわクリスマスマーケット」が、11月24日（火）から12月25日（金）まで、千葉・千葉市の豊砂公園で開催…",
       "points": [
-        "「みどりのマキバオー」などで知られるつの丸が描き下ろした",
-        "シンボリルドルフとトウカイテイオーのイラストをパッケージにしたサントリー「ザ・プレミアム・モルツ」のデザイン缶「…",
-        "分野・出典: 芸能・エンタメ（Yahoo!ニュース / 2026-11-24 00:00）"
+        "ナガノによるX発マンガ『ちいかわ』の世界観をクリスマスマーケットで楽しめる体験型イベント「ちいかわクリスマスマー…",
+        "11月24日（火）から12月25日（金）まで",
+        "分野・出典: 芸能・エンタメ（Yahoo!ニュース / 2026-11-24 04:00）"
       ],
-      "impact": "「「プレモル」×つの丸、シンボリルドルフ＆トウカイテイオー」を巡る芸能・エンタメ分野の注目動向として今後の展開が注目されます。",
+      "impact": "「全日完売「ちいかわクリスマスマーケット」現地レポ！　ちい」を巡る芸能・エンタメ分野の注目動向として今後の展開が注目されます。",
       "tags": [
         "芸能・エンタメ",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/c7615bca6edbc02967f0b0a05ff514bee0df1ebf?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/f907fa146b14c05df6d2d6feeb3ae42d6821498e?source=rss",
       "isAiEnriched": false
     },
     {
@@ -4266,23 +4265,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "entertainment",
-      "title": "『南田南弁護士は天才肌』“最後の砦”田中麗奈の存在感　優しさで包む高橋文哉の本心は？(リアルサウンド)",
+      "title": "「ちいかわクリスマスマーケット」会場からグッズ情報をまとめて紹介(GAME Watch)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-24 00:00",
-      "publishedTs": 1795446012,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-00010000-realsound-000-1-view.jpg?exp=10800",
-      "summary": "『南田南弁護士は天才肌』（カンテレ・フジテレビ系）が11月23日に第6話を迎えた。【写真】『南田南弁護士は天才肌』第6話場面カット（ネタバレあり） 現行制度では、司法試験に合格すると1年間の司法修習…",
+      "publishedAt": "2026-11-24 04:00",
+      "publishedTs": 1795460400,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-00000003-impgmw-000-1-view.jpg?exp=10800",
+      "summary": "AbemaTVは、11月24日より開催の体験型イベント「ちいかわクリスマスマーケット」の会場内を公開した。本稿では、会場内で販売されるグッズ情報を中心に紹介する。【この記事に関する別の画像を見る】…",
       "points": [
-        "『南田南弁護士は天才肌』（カンテレ・フジテレビ系）が11月23日に第6話を迎えた",
-        "【写真】『南田南弁護士は天才肌』第6話場面カット（ネタバレあり） 現行制度では",
-        "分野・出典: 芸能・エンタメ（Yahoo!ニュース / 2026-11-24 00:00）"
+        "11月24日より開催の体験型イベント「ちいかわクリスマスマーケット」の会場内を公開した",
+        "会場内で販売されるグッズ情報を中心に紹介する",
+        "分野・出典: 芸能・エンタメ（Yahoo!ニュース / 2026-11-24 04:00）"
       ],
-      "impact": "「『南田南弁護士は天才肌』“最後の砦”田中麗奈の存在感　優」を巡る芸能・エンタメ分野の注目動向として今後の展開が注目されます。",
+      "impact": "「「ちいかわクリスマスマーケット」会場からグッズ情報をまと」を巡る芸能・エンタメ分野の注目動向として今後の展開が注目されます。",
       "tags": [
         "芸能・エンタメ",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/fdcfbef82f4b75bdc48bf8f5bc34756eacaea4cd?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/af48e2f38951362a9d7c82ee96c90151c51c6327?source=rss",
       "isAiEnriched": false
     },
     {
@@ -4375,23 +4374,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "entertainment",
-      "title": "「SAKAMOTO DAYS」6年の連載に幕　最終31巻は来年4月発売、グッズ付きも(コミックナタリー)",
+      "title": "「ちいかわクリスマスマーケット」はフォトスポットたくさん！本日開催の会場内をレポート(GAME Watch)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-24 00:00",
-      "publishedTs": 1795446011,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-00000001-nataliec-000-1-view.jpg?exp=10800",
-      "summary": "鈴木祐斗「SAKAMOTO DAYS」が、本日11月24日発売の週刊少年ジャンプ52号（集英社）で最終回を迎えた。「SAKAMOTO DAYS」は、かつて最強の殺し屋だったが恋をして引退した坂本太郎…",
+      "publishedAt": "2026-11-24 04:00",
+      "publishedTs": 1795460400,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-00000002-impgmw-000-1-view.jpg?exp=10800",
+      "summary": "AbemaTVは、11月24日から始まる体験型イベント「ちいかわクリスマスマーケット」の内部を公開した。本稿ではその内容を伝える。【画像】クリスマスツリーは毎日16時以降にライトアップされ、ちいかわ…",
       "points": [
-        "鈴木祐斗「SAKAMOTO DAYS」が",
-        "本日11月24日発売の週刊少年ジャンプ52号（集英社）で最終回を迎えた",
-        "分野・出典: 芸能・エンタメ（Yahoo!ニュース / 2026-11-24 00:00）"
+        "11月24日から始まる体験型イベント「ちいかわクリスマスマーケット」の内部を公開した",
+        "本稿ではその内容を伝える",
+        "分野・出典: 芸能・エンタメ（Yahoo!ニュース / 2026-11-24 04:00）"
       ],
-      "impact": "「「SAKAMOTO DAYS」6年の連載に幕　最終31巻」を巡る芸能・エンタメ分野の注目動向として今後の展開が注目されます。",
+      "impact": "「「ちいかわクリスマスマーケット」はフォトスポットたくさん」を巡る芸能・エンタメ分野の注目動向として今後の展開が注目されます。",
       "tags": [
         "芸能・エンタメ",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/f1bdbe549967331c8d76c962d8c5319b29f18ac9?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/f140c76e65231e6d39df81897357391bbf4bd9d1?source=rss",
       "isAiEnriched": false
     },
     {
@@ -4484,45 +4483,45 @@ window.NEWS_DATA = {
     },
     {
       "category": "entertainment",
-      "title": "Ryosuke Yamada（山田涼介）×SEVENTEEN・JEONGHANコラボで楽曲リリース “顔面美”表現のジャケ写＆アー写も解禁(モデルプレス)",
+      "title": "M!LKがモバイルバッテリーに変身…新CMで「爆裂愛してる」オマージュ披露(WEBザテレビジョン)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-24 00:00",
-      "publishedTs": 1795446005,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-04881872-mdpr-000-1-view.jpg?exp=10800",
-      "summary": "【モデルプレス＝2026/11/24】13人組グループ・SEVENTEEN（セブンティーン）のJEONGHAN（ジョンハン）とRyosuke Yamada（山田涼介）がコラボレーションすることが決定…",
+      "publishedAt": "2026-11-24 04:00",
+      "publishedTs": 1795460400,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-01459979-the_tv-000-1-view.jpg?exp=10800",
+      "summary": "5人組ダンスボーカルグループ・M!LKが、モバイルバッテリーのシェアリングサービス「CHARGESPOT」(INFORICH)の新CMキャラクターに就任。出演する新TVCM「M!LKのチャースポ」篇…",
       "points": [
-        "【モデルプレス＝2026/11/24】13人組グループ・SEVENTEEN（セブンティーン）のJEONGHAN（…",
-        "分野・出典: 芸能・エンタメ（Yahoo!ニュース / 2026-11-24 00:00）"
+        "5人組ダンスボーカルグループ・M",
+        "モバイルバッテリーのシェアリングサービス「CHARGESPOT」(INFORICH)の新CMキャラクターに就任",
+        "分野・出典: 芸能・エンタメ（Yahoo!ニュース / 2026-11-24 04:00）"
       ],
-      "impact": "「Ryosuke Yamada（山田涼介）×SEVENTE」を巡る芸能・エンタメ分野の注目動向として今後の展開が注目されます。",
+      "impact": "「M!LKがモバイルバッテリーに変身…新CMで「爆裂愛して」を巡る芸能・エンタメ分野の注目動向として今後の展開が注目されます。",
       "tags": [
         "芸能・エンタメ",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/e22783a42f12e6855abf7e1a84627c90efc37ae0?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/cd35e393ea8baf9cbda7a08fe91f9be389fa5bc6?source=rss",
       "isAiEnriched": false
     },
     {
       "category": "subculture",
-      "title": "話題沸騰の無料ゲーム「猫撫でシミュレーター」とは",
-      "source": "automaton-media.com",
-      "publishedAt": "2026-11-23 12:00",
-      "publishedTs": 1795402842,
-      "image": "https://automaton-media.com/wp-content/uploads/2026/11/20261123-480411-header.jpg",
-      "summary": "個人開発者が公開した「猫撫でシミュレーター」が、PCやスマホで手軽にモフモフ感を味わえるとSNSを中心に大きな話題を集めています。",
+      "title": "「男と女の話には興味がない」　押井守監督が劇場版アニメ『ボトムズ』で描く「成熟した人間同士の物語」（47NEWS） - Yahoo!ニュース",
+      "source": "news.yahoo.co.jp",
+      "publishedAt": "2026-11-23 14:27",
+      "publishedTs": 1795411633,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261123-00000001-yonnana-000-5-view.jpg?exp=10800",
+      "summary": "インタビューに応じる押井守監督（47NEWS） 『ＧＨＯＳＴ ＩＮ ＴＨＥ ＳＨＥＬＬ／攻殻機動隊』などで世界中のファンを熱狂させてきたアニメーション映画の巨匠、押井守監督の新作『装甲騎兵ボトムズ 灰色の魔女（ヘクセ）』が公開された。１９８３～８４年に放送された『装甲騎兵ボトムズ』は、４０年以上愛され...",
       "points": [
-        "個人開発者によるユニークなシミュレーションゲーム",
-        "PCやスマホからブラウザ等で手軽にプレイ可能",
-        "液体のように滑らかな猫の質感がSNSで人気に"
+        "インタビューに応じる押井守監督（47NEWS） 『ＧＨＯＳＴ ＩＮ ＴＨＥ ＳＨＥＬＬ／攻殻機動隊』などで世界中…",
+        "押井守監督の新作『装甲騎兵ボトムズ 灰色の魔女（ヘクセ）』が公開された",
+        "分野・出典: サブカルチャー（news.yahoo.co.jp / 2026-11-23 14:27）"
       ],
-      "impact": "インディーゲーム界隈でのユニークなアイデア作品の拡散力や、癒し系コンテンツの需要を示しています。",
+      "impact": "サブカルチャー分野で多くの読者に共有されている注目記事です。",
       "tags": [
-        "インディーゲーム",
-        "猫",
-        "シミュレーター"
+        "サブカルチャー",
+        "news.yahoo.co.jp"
       ],
-      "url": "https://automaton-media.com/articles/newsjp/20261123-480411/",
-      "isAiEnriched": true
+      "url": "https://news.yahoo.co.jp/articles/776a450bf8f59a4b9a63a5bf1ccee6136f91e70a",
+      "isAiEnriched": false
     }
   ]
 };
