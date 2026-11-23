@@ -1,6 +1,6 @@
 window.NEWS_DATA = {
   "date": "2026年11月24日 (火)",
-  "updatedAt": "2026-11-24 04:12",
+  "updatedAt": "2026-11-24 05:16",
   "title": "TREND NEWS",
   "keywords": [
     "ウクライナ軍事",
@@ -13,60 +13,60 @@ window.NEWS_DATA = {
     {
       "name": "札幌",
       "region": "北海道",
-      "temp": 5,
-      "code": 95,
-      "wind": 4,
-      "maxTemp": 8,
-      "minTemp": -3,
-      "pop": 80,
+      "temp": 8,
+      "code": 55,
+      "wind": 22,
+      "maxTemp": 9,
+      "minTemp": -1,
+      "pop": 100,
       "hourly": [
         {
-          "time": "03:00",
-          "code": 95,
-          "temp": -2,
-          "pop": 80
+          "time": "05:00",
+          "code": 61,
+          "temp": 8,
+          "pop": 100
         },
         {
-          "time": "06:00",
-          "code": 95,
-          "temp": 1,
-          "pop": 80
+          "time": "08:00",
+          "code": 55,
+          "temp": 8,
+          "pop": 100
         },
         {
-          "time": "09:00",
-          "code": 95,
-          "temp": 3,
-          "pop": 80
+          "time": "11:00",
+          "code": 53,
+          "temp": 8,
+          "pop": 100
         },
         {
-          "time": "12:00",
-          "code": 95,
-          "temp": 6,
-          "pop": 80
+          "time": "14:00",
+          "code": 2,
+          "temp": 8,
+          "pop": 56
         },
         {
-          "time": "15:00",
-          "code": 95,
-          "temp": 7,
-          "pop": 80
-        },
-        {
-          "time": "18:00",
-          "code": 95,
+          "time": "17:00",
+          "code": 2,
           "temp": 4,
-          "pop": 80
+          "pop": 11
         },
         {
-          "time": "21:00",
-          "code": 95,
+          "time": "20:00",
+          "code": 2,
           "temp": 2,
-          "pop": 80
+          "pop": 14
         },
         {
-          "time": "00:00",
-          "code": 95,
-          "temp": -3,
-          "pop": 80
+          "time": "23:00",
+          "code": 1,
+          "temp": 0,
+          "pop": 40
+        },
+        {
+          "time": "02:00",
+          "code": 1,
+          "temp": -2,
+          "pop": 61
         }
       ],
       "daily": [
@@ -74,117 +74,117 @@ window.NEWS_DATA = {
           "date": "11/24",
           "dow": "今日",
           "code": 61,
-          "maxTemp": 8,
-          "minTemp": -3,
-          "pop": 80
+          "maxTemp": 9,
+          "minTemp": -1,
+          "pop": 100
         },
         {
           "date": "11/25",
           "dow": "明日",
-          "code": 3,
-          "maxTemp": 1,
+          "code": 71,
+          "maxTemp": -1,
           "minTemp": -3,
-          "pop": 70
+          "pop": 84
         },
         {
           "date": "11/26",
           "dow": "木",
-          "code": 3,
-          "maxTemp": 10,
-          "minTemp": 0,
-          "pop": 60
+          "code": 85,
+          "maxTemp": 7,
+          "minTemp": -2,
+          "pop": 100
         },
         {
           "date": "11/27",
           "dow": "金",
-          "code": 3,
-          "maxTemp": 13,
-          "minTemp": 3,
-          "pop": 50
+          "code": 51,
+          "maxTemp": 11,
+          "minTemp": -2,
+          "pop": 56
         },
         {
           "date": "11/28",
           "dow": "土",
-          "code": 3,
+          "code": 51,
           "maxTemp": 13,
-          "minTemp": 1,
-          "pop": 70
+          "minTemp": 2,
+          "pop": 71
         },
         {
           "date": "11/29",
           "dow": "日",
           "code": 3,
-          "maxTemp": 4,
-          "minTemp": 0,
-          "pop": 50
+          "maxTemp": 2,
+          "minTemp": -2,
+          "pop": 37
         },
         {
           "date": "11/30",
           "dow": "月",
-          "code": 3,
-          "maxTemp": 7,
-          "minTemp": 0,
-          "pop": 50
+          "code": 71,
+          "maxTemp": 6,
+          "minTemp": -2,
+          "pop": 67
         }
       ]
     },
     {
       "name": "仙台",
       "region": "東北",
-      "temp": 5,
-      "code": 0,
-      "wind": 4,
-      "maxTemp": 15,
-      "minTemp": 2,
-      "pop": 10,
+      "temp": 7,
+      "code": 2,
+      "wind": 6,
+      "maxTemp": 14,
+      "minTemp": 4,
+      "pop": 100,
       "hourly": [
         {
-          "time": "03:00",
-          "code": 0,
-          "temp": 3,
-          "pop": 10
-        },
-        {
-          "time": "06:00",
-          "code": 0,
-          "temp": 6,
-          "pop": 10
-        },
-        {
-          "time": "09:00",
-          "code": 0,
-          "temp": 10,
-          "pop": 10
-        },
-        {
-          "time": "12:00",
-          "code": 0,
-          "temp": 13,
-          "pop": 10
-        },
-        {
-          "time": "15:00",
-          "code": 0,
-          "temp": 14,
-          "pop": 10
-        },
-        {
-          "time": "18:00",
-          "code": 0,
-          "temp": 11,
-          "pop": 10
-        },
-        {
-          "time": "21:00",
-          "code": 0,
+          "time": "05:00",
+          "code": 2,
           "temp": 7,
-          "pop": 10
+          "pop": 0
         },
         {
-          "time": "00:00",
+          "time": "08:00",
+          "code": 1,
+          "temp": 9,
+          "pop": 0
+        },
+        {
+          "time": "11:00",
+          "code": 1,
+          "temp": 12,
+          "pop": 17
+        },
+        {
+          "time": "14:00",
+          "code": 1,
+          "temp": 14,
+          "pop": 81
+        },
+        {
+          "time": "17:00",
+          "code": 3,
+          "temp": 12,
+          "pop": 100
+        },
+        {
+          "time": "20:00",
+          "code": 3,
+          "temp": 10,
+          "pop": 43
+        },
+        {
+          "time": "23:00",
           "code": 0,
-          "temp": 2,
-          "pop": 10
+          "temp": 8,
+          "pop": 57
+        },
+        {
+          "time": "02:00",
+          "code": 0,
+          "temp": 5,
+          "pop": 92
         }
       ],
       "daily": [
@@ -192,489 +192,489 @@ window.NEWS_DATA = {
           "date": "11/24",
           "dow": "今日",
           "code": 3,
-          "maxTemp": 15,
-          "minTemp": 2,
-          "pop": 10
+          "maxTemp": 14,
+          "minTemp": 4,
+          "pop": 100
         },
         {
           "date": "11/25",
           "dow": "明日",
-          "code": 1,
-          "maxTemp": 8,
-          "minTemp": 2,
-          "pop": 20
+          "code": 51,
+          "maxTemp": 7,
+          "minTemp": 3,
+          "pop": 99
         },
         {
           "date": "11/26",
           "dow": "木",
-          "code": 3,
-          "maxTemp": 15,
+          "code": 2,
+          "maxTemp": 14,
           "minTemp": 3,
-          "pop": 30
+          "pop": 6
         },
         {
           "date": "11/27",
           "dow": "金",
-          "code": 1,
+          "code": 3,
           "maxTemp": 17,
-          "minTemp": 6,
-          "pop": 20
+          "minTemp": 4,
+          "pop": 0
         },
         {
           "date": "11/28",
           "dow": "土",
-          "code": 3,
-          "maxTemp": 18,
+          "code": 51,
+          "maxTemp": 14,
           "minTemp": 7,
-          "pop": 40
+          "pop": 45
         },
         {
           "date": "11/29",
           "dow": "日",
-          "code": 3,
-          "maxTemp": 11,
-          "minTemp": 5,
-          "pop": 30
+          "code": 51,
+          "maxTemp": 8,
+          "minTemp": 2,
+          "pop": 89
         },
         {
           "date": "11/30",
           "dow": "月",
-          "code": 1,
+          "code": 3,
           "maxTemp": 14,
-          "minTemp": 5,
-          "pop": 20
+          "minTemp": 2,
+          "pop": 14
         }
       ]
     },
     {
       "name": "新潟",
       "region": "北陸",
-      "temp": 5,
+      "temp": 8,
       "code": 1,
-      "wind": 4,
+      "wind": 14,
       "maxTemp": 13,
-      "minTemp": 4,
-      "pop": 60,
+      "minTemp": 7,
+      "pop": 100,
       "hourly": [
         {
-          "time": "03:00",
-          "code": 1,
-          "temp": 5,
-          "pop": 60
-        },
-        {
-          "time": "06:00",
-          "code": 1,
-          "temp": 7,
-          "pop": 60
-        },
-        {
-          "time": "09:00",
-          "code": 1,
-          "temp": 9,
-          "pop": 60
-        },
-        {
-          "time": "12:00",
-          "code": 1,
-          "temp": 12,
-          "pop": 60
-        },
-        {
-          "time": "15:00",
-          "code": 1,
-          "temp": 12,
-          "pop": 60
-        },
-        {
-          "time": "18:00",
-          "code": 1,
-          "temp": 10,
-          "pop": 60
-        },
-        {
-          "time": "21:00",
+          "time": "05:00",
           "code": 1,
           "temp": 8,
-          "pop": 60
+          "pop": 0
         },
         {
-          "time": "00:00",
-          "code": 1,
-          "temp": 4,
-          "pop": 60
+          "time": "08:00",
+          "code": 2,
+          "temp": 9,
+          "pop": 28
+        },
+        {
+          "time": "11:00",
+          "code": 53,
+          "temp": 12,
+          "pop": 82
+        },
+        {
+          "time": "14:00",
+          "code": 61,
+          "temp": 12,
+          "pop": 100
+        },
+        {
+          "time": "17:00",
+          "code": 53,
+          "temp": 11,
+          "pop": 100
+        },
+        {
+          "time": "20:00",
+          "code": 51,
+          "temp": 10,
+          "pop": 97
+        },
+        {
+          "time": "23:00",
+          "code": 51,
+          "temp": 9,
+          "pop": 99
+        },
+        {
+          "time": "02:00",
+          "code": 53,
+          "temp": 6,
+          "pop": 100
         }
       ],
       "daily": [
         {
           "date": "11/24",
           "dow": "今日",
-          "code": 3,
+          "code": 63,
           "maxTemp": 13,
-          "minTemp": 4,
-          "pop": 60
+          "minTemp": 7,
+          "pop": 100
         },
         {
           "date": "11/25",
           "dow": "明日",
-          "code": 3,
+          "code": 61,
           "maxTemp": 8,
-          "minTemp": 4,
-          "pop": 80
+          "minTemp": 6,
+          "pop": 100
         },
         {
           "date": "11/26",
           "dow": "木",
-          "code": 3,
-          "maxTemp": 15,
-          "minTemp": 5,
-          "pop": 40
+          "code": 53,
+          "maxTemp": 14,
+          "minTemp": 6,
+          "pop": 92
         },
         {
           "date": "11/27",
           "dow": "金",
-          "code": 3,
+          "code": 2,
           "maxTemp": 18,
-          "minTemp": 7,
-          "pop": 30
+          "minTemp": 9,
+          "pop": 16
         },
         {
           "date": "11/28",
           "dow": "土",
-          "code": 3,
-          "maxTemp": 17,
-          "minTemp": 7,
-          "pop": 70
+          "code": 81,
+          "maxTemp": 14,
+          "minTemp": 8,
+          "pop": 100
         },
         {
           "date": "11/29",
           "dow": "日",
-          "code": 3,
-          "maxTemp": 12,
+          "code": 95,
+          "maxTemp": 9,
           "minTemp": 6,
-          "pop": 60
+          "pop": 100
         },
         {
           "date": "11/30",
           "dow": "月",
-          "code": 3,
+          "code": 51,
           "maxTemp": 16,
-          "minTemp": 7,
-          "pop": 50
+          "minTemp": 6,
+          "pop": 47
         }
       ]
     },
     {
       "name": "金沢",
       "region": "北陸",
-      "temp": 9,
-      "code": 1,
-      "wind": 4,
-      "maxTemp": 13,
-      "minTemp": 5,
-      "pop": 90,
+      "temp": 14,
+      "code": 2,
+      "wind": 18,
+      "maxTemp": 14,
+      "minTemp": 6,
+      "pop": 100,
       "hourly": [
         {
-          "time": "03:00",
+          "time": "05:00",
           "code": 1,
+          "temp": 14,
+          "pop": 8
+        },
+        {
+          "time": "08:00",
+          "code": 51,
+          "temp": 14,
+          "pop": 77
+        },
+        {
+          "time": "11:00",
+          "code": 63,
+          "temp": 12,
+          "pop": 100
+        },
+        {
+          "time": "14:00",
+          "code": 63,
+          "temp": 11,
+          "pop": 100
+        },
+        {
+          "time": "17:00",
+          "code": 51,
+          "temp": 11,
+          "pop": 100
+        },
+        {
+          "time": "20:00",
+          "code": 51,
+          "temp": 8,
+          "pop": 100
+        },
+        {
+          "time": "23:00",
+          "code": 53,
+          "temp": 7,
+          "pop": 100
+        },
+        {
+          "time": "02:00",
+          "code": 53,
           "temp": 6,
-          "pop": 90
-        },
-        {
-          "time": "06:00",
-          "code": 1,
-          "temp": 8,
-          "pop": 90
-        },
-        {
-          "time": "09:00",
-          "code": 1,
-          "temp": 10,
-          "pop": 90
-        },
-        {
-          "time": "12:00",
-          "code": 1,
-          "temp": 12,
-          "pop": 90
-        },
-        {
-          "time": "15:00",
-          "code": 1,
-          "temp": 12,
-          "pop": 90
-        },
-        {
-          "time": "18:00",
-          "code": 1,
-          "temp": 10,
-          "pop": 90
-        },
-        {
-          "time": "21:00",
-          "code": 1,
-          "temp": 8,
-          "pop": 90
-        },
-        {
-          "time": "00:00",
-          "code": 1,
-          "temp": 5,
-          "pop": 90
+          "pop": 100
         }
       ],
       "daily": [
         {
           "date": "11/24",
           "dow": "今日",
-          "code": 3,
-          "maxTemp": 13,
-          "minTemp": 5,
-          "pop": 90
+          "code": 65,
+          "maxTemp": 14,
+          "minTemp": 6,
+          "pop": 100
         },
         {
           "date": "11/25",
           "dow": "明日",
-          "code": 3,
-          "maxTemp": 10,
-          "minTemp": 5,
-          "pop": 80
+          "code": 61,
+          "maxTemp": 9,
+          "minTemp": 6,
+          "pop": 100
         },
         {
           "date": "11/26",
           "dow": "木",
           "code": 3,
-          "maxTemp": 16,
-          "minTemp": 5,
-          "pop": 30
+          "maxTemp": 15,
+          "minTemp": 7,
+          "pop": 14
         },
         {
           "date": "11/27",
           "dow": "金",
-          "code": 3,
+          "code": 2,
           "maxTemp": 20,
-          "minTemp": 7,
-          "pop": 30
+          "minTemp": 8,
+          "pop": 13
         },
         {
           "date": "11/28",
           "dow": "土",
-          "code": 3,
-          "maxTemp": 17,
+          "code": 95,
+          "maxTemp": 16,
           "minTemp": 8,
-          "pop": 70
+          "pop": 97
         },
         {
           "date": "11/29",
           "dow": "日",
-          "code": 3,
-          "maxTemp": 14,
-          "minTemp": 8,
-          "pop": 60
+          "code": 80,
+          "maxTemp": 9,
+          "minTemp": 6,
+          "pop": 100
         },
         {
           "date": "11/30",
           "dow": "月",
           "code": 3,
-          "maxTemp": 17,
-          "minTemp": 8,
-          "pop": 40
+          "maxTemp": 16,
+          "minTemp": 6,
+          "pop": 16
         }
       ]
     },
     {
       "name": "東京",
       "region": "関東",
-      "temp": 7,
+      "temp": 12,
       "code": 1,
-      "wind": 4,
+      "wind": 12,
       "maxTemp": 18,
-      "minTemp": 7,
-      "pop": 20,
+      "minTemp": 8,
+      "pop": 100,
       "hourly": [
         {
-          "time": "03:00",
-          "code": 1,
-          "temp": 8,
-          "pop": 20
-        },
-        {
-          "time": "06:00",
-          "code": 1,
-          "temp": 11,
-          "pop": 20
-        },
-        {
-          "time": "09:00",
-          "code": 1,
-          "temp": 13,
-          "pop": 20
-        },
-        {
-          "time": "12:00",
-          "code": 1,
-          "temp": 16,
-          "pop": 20
-        },
-        {
-          "time": "15:00",
-          "code": 1,
-          "temp": 17,
-          "pop": 20
-        },
-        {
-          "time": "18:00",
-          "code": 1,
-          "temp": 14,
-          "pop": 20
-        },
-        {
-          "time": "21:00",
+          "time": "05:00",
           "code": 1,
           "temp": 12,
-          "pop": 20
+          "pop": 0
         },
         {
-          "time": "00:00",
+          "time": "08:00",
+          "code": 2,
+          "temp": 14,
+          "pop": 0
+        },
+        {
+          "time": "11:00",
           "code": 1,
-          "temp": 7,
-          "pop": 20
+          "temp": 17,
+          "pop": 0
+        },
+        {
+          "time": "14:00",
+          "code": 2,
+          "temp": 18,
+          "pop": 55
+        },
+        {
+          "time": "17:00",
+          "code": 63,
+          "temp": 16,
+          "pop": 98
+        },
+        {
+          "time": "20:00",
+          "code": 51,
+          "temp": 13,
+          "pop": 94
+        },
+        {
+          "time": "23:00",
+          "code": 0,
+          "temp": 11,
+          "pop": 22
+        },
+        {
+          "time": "02:00",
+          "code": 0,
+          "temp": 10,
+          "pop": 8
         }
       ],
       "daily": [
         {
           "date": "11/24",
           "dow": "今日",
-          "code": 3,
+          "code": 63,
           "maxTemp": 18,
-          "minTemp": 7,
-          "pop": 20
+          "minTemp": 8,
+          "pop": 100
         },
         {
           "date": "11/25",
           "dow": "明日",
-          "code": 1,
-          "maxTemp": 15,
+          "code": 0,
+          "maxTemp": 13,
           "minTemp": 7,
-          "pop": 10
+          "pop": 18
         },
         {
           "date": "11/26",
           "dow": "木",
           "code": 3,
-          "maxTemp": 17,
+          "maxTemp": 15,
           "minTemp": 5,
-          "pop": 30
+          "pop": 0
         },
         {
           "date": "11/27",
           "dow": "金",
-          "code": 1,
-          "maxTemp": 18,
-          "minTemp": 7,
-          "pop": 20
+          "code": 2,
+          "maxTemp": 16,
+          "minTemp": 6,
+          "pop": 2
         },
         {
           "date": "11/28",
           "dow": "土",
-          "code": 3,
-          "maxTemp": 21,
-          "minTemp": 10,
-          "pop": 50
+          "code": 81,
+          "maxTemp": 14,
+          "minTemp": 8,
+          "pop": 67
         },
         {
           "date": "11/29",
           "dow": "日",
-          "code": 1,
-          "maxTemp": 17,
-          "minTemp": 8,
+          "code": 51,
+          "maxTemp": 12,
+          "minTemp": 5,
           "pop": 20
         },
         {
           "date": "11/30",
           "dow": "月",
-          "code": 1,
-          "maxTemp": 18,
-          "minTemp": 6,
-          "pop": 20
+          "code": 0,
+          "maxTemp": 13,
+          "minTemp": 3,
+          "pop": 0
         }
       ]
     },
     {
       "name": "名古屋",
       "region": "東海",
-      "temp": 7,
+      "temp": 6,
       "code": 1,
-      "wind": 4,
-      "maxTemp": 13,
+      "wind": 3,
+      "maxTemp": 12,
       "minTemp": 6,
-      "pop": 80,
+      "pop": 100,
       "hourly": [
         {
-          "time": "03:00",
-          "code": 1,
-          "temp": 7,
-          "pop": 80
-        },
-        {
-          "time": "06:00",
-          "code": 1,
-          "temp": 8,
-          "pop": 80
-        },
-        {
-          "time": "09:00",
-          "code": 1,
-          "temp": 10,
-          "pop": 80
-        },
-        {
-          "time": "12:00",
-          "code": 1,
-          "temp": 12,
-          "pop": 80
-        },
-        {
-          "time": "15:00",
-          "code": 1,
-          "temp": 12,
-          "pop": 80
-        },
-        {
-          "time": "18:00",
-          "code": 1,
-          "temp": 11,
-          "pop": 80
-        },
-        {
-          "time": "21:00",
-          "code": 1,
-          "temp": 9,
-          "pop": 80
-        },
-        {
-          "time": "00:00",
+          "time": "05:00",
           "code": 1,
           "temp": 6,
-          "pop": 80
+          "pop": 0
+        },
+        {
+          "time": "08:00",
+          "code": 3,
+          "temp": 7,
+          "pop": 63
+        },
+        {
+          "time": "11:00",
+          "code": 61,
+          "temp": 9,
+          "pop": 99
+        },
+        {
+          "time": "14:00",
+          "code": 61,
+          "temp": 10,
+          "pop": 100
+        },
+        {
+          "time": "17:00",
+          "code": 3,
+          "temp": 12,
+          "pop": 86
+        },
+        {
+          "time": "20:00",
+          "code": 2,
+          "temp": 10,
+          "pop": 20
+        },
+        {
+          "time": "23:00",
+          "code": 1,
+          "temp": 8,
+          "pop": 5
+        },
+        {
+          "time": "02:00",
+          "code": 1,
+          "temp": 7,
+          "pop": 22
         }
       ],
       "daily": [
         {
           "date": "11/24",
           "dow": "今日",
-          "code": 3,
-          "maxTemp": 13,
+          "code": 63,
+          "maxTemp": 12,
           "minTemp": 6,
-          "pop": 80
+          "pop": 100
         },
         {
           "date": "11/25",
           "dow": "明日",
-          "code": 3,
-          "maxTemp": 12,
+          "code": 2,
+          "maxTemp": 10,
           "minTemp": 6,
-          "pop": 10
+          "pop": 37
         },
         {
           "date": "11/26",
@@ -682,629 +682,629 @@ window.NEWS_DATA = {
           "code": 3,
           "maxTemp": 13,
           "minTemp": 4,
-          "pop": 30
+          "pop": 0
         },
         {
           "date": "11/27",
           "dow": "金",
           "code": 3,
           "maxTemp": 16,
-          "minTemp": 7,
-          "pop": 30
+          "minTemp": 5,
+          "pop": 33
         },
         {
           "date": "11/28",
           "dow": "土",
-          "code": 3,
-          "maxTemp": 17,
-          "minTemp": 10,
-          "pop": 50
+          "code": 80,
+          "maxTemp": 18,
+          "minTemp": 9,
+          "pop": 76
         },
         {
           "date": "11/29",
           "dow": "日",
           "code": 1,
-          "maxTemp": 15,
-          "minTemp": 6,
-          "pop": 20
+          "maxTemp": 12,
+          "minTemp": 3,
+          "pop": 31
         },
         {
           "date": "11/30",
           "dow": "月",
-          "code": 1,
-          "maxTemp": 16,
-          "minTemp": 5,
-          "pop": 20
+          "code": 0,
+          "maxTemp": 14,
+          "minTemp": 2,
+          "pop": 0
         }
       ]
     },
     {
       "name": "大阪",
       "region": "近畿",
-      "temp": 9,
-      "code": 1,
+      "temp": 10,
+      "code": 2,
       "wind": 4,
-      "maxTemp": 15,
-      "minTemp": 7,
-      "pop": 90,
+      "maxTemp": 16,
+      "minTemp": 8,
+      "pop": 100,
       "hourly": [
         {
-          "time": "03:00",
+          "time": "05:00",
+          "code": 2,
+          "temp": 10,
+          "pop": 52
+        },
+        {
+          "time": "08:00",
+          "code": 51,
+          "temp": 14,
+          "pop": 96
+        },
+        {
+          "time": "11:00",
+          "code": 65,
+          "temp": 15,
+          "pop": 100
+        },
+        {
+          "time": "14:00",
+          "code": 63,
+          "temp": 13,
+          "pop": 100
+        },
+        {
+          "time": "17:00",
+          "code": 2,
+          "temp": 12,
+          "pop": 57
+        },
+        {
+          "time": "20:00",
+          "code": 0,
+          "temp": 10,
+          "pop": 8
+        },
+        {
+          "time": "23:00",
           "code": 1,
           "temp": 8,
-          "pop": 90
+          "pop": 0
         },
         {
-          "time": "06:00",
-          "code": 1,
-          "temp": 10,
-          "pop": 90
-        },
-        {
-          "time": "09:00",
-          "code": 1,
-          "temp": 12,
-          "pop": 90
-        },
-        {
-          "time": "12:00",
-          "code": 1,
-          "temp": 14,
-          "pop": 90
-        },
-        {
-          "time": "15:00",
-          "code": 1,
-          "temp": 14,
-          "pop": 90
-        },
-        {
-          "time": "18:00",
-          "code": 1,
-          "temp": 12,
-          "pop": 90
-        },
-        {
-          "time": "21:00",
-          "code": 1,
-          "temp": 10,
-          "pop": 90
-        },
-        {
-          "time": "00:00",
+          "time": "02:00",
           "code": 1,
           "temp": 7,
-          "pop": 90
+          "pop": 0
         }
       ],
       "daily": [
         {
           "date": "11/24",
           "dow": "今日",
-          "code": 3,
-          "maxTemp": 15,
-          "minTemp": 7,
-          "pop": 90
+          "code": 65,
+          "maxTemp": 16,
+          "minTemp": 8,
+          "pop": 100
         },
         {
           "date": "11/25",
           "dow": "明日",
-          "code": 1,
-          "maxTemp": 13,
-          "minTemp": 7,
-          "pop": 20
+          "code": 2,
+          "maxTemp": 11,
+          "minTemp": 6,
+          "pop": 0
         },
         {
           "date": "11/26",
           "dow": "木",
           "code": 3,
-          "maxTemp": 15,
-          "minTemp": 6,
-          "pop": 30
+          "maxTemp": 14,
+          "minTemp": 5,
+          "pop": 0
         },
         {
           "date": "11/27",
           "dow": "金",
           "code": 3,
           "maxTemp": 18,
-          "minTemp": 9,
-          "pop": 30
+          "minTemp": 6,
+          "pop": 51
         },
         {
           "date": "11/28",
           "dow": "土",
-          "code": 3,
-          "maxTemp": 19,
-          "minTemp": 11,
-          "pop": 50
+          "code": 81,
+          "maxTemp": 18,
+          "minTemp": 10,
+          "pop": 68
         },
         {
           "date": "11/29",
           "dow": "日",
           "code": 1,
-          "maxTemp": 16,
-          "minTemp": 9,
-          "pop": 20
+          "maxTemp": 12,
+          "minTemp": 4,
+          "pop": 4
         },
         {
           "date": "11/30",
           "dow": "月",
-          "code": 1,
-          "maxTemp": 17,
-          "minTemp": 8,
-          "pop": 20
+          "code": 0,
+          "maxTemp": 14,
+          "minTemp": 4,
+          "pop": 0
         }
       ]
     },
     {
       "name": "広島",
       "region": "中国",
-      "temp": 10,
-      "code": 1,
-      "wind": 4,
+      "temp": 14,
+      "code": 63,
+      "wind": 13,
       "maxTemp": 14,
-      "minTemp": 5,
-      "pop": 80,
+      "minTemp": 6,
+      "pop": 100,
       "hourly": [
         {
-          "time": "03:00",
-          "code": 1,
-          "temp": 6,
-          "pop": 80
+          "time": "05:00",
+          "code": 63,
+          "temp": 14,
+          "pop": 100
         },
         {
-          "time": "06:00",
-          "code": 1,
-          "temp": 8,
-          "pop": 80
+          "time": "08:00",
+          "code": 61,
+          "temp": 13,
+          "pop": 100
         },
         {
-          "time": "09:00",
-          "code": 1,
-          "temp": 10,
-          "pop": 80
-        },
-        {
-          "time": "12:00",
-          "code": 1,
-          "temp": 12,
-          "pop": 80
-        },
-        {
-          "time": "15:00",
-          "code": 1,
+          "time": "11:00",
+          "code": 3,
           "temp": 13,
           "pop": 80
         },
         {
-          "time": "18:00",
+          "time": "14:00",
           "code": 1,
-          "temp": 11,
-          "pop": 80
+          "temp": 12,
+          "pop": 18
         },
         {
-          "time": "21:00",
-          "code": 1,
+          "time": "17:00",
+          "code": 2,
           "temp": 9,
-          "pop": 80
+          "pop": 0
         },
         {
-          "time": "00:00",
+          "time": "20:00",
+          "code": 3,
+          "temp": 8,
+          "pop": 13
+        },
+        {
+          "time": "23:00",
           "code": 1,
-          "temp": 5,
-          "pop": 80
+          "temp": 6,
+          "pop": 5
+        },
+        {
+          "time": "02:00",
+          "code": 1,
+          "temp": 6,
+          "pop": 0
         }
       ],
       "daily": [
         {
           "date": "11/24",
           "dow": "今日",
-          "code": 61,
+          "code": 63,
           "maxTemp": 14,
-          "minTemp": 5,
-          "pop": 80
+          "minTemp": 6,
+          "pop": 100
         },
         {
           "date": "11/25",
           "dow": "明日",
           "code": 1,
-          "maxTemp": 14,
+          "maxTemp": 11,
           "minTemp": 5,
-          "pop": 20
+          "pop": 0
         },
         {
           "date": "11/26",
           "dow": "木",
           "code": 3,
           "maxTemp": 15,
-          "minTemp": 4,
-          "pop": 30
+          "minTemp": 5,
+          "pop": 0
         },
         {
           "date": "11/27",
           "dow": "金",
-          "code": 1,
-          "maxTemp": 18,
-          "minTemp": 10,
-          "pop": 20
+          "code": 81,
+          "maxTemp": 17,
+          "minTemp": 5,
+          "pop": 37
         },
         {
           "date": "11/28",
           "dow": "土",
-          "code": 3,
-          "maxTemp": 18,
-          "minTemp": 9,
-          "pop": 40
+          "code": 51,
+          "maxTemp": 17,
+          "minTemp": 7,
+          "pop": 57
         },
         {
           "date": "11/29",
           "dow": "日",
-          "code": 1,
-          "maxTemp": 16,
-          "minTemp": 7,
-          "pop": 20
+          "code": 51,
+          "maxTemp": 12,
+          "minTemp": 3,
+          "pop": 73
         },
         {
           "date": "11/30",
           "dow": "月",
-          "code": 1,
-          "maxTemp": 17,
-          "minTemp": 8,
-          "pop": 20
+          "code": 2,
+          "maxTemp": 15,
+          "minTemp": 2,
+          "pop": 0
         }
       ]
     },
     {
       "name": "高知",
       "region": "四国",
-      "temp": 10,
-      "code": 1,
-      "wind": 4,
-      "maxTemp": 16,
-      "minTemp": 5,
-      "pop": 90,
+      "temp": 12,
+      "code": 3,
+      "wind": 5,
+      "maxTemp": 15,
+      "minTemp": 8,
+      "pop": 100,
       "hourly": [
         {
-          "time": "03:00",
-          "code": 1,
-          "temp": 6,
-          "pop": 90
+          "time": "05:00",
+          "code": 3,
+          "temp": 12,
+          "pop": 72
         },
         {
-          "time": "06:00",
-          "code": 1,
-          "temp": 9,
-          "pop": 90
+          "time": "08:00",
+          "code": 61,
+          "temp": 13,
+          "pop": 100
         },
         {
-          "time": "09:00",
-          "code": 1,
-          "temp": 11,
-          "pop": 90
-        },
-        {
-          "time": "12:00",
-          "code": 1,
-          "temp": 14,
-          "pop": 90
-        },
-        {
-          "time": "15:00",
-          "code": 1,
+          "time": "11:00",
+          "code": 53,
           "temp": 15,
-          "pop": 90
+          "pop": 100
         },
         {
-          "time": "18:00",
+          "time": "14:00",
+          "code": 3,
+          "temp": 14,
+          "pop": 89
+        },
+        {
+          "time": "17:00",
           "code": 1,
           "temp": 12,
-          "pop": 90
+          "pop": 22
         },
         {
-          "time": "21:00",
-          "code": 1,
+          "time": "20:00",
+          "code": 0,
           "temp": 10,
-          "pop": 90
+          "pop": 0
         },
         {
-          "time": "00:00",
+          "time": "23:00",
           "code": 1,
-          "temp": 5,
-          "pop": 90
+          "temp": 9,
+          "pop": 0
+        },
+        {
+          "time": "02:00",
+          "code": 0,
+          "temp": 7,
+          "pop": 0
         }
       ],
       "daily": [
         {
           "date": "11/24",
           "dow": "今日",
-          "code": 61,
-          "maxTemp": 16,
-          "minTemp": 5,
-          "pop": 90
+          "code": 65,
+          "maxTemp": 15,
+          "minTemp": 8,
+          "pop": 100
         },
         {
           "date": "11/25",
           "dow": "明日",
-          "code": 1,
-          "maxTemp": 15,
-          "minTemp": 5,
-          "pop": 10
+          "code": 2,
+          "maxTemp": 13,
+          "minTemp": 4,
+          "pop": 0
         },
         {
           "date": "11/26",
           "dow": "木",
           "code": 3,
-          "maxTemp": 16,
-          "minTemp": 4,
-          "pop": 30
+          "maxTemp": 14,
+          "minTemp": 5,
+          "pop": 1
         },
         {
           "date": "11/27",
           "dow": "金",
-          "code": 3,
-          "maxTemp": 19,
-          "minTemp": 9,
-          "pop": 50
+          "code": 81,
+          "maxTemp": 20,
+          "minTemp": 8,
+          "pop": 44
         },
         {
           "date": "11/28",
           "dow": "土",
-          "code": 3,
-          "maxTemp": 20,
+          "code": 81,
+          "maxTemp": 19,
           "minTemp": 9,
-          "pop": 40
+          "pop": 47
         },
         {
           "date": "11/29",
           "dow": "日",
-          "code": 1,
-          "maxTemp": 18,
-          "minTemp": 7,
-          "pop": 20
+          "code": 51,
+          "maxTemp": 13,
+          "minTemp": 5,
+          "pop": 25
         },
         {
           "date": "11/30",
           "dow": "月",
-          "code": 1,
-          "maxTemp": 19,
-          "minTemp": 6,
-          "pop": 20
+          "code": 0,
+          "maxTemp": 16,
+          "minTemp": 5,
+          "pop": 0
         }
       ]
     },
     {
       "name": "福岡",
       "region": "九州",
-      "temp": 13,
-      "code": 80,
-      "wind": 4,
-      "maxTemp": 15,
-      "minTemp": 6,
-      "pop": 90,
+      "temp": 14,
+      "code": 63,
+      "wind": 11,
+      "maxTemp": 16,
+      "minTemp": 8,
+      "pop": 100,
       "hourly": [
         {
-          "time": "03:00",
-          "code": 80,
-          "temp": 7,
-          "pop": 90
+          "time": "05:00",
+          "code": 63,
+          "temp": 14,
+          "pop": 100
         },
         {
-          "time": "06:00",
-          "code": 80,
-          "temp": 9,
-          "pop": 90
+          "time": "08:00",
+          "code": 53,
+          "temp": 16,
+          "pop": 100
         },
         {
-          "time": "09:00",
-          "code": 80,
+          "time": "11:00",
+          "code": 1,
+          "temp": 14,
+          "pop": 61
+        },
+        {
+          "time": "14:00",
+          "code": 1,
           "temp": 11,
-          "pop": 90
+          "pop": 11
         },
         {
-          "time": "12:00",
-          "code": 80,
-          "temp": 14,
-          "pop": 90
-        },
-        {
-          "time": "15:00",
-          "code": 80,
-          "temp": 14,
-          "pop": 90
-        },
-        {
-          "time": "18:00",
-          "code": 80,
+          "time": "17:00",
+          "code": 2,
           "temp": 12,
-          "pop": 90
+          "pop": 4
         },
         {
-          "time": "21:00",
-          "code": 80,
+          "time": "20:00",
+          "code": 3,
           "temp": 10,
-          "pop": 90
+          "pop": 29
         },
         {
-          "time": "00:00",
-          "code": 80,
-          "temp": 6,
-          "pop": 90
+          "time": "23:00",
+          "code": 2,
+          "temp": 8,
+          "pop": 25
+        },
+        {
+          "time": "02:00",
+          "code": 1,
+          "temp": 7,
+          "pop": 5
         }
       ],
       "daily": [
         {
           "date": "11/24",
           "dow": "今日",
-          "code": 61,
-          "maxTemp": 15,
-          "minTemp": 6,
-          "pop": 90
+          "code": 63,
+          "maxTemp": 16,
+          "minTemp": 8,
+          "pop": 100
         },
         {
           "date": "11/25",
           "dow": "明日",
-          "code": 3,
-          "maxTemp": 12,
-          "minTemp": 6,
-          "pop": 20
+          "code": 2,
+          "maxTemp": 11,
+          "minTemp": 7,
+          "pop": 18
         },
         {
           "date": "11/26",
           "dow": "木",
           "code": 3,
-          "maxTemp": 17,
-          "minTemp": 6,
-          "pop": 30
+          "maxTemp": 15,
+          "minTemp": 10,
+          "pop": 1
         },
         {
           "date": "11/27",
           "dow": "金",
-          "code": 3,
-          "maxTemp": 20,
+          "code": 51,
+          "maxTemp": 19,
           "minTemp": 11,
-          "pop": 30
+          "pop": 21
         },
         {
           "date": "11/28",
           "dow": "土",
-          "code": 3,
-          "maxTemp": 19,
-          "minTemp": 10,
-          "pop": 40
+          "code": 51,
+          "maxTemp": 15,
+          "minTemp": 8,
+          "pop": 72
         },
         {
           "date": "11/29",
           "dow": "日",
-          "code": 3,
-          "maxTemp": 17,
-          "minTemp": 8,
-          "pop": 30
+          "code": 51,
+          "maxTemp": 10,
+          "minTemp": 4,
+          "pop": 76
         },
         {
           "date": "11/30",
           "dow": "月",
-          "code": 3,
-          "maxTemp": 19,
-          "minTemp": 9,
-          "pop": 30
+          "code": 1,
+          "maxTemp": 17,
+          "minTemp": 4,
+          "pop": 0
         }
       ]
     },
     {
       "name": "那覇",
       "region": "沖縄",
-      "temp": 22,
-      "code": 80,
-      "wind": 4,
-      "maxTemp": 26,
-      "minTemp": 18,
-      "pop": 60,
+      "temp": 24,
+      "code": 1,
+      "wind": 20,
+      "maxTemp": 25,
+      "minTemp": 19,
+      "pop": 97,
       "hourly": [
         {
-          "time": "03:00",
-          "code": 80,
+          "time": "05:00",
+          "code": 1,
+          "temp": 24,
+          "pop": 0
+        },
+        {
+          "time": "08:00",
+          "code": 1,
+          "temp": 24,
+          "pop": 8
+        },
+        {
+          "time": "11:00",
+          "code": 3,
+          "temp": 23,
+          "pop": 75
+        },
+        {
+          "time": "14:00",
+          "code": 51,
+          "temp": 22,
+          "pop": 88
+        },
+        {
+          "time": "17:00",
+          "code": 51,
+          "temp": 20,
+          "pop": 75
+        },
+        {
+          "time": "20:00",
+          "code": 51,
           "temp": 19,
-          "pop": 60
+          "pop": 56
         },
         {
-          "time": "06:00",
-          "code": 80,
-          "temp": 21,
-          "pop": 60
+          "time": "23:00",
+          "code": 3,
+          "temp": 19,
+          "pop": 29
         },
         {
-          "time": "09:00",
-          "code": 80,
-          "temp": 23,
-          "pop": 60
-        },
-        {
-          "time": "12:00",
-          "code": 80,
-          "temp": 25,
-          "pop": 60
-        },
-        {
-          "time": "15:00",
-          "code": 80,
-          "temp": 25,
-          "pop": 60
-        },
-        {
-          "time": "18:00",
-          "code": 80,
-          "temp": 23,
-          "pop": 60
-        },
-        {
-          "time": "21:00",
-          "code": 80,
-          "temp": 21,
-          "pop": 60
-        },
-        {
-          "time": "00:00",
-          "code": 80,
+          "time": "02:00",
+          "code": 3,
           "temp": 18,
-          "pop": 60
+          "pop": 15
         }
       ],
       "daily": [
         {
           "date": "11/24",
           "dow": "今日",
-          "code": 3,
-          "maxTemp": 26,
-          "minTemp": 18,
-          "pop": 60
+          "code": 80,
+          "maxTemp": 25,
+          "minTemp": 19,
+          "pop": 97
         },
         {
           "date": "11/25",
           "dow": "明日",
           "code": 3,
-          "maxTemp": 22,
-          "minTemp": 18,
-          "pop": 30
+          "maxTemp": 20,
+          "minTemp": 17,
+          "pop": 22
         },
         {
           "date": "11/26",
           "dow": "木",
-          "code": 3,
-          "maxTemp": 23,
-          "minTemp": 18,
-          "pop": 80
+          "code": 81,
+          "maxTemp": 22,
+          "minTemp": 19,
+          "pop": 99
         },
         {
           "date": "11/27",
           "dow": "金",
-          "code": 3,
-          "maxTemp": 25,
-          "minTemp": 19,
-          "pop": 60
+          "code": 51,
+          "maxTemp": 26,
+          "minTemp": 22,
+          "pop": 75
         },
         {
           "date": "11/28",
           "dow": "土",
-          "code": 3,
-          "maxTemp": 24,
+          "code": 51,
+          "maxTemp": 23,
           "minTemp": 19,
-          "pop": 40
+          "pop": 45
         },
         {
           "date": "11/29",
           "dow": "日",
-          "code": 1,
-          "maxTemp": 24,
-          "minTemp": 18,
-          "pop": 20
+          "code": 3,
+          "maxTemp": 20,
+          "minTemp": 17,
+          "pop": 2
         },
         {
           "date": "11/30",
           "dow": "月",
           "code": 3,
-          "maxTemp": 25,
-          "minTemp": 18,
-          "pop": 30
+          "maxTemp": 21,
+          "minTemp": 17,
+          "pop": 2
         }
       ]
     }
@@ -2004,22 +2004,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "為替相場　　24日（日本時間　4時）(共同通信)",
+      "title": "孫の学費援助に贈与税はかかる？一括贈与「1500万円非課税」終了した今、贈与税が「かかる場合・かからない場合」をFPが解説！(LIMO)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-24 03:00",
-      "publishedTs": 1795456834,
-      "image": "https://tse2.mm.bing.net/th?q=%E7%82%BA%E6%9B%BF%E7%9B%B8%E5%A0%B4%2024%E6%97%A5&w=800&h=450&c=7&rs=1&p=0",
-      "summary": "3時現在 1ドル＝ 159円27銭～ 159円28銭 前日比 －0円08銭 1ユーロ＝ 173円36銭～ 173円38銭 前日比 ＋1円49銭…",
+      "publishedAt": "2026-11-24 05:10",
+      "publishedTs": 1795464633,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-90000846-toushin-000-1-view.jpg?exp=10800",
+      "summary": "11月も下旬となり、年末に向けて家族で集まる予定を立て始める時期になりました。久しぶりに孫と会うのを楽しみにしながら、進学のお祝いや学費の手助けを考えている祖父母の方もいらっしゃるかもしれません。筆…",
       "points": [
-        "3時現在 1ドル＝ 159円27銭～ 159円28銭 前日比 －0円08銭 1ユーロ＝ 173円36銭～ 173…",
-        "分野・出典: ビジネス・経済（Yahoo!ニュース / 2026-11-24 03:00）"
+        "年末に向けて家族で集まる予定を立て始める時期になりました",
+        "久しぶりに孫と会うのを楽しみにしながら",
+        "分野・出典: ビジネス・経済（Yahoo!ニュース / 2026-11-24 05:10）"
       ],
-      "impact": "「為替相場　　24日（日本時間　4時）(共同通信)」を巡るビジネス・経済分野の注目動向として今後の展開が注目されます。",
+      "impact": "「孫の学費援助に贈与税はかかる？一括贈与「1500万円非課」を巡るビジネス・経済分野の注目動向として今後の展開が注目されます。",
       "tags": [
         "ビジネス・経済",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/3a642640d8b8218e4179dce7ad953d9da8f13d38?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/0ef46041c20dc53c5bebb77c1d47ac674d4a6427?source=rss",
       "isAiEnriched": false
     },
     {
@@ -2110,66 +2111,69 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "自身の介入が重要だったとトランプ氏(共同通信)",
+      "title": "12月末の退職日による健康保険料の違い",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-24 00:58",
-      "publishedTs": 1795449518,
-      "image": "https://tse2.mm.bing.net/th?q=%E8%87%AA%E8%BA%AB%E3%81%AE%E4%BB%8B%E5%85%A5%E3%81%8C%E9%87%8D%E8%A6%81%E3%81%A0%E3%81%A3%E3%81%9F%E3%81%A8%E3%83%88%E3%83%A9%E3%83%B3%E3%83%97%E6%B0%8F&w=800&h=450&c=7&rs=1&p=0",
-      "summary": "【ワシントン共同】トランプ米大統領は23日、米CNBCテレビで、エヌビディア最高経営責任者（CEO）へのフアン氏の復帰に関し「私の介入がとても重要だった」と述べ、復帰の決定に関与したことを示唆した。",
+      "publishedAt": "2026-11-24 05:10",
+      "publishedTs": 1795464633,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-90000845-toushin-000-1-view.jpg?exp=10800",
+      "summary": "12月30日と31日のどちらで退職するかによって、12月分の健康保険料の本人負担額や資格喪失日のルールが変わるため、事前の確認が重要です。",
       "points": [
-        "【ワシントン共同】トランプ米大統領は23日",
-        "エヌビディア最高経営責任者（CEO）へのフアン氏の復帰に関し「私の介入がとても重要だった」と述べ",
-        "分野・出典: ビジネス・経済（Yahoo!ニュース / 2026-11-24 00:58）"
+        "12月30日退職と31日退職で保険料負担に違いが生じる",
+        "資格喪失日のルールが退職日の選択に大きく影響する",
+        "わずか1日の違いで手取り額が変わる可能性がある"
       ],
-      "impact": "「自身の介入が重要だったとトランプ氏(共同通信)」を巡るビジネス・経済分野の注目動向として今後の展開が注目されます。",
+      "impact": "年末での退職を検討している人にとって、手取り額に直結する重要な判断材料となります。",
       "tags": [
-        "ビジネス・経済",
-        "Yahoo!ニュース"
+        "ビジネス",
+        "健康保険",
+        "退職"
       ],
-      "url": "https://news.yahoo.co.jp/articles/624436475b1e79a4406544cb0325dcc96987aada?source=rss",
-      "isAiEnriched": false
+      "url": "https://news.yahoo.co.jp/articles/520cb1efcfcaab47bef5cc28a9022bd58b54089a?source=rss",
+      "isAiEnriched": true
     },
     {
       "category": "entertainment",
-      "title": "木村拓哉が2年ぶりのライブツアーを完走！アンコールの声鳴りやまず「夜空ノムコウ」で大合唱、涙も(TOKYO HEADLINE WEB)",
+      "title": "ブルガリを世界的ブランドへ導いたパオロ氏死去",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-24 04:10",
-      "publishedTs": 1795461009,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-00010004-theadline-000-1-view.jpg?exp=10800",
-      "summary": "木村拓哉が11月23日、千葉・ららアリーナ東京で2年ぶりとなるライブツアー「TAKUYA KIMURA Live Tour 2026 Checkpoint」を完走した。レーベル移籍後、初のアルバム『…",
+      "publishedAt": "2026-11-24 05:10",
+      "publishedTs": 1795464657,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-00010006-thrjapan-000-1-view.jpg?exp=10800",
+      "summary": "イタリアの高級ジュエリーブランド「ブルガリ」を世界的ラグジュアリーブランドへと成長させたパオロ・ブルガリ氏が89歳で逝去しました。",
       "points": [
-        "木村拓哉が11月23日",
-        "千葉・ららアリーナ東京で2年ぶりとなるライブツアー「TAKUYA KIMURA Live Tour 2026 C…",
-        "分野・出典: 芸能・エンタメ（Yahoo!ニュース / 2026-11-24 04:10）"
+        "ブルガリを世界的ブランドへと成長させた立役者",
+        "ダイアナ元妃やハリウッドスターらを魅了した功績",
+        "家族およびイタリアメディアによって訃報が発表された"
       ],
-      "impact": "「木村拓哉が2年ぶりのライブツアーを完走！アンコールの声鳴」を巡る芸能・エンタメ分野の注目動向として今後の展開が注目されます。",
+      "impact": "世界の高級ジュエリー業界やファッション市場に大きな影響を与えた巨匠の逝去として注目されています。",
       "tags": [
-        "芸能・エンタメ",
-        "Yahoo!ニュース"
+        "訃報",
+        "ブランド",
+        "ジュエリー"
       ],
-      "url": "https://news.yahoo.co.jp/articles/4b0136d3852de9ebe83e1667d20086a08b8bc85b?source=rss",
-      "isAiEnriched": false
+      "url": "https://news.yahoo.co.jp/articles/a9dcf0d62cbfa4803ea55c7293f4181e84a35218?source=rss",
+      "isAiEnriched": true
     },
     {
       "category": "subculture",
-      "title": "糸と鎧 - 第９話　島からの脱出 | ヤンマガWeb",
+      "title": "「糸と鎧」第9話：島からの脱出が公開",
       "source": "yanmaga.jp",
       "publishedAt": "2026-11-24 00:27",
       "publishedTs": 1795447653,
       "image": "https://eh96lnrmau.user-space.cdn.idcfcloud.net/thumbnail/episode/06A0000000001067129E.jpg?auto=webp",
-      "summary": "糸と鎧。呪いに侵食された島で旅をする少女エメリー。解呪師の彼女がダンジョンで出会ったのは呪いまみれの剣士だった。このダンジョンに長年留まっているという彼の目的は、島を呪いに貶めた原因である強大な怪物、「惨禍」の１体であるドラゴンを倒すという無謀な挑戦。剣士にかかった呪いを解き、ドラゴンにその刃が...",
+      "summary": "ヤンマガWebで連載中の「糸と鎧」第9話が公開。呪いに侵食された島を舞台に、解呪師のエメリーと剣士の無謀な挑戦が描かれます。",
       "points": [
-        "呪いに侵食された島で旅をする少女エメリー",
-        "解呪師の彼女がダンジョンで出会ったのは呪いまみれの剣士だった",
-        "分野・出典: サブカルチャー（yanmaga.jp / 2026-11-24 00:27）"
+        "呪いに侵食された島を舞台にしたファンタジー作品",
+        "解呪師エメリーと呪いまみれの剣士の出会いと目的",
+        "ドラゴン討伐を目指す危険なダンジョン探索が展開"
       ],
-      "impact": "サブカルチャー分野で多くの読者に共有されている注目記事です。",
+      "impact": "マンガファンやサブカルチャー市場において、次展開への期待を高める話題となっています。",
       "tags": [
+        "マンガ",
         "サブカルチャー",
-        "yanmaga.jp"
+        "ヤンマガWeb"
       ],
       "url": "https://yanmaga.jp/viewer/comics/%E7%B3%B8%E3%81%A8%E9%8E%A7/093f77da3029f78ad14e3b92558bf8f7?cid=06A0000000001067129E",
-      "isAiEnriched": false
+      "isAiEnriched": true
     },
     {
       "category": "domestic",
@@ -2195,66 +2199,69 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "100WhMAXバッテリーにタッチパネル搭載で1kgを実現した奇跡の14型ノートPC＝「LAVIE X14」実機レビュー(アスキー)",
+      "title": "1kg台で100Whバッテリー搭載のLAVIE X14",
       "source": "Yahoo!ニュース",
       "publishedAt": "2026-11-24 00:01",
       "publishedTs": 1795446060,
       "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-00000001-ascii-000-1-view.jpg?exp=10800",
-      "summary": "「LAVIE X14」は、14型ディスプレーを搭載するモバイルノートPCだ。最大の特徴は、公称約1021gの軽量ボディーに、航空会社の承認なしで機内に持ち込める99.9Whの大容量バッテリーを搭載し…",
+      "summary": "NECの14型モバイルノートPC「LAVIE X14」の実機レビュー。約1kgの軽量ボディと機内持ち込み可能な大容量バッテリーを両立しています。",
       "points": [
-        "「LAVIE X14」は",
-        "14型ディスプレーを搭載するモバイルノートPCだ",
-        "分野・出典: テクノロジー・AI（Yahoo!ニュース / 2026-11-24 00:01）"
+        "公称約1021gの軽量ボディにタッチパネルを搭載",
+        "機内持ち込み制限ギリギリの99.9Wh大容量バッテリー",
+        "モバイル性と実用性を高い次元で両立した注目モデル"
       ],
-      "impact": "「100WhMAXバッテリーにタッチパネル搭載で1kgを実」を巡るテクノロジー・AI分野の注目動向として今後の展開が注目されます。",
+      "impact": "頻繁に移動や出張を行うビジネスパーソンのPC選びにおいて、有力な選択肢となりそうです。",
       "tags": [
-        "テクノロジー・AI",
-        "Yahoo!ニュース"
+        "ガジェット",
+        "PC",
+        "テクノロジー"
       ],
       "url": "https://news.yahoo.co.jp/articles/ed6cb395d28baeb2b96f1bbda93eef7899c9f837?source=rss",
-      "isAiEnriched": false
+      "isAiEnriched": true
     },
     {
       "category": "business",
-      "title": "NY株反発、1267ドル高　値ごろ感、フアン氏復帰で(共同通信)",
+      "title": "ドコモとソフトバンク、60歳以上向け割引を拡充",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-24 00:24",
-      "publishedTs": 1795447445,
-      "image": "https://tse2.mm.bing.net/th?q=NY%E6%A0%AA%E5%8F%8D%E7%99%BA%201267%E3%83%89%E3%83%AB%E9%AB%98%20%E5%80%A4%E3%81%94%E3%82%8D%E6%84%9F%20%E3%83%95%E3%82%A2%E3%83%B3%E6%B0%8F%E5%BE%A9%E5%B8%B0%E3%81%A7&w=800&h=450&c=7&rs=1&p=0",
-      "summary": "【ニューヨーク共同】週明け23日のニューヨーク株式市場のダウ工業株30種平均は大幅に反発し、午前10時現在は前週末比1267.89ドル高の4万9415.22ドルを付けた。 前週に大幅下落した米国株に…",
+      "publishedAt": "2026-11-24 05:05",
+      "publishedTs": 1795464334,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-90000844-toushin-000-1-view.jpg?exp=10800",
+      "summary": "ドコモが12月1日から60歳以上のかけ放題オプションを半額に値下げ。ソフトバンクも月880円のプランを提供し、シニア向けサービスが競争へ。",
       "points": [
-        "【ニューヨーク共同】週明け23日のニューヨーク株式市場のダウ工業株30種平均は大幅に反発し",
-        "午前10時現在は前週末比1267.89ドル高の4万9415.22ドルを付けた",
-        "分野・出典: ビジネス・経済（Yahoo!ニュース / 2026-11-24 00:24）"
+        "ドコモが60歳以上のかけ放題オプションを月990円に改定",
+        "ソフトバンクも月880円のシニア向けサービスを展開",
+        "高齢者層の通信費負担軽減に向けた動きが加速"
       ],
-      "impact": "「NY株反発、1267ドル高　値ごろ感、フアン氏復帰で(共」を巡るビジネス・経済分野の注目動向として今後の展開が注目されます。",
+      "impact": "シニア層のスマートフォン利用拡大や、通信キャリア間の顧客獲得競争に影響を与えます。",
       "tags": [
-        "ビジネス・経済",
-        "Yahoo!ニュース"
+        "通信",
+        "ビジネス",
+        "シニア"
       ],
-      "url": "https://news.yahoo.co.jp/articles/4c3819fd062c65116eec6b7f3c012afd5168fd12?source=rss",
-      "isAiEnriched": false
+      "url": "https://news.yahoo.co.jp/articles/71838bd7ded1ec96877e2a0a6b7f3b5416e3a47d?source=rss",
+      "isAiEnriched": true
     },
     {
       "category": "entertainment",
-      "title": "TOMORROW X TOGETHER、15作連続！最新作「PERFECT STORM」がオリコン週間アルバムランキングで1位に(Kstyle)",
+      "title": "人気コスプレーヤーいくみの揺れ動画が話題",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-24 04:03",
-      "publishedTs": 1795460598,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-00000099-kstylens-000-1-view.jpg?exp=10800",
-      "summary": "TOMORROW X TOGETHERの最新アルバム「PERFECT STORM」が、11月24日発表の最新「オリコン週間アルバムランキング」で1位に初登場した（オリコン調べ／2026年11月30日…",
+      "publishedAt": "2026-11-24 05:10",
+      "publishedTs": 1795464653,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-00000008-chuspo-000-1-view.jpg?exp=10800",
+      "summary": "コスプレーヤーのいくみがXに投稿した、体勢を変えてはにかむ笑顔の動画が「今世紀最大の揺れ！」としてファンやネット上で大きな話題に。",
       "points": [
-        "TOMORROW X TOGETHERの最新アルバム「PERFECT STORM」が",
-        "11月24日発表の最新「オリコン週間アルバムランキング」で1位に初登場した（オリコン調べ／2026年11月30日",
-        "分野・出典: 芸能・エンタメ（Yahoo!ニュース / 2026-11-24 04:03）"
+        "同人グラビア等で活動する人気コスプレーヤーの投稿",
+        "体を揺らしてはにかむ可愛らしい姿がファンを魅了",
+        "SNS上で多くの反響とコメントを集めるバズに発展"
       ],
-      "impact": "「TOMORROW X TOGETHER、15作連続！最新」を巡る芸能・エンタメ分野の注目動向として今後の展開が注目されます。",
+      "impact": "SNSエンタメ市場やインフルエンサーの動向として、ファンの間で広く拡散されています。",
       "tags": [
-        "芸能・エンタメ",
-        "Yahoo!ニュース"
+        "エンタメ",
+        "SNS",
+        "コスプレ"
       ],
-      "url": "https://news.yahoo.co.jp/articles/72c6dd7893ce0b31b481d1bb418996692f8d15c8?source=rss",
-      "isAiEnriched": false
+      "url": "https://news.yahoo.co.jp/articles/95453d24425932a86bef3c5d8eac3b44656c693b?source=rss",
+      "isAiEnriched": true
     },
     {
       "category": "subculture",
@@ -2302,66 +2309,69 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "NVIDIA、ジェンスン・フアン氏の11日ぶりのCEO復帰を発表(アスキー)",
+      "title": "エヌビディア、ジェンスン・フアン氏がCEO復帰",
       "source": "Yahoo!ニュース",
       "publishedAt": "2026-11-23 23:55",
       "publishedTs": 1795445700,
       "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261123-00000010-ascii-000-1-view.jpg?exp=10800",
-      "summary": "NVIDIAは23日（現地時間）、11月12日にCEO兼取締役の地位を辞任していたジェンスン・フアン氏について、その地位に復帰したことを発表した。この決定は取締役会の全会一致によるものとしている。",
+      "summary": "エヌビディアは、11月12日に辞任したジェンスン・フアン氏が取締役会の全会一致により、わずか11日ぶりにCEOへ即時復帰すると発表しました。",
       "points": [
-        "NVIDIAは23日（現地時間）",
-        "11月12日にCEO兼取締役の地位を辞任していたジェンスン・フアン氏について",
-        "分野・出典: テクノロジー・AI（Yahoo!ニュース / 2026-11-23 23:55）"
+        "辞任からわずか11日での異例のCEO復帰",
+        "取締役会による全会一致での決定事項",
+        "米政府高官の意見や国家安全保障の観点も背景に"
       ],
-      "impact": "「NVIDIA、ジェンスン・フアン氏の11日ぶりのCEO復」を巡るテクノロジー・AI分野の注目動向として今後の展開が注目されます。",
+      "impact": "AI半導体市場を牽引する同社の経営体制が早期に安定し、株式市場や業界に安心感を与えます。",
       "tags": [
-        "テクノロジー・AI",
-        "Yahoo!ニュース"
+        "AI",
+        "NVIDIA",
+        "ビジネス"
       ],
       "url": "https://news.yahoo.co.jp/articles/d5a8ee01c77b9ea3f47c67340f5f7bd76de39d46?source=rss",
-      "isAiEnriched": false
+      "isAiEnriched": true
     },
     {
       "category": "business",
-      "title": "「誤りは正された」とマスク氏(共同通信)",
+      "title": "Apple初折りたたみスマホ「iPhone Duo」の評価",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-24 00:03",
-      "publishedTs": 1795446187,
-      "image": "https://tse2.mm.bing.net/th?q=%E8%AA%A4%E3%82%8A%E3%81%AF%E6%AD%A3%E3%81%95%E3%82%8C%E3%81%9F%20%E3%81%A8%E3%83%9E%E3%82%B9%E3%82%AF%E6%B0%8F&w=800&h=450&c=7&rs=1&p=0",
-      "summary": "【ワシントン共同】米実業家イーロン・マスク氏は23日、米半導体大手エヌビディア最高経営責任者（CEO）へのフアン氏復帰について「誤りは正された」とX（旧ツイッター）に投稿した。",
+      "publishedAt": "2026-11-24 05:00",
+      "publishedTs": 1795464039,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-00965397-toyo-000-1-view.jpg?exp=10800",
+      "summary": "36万円を超える超高額ながら完売が続くApple初の折りたたみスマホ「iPhone Duo」。大画面とヒンジの実力がユーザーの間で注目されています。",
       "points": [
-        "【ワシントン共同】米実業家イーロン・マスク氏は23日",
-        "米半導体大手エヌビディア最高経営責任者（CEO）へのフアン氏復帰について「誤りは正された」とX（旧ツイッター）に…",
-        "分野・出典: ビジネス・経済（Yahoo!ニュース / 2026-11-24 00:03）"
+        "Apple初の折りたたみ式スマートフォンとして登場",
+        "36万円超の高価格にもかかわらず完売が続出",
+        "大画面とヒンジ機構の完成度の高さが話題に"
       ],
-      "impact": "「「誤りは正された」とマスク氏(共同通信)」を巡るビジネス・経済分野の注目動向として今後の展開が注目されます。",
+      "impact": "高価格帯スマートフォン市場のトレンドや、今後のAppleのハードウェア戦略に注目が集まります。",
       "tags": [
-        "ビジネス・経済",
-        "Yahoo!ニュース"
+        "Apple",
+        "スマホ",
+        "ガジェット"
       ],
-      "url": "https://news.yahoo.co.jp/articles/bf9b25ff255526fecaa3e102ff54f1746c47c7f6?source=rss",
-      "isAiEnriched": false
+      "url": "https://news.yahoo.co.jp/articles/6e8fb2bed82574f9a9ac68e6b5c4b4d1590e6fa7?source=rss",
+      "isAiEnriched": true
     },
     {
       "category": "entertainment",
-      "title": "木村拓哉、ツアーファイナルでスーパースターの貫禄！　アンコールで披露した”あの曲”にファン感涙、キムタクも背を向け涙拭う(中日スポーツ)",
+      "title": "安斉星来の超ミニ丈ドレス姿にネット騒然",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-24 04:00",
-      "publishedTs": 1795460453,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-00000003-chuspo-000-1-view.jpg?exp=10800",
-      "summary": "俳優で歌手の木村拓哉（54）が23日、千葉県船橋市のららアリーナ東京ベイで、最新アルバム「Checkpoint」を引っ提げた2年ぶりの全国ツアーのファイナルを迎えた。タイトルが示すとおり、第一線を走…",
+      "publishedAt": "2026-11-24 05:10",
+      "publishedTs": 1795464602,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-00010005-nishispo-000-1-view.jpg?exp=10800",
+      "summary": "Z世代のアイコンとして人気の女優・安斉星来が披露した超ミニ丈ドレス姿に対し、SNS上で「痩せすぎではないか」と心配や驚きの声が相次いでいます。",
       "points": [
-        "俳優で歌手の木村拓哉（54）が23日",
-        "千葉県船橋市のららアリーナ東京ベイで",
-        "分野・出典: 芸能・エンタメ（Yahoo!ニュース / 2026-11-24 04:00）"
+        "Z世代から高い支持を集める女優・安斉星来の最新ショット",
+        "大胆な超ミニ丈ドレス姿にファンやネットが騒然",
+        "スタイルへの驚きとともに健康面を心配する声も"
       ],
-      "impact": "「木村拓哉、ツアーファイナルでスーパースターの貫禄！　アン」を巡る芸能・エンタメ分野の注目動向として今後の展開が注目されます。",
+      "impact": "芸能ニュースやファッション誌のトレンドとして、幅広い世代の関心を集めています。",
       "tags": [
-        "芸能・エンタメ",
-        "Yahoo!ニュース"
+        "芸能",
+        "ファッション",
+        "Z世代"
       ],
-      "url": "https://news.yahoo.co.jp/articles/f72222809671027a53ec7514a9f2bec24a8a37be?source=rss",
-      "isAiEnriched": false
+      "url": "https://news.yahoo.co.jp/articles/351aa4bc2a8c1d341fb86a7a158d35698d9e9ef7?source=rss",
+      "isAiEnriched": true
     },
     {
       "category": "subculture",
@@ -2409,66 +2419,69 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "辞任から11日、エヌビディアがフアン氏をCEOに即時復帰　取締役会は全会一致で決議(ビジネス＋IT)",
+      "title": "エヌビディア、フアン氏のCEO復帰を即時決議",
       "source": "Yahoo!ニュース",
       "publishedAt": "2026-11-23 23:45",
       "publishedTs": 1795445106,
       "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261123-00188691-biz_plus-000-1-view.jpg?exp=10800",
-      "summary": "エヌビディアは11月23日、11月12日に辞任したジェンスン・フアン氏を社長兼CEOおよび取締役に復帰させたと発表した。効力は即時。取締役会は全会一致で決議し、米政府高官の意見を踏まえ、復帰は国家安…",
+      "summary": "エヌビディアは辞任していたジェンスン・フアン氏のCEO復帰を取締役会で全会一致により即時決議。国家安全保障上の視点なども考慮されました。",
       "points": [
-        "エヌビディアは11月23日",
-        "11月12日に辞任したジェンスン・フアン氏を社長兼CEOおよび取締役に復帰させたと発表した",
-        "分野・出典: テクノロジー・AI（Yahoo!ニュース / 2026-11-23 23:45）"
+        "ジェンスン・フアン氏が社長兼CEOに即時復帰",
+        "取締役会が全会一致で迅速に決議を採択",
+        "国家安全保障や米政府高官の意向も背景に影響"
       ],
-      "impact": "「辞任から11日、エヌビディアがフアン氏をCEOに即時復帰」を巡るテクノロジー・AI分野の注目動向として今後の展開が注目されます。",
+      "impact": "世界的なAIインフラを支える同社の経営の不確実性が払拭され、マーケットに好影響をもたらします。",
       "tags": [
-        "テクノロジー・AI",
-        "Yahoo!ニュース"
+        "エヌビディア",
+        "AI",
+        "ビジネス"
       ],
       "url": "https://news.yahoo.co.jp/articles/a0d808ef1017af27461c4b400ac5d0d3f4041e63?source=rss",
-      "isAiEnriched": false
+      "isAiEnriched": true
     },
     {
       "category": "business",
-      "title": "NY株、大幅反発して始まる(共同通信)",
+      "title": "ダイキン、三度目の正直で北米空調市場トップへ",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-23 23:59",
-      "publishedTs": 1795445975,
-      "image": "https://tse2.mm.bing.net/th?q=NY%E6%A0%AA%20%E5%A4%A7%E5%B9%85%E5%8F%8D%E7%99%BA%E3%81%97%E3%81%A6%E5%A7%8B%E3%81%BE%E3%82%8B&w=800&h=450&c=7&rs=1&p=0",
-      "summary": "【ニューヨーク共同】週明け23日のニューヨーク株式市場のダウ工業株30種平均は大幅に反発し、午前9時45分現在は前週末比1174.17ドル高の4万9321.50ドルを付けた。",
+      "publishedAt": "2026-11-24 05:00",
+      "publishedTs": 1795464038,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-00141318-wedge-000-1-view.jpg?exp=10800",
+      "summary": "過去の二度の失敗を乗り越え、北米空調市場での首位獲得を目指すダイキン工業の戦略に迫る。人口増加が進むヒューストンなどを拠点に攻勢。",
       "points": [
-        "【ニューヨーク共同】週明け23日のニューヨーク株式市場のダウ工業株30種平均は大幅に反発し",
-        "午前9時45分現在は前週末比1174.17ドル高の4万9321.50ドルを付けた",
-        "分野・出典: ビジネス・経済（Yahoo!ニュース / 2026-11-23 23:59）"
+        "過去の苦戦を教訓に北米市場でトップを狙うダイキン",
+        "全米4位の人口を抱えるヒューストンなどを重視",
+        "空調機器大手としての巻き返し戦略を展開"
       ],
-      "impact": "「NY株、大幅反発して始まる(共同通信)」を巡るビジネス・経済分野の注目動向として今後の展開が注目されます。",
+      "impact": "日本の製造業がグローバル市場、特に北米でシェアを拡大するための重要なケーススタディとなります。",
       "tags": [
-        "ビジネス・経済",
-        "Yahoo!ニュース"
+        "ビジネス",
+        "ダイキン",
+        "製造業"
       ],
-      "url": "https://news.yahoo.co.jp/articles/163d142b78636b6e992210de711d9c10b8cbf0da?source=rss",
-      "isAiEnriched": false
+      "url": "https://news.yahoo.co.jp/articles/4aa9f40417f2fb7d2d6e27ba7b8b5844f5c7dc63?source=rss",
+      "isAiEnriched": true
     },
     {
       "category": "entertainment",
-      "title": "Hearts2Hearts、日本初イベントのコンセプトは運動会　ジウ「たくさんの方が来てくださり驚き」ジューン「りりしい新しい姿見せたい」(中日スポーツ)",
+      "title": "THE RAMPAGE吉野北人が結婚を発表",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-24 04:00",
-      "publishedTs": 1795460453,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-00000002-chuspo-000-1-view.jpg?exp=10800",
-      "summary": "韓国の8人組ガールズグループ「Hearts2Hearts」が22、23日、東京・有明アリーナで、日本初のファンイベント「Hearts2Hearts JAPAN 1st Fan Event ”READ…",
+      "publishedAt": "2026-11-24 05:10",
+      "publishedTs": 1795464600,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-00000083-spnannex-000-2-view.jpg?exp=10800",
+      "summary": "「THE RAMPAGE」の吉野北人が一般女性との結婚を発表。グループ16人のメンバーの中で初となる既婚者誕生にファンから祝福の声が出ています。",
       "points": [
-        "韓国の8人組ガールズグループ「Hearts2Hearts」が22",
-        "東京・有明アリーナで",
-        "分野・出典: 芸能・エンタメ（Yahoo!ニュース / 2026-11-24 04:00）"
+        "かねて交際していた一般女性との結婚を公式サイトで発表",
+        "THE RAMPAGEのメンバー16人の中で初の既婚者に",
+        "お相手の雰囲気を「麻丘めぐみさんに似ている」と表現"
       ],
-      "impact": "「Hearts2Hearts、日本初イベントのコンセプトは」を巡る芸能・エンタメ分野の注目動向として今後の展開が注目されます。",
+      "impact": "人気ダンス＆ボーカルグループのメンバーによる初の結婚発表として、エンタメ界で大きな話題に。",
       "tags": [
-        "芸能・エンタメ",
-        "Yahoo!ニュース"
+        "芸能",
+        "結婚",
+        "音楽"
       ],
-      "url": "https://news.yahoo.co.jp/articles/edc704fb30bd10c42a998a2f84482a04243584dd?source=rss",
-      "isAiEnriched": false
+      "url": "https://news.yahoo.co.jp/articles/dd6393810472a4b2a395e1a2feee3028a2a01b8e?source=rss",
+      "isAiEnriched": true
     },
     {
       "category": "subculture",
@@ -2516,65 +2529,69 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "日欧の水星探査機が周回軌道投入に成功、米メッセンジャー以来史上2例目(ビジネス＋IT)",
+      "title": "日欧の水星探査機「ベピコロンボ」軌道投入成功",
       "source": "Yahoo!ニュース",
       "publishedAt": "2026-11-23 23:30",
       "publishedTs": 1795444206,
       "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261123-00188692-biz_plus-000-1-view.jpg?exp=10800",
-      "summary": "欧州宇宙機関ESAと宇宙航空研究開発機構JAXAが共同で進める水星探査計画ベピコロンボの探査機が、水星の周回軌道への投入に成功した。2018年10月の打ち上げから約8年、総航行距離約99億キロを経て…",
+      "summary": "ESAとJAXAが共同で進める水星探査計画「ベピコロンボ」の探査機が、歴史的快挙となる水星の周回軌道投入に成功したと発表されました。",
       "points": [
-        "欧州宇宙機関ESAと宇宙航空研究開発機構JAXAが共同で進める水星探査計画ベピコロンボの探査機が",
-        "水星の周回軌道への投入に成功した",
-        "分野・出典: テクノロジー・AI（Yahoo!ニュース / 2026-11-23 23:30）"
+        "ESAとJAXAによる共同水星探査計画が大きなマイルストーン",
+        "2018年の打ち上げから約8年、総航行距離99億kmを達成",
+        "米メッセンジャー以来となる史上2例目の周回軌道投入"
       ],
-      "impact": "「日欧の水星探査機が周回軌道投入に成功、米メッセンジャー以」を巡るテクノロジー・AI分野の注目動向として今後の展開が注目されます。",
+      "impact": "宇宙科学や惑星探査の分野において、日本のJAXAのプレゼンスを示す国際的な大成果となります。",
       "tags": [
-        "テクノロジー・AI",
-        "Yahoo!ニュース"
+        "宇宙",
+        "JAXA",
+        "科学"
       ],
       "url": "https://news.yahoo.co.jp/articles/ef568bfc70ea6ff2516851fb7e76a4635e211992?source=rss",
-      "isAiEnriched": false
+      "isAiEnriched": true
     },
     {
       "category": "business",
-      "title": "フアン氏がNVIDIAのCEOに復帰　取締役会が満場一致で決議(ITmedia ビジネスオンライン)",
+      "title": "郊外大型小売店の潮目と市街地への影響",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-23 23:55",
-      "publishedTs": 1795445744,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261123-00000021-zdn_mkt-000-1-view.jpg?exp=10800",
-      "summary": "米NVIDIAは11月23日、ジェンスン・フアン氏をCEOに復帰させたと発表した。【発表文を見る】NVIDIAのプレスリリース…",
+      "publishedAt": "2026-11-24 05:00",
+      "publishedTs": 1795464038,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-00141303-wedge-000-1-view.jpg?exp=10800",
+      "summary": "日本トイザらスの民事再生法申請を契機に、「車でまとめ買い」を前提とした郊外大型小売店のビジネスモデルが転換点を迎えていることを解説。",
       "points": [
-        "米NVIDIAは11月23日",
-        "ジェンスン・フアン氏をCEOに復帰させたと発表した",
-        "分野・出典: ビジネス・経済（Yahoo!ニュース / 2026-11-23 23:55）"
+        "日本トイザらスの民事再生法申請が象徴する小売りの変化",
+        "郊外型大型店の時代から市街地中心の回帰へ",
+        "ライフスタイルの変化に伴う地域の商業地の変容"
       ],
-      "impact": "「フアン氏がNVIDIAのCEOに復帰　取締役会が満場一致」を巡るビジネス・経済分野の注目動向として今後の展開が注目されます。",
+      "impact": "国内の流通・小売業界全体の戦略見直しや、都市計画・地域経済のあり方に大きな示唆を与えます。",
       "tags": [
-        "ビジネス・経済",
-        "Yahoo!ニュース"
+        "小売",
+        "ビジネス",
+        "経済"
       ],
-      "url": "https://news.yahoo.co.jp/articles/ea8726eaf97c0b53063d1e3e95b65d6c9bb20d3e?source=rss",
-      "isAiEnriched": false
+      "url": "https://news.yahoo.co.jp/articles/3547c6338e1633077bc2a243fde6b8feb1ec0e36?source=rss",
+      "isAiEnriched": true
     },
     {
       "category": "entertainment",
-      "title": "【ライブレポート】木村拓哉2年ぶりツアーが千葉でファイナル、移籍後初アルバム曲や「背中を押してくれた曲」で紡いだ現在の思い(音楽ナタリー)",
+      "title": "結婚発表の吉野北人の知られざる人柄と魅力",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-24 04:00",
-      "publishedTs": 1795460427,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-00000006-natalien-000-1-view.jpg?exp=10800",
-      "summary": "木村拓哉の2年ぶりのライブツアー「TAKUYA KIMURA Live Tour 2026 Checkpoint」のファイナル公演が昨日11月23日に千葉・LaLa arena TOKYO-BAYで…",
+      "publishedAt": "2026-11-24 05:09",
+      "publishedTs": 1795464540,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-00000084-spnannex-000-2-view.jpg?exp=10800",
+      "summary": "結婚を発表したTHE RAMPAGEの吉野北人について、甘いルックスの裏にあるおとこ気あふれる熱さと周囲への気配りといった素顔に迫ります。",
       "points": [
-        "木村拓哉の2年ぶりのライブツアー「TAKUYA KIMURA Live Tour 2026 Checkpoint…",
-        "分野・出典: 芸能・エンタメ（Yahoo!ニュース / 2026-11-24 04:00）"
+        "甘いマスクとは対照的なおとこ気あふれる硬派な性格",
+        "コロナ禍でのツアー中止時などに見せた細やかな気配り",
+        "グループ初の結婚を機にさらに高まるファンからの支持"
       ],
-      "impact": "「【ライブレポート】木村拓哉2年ぶりツアーが千葉でファイナ」を巡る芸能・エンタメ分野の注目動向として今後の展開が注目されます。",
+      "impact": "アーティストとしての魅力や人間性が改めてクローズアップされ、ファンの絆をより深める機会に。",
       "tags": [
-        "芸能・エンタメ",
-        "Yahoo!ニュース"
+        "芸能",
+        "吉野北人",
+        "アーティスト"
       ],
-      "url": "https://news.yahoo.co.jp/articles/3ef68ef70020ddbd1b0c6afd7a05346d8bb0f076?source=rss",
-      "isAiEnriched": false
+      "url": "https://news.yahoo.co.jp/articles/f8f1d93201380fe99ead20121482c7b443756d7c?source=rss",
+      "isAiEnriched": true
     },
     {
       "category": "subculture",
@@ -2641,44 +2658,44 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "「復帰の意図なし」から6日、エヌビディアがフアン氏をCEOに戻す　米政府高官にも聴取(ビジネス＋IT)",
+      "title": "【60代世帯の貯蓄の中身】株・投資信託などの有価証券が定期性預貯金を上回る。10年前は定期が約2.8倍【2026年5月公表の家計調査】(LIMO)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-23 23:55",
-      "publishedTs": 1795445706,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261123-00188690-biz_plus-000-1-view.jpg?exp=10800",
-      "summary": "エヌビディアは11月23日、辞任していたジェンスン・フアン氏を社長兼CEOと取締役に即時復帰させると発表した。取締役会は全会一致で決定し、米政府高官の意見も聴いたうえで、復帰は国家安全保障上のリスク…",
+      "publishedAt": "2026-11-24 05:00",
+      "publishedTs": 1795464034,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-90000843-toushin-000-1-view.jpg?exp=10800",
+      "summary": "60代の世帯の貯蓄は、10年前と比べて中身が大きく変わっています。総務省が2026年5月19日に公表した家計調査（貯蓄・負債編）によると、世帯主が60〜69歳の二人以上の世帯では、2025年の株式や…",
       "points": [
-        "エヌビディアは11月23日",
-        "辞任していたジェンスン・フアン氏を社長兼CEOと取締役に即時復帰させると発表した",
-        "分野・出典: ビジネス・経済（Yahoo!ニュース / 2026-11-23 23:55）"
+        "60代の世帯の貯蓄は",
+        "10年前と比べて中身が大きく変わっています",
+        "分野・出典: ビジネス・経済（Yahoo!ニュース / 2026-11-24 05:00）"
       ],
-      "impact": "「「復帰の意図なし」から6日、エヌビディアがフアン氏をCE」を巡るビジネス・経済分野の注目動向として今後の展開が注目されます。",
+      "impact": "「【60代世帯の貯蓄の中身】株・投資信託などの有価証券が定」を巡るビジネス・経済分野の注目動向として今後の展開が注目されます。",
       "tags": [
         "ビジネス・経済",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/b872949da08e22a91fd793655b545e298e04269a?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/6d394798413ac0018db8a0e7270100435dff9c0d?source=rss",
       "isAiEnriched": false
     },
     {
       "category": "entertainment",
-      "title": "M!LK「CHARGESPOT」新CMでモバイルバッテリーに変身！コンビニで充電ピンチの人を待つ「みんなー！ チャージしよー!!」(音楽ナタリー)",
+      "title": "「こんなジャージあるの？」28歳ピアニストグラドル、超ショート丈上着姿に衝撃走る「出し過ぎやん」「なんかごくせん感笑」(中日スポーツ)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-24 04:00",
-      "publishedTs": 1795460419,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-00000005-natalien-000-1-view.jpg?exp=10800",
-      "summary": "M!LKがモバイルバッテリーのシェアリングサービス「CHARGESPOT（チャージスポット）」の新CMキャラクターに就任。新テレビCM「M!LKのチャースポ」編が本日11月24日より放送される。【動…",
+      "publishedAt": "2026-11-24 05:05",
+      "publishedTs": 1795464353,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-00000007-chuspo-000-1-view.jpg?exp=10800",
+      "summary": "ピアニストでグラビアアイドルの音羽美奈（28）が23日、自身のインスタグラムを更新。丈の極めて短いジャージー姿を公開すると、フォロワーから驚きの声が上がった。【実際の投稿】「こんなジャージあるの？」",
       "points": [
-        "LKがモバイルバッテリーのシェアリングサービス「CHARGESPOT（チャージスポット）」の新CMキャラクターに…",
-        "LKのチャースポ」編が本日11月24日より放送される",
-        "分野・出典: 芸能・エンタメ（Yahoo!ニュース / 2026-11-24 04:00）"
+        "ピアニストでグラビアアイドルの音羽美奈（28）が23日",
+        "自身のインスタグラムを更新",
+        "分野・出典: 芸能・エンタメ（Yahoo!ニュース / 2026-11-24 05:05）"
       ],
-      "impact": "「M!LK「CHARGESPOT」新CMでモバイルバッテリ」を巡る芸能・エンタメ分野の注目動向として今後の展開が注目されます。",
+      "impact": "「「こんなジャージあるの？」28歳ピアニストグラドル、超シ」を巡る芸能・エンタメ分野の注目動向として今後の展開が注目されます。",
       "tags": [
         "芸能・エンタメ",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/d73e2b65c6cf68768fa3c2408f0bcabc46b4edf5?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/54882bc79e00f8c1831729072c4e4a47252992d9?source=rss",
       "isAiEnriched": false
     },
     {
@@ -2748,45 +2765,44 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "エヌビディア・フアンCEO「責任を謙虚に受け止める」",
+      "title": "スズキ「アルトエコ」がガソリン車トップ（HEV除く）の燃費30.2km/Lを達成し90万円～11年発表【今日は何の日？11月24日】(MotorFan)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-23 23:34",
-      "publishedTs": 1795444449,
-      "image": "https://tse2.mm.bing.net/th?q=%E8%B2%AC%E4%BB%BB%E3%82%92%E8%AC%99%E8%99%9A%E3%81%AB%E5%8F%97%E3%81%91%E6%AD%A2%E3%82%81%E3%82%8B%20%E3%81%A8%E3%83%95%E3%82%A2%E3%83%B3CEO&w=800&h=450&c=7&rs=1&p=0",
-      "summary": "エヌビディアの最高経営責任者（CEO）に復帰したジェンスン・フアン氏が声明を発表し、世界的重要企業を率いる決意を語りました。",
+      "publishedAt": "2026-11-24 05:00",
+      "publishedTs": 1795464000,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-01687200-motorfan-000-1-view.jpg?exp=10800",
+      "summary": "一年365日。毎日が何かの記念日である。本日11月24日は、スズキのハイブリッド車を除いたガソリン車トップの燃費30.2km/Lを達成した「アルトエコ」が発表された日だ。アルトエコは、7代目「アルト…",
       "points": [
-        "ジェンスン・フアン氏がCEO復帰後の心境を声明で発表",
-        "世界で最も重要な企業を率いることへの光栄を強調",
-        "責任を謙虚に受け止め決意を新たにすると表明"
+        "毎日が何かの記念日である",
+        "スズキのハイブリッド車を除いたガソリン車トップの燃費30.2km/Lを達成した「アルトエコ」が発表された日だ",
+        "分野・出典: ビジネス・経済（Yahoo!ニュース / 2026-11-24 05:00）"
       ],
-      "impact": "AIブームを牽引する同社の経営体制が安定することで、関連サプライチェーンや株式市場への安心感につながります。",
+      "impact": "「スズキ「アルトエコ」がガソリン車トップ（HEV除く）の燃」を巡るビジネス・経済分野の注目動向として今後の展開が注目されます。",
       "tags": [
-        "エヌビディア",
-        "ビジネス",
-        "人事"
+        "ビジネス・経済",
+        "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/f1a20b161224bedcad5643a7713ba22797d46a73?source=rss",
-      "isAiEnriched": true
+      "url": "https://news.yahoo.co.jp/articles/edab1d18b0abc976b26a90731428bc5978c1fe87?source=rss",
+      "isAiEnriched": false
     },
     {
       "category": "entertainment",
-      "title": "【イベントレポート】「ちいかわクリスマスマーケット」開催を祝い、ちいかわ、ハチワレ、うさぎが点灯式(コミックナタリー)",
+      "title": "【グラミー賞】＜年間最優秀レコード＞部門の全ノミネート曲がNo.1ヒットだった年を振り返る(Billboard JAPAN)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-24 04:00",
-      "publishedTs": 1795460412,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-00000004-nataliec-000-1-view.jpg?exp=10800",
-      "summary": "ナガノ「ちいかわ」の体験型イベント「ちいかわクリスマスマーケット」オープンを記念した点灯式が、去る11月23日に千葉県・豊砂公園で開催された。式にはちいかわ、ハチワレ、うさぎが登壇し、会場中央に立つ…",
+      "publishedAt": "2026-11-24 05:05",
+      "publishedTs": 1795464302,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-00167684-exp-000-1-view.jpg?exp=10800",
+      "summary": "2027年に開催される【第69回グラミー賞】＜年間最優秀レコード＞部門にノミネートされた8曲のうち6曲は、米ビルボード・ソング・チャート\"Hot 100\"でTOP10入りを果たした、あるいは現在TO…",
       "points": [
-        "ナガノ「ちいかわ」の体験型イベント「ちいかわクリスマスマーケット」オープンを記念した点灯式が",
-        "去る11月23日に千葉県・豊砂公園で開催された",
-        "分野・出典: 芸能・エンタメ（Yahoo!ニュース / 2026-11-24 04:00）"
+        "2027年に開催される【第69回グラミー賞】＜年間最優秀レコード＞部門にノミネートされた8曲のうち6曲は",
+        "米ビルボード・ソング・チャート\"Hot 100\"でTOP10入りを果たした",
+        "分野・出典: 芸能・エンタメ（Yahoo!ニュース / 2026-11-24 05:05）"
       ],
-      "impact": "「【イベントレポート】「ちいかわクリスマスマーケット」開催」を巡る芸能・エンタメ分野の注目動向として今後の展開が注目されます。",
+      "impact": "「【グラミー賞】＜年間最優秀レコード＞部門の全ノミネート曲」を巡る芸能・エンタメ分野の注目動向として今後の展開が注目されます。",
       "tags": [
         "芸能・エンタメ",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/a238b0fb002a3e673c27919052f89d1e9c3178bd?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/cf54e35860dfca334ed8665b9edeb6cbed65f40a?source=rss",
       "isAiEnriched": false
     },
     {
@@ -2855,45 +2871,44 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "トランプ氏「フアン氏の違法行為の証拠なし」",
+      "title": "【75歳以上の親に免許更新通知が来たら…】通知は満了日の6か月前までに　検査と講習の手数料は7650円（標準額）(LIMO)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-23 23:33",
-      "publishedTs": 1795444407,
-      "image": "https://tse2.mm.bing.net/th?q=%E9%81%95%E6%B3%95%E8%A1%8C%E7%82%BA%E3%81%AB%E9%96%A2%E4%B8%8E%E3%81%AE%E8%A8%BC%E6%8B%A0%E3%81%AA%E3%81%97%20%E3%81%A8%E3%83%88%E3%83%A9%E3%83%B3%E3%83%97%E6%B0%8F&w=800&h=450&c=7&rs=1&p=0",
-      "summary": "トランプ米大統領はSNS上で、エヌビディアのCEOに復帰したジェンスン・フアン氏について、違法行為に関与した証拠はないと投稿しました。",
+      "publishedAt": "2026-11-24 04:50",
+      "publishedTs": 1795463434,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-90000841-toushin-000-1-view.jpg?exp=10800",
+      "summary": "75歳以上の免許更新では、認知機能検査と高齢者講習を受けてからでないと、更新の手続きができません。親あてに届く「検査と講習のお知らせ」のはがきは、警視庁の案内では、遅くとも有効期間満了日の6か月前ま…",
       "points": [
-        "トランプ米大統領が自身のSNSでフアン氏に言及",
-        "米政府は同氏の違法行為への関与の証拠を持っていないと主張",
-        "政権によるフアン氏およびエヌビディアへの支持を強調"
+        "75歳以上の免許更新では",
+        "認知機能検査と高齢者講習を受けてからでないと",
+        "分野・出典: ビジネス・経済（Yahoo!ニュース / 2026-11-24 04:50）"
       ],
-      "impact": "政治的リスクへの懸念が払拭されることで、同社の事業展開や市場での評価にプラスに働く可能性があります。",
+      "impact": "「【75歳以上の親に免許更新通知が来たら…】通知は満了日の」を巡るビジネス・経済分野の注目動向として今後の展開が注目されます。",
       "tags": [
-        "アメリカ",
-        "政治",
-        "エヌビディア"
+        "ビジネス・経済",
+        "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/c8af41ccf69c35b605d0c6c6b9794b4f97fefc1c?source=rss",
-      "isAiEnriched": true
+      "url": "https://news.yahoo.co.jp/articles/2f49cf905a840f5b938fb612cd3e426776c89988?source=rss",
+      "isAiEnriched": false
     },
     {
       "category": "entertainment",
-      "title": "木村拓哉　２年ぶり全国ツアー完走で感極まる「感謝しています」　スーパースターに１万１０００人が大熱狂(スポーツ報知)",
+      "title": "山下智久、活動30周年記念のワールドツアーのパリ公演を開催　ソロ曲のほか「青春アミーゴ」「抱いてセニョリータ」など披露「夢が一つかないました」(中日スポーツ)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-24 04:00",
-      "publishedTs": 1795460408,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-11231355-sph-000-1-view.jpg?exp=10800",
-      "summary": "俳優で歌手の木村拓哉が２３日、千葉・ららアリーナ東京ベイで全国ツアー「ＴＡＫＵＹＡ ＫＩＭＵＲＡ Ｌｉｖｅ Ｔｏｕｒ ２０２６ Ｃｈｅｃｋｐｏｉｎｔ」（５都市９公演）最終日を迎えた。ＳＭＡＰの名曲を…",
+      "publishedAt": "2026-11-24 05:00",
+      "publishedTs": 1795464053,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-00000006-chuspo-000-1-view.jpg?exp=10800",
+      "summary": "俳優で歌手の山下智久(41)が22日（日本時間23日）、フランス・パリの「Casino de Paris」で活動30周年を記念したワールドツアー「TOMOHISA YAMASHITA TOUR 20…",
       "points": [
-        "俳優で歌手の木村拓哉が２３日",
-        "千葉・ららアリーナ東京ベイで全国ツアー「ＴＡＫＵＹＡ ＫＩＭＵＲＡ Ｌｉｖｅ Ｔｏｕｒ ２０２６ Ｃｈｅｃｋｐｏ…",
-        "分野・出典: 芸能・エンタメ（Yahoo!ニュース / 2026-11-24 04:00）"
+        "俳優で歌手の山下智久(41)が22日（日本時間23日）",
+        "フランス・パリの「Casino de Paris」で活動30周年を記念したワールドツアー「TOMOHISA YA…",
+        "分野・出典: 芸能・エンタメ（Yahoo!ニュース / 2026-11-24 05:00）"
       ],
-      "impact": "「木村拓哉　２年ぶり全国ツアー完走で感極まる「感謝していま」を巡る芸能・エンタメ分野の注目動向として今後の展開が注目されます。",
+      "impact": "「山下智久、活動30周年記念のワールドツアーのパリ公演を開」を巡る芸能・エンタメ分野の注目動向として今後の展開が注目されます。",
       "tags": [
         "芸能・エンタメ",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/e757988beb51d9ecf4956b6063143db7d7236804?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/b73c342123721ee10b1c7b16e15518ffa1cbdd3c?source=rss",
       "isAiEnriched": false
     },
     {
@@ -2962,45 +2977,44 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "トランプ氏、エヌビディアCEO復帰を改めて歓迎",
+      "title": "JR東海「新幹線ファースト」ホテル展開の真の狙い　「エリア外には作らない」外資と組み京都や高山に(東洋経済オンライン)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-23 23:29",
-      "publishedTs": 1795444160,
-      "image": "https://tse2.mm.bing.net/th?q=%E3%83%88%E3%83%A9%E3%83%B3%E3%83%97%E6%B0%8F%20%E3%83%95%E3%82%A2%E3%83%B3%E6%B0%8F%E3%81%AECEO%E5%BE%A9%E5%B8%B0%E6%AD%93%E8%BF%8E&w=800&h=450&c=7&rs=1&p=0",
-      "summary": "トランプ米大統領は、エヌビディアのジェンスン・フアン氏のCEO復帰について、米国の経済成功に不可欠な統率力だとSNSで称賛しました。",
+      "publishedAt": "2026-11-24 04:30",
+      "publishedTs": 1795462238,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-00965446-toyo-000-1-view.jpg?exp=10800",
+      "summary": "ホテル上層階の駅に面した角部屋の窓からJR京都駅のホームの先端部が見える。東海道新幹線の列車が数分おきにホームからゆっくりと出発したり、ホームに滑り込むように到着したりといった様子を間近で独り占めで…",
       "points": [
-        "トランプ米大統領がSNSでフアン氏の復帰を歓迎",
-        "フアン氏の強力な統率力が米経済の成功に必要と主張",
-        "国家経済とハイテク企業の結びつきの強さを示す"
+        "ホテル上層階の駅に面した角部屋の窓からJR京都駅のホームの先端部が見える",
+        "東海道新幹線の列車が数分おきにホームからゆっくりと出発したり",
+        "分野・出典: ビジネス・経済（Yahoo!ニュース / 2026-11-24 04:30）"
       ],
-      "impact": "米政府トップによるハイテク企業への積極的な言及は、産業政策や市場のセンチメントに影響を与えます。",
+      "impact": "「JR東海「新幹線ファースト」ホテル展開の真の狙い　「エリ」を巡るビジネス・経済分野の注目動向として今後の展開が注目されます。",
       "tags": [
-        "トランプ",
-        "経済",
-        "エヌビディア"
+        "ビジネス・経済",
+        "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/4741cd4842087a379d183d25f69b4f45d2241b4c?source=rss",
-      "isAiEnriched": true
+      "url": "https://news.yahoo.co.jp/articles/a8818f15b4dcbbd41cbfc4d40520c21868f74f8a?source=rss",
+      "isAiEnriched": false
     },
     {
       "category": "entertainment",
-      "title": "宮﨑優「つらい経験も人生の糧になる」　２７日公開映画「君の話」出演　北村匠海＆出口夏希との共演は「ワクワクしました」(スポーツ報知)",
+      "title": "木村文乃「『カフネ』という物語に出会えてとても幸せ」本屋大賞受賞作が原作の日テレ系土曜ドラマ「カフネ」に主演　共演は松岡茉優(中日スポーツ)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-24 04:00",
-      "publishedTs": 1795460407,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-11231346-sph-000-1-view.jpg?exp=10800",
-      "summary": "女優の宮﨑優（２６）がこのほど、２７日公開の映画「君の話」（北村匠海主演、中川龍太郎監督）の単独インタビューに応じた。宮﨑優、１０００人オーディション勝ち抜き「女優人生が変わった」 不幸な過去を忘れ…",
+      "publishedAt": "2026-11-24 05:00",
+      "publishedTs": 1795464053,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-00000005-chuspo-000-1-view.jpg?exp=10800",
+      "summary": "日本テレビ系の1月期土曜ドラマが「カフネ」（土曜午後9時）に決まり、女優の木村文乃（39）が主演を務めることが23日、分かった。2025年本屋大賞を受賞し、累計68万部を突破した阿部暁子さんの同名小…",
       "points": [
-        "女優の宮﨑優（２６）がこのほど",
-        "２７日公開の映画「君の話」（北村匠海主演",
-        "分野・出典: 芸能・エンタメ（Yahoo!ニュース / 2026-11-24 04:00）"
+        "日本テレビ系の1月期土曜ドラマが「カフネ」（土曜午後9時）に決まり",
+        "女優の木村文乃（39）が主演を務めることが23日",
+        "分野・出典: 芸能・エンタメ（Yahoo!ニュース / 2026-11-24 05:00）"
       ],
-      "impact": "「宮﨑優「つらい経験も人生の糧になる」　２７日公開映画「君」を巡る芸能・エンタメ分野の注目動向として今後の展開が注目されます。",
+      "impact": "「木村文乃「『カフネ』という物語に出会えてとても幸せ」本屋」を巡る芸能・エンタメ分野の注目動向として今後の展開が注目されます。",
       "tags": [
         "芸能・エンタメ",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/28b129b71d496ec05840267bb910bbe441970e73?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/914e554a4ccc714777c8f2dafe01fcc9ec33f4e0?source=rss",
       "isAiEnriched": false
     },
     {
@@ -3069,44 +3083,44 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "フアン氏、CEOに復帰　米半導体エヌビディア(共同通信)",
+      "title": "「課長の月給」は平均いくら？一般労働者の平均は「月52万9200円」いちばん人数が多いのは月45万〜50万円未満「上位4分の1」はいくら(LIMO)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-23 23:15",
-      "publishedTs": 1795443346,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261123-00000101-kyodonews-000-4-view.jpg?pri=l&w=452&h=640&exp=10800",
-      "summary": "【ニューヨーク共同】米半導体大手エヌビディアは23日、中国のスパイとされる女性や部下との不倫問題で最高経営責任者（CEO）を辞任したジェンスン・フアン氏をCEOに復帰させたと発表した。取締役会はフア…",
+      "publishedAt": "2026-11-24 04:20",
+      "publishedTs": 1795461633,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-90000839-toushin-000-1-view.jpg?exp=10800",
+      "summary": "課長に昇進すると、毎月の給料はどのくらいになるのでしょうか。周りの課長と比べて自分の給料が高いのか低いのか、平均の金額だけでは見えにくいものです。◆【画像】課長級の所定内給与額の金額帯ごとの人数と、…",
       "points": [
-        "【ニューヨーク共同】米半導体大手エヌビディアは23日",
-        "中国のスパイとされる女性や部下との不倫問題で最高経営責任者（CEO）を辞任したジェンスン・フアン氏をCEOに復帰…",
-        "分野・出典: ビジネス・経済（Yahoo!ニュース / 2026-11-23 23:15）"
+        "毎月の給料はどのくらいになるのでしょうか",
+        "周りの課長と比べて自分の給料が高いのか低いのか",
+        "分野・出典: ビジネス・経済（Yahoo!ニュース / 2026-11-24 04:20）"
       ],
-      "impact": "「フアン氏、CEOに復帰　米半導体エヌビディア(共同通信)」を巡るビジネス・経済分野の注目動向として今後の展開が注目されます。",
+      "impact": "「「課長の月給」は平均いくら？一般労働者の平均は「月52万」を巡るビジネス・経済分野の注目動向として今後の展開が注目されます。",
       "tags": [
         "ビジネス・経済",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/a8e8b72d81500b192f27d702ecfdacc03c55cefb?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/5095c83be6226f2d1332e3eacd8e8c56fac9df23?source=rss",
       "isAiEnriched": false
     },
     {
       "category": "entertainment",
-      "title": "M!LK「CHARGESPOT」新CMキャラクター就任 5人がバッテリーに扮する 充電が切れたときの“チャージ方法”も明らかに(モデルプレス)",
+      "title": "モナキ　2027年1月リリースの新曲「愛と言う名のGloryDay」完成(東スポWEB)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-24 04:00",
-      "publishedTs": 1795460404,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-04881900-mdpr-000-1-view.jpg?exp=10800",
-      "summary": "【モデルプレス＝2026/11/24】5人組ダンスボーカルグループ・M!LKが、モバイルバッテリーのシェアリングサービス「CHARGESPOT（チャージスポット）」の新CMキャラクターに就任。新TV…",
+      "publishedAt": "2026-11-24 05:00",
+      "publishedTs": 1795464033,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-00410840-tospoweb-000-1-view.jpg?exp=10800",
+      "summary": "「第77回NHK紅白歌合戦」への出場を決めた純烈の弟分グループ・モナキが2027年1月13日にシングル「愛と言う名のGloryDay」をリリースすると発表した。【動画】〝純烈・弟分〟モナキ デビュー…",
       "points": [
-        "【モデルプレス＝2026/11/24】5人組ダンスボーカルグループ・M",
-        "モバイルバッテリーのシェアリングサービス「CHARGESPOT（チャージスポット）」の新CMキャラクターに就任",
-        "分野・出典: 芸能・エンタメ（Yahoo!ニュース / 2026-11-24 04:00）"
+        "「第77回NHK紅白歌合戦」への出場を決めた純烈の弟分グループ・モナキが2027年1月13日にシングル「愛と言う…",
+        "【動画】〝純烈・弟分〟モナキ デビュー",
+        "分野・出典: 芸能・エンタメ（Yahoo!ニュース / 2026-11-24 05:00）"
       ],
-      "impact": "「M!LK「CHARGESPOT」新CMキャラクター就任 」を巡る芸能・エンタメ分野の注目動向として今後の展開が注目されます。",
+      "impact": "「モナキ　2027年1月リリースの新曲「愛と言う名のGlo」を巡る芸能・エンタメ分野の注目動向として今後の展開が注目されます。",
       "tags": [
         "芸能・エンタメ",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/ac177c84a419f64bf148b48b90d9b6ecfab8ee2a?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/4ea153d1d3e9de5d1dc739e5ad71dc0c2b462126?source=rss",
       "isAiEnriched": false
     },
     {
@@ -3176,44 +3190,43 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "フアン氏がエヌビディアCEOに復帰(共同通信)",
+      "title": "為替相場　　24日（日本時間　5時）(共同通信)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-23 23:12",
-      "publishedTs": 1795443138,
-      "image": "https://tse2.mm.bing.net/th?q=%E3%83%95%E3%82%A2%E3%83%B3%E6%B0%8F%E3%81%8C%E3%82%A8%E3%83%8C%E3%83%93%E3%83%87%E3%82%A3%E3%82%A2CEO%E3%81%AB%E5%BE%A9%E5%B8%B0&w=800&h=450&c=7&rs=1&p=0",
-      "summary": "【ニューヨーク共同】米半導体大手エヌビディアは23日、中国のスパイとされる女性や部下との不倫問題で最高経営責任者（CEO）を辞任したジェンスン・フアン氏をCEOに復帰させたと発表した。",
+      "publishedAt": "2026-11-24 03:00",
+      "publishedTs": 1795456834,
+      "image": "https://tse2.mm.bing.net/th?q=%E7%82%BA%E6%9B%BF%E7%9B%B8%E5%A0%B4%2024%E6%97%A5&w=800&h=450&c=7&rs=1&p=0",
+      "summary": "3時現在 1ドル＝ 159円27銭～ 159円28銭 前日比 －0円08銭 1ユーロ＝ 173円36銭～ 173円38銭 前日比 ＋1円49銭…",
       "points": [
-        "【ニューヨーク共同】米半導体大手エヌビディアは23日",
-        "中国のスパイとされる女性や部下との不倫問題で最高経営責任者（CEO）を辞任したジェンスン・フアン氏をCEOに復帰…",
-        "分野・出典: ビジネス・経済（Yahoo!ニュース / 2026-11-23 23:12）"
+        "3時現在 1ドル＝ 159円27銭～ 159円28銭 前日比 －0円08銭 1ユーロ＝ 173円36銭～ 173…",
+        "分野・出典: ビジネス・経済（Yahoo!ニュース / 2026-11-24 03:00）"
       ],
-      "impact": "「フアン氏がエヌビディアCEOに復帰(共同通信)」を巡るビジネス・経済分野の注目動向として今後の展開が注目されます。",
+      "impact": "「為替相場　　24日（日本時間　5時）(共同通信)」を巡るビジネス・経済分野の注目動向として今後の展開が注目されます。",
       "tags": [
         "ビジネス・経済",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/012164b91104c48db1d3cef440d201bad594ffda?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/3a642640d8b8218e4179dce7ad953d9da8f13d38?source=rss",
       "isAiEnriched": false
     },
     {
       "category": "entertainment",
-      "title": "Ｈｅａｒｔｓ２Ｈｅａｒｔｓ　日本初のファンイベント開催「お会いできて光栄」「素敵なステージに」　２日間で計３万人を魅了(スポーツ報知)",
+      "title": "木村文乃が２０２７年日テレ１月ドラマに主演　松岡茉優とコンビ(東スポWEB)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-24 04:00",
-      "publishedTs": 1795460403,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-11231253-sph-000-1-view.jpg?exp=10800",
-      "summary": "韓国の女性８人組グループ「Ｈｅａｒｔｓ２Ｈｅａｒｔｓ（ハーツトゥハーツ）」が２３日、東京・有明アリーナで日本初のファンイベント「Ｈｅａｒｔｓ２Ｈｅａｒｔｓ ＪＡＰＡＮ １ｓｔ Ｆａｎ Ｅｖｅｎｔ“Ｒ…",
+      "publishedAt": "2026-11-24 05:00",
+      "publishedTs": 1795464033,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-00410652-tospoweb-000-1-view.jpg?exp=10800",
+      "summary": "女優の木村文乃（39）が2027年1月期の日本テレビ系土曜ドラマ「カフネ」で主演を務めることが24日、発表された。 同作は累計68万部を突破し、2025年本屋大賞を受賞した阿部暁子の小説「カフネ」（…",
       "points": [
-        "韓国の女性８人組グループ「Ｈｅａｒｔｓ２Ｈｅａｒｔｓ（ハーツトゥハーツ）」が２３日",
-        "東京・有明アリーナで日本初のファンイベント「Ｈｅａｒｔｓ２Ｈｅａｒｔｓ ＪＡＰＡＮ １ｓｔ Ｆａｎ Ｅｖｅｎｔ“…",
-        "分野・出典: 芸能・エンタメ（Yahoo!ニュース / 2026-11-24 04:00）"
+        "女優の木村文乃（39）が2027年1月期の日本テレビ系土曜ドラマ「カフネ」で主演を務めることが24日",
+        "同作は累計68万部を突破し",
+        "分野・出典: 芸能・エンタメ（Yahoo!ニュース / 2026-11-24 05:00）"
       ],
-      "impact": "「Ｈｅａｒｔｓ２Ｈｅａｒｔｓ　日本初のファンイベント開催「」を巡る芸能・エンタメ分野の注目動向として今後の展開が注目されます。",
+      "impact": "「木村文乃が２０２７年日テレ１月ドラマに主演　松岡茉優とコ」を巡る芸能・エンタメ分野の注目動向として今後の展開が注目されます。",
       "tags": [
         "芸能・エンタメ",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/8aeab9bf5901a96929b65cf695205b710fdd7b8c?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/60439c1de12fb428d8534666afcd09b9acafa896?source=rss",
       "isAiEnriched": false
     },
     {
@@ -3282,44 +3295,44 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "NY円、159円近辺(共同通信)",
+      "title": "自身の介入が重要だったとトランプ氏(共同通信)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-23 23:07",
-      "publishedTs": 1795442869,
-      "image": "https://tse2.mm.bing.net/th?q=NY%E5%86%86%20159%E5%86%86%E8%BF%91%E8%BE%BA&w=800&h=450&c=7&rs=1&p=0",
-      "summary": "【ニューヨーク共同】週明け23日のニューヨーク外国為替市場の円相場は午前8時40分現在、前週末比58銭円安ドル高の1ドル＝158円96銭～159円06銭を付けた。 前週に大幅下落した米国株に値ごろ感…",
+      "publishedAt": "2026-11-24 00:58",
+      "publishedTs": 1795449518,
+      "image": "https://tse2.mm.bing.net/th?q=%E8%87%AA%E8%BA%AB%E3%81%AE%E4%BB%8B%E5%85%A5%E3%81%8C%E9%87%8D%E8%A6%81%E3%81%A0%E3%81%A3%E3%81%9F%E3%81%A8%E3%83%88%E3%83%A9%E3%83%B3%E3%83%97%E6%B0%8F&w=800&h=450&c=7&rs=1&p=0",
+      "summary": "【ワシントン共同】トランプ米大統領は23日、米CNBCテレビで、エヌビディア最高経営責任者（CEO）へのフアン氏の復帰に関し「私の介入がとても重要だった」と述べ、復帰の決定に関与したことを示唆した。",
       "points": [
-        "【ニューヨーク共同】週明け23日のニューヨーク外国為替市場の円相場は午前8時40分現在",
-        "前週末比58銭円安ドル高の1ドル＝158円96銭～159円06銭を付けた",
-        "分野・出典: ビジネス・経済（Yahoo!ニュース / 2026-11-23 23:07）"
+        "【ワシントン共同】トランプ米大統領は23日",
+        "エヌビディア最高経営責任者（CEO）へのフアン氏の復帰に関し「私の介入がとても重要だった」と述べ",
+        "分野・出典: ビジネス・経済（Yahoo!ニュース / 2026-11-24 00:58）"
       ],
-      "impact": "「NY円、159円近辺(共同通信)」を巡るビジネス・経済分野の注目動向として今後の展開が注目されます。",
+      "impact": "「自身の介入が重要だったとトランプ氏(共同通信)」を巡るビジネス・経済分野の注目動向として今後の展開が注目されます。",
       "tags": [
         "ビジネス・経済",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/02a1baf8a9f75337c89fab8e18145565dbdff7a6?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/624436475b1e79a4406544cb0325dcc96987aada?source=rss",
       "isAiEnriched": false
     },
     {
       "category": "entertainment",
-      "title": "木村拓哉が５都市９公演ツアーを完走　「国内が少なかった」とさみしげもリベンジに意欲(日刊スポーツ)",
+      "title": "「黄金バッテリー」田淵幸一氏が江夏豊さんしのぶ「悲しいし、悔しい！」(スポーツ報知)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-24 04:00",
-      "publishedTs": 1795460402,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-41232145-nksports-000-1-view.jpg?exp=10800",
-      "summary": "木村拓哉（54）が23日、千葉・ららアリーナ東京ベイでライブツアー「Checkpoint」のファイナル公演を行った。幼少期を過ごした千葉の3公演で3万3000人を動員した。【写真】ギター演奏する木村…",
+      "publishedAt": "2026-11-24 05:00",
+      "publishedTs": 1795464022,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-11241001-sph-000-1-view.jpg?exp=10800",
+      "summary": "「ホームランアーチスト」と呼ばれた元阪神の田淵幸一氏が２２日、文化放送「生島ヒロシの日曜９時ですよ〜」（日曜・前９時）にゲスト出演し、１７日に亡くなった江夏豊さん（享年７８）をしのんだ。 シーズン４…",
       "points": [
-        "木村拓哉（54）が23日",
-        "千葉・ららアリーナ東京ベイでライブツアー「Checkpoint」のファイナル公演を行った",
-        "分野・出典: 芸能・エンタメ（Yahoo!ニュース / 2026-11-24 04:00）"
+        "「ホームランアーチスト」と呼ばれた元阪神の田淵幸一氏が２２日",
+        "文化放送「生島ヒロシの日曜９時ですよ〜」（日曜・前９時）にゲスト出演し",
+        "分野・出典: 芸能・エンタメ（Yahoo!ニュース / 2026-11-24 05:00）"
       ],
-      "impact": "「木村拓哉が５都市９公演ツアーを完走　「国内が少なかった」」を巡る芸能・エンタメ分野の注目動向として今後の展開が注目されます。",
+      "impact": "「「黄金バッテリー」田淵幸一氏が江夏豊さんしのぶ「悲しいし」を巡る芸能・エンタメ分野の注目動向として今後の展開が注目されます。",
       "tags": [
         "芸能・エンタメ",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/d283a145cab2c1fa7bc70e44984307891d76457c?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/6e3680dd7733e22d7f6ea5f2e4f25a3da50c7a0a?source=rss",
       "isAiEnriched": false
     },
     {
@@ -3387,44 +3400,44 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "Netflixが全3プランを値上げ、広告つきは月890円から990円に。スタンダードとプレミアムは1年でいくら上がる？(LIMO)",
+      "title": "NY株反発、1267ドル高　値ごろ感、フアン氏復帰で(共同通信)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-23 23:05",
-      "publishedTs": 1795442733,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261123-90000837-toushin-000-1-view.jpg?exp=10800",
-      "summary": "2026年11月16日時点で、Netflixのヘルプセンター「プランと料金」には、広告つきスタンダードが月額990円、スタンダードが月額1790円、プレミアムが月額2590円と載っています。日本向け…",
+      "publishedAt": "2026-11-24 00:24",
+      "publishedTs": 1795447445,
+      "image": "https://tse2.mm.bing.net/th?q=NY%E6%A0%AA%E5%8F%8D%E7%99%BA%201267%E3%83%89%E3%83%AB%E9%AB%98%20%E5%80%A4%E3%81%94%E3%82%8D%E6%84%9F%20%E3%83%95%E3%82%A2%E3%83%B3%E6%B0%8F%E5%BE%A9%E5%B8%B0%E3%81%A7&w=800&h=450&c=7&rs=1&p=0",
+      "summary": "【ニューヨーク共同】週明け23日のニューヨーク株式市場のダウ工業株30種平均は大幅に反発し、午前10時現在は前週末比1267.89ドル高の4万9415.22ドルを付けた。 前週に大幅下落した米国株に…",
       "points": [
-        "2026年11月16日時点で",
-        "Netflixのヘルプセンター「プランと料金」には",
-        "分野・出典: ビジネス・経済（Yahoo!ニュース / 2026-11-23 23:05）"
+        "【ニューヨーク共同】週明け23日のニューヨーク株式市場のダウ工業株30種平均は大幅に反発し",
+        "午前10時現在は前週末比1267.89ドル高の4万9415.22ドルを付けた",
+        "分野・出典: ビジネス・経済（Yahoo!ニュース / 2026-11-24 00:24）"
       ],
-      "impact": "「Netflixが全3プランを値上げ、広告つきは月890円」を巡るビジネス・経済分野の注目動向として今後の展開が注目されます。",
+      "impact": "「NY株反発、1267ドル高　値ごろ感、フアン氏復帰で(共」を巡るビジネス・経済分野の注目動向として今後の展開が注目されます。",
       "tags": [
         "ビジネス・経済",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/ae9010f918e037d7f4a9903eea0f49e4efa7d453?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/4c3819fd062c65116eec6b7f3c012afd5168fd12?source=rss",
       "isAiEnriched": false
     },
     {
       "category": "entertainment",
-      "title": "木村拓哉２年ぶりライブツアー最後に熱唱した曲は…オープニングはヒョウ柄シャツ白スーツで登場(日刊スポーツ)",
+      "title": "木村文乃×松岡茉優「食」通じた再生物語　来年１月期の日本テレビ系「カフネ」で共演　昨年の本屋大賞受賞作「そんな面倒くさい薫子さんが好き」(スポーツ報知)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-24 04:00",
-      "publishedTs": 1795460402,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-41232153-nksports-000-2-view.jpg?exp=10800",
-      "summary": "木村拓哉（54）が23日、千葉・ららアリーナ東京ベイで、2年ぶりのライブツアー「Checkpoint」ファイナル公演を行った。幼少期を過ごした千葉の3公演で3万3000人を動員。ソウル、台北の海外フ…",
+      "publishedAt": "2026-11-24 05:00",
+      "publishedTs": 1795464018,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-11231347-sph-000-1-view.jpg?exp=10800",
+      "summary": "女優の木村文乃（３９）が、来年１月期の日本テレビ系連続ドラマ「カフネ」（土曜・後９時）で主演を務めることが２３日、分かった。木村は同局系連ドラ初主演で、女優の松岡茉優（３１）が共演する。【写真】第２…",
       "points": [
-        "木村拓哉（54）が23日",
-        "千葉・ららアリーナ東京ベイで",
-        "分野・出典: 芸能・エンタメ（Yahoo!ニュース / 2026-11-24 04:00）"
+        "女優の木村文乃（３９）が",
+        "来年１月期の日本テレビ系連続ドラマ「カフネ」（土曜・後９時）で主演を務めることが２３日",
+        "分野・出典: 芸能・エンタメ（Yahoo!ニュース / 2026-11-24 05:00）"
       ],
-      "impact": "「木村拓哉２年ぶりライブツアー最後に熱唱した曲は…オープニ」を巡る芸能・エンタメ分野の注目動向として今後の展開が注目されます。",
+      "impact": "「木村文乃×松岡茉優「食」通じた再生物語　来年１月期の日本」を巡る芸能・エンタメ分野の注目動向として今後の展開が注目されます。",
       "tags": [
         "芸能・エンタメ",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/2fecf3db2625e61322e7ab03396a7c94f328b601?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/0869f5df186544c9e5c66332eb1eb345c01c17d3?source=rss",
       "isAiEnriched": false
     },
     {
@@ -3493,44 +3506,44 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "ミタチ産業(3321)、3期連続の「増配」を発表して、配当利回り6.0％に！ 年間配当額は3年で2倍に増加、2027年5月期は前期比10円増の｢1株あたり90円｣に！(ダイヤモンド・ザイ)",
+      "title": "「誤りは正された」とマスク氏(共同通信)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-23 23:05",
-      "publishedTs": 1795442726,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261123-02075952-dzai-000-1-view.jpg?exp=10800",
-      "summary": "ミタチ産業は、2027年5月期の配当予想を修正し、前期比および前回予想比で「増配」とする予想を、2026年11月20日の15時30分に発表した。これにより、ミタチ産業の配当利回り(予想)は4.73％…",
+      "publishedAt": "2026-11-24 00:03",
+      "publishedTs": 1795446187,
+      "image": "https://tse2.mm.bing.net/th?q=%E8%AA%A4%E3%82%8A%E3%81%AF%E6%AD%A3%E3%81%95%E3%82%8C%E3%81%9F%20%E3%81%A8%E3%83%9E%E3%82%B9%E3%82%AF%E6%B0%8F&w=800&h=450&c=7&rs=1&p=0",
+      "summary": "【ワシントン共同】米実業家イーロン・マスク氏は23日、米半導体大手エヌビディア最高経営責任者（CEO）へのフアン氏復帰について「誤りは正された」とX（旧ツイッター）に投稿した。",
       "points": [
-        "2027年5月期の配当予想を修正し",
-        "前期比および前回予想比で「増配」とする予想を",
-        "分野・出典: ビジネス・経済（Yahoo!ニュース / 2026-11-23 23:05）"
+        "【ワシントン共同】米実業家イーロン・マスク氏は23日",
+        "米半導体大手エヌビディア最高経営責任者（CEO）へのフアン氏復帰について「誤りは正された」とX（旧ツイッター）に…",
+        "分野・出典: ビジネス・経済（Yahoo!ニュース / 2026-11-24 00:03）"
       ],
-      "impact": "「ミタチ産業(3321)、3期連続の「増配」を発表して、配」を巡るビジネス・経済分野の注目動向として今後の展開が注目されます。",
+      "impact": "「「誤りは正された」とマスク氏(共同通信)」を巡るビジネス・経済分野の注目動向として今後の展開が注目されます。",
       "tags": [
         "ビジネス・経済",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/1eb7831adc59a4b2e2b3a3fdb3416e8945cd9ab2?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/bf9b25ff255526fecaa3e102ff54f1746c47c7f6?source=rss",
       "isAiEnriched": false
     },
     {
       "category": "entertainment",
-      "title": "木村拓哉「本人も非常に反省していた」ライブツアー22日にお笑い界の「怪獣」登場でMC40分(日刊スポーツ)",
+      "title": "紅白初出場のモナキ、来年１月に新曲発売決定　デビュー曲と同じ作詞・酒井一圭×作曲・岩崎貴文氏のコンビ(スポーツ報知)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-24 04:00",
-      "publishedTs": 1795460401,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-41232137-nksports-000-1-view.jpg?exp=10800",
-      "summary": "木村拓哉（54）が23日、千葉・ららアリーナ東京ベイで、2年ぶりのライブツアー「Checkpoint」ファイナル公演を行った。幼少期を過ごした千葉の3公演で3万3000人を動員。ソウル、台北の海外フ…",
+      "publishedAt": "2026-11-24 05:00",
+      "publishedTs": 1795464017,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-11231345-sph-000-1-view.jpg?exp=10800",
+      "summary": "「純烈」の酒井一圭（５１）がプロデュースする４人組歌謡グループ「モナキ」が来年１月１３日に新曲「愛と言う名のＧｌｏｒｙＤａｙ」をリリースすることが２２日、分かった。 作詞は酒井、作曲は岩崎貴文氏が手…",
       "points": [
-        "木村拓哉（54）が23日",
-        "千葉・ららアリーナ東京ベイで",
-        "分野・出典: 芸能・エンタメ（Yahoo!ニュース / 2026-11-24 04:00）"
+        "「純烈」の酒井一圭（５１）がプロデュースする４人組歌謡グループ「モナキ」が来年１月１３日に新曲「愛と言う名のＧｌ…",
+        "作曲は岩崎貴文氏が手",
+        "分野・出典: 芸能・エンタメ（Yahoo!ニュース / 2026-11-24 05:00）"
       ],
-      "impact": "「木村拓哉「本人も非常に反省していた」ライブツアー22日に」を巡る芸能・エンタメ分野の注目動向として今後の展開が注目されます。",
+      "impact": "「紅白初出場のモナキ、来年１月に新曲発売決定　デビュー曲と」を巡る芸能・エンタメ分野の注目動向として今後の展開が注目されます。",
       "tags": [
         "芸能・エンタメ",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/021f7c8a06e41aa16d0e943bc32bfb2ce7c6ff89?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/1127d48f3b11c67f6e44b227f45cb5f83cd0608d?source=rss",
       "isAiEnriched": false
     },
     {
@@ -3599,67 +3612,66 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "NY円、158円96銭～159円06銭(共同通信)",
+      "title": "NY株、大幅反発して始まる(共同通信)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-23 22:55",
-      "publishedTs": 1795442126,
-      "image": "https://tse2.mm.bing.net/th?q=NY%E5%86%86%20158%E5%86%8696%E9%8A%AD%EF%BD%9E159%E5%86%8606%E9%8A%AD&w=800&h=450&c=7&rs=1&p=0",
-      "summary": "【ニューヨーク共同】週明け23日のニューヨーク外国為替市場の円相場は午前8時40分現在、前週末比58銭円安ドル高の1ドル＝158円96銭～159円06銭を付けた。",
+      "publishedAt": "2026-11-23 23:59",
+      "publishedTs": 1795445975,
+      "image": "https://tse2.mm.bing.net/th?q=NY%E6%A0%AA%20%E5%A4%A7%E5%B9%85%E5%8F%8D%E7%99%BA%E3%81%97%E3%81%A6%E5%A7%8B%E3%81%BE%E3%82%8B&w=800&h=450&c=7&rs=1&p=0",
+      "summary": "【ニューヨーク共同】週明け23日のニューヨーク株式市場のダウ工業株30種平均は大幅に反発し、午前9時45分現在は前週末比1174.17ドル高の4万9321.50ドルを付けた。",
       "points": [
-        "【ニューヨーク共同】週明け23日のニューヨーク外国為替市場の円相場は午前8時40分現在",
-        "前週末比58銭円安ドル高の1ドル＝158円96銭～159円06銭を付けた",
-        "分野・出典: ビジネス・経済（Yahoo!ニュース / 2026-11-23 22:55）"
+        "【ニューヨーク共同】週明け23日のニューヨーク株式市場のダウ工業株30種平均は大幅に反発し",
+        "午前9時45分現在は前週末比1174.17ドル高の4万9321.50ドルを付けた",
+        "分野・出典: ビジネス・経済（Yahoo!ニュース / 2026-11-23 23:59）"
       ],
-      "impact": "「NY円、158円96銭～159円06銭(共同通信)」を巡るビジネス・経済分野の注目動向として今後の展開が注目されます。",
+      "impact": "「NY株、大幅反発して始まる(共同通信)」を巡るビジネス・経済分野の注目動向として今後の展開が注目されます。",
       "tags": [
         "ビジネス・経済",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/5f8d050d3fd02ac8d6d4ae0face4be7f15e93961?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/163d142b78636b6e992210de711d9c10b8cbf0da?source=rss",
       "isAiEnriched": false
     },
     {
       "category": "entertainment",
-      "title": "Hearts2Hearts、運動会テーマにファンイベント「かわいい姿見て」韓国で新人賞９冠(日刊スポーツ)",
+      "title": "木村文乃と松岡茉優が共演、本屋大賞受賞作「カフネ」ドラマ化　2027年1月期に放送(映画ナタリー)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-24 04:00",
-      "publishedTs": 1795460401,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-41231838-nksports-000-2-view.jpg?exp=10800",
-      "summary": "8人組K－POPガールズグループ、Hearts2Hearts（ハーツトゥハーツ＝H2H）が、東京・有明アリーナで初のファンイベントを行い、22日、23日の両日で約3万人のファンを動員した。【写真】フ…",
+      "publishedAt": "2026-11-24 05:00",
+      "publishedTs": 1795464013,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-00000007-nataliee-000-1-view.jpg?exp=10800",
+      "summary": "累計68万部を突破し、2025年本屋大賞を受賞した阿部暁子の小説「カフネ」が、2027年1月期に日本テレビ系で連続ドラマ化。木村文乃が主演を務め、松岡茉優と共演する。【画像】2025年本屋大賞を受賞…",
       "points": [
-        "8人組K－POPガールズグループ",
-        "Hearts2Hearts（ハーツトゥハーツ＝H2H）が",
-        "分野・出典: 芸能・エンタメ（Yahoo!ニュース / 2026-11-24 04:00）"
+        "累計68万部を突破し",
+        "2025年本屋大賞を受賞した阿部暁子の小説「カフネ」が",
+        "分野・出典: 芸能・エンタメ（Yahoo!ニュース / 2026-11-24 05:00）"
       ],
-      "impact": "「Hearts2Hearts、運動会テーマにファンイベント」を巡る芸能・エンタメ分野の注目動向として今後の展開が注目されます。",
+      "impact": "「木村文乃と松岡茉優が共演、本屋大賞受賞作「カフネ」ドラマ」を巡る芸能・エンタメ分野の注目動向として今後の展開が注目されます。",
       "tags": [
         "芸能・エンタメ",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/d8023dfabd17fca68709eee7ad558628c388faff?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/f19e456f9911a78992005bcbfa6cc2200e1a857e?source=rss",
       "isAiEnriched": false
     },
     {
       "category": "subculture",
-      "title": "ウマ娘「めにしゅき」ライブムーブメントの背景",
-      "source": "note.com",
-      "publishedAt": "2026-11-23 17:10",
-      "publishedTs": 1795421448,
-      "image": "https://assets.st-note.com/production/uploads/images/339022437/rectangle_large_type_2_0f1efeae21550aedaa745b026a2c7018.png?fit=bounds&quality=85&width=1280",
-      "summary": "SNS上でウマ娘のライブシアター機能を使った「めにしゅき♡ラッシュっしゅ！」の公開ムーブメントが発生。過激で甘い楽曲を用いたユーザー間のユニークな流行が注目を集めている。",
+      "title": "[57話]サンキューピッチ - 住吉九 | 少年ジャンプ＋",
+      "source": "shonenjumpplus.com",
+      "publishedAt": "2026-11-24 00:00",
+      "publishedTs": 1795446025,
+      "image": "https://cdn-ak-img.shonenjumpplus.com/public/series-thumbnail/17106567254627040784-3671080e46f869adc94e7de7d207f4fe?1795064883",
+      "summary": "サンキューピッチ 住吉九 6月、神奈川県の高校球児の間で、ある噂が囁かれていた。夜な夜な現れては「3球勝負」を挑む謎の男、「野球部狩り」――。男は驚異的な豪速球を持ち、勝負に負けたことがないという!! 県立横浜霜葩高等学校、野球部キャプテンの小堀は「野球部狩り」が学内にいると推...",
       "points": [
-        "SNS上で発生した「めにしゅき」のライブ公開ブーム",
-        "ウマ娘のライブシアター機能を活用した遊び方",
-        "楽曲の選定や歌唱メンバーの組み合わせが話題"
+        "サンキューピッチ 住吉九 6月",
+        "神奈川県の高校球児の間で",
+        "分野・出典: サブカルチャー（shonenjumpplus.com / 2026-11-24 00:00）"
       ],
-      "impact": "コミュニティ内での盛り上がりやファンの創作活動活性化のトレンドを捉える材料となります。",
+      "impact": "サブカルチャー分野で多くの読者に共有されている注目記事です。",
       "tags": [
-        "ウマ娘",
-        "めにしゅき",
-        "SNSトレンド"
+        "サブカルチャー",
+        "shonenjumpplus.com"
       ],
-      "url": "https://note.com/dragoner/n/n4e4226688a32",
-      "isAiEnriched": true
+      "url": "https://shonenjumpplus.com/episode/9253191257982514459",
+      "isAiEnriched": false
     },
     {
       "category": "domestic",
@@ -3706,66 +3718,67 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "エヌビディアが後任探す中、アームCEOは2033年まで続投　ソフトバンクG副会長に就任へ(ビジネス＋IT)",
+      "title": "フアン氏がNVIDIAのCEOに復帰　取締役会が満場一致で決議(ITmedia ビジネスオンライン)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-23 22:55",
-      "publishedTs": 1795442106,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261123-00188689-biz_plus-000-1-view.jpg?exp=10800",
-      "summary": "アームは11月23日、レネ・ハースCEOが2033年までの新契約を結んだと発表した。ハース氏は12月1日付で、親会社のソフトバンクグループの副会長にも就く。「アームの将来にこれほど自信を持ったことは…",
+      "publishedAt": "2026-11-23 23:55",
+      "publishedTs": 1795445744,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261123-00000021-zdn_mkt-000-1-view.jpg?exp=10800",
+      "summary": "米NVIDIAは11月23日、ジェンスン・フアン氏をCEOに復帰させたと発表した。【発表文を見る】NVIDIAのプレスリリース…",
       "points": [
-        "アームは11月23日",
-        "レネ・ハースCEOが2033年までの新契約を結んだと発表した",
-        "分野・出典: ビジネス・経済（Yahoo!ニュース / 2026-11-23 22:55）"
+        "米NVIDIAは11月23日",
+        "ジェンスン・フアン氏をCEOに復帰させたと発表した",
+        "分野・出典: ビジネス・経済（Yahoo!ニュース / 2026-11-23 23:55）"
       ],
-      "impact": "「エヌビディアが後任探す中、アームCEOは2033年まで続」を巡るビジネス・経済分野の注目動向として今後の展開が注目されます。",
+      "impact": "「フアン氏がNVIDIAのCEOに復帰　取締役会が満場一致」を巡るビジネス・経済分野の注目動向として今後の展開が注目されます。",
       "tags": [
         "ビジネス・経済",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/ba1f047e2fecd1626a0da1d74e690eb1c1cb7d8b?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/ea8726eaf97c0b53063d1e3e95b65d6c9bb20d3e?source=rss",
       "isAiEnriched": false
     },
     {
       "category": "entertainment",
-      "title": "木村拓哉、２年ぶりのライブツアーは地元の千葉で完走　感激の涙で「これからも一瞬を、すげー一瞬にしたい」(サンケイスポーツ)",
+      "title": "木村文乃、日テレ連ドラ初主演 松岡茉優とコンビで本屋大賞受賞作「カフネ」ドラマ化(モデルプレス)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-24 04:00",
-      "publishedTs": 1795460400,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-00000001-sanspo-000-1-view.jpg?exp=10800",
-      "summary": "俳優で歌手、木村拓哉（54）が23日、千葉・船橋市のららアリーナ東京ベイで約2年ぶりとなるライブツアーの最終公演を開催した。地元の千葉を舞台に、アンコールでは今ツアーで初めてSMAPの「夜空ノムコウ…",
+      "publishedAt": "2026-11-24 05:00",
+      "publishedTs": 1795464006,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-04881978-mdpr-000-1-view.jpg?exp=10800",
+      "summary": "【モデルプレス＝2026/11/24】女優の木村文乃が、2027年1月期の日本テレビ系土曜ドラマ『カフネ』（毎週土曜よる9時～）で主演を務めることが決定した。2025年本屋大賞を受賞した阿部暁子の同…",
       "points": [
-        "木村拓哉（54）が23日",
-        "千葉・船橋市のららアリーナ東京ベイで約2年ぶりとなるライブツアーの最終公演を開催した",
-        "分野・出典: 芸能・エンタメ（Yahoo!ニュース / 2026-11-24 04:00）"
+        "【モデルプレス＝2026/11/24】女優の木村文乃が",
+        "2027年1月期の日本テレビ系土曜ドラマ『カフネ』（毎週土曜よる9時～）で主演を務めることが決定した",
+        "分野・出典: 芸能・エンタメ（Yahoo!ニュース / 2026-11-24 05:00）"
       ],
-      "impact": "「木村拓哉、２年ぶりのライブツアーは地元の千葉で完走　感激」を巡る芸能・エンタメ分野の注目動向として今後の展開が注目されます。",
+      "impact": "「木村文乃、日テレ連ドラ初主演 松岡茉優とコンビで本屋大賞」を巡る芸能・エンタメ分野の注目動向として今後の展開が注目されます。",
       "tags": [
         "芸能・エンタメ",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/e1ccb3ee2bac411ea4d3257cfe45688c545a758e?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/9f14734288f6c4cf37e8cfc5161bfaaab5ecd363?source=rss",
       "isAiEnriched": false
     },
     {
       "category": "subculture",
-      "title": "[57話]サンキューピッチ - 住吉九 | 少年ジャンプ＋",
-      "source": "shonenjumpplus.com",
-      "publishedAt": "2026-11-24 00:00",
-      "publishedTs": 1795446025,
-      "image": "https://cdn-ak-img.shonenjumpplus.com/public/series-thumbnail/17106567254627040784-3671080e46f869adc94e7de7d207f4fe?1795064883",
-      "summary": "サンキューピッチ 住吉九 6月、神奈川県の高校球児の間で、ある噂が囁かれていた。夜な夜な現れては「3球勝負」を挑む謎の男、「野球部狩り」――。男は驚異的な豪速球を持ち、勝負に負けたことがないという!! 県立横浜霜葩高等学校、野球部キャプテンの小堀は「野球部狩り」が学内にいると推...",
+      "title": "モンスター収集ローグライク『Dokimon Frontier』",
+      "source": "AUTOMATON",
+      "publishedAt": "2026-11-23 15:06",
+      "publishedTs": 1795413963,
+      "image": "https://automaton-media.com/wp-content/uploads/2026/11/20261123-480476-header.jpg",
+      "summary": "Yanako RPGsは、人気作『ドキモンクエスト』シリーズの最新作となるモンスター収集ローグライクゲーム『Dokimon Frontier』を発表しました。Steamで無料配信される予定です。",
       "points": [
-        "サンキューピッチ 住吉九 6月",
-        "神奈川県の高校球児の間で",
-        "分野・出典: サブカルチャー（shonenjumpplus.com / 2026-11-24 00:00）"
+        "人気シリーズ最新作『Dokimon Frontier』が発表",
+        "モンスター収集要素を取り入れたローグライク",
+        "Steamにて基本プレイ無料で配信予定"
       ],
-      "impact": "サブカルチャー分野で多くの読者に共有されている注目記事です。",
+      "impact": "インディーゲームファンやモンスター育成ジャンルの愛好者にとって、手軽に遊べる新作として期待されます。",
       "tags": [
-        "サブカルチャー",
-        "shonenjumpplus.com"
+        "Steam",
+        "インディーゲーム",
+        "ローグライク"
       ],
-      "url": "https://shonenjumpplus.com/episode/9253191257982514459",
-      "isAiEnriched": false
+      "url": "https://automaton-media.com/articles/newsjp/20261123-480476/",
+      "isAiEnriched": true
     },
     {
       "category": "domestic",
@@ -3812,66 +3825,66 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "【ゆうちょ銀行】12月の仕送りや割り勘も、ことら送金なら1回10万円まで「手数料0円」。使えるのは通帳アプリから月5回まで(LIMO)",
+      "title": "「復帰の意図なし」から6日、エヌビディアがフアン氏をCEOに戻す　米政府高官にも聴取(ビジネス＋IT)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-23 22:50",
-      "publishedTs": 1795441833,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261123-90000834-toushin-000-1-view.jpg?exp=10800",
-      "summary": "12月は、忘年会の割り勘や帰省の費用の立て替え、離れて暮らす子どもへの仕送りなど、家族や知人にお金を送る場面が増えます。◆【画像】ゆうちょ口座から他の銀行へ送る料金を、送り方ごとに見るゆうちょ銀行の…",
+      "publishedAt": "2026-11-23 23:55",
+      "publishedTs": 1795445706,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261123-00188690-biz_plus-000-1-view.jpg?exp=10800",
+      "summary": "エヌビディアは11月23日、辞任していたジェンスン・フアン氏を社長兼CEOと取締役に即時復帰させると発表した。取締役会は全会一致で決定し、米政府高官の意見も聴いたうえで、復帰は国家安全保障上のリスク…",
       "points": [
-        "忘年会の割り勘や帰省の費用の立て替え",
-        "離れて暮らす子どもへの仕送りなど",
-        "分野・出典: ビジネス・経済（Yahoo!ニュース / 2026-11-23 22:50）"
+        "エヌビディアは11月23日",
+        "辞任していたジェンスン・フアン氏を社長兼CEOと取締役に即時復帰させると発表した",
+        "分野・出典: ビジネス・経済（Yahoo!ニュース / 2026-11-23 23:55）"
       ],
-      "impact": "「【ゆうちょ銀行】12月の仕送りや割り勘も、ことら送金なら」を巡るビジネス・経済分野の注目動向として今後の展開が注目されます。",
+      "impact": "「「復帰の意図なし」から6日、エヌビディアがフアン氏をCE」を巡るビジネス・経済分野の注目動向として今後の展開が注目されます。",
       "tags": [
         "ビジネス・経済",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/b500f69afba14ff99eeecbe378f4311c5a5f3b4c?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/b872949da08e22a91fd793655b545e298e04269a?source=rss",
       "isAiEnriched": false
     },
     {
       "category": "entertainment",
-      "title": "Hearts2Hearts、来年の日本活動は「さまざまな姿を見せる予定」　スポーティーなミニ丈衣装で登場(ENCOUNT)",
+      "title": "「髪型も同じにしたら見分けつかなそう」ローラ、二卵性の兄が話題「目元がそっくり」【双子の芸能人】(西スポWEB OTTO!)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-24 04:00",
-      "publishedTs": 1795460400,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-01103337-encount-000-1-view.jpg?exp=10800",
-      "summary": "韓国の8人組ガールズグループ・Hearts2Heartsが、東京・有明アリーナで日本初のファンイベント「Hearts2Hearts JAPAN 1st Fan Event “READY！S2U”」を…",
+      "publishedAt": "2026-11-24 05:00",
+      "publishedTs": 1795464006,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-00010004-nishispo-000-1-view.jpg?exp=10800",
+      "summary": "厚生労働省発表の「人口動態統計」によると、日本で双子が生まれる確率は概ね全分娩の約1〜1.3％程度とされています。【写真あり】二卵性の兄と2ショットのローラ…",
       "points": [
-        "韓国の8人組ガールズグループ・Hearts2Heartsが",
-        "東京・有明アリーナで日本初のファンイベント「Hearts2Hearts JAPAN 1st Fan Event …",
-        "分野・出典: 芸能・エンタメ（Yahoo!ニュース / 2026-11-24 04:00）"
+        "厚生労働省発表の「人口動態統計」によると",
+        "日本で双子が生まれる確率は概ね全分娩の約1〜1.3％程度とされています",
+        "分野・出典: 芸能・エンタメ（Yahoo!ニュース / 2026-11-24 05:00）"
       ],
-      "impact": "「Hearts2Hearts、来年の日本活動は「さまざまな」を巡る芸能・エンタメ分野の注目動向として今後の展開が注目されます。",
+      "impact": "「「髪型も同じにしたら見分けつかなそう」ローラ、二卵性の兄」を巡る芸能・エンタメ分野の注目動向として今後の展開が注目されます。",
       "tags": [
         "芸能・エンタメ",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/b4e925d3c4300cf39d3550f972fcf2a38aff54ab?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/38b9fa3012ea24afd386f89db46f782304e58dea?source=rss",
       "isAiEnriched": false
     },
     {
       "category": "subculture",
-      "title": "モンスター収集ローグライク『Dokimon Frontier』",
-      "source": "AUTOMATON",
-      "publishedAt": "2026-11-23 15:06",
-      "publishedTs": 1795413963,
-      "image": "https://automaton-media.com/wp-content/uploads/2026/11/20261123-480476-header.jpg",
-      "summary": "Yanako RPGsは、人気作『ドキモンクエスト』シリーズの最新作となるモンスター収集ローグライクゲーム『Dokimon Frontier』を発表しました。Steamで無料配信される予定です。",
+      "title": "「かどげブイ！」シャドバ担当VTuberデビュー",
+      "source": "PANORA",
+      "publishedAt": "2026-11-23 11:59",
+      "publishedTs": 1795402745,
+      "image": "https://asset.panora.tokyo/wp-content/uploads/2026/11/23115858/44610-15-90b150c0adfb87802203c49aabd16d00-1920x1080-1.webp",
+      "summary": "カードゲームVTuberプロジェクト「かどげブイ！」より、『シャドウバース ワールズビヨンド』を担当する2期生の新人VTuber「澄星波音」が新たにデビューしました。",
       "points": [
-        "人気シリーズ最新作『Dokimon Frontier』が発表",
-        "モンスター収集要素を取り入れたローグライク",
-        "Steamにて基本プレイ無料で配信予定"
+        "カードゲームVTuberプロジェクトの2期生が登場",
+        "シャドバWB担当の「澄星波音」がデビュー",
+        "ゲーム実況や配信活動での活躍に期待"
       ],
-      "impact": "インディーゲームファンやモンスター育成ジャンルの愛好者にとって、手軽に遊べる新作として期待されます。",
+      "impact": "カードゲームファンやVTuber業界のさらなる活性化につながる注目のデビューです。",
       "tags": [
-        "Steam",
-        "インディーゲーム",
-        "ローグライク"
+        "VTuber",
+        "シャドウバース",
+        "新人デビュー"
       ],
-      "url": "https://automaton-media.com/articles/newsjp/20261123-480476/",
+      "url": "https://panora.tokyo/archives/164104",
       "isAiEnriched": true
     },
     {
@@ -3920,66 +3933,67 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "国民生活センターが年末の海産物の送り付けに注意喚起、相談は12月が545件で最多。代金を払ってしまったら返金は？(LIMO)",
+      "title": "エヌビディア・フアンCEO「責任を謙虚に受け止める」",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-23 22:35",
-      "publishedTs": 1795440933,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261123-90000832-toushin-000-1-view.jpg?exp=10800",
-      "summary": "全国の消費生活センター等に寄せられた海産物の電話勧誘販売・送り付けの相談は2025年度に4377件で、2023年度の2875件から2年続けて増えています。国民生活センターが2026年10月28日、報…",
+      "publishedAt": "2026-11-23 23:34",
+      "publishedTs": 1795444449,
+      "image": "https://tse2.mm.bing.net/th?q=%E8%B2%AC%E4%BB%BB%E3%82%92%E8%AC%99%E8%99%9A%E3%81%AB%E5%8F%97%E3%81%91%E6%AD%A2%E3%82%81%E3%82%8B%20%E3%81%A8%E3%83%95%E3%82%A2%E3%83%B3CEO&w=800&h=450&c=7&rs=1&p=0",
+      "summary": "エヌビディアの最高経営責任者（CEO）に復帰したジェンスン・フアン氏が声明を発表し、世界的重要企業を率いる決意を語りました。",
       "points": [
-        "全国の消費生活センター等に寄せられた海産物の電話勧誘販売・送り付けの相談は2025年度に4377件で",
-        "2023年度の2875件から2年続けて増えています",
-        "分野・出典: ビジネス・経済（Yahoo!ニュース / 2026-11-23 22:35）"
+        "ジェンスン・フアン氏がCEO復帰後の心境を声明で発表",
+        "世界で最も重要な企業を率いることへの光栄を強調",
+        "責任を謙虚に受け止め決意を新たにすると表明"
       ],
-      "impact": "「国民生活センターが年末の海産物の送り付けに注意喚起、相談」を巡るビジネス・経済分野の注目動向として今後の展開が注目されます。",
+      "impact": "AIブームを牽引する同社の経営体制が安定することで、関連サプライチェーンや株式市場への安心感につながります。",
       "tags": [
-        "ビジネス・経済",
-        "Yahoo!ニュース"
+        "エヌビディア",
+        "ビジネス",
+        "人事"
       ],
-      "url": "https://news.yahoo.co.jp/articles/5513aefffc18ae70dbaa5e5679b20333d5b87c4f?source=rss",
-      "isAiEnriched": false
+      "url": "https://news.yahoo.co.jp/articles/f1a20b161224bedcad5643a7713ba22797d46a73?source=rss",
+      "isAiEnriched": true
     },
     {
       "category": "entertainment",
-      "title": "木村拓哉、ツアーラストに28年前の名曲　観客との大合唱で感極まる(ENCOUNT)",
+      "title": "【清春インタビュー連載 ＜１＞ 】黒夢解散、再結成の裏側とその存在意義(日刊スポーツ)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-24 04:00",
-      "publishedTs": 1795460400,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-01103316-encount-000-1-view.jpg?exp=10800",
-      "summary": "俳優で歌手の木村拓哉が23日、千葉・ららアリーナ 東京ベイで「TAKUYA KIMURA Live Tour 2026 Checkpoint」の最終公演を開催した。ソロとしては初の海外公演（ソウル、…",
+      "publishedAt": "2026-11-24 05:00",
+      "publishedTs": 1795464002,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-41232101-nksports-000-1-view.jpg?exp=10800",
+      "summary": "91年に黒夢を結成してから35年。今なお、カリスマロックシンガーとして輝きを放ち続ける清春（58）。それでも最近のMCでは「日々肉体が朽ちていくのを感じていますが、もう少し無理をしてぶっ放していく」",
       "points": [
-        "俳優で歌手の木村拓哉が23日",
-        "千葉・ららアリーナ 東京ベイで「TAKUYA KIMURA Live Tour 2026 Checkpoint」…",
-        "分野・出典: 芸能・エンタメ（Yahoo!ニュース / 2026-11-24 04:00）"
+        "91年に黒夢を結成してから35年",
+        "カリスマロックシンガーとして輝きを放ち続ける清春（58）",
+        "分野・出典: 芸能・エンタメ（Yahoo!ニュース / 2026-11-24 05:00）"
       ],
-      "impact": "「木村拓哉、ツアーラストに28年前の名曲　観客との大合唱で」を巡る芸能・エンタメ分野の注目動向として今後の展開が注目されます。",
+      "impact": "「【清春インタビュー連載 ＜１＞ 】黒夢解散、再結成の裏側」を巡る芸能・エンタメ分野の注目動向として今後の展開が注目されます。",
       "tags": [
         "芸能・エンタメ",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/fbf4e248397cc027fe1ac844283baca36c8486a9?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/2ceeb335e576cdc49b89ad0ca8ef087f682ab365?source=rss",
       "isAiEnriched": false
     },
     {
       "category": "subculture",
-      "title": "「かどげブイ！」シャドバ担当VTuberデビュー",
-      "source": "PANORA",
-      "publishedAt": "2026-11-23 11:59",
-      "publishedTs": 1795402745,
-      "image": "https://asset.panora.tokyo/wp-content/uploads/2026/11/23115858/44610-15-90b150c0adfb87802203c49aabd16d00-1920x1080-1.webp",
-      "summary": "カードゲームVTuberプロジェクト「かどげブイ！」より、『シャドウバース ワールズビヨンド』を担当する2期生の新人VTuber「澄星波音」が新たにデビューしました。",
+      "title": "ウマ娘「めにしゅき」ライブムーブメントの背景",
+      "source": "note.com",
+      "publishedAt": "2026-11-23 17:10",
+      "publishedTs": 1795421448,
+      "image": "https://assets.st-note.com/production/uploads/images/339022437/rectangle_large_type_2_0f1efeae21550aedaa745b026a2c7018.png?fit=bounds&quality=85&width=1280",
+      "summary": "SNS上でウマ娘のライブシアター機能を使った「めにしゅき♡ラッシュっしゅ！」の公開ムーブメントが発生。過激で甘い楽曲を用いたユーザー間のユニークな流行が注目を集めている。",
       "points": [
-        "カードゲームVTuberプロジェクトの2期生が登場",
-        "シャドバWB担当の「澄星波音」がデビュー",
-        "ゲーム実況や配信活動での活躍に期待"
+        "SNS上で発生した「めにしゅき」のライブ公開ブーム",
+        "ウマ娘のライブシアター機能を活用した遊び方",
+        "楽曲の選定や歌唱メンバーの組み合わせが話題"
       ],
-      "impact": "カードゲームファンやVTuber業界のさらなる活性化につながる注目のデビューです。",
+      "impact": "コミュニティ内での盛り上がりやファンの創作活動活性化のトレンドを捉える材料となります。",
       "tags": [
-        "VTuber",
-        "シャドウバース",
-        "新人デビュー"
+        "ウマ娘",
+        "めにしゅき",
+        "SNSトレンド"
       ],
-      "url": "https://panora.tokyo/archives/164104",
+      "url": "https://note.com/dragoner/n/n4e4226688a32",
       "isAiEnriched": true
     },
     {
@@ -4028,44 +4042,45 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "196万5700円から買える!! 最新プロボックスは最安Gでも十分楽しめるか？(ベストカーWeb)",
+      "title": "トランプ氏「フアン氏の違法行為の証拠なし」",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-23 22:30",
-      "publishedTs": 1795440644,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261123-00000011-bestcar-000-1-view.jpg?exp=10800",
-      "summary": "2026年9月に商品改良を受けたトヨタ プロボックス。最安グレードのGは196万5700円と、200万円を切る価格を守った。商用車らしい割り切りはあるものの、安全装備や便利な収納は充実。仕事だけでな…",
+      "publishedAt": "2026-11-23 23:33",
+      "publishedTs": 1795444407,
+      "image": "https://tse2.mm.bing.net/th?q=%E9%81%95%E6%B3%95%E8%A1%8C%E7%82%BA%E3%81%AB%E9%96%A2%E4%B8%8E%E3%81%AE%E8%A8%BC%E6%8B%A0%E3%81%AA%E3%81%97%20%E3%81%A8%E3%83%88%E3%83%A9%E3%83%B3%E3%83%97%E6%B0%8F&w=800&h=450&c=7&rs=1&p=0",
+      "summary": "トランプ米大統領はSNS上で、エヌビディアのCEOに復帰したジェンスン・フアン氏について、違法行為に関与した証拠はないと投稿しました。",
       "points": [
-        "2026年9月に商品改良を受けたトヨタ プロボックス",
-        "最安グレードのGは196万5700円と",
-        "分野・出典: ビジネス・経済（Yahoo!ニュース / 2026-11-23 22:30）"
+        "トランプ米大統領が自身のSNSでフアン氏に言及",
+        "米政府は同氏の違法行為への関与の証拠を持っていないと主張",
+        "政権によるフアン氏およびエヌビディアへの支持を強調"
       ],
-      "impact": "「196万5700円から買える!! 最新プロボックスは最安」を巡るビジネス・経済分野の注目動向として今後の展開が注目されます。",
+      "impact": "政治的リスクへの懸念が払拭されることで、同社の事業展開や市場での評価にプラスに働く可能性があります。",
       "tags": [
-        "ビジネス・経済",
-        "Yahoo!ニュース"
+        "アメリカ",
+        "政治",
+        "エヌビディア"
       ],
-      "url": "https://news.yahoo.co.jp/articles/42f13ebd41fa0046c6b1bdadcfa1b9a43bcc7f81?source=rss",
-      "isAiEnriched": false
+      "url": "https://news.yahoo.co.jp/articles/c8af41ccf69c35b605d0c6c6b9794b4f97fefc1c?source=rss",
+      "isAiEnriched": true
     },
     {
       "category": "entertainment",
-      "title": "M!LK塩﨑太智、自宅で眉毛を切りすぎ“ヒョウ柄”に　「ピンチだった」出来事を明かす(ENCOUNT)",
+      "title": "山下智久、パリに降臨！　ワールドツアー「DREAMING」パリ公演の鳴りやまぬ拍手(日刊スポーツ)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-24 04:00",
-      "publishedTs": 1795460400,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-01102576-encount-000-1-view.jpg?exp=10800",
-      "summary": "5人組ダンスボーカルグループ・M!LKが、モバイルバッテリーのシェアリングサービス「CHARGESPOT」の新CMキャラクターに起用された。結成12周年を迎える24日から放映される新テレビCM「M!",
+      "publishedAt": "2026-11-24 05:00",
+      "publishedTs": 1795464002,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-41232299-nksports-000-1-view.jpg?exp=10800",
+      "summary": "俳優で歌手の山下智久（41）がパリの「Casino de Paris」で現地時間22日（日本時間23日）、活動30周年を記念したワールドライブツアー「TOMOHISA YAMASHITA TOUR…",
       "points": [
-        "5人組ダンスボーカルグループ・M",
-        "モバイルバッテリーのシェアリングサービス「CHARGESPOT」の新CMキャラクターに起用された",
-        "分野・出典: 芸能・エンタメ（Yahoo!ニュース / 2026-11-24 04:00）"
+        "俳優で歌手の山下智久（41）がパリの「Casino de Paris」で現地時間22日（日本時間23日）",
+        "活動30周年を記念したワールドライブツアー「TOMOHISA YAMASHITA TOUR",
+        "分野・出典: 芸能・エンタメ（Yahoo!ニュース / 2026-11-24 05:00）"
       ],
-      "impact": "「M!LK塩﨑太智、自宅で眉毛を切りすぎ“ヒョウ柄”に　「」を巡る芸能・エンタメ分野の注目動向として今後の展開が注目されます。",
+      "impact": "「山下智久、パリに降臨！　ワールドツアー「DREAMING」を巡る芸能・エンタメ分野の注目動向として今後の展開が注目されます。",
       "tags": [
         "芸能・エンタメ",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/520b929789582c9adc6ffc01d754d931e15cf7fd?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/54b2699132d6c27e29c22245a8aa52a73fbc42cb?source=rss",
       "isAiEnriched": false
     },
     {
@@ -4136,44 +4151,45 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "テレビがまさかの6000万円超!? ブガッティの超高級家電がスゴい！ 最新自動車ニュース3選(ベストカーWeb)",
+      "title": "トランプ氏、エヌビディアCEO復帰を改めて歓迎",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-23 22:30",
-      "publishedTs": 1795440644,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261123-00000010-bestcar-000-1-view.jpg?exp=10800",
-      "summary": "某カーアクション映画でも華々しい活躍を見せる、ハイパーカーでおなじみのブガッティ。そのブガッティが超高級テレビを発売した。であれば「ハイパーテレビ」と呼ぶべきか？ ほか、自動車関係のさまざまなニュー…",
+      "publishedAt": "2026-11-23 23:29",
+      "publishedTs": 1795444160,
+      "image": "https://tse2.mm.bing.net/th?q=%E3%83%88%E3%83%A9%E3%83%B3%E3%83%97%E6%B0%8F%20%E3%83%95%E3%82%A2%E3%83%B3%E6%B0%8F%E3%81%AECEO%E5%BE%A9%E5%B8%B0%E6%AD%93%E8%BF%8E&w=800&h=450&c=7&rs=1&p=0",
+      "summary": "トランプ米大統領は、エヌビディアのジェンスン・フアン氏のCEO復帰について、米国の経済成功に不可欠な統率力だとSNSで称賛しました。",
       "points": [
-        "某カーアクション映画でも華々しい活躍を見せる",
-        "ハイパーカーでおなじみのブガッティ",
-        "分野・出典: ビジネス・経済（Yahoo!ニュース / 2026-11-23 22:30）"
+        "トランプ米大統領がSNSでフアン氏の復帰を歓迎",
+        "フアン氏の強力な統率力が米経済の成功に必要と主張",
+        "国家経済とハイテク企業の結びつきの強さを示す"
       ],
-      "impact": "「テレビがまさかの6000万円超!? ブガッティの超高級家」を巡るビジネス・経済分野の注目動向として今後の展開が注目されます。",
+      "impact": "米政府トップによるハイテク企業への積極的な言及は、産業政策や市場のセンチメントに影響を与えます。",
       "tags": [
-        "ビジネス・経済",
-        "Yahoo!ニュース"
+        "トランプ",
+        "経済",
+        "エヌビディア"
       ],
-      "url": "https://news.yahoo.co.jp/articles/39329ab9f796c32d74e02a1d4438133be888b825?source=rss",
-      "isAiEnriched": false
+      "url": "https://news.yahoo.co.jp/articles/4741cd4842087a379d183d25f69b4f45d2241b4c?source=rss",
+      "isAiEnriched": true
     },
     {
       "category": "entertainment",
-      "title": "全日完売「ちいかわクリスマスマーケット」現地レポ！　ちいかわ＆ハチワレ＆うさぎが点灯式に登場　見どころは？(クランクイン！)",
+      "title": "中山翔貴、生まれた年に始まった「救命病棟24時」出演に感慨　16年の野球経験と重なる役(日刊スポーツ)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-24 04:00",
-      "publishedTs": 1795460400,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-00194744-crankinn-000-1-view.jpg?exp=10800",
-      "summary": "ナガノによるX発マンガ『ちいかわ』の世界観をクリスマスマーケットで楽しめる体験型イベント「ちいかわクリスマスマーケット」が、11月24日（火）から12月25日（金）まで、千葉・千葉市の豊砂公園で開催…",
+      "publishedAt": "2026-11-24 05:00",
+      "publishedTs": 1795464002,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-41231109-nksports-000-1-view.jpg?exp=10800",
+      "summary": "俳優中山翔貴（27）が現在出演中のフジテレビ系ドラマ「救命病棟24時」（月曜午後9時）で、自身のこれまでの歩みと重なる役柄を熱演している。このほど取材に応じ、同作への思いを語った。【写真】高校球児時…",
       "points": [
-        "ナガノによるX発マンガ『ちいかわ』の世界観をクリスマスマーケットで楽しめる体験型イベント「ちいかわクリスマスマー…",
-        "11月24日（火）から12月25日（金）まで",
-        "分野・出典: 芸能・エンタメ（Yahoo!ニュース / 2026-11-24 04:00）"
+        "俳優中山翔貴（27）が現在出演中のフジテレビ系ドラマ「救命病棟24時」（月曜午後9時）で",
+        "自身のこれまでの歩みと重なる役柄を熱演している",
+        "分野・出典: 芸能・エンタメ（Yahoo!ニュース / 2026-11-24 05:00）"
       ],
-      "impact": "「全日完売「ちいかわクリスマスマーケット」現地レポ！　ちい」を巡る芸能・エンタメ分野の注目動向として今後の展開が注目されます。",
+      "impact": "「中山翔貴、生まれた年に始まった「救命病棟24時」出演に感」を巡る芸能・エンタメ分野の注目動向として今後の展開が注目されます。",
       "tags": [
         "芸能・エンタメ",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/f907fa146b14c05df6d2d6feeb3ae42d6821498e?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/3d58429ea6b35e3314537309973d7c2de09183f9?source=rss",
       "isAiEnriched": false
     },
     {
@@ -4244,44 +4260,44 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "国産SUVもビックリ!?　新型ジープ コンパスの装備は想像以上に贅沢快適装備てんこ盛りだった!!(ベストカーWeb)",
+      "title": "フアン氏、CEOに復帰　米半導体エヌビディア(共同通信)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-23 22:30",
-      "publishedTs": 1795440644,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261123-00000009-bestcar-000-1-view.jpg?exp=10800",
-      "summary": "9年ぶりに生まれ変わった新型ジープ コンパス。武骨なSUVらしさを残しながら、装備面は驚くほど現代的に進化している！ では、上級グレードのサミットにはどこまで贅沢な機能が盛り込まれているのか？ 国産…",
+      "publishedAt": "2026-11-23 23:15",
+      "publishedTs": 1795443346,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261123-00000101-kyodonews-000-4-view.jpg?pri=l&w=452&h=640&exp=10800",
+      "summary": "【ニューヨーク共同】米半導体大手エヌビディアは23日、中国のスパイとされる女性や部下との不倫問題で最高経営責任者（CEO）を辞任したジェンスン・フアン氏をCEOに復帰させたと発表した。取締役会はフア…",
       "points": [
-        "9年ぶりに生まれ変わった新型ジープ コンパス",
-        "武骨なSUVらしさを残しながら",
-        "分野・出典: ビジネス・経済（Yahoo!ニュース / 2026-11-23 22:30）"
+        "【ニューヨーク共同】米半導体大手エヌビディアは23日",
+        "中国のスパイとされる女性や部下との不倫問題で最高経営責任者（CEO）を辞任したジェンスン・フアン氏をCEOに復帰…",
+        "分野・出典: ビジネス・経済（Yahoo!ニュース / 2026-11-23 23:15）"
       ],
-      "impact": "「国産SUVもビックリ!?　新型ジープ コンパスの装備は想」を巡るビジネス・経済分野の注目動向として今後の展開が注目されます。",
+      "impact": "「フアン氏、CEOに復帰　米半導体エヌビディア(共同通信)」を巡るビジネス・経済分野の注目動向として今後の展開が注目されます。",
       "tags": [
         "ビジネス・経済",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/acb3d7ed485b444588b8e2849ce418e3cf930117?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/a8e8b72d81500b192f27d702ecfdacc03c55cefb?source=rss",
       "isAiEnriched": false
     },
     {
       "category": "entertainment",
-      "title": "「ちいかわクリスマスマーケット」会場からグッズ情報をまとめて紹介(GAME Watch)",
+      "title": "山田雅人「きっと江夏豊さんも一緒に聴いてくれると思います」かたりの世界「江夏の21球」で追悼　掛布雅之氏、川藤幸三氏がゲスト(サンケイスポーツ)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-24 04:00",
-      "publishedTs": 1795460400,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-00000003-impgmw-000-1-view.jpg?exp=10800",
-      "summary": "AbemaTVは、11月24日より開催の体験型イベント「ちいかわクリスマスマーケット」の会場内を公開した。本稿では、会場内で販売されるグッズ情報を中心に紹介する。【この記事に関する別の画像を見る】…",
+      "publishedAt": "2026-11-24 05:00",
+      "publishedTs": 1795464001,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-00000011-sanspo-000-1-view.jpg?exp=10800",
+      "summary": "唯一無二の話法「かたり」で未踏の境地を切り開くタレント、山田雅人（66）が21日、大阪市中央公会堂に約1000人の観衆を集め「かたりの世界 supported by tabiwa」を開催した。阪神球…",
       "points": [
-        "11月24日より開催の体験型イベント「ちいかわクリスマスマーケット」の会場内を公開した",
-        "会場内で販売されるグッズ情報を中心に紹介する",
-        "分野・出典: 芸能・エンタメ（Yahoo!ニュース / 2026-11-24 04:00）"
+        "唯一無二の話法「かたり」で未踏の境地を切り開くタレント",
+        "山田雅人（66）が21日",
+        "分野・出典: 芸能・エンタメ（Yahoo!ニュース / 2026-11-24 05:00）"
       ],
-      "impact": "「「ちいかわクリスマスマーケット」会場からグッズ情報をまと」を巡る芸能・エンタメ分野の注目動向として今後の展開が注目されます。",
+      "impact": "「山田雅人「きっと江夏豊さんも一緒に聴いてくれると思います」を巡る芸能・エンタメ分野の注目動向として今後の展開が注目されます。",
       "tags": [
         "芸能・エンタメ",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/af48e2f38951362a9d7c82ee96c90151c51c6327?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/c6310c1c93ee276d35ed3bbae43b498d74435a24?source=rss",
       "isAiEnriched": false
     },
     {
@@ -4352,45 +4368,44 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "VW、ID. ポロ GTI クラブスポーツ コンセプトを発表",
+      "title": "フアン氏がエヌビディアCEOに復帰(共同通信)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-23 22:21",
-      "publishedTs": 1795440086,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261123-00010003-gqjapan-000-1-view.jpg?exp=10800",
-      "summary": "フォルクスワーゲンがGTI誕生50周年を記念し、サーキット専用の電動ホットハッチのコンセプトモデルを発表しました。",
+      "publishedAt": "2026-11-23 23:12",
+      "publishedTs": 1795443138,
+      "image": "https://tse2.mm.bing.net/th?q=%E3%83%95%E3%82%A2%E3%83%B3%E6%B0%8F%E3%81%8C%E3%82%A8%E3%83%8C%E3%83%93%E3%83%87%E3%82%A3%E3%82%A2CEO%E3%81%AB%E5%BE%A9%E5%B8%B0&w=800&h=450&c=7&rs=1&p=0",
+      "summary": "【ニューヨーク共同】米半導体大手エヌビディアは23日、中国のスパイとされる女性や部下との不倫問題で最高経営責任者（CEO）を辞任したジェンスン・フアン氏をCEOに復帰させたと発表した。",
       "points": [
-        "GTI誕生50周年の記念すべきコンセプトモデル",
-        "サーキット専用の電動ホットハッチ仕様",
-        "迫力あるデザインと走行性能に注目"
+        "【ニューヨーク共同】米半導体大手エヌビディアは23日",
+        "中国のスパイとされる女性や部下との不倫問題で最高経営責任者（CEO）を辞任したジェンスン・フアン氏をCEOに復帰…",
+        "分野・出典: ビジネス・経済（Yahoo!ニュース / 2026-11-23 23:12）"
       ],
-      "impact": "自動車市場やEVスポーツカーファンの間で大きな話題となっています。",
+      "impact": "「フアン氏がエヌビディアCEOに復帰(共同通信)」を巡るビジネス・経済分野の注目動向として今後の展開が注目されます。",
       "tags": [
-        "フォルクスワーゲン",
-        "自動車",
-        "EV"
+        "ビジネス・経済",
+        "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/3591aa35a16a1861bfa6b8ca33412a372d7402fa?source=rss",
-      "isAiEnriched": true
+      "url": "https://news.yahoo.co.jp/articles/012164b91104c48db1d3cef440d201bad594ffda?source=rss",
+      "isAiEnriched": false
     },
     {
       "category": "entertainment",
-      "title": "「ちいかわクリスマスマーケット」はフォトスポットたくさん！本日開催の会場内をレポート(GAME Watch)",
+      "title": "木村文乃×松岡茉優、日テレ新土曜ドラマ「カフネ」2025年本屋大賞受賞作待望のドラマ化(日刊スポーツ)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-24 04:00",
-      "publishedTs": 1795460400,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-00000002-impgmw-000-1-view.jpg?exp=10800",
-      "summary": "AbemaTVは、11月24日から始まる体験型イベント「ちいかわクリスマスマーケット」の内部を公開した。本稿ではその内容を伝える。【画像】クリスマスツリーは毎日16時以降にライトアップされ、ちいかわ…",
+      "publishedAt": "2026-11-24 05:00",
+      "publishedTs": 1795464001,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-41231509-nksports-000-1-view.jpg?exp=10800",
+      "summary": "女優木村文乃（39）が日本テレビ系1月期新土曜ドラマ「カフネ」（土曜午後9時）で主演を務めることが23日、分かった。木村は同局連続ドラマ初主演で主人公の野宮薫子を演じ、コンビを組む小野寺せつな役に女…",
       "points": [
-        "11月24日から始まる体験型イベント「ちいかわクリスマスマーケット」の内部を公開した",
-        "本稿ではその内容を伝える",
-        "分野・出典: 芸能・エンタメ（Yahoo!ニュース / 2026-11-24 04:00）"
+        "女優木村文乃（39）が日本テレビ系1月期新土曜ドラマ「カフネ」（土曜午後9時）で主演を務めることが23日",
+        "木村は同局連続ドラマ初主演で主人公の野宮薫子を演じ",
+        "分野・出典: 芸能・エンタメ（Yahoo!ニュース / 2026-11-24 05:00）"
       ],
-      "impact": "「「ちいかわクリスマスマーケット」はフォトスポットたくさん」を巡る芸能・エンタメ分野の注目動向として今後の展開が注目されます。",
+      "impact": "「木村文乃×松岡茉優、日テレ新土曜ドラマ「カフネ」2025」を巡る芸能・エンタメ分野の注目動向として今後の展開が注目されます。",
       "tags": [
         "芸能・エンタメ",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/f140c76e65231e6d39df81897357391bbf4bd9d1?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/beb7e145ef30da3cd2a6dd7845181a2bae5d3c40?source=rss",
       "isAiEnriched": false
     },
     {
@@ -4461,45 +4476,44 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "I-neが株主優待を廃止、MBOに伴うディスカウントTOB実施",
+      "title": "NY円、159円近辺(共同通信)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-23 22:10",
-      "publishedTs": 1795439428,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261123-02075964-dzai-000-1-view.jpg?exp=10800",
-      "summary": "I-neがMBOの一環としてTOBを実施することに伴い、株主優待を廃止すると発表。発表当日の終値より安い価格設定で株価が下落しました。",
+      "publishedAt": "2026-11-23 23:07",
+      "publishedTs": 1795442869,
+      "image": "https://tse2.mm.bing.net/th?q=NY%E5%86%86%20159%E5%86%86%E8%BF%91%E8%BE%BA&w=800&h=450&c=7&rs=1&p=0",
+      "summary": "【ニューヨーク共同】週明け23日のニューヨーク外国為替市場の円相場は午前8時40分現在、前週末比58銭円安ドル高の1ドル＝158円96銭～159円06銭を付けた。 前週に大幅下落した米国株に値ごろ感…",
       "points": [
-        "MBOの一環でTOB（株式公開買付）を実施",
-        "これに伴い株主優待制度を廃止",
-        "終値より低いディスカウントTOBで株価が下落"
+        "【ニューヨーク共同】週明け23日のニューヨーク外国為替市場の円相場は午前8時40分現在",
+        "前週末比58銭円安ドル高の1ドル＝158円96銭～159円06銭を付けた",
+        "分野・出典: ビジネス・経済（Yahoo!ニュース / 2026-11-23 23:07）"
       ],
-      "impact": "投資家や株主の間で、優待廃止と買付価格の設定を巡り波紋を呼んでいます。",
+      "impact": "「NY円、159円近辺(共同通信)」を巡るビジネス・経済分野の注目動向として今後の展開が注目されます。",
       "tags": [
-        "株主優待",
-        "MBO",
-        "株式市場"
+        "ビジネス・経済",
+        "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/2ba19a3d77547a9081c48b590a330defaf61a00e?source=rss",
-      "isAiEnriched": true
+      "url": "https://news.yahoo.co.jp/articles/02a1baf8a9f75337c89fab8e18145565dbdff7a6?source=rss",
+      "isAiEnriched": false
     },
     {
       "category": "entertainment",
-      "title": "M!LKがモバイルバッテリーに変身…新CMで「爆裂愛してる」オマージュ披露(WEBザテレビジョン)",
+      "title": "モナキ2ndシングル「愛と言う名のGloryDay」１・13発売決定！　一部ジャケ写も公開(日刊スポーツ)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-24 04:00",
-      "publishedTs": 1795460400,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-01459979-the_tv-000-1-view.jpg?exp=10800",
-      "summary": "5人組ダンスボーカルグループ・M!LKが、モバイルバッテリーのシェアリングサービス「CHARGESPOT」(INFORICH)の新CMキャラクターに就任。出演する新TVCM「M!LKのチャースポ」篇…",
+      "publishedAt": "2026-11-24 05:00",
+      "publishedTs": 1795464001,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-41231186-nksports-000-1-view.jpg?exp=10800",
+      "summary": "歌謡グループ「モナキ」のセカンドシングル「愛と言う名のGloryDay」が27年1月13日に発売されることが23日、分かった。また、一部のジャケット写真も先行公開した。【写真】公開されたジャケ写 じ…",
       "points": [
-        "5人組ダンスボーカルグループ・M",
-        "モバイルバッテリーのシェアリングサービス「CHARGESPOT」(INFORICH)の新CMキャラクターに就任",
-        "分野・出典: 芸能・エンタメ（Yahoo!ニュース / 2026-11-24 04:00）"
+        "歌謡グループ「モナキ」のセカンドシングル「愛と言う名のGloryDay」が27年1月13日に発売されることが23…",
+        "一部のジャケット写真も先行公開した",
+        "分野・出典: 芸能・エンタメ（Yahoo!ニュース / 2026-11-24 05:00）"
       ],
-      "impact": "「M!LKがモバイルバッテリーに変身…新CMで「爆裂愛して」を巡る芸能・エンタメ分野の注目動向として今後の展開が注目されます。",
+      "impact": "「モナキ2ndシングル「愛と言う名のGloryDay」１・」を巡る芸能・エンタメ分野の注目動向として今後の展開が注目されます。",
       "tags": [
         "芸能・エンタメ",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/cd35e393ea8baf9cbda7a08fe91f9be389fa5bc6?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/c5673ce873aa0ccdce260afff2bc5d106f2f0ee5?source=rss",
       "isAiEnriched": false
     },
     {
