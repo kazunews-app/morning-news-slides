@@ -1,6 +1,6 @@
 window.NEWS_DATA = {
   "date": "2026年11月25日 (水)",
-  "updatedAt": "2026-11-25 02:51",
+  "updatedAt": "2026-11-25 03:47",
   "title": "TREND NEWS",
   "keywords": [
     "AI技術",
@@ -13,7 +13,7 @@ window.NEWS_DATA = {
     {
       "name": "札幌",
       "region": "北海道",
-      "temp": -2,
+      "temp": -3,
       "code": 1,
       "wind": 10,
       "maxTemp": 0,
@@ -21,52 +21,52 @@ window.NEWS_DATA = {
       "pop": 100,
       "hourly": [
         {
-          "time": "02:00",
+          "time": "03:00",
           "code": 71,
           "temp": -2,
-          "pop": 40
+          "pop": 47
         },
         {
-          "time": "05:00",
+          "time": "06:00",
           "code": 71,
           "temp": -3,
-          "pop": 55
+          "pop": 57
         },
         {
-          "time": "08:00",
+          "time": "09:00",
           "code": 1,
-          "temp": -2,
-          "pop": 50
+          "temp": -1,
+          "pop": 51
         },
         {
-          "time": "11:00",
+          "time": "12:00",
+          "code": 85,
+          "temp": 0,
+          "pop": 98
+        },
+        {
+          "time": "15:00",
           "code": 71,
           "temp": -1,
-          "pop": 84
+          "pop": 94
         },
         {
-          "time": "14:00",
-          "code": 71,
-          "temp": -1,
-          "pop": 99
-        },
-        {
-          "time": "17:00",
+          "time": "18:00",
           "code": 1,
-          "temp": -3,
-          "pop": 75
-        },
-        {
-          "time": "20:00",
-          "code": 2,
           "temp": -3,
           "pop": 67
         },
         {
-          "time": "23:00",
-          "code": 3,
+          "time": "21:00",
+          "code": 2,
           "temp": -2,
-          "pop": 79
+          "pop": 69
+        },
+        {
+          "time": "00:00",
+          "code": 71,
+          "temp": -1,
+          "pop": 78
         }
       ],
       "daily": [
@@ -133,56 +133,56 @@ window.NEWS_DATA = {
       "region": "東北",
       "temp": 4,
       "code": 1,
-      "wind": 7,
+      "wind": 5,
       "maxTemp": 7,
-      "minTemp": 3,
+      "minTemp": 2,
       "pop": 100,
       "hourly": [
         {
-          "time": "02:00",
+          "time": "03:00",
           "code": 0,
           "temp": 4,
           "pop": 100
         },
         {
-          "time": "05:00",
-          "code": 51,
-          "temp": 3,
-          "pop": 89
-        },
-        {
-          "time": "08:00",
+          "time": "06:00",
           "code": 0,
-          "temp": 4,
-          "pop": 46
+          "temp": 3,
+          "pop": 80
         },
         {
-          "time": "11:00",
+          "time": "09:00",
           "code": 1,
-          "temp": 6,
-          "pop": 36
+          "temp": 5,
+          "pop": 33
         },
         {
-          "time": "14:00",
+          "time": "12:00",
+          "code": 51,
+          "temp": 6,
+          "pop": 37
+        },
+        {
+          "time": "15:00",
           "code": 0,
           "temp": 7,
-          "pop": 20
+          "pop": 12
         },
         {
-          "time": "17:00",
+          "time": "18:00",
           "code": 0,
           "temp": 5,
-          "pop": 4
+          "pop": 2
         },
         {
-          "time": "20:00",
-          "code": 0,
+          "time": "21:00",
+          "code": 1,
           "temp": 4,
           "pop": 0
         },
         {
-          "time": "23:00",
-          "code": 0,
+          "time": "00:00",
+          "code": 1,
           "temp": 3,
           "pop": 0
         }
@@ -193,7 +193,7 @@ window.NEWS_DATA = {
           "dow": "今日",
           "code": 51,
           "maxTemp": 7,
-          "minTemp": 3,
+          "minTemp": 2,
           "pop": 100
         },
         {
@@ -253,56 +253,56 @@ window.NEWS_DATA = {
       "code": 51,
       "wind": 30,
       "maxTemp": 8,
-      "minTemp": 6,
+      "minTemp": 5,
       "pop": 100,
       "hourly": [
         {
-          "time": "02:00",
-          "code": 51,
+          "time": "03:00",
+          "code": 53,
           "temp": 6,
           "pop": 100
         },
         {
-          "time": "05:00",
-          "code": 1,
-          "temp": 7,
-          "pop": 74
+          "time": "06:00",
+          "code": 0,
+          "temp": 6,
+          "pop": 65
         },
         {
-          "time": "08:00",
+          "time": "09:00",
           "code": 51,
           "temp": 6,
-          "pop": 72
+          "pop": 78
         },
         {
-          "time": "11:00",
+          "time": "12:00",
           "code": 51,
           "temp": 7,
-          "pop": 83
+          "pop": 84
         },
         {
-          "time": "14:00",
+          "time": "15:00",
           "code": 2,
           "temp": 8,
-          "pop": 83
+          "pop": 84
         },
         {
-          "time": "17:00",
-          "code": 2,
+          "time": "18:00",
+          "code": 3,
           "temp": 8,
-          "pop": 91
+          "pop": 94
         },
         {
-          "time": "20:00",
+          "time": "21:00",
           "code": 51,
           "temp": 6,
-          "pop": 97
+          "pop": 98
         },
         {
-          "time": "23:00",
+          "time": "00:00",
           "code": 51,
           "temp": 6,
-          "pop": 99
+          "pop": 98
         }
       ],
       "daily": [
@@ -311,14 +311,14 @@ window.NEWS_DATA = {
           "dow": "今日",
           "code": 55,
           "maxTemp": 8,
-          "minTemp": 6,
+          "minTemp": 5,
           "pop": 100
         },
         {
           "date": "11/26",
           "dow": "明日",
           "code": 55,
-          "maxTemp": 15,
+          "maxTemp": 14,
           "minTemp": 6,
           "pop": 98
         },
@@ -369,66 +369,66 @@ window.NEWS_DATA = {
       "region": "北陸",
       "temp": 6,
       "code": 51,
-      "wind": 11,
-      "maxTemp": 9,
+      "wind": 10,
+      "maxTemp": 8,
       "minTemp": 6,
       "pop": 100,
       "hourly": [
         {
-          "time": "02:00",
-          "code": 53,
-          "temp": 6,
-          "pop": 100
-        },
-        {
-          "time": "05:00",
-          "code": 53,
-          "temp": 6,
-          "pop": 100
-        },
-        {
-          "time": "08:00",
-          "code": 53,
-          "temp": 6,
-          "pop": 97
-        },
-        {
-          "time": "11:00",
-          "code": 53,
-          "temp": 7,
-          "pop": 95
-        },
-        {
-          "time": "14:00",
-          "code": 55,
-          "temp": 7,
-          "pop": 92
-        },
-        {
-          "time": "17:00",
-          "code": 55,
-          "temp": 6,
-          "pop": 81
-        },
-        {
-          "time": "20:00",
+          "time": "03:00",
           "code": 51,
           "temp": 7,
-          "pop": 65
+          "pop": 100
         },
         {
-          "time": "23:00",
-          "code": 2,
-          "temp": 9,
-          "pop": 31
+          "time": "06:00",
+          "code": 51,
+          "temp": 6,
+          "pop": 100
+        },
+        {
+          "time": "09:00",
+          "code": 53,
+          "temp": 6,
+          "pop": 96
+        },
+        {
+          "time": "12:00",
+          "code": 53,
+          "temp": 7,
+          "pop": 94
+        },
+        {
+          "time": "15:00",
+          "code": 53,
+          "temp": 7,
+          "pop": 90
+        },
+        {
+          "time": "18:00",
+          "code": 55,
+          "temp": 7,
+          "pop": 75
+        },
+        {
+          "time": "21:00",
+          "code": 51,
+          "temp": 7,
+          "pop": 57
+        },
+        {
+          "time": "00:00",
+          "code": 51,
+          "temp": 8,
+          "pop": 20
         }
       ],
       "daily": [
         {
           "date": "11/25",
           "dow": "今日",
-          "code": 55,
-          "maxTemp": 9,
+          "code": 61,
+          "maxTemp": 8,
           "minTemp": 6,
           "pop": 100
         },
@@ -485,57 +485,57 @@ window.NEWS_DATA = {
     {
       "name": "東京",
       "region": "関東",
-      "temp": 10,
+      "temp": 9,
       "code": 0,
-      "wind": 13,
+      "wind": 12,
       "maxTemp": 13,
       "minTemp": 8,
       "pop": 41,
       "hourly": [
         {
-          "time": "02:00",
+          "time": "03:00",
           "code": 0,
           "temp": 10,
-          "pop": 28
+          "pop": 41
         },
         {
-          "time": "05:00",
-          "code": 0,
-          "temp": 9,
-          "pop": 23
-        },
-        {
-          "time": "08:00",
+          "time": "06:00",
           "code": 0,
           "temp": 8,
-          "pop": 2
+          "pop": 12
         },
         {
-          "time": "11:00",
+          "time": "09:00",
+          "code": 0,
+          "temp": 10,
+          "pop": 0
+        },
+        {
+          "time": "12:00",
           "code": 0,
           "temp": 12,
           "pop": 0
         },
         {
-          "time": "14:00",
-          "code": 0,
+          "time": "15:00",
+          "code": 1,
           "temp": 13,
           "pop": 0
         },
         {
-          "time": "17:00",
+          "time": "18:00",
           "code": 0,
-          "temp": 12,
-          "pop": 3
+          "temp": 11,
+          "pop": 4
         },
         {
-          "time": "20:00",
+          "time": "21:00",
           "code": 0,
-          "temp": 10,
-          "pop": 1
+          "temp": 9,
+          "pop": 0
         },
         {
-          "time": "23:00",
+          "time": "00:00",
           "code": 0,
           "temp": 8,
           "pop": 0
@@ -545,7 +545,7 @@ window.NEWS_DATA = {
         {
           "date": "11/25",
           "dow": "今日",
-          "code": 0,
+          "code": 2,
           "maxTemp": 13,
           "minTemp": 8,
           "pop": 41
@@ -605,55 +605,55 @@ window.NEWS_DATA = {
       "region": "東海",
       "temp": 7,
       "code": 1,
-      "wind": 9,
-      "maxTemp": 11,
+      "wind": 8,
+      "maxTemp": 10,
       "minTemp": 6,
       "pop": 14,
       "hourly": [
         {
-          "time": "02:00",
-          "code": 1,
+          "time": "03:00",
+          "code": 0,
           "temp": 7,
           "pop": 8
         },
         {
-          "time": "05:00",
-          "code": 0,
+          "time": "06:00",
+          "code": 1,
           "temp": 6,
-          "pop": 5
-        },
-        {
-          "time": "08:00",
-          "code": 1,
-          "temp": 7,
-          "pop": 2
-        },
-        {
-          "time": "11:00",
-          "code": 1,
-          "temp": 10,
-          "pop": 6
-        },
-        {
-          "time": "14:00",
-          "code": 1,
-          "temp": 11,
-          "pop": 13
-        },
-        {
-          "time": "17:00",
-          "code": 1,
-          "temp": 9,
           "pop": 4
         },
         {
-          "time": "20:00",
+          "time": "09:00",
+          "code": 1,
+          "temp": 8,
+          "pop": 2
+        },
+        {
+          "time": "12:00",
+          "code": 1,
+          "temp": 10,
+          "pop": 8
+        },
+        {
+          "time": "15:00",
+          "code": 2,
+          "temp": 10,
+          "pop": 14
+        },
+        {
+          "time": "18:00",
+          "code": 0,
+          "temp": 9,
+          "pop": 0
+        },
+        {
+          "time": "21:00",
           "code": 1,
           "temp": 8,
           "pop": 0
         },
         {
-          "time": "23:00",
+          "time": "00:00",
           "code": 0,
           "temp": 7,
           "pop": 0
@@ -664,7 +664,7 @@ window.NEWS_DATA = {
           "date": "11/25",
           "dow": "今日",
           "code": 2,
-          "maxTemp": 11,
+          "maxTemp": 10,
           "minTemp": 6,
           "pop": 14
         },
@@ -729,49 +729,49 @@ window.NEWS_DATA = {
       "pop": 0,
       "hourly": [
         {
-          "time": "02:00",
-          "code": 2,
-          "temp": 7,
-          "pop": 0
-        },
-        {
-          "time": "05:00",
-          "code": 1,
-          "temp": 7,
-          "pop": 0
-        },
-        {
-          "time": "08:00",
+          "time": "03:00",
           "code": 0,
           "temp": 7,
           "pop": 0
         },
         {
-          "time": "11:00",
+          "time": "06:00",
+          "code": 1,
+          "temp": 7,
+          "pop": 0
+        },
+        {
+          "time": "09:00",
+          "code": 0,
+          "temp": 8,
+          "pop": 0
+        },
+        {
+          "time": "12:00",
+          "code": 1,
+          "temp": 10,
+          "pop": 0
+        },
+        {
+          "time": "15:00",
+          "code": 1,
+          "temp": 11,
+          "pop": 0
+        },
+        {
+          "time": "18:00",
           "code": 0,
           "temp": 10,
           "pop": 0
         },
         {
-          "time": "14:00",
+          "time": "21:00",
           "code": 1,
-          "temp": 11,
+          "temp": 8,
           "pop": 0
         },
         {
-          "time": "17:00",
-          "code": 1,
-          "temp": 11,
-          "pop": 0
-        },
-        {
-          "time": "20:00",
-          "code": 0,
-          "temp": 9,
-          "pop": 0
-        },
-        {
-          "time": "23:00",
+          "time": "00:00",
           "code": 1,
           "temp": 8,
           "pop": 0
@@ -842,54 +842,54 @@ window.NEWS_DATA = {
       "temp": 6,
       "code": 1,
       "wind": 5,
-      "maxTemp": 12,
+      "maxTemp": 11,
       "minTemp": 5,
       "pop": 10,
       "hourly": [
         {
-          "time": "02:00",
-          "code": 1,
-          "temp": 6,
-          "pop": 3
-        },
-        {
-          "time": "05:00",
+          "time": "03:00",
           "code": 1,
           "temp": 6,
           "pop": 0
         },
         {
-          "time": "08:00",
+          "time": "06:00",
+          "code": 1,
+          "temp": 5,
+          "pop": 0
+        },
+        {
+          "time": "09:00",
           "code": 0,
           "temp": 6,
           "pop": 0
         },
         {
-          "time": "11:00",
-          "code": 0,
-          "temp": 9,
-          "pop": 0
-        },
-        {
-          "time": "14:00",
-          "code": 0,
-          "temp": 11,
-          "pop": 0
-        },
-        {
-          "time": "17:00",
+          "time": "12:00",
           "code": 0,
           "temp": 10,
           "pop": 0
         },
         {
-          "time": "20:00",
+          "time": "15:00",
           "code": 0,
-          "temp": 7,
+          "temp": 11,
           "pop": 0
         },
         {
-          "time": "23:00",
+          "time": "18:00",
+          "code": 0,
+          "temp": 8,
+          "pop": 0
+        },
+        {
+          "time": "21:00",
+          "code": 0,
+          "temp": 6,
+          "pop": 0
+        },
+        {
+          "time": "00:00",
           "code": 2,
           "temp": 5,
           "pop": 0
@@ -899,8 +899,8 @@ window.NEWS_DATA = {
         {
           "date": "11/25",
           "dow": "今日",
-          "code": 2,
-          "maxTemp": 12,
+          "code": 1,
+          "maxTemp": 11,
           "minTemp": 5,
           "pop": 10
         },
@@ -959,56 +959,56 @@ window.NEWS_DATA = {
       "region": "四国",
       "temp": 7,
       "code": 0,
-      "wind": 8,
+      "wind": 7,
       "maxTemp": 13,
       "minTemp": 5,
       "pop": 0,
       "hourly": [
         {
-          "time": "02:00",
+          "time": "03:00",
           "code": 0,
           "temp": 7,
           "pop": 0
         },
         {
-          "time": "05:00",
+          "time": "06:00",
           "code": 0,
-          "temp": 6,
+          "temp": 5,
           "pop": 0
         },
         {
-          "time": "08:00",
+          "time": "09:00",
           "code": 0,
-          "temp": 6,
+          "temp": 8,
           "pop": 0
         },
         {
-          "time": "11:00",
+          "time": "12:00",
           "code": 0,
-          "temp": 11,
+          "temp": 12,
           "pop": 0
         },
         {
-          "time": "14:00",
+          "time": "15:00",
           "code": 0,
           "temp": 13,
           "pop": 0
         },
         {
-          "time": "17:00",
+          "time": "18:00",
           "code": 0,
-          "temp": 11,
+          "temp": 9,
           "pop": 0
         },
         {
-          "time": "20:00",
+          "time": "21:00",
           "code": 0,
-          "temp": 7,
+          "temp": 6,
           "pop": 0
         },
         {
-          "time": "23:00",
-          "code": 0,
+          "time": "00:00",
+          "code": 1,
           "temp": 6,
           "pop": 0
         }
@@ -1017,7 +1017,7 @@ window.NEWS_DATA = {
         {
           "date": "11/25",
           "dow": "今日",
-          "code": 0,
+          "code": 2,
           "maxTemp": 13,
           "minTemp": 5,
           "pop": 0
@@ -1077,56 +1077,56 @@ window.NEWS_DATA = {
       "region": "九州",
       "temp": 7,
       "code": 1,
-      "wind": 27,
-      "maxTemp": 11,
+      "wind": 26,
+      "maxTemp": 10,
       "minTemp": 7,
       "pop": 0,
       "hourly": [
         {
-          "time": "02:00",
+          "time": "03:00",
           "code": 1,
           "temp": 7,
           "pop": 0
         },
         {
-          "time": "05:00",
+          "time": "06:00",
           "code": 1,
           "temp": 7,
           "pop": 0
         },
         {
-          "time": "08:00",
+          "time": "09:00",
           "code": 1,
-          "temp": 7,
+          "temp": 8,
           "pop": 0
         },
         {
-          "time": "11:00",
+          "time": "12:00",
           "code": 1,
           "temp": 9,
           "pop": 0
         },
         {
-          "time": "14:00",
+          "time": "15:00",
+          "code": 1,
+          "temp": 10,
+          "pop": 0
+        },
+        {
+          "time": "18:00",
+          "code": 1,
+          "temp": 10,
+          "pop": 0
+        },
+        {
+          "time": "21:00",
           "code": 2,
           "temp": 10,
           "pop": 0
         },
         {
-          "time": "17:00",
-          "code": 1,
-          "temp": 11,
-          "pop": 0
-        },
-        {
-          "time": "20:00",
-          "code": 1,
-          "temp": 10,
-          "pop": 0
-        },
-        {
-          "time": "23:00",
-          "code": 1,
+          "time": "00:00",
+          "code": 2,
           "temp": 10,
           "pop": 0
         }
@@ -1136,7 +1136,7 @@ window.NEWS_DATA = {
           "date": "11/25",
           "dow": "今日",
           "code": 2,
-          "maxTemp": 11,
+          "maxTemp": 10,
           "minTemp": 7,
           "pop": 0
         },
@@ -1145,7 +1145,7 @@ window.NEWS_DATA = {
           "dow": "明日",
           "code": 3,
           "maxTemp": 16,
-          "minTemp": 10,
+          "minTemp": 9,
           "pop": 0
         },
         {
@@ -1195,55 +1195,55 @@ window.NEWS_DATA = {
       "region": "沖縄",
       "temp": 18,
       "code": 3,
-      "wind": 24,
+      "wind": 22,
       "maxTemp": 20,
       "minTemp": 17,
       "pop": 16,
       "hourly": [
         {
-          "time": "02:00",
+          "time": "03:00",
           "code": 3,
           "temp": 18,
-          "pop": 13
+          "pop": 12
         },
         {
-          "time": "05:00",
-          "code": 3,
-          "temp": 18,
-          "pop": 5
+          "time": "06:00",
+          "code": 2,
+          "temp": 17,
+          "pop": 2
         },
         {
-          "time": "08:00",
-          "code": 3,
-          "temp": 18,
-          "pop": 0
-        },
-        {
-          "time": "11:00",
+          "time": "09:00",
           "code": 3,
           "temp": 19,
           "pop": 0
         },
         {
-          "time": "14:00",
+          "time": "12:00",
+          "code": 3,
+          "temp": 20,
+          "pop": 0
+        },
+        {
+          "time": "15:00",
           "code": 3,
           "temp": 20,
           "pop": 2
         },
         {
-          "time": "17:00",
-          "code": 3,
-          "temp": 19,
-          "pop": 1
-        },
-        {
-          "time": "20:00",
+          "time": "18:00",
           "code": 3,
           "temp": 18,
           "pop": 0
         },
         {
-          "time": "23:00",
+          "time": "21:00",
+          "code": 3,
+          "temp": 18,
+          "pop": 0
+        },
+        {
+          "time": "00:00",
           "code": 3,
           "temp": 19,
           "pop": 0
@@ -2125,23 +2125,22 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "AI秘書、中小企業に展開　伊藤忠系、自動で電話応対(共同通信)",
+      "title": "為替相場　　25日（日本時間　3時）(共同通信)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-25 02:00",
-      "publishedTs": 1795539601,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261125-00000010-kyodonews-000-2-view.jpg?exp=10800",
-      "summary": "伊藤忠商事系のコールセンター大手ベルシステム24（東京）が、生成AI（人工知能）で電話応対を自動化する「AI秘書」のサービスに乗り出すことが24日、分かった。電話をかけてきた人から用件を聞き取って担…",
+      "publishedAt": "2026-11-25 03:00",
+      "publishedTs": 1795543235,
+      "image": "https://tse2.mm.bing.net/th?q=%E7%82%BA%E6%9B%BF%E7%9B%B8%E5%A0%B4%2025%E6%97%A5&w=800&h=450&c=7&rs=1&p=0",
+      "summary": "3時現在 1ドル＝ 159円21銭～ 159円22銭 前日比 ＋0円13銭 1ユーロ＝ 174円71銭～ 174円72銭 前日比 －0円94銭…",
       "points": [
-        "伊藤忠商事系のコールセンター大手ベルシステム24（東京）が",
-        "生成AI（人工知能）で電話応対を自動化する「AI秘書」のサービスに乗り出すことが24日",
-        "分野・出典: ビジネス・経済（Yahoo!ニュース / 2026-11-25 02:00）"
+        "3時現在 1ドル＝ 159円21銭～ 159円22銭 前日比 ＋0円13銭 1ユーロ＝ 174円71銭～ 174…",
+        "分野・出典: ビジネス・経済（Yahoo!ニュース / 2026-11-25 03:00）"
       ],
-      "impact": "「AI秘書、中小企業に展開　伊藤忠系、自動で電話応対(共同」を巡るビジネス・経済分野の注目動向として今後の展開が注目されます。",
+      "impact": "「為替相場　　25日（日本時間　3時）(共同通信)」を巡るビジネス・経済分野の注目動向として今後の展開が注目されます。",
       "tags": [
         "ビジネス・経済",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/5691126b3632e311d880ac7809c2d7a55c546d7c?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/2e459d6ca9b2bf1488e8c28fbe932bdfd266fb3f?source=rss",
       "isAiEnriched": false
     },
     {
@@ -2232,23 +2231,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "ヘドリー・スタジオ、ベントレーの名車を85％スケールのバッテリEVで再現した「ベントレーブロワージュニア」納車開始(Car Watch)",
+      "title": "AI秘書、中小企業に展開　伊藤忠系、自動で電話応対(共同通信)",
       "source": "Yahoo!ニュース",
       "publishedAt": "2026-11-25 02:00",
-      "publishedTs": 1795539600,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261125-00000001-impcaw-000-1-view.jpg?exp=10800",
-      "summary": "英ヘドリー・スタジオは11月24日（現地時間）、ベントレー モーターズとの公式パートナーシップによって開発したBEV（バッテリ電気自動車）モデル「ベントレー ブロワー ジュニア（Bentley Bl…",
+      "publishedTs": 1795539601,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261125-00000010-kyodonews-000-2-view.jpg?exp=10800",
+      "summary": "伊藤忠商事系のコールセンター大手ベルシステム24（東京）が、生成AI（人工知能）で電話応対を自動化する「AI秘書」のサービスに乗り出すことが24日、分かった。電話をかけてきた人から用件を聞き取って担…",
       "points": [
-        "英ヘドリー・スタジオは11月24日（現地時間）",
-        "ベントレー モーターズとの公式パートナーシップによって開発したBEV（バッテリ電気自動車）モデル「ベントレー ブ…",
+        "伊藤忠商事系のコールセンター大手ベルシステム24（東京）が",
+        "生成AI（人工知能）で電話応対を自動化する「AI秘書」のサービスに乗り出すことが24日",
         "分野・出典: ビジネス・経済（Yahoo!ニュース / 2026-11-25 02:00）"
       ],
-      "impact": "「ヘドリー・スタジオ、ベントレーの名車を85％スケールのバ」を巡るビジネス・経済分野の注目動向として今後の展開が注目されます。",
+      "impact": "「AI秘書、中小企業に展開　伊藤忠系、自動で電話応対(共同」を巡るビジネス・経済分野の注目動向として今後の展開が注目されます。",
       "tags": [
         "ビジネス・経済",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/cf2e6cad8b43c9ddff47aba53f3ad6217d331526?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/5691126b3632e311d880ac7809c2d7a55c546d7c?source=rss",
       "isAiEnriched": false
     },
     {
@@ -2339,23 +2338,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "米アンソロピック株、公開価格割れ(共同通信)",
+      "title": "ヘドリー・スタジオ、ベントレーの名車を85％スケールのバッテリEVで再現した「ベントレーブロワージュニア」納車開始(Car Watch)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-25 00:59",
-      "publishedTs": 1795535985,
-      "image": "https://tse2.mm.bing.net/th?q=%E7%B1%B3%E3%82%A2%E3%83%B3%E3%82%BD%E3%83%AD%E3%83%94%E3%83%83%E3%82%AF%E6%A0%AA%20%E5%85%AC%E9%96%8B%E4%BE%A1%E6%A0%BC%E5%89%B2%E3%82%8C&w=800&h=450&c=7&rs=1&p=0",
-      "summary": "【ニューヨーク共同】24日のニューヨーク株式市場で、人工知能（AI）開発を手がける米アンソロピックの株価が下落して一時、18日に決めた公開価格の83ドルを初めて下回った。売りが膨らみ、一時は80ドル…",
+      "publishedAt": "2026-11-25 02:00",
+      "publishedTs": 1795539600,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261125-00000001-impcaw-000-1-view.jpg?exp=10800",
+      "summary": "英ヘドリー・スタジオは11月24日（現地時間）、ベントレー モーターズとの公式パートナーシップによって開発したBEV（バッテリ電気自動車）モデル「ベントレー ブロワー ジュニア（Bentley Bl…",
       "points": [
-        "【ニューヨーク共同】24日のニューヨーク株式市場で",
-        "人工知能（AI）開発を手がける米アンソロピックの株価が下落して一時",
-        "分野・出典: ビジネス・経済（Yahoo!ニュース / 2026-11-25 00:59）"
+        "英ヘドリー・スタジオは11月24日（現地時間）",
+        "ベントレー モーターズとの公式パートナーシップによって開発したBEV（バッテリ電気自動車）モデル「ベントレー ブ…",
+        "分野・出典: ビジネス・経済（Yahoo!ニュース / 2026-11-25 02:00）"
       ],
-      "impact": "「米アンソロピック株、公開価格割れ(共同通信)」を巡るビジネス・経済分野の注目動向として今後の展開が注目されます。",
+      "impact": "「ヘドリー・スタジオ、ベントレーの名車を85％スケールのバ」を巡るビジネス・経済分野の注目動向として今後の展開が注目されます。",
       "tags": [
         "ビジネス・経済",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/835b7c2332dab51bc30e840c931e477c5b4df52e?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/cf2e6cad8b43c9ddff47aba53f3ad6217d331526?source=rss",
       "isAiEnriched": false
     },
     {
@@ -2447,25 +2446,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "未納税回収に挑むAIエージェント「Govra」が登場",
+      "title": "米アンソロピック株、公開価格割れ(共同通信)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-25 00:05",
-      "publishedTs": 1795532700,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261125-00107963-forbes-000-1-view.jpg?exp=10800",
-      "summary": "スタートアップGovraは米国の未納税1兆ドルの回収を目指し、人手不足の税務調査を効率化するAIエージェントを開発。公平な税負担の実現に挑む。",
+      "publishedAt": "2026-11-25 00:59",
+      "publishedTs": 1795535985,
+      "image": "https://tse2.mm.bing.net/th?q=%E7%B1%B3%E3%82%A2%E3%83%B3%E3%82%BD%E3%83%AD%E3%83%94%E3%83%83%E3%82%AF%E6%A0%AA%20%E5%85%AC%E9%96%8B%E4%BE%A1%E6%A0%BC%E5%89%B2%E3%82%8C&w=800&h=450&c=7&rs=1&p=0",
+      "summary": "【ニューヨーク共同】24日のニューヨーク株式市場で、人工知能（AI）開発を手がける米アンソロピックの株価が下落して一時、18日に決めた公開価格の83ドルを初めて下回った。売りが膨らみ、一時は80ドル…",
       "points": [
-        "1兆ドル規模の未納税回収を目指す新ビジネス",
-        "税務調査の手順をAIエージェントで自動化",
-        "公平な納税環境の構築と税務署の人手不足解消"
+        "【ニューヨーク共同】24日のニューヨーク株式市場で",
+        "人工知能（AI）開発を手がける米アンソロピックの株価が下落して一時",
+        "分野・出典: ビジネス・経済（Yahoo!ニュース / 2026-11-25 00:59）"
       ],
-      "impact": "行政・税務分野へのAI導入が加速し、不公正な未払いの是正や国政の効率化に貢献しそう。",
+      "impact": "「米アンソロピック株、公開価格割れ(共同通信)」を巡るビジネス・経済分野の注目動向として今後の展開が注目されます。",
       "tags": [
-        "AI",
-        "税務",
-        "スタートアップ"
+        "ビジネス・経済",
+        "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/7118754eb6ddbc61119d9509e2a5baabbf699274?source=rss",
-      "isAiEnriched": true
+      "url": "https://news.yahoo.co.jp/articles/835b7c2332dab51bc30e840c931e477c5b4df52e?source=rss",
+      "isAiEnriched": false
     },
     {
       "category": "entertainment",
@@ -2554,24 +2552,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "建設大手創業者「AIバブルは存在しない」勝算を語る",
+      "title": "未納税回収に挑むAIエージェント「Govra」が登場",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-25 00:00",
-      "publishedTs": 1795532400,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261125-00107962-forbes-000-1-view.jpg?exp=10800",
-      "summary": "米建設大手Claycoの創業者ボブ・クラーク氏がAIバブル説を否定。データセンター建設の活況を背景に、実需に基づく事業成長への自信を明かした。",
+      "publishedAt": "2026-11-25 00:05",
+      "publishedTs": 1795532700,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261125-00107963-forbes-000-1-view.jpg?exp=10800",
+      "summary": "スタートアップGovraは米国の未納税1兆ドルの回収を目指し、人手不足の税務調査を効率化するAIエージェントを開発。公平な税負担の実現に挑む。",
       "points": [
-        "Clayco創業者が「AIバブル説」を真っ向から否定",
-        "データセンターなどの巨大インフラ建設が急増",
-        "実態を伴うAI需要の底堅さを強調する経営戦略"
+        "1兆ドル規模の未納税回収を目指す新ビジネス",
+        "税務調査の手順をAIエージェントで自動化",
+        "公平な納税環境の構築と税務署の人手不足解消"
       ],
-      "impact": "株式市場におけるAIバブル懸念を払拭し、データセンター関連企業や建設産業への投資が再評価される。",
+      "impact": "行政・税務分野へのAI導入が加速し、不公正な未払いの是正や国政の効率化に貢献しそう。",
       "tags": [
-        "AIバブル",
-        "データセンター",
-        "ビジネス"
+        "AI",
+        "税務",
+        "スタートアップ"
       ],
-      "url": "https://news.yahoo.co.jp/articles/bbad64be36aa264ab3d3a232fc7913dcbc2c2c00?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/7118754eb6ddbc61119d9509e2a5baabbf699274?source=rss",
       "isAiEnriched": true
     },
     {
@@ -2662,24 +2660,25 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "「ナーズ」の人気コレクションから新感覚テクスチャーグロスが登場　透明感あふれるモダンな5色をラインアップ(WWDJAPAN.com)",
+      "title": "建設大手創業者「AIバブルは存在しない」勝算を語る",
       "source": "Yahoo!ニュース",
       "publishedAt": "2026-11-25 00:00",
       "publishedTs": 1795532400,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261125-02557996-wwdjapan-000-1-view.jpg?exp=10800",
-      "summary": "「ナーズ（NARS）」は2027年1月15日、カラーとケアの両方を兼ね備えた人気の“アフターグロー”コレクションから贅沢な潤いと高いケア効果を備えた唇用美容液“アフターグロー リップジュレ”（全5色…",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261125-00107962-forbes-000-1-view.jpg?exp=10800",
+      "summary": "米建設大手Claycoの創業者ボブ・クラーク氏がAIバブル説を否定。データセンター建設の活況を背景に、実需に基づく事業成長への自信を明かした。",
       "points": [
-        "「ナーズ（NARS）」は2027年1月15日",
-        "カラーとケアの両方を兼ね備えた人気の“アフターグロー”コレクションから贅沢な潤いと高いケア効果を備えた唇用美容液…",
-        "分野・出典: ビジネス・経済（Yahoo!ニュース / 2026-11-25 00:00）"
+        "Clayco創業者が「AIバブル説」を真っ向から否定",
+        "データセンターなどの巨大インフラ建設が急増",
+        "実態を伴うAI需要の底堅さを強調する経営戦略"
       ],
-      "impact": "「「ナーズ」の人気コレクションから新感覚テクスチャーグロス」を巡るビジネス・経済分野の注目動向として今後の展開が注目されます。",
+      "impact": "株式市場におけるAIバブル懸念を払拭し、データセンター関連企業や建設産業への投資が再評価される。",
       "tags": [
-        "ビジネス・経済",
-        "Yahoo!ニュース"
+        "AIバブル",
+        "データセンター",
+        "ビジネス"
       ],
-      "url": "https://news.yahoo.co.jp/articles/ca2014366c7acdc6ebe8040878467b9943c76246?source=rss",
-      "isAiEnriched": false
+      "url": "https://news.yahoo.co.jp/articles/bbad64be36aa264ab3d3a232fc7913dcbc2c2c00?source=rss",
+      "isAiEnriched": true
     },
     {
       "category": "entertainment",
@@ -2769,23 +2768,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "NY株、続伸して始まる(共同通信)",
+      "title": "「ナーズ」の人気コレクションから新感覚テクスチャーグロスが登場　透明感あふれるモダンな5色をラインアップ(WWDJAPAN.com)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-24 23:55",
-      "publishedTs": 1795532136,
-      "image": "https://tse2.mm.bing.net/th?q=NY%E6%A0%AA%20%E7%B6%9A%E4%BC%B8%E3%81%97%E3%81%A6%E5%A7%8B%E3%81%BE%E3%82%8B&w=800&h=450&c=7&rs=1&p=0",
-      "summary": "【ニューヨーク共同】24日のニューヨーク株式市場のダウ工業株30種平均は続伸し、午前9時45分現在は前日比180.69ドル高の4万9776.00ドルを付けた。",
+      "publishedAt": "2026-11-25 00:00",
+      "publishedTs": 1795532400,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261125-02557996-wwdjapan-000-1-view.jpg?exp=10800",
+      "summary": "「ナーズ（NARS）」は2027年1月15日、カラーとケアの両方を兼ね備えた人気の“アフターグロー”コレクションから贅沢な潤いと高いケア効果を備えた唇用美容液“アフターグロー リップジュレ”（全5色…",
       "points": [
-        "【ニューヨーク共同】24日のニューヨーク株式市場のダウ工業株30種平均は続伸し",
-        "午前9時45分現在は前日比180.69ドル高の4万9776.00ドルを付けた",
-        "分野・出典: ビジネス・経済（Yahoo!ニュース / 2026-11-24 23:55）"
+        "「ナーズ（NARS）」は2027年1月15日",
+        "カラーとケアの両方を兼ね備えた人気の“アフターグロー”コレクションから贅沢な潤いと高いケア効果を備えた唇用美容液…",
+        "分野・出典: ビジネス・経済（Yahoo!ニュース / 2026-11-25 00:00）"
       ],
-      "impact": "「NY株、続伸して始まる(共同通信)」を巡るビジネス・経済分野の注目動向として今後の展開が注目されます。",
+      "impact": "「「ナーズ」の人気コレクションから新感覚テクスチャーグロス」を巡るビジネス・経済分野の注目動向として今後の展開が注目されます。",
       "tags": [
         "ビジネス・経済",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/a13eb2fff9b7860eb0cf6c0e7fb4ed495faf6c97?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/ca2014366c7acdc6ebe8040878467b9943c76246?source=rss",
       "isAiEnriched": false
     },
     {
@@ -2876,23 +2875,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "令和アカウンティングHD、2期連続｢増配｣を発表し、配当利回り4.4％に！ 年間配当は2年で1.5倍に増加、2027年3月期は前期比5円増の｢1株あたり37.5円｣に(ダイヤモンド・ザイ)",
+      "title": "NY株、続伸して始まる(共同通信)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-24 23:35",
-      "publishedTs": 1795530925,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-02076013-dzai-000-1-view.jpg?exp=10800",
-      "summary": "令和アカウンティング・ホールディングスは、2027年3月期の配当予想を修正し、前期比および前回予想比で「増配」とする予想を、2026年11月24日の11時30分に発表した。これにより、令和アカウンテ…",
+      "publishedAt": "2026-11-24 23:55",
+      "publishedTs": 1795532136,
+      "image": "https://tse2.mm.bing.net/th?q=NY%E6%A0%AA%20%E7%B6%9A%E4%BC%B8%E3%81%97%E3%81%A6%E5%A7%8B%E3%81%BE%E3%82%8B&w=800&h=450&c=7&rs=1&p=0",
+      "summary": "【ニューヨーク共同】24日のニューヨーク株式市場のダウ工業株30種平均は続伸し、午前9時45分現在は前日比180.69ドル高の4万9776.00ドルを付けた。",
       "points": [
-        "令和アカウンティング・ホールディングスは",
-        "2027年3月期の配当予想を修正し",
-        "分野・出典: ビジネス・経済（Yahoo!ニュース / 2026-11-24 23:35）"
+        "【ニューヨーク共同】24日のニューヨーク株式市場のダウ工業株30種平均は続伸し",
+        "午前9時45分現在は前日比180.69ドル高の4万9776.00ドルを付けた",
+        "分野・出典: ビジネス・経済（Yahoo!ニュース / 2026-11-24 23:55）"
       ],
-      "impact": "「令和アカウンティングHD、2期連続｢増配｣を発表し、配当」を巡るビジネス・経済分野の注目動向として今後の展開が注目されます。",
+      "impact": "「NY株、続伸して始まる(共同通信)」を巡るビジネス・経済分野の注目動向として今後の展開が注目されます。",
       "tags": [
         "ビジネス・経済",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/b9d223919f0d2f455d6e6741d538121a4702930f?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/a13eb2fff9b7860eb0cf6c0e7fb4ed495faf6c97?source=rss",
       "isAiEnriched": false
     },
     {
@@ -2983,23 +2982,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "NHK受信料減収歯止めかからず　7年連続、事業収入は7年ぶり増　令和8年度中間決算(産経新聞)",
+      "title": "令和アカウンティングHD、2期連続｢増配｣を発表し、配当利回り4.4％に！ 年間配当は2年で1.5倍に増加、2027年3月期は前期比5円増の｢1株あたり37.5円｣に(ダイヤモンド・ザイ)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-24 23:31",
-      "publishedTs": 1795530697,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-00000176-san-000-1-view.jpg?exp=10800",
-      "summary": "NHKは24日、令和8年度中間決算の概要を発表した。事業収入は3067億円で前年度同期比3億円増え、7年ぶりの増収となったが、うち大半を占める受信料収入は2907億円（同19億円減）で、7年連続で減…",
+      "publishedAt": "2026-11-24 23:35",
+      "publishedTs": 1795530925,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-02076013-dzai-000-1-view.jpg?exp=10800",
+      "summary": "令和アカウンティング・ホールディングスは、2027年3月期の配当予想を修正し、前期比および前回予想比で「増配」とする予想を、2026年11月24日の11時30分に発表した。これにより、令和アカウンテ…",
       "points": [
-        "令和8年度中間決算の概要を発表した",
-        "事業収入は3067億円で前年度同期比3億円増え",
-        "分野・出典: ビジネス・経済（Yahoo!ニュース / 2026-11-24 23:31）"
+        "令和アカウンティング・ホールディングスは",
+        "2027年3月期の配当予想を修正し",
+        "分野・出典: ビジネス・経済（Yahoo!ニュース / 2026-11-24 23:35）"
       ],
-      "impact": "「NHK受信料減収歯止めかからず　7年連続、事業収入は7年」を巡るビジネス・経済分野の注目動向として今後の展開が注目されます。",
+      "impact": "「令和アカウンティングHD、2期連続｢増配｣を発表し、配当」を巡るビジネス・経済分野の注目動向として今後の展開が注目されます。",
       "tags": [
         "ビジネス・経済",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/cf8141f0634d21cb77b065afde7289d4a05021e8?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/b9d223919f0d2f455d6e6741d538121a4702930f?source=rss",
       "isAiEnriched": false
     },
     {
@@ -3091,25 +3090,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "死亡保険金の節税対策！契約形態で変わる贈与税と相続税の違い",
+      "title": "NHK受信料減収歯止めかからず　7年連続、事業収入は7年ぶり増　令和8年度中間決算(産経新聞)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-24 23:05",
-      "publishedTs": 1795529134,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-90001007-toushin-000-1-view.jpg?exp=10800",
-      "summary": "死亡保険金1000万円を受け取る際、保険料の負担者が誰かによって課税される税金の種類や金額が大きく異なります。契約内容を見直すことで節税につながる可能性があります。",
+      "publishedAt": "2026-11-24 23:31",
+      "publishedTs": 1795530697,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-00000176-san-000-1-view.jpg?exp=10800",
+      "summary": "NHKは24日、令和8年度中間決算の概要を発表した。事業収入は3067億円で前年度同期比3億円増え、7年ぶりの増収となったが、うち大半を占める受信料収入は2907億円（同19億円減）で、7年連続で減…",
       "points": [
-        "受け取り人ごとの課税対象の違い",
-        "負担者の違いによる贈与税発生の仕組み",
-        "節税効果を高める契約見直しポイント"
+        "令和8年度中間決算の概要を発表した",
+        "事業収入は3067億円で前年度同期比3億円増え",
+        "分野・出典: ビジネス・経済（Yahoo!ニュース / 2026-11-24 23:31）"
       ],
-      "impact": "生命保険の受取人設定を見直すことで、将来発生する税金を大幅に節約し資産を残す手がかりになります。",
+      "impact": "「NHK受信料減収歯止めかからず　7年連続、事業収入は7年」を巡るビジネス・経済分野の注目動向として今後の展開が注目されます。",
       "tags": [
-        "生命保険",
-        "贈与税",
-        "節税"
+        "ビジネス・経済",
+        "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/46727c86226a0f5e4c43788b104a50f750490914?source=rss",
-      "isAiEnriched": true
+      "url": "https://news.yahoo.co.jp/articles/cf8141f0634d21cb77b065afde7289d4a05021e8?source=rss",
+      "isAiEnriched": false
     },
     {
       "category": "entertainment",
@@ -3201,24 +3199,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "ニューヨーク円相場は1ドル＝159円台前半に反落して取引開始",
+      "title": "死亡保険金の節税対策！契約形態で変わる贈与税と相続税の違い",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-24 23:03",
-      "publishedTs": 1795529004,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-00000223-kyodonews-000-3-view.jpg?pri=l&w=593&h=640&exp=10800",
-      "summary": "24日のニューヨーク外国為替市場で、円相場は前日比15銭円安ドル高の1ドル＝159円11～21銭で取引が始まりました。ユーロに対してもやや円安傾向が進む展開となっています。",
+      "publishedAt": "2026-11-24 23:05",
+      "publishedTs": 1795529134,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-90001007-toushin-000-1-view.jpg?exp=10800",
+      "summary": "死亡保険金1000万円を受け取る際、保険料の負担者が誰かによって課税される税金の種類や金額が大きく異なります。契約内容を見直すことで節税につながる可能性があります。",
       "points": [
-        "ニューヨーク市場で円安ドル高が進行",
-        "1ドル＝159円11～21銭で推移",
-        "対ユーロでも円安水準を維持"
+        "受け取り人ごとの課税対象の違い",
+        "負担者の違いによる贈与税発生の仕組み",
+        "節税効果を高める契約見直しポイント"
       ],
-      "impact": "円安水準の長期化は輸入コスト上昇を通じて国内物価へ影響を与える一方、輸出企業には追い風となります。",
+      "impact": "生命保険の受取人設定を見直すことで、将来発生する税金を大幅に節約し資産を残す手がかりになります。",
       "tags": [
-        "円相場",
-        "為替市場",
-        "円安"
+        "生命保険",
+        "贈与税",
+        "節税"
       ],
-      "url": "https://news.yahoo.co.jp/articles/ecfa289f96c3c3d33e0e21dd59e36d5956b4ae78?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/46727c86226a0f5e4c43788b104a50f750490914?source=rss",
       "isAiEnriched": true
     },
     {
@@ -3311,24 +3309,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "NY円相場、1ドル＝159円11～21銭で取引進行中",
+      "title": "ニューヨーク円相場は1ドル＝159円台前半に反落して取引開始",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-24 22:47",
-      "publishedTs": 1795528023,
-      "image": "https://tse2.mm.bing.net/th?q=NY%E5%86%86%20159%E5%86%8611%EF%BD%9E21%E9%8A%AD&w=800&h=450&c=7&rs=1&p=0",
-      "summary": "24日のニューヨーク外国為替市場における円相場は、前日比で15銭ほど円安ドル高傾向となり、1ドル＝159円11～21銭付近で推移しています。小幅な値動きが継続しています。",
+      "publishedAt": "2026-11-24 23:03",
+      "publishedTs": 1795529004,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-00000223-kyodonews-000-3-view.jpg?pri=l&w=593&h=640&exp=10800",
+      "summary": "24日のニューヨーク外国為替市場で、円相場は前日比15銭円安ドル高の1ドル＝159円11～21銭で取引が始まりました。ユーロに対してもやや円安傾向が進む展開となっています。",
       "points": [
-        "ニューヨーク外為市場で小幅な円安",
+        "ニューヨーク市場で円安ドル高が進行",
         "1ドル＝159円11～21銭で推移",
-        "米金利等の動向を見極める展開"
+        "対ユーロでも円安水準を維持"
       ],
-      "impact": "為替の膠着状態は企業の外貨建て決算や貿易取引に直接影響するため、今後の経済指標に注目が集まります。",
+      "impact": "円安水準の長期化は輸入コスト上昇を通じて国内物価へ影響を与える一方、輸出企業には追い風となります。",
       "tags": [
-        "NY円",
-        "為替",
-        "159円"
+        "円相場",
+        "為替市場",
+        "円安"
       ],
-      "url": "https://news.yahoo.co.jp/articles/f94a6b4629596b1cc7ca06e94cc13d6c61aadb56?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/ecfa289f96c3c3d33e0e21dd59e36d5956b4ae78?source=rss",
       "isAiEnriched": true
     },
     {
@@ -3421,24 +3419,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "名車ルノー5がEVとして復活！限定モデル575万円で登場",
+      "title": "NY円相場、1ドル＝159円11～21銭で取引進行中",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-24 22:30",
-      "publishedTs": 1795527055,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-00000021-bestcar-000-1-view.jpg?exp=10800",
-      "summary": "1972年誕生の名車「ルノー5」がEVとして現代に蘇りました。航続距離405kmや最新Google機能等を備え、日本再上陸の初回限定モデルは575万円で販売開始されます。",
+      "publishedAt": "2026-11-24 22:47",
+      "publishedTs": 1795528023,
+      "image": "https://tse2.mm.bing.net/th?q=NY%E5%86%86%20159%E5%86%8611%EF%BD%9E21%E9%8A%AD&w=800&h=450&c=7&rs=1&p=0",
+      "summary": "24日のニューヨーク外国為替市場における円相場は、前日比で15銭ほど円安ドル高傾向となり、1ドル＝159円11～21銭付近で推移しています。小幅な値動きが継続しています。",
       "points": [
-        "1972年の名車ルノー5がEVで再登場",
-        "航続距離405kmと最新機能を搭載",
-        "初回限定モデルは車両価格575万円"
+        "ニューヨーク外為市場で小幅な円安",
+        "1ドル＝159円11～21銭で推移",
+        "米金利等の動向を見極める展開"
       ],
-      "impact": "往年の名車デザインを取り入れた新型EVの登場は、輸入EV市場の活性化や車ファンの買い替え需要を刺激します。",
+      "impact": "為替の膠着状態は企業の外貨建て決算や貿易取引に直接影響するため、今後の経済指標に注目が集まります。",
       "tags": [
-        "ルノー5",
-        "EV",
-        "自動車"
+        "NY円",
+        "為替",
+        "159円"
       ],
-      "url": "https://news.yahoo.co.jp/articles/7d3bacbebb52d8f83e98caf11f4a82a9083c4d16?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/f94a6b4629596b1cc7ca06e94cc13d6c61aadb56?source=rss",
       "isAiEnriched": true
     },
     {
@@ -3530,24 +3528,25 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "夫婦で年収900万円の家庭、手取りは共働き「450万円ずつ」と1人稼ぎ「900万円」でこんなに違う？約38万円の差、令和8年分の税制で計算した試算(LIMO)",
+      "title": "名車ルノー5がEVとして復活！限定モデル575万円で登場",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-24 22:15",
-      "publishedTs": 1795526134,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-90001003-toushin-000-1-view.jpg?exp=10800",
-      "summary": "世帯年収900万円が同じなら、共働きでも1人稼ぎでも手取りは同じだと思われがちです。ところが、夫婦450万円ずつの共働きと1人で900万円を稼ぐ場合とでは、所得税・住民税・社会保険料のかかり方が変わ…",
+      "publishedAt": "2026-11-24 22:30",
+      "publishedTs": 1795527055,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-00000021-bestcar-000-1-view.jpg?exp=10800",
+      "summary": "1972年誕生の名車「ルノー5」がEVとして現代に蘇りました。航続距離405kmや最新Google機能等を備え、日本再上陸の初回限定モデルは575万円で販売開始されます。",
       "points": [
-        "世帯年収900万円が同じなら",
-        "共働きでも1人稼ぎでも手取りは同じだと思われがちです",
-        "分野・出典: ビジネス・経済（Yahoo!ニュース / 2026-11-24 22:15）"
+        "1972年の名車ルノー5がEVで再登場",
+        "航続距離405kmと最新機能を搭載",
+        "初回限定モデルは車両価格575万円"
       ],
-      "impact": "「夫婦で年収900万円の家庭、手取りは共働き「450万円ず」を巡るビジネス・経済分野の注目動向として今後の展開が注目されます。",
+      "impact": "往年の名車デザインを取り入れた新型EVの登場は、輸入EV市場の活性化や車ファンの買い替え需要を刺激します。",
       "tags": [
-        "ビジネス・経済",
-        "Yahoo!ニュース"
+        "ルノー5",
+        "EV",
+        "自動車"
       ],
-      "url": "https://news.yahoo.co.jp/articles/243ec76fb1cda0c8787a5d1f8b8ec2550c6ce498?source=rss",
-      "isAiEnriched": false
+      "url": "https://news.yahoo.co.jp/articles/7d3bacbebb52d8f83e98caf11f4a82a9083c4d16?source=rss",
+      "isAiEnriched": true
     },
     {
       "category": "entertainment",
@@ -3636,23 +3635,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "プジョーがWEC参戦を終了 シトロエンとオペルのフォーミュラE参戦も2027年夏終了へ(Car Watch)",
+      "title": "夫婦で年収900万円の家庭、手取りは共働き「450万円ずつ」と1人稼ぎ「900万円」でこんなに違う？約38万円の差、令和8年分の税制で計算した試算(LIMO)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-24 22:13",
-      "publishedTs": 1795525980,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-00000012-impcaw-000-1-view.jpg?exp=10800",
-      "summary": "ステランティスは11月23日（現地時間）、FIA世界選手権レベルのモータースポーツ活動を終了する意向を発表した。 今後については、ラリーカーの販売など顧客向けレース活動を支援するとともに、アルファロ…",
+      "publishedAt": "2026-11-24 22:15",
+      "publishedTs": 1795526134,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-90001003-toushin-000-1-view.jpg?exp=10800",
+      "summary": "世帯年収900万円が同じなら、共働きでも1人稼ぎでも手取りは同じだと思われがちです。ところが、夫婦450万円ずつの共働きと1人で900万円を稼ぐ場合とでは、所得税・住民税・社会保険料のかかり方が変わ…",
       "points": [
-        "ステランティスは11月23日（現地時間）",
-        "FIA世界選手権レベルのモータースポーツ活動を終了する意向を発表した",
-        "分野・出典: ビジネス・経済（Yahoo!ニュース / 2026-11-24 22:13）"
+        "世帯年収900万円が同じなら",
+        "共働きでも1人稼ぎでも手取りは同じだと思われがちです",
+        "分野・出典: ビジネス・経済（Yahoo!ニュース / 2026-11-24 22:15）"
       ],
-      "impact": "「プジョーがWEC参戦を終了 シトロエンとオペルのフォーミ」を巡るビジネス・経済分野の注目動向として今後の展開が注目されます。",
+      "impact": "「夫婦で年収900万円の家庭、手取りは共働き「450万円ず」を巡るビジネス・経済分野の注目動向として今後の展開が注目されます。",
       "tags": [
         "ビジネス・経済",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/a9143ca1d1880206a0e9a933b0c413d5505cc0eb?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/243ec76fb1cda0c8787a5d1f8b8ec2550c6ce498?source=rss",
       "isAiEnriched": false
     },
     {
@@ -3743,23 +3742,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "楽天証券　情報流出は約441万件　口座番号や自己申告の年収・金融資産情報など(テレビ朝日系（ANN）)",
+      "title": "プジョーがWEC参戦を終了 シトロエンとオペルのフォーミュラE参戦も2027年夏終了へ(Car Watch)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-24 22:10",
-      "publishedTs": 1795525855,
-      "image": "https://tse2.mm.bing.net/th?q=%E6%A5%BD%E5%A4%A9%E8%A8%BC%E5%88%B8%20%E6%83%85%E5%A0%B1%E6%B5%81%E5%87%BA%E3%81%AF%E7%B4%84441%E4%B8%87%E4%BB%B6%20%E5%8F%A3%E5%BA%A7%E7%95%AA%E5%8F%B7%E3%82%84%E8%87%AA%E5%B7%B1%E7%94%B3%E5%91%8A%E3%81%AE%E5%B9%B4%E5%8F%8E%20%E9%87%91%E8%9E%8D%E8%B3%87%E7%94%A3%E6%83%85%E5%A0%B1%E3%81%AA%E3%81%A9&w=800&h=450&c=7&rs=1&p=0",
-      "summary": "楽天証券は不正アクセスで漏洩（ろうえい）した年収や金融資産などの顧客の個人情報は約441万件だと発表しました。 楽天証券は17日、テスト環境で管理していた顧客の個人情報が外部に漏洩した恐れがあると公…",
+      "publishedAt": "2026-11-24 22:13",
+      "publishedTs": 1795525980,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-00000012-impcaw-000-1-view.jpg?exp=10800",
+      "summary": "ステランティスは11月23日（現地時間）、FIA世界選手権レベルのモータースポーツ活動を終了する意向を発表した。 今後については、ラリーカーの販売など顧客向けレース活動を支援するとともに、アルファロ…",
       "points": [
-        "楽天証券は不正アクセスで漏洩（ろうえい）した年収や金融資産などの顧客の個人情報は約441万件だと発表しました",
-        "テスト環境で管理していた顧客の個人情報が外部に漏洩した恐れがあると公",
-        "分野・出典: ビジネス・経済（Yahoo!ニュース / 2026-11-24 22:10）"
+        "ステランティスは11月23日（現地時間）",
+        "FIA世界選手権レベルのモータースポーツ活動を終了する意向を発表した",
+        "分野・出典: ビジネス・経済（Yahoo!ニュース / 2026-11-24 22:13）"
       ],
-      "impact": "「楽天証券　情報流出は約441万件　口座番号や自己申告の年」を巡るビジネス・経済分野の注目動向として今後の展開が注目されます。",
+      "impact": "「プジョーがWEC参戦を終了 シトロエンとオペルのフォーミ」を巡るビジネス・経済分野の注目動向として今後の展開が注目されます。",
       "tags": [
         "ビジネス・経済",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/c6f7fdfa3e3b9966eac933871c532907440dc4ed?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/a9143ca1d1880206a0e9a933b0c413d5505cc0eb?source=rss",
       "isAiEnriched": false
     },
     {
@@ -3850,25 +3849,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "母の遺骨移送に迷う娘の葛藤、生前の「死後離婚」希望と納骨堂80万円の壁",
+      "title": "楽天証券　情報流出は約441万件　口座番号や自己申告の年収・金融資産情報など(テレビ朝日系（ANN）)",
       "source": "Yahoo!ニュース",
       "publishedAt": "2026-11-24 22:10",
-      "publishedTs": 1795525833,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-90001001-toushin-000-1-view.jpg?exp=10800",
-      "summary": "夫方の先祖代々の墓に入りたくないと望んでいた母の死後、一時的に納骨したものの改葬費用や納骨堂の購入費80万円という現実に悩む遺族の葛藤が話題です。",
+      "publishedTs": 1795525855,
+      "image": "https://tse2.mm.bing.net/th?q=%E6%A5%BD%E5%A4%A9%E8%A8%BC%E5%88%B8%20%E6%83%85%E5%A0%B1%E6%B5%81%E5%87%BA%E3%81%AF%E7%B4%84441%E4%B8%87%E4%BB%B6%20%E5%8F%A3%E5%BA%A7%E7%95%AA%E5%8F%B7%E3%82%84%E8%87%AA%E5%B7%B1%E7%94%B3%E5%91%8A%E3%81%AE%E5%B9%B4%E5%8F%8E%20%E9%87%91%E8%9E%8D%E8%B3%87%E7%94%A3%E6%83%85%E5%A0%B1%E3%81%AA%E3%81%A9&w=800&h=450&c=7&rs=1&p=0",
+      "summary": "楽天証券は不正アクセスで漏洩（ろうえい）した年収や金融資産などの顧客の個人情報は約441万件だと発表しました。 楽天証券は17日、テスト環境で管理していた顧客の個人情報が外部に漏洩した恐れがあると公…",
       "points": [
-        "生前に「夫側の墓に入りたくない」と語っていた母の遺志",
-        "祖父母の墓へ仮納骨した後の改葬・お墓引っ越しにかかる費用",
-        "納骨堂購入など80万円規模の負担と家族内の調整問題"
+        "楽天証券は不正アクセスで漏洩（ろうえい）した年収や金融資産などの顧客の個人情報は約441万件だと発表しました",
+        "テスト環境で管理していた顧客の個人情報が外部に漏洩した恐れがあると公",
+        "分野・出典: ビジネス・経済（Yahoo!ニュース / 2026-11-24 22:10）"
       ],
-      "impact": "夫婦の死後離婚や供養スタイルの多様化に伴い、遺族が抱えるお墓の移転費用や手続きなどの実生活上のハードルを浮き彫りにしています。",
+      "impact": "「楽天証券　情報流出は約441万件　口座番号や自己申告の年」を巡るビジネス・経済分野の注目動向として今後の展開が注目されます。",
       "tags": [
-        "死後離婚",
-        "お墓問題",
-        "終活"
+        "ビジネス・経済",
+        "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/2b7b0ad8173792f2e5b6f4e452bbdf58a6bacae5?source=rss",
-      "isAiEnriched": true
+      "url": "https://news.yahoo.co.jp/articles/c6f7fdfa3e3b9966eac933871c532907440dc4ed?source=rss",
+      "isAiEnriched": false
     },
     {
       "category": "entertainment",
@@ -3893,24 +3891,25 @@ window.NEWS_DATA = {
     },
     {
       "category": "subculture",
-      "title": "あなたの年齢を当てます｜流行りの記憶で年齢当て｜KEPIGAME",
-      "source": "kepigame.com",
-      "publishedAt": "2026-11-24 02:52",
-      "publishedTs": 1795456369,
-      "image": "https://kepigame.com/images/og-nenrei.jpg",
-      "summary": "× 遊び方 昔はやったものや、学校・暮らしのこと、ことばの呼び方などが出ます。知っている度合いや、あてはまるものを選んで答えます。ときどきクイズも出ます。 答えに合わせて、その人に合った質問が出ます。知らないことが多いジャンルは、ほかのジャンルの質問に切りかわります。 知らないことや、覚えていないこと...",
+      "title": "『GTA6』で鳥類図鑑を爆速コンプするプロの鳥類学者",
+      "source": "AUTOMATON",
+      "publishedAt": "2026-11-24 15:56",
+      "publishedTs": 1795503416,
+      "image": "https://automaton-media.com/wp-content/uploads/2026/11/header-5.jpg",
+      "summary": "発売されたばかりの『グランド・セフト・オートVI』で、メインストーリーを無視して鳥類の収集を初日にコンプリートした野鳥専門家が登場。ゲーム内の生態系探求が話題です。",
       "points": [
-        "× 遊び方 昔はやったものや",
-        "ことばの呼び方などが出ます",
-        "分野・出典: サブカルチャー（kepigame.com / 2026-11-24 02:52）"
+        "『GTA6』の発売翌日に鳥類図鑑のコンプリートを達成したプレイヤーが出現",
+        "リアルな経験と知識を活かしてゲーム内の生息地を迅速に特定",
+        "ゲームの自由度の高さとプレイヤーのディープな遊び方が注目を集める"
       ],
-      "impact": "サブカルチャー分野で多くの読者に共有されている注目記事です。",
+      "impact": "オープンワールドゲームの作り込みの深さと、専門知識を持つユーザーのユニークなプレイスタイルが話題を呼んでいます。",
       "tags": [
-        "サブカルチャー",
-        "kepigame.com"
+        "GTA6",
+        "ゲーム",
+        "バードウォッチング"
       ],
-      "url": "https://kepigame.com/games/nenrei.html",
-      "isAiEnriched": false
+      "url": "https://automaton-media.com/articles/newsjp/20261124-480679/",
+      "isAiEnriched": true
     },
     {
       "category": "domestic",
@@ -3957,24 +3956,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "ホンダ「アコード」一部改良モデル発表、デザイン刷新と優れた低燃費",
+      "title": "母の遺骨移送に迷う娘の葛藤、生前の「死後離婚」希望と納骨堂80万円の壁",
       "source": "Yahoo!ニュース",
       "publishedAt": "2026-11-24 22:10",
-      "publishedTs": 1795525800,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-01144810-kurumans-000-1-view.jpg?exp=10800",
-      "summary": "ホンダの大型セダン「アコード」が外装デザインを変更し、先進の運転支援機能と優れた低燃費性能を兼ね備えた最新モデルとして注目を集めています。",
+      "publishedTs": 1795525833,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-90001001-toushin-000-1-view.jpg?exp=10800",
+      "summary": "夫方の先祖代々の墓に入りたくないと望んでいた母の死後、一時的に納骨したものの改葬費用や納骨堂の購入費80万円という現実に悩む遺族の葛藤が話題です。",
       "points": [
-        "全長5m級のファストバックスタイルを踏襲した最新セダン",
-        "外装デザインの一部変更により意匠とスポーティさを刷新",
-        "先進の安全運転支援技術と高い燃費性能を両立"
+        "生前に「夫側の墓に入りたくない」と語っていた母の遺志",
+        "祖父母の墓へ仮納骨した後の改葬・お墓引っ越しにかかる費用",
+        "納骨堂購入など80万円規模の負担と家族内の調整問題"
       ],
-      "impact": "国内・海外セダン市場における競合優位性を高め、上質な乗り心地や環境性能を求めるビジネス層やファミリー層の購買意欲を刺激します。",
+      "impact": "夫婦の死後離婚や供養スタイルの多様化に伴い、遺族が抱えるお墓の移転費用や手続きなどの実生活上のハードルを浮き彫りにしています。",
       "tags": [
-        "ホンダ",
-        "アコード",
-        "自動車"
+        "死後離婚",
+        "お墓問題",
+        "終活"
       ],
-      "url": "https://news.yahoo.co.jp/articles/e1655c1585c8a9649c5b03a5583652a0190e6bdb?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/2b7b0ad8173792f2e5b6f4e452bbdf58a6bacae5?source=rss",
       "isAiEnriched": true
     },
     {
@@ -4000,24 +3999,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "subculture",
-      "title": "『GTA6』で鳥類図鑑を爆速コンプするプロの鳥類学者",
-      "source": "AUTOMATON",
-      "publishedAt": "2026-11-24 15:56",
-      "publishedTs": 1795503416,
-      "image": "https://automaton-media.com/wp-content/uploads/2026/11/header-5.jpg",
-      "summary": "発売されたばかりの『グランド・セフト・オートVI』で、メインストーリーを無視して鳥類の収集を初日にコンプリートした野鳥専門家が登場。ゲーム内の生態系探求が話題です。",
+      "title": "ユニバースプロダクション、新規ご当地VTuberオーディション開催",
+      "source": "PANORA",
+      "publishedAt": "2026-11-24 17:56",
+      "publishedTs": 1795510575,
+      "image": "https://asset.panora.tokyo/wp-content/uploads/2026/11/24175607/115621-24-86a4669da0fc9e54429807a9d4739cb8-1920x1080-1.webp",
+      "summary": "ご当地VTuber特化型の「ユニバースプロダクション」が、新規タレントプロジェクトのオーディションを開始した。応募締切は2025年1月4日まで。",
       "points": [
-        "『GTA6』の発売翌日に鳥類図鑑のコンプリートを達成したプレイヤーが出現",
-        "リアルな経験と知識を活かしてゲーム内の生息地を迅速に特定",
-        "ゲームの自由度の高さとプレイヤーのディープな遊び方が注目を集める"
+        "ご当地VTuberに特化した事務所が新タレントを募集",
+        "地域活性化や地域発信を担うバーチャルタレントを発掘",
+        "応募の締め切りは2025年1月4日までとなっている"
       ],
-      "impact": "オープンワールドゲームの作り込みの深さと、専門知識を持つユーザーのユニークなプレイスタイルが話題を呼んでいます。",
+      "impact": "地方創生やローカルアイドルに続く新たなご当地エンタメの創出として注目されます。",
       "tags": [
-        "GTA6",
-        "ゲーム",
-        "バードウォッチング"
+        "VTuber",
+        "オーディション",
+        "ご当地"
       ],
-      "url": "https://automaton-media.com/articles/newsjp/20261124-480679/",
+      "url": "https://panora.tokyo/archives/164264",
       "isAiEnriched": true
     },
     {
@@ -4065,24 +4064,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "パネライ新作「サブマーシブル」発表、左リューズ＆50気圧防水仕様",
+      "title": "ホンダ「アコード」一部改良モデル発表、デザイン刷新と優れた低燃費",
       "source": "Yahoo!ニュース",
       "publishedAt": "2026-11-24 22:10",
       "publishedTs": 1795525800,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-10477975-vague-000-1-view.jpg?exp=10800",
-      "summary": "パネライよりイタリア海軍の軍用時計の意匠を取り入れた「サブマーシブル マリーナミリターレ デストロ」が登場。左リューズと50気圧防水が特徴です。",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-01144810-kurumans-000-1-view.jpg?exp=10800",
+      "summary": "ホンダの大型セダン「アコード」が外装デザインを変更し、先進の運転支援機能と優れた低燃費性能を兼ね備えた最新モデルとして注目を集めています。",
       "points": [
-        "イタリア海軍との歴史的背景を持つ左リューズ（デストロ）仕様",
-        "日付表示のないノンデイトデザインと50気圧の高い防水性能",
-        "ケース裏蓋には特殊潜水艇のエングレービングが施される"
+        "全長5m級のファストバックスタイルを踏襲した最新セダン",
+        "外装デザインの一部変更により意匠とスポーティさを刷新",
+        "先進の安全運転支援技術と高い燃費性能を両立"
       ],
-      "impact": "本格派ダイバーズウォッチを求めるコレクターや高級時計市場において、ヴィンテージ感と実用性を兼ね備えた注目作となります。",
+      "impact": "国内・海外セダン市場における競合優位性を高め、上質な乗り心地や環境性能を求めるビジネス層やファミリー層の購買意欲を刺激します。",
       "tags": [
-        "パネライ",
-        "高級時計",
-        "ファッション"
+        "ホンダ",
+        "アコード",
+        "自動車"
       ],
-      "url": "https://news.yahoo.co.jp/articles/65469026cb7320f6805671788097bac9b61d4a37?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/e1655c1585c8a9649c5b03a5583652a0190e6bdb?source=rss",
       "isAiEnriched": true
     },
     {
@@ -4108,24 +4107,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "subculture",
-      "title": "ユニバースプロダクション、新規ご当地VTuberオーディション開催",
-      "source": "PANORA",
-      "publishedAt": "2026-11-24 17:56",
-      "publishedTs": 1795510575,
-      "image": "https://asset.panora.tokyo/wp-content/uploads/2026/11/24175607/115621-24-86a4669da0fc9e54429807a9d4739cb8-1920x1080-1.webp",
-      "summary": "ご当地VTuber特化型の「ユニバースプロダクション」が、新規タレントプロジェクトのオーディションを開始した。応募締切は2025年1月4日まで。",
+      "title": "『アフターゴッド』移籍で判明、コメント欄のNGワード設定が波紋",
+      "source": "togetter.com",
+      "publishedAt": "2026-11-24 16:18",
+      "publishedTs": 1795504687,
+      "image": "https://s.tgstc.com/ogp3/4449846ec6d2f28a11482bfdf31ef819-1200x630.jpeg",
+      "summary": "マンガワンで連載されていた作品の移籍告知をきっかけに、同アプリのコメント欄で出版社のトラブルに関連する言葉がNGワード設定されていたことが明らかになりました。",
       "points": [
-        "ご当地VTuberに特化した事務所が新タレントを募集",
-        "地域活性化や地域発信を担うバーチャルタレントを発掘",
-        "応募の締め切りは2025年1月4日までとなっている"
+        "『アフターゴッド』作者が他媒体への移籍を発表",
+        "移籍理由の背景として掲載誌側の問題事案を指摘",
+        "アプリのコメント欄で関連ワードが言論統制状態に"
       ],
-      "impact": "地方創生やローカルアイドルに続く新たなご当地エンタメの創出として注目されます。",
+      "impact": "Web漫画プラットフォームの運営体制や作家の労働環境に対する不信感が高まり、読者や業界内での議論に発展しています。",
       "tags": [
-        "VTuber",
-        "オーディション",
-        "ご当地"
+        "漫画",
+        "サブカル",
+        "出版"
       ],
-      "url": "https://panora.tokyo/archives/164264",
+      "url": "https://togetter.com/li/2774381",
       "isAiEnriched": true
     },
     {
@@ -4172,24 +4171,25 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "四国電力の平均年収は1年で6.9％増、大手電力10社で上げ幅トップ。家庭の電気代は9月に月1万1886円で前年より14.0％減(LIMO)",
+      "title": "パネライ新作「サブマーシブル」発表、左リューズ＆50気圧防水仕様",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-24 22:05",
-      "publishedTs": 1795525533,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-90001000-toushin-000-1-view.jpg?exp=10800",
-      "summary": "各社の有価証券報告書によると、2026年3月期の大手電力10社の平均年間給与は、中部電力の945万2983円が最も高くなりました。前の期より上がったのは9社で、四国電力は56万2374円（6.9％）",
+      "publishedAt": "2026-11-24 22:10",
+      "publishedTs": 1795525800,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-10477975-vague-000-1-view.jpg?exp=10800",
+      "summary": "パネライよりイタリア海軍の軍用時計の意匠を取り入れた「サブマーシブル マリーナミリターレ デストロ」が登場。左リューズと50気圧防水が特徴です。",
       "points": [
-        "各社の有価証券報告書によると",
-        "2026年3月期の大手電力10社の平均年間給与は",
-        "分野・出典: ビジネス・経済（Yahoo!ニュース / 2026-11-24 22:05）"
+        "イタリア海軍との歴史的背景を持つ左リューズ（デストロ）仕様",
+        "日付表示のないノンデイトデザインと50気圧の高い防水性能",
+        "ケース裏蓋には特殊潜水艇のエングレービングが施される"
       ],
-      "impact": "「四国電力の平均年収は1年で6.9％増、大手電力10社で上」を巡るビジネス・経済分野の注目動向として今後の展開が注目されます。",
+      "impact": "本格派ダイバーズウォッチを求めるコレクターや高級時計市場において、ヴィンテージ感と実用性を兼ね備えた注目作となります。",
       "tags": [
-        "ビジネス・経済",
-        "Yahoo!ニュース"
+        "パネライ",
+        "高級時計",
+        "ファッション"
       ],
-      "url": "https://news.yahoo.co.jp/articles/14412484c4d70853bf1939e69bd89329be7426e9?source=rss",
-      "isAiEnriched": false
+      "url": "https://news.yahoo.co.jp/articles/65469026cb7320f6805671788097bac9b61d4a37?source=rss",
+      "isAiEnriched": true
     },
     {
       "category": "entertainment",
@@ -4214,24 +4214,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "subculture",
-      "title": "『アフターゴッド』移籍で判明、コメント欄のNGワード設定が波紋",
-      "source": "togetter.com",
-      "publishedAt": "2026-11-24 16:18",
-      "publishedTs": 1795504687,
-      "image": "https://s.tgstc.com/ogp3/4449846ec6d2f28a11482bfdf31ef819-1200x630.jpeg",
-      "summary": "マンガワンで連載されていた作品の移籍告知をきっかけに、同アプリのコメント欄で出版社のトラブルに関連する言葉がNGワード設定されていたことが明らかになりました。",
+      "title": "Steam終末ホラー『Leviathan: Rhino』日本語改善アプデ配信",
+      "source": "AUTOMATON",
+      "publishedAt": "2026-11-24 14:50",
+      "publishedTs": 1795499402,
+      "image": "https://automaton-media.com/wp-content/uploads/2026/11/20261124-480622-header.jpg",
+      "summary": "PC向けに配信中の心理的ホラーウォーキングシミュレーション『Leviathan: Rhino』がアップデートを実施し、日本語表示の改善が行われました。",
       "points": [
-        "『アフターゴッド』作者が他媒体への移籍を発表",
-        "移籍理由の背景として掲載誌側の問題事案を指摘",
-        "アプリのコメント欄で関連ワードが言論統制状態に"
+        "心理的ホラーウォーキングシミュレーションの最新アプデ",
+        "巨大なリヴァイアサンが迫る村での老人の6日間を描く",
+        "日本語環境の改善により一層没入感のあるプレイが可能に"
       ],
-      "impact": "Web漫画プラットフォームの運営体制や作家の労働環境に対する不信感が高まり、読者や業界内での議論に発展しています。",
+      "impact": "インディーゲームのローカライズ改善により、日本のSteamユーザーがより快適に独特な世界観やストーリーを楽しめるようになります。",
       "tags": [
-        "漫画",
-        "サブカル",
-        "出版"
+        "Steam",
+        "インディーゲーム",
+        "ホラー"
       ],
-      "url": "https://togetter.com/li/2774381",
+      "url": "https://automaton-media.com/articles/newsjp/20261124-480622/",
       "isAiEnriched": true
     },
     {
@@ -4278,23 +4278,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "親のNISA、認知症になったらどうなる？判断能力が落ちると取引できず、売却は原則成年後見が必要。証券会社の新しい「家族サポート証券口座」とは(LIMO)",
+      "title": "四国電力の平均年収は1年で6.9％増、大手電力10社で上げ幅トップ。家庭の電気代は9月に月1万1886円で前年より14.0％減(LIMO)",
       "source": "Yahoo!ニュース",
       "publishedAt": "2026-11-24 22:05",
       "publishedTs": 1795525533,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-90000999-toushin-000-1-view.jpg?exp=10800",
-      "summary": "NISAの口座数は2026年6月末時点で約3048万口座にのぼり、このうち70歳代以上が484万口座を占めます。高齢の親がNISAで投資信託や株式を持っている、という家庭も少なくないでしょう。◆【比…",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-90001000-toushin-000-1-view.jpg?exp=10800",
+      "summary": "各社の有価証券報告書によると、2026年3月期の大手電力10社の平均年間給与は、中部電力の945万2983円が最も高くなりました。前の期より上がったのは9社で、四国電力は56万2374円（6.9％）",
       "points": [
-        "NISAの口座数は2026年6月末時点で約3048万口座にのぼり",
-        "このうち70歳代以上が484万口座を占めます",
+        "各社の有価証券報告書によると",
+        "2026年3月期の大手電力10社の平均年間給与は",
         "分野・出典: ビジネス・経済（Yahoo!ニュース / 2026-11-24 22:05）"
       ],
-      "impact": "「親のNISA、認知症になったらどうなる？判断能力が落ちる」を巡るビジネス・経済分野の注目動向として今後の展開が注目されます。",
+      "impact": "「四国電力の平均年収は1年で6.9％増、大手電力10社で上」を巡るビジネス・経済分野の注目動向として今後の展開が注目されます。",
       "tags": [
         "ビジネス・経済",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/fd6f8b2631f82e0515a33a162d5b66f463675c33?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/14412484c4d70853bf1939e69bd89329be7426e9?source=rss",
       "isAiEnriched": false
     },
     {
@@ -4320,25 +4320,25 @@ window.NEWS_DATA = {
     },
     {
       "category": "subculture",
-      "title": "Steam終末ホラー『Leviathan: Rhino』日本語改善アプデ配信",
-      "source": "AUTOMATON",
-      "publishedAt": "2026-11-24 14:50",
-      "publishedTs": 1795499402,
-      "image": "https://automaton-media.com/wp-content/uploads/2026/11/20261124-480622-header.jpg",
-      "summary": "PC向けに配信中の心理的ホラーウォーキングシミュレーション『Leviathan: Rhino』がアップデートを実施し、日本語表示の改善が行われました。",
+      "title": "Avivi所属VTuber「葉月絃」が「2026年10月Avvy月間ランキング」にて月間コアサポーター数1位を獲得",
+      "source": "PANORA",
+      "publishedAt": "2026-11-24 17:53",
+      "publishedTs": 1795510423,
+      "image": "https://asset.panora.tokyo/wp-content/uploads/2026/11/24175333/34708-139-c375d586fe4de80e4dd05e26725367f0-1920x1280-1.webp",
+      "summary": "OTAGROUP株式会社 OTAGROUP株式会社（代表取締役：下西 竜二）は誰でもスマホ１つで2Dアバターを作成でき、そのまま簡単にライブ配信を始められるVTuberアバター作成・配信アプリ「Avvy」提携コミュニティ The post Avivi所属VTuber「葉月絃」が「2026年10月Avvy月間…",
       "points": [
-        "心理的ホラーウォーキングシミュレーションの最新アプデ",
-        "巨大なリヴァイアサンが迫る村での老人の6日間を描く",
-        "日本語環境の改善により一層没入感のあるプレイが可能に"
+        "OTAGROUP株式会社 OTAGROUP株式会社（代表取締役：下西 竜二）は誰でもスマホ１つで2Dアバターを作…",
+        "そのまま簡単にライブ配信を始められるVTuberアバター作成・配信アプリ「Avvy」提携コミュニティ The p…",
+        "分野・出典: サブカルチャー（PANORA / 2026-11-24 17:53）"
       ],
-      "impact": "インディーゲームのローカライズ改善により、日本のSteamユーザーがより快適に独特な世界観やストーリーを楽しめるようになります。",
+      "impact": "「Avivi所属VTuber「葉月絃」が「2026年10月」を巡るサブカルチャー分野の注目動向として今後の展開が注目されます。",
       "tags": [
-        "Steam",
-        "インディーゲーム",
-        "ホラー"
+        "サブカルチャー",
+        "Vtuber",
+        "PANORA"
       ],
-      "url": "https://automaton-media.com/articles/newsjp/20261124-480622/",
-      "isAiEnriched": true
+      "url": "https://panora.tokyo/archives/164259",
+      "isAiEnriched": false
     },
     {
       "category": "domestic",
@@ -4384,23 +4384,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "65〜69歳で働きながら厚生年金に入っている人、12月15日の振込から年金が増える？標準報酬月額「20万円」なら1年で約1万3154円、「40万円」なら約2万6309円の増額（試算）(LIMO)",
+      "title": "親のNISA、認知症になったらどうなる？判断能力が落ちると取引できず、売却は原則成年後見が必要。証券会社の新しい「家族サポート証券口座」とは(LIMO)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-24 22:00",
-      "publishedTs": 1795525234,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-90000997-toushin-000-1-view.jpg?exp=10800",
-      "summary": "65歳を過ぎても会社員として働き、厚生年金に入っている人は、12月15日（火）に振り込まれる年金が、10月の振込より少し増えることがあります。65歳以上70歳未満で9月1日に厚生年金に加入していた人…",
+      "publishedAt": "2026-11-24 22:05",
+      "publishedTs": 1795525533,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-90000999-toushin-000-1-view.jpg?exp=10800",
+      "summary": "NISAの口座数は2026年6月末時点で約3048万口座にのぼり、このうち70歳代以上が484万口座を占めます。高齢の親がNISAで投資信託や株式を持っている、という家庭も少なくないでしょう。◆【比…",
       "points": [
-        "65歳を過ぎても会社員として働き",
-        "厚生年金に入っている人は",
-        "分野・出典: ビジネス・経済（Yahoo!ニュース / 2026-11-24 22:00）"
+        "NISAの口座数は2026年6月末時点で約3048万口座にのぼり",
+        "このうち70歳代以上が484万口座を占めます",
+        "分野・出典: ビジネス・経済（Yahoo!ニュース / 2026-11-24 22:05）"
       ],
-      "impact": "「65〜69歳で働きながら厚生年金に入っている人、12月1」を巡るビジネス・経済分野の注目動向として今後の展開が注目されます。",
+      "impact": "「親のNISA、認知症になったらどうなる？判断能力が落ちる」を巡るビジネス・経済分野の注目動向として今後の展開が注目されます。",
       "tags": [
         "ビジネス・経済",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/80718e50011b59042b8ac93a13f785c19a86acbe?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/fd6f8b2631f82e0515a33a162d5b66f463675c33?source=rss",
       "isAiEnriched": false
     },
     {
@@ -4426,25 +4426,25 @@ window.NEWS_DATA = {
     },
     {
       "category": "subculture",
-      "title": "Avivi所属VTuber「葉月絃」が「2026年10月Avvy月間ランキング」にて月間コアサポーター数1位を獲得",
-      "source": "PANORA",
-      "publishedAt": "2026-11-24 17:53",
-      "publishedTs": 1795510423,
-      "image": "https://asset.panora.tokyo/wp-content/uploads/2026/11/24175333/34708-139-c375d586fe4de80e4dd05e26725367f0-1920x1280-1.webp",
-      "summary": "OTAGROUP株式会社 OTAGROUP株式会社（代表取締役：下西 竜二）は誰でもスマホ１つで2Dアバターを作成でき、そのまま簡単にライブ配信を始められるVTuberアバター作成・配信アプリ「Avvy」提携コミュニティ The post Avivi所属VTuber「葉月絃」が「2026年10月Avvy月間…",
+      "title": "『GTA6』裸体NPCのシェアでBAN報告",
+      "source": "AUTOMATON",
+      "publishedAt": "2026-11-24 13:55",
+      "publishedTs": 1795496123,
+      "image": "https://automaton-media.com/wp-content/uploads/2026/11/20261124-480616-header.jpg",
+      "summary": "『GTA6』で撮影したゲーム内の画像をPSNなどで共有した海外ユーザーがBANされる事例が報告されています。",
       "points": [
-        "OTAGROUP株式会社 OTAGROUP株式会社（代表取締役：下西 竜二）は誰でもスマホ１つで2Dアバターを作…",
-        "そのまま簡単にライブ配信を始められるVTuberアバター作成・配信アプリ「Avvy」提携コミュニティ The p…",
-        "分野・出典: サブカルチャー（PANORA / 2026-11-24 17:53）"
+        "ゲーム内でNPCの撮影画像を共有",
+        "PSNやXboxネットワークでBAN",
+        "規約違反となる共有範囲に注意"
       ],
-      "impact": "「Avivi所属VTuber「葉月絃」が「2026年10月」を巡るサブカルチャー分野の注目動向として今後の展開が注目されます。",
+      "impact": "ゲーム内の機能であっても、プラットフォームの規約に抵触する共有には注意が必要です。",
       "tags": [
-        "サブカルチャー",
-        "Vtuber",
-        "PANORA"
+        "GTA6",
+        "ゲーム",
+        "PSN"
       ],
-      "url": "https://panora.tokyo/archives/164259",
-      "isAiEnriched": false
+      "url": "https://automaton-media.com/articles/newsjp/20261124-480616/",
+      "isAiEnriched": true
     },
     {
       "category": "domestic",
@@ -4491,23 +4491,23 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "サム・アルトマンが語る「起業家の盲点」。AIの指数関数的進化をどう生き残るか(ライフハッカー・ジャパン)",
+      "title": "65〜69歳で働きながら厚生年金に入っている人、12月15日の振込から年金が増える？標準報酬月額「20万円」なら1年で約1万3154円、「40万円」なら約2万6309円の増額（試算）(LIMO)",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-24 21:51",
-      "publishedTs": 1795524662,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-00000008-biz_lifeh-000-1-view.jpg?exp=10800",
-      "summary": "OpenAIのチームが発足した当初、世間の人々はディープラーニングを大した成果を生まない「ちょっとした手品」のように見なしていました。2026年7月に開催されたY Combinatorのスタートアッ…",
+      "publishedAt": "2026-11-24 22:00",
+      "publishedTs": 1795525234,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-90000997-toushin-000-1-view.jpg?exp=10800",
+      "summary": "65歳を過ぎても会社員として働き、厚生年金に入っている人は、12月15日（火）に振り込まれる年金が、10月の振込より少し増えることがあります。65歳以上70歳未満で9月1日に厚生年金に加入していた人…",
       "points": [
-        "OpenAIのチームが発足した当初",
-        "世間の人々はディープラーニングを大した成果を生まない「ちょっとした手品」のように見なしていました",
-        "分野・出典: ビジネス・経済（Yahoo!ニュース / 2026-11-24 21:51）"
+        "65歳を過ぎても会社員として働き",
+        "厚生年金に入っている人は",
+        "分野・出典: ビジネス・経済（Yahoo!ニュース / 2026-11-24 22:00）"
       ],
-      "impact": "「サム・アルトマンが語る「起業家の盲点」。AIの指数関数的」を巡るビジネス・経済分野の注目動向として今後の展開が注目されます。",
+      "impact": "「65〜69歳で働きながら厚生年金に入っている人、12月1」を巡るビジネス・経済分野の注目動向として今後の展開が注目されます。",
       "tags": [
         "ビジネス・経済",
         "Yahoo!ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/df5ea9bc2e7d331d5781ab960690534a84b2ba80?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/80718e50011b59042b8ac93a13f785c19a86acbe?source=rss",
       "isAiEnriched": false
     },
     {
@@ -4533,25 +4533,25 @@ window.NEWS_DATA = {
     },
     {
       "category": "subculture",
-      "title": "『GTA6』裸体NPCのシェアでBAN報告",
-      "source": "AUTOMATON",
-      "publishedAt": "2026-11-24 13:55",
-      "publishedTs": 1795496123,
-      "image": "https://automaton-media.com/wp-content/uploads/2026/11/20261124-480616-header.jpg",
-      "summary": "『GTA6』で撮影したゲーム内の画像をPSNなどで共有した海外ユーザーがBANされる事例が報告されています。",
+      "title": "VTuberのコラボ相手を探す番組『ゔいこん』、12月4日より配信開始 MCはまざー３&神楽めあ、花音めいや九条林檎が出演",
+      "source": "PANORA",
+      "publishedAt": "2026-11-24 16:38",
+      "publishedTs": 1795505903,
+      "image": "https://asset.panora.tokyo/wp-content/uploads/2026/11/24163415/image-65.png",
+      "summary": "株式会社viviON（所在地：東京都千代田区、代表取締役：明石耕作）が、リアリティショー『ゔいこん』の配信日および出演キャストを発表。あわせて、ティザー動画を公開した。 『ゔいこん』は、VTuberが相方となり得るコラボ The post VTuberのコラボ相手を探す番組『ゔいこん』、12月4日より配信開…",
       "points": [
-        "ゲーム内でNPCの撮影画像を共有",
-        "PSNやXboxネットワークでBAN",
-        "規約違反となる共有範囲に注意"
+        "株式会社viviON（所在地：東京都千代田区",
+        "代表取締役：明石耕作）が",
+        "分野・出典: サブカルチャー（PANORA / 2026-11-24 16:38）"
       ],
-      "impact": "ゲーム内の機能であっても、プラットフォームの規約に抵触する共有には注意が必要です。",
+      "impact": "「VTuberのコラボ相手を探す番組『ゔいこん』、12月4」を巡るサブカルチャー分野の注目動向として今後の展開が注目されます。",
       "tags": [
-        "GTA6",
-        "ゲーム",
-        "PSN"
+        "サブカルチャー",
+        "Vtuber",
+        "PANORA"
       ],
-      "url": "https://automaton-media.com/articles/newsjp/20261124-480616/",
-      "isAiEnriched": true
+      "url": "https://panora.tokyo/archives/164243",
+      "isAiEnriched": false
     }
   ]
 };
