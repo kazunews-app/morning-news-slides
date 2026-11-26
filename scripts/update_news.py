@@ -15,6 +15,7 @@ import html.parser
 import json
 import os
 import re
+import threading
 import time
 import urllib.error
 import urllib.parse
@@ -1145,8 +1146,18 @@ def apply_smart_fallback_enrichment(it: dict) -> None:
         it["impact"] = f"「{title[:28]}」を巡る{cat_label}分野の注目動向として今後の展開が注目されます。"
 
 
-def _discover_gemini_flash_models(api_key: str) -> list[str]:
-    """利用可能なテキスト生成用Flash系モデル一覧をAPIから取得する"""
+def _dedupe_models(models: list[str]) -> list[str]:
+    seen: set[str] = set()
+    out: list[str] = []
+    for m in models:
+        if m and m not in seen:
+            seen.add(m)
+            out.append(m)
+    return out
+
+
+def _discover_gemini_text_models(api_key: str) -> list[str]:
+    """利用可能なテキスト生成用Geminiモデル一覧をAPIから取得する"""
     url = "https://generativelanguage.googleapis.com/v1beta/models"
     req = urllib.request.Request(
         url,
@@ -1157,18 +1168,47 @@ def _discover_gemini_flash_models(api_key: str) -> list[str]:
         with urllib.request.urlopen(req, timeout=15) as resp:
             data = json.loads(resp.read().decode("utf-8"))
         models: list[str] = []
-        excluded_tokens = ("tts", "image", "audio", "embedding", "vision", "live")
+        excluded_tokens = (
+            "tts",
+            "image",
+            "audio",
+            "embedding",
+            "vision",
+            "live",
+            "robotics",
+            "computer-use",
+            "aqa",
+        )
         for m in data.get("models", []):
             name = str(m.get("name", ""))
             methods = m.get("supportedGenerationMethods") or []
             if name.startswith("models/") and "generateContent" in methods:
                 short = name[len("models/") :]
                 lower_short = short.lower()
-                if "flash" in lower_short and not any(bad in lower_short for bad in excluded_tokens):
+                if lower_short.startswith("gemini") and not any(bad in lower_short for bad in excluded_tokens):
                     models.append(short)
+        print(f"[INFO] Discovered Gemini text models: {models}", flush=True)
         return models
-    except Exception:
+    except Exception as exc:
+        print(f"[WARN] Failed to discover Gemini models: {exc}", flush=True)
         return []
+
+
+def _extract_gemini_text(res_json: dict) -> str:
+    """思考パート(thought=True)を除外してJSON応答テキストを抽出する"""
+    candidates = res_json.get("candidates") or []
+    if not candidates:
+        return ""
+    parts = (candidates[0].get("content") or {}).get("parts") or []
+    non_thought_texts = [
+        str(p.get("text"))
+        for p in parts
+        if isinstance(p, dict) and not p.get("thought") and p.get("text")
+    ]
+    if non_thought_texts:
+        return "\n".join(non_thought_texts)
+    fallback_texts = [str(p.get("text")) for p in parts if isinstance(p, dict) and p.get("text")]
+    return fallback_texts[-1] if fallback_texts else ""
 
 
 def _parse_gemini_json_text(raw_text: str) -> dict | None:
@@ -1195,10 +1235,28 @@ def _parse_gemini_json_text(raw_text: str) -> dict | None:
     return None
 
 
+def _build_gemini_payload(prompt: str, model_name: str, use_thinking_low: bool) -> bytes:
+    gen_cfg: dict = {
+        "responseMimeType": "application/json",
+        "maxOutputTokens": 8192,
+    }
+    lower_name = model_name.lower()
+    if use_thinking_low and any(tok in lower_name for tok in ("hydrogen", "gemini-4", "gemini-3.8", "gemini-3.6")):
+        gen_cfg["thinkingConfig"] = {"thinkingLevel": "LOW"}
+    return json.dumps(
+        {
+            "contents": [{"parts": [{"text": prompt}]}],
+            "generationConfig": gen_cfg,
+        }
+    ).encode("utf-8")
+
+
 def _enrich_batch_with_gemini(
     batch_targets: list[tuple[int, dict]],
     api_key: str,
     model_candidates: list[str],
+    disabled_models: set[str],
+    disabled_lock: threading.Lock,
     include_keywords: bool = False,
     deadline_monotonic: float | None = None,
 ) -> tuple[int, list[str] | None, str]:
@@ -1239,45 +1297,85 @@ def _enrich_batch_with_gemini(
         f"{json.dumps(prompt_articles, ensure_ascii=False)}"
     )
 
-    body_bytes = json.dumps(
-        {
-            "contents": [{"parts": [{"text": prompt}]}],
-            "generationConfig": {
-                "responseMimeType": "application/json",
-                "maxOutputTokens": 8192,
-            },
-        }
-    ).encode("utf-8")
-
     parsed = None
     used_model = ""
     last_exc: Exception | None = None
 
-    for model_name in model_candidates:
-        if deadline_monotonic is not None and time.monotonic() >= deadline_monotonic:
-            break
+    def _call_once(model_name: str, use_thinking_low: bool) -> dict | None:
         url = f"https://generativelanguage.googleapis.com/v1beta/models/{model_name}:generateContent"
         req = urllib.request.Request(
             url,
-            data=body_bytes,
+            data=_build_gemini_payload(prompt, model_name, use_thinking_low),
             headers={
                 "Content-Type": "application/json",
                 "X-Goog-Api-Key": api_key,
             },
             method="POST",
         )
+        with urllib.request.urlopen(req, timeout=35) as resp:
+            res_json = json.loads(resp.read().decode("utf-8"))
+        text = _extract_gemini_text(res_json)
+        return _parse_gemini_json_text(text)
+
+    for model_name in model_candidates:
+        if deadline_monotonic is not None and time.monotonic() >= deadline_monotonic:
+            break
+        with disabled_lock:
+            if model_name in disabled_models:
+                continue
+
+        lower_name = model_name.lower()
+        has_thinking_cfg = any(tok in lower_name for tok in ("hydrogen", "gemini-4", "gemini-3.8", "gemini-3.6"))
+
         try:
-            with urllib.request.urlopen(req, timeout=28) as resp:
-                res_json = json.loads(resp.read().decode("utf-8"))
-            text = res_json["candidates"][0]["content"]["parts"][0]["text"]
-            cand_parsed = _parse_gemini_json_text(text)
+            cand_parsed = _call_once(model_name, has_thinking_cfg)
             if cand_parsed and isinstance(cand_parsed.get("articles"), list) and len(cand_parsed["articles"]) > 0:
                 parsed = cand_parsed
                 used_model = model_name
                 break
         except urllib.error.HTTPError as exc:
-            last_exc = exc
-            print(f"[WARN] Gemini model {model_name} HTTP {exc.code}: {exc.reason}", flush=True)
+            err_body = ""
+            try:
+                err_body = exc.read(200).decode("utf-8", errors="replace").replace("\n", " ").strip()
+            except Exception:
+                pass
+            if exc.code == 400 and has_thinking_cfg:
+                print(
+                    f"[WARN] Gemini model {model_name} HTTP 400 with thinkingConfig ({err_body}); retrying without thinkingConfig",
+                    flush=True,
+                )
+                try:
+                    cand_parsed = _call_once(model_name, False)
+                    if cand_parsed and isinstance(cand_parsed.get("articles"), list) and len(cand_parsed["articles"]) > 0:
+                        parsed = cand_parsed
+                        used_model = model_name
+                        break
+                except urllib.error.HTTPError as retry_exc:
+                    last_exc = retry_exc
+                    retry_body = ""
+                    try:
+                        retry_body = retry_exc.read(200).decode("utf-8", errors="replace").replace("\n", " ").strip()
+                    except Exception:
+                        pass
+                    print(
+                        f"[WARN] Gemini model {model_name} retry HTTP {retry_exc.code}: {retry_exc.reason} {retry_body}",
+                        flush=True,
+                    )
+                    if retry_exc.code in (403, 404, 429):
+                        with disabled_lock:
+                            disabled_models.add(model_name)
+                except Exception as retry_exc:
+                    last_exc = retry_exc
+                    print(f"[WARN] Gemini model {model_name} retry error: {retry_exc}", flush=True)
+            else:
+                last_exc = exc
+                print(
+                    f"[WARN] Gemini model {model_name} HTTP {exc.code}: {exc.reason} {err_body}",
+                    flush=True,
+                )
+                if exc.code in (403, 404, 429):
+                    with disabled_lock:
+                        disabled_models.add(model_name)
         except Exception as exc:
             last_exc = exc
             print(f"[WARN] Gemini model {model_name} error: {exc}", flush=True)
@@ -1316,27 +1414,67 @@ def enrich_with_gemini(items: list[dict], api_key: str) -> list[str] | None:
         return None
 
     deadline = time.monotonic() + 130.0
-    preferred_models = [
-        "gemini-flash-lite-latest",
+    disabled_models: set[str] = set()
+    disabled_lock = threading.Lock()
+
+    discovered = _discover_gemini_text_models(api_key)
+
+    hydrogen_detected = [m for m in discovered if "hydrogen" in m.lower()]
+    if "gemini-4-hydrogen" in hydrogen_detected:
+        hydrogen_detected = ["gemini-4-hydrogen"] + [m for m in hydrogen_detected if m != "gemini-4-hydrogen"]
+    hydrogen_tier = _dedupe_models(hydrogen_detected + ["gemini-4-hydrogen"])
+
+    flash38_detected = [m for m in discovered if "3.8-flash" in m.lower()]
+    if "gemini-3.8-flash" in flash38_detected:
+        flash38_detected = ["gemini-3.8-flash"] + [m for m in flash38_detected if m != "gemini-3.8-flash"]
+    flash38_tier = _dedupe_models(flash38_detected + ["gemini-3.8-flash"])
+
+    lite_base = [
         "gemini-3.5-flash-lite",
+        "gemini-flash-lite-latest",
         "gemini-2.5-flash-lite",
         "gemini-3.6-flash",
-        "gemini-3.8-flash",
     ]
-    discovered = [m for m in _discover_gemini_flash_models(api_key) if m not in preferred_models]
-    model_candidates = (preferred_models + discovered)[:4]
+    other_flash = [m for m in discovered if "flash" in m.lower()]
+    lite_tier = _dedupe_models(lite_base + other_flash)
 
-    batch_size = 15
-    batches = [targets[i : i + batch_size] for i in range(0, len(targets), batch_size)]
+    # 件数に応じてバッチ分割とモデル割り当てを決定
+    if len(targets) > 30:
+        batch_size = 15
+        batches = [targets[i : i + batch_size] for i in range(0, len(targets), batch_size)]
+        batch_model_lists = []
+        for idx in range(len(batches)):
+            if idx == 0:
+                batch_model_lists.append(_dedupe_models(hydrogen_tier + flash38_tier + lite_tier))
+            elif idx == 1:
+                batch_model_lists.append(_dedupe_models(flash38_tier + hydrogen_tier + lite_tier))
+            else:
+                batch_model_lists.append(_dedupe_models(lite_tier + flash38_tier + hydrogen_tier))
+    elif len(targets) >= 4:
+        mid = (len(targets) + 1) // 2
+        batches = [targets[:mid], targets[mid:]]
+        batch_model_lists = [
+            _dedupe_models(hydrogen_tier + flash38_tier + lite_tier),
+            _dedupe_models(flash38_tier + hydrogen_tier + lite_tier),
+        ]
+    else:
+        batches = [targets]
+        if int(time.time() // 300) % 2 == 0:
+            batch_model_lists = [_dedupe_models(hydrogen_tier + flash38_tier + lite_tier)]
+        else:
+            batch_model_lists = [_dedupe_models(flash38_tier + hydrogen_tier + lite_tier)]
+
     total_enriched = 0
     keywords: list[str] | None = None
-    last_model = ""
+    model_usage: dict[str, int] = {}
 
-    # 最初のバッチで有効モデルと注目キーワードを確定
+    # Batch 0 を実行して注目キーワードを確定
     first_cnt, first_kw, first_model = _enrich_batch_with_gemini(
         batches[0],
         api_key,
-        model_candidates,
+        batch_model_lists[0],
+        disabled_models,
+        disabled_lock,
         include_keywords=True,
         deadline_monotonic=deadline,
     )
@@ -1344,37 +1482,36 @@ def enrich_with_gemini(items: list[dict], api_key: str) -> list[str] | None:
     if first_kw:
         keywords = first_kw
     if first_model:
-        last_model = first_model
-        active_models = [first_model] + [m for m in model_candidates if m != first_model][:1]
-    else:
-        active_models = model_candidates[:2]
+        model_usage[first_model] = model_usage.get(first_model, 0) + first_cnt
 
-    # 残りのバッチを2並列で高速処理（RPM/TPM制限内に十分収まる）
+    # 残りのバッチを2並列で実行（各バッチ固有の優先モデルリストを保持）
     if len(batches) > 1 and time.monotonic() < deadline:
         with concurrent.futures.ThreadPoolExecutor(max_workers=2) as pool:
             futures = [
                 pool.submit(
                     _enrich_batch_with_gemini,
-                    b,
+                    batches[idx],
                     api_key,
-                    active_models,
+                    batch_model_lists[idx],
+                    disabled_models,
+                    disabled_lock,
                     False,
                     deadline,
                 )
-                for b in batches[1:]
+                for idx in range(1, len(batches))
             ]
             for fut in concurrent.futures.as_completed(futures):
                 try:
                     cnt, _, used_m = fut.result()
                     total_enriched += cnt
-                    if used_m and not last_model:
-                        last_model = used_m
+                    if used_m:
+                        model_usage[used_m] = model_usage.get(used_m, 0) + cnt
                 except Exception:
                     pass
 
     print(
-        f"[INFO] Gemini enrichment finished ({last_model or 'none'}): "
-        f"{total_enriched}/{len(targets)} target articles enriched",
+        f"[INFO] Gemini enrichment finished: "
+        f"{total_enriched}/{len(targets)} target articles enriched (models: {model_usage})",
         flush=True,
     )
     return keywords

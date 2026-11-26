@@ -1330,7 +1330,7 @@ window.NEWS_DATA = {
         "高市政権"
       ],
       "url": "https://news.yahoo.co.jp/pickup/6604085?source=rss",
-      "isAiEnriched": true
+      "isAiEnriched": false
     },
     {
       "category": "tech",
@@ -1352,7 +1352,7 @@ window.NEWS_DATA = {
         "テクノロジー"
       ],
       "url": "https://news.yahoo.co.jp/pickup/6604066?source=rss",
-      "isAiEnriched": true
+      "isAiEnriched": false
     },
     {
       "category": "business",
@@ -1374,7 +1374,7 @@ window.NEWS_DATA = {
         "原子力"
       ],
       "url": "https://news.yahoo.co.jp/pickup/6604080?source=rss",
-      "isAiEnriched": true
+      "isAiEnriched": false
     },
     {
       "category": "entertainment",
@@ -1396,7 +1396,7 @@ window.NEWS_DATA = {
         "CMランキング"
       ],
       "url": "https://news.yahoo.co.jp/pickup/6604077?source=rss",
-      "isAiEnriched": true
+      "isAiEnriched": false
     },
     {
       "category": "subculture",
@@ -1418,7 +1418,7 @@ window.NEWS_DATA = {
         "サイバーパンク"
       ],
       "url": "https://automaton-media.com/articles/reportjp/theascent-20261126-481099/",
-      "isAiEnriched": true
+      "isAiEnriched": false
     },
     {
       "category": "domestic",
@@ -1440,7 +1440,7 @@ window.NEWS_DATA = {
         "国内"
       ],
       "url": "https://news.yahoo.co.jp/pickup/6604038?source=rss",
-      "isAiEnriched": true
+      "isAiEnriched": false
     },
     {
       "category": "tech",
@@ -1462,7 +1462,7 @@ window.NEWS_DATA = {
         "スペースX"
       ],
       "url": "https://news.yahoo.co.jp/pickup/6604033?source=rss",
-      "isAiEnriched": true
+      "isAiEnriched": false
     },
     {
       "category": "business",
@@ -1484,7 +1484,7 @@ window.NEWS_DATA = {
         "格付け"
       ],
       "url": "https://news.yahoo.co.jp/pickup/6604015?source=rss",
-      "isAiEnriched": true
+      "isAiEnriched": false
     },
     {
       "category": "entertainment",
