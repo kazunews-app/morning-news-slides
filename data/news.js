@@ -1,72 +1,72 @@
 window.NEWS_DATA = {
   "date": "2026年11月27日 (金)",
-  "updatedAt": "2026-11-27 03:22",
+  "updatedAt": "2026-11-27 04:31",
   "title": "TREND NEWS",
   "keywords": [
-    "Nike Gyakusou",
-    "為替相場",
-    "カンニング竹山",
-    "ハリウッド",
-    "訃報"
+    "ゴダイゴ",
+    "THE FIRST TAKE",
+    "ME:I",
+    "たこやき野球連盟",
+    "KEY TO LIT"
   ],
   "weatherCities": [
     {
       "name": "札幌",
       "region": "北海道",
       "temp": -2,
-      "code": 1,
-      "wind": 8,
+      "code": 2,
+      "wind": 9,
       "maxTemp": 10,
       "minTemp": -2,
       "pop": 46,
       "hourly": [
         {
-          "time": "03:00",
+          "time": "04:00",
           "code": 1,
           "temp": -2,
           "pop": 0
         },
         {
-          "time": "06:00",
+          "time": "07:00",
           "code": 2,
           "temp": 0,
           "pop": 0
         },
         {
-          "time": "09:00",
+          "time": "10:00",
           "code": 3,
-          "temp": 5,
-          "pop": 0
-        },
-        {
-          "time": "12:00",
-          "code": 3,
-          "temp": 10,
-          "pop": 18
-        },
-        {
-          "time": "15:00",
-          "code": 2,
-          "temp": 9,
+          "temp": 8,
           "pop": 6
         },
         {
-          "time": "18:00",
+          "time": "13:00",
+          "code": 3,
+          "temp": 9,
+          "pop": 16
+        },
+        {
+          "time": "16:00",
+          "code": 2,
+          "temp": 8,
+          "pop": 3
+        },
+        {
+          "time": "19:00",
           "code": 1,
           "temp": 6,
           "pop": 0
         },
         {
-          "time": "21:00",
-          "code": 2,
-          "temp": 7,
-          "pop": 0
+          "time": "22:00",
+          "code": 3,
+          "temp": 8,
+          "pop": 19
         },
         {
-          "time": "00:00",
-          "code": 51,
+          "time": "01:00",
+          "code": 53,
           "temp": 9,
-          "pop": 69
+          "pop": 84
         }
       ],
       "daily": [
@@ -131,67 +131,67 @@ window.NEWS_DATA = {
     {
       "name": "仙台",
       "region": "東北",
-      "temp": 9,
-      "code": 1,
+      "temp": 8,
+      "code": 0,
       "wind": 5,
       "maxTemp": 18,
       "minTemp": 8,
       "pop": 0,
       "hourly": [
         {
-          "time": "03:00",
-          "code": 1,
-          "temp": 9,
-          "pop": 0
-        },
-        {
-          "time": "06:00",
+          "time": "04:00",
           "code": 0,
           "temp": 8,
           "pop": 0
         },
         {
-          "time": "09:00",
+          "time": "07:00",
+          "code": 0,
+          "temp": 8,
+          "pop": 0
+        },
+        {
+          "time": "10:00",
+          "code": 0,
+          "temp": 14,
+          "pop": 0
+        },
+        {
+          "time": "13:00",
+          "code": 0,
+          "temp": 18,
+          "pop": 0
+        },
+        {
+          "time": "16:00",
+          "code": 0,
+          "temp": 16,
+          "pop": 0
+        },
+        {
+          "time": "19:00",
           "code": 0,
           "temp": 12,
           "pop": 0
         },
         {
-          "time": "12:00",
+          "time": "22:00",
           "code": 0,
-          "temp": 17,
+          "temp": 11,
           "pop": 0
         },
         {
-          "time": "15:00",
-          "code": 0,
-          "temp": 17,
-          "pop": 0
-        },
-        {
-          "time": "18:00",
-          "code": 0,
-          "temp": 12,
-          "pop": 0
-        },
-        {
-          "time": "21:00",
-          "code": 0,
-          "temp": 12,
-          "pop": 0
-        },
-        {
-          "time": "00:00",
+          "time": "01:00",
           "code": 2,
-          "temp": 12,
-          "pop": 0
+          "temp": 11,
+          "pop": 3
         }
       ],
       "daily": [
         {
           "date": "11/27",
           "dow": "今日",
-          "code": 3,
+          "code": 2,
           "maxTemp": 18,
           "minTemp": 8,
           "pop": 0
@@ -200,7 +200,7 @@ window.NEWS_DATA = {
           "date": "11/28",
           "dow": "明日",
           "code": 61,
-          "maxTemp": 14,
+          "maxTemp": 15,
           "minTemp": 8,
           "pop": 95
         },
@@ -249,60 +249,60 @@ window.NEWS_DATA = {
     {
       "name": "新潟",
       "region": "北陸",
-      "temp": 10,
-      "code": 2,
+      "temp": 9,
+      "code": 1,
       "wind": 10,
       "maxTemp": 18,
       "minTemp": 9,
       "pop": 86,
       "hourly": [
         {
-          "time": "03:00",
-          "code": 3,
+          "time": "04:00",
+          "code": 0,
           "temp": 10,
-          "pop": 10
+          "pop": 1
         },
         {
-          "time": "06:00",
-          "code": 1,
+          "time": "07:00",
+          "code": 0,
           "temp": 9,
           "pop": 0
         },
         {
-          "time": "09:00",
-          "code": 0,
-          "temp": 12,
+          "time": "10:00",
+          "code": 1,
+          "temp": 13,
           "pop": 0
         },
         {
-          "time": "12:00",
-          "code": 1,
+          "time": "13:00",
+          "code": 0,
           "temp": 17,
           "pop": 0
         },
         {
-          "time": "15:00",
+          "time": "16:00",
           "code": 0,
-          "temp": 18,
+          "temp": 16,
           "pop": 0
         },
         {
-          "time": "18:00",
+          "time": "19:00",
           "code": 1,
           "temp": 14,
           "pop": 0
         },
         {
-          "time": "21:00",
-          "code": 1,
-          "temp": 14,
-          "pop": 0
+          "time": "22:00",
+          "code": 2,
+          "temp": 13,
+          "pop": 2
         },
         {
-          "time": "00:00",
-          "code": 55,
+          "time": "01:00",
+          "code": 51,
           "temp": 12,
-          "pop": 12
+          "pop": 28
         }
       ],
       "daily": [
@@ -317,7 +317,7 @@ window.NEWS_DATA = {
         {
           "date": "11/28",
           "dow": "明日",
-          "code": 63,
+          "code": 65,
           "maxTemp": 16,
           "minTemp": 11,
           "pop": 100
@@ -367,60 +367,60 @@ window.NEWS_DATA = {
     {
       "name": "金沢",
       "region": "北陸",
-      "temp": 11,
-      "code": 1,
-      "wind": 7,
+      "temp": 12,
+      "code": 0,
+      "wind": 8,
       "maxTemp": 20,
       "minTemp": 10,
       "pop": 65,
       "hourly": [
         {
-          "time": "03:00",
+          "time": "04:00",
+          "code": 0,
+          "temp": 12,
+          "pop": 0
+        },
+        {
+          "time": "07:00",
           "code": 1,
           "temp": 11,
           "pop": 0
         },
         {
-          "time": "06:00",
+          "time": "10:00",
           "code": 0,
-          "temp": 10,
-          "pop": 0
-        },
-        {
-          "time": "09:00",
-          "code": 0,
-          "temp": 13,
-          "pop": 0
-        },
-        {
-          "time": "12:00",
-          "code": 0,
-          "temp": 20,
-          "pop": 0
-        },
-        {
-          "time": "15:00",
-          "code": 1,
-          "temp": 20,
-          "pop": 0
-        },
-        {
-          "time": "18:00",
-          "code": 1,
           "temp": 17,
-          "pop": 18
+          "pop": 0
         },
         {
-          "time": "21:00",
-          "code": 53,
+          "time": "13:00",
+          "code": 2,
+          "temp": 20,
+          "pop": 0
+        },
+        {
+          "time": "16:00",
+          "code": 1,
+          "temp": 18,
+          "pop": 5
+        },
+        {
+          "time": "19:00",
+          "code": 1,
+          "temp": 16,
+          "pop": 23
+        },
+        {
+          "time": "22:00",
+          "code": 51,
           "temp": 14,
-          "pop": 37
+          "pop": 50
         },
         {
-          "time": "00:00",
-          "code": 1,
-          "temp": 17,
-          "pop": 78
+          "time": "01:00",
+          "code": 51,
+          "temp": 14,
+          "pop": 86
         }
       ],
       "daily": [
@@ -435,8 +435,8 @@ window.NEWS_DATA = {
         {
           "date": "11/28",
           "dow": "明日",
-          "code": 63,
-          "maxTemp": 18,
+          "code": 65,
+          "maxTemp": 17,
           "minTemp": 9,
           "pop": 100
         },
@@ -493,52 +493,52 @@ window.NEWS_DATA = {
       "pop": 16,
       "hourly": [
         {
-          "time": "03:00",
+          "time": "04:00",
           "code": 0,
           "temp": 8,
           "pop": 0
         },
         {
-          "time": "06:00",
+          "time": "07:00",
           "code": 0,
-          "temp": 7,
+          "temp": 8,
           "pop": 0
         },
         {
-          "time": "09:00",
+          "time": "10:00",
           "code": 0,
-          "temp": 10,
+          "temp": 12,
           "pop": 0
         },
         {
-          "time": "12:00",
+          "time": "13:00",
+          "code": 0,
+          "temp": 16,
+          "pop": 0
+        },
+        {
+          "time": "16:00",
           "code": 0,
           "temp": 15,
           "pop": 0
         },
         {
-          "time": "15:00",
+          "time": "19:00",
           "code": 0,
-          "temp": 15,
-          "pop": 0
-        },
-        {
-          "time": "18:00",
-          "code": 1,
-          "temp": 13,
-          "pop": 0
-        },
-        {
-          "time": "21:00",
-          "code": 1,
           "temp": 14,
           "pop": 0
         },
         {
-          "time": "00:00",
+          "time": "22:00",
           "code": 2,
-          "temp": 13,
-          "pop": 29
+          "temp": 14,
+          "pop": 6
+        },
+        {
+          "time": "01:00",
+          "code": 51,
+          "temp": 16,
+          "pop": 48
         }
       ],
       "daily": [
@@ -553,9 +553,9 @@ window.NEWS_DATA = {
         {
           "date": "11/28",
           "dow": "明日",
-          "code": 65,
-          "maxTemp": 18,
-          "minTemp": 10,
+          "code": 63,
+          "maxTemp": 20,
+          "minTemp": 12,
           "pop": 100
         },
         {
@@ -603,57 +603,57 @@ window.NEWS_DATA = {
     {
       "name": "名古屋",
       "region": "東海",
-      "temp": 7,
+      "temp": 6,
       "code": 0,
       "wind": 3,
-      "maxTemp": 15,
+      "maxTemp": 14,
       "minTemp": 6,
       "pop": 95,
       "hourly": [
         {
-          "time": "03:00",
+          "time": "04:00",
           "code": 0,
           "temp": 7,
           "pop": 0
         },
         {
-          "time": "06:00",
+          "time": "07:00",
           "code": 0,
           "temp": 6,
           "pop": 0
         },
         {
-          "time": "09:00",
+          "time": "10:00",
           "code": 1,
-          "temp": 8,
+          "temp": 10,
           "pop": 0
         },
         {
-          "time": "12:00",
+          "time": "13:00",
+          "code": 3,
+          "temp": 14,
+          "pop": 0
+        },
+        {
+          "time": "16:00",
           "code": 1,
+          "temp": 14,
+          "pop": 1
+        },
+        {
+          "time": "19:00",
+          "code": 51,
           "temp": 12,
-          "pop": 0
+          "pop": 31
         },
         {
-          "time": "15:00",
-          "code": 2,
-          "temp": 15,
-          "pop": 0
-        },
-        {
-          "time": "18:00",
-          "code": 61,
-          "temp": 12,
-          "pop": 12
-        },
-        {
-          "time": "21:00",
-          "code": 2,
+          "time": "22:00",
+          "code": 3,
           "temp": 11,
-          "pop": 76
+          "pop": 88
         },
         {
-          "time": "00:00",
+          "time": "01:00",
           "code": 3,
           "temp": 11,
           "pop": 100
@@ -663,15 +663,15 @@ window.NEWS_DATA = {
         {
           "date": "11/27",
           "dow": "今日",
-          "code": 61,
-          "maxTemp": 15,
+          "code": 53,
+          "maxTemp": 14,
           "minTemp": 6,
           "pop": 95
         },
         {
           "date": "11/28",
           "dow": "明日",
-          "code": 61,
+          "code": 53,
           "maxTemp": 19,
           "minTemp": 10,
           "pop": 100
@@ -722,75 +722,75 @@ window.NEWS_DATA = {
       "name": "大阪",
       "region": "近畿",
       "temp": 8,
-      "code": 0,
-      "wind": 3,
-      "maxTemp": 15,
+      "code": 1,
+      "wind": 4,
+      "maxTemp": 16,
       "minTemp": 8,
       "pop": 99,
       "hourly": [
         {
-          "time": "03:00",
-          "code": 0,
-          "temp": 8,
+          "time": "04:00",
+          "code": 1,
+          "temp": 9,
           "pop": 0
         },
         {
-          "time": "06:00",
+          "time": "07:00",
           "code": 1,
           "temp": 8,
           "pop": 0
         },
         {
-          "time": "09:00",
-          "code": 2,
-          "temp": 10,
-          "pop": 0
-        },
-        {
-          "time": "12:00",
+          "time": "10:00",
           "code": 1,
-          "temp": 14,
+          "temp": 11,
           "pop": 0
         },
         {
-          "time": "15:00",
-          "code": 53,
-          "temp": 14,
-          "pop": 2
+          "time": "13:00",
+          "code": 1,
+          "temp": 15,
+          "pop": 0
         },
         {
-          "time": "18:00",
+          "time": "16:00",
           "code": 53,
-          "temp": 13,
-          "pop": 41
+          "temp": 15,
+          "pop": 12
         },
         {
-          "time": "21:00",
+          "time": "19:00",
           "code": 51,
           "temp": 13,
-          "pop": 92
+          "pop": 59
         },
         {
-          "time": "00:00",
-          "code": 3,
+          "time": "22:00",
+          "code": 1,
           "temp": 13,
           "pop": 98
+        },
+        {
+          "time": "01:00",
+          "code": 3,
+          "temp": 13,
+          "pop": 95
         }
       ],
       "daily": [
         {
           "date": "11/27",
           "dow": "今日",
-          "code": 61,
-          "maxTemp": 15,
+          "code": 53,
+          "maxTemp": 16,
           "minTemp": 8,
           "pop": 99
         },
         {
           "date": "11/28",
           "dow": "明日",
-          "code": 53,
-          "maxTemp": 19,
+          "code": 61,
+          "maxTemp": 18,
           "minTemp": 12,
           "pop": 98
         },
@@ -840,59 +840,59 @@ window.NEWS_DATA = {
       "name": "広島",
       "region": "中国",
       "temp": 10,
-      "code": 2,
+      "code": 1,
       "wind": 5,
       "maxTemp": 17,
       "minTemp": 10,
       "pop": 64,
       "hourly": [
         {
-          "time": "03:00",
-          "code": 2,
-          "temp": 10,
-          "pop": 0
-        },
-        {
-          "time": "06:00",
+          "time": "04:00",
           "code": 1,
           "temp": 10,
           "pop": 0
         },
         {
-          "time": "09:00",
+          "time": "07:00",
           "code": 1,
-          "temp": 12,
+          "temp": 10,
           "pop": 0
         },
         {
-          "time": "12:00",
+          "time": "10:00",
+          "code": 1,
+          "temp": 13,
+          "pop": 2
+        },
+        {
+          "time": "13:00",
           "code": 1,
           "temp": 16,
-          "pop": 12
+          "pop": 25
         },
         {
-          "time": "15:00",
-          "code": 1,
-          "temp": 17,
-          "pop": 53
-        },
-        {
-          "time": "18:00",
+          "time": "16:00",
           "code": 1,
           "temp": 16,
-          "pop": 63
+          "pop": 59
         },
         {
-          "time": "21:00",
+          "time": "19:00",
+          "code": 1,
+          "temp": 15,
+          "pop": 64
+        },
+        {
+          "time": "22:00",
           "code": 1,
           "temp": 14,
-          "pop": 61
+          "pop": 54
         },
         {
-          "time": "00:00",
-          "code": 2,
+          "time": "01:00",
+          "code": 1,
           "temp": 13,
-          "pop": 37
+          "pop": 33
         }
       ],
       "daily": [
@@ -907,7 +907,7 @@ window.NEWS_DATA = {
         {
           "date": "11/28",
           "dow": "明日",
-          "code": 51,
+          "code": 61,
           "maxTemp": 18,
           "minTemp": 8,
           "pop": 93
@@ -959,66 +959,66 @@ window.NEWS_DATA = {
       "region": "四国",
       "temp": 10,
       "code": 1,
-      "wind": 5,
-      "maxTemp": 18,
+      "wind": 3,
+      "maxTemp": 17,
       "minTemp": 10,
       "pop": 99,
       "hourly": [
         {
-          "time": "03:00",
+          "time": "04:00",
           "code": 1,
           "temp": 10,
           "pop": 0
         },
         {
-          "time": "06:00",
-          "code": 51,
-          "temp": 10,
-          "pop": 0
-        },
-        {
-          "time": "09:00",
+          "time": "07:00",
           "code": 2,
-          "temp": 12,
+          "temp": 10,
           "pop": 0
         },
         {
-          "time": "12:00",
-          "code": 61,
-          "temp": 16,
-          "pop": 20
-        },
-        {
-          "time": "15:00",
-          "code": 1,
-          "temp": 18,
-          "pop": 69
-        },
-        {
-          "time": "18:00",
-          "code": 0,
-          "temp": 16,
-          "pop": 98
-        },
-        {
-          "time": "21:00",
+          "time": "10:00",
           "code": 1,
           "temp": 15,
-          "pop": 90
+          "pop": 4
         },
         {
-          "time": "00:00",
-          "code": 51,
+          "time": "13:00",
+          "code": 53,
           "temp": 16,
-          "pop": 57
+          "pop": 35
+        },
+        {
+          "time": "16:00",
+          "code": 51,
+          "temp": 17,
+          "pop": 82
+        },
+        {
+          "time": "19:00",
+          "code": 1,
+          "temp": 15,
+          "pop": 99
+        },
+        {
+          "time": "22:00",
+          "code": 1,
+          "temp": 15,
+          "pop": 81
+        },
+        {
+          "time": "01:00",
+          "code": 2,
+          "temp": 15,
+          "pop": 45
         }
       ],
       "daily": [
         {
           "date": "11/27",
           "dow": "今日",
-          "code": 61,
-          "maxTemp": 18,
+          "code": 53,
+          "maxTemp": 17,
           "minTemp": 10,
           "pop": 99
         },
@@ -1026,7 +1026,7 @@ window.NEWS_DATA = {
           "date": "11/28",
           "dow": "明日",
           "code": 53,
-          "maxTemp": 20,
+          "maxTemp": 21,
           "minTemp": 8,
           "pop": 57
         },
@@ -1075,69 +1075,69 @@ window.NEWS_DATA = {
     {
       "name": "福岡",
       "region": "九州",
-      "temp": 14,
-      "code": 1,
+      "temp": 13,
+      "code": 53,
       "wind": 12,
       "maxTemp": 21,
-      "minTemp": 14,
+      "minTemp": 13,
       "pop": 68,
       "hourly": [
         {
-          "time": "03:00",
-          "code": 1,
+          "time": "04:00",
+          "code": 2,
           "temp": 14,
-          "pop": 25
+          "pop": 31
         },
         {
-          "time": "06:00",
-          "code": 51,
+          "time": "07:00",
+          "code": 1,
           "temp": 14,
           "pop": 39
         },
         {
-          "time": "09:00",
-          "code": 1,
-          "temp": 16,
-          "pop": 35
+          "time": "10:00",
+          "code": 0,
+          "temp": 17,
+          "pop": 31
         },
         {
-          "time": "12:00",
+          "time": "13:00",
           "code": 1,
           "temp": 21,
-          "pop": 27
+          "pop": 37
         },
         {
-          "time": "15:00",
+          "time": "16:00",
           "code": 1,
           "temp": 21,
+          "pop": 68
+        },
+        {
+          "time": "19:00",
+          "code": 1,
+          "temp": 18,
           "pop": 63
         },
         {
-          "time": "18:00",
-          "code": 1,
-          "temp": 19,
-          "pop": 67
-        },
-        {
-          "time": "21:00",
+          "time": "22:00",
           "code": 1,
           "temp": 17,
-          "pop": 49
+          "pop": 42
         },
         {
-          "time": "00:00",
+          "time": "01:00",
           "code": 51,
           "temp": 17,
-          "pop": 31
+          "pop": 29
         }
       ],
       "daily": [
         {
           "date": "11/27",
           "dow": "今日",
-          "code": 51,
+          "code": 53,
           "maxTemp": 21,
-          "minTemp": 14,
+          "minTemp": 13,
           "pop": 68
         },
         {
@@ -1194,59 +1194,59 @@ window.NEWS_DATA = {
       "name": "那覇",
       "region": "沖縄",
       "temp": 22,
-      "code": 95,
-      "wind": 10,
+      "code": 82,
+      "wind": 2,
       "maxTemp": 25,
       "minTemp": 22,
       "pop": 100,
       "hourly": [
         {
-          "time": "03:00",
+          "time": "04:00",
           "code": 95,
           "temp": 22,
-          "pop": 98
+          "pop": 97
         },
         {
-          "time": "06:00",
-          "code": 80,
-          "temp": 22,
-          "pop": 92
-        },
-        {
-          "time": "09:00",
-          "code": 2,
-          "temp": 24,
-          "pop": 63
-        },
-        {
-          "time": "12:00",
+          "time": "07:00",
           "code": 51,
-          "temp": 25,
-          "pop": 37
+          "temp": 22,
+          "pop": 84
         },
         {
-          "time": "15:00",
+          "time": "10:00",
+          "code": 1,
+          "temp": 25,
+          "pop": 53
+        },
+        {
+          "time": "13:00",
+          "code": 1,
+          "temp": 25,
+          "pop": 33
+        },
+        {
+          "time": "16:00",
           "code": 3,
-          "temp": 25,
-          "pop": 29
+          "temp": 24,
+          "pop": 23
         },
         {
-          "time": "18:00",
+          "time": "19:00",
           "code": 3,
           "temp": 23,
-          "pop": 10
+          "pop": 7
         },
         {
-          "time": "21:00",
+          "time": "22:00",
           "code": 2,
           "temp": 23,
-          "pop": 4
+          "pop": 3
         },
         {
-          "time": "00:00",
+          "time": "01:00",
           "code": 3,
           "temp": 23,
-          "pop": 4
+          "pop": 9
         }
       ],
       "daily": [
@@ -2148,24 +2148,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "entertainment",
-      "title": "NIKE×高橋盾のNike Gyakusou新作発表",
+      "title": "ME:I・RINONとTSUZUMIが心理戦で大笑い",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-27 03:00",
-      "publishedTs": 1795716000,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261127-00000340-oric-000-1-view.jpg?exp=10800",
-      "summary": "NIKEと高橋盾氏のUNDERCOVERによる「Nike Gyakusou」コレクションの復活が決定。新作は12月3日より発売される予定で、ファンから大きな注目を集めています。",
+      "publishedAt": "2026-11-27 04:30",
+      "publishedTs": 1795721400,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261127-01459877-the_tv-000-1-view.jpg?exp=10800",
+      "summary": "ME:Iの冠番組「美味美味ME:I」第2回が配信され、メンバーたちが駆け引きをしながら心理戦に挑戦した。",
       "points": [
-        "NIKEとUNDERCOVERのコラボが復活",
-        "高橋盾氏がデザインを手がける",
-        "12月3日からの発売が正式決定"
+        "Leminoにて11月19日に第2回が配信された",
+        "メンバー同士が駆け引きを行う心理戦に挑戦",
+        "準決勝から新ルールが追加され一同が大笑い"
       ],
-      "impact": "ファッション界やランニングウェア市場において、独創的なデザインと機能性で再び大きな話題となりそうです。",
+      "impact": "人気グループの素顔やメンバー間の微笑ましいやり取りがファンを楽しませている。",
       "tags": [
-        "NIKE",
-        "高橋盾",
-        "ファッション"
+        "ME:I",
+        "バラエティ",
+        "Lemino"
       ],
-      "url": "https://news.yahoo.co.jp/articles/0fd6f4a004c1568138cc1d6ed64490d6b4394e33?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/ef3c626f735f4ecf0a49121bed2bcd603d512533?source=rss",
       "isAiEnriched": true
     },
     {
@@ -2258,24 +2258,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "entertainment",
-      "title": "カンニング竹山、手料理と夫婦の食卓事情明かす",
+      "title": "ゴダイゴが「THE FIRST TAKE」に初登場",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-27 02:50",
-      "publishedTs": 1795715400,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261127-00000341-oric-000-1-view.jpg?exp=10800",
-      "summary": "お笑い芸人のカンニング竹山がインスタグラムを更新し、自作の手料理写真を公開。料理を作りすぎてしまう傾向があり、同じメニューを数日間食べ続けて怒られる微笑ましい日常を明かしました。",
+      "publishedAt": "2026-11-27 04:15",
+      "publishedTs": 1795720529,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261127-00411235-tospoweb-000-1-view.jpg?exp=10800",
+      "summary": "デビュー50周年のロックバンド・ゴダイゴがYouTubeチャンネル「THE FIRST TAKE」に初登場する。",
       "points": [
-        "インスタグラムで自作の手料理を披露",
-        "作りすぎて4日間同じ物を食べる食卓事情",
-        "妻から怒られるエピソードをユーモラスに告白"
+        "YouTubeチャンネル「THE FIRST TAKE」の第730回に出演",
+        "タケカワユキヒデらがゴダイゴでの活動への喜びを語る",
+        "日本の音楽シーンに新たな足跡を残す"
       ],
-      "impact": "芸能人の親しみやすい日常のワンシーンとして、SNS上でファンの間にほっこりとした笑いと共感が広がっています。",
+      "impact": "ベテランバンドによる一発撮りのパフォーマンスが幅広い世代の注目を集めている。",
       "tags": [
-        "カンニング竹山",
-        "芸能",
-        "SNS"
+        "ゴダイゴ",
+        "THE FIRST TAKE",
+        "音楽"
       ],
-      "url": "https://news.yahoo.co.jp/articles/b9f46cd7b57253dac21a9b88e2dc79bff9a7db78?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/8f34e24d16e95e67a7e65d74a4774697866b0510?source=rss",
       "isAiEnriched": true
     },
     {
@@ -2368,24 +2368,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "entertainment",
-      "title": "2026年に亡くなったハリウッドのスターたちを追悼",
+      "title": "ゴダイゴ史上最高齢で「TFT」初出演",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-27 02:40",
-      "publishedTs": 1795714826,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261127-00010002-thrjapan-000-1-view.jpg?exp=10800",
-      "summary": "2026年も多くの才能ある映画人や音楽家、アーティストが世を去りました。ドリー・パートンやパトリック・スチュワートら、エンタメ界に多大な足跡を残した故人たちの功績を振り返ります。",
+      "publishedAt": "2026-11-27 04:01",
+      "publishedTs": 1795719712,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261127-00000002-chuspo-000-1-view.jpg?exp=10800",
+      "summary": "ゴダイゴが「THE FIRST TAKE」に史上最高齢で出演し、名曲「銀河鉄道999」を生バンドで披露する。",
       "points": [
-        "2026年に逝去したハリウッドのスターを追悼",
-        "俳優や音楽家など多様な業界の先駆者たち",
-        "エンターテインメント界に残した大きな功績"
+        "TFT史上最高齢での出演となる",
+        "ヒット曲「銀河鉄道999」を生バンド演奏で一発撮り",
+        "27日午後10時よりYouTubeで公開"
       ],
-      "impact": "一時代を築いた偉大なスターたちの訃報は、世界中のファンやエンターテインメント業界全体に深い悲しみを与えています。",
+      "impact": "世代を超えて愛される名曲のライブパフォーマンスに大きな期待が集まっている。",
       "tags": [
-        "ハリウッド",
-        "訃報",
-        "映画"
+        "ゴダイゴ",
+        "THE FIRST TAKE",
+        "銀河鉄道999"
       ],
-      "url": "https://news.yahoo.co.jp/articles/66a6088b702776b99b7ff0414fc5c6f6ebb12ec7?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/1ae4538fc7e98af66308bdbe90fd25362e110b40?source=rss",
       "isAiEnriched": true
     },
     {
@@ -2478,24 +2478,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "entertainment",
-      "title": "虹のコンキスタドール石浜芽衣、2nd写真集『夢いっぱい』表紙2種を解禁",
+      "title": "KEY TO LITがプーマのキャンペーンに登場",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-27 02:40",
-      "publishedTs": 1795714800,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261127-00000316-oric-000-1-view.jpg?exp=10800",
-      "summary": "アイドルグループ・虹のコンキスタドールの石浜芽衣が、12月7日発売の2nd写真集のタイトルを『夢いっぱい』に決定。通常版とDVD付き限定版の表紙カバー2種類もあわせて公開された。",
+      "publishedAt": "2026-11-27 04:00",
+      "publishedTs": 1795719612,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261127-00000007-natalien-000-1-view.jpg?exp=10800",
+      "summary": "KEY TO LITを起用したプーマジャパンの新しいキャンペーン「LET'S BEGIN」が本日スタートした。",
       "points": [
-        "12月7日発売の2nd写真集タイトルが『夢いっぱい』に決定",
-        "通常版とDVD付き限定版の表紙カバー2種類を初公開",
-        "大胆なカットにも挑戦した意欲作となっている"
+        "プーマジャパンの「LET'S BEGIN」キャンペーンが始動",
+        "メンバーがプーマのシューズをスタイリッシュに履きこなす",
+        "デビュー決定への喜びをあらわにする会見も実施"
       ],
-      "impact": "ファン待望の写真集発売に向け、表紙解禁で予約や購買意欲がさらに高まりそうだ。限定版のDVD特典も注目される。",
+      "impact": "フレッシュな魅力を持つグループのタイアップにより、ブランドの注目度がさらに高まる。",
       "tags": [
-        "虹のコンキスタドール",
-        "石浜芽衣",
-        "写真集"
+        "KEY TO LIT",
+        "プーマ",
+        "ファッション"
       ],
-      "url": "https://news.yahoo.co.jp/articles/62f2724d8ecda62072fd7d9ba43c7862d8fff06a?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/895a34c49c7cce35eef16fc46a2360cff6fad7fb?source=rss",
       "isAiEnriched": true
     },
     {
@@ -2588,24 +2588,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "entertainment",
-      "title": "イ・ビョンホン撮影、妻イ・ミンジョンの東京“デート風ショット”に反響",
+      "title": "ゴダイゴ、TFT史上最高齢で名曲披露へ",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-27 02:30",
-      "publishedTs": 1795714200,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261127-00000334-oric-000-1-view.jpg?exp=10800",
-      "summary": "韓国俳優イ・ビョンホンの妻で女優のイ・ミンジョンがインスタグラムを更新。夫のイ・ビョンホンが撮影したという東京でのプライベートショットを公開し、ファンから反響が寄せられている。",
+      "publishedAt": "2026-11-27 04:00",
+      "publishedTs": 1795719608,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261127-11261404-sph-000-1-view.jpg?exp=10800",
+      "summary": "メジャーデビュー50周年のゴダイゴが「THE FIRST TAKE」に初登場し、名曲をプレミア公開する。",
       "points": [
-        "イ・ミンジョンが東京でのプライベートショットをSNSで公開",
-        "夫である俳優イ・ビョンホンが撮影を担当",
-        "ファンからは「究極の美しさ」など称賛の声が相次ぐ"
+        "メジャーデビュー50周年を迎えたゴダイゴが出演",
+        "タケカワユキヒデとミッキー吉野らが参加",
+        "27日に「銀河鉄道999」をプレミア公開予定"
       ],
-      "impact": "韓国トップスター夫妻の日本滞在中の仲睦まじい姿が話題となり、SNSでの注目度や観光スポットへの関心も高まりそうだ。",
+      "impact": "長年愛され続けるレジェンドバンドの貴重な映像として音楽ファンの間で話題に。",
       "tags": [
-        "イ・ビョンホン",
-        "イ・ミンジョン",
-        "韓国エンタメ"
+        "ゴダイゴ",
+        "THE FIRST TAKE",
+        "周年"
       ],
-      "url": "https://news.yahoo.co.jp/articles/a27cc9fe7f8ea03f34f2d7bde16a1f1ca2d80cb1?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/233572f4757460c564c1f9b188271b11065ddd2e?source=rss",
       "isAiEnriched": true
     },
     {
@@ -2698,24 +2698,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "entertainment",
-      "title": "渡邊渚、木いちごのフラワーアレンジメント披露",
+      "title": "ゴダイゴ「THE FIRST TAKE」で銀河鉄道999",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-27 02:25",
-      "publishedTs": 1795713900,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261127-00000336-oric-000-1-view.jpg?exp=10800",
-      "summary": "元フジテレビアナウンサーの渡邊渚がインスタグラムを更新し、自身で制作した“木いちご”のフラワーアレンジメント作品を公開しました。あわせて現在の仕事の近況についてもファンに向けて報告しています。",
+      "publishedAt": "2026-11-27 04:00",
+      "publishedTs": 1795719601,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261127-41261486-nksports-000-1-view.jpg?exp=10800",
+      "summary": "5人組ロックバンドのゴダイゴが「THE FIRST TAKE」に登場し、「銀河鉄道999」を熱唱する。",
       "points": [
-        "元フジアナの渡邊渚がSNSを更新",
-        "木いちごを使ったフラワーアレンジメントを披露",
-        "仕事の近況報告も行いファンから注目を集める"
+        "11月27日午後10時公開の第730回に登場",
+        "歴史あるバンドがTFT史上最高齢での出演を果たす",
+        "不朽の名曲「銀河鉄道999」を披露"
       ],
-      "impact": "フリーとして活動する渡邊渚のSNS発信やプライベートな創作活動は、多くのファンの間で常に高い関心を集めています。",
+      "impact": "往年のファンから若い世代まで、多くの視聴者の心に響くステージとなっている。",
       "tags": [
-        "渡邊渚",
-        "アナウンサー",
-        "Instagram"
+        "ゴダイゴ",
+        "THE FIRST TAKE",
+        "YouTube"
       ],
-      "url": "https://news.yahoo.co.jp/articles/af12322366cac62df8e49371155a63f3fd44eaaf?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/b38c97a612be79b2bf38cc2490b68a5548aa0dc0?source=rss",
       "isAiEnriched": true
     },
     {
@@ -2808,24 +2808,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "entertainment",
-      "title": "アニメ「冰剣の魔術師」ヘレナ役は大地葉",
+      "title": "お笑い芸人バンド「たこやき野球連盟」メジャーデビュー",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-27 02:00",
-      "publishedTs": 1795712411,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261127-00000006-nataliec-000-1-view.jpg?exp=10800",
-      "summary": "放送中のTVアニメ「冰剣の魔術師が世界を統べるII」の第8話に登場したキャラクター、ヘレナ＝グレイディ役を声優の大地葉が務めていることが正式に発表され、ファンの間で話題となっています。",
+      "publishedAt": "2026-11-27 04:00",
+      "publishedTs": 1795719601,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261127-41262382-nksports-000-1-view.jpg?exp=10800",
+      "summary": "芸人6人組バンド「たこやき野球連盟」がライブでメジャーデビューと新曲リリースを発表した。",
       "points": [
-        "TVアニメ「冰剣の魔術師が世界を統べるII」第8話に登場",
-        "ヘレナ＝グレイディ役を声優の大地葉が担当",
-        "キャラクター情報とあわせてキャストが解禁"
+        "バッテリィズのエースがボーカルを務める6人組バンド",
+        "12月2日にデジタルシングル「ホームスチール」を発売",
+        "都内でのライブにてメジャーデビューを発表"
       ],
-      "impact": "人気アニメの重要キャラクターのキャスト判明は、作品の視聴者や声優ファンにとって見逃せないニュースとなっています。",
+      "impact": "お笑い界からの新たな音楽活動の展開として、エンタメ業界で話題を呼んでいる。",
       "tags": [
-        "大地葉",
-        "冰剣の魔術師が世界を統べる",
-        "アニメ声優"
+        "たこやき野球連盟",
+        "メジャーデビュー",
+        "お笑い芸人"
       ],
-      "url": "https://news.yahoo.co.jp/articles/e9ba736db83cc740513140ebc4e3e5eadfb93968?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/dd4b985bbcc516983acfb075b285ab6be46b63d3?source=rss",
       "isAiEnriched": true
     },
     {
@@ -2918,24 +2918,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "entertainment",
-      "title": "大地葉、衝撃豹変のヘレナ役でアニメ出演",
+      "title": "ゴダイゴ「THE FIRST TAKE」初出演で名曲歌唱",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-27 02:00",
-      "publishedTs": 1795712400,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261127-01461576-the_tv-000-1-view.jpg?exp=10800",
-      "summary": "アニメ「冰剣の魔術師が世界を統べるII」第8話に出演した声優の大地葉が、衝撃の豹変を見せたヘレナ役についてコメントを寄せました。第2期での今後の展開やキャラクターの姿に期待が寄せられています。",
+      "publishedAt": "2026-11-27 04:00",
+      "publishedTs": 1795719600,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261127-00000004-sanspo-000-1-view.jpg?exp=10800",
+      "summary": "今年デビュー50周年を迎えたゴダイゴが「THE FIRST TAKE」に初出演し、代表曲をパフォーマンス。",
       "points": [
-        "第8話で衝撃の豹変を見せたヘレナ役を熱演",
-        "声優自身がキャラクターの魅力や見どころを語る",
-        "第2期における今後の活躍や姿に期待が高まる"
+        "一発撮りの人気YouTubeチャンネルに初登場",
+        "今年デビュー50周年の節目を迎える",
+        "22日にはネパールで46年ぶりのライブも開催"
       ],
-      "impact": "実力派声優の演技論やアプローチが明かされることで、アニメ作品自体の深度や視聴の楽しみが一層増す効果があります。",
+      "impact": "国内外で精力的に活動を続けるバンドの衰えない歌声と演奏力が再認識されている。",
       "tags": [
-        "大地葉",
-        "冰剣の魔術師",
-        "アニメ"
+        "ゴダイゴ",
+        "THE FIRST TAKE",
+        "ライブ"
       ],
-      "url": "https://news.yahoo.co.jp/articles/cd710775a9da897edee73b6c89243f208bcd1f93?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/5c466961f1bc439b6c00bbf983d35915abe79e36?source=rss",
       "isAiEnriched": true
     },
     {
@@ -2962,24 +2962,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "同じマンションの男性の背中を刺した疑い、34歳女を逮捕 名古屋市緑区",
+      "title": "沖縄県本島北部で線状降水帯が発生、厳重警戒",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-27 02:42",
-      "publishedTs": 1795714938,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261127-23115479-cbcv-000-1-view.jpg?exp=10800",
-      "summary": "名古屋市緑区のマンションで、同じマンションに住む男性の背中を包丁で刺したとして、34歳の女が逮捕された。女は調べに対し「殺そうと思って刺した」と容疑を認めている。",
+      "publishedAt": "2026-11-27 04:17",
+      "publishedTs": 1795720643,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261127-00037243-tenki-000-1-view.jpg?exp=10800",
+      "summary": "沖縄県本島北部において線状降水帯が発生し、非常に激しい雨が続いています。命に危険が及ぶ災害発生の危険度が急激に高まっており、速やかな身の安全の確保が求められています。",
       "points": [
-        "名古屋市緑区のマンションで26日午後8時ごろに事件が発生",
-        "被害男性の家族から「近所の人に刺された」と110番通報",
-        "逮捕された34歳の女は殺意を持って包丁で刺したことを認める"
+        "沖縄県本島北部で線状降水帯が現在発生中",
+        "非常に激しい雨により災害の危険度が急上昇",
+        "命を守るため、すぐに身の安全を確保する必要がある"
       ],
-      "impact": "集合住宅での近隣住民による凶悪事件は地域社会に大きな不安を与える。動機や経緯の解明と、防犯意識の再確認が求められる。",
+      "impact": "対象地域では土砂災害や河川氾濫のリスクが極めて高いため、自治体の避難情報を確認し直ちに行動してください。",
       "tags": [
-        "事件",
-        "名古屋市",
-        "逮捕"
+        "気象",
+        "沖縄",
+        "大雨警報"
       ],
-      "url": "https://news.yahoo.co.jp/articles/56d543ab050b2df72cb8d1f1dc95c515773e0e87?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/b44c4776fce2e3dac0d33c545a2887f8a5a50124?source=rss",
       "isAiEnriched": true
     },
     {
@@ -3028,24 +3028,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "entertainment",
-      "title": "西野カナ、人生初韓国のプライベート写真公開",
+      "title": "M!LK、最新アルバムで初のミリオン突破を達成",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-27 01:40",
-      "publishedTs": 1795711200,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261127-00000337-oric-000-1-view.jpg?exp=10800",
-      "summary": "歌手の西野カナがインスタグラムを更新し、人生初となる韓国旅行でのオフショットを大量に公開しました。念願の場所を満喫する自然体のプライベートショットに、ネット上では「可愛すぎる」と大きな反響を呼んでいます。",
+      "publishedAt": "2026-11-27 04:00",
+      "publishedTs": 1795719600,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261127-00000020-spnannex-000-4-view.jpg?exp=10800",
+      "summary": "男性5人組グループ「M!LK」の最新アルバム「LOVE ENG!NE」が、オリコン調べで初のミリオンセールスを突破しました。10週連続でトップ20入りを果たす大ヒットを記録しています。",
       "points": [
-        "歌手の西野カナが人生初の韓国旅行を満喫",
-        "SNSにプライベートなオフショットを大量投稿",
-        "可愛らしさあふれる姿にファンから絶賛の声"
+        "M!LKの最新アルバムが初のミリオンを達成",
+        "最新チャートで100.9万枚の売上に到達",
+        "10週連続でトップ20入りをキープする快挙"
       ],
-      "impact": "活動再開後も注目を集め続ける西野カナのプライベートな一面やファッションは、同世代の女性を中心に大きな影響を与えます。",
+      "impact": "グループの人気と勢いが数字としても証明され、今後の音楽シーンやライブ動員への期待が高まります。",
       "tags": [
-        "西野カナ",
-        "韓国旅行",
-        "Instagram"
+        "音楽",
+        "M!LK",
+        "オリコン"
       ],
-      "url": "https://news.yahoo.co.jp/articles/b6b1cdd74de6584dcae525cfb47e5617b4f75c7c?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/bb074c00b12b95b1af6985a24d6aa9d6d9115518?source=rss",
       "isAiEnriched": true
     },
     {
@@ -3072,24 +3072,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "兵庫のガラス工事会社「小川技硝」と代表、3600万円脱税疑いで告発",
+      "title": "沖縄本島北部、今後3時間以内に線状降水帯の恐れ",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-27 02:00",
-      "publishedTs": 1795712402,
-      "image": "https://tse2.mm.bing.net/th?q=3600%E4%B8%87%E5%86%86%E8%84%B1%E7%A8%8E%E7%96%91%E3%81%84%E3%81%A7%E5%91%8A%E7%99%BA%20%E5%85%B5%E5%BA%AB%E3%81%AE%E3%82%AC%E3%83%A9%E3%82%B9%E5%B7%A5%E4%BA%8B%E4%BC%9A%E7%A4%BE&w=800&h=450&c=7&rs=1&p=0",
-      "summary": "架空の経費を計上する手口で約3600万円を脱税したとして、大阪国税局が兵庫県明石市のガラス工事業「小川技硝」と萬亘代表取締役を法人税法違反などの疑いで神戸地検に告発した。",
+      "publishedAt": "2026-11-27 04:04",
+      "publishedTs": 1795719850,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261127-00037242-tenki-000-1-view.jpg?exp=10800",
+      "summary": "気象庁の発表によると、沖縄県本島北部では今後3時間以内に線状降水帯が発生し、命に関わる災害リスクが急激に高まるおそれがあります。周辺住民は自治体の情報に注意が必要です。",
       "points": [
-        "大阪国税局が法人税法違反などの疑いで神戸地検に告発",
-        "架空経費の計上により約3600万円を脱税した疑い",
-        "対象は兵庫県明石市の「小川技硝」と代表取締役"
+        "今後3時間以内に線状降水帯発生の可能性を指摘",
+        "命に危険が及ぶ災害リスクが急激に高まる予測",
+        "自治体の避難情報や周辺状況の確認を呼びかけ"
       ],
-      "impact": "建設・工事業界における税務コンプライアンスの厳格化が改めて示され、企業のリスク管理や適正な会計処理が問われている。",
+      "impact": "突発的な大雨による被害が懸念されるため、最新の気象情報に注意し早めの避難準備を行ってください。",
       "tags": [
-        "脱税",
-        "大阪国税局",
-        "小川技硝"
+        "気象",
+        "速報",
+        "大雨"
       ],
-      "url": "https://news.yahoo.co.jp/articles/522d5dbb1c8c3342fb008adb4c18ab9025e6208b?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/9e3aff4ad5aed121a0fe0b60f51b66352714be72?source=rss",
       "isAiEnriched": true
     },
     {
@@ -3138,24 +3138,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "entertainment",
-      "title": "女性ラッパー発掘「GOLDEN MIC」合格者決定",
+      "title": "ゴダイゴ「THE FIRST TAKE」に最高齢出演",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-27 01:29",
-      "publishedTs": 1795710550,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261127-00000005-natalien-000-1-view.jpg?exp=10800",
-      "summary": "フィメールラッパーを発掘するオーディション番組「GOLDEN MIC」の最終審査が行われ、tonosama wasabiiとKAMIAの2名が最終合格者に決定したことが発表されました。",
+      "publishedAt": "2026-11-27 04:00",
+      "publishedTs": 1795719600,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261127-00000018-spnannex-000-4-view.jpg?exp=10800",
+      "summary": "人気ロックバンド「ゴダイゴ」がYouTubeチャンネル「THE FIRST TAKE」に初出演します。平均年齢72.8歳は同チャンネルの出演者として最高齢となります。",
       "points": [
-        "女性ラッパー発掘オーディション「GOLDEN MIC」",
-        "白熱の審査を経て最終合格者が2名に決定",
-        "tonosama wasabiiとKAMIAが栄冠を掴む"
+        "ゴダイゴが一発撮りチャンネルに初出演",
+        "平均年齢72.8歳でこれまでの最高齢記録を更新",
+        "メンバーは長い道のりを経て「やっぱり凄く楽しい」とコメント"
       ],
-      "impact": "次世代を担う女性ラッパーの誕生により、国内のヒップホップシーンやオーディション番組のトレンドに新たな活気を与えます。",
+      "impact": "レジェンドバンドの世代を超えたパフォーマンスが話題となり、幅広い世代の動画視聴や楽曲人気につながります。",
       "tags": [
-        "GOLDEN MIC",
-        "ラッパー",
-        "オーディション"
+        "音楽",
+        "ゴダイゴ",
+        "YouTube"
       ],
-      "url": "https://news.yahoo.co.jp/articles/2cc7ab98c8ae710077d4dbefc1540f399754ff8e?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/41c4e62ccb624df52dbf8e140295abd76f272694?source=rss",
       "isAiEnriched": true
     },
     {
@@ -3182,24 +3182,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "介護保険の負担引き上げ方針を了承、一部高齢者が1割から2割へ",
+      "title": "同じマンションの男性の背中を刺した疑い、34歳女を逮捕 名古屋市緑区",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-27 01:45",
-      "publishedTs": 1795711531,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261127-90205310-ann-000-1-view.jpg?exp=10800",
-      "summary": "介護保険の負担割合をめぐる議論が大詰めを迎え、26日に開かれた厚生労働省の部会で、一部の高齢者の自己負担を1割から2割へ引き上げる方針が了承された。生活への影響が懸念されている。",
+      "publishedAt": "2026-11-27 02:42",
+      "publishedTs": 1795714938,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261127-23115479-cbcv-000-1-view.jpg?exp=10800",
+      "summary": "名古屋市緑区のマンションで、同じマンションに住む男性の背中を包丁で刺したとして、34歳の女が逮捕された。女は調べに対し「殺そうと思って刺した」と容疑を認めている。",
       "points": [
-        "厚労省の部会で介護保険の負担引き上げ方針が了承",
-        "一部の高齢者を対象に自己負担が1割から2割へ増加",
-        "当事者からは「金銭的に厳しい」と生活への懸念の声"
+        "名古屋市緑区のマンションで26日午後8時ごろに事件が発生",
+        "被害男性の家族から「近所の人に刺された」と110番通報",
+        "逮捕された34歳の女は殺意を持って包丁で刺したことを認める"
       ],
-      "impact": "高齢者の家計負担が増すことで介護サービスの利用控えや生活設計の見直しが進み、関連業界や家族の介護負担にも影響が及ぶ。",
+      "impact": "集合住宅での近隣住民による凶悪事件は地域社会に大きな不安を与える。動機や経緯の解明と、防犯意識の再確認が求められる。",
       "tags": [
-        "介護保険",
-        "厚生労働省",
-        "負担増"
+        "事件",
+        "名古屋市",
+        "逮捕"
       ],
-      "url": "https://news.yahoo.co.jp/articles/dcedac84d407d1d6e8b6bbdbb60d61e6501eabf9?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/56d543ab050b2df72cb8d1f1dc95c515773e0e87?source=rss",
       "isAiEnriched": true
     },
     {
@@ -3248,24 +3248,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "entertainment",
-      "title": "Zeebra主催『GOLDEN MIC』最終合格者決定、育成枠で2人追加",
+      "title": "吉本芸人バンド「たこやき野球連盟」メジャーデビュー",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-27 01:29",
-      "publishedTs": 1795710540,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261127-00000308-oric-000-1-view.jpg?exp=10800",
-      "summary": "日本テレビ系で放送中のZeebraが仕掛ける女性ラッパー発掘オーディション『GOLDEN MIC』の最終合格者が決定した。称号を得た合格者に加え、育成枠として2人が追加選出される。",
+      "publishedAt": "2026-11-27 04:00",
+      "publishedTs": 1795719600,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261127-00000015-spnannex-000-4-view.jpg?exp=10800",
+      "summary": "吉本興業の人気芸人によるバンド「たこやき野球連盟」がイベントでメジャーデビューを発表しました。「ニッポンの社長」の辻クラシックらが所属し、今後の活動に注目が集まります。",
       "points": [
-        "Zeebra主催の女性ラッパー発掘番組で最終合格者が決定",
-        "日本テレビ系で毎週木曜深夜に放送中のオーディション企画",
-        "最終合格者のほか「育成枠」として新たに2人が追加選出"
+        "吉本興業の人気芸人バンドがメジャーデビューを発表",
+        "「ニッポンの社長」辻クラシックらがメンバーとして参加",
+        "阪神・佐藤輝明選手と同じタイミングでのデビューを喜ぶ"
       ],
-      "impact": "日本のヒップホップシーンにおける女性ラッパーの活躍の場が広がり、次世代のスター誕生や音楽市場の活性化が期待される。",
+      "impact": "お笑いと音楽を融合させた新たなエンタメコンテンツとして、メディアやバラエティ番組への露出増加が期待されます。",
       "tags": [
-        "Zeebra",
-        "GOLDEN MIC",
-        "オーディション"
+        "芸能",
+        "吉本興業",
+        "メジャーデビュー"
       ],
-      "url": "https://news.yahoo.co.jp/articles/91d6657e4c847594d95c6b6bd1c9a35fd1653762?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/9bdd55443c73ec765ca273c2363d5627d95113fa?source=rss",
       "isAiEnriched": true
     },
     {
@@ -3292,24 +3292,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "総武線（快速）が船橋駅での人身事故から運転再開、ダイヤに乱れ",
+      "title": "兵庫のガラス工事会社「小川技硝」と代表、3600万円脱税疑いで告発",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-27 01:40",
-      "publishedTs": 1795711200,
-      "image": "https://tse2.mm.bing.net/th?q=%E7%B7%8F%E6%AD%A6%E7%B7%9A%20%E3%81%A7%E4%BA%BA%E8%BA%AB%E4%BA%8B%E6%95%85%20%E9%81%8B%E8%BB%A2%E5%86%8D%E9%96%8B&w=800&h=450&c=7&rs=1&p=0",
-      "summary": "船橋駅で発生した人身事故の影響により、東京〜船橋駅間の上り線（東京方面行）で運転を見合わせていた総武線（快速）は、午前1時34分頃に運転を再開した。現在もダイヤが乱れている。",
+      "publishedAt": "2026-11-27 02:00",
+      "publishedTs": 1795712402,
+      "image": "https://tse2.mm.bing.net/th?q=3600%E4%B8%87%E5%86%86%E8%84%B1%E7%A8%8E%E7%96%91%E3%81%84%E3%81%A7%E5%91%8A%E7%99%BA%20%E5%85%B5%E5%BA%AB%E3%81%AE%E3%82%AC%E3%83%A9%E3%82%B9%E5%B7%A5%E4%BA%8B%E4%BC%9A%E7%A4%BE&w=800&h=450&c=7&rs=1&p=0",
+      "summary": "架空の経費を計上する手口で約3600万円を脱税したとして、大阪国税局が兵庫県明石市のガラス工事業「小川技硝」と萬亘代表取締役を法人税法違反などの疑いで神戸地検に告発した。",
       "points": [
-        "船橋駅で発生した人身事故により上り線で運転見合わせ",
-        "午前1時34分頃に東京〜船橋駅間の運転を再開",
-        "運転再開後もダイヤの乱れが継続中"
+        "大阪国税局が法人税法違反などの疑いで神戸地検に告発",
+        "架空経費の計上により約3600万円を脱税した疑い",
+        "対象は兵庫県明石市の「小川技硝」と代表取締役"
       ],
-      "impact": "深夜帯の移動や翌朝の通勤・通学ダイヤに影響が残る可能性があり、利用者は最新の運行情報の確認が必要となる。",
+      "impact": "建設・工事業界における税務コンプライアンスの厳格化が改めて示され、企業のリスク管理や適正な会計処理が問われている。",
       "tags": [
-        "総武線",
-        "運転再開",
-        "人身事故"
+        "脱税",
+        "大阪国税局",
+        "小川技硝"
       ],
-      "url": "https://news.yahoo.co.jp/articles/3209a7b485e170ef91fc9dcc9f632e92de0bc4bc?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/522d5dbb1c8c3342fb008adb4c18ab9025e6208b?source=rss",
       "isAiEnriched": true
     },
     {
@@ -3358,24 +3358,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "entertainment",
-      "title": "Epic Gamesストアで高難度ACTなど無料配布",
+      "title": "KEY TO LIT、プーマ新キャンペーンに起用",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-27 01:00",
-      "publishedTs": 1795708847,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261127-00000003-gamespav-000-1-view.jpg?exp=10800",
-      "summary": "Epic Gamesストアにて、協力プレイ向け高難度アクション『Bread ＆ Fred』本編と放置系RPGアイテムの無料配布がスタートしました。",
+      "publishedAt": "2026-11-27 04:00",
+      "publishedTs": 1795719600,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261127-00000350-oric-000-1-view.jpg?exp=10800",
+      "summary": "5人組グループ「KEY TO LIT」が、プーマジャパンの新キャンペーン「LET'S BEGIN」に起用されました。メンバーの今しかない思いが詰まったCMやビジュアルが展開されます。",
       "points": [
-        "ブラックフライデーセール期間中の企画",
-        "『Bread ＆ Fred』は協力プレイに対応",
-        "12月3日までの期間限定で無料入手可能"
+        "KEY TO LITがプーマの新キャンペーンに登場",
+        "新キャンペーンのテーマは「LET'S BEGIN」",
+        "メンバーの今のリアルな表情や思いが詰まったCMに"
       ],
-      "impact": "PCゲーマーにとって週末のゲーム体験を広げる嬉しい無料配布のビッグチャンスとなっています。",
+      "impact": "ファッションやスポーツブランドとのタイアップにより、若年層を中心にグループの認知度とブランド価値がさらに向上します。",
       "tags": [
-        "PCゲーム",
-        "EpicGames",
-        "無料配布"
+        "芸能",
+        "KEY TO LIT",
+        "PUMA"
       ],
-      "url": "https://news.yahoo.co.jp/articles/903761ae138e695f7a03fb434fb45a22d18fff2c?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/43034493adcfd03fec74950f98f3046d4c103d70?source=rss",
       "isAiEnriched": true
     },
     {
@@ -3402,24 +3402,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "愛知・新城市の飲食店で現金約40万円盗んだ男2人を逮捕、被害総額1500万円か",
+      "title": "介護保険の負担引き上げ方針を了承、一部高齢者が1割から2割へ",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-27 01:22",
-      "publishedTs": 1795710132,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261127-23115467-cbcv-000-1-view.jpg?exp=10800",
-      "summary": "愛知県新城市の飲食店に侵入し現金約40万円を盗んだとして、名古屋市の男2人が逮捕された。一連の事件による被害総額は約1500万円にのぼるとみられ、警察が余罪を調べている。",
+      "publishedAt": "2026-11-27 01:45",
+      "publishedTs": 1795711531,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261127-90205310-ann-000-1-view.jpg?exp=10800",
+      "summary": "介護保険の負担割合をめぐる議論が大詰めを迎え、26日に開かれた厚生労働省の部会で、一部の高齢者の自己負担を1割から2割へ引き上げる方針が了承された。生活への影響が懸念されている。",
       "points": [
-        "愛知県新城市の飲食店から現金約40万円を盗んだ疑いで男2人を逮捕",
-        "容疑者は名古屋市在住で、侵入窃盗を繰り返していた可能性",
-        "関連する被害総額は約1500万円に達するとみられる"
+        "厚労省の部会で介護保険の負担引き上げ方針が了承",
+        "一部の高齢者を対象に自己負担が1割から2割へ増加",
+        "当事者からは「金銭的に厳しい」と生活への懸念の声"
       ],
-      "impact": "飲食店を狙った多額の窃盗事件が相次いでおり、店舗の防犯カメラ設置や現金管理の徹底などセキュリティ対策の強化が急務となっている。",
+      "impact": "高齢者の家計負担が増すことで介護サービスの利用控えや生活設計の見直しが進み、関連業界や家族の介護負担にも影響が及ぶ。",
       "tags": [
-        "窃盗事件",
-        "愛知県新城市",
-        "飲食店"
+        "介護保険",
+        "厚生労働省",
+        "負担増"
       ],
-      "url": "https://news.yahoo.co.jp/articles/00d09d35ffc7d6100ce130071348fc28367f48bf?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/dcedac84d407d1d6e8b6bbdbb60d61e6501eabf9?source=rss",
       "isAiEnriched": true
     },
     {
@@ -3468,24 +3468,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "entertainment",
-      "title": "第50回日本アカデミー賞「話題賞」投票スタート",
+      "title": "M!LK「LOVE ENG!NE」ミリオン達成を記録",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-27 01:00",
-      "publishedTs": 1795708800,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261127-00000002-sanspo-000-1-view.jpg?exp=10800",
-      "summary": "一般の映画ファンが唯一参加できる第50回日本アカデミー賞「話題賞」の投票が開始され、映画ファンの間で期待が高まっています。",
+      "publishedAt": "2026-11-27 04:00",
+      "publishedTs": 1795719600,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261127-00000327-oric-000-1-view.jpg?exp=10800",
+      "summary": "5人組グループ「M!LK」の最新アルバム『LOVE ENG!NE』が、オリコン週間ランキングで累積売上100万枚を突破し、自身初の快挙となるミリオン達成となりました。",
       "points": [
-        "日本アカデミー賞唯一の一般参加型賞",
-        "27日から投票受付が正式にスタート",
-        "前回は俳優部門を松村北斗が受賞"
+        "最新オリコンランキングでアルバム売上が100万枚を突破",
+        "M!LKとしてキャリア初のミリオン達成を記録",
+        "発売からロングヒットを続けてランキング上位を維持"
       ],
-      "impact": "今年最も話題を集めた映画や俳優を決定する投票として、エンタメ業界の注目を集めています。",
+      "impact": "ファン層の拡大とCDセールスの強さが証明され、今後のアニバーサリー展開や大規模ライブへの注目が高まります。",
       "tags": [
-        "映画",
-        "日本アカデミー賞",
-        "エンタメ"
+        "音楽",
+        "M!LK",
+        "オリコン"
       ],
-      "url": "https://news.yahoo.co.jp/articles/101e74c81da5c069110b1849a235c5ca640ce8e6?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/4c9f96cb088874f3a7403f18cbe4301af039f25e?source=rss",
       "isAiEnriched": true
     },
     {
@@ -3512,24 +3512,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "同じマンションの男性を包丁で刺した殺人未遂容疑で34歳女を逮捕　名古屋",
+      "title": "総武線（快速）が船橋駅での人身事故から運転再開、ダイヤに乱れ",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-27 01:09",
-      "publishedTs": 1795709342,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261127-90038228-nbnv-000-1-view.jpg?exp=10800",
-      "summary": "名古屋市緑区のマンションで、同じマンションに住む男性の背中を包丁で刺して殺害しようとしたとして、無職の杉野しずか容疑者（34）が殺人未遂の疑いで逮捕された。",
+      "publishedAt": "2026-11-27 01:40",
+      "publishedTs": 1795711200,
+      "image": "https://tse2.mm.bing.net/th?q=%E7%B7%8F%E6%AD%A6%E7%B7%9A%20%E3%81%A7%E4%BA%BA%E8%BA%AB%E4%BA%8B%E6%95%85%20%E9%81%8B%E8%BB%A2%E5%86%8D%E9%96%8B&w=800&h=450&c=7&rs=1&p=0",
+      "summary": "船橋駅で発生した人身事故の影響により、東京〜船橋駅間の上り線（東京方面行）で運転を見合わせていた総武線（快速）は、午前1時34分頃に運転を再開した。現在もダイヤが乱れている。",
       "points": [
-        "名古屋市緑区のマンション内で発生した殺人未遂事件",
-        "同じマンションに住む男性の背中を包丁で刺した疑い",
-        "警察が詳しい動機や事件の経緯について捜査を進めている"
+        "船橋駅で発生した人身事故により上り線で運転見合わせ",
+        "午前1時34分頃に東京〜船橋駅間の運転を再開",
+        "運転再開後もダイヤの乱れが継続中"
       ],
-      "impact": "集合住宅内での住民間トラブルが重大事件に発展するケースがあり、マンションの防犯意識や近隣トラブルへの早期対応が課題となる。",
+      "impact": "深夜帯の移動や翌朝の通勤・通学ダイヤに影響が残る可能性があり、利用者は最新の運行情報の確認が必要となる。",
       "tags": [
-        "殺人未遂",
-        "名古屋市緑区",
-        "事件"
+        "総武線",
+        "運転再開",
+        "人身事故"
       ],
-      "url": "https://news.yahoo.co.jp/articles/626ca48b45ff2f35def7c83190b3d75163555c96?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/3209a7b485e170ef91fc9dcc9f632e92de0bc4bc?source=rss",
       "isAiEnriched": true
     },
     {
@@ -3578,68 +3578,68 @@ window.NEWS_DATA = {
     },
     {
       "category": "entertainment",
-      "title": "第50回日本アカデミー賞話題賞の投票が受付中",
+      "title": "原つむぎ、デジタル写真集で自身最大の露出に挑戦",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-27 01:00",
-      "publishedTs": 1795708800,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261127-00000369-oric-000-1-view.jpg?exp=10800",
-      "summary": "2027年3月の授賞式に向け、第50回日本アカデミー賞「話題賞」の投票がニッポン放送の番組ホームページ等で開始されました。",
+      "publishedAt": "2026-11-27 03:40",
+      "publishedTs": 1795718400,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261127-00000315-oric-000-1-view.jpg?exp=10800",
+      "summary": "グラビアアイドルの原つむぎがデジタル限定写真集を発売しました。今年9月発売の写真集の未公開カットをふんだんに収録し、自身最大級の露出に挑戦した話題作となっています。",
       "points": [
-        "2027年1月31日まで投票を受付",
-        "オールナイトニッポンの特設ページで実施",
-        "2026年を代表する映画や俳優を選出"
+        "原つむぎのデジタル限定写真集がリリース",
+        "9月発売の写真集の未公開カットで構成",
+        "自身最大の露出に挑戦した見応えのある内容"
       ],
-      "impact": "映画ファンの投票動向が、今年の映画シーンを振り返る重要な指標となります。",
+      "impact": "グラビアファンの間で大きな話題を呼び、デジタル写真集の売上ランキングやSNSでの拡散効果が期待されます。",
       "tags": [
-        "映画",
-        "日本アカデミー賞",
-        "ランキング"
+        "グラビア",
+        "原つむぎ",
+        "写真集"
       ],
-      "url": "https://news.yahoo.co.jp/articles/c420d603e1c534dc1c31b09f3ee8a7a8c548a3f2?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/6e4760f490b88b806258cf909818fabd5648dbaa?source=rss",
       "isAiEnriched": true
     },
     {
       "category": "subculture",
-      "title": "Ave Mujicaスピンオフがコミックグロウルで",
-      "source": "comic-growl.com",
-      "publishedAt": "2026-11-26 12:41",
-      "publishedTs": 1795664492,
-      "image": "https://cdn-public.comici.jp/articlevisual/1913397/default/20261124114640424FEE09594391A1406771015BE56E0AB14.webp",
-      "summary": "『BanG Dream! Ave Mujica』の公式スピンオフコメディ『祥子ちゃん家の晩ごはん』の連載が開始されました。",
+      "title": "名作美少女ゲームのリメイク版『センチメンタルグラフティ』発売へ",
+      "source": "AUTOMATON",
+      "publishedAt": "2026-11-26 18:00",
+      "publishedTs": 1795683601,
+      "image": "https://automaton-media.com/wp-content/uploads/2026/11/20261126-481151-header.jpg",
+      "summary": "エンターグラムは、28年前の名作美少女ゲームのリメイク版『センチメンタルグラフティリメイク』を2027年3月25日に発売すると発表した。",
       "points": [
-        "裕福な実家を離れた豊川祥子の節約生活を描くスピンオフ",
-        "コミックグロウルにて第1話が公開、今後の更新スケジュールも発表",
-        "慎ましいのに優雅な日常を描くコメディ作品"
+        "28年前の名作タイトルが現代に蘇る",
+        "発売日は2027年3月25日に決定",
+        "全国12都市を巡るヒロイン探しの旅が遊びやすく進化"
       ],
-      "impact": "人気IPのスピンオフ展開により、コンテンツファンのエンタメ体験やプラットフォームの集客力が高まります。",
+      "impact": "当時のファンに懐かしさを提供しつつ、現代のプレイヤーにも新鮮な体験を届ける。",
       "tags": [
-        "アニメ",
-        "漫画",
-        "サブカルチャー"
+        "ゲーム",
+        "リメイク",
+        "レトロゲーム"
       ],
-      "url": "https://comic-growl.com/episodes/06cfc19c717f8",
+      "url": "https://automaton-media.com/articles/newsjp/20261126-481151/",
       "isAiEnriched": true
     },
     {
       "category": "domestic",
-      "title": "80代女性死亡のひき逃げ事件で49歳男を逮捕「お酒は抜けていると思った」",
+      "title": "愛知・新城市の飲食店で現金約40万円盗んだ男2人を逮捕、被害総額1500万円か",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-27 01:05",
-      "publishedTs": 1795709126,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261127-23115421-cbcv-000-1-view.jpg?exp=10800",
-      "summary": "今月26日、名古屋市西区で80代の女性が死亡したひき逃げ事件で、49歳の男が逮捕された。男は「お酒は抜けていると思っていた」と供述しており、警察が飲酒運転の有無を含め捜査している。",
+      "publishedAt": "2026-11-27 01:22",
+      "publishedTs": 1795710132,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261127-23115467-cbcv-000-1-view.jpg?exp=10800",
+      "summary": "愛知県新城市の飲食店に侵入し現金約40万円を盗んだとして、名古屋市の男2人が逮捕された。一連の事件による被害総額は約1500万円にのぼるとみられ、警察が余罪を調べている。",
       "points": [
-        "名古屋市西区で発生した80代女性死亡のひき逃げ事件で男を逮捕",
-        "容疑者は「お酒は抜けていると思っていた」と供述",
-        "事故当時のアルコール残留状況や逃走の経緯を詳しく調査中"
+        "愛知県新城市の飲食店から現金約40万円を盗んだ疑いで男2人を逮捕",
+        "容疑者は名古屋市在住で、侵入窃盗を繰り返していた可能性",
+        "関連する被害総額は約1500万円に達するとみられる"
       ],
-      "impact": "翌日にアルコールが残る「二日酔い運転」による重大事故は後を絶たず、運転前のアルコールチェックや飲酒運転根絶への意識徹底が求められる。",
+      "impact": "飲食店を狙った多額の窃盗事件が相次いでおり、店舗の防犯カメラ設置や現金管理の徹底などセキュリティ対策の強化が急務となっている。",
       "tags": [
-        "ひき逃げ",
-        "名古屋市西区",
-        "飲酒運転"
+        "窃盗事件",
+        "愛知県新城市",
+        "飲食店"
       ],
-      "url": "https://news.yahoo.co.jp/articles/09b4247581ea04cd4f908fdc3b926cc911958d77?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/00d09d35ffc7d6100ce130071348fc28367f48bf?source=rss",
       "isAiEnriched": true
     },
     {
@@ -3688,68 +3688,68 @@ window.NEWS_DATA = {
     },
     {
       "category": "entertainment",
-      "title": "人気自動車番組『トップ・ギア』が2028年復活へ",
+      "title": "NIKE×高橋盾のNike Gyakusou新作発表",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-27 00:42",
-      "publishedTs": 1795707757,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261127-00010001-thrjapan-000-1-view.jpg?exp=10800",
-      "summary": "イギリスの人気自動車番組『トップ・ギア』が2028年に復活することが発表され、シェフのゴードン・ラムゼイが新シリーズのメイン司会者に決定しました。",
+      "publishedAt": "2026-11-27 03:00",
+      "publishedTs": 1795716000,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261127-00000340-oric-000-1-view.jpg?exp=10800",
+      "summary": "NIKEと高橋盾氏のUNDERCOVERによる「Nike Gyakusou」コレクションの復活が決定。新作は12月3日より発売される予定で、ファンから大きな注目を集めています。",
       "points": [
-        "2028年の新シリーズ復活が決定",
-        "メイン司会者にゴードン・ラムゼイを起用",
-        "新たな共同プレゼンター陣と番組を制作"
+        "NIKEとUNDERCOVERのコラボが復活",
+        "高橋盾氏がデザインを手がける",
+        "12月3日からの発売が正式決定"
       ],
-      "impact": "世界中の自動車番組ファンにとって待望の復活となり、新たな演出や展開に期待が集まります。",
+      "impact": "ファッション界やランニングウェア市場において、独創的なデザインと機能性で再び大きな話題となりそうです。",
       "tags": [
-        "トップギア",
-        "テレビ",
-        "自動車"
+        "NIKE",
+        "高橋盾",
+        "ファッション"
       ],
-      "url": "https://news.yahoo.co.jp/articles/f8c8b27e915ac03f89c6149057a1b3783e2aac0c?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/0fd6f4a004c1568138cc1d6ed64490d6b4394e33?source=rss",
       "isAiEnriched": true
     },
     {
       "category": "subculture",
-      "title": "名作美少女ゲームのリメイク版『センチメンタルグラフティ』発売へ",
-      "source": "AUTOMATON",
-      "publishedAt": "2026-11-26 18:00",
-      "publishedTs": 1795683601,
-      "image": "https://automaton-media.com/wp-content/uploads/2026/11/20261126-481151-header.jpg",
-      "summary": "エンターグラムは、28年前の名作美少女ゲームのリメイク版『センチメンタルグラフティリメイク』を2027年3月25日に発売すると発表した。",
+      "title": "「Vket 2026 Winter」企業ブース第2弾公開",
+      "source": "PANORA",
+      "publishedAt": "2026-11-26 12:30",
+      "publishedTs": 1795663857,
+      "image": "https://asset.panora.tokyo/wp-content/uploads/2026/11/26123034/34617-523-3e827049c9af2d75d31af6e6bf7c9658-1920x1080-1.webp",
+      "summary": "メタバースイベント「バーチャルマーケット2026 Winter」の第2弾企業ブースが公開され、多彩な没入型体験が集結します。",
       "points": [
-        "28年前の名作タイトルが現代に蘇る",
-        "発売日は2027年3月25日に決定",
-        "全国12都市を巡るヒロイン探しの旅が遊びやすく進化"
+        "通算17回目の開催となる大規模メタバースイベント",
+        "富士急行やサントリーなどの企業が出展",
+        "没入型のユニークな体験コンテンツを提供"
       ],
-      "impact": "当時のファンに懐かしさを提供しつつ、現代のプレイヤーにも新鮮な体験を届ける。",
+      "impact": "メタバースを活用した企業のマーケティングやエンターテインメントの新たな展開として注目されます。",
       "tags": [
-        "ゲーム",
-        "リメイク",
-        "レトロゲーム"
+        "メタバース",
+        "Vket",
+        "イベント"
       ],
-      "url": "https://automaton-media.com/articles/newsjp/20261126-481151/",
+      "url": "https://panora.tokyo/archives/164747",
       "isAiEnriched": true
     },
     {
       "category": "domestic",
-      "title": "三重県熊野市でクマ出没相次ぐ　県が「クマアラート」注意報を発表",
+      "title": "同じマンションの男性を包丁で刺した殺人未遂容疑で34歳女を逮捕　名古屋",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-27 00:32",
-      "publishedTs": 1795707121,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261127-90038227-nbnv-000-1-view.jpg?exp=10800",
-      "summary": "三重県熊野市で26日、クマの目撃が相次いだことを受け、県は「クマアラート」注意報を発表した。同日朝にはイノシシやシカ用の罠にツキノワグマが捕獲されているのも見つかっており、警戒を呼びかけている。",
+      "publishedAt": "2026-11-27 01:09",
+      "publishedTs": 1795709342,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261127-90038228-nbnv-000-1-view.jpg?exp=10800",
+      "summary": "名古屋市緑区のマンションで、同じマンションに住む男性の背中を包丁で刺して殺害しようとしたとして、無職の杉野しずか容疑者（34）が殺人未遂の疑いで逮捕された。",
       "points": [
-        "三重県熊野市で26日にクマの目撃情報が相次いで発生",
-        "育生町大井では獣害用の罠にツキノワグマが捕獲される",
-        "三重県が「クマアラート」注意報を発表し住民に警戒を促す"
+        "名古屋市緑区のマンション内で発生した殺人未遂事件",
+        "同じマンションに住む男性の背中を包丁で刺した疑い",
+        "警察が詳しい動機や事件の経緯について捜査を進めている"
       ],
-      "impact": "人里近くへのクマ出没が各地で相次いでおり、地域住民の安全確保や農作物被害の防止に向けた自治体と住民の連携が不可欠となっている。",
+      "impact": "集合住宅内での住民間トラブルが重大事件に発展するケースがあり、マンションの防犯意識や近隣トラブルへの早期対応が課題となる。",
       "tags": [
-        "クマアラート",
-        "三重県熊野市",
-        "ツキノワグマ"
+        "殺人未遂",
+        "名古屋市緑区",
+        "事件"
       ],
-      "url": "https://news.yahoo.co.jp/articles/387c807dd57b2b98fd59120f50bbd05a8a7f983c?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/626ca48b45ff2f35def7c83190b3d75163555c96?source=rss",
       "isAiEnriched": true
     },
     {
@@ -3798,68 +3798,68 @@ window.NEWS_DATA = {
     },
     {
       "category": "entertainment",
-      "title": "『NEOVERSE 2』早期アクセス開始が延期",
+      "title": "カンニング竹山、手料理と夫婦の食卓事情明かす",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-27 00:31",
-      "publishedTs": 1795707061,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261127-00000002-gamespav-000-1-view.jpg?exp=10800",
-      "summary": "デッキ構築型ローグライク続編『NEOVERSE 2』は、寄せられた意見を受けたアートの全面的な見直しと改善のため、早期アクセス開始を12月16日に延期しました。",
+      "publishedAt": "2026-11-27 02:50",
+      "publishedTs": 1795715400,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261127-00000341-oric-000-1-view.jpg?exp=10800",
+      "summary": "お笑い芸人のカンニング竹山がインスタグラムを更新し、自作の手料理写真を公開。料理を作りすぎてしまう傾向があり、同じメニューを数日間食べ続けて怒られる微笑ましい日常を明かしました。",
       "points": [
-        "Steamでの早期アクセス開始を延期",
-        "ユーザーからの意見を受けてアートを改善",
-        "新たな開始日は12月16日に設定"
+        "インスタグラムで自作の手料理を披露",
+        "作りすぎて4日間同じ物を食べる食卓事情",
+        "妻から怒られるエピソードをユーモラスに告白"
       ],
-      "impact": "品質向上を優先した開発判断により、製品版のクオリティアップに対する期待が高まっています。",
+      "impact": "芸能人の親しみやすい日常のワンシーンとして、SNS上でファンの間にほっこりとした笑いと共感が広がっています。",
       "tags": [
-        "ゲーム",
-        "Steam",
-        "インディーゲーム"
+        "カンニング竹山",
+        "芸能",
+        "SNS"
       ],
-      "url": "https://news.yahoo.co.jp/articles/43a4ae254efc4eac03fc3bdb0e4346dc9eea40f1?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/b9f46cd7b57253dac21a9b88e2dc79bff9a7db78?source=rss",
       "isAiEnriched": true
     },
     {
       "category": "subculture",
-      "title": "「Vket 2026 Winter」企業ブース第2弾公開",
-      "source": "PANORA",
-      "publishedAt": "2026-11-26 12:30",
-      "publishedTs": 1795663857,
-      "image": "https://asset.panora.tokyo/wp-content/uploads/2026/11/26123034/34617-523-3e827049c9af2d75d31af6e6bf7c9658-1920x1080-1.webp",
-      "summary": "メタバースイベント「バーチャルマーケット2026 Winter」の第2弾企業ブースが公開され、多彩な没入型体験が集結します。",
+      "title": "Ave Mujicaスピンオフがコミックグロウルで",
+      "source": "comic-growl.com",
+      "publishedAt": "2026-11-26 12:41",
+      "publishedTs": 1795664492,
+      "image": "https://cdn-public.comici.jp/articlevisual/1913397/default/20261124114640424FEE09594391A1406771015BE56E0AB14.webp",
+      "summary": "『BanG Dream! Ave Mujica』の公式スピンオフコメディ『祥子ちゃん家の晩ごはん』の連載が開始されました。",
       "points": [
-        "通算17回目の開催となる大規模メタバースイベント",
-        "富士急行やサントリーなどの企業が出展",
-        "没入型のユニークな体験コンテンツを提供"
+        "裕福な実家を離れた豊川祥子の節約生活を描くスピンオフ",
+        "コミックグロウルにて第1話が公開、今後の更新スケジュールも発表",
+        "慎ましいのに優雅な日常を描くコメディ作品"
       ],
-      "impact": "メタバースを活用した企業のマーケティングやエンターテインメントの新たな展開として注目されます。",
+      "impact": "人気IPのスピンオフ展開により、コンテンツファンのエンタメ体験やプラットフォームの集客力が高まります。",
       "tags": [
-        "メタバース",
-        "Vket",
-        "イベント"
+        "アニメ",
+        "漫画",
+        "サブカルチャー"
       ],
-      "url": "https://panora.tokyo/archives/164747",
+      "url": "https://comic-growl.com/episodes/06cfc19c717f8",
       "isAiEnriched": true
     },
     {
       "category": "domestic",
-      "title": "東電が新組織「福島復興・廃炉本社」設置へ　本社から人事権を移管",
+      "title": "80代女性死亡のひき逃げ事件で49歳男を逮捕「お酒は抜けていると思った」",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-27 00:23",
-      "publishedTs": 1795706602,
-      "image": "https://tse2.mm.bing.net/th?q=%E6%9D%B1%E9%9B%BB%E3%81%8C%E6%96%B0%E7%B5%84%E7%B9%94%20%E7%A6%8F%E5%B3%B6%E5%BE%A9%E8%88%88%20%E5%BB%83%E7%82%89%E6%9C%AC%E7%A4%BE%20%E3%82%92%E8%A8%AD%E7%BD%AE%E3%81%B8%20%E4%BA%BA%E4%BA%8B%E6%A8%A9%E3%82%92%E6%9C%AC%E7%A4%BE%E3%81%8B%E3%82%89%E2%80%9C%E7%A7%BB%E7%AE%A1%E2%80%9D&w=800&h=450&c=7&rs=1&p=0",
-      "summary": "東京電力ホールディングスは、福島第一・第二原発の廃炉や復興業務を一括して担う新組織「福島復興・廃炉本社」を設置する方針を明らかにした。本社から人事権を移管し、現場の機動力を高める。",
+      "publishedAt": "2026-11-27 01:05",
+      "publishedTs": 1795709126,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261127-23115421-cbcv-000-1-view.jpg?exp=10800",
+      "summary": "今月26日、名古屋市西区で80代の女性が死亡したひき逃げ事件で、49歳の男が逮捕された。男は「お酒は抜けていると思っていた」と供述しており、警察が飲酒運転の有無を含め捜査している。",
       "points": [
-        "福島第一・第二原発の廃炉と復興を一括担当する新組織を設置へ",
-        "名称は「福島復興・廃炉本社」とし、現場への権限移譲を進める",
-        "本社から人事権を移管することで迅速な意思決定を目指す"
+        "名古屋市西区で発生した80代女性死亡のひき逃げ事件で男を逮捕",
+        "容疑者は「お酒は抜けていると思っていた」と供述",
+        "事故当時のアルコール残留状況や逃走の経緯を詳しく調査中"
       ],
-      "impact": "長期化する原発の廃炉作業と福島復興において、現場に権限を持たせた組織体制への移行が、今後の工程管理や地域連携にどう影響するか注目される。",
+      "impact": "翌日にアルコールが残る「二日酔い運転」による重大事故は後を絶たず、運転前のアルコールチェックや飲酒運転根絶への意識徹底が求められる。",
       "tags": [
-        "東京電力",
-        "福島復興",
-        "廃炉"
+        "ひき逃げ",
+        "名古屋市西区",
+        "飲酒運転"
       ],
-      "url": "https://news.yahoo.co.jp/articles/24800267e4f5c7eed8ce0158bda89e8a8c3ba8b6?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/09b4247581ea04cd4f908fdc3b926cc911958d77?source=rss",
       "isAiEnriched": true
     },
     {
@@ -3908,24 +3908,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "entertainment",
-      "title": "安斉かれんのタトゥー姿ショットに反響集まる",
+      "title": "2026年に亡くなったハリウッドのスターたちを追悼",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-27 00:30",
-      "publishedTs": 1795707001,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261127-00010003-nishispo-000-1-view.jpg?exp=10800",
-      "summary": "女優の安斉かれんが公開した最新ショットでのタトゥー姿が「センスが良い」「人生を楽しんでいる」とネット上で大きな反響を呼んでいます。",
+      "publishedAt": "2026-11-27 02:40",
+      "publishedTs": 1795714826,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261127-00010002-thrjapan-000-1-view.jpg?exp=10800",
+      "summary": "2026年も多くの才能ある映画人や音楽家、アーティストが世を去りました。ドリー・パートンやパトリック・スチュワートら、エンタメ界に多大な足跡を残した故人たちの功績を振り返ります。",
       "points": [
-        "安斉かれんの最新ショットが話題に",
-        "タトゥーを取り入れたクールな姿を披露",
-        "ファンから絶賛のコメントが多数寄せられる"
+        "2026年に逝去したハリウッドのスターを追悼",
+        "俳優や音楽家など多様な業界の先駆者たち",
+        "エンターテインメント界に残した大きな功績"
       ],
-      "impact": "アーティスト・女優としての新たな魅力やライフスタイルに多くの注目が集まっています。",
+      "impact": "一時代を築いた偉大なスターたちの訃報は、世界中のファンやエンターテインメント業界全体に深い悲しみを与えています。",
       "tags": [
-        "安斉かれん",
-        "芸能",
-        "SNS"
+        "ハリウッド",
+        "訃報",
+        "映画"
       ],
-      "url": "https://news.yahoo.co.jp/articles/1fcf6d62de87b1a0598d832ad036d829b78fe2de?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/66a6088b702776b99b7ff0414fc5c6f6ebb12ec7?source=rss",
       "isAiEnriched": true
     },
     {
@@ -3952,24 +3952,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "総武線（快速）、船橋駅での人身事故により運転見合わせ",
+      "title": "三重県熊野市でクマ出没相次ぐ　県が「クマアラート」注意報を発表",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-27 00:10",
-      "publishedTs": 1795705800,
-      "image": "https://tse2.mm.bing.net/th?q=%E7%B7%8F%E6%AD%A6%E7%B7%9A%20%E3%81%A7%E4%BA%BA%E8%BA%AB%E4%BA%8B%E6%95%85%20%E4%B8%80%E9%83%A8%E9%81%8B%E8%BB%A2%E8%A6%8B%E5%90%88%E3%82%8F%E3%81%9B&w=800&h=450&c=7&rs=1&p=0",
-      "summary": "船橋駅で発生した人身事故の影響により、JR総武線（快速）は運転を見合わせている。通勤・通学や移動の足に影響が出ているため、最新の運行情報に注意が必要だ。",
+      "publishedAt": "2026-11-27 00:32",
+      "publishedTs": 1795707121,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261127-90038227-nbnv-000-1-view.jpg?exp=10800",
+      "summary": "三重県熊野市で26日、クマの目撃が相次いだことを受け、県は「クマアラート」注意報を発表した。同日朝にはイノシシやシカ用の罠にツキノワグマが捕獲されているのも見つかっており、警戒を呼びかけている。",
       "points": [
-        "船橋駅で人身事故が発生",
-        "総武線（快速）が運転を見合わせ",
-        "利用者は最新の運行情報の確認が必要"
+        "三重県熊野市で26日にクマの目撃情報が相次いで発生",
+        "育生町大井では獣害用の罠にツキノワグマが捕獲される",
+        "三重県が「クマアラート」注意報を発表し住民に警戒を促す"
       ],
-      "impact": "首都圏の主要路線での運転見合わせにより、振り替え輸送の混雑や移動スケジュールの遅延が懸念される。",
+      "impact": "人里近くへのクマ出没が各地で相次いでおり、地域住民の安全確保や農作物被害の防止に向けた自治体と住民の連携が不可欠となっている。",
       "tags": [
-        "総武線",
-        "運転見合わせ",
-        "人身事故"
+        "クマアラート",
+        "三重県熊野市",
+        "ツキノワグマ"
       ],
-      "url": "https://news.yahoo.co.jp/articles/c928a39c3dbbc31a762cf0c1172b07951055a821?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/387c807dd57b2b98fd59120f50bbd05a8a7f983c?source=rss",
       "isAiEnriched": true
     },
     {
@@ -4018,24 +4018,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "entertainment",
-      "title": "大黒摩季、ラジオで宇徳敬子への発言を謝罪　放送前から異例の予告",
+      "title": "虹のコンキスタドール石浜芽衣、2nd写真集『夢いっぱい』表紙2種を解禁",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-27 00:28",
-      "publishedTs": 1795706927,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261126-00000432-spnannex-000-2-view.jpg?exp=10800",
-      "summary": "歌手の大黒摩季が26日深夜のラジオ番組「Your Playlist」で、4月の放送における宇徳敬子に関する発言に誤った印象を与える表現があったとして謝罪した。放送前から訂正・お詫びを予告していた。",
+      "publishedAt": "2026-11-27 02:40",
+      "publishedTs": 1795714800,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261127-00000316-oric-000-1-view.jpg?exp=10800",
+      "summary": "アイドルグループ・虹のコンキスタドールの石浜芽衣が、12月7日発売の2nd写真集のタイトルを『夢いっぱい』に決定。通常版とDVD付き限定版の表紙カバー2種類もあわせて公開された。",
       "points": [
-        "BAYFM78の番組「Your Playlist」で発言を訂正し謝罪",
-        "4月の放送内容について事前に「訂正・お詫び」を予告する異例の対応",
-        "宇徳敬子について誤解を招く表現があったと説明"
+        "12月7日発売の2nd写真集タイトルが『夢いっぱい』に決定",
+        "通常版とDVD付き限定版の表紙カバー2種類を初公開",
+        "大胆なカットにも挑戦した意欲作となっている"
       ],
-      "impact": "アーティスト間の関係性を巡る発言はファンの関心が高く、ラジオ番組のコンプライアンスや事後対応のあり方が注目される。",
+      "impact": "ファン待望の写真集発売に向け、表紙解禁で予約や購買意欲がさらに高まりそうだ。限定版のDVD特典も注目される。",
       "tags": [
-        "大黒摩季",
-        "宇徳敬子",
-        "ラジオ謝罪"
+        "虹のコンキスタドール",
+        "石浜芽衣",
+        "写真集"
       ],
-      "url": "https://news.yahoo.co.jp/articles/a95bb6da1c3a4431d518ce52fd62ac5a9dec382b?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/62f2724d8ecda62072fd7d9ba43c7862d8fff06a?source=rss",
       "isAiEnriched": true
     },
     {
@@ -4062,24 +4062,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "福岡・刺殺事件、容疑者は商業施設で購入の服に着替え逃走か",
+      "title": "東電が新組織「福島復興・廃炉本社」設置へ　本社から人事権を移管",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-27 00:06",
-      "publishedTs": 1795705577,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261127-90205307-ann-000-1-view.jpg?exp=10800",
-      "summary": "福岡市の駐輪場で70歳男性が刺殺された事件で、関与したとみられる男が隣接する商業施設でカーディガンを購入し、試着室で着替えて逃走したことが新たに判明した。男性に防御創はなく突然襲われたとみられる。",
+      "publishedAt": "2026-11-27 00:23",
+      "publishedTs": 1795706602,
+      "image": "https://tse2.mm.bing.net/th?q=%E6%9D%B1%E9%9B%BB%E3%81%8C%E6%96%B0%E7%B5%84%E7%B9%94%20%E7%A6%8F%E5%B3%B6%E5%BE%A9%E8%88%88%20%E5%BB%83%E7%82%89%E6%9C%AC%E7%A4%BE%20%E3%82%92%E8%A8%AD%E7%BD%AE%E3%81%B8%20%E4%BA%BA%E4%BA%8B%E6%A8%A9%E3%82%92%E6%9C%AC%E7%A4%BE%E3%81%8B%E3%82%89%E2%80%9C%E7%A7%BB%E7%AE%A1%E2%80%9D&w=800&h=450&c=7&rs=1&p=0",
+      "summary": "東京電力ホールディングスは、福島第一・第二原発の廃炉や復興業務を一括して担う新組織「福島復興・廃炉本社」を設置する方針を明らかにした。本社から人事権を移管し、現場の機動力を高める。",
       "points": [
-        "福岡市の駐輪場で70歳男性が刃物で刺され殺害された事件",
-        "男は隣接商業施設で服を購入し、試着室で着替えて逃走か",
-        "被害男性に防御創がなく、突然襲われた可能性"
+        "福島第一・第二原発の廃炉と復興を一括担当する新組織を設置へ",
+        "名称は「福島復興・廃炉本社」とし、現場への権限移譲を進める",
+        "本社から人事権を移管することで迅速な意思決定を目指す"
       ],
-      "impact": "計画的または巧妙な逃走手口が明らかになり、地域の治安への不安や防犯カメラの捜査活用が注目される。",
+      "impact": "長期化する原発の廃炉作業と福島復興において、現場に権限を持たせた組織体制への移行が、今後の工程管理や地域連携にどう影響するか注目される。",
       "tags": [
-        "福岡",
-        "殺人事件",
-        "捜査"
+        "東京電力",
+        "福島復興",
+        "廃炉"
       ],
-      "url": "https://news.yahoo.co.jp/articles/a74e287f619dbbc3ff85eb50c31bdaf323fb82f0?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/24800267e4f5c7eed8ce0158bda89e8a8c3ba8b6?source=rss",
       "isAiEnriched": true
     },
     {
@@ -4128,24 +4128,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "entertainment",
-      "title": "大黒摩季が謝罪、宇徳敬子とZARDの「対立」印象与える発言を訂正",
+      "title": "イ・ビョンホン撮影、妻イ・ミンジョンの東京“デート風ショット”に反響",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-27 00:20",
-      "publishedTs": 1795706456,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261127-41262416-nksports-000-7-view.jpg?exp=10800",
-      "summary": "大黒摩季は26日深夜のラジオ番組で、4月23日の放送において宇徳敬子とZARDが対立していたかのような誤った印象を与えたとして発言を訂正し、謝罪した。",
+      "publishedAt": "2026-11-27 02:30",
+      "publishedTs": 1795714200,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261127-00000334-oric-000-1-view.jpg?exp=10800",
+      "summary": "韓国俳優イ・ビョンホンの妻で女優のイ・ミンジョンがインスタグラムを更新。夫のイ・ビョンホンが撮影したという東京でのプライベートショットを公開し、ファンから反響が寄せられている。",
       "points": [
-        "4月23日放送回の宇徳敬子に関する発言内容を正式に訂正",
-        "宇徳敬子とZARDが対立していたような誤解を与えたと説明",
-        "自身がパーソナリティーを務めるBAY FM78の番組内で謝罪"
+        "イ・ミンジョンが東京でのプライベートショットをSNSで公開",
+        "夫である俳優イ・ビョンホンが撮影を担当",
+        "ファンからは「究極の美しさ」など称賛の声が相次ぐ"
       ],
-      "impact": "往年の人気アーティストに関する発言はSNS等で拡散されやすく、メディアでの発言責任や正確な情報発信の重要性が再確認された。",
+      "impact": "韓国トップスター夫妻の日本滞在中の仲睦まじい姿が話題となり、SNSでの注目度や観光スポットへの関心も高まりそうだ。",
       "tags": [
-        "大黒摩季",
-        "ZARD",
-        "宇徳敬子"
+        "イ・ビョンホン",
+        "イ・ミンジョン",
+        "韓国エンタメ"
       ],
-      "url": "https://news.yahoo.co.jp/articles/b7969f0a51d0a56078172a14acb66913d8c370ee?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/a27cc9fe7f8ea03f34f2d7bde16a1f1ca2d80cb1?source=rss",
       "isAiEnriched": true
     },
     {
@@ -4172,24 +4172,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "料理研究家・辰巳芳子さんが101歳で死去、「いのちのスープ」で貢献",
+      "title": "総武線（快速）、船橋駅での人身事故により運転見合わせ",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-27 00:03",
-      "publishedTs": 1795705395,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261127-90205304-ann-000-1-view.jpg?exp=10800",
-      "summary": "栄養があり食べやすい「いのちのスープ」で知られ、介護食の普及にも大きく貢献した料理研究家の辰巳芳子さんが亡くなった。101歳だった。",
+      "publishedAt": "2026-11-27 00:10",
+      "publishedTs": 1795705800,
+      "image": "https://tse2.mm.bing.net/th?q=%E7%B7%8F%E6%AD%A6%E7%B7%9A%20%E3%81%A7%E4%BA%BA%E8%BA%AB%E4%BA%8B%E6%95%85%20%E4%B8%80%E9%83%A8%E9%81%8B%E8%BB%A2%E8%A6%8B%E5%90%88%E3%82%8F%E3%81%9B&w=800&h=450&c=7&rs=1&p=0",
+      "summary": "船橋駅で発生した人身事故の影響により、JR総武線（快速）は運転を見合わせている。通勤・通学や移動の足に影響が出ているため、最新の運行情報に注意が必要だ。",
       "points": [
-        "料理研究家の辰巳芳子さんが101歳で死去",
-        "「いのちのスープ」で広く知られた存在",
-        "介護食の普及にも大きく貢献"
+        "船橋駅で人身事故が発生",
+        "総武線（快速）が運転を見合わせ",
+        "利用者は最新の運行情報の確認が必要"
       ],
-      "impact": "日本の食文化や介護食の発展に多大な足跡を残した功績が改めて偲ばれ、多くの人々の関心が寄せられている。",
+      "impact": "首都圏の主要路線での運転見合わせにより、振り替え輸送の混雑や移動スケジュールの遅延が懸念される。",
       "tags": [
-        "訃報",
-        "料理研究家",
-        "介護食"
+        "総武線",
+        "運転見合わせ",
+        "人身事故"
       ],
-      "url": "https://news.yahoo.co.jp/articles/8f9e4ef4433e653cc78c0d48065802269cc42c3f?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/c928a39c3dbbc31a762cf0c1172b07951055a821?source=rss",
       "isAiEnriched": true
     },
     {
@@ -4238,24 +4238,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "entertainment",
-      "title": "中谷あすみ、ダチョウに乗るシュールな姿がSNSで話題に",
+      "title": "渡邊渚、木いちごのフラワーアレンジメント披露",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-27 00:20",
-      "publishedTs": 1795706402,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261127-00010002-nishispo-000-1-view.jpg?exp=10800",
-      "summary": "女優の中谷あすみがインスタグラムに投稿した、ダチョウに乗る“シュールでダサい”ショットが話題を呼んでいる。ファンからは「ダチョウが羨ましい」「バランスが不安」などの声が寄せられた。",
+      "publishedAt": "2026-11-27 02:25",
+      "publishedTs": 1795713900,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261127-00000336-oric-000-1-view.jpg?exp=10800",
+      "summary": "元フジテレビアナウンサーの渡邊渚がインスタグラムを更新し、自身で制作した“木いちご”のフラワーアレンジメント作品を公開しました。あわせて現在の仕事の近況についてもファンに向けて報告しています。",
       "points": [
-        "女優・中谷あすみがダチョウに乗るユニークな写真を公開",
-        "ヘソチラも含むシュールな姿にファンから多くの反響",
-        "「私だったら怖いかも」などバランスを気遣うコメントも集まる"
+        "元フジアナの渡邊渚がSNSを更新",
+        "木いちごを使ったフラワーアレンジメントを披露",
+        "仕事の近況報告も行いファンから注目を集める"
       ],
-      "impact": "タレントの飾らないオフショットやユニークな体験投稿はSNSでの親近感を高め、ファンとのエンゲージメント向上につながっている。",
+      "impact": "フリーとして活動する渡邊渚のSNS発信やプライベートな創作活動は、多くのファンの間で常に高い関心を集めています。",
       "tags": [
-        "中谷あすみ",
-        "SNS話題",
-        "ダチョウ"
+        "渡邊渚",
+        "アナウンサー",
+        "Instagram"
       ],
-      "url": "https://news.yahoo.co.jp/articles/2a170c4485e26954acf0d9af4a7564455ea36bc0?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/af12322366cac62df8e49371155a63f3fd44eaaf?source=rss",
       "isAiEnriched": true
     },
     {
@@ -4282,24 +4282,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "希少なラン「ナンバンカゴメラン」の新たな自生地を石垣島で発見",
+      "title": "福岡・刺殺事件、容疑者は商業施設で購入の服に着替え逃走か",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-27 00:00",
-      "publishedTs": 1795705248,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261127-00000001-kyodonews-000-1-view.jpg?exp=10800",
-      "summary": "これまで国内では西表島にのみ自生するとされていた希少なラン「ナンバンカゴメラン」が、石垣島にも自生していることを神戸大学のチームが確認し、学術誌に発表した。",
+      "publishedAt": "2026-11-27 00:06",
+      "publishedTs": 1795705577,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261127-90205307-ann-000-1-view.jpg?exp=10800",
+      "summary": "福岡市の駐輪場で70歳男性が刺殺された事件で、関与したとみられる男が隣接する商業施設でカーディガンを購入し、試着室で着替えて逃走したことが新たに判明した。男性に防御創はなく突然襲われたとみられる。",
       "points": [
-        "西表島のみとされていた希少ランを石垣島で確認",
-        "国内では約半世紀ぶりの新自生地発見",
-        "神戸大の末次健司教授らの研究チームが発表"
+        "福岡市の駐輪場で70歳男性が刃物で刺され殺害された事件",
+        "男は隣接商業施設で服を購入し、試着室で着替えて逃走か",
+        "被害男性に防御創がなく、突然襲われた可能性"
       ],
-      "impact": "生物多様性の保護や植物分類学の研究において重要な発見であり、地域の自然環境保全の機運が高まる。",
+      "impact": "計画的または巧妙な逃走手口が明らかになり、地域の治安への不安や防犯カメラの捜査活用が注目される。",
       "tags": [
-        "植物",
-        "ニュース",
-        "研究"
+        "福岡",
+        "殺人事件",
+        "捜査"
       ],
-      "url": "https://news.yahoo.co.jp/articles/c3d2bc5b7bf7e691fff980d97de6d6e2bf5903a3?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/a74e287f619dbbc3ff85eb50c31bdaf323fb82f0?source=rss",
       "isAiEnriched": true
     },
     {
@@ -4348,24 +4348,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "entertainment",
-      "title": "宮世琉弥、妹・伊達花彩との登山オフショット公開「お顔似てる」と反響",
+      "title": "アニメ「冰剣の魔術師」ヘレナ役は大地葉",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-27 00:20",
-      "publishedTs": 1795706400,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261127-00000344-oric-000-1-view.jpg?exp=10800",
-      "summary": "俳優の宮世琉弥が24日、妹でアイドルグループ・いぎなり東北産の伊達花彩と愛犬を連れて登山を楽しむ2ショットを公開。ファンからは「お顔似てるなぁ」「胸熱」など温かい反応が寄せられた。",
+      "publishedAt": "2026-11-27 02:00",
+      "publishedTs": 1795712411,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261127-00000006-nataliec-000-1-view.jpg?exp=10800",
+      "summary": "放送中のTVアニメ「冰剣の魔術師が世界を統べるII」の第8話に登場したキャラクター、ヘレナ＝グレイディ役を声優の大地葉が務めていることが正式に発表され、ファンの間で話題となっています。",
       "points": [
-        "俳優・宮世琉弥が妹のアイドル・伊達花彩との登山ショットを投稿",
-        "愛犬も同行し、オフを満喫する仲睦まじい兄妹の姿が話題",
-        "「顔が似ている」「胸熱」とファンから絶賛のコメントが殺到"
+        "TVアニメ「冰剣の魔術師が世界を統べるII」第8話に登場",
+        "ヘレナ＝グレイディ役を声優の大地葉が担当",
+        "キャラクター情報とあわせてキャストが解禁"
       ],
-      "impact": "芸能界で活躍する兄妹のプライベートな交流は好感度が高く、双方のファン層を拡大させるポジティブな相乗効果を生んでいる。",
+      "impact": "人気アニメの重要キャラクターのキャスト判明は、作品の視聴者や声優ファンにとって見逃せないニュースとなっています。",
       "tags": [
-        "宮世琉弥",
-        "伊達花彩",
-        "兄妹ショット"
+        "大地葉",
+        "冰剣の魔術師が世界を統べる",
+        "アニメ声優"
       ],
-      "url": "https://news.yahoo.co.jp/articles/4890ad10fc071c3b1b14b1c4f3d1f6d3a9c590e6?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/e9ba736db83cc740513140ebc4e3e5eadfb93968?source=rss",
       "isAiEnriched": true
     },
     {
@@ -4392,24 +4392,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "富山市で50歳女性が22日から行方不明 警察と家族が情報提供を呼びかけ",
+      "title": "料理研究家・辰巳芳子さんが101歳で死去、「いのちのスープ」で貢献",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-26 23:57",
-      "publishedTs": 1795705036,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261126-10292436-abemav-000-1-view.jpg?exp=10800",
-      "summary": "富山市にて50歳の女性が22日以降行方不明となっており、警察と家族が捜索を続けている。女性は身長約162cm、茶髪ショートカットで、警察は広く情報提供を求めている。",
+      "publishedAt": "2026-11-27 00:03",
+      "publishedTs": 1795705395,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261127-90205304-ann-000-1-view.jpg?exp=10800",
+      "summary": "栄養があり食べやすい「いのちのスープ」で知られ、介護食の普及にも大きく貢献した料理研究家の辰巳芳子さんが亡くなった。101歳だった。",
       "points": [
-        "富山市の50歳女性が22日から行方不明",
-        "身長約162cm、中肉、茶髪ショートカットの特徴",
-        "警察と家族が情報提供を広く呼びかけている"
+        "料理研究家の辰巳芳子さんが101歳で死去",
+        "「いのちのスープ」で広く知られた存在",
+        "介護食の普及にも大きく貢献"
       ],
-      "impact": "地域住民の防犯意識が高まるとともに、目撃情報の提供により早期発見につながることが期待される。",
+      "impact": "日本の食文化や介護食の発展に多大な足跡を残した功績が改めて偲ばれ、多くの人々の関心が寄せられている。",
       "tags": [
-        "社会",
-        "事故・事件",
-        "地域"
+        "訃報",
+        "料理研究家",
+        "介護食"
       ],
-      "url": "https://news.yahoo.co.jp/articles/483ce99d6fbfe7e3f2681094747f15f6d08a3190?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/8f9e4ef4433e653cc78c0d48065802269cc42c3f?source=rss",
       "isAiEnriched": true
     },
     {
@@ -4458,24 +4458,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "entertainment",
-      "title": "ライアン・レイノルズ、妻と同じPRチームに移籍",
+      "title": "大地葉、衝撃豹変のヘレナ役でアニメ出演",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-27 00:10",
-      "publishedTs": 1795705845,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261127-00010000-thrjapan-000-1-view.jpg?exp=10800",
-      "summary": "俳優のライアン・レイノルズが、妻のブレイク・ライブリーに続き、ケリー・ブッシュ・ノヴァク率いる大手PR会社ID-PRに移籍したことが明らかになりました。",
+      "publishedAt": "2026-11-27 02:00",
+      "publishedTs": 1795712400,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261127-01461576-the_tv-000-1-view.jpg?exp=10800",
+      "summary": "アニメ「冰剣の魔術師が世界を統べるII」第8話に出演した声優の大地葉が、衝撃の豹変を見せたヘレナ役についてコメントを寄せました。第2期での今後の展開やキャラクターの姿に期待が寄せられています。",
       "points": [
-        "人気俳優ライアン・レイノルズがPR会社を移籍",
-        "妻のブレイク・ライブリーと同じチームに所属",
-        "今後の広報活動やハリウッドでの動きに注目"
+        "第8話で衝撃の豹変を見せたヘレナ役を熱演",
+        "声優自身がキャラクターの魅力や見どころを語る",
+        "第2期における今後の活躍や姿に期待が高まる"
       ],
-      "impact": "セレブリティのマネジメント動向としてエンタメ業界やメディアの間で話題を集めています。",
+      "impact": "実力派声優の演技論やアプローチが明かされることで、アニメ作品自体の深度や視聴の楽しみが一層増す効果があります。",
       "tags": [
-        "映画",
-        "海外セレブ",
-        "芸能"
+        "大地葉",
+        "冰剣の魔術師",
+        "アニメ"
       ],
-      "url": "https://news.yahoo.co.jp/articles/5b590974e0ab672775eb84962efbc8fc163c254e?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/cd710775a9da897edee73b6c89243f208bcd1f93?source=rss",
       "isAiEnriched": true
     },
     {
@@ -4502,24 +4502,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "飲酒運転免脱の疑い 名古屋市の死亡ひき逃げ事件で49歳男を逮捕",
+      "title": "希少なラン「ナンバンカゴメラン」の新たな自生地を石垣島で発見",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-26 23:52",
-      "publishedTs": 1795704721,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261126-90038226-nbnv-000-1-view.jpg?exp=10800",
-      "summary": "名古屋市西区で86歳女性が死亡したひき逃げ事件で、49歳の男が逮捕された。男は飲酒運転の発覚を免れるために現場から逃走したとみられており、愛知県警が調べを進めている。",
+      "publishedAt": "2026-11-27 00:00",
+      "publishedTs": 1795705248,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261127-00000001-kyodonews-000-1-view.jpg?exp=10800",
+      "summary": "これまで国内では西表島にのみ自生するとされていた希少なラン「ナンバンカゴメラン」が、石垣島にも自生していることを神戸大学のチームが確認し、学術誌に発表した。",
       "points": [
-        "名古屋市西区の死亡ひき逃げ事件で49歳男を逮捕",
-        "被害者は86歳女性、搬送先で死亡が確認される",
-        "飲酒運転の発覚を免れる目的で逃走した疑い"
+        "西表島のみとされていた希少ランを石垣島で確認",
+        "国内では約半世紀ぶりの新自生地発見",
+        "神戸大の末次健司教授らの研究チームが発表"
       ],
-      "impact": "悪質な飲酒運転やひき逃げに対する厳しい批判が広がるとともに、道路交通の安全意識再徹底が求められる。",
+      "impact": "生物多様性の保護や植物分類学の研究において重要な発見であり、地域の自然環境保全の機運が高まる。",
       "tags": [
-        "事件",
-        "警察",
-        "社会"
+        "植物",
+        "ニュース",
+        "研究"
       ],
-      "url": "https://news.yahoo.co.jp/articles/d0b7a13e66c2748e522b33f95bc544a7598f9293?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/c3d2bc5b7bf7e691fff980d97de6d6e2bf5903a3?source=rss",
       "isAiEnriched": true
     },
     {
@@ -4568,24 +4568,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "entertainment",
-      "title": "「ちいかわ」新作グッズ「ちいかわクリニック」発売",
+      "title": "西野カナ、人生初韓国のプライベート写真公開",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-27 00:10",
-      "publishedTs": 1795705803,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261127-00000001-isd-000-1-view.jpg?exp=10800",
-      "summary": "全国19か所で、期間限定ショップ「ちいかわクリニック」が11月27日から開催されます。ナース服や白衣姿のマスコットなど多彩な新作グッズが登場します。",
+      "publishedAt": "2026-11-27 01:40",
+      "publishedTs": 1795711200,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261127-00000337-oric-000-1-view.jpg?exp=10800",
+      "summary": "歌手の西野カナがインスタグラムを更新し、人生初となる韓国旅行でのオフショットを大量に公開しました。念願の場所を満喫する自然体のプライベートショットに、ネット上では「可愛すぎる」と大きな反響を呼んでいます。",
       "points": [
-        "期間限定ショップ「ちいかわクリニック」が開催",
-        "ナース服や白衣姿のマスコット等の新作グッズ",
-        "全国19か所で順次展開される予定"
+        "歌手の西野カナが人生初の韓国旅行を満喫",
+        "SNSにプライベートなオフショットを大量投稿",
+        "可愛らしさあふれる姿にファンから絶賛の声"
       ],
-      "impact": "ファンの間で高い人気を誇るちいかわの関連グッズ市場において、再び大きな購買意欲を喚起します。",
+      "impact": "活動再開後も注目を集め続ける西野カナのプライベートな一面やファッションは、同世代の女性を中心に大きな影響を与えます。",
       "tags": [
-        "ちいかわ",
-        "グッズ",
-        "アニメ"
+        "西野カナ",
+        "韓国旅行",
+        "Instagram"
       ],
-      "url": "https://news.yahoo.co.jp/articles/006ac113c52c1533711189714f77534d69262f85?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/b6b1cdd74de6584dcae525cfb47e5617b4f75c7c?source=rss",
       "isAiEnriched": true
     },
     {
