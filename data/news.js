@@ -1,13 +1,13 @@
 window.NEWS_DATA = {
   "date": "2026年11月28日 (土)",
-  "updatedAt": "2026-11-28 05:18",
+  "updatedAt": "2026-11-28 06:19",
   "title": "TREND NEWS",
   "keywords": [
-    "結婚秒読み",
-    "ひき逃げ疑惑",
-    "消費税減税",
-    "クリスマス商戦",
-    "労災保険改正"
+    "AIミニPC",
+    "Kindle",
+    "MCP対応",
+    "実家じまい",
+    "橋本環奈"
   ],
   "weatherCities": [
     {
@@ -15,58 +15,58 @@ window.NEWS_DATA = {
       "region": "北海道",
       "temp": 9,
       "code": 3,
-      "wind": 6,
+      "wind": 8,
       "maxTemp": 13,
       "minTemp": 3,
       "pop": 100,
       "hourly": [
         {
-          "time": "05:00",
+          "time": "06:00",
           "code": 3,
           "temp": 9,
-          "pop": 100
+          "pop": 90
         },
         {
-          "time": "08:00",
-          "code": 51,
-          "temp": 10,
-          "pop": 29
-        },
-        {
-          "time": "11:00",
+          "time": "09:00",
           "code": 3,
-          "temp": 13,
-          "pop": 0
+          "temp": 11,
+          "pop": 4
         },
         {
-          "time": "14:00",
+          "time": "12:00",
           "code": 51,
-          "temp": 9,
-          "pop": 67
+          "temp": 12,
+          "pop": 6
         },
         {
-          "time": "17:00",
+          "time": "15:00",
+          "code": 51,
+          "temp": 8,
+          "pop": 92
+        },
+        {
+          "time": "18:00",
           "code": 3,
           "temp": 6,
-          "pop": 89
-        },
-        {
-          "time": "20:00",
-          "code": 3,
-          "temp": 5,
           "pop": 82
         },
         {
-          "time": "23:00",
-          "code": 1,
+          "time": "21:00",
+          "code": 51,
           "temp": 4,
-          "pop": 31
+          "pop": 76
         },
         {
-          "time": "02:00",
-          "code": 71,
-          "temp": 2,
-          "pop": 11
+          "time": "00:00",
+          "code": 51,
+          "temp": 3,
+          "pop": 12
+        },
+        {
+          "time": "03:00",
+          "code": 85,
+          "temp": 1,
+          "pop": 14
         }
       ],
       "daily": [
@@ -131,60 +131,60 @@ window.NEWS_DATA = {
     {
       "name": "仙台",
       "region": "東北",
-      "temp": 8,
-      "code": 55,
-      "wind": 3,
+      "temp": 9,
+      "code": 61,
+      "wind": 4,
       "maxTemp": 13,
       "minTemp": 8,
       "pop": 100,
       "hourly": [
         {
-          "time": "05:00",
-          "code": 53,
+          "time": "06:00",
+          "code": 55,
           "temp": 8,
-          "pop": 45
+          "pop": 63
         },
         {
-          "time": "08:00",
-          "code": 61,
+          "time": "09:00",
+          "code": 63,
           "temp": 9,
-          "pop": 85
+          "pop": 90
         },
         {
-          "time": "11:00",
-          "code": 53,
+          "time": "12:00",
+          "code": 51,
           "temp": 10,
-          "pop": 84
+          "pop": 76
         },
         {
-          "time": "14:00",
+          "time": "15:00",
           "code": 2,
           "temp": 12,
-          "pop": 45
+          "pop": 35
         },
         {
-          "time": "17:00",
+          "time": "18:00",
           "code": 0,
           "temp": 12,
-          "pop": 48
+          "pop": 59
         },
         {
-          "time": "20:00",
+          "time": "21:00",
           "code": 0,
-          "temp": 11,
-          "pop": 86
+          "temp": 10,
+          "pop": 96
         },
         {
-          "time": "23:00",
-          "code": 1,
-          "temp": 9,
-          "pop": 100
-        },
-        {
-          "time": "02:00",
-          "code": 0,
+          "time": "00:00",
+          "code": 2,
           "temp": 8,
           "pop": 100
+        },
+        {
+          "time": "03:00",
+          "code": 1,
+          "temp": 7,
+          "pop": 98
         }
       ],
       "daily": [
@@ -251,56 +251,56 @@ window.NEWS_DATA = {
       "region": "北陸",
       "temp": 12,
       "code": 55,
-      "wind": 12,
+      "wind": 13,
       "maxTemp": 16,
       "minTemp": 9,
       "pop": 100,
       "hourly": [
         {
-          "time": "05:00",
-          "code": 53,
-          "temp": 12,
-          "pop": 79
-        },
-        {
-          "time": "08:00",
+          "time": "06:00",
           "code": 61,
           "temp": 12,
-          "pop": 77
+          "pop": 75
         },
         {
-          "time": "11:00",
+          "time": "09:00",
           "code": 53,
+          "temp": 12,
+          "pop": 80
+        },
+        {
+          "time": "12:00",
+          "code": 61,
           "temp": 14,
-          "pop": 93
+          "pop": 98
         },
         {
-          "time": "14:00",
-          "code": 61,
-          "temp": 15,
-          "pop": 99
+          "time": "15:00",
+          "code": 55,
+          "temp": 16,
+          "pop": 98
         },
         {
-          "time": "17:00",
-          "code": 51,
-          "temp": 15,
-          "pop": 99
-        },
-        {
-          "time": "20:00",
-          "code": 51,
-          "temp": 12,
-          "pop": 100
-        },
-        {
-          "time": "23:00",
-          "code": 63,
-          "temp": 9,
-          "pop": 100
-        },
-        {
-          "time": "02:00",
+          "time": "18:00",
           "code": 1,
+          "temp": 13,
+          "pop": 100
+        },
+        {
+          "time": "21:00",
+          "code": 63,
+          "temp": 10,
+          "pop": 100
+        },
+        {
+          "time": "00:00",
+          "code": 63,
+          "temp": 10,
+          "pop": 100
+        },
+        {
+          "time": "03:00",
+          "code": 3,
           "temp": 10,
           "pop": 100
         }
@@ -369,57 +369,57 @@ window.NEWS_DATA = {
       "region": "北陸",
       "temp": 14,
       "code": 55,
-      "wind": 5,
+      "wind": 6,
       "maxTemp": 17,
       "minTemp": 11,
       "pop": 100,
       "hourly": [
         {
-          "time": "05:00",
+          "time": "06:00",
           "code": 61,
           "temp": 14,
+          "pop": 88
+        },
+        {
+          "time": "09:00",
+          "code": 53,
+          "temp": 15,
+          "pop": 100
+        },
+        {
+          "time": "12:00",
+          "code": 2,
+          "temp": 17,
+          "pop": 100
+        },
+        {
+          "time": "15:00",
+          "code": 2,
+          "temp": 16,
           "pop": 90
         },
         {
-          "time": "08:00",
+          "time": "18:00",
           "code": 61,
-          "temp": 15,
-          "pop": 96
-        },
-        {
-          "time": "11:00",
-          "code": 63,
-          "temp": 17,
+          "temp": 12,
           "pop": 100
         },
         {
-          "time": "14:00",
-          "code": 1,
-          "temp": 17,
-          "pop": 92
-        },
-        {
-          "time": "17:00",
-          "code": 63,
-          "temp": 13,
-          "pop": 97
-        },
-        {
-          "time": "20:00",
-          "code": 55,
+          "time": "21:00",
+          "code": 53,
           "temp": 11,
           "pop": 100
         },
         {
-          "time": "23:00",
+          "time": "00:00",
           "code": 51,
           "temp": 11,
           "pop": 100
         },
         {
-          "time": "02:00",
-          "code": 51,
-          "temp": 10,
+          "time": "03:00",
+          "code": 3,
+          "temp": 9,
           "pop": 100
         }
       ],
@@ -487,58 +487,58 @@ window.NEWS_DATA = {
       "region": "関東",
       "temp": 10,
       "code": 63,
-      "wind": 4,
+      "wind": 6,
       "maxTemp": 20,
       "minTemp": 9,
       "pop": 100,
       "hourly": [
         {
-          "time": "05:00",
+          "time": "06:00",
           "code": 63,
           "temp": 10,
           "pop": 100
         },
         {
-          "time": "08:00",
-          "code": 61,
+          "time": "09:00",
+          "code": 51,
           "temp": 9,
-          "pop": 100
+          "pop": 96
         },
         {
-          "time": "11:00",
+          "time": "12:00",
+          "code": 0,
+          "temp": 14,
+          "pop": 27
+        },
+        {
+          "time": "15:00",
+          "code": 0,
+          "temp": 20,
+          "pop": 4
+        },
+        {
+          "time": "18:00",
           "code": 1,
-          "temp": 11,
-          "pop": 49
+          "temp": 17,
+          "pop": 4
         },
         {
-          "time": "14:00",
-          "code": 0,
-          "temp": 18,
-          "pop": 8
-        },
-        {
-          "time": "17:00",
-          "code": 0,
-          "temp": 18,
-          "pop": 2
-        },
-        {
-          "time": "20:00",
+          "time": "21:00",
           "code": 0,
           "temp": 15,
+          "pop": 20
+        },
+        {
+          "time": "00:00",
+          "code": 0,
+          "temp": 13,
           "pop": 16
         },
         {
-          "time": "23:00",
+          "time": "03:00",
           "code": 0,
-          "temp": 13,
-          "pop": 18
-        },
-        {
-          "time": "02:00",
-          "code": 1,
-          "temp": 12,
-          "pop": 12
+          "temp": 11,
+          "pop": 10
         }
       ],
       "daily": [
@@ -611,52 +611,52 @@ window.NEWS_DATA = {
       "pop": 99,
       "hourly": [
         {
-          "time": "05:00",
+          "time": "06:00",
           "code": 51,
           "temp": 11,
+          "pop": 86
+        },
+        {
+          "time": "09:00",
+          "code": 1,
+          "temp": 12,
+          "pop": 61
+        },
+        {
+          "time": "12:00",
+          "code": 51,
+          "temp": 15,
+          "pop": 47
+        },
+        {
+          "time": "15:00",
+          "code": 1,
+          "temp": 16,
+          "pop": 63
+        },
+        {
+          "time": "18:00",
+          "code": 51,
+          "temp": 13,
           "pop": 92
         },
         {
-          "time": "08:00",
+          "time": "21:00",
           "code": 1,
-          "temp": 11,
-          "pop": 69
-        },
-        {
-          "time": "11:00",
-          "code": 51,
-          "temp": 14,
-          "pop": 49
-        },
-        {
-          "time": "14:00",
-          "code": 53,
-          "temp": 16,
-          "pop": 56
-        },
-        {
-          "time": "17:00",
-          "code": 51,
-          "temp": 14,
-          "pop": 91
-        },
-        {
-          "time": "20:00",
-          "code": 2,
           "temp": 12,
-          "pop": 31
+          "pop": 4
         },
         {
-          "time": "23:00",
-          "code": 1,
+          "time": "00:00",
+          "code": 51,
           "temp": 10,
           "pop": 0
         },
         {
-          "time": "02:00",
+          "time": "03:00",
           "code": 1,
           "temp": 9,
-          "pop": 1
+          "pop": 4
         }
       ],
       "daily": [
@@ -722,56 +722,56 @@ window.NEWS_DATA = {
       "name": "大阪",
       "region": "近畿",
       "temp": 13,
-      "code": 3,
+      "code": 1,
       "wind": 3,
       "maxTemp": 18,
       "minTemp": 9,
       "pop": 84,
       "hourly": [
         {
-          "time": "05:00",
-          "code": 3,
+          "time": "06:00",
+          "code": 2,
           "temp": 13,
-          "pop": 72
+          "pop": 75
         },
         {
-          "time": "08:00",
-          "code": 2,
+          "time": "09:00",
+          "code": 3,
           "temp": 13,
           "pop": 84
         },
         {
-          "time": "11:00",
-          "code": 53,
+          "time": "12:00",
+          "code": 51,
           "temp": 16,
-          "pop": 65
+          "pop": 53
         },
         {
-          "time": "14:00",
+          "time": "15:00",
           "code": 0,
           "temp": 18,
-          "pop": 33
+          "pop": 25
         },
         {
-          "time": "17:00",
-          "code": 1,
+          "time": "18:00",
+          "code": 2,
           "temp": 15,
-          "pop": 16
+          "pop": 12
         },
         {
-          "time": "20:00",
+          "time": "21:00",
           "code": 0,
-          "temp": 13,
-          "pop": 3
-        },
-        {
-          "time": "23:00",
-          "code": 1,
-          "temp": 10,
+          "temp": 12,
           "pop": 0
         },
         {
-          "time": "02:00",
+          "time": "00:00",
+          "code": 3,
+          "temp": 9,
+          "pop": 0
+        },
+        {
+          "time": "03:00",
           "code": 1,
           "temp": 9,
           "pop": 0
@@ -847,52 +847,52 @@ window.NEWS_DATA = {
       "pop": 98,
       "hourly": [
         {
-          "time": "05:00",
+          "time": "06:00",
           "code": 3,
           "temp": 12,
-          "pop": 38
+          "pop": 22
         },
         {
-          "time": "08:00",
-          "code": 3,
-          "temp": 12,
-          "pop": 5
-        },
-        {
-          "time": "11:00",
-          "code": 1,
-          "temp": 18,
-          "pop": 7
-        },
-        {
-          "time": "14:00",
-          "code": 1,
-          "temp": 16,
-          "pop": 21
-        },
-        {
-          "time": "17:00",
+          "time": "09:00",
           "code": 0,
-          "temp": 13,
-          "pop": 40
+          "temp": 15,
+          "pop": 2
         },
         {
-          "time": "20:00",
+          "time": "12:00",
+          "code": 1,
+          "temp": 17,
+          "pop": 12
+        },
+        {
+          "time": "15:00",
+          "code": 0,
+          "temp": 14,
+          "pop": 27
+        },
+        {
+          "time": "18:00",
+          "code": 0,
+          "temp": 12,
+          "pop": 49
+        },
+        {
+          "time": "21:00",
           "code": 0,
           "temp": 11,
-          "pop": 73
+          "pop": 84
         },
         {
-          "time": "23:00",
-          "code": 51,
+          "time": "00:00",
+          "code": 0,
           "temp": 8,
-          "pop": 98
+          "pop": 100
         },
         {
-          "time": "02:00",
+          "time": "03:00",
           "code": 0,
           "temp": 7,
-          "pop": 88
+          "pop": 78
         }
       ],
       "daily": [
@@ -965,52 +965,52 @@ window.NEWS_DATA = {
       "pop": 59,
       "hourly": [
         {
-          "time": "05:00",
+          "time": "06:00",
           "code": 1,
-          "temp": 15,
-          "pop": 54
+          "temp": 14,
+          "pop": 57
         },
         {
-          "time": "08:00",
+          "time": "09:00",
           "code": 1,
-          "temp": 15,
-          "pop": 30
+          "temp": 16,
+          "pop": 16
         },
         {
-          "time": "11:00",
+          "time": "12:00",
           "code": 0,
           "temp": 20,
-          "pop": 3
-        },
-        {
-          "time": "14:00",
-          "code": 0,
-          "temp": 18,
           "pop": 0
         },
         {
-          "time": "17:00",
-          "code": 1,
-          "temp": 14,
-          "pop": 2
-        },
-        {
-          "time": "20:00",
+          "time": "15:00",
           "code": 0,
-          "temp": 12,
-          "pop": 12
+          "temp": 17,
+          "pop": 0
         },
         {
-          "time": "23:00",
-          "code": 51,
-          "temp": 9,
-          "pop": 56
+          "time": "18:00",
+          "code": 0,
+          "temp": 13,
+          "pop": 4
         },
         {
-          "time": "02:00",
+          "time": "21:00",
+          "code": 0,
+          "temp": 10,
+          "pop": 20
+        },
+        {
+          "time": "00:00",
+          "code": 53,
+          "temp": 8,
+          "pop": 67
+        },
+        {
+          "time": "03:00",
           "code": 0,
           "temp": 7,
-          "pop": 52
+          "pop": 39
         }
       ],
       "daily": [
@@ -1076,59 +1076,59 @@ window.NEWS_DATA = {
       "name": "福岡",
       "region": "九州",
       "temp": 17,
-      "code": 1,
-      "wind": 24,
+      "code": 2,
+      "wind": 23,
       "maxTemp": 18,
       "minTemp": 11,
       "pop": 100,
       "hourly": [
         {
-          "time": "05:00",
+          "time": "06:00",
           "code": 1,
           "temp": 17,
-          "pop": 0
+          "pop": 6
         },
         {
-          "time": "08:00",
-          "code": 1,
+          "time": "09:00",
+          "code": 2,
           "temp": 16,
-          "pop": 46
+          "pop": 57
         },
         {
-          "time": "11:00",
-          "code": 1,
+          "time": "12:00",
+          "code": 2,
           "temp": 15,
-          "pop": 17
+          "pop": 6
         },
         {
-          "time": "14:00",
+          "time": "15:00",
           "code": 51,
           "temp": 14,
-          "pop": 61
+          "pop": 88
         },
         {
-          "time": "17:00",
-          "code": 51,
-          "temp": 13,
-          "pop": 99
+          "time": "18:00",
+          "code": 53,
+          "temp": 12,
+          "pop": 100
         },
         {
-          "time": "20:00",
+          "time": "21:00",
           "code": 51,
           "temp": 12,
           "pop": 100
         },
         {
-          "time": "23:00",
+          "time": "00:00",
           "code": 51,
           "temp": 11,
-          "pop": 100
+          "pop": 96
         },
         {
-          "time": "02:00",
+          "time": "03:00",
           "code": 2,
           "temp": 10,
-          "pop": 74
+          "pop": 59
         }
       ],
       "daily": [
@@ -1201,50 +1201,50 @@ window.NEWS_DATA = {
       "pop": 49,
       "hourly": [
         {
-          "time": "05:00",
+          "time": "06:00",
           "code": 3,
           "temp": 22,
-          "pop": 4
+          "pop": 6
         },
         {
-          "time": "08:00",
+          "time": "09:00",
+          "code": 3,
+          "temp": 21,
+          "pop": 12
+        },
+        {
+          "time": "12:00",
           "code": 3,
           "temp": 22,
-          "pop": 8
+          "pop": 49
         },
         {
-          "time": "11:00",
-          "code": 51,
-          "temp": 21,
-          "pop": 40
-        },
-        {
-          "time": "14:00",
+          "time": "15:00",
           "code": 3,
           "temp": 21,
-          "pop": 31
+          "pop": 20
         },
         {
-          "time": "17:00",
+          "time": "18:00",
           "code": 3,
           "temp": 20,
-          "pop": 5
+          "pop": 0
         },
         {
-          "time": "20:00",
+          "time": "21:00",
           "code": 3,
           "temp": 19,
           "pop": 0
         },
         {
-          "time": "23:00",
-          "code": 2,
+          "time": "00:00",
+          "code": 3,
           "temp": 18,
           "pop": 0
         },
         {
-          "time": "02:00",
-          "code": 2,
+          "time": "03:00",
+          "code": 3,
           "temp": 18,
           "pop": 0
         }
@@ -1730,24 +1730,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "subculture",
-      "title": "SNSで話題のダークヒーロー漫画『秘密法人デスメイカー』連載化",
-      "source": "youngchampion.jp",
-      "publishedAt": "2026-11-28 00:41",
-      "publishedTs": 1795794119,
-      "image": "https://cdn-public.comici.jp/episode/1795573808/ffb543787e4c403c.webp",
-      "summary": "人間のヒーローに倒されることに憧れる悪魔が自ら怪人を生み出す、鬼才・鰻田まあちが描く話題のダークファンタジー作品がヤンチャンWebで連載開始。",
+      "title": "映画『装甲騎兵ボトムズ 灰色の魔女』公開2週目舞台あいさつ開催",
+      "source": "youtube.com",
+      "publishedAt": "2026-11-28 00:49",
+      "publishedTs": 1795794555,
+      "image": "https://b.hatena.ne.jp/entry/image/https://www.youtube.com/watch?v=qJNk1VS_ZVs",
+      "summary": "1980年代の人気アニメシリーズ新作となる映画『装甲騎兵ボトムズ 灰色の魔女』の公開2週目舞台あいさつが行われ、杉田智和や上坂すみれら豪華声優陣が登壇した。",
       "points": [
-        "SNSでバズった話題作が待望の連載化",
-        "ヒーローに殺されたい悪魔が自ら怪人を創るストーリー",
-        "鬼才・鰻田まあちが贈る独特で濁り切った世界観"
+        "杉田智和、鶴岡聡、三宅健太、上坂すみれが舞台あいさつに登壇",
+        "MCをマフィア梶田が務め、中村悠一からのメッセージも紹介",
+        "1980年代放送の『装甲騎兵ボトムズ』新作映画の公開2週目イベント"
       ],
-      "impact": "サブカルチャー界隈で注目を集める鬼才の新作として、今後の展開やSNSでの拡散効果が期待されます。",
+      "impact": "往年のアニメファンから新規層まで幅広い関心を集め、今後の興行成績や関連グッズ展開への波及が期待される。",
       "tags": [
-        "サブカルチャー",
-        "マンガ",
-        "ヤンチャンWeb"
+        "装甲騎兵ボトムズ",
+        "声優",
+        "アニメ映画"
       ],
-      "url": "https://youngchampion.jp/episodes/087f725f945f2",
+      "url": "https://www.youtube.com/watch?v=qJNk1VS_ZVs",
       "isAiEnriched": true
     },
     {
@@ -1884,24 +1884,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "37mm厚の小型PC「ASUS NUC 15 Pro」発売",
+      "title": "人気レトロゲーム進化版『ロットロットロットロット』パッケージ版入荷",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-28 00:30",
-      "publishedTs": 1795793400,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-00000006-impahw-000-1-view.jpg?exp=10800",
-      "summary": "ASUSから厚さ37mmのコンパクトな筐体を採用したWindows 11搭載の新型ミニPC「ASUS NUC 15 Pro」シリーズが登場しました。",
+      "publishedAt": "2026-11-28 06:06",
+      "publishedTs": 1795813560,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-00000007-impahw-000-1-view.jpg?exp=10800",
+      "summary": "マインドウェアのWindows用ゲームソフト『ロットロットロットロット』のパッケージ版が、BEEP 秋葉原店に入荷した。往年の名作を究極進化させたタイトルとして注目されている。",
       "points": [
-        "幅117×奥行112×高さ37mmの小型サイズ",
-        "最新のWindows 11 Homeを搭載",
-        "Core Ultra 7搭載モデルなどをラインナップ"
+        "マインドウェアのWindows向けソフト『ロットロットロットロット』",
+        "BEEP 秋葉原店にてパッケージ版の販売が開始",
+        "人気レトロゲームの究極進化版としてファンから注目を集める"
       ],
-      "impact": "省スペースで高性能なPCを求める法人ユーザーや、デスク周りをすっきりさせたい個人層の需要を刺激します。",
+      "impact": "レトロゲーム市場の根強い人気を示しており、コレクターや往年のPCゲームファンの購買意欲を刺激しそうだ。",
       "tags": [
-        "PC",
-        "ASUS",
-        "ガジェット"
+        "レトロゲーム",
+        "秋葉原",
+        "PCゲーム"
       ],
-      "url": "https://news.yahoo.co.jp/articles/41e9c30f1e8e78365870f430ce6a7de8870137e0?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/64da038a98db874aafad5b53a529bb33803c30b7?source=rss",
       "isAiEnriched": true
     },
     {
@@ -1994,24 +1994,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "Core Ultra Series 3搭載「ASUS NUC 16 Pro」発売",
+      "title": "125万円のAIミニPCが登場、RTX 5090には1300W電源付属",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-28 00:23",
-      "publishedTs": 1795792980,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-00000005-impahw-000-1-view.jpg?exp=10800",
-      "summary": "インテルの最新プロセッサーを搭載した最新のミニPC「ASUS NUC 16 Pro」シリーズがアキバ市場に登場し、注目を集めています。",
+      "publishedAt": "2026-11-28 06:05",
+      "publishedTs": 1795813512,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-00000012-zdn_pc-000-1-view.jpg?exp=10800",
+      "summary": "GMKtecから価格125万円のハイスペックAIミニPC「EVO-X5 Pro」が登場した。また同価格帯のRTX 5090カードには約5万円の1300W電源が付属するなど、高価格帯PCパーツが話題だ。",
       "points": [
-        "Intel Core Ultra Series 3プロセッサーを搭載",
-        "最新世代の処理能力を備えた小型PC",
-        "省スペース設計で高いパフォーマンスを発揮"
+        "GMKtecの小型PC「EVO-X5 Pro」が完成品で125万円で登場",
+        "同価格帯のRTX 5090カードには約5万円相当の1300W電源が付属",
+        "価格と性能の両面でPCパーツ市場の注目を集める"
       ],
-      "impact": "最新CPUをいち早くコンパクトな環境で試したいPC愛好家やビジネスパーソンにとって魅力的な選択肢となります。",
+      "impact": "ローカルAI開発やハイエンドゲーミング需要の高まりを背景に、超高級ミニPCやGPU市場のさらなる活性化が見込まれる。",
       "tags": [
-        "PC",
-        "インテル",
-        "ガジェット"
+        "ミニPC",
+        "RTX 5090",
+        "AIハードウェア"
       ],
-      "url": "https://news.yahoo.co.jp/articles/81306ea1df37a24234a974a50e36decb03c35d36?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/1e4a808c4552d4f546ae4611093f1c04bcd78316?source=rss",
       "isAiEnriched": true
     },
     {
@@ -2104,90 +2104,90 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "MSX2用オープンワールド『恐怖の無人島』が店頭入荷",
+      "title": "空冷ファン内蔵スマホが定番化か、vivo「iQOO Neo12」発表",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-28 00:13",
-      "publishedTs": 1795792380,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-00000004-impahw-000-1-view.jpg?exp=10800",
-      "summary": "同人サークル・サンダーボルトによるMSX2用の新作オープンワールドゲーム『恐怖の無人島』が、3.5インチFD媒体で秋葉原の店舗に入荷しました。",
+      "publishedAt": "2026-11-28 06:05",
+      "publishedTs": 1795813508,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-00000001-zdn_m-000-1-view.jpg?exp=10800",
+      "summary": "vivoのゲーミングスマホブランド「iQOO」から新モデル「iQOO Neo12」が中国で登場。185Hz表示のディスプレイや9000mAhの大容量バッテリーに加え、空冷ファンを内蔵している。",
       "points": [
-        "レトロPC・MSX2向けの新作オープンワールドゲーム",
-        "3.5インチフロッピーディスクで供給",
-        "秋葉原の店舗で実物の販売および試遊を実施"
+        "vivoが中国でゲーミングスマホ「iQOO Neo12」を発表",
+        "185Hzの高リフレッシュレート表示と9000mAhバッテリーを搭載",
+        "空冷ファンを内蔵しつつ価格をやや抑えたゲーム特化仕様"
       ],
-      "impact": "レトロPC市場における同人ハード・ソフトの根強い人気と、クリエイターの創作活動の活発さを伝えています。",
+      "impact": "モバイルゲームの高度化に伴い、冷却ファンや超大容量バッテリーを備えた高コスパゲーミングスマホの競争が激化しそうだ。",
       "tags": [
-        "レトロゲーム",
-        "MSX",
-        "同人ソフト"
+        "vivo",
+        "ゲーミングスマホ",
+        "空冷ファン"
       ],
-      "url": "https://news.yahoo.co.jp/articles/b34bec5880f3fcf23f089a88b9434e881a2ae3f1?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/88c8b03ad0c7e079af8f47de397ec6e142d7f381?source=rss",
       "isAiEnriched": true
     },
     {
       "category": "business",
-      "title": "水野本社の星が丘シェアギャラリー、累計来場者2800人突破",
+      "title": "別府駅周辺《温泉銭湯めぐり10+3選》昭和レトロな温泉街の歩き方",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-28 05:15",
-      "publishedTs": 1795810527,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-00000003-chukei-000-1-view.jpg?exp=10800",
-      "summary": "名古屋市千種区の星が丘グループ水野本社が運営するシェアギャラリー「H GＡＲＡＧＥ」の累計来場者数が2800人を突破し、地域住民や企業の交流拠点としてエリアの魅力向上に貢献しています。",
+      "publishedAt": "2026-11-28 06:16",
+      "publishedTs": 1795814176,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-00965328-toyo-000-1-view.jpg?exp=10800",
+      "summary": "日本有数の温泉地である大分の別府温泉について、玄関口となるJR別府駅周辺の温泉銭湯を紹介。レトロな商店街や日本最古の木造アーケードなど、昭和の空気が残る街並みの楽しみ方を解説。",
       "points": [
-        "水野本社が運営するシェアギャラリーが好調",
-        "累計来場者数が2800人を突破",
-        "地域住民や企業の交流とエリア活性化に寄与"
+        "JR別府駅周辺のアクセスしやすい温泉銭湯10+3選を紹介",
+        "レトロな商店街や日本最古の木造アーケード・竹瓦小路を散策",
+        "大正・昭和の風景が色濃く残るノスタルジックな街歩きを提案"
       ],
-      "impact": "地域密着型のスペース運営が周辺コミュニティや商業活性化の新たなモデルとして注目されます。",
+      "impact": "インバウンドや国内旅行者の間でレトロ観光や温泉銭湯への関心が高まる中、地方観光の活性化に寄与する情報となる。",
       "tags": [
-        "水野本社",
-        "星が丘",
-        "シェアギャラリー"
+        "別府温泉",
+        "温泉銭湯",
+        "昭和レトロ"
       ],
-      "url": "https://news.yahoo.co.jp/articles/26b954f5d3097736b2946b83d2b3f7700647de9a?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/eafaea65b05dc28161c9267c64d902e0ef7dee1f?source=rss",
       "isAiEnriched": true
     },
     {
       "category": "entertainment",
-      "title": "橋本環奈と中川大志に結婚秒読み情報、交際質問に堂々回答",
+      "title": "竜星涼、スタイリッシュなスーツ姿で京都競馬場に降臨し話題に",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-28 05:15",
-      "publishedTs": 1795810529,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-00411411-tospoweb-000-1-view.jpg?exp=10800",
-      "summary": "交際が報じられてきた女優の橋本環奈と俳優の中川大志に「結婚秒読み」のウワサが浮上しています。イベントでの直撃質問に対する堂々とした様子が大きな注目を集めています。",
+      "publishedAt": "2026-11-28 06:16",
+      "publishedTs": 1795814162,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-11271166-sph-000-1-view.jpg?exp=10800",
+      "summary": "ドラマ『VIVANT』などで知られる俳優の竜星涼が、京都競馬場を訪れた際の写真を自身のSNSで公開。洗練されたスーツ姿や馬券を的中させたガッツポーズにファンから絶賛の声が寄せられた。",
       "points": [
-        "橋本環奈と中川大志の熱愛・結婚報道が再燃",
-        "2022年の交際発覚から順調な関係を維持",
-        "公の場での受け答えが話題に"
+        "俳優・竜星涼が京都競馬場を訪れた際の写真をインスタグラムで公開",
+        "スタイリッシュなスーツ姿に「絵になる」「貴公子の微笑み」と反響",
+        "馬券も的中させガッツポーズを決める姿も披露"
       ],
-      "impact": "ビッグカップルの動向はエンタメ業界やファン層の間で引き続き高い関心を集めるトピックとなります。",
+      "impact": "人気俳優のSNS発信により、若年層や女性ファンを中心に競馬場への親近感や関心が高まるきっかけとなりそうだ。",
       "tags": [
-        "橋本環奈",
-        "中川大志",
-        "芸能"
+        "竜星涼",
+        "京都競馬場",
+        "VIVANT"
       ],
-      "url": "https://news.yahoo.co.jp/articles/5c2d67d488fa1c7299d4250e8a3383eef7e4f9f3?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/7020073b544a5b552ee812988f8a0222370a6b05?source=rss",
       "isAiEnriched": true
     },
     {
       "category": "subculture",
-      "title": "『GTA6』バスケットボールが最強の凶器に？",
-      "source": "AUTOMATON",
-      "publishedAt": "2026-11-27 19:40",
-      "publishedTs": 1795776016,
-      "image": "https://automaton-media.com/wp-content/uploads/2026/11/20261127-481329-header.jpg",
-      "summary": "『グランド・セフト・オートVI』でバスケットボールが強すぎると話題になり、ネットミーム化しています。銃より強力な邪悪なおじさんが出現していると注目を集めています。",
+      "title": "SNSで話題のダークヒーロー漫画『秘密法人デスメイカー』連載化",
+      "source": "youngchampion.jp",
+      "publishedAt": "2026-11-28 00:41",
+      "publishedTs": 1795794119,
+      "image": "https://cdn-public.comici.jp/episode/1795573808/ffb543787e4c403c.webp",
+      "summary": "人間のヒーローに倒されることに憧れる悪魔が自ら怪人を生み出す、鬼才・鰻田まあちが描く話題のダークファンタジー作品がヤンチャンWebで連載開始。",
       "points": [
-        "ゲーム内でバスケットボールが強力な武器として機能",
-        "プレイヤーの間でネットミームとして拡散",
-        "銃火器を凌ぐようなシュールな戦闘スタイルが話題"
+        "SNSでバズった話題作が待望の連載化",
+        "ヒーローに殺されたい悪魔が自ら怪人を創るストーリー",
+        "鬼才・鰻田まあちが贈る独特で濁り切った世界観"
       ],
-      "impact": "ゲームコミュニティにおけるユーモアなバグや仕様の検証として、SNSでの拡散と盛り上がりが期待されます。",
+      "impact": "サブカルチャー界隈で注目を集める鬼才の新作として、今後の展開やSNSでの拡散効果が期待されます。",
       "tags": [
-        "GTA6",
-        "ゲーム",
-        "ネットミーム"
+        "サブカルチャー",
+        "マンガ",
+        "ヤンチャンWeb"
       ],
-      "url": "https://automaton-media.com/articles/newsjp/20261127-481329/",
+      "url": "https://youngchampion.jp/episodes/087f725f945f2",
       "isAiEnriched": true
     },
     {
@@ -2214,90 +2214,90 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "Ryzen 9やRTX 50搭載のゲーミングミニPC「ROG GR70」発売",
+      "title": "セールで2万4980円の新型「Kindle」は買いか、軽さと操作性を検証",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-28 00:07",
-      "publishedTs": 1795792020,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-00000003-impahw-000-1-view.jpg?exp=10800",
-      "summary": "ASUSのROGブランドから、約3Lのコンパクト筐体にハイスペックなCPUと最新GPUを詰め込んだ強力なゲーミングミニPCが発売されました。",
+      "publishedAt": "2026-11-28 06:00",
+      "publishedTs": 1795813202,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-00000002-binsiderl-000-1-view.jpg?exp=10800",
+      "summary": "アマゾンの電子書籍リーダー「Kindle」標準モデルの新型をレビュー。セール価格2万4980円という価格帯に対し、約140gの軽量ボディや上位モデルに迫る操作性の高さを検証している。",
       "points": [
-        "約3Lの小型筐体にハイエンドパーツを凝縮",
-        "Ryzen 9000/8000シリーズとGeForce RTX 50を搭載",
-        "省スペースと妥協のないゲーミング性能を両立"
+        "セール価格2万4980円の新型「Kindle」標準モデルを実機レビュー",
+        "約140gという圧倒的な軽さと携帯性を評価",
+        "上位モデルに迫る快適な操作性を備え、購入価値を検証"
       ],
-      "impact": "設置スペースを抑えつつ最高峰のゲーム環境を構築したいハイエンドゲーマーの購買意欲を刺激します。",
+      "impact": "電子書籍リーダーの価格上昇傾向の中、携帯性と操作性のバランスが読書習慣やデジタル端末の買い替え需要を左右しそうだ。",
       "tags": [
-        "ゲーミングPC",
-        "ASUS",
-        "ハードウェア"
+        "Kindle",
+        "電子書籍",
+        "Amazon"
       ],
-      "url": "https://news.yahoo.co.jp/articles/5505269e5a800c7f0bf9e1b34e2d74aa301ddd80?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/e7af28488f0741086b0ef119c4f861c29a33eaf9?source=rss",
       "isAiEnriched": true
     },
     {
       "category": "business",
-      "title": "名古屋の百貨店やホテルでクリスマス商戦、体験企画が本格化",
+      "title": "社会人になって気づく「就活で本当はどうでもよかったこと」・ベスト1",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-28 05:15",
-      "publishedTs": 1795810526,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-00000002-chukei-000-1-view.jpg?exp=10800",
-      "summary": "名古屋市の小売やホテル、鉄道各社が展開するクリスマス商戦は、人とのつながりや体験型サービスを重視した企画が主流となり、来街者の心を捉えるための趣向を凝らした提案が熱を帯びています。",
+      "publishedAt": "2026-11-28 06:15",
+      "publishedTs": 1795814131,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-00403803-diamond-000-1-view.jpg?exp=10800",
+      "summary": "書籍『脇役さんの就活攻略書』の特別企画として、社会人になってから実感する「就活において実は重要ではなかったこと」の第1位を紹介し、本質的な就職活動のあり方を考察している。",
       "points": [
-        "名古屋の商業施設やホテルでクリスマス商戦が本格化",
-        "「人とのつながり」や「体験企画」を前面に提案",
-        "イベントを通じた集客力強化を図る"
+        "『ありのままの自分で、内定につながる 脇役さんの就活攻略書』の企画",
+        "社会人経験者が振り返る「就活でどうでもよかったこと」1位を紹介",
+        "過度な対策よりも本質的な自己理解や内定への道筋を示唆"
       ],
-      "impact": "モノ消費からコト消費へシフトする中、年末商戦の成功に向けた各社の差別化戦略が市場を活気づけます。",
+      "impact": "形式的な就活対策に疲弊する学生や採用担当者に対し、本質的なマッチングを見直す契機となる。",
       "tags": [
-        "クリスマス商戦",
-        "名古屋",
-        "百貨店"
+        "就職活動",
+        "キャリア",
+        "ビジネス書"
       ],
-      "url": "https://news.yahoo.co.jp/articles/1d743363eba614c9344d05302cffd7e52966e919?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/e3f1160e1eb763455156df8a5c7d6770e534c64c?source=rss",
       "isAiEnriched": true
     },
     {
       "category": "entertainment",
-      "title": "あべこうじのひき逃げ聴取で妻・高橋愛にも影響、謝罪会見か",
+      "title": "霜降り明星・粗品、雰囲気一変の姿に驚きの声「誰かと思った」",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-28 05:15",
-      "publishedTs": 1795810529,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-00411410-tospoweb-000-1-view.jpg?exp=10800",
-      "summary": "お笑いタレントのあべこうじが自動車運転処罰法違反などの疑いで警察の事情聴取を受けていることが判明し、妻である高橋愛の仕事への影響や今後の謝罪会見の可能性が懸念されています。",
+      "publishedAt": "2026-11-28 06:15",
+      "publishedTs": 1795814134,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-10292674-abemav-000-1-view.jpg?exp=10800",
+      "summary": "お笑いコンビ「霜降り明星」の粗品が、これまでのイメージを大きく変えるイメチェン姿を公開。SNSやファンからは「誰かと思った」「声出た」など驚きの反応が相次いでいる。",
       "points": [
-        "あべこうじがひき逃げなどの疑いで事情聴取",
-        "妻の高橋愛への影響や波紋が広がる",
-        "今後の対応や謝罪会見の有無に注目が集まる"
+        "霜降り明星の粗品が雰囲気を一変させた姿を公開",
+        "「誰かと思った」「びっくりした」などSNSで大きな反響",
+        "YouTubeチャンネルでの発信を通じてファンの注目を集める"
       ],
-      "impact": "タレントの不祥事は出演番組やパートナーの活動へ直結するため、メディアやスポンサーの対応が注目されます。",
+      "impact": "人気芸人のビジュアル変化はSNSでの拡散力が高く、今後のメディア出演やYouTubeの再生数にも好影響を与えそうだ。",
       "tags": [
-        "あべこうじ",
-        "高橋愛",
-        "芸能"
+        "粗品",
+        "霜降り明星",
+        "イメチェン"
       ],
-      "url": "https://news.yahoo.co.jp/articles/9f3f34555dd26dc8b9aaf2cf5782563d6366efe2?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/bf19a2e686fe3b327959e1339b157e060fd56df6?source=rss",
       "isAiEnriched": true
     },
     {
       "category": "subculture",
-      "title": "Vコレ第2弾楽曲「Resonance」のRe-rideアーティストが公開",
-      "source": "PANORA",
-      "publishedAt": "2026-11-27 19:25",
-      "publishedTs": 1795775149,
-      "image": "https://asset.panora.tokyo/wp-content/uploads/2026/11/27192534/58915-554-a8ad5d7869f5a3a05d8982b954029d2d-1920x1080-1.webp",
-      "summary": "IP開発を手掛けるCHET Groupは、音楽プロジェクト「V Collection（Vコレ）」第2弾楽曲『Resonance』のRe-rideアーティストを公開した。音魂ヒビクや蒼星すいらが参加する。",
+      "title": "『GTA6』バスケットボールが最強の凶器に？",
+      "source": "AUTOMATON",
+      "publishedAt": "2026-11-27 19:40",
+      "publishedTs": 1795776016,
+      "image": "https://automaton-media.com/wp-content/uploads/2026/11/20261127-481329-header.jpg",
+      "summary": "『グランド・セフト・オートVI』でバスケットボールが強すぎると話題になり、ネットミーム化しています。銃より強力な邪悪なおじさんが出現していると注目を集めています。",
       "points": [
-        "CHET GroupがVコレ第2弾楽曲『Resonance』の参加者を発表",
-        "Re-rideアーティストとして音魂ヒビク、蒼星すいらが参加",
-        "クリエイティビティとテクノロジーを掛け合わせたIP展開を推進"
+        "ゲーム内でバスケットボールが強力な武器として機能",
+        "プレイヤーの間でネットミームとして拡散",
+        "銃火器を凌ぐようなシュールな戦闘スタイルが話題"
       ],
-      "impact": "VTuberやバーチャルシンガーによる音楽市場が拡大する中、新たなコラボレーションによる楽曲展開にファンの期待が高まる。",
+      "impact": "ゲームコミュニティにおけるユーモアなバグや仕様の検証として、SNSでの拡散と盛り上がりが期待されます。",
       "tags": [
-        "VTuber",
-        "音楽",
-        "Vコレ"
+        "GTA6",
+        "ゲーム",
+        "ネットミーム"
       ],
-      "url": "https://panora.tokyo/archives/164984",
+      "url": "https://automaton-media.com/articles/newsjp/20261127-481329/",
       "isAiEnriched": true
     },
     {
@@ -2324,90 +2324,90 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "「ROG」と『Phantom Blade Zero』のコラボデバイスが登場",
+      "title": "フォトショやイラレのMCP対応、アドビが迎えるサブスク以来の転換点",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-28 00:05",
-      "publishedTs": 1795791900,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-00000002-impahw-000-1-view.jpg?exp=10800",
-      "summary": "注目アクションゲーム『Phantom Blade Zero』とASUSのゲーミングブランド「ROG」がコラボレーションし、専用のキーボードやマウスが登場しました。",
+      "publishedAt": "2026-11-28 06:00",
+      "publishedTs": 1795813202,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-00000001-binsiderl-000-1-view.jpg?exp=10800",
+      "summary": "PhotoshopやIllustratorなどを展開するアドビが、AI連携規格であるMCPへの対応を進めている。サブスクリプション移行以来の大きな転換点として、クリエイティブ業界の今後を展望する。",
       "points": [
-        "話題のアクションゲームとROGが公式コラボ",
-        "デザイン性と機能性を兼ね備えたゲーミングデバイスを展開",
-        "ファン必見のこだわりが詰まったラインナップ"
+        "PhotoshopやIllustratorがAI連携規格「MCP」に対応",
+        "クリエイティブアプリの巨人・アドビが大きな転換期を迎える",
+        "「地獄の釜」と評されつつも、対応すべき理由と将来性を解説"
       ],
-      "impact": "ゲームの世界観をデスクトップに再現したい熱狂的なゲーマーやデバイスコレクターの購買欲を高めます。",
+      "impact": "デザインや制作現場のAI自動化が一段と進み、クリエイターの業務フローやソフトウェアの課金モデルに大きな変化をもたらす。",
       "tags": [
-        "ゲーミングデバイス",
-        "ASUS",
-        "ゲーム"
+        "Adobe",
+        "MCP",
+        "生成AI"
       ],
-      "url": "https://news.yahoo.co.jp/articles/beb23854c4aff5e94cf8475fdf7b43a139760a3b?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/c0c0cb83eb1178b9675316b8c1dbc97abdd12a54?source=rss",
       "isAiEnriched": true
     },
     {
       "category": "business",
-      "title": "中部外食企業、来春の食料品減税を注視し持ち帰りや通販を強化",
+      "title": "松本明子は空き家に25年で1000万円超、失敗に学ぶ「実家じまい」",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-28 05:15",
-      "publishedTs": 1795810524,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-00000001-chukei-000-1-view.jpg?exp=10800",
-      "summary": "来年4月に予定される食料品消費税率の引き下げと外食税率据え置きによる税率差を前に、中部の外食業界が警戒感を強めています。内食・中食への流出を防ぐため、持ち帰りや通販、独自の価値磨きを急ピッチで進めています。",
+      "publishedAt": "2026-11-28 06:10",
+      "publishedTs": 1795813832,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-00966030-toyo-000-1-view.jpg?exp=10800",
+      "summary": "タレントの松本明子が空き家となった実家の維持に25年で1000万円以上を費やした事例などを交え、親が認知症になると売却できなくなるリスクや、早期に「実家じまい」を始める重要性を解説。",
       "points": [
-        "食料品減税と外食据え置きによる税率差への警戒",
-        "消費者の内食・中食シフトによる外食離れを懸念",
-        "持ち帰りや通販の強化、店舗の価値向上で対抗"
+        "松本明子が空き家の維持に25年で1000万円超を費やした事例を紹介",
+        "親が認知症になると実家を売却できなくなる危険性を指摘",
+        "税金や維持費の負担を避けるための「実家じまい」の第一歩を提案"
       ],
-      "impact": "税制変更に伴う消費行動の変化が外食産業の収益構造や価格戦略に大きな影響を与えます。",
+      "impact": "高齢化に伴い空き家問題が深刻化する中、家族間での早期の資産整理や不動産対策の重要性が再認識されている。",
       "tags": [
-        "外食産業",
-        "消費税減税",
-        "中部経済"
+        "実家じまい",
+        "空き家問題",
+        "資産管理"
       ],
-      "url": "https://news.yahoo.co.jp/articles/7fea5b2fa420e2e412c4ac8d9a5b38cdda7aebb3?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/23be1c3d2254f083d11072efe3b5477fd9f24d6b?source=rss",
       "isAiEnriched": true
     },
     {
       "category": "entertainment",
-      "title": "岸谷五朗とルビー・モレノが33年ぶり再会、崔洋一監督命日に復活",
+      "title": "日向坂46上村ひなの、インフルエンザ感染で療養発表「猛省」",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-28 05:15",
-      "publishedTs": 1795810500,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-00000106-spnannex-000-3-view.jpg?exp=10800",
-      "summary": "故・崔洋一監督の代表作「月はどっちに出ている」のデジタルリマスター版公開初日舞台挨拶が行われ、主演を務めた岸谷五朗とルビー・モレノが33年ぶりに感動的な再会を果たしました。",
+      "publishedAt": "2026-11-28 06:13",
+      "publishedTs": 1795814025,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-41280040-nksports-000-1-view.jpg?exp=10800",
+      "summary": "日向坂46の上村ひなのが公式ブログを更新し、インフルエンザ感染に伴い療養することを発表した。ファンや関係者に向けて謝罪し、「猛省しております」と心境をつづっている。",
       "points": [
-        "崔洋一監督の命日に名作映画がデジタルリマスター版で公開",
-        "主演の岸谷五朗とルビー・モレノが33年ぶりに登壇",
-        "当時の思い出や監督への思いを語る"
+        "日向坂46の上村ひなのが公式ブログで療養を発表",
+        "インフルエンザに感染したことを報告し、ファンへ謝罪",
+        "体調回復に努める姿勢を示すとともに「猛省」の言葉を記す"
       ],
-      "impact": "名作映画の復活上映は映画ファンの間で当時の記憶を呼び覚まし、新たな鑑賞層を獲得する契機となります。",
+      "impact": "感染症の流行期における芸能人の体調管理や、グループの活動スケジュールへの影響に関心が集まっている。",
       "tags": [
-        "岸谷五朗",
-        "ルビー・モレノ",
-        "映画"
+        "上村ひなの",
+        "日向坂46",
+        "インフルエンザ"
       ],
-      "url": "https://news.yahoo.co.jp/articles/5264e89d8fa2fb112516431c49927251b3db81ff?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/83cd33b20f14b738effe77c69acd62622d7febc7?source=rss",
       "isAiEnriched": true
     },
     {
       "category": "subculture",
-      "title": "魔王より厄介な美女たち「ハーレム勇者伝説」第2話",
-      "source": "shonenjumpplus.com",
-      "publishedAt": "2026-11-28 00:00",
-      "publishedTs": 1795791622,
-      "image": "https://cdn-ak-img.shonenjumpplus.com/public/series-thumbnail/9253191257982298018-94858a1ea5b3308d5276ebba3afeacc9?1795591267",
-      "summary": "かつて倒された魔王が復活し、普通の力を持つ勇者の子・アルフリートの護衛に、正妻を狙う厄介な美女3人がついたことで始まるドタバタ劇を描く話題作。",
+      "title": "Vコレ第2弾楽曲「Resonance」のRe-rideアーティストが公開",
+      "source": "PANORA",
+      "publishedAt": "2026-11-27 19:25",
+      "publishedTs": 1795775149,
+      "image": "https://asset.panora.tokyo/wp-content/uploads/2026/11/27192534/58915-554-a8ad5d7869f5a3a05d8982b954029d2d-1920x1080-1.webp",
+      "summary": "IP開発を手掛けるCHET Groupは、音楽プロジェクト「V Collection（Vコレ）」第2弾楽曲『Resonance』のRe-rideアーティストを公開した。音魂ヒビクや蒼星すいらが参加する。",
       "points": [
-        "魔王が復活し勇者の子が活躍するファンタジー作品",
-        "主人公を守る国選抜の護衛3人は全員が勇者の妻を狙う",
-        "少年ジャンプ＋にて連載中でコミカルな展開が魅力"
+        "CHET GroupがVコレ第2弾楽曲『Resonance』の参加者を発表",
+        "Re-rideアーティストとして音魂ヒビク、蒼星すいらが参加",
+        "クリエイティビティとテクノロジーを掛け合わせたIP展開を推進"
       ],
-      "impact": "WEBマンガファンの間で魅力的なキャラクターと今後の展開に大きな注目が集まっています。",
+      "impact": "VTuberやバーチャルシンガーによる音楽市場が拡大する中、新たなコラボレーションによる楽曲展開にファンの期待が高まる。",
       "tags": [
-        "マンガ",
-        "少年ジャンプ＋",
-        "サブカルチャー"
+        "VTuber",
+        "音楽",
+        "Vコレ"
       ],
-      "url": "https://shonenjumpplus.com/episode/9253191257982514924",
+      "url": "https://panora.tokyo/archives/164984",
       "isAiEnriched": true
     },
     {
@@ -2434,90 +2434,90 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "ASUS、白い小型ゲーミングPC「ROG NUC 16」先行販売",
+      "title": "厚さ約5cmのゲーミングミニPC、ASUS ROG「GR70」が登場",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-28 00:01",
-      "publishedTs": 1795791660,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-00000001-impahw-000-1-view.jpg?exp=10800",
-      "summary": "Core Ultra 9やGeForce RTX 5080を搭載したASUS製の高性能かつコンパクトな白いゲーミングPCの先行販売が開始されました。",
+      "publishedAt": "2026-11-28 06:00",
+      "publishedTs": 1795813200,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-00682146-bcn-000-5-view.jpg?exp=10800",
+      "summary": "ASUS JAPANは、ゲーミングブランドROGから厚さ約5cmの超小型ゲーミングミニPC「ROG GR70」シリーズを発売。コンパクトな筐体ながら快適にゲームが動作する性能を備えている。",
       "points": [
-        "Core Ultra 9 290HX Plusプロセッサーを搭載",
-        "GeForce RTX 5080 Laptop GPUを採用",
-        "洗練された白色のコンパクトな筐体が特徴"
+        "ASUS JAPANがゲーミングミニPC「ROG GR70」シリーズを発売",
+        "厚さ約5cmの小型ボディで省スペース性を実現",
+        "全国の家電量販店やECサイトで順次展開"
       ],
-      "impact": "ハイエンドな性能と省スペースを両立したPCとして、ゲーマーやガジェットファンの購買意欲を刺激します。",
+      "impact": "省スペースで高性能なPCを求めるゲーマーやクリエイターにとって、デスク環境を刷新する有力な選択肢となる。",
       "tags": [
         "ASUS",
-        "ゲーミングPC",
-        "ハードウェア"
+        "ROG",
+        "ゲーミングPC"
       ],
-      "url": "https://news.yahoo.co.jp/articles/50fb7503e97c6bf1ce7d6d6cc6fbc07728efa513?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/0376ed5b6c69fd9baf17964ce44fbdd80bc54e8d?source=rss",
       "isAiEnriched": true
     },
     {
       "category": "business",
-      "title": "親の自筆証書遺言作成をサポート、法務局預かり手数料は3900円",
+      "title": "スーパーセブンを手放し即決、昭和42年式「スカイライン」の魅力",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-28 05:10",
-      "publishedTs": 1795810233,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-90001521-toushin-000-1-view.jpg?exp=10800",
-      "summary": "親から遺言書作成の相談を受けた際の注意点を解説。法務局での保管手数料が一律3900円であることや、手書き遺言における日付や押印に関する正しいルールを確認しておくことが重要です。",
+      "publishedAt": "2026-11-28 06:10",
+      "publishedTs": 1795813816,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-00010000-amweb-000-1-view.jpg?exp=10800",
+      "summary": "快適さを求めて愛車のスーパーセブンを手放したオーナーが、1967年（昭和42年）式のプリンス「スカイライン2000GT-B」を即決で購入。レース直系の装備を持つ名車の魅力に迫る。",
       "points": [
-        "自筆証書遺言の保管制度と法務局の手数料体系",
-        "日付表記や印鑑の種類などよくある間違いの解説",
-        "相続トラブルを防ぐための事前の備えの重要性"
+        "1967年（昭和42年）式プリンス「スカイライン2000GT-B」を購入した事例",
+        "快適さを求めスーパーセブンを手放した末の即決購入",
+        "100リッター大型燃料タンクなどレース直系のスペックを紹介"
       ],
-      "impact": "遺言書作成のハードルを下げる公的制度の認知拡大が、円滑な相続手続きと家族の安心につながります。",
+      "impact": "旧車・クラシックカー市場の根強い人気と、時代を超えた名車が持つ独自の価値を改めて示す事例となっている。",
       "tags": [
-        "遺言書",
-        "相続",
-        "法務局"
+        "スカイライン",
+        "旧車",
+        "クラシックカー"
       ],
-      "url": "https://news.yahoo.co.jp/articles/b952d6b5933a3c753d554e514e69d5af52d6dd6d?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/425c833545d17f00c802b25833e0152194115d6c?source=rss",
       "isAiEnriched": true
     },
     {
       "category": "entertainment",
-      "title": "ギャル曽根が肉のハナマサでおすすめの大容量調味料を紹介",
+      "title": "橋本環奈、着物風なのに肩出しの斬新ドレス姿に絶賛の声",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-28 05:15",
-      "publishedTs": 1795810500,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-00000099-spnannex-000-3-view.jpg?exp=10800",
-      "summary": "バラエティ番組に出演した大食いタレントのギャル曽根が、「肉のハナマサ」で絶対に買ってほしいお気に入り商品として、粉末タイプの大容量調味料の魅力を熱弁しました。",
+      "publishedAt": "2026-11-28 06:10",
+      "publishedTs": 1795813853,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-00000012-chuspo-000-1-view.jpg?exp=10800",
+      "summary": "女優の橋本環奈が東京駅直結の施設で行われたクリスマス点灯式に出席し、着物風でありながら肩を出した斬新なドレス姿を披露。SNSでは「ラスボス感」「女神が出現」など絶賛の声が相次いだ。",
       "points": [
-        "ギャル曽根がバラエティ番組でおすすめ食材を紹介",
-        "「肉のハナマサ」の大容量調味料を絶賛",
-        "料理上手ならではの具体的な活用法が話題に"
+        "橋本環奈が「TOFROM YAESU TOWER」のクリスマス点灯式に出席",
+        "着物風のデザインに肩出しを取り入れた斬新なドレス姿をXで公開",
+        "「溢れるラスボス感」「女神が出現」などファンから絶賛の声"
       ],
-      "impact": "メディアで紹介されたスーパーの人気商品は、視聴者の購買意欲を刺激し売り上げアップにつながります。",
+      "impact": "人気女優の華やかな衣装とイベント出演がSNSで話題となり、商業施設のクリスマスプロモーションにも大きな集客効果をもたらしそうだ。",
       "tags": [
-        "ギャル曽根",
-        "肉のハナマサ",
-        "グルメ"
+        "橋本環奈",
+        "ファッション",
+        "クリスマス"
       ],
-      "url": "https://news.yahoo.co.jp/articles/6b1304b32c6ff2657dc0b6e03c29331aba78e4e3?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/3d7404868299a995a1d89c74438b0068b9e9035d?source=rss",
       "isAiEnriched": true
     },
     {
       "category": "subculture",
-      "title": "「少年ジャンプ＋」でローテンションオカ研コメディが配信",
-      "source": "shonenjumpplus.com",
-      "publishedAt": "2026-11-28 00:18",
-      "publishedTs": 1795792712,
-      "image": "https://cdn-ak-img.shonenjumpplus.com/public/series-thumbnail/17107419589695933516-682d582b522418daaadceb4df0c1ca3d?1791345775",
-      "summary": "くろは氏によるオカルト研究部を舞台にしたコミック『SATANICA』の最新話が公開。廃部の危機を乗り切るためのほのぼとした日常が描かれています。",
+      "title": "「タコピーの原罪」アニメ化座談会",
+      "source": "mantan-web.jp",
+      "publishedAt": "2026-11-27 09:41",
+      "publishedTs": 1795740067,
+      "image": "https://storage.mantan-web.jp/w=1280,h=720,icr=0:0.1:1:1,a=2,g=2,f=webp:auto/images/2026/11/26/20261126dog00m200004000a/001.jpg",
+      "summary": "アニメ「タコピーの原罪 -ありがとう、また明日-」に出演する上田麗奈、小原好美、永瀬アンナのインタビュー。作品に込めた思いや、信頼できる座組で駆け抜けたアフレコの裏側を語る。",
       "points": [
-        "生徒会からの廃部宣告を覆すための奮闘を描く",
-        "お菓子や悪魔召喚が織り交ざるほのぼのコメディ",
-        "ローテンションな空気感が独特の魅力を放つ"
+        "原作の持つ衝撃と素晴らしさにプレッシャーを感じつつ挑戦",
+        "信頼できる制作陣とキャストの座組で最後まで駆け抜けられた",
+        "視聴者に救いや希望を届ける熱い思いが語られた"
       ],
-      "impact": "多様なジャンルのマンガを楽しむWEBプラットフォームの読者層に、癒やしと笑いを提供します。",
+      "impact": "話題作のアニメ化におけるキャストのリアルな心境や作品への向き合い方が分かる内容です。",
       "tags": [
-        "漫画",
-        "少年ジャンプ＋",
-        "コメディ"
+        "タコピーの原罪",
+        "アニメ",
+        "インタビュー"
       ],
-      "url": "https://shonenjumpplus.com/episode/9253191257982514940",
+      "url": "https://mantan-web.jp/article/20261126dog00m200004000a.html",
       "isAiEnriched": true
     },
     {
@@ -2544,68 +2544,68 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "定番ターミナル「Tera Term」に原作者公認のMac版登場",
+      "title": "ビットコイン下落でも大口残高が増加",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-27 23:05",
-      "publishedTs": 1795788300,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261127-00000017-impwfw-000-1-view.jpg?exp=10800",
-      "summary": "Windowsで長年愛されてきた定番のターミナルエミュレーター「Tera Term」が、原作者の公認を得てついにmacOSへ移植されました。",
+      "publishedAt": "2026-11-28 06:00",
+      "publishedTs": 1795813200,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-00413325-coindesk-000-1-view.jpg?exp=10800",
+      "summary": "暗号資産市場でビットコインが下落する中、大口投資家の保有残高が1万2000BTC増加していることが判明。複数のチャートから市場の蓄積と負担の現状を分析する。",
       "points": [
-        "Windowsの定番ソフトTera TermがMacに対応",
-        "原作者の公認を受けた正式な移植版として話題に",
-        "エンジニアや開発者の作業効率向上に期待"
+        "価格下落局面でもクジラ（大口）の蓄積が進む",
+        "CryptoQuantの11月特別レポートで詳細が明らかに",
+        "市場における買い手と売り手の動向に注目が集まる"
       ],
-      "impact": "Mac環境を利用するITエンジニアや開発者にとって、業務効率化の強力な選択肢となります。",
+      "impact": "市場のボラティリティが高い中での機関投資家や大口の動向を把握する重要な指標となります。",
       "tags": [
-        "Tera Term",
-        "Mac",
-        "開発ツール"
+        "ビットコイン",
+        "仮想通貨",
+        "投資"
       ],
-      "url": "https://news.yahoo.co.jp/articles/6ecdd919e3f4313e079805767b974952ae040c53?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/f7d05ed710b3b7f1da68613e39d1ea9072c6da73?source=rss",
       "isAiEnriched": true
     },
     {
       "category": "business",
-      "title": "労災保険改正で休業補償の加算や脳・心臓疾患の請求期限変更へ",
+      "title": "ホンダ最新ステップワゴンがレトロに",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-28 05:10",
-      "publishedTs": 1795810233,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-90001520-toushin-000-1-view.jpg?exp=10800",
-      "summary": "厚生労働省は改正労災保険法の2027年4月施行に向けた準備を進めています。休業4日目からの給付上乗せや、判断が難しい病気に対する請求期限の5年への延長などが盛り込まれています。",
+      "publishedAt": "2026-11-28 06:10",
+      "publishedTs": 1795813800,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-01146800-kurumans-000-1-view.jpg?exp=10800",
+      "summary": "愛知県で開催されたイベントで、ホンダの最新ステップワゴンをベースにしたカスタムカーが公開された。角目4灯やウッド調ボディを採用し、アメ車風のレトロミニバンに変身している。",
       "points": [
-        "2027年4月施行の改正労災保険法の詳細が明らかに",
-        "休業補償の賃金60%に20%を上乗せする仕組み",
-        "脳・心臓疾患などの請求期限を5年へと明確化"
+        "最新のステップワゴンがアメ車風に大変身",
+        "「角目4灯」と「ウッド調ボディ」でレトロ感を演出",
+        "FIELDSTYLE EXPO 2026で実車が公開され話題に"
       ],
-      "impact": "労働者のセーフティネットが強化され、企業側の労務管理や保険運用の見直しが求められます。",
+      "impact": "最新のミニバンにクラシックなテイストを融合させるカスタムスタイルとして注目を集めています。",
       "tags": [
-        "労災保険",
-        "働き方",
-        "厚生労働省"
+        "ホンダ",
+        "ステップワゴン",
+        "カスタムカー"
       ],
-      "url": "https://news.yahoo.co.jp/articles/f239337b4b3d486864bdb6198955d2184a281cf4?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/965cd690915731161c9f281bb8f7ec4f46caa4cb?source=rss",
       "isAiEnriched": true
     },
     {
       "category": "entertainment",
-      "title": "鳴海心斗が日テレドラマでテロリスト役好演、憧れはマックイーン",
+      "title": "ワッキー、がん治療から6年の最新姿",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-28 05:10",
-      "publishedTs": 1795810200,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-00000107-spnannex-000-3-view.jpg?exp=10800",
-      "summary": "日本テレビ系ドラマ「ハイド＆シーク 0秒前の彼女」でテロリスト役を熱演中の俳優・鳴海心斗。名優を目標に掲げ、見た人を震え上がらせるような圧倒的な演技力で存在感を放っています。",
+      "publishedAt": "2026-11-28 06:10",
+      "publishedTs": 1795813802,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-00010010-nishispo-000-1-view.jpg?exp=10800",
+      "summary": "お笑いコンビ・ペナルティのワッキーが54歳を迎えた現在の最新ショットを公開。がん治療を乗り越えてから6年が経ち、その変化した雰囲気にファンからさまざまな声が寄せられている。",
       "points": [
-        "注目ドラマでテロリスト役を演じる鳴海心斗の演技力",
-        "松田優作やスティーブ・マックイーンを憧れに挙げる",
-        "視聴者に強いインパクトを残す熱い役者魂"
+        "がん治療から6年が経過したワッキーの現在",
+        "54歳を迎えた最新ショットがSNSで話題に",
+        "ファンからは「雰囲気変わった」などの声が上がる"
       ],
-      "impact": "若手実力派俳優の台頭は、今後のテレビドラマや映画界のキャスティングにおいて新たな選択肢となります。",
+      "impact": "大病を克服した芸人の現在の姿に、多くのファンや関係者から安堵と驚きの声が広がっています。",
       "tags": [
-        "鳴海心斗",
-        "ドラマ",
-        "俳優"
+        "ワッキー",
+        "芸能人",
+        "健康"
       ],
-      "url": "https://news.yahoo.co.jp/articles/4a853c4aae6bc58f18f57d3cb7b9c3a6491ca224?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/7271426ecd75bf4e80ad7f8b6e8bb3d85b57a812?source=rss",
       "isAiEnriched": true
     },
     {
@@ -2654,68 +2654,68 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "名著『具体と抽象』が技術書読み放題「TechLib」で配信",
+      "title": "マネックス証券で本人確認書類が漏えい",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-27 23:05",
-      "publishedTs": 1795788300,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261127-00000016-impwfw-000-1-view.jpg?exp=10800",
-      "summary": "累計19万部を突破した細谷功氏の名著『具体と抽象』が、ITエンジニア向け技術書読み放題サービス「TechLib」にて配信開始されました。",
+      "publishedAt": "2026-11-28 05:55",
+      "publishedTs": 1795812900,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-35255516-cnetj-000-1-view.jpg?exp=10800",
+      "summary": "マネックス証券は、外部委託先の口座開設システムへの不正アクセスにより、462人分の本人確認書類などの画像が流出したと発表。対象者には現金5000円などでお詫びする方針。",
       "points": [
-        "累計19万部を誇るベストセラービジネス書",
-        "ITエンジニア向け読み放題サービスで新たに配信",
-        "思考力を高める定番の解説書として人気"
+        "外部委託先のシステムへの不正アクセスが発生",
+        "462人分の本人確認書類の画像データが漏えい",
+        "対象者には現金5000円などによるお詫びを実施へ"
       ],
-      "impact": "エンジニアのスキルアップや論理的思考力を養うための必読書として、多くの利用者に活用されます。",
+      "impact": "金融機関における外部委託先のセキュリティ管理と個人情報保護の重要性を改めて浮き彫りにしました。",
       "tags": [
-        "電子書籍",
-        "ビジネス書",
-        "技術書"
+        "マネックス証券",
+        "情報漏えい",
+        "セキュリティ"
       ],
-      "url": "https://news.yahoo.co.jp/articles/12cfc2e5f43f7b2ea77552bb3f87ca632a06c232?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/30729c5157bae0507e017c6140fa54db5eb543b9?source=rss",
       "isAiEnriched": true
     },
     {
       "category": "business",
-      "title": "一人暮らしの老後の心配事、持ち家なしでも「家賃上昇」以外が最多",
+      "title": "余命1年の投資家が伝える先延ばし対策",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-28 05:00",
-      "publishedTs": 1795809633,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-90001519-toushin-000-1-view.jpg?exp=10800",
-      "summary": "金融経済教育推進機構の調査によると、持ち家ではない一人暮らしの高齢期に対する心配事として、「家賃の上昇」を挙げた割合は一部にとどまり、7割を超える人が別の大きな不安を抱えていることが判明しました。",
+      "publishedAt": "2026-11-28 06:06",
+      "publishedTs": 1795813578,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-00403494-diamond-000-1-view.jpg?exp=10800",
+      "summary": "頑張っているのに「先延ばし癖」が直らない人に向けた、人生の最後に伝えたいメッセージ。全米ベストセラー著者の知見を交えながら、行動力を高めるためのヒントを解説する。",
       "points": [
-        "単身世帯の老後に関する金融意識調査の結果",
-        "持ち家なし層における「家賃上昇」懸念の割合は11.6%",
-        "7割超の人が別の要因に対して強い不安を抱く"
+        "多くの人が悩む「先延ばし癖」の心理的背景",
+        "余命を意識した投資家が残す貴重な教訓",
+        "日々の行動を改善するための具体的なヒント"
       ],
-      "impact": "単身高齢化が進む中、住居費以外の生活資金や医療費など多角的なファイナンシャルプランニングの重要性を示しています。",
+      "impact": "時間の大切さを再認識させられ、日々の仕事やタスク管理の生産性を向上させるきっかけになります。",
       "tags": [
-        "一人暮らし",
-        "老後資金",
-        "マネー"
+        "投資家",
+        "ライフハック",
+        "自己啓発"
       ],
-      "url": "https://news.yahoo.co.jp/articles/efa8242874c215d0e4ef4a0e653748e0433ccbd4?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/64bd5b81225fbf350a85100f534c96fe035d1f61?source=rss",
       "isAiEnriched": true
     },
     {
       "category": "entertainment",
-      "title": "出口夏希が週5〜6回食べるほど溺愛する主食レベルの大好物とは",
+      "title": "「ガンダムSEED」新作にトンデモMS？",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-28 05:10",
-      "publishedTs": 1795810200,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-00000096-spnannex-000-2-view.jpg?exp=10800",
-      "summary": "女優の出口夏希がテレビ番組に出演し、週に5〜6回は必ず食べるほど大好きで主食にしているほどの偏愛フードを明かし、その意外な食生活と飾らない素顔がスタジオを盛り上げました。",
+      "publishedAt": "2026-11-28 06:10",
+      "publishedTs": 1795813800,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-00387178-magmix-000-1-view.jpg?exp=10800",
+      "summary": "2027年公開予定の劇場版『機動戦士ガンダムSEED FREEDOM ZERO』に向け、新登場するモビルスーツの考察が活発化。発表済みの顔ぶれに対する違和感から憶測を呼んでいる。",
       "points": [
-        "女優の出口夏希がバラエティ番組で食の好みを告白",
-        "週5〜6回食べるほどの圧倒的な大好物を披露",
-        "共演者も驚くプライベートの一面が話題に"
+        "2027年1月公開の劇場版ガンダムSEED新作に注目",
+        "新たに発表されたモビルスーツのラインナップに話題沸騰",
+        "「ズゴックの再来か？」とファンの間で考察が白熱"
       ],
-      "impact": "人気女優の親しみやすい食生活のエピソードは、ファンからの好感度を高めネットニュース等で広く拡散されます。",
+      "impact": "人気アニメシリーズの新作公開に向け、ファンの期待感と作品への関心が急上昇しています。",
       "tags": [
-        "出口夏希",
-        "芸能",
-        "グルメ"
+        "ガンダム",
+        "アニメ",
+        "映画"
       ],
-      "url": "https://news.yahoo.co.jp/articles/ef731ddc07b466b9616ce4b0e9668ca13c8911f9?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/897be5218f4198ff713102c8dddc0ed2b63eeed2?source=rss",
       "isAiEnriched": true
     },
     {
@@ -2764,178 +2764,178 @@ window.NEWS_DATA = {
     },
     {
       "category": "tech",
-      "title": "JERA、米テック5社と首都圏でAIデータセンター建設を協議",
+      "title": "37mm厚の小型PC「ASUS NUC 15 Pro」発売",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-27 22:45",
-      "publishedTs": 1795787106,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261127-00188841-biz_plus-000-1-view.jpg?exp=10800",
-      "summary": "日本最大の発電事業者JERAが、AnthropicやMetaなど米テック大手5社と首都圏でのAIデータセンター建設に向けた協議を進めていることが明らかになった。",
+      "publishedAt": "2026-11-28 00:30",
+      "publishedTs": 1795793400,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-00000006-impahw-000-1-view.jpg?exp=10800",
+      "summary": "ASUSから厚さ37mmのコンパクトな筐体を採用したWindows 11搭載の新型ミニPC「ASUS NUC 15 Pro」シリーズが登場しました。",
       "points": [
-        "JERAが米テック大手5社とAIデータセンター建設で協議",
-        "首都圏の発電所近くでの立地を想定し調整を進行中",
-        "生成AIの急拡大に伴う電力需要への対応として注目"
+        "幅117×奥行112×高さ37mmの小型サイズ",
+        "最新のWindows 11 Homeを搭載",
+        "Core Ultra 7搭載モデルなどをラインナップ"
       ],
-      "impact": "国内の電力インフラやAI産業のインフラ整備、関連市場に大きな影響を与える重要な動きです。",
+      "impact": "省スペースで高性能なPCを求める法人ユーザーや、デスク周りをすっきりさせたい個人層の需要を刺激します。",
       "tags": [
-        "AI",
-        "JERA",
-        "データセンター"
+        "PC",
+        "ASUS",
+        "ガジェット"
       ],
-      "url": "https://news.yahoo.co.jp/articles/a9460b338d846185dfdcc59f53fc8c826915f98b?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/41e9c30f1e8e78365870f430ce6a7de8870137e0?source=rss",
       "isAiEnriched": true
     },
     {
       "category": "business",
-      "title": "三菱「RVRスポーツギア」2代目が誕生、都会的な変貌を遂げた日",
+      "title": "大阪万博跡地・夢洲のIR計画に違和感",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-28 05:00",
-      "publishedTs": 1795809600,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-01688091-motorfan-000-1-view.jpg?exp=10800",
-      "summary": "1990年代にワイルドな初代からより都会的で洗練されたデザインへと進化を遂げ、2代目として新たな魅力を放った三菱自動車の「RVRスポーツギア」の歴史と特徴を振り返ります。",
+      "publishedAt": "2026-11-28 06:06",
+      "publishedTs": 1795813578,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-00966082-toyo-000-1-view.jpg?exp=10800",
+      "summary": "大阪・関西万博の会場となった夢洲で2030年秋の開業を目指す約1.5兆円の巨大カジノ（IR）計画。現在のガラガラとした跡地の様子から、巨額プロジェクトの現実味に疑問を投げかける。",
       "points": [
-        "11月28日に誕生した三菱「RVRスポーツギア」の歴史",
-        "初代のワイルド路線から都会的なスタイルへと変貌",
-        "SUVブームの先駆けとなった懐かしの名車"
+        "万博跡地である夢洲で2030年秋にIR開業予定",
+        "初期投資額は約1兆5130億円の大型プロジェクト",
+        "現在の閑散とした状況から計画に対する議論が浮上"
       ],
-      "impact": "往年の名車の振り返りは自動車ファンのノスタルジーを刺激し、レトロカー市場やカーモデリングの変遷を伝えます。",
+      "impact": "関西の経済活性化の切り札とされるIR事業の今後の行方やインフラ整備の課題に注目が集まります。",
       "tags": [
-        "三菱自動車",
-        "RVRスポーツギア",
-        "クルマ"
+        "大阪・関西万博",
+        "夢洲",
+        "IR事業"
       ],
-      "url": "https://news.yahoo.co.jp/articles/1dcbf20ff2c5a2ee53f92bd0282838774a1b5f1e?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/f900a1ffa33b00f0249e40fddc2a724b0ce17850?source=rss",
       "isAiEnriched": true
     },
     {
       "category": "entertainment",
-      "title": "あべこうじにひき逃げの疑い、警視庁が事情聴取で活動自粛へ",
+      "title": "“軽トラ女子”三田悠貴のインナー姿",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-28 05:05",
-      "publishedTs": 1795809900,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-00000108-spnannex-000-2-view.jpg?exp=10800",
-      "summary": "お笑いタレントのあべこうじが運転中に歩行者と接触して負傷させ、救護せずに立ち去った疑いで警視庁野方署から事情聴取を受けていることが分かり、所属事務所は当面の活動自粛を発表しました。",
+      "publishedAt": "2026-11-28 06:05",
+      "publishedTs": 1795813553,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-00000011-chuspo-000-1-view.jpg?exp=10800",
+      "summary": "バラエティ番組でも人気のグラビアアイドル・三田悠貴が自身のインスタグラムを更新。ベッドの上で凹凸の際立つインナー姿を披露し、ファンから「ボリューミー」と絶賛されている。",
       "points": [
-        "あべこうじが自動車運転処罰法違反などの疑い",
-        "事故現場から救護せずに立ち去ったひき逃げの疑い",
-        "事態の重大性を鑑みて当面の活動自粛を決定"
+        "グラビアアイドル三田悠貴がSNSで最新ショットを公開",
+        "ベッドの上でスタイル際立つインナー姿を披露",
+        "ファンから「AIのような奇跡のスタイル」と大絶賛"
       ],
-      "impact": "人気タレントの突然の活動停止は、テレビ番組の差し替えやコンプライアンス管理の徹底を求める業界に大きな衝撃を与えています。",
+      "impact": "SNSでの投稿がたびたび話題になるタレントのメディア露出やファンコミュニティの活性化につながります。",
       "tags": [
-        "あべこうじ",
-        "ひき逃げ",
-        "芸能ニュース"
+        "三田悠貴",
+        "グラビア",
+        "SNS"
       ],
-      "url": "https://news.yahoo.co.jp/articles/d9df8710eb3792f114d09775a52c47b737ef42e8?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/420351e90ab40b2384c507b465e3afe7dac5d527?source=rss",
       "isAiEnriched": true
     },
     {
       "category": "subculture",
-      "title": "新連載『羽鳥と古田の非日常茶飯事』ジャンプ＋で公開",
+      "title": "「少年ジャンプ＋」でローテンションオカ研コメディが配信",
       "source": "shonenjumpplus.com",
-      "publishedAt": "2026-11-28 00:00",
-      "publishedTs": 1795791638,
-      "image": "https://cdn-ak-img.shonenjumpplus.com/public/series-thumbnail/17107094912731745089-81dc3eb19da1587186255b19be4abac0?1795591267",
-      "summary": "「夢中なもの」がない高校生・羽鳥と、不思議な眼を持つ少女・古田が出会う青春譚が少年ジャンプ＋で配信開始されました。",
+      "publishedAt": "2026-11-28 00:18",
+      "publishedTs": 1795792712,
+      "image": "https://cdn-ak-img.shonenjumpplus.com/public/series-thumbnail/17107419589695933516-682d582b522418daaadceb4df0c1ca3d?1791345775",
+      "summary": "くろは氏によるオカルト研究部を舞台にしたコミック『SATANICA』の最新話が公開。廃部の危機を乗り切るためのほのぼとした日常が描かれています。",
       "points": [
-        "野々上大二郎による新感覚の青春譚が開幕",
-        "日常に潜む小さな不思議を描くストーリー",
-        "コミックス第3巻が12月4日に発売予定"
+        "生徒会からの廃部宣告を覆すための奮闘を描く",
+        "お菓子や悪魔召喚が織り交ざるほのぼのコメディ",
+        "ローテンションな空気感が独特の魅力を放つ"
       ],
-      "impact": "デジタルコミックの新作発信やマンガアプリの利用促進において重要なコンテンツとなっています。",
+      "impact": "多様なジャンルのマンガを楽しむWEBプラットフォームの読者層に、癒やしと笑いを提供します。",
       "tags": [
-        "少年ジャンプ＋",
         "漫画",
-        "新連載"
+        "少年ジャンプ＋",
+        "コメディ"
       ],
-      "url": "https://shonenjumpplus.com/episode/9253191257982514913",
+      "url": "https://shonenjumpplus.com/episode/9253191257982514940",
       "isAiEnriched": true
     },
     {
       "category": "domestic",
-      "title": "関文科相の問責決議は薄氷の否決、自民・維新連立の不協和音",
+      "title": "訪問介護の倒産増と二次救急の危機",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-28 05:00",
-      "publishedTs": 1795809640,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-00966160-toyo-000-1-view.jpg?exp=10800",
-      "summary": "関文科相に対する問責決議案が薄氷の差で否決されたものの、その政治的代償は小さくありません。採決を巡る混乱の裏で、自民党と日本維新の会の連立協調体制に忍び寄る不吉な不協和音の実態を読み解きます。",
+      "publishedAt": "2026-11-28 06:15",
+      "publishedTs": 1795814131,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-00404142-diamond-000-1-view.jpg?exp=10800",
+      "summary": "インフレによるサービス供給不足が深刻化し、訪問介護の倒産が3年連続で過去最多を更新。さらに二次救急医療のない自治体が4割に達するなど、地域医療・介護体制の危機が浮き彫りに。",
       "points": [
-        "閣僚に対する問責決議案が薄氷の否決",
-        "国会運営における与野党および連立間の駆け引き",
-        "自民党と日本維新の会の関係性に生じた亀裂"
+        "訪問介護の倒産件数が3年連続で最高を更新",
+        "二次救急医療のない自治体が全体の4割に到達",
+        "インフレに伴うコスト高が医療・介護サービスを圧迫"
       ],
-      "impact": "政権基盤の安定度や今後の国会運営、連立枠組みの維持に向けた政治情勢の流動化を占う重要局面となっています。",
+      "impact": "超高齢社会における社会保障制度の維持や、地域住民の生活インフラ崩壊リスクへの対策が急務です。",
       "tags": [
-        "政治",
-        "自民党",
-        "日本維新の会"
+        "介護",
+        "医療",
+        "経済"
       ],
-      "url": "https://news.yahoo.co.jp/articles/72001984b1aa1e0f873186afe238f305faf28d4d?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/5d0ede557803e1911bf8eb918f66432b0d1f5858?source=rss",
       "isAiEnriched": true
     },
     {
       "category": "tech",
-      "title": "ChatGPTから株や暗号資産の売買が可能に 米でサービス拡大",
+      "title": "Core Ultra Series 3搭載「ASUS NUC 16 Pro」発売",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-27 22:30",
-      "publishedTs": 1795786207,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261127-00188837-biz_plus-000-1-view.jpg?exp=10800",
-      "summary": "生成AIを活用した資産運用が加速。米コインベースやロビンフッドなどがChatGPT向け連携やAI専用口座を拡充し、約20万人が利用している。",
+      "publishedAt": "2026-11-28 00:23",
+      "publishedTs": 1795792980,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-00000005-impahw-000-1-view.jpg?exp=10800",
+      "summary": "インテルの最新プロセッサーを搭載した最新のミニPC「ASUS NUC 16 Pro」シリーズがアキバ市場に登場し、注目を集めています。",
       "points": [
-        "生成AIを介した株式や暗号資産の直接売買環境が整備",
-        "米コインベースがChatGPT向けプラグインを公開",
-        "ロビンフッドのAI取引専用口座の利用者が約20万人に到達"
+        "Intel Core Ultra Series 3プロセッサーを搭載",
+        "最新世代の処理能力を備えた小型PC",
+        "省スペース設計で高いパフォーマンスを発揮"
       ],
-      "impact": "個人投資家の取引スタイルやフィンテック業界におけるAI活用の利便性を劇的に変える可能性を秘めています。",
+      "impact": "最新CPUをいち早くコンパクトな環境で試したいPC愛好家やビジネスパーソンにとって魅力的な選択肢となります。",
       "tags": [
-        "ChatGPT",
-        "暗号資産",
-        "フィンテック"
+        "PC",
+        "インテル",
+        "ガジェット"
       ],
-      "url": "https://news.yahoo.co.jp/articles/91857f4b24076d35a81c8e5348f8b30a13c204fc?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/81306ea1df37a24234a974a50e36decb03c35d36?source=rss",
       "isAiEnriched": true
     },
     {
       "category": "business",
-      "title": "JR西日本「うれしート」来春ダイヤ改正で最大1.5倍に拡大へ",
+      "title": "幻の名車「ホンダ S500」の細部を公開",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-28 05:00",
-      "publishedTs": 1795809600,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-00096970-mbsnews-000-1-view.jpg?exp=10800",
-      "summary": "JR西日本は有料着席サービス「うれしート」を来春ダイヤ改正で最大1.5倍に拡大します。京阪神の新快速や快速の約5割で導入される見込みです。",
+      "publishedAt": "2026-11-28 06:05",
+      "publishedTs": 1795813500,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-00012087-nosweb-000-1-view.jpg?exp=10800",
+      "summary": "1963年10月に発売され、わずか3カ月間で500台前後しか販売されなかった幻のスポーツカー「ホンダ S500」。奇跡的にオリジナルエンジンを残す希少な実車のディテールに迫る。",
       "points": [
-        "来春のダイヤ改正でサービス提供枠を最大1.5倍に拡大",
-        "京阪神の新快速・快速列車の約5割へ導入が進む予定",
-        "300円からの追加料金で確実に座れる利便性を向上"
+        "わずか3カ月のみ販売された極めて希少なホンダS500",
+        "1964年には後継のS600へとモデルチェンジ",
+        "オリジナルエンジンを維持した貴重な実車をチェック"
       ],
-      "impact": "通勤・通学時の混雑を避けたい利用者の着席機会が増え、快適な移動環境が整います。",
+      "impact": "日本のモータースポーツ黎明期を支えた名車の歴史的価値や、旧車ファンのマニア心を刺激するトピックです。",
       "tags": [
-        "JR西日本",
-        "うれしート",
-        "鉄道"
+        "ホンダ",
+        "旧車",
+        "名車"
       ],
-      "url": "https://news.yahoo.co.jp/articles/35c9567a33a3d9afc9ac0e5dcad91dbf8249d278?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/0628abdf9586e45d4d58f8679a49750d8058fdf4?source=rss",
       "isAiEnriched": true
     },
     {
       "category": "entertainment",
-      "title": "北村匠海が「月イチ限定」の好物を告白、自分へのご褒美飯とは",
+      "title": "物理学者・大槻義彦さん死去、90歳",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-28 05:05",
-      "publishedTs": 1795809900,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-00000098-spnannex-000-2-view.jpg?exp=10800",
-      "summary": "俳優の北村匠海がバラエティー番組で、大好物ながら「月に1度しか食べない」と決めているご褒美メニューについて明かし、こだわりを語りました。",
+      "publishedAt": "2026-11-28 06:05",
+      "publishedTs": 1795813500,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-00000381-oric-000-1-view.jpg?exp=10800",
+      "summary": "「テレビの心霊番組でオカルトを否定する科学者」として親しまれ、超常現象否定派の第一人者としてメディアで活躍した物理学者の大槻義彦さんが27日に死去した。享年90。",
       "points": [
-        "フジテレビ系「かまいたちの瞬間回答!」に出演",
-        "大好きだが節制のため月1回のみと決めている好物を告白",
-        "自身の健康管理や体型維持に対する意識が垣間見えるエピソード"
+        "物理学者で早稲田大学名誉教授の大槻義彦さんが死去",
+        "超常現象やオカルトの否定派としてテレビ等で広く活躍",
+        "長女で教授の奈那氏がSNSを通じて訃報を公表"
       ],
-      "impact": "人気俳優のリアルな食生活や自己管理術がファンの間で注目を集めそうです。",
+      "impact": "昭和から平成にかけてのテレビ黄金期に、科学的な視点で一世を風靡した名物学者の逝去を惜しむ声が広がっています。",
       "tags": [
-        "北村匠海",
-        "かまいたち",
-        "エンタメ"
+        "大槻義彦",
+        "訃報",
+        "物理学者"
       ],
-      "url": "https://news.yahoo.co.jp/articles/195c2abb194e2f58e8491cdc44680ef4982996f4?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/f86add63cc0294798f8e2acfd2ea34ab992b92ee?source=rss",
       "isAiEnriched": true
     },
     {
@@ -2962,90 +2962,90 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "元沖縄県知事・稲嶺惠一氏が語る、若年層の意識変化と新県政への見解",
+      "title": "文科相の問責決議案は否決、首相は擁護",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-28 05:00",
-      "publishedTs": 1795809636,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-00141332-wedge-000-1-view.jpg?exp=10800",
-      "summary": "元沖縄県知事の稲嶺惠一氏が、発足した新県政の人事評価とともに、知事選などを通じて浮き彫りとなった若い世代の「本土化」など意識の変化を語りました。",
+      "publishedAt": "2026-11-28 06:01",
+      "publishedTs": 1795813292,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-00010000-doshin-000-1-view.jpg?exp=10800",
+      "summary": "政治資金パーティー問題を巡る関芳弘文部科学相の問責決議案は参院で僅差により否決された。高市首相が辞連ドミノを避けるために関氏をかばったことで、野党との対立が激化している。",
       "points": [
-        "古謝県政の副知事人事など序盤の滑り出しを評価",
-        "県政経験と経済界のパイプを持つ副知事の役割に期待",
-        "知事選を通じて見られた若い世代の意識の変化に言及"
+        "関文科相に対する問責決議案が僅差で否決される",
+        "高市首相が閣僚の辞任ドミノを防ぐため全面擁護",
+        "政治とカネの問題で重要法案の成立見通しに影響か"
       ],
-      "impact": "沖縄の政治情勢や世代間の意識ギャップについて理解を深める契機となります。",
+      "impact": "政権運営の安定性と今後の国会審議、閣僚の責任追及を巡る政治情勢の緊張感がさらに高まっています。",
       "tags": [
-        "沖縄",
         "政治",
-        "地方行政"
+        "文部科学相",
+        "国会"
       ],
-      "url": "https://news.yahoo.co.jp/articles/5b49127a6da2311523931b3ebe2ae9984aa04ca5?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/35b5fa76dacd40cd0c8ff5caf77ea65eaff2dbbd?source=rss",
       "isAiEnriched": true
     },
     {
       "category": "tech",
-      "title": "KDDI、楽天モバイル向けローミングエリアマップを更新",
+      "title": "MSX2用オープンワールド『恐怖の無人島』が店頭入荷",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-27 21:59",
-      "publishedTs": 1795784379,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261127-00000044-zdn_m-000-1-view.jpg?exp=10800",
-      "summary": "KDDIは楽天モバイル利用者向けローミングエリアマップを更新。12月以降、地方都市の中心部などで順次サービスが終了する予定となっている。",
+      "publishedAt": "2026-11-28 00:13",
+      "publishedTs": 1795792380,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-00000004-impahw-000-1-view.jpg?exp=10800",
+      "summary": "同人サークル・サンダーボルトによるMSX2用の新作オープンワールドゲーム『恐怖の無人島』が、3.5インチFD媒体で秋葉原の店舗に入荷しました。",
       "points": [
-        "KDDIが楽天モバイル向けローミングマップの最新版を公開",
-        "12月以降に地方都市中心部でのローミング提供が終了へ",
-        "利用者に対して事前のエリア確認を呼びかけ"
+        "レトロPC・MSX2向けの新作オープンワールドゲーム",
+        "3.5インチフロッピーディスクで供給",
+        "秋葉原の店舗で実物の販売および試遊を実施"
       ],
-      "impact": "楽天モバイルユーザーの通信環境や接続エリアに直結するため、対象地域のユーザーは確認が必要です。",
+      "impact": "レトロPC市場における同人ハード・ソフトの根強い人気と、クリエイターの創作活動の活発さを伝えています。",
       "tags": [
-        "KDDI",
-        "楽天モバイル",
-        "通信"
+        "レトロゲーム",
+        "MSX",
+        "同人ソフト"
       ],
-      "url": "https://news.yahoo.co.jp/articles/1db28d302105965c881ff6784809166080a52178?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/b34bec5880f3fcf23f089a88b9434e881a2ae3f1?source=rss",
       "isAiEnriched": true
     },
     {
       "category": "business",
-      "title": "国家公務員の冬のボーナス、平均約70万2200円が支給へ",
+      "title": "3代目シビックタイプRが今狙い目な理由",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-28 04:55",
-      "publishedTs": 1795809333,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-90001518-toushin-000-1-view.jpg?exp=10800",
-      "summary": "国家公務員の冬のボーナスが支給され、平均支給額は約70万2200円となりました。今後の支給割合の引き上げ見通しについても触れられています。",
+      "publishedAt": "2026-11-28 06:00",
+      "publishedTs": 1795813256,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-00000001-bestcar-000-1-view.jpg?exp=10800",
+      "summary": "最後の自然吸気（NA）エンジンを搭載した国産スポーツカーとして知られる3代目シビックタイプR。300万円台の個体が市場に登場し、ネオクラシックカーとしての魅力と買い時を解説。",
       "points": [
-        "冬の期末・勤勉手当の平均額は約70万2200円",
-        "12月10日に冬のボーナスとして支給を実施",
-        "支給割合の改定による引き上げも今後の焦点に"
+        "最後のNAエンジンを搭載した3代目シビックタイプR",
+        "現在では300万円台の個体が狙い目として浮上",
+        "ネオクラシックカー市場での資産価値にも期待"
       ],
-      "impact": "民間企業の冬の賞与相場や今後の賃上げ動向にも間接的な影響を与えます。",
+      "impact": "スポーツカーの中古車市場において、手頃になりつつある往年の名車の購入を検討する絶好の機会となります。",
       "tags": [
-        "国家公務員",
-        "ボーナス",
-        "経済"
+        "ホンダ",
+        "シビック",
+        "中古車"
       ],
-      "url": "https://news.yahoo.co.jp/articles/d899a8bd734ee43be6ca0786b85fe4ca9b9ff8a3?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/89ca4c08eb9a81ecc6139cab3d38a549547dcce5?source=rss",
       "isAiEnriched": true
     },
     {
       "category": "entertainment",
-      "title": "ムロツヨシがテレ朝連ドラ初主演、怒れるアウトロー刑事を熱演",
+      "title": "長嶋一茂が生放送で羽鳥アナに謝罪",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-28 05:01",
-      "publishedTs": 1795809673,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-00010004-realsound-000-1-view.jpg?exp=10800",
-      "summary": "ムロツヨシがテレビ朝日系の木曜ドラマで同局連ドラ初主演を果たします。黒岩勉脚本による痛快な刑事エンターテインメント作品が展開されます。",
+      "publishedAt": "2026-11-28 06:05",
+      "publishedTs": 1795813500,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-00000313-oric-000-1-view.jpg?exp=10800",
+      "summary": "タレントの長嶋一茂が生放送の情報番組『羽鳥慎一モーニングショー』に出演。番組の冒頭で「見てなかった」と驚きの発言をし、司会の羽鳥慎一アナウンサーが慌ててフォローした。",
       "points": [
-        "テレビ朝日系連続ドラマ初主演となるムロツヨシ",
-        "脚本は『キングダム』などで知られる人気脚本家・黒岩勉",
-        "型破りで怒れるアウトロー刑事の活躍を描くストーリー"
+        "長嶋一茂が生放送の番組冒頭でまさかの告白",
+        "「見てなかった」と発言しスタジオをざわつかせる",
+        "羽鳥慎一アナの絶妙なフォローで笑いに変える"
       ],
-      "impact": "強力なタッグによる新作ドラマとして、冬ドラマ戦線の大きな話題となりそうです。",
+      "impact": "朝のワイドショーにおける定番コンビのユーモア溢れる掛け合いとして、ネットニュースなどでも話題に。",
       "tags": [
-        "ムロツヨシ",
-        "ドラマ",
-        "黒岩勉"
+        "長嶋一茂",
+        "羽鳥慎一",
+        "テレビ朝日"
       ],
-      "url": "https://news.yahoo.co.jp/articles/5d19d8883d32a6697153305bc8e29a0ba2f4985f?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/b2409a1ecdceeda48027821a88ebd9cfe8cf7d42?source=rss",
       "isAiEnriched": true
     },
     {
@@ -3072,200 +3072,310 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "福島3歳児暴行死、市と児相の対応に食い違い",
+      "title": "悪性脳腫瘍を克服しマラソンに挑むランナー",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-28 01:18",
-      "publishedTs": 1795796296,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-90205391-ann-000-1-view.jpg?exp=10800",
-      "summary": "福島県いわき市で3歳男児が暴行を受け死亡した事件で、以前から虐待を覚知し県の児童相談所に相談していたとする市側と、市が対応すべきだったとする児相側の主張が対立している。",
+      "publishedAt": "2026-11-28 06:00",
+      "publishedTs": 1795813243,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-01259965-fnnprimev-000-1-view.jpg?exp=10800",
+      "summary": "10年前に悪性脳腫瘍を発症し、生存率ほぼ0%の宣告や高次脳機能障害を乗り越えて走り続ける宮崎県職員の姿を紹介します。",
       "points": [
-        "いわき市で3歳男児が母親の交際相手から暴行死",
-        "市は事前に虐待を覚知し児相へ相談と主張",
-        "児相側は市が対応すべきだったと反論"
+        "10年前に悪性脳腫瘍を発症し右前頭葉を全摘出",
+        "医師から告げられた生存率はほぼ0パーセント",
+        "後遺症と向き合いながらマラソンで自己記録を更新"
       ],
-      "impact": "自治体と児童相談所の連携不足や役割分担の曖昧さが浮き彫りとなっており、児童虐待防止に向けた窓口体制の見直しが急務だ。",
+      "impact": "困難に直面しても諦めずに挑戦し続ける強い意志と、命の奇跡についての深い気づきを与えてくれます。",
       "tags": [
-        "児童虐待",
-        "いわき市",
-        "児童相談所"
+        "脳腫瘍",
+        "マラソン",
+        "生き方"
       ],
-      "url": "https://news.yahoo.co.jp/articles/e872314335eeea7a20db489f4fe02f76a6691427?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/2078595ab64697ffab963d5d35483f7dd006ea46?source=rss",
       "isAiEnriched": true
     },
     {
       "category": "tech",
-      "title": "GMO、侵入前に防ぐ「サイバー・イージス構想」を発表",
+      "title": "Ryzen 9やRTX 50搭載のゲーミングミニPC「ROG GR70」発売",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-27 21:55",
-      "publishedTs": 1795784106,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261127-00188836-biz_plus-000-1-view.jpg?exp=10800",
-      "summary": "GMOインターネットグループが攻撃を受ける前に遮断する新構想を発表。「通信の秘密」と「検閲」の課題解決に挑み、ランサムウェア被害の防止を目指す。",
+      "publishedAt": "2026-11-28 00:07",
+      "publishedTs": 1795792020,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-00000003-impahw-000-1-view.jpg?exp=10800",
+      "summary": "ASUSのROGブランドから、約3Lのコンパクト筐体にハイスペックなCPUと最新GPUを詰め込んだ強力なゲーミングミニPCが発売されました。",
       "points": [
-        "GMOが攻撃を未然に防ぐ「サイバー・イージス構想」を発表",
-        "特許出願中の技術で通信の秘密と検閲の壁に挑戦",
-        "半期最多を記録するランサムウェア被害への対策として期待"
+        "約3Lの小型筐体にハイエンドパーツを凝縮",
+        "Ryzen 9000/8000シリーズとGeForce RTX 50を搭載",
+        "省スペースと妥協のないゲーミング性能を両立"
       ],
-      "impact": "企業のサイバーセキュリティ対策や法制度・倫理面での議論に大きな一石を投じる取り組みです。",
+      "impact": "設置スペースを抑えつつ最高峰のゲーム環境を構築したいハイエンドゲーマーの購買意欲を刺激します。",
       "tags": [
-        "GMO",
-        "サイバーセキュリティ",
-        "IT対策"
+        "ゲーミングPC",
+        "ASUS",
+        "ハードウェア"
       ],
-      "url": "https://news.yahoo.co.jp/articles/944391b6fedfc3ff55c911d451e1ad3b4a3e282f?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/5505269e5a800c7f0bf9e1b34e2d74aa301ddd80?source=rss",
       "isAiEnriched": true
     },
     {
       "category": "business",
-      "title": "東京23区の11月消費者物価が2.9％上昇、光熱費支援終了響く",
+      "title": "フランスの右派台頭と多文化共生の現在地",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-28 04:55",
-      "publishedTs": 1795809333,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-90001516-toushin-000-1-view.jpg?exp=10800",
-      "summary": "東京都区部の11月中旬速報値で生鮮食品を除く消費者物価指数が前年同月比2.9％上昇しました。電気・ガス支援の縮小が影響を広げています。",
+      "publishedAt": "2026-11-28 06:00",
+      "publishedTs": 1795813248,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-00966101-toyo-000-1-view.jpg?exp=10800",
+      "summary": "キリスト教離れが進むフランスやヨーロッパにおけるイスラム教徒の勢力拡大と、多文化共生の揺らぎに迫ります。",
       "points": [
-        "11月の生鮮除く消費者物価は2.9％上昇し伸びが拡大",
-        "夏の電気・ガス料金支援終了が指数の押し上げ要因に",
-        "インフレ防衛策として個人向け国債などの利回りにも注目"
+        "欧州におけるイスラム教徒の勢力拡大が注目を集める",
+        "フランスを中心にキリスト教離れと右派台頭が進行",
+        "多文化共生のあり方が大きな転換期を迎えている"
       ],
-      "impact": "家計の光熱費負担が一段と重くなり、生活防衛意識や投資ニーズが高まります。",
+      "impact": "欧州の社会構造や宗教をめぐる変化が、今後の国際情勢や移民政策に与える影響に注目が集まります。",
       "tags": [
-        "消費者物価指数",
-        "物価高",
-        "インフレ"
+        "国際情勢",
+        "宗教",
+        "ヨーロッパ"
       ],
-      "url": "https://news.yahoo.co.jp/articles/8b9f9cf99c7ee75d40bd244734c4273fbecbb96b?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/687834a47dd792b7db06ede001bfa3c20e4796d7?source=rss",
       "isAiEnriched": true
     },
     {
       "category": "entertainment",
-      "title": "小峠英二、サンド伊達と久々の共演「元気そうで本当に良かった」",
+      "title": "B&ZAI 橋本涼が『僕と彼女の49日』で弁護士役に",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-28 05:00",
-      "publishedTs": 1795809652,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-00000006-chuspo-000-1-view.jpg?exp=10800",
-      "summary": "バイきんぐ小峠英二がフジテレビ系の年末特番でサンドウィッチマン伊達らと共演し、石井亮次アナの助っ人として番組を大いに盛り上げました。",
+      "publishedAt": "2026-11-28 06:01",
+      "publishedTs": 1795813306,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-00010006-realsound-000-1-view.jpg?exp=10800",
+      "summary": "2027年1月期のテレビ朝日系ドラマ『僕と彼女の49日』の追加キャストが発表され、橋本涼が初の弁護士役に挑みます。",
       "points": [
-        "サンドウィッチマンと石井亮次アナによる恒例の年末特番第7弾",
-        "小峠英二が石井アナの助っ人としてゲスト出演",
-        "久々の共演となったサンド伊達の元気な姿を喜ぶ一幕も"
+        "なにわ男子・西畑大吾主演のドラマ新キャストが発表",
+        "B&ZAIの橋本涼が自身初の弁護士役を演じる",
+        "石黒賢や渋谷謙人らの出演も新たに決定した"
       ],
-      "impact": "年末特番の豪華な顔ぶれによる掛け合いが、バラエティファンの関心を集めています。",
+      "impact": "人気グループのメンバー共演によるドラマの化学反応や、若手俳優たちの演技に高い期待が寄せられます。",
       "tags": [
-        "小峠英二",
-        "サンドウィッチマン",
-        "お笑い"
+        "ドラマ",
+        "橋本涼",
+        "芸能"
       ],
-      "url": "https://news.yahoo.co.jp/articles/4a9236bba5134ff2462f4f77e4fdc5625c0257fe?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/14c5af6b443a9c41978111e7e864a637595c5888?source=rss",
       "isAiEnriched": true
     },
     {
       "category": "subculture",
-      "title": "pixivFANBOX、Mastercardの一部取り扱い終了を発表",
-      "source": "official.fanbox.cc",
-      "publishedAt": "2026-11-27 13:29",
-      "publishedTs": 1795753797,
-      "image": "https://pixiv.pximg.net/c/1200x630_90_a2_g5/fanbox/public/images/post/12993672/cover/OsOHFiw6F8lncaVYvDkunLiJ.jpeg",
-      "summary": "pixivFANBOXは、支援金のお支払い方法において、Mastercardの利用を一部終了すると重要なお知らせを発表しました。",
+      "title": "魔王より厄介な美女たち「ハーレム勇者伝説」第2話",
+      "source": "shonenjumpplus.com",
+      "publishedAt": "2026-11-28 00:00",
+      "publishedTs": 1795791622,
+      "image": "https://cdn-ak-img.shonenjumpplus.com/public/series-thumbnail/9253191257982298018-94858a1ea5b3308d5276ebba3afeacc9?1795591267",
+      "summary": "かつて倒された魔王が復活し、普通の力を持つ勇者の子・アルフリートの護衛に、正妻を狙う厄介な美女3人がついたことで始まるドタバタ劇を描く話題作。",
       "points": [
-        "クリエイター支援金支払いでMastercardの取り扱いを終了",
-        "PayPalへの登録分なども対象に含まれる",
-        "利用者に向けて代替決済手段への変更を呼びかけ"
+        "魔王が復活し勇者の子が活躍するファンタジー作品",
+        "主人公を守る国選抜の護衛3人は全員が勇者の妻を狙う",
+        "少年ジャンプ＋にて連載中でコミカルな展開が魅力"
       ],
-      "impact": "該当ブランドのカードを使用している支援者やクリエイターの収受に影響が出るため、早期の対応が必要です。",
+      "impact": "WEBマンガファンの間で魅力的なキャラクターと今後の展開に大きな注目が集まっています。",
       "tags": [
-        "pixivFANBOX",
-        "Mastercard",
-        "決済"
+        "マンガ",
+        "少年ジャンプ＋",
+        "サブカルチャー"
       ],
-      "url": "https://official.fanbox.cc/posts/12993672",
+      "url": "https://shonenjumpplus.com/episode/9253191257982514924",
       "isAiEnriched": true
     },
     {
       "category": "domestic",
-      "title": "宮城・七ケ宿町の山中、2遺体は近い場所で発見",
+      "title": "乳がんと闘うパフォーマーの壮絶な半生",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-28 01:16",
-      "publishedTs": 1795796206,
-      "image": "https://tse2.mm.bing.net/th?q=2%E9%81%BA%E4%BD%93%E3%81%AF%E5%B1%B1%E4%B8%AD%E3%81%AE%E8%BF%91%E3%81%84%E5%A0%B4%E6%89%80%E3%81%A7%E7%99%BA%E8%A6%8B&w=800&h=450&c=7&rs=1&p=0",
-      "summary": "神奈川県警は28日、宮城県七ケ宿町の山中で見つかった2人の遺体について、互いに近い場所で発見されたと明らかにした。警察は30日に司法解剖を行い、詳しい死因などを調べる方針。",
+      "publishedAt": "2026-11-28 06:00",
+      "publishedTs": 1795813241,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-00093601-bunshun-000-1-view.jpg?exp=10800",
+      "summary": "10代でアングラの世界へ飛び込み、現在は乳がんと闘うパフォーマーが、普通の生き方を信じられなくなった背景を語ります。",
       "points": [
-        "宮城県七ケ宿町の山中で2人の遺体を発見",
-        "2遺体は互いに近い場所にあったと県警が発表",
-        "30日に司法解剖を実施し死因などを調査"
+        "10代でタトゥーを入れアングラの世界で活動を開始",
+        "常軌を逸した現場で生き抜いてきた背景に過去のトラウマ",
+        "現在は乳がんとの闘病生活送りながら自身の人生を振り返る"
       ],
-      "impact": "発見場所が近接していることから事件性や関連性が注目されており、司法解剖による死因の特定と今後の捜査の進展が待たれる。",
+      "impact": "過酷な環境を生き抜いた女性のリアルな告白が、現代社会におけるトラウマや生き方の多様性を考えさせます。",
       "tags": [
-        "宮城県",
-        "七ケ宿町",
-        "神奈川県警"
+        "インタビュー",
+        "闘病",
+        "ライフスタイル"
       ],
-      "url": "https://news.yahoo.co.jp/articles/b0545eb1675ae79a200b17d84a9f04a9a2180c73?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/5bc6bdace5306db43f7dffa07b7296bbfbfc536d?source=rss",
       "isAiEnriched": true
     },
     {
       "category": "tech",
-      "title": "GMO、被害を未然に防ぐ「サイバー・イージス構想」を始動",
+      "title": "「ROG」と『Phantom Blade Zero』のコラボデバイスが登場",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-27 21:50",
-      "publishedTs": 1795783806,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261127-00188839-biz_plus-000-1-view.jpg?exp=10800",
-      "summary": "GMOインターネットグループがサイバー攻撃の侵入前対策を発表。第一弾として攻撃の可視化サイトを公開し、対策ソフトの無償配布も予定している。",
+      "publishedAt": "2026-11-28 00:05",
+      "publishedTs": 1795791900,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-00000002-impahw-000-1-view.jpg?exp=10800",
+      "summary": "注目アクションゲーム『Phantom Blade Zero』とASUSのゲーミングブランド「ROG」がコラボレーションし、専用のキーボードやマウスが登場しました。",
       "points": [
-        "GMOがサイバー攻撃を未然に防ぐ新構想を正式発表",
-        "攻撃の実態を可視化する無料サイトを第一弾として公開",
-        "個人や中小企業向けに対策ソフトの無償配布を実施へ"
+        "話題のアクションゲームとROGが公式コラボ",
+        "デザイン性と機能性を兼ね備えたゲーミングデバイスを展開",
+        "ファン必見のこだわりが詰まったラインナップ"
       ],
-      "impact": "標的型攻撃やランサムウェアに悩む中小企業や個人のセキュリティ環境の底上げに寄与します。",
+      "impact": "ゲームの世界観をデスクトップに再現したい熱狂的なゲーマーやデバイスコレクターの購買欲を高めます。",
       "tags": [
-        "GMO",
-        "セキュリティ",
-        "サイバー攻撃"
+        "ゲーミングデバイス",
+        "ASUS",
+        "ゲーム"
       ],
-      "url": "https://news.yahoo.co.jp/articles/5197ed066573a9c3b8c676ab54e1715b03982027?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/beb23854c4aff5e94cf8475fdf7b43a139760a3b?source=rss",
       "isAiEnriched": true
     },
     {
       "category": "business",
-      "title": "入浴用いすなど福祉用具の介護保険給付、年度内10万円が上限",
+      "title": "東大生の少年時代、ポケモンに没頭した記憶力",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-28 04:50",
-      "publishedTs": 1795809033,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-90001515-toushin-000-1-view.jpg?exp=10800",
-      "summary": "介護保険を利用した特定福祉用具の購入は年10万円が上限となります。自己負担の支払い方法は自治体によって異なるため事前確認が必要です。",
+      "publishedAt": "2026-11-28 06:00",
+      "publishedTs": 1795813246,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-00966073-toyo-000-1-view.jpg?exp=10800",
+      "summary": "幼少期に神童と呼ばれた東大生が、小学生でポケモンの種族値を暗記するほど熱中した驚異の少年時代を明かします。",
       "points": [
-        "入浴補助用具や腰掛便座の購入費は年度内10万円まで対象",
-        "原則としていったん店頭で全額を支払う償還払いが基本",
-        "自治体によっては受領委任払いなどの独自運用も存在"
+        "幼少期に天才や神童と呼ばれた子どもたちの現在を追う",
+        "小学生時代に700近くのポケモンの種族値を暗記",
+        "母親を心配させるほどポケモンだけに没頭した過去"
       ],
-      "impact": "在宅介護中の世帯にとって、費用負担軽減のための制度理解と活用が重要です。",
+      "impact": "優れた才能を持つ子どものユニークな育ち方や、個性的な興味の伸ばし方についてのヒントが得られます。",
       "tags": [
-        "介護保険",
-        "福祉用具",
-        "シニアライフ"
+        "東大生",
+        "教育",
+        "ポケモン"
       ],
-      "url": "https://news.yahoo.co.jp/articles/cfb04f8de4d103b85a83ff5f848c01cdad25243d?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/e35a5571762cc1d0107e0b1cabb92809c0916cde?source=rss",
       "isAiEnriched": true
     },
     {
       "category": "entertainment",
-      "title": "岡田将生が5年ぶり舞台「移民」で土居志央梨とW主演へ",
+      "title": "元SKE須田亜香里、首元に生き物を巻いた姿が話題",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-28 05:00",
-      "publishedTs": 1795809652,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-00000005-chuspo-000-1-view.jpg?exp=10800",
-      "summary": "岡田将生が5年ぶりの舞台出演となる「移民」について語りました。月面移住計画の時代を背景に、ある夫婦の普遍的な対話と葛藤を演じます。",
+      "publishedAt": "2026-11-28 06:00",
+      "publishedTs": 1795813253,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-00000010-chuspo-000-1-view.jpg?exp=10800",
+      "summary": "元SKE48の須田亜香里がインスタグラムに投稿した番組オフショットで、首元にまさかの生き物を巻いた姿が驚きを集めています。",
       "points": [
-        "岡田将生が5年ぶりとなる舞台出演への思いを語る",
-        "土居志央梨とのW主演で普遍的な夫婦の在り方を表現",
-        "月面移住計画を背景にした心理描写が大きな見どころ"
+        "元SKE48でタレントの須田亜香里がSNSを更新",
+        "番組のオフショットで首元に生き物を巻いた姿を披露",
+        "ファンから「怖くないの？」と驚きと反響の声が上がる"
       ],
-      "impact": "実力派俳優の本格的な舞台復帰作として、演劇界の注目を大きく集めています。",
+      "impact": "タレントのユニークなSNS投稿がファンの間で楽しいコミュニケーションや話題を生んでいます。",
       "tags": [
-        "岡田将生",
-        "土居志央梨",
-        "舞台"
+        "須田亜香里",
+        "SNS",
+        "芸能"
       ],
-      "url": "https://news.yahoo.co.jp/articles/752ea6f168e486fda15b50f5596e3f40b3d52d11?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/3effd9c47cb2b2455c20bfd58700c8f5194261b4?source=rss",
+      "isAiEnriched": true
+    },
+    {
+      "category": "subculture",
+      "title": "新連載『羽鳥と古田の非日常茶飯事』ジャンプ＋で公開",
+      "source": "shonenjumpplus.com",
+      "publishedAt": "2026-11-28 00:00",
+      "publishedTs": 1795791638,
+      "image": "https://cdn-ak-img.shonenjumpplus.com/public/series-thumbnail/17107094912731745089-81dc3eb19da1587186255b19be4abac0?1795591267",
+      "summary": "「夢中なもの」がない高校生・羽鳥と、不思議な眼を持つ少女・古田が出会う青春譚が少年ジャンプ＋で配信開始されました。",
+      "points": [
+        "野々上大二郎による新感覚の青春譚が開幕",
+        "日常に潜む小さな不思議を描くストーリー",
+        "コミックス第3巻が12月4日に発売予定"
+      ],
+      "impact": "デジタルコミックの新作発信やマンガアプリの利用促進において重要なコンテンツとなっています。",
+      "tags": [
+        "少年ジャンプ＋",
+        "漫画",
+        "新連載"
+      ],
+      "url": "https://shonenjumpplus.com/episode/9253191257982514913",
+      "isAiEnriched": true
+    },
+    {
+      "category": "domestic",
+      "title": "金沢ホステス殺人事件、事件直前の3者会談",
+      "source": "Yahoo!ニュース",
+      "publishedAt": "2026-11-28 06:00",
+      "publishedTs": 1795813208,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-01527660-shincho-000-1-view.jpg?exp=10800",
+      "summary": "石川県・金沢の歓楽街で起きたホステス殺害事件をめぐり、容疑者の嘘と事件直前に行われた緊迫の3者会談の様子に迫ります。",
+      "points": [
+        "北陸随一の歓楽街である金沢・片町で起きた殺人事件",
+        "愛車をめぐる嘘の言動がトラブルの発端となった",
+        "事件直前に行われた当事者間による3者会談の真相"
+      ],
+      "impact": "人間関係のトラブルや金銭をめぐる虚偽が引き起こした凄惨な事件の背景に社会的関心が集まっています。",
+      "tags": [
+        "事件",
+        "社会",
+        "裁判"
+      ],
+      "url": "https://news.yahoo.co.jp/articles/c9462d3f4c7edef39715327edeff6835621a2bb1?source=rss",
+      "isAiEnriched": true
+    },
+    {
+      "category": "tech",
+      "title": "ASUS、白い小型ゲーミングPC「ROG NUC 16」先行販売",
+      "source": "Yahoo!ニュース",
+      "publishedAt": "2026-11-28 00:01",
+      "publishedTs": 1795791660,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-00000001-impahw-000-1-view.jpg?exp=10800",
+      "summary": "Core Ultra 9やGeForce RTX 5080を搭載したASUS製の高性能かつコンパクトな白いゲーミングPCの先行販売が開始されました。",
+      "points": [
+        "Core Ultra 9 290HX Plusプロセッサーを搭載",
+        "GeForce RTX 5080 Laptop GPUを採用",
+        "洗練された白色のコンパクトな筐体が特徴"
+      ],
+      "impact": "ハイエンドな性能と省スペースを両立したPCとして、ゲーマーやガジェットファンの購買意欲を刺激します。",
+      "tags": [
+        "ASUS",
+        "ゲーミングPC",
+        "ハードウェア"
+      ],
+      "url": "https://news.yahoo.co.jp/articles/50fb7503e97c6bf1ce7d6d6cc6fbc07728efa513?source=rss",
+      "isAiEnriched": true
+    },
+    {
+      "category": "business",
+      "title": "スペイン政府がTikTok事業の一時停止を要請",
+      "source": "Yahoo!ニュース",
+      "publishedAt": "2026-11-28 06:00",
+      "publishedTs": 1795813243,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-00965115-toyo-000-1-view.jpg?exp=10800",
+      "summary": "児童性的虐待コンテンツの放置をNPOが告発したことを受け、スペイン政府がTikTokの事業一時停止を要請しました。",
+      "points": [
+        "NPOの告発を受けスペイン政府がTikTokに動く",
+        "児童性的虐待に関する不適切なコンテンツの放置が問題視",
+        "スペインだけでなくEU全体でも配信内容への懸念が拡大"
+      ],
+      "impact": "巨大SNSプラットフォームに対する各国の規制強化や、児童保護に向けた責任追及の動きが加速しそうです。",
+      "tags": [
+        "TikTok",
+        "SNS",
+        "セキュリティ"
+      ],
+      "url": "https://news.yahoo.co.jp/articles/98c3d2bc9b95d6cd741ee3724a29b051e3e3144d?source=rss",
+      "isAiEnriched": true
+    },
+    {
+      "category": "entertainment",
+      "title": "荒木飛羽、『俺たちの箱根駅伝』学生連合3区に",
+      "source": "Yahoo!ニュース",
+      "publishedAt": "2026-11-28 06:00",
+      "publishedTs": 1795813250,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-00010005-realsound-000-1-view.jpg?exp=10800",
+      "summary": "池井戸潤原作の日本テレビ系ドラマ『俺たちの箱根駅伝』で、学生連合の3区を演じる荒木飛羽のコメントが到着しました。",
+      "points": [
+        "大泉洋主演の土曜ドラマ『俺たちの箱根駅伝』に出演",
+        "荒木飛羽が学生連合3区の富岡周人役を熱演",
+        "「練習してきた全てをぶつける」と意気込みを語る"
+      ],
+      "impact": "人気小説の実写化ドラマにおいて、若手俳優たちの熱い走りの演技やチームのドラマに期待が高まります。",
+      "tags": [
+        "ドラマ",
+        "箱根駅伝",
+        "芸能"
+      ],
+      "url": "https://news.yahoo.co.jp/articles/d56f8cb3550c381d085e49922c7e014a1b0877d5?source=rss",
       "isAiEnriched": true
     },
     {
@@ -3292,90 +3402,90 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "宮城県の山中で2人の遺体発見、行方不明の女子高生か",
+      "title": "高市総理も支持、ICC赤根所長の著書がベストセラー",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-28 00:36",
-      "publishedTs": 1795793776,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-10292655-abemav-000-1-view.png?fmt=jpeg&q=85&exp=10800",
-      "summary": "先月から行方不明となっている横浜市の高校1年生の女子生徒とみられる遺体が、宮城県内の山中で発見されたことが分かりました。",
+      "publishedAt": "2026-11-28 06:00",
+      "publishedTs": 1795813200,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-00839530-bookbang-000-1-view.jpg?exp=10800",
+      "summary": "高市総理が支持を表明した国際刑事裁判所（ICC）の赤根智子所長の著書が注目を集め、新書ランキングで上位にランクインしています。",
       "points": [
-        "宮城県内の山中で2人の遺体を発見",
-        "1人は行方不明中の横浜市の女子高校生か",
-        "警察が身元の確認と詳しい経緯を捜査中"
+        "トーハンの週間新書ベストセラーランキングが発表",
+        "高市総理がICC支持を表明し赤根所長の著書に注目が集まる",
+        "11万部を突破し幅広い読者層へと支持が拡大中"
       ],
-      "impact": "重大事件の可能性があり、今後の警察による捜査の進展や身元特定の発表に社会的な関心が集まっています。",
+      "impact": "国際司法や戦争犯罪に対する社会的な関心の高まりが、関連書籍の異例のヒットにつながっています。",
       "tags": [
-        "事件",
-        "宮城県",
-        "国内ニュース"
+        "書籍",
+        "国際刑事裁判所",
+        "政治"
       ],
-      "url": "https://news.yahoo.co.jp/articles/f2a7c36034b06a25f39c6d34617f03772c663395?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/28b741f19174dcb798abac092eedf27372181845?source=rss",
       "isAiEnriched": true
     },
     {
       "category": "tech",
-      "title": "マネックス証券、本人確認書類の画像462件が漏えい",
+      "title": "定番ターミナル「Tera Term」に原作者公認のMac版登場",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-27 21:44",
-      "publishedTs": 1795783498,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261127-00000012-impress-000-1-view.jpg?exp=10800",
-      "summary": "マネックス証券は外部委託先の口座開設システムへの不正アクセスにより、免許証やマイナンバーカードなどの画像462人分が漏えいしたと発表した。",
+      "publishedAt": "2026-11-27 23:05",
+      "publishedTs": 1795788300,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261127-00000017-impwfw-000-1-view.jpg?exp=10800",
+      "summary": "Windowsで長年愛されてきた定番のターミナルエミュレーター「Tera Term」が、原作者の公認を得てついにmacOSへ移植されました。",
       "points": [
-        "マネックス証券の委託先システムに不正アクセスが発生",
-        "462人分の本人確認書類画像を含む計1,592件が漏えい",
-        "対象顧客に対して見舞金5000円の支払いなどを発表"
+        "Windowsの定番ソフトTera TermがMacに対応",
+        "原作者の公認を受けた正式な移植版として話題に",
+        "エンジニアや開発者の作業効率向上に期待"
       ],
-      "impact": "金融機関における委託先のセキュリティ管理の甘さと個人情報保護の重要性について改めて警鐘を鳴らしています。",
+      "impact": "Mac環境を利用するITエンジニアや開発者にとって、業務効率化の強力な選択肢となります。",
       "tags": [
-        "マネックス証券",
-        "情報漏えい",
-        "セキュリティ"
+        "Tera Term",
+        "Mac",
+        "開発ツール"
       ],
-      "url": "https://news.yahoo.co.jp/articles/c50d394f0dd00bfbc85a3867507f47db4e9ac16a?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/6ecdd919e3f4313e079805767b974952ae040c53?source=rss",
       "isAiEnriched": true
     },
     {
       "category": "business",
-      "title": "国鉄時代の山陰本線「長距離鈍行」を振り返る貴重な記録が公開",
+      "title": "悩まない人が実践する思考アルゴリズムの秘密",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-28 04:30",
-      "publishedTs": 1795807835,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-00966034-toyo-000-1-view.jpg?exp=10800",
-      "summary": "国鉄時代に山陰本線を走っていた長距離普通列車の記憶が、貴重な写真とともに紹介されています。保津峡の旧線や旧余部鉄橋など往時の姿が蘇ります。",
+      "publishedAt": "2026-11-28 06:00",
+      "publishedTs": 1795813235,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-00402332-diamond-000-1-view.jpg?exp=10800",
+      "summary": "失敗を恐れて動けない人と、失敗しても前に進む人の決定的な違いについて、東証プライム上場社長の思考法から紐解きます。",
       "points": [
-        "京都から下関手前までを結ぶ約673kmの長大な山陰本線",
-        "かつて夜行普通列車「山陰」など長距離鈍行が運行",
-        "保津峡旧線や旧余部鉄橋を走る貴重な鉄道遺産を回顧"
+        "悩まない人が持つ頭の中の思考アルゴリズムを解説",
+        "失敗を恐れて動けない人と前に進む人の決定的な違い",
+        "一生悩まないための最強スキルを日常生活にインストール"
       ],
-      "impact": "昭和の鉄道文化を振り返る良質な資料として、鉄道ファンの関心を集めています。",
+      "impact": "日々の仕事やビジネスシーンで直面するストレスや決断の悩みを解消する実践的なヒントが得られます。",
       "tags": [
-        "山陰本線",
-        "国鉄",
-        "鉄道写真"
+        "ビジネス",
+        "自己啓発",
+        "思考法"
       ],
-      "url": "https://news.yahoo.co.jp/articles/c0638e4076445b511d79ee13c9ca365bbd54ae34?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/7f10ebf02e4d55d32ff0cac4760b56bb0d55af98?source=rss",
       "isAiEnriched": true
     },
     {
       "category": "entertainment",
-      "title": "M!LK塩﨑太智、新ドラマ「焼肉の女」で安心感ある彼氏役",
+      "title": "B’z稲葉浩志の衝撃ショットにファン騒然",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-28 05:00",
-      "publishedTs": 1795809624,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-00000004-natalien-000-1-view.jpg?exp=10800",
-      "summary": "M!LKの塩﨑太智が新ドラマ「焼肉の女 綾門寺赤奈」の第1話にゲスト出演します。ヒロインを支える穏やかで安心感のある彼氏役を好演します。",
+      "publishedAt": "2026-11-28 06:00",
+      "publishedTs": 1795813241,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-10292673-abemav-000-1-view.jpg?exp=10800",
+      "summary": "ソロツアーを開催中のB'z・稲葉浩志（62）が公開した衝撃的な姿に、ファンから驚きと絶賛の声が相次いでいます。",
       "points": [
-        "M!LKの塩﨑太智がTBS系新ドラマの第1話に出演決定",
-        "ヒロイン赤奈と長年付き合う“タン塩男”の役柄を担当",
-        "焼肉をテーマにしたグルメストーリーを彩るキーパーソン"
+        "全国ホール・アリーナソロツアーを開催中の稲葉浩志",
+        "SNS等で公開された衝撃的なビジュアルが話題に",
+        "「イメージが変わる」「イケメンすぎて脳がバグる」とファン騒然"
       ],
-      "impact": "ボーカルダンスグループメンバーのドラマ出演は、ファン層の視聴拡大を牽引します。",
+      "impact": "60代を迎えてもなお進化し続ける圧倒的なビジュアルとパフォーマンスが、多くのファンを魅了しています。",
       "tags": [
-        "塩﨑太智",
-        "MILK",
-        "ドラマ"
+        "Bz",
+        "稲葉浩志",
+        "音楽"
       ],
-      "url": "https://news.yahoo.co.jp/articles/21adc8f324ba57ccddd2e2753440b91fa4b74a3c?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/afe1aea01d651e05ac1dd7d69db5a3e3a7f13172?source=rss",
       "isAiEnriched": true
     },
     {
@@ -3402,310 +3512,90 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "不明女子高生の家族、10月26日に警察へ届出",
+      "title": "雅子さま、大阪ご訪問でみせられた心からの笑顔",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-28 00:35",
-      "publishedTs": 1795793751,
-      "image": "https://tse2.mm.bing.net/th?q=%E4%B8%8D%E6%98%8E%E5%A5%B3%E5%AD%90%E9%AB%98%E7%94%9F%E3%81%AE%E5%AE%B6%E6%97%8F%E3%81%AF10%E6%9C%8826%E6%97%A5%E3%81%AB%E5%B1%8A%E3%81%91%E5%87%BA&w=800&h=450&c=7&rs=1&p=0",
-      "summary": "宮城県の山中で遺体が見つかった事件に関連し、行方不明となった女子高校生の家族が10月26日に神奈川県警へ捜索願を出していたことが判明しました。",
+      "publishedAt": "2026-11-28 05:56",
+      "publishedTs": 1795812988,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-01527204-shincho-000-1-view.jpg?exp=10800",
+      "summary": "愛子さまのシンガポールご出発を控え、天皇皇后両陛下が大阪での「全国豊かな海づくり大会」に臨まれたご様子を伝えます。",
       "points": [
-        "家族が10月26日に「帰ってこない」と届け出",
-        "神奈川県警が事件との関連を慎重に調査",
-        "捜査関係者への取材により明らかに"
+        "愛子さまのシンガポールご出発の3日前に大阪をご訪問",
+        "第45回全国豊かな海づくり大会にご出席された両陛下",
+        "ハードスケジュールの中をにこやかに笑顔でこなされる"
       ],
-      "impact": "行方不明発覚から発見に至るまでの時系列や、事件性の有無を解明する重要な手がかりとなります。",
+      "impact": "天皇皇后両陛下の温かいお人柄や、公務に真摯に向き合われるお姿が人々に感動を与えています。",
       "tags": [
-        "事件",
-        "警察",
-        "国内ニュース"
+        "皇室",
+        "雅子さま",
+        "天皇陛下"
       ],
-      "url": "https://news.yahoo.co.jp/articles/d593b159870a4459a1d049c69d031386169b2930?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/278ac6c7c0b69ba760f8f13375d16afff912cd5c?source=rss",
       "isAiEnriched": true
     },
     {
       "category": "tech",
-      "title": "プライバシー重視のステーブルコイン店舗決済を検討",
+      "title": "名著『具体と抽象』が技術書読み放題「TechLib」で配信",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-27 21:21",
-      "publishedTs": 1795782065,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261127-00413300-coindesk-000-1-view.jpg?exp=10800",
-      "summary": "プライバシー強化型ブロックチェーンを運営する組織などが、取引情報を伏せたまま店舗で決済できる仕組みの検討を開始しました。",
+      "publishedAt": "2026-11-27 23:05",
+      "publishedTs": 1795788300,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261127-00000016-impwfw-000-1-view.jpg?exp=10800",
+      "summary": "累計19万部を突破した細谷功氏の名著『具体と抽象』が、ITエンジニア向け技術書読み放題サービス「TechLib」にて配信開始されました。",
       "points": [
-        "Midnight Networkなどの企業が共同で技術開発",
-        "取引時のプライバシーを守る高度な仕組み",
-        "実店舗での安全なステーブルコイン利用を目指す"
+        "累計19万部を誇るベストセラービジネス書",
+        "ITエンジニア向け読み放題サービスで新たに配信",
+        "思考力を高める定番の解説書として人気"
       ],
-      "impact": "暗号資産を利用した決済の利便性と安全性が高まり、キャッシュレス決済の新たな選択肢として普及が進む可能性があります。",
+      "impact": "エンジニアのスキルアップや論理的思考力を養うための必読書として、多くの利用者に活用されます。",
       "tags": [
-        "暗号資産",
-        "ブロックチェーン",
-        "決済技術"
+        "電子書籍",
+        "ビジネス書",
+        "技術書"
       ],
-      "url": "https://news.yahoo.co.jp/articles/2f06aaea289e113c4ede885184b5a2c80c70142a?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/12cfc2e5f43f7b2ea77552bb3f87ca632a06c232?source=rss",
       "isAiEnriched": true
     },
     {
       "category": "business",
-      "title": "NYダウ続伸、591ドル高　割安銘柄の物色が目立つ",
+      "title": "QVCジャパンが大阪で初の感謝イベント開催",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-28 03:32",
-      "publishedTs": 1795804322,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-00000011-kyodonews-000-3-view.jpg?pri=l&w=450&h=299&exp=10800",
-      "summary": "27日のニューヨーク株式市場でダウ平均は4営業日続伸し、前営業日比591.99ドル高の5万0774.94ドルで取引を終えた。割安感のある銘柄への買いが相場を押し上げた。",
+      "publishedAt": "2026-11-28 06:00",
+      "publishedTs": 1795813200,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-00020698-netkeizai-000-1-view.jpg?exp=10800",
+      "summary": "QVCジャパンが開局25周年を記念し、人気ブランドを集めたお客様感謝イベント「QVC THANKS DAYS｜OSAKA」を大阪で初開催します。",
       "points": [
-        "NYダウは4営業日続伸",
-        "終値は5万0774.94ドル（591.99ドル高）",
-        "割安感ある銘柄の物色が目立つ"
+        "QVCジャパン開局25周年の感謝イベントを大阪で開催",
+        "12月4日と5日の2日間にわたり初の大規模イベントを実施",
+        "人気の10社・約20ブランドによる商品展示や販売を予定"
       ],
-      "impact": "米国株の堅調な推移は日本株の投資家心理にも好影響を与える可能性があり、今後の相場動向に注目が集まる。",
+      "impact": "テレビショッピングの人気ブランドを直接体験できる場として、関西地域の購買層やファンに大きな楽しみを提供します。",
       "tags": [
-        "NYダウ",
-        "米国株",
-        "ビジネス・経済"
+        "イベント",
+        "大阪",
+        "経済"
       ],
-      "url": "https://news.yahoo.co.jp/articles/a43db01c9db9bc55b3bdf3586c7b213d275ee407?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/ea9ff2435ce5f624ee70922bed8caf438d54439f?source=rss",
       "isAiEnriched": true
     },
     {
       "category": "entertainment",
-      "title": "シマエナガなど世界の仲間を網羅したビジュアルガイド本が発売",
+      "title": "田中みな実の豪華すぎる自宅公開にファン仰天",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-28 05:00",
-      "publishedTs": 1795809623,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-00010003-realsound-000-1-view.jpg?exp=10800",
-      "summary": "人気のシマエナガをはじめ、世界のエナガ科11種を美しい写真とともに解説した『にっぽんのエナガ せかいのエナガ』が刊行されます。",
+      "publishedAt": "2026-11-28 06:00",
+      "publishedTs": 1795813241,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-00018992-pinzuba-000-1-view.jpg?exp=10800",
+      "summary": "美容家・石井美保氏のSNSに登場した田中みな実の豪華な自宅が公開され、ランチョンマットの価格にも注目が集まっています。",
       "points": [
-        "「雪の妖精」シマエナガから世界のエナガ科まで網羅",
-        "愛らしいしぐさや独自の生態を豊富な写真で徹底解剖",
-        "バードウォッチング初心者から野鳥ファンまで楽しめる一冊"
+        "田中みな実が美容家・石井美保氏のインスタグラムに登場",
+        "プライベート感あふれる豪華すぎる自宅の様子が公開される",
+        "写り込んだランチョンマットの驚きの価格にファンが仰天"
       ],
-      "impact": "愛らしい野鳥の写真集として、動物ファンや自然愛好家の癒やし需要に応えます。",
+      "impact": "人気タレントのライフスタイルや洗練されたインテリアのこだわりが、ネット上で大きな話題となっています。",
       "tags": [
-        "シマエナガ",
-        "野鳥",
-        "書籍"
+        "田中みな実",
+        "芸能",
+        "ライフスタイル"
       ],
-      "url": "https://news.yahoo.co.jp/articles/f2893e2fad870fb2f444b99725493aa53cfaf3d4?source=rss",
-      "isAiEnriched": true
-    },
-    {
-      "category": "subculture",
-      "title": "『大人大戦』休載イラスト公開　かっぴー×都築真佐秋",
-      "source": "shonenjumpplus.com",
-      "publishedAt": "2026-11-28 00:15",
-      "publishedTs": 1795792554,
-      "image": "https://cdn-ak-img.shonenjumpplus.com/public/series-thumbnail/17106567264648152072-92ef44ba351388e3b198eb919436e07c?1795591267",
-      "summary": "少年ジャンプ＋で連載中の『大人大戦』（原作：かっぴー、作画：都築真佐秋）の休載イラスト10が公開された。評価がすべての監視社会に立ち向かうサバイバル作品。",
-      "points": [
-        "『大人大戦』の休載イラスト10を公開",
-        "『左ききのエレン』のかっぴー氏による新連載",
-        "監視社会に立ち向かうサバイバルストーリー"
-      ],
-      "impact": "人気原作者による注目作の最新イラスト公開はファンの関心が高く、次回の本編更新への期待が高まっている。",
-      "tags": [
-        "大人大戦",
-        "少年ジャンプ＋",
-        "サブカルチャー"
-      ],
-      "url": "https://shonenjumpplus.com/episode/9253191257982514870",
-      "isAiEnriched": true
-    },
-    {
-      "category": "domestic",
-      "title": "宮城の山中に2遺体、横浜の行方不明女子高生か",
-      "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-28 00:32",
-      "publishedTs": 1795793525,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-00000004-kyodonews-000-2-view.jpg?exp=10800",
-      "summary": "神奈川県警が宮城県の山中で2人の遺体を発見し、そのうちの1人が先月から行方不明だった横浜市の高校1年生の可能性があるとして調べています。",
-      "points": [
-        "神奈川県警が宮城県七ヶ宿町の山中で遺体を発見",
-        "行方不明となっていた16歳女子生徒の可能性",
-        "警察が身元の特定と事件の全容解明を急ぐ"
-      ],
-      "impact": "広域にわたる捜査事案であり、今後の警察発表やメディアの報道動向に大きな注目が集まっています。",
-      "tags": [
-        "事件",
-        "神奈川県警",
-        "国内ニュース"
-      ],
-      "url": "https://news.yahoo.co.jp/articles/b234734929ea231f38f47fc2102c47bb7eb5e830?source=rss",
-      "isAiEnriched": true
-    },
-    {
-      "category": "tech",
-      "title": "広告タップでiPhone乗っ取り、日本も標的に",
-      "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-27 21:20",
-      "publishedTs": 1795782006,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261127-00188838-biz_plus-000-1-view.jpg?exp=10800",
-      "summary": "ネット広告を1回タップするだけでiPhoneが乗っ取り被害に遭い、暗号資産やパスワードが盗まれる大規模な攻撃が確認されました。",
-      "points": [
-        "日本を含む47カ国以上が標的となった大規模攻撃",
-        "ネット広告をタップするだけで感染する手口",
-        "暗号資産や重要パスワードの窃取被害が懸念"
-      ],
-      "impact": "スマートフォンユーザー全体におけるセキュリティ意識の向上や、悪質広告に対するプラットフォームの対策が急務です。",
-      "tags": [
-        "セキュリティ",
-        "iPhone",
-        "サイバー犯罪"
-      ],
-      "url": "https://news.yahoo.co.jp/articles/95600ba158896cc33c1c1a7ca83bbd9989f81c24?source=rss",
-      "isAiEnriched": true
-    },
-    {
-      "category": "business",
-      "title": "NYダウ4日続伸、591ドル高の5万0774ドルで終了",
-      "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-28 03:24",
-      "publishedTs": 1795803886,
-      "image": "https://tse2.mm.bing.net/th?q=NY%E6%A0%AA4%E6%97%A5%E7%B6%9A%E4%BC%B8%20591%E3%83%89%E3%83%AB%E9%AB%98&w=800&h=450&c=7&rs=1&p=0",
-      "summary": "休日明け27日のニューヨーク株式市場でダウ工業株30種平均は4営業日続伸し、休日前の25日と比べて591.99ドル高の5万0774.94ドルで取引を終えた。",
-      "points": [
-        "休日明け27日のNY市場でダウ平均が上昇",
-        "25日比591.99ドル高の5万0774.94ドル",
-        "4営業日連続のプラス圏で取引終了"
-      ],
-      "impact": "連日の上昇基調により市場の安心感が広がっており、国内の金融市場や為替相場への波及効果が意識される。",
-      "tags": [
-        "NYダウ",
-        "株式市場",
-        "共同通信"
-      ],
-      "url": "https://news.yahoo.co.jp/articles/e96e1caf4b66581e8b86c3032fbe22e92b09f5af?source=rss",
-      "isAiEnriched": true
-    },
-    {
-      "category": "entertainment",
-      "title": "小芝風花主演「焼肉の女」第1話ゲストに塩﨑太智が登場",
-      "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-28 05:00",
-      "publishedTs": 1795809619,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-00000003-nataliee-000-1-view.jpg?exp=10800",
-      "summary": "小芝風花が主演を務めるドラマ「焼肉の女」に、M!LKの塩﨑太智がゲスト出演します。主人公の長年の恋人である「タン塩男」役として登場します。",
-      "points": [
-        "小芝風花が主演する焼肉をテーマにしたグルメドラマ",
-        "第1話ゲストとしてM!LK塩﨑太智の出演が決定",
-        "主人公・赤奈と長年交際する安心感のある恋人役を演じる"
-      ],
-      "impact": "注目の若手キャスト陣によるグルメドラマとして、放送開始前から期待が高まります。",
-      "tags": [
-        "小芝風花",
-        "塩﨑太智",
-        "焼肉の女"
-      ],
-      "url": "https://news.yahoo.co.jp/articles/48e704846aa46fd21ebc884db341510575b1f478?source=rss",
-      "isAiEnriched": true
-    },
-    {
-      "category": "subculture",
-      "title": "アニメ『ラーメン赤猫』第2期、2027年1月放送開始",
-      "source": "youtube.com",
-      "publishedAt": "2026-11-27 19:06",
-      "publishedTs": 1795773987,
-      "image": "https://b.hatena.ne.jp/entry/image/https://www.youtube.com/watch?v=AgruQ6MGB4Y",
-      "summary": "TVアニメ『ラーメン赤猫 其の二』のメインPVが解禁された。第2期は2027年1月10日夕方5時30分からテレ東系列で、11日夜11時からBS11ほかで放送がスタートする。",
-      "points": [
-        "『ラーメン赤猫 其の二』のメインPVが公開",
-        "2027年1月10日からテレ東系列で放送開始",
-        "BS11では1月11日夜11時より放送予定"
-      ],
-      "impact": "人気作の第2期放送日が決定しメインPVも公開されたことで、原作ファンやアニメ視聴者の期待が高まり関連グッズ等の展開も注目される。",
-      "tags": [
-        "ラーメン赤猫",
-        "アニメ",
-        "テレ東"
-      ],
-      "url": "https://www.youtube.com/watch?v=AgruQ6MGB4Y",
-      "isAiEnriched": true
-    },
-    {
-      "category": "domestic",
-      "title": "女子高生誘拐の疑いで宮城県内の男を逮捕、神奈川県警",
-      "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-28 00:20",
-      "publishedTs": 1795792804,
-      "image": "https://tse2.mm.bing.net/th?q=%E5%A5%B3%E5%AD%90%E9%AB%98%E7%94%9F%E8%AA%98%E6%8B%90%E3%81%AE%E7%96%91%E3%81%84%E3%81%A7%E7%94%B7%E9%80%AE%E6%8D%95&w=800&h=450&c=7&rs=1&p=0",
-      "summary": "宮城県の山中で2遺体が見つかった事件に絡み、神奈川県警は行方不明となっていた横浜市の女子高校生を誘拐した疑いで男を逮捕しました。",
-      "points": [
-        "女子高校生を誘拐した疑いで男を逮捕",
-        "宮城県の山中で2遺体が見つかった事件に関連",
-        "神奈川県警が事件の詳しい経緯を本格捜査"
-      ],
-      "impact": "誘拐容疑での逮捕から発展して、遺体発見の経緯や事件の全容解明に向けた捜査が急ピッチで進められます。",
-      "tags": [
-        "事件",
-        "逮捕",
-        "国内ニュース"
-      ],
-      "url": "https://news.yahoo.co.jp/articles/ab90bc824f7ad19509cfa9a2c4658a510eefb712?source=rss",
-      "isAiEnriched": true
-    },
-    {
-      "category": "tech",
-      "title": "ソースネクスト、6980円の多機能スマートウォッチ発売",
-      "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-27 21:19",
-      "publishedTs": 1795781948,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261127-00000043-zdn_m-000-1-view.jpg?exp=10800",
-      "summary": "ソースネクストは、心拍や睡眠の計測、100種類以上の運動モードに対応した低価格なスマートウォッチを発売しました。",
-      "points": [
-        "通常価格6980円のコストパフォーマンスに優れた製品",
-        "12月10日まで4980円の記念セールを実施",
-        "心拍・睡眠計測や多彩な運動モードを搭載"
-      ],
-      "impact": "手頃な価格で健康管理デバイスを導入できるため、ウェアラブル端末の新規ユーザー層拡大につながります。",
-      "tags": [
-        "ガジェット",
-        "スマートウォッチ",
-        "ヘルスケア"
-      ],
-      "url": "https://news.yahoo.co.jp/articles/c4be1f50780d97041532001f8af448359dd661d6?source=rss",
-      "isAiEnriched": true
-    },
-    {
-      "category": "business",
-      "title": "28日午前3時の為替相場、1ドル159円52銭前後で推移",
-      "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-28 03:00",
-      "publishedTs": 1795802446,
-      "image": "https://tse2.mm.bing.net/th?q=%E7%82%BA%E6%9B%BF%E7%9B%B8%E5%A0%B4%2028%E6%97%A5&w=800&h=450&c=7&rs=1&p=0",
-      "summary": "28日午前3時現在の外国為替市場で、円相場は1ドル＝159円52銭〜53銭（前日比19銭の円高・ドル安）で推移しています。対ユーロでは174円46銭〜47銭（同43銭の円安・ユーロ高）となりました。",
-      "points": [
-        "28日午前3時時点で1ドル＝159円52銭〜53銭",
-        "対ドルでは前日比19銭の円高・ドル安水準",
-        "対ユーロでは174円46銭〜47銭と前日比43銭の円安"
-      ],
-      "impact": "歴史的な円安水準が続く中、輸出入企業の業績や輸入物価への影響、政府・日銀による為替介入への警戒感が引き続き市場の焦点となります。",
-      "tags": [
-        "為替",
-        "経済",
-        "マーケット"
-      ],
-      "url": "https://news.yahoo.co.jp/articles/3f4be200c54e927cbea0939eb268d1420f66cb71?source=rss",
-      "isAiEnriched": true
-    },
-    {
-      "category": "entertainment",
-      "title": "杉良太郎、全国14か所のハンセン病療養所慰問を完遂",
-      "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-28 05:00",
-      "publishedTs": 1795809616,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-11271341-sph-000-1-view.jpg?exp=10800",
-      "summary": "杉良太郎が宮古島の宮古南静園でコンサートを行い、長年続けてきた全国14か所の国立ハンセン病療養所への慰問をすべて達成しました。",
-      "points": [
-        "宮古南静園でのコンサートで全国14か所の療養所慰問を完遂",
-        "1996年の熊本から足かけ約30年にわたり継続した支援活動",
-        "長年の目標達成に深い思いと感謝のコメントを発表"
-      ],
-      "impact": "著名人による息の長い社会貢献活動として、人権への関心を高める意義深い出来事です。",
-      "tags": [
-        "杉良太郎",
-        "ハンセン病",
-        "福祉活動"
-      ],
-      "url": "https://news.yahoo.co.jp/articles/d71194b86dcfc41db97f969c37914c7f2428f233?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/cd6f1d4bb861decb5f8e4dd45eb7ac562975e30a?source=rss",
       "isAiEnriched": true
     },
     {
@@ -3732,90 +3622,90 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "宮城の山中で2遺体発見、横浜の女子高生か",
+      "title": "関文科相の問責決議は薄氷の否決、自民・維新連立の不協和音",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-28 00:18",
-      "publishedTs": 1795792695,
-      "image": "https://tse2.mm.bing.net/th?q=%E5%AE%AE%E5%9F%8E%E3%81%A72%E9%81%BA%E4%BD%93%201%E4%BA%BA%E3%81%AF%E6%A8%AA%E6%B5%9C%E3%81%AE%E5%A5%B3%E5%AD%90%E9%AB%98%E6%A0%A1%E7%94%9F%E3%81%8B&w=800&h=450&c=7&rs=1&p=0",
-      "summary": "宮城県内の山中で27日に2人の遺体が見つかり、神奈川県警は行方不明になっていた横浜市の女子高校生の可能性があるとみて調べています。",
+      "publishedAt": "2026-11-28 05:00",
+      "publishedTs": 1795809640,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-00966160-toyo-000-1-view.jpg?exp=10800",
+      "summary": "関文科相に対する問責決議案が薄氷の差で否決されたものの、その政治的代償は小さくありません。採決を巡る混乱の裏で、自民党と日本維新の会の連立協調体制に忍び寄る不吉な不協和音の実態を読み解きます。",
       "points": [
-        "宮城県内の山中で27日に2人の遺体を発見",
-        "行方不明だった横浜市の女子高校生の可能性",
-        "神奈川県警が身元の確認と詳しい経緯を捜査"
+        "閣僚に対する問責決議案が薄氷の否決",
+        "国会運営における与野党および連立間の駆け引き",
+        "自民党と日本維新の会の関係性に生じた亀裂"
       ],
-      "impact": "事件の全容解明と安全確保に向けた警察の捜査動向が注目されます。",
+      "impact": "政権基盤の安定度や今後の国会運営、連立枠組みの維持に向けた政治情勢の流動化を占う重要局面となっています。",
       "tags": [
-        "国内ニュース",
-        "事件",
-        "宮城"
+        "政治",
+        "自民党",
+        "日本維新の会"
       ],
-      "url": "https://news.yahoo.co.jp/articles/62bf9c8cfe076f13004a7fea937617b0ae4daf7f?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/72001984b1aa1e0f873186afe238f305faf28d4d?source=rss",
       "isAiEnriched": true
     },
     {
       "category": "tech",
-      "title": "Windows Server 2025、IPv6期限切れの停止不具合を修正",
+      "title": "JERA、米テック5社と首都圏でAIデータセンター建設を協議",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-27 21:05",
-      "publishedTs": 1795781106,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261127-00188835-biz_plus-000-1-view.jpg?exp=10800",
-      "summary": "マイクロソフトは、OSのホットパッチ適用後にIPv6のルート期限切れが原因でサーバーが突然停止する不具合の修正プログラムを提供しました。",
+      "publishedAt": "2026-11-27 22:45",
+      "publishedTs": 1795787106,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261127-00188841-biz_plus-000-1-view.jpg?exp=10800",
+      "summary": "日本最大の発電事業者JERAが、AnthropicやMetaなど米テック大手5社と首都圏でのAIデータセンター建設に向けた協議を進めていることが明らかになった。",
       "points": [
-        "ホットパッチ適用後に発生していた停止エラーを修正",
-        "IPv6の期限切れが引き金となったトラブル",
-        "再起動不要で適用できるアップデートを提供"
+        "JERAが米テック大手5社とAIデータセンター建設で協議",
+        "首都圏の発電所近くでの立地を想定し調整を進行中",
+        "生成AIの急拡大に伴う電力需要への対応として注目"
       ],
-      "impact": "企業のサーバー管理者の運用負担を軽減し、予期せぬシステムダウンのリスクを迅速に回避できます。",
+      "impact": "国内の電力インフラやAI産業のインフラ整備、関連市場に大きな影響を与える重要な動きです。",
       "tags": [
-        "Microsoft",
-        "サーバー",
-        "ITトラブル"
+        "AI",
+        "JERA",
+        "データセンター"
       ],
-      "url": "https://news.yahoo.co.jp/articles/f40e584ad36cb4581faaccad87d412699737a314?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/a9460b338d846185dfdcc59f53fc8c826915f98b?source=rss",
       "isAiEnriched": true
     },
     {
       "category": "business",
-      "title": "「アグ」が東京で一夜限りのブランド体験イベントを開催",
+      "title": "ガソリン補助金は縮小方針も2027年まで継続へ",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-28 01:00",
-      "publishedTs": 1795795200,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-02563473-wwdjapan-000-1-view.jpg?exp=10800",
-      "summary": "フットウェアブランド「アグ」が東京・南青山にて一夜限りのスペシャルイベントを開催。JP THE WAVYのライブや著名人の来場で盛り上がりました。",
+      "publishedAt": "2026-11-28 05:51",
+      "publishedTs": 1795812660,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-10127186-merkmal-000-1-view.jpg?exp=10800",
+      "summary": "政府はガソリン補助金の財源を2027年3月まで確保する方針を固めました。累計9.6兆円の税金が投入される中、支援の出口戦略が課題となっています。",
       "points": [
-        "ブランドの世界観を伝えるイベント「フィール ナイト」",
-        "JP THE WAVYによるスペシャルライブを実施",
-        "那須川天心ら多数の著名人が会場に来場"
+        "ガソリン補助金の財源確保方針を2027年3月まで延長",
+        "家計や物流を保護する一方、累計約9.6兆円の巨額な税金が投入",
+        "補助金を段階的に縮小する方針だが出口戦略は見えにくい"
       ],
-      "impact": "ファッション業界におけるブランド認知の向上や、インフルエンサーを活用したマーケティングの好事例となります。",
+      "impact": "ガソリン価格の高止まり対策と国の財政負担のバランスに注目が集まる。",
       "tags": [
-        "ファッション",
-        "アグ",
-        "イベント"
+        "ガソリン補助金",
+        "経済政策",
+        "原油高"
       ],
-      "url": "https://news.yahoo.co.jp/articles/f3faf1be6fc7a75b24119e8b079bc96072904eb5?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/aef5fc2958e86c2f287acdde8475a90a1bd25f37?source=rss",
       "isAiEnriched": true
     },
     {
       "category": "entertainment",
-      "title": "ムロツヨシ主演×黒岩勉脚本、怒りを制する型破り刑事を熱演",
+      "title": "関芳弘文科相の問責決議案が参院本会議で否決",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-28 05:00",
-      "publishedTs": 1795809611,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-00000002-nataliee-000-1-view.jpg?exp=10800",
-      "summary": "ムロツヨシ主演の新ドラマ「アンガー0」の放送が決定しました。破天荒な捜査手法を封印し怒りを抑えながら事件に挑む異色の刑事像を描きます。",
+      "publishedAt": "2026-11-28 06:00",
+      "publishedTs": 1795813235,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-00411407-tospoweb-000-1-view.jpg?exp=10800",
+      "summary": "政治資金パーティーを巡り提出された関芳弘文科相への問責決議案は、参院本会議で賛成少数により否決されました。",
       "points": [
-        "ムロツヨシが強引で時代遅れなアウトロー刑事に挑戦",
-        "『キングダム』シリーズのヒットメーカー黒岩勉が脚本を担当",
-        "「怒りを抑えて事件に挑む」新感覚の刑事ドラマを展開"
+        "関芳弘文科相への問責決議案が参院本会議で採決された",
+        "賛成120票、反対124票の僅差で否決された",
+        "政治資金パーティー開催に関する内規問題が背景にある"
       ],
-      "impact": "ムロツヨシの新境地となるシリアス＆コミカルな演技に大きな期待が寄せられます。",
+      "impact": "政権運営の安定性や今後の国会審議の行方に影響を与える可能性がある。",
       "tags": [
-        "ムロツヨシ",
-        "アンガー0",
-        "刑事ドラマ"
+        "政治",
+        "文部科学省",
+        "国会"
       ],
-      "url": "https://news.yahoo.co.jp/articles/540ff372ad8c2d7fa1612b9180229b552cbcda80?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/fd7f70576e7c5207cfd57a2c45fac289293aa379?source=rss",
       "isAiEnriched": true
     },
     {
@@ -3842,90 +3732,200 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "熊本地震から4カ月、酷暑と少雨が農作物に直撃",
+      "title": "元沖縄県知事・稲嶺惠一氏が語る、若年層の意識変化と新県政への見解",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-28 00:12",
-      "publishedTs": 1795792337,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-90205390-ann-000-1-view.jpg?exp=10800",
-      "summary": "熊本地震から4カ月を迎えた熊本県ですが、今年は記録的な高温と少雨にも見舞われ、農作物や木々に深刻な影響が出ています。",
+      "publishedAt": "2026-11-28 05:00",
+      "publishedTs": 1795809636,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-00141332-wedge-000-1-view.jpg?exp=10800",
+      "summary": "元沖縄県知事の稲嶺惠一氏が、発足した新県政の人事評価とともに、知事選などを通じて浮き彫りとなった若い世代の「本土化」など意識の変化を語りました。",
       "points": [
-        "熊本地震からまもなく4カ月が経過",
-        "記録的な高温と少雨が地域を直撃",
-        "農作物や木々に深刻な悪影響が発生"
+        "古謝県政の副知事人事など序盤の滑り出しを評価",
+        "県政経験と経済界のパイプを持つ副知事の役割に期待",
+        "知事選を通じて見られた若い世代の意識の変化に言及"
       ],
-      "impact": "異常気象による農作物の生育不良や経済的影響への対策が急務です。",
+      "impact": "沖縄の政治情勢や世代間の意識ギャップについて理解を深める契機となります。",
       "tags": [
-        "国内ニュース",
-        "熊本地震",
-        "気象"
+        "沖縄",
+        "政治",
+        "地方行政"
       ],
-      "url": "https://news.yahoo.co.jp/articles/ea8815307d3fa9e050991bd06a5ebe374ce199c2?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/5b49127a6da2311523931b3ebe2ae9984aa04ca5?source=rss",
       "isAiEnriched": true
     },
     {
       "category": "tech",
-      "title": "レノボの新型ポータブルPC「Legion Go Beam」リーク",
+      "title": "ChatGPTから株や暗号資産の売買が可能に 米でサービス拡大",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-27 21:00",
-      "publishedTs": 1795780801,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261127-00000017-giz-000-1-view.jpg?exp=10800",
-      "summary": "高騰するガジェット市場において、レノボから低価格な新型ポータブルゲーミングPCの発売を匂わせる情報がリークされました。",
+      "publishedAt": "2026-11-27 22:30",
+      "publishedTs": 1795786207,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261127-00188837-biz_plus-000-1-view.jpg?exp=10800",
+      "summary": "生成AIを活用した資産運用が加速。米コインベースやロビンフッドなどがChatGPT向け連携やAI専用口座を拡充し、約20万人が利用している。",
       "points": [
-        "製品価格の高騰が続く中での低価格モデルの噂",
-        "ポータブルゲーミングPCの選択肢が広がる期待",
-        "詳細なスペックや発売時期に高い関心"
+        "生成AIを介した株式や暗号資産の直接売買環境が整備",
+        "米コインベースがChatGPT向けプラグインを公開",
+        "ロビンフッドのAI取引専用口座の利用者が約20万人に到達"
       ],
-      "impact": "手軽にPCゲームを楽しみたいユーザー層にとって、次世代の主力ハードウェア候補として注目されます。",
+      "impact": "個人投資家の取引スタイルやフィンテック業界におけるAI活用の利便性を劇的に変える可能性を秘めています。",
       "tags": [
-        "ガジェット",
-        "レノボ",
-        "ゲームPC"
+        "ChatGPT",
+        "暗号資産",
+        "フィンテック"
       ],
-      "url": "https://news.yahoo.co.jp/articles/2b53b31242b0b9ab54252f9453e195db3ffe0ab3?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/91857f4b24076d35a81c8e5348f8b30a13c204fc?source=rss",
       "isAiEnriched": true
     },
     {
       "category": "business",
-      "title": "京成電鉄、純利益予想を642億円に6割上方修正",
+      "title": "生活保護の教育扶助と就学援助の実態に迫る",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-28 00:55",
-      "publishedTs": 1795794906,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-00188842-biz_plus-000-1-view.jpg?exp=10800",
-      "summary": "京成電鉄は2027年3月期の連結業績予想を上方修正し、保有するオリエンタルランド株の売却益を反映して純利益を約6割増の642億円に引き上げました。",
+      "publishedAt": "2026-11-28 05:50",
+      "publishedTs": 1795812633,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-90001527-toushin-000-1-view.jpg?exp=10800",
+      "summary": "小中学校の学用品や給食費を支える就学援助と生活保護の関係について。厚生労働省のデータや支給基準額に関心が集まっています。",
       "points": [
-        "通期の連結純利益予想を393億円から642億円へ上方修正",
-        "オリエンタルランド株の一部売却に伴う特別利益を計上",
-        "期末配当も11円から19円へ増額へ"
+        "生活保護の教育扶助は7月分で前年同月より減少",
+        "要保護と準要保護に分けて対象者を把握する仕組み",
+        "子育て世帯の家計を支える各種支援制度の現状"
       ],
-      "impact": "資産売却による巨額の利益計上が株主還元や今後の投資戦略にポジティブな影響を与え、株式市場で注目を集めます。",
+      "impact": "子育て世帯の経済的負担軽減策や教育支援のあり方を見直すきっかけに。",
       "tags": [
-        "経済",
-        "京成電鉄",
-        "株価"
+        "生活保護",
+        "教育扶助",
+        "就学援助"
       ],
-      "url": "https://news.yahoo.co.jp/articles/43d90f2e0129120847d0023b160f7c354bc8c895?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/faddbff64aee95047543b72641067f767e1ec3d6?source=rss",
       "isAiEnriched": true
     },
     {
       "category": "entertainment",
-      "title": "松岡茉優の短髪激変ショットが話題",
+      "title": "橋本涼がドラマ「僕と彼女の49日」で初弁護士役",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-28 05:00",
-      "publishedTs": 1795809610,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-00010004-nishispo-000-1-view.jpg?exp=10800",
-      "summary": "女優の松岡茉優が公開したショートヘアの最新ショットが、ネット上で大きな注目を集めています。これまでのイメージを覆す大胆なイメチェン姿に、ファンや視聴者から驚きと絶賛の声が相次いで寄せられています。",
+      "publishedAt": "2026-11-28 06:00",
+      "publishedTs": 1795813228,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-00000009-natalien-000-1-view.jpg?exp=10800",
+      "summary": "2027年1月スタートの西畑大吾主演ドラマに、B&ZAIの橋本涼が出演することが決定。初の弁護士役としてライバル役を演じます。",
       "points": [
-        "松岡茉優のショートヘア姿がSNSで話題に",
-        "これまでのイメージから大きく変わったと驚きの声",
-        "ファンからは「別人」「似合っている」と絶賛の反応"
+        "2027年1月期のテレ朝系ドラマ「僕と彼女の49日」に出演",
+        "なにわ男子・西畑大吾のライバル役として登場",
+        "自身初となる弁護士役に挑戦する"
       ],
-      "impact": "人気女優の大胆なイメチェンは、ファッションや美容のトレンドに新たな影響を与える可能性があります。",
+      "impact": "ジャニーズ関連タレントのドラマ共演や演技力にファンの期待が高まる。",
       "tags": [
-        "松岡茉優",
-        "芸能",
-        "トレンド"
+        "ドラマ",
+        "橋本涼",
+        "西畑大吾"
       ],
-      "url": "https://news.yahoo.co.jp/articles/99621138ff879a06d519bc8c8fad301a33ade682?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/d08b28d0564eed930adb06f55dd5529b174ed07a?source=rss",
+      "isAiEnriched": true
+    },
+    {
+      "category": "subculture",
+      "title": "アニメ『ラーメン赤猫』第2期、2027年1月放送開始",
+      "source": "youtube.com",
+      "publishedAt": "2026-11-27 19:06",
+      "publishedTs": 1795773987,
+      "image": "https://b.hatena.ne.jp/entry/image/https://www.youtube.com/watch?v=AgruQ6MGB4Y",
+      "summary": "TVアニメ『ラーメン赤猫 其の二』のメインPVが解禁された。第2期は2027年1月10日夕方5時30分からテレ東系列で、11日夜11時からBS11ほかで放送がスタートする。",
+      "points": [
+        "『ラーメン赤猫 其の二』のメインPVが公開",
+        "2027年1月10日からテレ東系列で放送開始",
+        "BS11では1月11日夜11時より放送予定"
+      ],
+      "impact": "人気作の第2期放送日が決定しメインPVも公開されたことで、原作ファンやアニメ視聴者の期待が高まり関連グッズ等の展開も注目される。",
+      "tags": [
+        "ラーメン赤猫",
+        "アニメ",
+        "テレ東"
+      ],
+      "url": "https://www.youtube.com/watch?v=AgruQ6MGB4Y",
+      "isAiEnriched": true
+    },
+    {
+      "category": "domestic",
+      "title": "福島3歳児暴行死、市と児相の対応に食い違い",
+      "source": "Yahoo!ニュース",
+      "publishedAt": "2026-11-28 01:18",
+      "publishedTs": 1795796296,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-90205391-ann-000-1-view.jpg?exp=10800",
+      "summary": "福島県いわき市で3歳男児が暴行を受け死亡した事件で、以前から虐待を覚知し県の児童相談所に相談していたとする市側と、市が対応すべきだったとする児相側の主張が対立している。",
+      "points": [
+        "いわき市で3歳男児が母親の交際相手から暴行死",
+        "市は事前に虐待を覚知し児相へ相談と主張",
+        "児相側は市が対応すべきだったと反論"
+      ],
+      "impact": "自治体と児童相談所の連携不足や役割分担の曖昧さが浮き彫りとなっており、児童虐待防止に向けた窓口体制の見直しが急務だ。",
+      "tags": [
+        "児童虐待",
+        "いわき市",
+        "児童相談所"
+      ],
+      "url": "https://news.yahoo.co.jp/articles/e872314335eeea7a20db489f4fe02f76a6691427?source=rss",
+      "isAiEnriched": true
+    },
+    {
+      "category": "tech",
+      "title": "KDDI、楽天モバイル向けローミングエリアマップを更新",
+      "source": "Yahoo!ニュース",
+      "publishedAt": "2026-11-27 21:59",
+      "publishedTs": 1795784379,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261127-00000044-zdn_m-000-1-view.jpg?exp=10800",
+      "summary": "KDDIは楽天モバイル利用者向けローミングエリアマップを更新。12月以降、地方都市の中心部などで順次サービスが終了する予定となっている。",
+      "points": [
+        "KDDIが楽天モバイル向けローミングマップの最新版を公開",
+        "12月以降に地方都市中心部でのローミング提供が終了へ",
+        "利用者に対して事前のエリア確認を呼びかけ"
+      ],
+      "impact": "楽天モバイルユーザーの通信環境や接続エリアに直結するため、対象地域のユーザーは確認が必要です。",
+      "tags": [
+        "KDDI",
+        "楽天モバイル",
+        "通信"
+      ],
+      "url": "https://news.yahoo.co.jp/articles/1db28d302105965c881ff6784809166080a52178?source=rss",
+      "isAiEnriched": true
+    },
+    {
+      "category": "business",
+      "title": "消費税減税が生むテイクアウトとイートインの格差",
+      "source": "Yahoo!ニュース",
+      "publishedAt": "2026-11-28 05:50",
+      "publishedTs": 1795812628,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-00966090-toyo-000-1-view.jpg?exp=10800",
+      "summary": "軽減税率制度により生じる、持ち帰りと店内飲食での価格差について。税抜500円の弁当で見られる「イートイン格差」に疑問の声が上がっています。",
+      "points": [
+        "持ち帰りと店内で税率が変わり価格差が発生する",
+        "高市政権が掲げる消費税減税に関連した議論の背景",
+        "消費者が感じる日常の買い物における不公平感"
+      ],
+      "impact": "外食産業や小売店での価格表示やシステムの複雑化に影響を与える。",
+      "tags": [
+        "消費税",
+        "イートイン",
+        "経済"
+      ],
+      "url": "https://news.yahoo.co.jp/articles/2bbfbb67f0eb412296db944387a3d5e2db506ff9?source=rss",
+      "isAiEnriched": true
+    },
+    {
+      "category": "entertainment",
+      "title": "布施明の78歳タキシード姿と妻・森川由加里に反響",
+      "source": "Yahoo!ニュース",
+      "publishedAt": "2026-11-28 06:00",
+      "publishedTs": 1795813223,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-00010008-nishispo-000-1-view.jpg?exp=10800",
+      "summary": "歌手の布施明が披露した78歳のタキシード姿が話題に。妻が森川由加里であることへの驚きの声も広がり、ネット上で注目を集めています。",
+      "points": [
+        "歌手・布施明の78歳時点でのタキシード姿が公開された",
+        "若々しくダンディな姿に賞賛の声が集まる",
+        "妻が森川由加里であることを知った驚きの声も多い"
+      ],
+      "impact": "ベテラン芸能人の健康的なライフスタイルや変わらぬ魅力が話題になる。",
+      "tags": [
+        "布施明",
+        "森川由加里",
+        "芸能"
+      ],
+      "url": "https://news.yahoo.co.jp/articles/9d31ed4ad3ef12f0385100066a1a730830995a8d?source=rss",
       "isAiEnriched": true
     },
     {
@@ -3952,90 +3952,90 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "宮城で遺体発見、誘拐容疑で33歳男を逮捕",
+      "title": "宮城・七ケ宿町の山中、2遺体は近い場所で発見",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-28 00:06",
-      "publishedTs": 1795791987,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-00000000-ann-000-9-thumb.jpg?exp=10800",
-      "summary": "先月から行方不明だった横浜市の高校生とみられる遺体が宮城県内の山中で見つかり、警察は誘拐容疑で33歳の男を逮捕しました。",
+      "publishedAt": "2026-11-28 01:16",
+      "publishedTs": 1795796206,
+      "image": "https://tse2.mm.bing.net/th?q=2%E9%81%BA%E4%BD%93%E3%81%AF%E5%B1%B1%E4%B8%AD%E3%81%AE%E8%BF%91%E3%81%84%E5%A0%B4%E6%89%80%E3%81%A7%E7%99%BA%E8%A6%8B&w=800&h=450&c=7&rs=1&p=0",
+      "summary": "神奈川県警は28日、宮城県七ケ宿町の山中で見つかった2人の遺体について、互いに近い場所で発見されたと明らかにした。警察は30日に司法解剖を行い、詳しい死因などを調べる方針。",
       "points": [
-        "宮城県内の山中で2人の遺体が発見される",
-        "行方不明の高校生とみられ誘拐容疑で男を逮捕",
-        "警察が事件の詳しい動機や経緯を追及中"
+        "宮城県七ケ宿町の山中で2人の遺体を発見",
+        "2遺体は互いに近い場所にあったと県警が発表",
+        "30日に司法解剖を実施し死因などを調査"
       ],
-      "impact": "社会的衝撃の大きい事件として今後の捜査展開に注目が集まります。",
+      "impact": "発見場所が近接していることから事件性や関連性が注目されており、司法解剖による死因の特定と今後の捜査の進展が待たれる。",
       "tags": [
-        "国内ニュース",
-        "事件",
-        "逮捕"
+        "宮城県",
+        "七ケ宿町",
+        "神奈川県警"
       ],
-      "url": "https://news.yahoo.co.jp/articles/8b44bb2acc485a65f2624a9583cbd7d08c8e4463?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/b0545eb1675ae79a200b17d84a9f04a9a2180c73?source=rss",
       "isAiEnriched": true
     },
     {
       "category": "tech",
-      "title": "スマホの「マイナアプリ」に脆弱性、情報流出の恐れ",
+      "title": "GMO、侵入前に防ぐ「サイバー・イージス構想」を発表",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-27 21:00",
-      "publishedTs": 1795780800,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261127-00000015-impwfw-000-1-view.jpg?exp=10800",
-      "summary": "デジタル庁提供の「マイナアプリ」に複数の脆弱性が報告され、不正なリンクを通じてカード情報が盗まれる恐れがあることが分かりました。",
+      "publishedAt": "2026-11-27 21:55",
+      "publishedTs": 1795784106,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261127-00188836-biz_plus-000-1-view.jpg?exp=10800",
+      "summary": "GMOインターネットグループが攻撃を受ける前に遮断する新構想を発表。「通信の秘密」と「検閲」の課題解決に挑み、ランサムウェア被害の防止を目指す。",
       "points": [
-        "脆弱性対策情報ポータルサイト「JVN」で公開",
-        "旧マイナポータルアプリにセキュリティ上の懸念",
-        "不正リンクからの情報窃取リスクに対策が必要"
+        "GMOが攻撃を未然に防ぐ「サイバー・イージス構想」を発表",
+        "特許出願中の技術で通信の秘密と検閲の壁に挑戦",
+        "半期最多を記録するランサムウェア被害への対策として期待"
       ],
-      "impact": "行政手続きを担う重要アプリの安全性が問われるため、早急なアップデートと利用者側の警戒が求められます。",
+      "impact": "企業のサイバーセキュリティ対策や法制度・倫理面での議論に大きな一石を投じる取り組みです。",
       "tags": [
-        "マイナンバーカード",
-        "セキュリティ",
-        "行政"
+        "GMO",
+        "サイバーセキュリティ",
+        "IT対策"
       ],
-      "url": "https://news.yahoo.co.jp/articles/b7665919ef9a0a6ed3471b23e6aba1f0bafe20eb?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/944391b6fedfc3ff55c911d451e1ad3b4a3e282f?source=rss",
       "isAiEnriched": true
     },
     {
       "category": "business",
-      "title": "東京都、増加する火葬需要に対応するため炉の増設へ",
+      "title": "米国で浸透する日本車のカスタム文化「JDM」",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-28 00:06",
-      "publishedTs": 1795791977,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-10292645-abemav-000-1-view.png?fmt=jpeg&q=85&exp=10800",
-      "summary": "東京都の小池知事は、今後さらに増加が見込まれる火葬場の需要に対応するため、都営の火葬場に新たな火葬炉を増設する方針を明らかにしました。",
+      "publishedAt": "2026-11-28 05:46",
+      "publishedTs": 1795812378,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-00964840-toyo-000-1-view.jpg?exp=10800",
+      "summary": "アメリカの自動車イベントにおいて、1970〜2000年代の日本車カスタム「JDM」文化が驚くほど浸透している様子がレポートされています。",
       "points": [
-        "都営の火葬場に新たな炉を増設する計画を発表",
-        "背景には将来的な火葬需要の増加や料金高騰の懸念",
-        "都民の生活インフラ維持に向けた重要な対策"
+        "アメリカのローカルな自動車イベントでも日本車が人気",
+        "1970年代から2000年代初頭の日本車がヴィンテージ化",
+        "現地でのJDM（Japanese Domestic Market）文化の広がり"
       ],
-      "impact": "高齢化社会に伴う深刻な都市インフラの課題に対して、行政が具体的な解決策へ動き出した重要なニュースです。",
+      "impact": "日本の中古車や旧車の海外市場における評価と価値の高まりを示す。",
       "tags": [
-        "社会",
-        "東京都",
-        "行政"
+        "日本車",
+        "JDM",
+        "自動車"
       ],
-      "url": "https://news.yahoo.co.jp/articles/2c83457f9e507e3ec27d8eba6f64642971114a23?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/b701db9e9716bb66acaed7fbf2d46886dd004b92?source=rss",
       "isAiEnriched": true
     },
     {
       "category": "entertainment",
-      "title": "『Warframe』史上最大規模のアプデ「Tau」",
+      "title": "ドラマ「僕と彼女の49日」追加キャスト解禁",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-28 05:00",
-      "publishedTs": 1795809603,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-00000004-gamespav-000-1-view.jpg?exp=10800",
-      "summary": "人気アクションゲーム『Warframe』の史上最大規模となるアップデート「Tau」が12月10日に配信決定。新星系の魅力や、新規プレイヤーに向けた取り組みについて開発陣へのインタビューが公開されました。",
+      "publishedAt": "2026-11-28 06:00",
+      "publishedTs": 1795813220,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-00000008-nataliee-000-1-view.jpg?exp=10800",
+      "summary": "西畑大吾主演のドラマ「僕と彼女の49日」の新たなメインキャストが発表され、橋本涼や石黒賢らの出演と犬の幽霊の存在が明らかになりました。",
       "points": [
-        "『Warframe』史上最大規模のアプデ「Tau」が12月10日配信",
-        "新たな星系の魅力やコンテンツの全貌が明らかに",
-        "新規プレイヤーが参加しやすい取り組みも充実"
+        "主演・西畑大吾、共演・深川麻衣のドラマ追加キャスト発表",
+        "B&ZAIの橋本涼、石黒賢、渋谷謙人らの出演が決定",
+        "物語の鍵を握る犬の幽霊の登場も予告されている"
       ],
-      "impact": "大型アップデートにより既存プレイヤーの回帰だけでなく、新規ユーザーの獲得による市場活性化が期待されます。",
+      "impact": "注目ドラマのキャスト出揃いにより、SNSやメディアでの話題性が加速する。",
       "tags": [
-        "Warframe",
-        "ゲーム",
-        "アップデート"
+        "ドラマ",
+        "西畑大吾",
+        "エンタメ"
       ],
-      "url": "https://news.yahoo.co.jp/articles/5aacfb744ee11a0a05b0251b4a531d54729252cd?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/00a10a1acf0d29ae2dc65af3775aa941c239a844?source=rss",
       "isAiEnriched": true
     },
     {
@@ -4062,200 +4062,200 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "“ルフィ”トップの男「計画参加のつもりない」",
+      "title": "宮城県の山中で2人の遺体発見、行方不明の女子高生か",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-28 00:06",
-      "publishedTs": 1795791977,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-10292647-abemav-000-1-view.png?fmt=jpeg&q=85&exp=10800",
-      "summary": "広域強盗事件の“ルフィ”と名乗るグループのトップとされる男が、東京・狛江市の事件について計画参加を否定する供述をしました。",
+      "publishedAt": "2026-11-28 00:36",
+      "publishedTs": 1795793776,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-10292655-abemav-000-1-view.png?fmt=jpeg&q=85&exp=10800",
+      "summary": "先月から行方不明となっている横浜市の高校1年生の女子生徒とみられる遺体が、宮城県内の山中で発見されたことが分かりました。",
       "points": [
-        "“ルフィ”と名乗るグループのトップの裁判が進行",
-        "東京・狛江市の強盗致死事件への関与を一部否定",
-        "「計画に参加するつもりはなかった」と主張"
+        "宮城県内の山中で2人の遺体を発見",
+        "1人は行方不明中の横浜市の女子高校生か",
+        "警察が身元の確認と詳しい経緯を捜査中"
       ],
-      "impact": "一連の連続強盗事件の真相解明に向けた司法判断に注目が集まります。",
+      "impact": "重大事件の可能性があり、今後の警察による捜査の進展や身元特定の発表に社会的な関心が集まっています。",
       "tags": [
-        "国内ニュース",
-        "裁判",
-        "事件"
+        "事件",
+        "宮城県",
+        "国内ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/263484c86c1036103d7836ee181288ea21157885?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/f2a7c36034b06a25f39c6d34617f03772c663395?source=rss",
       "isAiEnriched": true
     },
     {
       "category": "tech",
-      "title": "日常使いできる小型防災ツールに注目",
+      "title": "GMO、被害を未然に防ぐ「サイバー・イージス構想」を始動",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-27 20:30",
-      "publishedTs": 1795779001,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261127-00000016-giz-000-1-view.jpg?exp=10800",
-      "summary": "いざという時だけでなく、普段使いもできる防災ツールの注目度が高まっています。Jackeryの「HomePower 1000 Plus v2」など、小型・軽量で高出力な製品が人気を集めています。",
+      "publishedAt": "2026-11-27 21:50",
+      "publishedTs": 1795783806,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261127-00188839-biz_plus-000-1-view.jpg?exp=10800",
+      "summary": "GMOインターネットグループがサイバー攻撃の侵入前対策を発表。第一弾として攻撃の可視化サイトを公開し、対策ソフトの無償配布も予定している。",
       "points": [
-        "日常的に使える防災ツールの需要が拡大",
-        "Jackeryの新モデルが小型軽量かつ高出力を実現",
-        "モバイルバッテリーやローリングストックも日常防災に"
+        "GMOがサイバー攻撃を未然に防ぐ新構想を正式発表",
+        "攻撃の実態を可視化する無料サイトを第一弾として公開",
+        "個人や中小企業向けに対策ソフトの無償配布を実施へ"
       ],
-      "impact": "災害への備えを特別なものとせず、日々の生活に取り入れるライフスタイルが市場で定着しつつあります。",
+      "impact": "標的型攻撃やランサムウェアに悩む中小企業や個人のセキュリティ環境の底上げに寄与します。",
       "tags": [
-        "防災",
-        "ガジェット",
-        "Jackery"
+        "GMO",
+        "セキュリティ",
+        "サイバー攻撃"
       ],
-      "url": "https://news.yahoo.co.jp/articles/064c6ee7e0f4801398cb3b9a08c0220786c6796b?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/5197ed066573a9c3b8c676ab54e1715b03982027?source=rss",
       "isAiEnriched": true
     },
     {
       "category": "business",
-      "title": "NY株が続伸、ダウ平均は400ドル超の上げ幅を記録",
+      "title": "2025年家計調査：二人以上世帯の生活費平均",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-28 00:01",
-      "publishedTs": 1795791692,
-      "image": "https://tse2.mm.bing.net/th?q=NY%E6%A0%AA%20%E7%B6%9A%E4%BC%B8&w=800&h=450&c=7&rs=1&p=0",
-      "summary": "休日明け27日のニューヨーク株式市場のダウ工業株30種平均は続伸し、休日前に比べて400ドル以上値を上げて取引されています。",
+      "publishedAt": "2026-11-28 05:35",
+      "publishedTs": 1795811733,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-90001525-toushin-000-1-view.jpg?exp=10800",
+      "summary": "総務省の2025年家計調査によると、二人以上世帯の月平均生活費は31万4001円。50代が最も高く、世代間の支出差が鮮明になっています。",
       "points": [
-        "ダウ平均株価が休日明けに続伸",
-        "午前9時45分時点で406.12ドル高を記録",
-        "足元の売りが一巡し買い戻しが優勢に"
+        "二人以上世帯の1か月の消費支出平均は31万4001円",
+        "世帯主が50歳代の世帯が36万7643円でもっとも高い",
+        "70歳以上では26万4332円と世代による違いが見られる"
       ],
-      "impact": "米国市場の堅調な動きが日本市場の投資家心理や株価動向にも好影響を与える可能性があります。",
+      "impact": "各世代のライフプラン設計や老後資金の準備における重要な参考指標となる。",
       "tags": [
-        "NY株",
-        "株式市場",
-        "経済ニュース"
+        "家計調査",
+        "生活費",
+        "家計"
       ],
-      "url": "https://news.yahoo.co.jp/articles/5a6718de511d2a5941083bc63f11b9f95e67d172?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/09c6724d8084082b85761fcc9367332e8ab77554?source=rss",
       "isAiEnriched": true
     },
     {
       "category": "entertainment",
-      "title": "M!LK塩崎太智、TBS火10ドラマで小芝風花の彼氏役に",
+      "title": "佐久間大介と生田斗真が「サクヒム」でそばの魅力に迫る",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-28 05:00",
-      "publishedTs": 1795809603,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-04884326-mdpr-000-1-view.jpg?exp=10800",
-      "summary": "M!LKの塩崎太智が、2027年1月スタートのTBS火曜ドラマ『焼肉の女 綾門寺赤奈』に出演することが決定しました。主演の小芝風花演じる主人公の同棲6年の彼氏“タン塩男”役を演じます。",
+      "publishedAt": "2026-11-28 06:00",
+      "publishedTs": 1795813212,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-00000007-natalien-000-1-view.jpg?exp=10800",
+      "summary": "Snow Manの佐久間大介がレギュラー出演する番組で、生田斗真とともにそばの魅力を再発見するロケやトークの放送内容が発表されました。",
       "points": [
-        "M!LKの塩崎太智がTBS火10ドラマに出演決定",
-        "小芝風花演じる主人公の同棲6年の彼氏役を担当",
-        "役どころは愛されキャラクターの“タン塩男”"
+        "日本テレビ系「サクサクヒムヒム ☆推しの降る夜☆」の放送回",
+        "Snow Manの佐久間大介と生田斗真が出演",
+        "そばをテーマにその魅力を深掘りする内容"
       ],
-      "impact": "人気アイドルグループメンバーのドラマ出演は、放送開始に向けた作品の注目度を大きく押し上げる要因となります。",
+      "impact": "バラエティ番組を通じた出演者の親しみやすい魅力やグルメ情報が拡散される。",
       "tags": [
-        "M!LK",
-        "塩崎太智",
-        "ドラマ"
+        "佐久間大介",
+        "生田斗真",
+        "バラエティ"
       ],
-      "url": "https://news.yahoo.co.jp/articles/d7deef288eee5c02ceb4bbfc162ffe0a742a9c68?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/a93b67c12c72b86d78aa28403361a2301d5af0ab?source=rss",
       "isAiEnriched": true
     },
     {
       "category": "subculture",
-      "title": "「クマ撃ちの女」くらげバンチで最新第149話公開",
-      "source": "kuragebunch.com",
-      "publishedAt": "2026-11-27 14:18",
-      "publishedTs": 1795756703,
-      "image": "https://cdn-img.kuragebunch.com/public/series-thumbnail/10834108156642874610-80af75af667cf23267e7367d2f4d9cf9?1667277807",
-      "summary": "人気webマンガサイト「くらげバンチ」にて、安島薮太氏による『クマ撃ちの女』第149話が公開されました。兼業猟師の主人公が日本最強生物であるエゾヒグマに挑むスリリングな展開が描かれています。",
+      "title": "『大人大戦』休載イラスト公開　かっぴー×都築真佐秋",
+      "source": "shonenjumpplus.com",
+      "publishedAt": "2026-11-28 00:15",
+      "publishedTs": 1795792554,
+      "image": "https://cdn-ak-img.shonenjumpplus.com/public/series-thumbnail/17106567264648152072-92ef44ba351388e3b198eb919436e07c?1795591267",
+      "summary": "少年ジャンプ＋で連載中の『大人大戦』（原作：かっぴー、作画：都築真佐秋）の休載イラスト10が公開された。評価がすべての監視社会に立ち向かうサバイバル作品。",
       "points": [
-        "「くらげバンチ」で『クマ撃ちの女』第149話が更新",
-        "兼業猟師の主人公とエゾヒグマの対決を描く人気作",
-        "臨場感あふれるハンティング描写が読者を魅了"
+        "『大人大戦』の休載イラスト10を公開",
+        "『左ききのエレン』のかっぴー氏による新連載",
+        "監視社会に立ち向かうサバイバルストーリー"
       ],
-      "impact": "人気タイトルの定期的な最新話公開は、プラットフォーム全体のアクセス維持とファンコミュニティの活性化に貢献します。",
+      "impact": "人気原作者による注目作の最新イラスト公開はファンの関心が高く、次回の本編更新への期待が高まっている。",
       "tags": [
-        "クマ撃ちの女",
-        "漫画",
-        "くらげバンチ"
+        "大人大戦",
+        "少年ジャンプ＋",
+        "サブカルチャー"
       ],
-      "url": "https://kuragebunch.com/episode/12207421984345552785",
+      "url": "https://shonenjumpplus.com/episode/9253191257982514870",
       "isAiEnriched": true
     },
     {
       "category": "domestic",
-      "title": "富山の50歳女性が行方不明に　自宅から消え6日目、足取りつかめず",
+      "title": "不明女子高生の家族、10月26日に警察へ届出",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-28 00:00",
-      "publishedTs": 1795791638,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-90205387-ann-000-1-view.jpg?exp=10800",
-      "summary": "富山市の吉田さつきさん（50）が、自宅リビングで最後に目撃されてから6日が経過しました。家族が目を覚ますと姿が消えており、警察などが捜索を続けていますが、現在も有力な足取りはつかめていません。",
+      "publishedAt": "2026-11-28 00:35",
+      "publishedTs": 1795793751,
+      "image": "https://tse2.mm.bing.net/th?q=%E4%B8%8D%E6%98%8E%E5%A5%B3%E5%AD%90%E9%AB%98%E7%94%9F%E3%81%AE%E5%AE%B6%E6%97%8F%E3%81%AF10%E6%9C%8826%E6%97%A5%E3%81%AB%E5%B1%8A%E3%81%91%E5%87%BA&w=800&h=450&c=7&rs=1&p=0",
+      "summary": "宮城県の山中で遺体が見つかった事件に関連し、行方不明となった女子高校生の家族が10月26日に神奈川県警へ捜索願を出していたことが判明しました。",
       "points": [
-        "50歳女性が行方不明から6日目",
-        "深夜に自宅で目撃されたのが最後",
-        "現時点で有力な手がかりはなし"
+        "家族が10月26日に「帰ってこない」と届け出",
+        "神奈川県警が事件との関連を慎重に調査",
+        "捜査関係者への取材により明らかに"
       ],
-      "impact": "地域住民の不安が高まっており、周辺地域の情報提供が急務となっています。",
+      "impact": "行方不明発覚から発見に至るまでの時系列や、事件性の有無を解明する重要な手がかりとなります。",
       "tags": [
-        "行方不明",
-        "富山",
-        "事件"
+        "事件",
+        "警察",
+        "国内ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/6db18f33773053c102f671d4b9d01f1037ea1689?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/d593b159870a4459a1d049c69d031386169b2930?source=rss",
       "isAiEnriched": true
     },
     {
       "category": "tech",
-      "title": "コインチェック、MEXCへの送金停止を発表",
+      "title": "マネックス証券、本人確認書類の画像462件が漏えい",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-27 20:30",
-      "publishedTs": 1795779000,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261127-00413285-coindesk-000-1-view.jpg?exp=10800",
-      "summary": "コインチェックはマネーロンダリング対策の一環として、海外暗号資産取引所「MEXC Global」への送金を12月4日から一部停止すると発表しました。海外取引所との資金移動における規制が強化されています。",
+      "publishedAt": "2026-11-27 21:44",
+      "publishedTs": 1795783498,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261127-00000012-impress-000-1-view.jpg?exp=10800",
+      "summary": "マネックス証券は外部委託先の口座開設システムへの不正アクセスにより、免許証やマイナンバーカードなどの画像462人分が漏えいしたと発表した。",
       "points": [
-        "コインチェックがMEXCへの暗号資産送金を停止",
-        "マネーロンダリング対策の強化が目的",
-        "12月4日からの実施に向けて利用者に注意を促す"
+        "マネックス証券の委託先システムに不正アクセスが発生",
+        "462人分の本人確認書類画像を含む計1,592件が漏えい",
+        "対象顧客に対して見舞金5000円の支払いなどを発表"
       ],
-      "impact": "暗号資産市場全体のコンプライアンス強化が進み、海外取引所を利用するユーザーへの影響が懸念されます。",
+      "impact": "金融機関における委託先のセキュリティ管理の甘さと個人情報保護の重要性について改めて警鐘を鳴らしています。",
       "tags": [
-        "暗号資産",
-        "コインチェック",
-        "マネロン対策"
+        "マネックス証券",
+        "情報漏えい",
+        "セキュリティ"
       ],
-      "url": "https://news.yahoo.co.jp/articles/c241f1d9dbf6a84a30b4f9c52b40cfe602ef20ab?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/c50d394f0dd00bfbc85a3867507f47db4e9ac16a?source=rss",
       "isAiEnriched": true
     },
     {
       "category": "business",
-      "title": "NYダウ続伸、休日明けに400ドル超の高値をつける",
+      "title": "国産アジの漁獲量激減で「アジフライ」に異変",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-27 23:50",
-      "publishedTs": 1795791027,
-      "image": "https://tse2.mm.bing.net/th?q=NY%E6%A0%AA%20%E7%B6%9A%E4%BC%B8%E3%81%97%E3%81%A6%E5%A7%8B%E3%81%BE%E3%82%8B&w=800&h=450&c=7&rs=1&p=0",
-      "summary": "休日明け27日のニューヨーク株式市場のダウ平均株価は続伸し、休日前に比べて400ドル以上高い値を付けて取引がスタートしました。",
+      "publishedAt": "2026-11-28 05:30",
+      "publishedTs": 1795811437,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-00966170-toyo-000-1-view.jpg?exp=10800",
+      "summary": "日本の漁獲量が減少する中、大衆魚の代表格であるアジにも影響が出ており、食卓の定番であるアジフライの形が変わりつつあります。",
       "points": [
-        "ニューヨーク株式市場のダウ工業株30種平均が続伸",
-        "前営業日比で406.12ドル高の堅調な滑り出し",
-        "市場の買い安心感が継続し投資家心理が改善"
+        "サケやサンマに続き国産アジの漁獲量も激減傾向にある",
+        "水産資源の減少により食卓の定番メニューに変化が生じている",
+        "「魚は枯渇しない」という見方との実態の乖離が問題視される"
       ],
-      "impact": "世界の金融市場や日本国内の株式市場における投資家心理に対してもポジティブな影響を与えます。",
+      "impact": "日本の水産業の持続可能性や外食・家庭の食卓メニューに直接影響する。",
       "tags": [
-        "株式市場",
-        "経済ニュース",
-        "NYダウ"
+        "アジフライ",
+        "漁業",
+        "食卓"
       ],
-      "url": "https://news.yahoo.co.jp/articles/6dfd2f891a1d97e6126b953b6d431de3675b4ca7?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/96d2d11371552a355f721f133a514eddc6a4b889?source=rss",
       "isAiEnriched": true
     },
     {
       "category": "entertainment",
-      "title": "古舘伊知郎が語るトーキングブルースへの思い",
+      "title": "長野久義が人的補償で移籍したカープでの4年間に感謝",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-28 05:00",
-      "publishedTs": 1795809603,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-41250544-nksports-000-1-view.jpg?exp=10800",
-      "summary": "フリーアナウンサーの古舘伊知郎が、12月6日から始まる3都市公演のトーキングブルースに向けてインタビューに応じました。マイク1本で2時間半しゃべり続けるステージへの独自のこだわりを語っています。",
+      "publishedAt": "2026-11-28 06:00",
+      "publishedTs": 1795813209,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-00010000-tokyofm-000-1-view.jpg?exp=10800",
+      "summary": "元プロ野球選手の長野久義がラジオ番組に出演し、巨人から人的補償で広島カープへ移籍した4年間を振り返り、充実感を語りました。",
       "points": [
-        "古舘伊知郎が「トーキングブルース『2026』」を開催",
-        "東京・大阪・福岡の3都市で計4公演を予定",
-        "マイク1本で2時間半に及ぶトークの裏側を告白"
+        "元プロ野球選手・長野久義がラジオ番組で過去を回顧",
+        "人的補償による広島カープでの4年間を「すごく良い経験」と表現",
+        "パーソナリティとして新たな一面を見せる"
       ],
-      "impact": "ベテランアナウンサーによる円熟したトークライブは、エンターテインメント業界や言葉の表現に関心を持つ層に深い刺激を与えます。",
+      "impact": "プロ野球ファンの間で往年の名選手の現役時代を振り返るきっかけになる。",
       "tags": [
-        "古舘伊知郎",
-        "トーキングブルース",
-        "インタビュー"
+        "長野久義",
+        "プロ野球",
+        "ラジオ"
       ],
-      "url": "https://news.yahoo.co.jp/articles/bec67071b3351c9a7b7efa44aac4fe57d8b1274d?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/44f118edeaf522a13ca62304e91df38903a8bba2?source=rss",
       "isAiEnriched": true
     },
     {
@@ -4282,90 +4282,90 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "群馬でスキーシーズンが開幕　たんばらスキーパークが営業開始",
+      "title": "宮城の山中に2遺体、横浜の行方不明女子高生か",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-27 23:57",
-      "publishedTs": 1795791451,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261127-00000120-ann-000-1-thumb.jpg?exp=10800",
-      "summary": "群馬県沼田市の「たんばらスキーパーク」が予定を早めて営業を開始しました。初日は多くのスキーヤーが詰めかけ、待望の白銀のシーズンがいち早く幕を開けました。",
+      "publishedAt": "2026-11-28 00:32",
+      "publishedTs": 1795793525,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-00000004-kyodonews-000-2-view.jpg?exp=10800",
+      "summary": "神奈川県警が宮城県の山中で2人の遺体を発見し、そのうちの1人が先月から行方不明だった横浜市の高校1年生の可能性があるとして調べています。",
       "points": [
-        "たんばらスキーパークが営業開始",
-        "予定を1日早めてオープン",
-        "早朝からスキーヤーが殺到"
+        "神奈川県警が宮城県七ヶ宿町の山中で遺体を発見",
+        "行方不明となっていた16歳女子生徒の可能性",
+        "警察が身元の特定と事件の全容解明を急ぐ"
       ],
-      "impact": "暖冬が懸念される中、スキー場が前倒しでオープンしたことは、冬の観光・レジャー産業にとって明るい兆しです。",
+      "impact": "広域にわたる捜査事案であり、今後の警察発表やメディアの報道動向に大きな注目が集まっています。",
       "tags": [
-        "スキー",
-        "冬",
-        "観光"
+        "事件",
+        "神奈川県警",
+        "国内ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/d2c00384d83b718a7742e5dbcae0b9dcd574ec91?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/b234734929ea231f38f47fc2102c47bb7eb5e830?source=rss",
       "isAiEnriched": true
     },
     {
       "category": "tech",
-      "title": "マネックス証券、情報漏えいと見舞金を発表",
+      "title": "プライバシー重視のステーブルコイン店舗決済を検討",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-27 20:15",
-      "publishedTs": 1795778100,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261127-00000003-impktw-000-1-view.jpg?exp=10800",
-      "summary": "マネックス証券は外部委託先への不正アクセスによる情報漏えい被害を発表しました。112万件超のメールアドレスなどが流出し、本人確認書類が流出した顧客には5000円の見舞金が支払われます。",
+      "publishedAt": "2026-11-27 21:21",
+      "publishedTs": 1795782065,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261127-00413300-coindesk-000-1-view.jpg?exp=10800",
+      "summary": "プライバシー強化型ブロックチェーンを運営する組織などが、取引情報を伏せたまま店舗で決済できる仕組みの検討を開始しました。",
       "points": [
-        "メールアドレス112万件超が外部に流出",
-        "本人確認書類が流出した顧客には一律5000円の見舞金",
-        "外部委託先への不正アクセスが原因"
+        "Midnight Networkなどの企業が共同で技術開発",
+        "取引時のプライバシーを守る高度な仕組み",
+        "実店舗での安全なステーブルコイン利用を目指す"
       ],
-      "impact": "金融機関におけるサプライチェーン全体のセキュリティ対策と、顧客情報の管理体制の厳格化が急務です。",
+      "impact": "暗号資産を利用した決済の利便性と安全性が高まり、キャッシュレス決済の新たな選択肢として普及が進む可能性があります。",
       "tags": [
-        "マネックス証券",
-        "情報漏えい",
-        "セキュリティ"
+        "暗号資産",
+        "ブロックチェーン",
+        "決済技術"
       ],
-      "url": "https://news.yahoo.co.jp/articles/f14f633110c0d8e2eb05240eae5767265b27721e?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/2f06aaea289e113c4ede885184b5a2c80c70142a?source=rss",
       "isAiEnriched": true
     },
     {
       "category": "business",
-      "title": "都道府県の水道料金に大きな格差、長崎市と大阪市の比較",
+      "title": "「嫌われる人」と「結果を出す人」の決定的な違い",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-27 23:10",
-      "publishedTs": 1795788633,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261127-90001511-toushin-000-1-view.jpg?exp=10800",
-      "summary": "2026年10月の統計によると、月20立方メートルの水道・下水道料金は長崎市が7815円で最も高く、大阪市の約2.3倍の価格差があることが分かりました。",
+      "publishedAt": "2026-11-28 05:30",
+      "publishedTs": 1795811436,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-00404004-diamond-000-1-view.jpg?exp=10800",
+      "summary": "人気起業マンガ『マネーの拳』を題材に、優秀な人材を登用する経営者の視点から、ビジネスで結果を残す人と嫌われる人の違いを解説します。",
       "points": [
-        "全国47都道府県庁所在地における水道料金を調査",
-        "長崎市が7815円で最も高い水準を記録",
-        "大阪市は3388円で最も安い結果となった"
+        "三田紀房の起業マンガ『マネーの拳』を用いたビジネス解説",
+        "経営者が自分より優秀な人材をどう登用するかを紐解く",
+        "組織で「結果を出す人」と「嫌われる人」の行動特性の違い"
       ],
-      "impact": "地域ごとのインフラ維持コストの差が浮き彫りになり、生活コストを見直す契機となります。",
+      "impact": "ビジネスパーソンのマネジメントスキルや人間関係構築の参考になる。",
       "tags": [
-        "水道料金",
-        "家計",
-        "地域格差"
+        "ビジネス",
+        "マネジメント",
+        "キャリア"
       ],
-      "url": "https://news.yahoo.co.jp/articles/8468cbda2b6a58de4981354b607dca53d647a2c5?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/50f21a97b74a6f23632590ab2ec36db26254c203?source=rss",
       "isAiEnriched": true
     },
     {
       "category": "entertainment",
-      "title": "サンドウィッチマン×石井亮次アナの人気特番第7弾決定",
+      "title": "B&ZAI橋本涼が西畑大吾のライバル役に決定",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-28 05:00",
-      "publishedTs": 1795809603,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-11271265-sph-000-1-view.jpg?exp=10800",
-      "summary": "サンドウィッチマンとフリーアナウンサーの石井亮次がタッグを組むフジテレビ系の恒例特番の第7弾が放送決定しました。昨年の好評を受け、伊達さんの休養に関する話題など見どころ満載の対決企画が続編として帰ってきます。",
+      "publishedAt": "2026-11-28 06:00",
+      "publishedTs": 1795813205,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-04884396-mdpr-000-1-view.jpg?exp=10800",
+      "summary": "2027年1月期のドラマ「僕と彼女の49日」の第1弾共演者が発表され、B&ZAIの橋本涼が主人公のライバル兼弁護士役で出演することが判明しました。",
       "points": [
-        "サンドウィッチマン×石井亮次アナの特番第7弾が決定",
-        "12月28日午前10時35分からフジテレビ系で放送",
-        "伊達さんの休養秘話など、ここでしか聞けないトークも展開"
+        "2027年1月スタートのテレ朝系土曜ドラマのキャスト情報",
+        "B&ZAIの橋本涼がなにわ男子・西畑大吾のライバル役に決定",
+        "渋谷謙人ら豪華な第1弾共演者も同時に発表された"
       ],
-      "impact": "年末の恒例バラエティ特番として、安定した視聴率と年末年始ムードの盛り上がりに大きく寄与します。",
+      "impact": "人気アイドル同士のドラマ共演としてエンタメニュースで注目を集める。",
       "tags": [
-        "サンドウィッチマン",
-        "石井亮次",
-        "バラエティ"
+        "橋本涼",
+        "西畑大吾",
+        "ドラマ"
       ],
-      "url": "https://news.yahoo.co.jp/articles/7da349c1dacedd380e40b5c31159e51a5f1780aa?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/6905f9c201cc1faaa40a2e836de4592554e2d923?source=rss",
       "isAiEnriched": true
     },
     {
@@ -4392,222 +4392,222 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "福岡・駐輪場刺殺事件、容疑者が事務所訪れた直後に犯行か",
+      "title": "女子高生誘拐の疑いで宮城県内の男を逮捕、神奈川県警",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-27 23:57",
-      "publishedTs": 1795791435,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261127-90205386-ann-000-1-view.jpg?exp=10800",
-      "summary": "福岡県で発生した駐輪場の男性刺殺事件で、逮捕された川谷典雄容疑者が事件の直前に特定の事務所を訪れていたことが判明しました。警察は犯行との関連を慎重に調べています。",
+      "publishedAt": "2026-11-28 00:20",
+      "publishedTs": 1795792804,
+      "image": "https://tse2.mm.bing.net/th?q=%E5%A5%B3%E5%AD%90%E9%AB%98%E7%94%9F%E8%AA%98%E6%8B%90%E3%81%AE%E7%96%91%E3%81%84%E3%81%A7%E7%94%B7%E9%80%AE%E6%8D%95&w=800&h=450&c=7&rs=1&p=0",
+      "summary": "宮城県の山中で2遺体が見つかった事件に絡み、神奈川県警は行方不明となっていた横浜市の女子高校生を誘拐した疑いで男を逮捕しました。",
       "points": [
-        "駐輪場男性刺殺事件の続報",
-        "容疑者が事件直前に事務所を訪問",
-        "警察が関連性を詳しく捜査中"
+        "女子高校生を誘拐した疑いで男を逮捕",
+        "宮城県の山中で2遺体が見つかった事件に関連",
+        "神奈川県警が事件の詳しい経緯を本格捜査"
       ],
-      "impact": "組織的な動機や計画性の有無が問われており、捜査当局の今後の発表が待たれます。",
+      "impact": "誘拐容疑での逮捕から発展して、遺体発見の経緯や事件の全容解明に向けた捜査が急ピッチで進められます。",
       "tags": [
         "事件",
-        "福岡",
-        "殺人"
+        "逮捕",
+        "国内ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/3cdae2fa2ceffb2bd6de1faedca1c919f66eeb8d?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/ab90bc824f7ad19509cfa9a2c4658a510eefb712?source=rss",
       "isAiEnriched": true
     },
     {
       "category": "tech",
-      "title": "GMOペパボで不正アクセス、平文パスワード流出も",
+      "title": "広告タップでiPhone乗っ取り、日本も標的に",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-27 20:12",
-      "publishedTs": 1795777920,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261127-00000006-impiw-000-2-view.jpg?exp=10800",
-      "summary": "GMOペパボは内部システムへの不正アクセスを受け、「ロリポップ！レンタルサーバー」等の顧客情報が流出したと発表しました。一部顧客のパスワードが平文で保存されていたことも判明しています。",
+      "publishedAt": "2026-11-27 21:20",
+      "publishedTs": 1795782006,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261127-00188838-biz_plus-000-1-view.jpg?exp=10800",
+      "summary": "ネット広告を1回タップするだけでiPhoneが乗っ取り被害に遭い、暗号資産やパスワードが盗まれる大規模な攻撃が確認されました。",
       "points": [
-        "GMOペパボの内部システムに不正アクセス",
-        "ロリポップ！などの顧客情報が外部へ流出",
-        "一部顧客のパスワードが平文で保管されていた"
+        "日本を含む47カ国以上が標的となった大規模攻撃",
+        "ネット広告をタップするだけで感染する手口",
+        "暗号資産や重要パスワードの窃取被害が懸念"
       ],
-      "impact": "クラウド・レンタルサーバー事業者における厳格なデータ暗号化とセキュリティ強固化の重要性が再認識されています。",
+      "impact": "スマートフォンユーザー全体におけるセキュリティ意識の向上や、悪質広告に対するプラットフォームの対策が急務です。",
       "tags": [
-        "GMOペパボ",
-        "不正アクセス",
-        "サーバー"
+        "セキュリティ",
+        "iPhone",
+        "サイバー犯罪"
       ],
-      "url": "https://news.yahoo.co.jp/articles/ca3168ec83d50acaf71a8d3edff2ef8a03b68f4d?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/95600ba158896cc33c1c1a7ca83bbd9989f81c24?source=rss",
       "isAiEnriched": true
     },
     {
       "category": "business",
-      "title": "空き家売却の仲介手数料、800万円以下は上限33万円に",
+      "title": "老舗建設会社が4000個のアプリでDXに成功した秘訣",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-27 23:05",
-      "publishedTs": 1795788333,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261127-90001508-toushin-000-1-view.jpg?exp=10800",
-      "summary": "2024年7月の特例措置により、物件価格が800万円以下の空き家等の売買における仲介手数料の上限が税込み33万円までに引き上げられています。",
+      "publishedAt": "2026-11-28 05:30",
+      "publishedTs": 1795811423,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-00000005-zdn_mkt-000-1-view.jpg?exp=10800",
+      "summary": "山形県の建設会社・後藤組が、社員を巻き込んで約4000個もの自作アプリを開発し、社内のDX化を劇的に進めた取り組みを紹介します。",
       "points": [
-        "800万円以下の不動産売買における手数料特例",
-        "上限が30万円の1.1倍（税込み33万円）に変更",
-        "原則計算と比べた場合のコストを正確に把握可能"
+        "山形県の老舗建設会社・後藤組のユニークなDX推進事例",
+        " kintoneを活用し社員自らが「4000個」のアプリを開発",
+        "最初は敬遠されていたツールを社内浸透させた変革のプロセス"
       ],
-      "impact": "低価格な不動産や空き家を売買する際の資金計画に直接影響を与える重要な制度知識となります。",
+      "impact": "地方企業や伝統産業におけるIT活用・業務効率化の成功モデルとなる。",
       "tags": [
-        "不動産",
-        "空き家",
+        "DX",
+        "建設業",
         "ビジネス"
       ],
-      "url": "https://news.yahoo.co.jp/articles/d5195bf4e37c5a3e5b160fbe2e2d07d13e38276e?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/58eb27a2cfb0abc99afa905f3b4f81abca0a3acb?source=rss",
       "isAiEnriched": true
     },
     {
       "category": "entertainment",
-      "title": "M!LK塩﨑太智、小芝風花主演ドラマで“タン塩男”に",
+      "title": "元ENHYPENのEVAN、来年1月から初のライブツアー開催",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-28 05:00",
-      "publishedTs": 1795809602,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-00010002-realsound-000-1-view.jpg?exp=10800",
-      "summary": "2027年1月放送開始のTBS火曜ドラマ『焼肉の女 綾門寺赤奈』に、M!LKの塩﨑太智のゲスト出演が発表されました。小芝風花演じる主人公の同棲相手として、誰もが大好きになる“タン塩男”を演じます。",
+      "publishedAt": "2026-11-28 06:00",
+      "publishedTs": 1795813204,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-00543416-yonh-000-1-view.jpg?exp=10800",
+      "summary": "韓国の歌手EVANが、来年1月から初のライブツアー「EVERLASTING」を開催することが明らかになった。東京などアジア・北米の14都市を巡る予定で、ファンから大きな期待が寄せられている。",
       "points": [
-        "M!LKの塩﨑太智が『焼肉の女 綾門寺赤奈』第1話にゲスト出演",
-        "小芝風花扮する主人公の同棲6年の彼氏役を担当",
-        "愛嬌のある“タン塩男”としての演技に期待が高まる"
+        "元ENHYPENのメンバーであるEVANが初のライブツアーを発表",
+        "ツアー名は「EVERLASTING」で、アジアと北米の14都市が対象",
+        "日本国内では東京を含む複数都市での公演を予定"
       ],
-      "impact": "話題のグルメ・人間ドラマ枠への人気アイドルの参加は、幅広い層の視聴者獲得へ向けて強力なアピールとなります。",
+      "impact": "K-POPファンやアジア圏のエンタメ市場における今後の動員力やチケット需要に注目が集まります。",
       "tags": [
-        "M!LK",
-        "塩﨑太智",
-        "焼肉の女 綾門寺赤奈"
+        "EVAN",
+        "ENHYPEN",
+        "ライブツアー"
       ],
-      "url": "https://news.yahoo.co.jp/articles/9dc6be6c40b7e1b2a28ccf03d855df20ff397d70?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/05be7d93348212dd52a83a5c1f4287c6fe8db0bd?source=rss",
       "isAiEnriched": true
     },
     {
       "category": "subculture",
-      "title": "『都市伝説解体センター』第9話が配信開始",
-      "source": "tonarinoyj.jp",
-      "publishedAt": "2026-11-27 12:49",
-      "publishedTs": 1795751362,
-      "image": "https://cdn-img.tonarinoyj.jp/public/series-thumbnail/12207421983946860057-364e33910e71ae128c8697f41154bc19?1792060854",
-      "summary": "怪異や呪物を調査する組織を描いた人気作『都市伝説解体センター Another Record』の第9話がとなりのヤングジャンプで公開されました。",
+      "title": "pixivFANBOX、Mastercardの一部取り扱い終了を発表",
+      "source": "official.fanbox.cc",
+      "publishedAt": "2026-11-27 13:29",
+      "publishedTs": 1795753797,
+      "image": "https://pixiv.pximg.net/c/1200x630_90_a2_g5/fanbox/public/images/post/12993672/cover/OsOHFiw6F8lncaVYvDkunLiJ.jpeg",
+      "summary": "pixivFANBOXは、支援金のお支払い方法において、Mastercardの利用を一部終了すると重要なお知らせを発表しました。",
       "points": [
-        "あらゆる都市伝説の謎を解明する組織の物語",
-        "念視能力を持つ女子大生が主人公のミステリー",
-        "となりのヤングジャンプにて第9話が公開"
+        "クリエイター支援金支払いでMastercardの取り扱いを終了",
+        "PayPalへの登録分なども対象に含まれる",
+        "利用者に向けて代替決済手段への変更を呼びかけ"
       ],
-      "impact": "コミックファンやオカルトミステリー好きの間で人気を集めています。",
+      "impact": "該当ブランドのカードを使用している支援者やクリエイターの収受に影響が出るため、早期の対応が必要です。",
       "tags": [
-        "サブカル",
-        "マンガ",
-        "都市伝説"
+        "pixivFANBOX",
+        "Mastercard",
+        "決済"
       ],
-      "url": "https://tonarinoyj.jp/episode/12207421984570878703",
+      "url": "https://official.fanbox.cc/posts/12993672",
       "isAiEnriched": true
     },
     {
       "category": "domestic",
-      "title": "高市総理、関文科大臣の問責否決を受け本人による説明を強調",
+      "title": "宮城の山中で2遺体発見、横浜の女子高生か",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-27 23:56",
-      "publishedTs": 1795791396,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261127-00000119-ann-000-1-thumb.jpg?exp=10800",
-      "summary": "関文部科学大臣の問責決議案が否決されたことを受け、高市総理大臣は「本人が適切に説明を行うことが重要」と語りました。消費減税法案の審議は12月2日に再開される予定です。",
+      "publishedAt": "2026-11-28 00:18",
+      "publishedTs": 1795792695,
+      "image": "https://tse2.mm.bing.net/th?q=%E5%AE%AE%E5%9F%8E%E3%81%A72%E9%81%BA%E4%BD%93%201%E4%BA%BA%E3%81%AF%E6%A8%AA%E6%B5%9C%E3%81%AE%E5%A5%B3%E5%AD%90%E9%AB%98%E6%A0%A1%E7%94%9F%E3%81%8B&w=800&h=450&c=7&rs=1&p=0",
+      "summary": "宮城県内の山中で27日に2人の遺体が見つかり、神奈川県警は行方不明になっていた横浜市の女子高校生の可能性があるとみて調べています。",
       "points": [
-        "関文科大臣への問責決議案は否決",
-        "総理は本人による説明責任を強調",
-        "消費減税法案審議は来月2日再開へ"
+        "宮城県内の山中で27日に2人の遺体を発見",
+        "行方不明だった横浜市の女子高校生の可能性",
+        "神奈川県警が身元の確認と詳しい経緯を捜査"
       ],
-      "impact": "内閣の支持率や今後の国会運営において、大臣の説明責任がさらなる議論の的となる可能性があります。",
+      "impact": "事件の全容解明と安全確保に向けた警察の捜査動向が注目されます。",
       "tags": [
-        "高市総理",
-        "政治",
-        "問責決議"
+        "国内ニュース",
+        "事件",
+        "宮城"
       ],
-      "url": "https://news.yahoo.co.jp/articles/89cb3789b3a59182145ee26a1534a807266c0935?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/62bf9c8cfe076f13004a7fea937617b0ae4daf7f?source=rss",
       "isAiEnriched": true
     },
     {
       "category": "tech",
-      "title": "GRADO、上位技術を凝縮した開放型ヘッドホン",
+      "title": "ソースネクスト、6980円の多機能スマートウォッチ発売",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-27 20:08",
-      "publishedTs": 1795777718,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261127-00131885-phileweb-000-1-view.jpg?exp=10800",
-      "summary": "ナイコムはGRADOブランドの新型開放型ヘッドホン「Signature S150」を12月4日に発売します。上位モデルのドライバー技術を小型化し、49,500円という価格で展開します。",
+      "publishedAt": "2026-11-27 21:19",
+      "publishedTs": 1795781948,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261127-00000043-zdn_m-000-1-view.jpg?exp=10800",
+      "summary": "ソースネクストは、心拍や睡眠の計測、100種類以上の運動モードに対応した低価格なスマートウォッチを発売しました。",
       "points": [
-        "上位モデルの技術を小型化した開放型ヘッドホン",
-        "12月4日に49,500円で発売予定",
-        "4.4mmバランスケーブル付属モデルも用意"
+        "通常価格6980円のコストパフォーマンスに優れた製品",
+        "12月10日まで4980円の記念セールを実施",
+        "心拍・睡眠計測や多彩な運動モードを搭載"
       ],
-      "impact": "高音質なリスニング体験を求めるオーディオファンの間で、コストパフォーマンスの高い選択肢として注目されます。",
+      "impact": "手頃な価格で健康管理デバイスを導入できるため、ウェアラブル端末の新規ユーザー層拡大につながります。",
       "tags": [
-        "ヘッドホン",
-        "GRADO",
-        "オーディオ"
+        "ガジェット",
+        "スマートウォッチ",
+        "ヘルスケア"
       ],
-      "url": "https://news.yahoo.co.jp/articles/97e0f8f1e4ddcef1ee775ca42bb237baf323bcc7?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/c4be1f50780d97041532001f8af448359dd661d6?source=rss",
       "isAiEnriched": true
     },
     {
       "category": "business",
-      "title": "会社員の世帯貯蓄と負債：30代は負債超過、60代は貯蓄増",
+      "title": "かっぱ寿司が赤字転落、競合3社に遅れをとった背景とは",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-27 22:55",
-      "publishedTs": 1795787733,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261127-90001507-toushin-000-1-view.jpg?exp=10800",
-      "summary": "2025年の総務省家計調査によると、30代会社員世帯は負債が貯蓄を894万円上回る一方、60代では貯蓄が2502万円上回る結果となった。",
+      "publishedAt": "2026-11-28 05:30",
+      "publishedTs": 1795811420,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-00000004-zdn_mkt-000-1-view.jpg?exp=10800",
+      "summary": "業界のパイオニアとして100円寿司路線で成長した「かっぱ寿司」が、なぜ赤字転落に至ったのか。競合他社との戦略の差や、市場での競争激化に敗因を紐解き、外食産業の現在地を浮き彫りにする。",
       "points": [
-        "総務省の2025年家計調査に基づく勤労者世帯の家計状況",
-        "30代世帯は住宅ローン等の影響で負債が貯蓄を大きく上回る",
-        "60代世帯では老後に向けた貯蓄が平均2502万円のプラスに"
+        "1979年創業の業界パイオニアが低価格路線で急成長を遂げた歴史",
+        "現在は競合他社に差をつけられ、業績悪化・赤字転落に直面",
+        "他社との差別化戦略やマーケティングにおける課題が浮き彫りに"
       ],
-      "impact": "ライフステージごとのマネープランや資産形成の重要性を考える際の重要な指標となります。",
+      "impact": "外食・飲食業界全体の価格競争や、生き残りをかけたブランド戦略のトレンドを占う重要な事例となります。",
       "tags": [
-        "家計調査",
-        "貯蓄と負債",
-        "マネー"
+        "かっぱ寿司",
+        "回転寿司",
+        "ビジネス"
       ],
-      "url": "https://news.yahoo.co.jp/articles/acdecfde6ae3d54f47562fefedd0c495b8f3921a?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/bb13b5e477f51d359365d36d20f49b63a07f966d?source=rss",
       "isAiEnriched": true
     },
     {
       "category": "entertainment",
-      "title": "杉良太郎、1都12県を巡る慰問活動の千秋楽を迎える",
+      "title": "「ヒロアカ」新作グッズがしまむらで11月28日より発売",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-28 05:00",
-      "publishedTs": 1795809601,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-00000008-sanspo-000-1-view.jpg?exp=10800",
-      "summary": "歌手で俳優の杉良太郎が沖縄・宮古島の国立療養所宮古南静園で慰問公演を行い、1都12県を巡る今年の慰問活動を完走しました。ハンセン病予防法廃止から30年を迎える中、今後の継続的な支援への思いを語りました。",
+      "publishedAt": "2026-11-28 06:00",
+      "publishedTs": 1795813203,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-00000006-isd-000-1-view.jpg?exp=10800",
+      "summary": "人気アニメ「僕のヒーローアカデミア」の多彩なコラボグッズが、全国のしまむら店舗およびオンラインストアで11月28日より発売される。アパレルやバッグ、ユニークなペンケースなどが登場する。",
       "points": [
-        "杉良太郎が宮古南静園で今年の慰問活動の千秋楽を開催",
-        "1都12県に及ぶ全国の療養所等の慰問を無事に完走",
-        "長く続く支援活動と患者たちとの絆の大切さを強調"
+        "「僕のヒーローアカデミア」のコラボグッズが全国のしまむらに登場",
+        "発売日は11月28日で、同日15時からはオンラインストアでも販売",
+        "アパレルやバッグに加え、爆豪の籠手型ペンケースなど豊富なラインナップ"
       ],
-      "impact": "長年にわたる著名人による社会貢献活動は、福祉や人権問題に対する世間の関心を継続させる重要な役割を果たしています。",
+      "impact": "アニメファン層の購買意欲を刺激し、アパレル小売業界におけるキャラクターコラボ施策の集客効果に注目です。",
       "tags": [
-        "杉良太郎",
-        "社会貢献",
-        "ニュース"
+        "ヒロアカ",
+        "しまむら",
+        "アニメグッズ"
       ],
-      "url": "https://news.yahoo.co.jp/articles/db63e51b9b6e528fd673a7d491e854fb5b26b0ea?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/bf06ada37fc3a990a9ba2b4da403b251014c8f40?source=rss",
       "isAiEnriched": true
     },
     {
       "category": "subculture",
-      "title": "ヒロインに出会うと嘔吐？ノベルゲーム『シュガーライズ』12月配信",
-      "source": "AUTOMATON",
-      "publishedAt": "2026-11-27 17:00",
-      "publishedTs": 1795766402,
-      "image": "https://automaton-media.com/wp-content/uploads/2026/11/20261127-481345-header.jpg",
-      "summary": "工画堂スタジオはヒロインと出会うと嘔吐してしまう主人公を描く新作ビジュアルノベル『Sugar Lies』を12月10日に配信すると発表しました。（88文字前後）",
+      "title": "「クマ撃ちの女」くらげバンチで最新第149話公開",
+      "source": "kuragebunch.com",
+      "publishedAt": "2026-11-27 14:18",
+      "publishedTs": 1795756703,
+      "image": "https://cdn-img.kuragebunch.com/public/series-thumbnail/10834108156642874610-80af75af667cf23267e7367d2f4d9cf9?1667277807",
+      "summary": "人気webマンガサイト「くらげバンチ」にて、安島薮太氏による『クマ撃ちの女』第149話が公開されました。兼業猟師の主人公が日本最強生物であるエゾヒグマに挑むスリリングな展開が描かれています。",
       "points": [
-        "独特な設定が話題の恋愛アドベンチャー新作",
-        "嘘つき少女と過ごすひと夏の切ない恋物語",
-        "12月10日よりPC・主要プラットフォームで配信"
+        "「くらげバンチ」で『クマ撃ちの女』第149話が更新",
+        "兼業猟師の主人公とエゾヒグマの対決を描く人気作",
+        "臨場感あふれるハンティング描写が読者を魅了"
       ],
-      "impact": "個性的設定のアドベンチャーゲームとしてインディーファンの関心を集めます。（69文字）",
+      "impact": "人気タイトルの定期的な最新話公開は、プラットフォーム全体のアクセス維持とファンコミュニティの活性化に貢献します。",
       "tags": [
-        "ゲーム",
-        "シュガーライズ",
-        "工画堂スタジオ"
+        "クマ撃ちの女",
+        "漫画",
+        "くらげバンチ"
       ],
-      "url": "https://automaton-media.com/articles/newsjp/20261127-481345/",
+      "url": "https://kuragebunch.com/episode/12207421984345552785",
       "isAiEnriched": true
     }
   ]
