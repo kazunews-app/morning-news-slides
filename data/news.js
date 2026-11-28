@@ -1,13 +1,13 @@
 window.NEWS_DATA = {
   "date": "2026年11月29日 (日)",
-  "updatedAt": "2026-11-29 02:11",
+  "updatedAt": "2026-11-29 02:57",
   "title": "TREND NEWS",
   "keywords": [
-    "おせち食材高騰",
-    "イクラ1粒7円",
-    "辺野古沖転覆事故",
-    "京都混雑ピーク",
-    "迷惑行為再燃"
+    "Yakult1000",
+    "ヤクルトレディ",
+    "バズ",
+    "品薄",
+    "SNS"
   ],
   "weatherCities": [
     {
@@ -15,7 +15,7 @@ window.NEWS_DATA = {
       "region": "北海道",
       "temp": 2,
       "code": 2,
-      "wind": 18,
+      "wind": 19,
       "maxTemp": 3,
       "minTemp": -2,
       "pop": 80,
@@ -133,7 +133,7 @@ window.NEWS_DATA = {
       "region": "東北",
       "temp": 8,
       "code": 2,
-      "wind": 8,
+      "wind": 7,
       "maxTemp": 8,
       "minTemp": 3,
       "pop": 96,
@@ -152,7 +152,7 @@ window.NEWS_DATA = {
         },
         {
           "time": "08:00",
-          "code": 51,
+          "code": 53,
           "temp": 5,
           "pop": 51
         },
@@ -170,7 +170,7 @@ window.NEWS_DATA = {
         },
         {
           "time": "17:00",
-          "code": 1,
+          "code": 0,
           "temp": 4,
           "pop": 35
         },
@@ -191,7 +191,7 @@ window.NEWS_DATA = {
         {
           "date": "11/29",
           "dow": "今日",
-          "code": 51,
+          "code": 53,
           "maxTemp": 8,
           "minTemp": 3,
           "pop": 96
@@ -200,14 +200,14 @@ window.NEWS_DATA = {
           "date": "11/30",
           "dow": "明日",
           "code": 1,
-          "maxTemp": 15,
+          "maxTemp": 14,
           "minTemp": 2,
           "pop": 0
         },
         {
           "date": "12/1",
           "dow": "火",
-          "code": 3,
+          "code": 1,
           "maxTemp": 18,
           "minTemp": 7,
           "pop": 45
@@ -250,21 +250,21 @@ window.NEWS_DATA = {
       "name": "新潟",
       "region": "北陸",
       "temp": 10,
-      "code": 55,
+      "code": 2,
       "wind": 24,
       "maxTemp": 10,
-      "minTemp": 7,
+      "minTemp": 6,
       "pop": 100,
       "hourly": [
         {
           "time": "02:00",
-          "code": 55,
+          "code": 51,
           "temp": 10,
           "pop": 100
         },
         {
           "time": "05:00",
-          "code": 1,
+          "code": 2,
           "temp": 9,
           "pop": 67
         },
@@ -276,14 +276,14 @@ window.NEWS_DATA = {
         },
         {
           "time": "11:00",
-          "code": 53,
+          "code": 51,
           "temp": 7,
           "pop": 66
         },
         {
           "time": "14:00",
           "code": 51,
-          "temp": 7,
+          "temp": 6,
           "pop": 57
         },
         {
@@ -309,23 +309,23 @@ window.NEWS_DATA = {
         {
           "date": "11/29",
           "dow": "今日",
-          "code": 55,
+          "code": 63,
           "maxTemp": 10,
-          "minTemp": 7,
+          "minTemp": 6,
           "pop": 100
         },
         {
           "date": "11/30",
           "dow": "明日",
           "code": 3,
-          "maxTemp": 14,
+          "maxTemp": 15,
           "minTemp": 6,
           "pop": 75
         },
         {
           "date": "12/1",
           "dow": "火",
-          "code": 61,
+          "code": 63,
           "maxTemp": 18,
           "minTemp": 10,
           "pop": 80
@@ -334,7 +334,7 @@ window.NEWS_DATA = {
           "date": "12/2",
           "dow": "水",
           "code": 3,
-          "maxTemp": 12,
+          "maxTemp": 13,
           "minTemp": 8,
           "pop": 12
         },
@@ -367,29 +367,29 @@ window.NEWS_DATA = {
     {
       "name": "金沢",
       "region": "北陸",
-      "temp": 9,
-      "code": 61,
-      "wind": 3,
+      "temp": 7,
+      "code": 51,
+      "wind": 6,
       "maxTemp": 9,
-      "minTemp": 4,
+      "minTemp": 3,
       "pop": 100,
       "hourly": [
         {
           "time": "02:00",
-          "code": 61,
+          "code": 63,
           "temp": 9,
           "pop": 100
         },
         {
           "time": "05:00",
           "code": 63,
-          "temp": 7,
+          "temp": 5,
           "pop": 100
         },
         {
           "time": "08:00",
-          "code": 51,
-          "temp": 6,
+          "code": 61,
+          "temp": 5,
           "pop": 100
         },
         {
@@ -406,7 +406,7 @@ window.NEWS_DATA = {
         },
         {
           "time": "17:00",
-          "code": 2,
+          "code": 1,
           "temp": 8,
           "pop": 69
         },
@@ -418,7 +418,7 @@ window.NEWS_DATA = {
         },
         {
           "time": "23:00",
-          "code": 2,
+          "code": 1,
           "temp": 6,
           "pop": 0
         }
@@ -427,9 +427,9 @@ window.NEWS_DATA = {
         {
           "date": "11/29",
           "dow": "今日",
-          "code": 63,
+          "code": 65,
           "maxTemp": 9,
-          "minTemp": 4,
+          "minTemp": 3,
           "pop": 100
         },
         {
@@ -437,15 +437,15 @@ window.NEWS_DATA = {
           "dow": "明日",
           "code": 2,
           "maxTemp": 15,
-          "minTemp": 7,
+          "minTemp": 6,
           "pop": 0
         },
         {
           "date": "12/1",
           "dow": "火",
-          "code": 51,
+          "code": 3,
           "maxTemp": 18,
-          "minTemp": 10,
+          "minTemp": 14,
           "pop": 86
         },
         {
@@ -486,22 +486,22 @@ window.NEWS_DATA = {
       "name": "東京",
       "region": "関東",
       "temp": 12,
-      "code": 1,
-      "wind": 5,
+      "code": 2,
+      "wind": 10,
       "maxTemp": 13,
       "minTemp": 7,
       "pop": 35,
       "hourly": [
         {
           "time": "02:00",
-          "code": 1,
+          "code": 2,
           "temp": 12,
           "pop": 22
         },
         {
           "time": "05:00",
-          "code": 1,
-          "temp": 10,
+          "code": 2,
+          "temp": 11,
           "pop": 33
         },
         {
@@ -545,7 +545,7 @@ window.NEWS_DATA = {
         {
           "date": "11/29",
           "dow": "今日",
-          "code": 53,
+          "code": 3,
           "maxTemp": 13,
           "minTemp": 7,
           "pop": 35
@@ -554,7 +554,7 @@ window.NEWS_DATA = {
           "date": "11/30",
           "dow": "明日",
           "code": 1,
-          "maxTemp": 15,
+          "maxTemp": 14,
           "minTemp": 5,
           "pop": 0
         },
@@ -603,41 +603,41 @@ window.NEWS_DATA = {
     {
       "name": "名古屋",
       "region": "東海",
-      "temp": 8,
-      "code": 51,
-      "wind": 5,
+      "temp": 9,
+      "code": 1,
+      "wind": 6,
       "maxTemp": 11,
       "minTemp": 6,
       "pop": 71,
       "hourly": [
         {
           "time": "02:00",
-          "code": 51,
-          "temp": 8,
+          "code": 1,
+          "temp": 9,
           "pop": 25
         },
         {
           "time": "05:00",
-          "code": 2,
+          "code": 1,
           "temp": 8,
           "pop": 55
         },
         {
           "time": "08:00",
-          "code": 51,
+          "code": 3,
           "temp": 7,
           "pop": 71
         },
         {
           "time": "11:00",
-          "code": 1,
+          "code": 0,
           "temp": 10,
           "pop": 23
         },
         {
           "time": "14:00",
           "code": 1,
-          "temp": 10,
+          "temp": 11,
           "pop": 0
         },
         {
@@ -673,15 +673,15 @@ window.NEWS_DATA = {
           "dow": "明日",
           "code": 1,
           "maxTemp": 14,
-          "minTemp": 4,
+          "minTemp": 3,
           "pop": 0
         },
         {
           "date": "12/1",
           "dow": "火",
-          "code": 0,
+          "code": 1,
           "maxTemp": 17,
-          "minTemp": 6,
+          "minTemp": 5,
           "pop": 0
         },
         {
@@ -723,39 +723,39 @@ window.NEWS_DATA = {
       "region": "近畿",
       "temp": 9,
       "code": 1,
-      "wind": 10,
-      "maxTemp": 12,
+      "wind": 9,
+      "maxTemp": 13,
       "minTemp": 8,
       "pop": 20,
       "hourly": [
         {
           "time": "02:00",
           "code": 1,
-          "temp": 9,
+          "temp": 10,
           "pop": 1
         },
         {
           "time": "05:00",
           "code": 0,
-          "temp": 8,
+          "temp": 9,
           "pop": 0
         },
         {
           "time": "08:00",
-          "code": 0,
+          "code": 1,
           "temp": 9,
           "pop": 0
         },
         {
           "time": "11:00",
-          "code": 0,
-          "temp": 11,
+          "code": 1,
+          "temp": 12,
           "pop": 16
         },
         {
           "time": "14:00",
           "code": 2,
-          "temp": 11,
+          "temp": 12,
           "pop": 7
         },
         {
@@ -772,7 +772,7 @@ window.NEWS_DATA = {
         },
         {
           "time": "23:00",
-          "code": 1,
+          "code": 0,
           "temp": 8,
           "pop": 0
         }
@@ -781,23 +781,23 @@ window.NEWS_DATA = {
         {
           "date": "11/29",
           "dow": "今日",
-          "code": 3,
-          "maxTemp": 12,
+          "code": 2,
+          "maxTemp": 13,
           "minTemp": 8,
           "pop": 20
         },
         {
           "date": "11/30",
           "dow": "明日",
-          "code": 2,
+          "code": 1,
           "maxTemp": 15,
-          "minTemp": 5,
+          "minTemp": 6,
           "pop": 0
         },
         {
           "date": "12/1",
           "dow": "火",
-          "code": 2,
+          "code": 1,
           "maxTemp": 18,
           "minTemp": 8,
           "pop": 0
@@ -842,7 +842,7 @@ window.NEWS_DATA = {
       "temp": 7,
       "code": 0,
       "wind": 9,
-      "maxTemp": 11,
+      "maxTemp": 12,
       "minTemp": 4,
       "pop": 100,
       "hourly": [
@@ -900,14 +900,14 @@ window.NEWS_DATA = {
           "date": "11/29",
           "dow": "今日",
           "code": 1,
-          "maxTemp": 11,
+          "maxTemp": 12,
           "minTemp": 4,
           "pop": 100
         },
         {
           "date": "11/30",
           "dow": "明日",
-          "code": 1,
+          "code": 0,
           "maxTemp": 16,
           "minTemp": 3,
           "pop": 0
@@ -917,7 +917,7 @@ window.NEWS_DATA = {
           "dow": "火",
           "code": 1,
           "maxTemp": 19,
-          "minTemp": 7,
+          "minTemp": 10,
           "pop": 6
         },
         {
@@ -957,29 +957,29 @@ window.NEWS_DATA = {
     {
       "name": "高知",
       "region": "四国",
-      "temp": 7,
+      "temp": 8,
       "code": 0,
-      "wind": 7,
+      "wind": 8,
       "maxTemp": 13,
-      "minTemp": 5,
+      "minTemp": 6,
       "pop": 92,
       "hourly": [
         {
           "time": "02:00",
           "code": 0,
-          "temp": 7,
+          "temp": 8,
           "pop": 64
         },
         {
           "time": "05:00",
-          "code": 1,
-          "temp": 6,
+          "code": 0,
+          "temp": 7,
           "pop": 11
         },
         {
           "time": "08:00",
           "code": 0,
-          "temp": 7,
+          "temp": 8,
           "pop": 0
         },
         {
@@ -1017,9 +1017,9 @@ window.NEWS_DATA = {
         {
           "date": "11/29",
           "dow": "今日",
-          "code": 1,
+          "code": 0,
           "maxTemp": 13,
-          "minTemp": 5,
+          "minTemp": 6,
           "pop": 92
         },
         {
@@ -1027,7 +1027,7 @@ window.NEWS_DATA = {
           "dow": "明日",
           "code": 1,
           "maxTemp": 16,
-          "minTemp": 4,
+          "minTemp": 5,
           "pop": 0
         },
         {
@@ -1035,7 +1035,7 @@ window.NEWS_DATA = {
           "dow": "火",
           "code": 0,
           "maxTemp": 20,
-          "minTemp": 8,
+          "minTemp": 9,
           "pop": 0
         },
         {
@@ -1077,7 +1077,7 @@ window.NEWS_DATA = {
       "region": "九州",
       "temp": 10,
       "code": 2,
-      "wind": 38,
+      "wind": 36,
       "maxTemp": 10,
       "minTemp": 7,
       "pop": 98,
@@ -1144,16 +1144,16 @@ window.NEWS_DATA = {
           "date": "11/30",
           "dow": "明日",
           "code": 1,
-          "maxTemp": 18,
+          "maxTemp": 17,
           "minTemp": 7,
           "pop": 0
         },
         {
           "date": "12/1",
           "dow": "火",
-          "code": 45,
+          "code": 2,
           "maxTemp": 21,
-          "minTemp": 9,
+          "minTemp": 14,
           "pop": 12
         },
         {
@@ -3380,24 +3380,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "subculture",
-      "title": "TVアニメ『チー付与』実写版暗殺の母「料理」",
-      "source": "youtube.com",
-      "publishedAt": "2026-11-28 12:03",
-      "publishedTs": 1795834995,
-      "image": "https://b.hatena.ne.jp/entry/image/https://www.youtube.com/watch?v=U1TdIcsA8Rw",
-      "summary": "累計発行部数180万部を突破した人気異世界ファンタジー『チー付与』がP.A.WORKSによりアニメ化。中毒性の高いギャグと魅力的なキャラクターが話題です。",
+      "title": "惑星探検ゲーム『The Botanist and the Translator』発表",
+      "source": "AUTOMATON",
+      "publishedAt": "2026-11-28 10:50",
+      "publishedTs": 1795830645,
+      "image": "https://automaton-media.com/wp-content/uploads/2026/11/20261128-481450-header.jpg",
+      "summary": "Team Cherryは11月28日、自然豊かな惑星を舞台にした新作探検ゲーム『The Botanist and the Translator』を発表しました。植物学者が「どうぶつ通訳」とともに惑星の謎に迫ります。",
       "points": [
-        "原作は累計180万部突破の月マガ発の人気作",
-        "P.A.WORKSが圧倒的クオリティでアニメ化",
-        "カオスなギャグとキャラクターが熱狂的支持を獲得"
+        "Team Cherryによる新作惑星探検ゲームが発表",
+        "植物学者が「どうぶつ通訳」と協力して惑星の謎を解き明かす",
+        "自然や動物との触れ合いをテーマにしたアドベンチャー作品"
       ],
-      "impact": "アニメ化による原作ファンの拡大や、SNSでの関連コンテンツの盛り上がりに注目が集まります。",
+      "impact": "人気スタジオの新作発表として、インディーゲームファンを中心に高い注目を集めそうです。",
       "tags": [
-        "アニメ",
-        "チー付与",
-        "サブカルチャー"
+        "新作ゲーム",
+        "インディーゲーム",
+        "Team Cherry"
       ],
-      "url": "https://www.youtube.com/watch?v=U1TdIcsA8Rw",
+      "url": "https://automaton-media.com/articles/newsjp/20261128-481450/",
       "isAiEnriched": true
     },
     {
@@ -3490,24 +3490,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "subculture",
-      "title": "惑星探検ゲーム『The Botanist and the Translator』発表",
-      "source": "AUTOMATON",
-      "publishedAt": "2026-11-28 10:50",
-      "publishedTs": 1795830645,
-      "image": "https://automaton-media.com/wp-content/uploads/2026/11/20261128-481450-header.jpg",
-      "summary": "Team Cherryは11月28日、自然豊かな惑星を舞台にした新作探検ゲーム『The Botanist and the Translator』を発表しました。植物学者が「どうぶつ通訳」とともに惑星の謎に迫ります。",
+      "title": "TVアニメ『チー付与』実写版暗殺の母「料理」",
+      "source": "youtube.com",
+      "publishedAt": "2026-11-28 12:03",
+      "publishedTs": 1795834995,
+      "image": "https://b.hatena.ne.jp/entry/image/https://www.youtube.com/watch?v=U1TdIcsA8Rw",
+      "summary": "累計発行部数180万部を突破した人気異世界ファンタジー『チー付与』がP.A.WORKSによりアニメ化。中毒性の高いギャグと魅力的なキャラクターが話題です。",
       "points": [
-        "Team Cherryによる新作惑星探検ゲームが発表",
-        "植物学者が「どうぶつ通訳」と協力して惑星の謎を解き明かす",
-        "自然や動物との触れ合いをテーマにしたアドベンチャー作品"
+        "原作は累計180万部突破の月マガ発の人気作",
+        "P.A.WORKSが圧倒的クオリティでアニメ化",
+        "カオスなギャグとキャラクターが熱狂的支持を獲得"
       ],
-      "impact": "人気スタジオの新作発表として、インディーゲームファンを中心に高い注目を集めそうです。",
+      "impact": "アニメ化による原作ファンの拡大や、SNSでの関連コンテンツの盛り上がりに注目が集まります。",
       "tags": [
-        "新作ゲーム",
-        "インディーゲーム",
-        "Team Cherry"
+        "アニメ",
+        "チー付与",
+        "サブカルチャー"
       ],
-      "url": "https://automaton-media.com/articles/newsjp/20261128-481450/",
+      "url": "https://www.youtube.com/watch?v=U1TdIcsA8Rw",
       "isAiEnriched": true
     },
     {
@@ -3820,24 +3820,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "subculture",
-      "title": "「稼ぎたい」と入社の45歳新人、初日からスマホゲームで波紋",
-      "source": "togetter.com",
-      "publishedAt": "2026-11-28 08:48",
-      "publishedTs": 1795823333,
-      "image": "https://s.tgstc.com/ogp3/6959af220a35862306ce9fe32d7148d0-1200x630.jpeg",
-      "summary": "稼ぎたいという理由で入社した45歳の新人が、初日の同乗指導中に助手席でスマホゲームを始め、その後も楽な仕事を要求して退職したという体験談がSNSで注目を集めています。",
+      "title": "阿佐ヶ谷サキュバス同人物語・第29話が配信開始",
+      "source": "championcross.jp",
+      "publishedAt": "2026-11-28 09:36",
+      "publishedTs": 1795826168,
+      "image": "https://cdn-public.comici.jp/episode/1794899417/03e7b5c410e68a3b.webp",
+      "summary": "同人で生計を立てる佐藤莉奈と洋風美女を巡るドタバタを描く「阿佐ヶ谷サキュバス同人物語」の第29話がチャンピオンクロスで公開され、衝撃の展開を迎えています。",
       "points": [
-        "稼ぎたいと入社した45歳新人が初日の車内でスマホゲーム",
-        "その後も楽な仕事を要求し、最終的に退職したエピソード",
-        "仕事に対する意識や常識のギャップがSNSで話題に"
+        "同人作家の主人公がコンビニでトラブルに遭遇",
+        "突如現れた洋風美女との契約を描くコメディ",
+        "チャンピオンクロスにて第29話が公開"
       ],
-      "impact": "採用時のミスマッチ防止や、現場での指導方法の難しさが浮き彫りになりました。",
+      "impact": "Webマンガプラットフォームにおける話題作の動向として、読者のエンゲージメントを高めています。",
       "tags": [
-        "労働",
-        "SNS",
-        "採用"
+        "漫画",
+        "チャンピオンクロス",
+        "サブカルチャー"
       ],
-      "url": "https://togetter.com/li/2775912",
+      "url": "https://championcross.jp/episodes/73928d87f8578",
       "isAiEnriched": true
     },
     {
@@ -3930,24 +3930,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "subculture",
-      "title": "阿佐ヶ谷サキュバス同人物語・第29話が配信開始",
-      "source": "championcross.jp",
-      "publishedAt": "2026-11-28 09:36",
-      "publishedTs": 1795826168,
-      "image": "https://cdn-public.comici.jp/episode/1794899417/03e7b5c410e68a3b.webp",
-      "summary": "同人で生計を立てる佐藤莉奈と洋風美女を巡るドタバタを描く「阿佐ヶ谷サキュバス同人物語」の第29話がチャンピオンクロスで公開され、衝撃の展開を迎えています。",
+      "title": "「稼ぎたい」と入社の45歳新人、初日からスマホゲームで波紋",
+      "source": "togetter.com",
+      "publishedAt": "2026-11-28 08:48",
+      "publishedTs": 1795823333,
+      "image": "https://s.tgstc.com/ogp3/6959af220a35862306ce9fe32d7148d0-1200x630.jpeg",
+      "summary": "稼ぎたいという理由で入社した45歳の新人が、初日の同乗指導中に助手席でスマホゲームを始め、その後も楽な仕事を要求して退職したという体験談がSNSで注目を集めています。",
       "points": [
-        "同人作家の主人公がコンビニでトラブルに遭遇",
-        "突如現れた洋風美女との契約を描くコメディ",
-        "チャンピオンクロスにて第29話が公開"
+        "稼ぎたいと入社した45歳新人が初日の車内でスマホゲーム",
+        "その後も楽な仕事を要求し、最終的に退職したエピソード",
+        "仕事に対する意識や常識のギャップがSNSで話題に"
       ],
-      "impact": "Webマンガプラットフォームにおける話題作の動向として、読者のエンゲージメントを高めています。",
+      "impact": "採用時のミスマッチ防止や、現場での指導方法の難しさが浮き彫りになりました。",
       "tags": [
-        "漫画",
-        "チャンピオンクロス",
-        "サブカルチャー"
+        "労働",
+        "SNS",
+        "採用"
       ],
-      "url": "https://championcross.jp/episodes/73928d87f8578",
+      "url": "https://togetter.com/li/2775912",
       "isAiEnriched": true
     },
     {
@@ -4146,6 +4146,28 @@ window.NEWS_DATA = {
         "SNS"
       ],
       "url": "https://news.yahoo.co.jp/articles/b98124f9401b48ac52b21457908784f498c01347?source=rss",
+      "isAiEnriched": true
+    },
+    {
+      "category": "subculture",
+      "title": "Yakult1000大流行の裏話、ヤクルトレディが購入希望者から逃げ隠れ",
+      "source": "togetter.com",
+      "publishedAt": "2026-11-28 10:30",
+      "publishedTs": 1795829422,
+      "image": "https://s.tgstc.com/ogp3/94449d0594f9218b2fec0071b373e39f-1200x630.jpeg",
+      "summary": "「Yakult1000」がSNS等で大流行していた当時、職場を訪れるヤクルトレディが購入を希望する人々から追いかけられ、逃げ隠れるほどだったというエピソードが話題を集めている。",
+      "points": [
+        "Yakult1000がSNSを中心に爆発的なブームとなった時期の体験談",
+        "購入を希望する人々がヤクルトレディを追いかける事態が発生していた",
+        "あまりの勢いに、ヤクルトレディ側が逃げ隠れるほどだったと語られている"
+      ],
+      "impact": "ヒット商品の裏側で現場の販売員が直面した過熱ぶりが窺え、ブーム時の供給や販売現場の負担について改めて注目が集まっている。",
+      "tags": [
+        "Yakult1000",
+        "ヤクルトレディ",
+        "SNS話題"
+      ],
+      "url": "https://togetter.com/li/2775927",
       "isAiEnriched": true
     },
     {
