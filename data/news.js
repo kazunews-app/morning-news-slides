@@ -1,208 +1,208 @@
 window.NEWS_DATA = {
   "date": "2026年11月29日 (日)",
-  "updatedAt": "2026-11-29 01:17",
+  "updatedAt": "2026-11-29 02:11",
   "title": "TREND NEWS",
   "keywords": [
-    "少年ジャンプ＋",
-    "デューン完結編",
-    "玉城ティナ",
-    "佐々木主浩",
-    "エンタメ・サブカル"
+    "おせち食材高騰",
+    "イクラ1粒7円",
+    "辺野古沖転覆事故",
+    "京都混雑ピーク",
+    "迷惑行為再燃"
   ],
   "weatherCities": [
     {
       "name": "札幌",
       "region": "北海道",
-      "temp": -1,
-      "code": 80,
-      "wind": 4,
-      "maxTemp": 8,
-      "minTemp": -1,
-      "pop": 30,
+      "temp": 2,
+      "code": 2,
+      "wind": 18,
+      "maxTemp": 3,
+      "minTemp": -2,
+      "pop": 80,
       "hourly": [
         {
-          "time": "00:00",
-          "code": 80,
-          "temp": -1,
-          "pop": 30
-        },
-        {
-          "time": "03:00",
-          "code": 80,
-          "temp": 0,
-          "pop": 30
-        },
-        {
-          "time": "06:00",
-          "code": 80,
+          "time": "02:00",
+          "code": 71,
           "temp": 2,
-          "pop": 30
+          "pop": 80
         },
         {
-          "time": "09:00",
-          "code": 80,
-          "temp": 4,
-          "pop": 30
+          "time": "05:00",
+          "code": 2,
+          "temp": 0,
+          "pop": 24
         },
         {
-          "time": "12:00",
-          "code": 80,
-          "temp": 6,
-          "pop": 30
+          "time": "08:00",
+          "code": 2,
+          "temp": 0,
+          "pop": 32
         },
         {
-          "time": "15:00",
-          "code": 80,
-          "temp": 7,
-          "pop": 30
+          "time": "11:00",
+          "code": 85,
+          "temp": 0,
+          "pop": 68
         },
         {
-          "time": "18:00",
-          "code": 80,
-          "temp": 5,
-          "pop": 30
+          "time": "14:00",
+          "code": 1,
+          "temp": 0,
+          "pop": 35
         },
         {
-          "time": "21:00",
-          "code": 80,
-          "temp": 3,
-          "pop": 30
+          "time": "17:00",
+          "code": 1,
+          "temp": -2,
+          "pop": 3
+        },
+        {
+          "time": "20:00",
+          "code": 2,
+          "temp": -2,
+          "pop": 0
+        },
+        {
+          "time": "23:00",
+          "code": 2,
+          "temp": -2,
+          "pop": 2
         }
       ],
       "daily": [
         {
           "date": "11/29",
           "dow": "今日",
-          "code": 3,
-          "maxTemp": 8,
-          "minTemp": -1,
-          "pop": 30
+          "code": 85,
+          "maxTemp": 3,
+          "minTemp": -2,
+          "pop": 80
         },
         {
           "date": "11/30",
           "dow": "明日",
-          "code": 3,
-          "maxTemp": 8,
-          "minTemp": -1,
-          "pop": 70
+          "code": 55,
+          "maxTemp": 7,
+          "minTemp": -2,
+          "pop": 71
         },
         {
           "date": "12/1",
           "dow": "火",
-          "code": 3,
-          "maxTemp": 11,
-          "minTemp": 1,
-          "pop": 50
+          "code": 80,
+          "maxTemp": 10,
+          "minTemp": 2,
+          "pop": 99
         },
         {
           "date": "12/2",
           "dow": "水",
           "code": 3,
           "maxTemp": 4,
-          "minTemp": 1,
-          "pop": 40
+          "minTemp": -1,
+          "pop": 53
         },
         {
           "date": "12/3",
           "dow": "木",
-          "code": 3,
-          "maxTemp": 4,
-          "minTemp": 1,
-          "pop": 50
+          "code": 73,
+          "maxTemp": 2,
+          "minTemp": -2,
+          "pop": 85
         },
         {
           "date": "12/4",
           "dow": "金",
-          "code": 3,
-          "maxTemp": 4,
-          "minTemp": 0,
-          "pop": 50
+          "code": 73,
+          "maxTemp": 2,
+          "minTemp": -2,
+          "pop": 45
         },
         {
           "date": "12/5",
           "dow": "土",
-          "code": 3,
-          "maxTemp": 4,
-          "minTemp": 0,
-          "pop": 60
+          "code": 73,
+          "maxTemp": 3,
+          "minTemp": -3,
+          "pop": 82
         }
       ]
     },
     {
       "name": "仙台",
       "region": "東北",
-      "temp": 6,
-      "code": 80,
-      "wind": 4,
-      "maxTemp": 16,
+      "temp": 8,
+      "code": 2,
+      "wind": 8,
+      "maxTemp": 8,
       "minTemp": 3,
-      "pop": 20,
+      "pop": 96,
       "hourly": [
         {
-          "time": "00:00",
-          "code": 80,
-          "temp": 3,
-          "pop": 20
-        },
-        {
-          "time": "03:00",
-          "code": 80,
-          "temp": 4,
-          "pop": 20
-        },
-        {
-          "time": "06:00",
-          "code": 80,
-          "temp": 7,
-          "pop": 20
-        },
-        {
-          "time": "09:00",
-          "code": 80,
-          "temp": 11,
-          "pop": 20
-        },
-        {
-          "time": "12:00",
-          "code": 80,
-          "temp": 14,
-          "pop": 20
-        },
-        {
-          "time": "15:00",
-          "code": 80,
-          "temp": 15,
-          "pop": 20
-        },
-        {
-          "time": "18:00",
-          "code": 80,
-          "temp": 12,
-          "pop": 20
-        },
-        {
-          "time": "21:00",
-          "code": 80,
+          "time": "02:00",
+          "code": 2,
           "temp": 8,
-          "pop": 20
+          "pop": 81
+        },
+        {
+          "time": "05:00",
+          "code": 0,
+          "temp": 6,
+          "pop": 58
+        },
+        {
+          "time": "08:00",
+          "code": 51,
+          "temp": 5,
+          "pop": 51
+        },
+        {
+          "time": "11:00",
+          "code": 51,
+          "temp": 6,
+          "pop": 71
+        },
+        {
+          "time": "14:00",
+          "code": 51,
+          "temp": 6,
+          "pop": 64
+        },
+        {
+          "time": "17:00",
+          "code": 1,
+          "temp": 4,
+          "pop": 35
+        },
+        {
+          "time": "20:00",
+          "code": 0,
+          "temp": 4,
+          "pop": 8
+        },
+        {
+          "time": "23:00",
+          "code": 0,
+          "temp": 4,
+          "pop": 0
         }
       ],
       "daily": [
         {
           "date": "11/29",
           "dow": "今日",
-          "code": 3,
-          "maxTemp": 16,
+          "code": 51,
+          "maxTemp": 8,
           "minTemp": 3,
-          "pop": 20
+          "pop": 96
         },
         {
           "date": "11/30",
           "dow": "明日",
           "code": 1,
-          "maxTemp": 16,
-          "minTemp": 3,
-          "pop": 20
+          "maxTemp": 15,
+          "minTemp": 2,
+          "pop": 0
         },
         {
           "date": "12/1",
@@ -210,511 +210,511 @@ window.NEWS_DATA = {
           "code": 3,
           "maxTemp": 18,
           "minTemp": 7,
-          "pop": 30
+          "pop": 45
         },
         {
           "date": "12/2",
           "dow": "水",
-          "code": 1,
-          "maxTemp": 14,
-          "minTemp": 5,
-          "pop": 20
+          "code": 3,
+          "maxTemp": 12,
+          "minTemp": 2,
+          "pop": 0
         },
         {
           "date": "12/3",
           "dow": "木",
-          "code": 3,
-          "maxTemp": 14,
+          "code": 53,
+          "maxTemp": 15,
           "minTemp": 4,
-          "pop": 20
+          "pop": 63
         },
         {
           "date": "12/4",
           "dow": "金",
-          "code": 3,
-          "maxTemp": 14,
-          "minTemp": 6,
-          "pop": 30
+          "code": 53,
+          "maxTemp": 12,
+          "minTemp": 2,
+          "pop": 63
         },
         {
           "date": "12/5",
           "dow": "土",
           "code": 3,
           "maxTemp": 15,
-          "minTemp": 5,
-          "pop": 30
+          "minTemp": 2,
+          "pop": 18
         }
       ]
     },
     {
       "name": "新潟",
       "region": "北陸",
-      "temp": 5,
-      "code": 95,
-      "wind": 4,
-      "maxTemp": 16,
-      "minTemp": 5,
-      "pop": 90,
+      "temp": 10,
+      "code": 55,
+      "wind": 24,
+      "maxTemp": 10,
+      "minTemp": 7,
+      "pop": 100,
       "hourly": [
         {
-          "time": "00:00",
-          "code": 95,
-          "temp": 5,
-          "pop": 90
-        },
-        {
-          "time": "03:00",
-          "code": 95,
-          "temp": 6,
-          "pop": 90
-        },
-        {
-          "time": "06:00",
-          "code": 95,
-          "temp": 9,
-          "pop": 90
-        },
-        {
-          "time": "09:00",
-          "code": 95,
-          "temp": 11,
-          "pop": 90
-        },
-        {
-          "time": "12:00",
-          "code": 95,
-          "temp": 14,
-          "pop": 90
-        },
-        {
-          "time": "15:00",
-          "code": 95,
-          "temp": 15,
-          "pop": 90
-        },
-        {
-          "time": "18:00",
-          "code": 95,
-          "temp": 12,
-          "pop": 90
-        },
-        {
-          "time": "21:00",
-          "code": 95,
+          "time": "02:00",
+          "code": 55,
           "temp": 10,
-          "pop": 90
+          "pop": 100
+        },
+        {
+          "time": "05:00",
+          "code": 1,
+          "temp": 9,
+          "pop": 67
+        },
+        {
+          "time": "08:00",
+          "code": 51,
+          "temp": 8,
+          "pop": 65
+        },
+        {
+          "time": "11:00",
+          "code": 53,
+          "temp": 7,
+          "pop": 66
+        },
+        {
+          "time": "14:00",
+          "code": 51,
+          "temp": 7,
+          "pop": 57
+        },
+        {
+          "time": "17:00",
+          "code": 51,
+          "temp": 7,
+          "pop": 69
+        },
+        {
+          "time": "20:00",
+          "code": 2,
+          "temp": 7,
+          "pop": 50
+        },
+        {
+          "time": "23:00",
+          "code": 1,
+          "temp": 8,
+          "pop": 20
         }
       ],
       "daily": [
         {
           "date": "11/29",
           "dow": "今日",
-          "code": 61,
-          "maxTemp": 16,
-          "minTemp": 5,
-          "pop": 90
+          "code": 55,
+          "maxTemp": 10,
+          "minTemp": 7,
+          "pop": 100
         },
         {
           "date": "11/30",
           "dow": "明日",
           "code": 3,
-          "maxTemp": 16,
-          "minTemp": 5,
-          "pop": 30
+          "maxTemp": 14,
+          "minTemp": 6,
+          "pop": 75
         },
         {
           "date": "12/1",
           "dow": "火",
-          "code": 3,
+          "code": 61,
           "maxTemp": 18,
-          "minTemp": 9,
-          "pop": 50
+          "minTemp": 10,
+          "pop": 80
         },
         {
           "date": "12/2",
           "dow": "水",
           "code": 3,
-          "maxTemp": 15,
-          "minTemp": 6,
-          "pop": 40
+          "maxTemp": 12,
+          "minTemp": 8,
+          "pop": 12
         },
         {
           "date": "12/3",
           "dow": "木",
-          "code": 3,
-          "maxTemp": 16,
-          "minTemp": 6,
-          "pop": 50
+          "code": 95,
+          "maxTemp": 18,
+          "minTemp": 5,
+          "pop": 94
         },
         {
           "date": "12/4",
           "dow": "金",
-          "code": 3,
-          "maxTemp": 14,
+          "code": 95,
+          "maxTemp": 12,
           "minTemp": 7,
-          "pop": 50
+          "pop": 80
         },
         {
           "date": "12/5",
           "dow": "土",
-          "code": 3,
-          "maxTemp": 16,
-          "minTemp": 8,
-          "pop": 60
+          "code": 53,
+          "maxTemp": 14,
+          "minTemp": 7,
+          "pop": 63
         }
       ]
     },
     {
       "name": "金沢",
       "region": "北陸",
-      "temp": 6,
-      "code": 95,
-      "wind": 4,
-      "maxTemp": 16,
-      "minTemp": 5,
-      "pop": 90,
+      "temp": 9,
+      "code": 61,
+      "wind": 3,
+      "maxTemp": 9,
+      "minTemp": 4,
+      "pop": 100,
       "hourly": [
         {
-          "time": "00:00",
-          "code": 95,
-          "temp": 5,
-          "pop": 90
-        },
-        {
-          "time": "03:00",
-          "code": 95,
-          "temp": 6,
-          "pop": 90
-        },
-        {
-          "time": "06:00",
-          "code": 95,
+          "time": "02:00",
+          "code": 61,
           "temp": 9,
-          "pop": 90
+          "pop": 100
         },
         {
-          "time": "09:00",
-          "code": 95,
-          "temp": 11,
-          "pop": 90
+          "time": "05:00",
+          "code": 63,
+          "temp": 7,
+          "pop": 100
         },
         {
-          "time": "12:00",
-          "code": 95,
-          "temp": 14,
-          "pop": 90
+          "time": "08:00",
+          "code": 51,
+          "temp": 6,
+          "pop": 100
         },
         {
-          "time": "15:00",
-          "code": 95,
-          "temp": 15,
-          "pop": 90
+          "time": "11:00",
+          "code": 51,
+          "temp": 7,
+          "pop": 100
         },
         {
-          "time": "18:00",
-          "code": 95,
-          "temp": 12,
-          "pop": 90
+          "time": "14:00",
+          "code": 51,
+          "temp": 8,
+          "pop": 100
         },
         {
-          "time": "21:00",
-          "code": 95,
-          "temp": 10,
-          "pop": 90
+          "time": "17:00",
+          "code": 2,
+          "temp": 8,
+          "pop": 69
+        },
+        {
+          "time": "20:00",
+          "code": 2,
+          "temp": 7,
+          "pop": 15
+        },
+        {
+          "time": "23:00",
+          "code": 2,
+          "temp": 6,
+          "pop": 0
         }
       ],
       "daily": [
         {
           "date": "11/29",
           "dow": "今日",
-          "code": 61,
-          "maxTemp": 16,
-          "minTemp": 5,
-          "pop": 90
+          "code": 63,
+          "maxTemp": 9,
+          "minTemp": 4,
+          "pop": 100
         },
         {
           "date": "11/30",
           "dow": "明日",
-          "code": 1,
-          "maxTemp": 16,
-          "minTemp": 5,
-          "pop": 20
+          "code": 2,
+          "maxTemp": 15,
+          "minTemp": 7,
+          "pop": 0
         },
         {
           "date": "12/1",
           "dow": "火",
-          "code": 3,
-          "maxTemp": 19,
+          "code": 51,
+          "maxTemp": 18,
           "minTemp": 10,
-          "pop": 40
+          "pop": 86
         },
         {
           "date": "12/2",
           "dow": "水",
-          "code": 3,
-          "maxTemp": 17,
-          "minTemp": 9,
-          "pop": 30
+          "code": 45,
+          "maxTemp": 16,
+          "minTemp": 5,
+          "pop": 4
         },
         {
           "date": "12/3",
           "dow": "木",
-          "code": 3,
-          "maxTemp": 18,
-          "minTemp": 8,
-          "pop": 50
+          "code": 95,
+          "maxTemp": 20,
+          "minTemp": 4,
+          "pop": 95
         },
         {
           "date": "12/4",
           "dow": "金",
-          "code": 3,
-          "maxTemp": 17,
-          "minTemp": 10,
-          "pop": 50
+          "code": 95,
+          "maxTemp": 15,
+          "minTemp": 8,
+          "pop": 90
         },
         {
           "date": "12/5",
           "dow": "土",
-          "code": 3,
+          "code": 51,
           "maxTemp": 18,
-          "minTemp": 10,
-          "pop": 60
+          "minTemp": 8,
+          "pop": 63
         }
       ]
     },
     {
       "name": "東京",
       "region": "関東",
-      "temp": 9,
-      "code": 3,
-      "wind": 4,
-      "maxTemp": 16,
-      "minTemp": 5,
-      "pop": 10,
+      "temp": 12,
+      "code": 1,
+      "wind": 5,
+      "maxTemp": 13,
+      "minTemp": 7,
+      "pop": 35,
       "hourly": [
         {
-          "time": "00:00",
-          "code": 3,
-          "temp": 5,
-          "pop": 10
-        },
-        {
-          "time": "03:00",
-          "code": 3,
-          "temp": 6,
-          "pop": 10
-        },
-        {
-          "time": "06:00",
-          "code": 3,
-          "temp": 9,
-          "pop": 10
-        },
-        {
-          "time": "09:00",
-          "code": 3,
-          "temp": 11,
-          "pop": 10
-        },
-        {
-          "time": "12:00",
-          "code": 3,
-          "temp": 14,
-          "pop": 10
-        },
-        {
-          "time": "15:00",
-          "code": 3,
-          "temp": 15,
-          "pop": 10
-        },
-        {
-          "time": "18:00",
-          "code": 3,
+          "time": "02:00",
+          "code": 1,
           "temp": 12,
-          "pop": 10
+          "pop": 22
         },
         {
-          "time": "21:00",
-          "code": 3,
+          "time": "05:00",
+          "code": 1,
           "temp": 10,
-          "pop": 10
+          "pop": 33
+        },
+        {
+          "time": "08:00",
+          "code": 2,
+          "temp": 10,
+          "pop": 11
+        },
+        {
+          "time": "11:00",
+          "code": 1,
+          "temp": 12,
+          "pop": 0
+        },
+        {
+          "time": "14:00",
+          "code": 0,
+          "temp": 13,
+          "pop": 1
+        },
+        {
+          "time": "17:00",
+          "code": 0,
+          "temp": 11,
+          "pop": 0
+        },
+        {
+          "time": "20:00",
+          "code": 0,
+          "temp": 9,
+          "pop": 0
+        },
+        {
+          "time": "23:00",
+          "code": 0,
+          "temp": 8,
+          "pop": 0
         }
       ],
       "daily": [
         {
           "date": "11/29",
           "dow": "今日",
-          "code": 0,
-          "maxTemp": 16,
-          "minTemp": 5,
-          "pop": 10
+          "code": 53,
+          "maxTemp": 13,
+          "minTemp": 7,
+          "pop": 35
         },
         {
           "date": "11/30",
           "dow": "明日",
-          "code": 0,
-          "maxTemp": 16,
+          "code": 1,
+          "maxTemp": 15,
           "minTemp": 5,
-          "pop": 10
+          "pop": 0
         },
         {
           "date": "12/1",
           "dow": "火",
-          "code": 1,
-          "maxTemp": 20,
-          "minTemp": 7,
-          "pop": 20
+          "code": 0,
+          "maxTemp": 18,
+          "minTemp": 6,
+          "pop": 0
         },
         {
           "date": "12/2",
           "dow": "水",
-          "code": 1,
-          "maxTemp": 19,
+          "code": 3,
+          "maxTemp": 15,
           "minTemp": 8,
-          "pop": 20
+          "pop": 18
         },
         {
           "date": "12/3",
           "dow": "木",
-          "code": 1,
+          "code": 3,
           "maxTemp": 17,
-          "minTemp": 9,
-          "pop": 20
+          "minTemp": 10,
+          "pop": 14
         },
         {
           "date": "12/4",
           "dow": "金",
-          "code": 1,
-          "maxTemp": 18,
+          "code": 45,
+          "maxTemp": 16,
           "minTemp": 9,
-          "pop": 20
+          "pop": 0
         },
         {
           "date": "12/5",
           "dow": "土",
           "code": 3,
-          "maxTemp": 19,
-          "minTemp": 9,
-          "pop": 30
+          "maxTemp": 16,
+          "minTemp": 8,
+          "pop": 18
         }
       ]
     },
     {
       "name": "名古屋",
       "region": "東海",
-      "temp": 7,
-      "code": 95,
-      "wind": 4,
-      "maxTemp": 14,
-      "minTemp": 4,
-      "pop": 30,
+      "temp": 8,
+      "code": 51,
+      "wind": 5,
+      "maxTemp": 11,
+      "minTemp": 6,
+      "pop": 71,
       "hourly": [
         {
-          "time": "00:00",
-          "code": 95,
-          "temp": 4,
-          "pop": 30
-        },
-        {
-          "time": "03:00",
-          "code": 95,
-          "temp": 5,
-          "pop": 30
-        },
-        {
-          "time": "06:00",
-          "code": 95,
-          "temp": 7,
-          "pop": 30
-        },
-        {
-          "time": "09:00",
-          "code": 95,
-          "temp": 10,
-          "pop": 30
-        },
-        {
-          "time": "12:00",
-          "code": 95,
-          "temp": 12,
-          "pop": 30
-        },
-        {
-          "time": "15:00",
-          "code": 95,
-          "temp": 13,
-          "pop": 30
-        },
-        {
-          "time": "18:00",
-          "code": 95,
-          "temp": 11,
-          "pop": 30
-        },
-        {
-          "time": "21:00",
-          "code": 95,
+          "time": "02:00",
+          "code": 51,
           "temp": 8,
-          "pop": 30
+          "pop": 25
+        },
+        {
+          "time": "05:00",
+          "code": 2,
+          "temp": 8,
+          "pop": 55
+        },
+        {
+          "time": "08:00",
+          "code": 51,
+          "temp": 7,
+          "pop": 71
+        },
+        {
+          "time": "11:00",
+          "code": 1,
+          "temp": 10,
+          "pop": 23
+        },
+        {
+          "time": "14:00",
+          "code": 1,
+          "temp": 10,
+          "pop": 0
+        },
+        {
+          "time": "17:00",
+          "code": 1,
+          "temp": 9,
+          "pop": 0
+        },
+        {
+          "time": "20:00",
+          "code": 0,
+          "temp": 8,
+          "pop": 0
+        },
+        {
+          "time": "23:00",
+          "code": 1,
+          "temp": 6,
+          "pop": 0
         }
       ],
       "daily": [
         {
           "date": "11/29",
           "dow": "今日",
-          "code": 1,
-          "maxTemp": 14,
-          "minTemp": 4,
-          "pop": 30
+          "code": 53,
+          "maxTemp": 11,
+          "minTemp": 6,
+          "pop": 71
         },
         {
           "date": "11/30",
           "dow": "明日",
-          "code": 0,
+          "code": 1,
           "maxTemp": 14,
           "minTemp": 4,
-          "pop": 10
+          "pop": 0
         },
         {
           "date": "12/1",
           "dow": "火",
-          "code": 1,
-          "maxTemp": 18,
-          "minTemp": 5,
-          "pop": 20
+          "code": 0,
+          "maxTemp": 17,
+          "minTemp": 6,
+          "pop": 0
         },
         {
           "date": "12/2",
           "dow": "水",
-          "code": 1,
+          "code": 0,
           "maxTemp": 18,
-          "minTemp": 8,
-          "pop": 20
+          "minTemp": 7,
+          "pop": 0
         },
         {
           "date": "12/3",
           "dow": "木",
-          "code": 3,
+          "code": 51,
           "maxTemp": 16,
-          "minTemp": 8,
-          "pop": 30
+          "minTemp": 6,
+          "pop": 40
         },
         {
           "date": "12/4",
           "dow": "金",
-          "code": 3,
-          "maxTemp": 18,
-          "minTemp": 10,
-          "pop": 20
+          "code": 51,
+          "maxTemp": 17,
+          "minTemp": 8,
+          "pop": 33
         },
         {
           "date": "12/5",
           "dow": "土",
           "code": 3,
-          "maxTemp": 17,
-          "minTemp": 9,
-          "pop": 40
+          "maxTemp": 18,
+          "minTemp": 8,
+          "pop": 53
         }
       ]
     },
@@ -722,59 +722,59 @@ window.NEWS_DATA = {
       "name": "大阪",
       "region": "近畿",
       "temp": 9,
-      "code": 95,
-      "wind": 4,
-      "maxTemp": 16,
-      "minTemp": 6,
-      "pop": 30,
+      "code": 1,
+      "wind": 10,
+      "maxTemp": 12,
+      "minTemp": 8,
+      "pop": 20,
       "hourly": [
         {
-          "time": "00:00",
-          "code": 95,
-          "temp": 6,
-          "pop": 30
-        },
-        {
-          "time": "03:00",
-          "code": 95,
-          "temp": 7,
-          "pop": 30
-        },
-        {
-          "time": "06:00",
-          "code": 95,
+          "time": "02:00",
+          "code": 1,
           "temp": 9,
-          "pop": 30
+          "pop": 1
         },
         {
-          "time": "09:00",
-          "code": 95,
-          "temp": 12,
-          "pop": 30
+          "time": "05:00",
+          "code": 0,
+          "temp": 8,
+          "pop": 0
         },
         {
-          "time": "12:00",
-          "code": 95,
-          "temp": 14,
-          "pop": 30
+          "time": "08:00",
+          "code": 0,
+          "temp": 9,
+          "pop": 0
         },
         {
-          "time": "15:00",
-          "code": 95,
-          "temp": 15,
-          "pop": 30
+          "time": "11:00",
+          "code": 0,
+          "temp": 11,
+          "pop": 16
         },
         {
-          "time": "18:00",
-          "code": 95,
-          "temp": 13,
-          "pop": 30
+          "time": "14:00",
+          "code": 2,
+          "temp": 11,
+          "pop": 7
         },
         {
-          "time": "21:00",
-          "code": 95,
+          "time": "17:00",
+          "code": 1,
           "temp": 10,
-          "pop": 30
+          "pop": 0
+        },
+        {
+          "time": "20:00",
+          "code": 1,
+          "temp": 9,
+          "pop": 0
+        },
+        {
+          "time": "23:00",
+          "code": 1,
+          "temp": 8,
+          "pop": 0
         }
       ],
       "daily": [
@@ -782,245 +782,245 @@ window.NEWS_DATA = {
           "date": "11/29",
           "dow": "今日",
           "code": 3,
-          "maxTemp": 16,
-          "minTemp": 6,
-          "pop": 30
+          "maxTemp": 12,
+          "minTemp": 8,
+          "pop": 20
         },
         {
           "date": "11/30",
           "dow": "明日",
-          "code": 1,
-          "maxTemp": 16,
-          "minTemp": 6,
-          "pop": 10
+          "code": 2,
+          "maxTemp": 15,
+          "minTemp": 5,
+          "pop": 0
         },
         {
           "date": "12/1",
           "dow": "火",
-          "code": 1,
-          "maxTemp": 19,
-          "minTemp": 11,
-          "pop": 20
+          "code": 2,
+          "maxTemp": 18,
+          "minTemp": 8,
+          "pop": 0
         },
         {
           "date": "12/2",
           "dow": "水",
-          "code": 1,
-          "maxTemp": 19,
-          "minTemp": 11,
-          "pop": 20
+          "code": 45,
+          "maxTemp": 18,
+          "minTemp": 7,
+          "pop": 0
         },
         {
           "date": "12/3",
           "dow": "木",
-          "code": 3,
+          "code": 51,
           "maxTemp": 18,
-          "minTemp": 11,
+          "minTemp": 8,
           "pop": 40
         },
         {
           "date": "12/4",
           "dow": "金",
           "code": 3,
-          "maxTemp": 19,
-          "minTemp": 12,
-          "pop": 30
+          "maxTemp": 17,
+          "minTemp": 9,
+          "pop": 16
         },
         {
           "date": "12/5",
           "dow": "土",
-          "code": 3,
+          "code": 55,
           "maxTemp": 18,
-          "minTemp": 12,
-          "pop": 50
+          "minTemp": 9,
+          "pop": 74
         }
       ]
     },
     {
       "name": "広島",
       "region": "中国",
-      "temp": 6,
-      "code": 95,
-      "wind": 4,
-      "maxTemp": 15,
+      "temp": 7,
+      "code": 0,
+      "wind": 9,
+      "maxTemp": 11,
       "minTemp": 4,
-      "pop": 40,
+      "pop": 100,
       "hourly": [
         {
-          "time": "00:00",
-          "code": 95,
-          "temp": 4,
-          "pop": 40
+          "time": "02:00",
+          "code": 0,
+          "temp": 7,
+          "pop": 100
         },
         {
-          "time": "03:00",
-          "code": 95,
-          "temp": 5,
-          "pop": 40
+          "time": "05:00",
+          "code": 0,
+          "temp": 6,
+          "pop": 68
         },
         {
-          "time": "06:00",
-          "code": 95,
-          "temp": 8,
-          "pop": 40
+          "time": "08:00",
+          "code": 1,
+          "temp": 7,
+          "pop": 18
         },
         {
-          "time": "09:00",
-          "code": 95,
+          "time": "11:00",
+          "code": 0,
           "temp": 10,
-          "pop": 40
+          "pop": 2
         },
         {
-          "time": "12:00",
-          "code": 95,
-          "temp": 13,
-          "pop": 40
-        },
-        {
-          "time": "15:00",
-          "code": 95,
-          "temp": 14,
-          "pop": 40
-        },
-        {
-          "time": "18:00",
-          "code": 95,
+          "time": "14:00",
+          "code": 0,
           "temp": 11,
-          "pop": 40
+          "pop": 0
         },
         {
-          "time": "21:00",
-          "code": 95,
-          "temp": 9,
-          "pop": 40
+          "time": "17:00",
+          "code": 0,
+          "temp": 10,
+          "pop": 0
+        },
+        {
+          "time": "20:00",
+          "code": 0,
+          "temp": 7,
+          "pop": 0
+        },
+        {
+          "time": "23:00",
+          "code": 0,
+          "temp": 5,
+          "pop": 0
         }
       ],
       "daily": [
         {
           "date": "11/29",
           "dow": "今日",
-          "code": 3,
-          "maxTemp": 15,
+          "code": 1,
+          "maxTemp": 11,
           "minTemp": 4,
-          "pop": 40
+          "pop": 100
         },
         {
           "date": "11/30",
           "dow": "明日",
-          "code": 0,
-          "maxTemp": 15,
-          "minTemp": 4,
-          "pop": 10
+          "code": 1,
+          "maxTemp": 16,
+          "minTemp": 3,
+          "pop": 0
         },
         {
           "date": "12/1",
           "dow": "火",
           "code": 1,
           "maxTemp": 19,
-          "minTemp": 11,
-          "pop": 20
+          "minTemp": 7,
+          "pop": 6
         },
         {
           "date": "12/2",
           "dow": "水",
-          "code": 3,
-          "maxTemp": 18,
-          "minTemp": 11,
-          "pop": 30
+          "code": 45,
+          "maxTemp": 17,
+          "minTemp": 5,
+          "pop": 2
         },
         {
           "date": "12/3",
           "dow": "木",
-          "code": 3,
+          "code": 51,
           "maxTemp": 17,
-          "minTemp": 12,
-          "pop": 40
+          "minTemp": 8,
+          "pop": 61
         },
         {
           "date": "12/4",
           "dow": "金",
-          "code": 3,
-          "maxTemp": 18,
-          "minTemp": 12,
-          "pop": 30
+          "code": 45,
+          "maxTemp": 17,
+          "minTemp": 10,
+          "pop": 4
         },
         {
           "date": "12/5",
           "dow": "土",
-          "code": 3,
-          "maxTemp": 17,
-          "minTemp": 13,
-          "pop": 50
+          "code": 80,
+          "maxTemp": 16,
+          "minTemp": 10,
+          "pop": 87
         }
       ]
     },
     {
       "name": "高知",
       "region": "四国",
-      "temp": 6,
-      "code": 95,
-      "wind": 4,
-      "maxTemp": 16,
-      "minTemp": 4,
-      "pop": 30,
+      "temp": 7,
+      "code": 0,
+      "wind": 7,
+      "maxTemp": 13,
+      "minTemp": 5,
+      "pop": 92,
       "hourly": [
         {
-          "time": "00:00",
-          "code": 95,
-          "temp": 4,
-          "pop": 30
+          "time": "02:00",
+          "code": 0,
+          "temp": 7,
+          "pop": 64
         },
         {
-          "time": "03:00",
-          "code": 95,
-          "temp": 5,
-          "pop": 30
+          "time": "05:00",
+          "code": 1,
+          "temp": 6,
+          "pop": 11
         },
         {
-          "time": "06:00",
-          "code": 95,
-          "temp": 8,
-          "pop": 30
+          "time": "08:00",
+          "code": 0,
+          "temp": 7,
+          "pop": 0
         },
         {
-          "time": "09:00",
-          "code": 95,
-          "temp": 11,
-          "pop": 30
-        },
-        {
-          "time": "12:00",
-          "code": 95,
-          "temp": 14,
-          "pop": 30
-        },
-        {
-          "time": "15:00",
-          "code": 95,
-          "temp": 15,
-          "pop": 30
-        },
-        {
-          "time": "18:00",
-          "code": 95,
+          "time": "11:00",
+          "code": 0,
           "temp": 12,
-          "pop": 30
+          "pop": 0
         },
         {
-          "time": "21:00",
-          "code": 95,
-          "temp": 9,
-          "pop": 30
+          "time": "14:00",
+          "code": 0,
+          "temp": 13,
+          "pop": 0
+        },
+        {
+          "time": "17:00",
+          "code": 0,
+          "temp": 11,
+          "pop": 0
+        },
+        {
+          "time": "20:00",
+          "code": 0,
+          "temp": 7,
+          "pop": 0
+        },
+        {
+          "time": "23:00",
+          "code": 0,
+          "temp": 6,
+          "pop": 0
         }
       ],
       "daily": [
         {
           "date": "11/29",
           "dow": "今日",
-          "code": 3,
-          "maxTemp": 16,
-          "minTemp": 4,
-          "pop": 30
+          "code": 1,
+          "maxTemp": 13,
+          "minTemp": 5,
+          "pop": 92
         },
         {
           "date": "11/30",
@@ -1028,283 +1028,283 @@ window.NEWS_DATA = {
           "code": 1,
           "maxTemp": 16,
           "minTemp": 4,
-          "pop": 10
+          "pop": 0
         },
         {
           "date": "12/1",
           "dow": "火",
-          "code": 1,
-          "maxTemp": 21,
-          "minTemp": 7,
-          "pop": 20
+          "code": 0,
+          "maxTemp": 20,
+          "minTemp": 8,
+          "pop": 0
         },
         {
           "date": "12/2",
           "dow": "水",
           "code": 3,
           "maxTemp": 20,
-          "minTemp": 9,
-          "pop": 30
+          "minTemp": 7,
+          "pop": 13
         },
         {
           "date": "12/3",
           "dow": "木",
-          "code": 3,
-          "maxTemp": 19,
-          "minTemp": 12,
-          "pop": 50
+          "code": 51,
+          "maxTemp": 20,
+          "minTemp": 11,
+          "pop": 45
         },
         {
           "date": "12/4",
           "dow": "金",
-          "code": 3,
-          "maxTemp": 20,
-          "minTemp": 13,
-          "pop": 30
+          "code": 51,
+          "maxTemp": 19,
+          "minTemp": 11,
+          "pop": 14
         },
         {
           "date": "12/5",
           "dow": "土",
-          "code": 3,
-          "maxTemp": 19,
-          "minTemp": 12,
-          "pop": 50
+          "code": 53,
+          "maxTemp": 18,
+          "minTemp": 13,
+          "pop": 79
         }
       ]
     },
     {
       "name": "福岡",
       "region": "九州",
-      "temp": 9,
-      "code": 95,
-      "wind": 4,
-      "maxTemp": 17,
+      "temp": 10,
+      "code": 2,
+      "wind": 38,
+      "maxTemp": 10,
       "minTemp": 7,
-      "pop": 50,
+      "pop": 98,
       "hourly": [
         {
-          "time": "00:00",
-          "code": 95,
-          "temp": 7,
-          "pop": 50
-        },
-        {
-          "time": "03:00",
-          "code": 95,
-          "temp": 8,
-          "pop": 50
-        },
-        {
-          "time": "06:00",
-          "code": 95,
+          "time": "02:00",
+          "code": 2,
           "temp": 10,
-          "pop": 50
+          "pop": 62
         },
         {
-          "time": "09:00",
-          "code": 95,
-          "temp": 13,
-          "pop": 50
+          "time": "05:00",
+          "code": 2,
+          "temp": 10,
+          "pop": 11
         },
         {
-          "time": "12:00",
-          "code": 95,
-          "temp": 15,
-          "pop": 50
+          "time": "08:00",
+          "code": 1,
+          "temp": 10,
+          "pop": 0
         },
         {
-          "time": "15:00",
-          "code": 95,
-          "temp": 16,
-          "pop": 50
+          "time": "11:00",
+          "code": 0,
+          "temp": 10,
+          "pop": 0
         },
         {
-          "time": "18:00",
-          "code": 95,
-          "temp": 14,
-          "pop": 50
+          "time": "14:00",
+          "code": 0,
+          "temp": 10,
+          "pop": 0
         },
         {
-          "time": "21:00",
-          "code": 95,
-          "temp": 11,
-          "pop": 50
+          "time": "17:00",
+          "code": 0,
+          "temp": 10,
+          "pop": 0
+        },
+        {
+          "time": "20:00",
+          "code": 0,
+          "temp": 9,
+          "pop": 0
+        },
+        {
+          "time": "23:00",
+          "code": 0,
+          "temp": 8,
+          "pop": 0
         }
       ],
       "daily": [
         {
           "date": "11/29",
           "dow": "今日",
-          "code": 3,
-          "maxTemp": 17,
+          "code": 51,
+          "maxTemp": 10,
           "minTemp": 7,
-          "pop": 50
+          "pop": 98
         },
         {
           "date": "11/30",
           "dow": "明日",
-          "code": 0,
-          "maxTemp": 17,
+          "code": 1,
+          "maxTemp": 18,
           "minTemp": 7,
-          "pop": 10
+          "pop": 0
         },
         {
           "date": "12/1",
           "dow": "火",
-          "code": 1,
-          "maxTemp": 22,
-          "minTemp": 12,
-          "pop": 20
+          "code": 45,
+          "maxTemp": 21,
+          "minTemp": 9,
+          "pop": 12
         },
         {
           "date": "12/2",
           "dow": "水",
-          "code": 3,
-          "maxTemp": 21,
-          "minTemp": 11,
-          "pop": 30
+          "code": 45,
+          "maxTemp": 20,
+          "minTemp": 9,
+          "pop": 0
         },
         {
           "date": "12/3",
           "dow": "木",
-          "code": 3,
-          "maxTemp": 20,
+          "code": 51,
+          "maxTemp": 22,
           "minTemp": 13,
-          "pop": 50
+          "pop": 75
         },
         {
           "date": "12/4",
           "dow": "金",
-          "code": 3,
-          "maxTemp": 20,
-          "minTemp": 13,
-          "pop": 40
+          "code": 51,
+          "maxTemp": 19,
+          "minTemp": 12,
+          "pop": 11
         },
         {
           "date": "12/5",
           "dow": "土",
-          "code": 3,
-          "maxTemp": 19,
-          "minTemp": 13,
-          "pop": 50
+          "code": 95,
+          "maxTemp": 18,
+          "minTemp": 12,
+          "pop": 92
         }
       ]
     },
     {
       "name": "那覇",
       "region": "沖縄",
-      "temp": 17,
+      "temp": 18,
       "code": 3,
-      "wind": 4,
-      "maxTemp": 24,
+      "wind": 28,
+      "maxTemp": 19,
       "minTemp": 17,
-      "pop": 10,
+      "pop": 0,
       "hourly": [
         {
-          "time": "00:00",
-          "code": 3,
-          "temp": 17,
-          "pop": 10
-        },
-        {
-          "time": "03:00",
+          "time": "02:00",
           "code": 3,
           "temp": 18,
-          "pop": 10
+          "pop": 0
         },
         {
-          "time": "06:00",
+          "time": "05:00",
+          "code": 3,
+          "temp": 17,
+          "pop": 0
+        },
+        {
+          "time": "08:00",
+          "code": 3,
+          "temp": 17,
+          "pop": 0
+        },
+        {
+          "time": "11:00",
           "code": 3,
           "temp": 19,
-          "pop": 10
+          "pop": 0
         },
         {
-          "time": "09:00",
-          "code": 3,
-          "temp": 21,
-          "pop": 10
+          "time": "14:00",
+          "code": 2,
+          "temp": 19,
+          "pop": 0
         },
         {
-          "time": "12:00",
+          "time": "17:00",
           "code": 3,
-          "temp": 23,
-          "pop": 10
+          "temp": 18,
+          "pop": 0
         },
         {
-          "time": "15:00",
-          "code": 3,
-          "temp": 23,
-          "pop": 10
+          "time": "20:00",
+          "code": 2,
+          "temp": 18,
+          "pop": 0
         },
         {
-          "time": "18:00",
+          "time": "23:00",
           "code": 3,
-          "temp": 22,
-          "pop": 10
-        },
-        {
-          "time": "21:00",
-          "code": 3,
-          "temp": 20,
-          "pop": 10
+          "temp": 17,
+          "pop": 0
         }
       ],
       "daily": [
         {
           "date": "11/29",
           "dow": "今日",
-          "code": 1,
-          "maxTemp": 24,
+          "code": 3,
+          "maxTemp": 19,
           "minTemp": 17,
-          "pop": 10
+          "pop": 0
         },
         {
           "date": "11/30",
           "dow": "明日",
-          "code": 1,
-          "maxTemp": 24,
+          "code": 3,
+          "maxTemp": 22,
           "minTemp": 17,
-          "pop": 10
+          "pop": 2
         },
         {
           "date": "12/1",
           "dow": "火",
-          "code": 1,
-          "maxTemp": 25,
-          "minTemp": 19,
-          "pop": 20
+          "code": 51,
+          "maxTemp": 24,
+          "minTemp": 18,
+          "pop": 4
         },
         {
           "date": "12/2",
           "dow": "水",
-          "code": 3,
-          "maxTemp": 26,
-          "minTemp": 21,
-          "pop": 40
+          "code": 55,
+          "maxTemp": 25,
+          "minTemp": 22,
+          "pop": 77
         },
         {
           "date": "12/3",
           "dow": "木",
-          "code": 3,
-          "maxTemp": 27,
+          "code": 51,
+          "maxTemp": 26,
           "minTemp": 21,
-          "pop": 40
+          "pop": 74
         },
         {
           "date": "12/4",
           "dow": "金",
           "code": 3,
-          "maxTemp": 27,
+          "maxTemp": 26,
           "minTemp": 21,
-          "pop": 30
+          "pop": 38
         },
         {
           "date": "12/5",
           "dow": "土",
-          "code": 3,
-          "maxTemp": 27,
-          "minTemp": 21,
-          "pop": 30
+          "code": 2,
+          "maxTemp": 26,
+          "minTemp": 23,
+          "pop": 18
         }
       ]
     }
@@ -2236,24 +2236,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "台湾地方選で民進党が勢力回復、国民党も台北守る",
+      "title": "おせち食材が異例の高騰、イクラ1粒7円・かまぼこも緊急事態",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-29 00:00",
-      "publishedTs": 1795878043,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261129-00966251-toyo-000-1-view.jpg?exp=10800",
-      "summary": "台湾の地方選において民進党が勢力を回復する一方、国民党も主要な台北・新北を守るなど底力を見せた。2028年の総統選に向けた新たな勢力図の動向に関心が集まる。",
+      "publishedAt": "2026-11-29 01:33",
+      "publishedTs": 1795883596,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261129-90205473-ann-000-1-view.jpg?exp=10800",
+      "summary": "12月を前に、正月の定番であるおせちの製造現場で食材価格の高騰が深刻化している。イクラが1粒7円に達し、かまぼこも緊急事態となるなど、例年にない値上がりの背景を取材した。",
       "points": [
-        "台湾地方選で民進党が一定の勢力を回復",
-        "国民党が台北市長選などで強さを示し死守",
-        "2028年総統選に向けた政治情勢の重要な前哨戦"
+        "イクラは1粒7円という異例の高値に高騰",
+        "かまぼこなど練り物食材も「緊急事態」の状況",
+        "12月を控えおせち製造現場から悲痛な声"
       ],
-      "impact": "東アジアの地政学的リスクや国際情勢に影響を与える台湾政治のパワーバランスの変化として注視されています。",
+      "impact": "年末年始の食卓や外食・中食の価格上昇につながり、家計への負担がさらに増す見通し。",
       "tags": [
-        "政治",
-        "経済",
-        "台湾"
+        "おせち",
+        "物価高騰",
+        "年末商戦"
       ],
-      "url": "https://news.yahoo.co.jp/articles/e3d4fe25f105afb32d73b3696b719421f9c6323e?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/9e30ac69aa8be1c70c97119d16b36f247beeb6e3?source=rss",
       "isAiEnriched": true
     },
     {
@@ -2346,24 +2346,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "退職金1000万円を個人向け国債に預けた場合の利子",
+      "title": "台湾地方選で民進党が勢力回復、国民党も台北守る",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-28 23:20",
-      "publishedTs": 1795875633,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-90001679-toushin-000-1-view.jpg?exp=10800",
-      "summary": "2026年11月募集の個人向け国債（固定5年）の金利は年2.17％。退職金1000万円を預けた場合、税引き後の年間利子は約17万2916円になることが試算されています。",
+      "publishedAt": "2026-11-29 00:00",
+      "publishedTs": 1795878043,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261129-00966251-toyo-000-1-view.jpg?exp=10800",
+      "summary": "台湾の地方選において民進党が勢力を回復する一方、国民党も主要な台北・新北を守るなど底力を見せた。2028年の総統選に向けた新たな勢力図の動向に関心が集まる。",
       "points": [
-        "個人向け国債（固定5年）の金利は年2.17％に設定",
-        "1000万円を預けた場合の税引き後利子は約17万2916円",
-        "まとまった資金の安全な運用先として注目される"
+        "台湾地方選で民進党が一定の勢力を回復",
+        "国民党が台北市長選などで強さを示し死守",
+        "2028年総統選に向けた政治情勢の重要な前哨戦"
       ],
-      "impact": "退職金世代や堅実な資産運用を検討する層にとって、具体的なリターンを計算する目安となります。",
+      "impact": "東アジアの地政学的リスクや国際情勢に影響を与える台湾政治のパワーバランスの変化として注視されています。",
       "tags": [
+        "政治",
         "経済",
-        "個人向け国債",
-        "資産運用"
+        "台湾"
       ],
-      "url": "https://news.yahoo.co.jp/articles/0fa0e199aca659a74b10f1e2b7bc53e86dd97942?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/e3d4fe25f105afb32d73b3696b719421f9c6323e?source=rss",
       "isAiEnriched": true
     },
     {
@@ -2456,24 +2456,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "スノーピーク、リユース買取利用者約2.5万人の情報流出の恐れ",
+      "title": "退職金1000万円を個人向け国債に預けた場合の利子",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-28 23:05",
-      "publishedTs": 1795874733,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-90001676-toushin-000-1-view.jpg?exp=10800",
-      "summary": "スノーピークは、不正アクセスによりリユース買取サービスの利用者2万4948人分の個人情報が流出した可能性があると発表。振込先口座情報なども含まれており、対象者に注意を呼びかけています。",
+      "publishedAt": "2026-11-28 23:20",
+      "publishedTs": 1795875633,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-90001679-toushin-000-1-view.jpg?exp=10800",
+      "summary": "2026年11月募集の個人向け国債（固定5年）の金利は年2.17％。退職金1000万円を預けた場合、税引き後の年間利子は約17万2916円になることが試算されています。",
       "points": [
-        "スノーピークが不正アクセスによる個人情報流出を発表",
-        "リユース買取サービスの利用者約2.5万人分が対象",
-        "金融機関名などの振込先口座情報が含まれる可能性"
+        "個人向け国債（固定5年）の金利は年2.17％に設定",
+        "1000万円を預けた場合の税引き後利子は約17万2916円",
+        "まとまった資金の安全な運用先として注目される"
       ],
-      "impact": "企業による顧客情報の管理体制の厳格化が求められるとともに、対象ユーザーへの警戒や対策が必要となります。",
+      "impact": "退職金世代や堅実な資産運用を検討する層にとって、具体的なリターンを計算する目安となります。",
       "tags": [
-        "ビジネス",
-        "セキュリティ",
-        "個人情報流出"
+        "経済",
+        "個人向け国債",
+        "資産運用"
       ],
-      "url": "https://news.yahoo.co.jp/articles/e8a7dc2f884a46d69f85ae512c4d9dc972ca4c38?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/0fa0e199aca659a74b10f1e2b7bc53e86dd97942?source=rss",
       "isAiEnriched": true
     },
     {
@@ -2566,24 +2566,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "空自F-35A初号機、米訓練拠点到着から10年の節目",
+      "title": "スノーピーク、リユース買取利用者約2.5万人の情報流出の恐れ",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-28 22:47",
-      "publishedTs": 1795873677,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-00015001-awire-000-1-view.jpg?exp=10800",
-      "summary": "航空自衛隊向けの最新鋭ステルス戦闘機F-35Aの初号機が、米国のアリゾナ州にあるルーク空軍基地に到着してから現地時間でちょうど10年を迎え、防衛装備の歴史に一つの節目を刻みました。",
+      "publishedAt": "2026-11-28 23:05",
+      "publishedTs": 1795874733,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-90001676-toushin-000-1-view.jpg?exp=10800",
+      "summary": "スノーピークは、不正アクセスによりリユース買取サービスの利用者2万4948人分の個人情報が流出した可能性があると発表。振込先口座情報なども含まれており、対象者に注意を呼びかけています。",
       "points": [
-        "空自向けステルス戦闘機F-35A初号機が米国に到着して10年",
-        "米アリゾナ州のルーク空軍基地が訓練拠点として機能",
-        "防衛力の強化と運用体制の蓄積が進められてきた"
+        "スノーピークが不正アクセスによる個人情報流出を発表",
+        "リユース買取サービスの利用者約2.5万人分が対象",
+        "金融機関名などの振込先口座情報が含まれる可能性"
       ],
-      "impact": "日本の防衛政策や日米安全保障協力における装備品運用の歴史的なマイルストーンとなります。",
+      "impact": "企業による顧客情報の管理体制の厳格化が求められるとともに、対象ユーザーへの警戒や対策が必要となります。",
       "tags": [
-        "防衛",
-        "戦闘機",
-        "自衛隊"
+        "ビジネス",
+        "セキュリティ",
+        "個人情報流出"
       ],
-      "url": "https://news.yahoo.co.jp/articles/b2971f295e256e689f5413ec0ff6ca02c36d4400?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/e8a7dc2f884a46d69f85ae512c4d9dc972ca4c38?source=rss",
       "isAiEnriched": true
     },
     {
@@ -2676,24 +2676,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "新型フォレスター「ツーリング」登場。400万円以下でアイサイトX搭載",
+      "title": "空自F-35A初号機、米訓練拠点到着から10年の節目",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-28 22:30",
-      "publishedTs": 1795872650,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-00000009-bestcar-000-1-view.jpg?exp=10800",
-      "summary": "スバル・フォレスターに、1.8Lターボと高度運転支援「アイサイトX」を搭載した新グレード「ツーリング」が追加。400万円を切る価格設定で、上位モデルに迫る魅力的な一台となった。",
+      "publishedAt": "2026-11-28 22:47",
+      "publishedTs": 1795873677,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-00015001-awire-000-1-view.jpg?exp=10800",
+      "summary": "航空自衛隊向けの最新鋭ステルス戦闘機F-35Aの初号機が、米国のアリゾナ州にあるルーク空軍基地に到着してから現地時間でちょうど10年を迎え、防衛装備の歴史に一つの節目を刻みました。",
       "points": [
-        "400万円以下の戦略的価格設定",
-        "高性能「アイサイトX」を選択可能",
-        "1.8Lターボを積んだ走りの良さ"
+        "空自向けステルス戦闘機F-35A初号機が米国に到着して10年",
+        "米アリゾナ州のルーク空軍基地が訓練拠点として機能",
+        "防衛力の強化と運用体制の蓄積が進められてきた"
       ],
-      "impact": "SUV市場において、安全性とコストパフォーマンスを両立させた本命モデルとして注目を集める。",
+      "impact": "日本の防衛政策や日米安全保障協力における装備品運用の歴史的なマイルストーンとなります。",
       "tags": [
-        "スバル",
-        "フォレスター",
-        "自動車"
+        "防衛",
+        "戦闘機",
+        "自衛隊"
       ],
-      "url": "https://news.yahoo.co.jp/articles/0624dc58b05dab3882a4c0218e74001dfea20e23?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/b2971f295e256e689f5413ec0ff6ca02c36d4400?source=rss",
       "isAiEnriched": true
     },
     {
@@ -2742,24 +2742,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "千葉市若葉区の多重事故、心肺停止の女性2人の死亡を確認",
+      "title": "辺野古沖転覆事故で保護者説明会、亡くなった女子生徒の教師が取材に応じる",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-29 00:59",
-      "publishedTs": 1795881554,
-      "image": "https://tse2.mm.bing.net/th?q=%E5%8D%83%E8%91%89%E3%81%AE%E5%A4%9A%E9%87%8D%E4%BA%8B%E6%95%85%20%E5%A5%B3%E6%80%A72%E4%BA%BA%E6%AD%BB%E4%BA%A1%E7%A2%BA%E8%AA%8D&w=800&h=450&c=7&rs=1&p=0",
-      "summary": "千葉市若葉区の自動車専用道路で発生した多重事故について、千葉県警は29日、心肺停止状態となっていた女性2人の死亡が確認されたと発表しました。警察が事故原因を調べています。",
+      "publishedAt": "2026-11-29 02:06",
+      "publishedTs": 1795885583,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-00083840-asahibcv-000-1-view.jpg?exp=10800",
+      "summary": "沖縄県名護市の辺野古沖で起きた船の転覆事故を受け、同志社国際高校は28日に保護者向け説明会を開いた。法人理事長が初出席し、終了後には亡くなった女子生徒を知る教師が初めて取材に応じた。",
       "points": [
-        "千葉市若葉区の自動車専用道路で多重事故が発生",
-        "心肺停止状態だった女性2人の死亡を確認",
-        "千葉県警が29日に発表し詳細を捜査中"
+        "同志社国際高校が28日に保護者向け説明会を開催",
+        "学校法人の理事長が説明会に初めて出席",
+        "亡くなった女子生徒を知る教師が「明るく将来が楽しみだった」と取材に回答"
       ],
-      "impact": "自動車専用道路での重大事故は交通規制や渋滞を引き起こすため、ドライバーは最新の道路交通情報の確認と安全運転が必要です。",
+      "impact": "修学旅行や学校行事における安全管理体制の見直しや、事故原因の徹底究明が求められる。",
       "tags": [
-        "千葉県",
-        "多重事故",
-        "国内ニュース"
+        "辺野古沖",
+        "転覆事故",
+        "同志社国際高校"
       ],
-      "url": "https://news.yahoo.co.jp/articles/1cc6731d709dc85c5a970bd954597caddc91ae4d?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/be27b75bc0a3e165cf113a62138a7a3a96c0eb48?source=rss",
       "isAiEnriched": true
     },
     {
@@ -2786,24 +2786,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "「ペーパーレス」をあえて見直す。重要な情報は印刷して整理",
+      "title": "新型フォレスター「ツーリング」登場。400万円以下でアイサイトX搭載",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-28 22:21",
-      "publishedTs": 1795872062,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-00000008-biz_lifeh-000-1-view.jpg?exp=10800",
-      "summary": "デジタル管理一辺倒だった生活を改め、レーザープリンターを活用して「大事な情報」を紙で整理するメリットを解説。視認性や安心感など、あえてアナログに戻ることで得られる効率性を説いている。",
+      "publishedAt": "2026-11-28 22:30",
+      "publishedTs": 1795872650,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-00000009-bestcar-000-1-view.jpg?exp=10800",
+      "summary": "スバル・フォレスターに、1.8Lターボと高度運転支援「アイサイトX」を搭載した新グレード「ツーリング」が追加。400万円を切る価格設定で、上位モデルに迫る魅力的な一台となった。",
       "points": [
-        "完全ペーパーレスの弊害を指摘",
-        "重要な情報の「紙管理」を提案",
-        "レーザープリンターの活用術を紹介"
+        "400万円以下の戦略的価格設定",
+        "高性能「アイサイトX」を選択可能",
+        "1.8Lターボを積んだ走りの良さ"
       ],
-      "impact": "デジタル疲れが進む中、効率的な情報管理のバランスを見直す新たなライフスタイルの提案。",
+      "impact": "SUV市場において、安全性とコストパフォーマンスを両立させた本命モデルとして注目を集める。",
       "tags": [
-        "ライフハック",
-        "ペーパーレス",
-        "文房具"
+        "スバル",
+        "フォレスター",
+        "自動車"
       ],
-      "url": "https://news.yahoo.co.jp/articles/23fbd888f09b76bb77b065b261b97cdfe13c04c9?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/0624dc58b05dab3882a4c0218e74001dfea20e23?source=rss",
       "isAiEnriched": true
     },
     {
@@ -2852,24 +2852,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "同志社国際高、沖縄転覆事故の被害生徒保護者へ説明会を実施",
+      "title": "秋の京都が混雑ピークに、景観を損なう迷惑行為が再燃し現場は苦悩",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-29 00:27",
-      "publishedTs": 1795879657,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261129-00000001-san-000-1-view.jpg?exp=10800",
-      "summary": "沖縄県名護市辺野古沖で船2隻が転覆し生徒ら2人が死亡した事故を巡り、同志社国際高校は28日、乗船していた生徒の保護者向け説明会を実施しました。学校側の対応が問われています。",
+      "publishedAt": "2026-11-29 01:51",
+      "publishedTs": 1795884677,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261129-90205472-ann-000-1-view.jpg?exp=10800",
+      "summary": "紅葉の見ごろを迎え、1年で最も多くの観光客が訪れる京都で、景観を損なうなどの迷惑行為が再び問題化している。対策にあたる現場の苦悩と、一筋縄ではいかない現状を取材した。",
       "points": [
-        "沖縄県名護市沖の船転覆事故で生徒ら2人が死亡",
-        "同志社国際高が28日に保護者向け説明会を開催",
-        "保護者からは核心部分の回答が得られないとの声"
+        "紅葉シーズンで京都の混雑が年間ピークに到達",
+        "観光客による景観を損なう迷惑行為が再び増加",
+        "オーバーツーリズム対策にあたる現場が対応に苦慮"
       ],
-      "impact": "学校行事や課外活動における安全管理体制の見直しと、事故発生時の保護者への迅速かつ誠実な情報開示が強く求められています。",
+      "impact": "観光地の住民生活や景観維持と、インバウンドを含む観光振興の両立が急務となっている。",
       "tags": [
-        "同志社国際高校",
-        "転覆事故",
-        "安全管理"
+        "京都",
+        "オーバーツーリズム",
+        "迷惑行為"
       ],
-      "url": "https://news.yahoo.co.jp/articles/3efbb4c4d82edc4d61a95b8c48d381488e2c8217?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/f30002ccb24421e5620ecdff0c0fa9fac499cf47?source=rss",
       "isAiEnriched": true
     },
     {
@@ -2896,24 +2896,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "ネット銀行の定期預金金利が上昇。ドコモSMTBが年1.85％に",
+      "title": "「ペーパーレス」をあえて見直す。重要な情報は印刷して整理",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-28 22:10",
-      "publishedTs": 1795871433,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-90001670-toushin-000-1-view.jpg?exp=10800",
-      "summary": "ドコモSMTBネット銀行が、1年もの円定期預金の金利を年1.85％に引き上げると発表。大手銀行を大きく上回る高金利設定が続いており、ネット銀行間での顧客獲得競争が激化している。",
+      "publishedAt": "2026-11-28 22:21",
+      "publishedTs": 1795872062,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-00000008-biz_lifeh-000-1-view.jpg?exp=10800",
+      "summary": "デジタル管理一辺倒だった生活を改め、レーザープリンターを活用して「大事な情報」を紙で整理するメリットを解説。視認性や安心感など、あえてアナログに戻ることで得られる効率性を説いている。",
       "points": [
-        "ドコモSMTBが1.85％に金利改定",
-        "1年もの定期で高利回りを実現",
-        "ネット銀行間の金利競争が活発化"
+        "完全ペーパーレスの弊害を指摘",
+        "重要な情報の「紙管理」を提案",
+        "レーザープリンターの活用術を紹介"
       ],
-      "impact": "貯蓄から投資への流れだけでなく、預金先を賢く選ぶユーザーの資産運用に影響を与える。",
+      "impact": "デジタル疲れが進む中、効率的な情報管理のバランスを見直す新たなライフスタイルの提案。",
       "tags": [
-        "定期預金",
-        "ネット銀行",
-        "資産運用"
+        "ライフハック",
+        "ペーパーレス",
+        "文房具"
       ],
-      "url": "https://news.yahoo.co.jp/articles/a169e9dfc9408ff0b1fc5171204d11883e912be0?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/23fbd888f09b76bb77b065b261b97cdfe13c04c9?source=rss",
       "isAiEnriched": true
     },
     {
@@ -2962,24 +2962,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "高知のマグロ漁船が岩手沖で航行不能、乗組員は無事",
+      "title": "宮城の山中で2遺体、1人は女子高校生か 誘拐容疑で33歳男を逮捕",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-29 00:06",
-      "publishedTs": 1795878380,
-      "image": "https://tse2.mm.bing.net/th?q=%E9%AB%98%E7%9F%A5%E3%81%AE%E3%83%9E%E3%82%B0%E3%83%AD%E6%BC%81%E8%88%B9%E8%88%AA%E8%A1%8C%E4%B8%8D%E8%83%BD%20%E5%B2%A9%E6%89%8B%20%E4%B9%85%E6%85%88%E6%B2%96%20%E3%81%91%E3%81%8C%E4%BA%BA%E3%81%AA%E3%81%97&w=800&h=450&c=7&rs=1&p=0",
-      "summary": "岩手県久慈市沖の太平洋上で、高知県室戸市のマグロはえ縄漁船「第78美阿丸」が航行不能となった。乗組員9人にけがはなく、海上保安部がえい航救助を実施予定。",
+      "publishedAt": "2026-11-29 01:24",
+      "publishedTs": 1795883056,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261129-90205471-ann-000-1-view.jpg?exp=10800",
+      "summary": "宮城県の山中で2人の遺体が見つかり、うち1人は横浜市の女子高校生とみられています。警察は女子生徒を誘拐した疑いで33歳の男を逮捕し、遺体についても事情を知っているとみて詳しく捜査しています。",
       "points": [
-        "岩手県久慈市沖でマグロはえ縄漁船が航行不能に",
-        "高知県室戸市の「第78美阿丸」（19トン）",
-        "乗組員9人は全員無事でけがなし"
+        "宮城県の山中で2人の遺体を発見",
+        "1人は横浜市の女子高校生とみられる",
+        "誘拐容疑で33歳の男を逮捕し捜査中"
       ],
-      "impact": "海上事故における迅速な安否確認と、海保による安全なえい航救助活動の重要性を示しています。",
+      "impact": "SNSなどを通じた若年層の誘拐被害への警戒が改めて高まっており、家庭や学校での防犯意識の見直しが求められています。",
       "tags": [
-        "事故",
-        "社会",
-        "漁船"
+        "事件・事故",
+        "宮城",
+        "誘拐容疑"
       ],
-      "url": "https://news.yahoo.co.jp/articles/fd22ad0b2ebb31733dd66825d6ca0c9707c3ea48?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/8dd070a2e5bc18b9afcb0b3d294488bbcc3f218e?source=rss",
       "isAiEnriched": true
     },
     {
@@ -3006,24 +3006,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "G-SHOCKからNYイメージの八角形メタルモデル登場",
+      "title": "ネット銀行の定期預金金利が上昇。ドコモSMTBが年1.85％に",
       "source": "Yahoo!ニュース",
       "publishedAt": "2026-11-28 22:10",
-      "publishedTs": 1795871400,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-10479132-vague-000-1-view.jpg?exp=10800",
-      "summary": "G-SHOCKとHIDDENのコラボによる新作モデルが登場。八角形のメタルベゼルと緑の差し色が特徴で、裏ぶたには自由の女神が刻まれています。",
+      "publishedTs": 1795871433,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-90001670-toushin-000-1-view.jpg?exp=10800",
+      "summary": "ドコモSMTBネット銀行が、1年もの円定期預金の金利を年1.85％に引き上げると発表。大手銀行を大きく上回る高金利設定が続いており、ネット銀行間での顧客獲得競争が激化している。",
       "points": [
-        "八角形のメタルベゼルを採用した新型G-SHOCK",
-        "ニューヨークの街をイメージした緑の差し色",
-        "裏ぶたには象徴的な自由の女神を刻印"
+        "ドコモSMTBが1.85％に金利改定",
+        "1年もの定期で高利回りを実現",
+        "ネット銀行間の金利競争が活発化"
       ],
-      "impact": "ストリートファッションや時計市場において、コラボ限定モデルならではの高いコレクション性が期待されます。",
+      "impact": "貯蓄から投資への流れだけでなく、預金先を賢く選ぶユーザーの資産運用に影響を与える。",
       "tags": [
-        "G-SHOCK",
-        "ファッション",
-        "時計"
+        "定期預金",
+        "ネット銀行",
+        "資産運用"
       ],
-      "url": "https://news.yahoo.co.jp/articles/0fd2a1a5b113f8e79106822ef6daf3952f309a9b?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/a169e9dfc9408ff0b1fc5171204d11883e912be0?source=rss",
       "isAiEnriched": true
     },
     {
@@ -3072,24 +3072,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "千葉東金道路で5台絡む事故、2人心肺停止",
+      "title": "静岡市の雑居ビルで15人前後がのどの痛み訴え カラオケ店など同じ階で",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-28 23:59",
-      "publishedTs": 1795877943,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-00000041-ann-000-1-view.jpg?exp=10800",
-      "summary": "千葉東金道路の上り線で軽自動車が横転し、後続車4台を巻き込む多重事故が発生しました。軽自動車に乗っていた女性2人が心肺停止の状態で病院へ搬送されています。",
+      "publishedAt": "2026-11-29 01:20",
+      "publishedTs": 1795882839,
+      "image": "https://tse2.mm.bing.net/th?q=%E9%9D%99%E5%B2%A1%E5%B8%82%E3%81%AE%E9%9B%91%E5%B1%85%E3%83%93%E3%83%AB%E3%81%A715%E4%BA%BA%E5%89%8D%E5%BE%8C%E3%81%8C%E3%81%AE%E3%81%A9%E3%81%AE%E7%97%9B%E3%81%BF%E8%A8%B4%E3%81%88&w=800&h=450&c=7&rs=1&p=0",
+      "summary": "28日午後11時ごろ、静岡市葵区のカラオケ店で複数人がのどの痛みを訴えていると119番通報がありました。雑居ビルの同じ階で計15人前後が同様の症状を訴えており、警察と消防が原因を調べています。",
       "points": [
-        "千葉東金道路上り線での多重事故",
-        "軽自動車の横転が発端となり計5台が巻き込まれる",
-        "女性2人が心肺停止の状態で救急搬送"
+        "28日夜、静岡市葵区の雑居ビルで通報",
+        "同じ階のカラオケ店などで15人前後が症状",
+        "のどの痛みを訴えており原因を調査中"
       ],
-      "impact": "周辺道路の一部区間で通行止めが発生し、交通網に大きな影響が出ています。",
+      "impact": "繁華街の雑居ビルでの体調不良発生を受け、換気設備の点検や異臭・刺激物への迅速な避難対応の重要性が再確認されます。",
       "tags": [
-        "事故",
-        "千葉県",
-        "交通情報"
+        "静岡",
+        "体調不良",
+        "雑居ビル"
       ],
-      "url": "https://news.yahoo.co.jp/articles/d6b7aa318337b3455421df89356328951db8edec?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/0538f4b3769eecbfec025e72f476e694bfb992b7?source=rss",
       "isAiEnriched": true
     },
     {
@@ -3116,24 +3116,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "セゾンカード、海外事務処理手数料を4.50％へ引き上げ",
+      "title": "G-SHOCKからNYイメージの八角形メタルモデル登場",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-28 22:05",
-      "publishedTs": 1795871133,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-90001669-toushin-000-1-view.jpg?exp=10800",
-      "summary": "クレディセゾンはセゾンカードの海外事務処理手数料を改定。2027年2月11日処理分から4.50％に引き上げられます。",
+      "publishedAt": "2026-11-28 22:10",
+      "publishedTs": 1795871400,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-10479132-vague-000-1-view.jpg?exp=10800",
+      "summary": "G-SHOCKとHIDDENのコラボによる新作モデルが登場。八角形のメタルベゼルと緑の差し色が特徴で、裏ぶたには自由の女神が刻まれています。",
       "points": [
-        "2027年2月11日処理分より手数料を4.50％に改定",
-        "外貨でのショッピング利用時に適用される",
-        "海外旅行や海外サイトでの買い物コストに影響"
+        "八角形のメタルベゼルを採用した新型G-SHOCK",
+        "ニューヨークの街をイメージした緑の差し色",
+        "裏ぶたには象徴的な自由の女神を刻印"
       ],
-      "impact": "海外旅行や海外ECサイトの利用時における決済コストが増加するため、クレジットカードの選択に影響を与えます。",
+      "impact": "ストリートファッションや時計市場において、コラボ限定モデルならではの高いコレクション性が期待されます。",
       "tags": [
-        "セゾンカード",
-        "クレジットカード",
-        "手数料"
+        "G-SHOCK",
+        "ファッション",
+        "時計"
       ],
-      "url": "https://news.yahoo.co.jp/articles/eada2807e39ae752b35b801a9703bdd0bc4fa8ad?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/0fd2a1a5b113f8e79106822ef6daf3952f309a9b?source=rss",
       "isAiEnriched": true
     },
     {
@@ -3160,46 +3160,46 @@ window.NEWS_DATA = {
     },
     {
       "category": "subculture",
-      "title": "TVアニメ『チー付与』実写版暗殺の母「料理」",
-      "source": "youtube.com",
-      "publishedAt": "2026-11-28 12:03",
-      "publishedTs": 1795834995,
-      "image": "https://b.hatena.ne.jp/entry/image/https://www.youtube.com/watch?v=U1TdIcsA8Rw",
-      "summary": "累計発行部数180万部を突破した人気異世界ファンタジー『チー付与』がP.A.WORKSによりアニメ化。中毒性の高いギャグと魅力的なキャラクターが話題です。",
+      "title": "歌手のLiSAと声優の鈴木達央が離婚を発表",
+      "source": "oricon.co.jp",
+      "publishedAt": "2026-11-28 18:46",
+      "publishedTs": 1795859206,
+      "image": "https://contents.oricon.co.jp/upimg/news/2496000/2495941/20261128_183037_p_o_71849652.jpg",
+      "summary": "歌手のLiSAさんと声優の鈴木達央さんが連名で離婚を発表。お互いを尊重し話し合いを重ねた結果、6年の結婚生活に幕を下ろし、今後は親として協力して子どもを育てていくとしています。",
       "points": [
-        "原作は累計180万部突破の月マガ発の人気作",
-        "P.A.WORKSが圧倒的クオリティでアニメ化",
-        "カオスなギャグとキャラクターが熱狂的支持を獲得"
+        "歌手のLiSAと声優の鈴木達央が離婚を公表",
+        "十分な話し合いを重ねた上での円満な結論であることを強調",
+        "今後は親として協力し子育てにあたる方針を示す"
       ],
-      "impact": "アニメ化による原作ファンの拡大や、SNSでの関連コンテンツの盛り上がりに注目が集まります。",
+      "impact": "著名人夫婦のライフスタイルの変化としてファンやエンタメ業界に大きな驚きと影響を与えています。",
       "tags": [
-        "アニメ",
-        "チー付与",
-        "サブカルチャー"
+        "芸能",
+        "LiSA",
+        "鈴木達央"
       ],
-      "url": "https://www.youtube.com/watch?v=U1TdIcsA8Rw",
+      "url": "https://www.oricon.co.jp/news/2495941/full/",
       "isAiEnriched": true
     },
     {
       "category": "domestic",
-      "title": "富山県が独自の魅力を発信する「すし駅弁サミット」開催",
+      "title": "千葉市若葉区の多重事故、心肺停止の女性2人の死亡を確認",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-28 23:45",
-      "publishedTs": 1795877133,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-10292945-abemav-000-1-view.jpg?exp=10800",
-      "summary": "「寿司といえば富山」のブランド戦略を進める富山県が、新たな試みとして「すし駅弁サミット」を開催しました。フレンチやケーキ店が考案した斬新な寿司も登場しています。",
+      "publishedAt": "2026-11-29 00:59",
+      "publishedTs": 1795881554,
+      "image": "https://tse2.mm.bing.net/th?q=%E5%8D%83%E8%91%89%E3%81%AE%E5%A4%9A%E9%87%8D%E4%BA%8B%E6%95%85%20%E5%A5%B3%E6%80%A72%E4%BA%BA%E6%AD%BB%E4%BA%A1%E7%A2%BA%E8%AA%8D&w=800&h=450&c=7&rs=1&p=0",
+      "summary": "千葉市若葉区の自動車専用道路で発生した多重事故について、千葉県警は29日、心肺停止状態となっていた女性2人の死亡が確認されたと発表しました。警察が事故原因を調べています。",
       "points": [
-        "「寿司といえば富山」のブランディングの一環",
-        "フレンチやケーキ店など異業種が考案した寿司が登場",
-        "富山の食の魅力を全国に向けて広く発信"
+        "千葉市若葉区の自動車専用道路で多重事故が発生",
+        "心肺停止状態だった女性2人の死亡を確認",
+        "千葉県警が29日に発表し詳細を捜査中"
       ],
-      "impact": "観光やご当地グルメの新たな起爆剤として、地方創生の観点からも注目されています。",
+      "impact": "自動車専用道路での重大事故は交通規制や渋滞を引き起こすため、ドライバーは最新の道路交通情報の確認と安全運転が必要です。",
       "tags": [
-        "富山県",
-        "グルメ",
-        "イベント"
+        "千葉県",
+        "多重事故",
+        "国内ニュース"
       ],
-      "url": "https://news.yahoo.co.jp/articles/e459a8ddda51d9a54640253da480596cbf78fff2?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/1cc6731d709dc85c5a970bd954597caddc91ae4d?source=rss",
       "isAiEnriched": true
     },
     {
@@ -3226,24 +3226,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "ゆうちょ銀行、海外家族口座への送金料金を変更へ",
+      "title": "セゾンカード、海外事務処理手数料を4.50％へ引き上げ",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-28 21:50",
-      "publishedTs": 1795870233,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-90001668-toushin-000-1-view.jpg?exp=10800",
-      "summary": "ゆうちょ銀行は2027年1月4日から、海外に住む家族の口座への送金料金などを改定。通帳アプリからの送金は月5回まで無料になります。",
+      "publishedAt": "2026-11-28 22:05",
+      "publishedTs": 1795871133,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-90001669-toushin-000-1-view.jpg?exp=10800",
+      "summary": "クレディセゾンはセゾンカードの海外事務処理手数料を改定。2027年2月11日処理分から4.50％に引き上げられます。",
       "points": [
-        "2027年1月4日から海外関連の送金料金が変更",
-        "通帳アプリを利用した国内送金は月5回まで無料",
-        "海外赴任者や海外に家族がいる世帯の負担に影響"
+        "2027年2月11日処理分より手数料を4.50％に改定",
+        "外貨でのショッピング利用時に適用される",
+        "海外旅行や海外サイトでの買い物コストに影響"
       ],
-      "impact": "海外送金や非居住者の口座利用を行う利用者にとって、手数料の変更は家計管理上の重要な確認事項となります。",
+      "impact": "海外旅行や海外ECサイトの利用時における決済コストが増加するため、クレジットカードの選択に影響を与えます。",
       "tags": [
-        "ゆうちょ銀行",
-        "金融",
-        "海外送金"
+        "セゾンカード",
+        "クレジットカード",
+        "手数料"
       ],
-      "url": "https://news.yahoo.co.jp/articles/194a246d3565ac42f986ba73e88d4dd4a75aa409?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/eada2807e39ae752b35b801a9703bdd0bc4fa8ad?source=rss",
       "isAiEnriched": true
     },
     {
@@ -3292,24 +3292,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "救急隊員に暴行か、酒気帯びの77歳男を現行犯逮捕",
+      "title": "同志社国際高、沖縄転覆事故の被害生徒保護者へ説明会を実施",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-28 23:42",
-      "publishedTs": 1795876937,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-23119522-cbcv-000-1-view.jpg?exp=10800",
-      "summary": "三重県鈴鹿市の総合病院敷地内で、救急隊員を怒鳴りつけ暴行を加えたとして、77歳の男が公務執行妨害の疑いで現行犯逮捕されました。男は当時、酒に酔った状態でした。",
+      "publishedAt": "2026-11-29 00:27",
+      "publishedTs": 1795879657,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261129-00000001-san-000-1-view.jpg?exp=10800",
+      "summary": "沖縄県名護市辺野古沖で船2隻が転覆し生徒ら2人が死亡した事故を巡り、同志社国際高校は28日、乗船していた生徒の保護者向け説明会を実施しました。学校側の対応が問われています。",
       "points": [
-        "三重県鈴鹿市の総合病院敷地内で発生",
-        "救急隊員を怒鳴り、ひじで脇腹を突くなどの暴行",
-        "酒に酔った状態の77歳男を現行犯逮捕"
+        "沖縄県名護市沖の船転覆事故で生徒ら2人が死亡",
+        "同志社国際高が28日に保護者向け説明会を開催",
+        "保護者からは核心部分の回答が得られないとの声"
       ],
-      "impact": "医療従事者や救急隊員に対する安全確保や、現場でのトラブル防止の重要性が改めて問われています。",
+      "impact": "学校行事や課外活動における安全管理体制の見直しと、事故発生時の保護者への迅速かつ誠実な情報開示が強く求められています。",
       "tags": [
-        "事件",
-        "三重県",
-        "逮捕"
+        "同志社国際高校",
+        "転覆事故",
+        "安全管理"
       ],
-      "url": "https://news.yahoo.co.jp/articles/30850babd2ce9c2b933fee451b56752d016b619b?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/3efbb4c4d82edc4d61a95b8c48d381488e2c8217?source=rss",
       "isAiEnriched": true
     },
     {
@@ -3336,24 +3336,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "VW、電動コンパクトSUV新型「ID.クロス」Rライン設定",
+      "title": "ゆうちょ銀行、海外家族口座への送金料金を変更へ",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-28 21:40",
-      "publishedTs": 1795869600,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-10478944-vague-000-1-view.jpg?exp=10800",
-      "summary": "フォルクスワーゲンは電動コンパクトSUV「ID.クロス」にスポーティな「Rライン」を設定し、欧州で受注を開始しました。",
+      "publishedAt": "2026-11-28 21:50",
+      "publishedTs": 1795870233,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-90001668-toushin-000-1-view.jpg?exp=10800",
+      "summary": "ゆうちょ銀行は2027年1月4日から、海外に住む家族の口座への送金料金などを改定。通帳アプリからの送金は月5回まで無料になります。",
       "points": [
-        "全長4.1mの使いやすいサイズの電動コンパクトSUV",
-        "高性能版「Rライン」を欧州市場で新たに設定",
-        "226馬力の出力と専用シャシで走りの性能を強化"
+        "2027年1月4日から海外関連の送金料金が変更",
+        "通帳アプリを利用した国内送金は月5回まで無料",
+        "海外赴任者や海外に家族がいる世帯の負担に影響"
       ],
-      "impact": "EV市場の拡大が進む中、コンパクトかつスポーティな新型SUVの動向は自動車市場の注目を集めています。",
+      "impact": "海外送金や非居住者の口座利用を行う利用者にとって、手数料の変更は家計管理上の重要な確認事項となります。",
       "tags": [
-        "フォルクスワーゲン",
-        "自動車",
-        "EV"
+        "ゆうちょ銀行",
+        "金融",
+        "海外送金"
       ],
-      "url": "https://news.yahoo.co.jp/articles/281b9731b29ee99ac80b6534b4ca4de459a57f88?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/194a246d3565ac42f986ba73e88d4dd4a75aa409?source=rss",
       "isAiEnriched": true
     },
     {
@@ -3380,46 +3380,46 @@ window.NEWS_DATA = {
     },
     {
       "category": "subculture",
-      "title": "歌手のLiSAと声優の鈴木達央が離婚を発表",
-      "source": "oricon.co.jp",
-      "publishedAt": "2026-11-28 18:46",
-      "publishedTs": 1795859206,
-      "image": "https://contents.oricon.co.jp/upimg/news/2496000/2495941/20261128_183037_p_o_71849652.jpg",
-      "summary": "歌手のLiSAさんと声優の鈴木達央さんが連名で離婚を発表。お互いを尊重し話し合いを重ねた結果、6年の結婚生活に幕を下ろし、今後は親として協力して子どもを育てていくとしています。",
+      "title": "TVアニメ『チー付与』実写版暗殺の母「料理」",
+      "source": "youtube.com",
+      "publishedAt": "2026-11-28 12:03",
+      "publishedTs": 1795834995,
+      "image": "https://b.hatena.ne.jp/entry/image/https://www.youtube.com/watch?v=U1TdIcsA8Rw",
+      "summary": "累計発行部数180万部を突破した人気異世界ファンタジー『チー付与』がP.A.WORKSによりアニメ化。中毒性の高いギャグと魅力的なキャラクターが話題です。",
       "points": [
-        "歌手のLiSAと声優の鈴木達央が離婚を公表",
-        "十分な話し合いを重ねた上での円満な結論であることを強調",
-        "今後は親として協力し子育てにあたる方針を示す"
+        "原作は累計180万部突破の月マガ発の人気作",
+        "P.A.WORKSが圧倒的クオリティでアニメ化",
+        "カオスなギャグとキャラクターが熱狂的支持を獲得"
       ],
-      "impact": "著名人夫婦のライフスタイルの変化としてファンやエンタメ業界に大きな驚きと影響を与えています。",
+      "impact": "アニメ化による原作ファンの拡大や、SNSでの関連コンテンツの盛り上がりに注目が集まります。",
       "tags": [
-        "芸能",
-        "LiSA",
-        "鈴木達央"
+        "アニメ",
+        "チー付与",
+        "サブカルチャー"
       ],
-      "url": "https://www.oricon.co.jp/news/2495941/full/",
+      "url": "https://www.youtube.com/watch?v=U1TdIcsA8Rw",
       "isAiEnriched": true
     },
     {
       "category": "domestic",
-      "title": "岐阜市の繁華街で無許可ホストクラブ営業、店長ら逮捕",
+      "title": "高知のマグロ漁船が岩手沖で航行不能、乗組員は無事",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-28 23:36",
-      "publishedTs": 1795876577,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-23119519-cbcv-000-1-view.jpg?exp=10800",
-      "summary": "岐阜市の繁華街において、無許可でホストクラブを営業していたとして、店の店長と経営者の男2人が警察に逮捕されました。風営法違反の疑いで捜査が進められています。",
+      "publishedAt": "2026-11-29 00:06",
+      "publishedTs": 1795878380,
+      "image": "https://tse2.mm.bing.net/th?q=%E9%AB%98%E7%9F%A5%E3%81%AE%E3%83%9E%E3%82%B0%E3%83%AD%E6%BC%81%E8%88%B9%E8%88%AA%E8%A1%8C%E4%B8%8D%E8%83%BD%20%E5%B2%A9%E6%89%8B%20%E4%B9%85%E6%85%88%E6%B2%96%20%E3%81%91%E3%81%8C%E4%BA%BA%E3%81%AA%E3%81%97&w=800&h=450&c=7&rs=1&p=0",
+      "summary": "岩手県久慈市沖の太平洋上で、高知県室戸市のマグロはえ縄漁船「第78美阿丸」が航行不能となった。乗組員9人にけがはなく、海上保安部がえい航救助を実施予定。",
       "points": [
-        "岐阜市の繁華街での無許可営業事件",
-        "風営法違反の疑いで店長と経営者を逮捕",
-        "警察が詳しい営業実態や経緯を調査中"
+        "岩手県久慈市沖でマグロはえ縄漁船が航行不能に",
+        "高知県室戸市の「第78美阿丸」（19トン）",
+        "乗組員9人は全員無事でけがなし"
       ],
-      "impact": "ナイトエンターテインメント業界における適法な営業と行政指導の厳格化に対する意識が高まっています。",
+      "impact": "海上事故における迅速な安否確認と、海保による安全なえい航救助活動の重要性を示しています。",
       "tags": [
-        "事件",
-        "岐阜県",
-        "逮捕"
+        "事故",
+        "社会",
+        "漁船"
       ],
-      "url": "https://news.yahoo.co.jp/articles/094b44cf0cdb842708688ffdabe7a6892d7e3b2a?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/fd22ad0b2ebb31733dd66825d6ca0c9707c3ea48?source=rss",
       "isAiEnriched": true
     },
     {
@@ -3446,24 +3446,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "厚労省調査、暮らしが「苦しい」高齢者世帯が52.1％",
+      "title": "VW、電動コンパクトSUV新型「ID.クロス」Rライン設定",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-28 21:30",
-      "publishedTs": 1795869033,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-90001667-toushin-000-1-view.jpg?exp=10800",
-      "summary": "厚労省の2025年国民生活基礎調査によると、暮らし向きが「苦しい」と回答した高齢者世帯の割合が52.1％に達しました。",
+      "publishedAt": "2026-11-28 21:40",
+      "publishedTs": 1795869600,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-10478944-vague-000-1-view.jpg?exp=10800",
+      "summary": "フォルクスワーゲンは電動コンパクトSUV「ID.クロス」にスポーティな「Rライン」を設定し、欧州で受注を開始しました。",
       "points": [
-        "高齢者世帯の52.1％が暮らし向きを「苦しい」と回答",
-        "厚労省の「2025年国民生活基礎調査の概況」で判明",
-        "「大変苦しい」「やや苦しい」を合わせた割合"
+        "全長4.1mの使いやすいサイズの電動コンパクトSUV",
+        "高性能版「Rライン」を欧州市場で新たに設定",
+        "226馬力の出力と専用シャシで走りの性能を強化"
       ],
-      "impact": "物価高や社会保障費の負担増が進む中、高齢者層の生活実態や今後の福祉政策への議論に影響を与えます。",
+      "impact": "EV市場の拡大が進む中、コンパクトかつスポーティな新型SUVの動向は自動車市場の注目を集めています。",
       "tags": [
-        "厚労省",
-        "高齢者",
-        "経済"
+        "フォルクスワーゲン",
+        "自動車",
+        "EV"
       ],
-      "url": "https://news.yahoo.co.jp/articles/b354a4a5c21904236382bf4f096723b28e114647?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/281b9731b29ee99ac80b6534b4ca4de459a57f88?source=rss",
       "isAiEnriched": true
     },
     {
@@ -3512,24 +3512,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "富山県がすし駅弁サミットを開催",
+      "title": "千葉東金道路で5台絡む事故、2人心肺停止",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-28 23:20",
-      "publishedTs": 1795875652,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-00000040-ann-000-1-thumb.jpg?exp=10800",
-      "summary": "「寿司といえば、富山」のブランド戦略を進める富山県が、富山駅で「すし駅弁サミット」を開催。ご当地のますのすしに加え、全国から個性豊かな駅弁が集結しました。",
+      "publishedAt": "2026-11-28 23:59",
+      "publishedTs": 1795877943,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-00000041-ann-000-1-view.jpg?exp=10800",
+      "summary": "千葉東金道路の上り線で軽自動車が横転し、後続車4台を巻き込む多重事故が発生しました。軽自動車に乗っていた女性2人が心肺停止の状態で病院へ搬送されています。",
       "points": [
-        "富山県で「すし駅弁サミット」が初開催",
-        "富山のますのすしや全国の駅弁が集結",
-        "寿司のブランディング強化の一環"
+        "千葉東金道路上り線での多重事故",
+        "軽自動車の横転が発端となり計5台が巻き込まれる",
+        "女性2人が心肺停止の状態で救急搬送"
       ],
-      "impact": "各地の駅弁文化の魅力が再発信され、鉄道旅やご当地グルメ市場の活性化が期待されます。",
+      "impact": "周辺道路の一部区間で通行止めが発生し、交通網に大きな影響が出ています。",
       "tags": [
-        "富山県",
-        "グルメ",
-        "駅弁"
+        "事故",
+        "千葉県",
+        "交通情報"
       ],
-      "url": "https://news.yahoo.co.jp/articles/6335002942a18aba7ead5afcc5f9b1719b9fb04b?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/d6b7aa318337b3455421df89356328951db8edec?source=rss",
       "isAiEnriched": true
     },
     {
@@ -3556,24 +3556,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "60〜70代おひとりさまの貯蓄額の中央値は",
+      "title": "厚労省調査、暮らしが「苦しい」高齢者世帯が52.1％",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-28 21:20",
-      "publishedTs": 1795868433,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-90001666-toushin-000-1-view.jpg?exp=10800",
-      "summary": "60代および70代の単身世帯における貯蓄額の中央値の実態が明らかになりました。平均値に惑わされず、実際のボリュームゾーンを知ることで老後のマネープランを見直すきっかけになります。",
+      "publishedAt": "2026-11-28 21:30",
+      "publishedTs": 1795869033,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-90001667-toushin-000-1-view.jpg?exp=10800",
+      "summary": "厚労省の2025年国民生活基礎調査によると、暮らし向きが「苦しい」と回答した高齢者世帯の割合が52.1％に達しました。",
       "points": [
-        "60代おひとりさまの貯蓄中央値は900万〜1200万円",
-        "70代単身世帯の中央値は600万〜750万円帯",
-        "平均値と実態（中央値）のギャップに注意が必要"
+        "高齢者世帯の52.1％が暮らし向きを「苦しい」と回答",
+        "厚労省の「2025年国民生活基礎調査の概況」で判明",
+        "「大変苦しい」「やや苦しい」を合わせた割合"
       ],
-      "impact": "自身の老後資金計画を立てる際の現実的なベンチマークとなり、今後の生活設計や資産形成の意識を高める情報となります。",
+      "impact": "物価高や社会保障費の負担増が進む中、高齢者層の生活実態や今後の福祉政策への議論に影響を与えます。",
       "tags": [
-        "マネー",
-        "貯蓄",
-        "老後資金"
+        "厚労省",
+        "高齢者",
+        "経済"
       ],
-      "url": "https://news.yahoo.co.jp/articles/8e6c88c886c4b055c4a8edea14f8a03d769e987f?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/b354a4a5c21904236382bf4f096723b28e114647?source=rss",
       "isAiEnriched": true
     },
     {
@@ -3622,24 +3622,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "千葉の道路で複数車絡む事故、2人心肺停止",
+      "title": "富山県が独自の魅力を発信する「すし駅弁サミット」開催",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-28 23:12",
-      "publishedTs": 1795875166,
-      "image": "https://tse2.mm.bing.net/th?q=%E5%A4%9A%E9%87%8D%E4%BA%8B%E6%95%85%20%E5%A5%B3%E6%80%A72%E4%BA%BA%E6%AD%BB%E4%BA%A1%20%E5%8D%83%E8%91%89%E5%B8%82%E3%81%AE%E8%87%AA%E5%8B%95%E8%BB%8A%E5%B0%82%E7%94%A8%E9%81%93%E8%B7%AF&w=800&h=450&c=7&rs=1&p=0",
-      "summary": "千葉市若葉区の千葉東金道路で複数台が絡む事故が発生。横転した軽乗用車に乗っていた女性2人が心肺停止の状態で病院に搬送されるなど、現場は騒然となりました。",
+      "publishedAt": "2026-11-28 23:45",
+      "publishedTs": 1795877133,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-10292945-abemav-000-1-view.jpg?exp=10800",
+      "summary": "「寿司といえば富山」のブランド戦略を進める富山県が、新たな試みとして「すし駅弁サミット」を開催しました。フレンチやケーキ店が考案した斬新な寿司も登場しています。",
       "points": [
-        "千葉東金道路で複数車が絡む事故が発生",
-        "横転した車に乗っていた女性2人が心肺停止",
-        "警察や消防が詳しい事故の原因を調査中"
+        "「寿司といえば富山」のブランディングの一環",
+        "フレンチやケーキ店など異業種が考案した寿司が登場",
+        "富山の食の魅力を全国に向けて広く発信"
       ],
-      "impact": "自動車専用道路での重大事故であり、交通規制や今後の安全運転への意識向上が強く求められます。",
+      "impact": "観光やご当地グルメの新たな起爆剤として、地方創生の観点からも注目されています。",
       "tags": [
-        "事故",
-        "千葉",
-        "社会"
+        "富山県",
+        "グルメ",
+        "イベント"
       ],
-      "url": "https://news.yahoo.co.jp/articles/fa307de4a45491ecd9e533a3eea2f807f16e5171?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/e459a8ddda51d9a54640253da480596cbf78fff2?source=rss",
       "isAiEnriched": true
     },
     {
@@ -3666,24 +3666,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "TOPIX改革対策、増配期待の日本株2銘柄",
+      "title": "60〜70代おひとりさまの貯蓄額の中央値は",
       "source": "Yahoo!ニュース",
       "publishedAt": "2026-11-28 21:20",
-      "publishedTs": 1795868429,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-02076032-dzai-000-1-view.jpg?exp=10800",
-      "summary": "TOPIX改革の移行措置銘柄を対象に、株主増加策としての増配が期待される日本株2銘柄が紹介されています。14期連続増配の「S FOODS」と大幅増配の「住友精化」に注目が集まっています。",
+      "publishedTs": 1795868433,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-90001666-toushin-000-1-view.jpg?exp=10800",
+      "summary": "60代および70代の単身世帯における貯蓄額の中央値の実態が明らかになりました。平均値に惑わされず、実際のボリュームゾーンを知ることで老後のマネープランを見直すきっかけになります。",
       "points": [
-        "TOPIX除外対策として「増配」が見込める銘柄をピックアップ",
-        "14期連続増配を計画している「S FOODS」に注目",
-        "大幅増配で利回り5％前後に上昇した「住友精化」も紹介"
+        "60代おひとりさまの貯蓄中央値は900万〜1200万円",
+        "70代単身世帯の中央値は600万〜750万円帯",
+        "平均値と実態（中央値）のギャップに注意が必要"
       ],
-      "impact": "個人投資家のポートフォリオ見直しや買い付けのターゲットとなり、年末年始の株式市場における投資戦略に活用できます。",
+      "impact": "自身の老後資金計画を立てる際の現実的なベンチマークとなり、今後の生活設計や資産形成の意識を高める情報となります。",
       "tags": [
-        "株式投資",
-        "日本株",
-        "ビジネス"
+        "マネー",
+        "貯蓄",
+        "老後資金"
       ],
-      "url": "https://news.yahoo.co.jp/articles/3708be4da7e4e6d11b01d46fb0758804005af622?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/8e6c88c886c4b055c4a8edea14f8a03d769e987f?source=rss",
       "isAiEnriched": true
     },
     {
@@ -3710,46 +3710,46 @@ window.NEWS_DATA = {
     },
     {
       "category": "subculture",
-      "title": "阿佐ヶ谷サキュバス同人物語・第29話が配信開始",
-      "source": "championcross.jp",
-      "publishedAt": "2026-11-28 09:36",
-      "publishedTs": 1795826168,
-      "image": "https://cdn-public.comici.jp/episode/1794899417/03e7b5c410e68a3b.webp",
-      "summary": "同人で生計を立てる佐藤莉奈と洋風美女を巡るドタバタを描く「阿佐ヶ谷サキュバス同人物語」の第29話がチャンピオンクロスで公開され、衝撃の展開を迎えています。",
+      "title": "『FE 聖魔の光石』ルネス騎士団を束ねる若き将軍・ゼトを紹介",
+      "source": "leohoshikawa.hatenablog.com",
+      "publishedAt": "2026-11-28 09:48",
+      "publishedTs": 1795826919,
+      "image": "https://cdn.image.st-hatena.com/image/scale/fa3b5d7dba631f598426c783c606c134aac57341/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fl%2Fleohoshikawa%2F20261110%2F20261110100127.png",
+      "summary": "ゲーム『ファイアーエムブレム 聖魔の光石』に登場するキャラクター、ゼトを紹介する記事です。ルネス騎士団を束ね、「不可能を可能にする」と評される若き将軍の魅力や特徴について解説しています。",
       "points": [
-        "同人作家の主人公がコンビニでトラブルに遭遇",
-        "突如現れた洋風美女との契約を描くコメディ",
-        "チャンピオンクロスにて第29話が公開"
+        "『ファイアーエムブレム 聖魔の光石』が題材",
+        "ルネス騎士団を束ねる若き将軍ゼトを解説",
+        "作品のキャラクター研究・紹介ブログ記事"
       ],
-      "impact": "Webマンガプラットフォームにおける話題作の動向として、読者のエンゲージメントを高めています。",
+      "impact": "名作シミュレーションRPGのキャラクター再評価や、シリーズファン同士の考察・交流が活発になるきっかけとして注目されます。",
       "tags": [
-        "漫画",
-        "チャンピオンクロス",
-        "サブカルチャー"
+        "ゲーム",
+        "ファイアーエムブレム",
+        "キャラクター"
       ],
-      "url": "https://championcross.jp/episodes/73928d87f8578",
+      "url": "https://leohoshikawa.hatenablog.com/entry/2026/11/28/060000",
       "isAiEnriched": true
     },
     {
       "category": "domestic",
-      "title": "千葉の自動車道で多重事故、2人心肺停止",
+      "title": "救急隊員に暴行か、酒気帯びの77歳男を現行犯逮捕",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-28 22:59",
-      "publishedTs": 1795874352,
-      "image": "https://tse2.mm.bing.net/th?q=%E5%8D%83%E8%91%89%E3%81%A7%E8%A4%87%E6%95%B0%E3%81%AE%E8%BB%8A%E7%B5%A1%E3%82%80%E4%BA%8B%E6%95%85%202%E4%BA%BA%E5%BF%83%E8%82%BA%E5%81%9C%E6%AD%A2&w=800&h=450&c=7&rs=1&p=0",
-      "summary": "千葉市若葉区の自動車専用道路にて複数の車が絡む事故が起き、横転した車両に乗っていた女性2人が心肺停止の状態で救急搬送される重大な事故となりました。",
+      "publishedAt": "2026-11-28 23:42",
+      "publishedTs": 1795876937,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-23119522-cbcv-000-1-view.jpg?exp=10800",
+      "summary": "三重県鈴鹿市の総合病院敷地内で、救急隊員を怒鳴りつけ暴行を加えたとして、77歳の男が公務執行妨害の疑いで現行犯逮捕されました。男は当時、酒に酔った状態でした。",
       "points": [
-        "千葉市若葉区の自動車道で多重事故が発生",
-        "横転車両の女性2人が心肺停止で搬送",
-        "警察が現場の状況を詳しく調べている"
+        "三重県鈴鹿市の総合病院敷地内で発生",
+        "救急隊員を怒鳴り、ひじで脇腹を突くなどの暴行",
+        "酒に酔った状態の77歳男を現行犯逮捕"
       ],
-      "impact": "年末年始や行楽シーズンに向け、ドライバーに対してより一層の安全運転と事故防止の注意喚起となります。",
+      "impact": "医療従事者や救急隊員に対する安全確保や、現場でのトラブル防止の重要性が改めて問われています。",
       "tags": [
-        "事故",
-        "千葉",
-        "速報"
+        "事件",
+        "三重県",
+        "逮捕"
       ],
-      "url": "https://news.yahoo.co.jp/articles/5d2ad577eeb70778e5244911120678012fa0e581?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/30850babd2ce9c2b933fee451b56752d016b619b?source=rss",
       "isAiEnriched": true
     },
     {
@@ -3776,24 +3776,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "トム ブラウン、2026年下半期ベストアウター",
+      "title": "TOPIX改革対策、増配期待の日本株2銘柄",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-28 21:11",
-      "publishedTs": 1795867884,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-00010005-gqjapan-000-1-view.jpg?exp=10800",
-      "summary": "トム ブラウンの2026年秋冬コレクションから、個性豊かな注目アウターが登場しました。ナンタケット島の風景を描いたコートやロブスター柄のオーバーコートなど、独創的な世界観が展開されています。",
+      "publishedAt": "2026-11-28 21:20",
+      "publishedTs": 1795868429,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-02076032-dzai-000-1-view.jpg?exp=10800",
+      "summary": "TOPIX改革の移行措置銘柄を対象に、株主増加策としての増配が期待される日本株2銘柄が紹介されています。14期連続増配の「S FOODS」と大幅増配の「住友精化」に注目が集まっています。",
       "points": [
-        "トム ブラウンの2026年下半期ベストアウターを特集",
-        "ナンタケット島の風景を描いた個性派コート",
-        "インパクト抜群のロブスター柄オーバーコート"
+        "TOPIX除外対策として「増配」が見込める銘柄をピックアップ",
+        "14期連続増配を計画している「S FOODS」に注目",
+        "大幅増配で利回り5％前後に上昇した「住友精化」も紹介"
       ],
-      "impact": "ハイファッションに関心を持つ層やトレンドセッターに向けて、今シーズンのコーディネートの選択肢を広げます。",
+      "impact": "個人投資家のポートフォリオ見直しや買い付けのターゲットとなり、年末年始の株式市場における投資戦略に活用できます。",
       "tags": [
-        "ファッション",
-        "トムブラウン",
-        "トレンド"
+        "株式投資",
+        "日本株",
+        "ビジネス"
       ],
-      "url": "https://news.yahoo.co.jp/articles/857e48c6f16def9ebc8dba007cffd1fd43f98b35?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/3708be4da7e4e6d11b01d46fb0758804005af622?source=rss",
       "isAiEnriched": true
     },
     {
@@ -3842,24 +3842,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "水俣病70年展で患者認定のハードルと苦悩を語る",
+      "title": "岐阜市の繁華街で無許可ホストクラブ営業、店長ら逮捕",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-28 22:02",
-      "publishedTs": 1795870959,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-00010004-nishinpc-000-1-view.jpg?exp=10800",
-      "summary": "水俣病の被害者である藤枝静香さんが「水俣病70年展」に登壇。患者認定の壁や当事者が背負う不条理な苦しみについて語りました。",
+      "publishedAt": "2026-11-28 23:36",
+      "publishedTs": 1795876577,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-23119519-cbcv-000-1-view.jpg?exp=10800",
+      "summary": "岐阜市の繁華街において、無許可でホストクラブを営業していたとして、店の店長と経営者の男2人が警察に逮捕されました。風営法違反の疑いで捜査が進められています。",
       "points": [
-        "東京都内で「水俣病70年展」が開催される",
-        "被害者の藤枝静香さんが患者認定のハードルを訴え",
-        "「自分ごと」として捉えることの重要性を発信"
+        "岐阜市の繁華街での無許可営業事件",
+        "風営法違反の疑いで店長と経営者を逮捕",
+        "警察が詳しい営業実態や経緯を調査中"
       ],
-      "impact": "公害問題の歴史と現在の課題について、社会全体で再認識する契機として広く注目されています。",
+      "impact": "ナイトエンターテインメント業界における適法な営業と行政指導の厳格化に対する意識が高まっています。",
       "tags": [
-        "水俣病",
-        "社会",
-        "公害"
+        "事件",
+        "岐阜県",
+        "逮捕"
       ],
-      "url": "https://news.yahoo.co.jp/articles/40d38e78f84b6a1108539b89213835c9854fa727?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/094b44cf0cdb842708688ffdabe7a6892d7e3b2a?source=rss",
       "isAiEnriched": true
     },
     {
@@ -3886,24 +3886,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "人気時計「ティソ PRX」にクオーツクロノグラフ",
+      "title": "トム ブラウン、2026年下半期ベストアウター",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-28 21:10",
-      "publishedTs": 1795867855,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-00010000-watchnavi-000-1-view.jpg?exp=10800",
-      "summary": "スイスの人気ウォッチブランド「ティソ」のアイコンコレクション「PRX」に、待望のクオーツクロノグラフムーブメントを搭載した新モデルが登場。個性豊かなバリエーションが拡充されました。",
+      "publishedAt": "2026-11-28 21:11",
+      "publishedTs": 1795867884,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-00010005-gqjapan-000-1-view.jpg?exp=10800",
+      "summary": "トム ブラウンの2026年秋冬コレクションから、個性豊かな注目アウターが登場しました。ナンタケット島の風景を描いたコートやロブスター柄のオーバーコートなど、独創的な世界観が展開されています。",
       "points": [
-        "スイスウォッチ「ティソ」の人気コレクション「PRX」が進化",
-        "待望のスイス製クオーツクロノグラフモデルを新搭載",
-        "個性豊かな新バリエーションが追加され選択肢が拡大"
+        "トム ブラウンの2026年下半期ベストアウターを特集",
+        "ナンタケット島の風景を描いた個性派コート",
+        "インパクト抜群のロブスター柄オーバーコート"
       ],
-      "impact": "時計愛好家やエントリー層の購買意欲を刺激し、手頃な価格で本格的なスイス製クロノグラフを楽しめる新たな定番として市場を賑わせます。",
+      "impact": "ハイファッションに関心を持つ層やトレンドセッターに向けて、今シーズンのコーディネートの選択肢を広げます。",
       "tags": [
-        "時計",
-        "ティソ",
-        "ファッション"
+        "ファッション",
+        "トムブラウン",
+        "トレンド"
       ],
-      "url": "https://news.yahoo.co.jp/articles/fae991d10f9a7d9070b176b6c923ce71caba2c95?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/857e48c6f16def9ebc8dba007cffd1fd43f98b35?source=rss",
       "isAiEnriched": true
     },
     {
@@ -3930,46 +3930,46 @@ window.NEWS_DATA = {
     },
     {
       "category": "subculture",
-      "title": "WEB漫画サイトの更新情報と名作群",
-      "source": "comic-y-ours.com",
-      "publishedAt": "2026-11-28 01:34",
-      "publishedTs": 1795797296,
-      "image": "https://cdn-img.comic-y-ours.com/public/series-thumbnail/12207421984006153547-ec3a44955b85bd02e05f699f16449ed1?1792722421",
-      "summary": "少年画報社が運営する無料Web漫画サイト「COMIC Y-OURS」にて、連載作や不朽の名作アンソロジーなどのコンテンツが毎週火曜日と金曜日に継続して更新されています。",
+      "title": "阿佐ヶ谷サキュバス同人物語・第29話が配信開始",
+      "source": "championcross.jp",
+      "publishedAt": "2026-11-28 09:36",
+      "publishedTs": 1795826168,
+      "image": "https://cdn-public.comici.jp/episode/1794899417/03e7b5c410e68a3b.webp",
+      "summary": "同人で生計を立てる佐藤莉奈と洋風美女を巡るドタバタを描く「阿佐ヶ谷サキュバス同人物語」の第29話がチャンピオンクロスで公開され、衝撃の展開を迎えています。",
       "points": [
-        "少年画報社が提供する無料のWeb漫画プラットフォーム",
-        "ヤングキング アワーズの人気連載作などを掲載",
-        "毎週火曜日・金曜日に定期的なコンテンツ更新"
+        "同人作家の主人公がコンビニでトラブルに遭遇",
+        "突如現れた洋風美女との契約を描くコメディ",
+        "チャンピオンクロスにて第29話が公開"
       ],
-      "impact": "手軽に良質なマンガ作品に触れられる機会が増え、デジタルコミック市場全体の活性化につながります。",
+      "impact": "Webマンガプラットフォームにおける話題作の動向として、読者のエンゲージメントを高めています。",
       "tags": [
         "漫画",
-        "WEBマンガ",
+        "チャンピオンクロス",
         "サブカルチャー"
       ],
-      "url": "https://comic-y-ours.com/episode/12207421984349247456",
+      "url": "https://championcross.jp/episodes/73928d87f8578",
       "isAiEnriched": true
     },
     {
       "category": "domestic",
-      "title": "不登校の小中学生が過去最多36万人、母親の離職深刻",
+      "title": "富山県がすし駅弁サミットを開催",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-28 22:00",
-      "publishedTs": 1795870838,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-10292701-abemav-000-1-view.jpg?exp=10800",
-      "summary": "文部科学省の調査で不登校の小中学生が過去最多の約36万人に達し、子どもの不登校に伴う母親の離職率の高さが課題となっています。",
+      "publishedAt": "2026-11-28 23:20",
+      "publishedTs": 1795875652,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-00000040-ann-000-1-thumb.jpg?exp=10800",
+      "summary": "「寿司といえば、富山」のブランド戦略を進める富山県が、富山駅で「すし駅弁サミット」を開催。ご当地のますのすしに加え、全国から個性豊かな駅弁が集結しました。",
       "points": [
-        "不登校の小中学生が13年連続で増加し約36万人に",
-        "母親の離職率は父親の約30倍にのぼる深刻な状況",
-        "周囲のサポート不足や保護者の精神的負担が課題"
+        "富山県で「すし駅弁サミット」が初開催",
+        "富山のますのすしや全国の駅弁が集結",
+        "寿司のブランディング強化の一環"
       ],
-      "impact": "働き方改革や子育て支援、教育現場のサポート体制において、深刻な社会問題として対策が求められています。",
+      "impact": "各地の駅弁文化の魅力が再発信され、鉄道旅やご当地グルメ市場の活性化が期待されます。",
       "tags": [
-        "教育",
-        "不登校",
-        "社会"
+        "富山県",
+        "グルメ",
+        "駅弁"
       ],
-      "url": "https://news.yahoo.co.jp/articles/b28869fcc084c2ee3ec1a771936cf1001c2bcde4?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/6335002942a18aba7ead5afcc5f9b1719b9fb04b?source=rss",
       "isAiEnriched": true
     },
     {
@@ -3996,24 +3996,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "メルセデス・ベンツ新型「Sクラス」試乗",
+      "title": "人気時計「ティソ PRX」にクオーツクロノグラフ",
       "source": "Yahoo!ニュース",
       "publishedAt": "2026-11-28 21:10",
-      "publishedTs": 1795867800,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-01147196-kurumans-000-1-view.jpg?exp=10800",
-      "summary": "メルセデス・ベンツのフラッグシップ「Sクラス」が刷新。537馬力の新V8エンジンを搭載し、部品の50%以上が再設計された走りの進化に迫る。",
+      "publishedTs": 1795867855,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-00010000-watchnavi-000-1-view.jpg?exp=10800",
+      "summary": "スイスの人気ウォッチブランド「ティソ」のアイコンコレクション「PRX」に、待望のクオーツクロノグラフムーブメントを搭載した新モデルが登場。個性豊かなバリエーションが拡充されました。",
       "points": [
-        "537馬力の新V8エンジンを搭載",
-        "車両の50%以上の部品を新規開発・再設計",
-        "フラッグシップモデルとしての走りが進化"
+        "スイスウォッチ「ティソ」の人気コレクション「PRX」が進化",
+        "待望のスイス製クオーツクロノグラフモデルを新搭載",
+        "個性豊かな新バリエーションが追加され選択肢が拡大"
       ],
-      "impact": "高級車市場における最新モデルの走りやエンジンの進化に大きな注目が集まっています。",
+      "impact": "時計愛好家やエントリー層の購買意欲を刺激し、手頃な価格で本格的なスイス製クロノグラフを楽しめる新たな定番として市場を賑わせます。",
       "tags": [
-        "メルセデス・ベンツ",
-        "Sクラス",
-        "新型車"
+        "時計",
+        "ティソ",
+        "ファッション"
       ],
-      "url": "https://news.yahoo.co.jp/articles/168c1b8c429d5f2a1f40296dc4dcae6765b7084f?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/fae991d10f9a7d9070b176b6c923ce71caba2c95?source=rss",
       "isAiEnriched": true
     },
     {
@@ -4062,24 +4062,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "留置施設で看守警察官にお茶かけた疑い",
+      "title": "千葉の道路で複数車絡む事故、2人心肺停止",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-28 20:50",
-      "publishedTs": 1795866626,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-23119488-cbcv-000-1-view.jpg?exp=10800",
-      "summary": "警察署の留置施設で看守業務中の警察官にお茶をかけたとして、勾留中の42歳男が現行犯逮捕された。男は容疑を否認している。",
+      "publishedAt": "2026-11-28 23:12",
+      "publishedTs": 1795875166,
+      "image": "https://tse2.mm.bing.net/th?q=%E5%A4%9A%E9%87%8D%E4%BA%8B%E6%95%85%20%E5%A5%B3%E6%80%A72%E4%BA%BA%E6%AD%BB%E4%BA%A1%20%E5%8D%83%E8%91%89%E5%B8%82%E3%81%AE%E8%87%AA%E5%8B%95%E8%BB%8A%E5%B0%82%E7%94%A8%E9%81%93%E8%B7%AF&w=800&h=450&c=7&rs=1&p=0",
+      "summary": "千葉市若葉区の千葉東金道路で複数台が絡む事故が発生。横転した軽乗用車に乗っていた女性2人が心肺停止の状態で病院に搬送されるなど、現場は騒然となりました。",
       "points": [
-        "三重・鳥羽警察署で発生した公務執行妨害事件",
-        "看守警察官にお茶をかけた疑いで男を逮捕",
-        "被疑者は「公務を妨害したとは思わない」と否認"
+        "千葉東金道路で複数車が絡む事故が発生",
+        "横転した車に乗っていた女性2人が心肺停止",
+        "警察や消防が詳しい事故の原因を調査中"
       ],
-      "impact": "警察施設内でのトラブルや公務執行妨害に対する安全管理の厳格化が求められる事例です。",
+      "impact": "自動車専用道路での重大事故であり、交通規制や今後の安全運転への意識向上が強く求められます。",
       "tags": [
-        "事件",
-        "逮捕",
-        "警察"
+        "事故",
+        "千葉",
+        "社会"
       ],
-      "url": "https://news.yahoo.co.jp/articles/7c3374ccc8e515f146cb0a9d0e774b1a79bda21c?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/fa307de4a45491ecd9e533a3eea2f807f16e5171?source=rss",
       "isAiEnriched": true
     },
     {
@@ -4106,24 +4106,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "レクサス新型「NX」が大幅改良で登場",
+      "title": "メルセデス・ベンツ新型「Sクラス」試乗",
       "source": "Yahoo!ニュース",
       "publishedAt": "2026-11-28 21:10",
       "publishedTs": 1795867800,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-10479312-vague-000-1-view.jpg?exp=10800",
-      "summary": "レクサスは大幅な商品改良を施した新型「NX」を発表。PHEVモデルのEV航続距離が伸びるなど、6年目の大刷新として注目を集めている。",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-01147196-kurumans-000-1-view.jpg?exp=10800",
+      "summary": "メルセデス・ベンツのフラッグシップ「Sクラス」が刷新。537馬力の新V8エンジンを搭載し、部品の50%以上が再設計された走りの進化に迫る。",
       "points": [
-        "大幅商品改良を経て12月7日に発売",
-        "PHEVは電気だけで147km走行可能",
-        "洗練されたデザインや先進機能に注目"
+        "537馬力の新V8エンジンを搭載",
+        "車両の50%以上の部品を新規開発・再設計",
+        "フラッグシップモデルとしての走りが進化"
       ],
-      "impact": "人気高級SUVの最新モデルの登場は、輸入車や国産プレミアムSUV市場に大きな影響を与えます。",
+      "impact": "高級車市場における最新モデルの走りやエンジンの進化に大きな注目が集まっています。",
       "tags": [
-        "レクサス",
-        "NX",
-        "SUV"
+        "メルセデス・ベンツ",
+        "Sクラス",
+        "新型車"
       ],
-      "url": "https://news.yahoo.co.jp/articles/5688d6cdab9ae3626ddff2ab2aee9a2f1e38551c?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/168c1b8c429d5f2a1f40296dc4dcae6765b7084f?source=rss",
       "isAiEnriched": true
     },
     {
@@ -4149,47 +4149,25 @@ window.NEWS_DATA = {
       "isAiEnriched": true
     },
     {
-      "category": "subculture",
-      "title": "「レッドブルー」第215話 レッドサイド⑤ サンデーうぇぶりで配信",
-      "source": "sunday-webry.com",
-      "publishedAt": "2026-11-28 02:08",
-      "publishedTs": 1795799287,
-      "image": "https://cdn-img.www.sunday-webry.com/public/series-thumbnail/3269754496660548419-489dff8a6a064d75481e174bd12e59ef?1755841963",
-      "summary": "波切敦氏による人気漫画「レッドブルー」の最新第215話が、電子書籍配信サービス「サンデーうぇぶり」にて公開されました。正規版を示すABJマーク掲載の下で安心して楽しめます。",
-      "points": [
-        "波切敦による人気漫画「レッドブルー」の最新話",
-        "サンデーうぇぶりにて電子配信がスタート",
-        "著作権者から許諾を得た正規版サービスで安全に閲覧可能"
-      ],
-      "impact": "電子書籍の安全な利用と、人気連載漫画の最新展開をタイムリーに追う読者層に影響を与えます。",
-      "tags": [
-        "サブカルチャー",
-        "漫画",
-        "サンデーうぇぶり"
-      ],
-      "url": "https://www.sunday-webry.com/episode/12207421984580332444",
-      "isAiEnriched": true
-    },
-    {
       "category": "domestic",
-      "title": "パトカーから逃走中の車が衝突事故",
+      "title": "千葉の自動車道で多重事故、2人心肺停止",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-28 20:33",
-      "publishedTs": 1795865595,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-23119475-cbcv-000-1-view.jpg?exp=10800",
-      "summary": "名古屋市守山区でパトカーから逃走していた乗用車が別の車やブロック塀に衝突する事故が発生。運転手ら2人が病院に搬送された。",
+      "publishedAt": "2026-11-28 22:59",
+      "publishedTs": 1795874352,
+      "image": "https://tse2.mm.bing.net/th?q=%E5%8D%83%E8%91%89%E3%81%A7%E8%A4%87%E6%95%B0%E3%81%AE%E8%BB%8A%E7%B5%A1%E3%82%80%E4%BA%8B%E6%95%85%202%E4%BA%BA%E5%BF%83%E8%82%BA%E5%81%9C%E6%AD%A2&w=800&h=450&c=7&rs=1&p=0",
+      "summary": "千葉市若葉区の自動車専用道路にて複数の車が絡む事故が起き、横転した車両に乗っていた女性2人が心肺停止の状態で救急搬送される重大な事故となりました。",
       "points": [
-        "名古屋市守山区で発生した追跡中の事故",
-        "逃走車が別の車やブロック塀に衝突",
-        "運転手ら2人が病院へ救急搬送"
+        "千葉市若葉区の自動車道で多重事故が発生",
+        "横転車両の女性2人が心肺停止で搬送",
+        "警察が現場の状況を詳しく調べている"
       ],
-      "impact": "市街地での逃走劇や交通事故による周辺の安全確保、防犯体制への意識を高めます。",
+      "impact": "年末年始や行楽シーズンに向け、ドライバーに対してより一層の安全運転と事故防止の注意喚起となります。",
       "tags": [
         "事故",
-        "名古屋",
-        "警察"
+        "千葉",
+        "速報"
       ],
-      "url": "https://news.yahoo.co.jp/articles/1dd414951f2953f2774afe10f5930b3ae7e35b8e?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/5d2ad577eeb70778e5244911120678012fa0e581?source=rss",
       "isAiEnriched": true
     },
     {
@@ -4216,24 +4194,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "トヨタ・bBカスタムのセクシーな魅力",
+      "title": "レクサス新型「NX」が大幅改良で登場",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-28 21:03",
-      "publishedTs": 1795867380,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-01670455-motorfan-000-1-view.jpg?exp=10800",
-      "summary": "販売終了後も根強い人気を誇るトヨタ・bBのカスタムカーを紹介。女性オーナーによる魅惑的なシルエットのドレスアップ車が話題に。",
+      "publishedAt": "2026-11-28 21:10",
+      "publishedTs": 1795867800,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-10479312-vague-000-1-view.jpg?exp=10800",
+      "summary": "レクサスは大幅な商品改良を施した新型「NX」を発表。PHEVモデルのEV航続距離が伸びるなど、6年目の大刷新として注目を集めている。",
       "points": [
-        "2000年登場のカスタムベース車として人気",
-        "販売終了後もコアなファンが多いトヨタ・bB",
-        "女性オーナーによるセクシーな愛車カスタム"
+        "大幅商品改良を経て12月7日に発売",
+        "PHEVは電気だけで147km走行可能",
+        "洗練されたデザインや先進機能に注目"
       ],
-      "impact": "根強いファンを持つ旧車やカスタムカー文化の魅力を改めて車好きに伝える話題です。",
+      "impact": "人気高級SUVの最新モデルの登場は、輸入車や国産プレミアムSUV市場に大きな影響を与えます。",
       "tags": [
-        "トヨタ",
-        "bB",
-        "カスタムカー"
+        "レクサス",
+        "NX",
+        "SUV"
       ],
-      "url": "https://news.yahoo.co.jp/articles/5822a0fef83565623888be0519e71bf5cacd03ae?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/5688d6cdab9ae3626ddff2ab2aee9a2f1e38551c?source=rss",
       "isAiEnriched": true
     },
     {
@@ -4260,24 +4238,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "近鉄南大阪線の踏切事故で男性が死亡",
+      "title": "水俣病70年展で患者認定のハードルと苦悩を語る",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-28 20:25",
-      "publishedTs": 1795865116,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-00000147-san-000-1-view.jpg?exp=10800",
-      "summary": "大阪府松原市の近鉄南大阪線の踏切で成人とみられる男性が電車にはねられ、一時運転見合わせとなりました。",
+      "publishedAt": "2026-11-28 22:02",
+      "publishedTs": 1795870959,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-00010004-nishinpc-000-1-view.jpg?exp=10800",
+      "summary": "水俣病の被害者である藤枝静香さんが「水俣病70年展」に登壇。患者認定の壁や当事者が背負う不条理な苦しみについて語りました。",
       "points": [
-        "矢田－河内天美間の踏切で事故が発生",
-        "はねられた男性の現場での死亡を確認",
-        "一時運転見合わせにより1万5000人に影響"
+        "東京都内で「水俣病70年展」が開催される",
+        "被害者の藤枝静香さんが患者認定のハードルを訴え",
+        "「自分ごと」として捉えることの重要性を発信"
       ],
-      "impact": "通勤・通学の時間帯に電車の運行が乱れ、多くの利用客の足に影響が出ました。",
+      "impact": "公害問題の歴史と現在の課題について、社会全体で再認識する契機として広く注目されています。",
       "tags": [
-        "事件・事故",
-        "鉄道",
-        "近鉄"
+        "水俣病",
+        "社会",
+        "公害"
       ],
-      "url": "https://news.yahoo.co.jp/articles/c6dc29240e89e30074a1178458447fe9eb393016?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/40d38e78f84b6a1108539b89213835c9854fa727?source=rss",
       "isAiEnriched": true
     },
     {
@@ -4304,24 +4282,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "池上彰が「富裕層」や広さを分かりやすく解説",
+      "title": "トヨタ・bBカスタムのセクシーな魅力",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-28 21:00",
-      "publishedTs": 1795867239,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-90205375-ann-000-1-view.jpg?exp=10800",
-      "summary": "ニュースでよく使われる「富裕層」の基準や「東京ドーム何個分」といった分かりにくい単位について、池上彰が具体的に解説する。",
+      "publishedAt": "2026-11-28 21:03",
+      "publishedTs": 1795867380,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-01670455-motorfan-000-1-view.jpg?exp=10800",
+      "summary": "販売終了後も根強い人気を誇るトヨタ・bBのカスタムカーを紹介。女性オーナーによる魅惑的なシルエットのドレスアップ車が話題に。",
       "points": [
-        "ニュースの抽象的な表現を具体的に解説",
-        "「富裕層」の経済的な基準を分かりやすく説明",
-        "面積の例えなど日常の疑問をすっきり解消"
+        "2000年登場のカスタムベース車として人気",
+        "販売終了後もコアなファンが多いトヨタ・bB",
+        "女性オーナーによるセクシーな愛車カスタム"
       ],
-      "impact": "経済やニュースへの理解を深め、日常生活で役立つ知識を手軽に得ることができます。",
+      "impact": "根強いファンを持つ旧車やカスタムカー文化の魅力を改めて車好きに伝える話題です。",
       "tags": [
-        "池上彰",
-        "経済",
-        "ニュース解説"
+        "トヨタ",
+        "bB",
+        "カスタムカー"
       ],
-      "url": "https://news.yahoo.co.jp/articles/7943645326c578f043b7a1c0f210ab0a8afc4b9e?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/5822a0fef83565623888be0519e71bf5cacd03ae?source=rss",
       "isAiEnriched": true
     },
     {
@@ -4348,24 +4326,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "タイムズカー情報流出に便乗した詐欺に注意",
+      "title": "不登校の小中学生が過去最多36万人、母親の離職深刻",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-28 20:17",
-      "publishedTs": 1795864675,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-00000330-spnannex-000-6-view.jpg?pri=l&w=640&h=404&exp=10800",
-      "summary": "タイムズカーは、個人情報流出事件に便乗し、金銭を要求する悪質な詐欺メールが確認されていると注意喚起しました。",
+      "publishedAt": "2026-11-28 22:00",
+      "publishedTs": 1795870838,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-10292701-abemav-000-1-view.jpg?exp=10800",
+      "summary": "文部科学省の調査で不登校の小中学生が過去最多の約36万人に達し、子どもの不登校に伴う母親の離職率の高さが課題となっています。",
       "points": [
-        "不正アクセスによる情報漏えいに便乗した手口",
-        "運転免許証の入手を盾に金銭を要求",
-        "不審な連絡には絶対に応じないよう呼びかけ"
+        "不登校の小中学生が13年連続で増加し約36万人に",
+        "母親の離職率は父親の約30倍にのぼる深刻な状況",
+        "周囲のサポート不足や保護者の精神的負担が課題"
       ],
-      "impact": "情報流出の不安につけ込んだ二次被害が発生する恐れがあり、厳重な警戒が必要です。",
+      "impact": "働き方改革や子育て支援、教育現場のサポート体制において、深刻な社会問題として対策が求められています。",
       "tags": [
-        "セキュリティ",
-        "詐欺",
-        "タイムズカー"
+        "教育",
+        "不登校",
+        "社会"
       ],
-      "url": "https://news.yahoo.co.jp/articles/a55b59506e981c999a10479351e930f7751f8986?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/b28869fcc084c2ee3ec1a771936cf1001c2bcde4?source=rss",
       "isAiEnriched": true
     },
     {
@@ -4392,24 +4370,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "バイクのフレーム形式「ダイヤモンド」とは",
+      "title": "池上彰が「富裕層」や広さを分かりやすく解説",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-28 20:55",
-      "publishedTs": 1795866900,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-10484543-bikeno-000-1-view.jpg?exp=10800",
-      "summary": "バイクの専門用語である「ダイヤモンドフレーム」を解説。エンジンも骨格の一部として利用し、部材削減や軽量化に貢献する構造を紹介。",
+      "publishedAt": "2026-11-28 21:00",
+      "publishedTs": 1795867239,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-90205375-ann-000-1-view.jpg?exp=10800",
+      "summary": "ニュースでよく使われる「富裕層」の基準や「東京ドーム何個分」といった分かりにくい単位について、池上彰が具体的に解説する。",
       "points": [
-        "バイクの基本構造であるフレーム形式を解説",
-        "エンジンを骨格の一部として強度を確保",
-        "部品点数を減らして軽量化にも大きく貢献"
+        "ニュースの抽象的な表現を具体的に解説",
+        "「富裕層」の経済的な基準を分かりやすく説明",
+        "面積の例えなど日常の疑問をすっきり解消"
       ],
-      "impact": "バイクのメカニズムに対する理解が深まり、愛車選びやメンテナンスの楽しみが広がります。",
+      "impact": "経済やニュースへの理解を深め、日常生活で役立つ知識を手軽に得ることができます。",
       "tags": [
-        "バイク",
-        "メカニズム",
-        "用語解説"
+        "池上彰",
+        "経済",
+        "ニュース解説"
       ],
-      "url": "https://news.yahoo.co.jp/articles/16b555be8deec2f55a709e5252fdfc6596b3bfbe?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/7943645326c578f043b7a1c0f210ab0a8afc4b9e?source=rss",
       "isAiEnriched": true
     },
     {
@@ -4436,24 +4414,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "domestic",
-      "title": "揺らぐ日本の中間層、誰がどう支えるのか",
+      "title": "留置施設で看守警察官にお茶かけた疑い",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-28 20:14",
-      "publishedTs": 1795864498,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-00010000-videonewsv-000-1-thumb.jpg?exp=10800",
-      "summary": "かつての「一億総中流」から半世紀、賃金の停滞と物価高により生活基盤が大きく揺らいでいる中間層の現状を解説します。",
+      "publishedAt": "2026-11-28 20:50",
+      "publishedTs": 1795866626,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-23119488-cbcv-000-1-view.jpg?exp=10800",
+      "summary": "警察署の留置施設で看守業務中の警察官にお茶をかけたとして、勾留中の42歳男が現行犯逮捕された。男は容疑を否認している。",
       "points": [
-        "1970年代の約9割が中流意識を持っていた時代と比較",
-        "物価高と賃金停滞が中間層を直撃している実態",
-        "社会構造の変化に伴う今後の支え方の課題"
+        "三重・鳥羽警察署で発生した公務執行妨害事件",
+        "看守警察官にお茶をかけた疑いで男を逮捕",
+        "被疑者は「公務を妨害したとは思わない」と否認"
       ],
-      "impact": "日本社会の持続可能性や今後の経済政策を考える上で、重要な問題提起となっています。",
+      "impact": "警察施設内でのトラブルや公務執行妨害に対する安全管理の厳格化が求められる事例です。",
       "tags": [
-        "社会",
-        "経済",
-        "中間層"
+        "事件",
+        "逮捕",
+        "警察"
       ],
-      "url": "https://news.yahoo.co.jp/articles/517f19ebf71a9a89d48ca666d71b493480e2ef4b?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/7c3374ccc8e515f146cb0a9d0e774b1a79bda21c?source=rss",
       "isAiEnriched": true
     },
     {
@@ -4480,24 +4458,24 @@ window.NEWS_DATA = {
     },
     {
       "category": "business",
-      "title": "日本のバイクが世界制覇できた理由とは",
+      "title": "バイクのフレーム形式「ダイヤモンド」とは",
       "source": "Yahoo!ニュース",
-      "publishedAt": "2026-11-28 20:51",
-      "publishedTs": 1795866660,
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-10127118-merkmal-000-1-view.jpg?exp=10800",
-      "summary": "戦後わずか20年で年間300万台を生産し世界を制覇した日本のオートバイ産業。航空機技術者が築き上げた驚異の量産力の秘密に迫る。",
+      "publishedAt": "2026-11-28 20:55",
+      "publishedTs": 1795866900,
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261128-10484543-bikeno-000-1-view.jpg?exp=10800",
+      "summary": "バイクの専門用語である「ダイヤモンドフレーム」を解説。エンジンも骨格の一部として利用し、部材削減や軽量化に貢献する構造を紹介。",
       "points": [
-        "小さな国内市場から世界有数の産業へ成長",
-        "戦後20年で年間300万台を超える生産量を達成",
-        "航空機技術者が持ち込んだ驚異の量産力"
+        "バイクの基本構造であるフレーム形式を解説",
+        "エンジンを骨格の一部として強度を確保",
+        "部品点数を減らして軽量化にも大きく貢献"
       ],
-      "impact": "日本が誇るものづくりの歴史や、グローバル市場で成功を収めた原動力を学ぶことができます。",
+      "impact": "バイクのメカニズムに対する理解が深まり、愛車選びやメンテナンスの楽しみが広がります。",
       "tags": [
         "バイク",
-        "歴史",
-        "ものづくり"
+        "メカニズム",
+        "用語解説"
       ],
-      "url": "https://news.yahoo.co.jp/articles/f27515601656fb131b03886507ea076f7b34f25b?source=rss",
+      "url": "https://news.yahoo.co.jp/articles/16b555be8deec2f55a709e5252fdfc6596b3bfbe?source=rss",
       "isAiEnriched": true
     },
     {
